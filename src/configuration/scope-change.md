@@ -3,7 +3,7 @@ title: Changing Scope
 group: getting-started
 ---
 
-The Store View chooser in the upper-left corner of many Admin pages filters the view of the page for a specific scope, and also sets the value of some entities that are used by Magento. It lists each level in the hierarchy by name, and is used to change the scope to another level. Any settings that represent the current scope are grayed out, so only those that represent the current scope setting are available. The scope is initially set to “Default Config”. For Admin users with restricted access, the list of available store views includes only those to which the user has [permission]({% link system/permissions.md %}) to access.
+The Store View chooser in the upper-left corner of many configuration pages filters the view of the page for a specific scope, and also sets the value of some entities that are used by Commerce. It lists each level in the hierarchy by name, and is used to change the scope to another level. Any settings that represent the current scope are grayed out, so only those that represent the current scope setting are available. The scope is initially set to “Default Config”. For Admin users with restricted access, the list of available store views includes only those to which the user has [permission]({% link system/permissions.md %}) to access.
 
 ## Use system value
 
@@ -12,7 +12,7 @@ The _Use System Value_ checkbox to the right of many configuration settings is u
 The checkbox label changes according to the current scope, and always refers to the parent level that is one step up in the scope hierarchy. Because the parent level is a container for all the items below that level, the scope setting from the parent level is inherited unless it is overridden.
 
 ![]({% link images/images/store-view-control.png %}){: .zoom}
-_Default Config with "Use System Value" Checkboxes_
+_Default configuration with "Use System Value" checkboxes selected_
 
 ## Set the configuration scope
 
@@ -37,7 +37,7 @@ Before making a configuration setting that applies only to a specific website, s
 1. When complete, click <span class="btn">Save Config</span>.
 
    ![]({% link images/images/store-view-french.png %}){: .zoom}
-   _Setting the Locale of the French Store View_
+   _Setting the locale of the French store view_
 
 ## Store hierarchy
 

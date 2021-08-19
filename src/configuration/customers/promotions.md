@@ -13,7 +13,7 @@ _[Automated Email Reminder Rules]({% link marketing/email-reminder-rules-configu
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable Reminder Emails|Global|Enables automated email reminders. If this is set to No, the following values will be ignored. Options: Yes / No|
-|Frequency|Global|Indicates the frequency with which Magento should check for new customers who qualify for the automated email reminders. Options: <br/>**Minute Intervals** - Sends the email according to the selected interval. (5 minutes, 10 minutes, 15 minutes, 20 minutes, or 30 minutes) <br/>**Hourly** - Sends email hourly, at the minute after the hour specified. Enter a value between 0-59. <br/>**Daily** - Sends email daily, from the Start Time.|
+|Frequency|Global|Indicates the frequency with which Commerce should check for new customers who qualify for the automated email reminders. Options: <br/>**Minute Intervals** - Sends the email according to the selected interval. (5 minutes, 10 minutes, 15 minutes, 20 minutes, or 30 minutes) <br/>**Hourly** - Sends email hourly, at the minute after the hour specified. Enter a value between 0-59. <br/>**Daily** - Sends email daily, from the Start Time.|
 |Interval|Global|The interval should be equal or of greater than your cron.php launch period. Options: 5 minutes, 10 minutes, 15 minutes, 20 minutes, 30 minutes|
 |Start Time|Global|Sets the day, minute, and second the email is sent. Specified in 24-hour format, based on the system time on your server.|
 |Maximum Emails per One Run|Global|Limits the number of emails sent in a scheduled block.|

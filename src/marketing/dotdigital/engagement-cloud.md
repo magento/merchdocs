@@ -14,25 +14,9 @@ redirect_from:
 - [Schedule campaigns][6]
 - [Generate reports]({% link reports/customer-engagement.md %})
 
-## Highlights from recent releases
+## Release notes
 
-- {:.fix}Features
-
-   - Transactional SMS notifications: a new module that automates SMS notifications on new order confirmation, order update, new shipment, shipment update and new credit memo.
-
-   - Flexible image sizes: a new feature that enables merchants to choose which image size they prefer to use for different contexts in dotdigital Engagement Cloud.
-
-   - PageBuilder support: dotdigital pages and forms can be embedded in any storefront page.
-
-   - Diagnostic alerts: available through in-app system messages and email notifications.
-
-- {:.fix}Enhancements
-
-   - Safari iframe login issues resolved for button links in dotdigital > Chat Settings.
-
-   - Abandoned cart block is visible in EasyEditor before customer data is received.
-
-   - 25% performance improvement for batch catalog sync processes of configurable products.
+The dotdigital integration is a third-party extension that we have thoroughly tested and included with each supported version of Adobe Commerce and Magento Open Source. Upgrading your instance also updates this extension. For information about the updates for the extension, see the [Release Notes][7] in our developer documentation.
 
 [1]: https://dotdigital.com/
 [2]: https://support.dotdigital.com/hc/en-gb/articles/115001930050-Email-campaigns-an-overview
@@ -40,3 +24,4 @@ redirect_from:
 [4]: https://support.dotdigital.com/hc/en-gb/articles/212213938-Using-decisions-to-branch-automated-programs
 [5]: https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview
 [6]: https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview
+[7]: https://devdocs.magento.com/extensions/vendor/dotdigital/release-notes.html

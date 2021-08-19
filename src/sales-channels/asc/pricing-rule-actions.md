@@ -9,7 +9,7 @@ Price Rule Actions define the adjustment calculations that will be applied to th
 
 ## Standard Price Rule
 
-A [standard price rule]({% link sales-channels/asc/standard-price-rules.md %}) allows you to increase or decrease an Amazon listing price by a specific percentage or fixed dollar amount relative to the Magento catalog price (or price source).
+A [standard price rule]({% link sales-channels/asc/standard-price-rules.md %}) allows you to increase or decrease an Amazon listing price by a specific percentage or fixed dollar amount relative to the Commerce catalog price (or price source).
 
 |Section|Description|
 |--- |--- |

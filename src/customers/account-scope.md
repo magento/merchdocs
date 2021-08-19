@@ -18,7 +18,7 @@ The scope of customer accounts can be limited to the website where the account w
 
 1. Set **Share Customer Accounts** to one of the following:
 
-   | Global | Shares customer account information with every website and store in the Magento installation. |
+   | Global | Shares customer account information with every website and store in the installation. |
    | Per Website | Limits customer account information to the website where the account was created. |
 
    If necessary, clear the **User system value** checkbox to make the change.

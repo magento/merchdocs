@@ -26,7 +26,7 @@ All stores start with a Default Stock. It must remain "Enabled" for the followin
 
 For Multi Source merchants, create and configure stocks as needed to best fit your stores and order fulfillment. When you assign new stock to a sales channel, any pre-existing stock in that sales channel becomes unassigned.
 
-For a multisite installation, the Default Stock is initially assigned to the [Main Website]({% link stores/stores-all-create-website.md %}) and default store.
+For a multi-store installation, the Default Stock is initially assigned to the [Main Website]({% link stores/stores-all-create-website.md %}) and default store. Correct stock and quantities are displayed for enabled and disabled products in the **Products** grid view.
 
 ![]({% link images/images/stores-inventory-stock.png %}){: .zoom}
 _Manage Stock_

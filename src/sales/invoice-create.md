@@ -73,3 +73,5 @@ _Invoices_
 
     ![]({% link images/images/invoice-full.png %}){: .zoom}
     _Completed Invoice_
+
+[1]: http://www.adobe.com/products/reader.html "Get Adobe Reader"

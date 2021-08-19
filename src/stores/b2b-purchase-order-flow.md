@@ -1,7 +1,7 @@
 ---
 b2b_only: true
 title: Purchase order workflow
-group: getting-started
+group: customers
 ---
 
 Purchase orders allow companies to track and control spending. When purchase orders are enabled for a company account, all orders are automatically processed as purchase orders.
@@ -14,7 +14,7 @@ The purchase order workflow can vary in a few ways:
 - Offline payment details are entered when creating the purchase order.
 - Online payment details are entered after the purchase order has been approved.
 
-This topic will cover basic concepts and workflows for purchase orders.
+This topic provides an overview of basic concepts and workflows for purchase orders.
 
 ## Basic purchase order workflow
 
@@ -49,9 +49,9 @@ As offline payment methods, such as a money order, are handled outside the websi
 
 This distinction between payment methods leads to slightly different workflows.
 
-To learn more, see [Payment Methods](https://docs.magento.com/user-guide/payment/payments.html).
+To learn more, see [Payment Methods]({% link payment/payments.md %})
 
-## Appproval rules
+## Approval rules
 
 Approval rules are used to control spending based on company guidelines. Examples of approval rules are:
 
@@ -61,7 +61,7 @@ Approval rules are used to control spending based on company guidelines. Example
 
 So if your order is less than $100, you can complete the order immediately.
 
-To learn more, see [Approval Rules](https://docs.magento.com/user-guide/customers/account-dashboard-approval-rules.html)
+To learn more, see [Approval Rules]({% link customers/account-dashboard-approval-rules.md %})
 
 ## Types of store users
 

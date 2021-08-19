@@ -8,7 +8,7 @@ The locale determines the language, country, tax rate, and other settings that a
 ![General configuration - locale options]({% link images/images/config-general-general-locale-options.png %}){: .zoom}
 [_Locale Options_]({% link configuration/general/general.md %})
 
-## To set the store locale
+## Set the store locale
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 

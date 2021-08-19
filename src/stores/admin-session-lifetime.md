@@ -3,7 +3,7 @@ title: Admin Session Lifetime
 group: getting-started
 ---
 
-As a security measure, the Admin is initially set to time out after 900 seconds (fifteen minutes) of keyboard inactivity. You can adjust the lifetime of the session to fit your work style.
+As a security measure, the _Admin_ is initially set to time out after 900 seconds (fifteen minutes) of keyboard inactivity. You can adjust the lifetime of the session to fit your work style.
 
 ## Adjust session lifetime
 

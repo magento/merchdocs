@@ -12,14 +12,14 @@ The enhanced security scan allows you to monitor each of your Adobe Commerce and
 - Access historical security reports that track and monitor the progress of your sites.
 - Access the scan report that shows successful and failed checks, with any recommended actions.
 
-The Security scan tool is available for free from the dashboard of your [Magento account]({% link magento/magento-account.md %}). For technical information, see [Go live and launch][1] in our developer documentation.
+The Security scan tool is available for free from the dashboard of your [Commerce account]({% link magento/magento-account.md %}). For technical information, see [Go live and launch][1] in our developer documentation.
 
 ![]({% link images/images/magento-security-scan.png %}){: .zoom}
 _Security scan tool_
 
 ## Run a security scan
 
-1. Go to the Magento home page, and sign in to your Magento account and do the following:
+1. Go to the Commerce home page, and sign in to your Commerce account and do the following:
 
    - In the left panel, choose **Security Scan**.
    - Click **Go to Security Scan**.
@@ -95,7 +95,7 @@ _Security scan tool_
          ```
          After the build process completes, the changes will be deployed to your PWA store front.
 
-1. Return to the _Security Scan_ page in your Magento account and click **Verify Confirmation Code** to establish your ownership of the domain.
+1. Return to the _Security Scan_ page in your Commerce account and click **Verify Confirmation Code** to establish your ownership of the domain.
 
 1. After a successful confirmation, configure the **Set Automatic Security Scan** options for one of the following types:
 
@@ -122,7 +122,7 @@ _Security scan tool_
 
 1. When complete, click **Submit**.
 
-    After the ownership of the domain is verified, the site appears in the Monitored Websites list of your Magento account.
+    After the ownership of the domain is verified, the site appears in the Monitored Websites list of your Commerce account.
 
 1. If you have multiple websites with different domains, repeat this process to set up a security scan for each.
 

@@ -1,5 +1,4 @@
 ---
-ee_only: true
 title: Media - Map
 ---
 
@@ -42,7 +41,7 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
 1. Copy your API Key to the clipboard.
 
-### Step 2: Configure Google Maps in Magento
+### Step 2: Configure Google Maps in Commerce
 
 1. In the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -169,7 +168,7 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
    When complete, click <span class="btn">Finish</span>.
 
-1. Export the completed style as JSON code or as a URL so that you can add it to the Magento configuration.
+1. Export the completed style as JSON code or as a URL so that you can add it to the Commerce configuration.
 
    ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-export-style.png %}){: .zoom}
    _Export Style_

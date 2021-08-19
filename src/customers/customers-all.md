@@ -2,7 +2,7 @@
 title: All Customers
 ---
 
-The Customers grid lists all customers who have registered for an account with your store or were added by the administrator. Use the standard [grid controls]({% link stores/admin-grid-controls.md %}) to filter the list and adjust the [column layout]({% link stores/admin-grid-layout.md %}). To learn more, see [Managing Customer Accounts]({% link customers/customer-account-manage.md %}).
+The Customers grid lists all customers who have registered for an account with your store or were added by the administrator. Use the standard [grid controls]({% link stores/admin-grid-controls.md %}) to filter the list and adjust the column layout. To learn more, see [Managing Customer Accounts]({% link customers/customer-account-manage.md %}).
 
 ![]({% link images/images-b2b/customers-all-grid.png %}){: .zoom}
 _All Customers_
@@ -26,8 +26,8 @@ _All Customers_
 |Add New Customer|Creates a new customer account.|
 |Search|Initiates a search for customers based on the current filters.|
 |Filters|Defines a set of search parameters used to filter the records that appear in the [grid]({% link stores/admin-grid-controls.md %}).|
-|Default View|Determines the default column [layout]({% link stores/admin-grid-layout.md %}) of the grid.|
-|Columns|Determines the selection of [columns]({% link stores/admin-grid-layout.md %}) and their accounts in the grid. The column layout can be changed and saved as a _view_. By default, only some of the columns are included in the grid.|
+|Default View|Determines the default column [layout]({% link stores/admin-grid-controls.md %}) of the grid.|
+|Columns|Determines the selection of [columns]({% link stores/admin-grid-controls.md %}) and their accounts in the grid. The column layout can be changed and saved as a _view_. By default, only some of the columns are included in the grid.|
 |Export|Exports the selected records as a CSV or Excel XML file.|
 
 ## Columns
@@ -54,7 +54,7 @@ _All Customers_
 
 ### Additional Columns
 
-These columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid.
+These columns are available by changing the [column layout]({% link stores/admin-grid-controls.md %}) of the grid.
 
 {: .fields-table }
 |Company|The company name of the customer.|

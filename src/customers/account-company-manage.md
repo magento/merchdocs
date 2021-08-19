@@ -3,7 +3,7 @@ b2b_only: true
 title: Managing Company Accounts
 ---
 
-The Companies page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls]({% link stores/admin-workspace.md %}) can be used to filter the list, change the [column layout]({% link stores/admin-grid-layout.md %}), save views, and export data.
+The Companies page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls]({% link stores/admin-workspace.md %}) can be used to filter the list, change the [column layout]({% link stores/admin-grid-controls.md %}), save views, and export data.
 
 The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions]({% link system/permissions.md %}) of the user.
 
@@ -122,7 +122,7 @@ The credit in the accounts of selected companies is converted to the current rat
 
 ### Additional columns
 
-The following columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid.
+The following columns are available by changing the [column layout]({% link stores/admin-grid-controls.md %}) of the grid.
 
 |Column|Description|
 |--- |--- |

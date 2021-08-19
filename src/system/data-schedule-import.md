@@ -102,6 +102,9 @@ After each scheduled import job, a reindex operation is performed automatically.
 
     The new scheduled import job is added to the list on the _Scheduled Import/Export_ page. From this page it can be run immediately for testing and edited. The import file is validated before the execution of each import job.
 
+{:.bs-callout-info}
+Scheduled import makes changes to the system configuration. After saving, make sure you address the cache invalidation notice that appears at the top of the Admin page and flush the cache in order to apply the new or updated schedule.
+
 ## Field Descriptions
 
 ### Import Settings

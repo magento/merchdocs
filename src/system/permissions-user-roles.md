@@ -74,3 +74,27 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
     ![User accounts assigned to the role]({% link images/images/permissions-role-users.png %}){: .zoom}
     _Role Users_
+
+## Edit a role
+
+1. On the _Admin_ sidebar, go to **System** > _Permissions_ > **User Roles**.
+
+1. Locate the role using filters above the grid and click the role name.
+
+1. Make needed changes.
+
+   Review the steps for creating a user role for information about the role settings.
+
+1. When prompted, enter **Your Password** to confirm your identity.
+
+1. Click the <span class="btn">Save Role</span>.
+
+## Delete a role
+
+1. On the _Admin_ sidebar, go to **System** > _Permissions_ > **User Roles**.
+
+1. Locate the role using filters above the grid and open in edit mode.
+
+1. In the upper-right corner, click <span class="btn">Delete Role</span>.
+
+1. To confirm the action, click <span class="btn">OK</span>.

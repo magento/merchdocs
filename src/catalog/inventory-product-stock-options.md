@@ -58,7 +58,10 @@ Configure the quantities and additional settings per [added source]({% link cata
    ![]({% link images/images/product-inventory-manage-stock-yes.png %}){: .zoom}
    _Advanced Inventory for a Product_
 
-1. To activate [inventory control]({% link catalog/inventory.md %}) for your catalog, set **Manage Stock** to `Yes`.
+1. To enable [inventory control]({% link catalog/inventory.md %}) for your catalog, set **Manage Stock** to `Yes`.
+
+   {:.bs-callout-info}
+   Manage Stock settings in child product override a configurable product.
 
 1. Enter an amount for the **Out-of-Stock Threshold**:
 
@@ -92,11 +95,14 @@ Configure the quantities and additional settings per [added source]({% link cata
 
 |Field|Scope|Description|
 |--|--|--|
-| Manage Stock | Global | Determines if inventory control is used to manage this product in your catalog. Set to enable or disable all Magento Inventory Management features. You may want to disable if using a third-party, ERP system. |
-| Out-of-Stock Threshold | Global | Determines the stock level at which a product is considered to be out of stock. Options:<br />**Positive amount** - With Backorders disabled, enter a positive amount.<br />**Zero** - With Backorders enabled, entering zero allows for infinite backorders.<br />**Negative amount** - With Backorders enabled, we recommend entering a negative amount. The amount is added to the Salable Quantity. For example, enter -50 to allow orders up to this amount.  |
+| Determines if inventory control is used to manage this product in your catalog. Set to enable or disable all Magento Inventory Management features. When you complete a return or a credit memo, the product quantity is automatically returned to the affected source quantity. You may want to disable if using a third-party, ERP system. |
+| Out-of-Stock Threshold | Global | Determines the stock level at which a product is considered to be out of stock. Options:<br />**Positive amount** - With Backorders disabled, enter a positive amount.<br />**Zero** - With Backorders enabled, entering zero allows for infinite backorders.<br />**Negative amount** - With Backorders enabled, we recommend entering a negative amount. The amount is added to the Salable Quantity. For example, enter -50 to allow orders up to this amount. |
 | Minimum Qty Allowed in Shopping Cart | Global | Determines the minimum number of the product that can be purchased in a single order. |
 | Maximum Qty Allowed in Shopping Cart | Global | Determines the maximum number of the product that can be purchased in a single order. |
 | Qty Uses Decimals | Global | Determines if customers can use a decimal value rather than a whole number when entering the quantity ordered. Options:<br />**Yes** - Permits values to be entered as decimals, rather than whole numbers, which is suitable for products sold by weight, volume or length.<br />**No** - Requires quantity values to be entered as whole numbers. |
-| Allow Multiple Boxes for Shipping | Global | Determines if parts of the product can be shipped separately.  |
+| Allow Multiple Boxes for Shipping | Global | Determines if parts of the product can be shipped separately. |
 | Backorders | Global | Determines how  backorders are managed. Backorders do not change the processing status of the order. Funds are still authorized or captured immediately when the order is placed, regardless of whether the product is in stock. Products are shipped as they become available. When enabled, we recommend entering a negative amount for the Out-of-Stock Threshold. Options:<br />**No Backorders** -  Does not accept backorders when product is out of stock.<br />**Allow Qty Below 0** - Accepts backorders when the quantity falls below zero.<br />**Allow Qty Below 0 and Notify Customer** - Accepts backorders when the quantity falls below zero, but notifies customers that orders can still be placed. |
 | Enable Qty Increments | Global | Determines if the product can be sold in quantity increments. |
+
+{:.bs-callout .bs-callout-info}
+Simple product configuration overrides configurable product configurations for a specific product.

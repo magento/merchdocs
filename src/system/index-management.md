@@ -43,6 +43,7 @@ Reindexing and caching have different purposes Magento. Indexes track database i
 
    - `Update on Save`
    - `Update by Schedule`
+   - `Invalidate index`
 
     {:.bs-callout-info}
     **Important:** Customer Grid can only be reindexed using `Update on Save`. This index does **not** support `Update by Schedule`.
@@ -56,6 +57,7 @@ Reindexing and caching have different purposes Magento. Indexes track database i
     Indexer | The name of the indexer.
     Description | A description of the indexer.
     Mode | Indicates the current update mode for each indexer. Options: <br/>**Update on Save** - The index is set to update whenever an entity change is saved. These entities include products, categories, and customers. When the save action completes, a series of steps begin catching the changes and updating the index. The Index Management page updates and flushes the reindex message within a minute or two. <br/>**Update on Schedule** - The index is set to update on schedule according to a [cron job]({% link system/cron.md %}). The cron job includes the schedule interval for reindexing, writing updates to the index when run.
+    Schedule Status | Displays the schedule status updates.
     Status | Displays one of the following: <br/>**Ready** — The index is up-to-date. <br/>**Scheduled** - Reindexing is scheduled to take place. <br/>**Running** - Reindexing is currently running. <br/>**Reindex Required** - A change has been made that requires reindexing, but the indexers cannot be updated automatically. Check to see if [cron]({% link system/cron.md %}) is available and configured correctly.
     Updated | Indicates the date and time an index was last updated.
 
