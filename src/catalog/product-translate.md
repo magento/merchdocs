@@ -72,7 +72,7 @@ If your store has multiple views in different languages, the same products are a
 
 ## Step 4: Translate product attributes and attributes options
 
-1. On. the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
+1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
 
 1. Select the attribute to be translated.
 
