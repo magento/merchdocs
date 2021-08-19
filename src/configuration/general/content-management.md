@@ -12,7 +12,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable WYSIWYG Editor|Store View|Determines if the editor is enabled for the store. Options: Enabled by Default/Disabled by Default/Disabled Completely|
-|WYSIWYG Editor|Website|Determines the version of the TinyMCE editor that is used for the WYSIWYG editor. Options: <br/>**TinyMCE 4** - (Default) Uses the TinyMCE version 4.6 as the default WYSIWYG editor.|
+|WYSIWYG Editor|Website|Determines the version of the TinyMCE editor that is used for the WYSIWYG editor. Options: <br/>**TinyMCE 5** - (Default) Uses the TinyMCE version 5.8.1 as the default WYSIWYG editor.|
 |Use Static URLs for Media Content in WYSIWYG|Global|Determines if [static URLs]({% link catalog/catalog-urls-dynamic-media.md %}) are used for media content that is referenced from the WYSIWYG editor. The setting applies to all places where the WYSIWYG editor is available, including products, categories, pages, blocks, etc. Options: <br/>**Yes** - Uses static URLs for media content that is inserted with the WYSIWYG editor. Static URLs are absolute and break if the [base URL]({% link stores/store-urls.md %}) of the store changes. <br/>**No** (Default) - Uses dynamic URLs for media content that is inserted with the WYSIWYG editor, based on the  `{% raw %}{{media url="..."}}{% endraw %}` directive. Dynamic URLs are relative and do not break if the [base URL]({% link stores/store-urls.md %}) of the store changes.|
 
 {:.ee-only}

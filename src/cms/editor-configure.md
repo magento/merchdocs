@@ -4,7 +4,7 @@ title: Configuring the Editor
 
 The WYSIWYG editor is enabled by default, and can be used to edit content on CMS pages and blocks, and in products and categories. From the configuration you can activate or deactivate the editor, and elect to use static, rather than [dynamic]({% link catalog/catalog-urls-dynamic-media.md %}), [URLS]({% link catalog/catalog-urls.md %}) for media content in product and category descriptions.
 
-TinyMCE 4 is the default WYSIWYG editor. The implemented version, which is actually 4.6, offers an improved user experience and supports a wide range of WYSIWYG plugins. TinyMCE 3 was deprecated in the 2.4.0 release and is now removed in the 2.4.3 release.
+TinyMCE 5 is the default WYSIWYG editor. The implemented version, which is actually 5.8.1, offers an improved user experience and supports a wide range of WYSIWYG plugins. TinyMCE 3 was deprecated in the 2.4.0 release and is now removed in the 2.4.3 release. TinyMCE 4 is now removed in the 2.4.4 release.
 
 ![]({% link images/images/config-general-content-management-wysiwyg-options.png %}){: .zoom}
 [WYSIWYG Options]({% link configuration/general/content-management.md %})
