@@ -23,6 +23,16 @@ The Order Total Report shows customer orders for a specified time interval or da
 |Export|Exports the selected records as a CSV or Excel XML file.|
 |Scope| Used to set the site or store for which the report will be generated.|
 
+### Column descriptions
+
+|Column|Description|
+|--- |--- |
+|Interval|The order total interval, by Month / Day / Year.|
+|Customer|The name of the customer who placed the orders.|
+|Orders|The number of orders for the specified interval.|
+|Average|Average order amount.|
+|Total|The total amount of all orders for the period.|
+
 ## Order Count
 
 On the _Admin_ sidebar, go to **Reports** > _Customers_ > **Order Count**.
@@ -42,6 +52,16 @@ The Order Count Report shows the number of orders per customer for a specified t
 |Export|Exports the selected records as a CSV or Excel XML file.|
 |Scope| Used to set the site or store for which the report will be generated.|
 
+### Column descriptions
+
+|Column|Description|
+|--- |--- |
+|Interval|The order count interval, by Month / Day / Year.|
+|Customer|The customer who placed the order.|
+|Orders|The number of orders for the specified interval.|
+|Average|Average order amount.|
+|Total|The total amount of all orders for the period.|
+
 ## New Accounts
 
 On the _Admin_ sidebar, go to **Reports** > _Customers_ > **New**.
@@ -60,6 +80,13 @@ The New Accounts Report shows the number of new customer accounts opened during 
 |Refresh|Updates the grid to the specified filters.|
 |Export|Exports the selected records as a CSV or Excel XML file.|
 |Scope|Used to set the site or store for which the report will be generated.|
+
+### Column descriptions
+
+|Column|Description|
+|--- |--- |
+|Interval|New account creation interval, by Month / Day / Year.|
+|New Accounts|The number of new accounts created in a certain interval.|
 
 {:.ee-only}
 ## Wish Lists
@@ -114,4 +141,14 @@ The Customer Segment Report provides information about the number of customers i
 |Search| Initiates a search by the specified parameters.|
 |Reset Filter| Initiates a reset of all search parameters.|
 |Action| Initiates the display of segments by parameters. Options: Action / View Combined Report|
-|Per Page| Sets the number of records displayed in a single page. |
+|Per Page| Sets the number of records displayed in a single page.|
+
+### Column descriptions
+
+|Column|Description|
+|--- |--- |
+|ID|A unique numeric identifier that is assigned to each segment|
+|Segment|Segment name|
+|Status|Segment status. Options: Active / Inactive|
+|Website|Website to which the segment is assigned|
+|Customers|Number of customers assigned to a segment|
