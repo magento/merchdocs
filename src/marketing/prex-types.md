@@ -11,7 +11,7 @@ Adobe Commerce provides the following types of recommendations:
 - [Bought this, bought that]({% link marketing/prex-type-boughtbought.md %}) - Recommends items most often purchased by shoppers who purchased the specified item
 - [Viewed this, bought that]({% link marketing/prex-type-viewbought.md %}) - Recommends items most often purchased by shoppers who viewed the specified item
 - [Viewed this, viewed that]({% link marketing/prex-type-viewview.md %}) - Recommends items most often viewed by shoppers who viewed the specified item
-- [Recently viewed]({% link marketing/prex-type-recentview.md %}) - Displays products based on the user's browser history
+- [Recently viewed]({% link marketing/prex-type-recentview.md %}) - Displays products most recently viewed by the shopper
 
 ## Popularity-based
 

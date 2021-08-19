@@ -4,7 +4,7 @@ tag: product-recommendations
 ee_only: true
 ---
 
-The _Recently viewed_ recommendation type displays products based on the user's browser history.
+The _Recently viewed_ recommendation type displays products most recently viewed by the shopper.
 
 ## How it works
 
