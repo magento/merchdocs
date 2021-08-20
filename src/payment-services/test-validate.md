@@ -15,7 +15,7 @@ Testing Payment Services in a sandbox environment is a very important validation
 
 ### Use sandbox mode
 
-When testing and validating your sandbox you must use fake credit card numbers, so that you can ensure you are not creating real charges to an existing credit card account.
+When testing and validating your sandbox you must use fake credit card numbers, so that you are not creating real charges to an existing credit card account.
 
 Use PayPal's Credit Card Generator to [generate random credit card information](https://www.paypal.com/us/smarthelp/article/where-can-i-find-test-credit-card-numbers-ts2157) for testing.
 
