@@ -11,9 +11,6 @@ See linked Magento order and transaction IDs, transaction amounts, payment metho
 
 You can download payout transactions in a .csv file format for use in existing accounting or order management software.
 
-{:.bs-callout .bs-callout-info}
-You cannot view financial reports if you have not [onboarded and activated Live mode]({% link payment-services/onboard-payments.md %}#enable-live-payments) for Payment Services.
-
 ## Availability
 
 On the _Admin_ sidebar, go to **Sales** > **Payment Services** > **Payouts**.
