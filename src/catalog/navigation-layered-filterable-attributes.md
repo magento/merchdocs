@@ -76,7 +76,7 @@ You can use the following steps to remove filterable attribute values with 0 Pro
 
 1. Browse or use filtered search to find an attribute in the list and open it in edit mode.
 
- 1. Under _Attribute Information_ , click **Storefront Properties**.
+1. Under _Attribute Information_ , click **Storefront Properties**.
 
    ![]({% link images/images/storefront-properties-tab.png %}){: .zoom}
    _Attribute Information section_
