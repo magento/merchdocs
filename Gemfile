@@ -2,8 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'devdocs', git: 'https://github.com/magento-devdocs/devdocs-theme.git', branch: 'theme-fixes'
-# gem 'devdocs', git: 'https://github.com/magento-devdocs/devdocs-theme.git'
+gem 'devdocs', git: 'https://github.com/magento-devdocs/devdocs-theme.git'
 
 gem 'jekyll'
 gem 'whatsup_github'
