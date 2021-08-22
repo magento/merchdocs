@@ -123,28 +123,27 @@ For additional information, see Google's [Container export and import][5]. These
 
 1. Test your Google Tag Manager settings to verify that everything works correctly.
 
-## Step 4. Add GTM to Magento 2 Store
+## Step 4. Add the GTM code to your Adobe Commerce store
 
-1. Get the GTM Code:
+1. Copy the GTM code:
 
-There are two sections in code. The first one needs to be paste in the header section and the second one needs to paste in the body section of the Magento 2 website.
+   There are two GTM code snippets to be added to your Commerce site: the first one for the <head> tag and the and the second for the <body> tag.
 
     ![Install Google Tag Manager]({% link images/images-ee/install-google-tag-manager.png %}){: .zoom}
     _Google Tag Manager code_
 
-1. Go to the _Content > Design > Configuration > Edit the Store View > Other Settings> HTML Head_
+1. In the Commerce Admin, go to **Content** > _Design_ > **Configuration** and open the store view in edit mode.
 
-1. Paste the code you got from GTM for the <head> tag here.
+1. Under _Other Settings_, expand **HTML Head** and paste the code you copied from GTM for the <head> tag in the **Scripts and Style Sheets** field.
 
     ![Install Google Tag Manager]({% link images/images-ee/head-tag.png %}){: .zoom}
-    _HTML Tag inserting_
+    _Inserting code in the HTML Head_
 
-1. Expand the **Footer** tab and paste the GTM code for <body> under the **Miscellaneous HTML**.
-
+1. Expand **Footer** and paste the GTM code for <body> in the **Miscellaneous HTML** field.
     ![Install Google Tag Manager]({% link images/images-ee/footer-tag-section.png %}){: .zoom}
-    _Footer Tag inserting_
+    _Inserting code in the Footer_
 
-1. When complete, click <span class="btn">Save Configuratio</span>.
+1. When complete, click <span class="btn">Save Configuration</span>.
 
 ## Field Descriptions
 
