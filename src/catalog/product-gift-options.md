@@ -37,9 +37,9 @@ The admin can facilitate the customers with the same using the method to enable 
 
 1. Select to `Yes` in required option:
 
-   - **Allow Gift Messages on Order Level**: Select `Yes` if you want to add a single gift message to the whole order.
+     - **Allow Gift Messages on Order Level**: Select `Yes` if you want to add a single gift message to the whole order.
 
-   - **Allow Gift Messages for Order Items**: Select `Yes` if you want to add gift messages separately to an individual item in your shopping cart.
+     - **Allow Gift Messages for Order Items**: Select `Yes` if you want to add gift messages separately to an individual item in your shopping cart.
 
 1. Click <span class="btn">Save Config</span>.
 
