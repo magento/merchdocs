@@ -42,30 +42,30 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 
 1. When the shipment is ready, click <span class="btn">Submit Shipment</span>.
 
-### To set up comments for shipment do the following:
+## Set up comments for shipments
 
-1. On the _Admin_ sidebar, go to **Stores** > **Settings** > **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. Under _Sales_, select **Sales Email**.
 
-1. Expand **Shipment Comments** section:
+1. Expand the **Shipment Comments** section and modify the settings as needed:
 
-- The default option is set as **Enabled** that explains the shipment comment email will be sent to customers when the customer orders a product.
+   - The **Enabled** option is set to `Yes` by default, which means that the email is sent to a customer when a shipping comment is entered.
 
-- In **Shipment Comment Email Sender**, select the person from whom the shipment comment email will be sent. The default Magento 2 offers five email addresses.
+   - For **Shipment Comment Email Sender**, select the person from whom the shipment comment email is sent. The default offers five email addresses.
 
-- In **Shipment Comment Email Template**, select the template based on your requirement or select the default option.
+   - For **Shipment Comment Email Template**, select the template based on your requirement or select the default option.
 
-- In **Shipment Comment Email Template for Guests**, choose the template for customers who have not created an account in your store.
+   - For **Shipment Comment Email Template for Guests**, choose the template used for customers who do not have an account in your store.
 
-- In **Shipment Comment Email Copy To**, enter the multiple email addresses to whom you want to send Shipment comment email copy. Separate email addresses with a comma.
+   - For **Shipment Comment Email Copy To**, enter the email addresses to send a shipment comment email copy. Separate multiple email addresses with a comma.
 
-- Send **Shipment Comment Email Copy Method**, select bcc(blind carbon copy) or separate email copy method based on your requirement.
+   - For **Shipment Comment Email Copy Method**, select `bcc` (blind carbon copy) or `separate email copy` method based on your preference.
 
 1. Click <span class="btn">Save Config</span>.
 
     ![]({% link images/images/shipment-coments.png %}){: .zoom}
-    _Shipment Coment Configuration_
+    _Shipment comment configuration_
 
 ## Buttons
 
