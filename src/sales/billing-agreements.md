@@ -45,11 +45,11 @@ _Billing agreement related orders tab_
 
 1. Find the billing agreement in the list and click to open it.
 
-1. In the right upper corner click the **Cancel** button.
+1. In the top-right corner, click **Cancel**.
 
 1. To confirm the action, click **OK**.
 
-## Delete the Billing Agreement
+## Delete the billing agreement
 
 1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Billing Agreements**.
 
