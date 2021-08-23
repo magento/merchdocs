@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Google Tag Manager
+redirect_from:
+  - /marketing/google-tag-manager-troubleshooting.html
 ---
 
 Google Tag Manager helps you manage the many tags, or snippets of code, that are related to your marketing campaign events. Google Tag Manager gives you the ability to add tracking tags to your site to measure the audience, or to personalize, retarget, or conduct search engine marketing initiatives.
