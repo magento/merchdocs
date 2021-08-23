@@ -19,7 +19,7 @@ _Billing agreements_
 
 Each billing agreement page consists of two tabs: _General Information_ and _Related Orders_.
 
-## General Information
+### General Information
 
 This tab includes the general information about the billing agreement:
 
@@ -32,14 +32,14 @@ This tab includes the general information about the billing agreement:
 ![Billing Agreement View]({% link images/images/sales-billing-agreement-view.png %}){: .zoom}
 _Billing agreement general information_
 
-## Related Orders
+### Related Orders
 
 This tab displays the list of the orders placed using the current billing agreement.
 
 ![Billing Agreement View]({% link images/images/sales-billing-agreement-related-orders-tab.png %}){: .zoom}
 _Billing agreement related orders tab_
 
-## Cancel the Billing Agreement
+## Cancel a billing agreement
 
 1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Billing Agreements**.
 
@@ -49,7 +49,7 @@ _Billing agreement related orders tab_
 
 1. To confirm the action, click **OK**.
 
-## Delete the billing agreement
+## Delete a billing agreement
 
 1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Billing Agreements**.
 
@@ -59,7 +59,7 @@ _Billing agreement related orders tab_
 
 1. To confirm the action, click **OK**.
 
-### Column descriptions
+## Column descriptions
 
 |Column|Description|
 |--- |--- |
