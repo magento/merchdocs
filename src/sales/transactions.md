@@ -75,4 +75,4 @@ This section includes the additional information for a given transaction. Inform
 - transactionStatus
 
 {:.bs-callout-info}
-If the transaction details are not available or outdated click the **Fetch** button in menu bar to update them.
+If the transaction details are not available or are outdated, click **Fetch** in the button bar to update them.
