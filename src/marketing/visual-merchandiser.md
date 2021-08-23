@@ -32,11 +32,11 @@ _Category Products Viewed as Tiles_
 
     - **Method 1: Drag and Drop**
 
-    Grab the **Drag** (![Drag icon]({% link images/images/btn-drag.png %})) control in the upper-right corner of the product tile and drop the product into position. The number of each product adjusts to reflect the new position.
+        Grab the **Drag** (![Drag icon]({% link images/images/btn-drag.png %})) control in the upper-right corner of the product tile and drop the product into position. The number of each product adjusts to reflect the new position.
 
     - **Method 2: Set Position Value**
 
-    In the **Position** field (![Position field]({% link images/images/btn-position.png %}))on the product tile, enter the number where you want the product to appear. Enter the number zero (0) to place the product at the top of the list.
+        In the **Position** field (![Position field]({% link images/images/btn-position.png %}))on the product tile, enter the number where you want the product to appear. Enter the number zero (0) to place the product at the top of the list.
 
 1. When complete, click <span class="btn">Save Category</span>.
 
