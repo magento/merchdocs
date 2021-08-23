@@ -68,7 +68,7 @@ There are two ways to remove created block. You can remove it from _Blocks_ grid
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Blocks**.
 1. Find the block to be deleted.
 1. In the _Actions_ column for the block, click **Select** and choose **Edit**.
-1. In the menu bar click **Delete Block** button.
+1. In the menu bar click **Delete Block**.
 1. To confirm the action, click <span class="btn">OK</span>.
 
 ## Save menu
