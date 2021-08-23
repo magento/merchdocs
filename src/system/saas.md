@@ -32,7 +32,7 @@ When you create a Commerce account, identified by a Commerce ID (MageID), you ca
 
 ## SaaS Projects and Data Spaces {#saasenv}
 
-Commerce Services are made up of SaaS identifiers. A SaaS identifier is a grouping of SaaS projects and data spaces. The data spaces are used to collect and store data that enables Commerce Services to work. Some of this data may be exported from Commerce and some may be collected from shopper behavior on the storefront. That data is then persisted to secure cloud storage.
+Commerce instances need to be configured with a SaaS Project and a SaaS Data Space so that Commerce Services can send data to the right location. A SaaS Project groups all of the SaaS Data Spaces. The SaaS Data Spaces are used to collect and store data that enables Commerce Services to work. Some of this data may be exported from the Commerce instance and some may be collected from shopper behavior on the storefront. That data is then persisted to secure cloud storage.
 
 In the case of Product Recommendations, the SaaS data space contains catalog and behavioral data. You can point a Commerce instance to a SaaS data space by [selecting it]({% link configuration/services/saas.md %}) in the Commerce configuration.
 
