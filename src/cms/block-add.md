@@ -53,12 +53,13 @@ _Blocks page_
 1. Use the [Widget]({% link cms/widget-static-block.md %}) tool to place the completed block on a specific page in your store.
 
 ## Delete a block
-There are two ways to remove created block. You can remove it from Blocks grid, or from the edit block page.
+
+There are two ways to remove created block. You can remove it from _Blocks_ grid, or from the edit block page.
 
 ## Method 1: Remove a block from the Blocks grid
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Blocks**.
-1. Locate the blocks using filters above the grid, select the checkbox of the blocks to be deleted.
+1. Locate the blocks using filters above the grid and select the checkbox for one or more blocks to be deleted.
 1. In the upper-left corner of the list, set **Actions** to `Delete`.
 1. To confirm the action, click <span class="btn">OK</span>.
 
@@ -66,7 +67,7 @@ There are two ways to remove created block. You can remove it from Blocks grid, 
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Blocks**.
 1. Find the block to be deleted.
-1. In the **Actions** column choose `Edit`.
+1. In the _Actions_ column for the block, click **Select** and choose **Edit**.
 1. In the menu bar click **Delete Block** button.
 1. To confirm the action, click <span class="btn">OK</span>.
 
