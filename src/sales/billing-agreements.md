@@ -13,17 +13,15 @@ _Billing agreements_
 
 1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Billing Agreements**.
 
-1. Find the billing agreement in the list.
-
-1. Click the needed billing agreement to be viewed.
+1. Find the billing agreement in the list and click to open it.
 
 ## Billing Agreement View
 
-Each Billing Agreement page consist of two tabs: **General Information** and **Related Orders**.
+Each billing agreement page consists of two tabs: _General Information_ and _Related Orders_.
 
 ## General Information
 
-Contains general information about billing agreement:
+This tab includes the general information about the billing agreement:
 
 - Reference ID: A unique numeric identifier that is assigned to current billing agreement.
 - Customer: Customer's account assigned to current billing agreement.
@@ -36,7 +34,7 @@ _Billing agreement general information_
 
 ## Related Orders
 
-Contains the list of the orders placed using current Billing Agreement
+This tab displays the list of the orders placed using the current billing agreement.
 
 ![Billing Agreement View]({% link images/images/sales-billing-agreement-related-orders-tab.png %}){: .zoom}
 _Billing agreement related orders tab_
@@ -45,27 +43,23 @@ _Billing agreement related orders tab_
 
 1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Billing Agreements**.
 
-1. Find the billing agreement in the list.
-
-1. Click the needed billing agreement to be viewed.
+1. Find the billing agreement in the list and click to open it.
 
 1. In the right upper corner click the **Cancel** button.
 
-1. To confirm the action click **OK**.
+1. To confirm the action, click **OK**.
 
 ## Delete the Billing Agreement
 
 1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Billing Agreements**.
 
-1. Find the billing agreement in the list.
+1. Find the billing agreement in the list and click to open it.
 
-1. Click the needed billing agreement to be viewed.
+1. In the top-right corner, click **Delete**.
 
-1. In the right upper corner click the **Delete** button.
+1. To confirm the action, click **OK**.
 
-1. To confirm the action click **OK**.
-
-### Grid Column descriptions
+### Column descriptions
 
 |Column|Description|
 |--- |--- |
