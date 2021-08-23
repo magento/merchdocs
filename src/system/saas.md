@@ -2,7 +2,7 @@
 title: Commerce Services
 ---
 
-Some Adobe Commerce and Magento Open Source features are deployed as SaaS (software as a service)---known as Commerce Services. To use these services, you must connect your Commerce instance to these services using an API key and a private key, and specify the SaaS identifier in the [configuration]({% link configuration/services/saas.md %}).
+Some Adobe Commerce and Magento Open Source features are deployed as SaaS (software as a service)---known as Commerce Services. To use these services, you must connect your Commerce instance to these services using an API key and a private key, and specify the desired data space in the [configuration]({% link configuration/services/saas.md %}).
 
 ## Commerce API key and private key {#apikey}
 
@@ -30,14 +30,14 @@ When you create a Commerce account, identified by a Commerce ID (MageID), you ca
 
    The **API Keys** section now displays your API key. You will need both the API key and private key when you [select or create a SaaS project](#createsaasenv).
 
-## SaaS identifiers {#saasenv}
+## SaaS Projects and Data Spaces {#saasenv}
 
 Commerce Services are made up of SaaS identifiers. A SaaS identifier is a grouping of SaaS projects and data spaces. The data spaces are used to collect and store data that enables Commerce Services to work. Some of this data may be exported from Commerce and some may be collected from shopper behavior on the storefront. That data is then persisted to secure cloud storage.
 
-In the case of Product Recommendations, the SaaS data space contains catalog and behavioral data. You can point a Commerce instance to a SaaS data space by [selecting the SaaS project]({% link configuration/services/saas.md %}) that contains that data space in the Commerce configuration.
+In the case of Product Recommendations, the SaaS data space contains catalog and behavioral data. You can point a Commerce instance to a SaaS data space by [selecting it]({% link configuration/services/saas.md %}) in the Commerce configuration.
 
 {:.bs-callout-warning}
-You should use your production SaaS project only on your production Commerce installation to avoid data collisions. Otherwise, you risk polluting your production site data with testing data, which will cause deployment delays. For example, your production product data could be mistakenly overwritten from staging data, such as staging URLs.
+You should use your production SaaS data space only on your production Commerce installation to avoid data collisions. Otherwise, you risk polluting your production site data with testing data, which will cause deployment delays. For example, your production product data could be mistakenly overwritten from staging data, such as staging URLs.
 
 SaaS data spaces are designed to support multiple different websites, identified by their website codes. Data from the same website gets compiled together and separated from data from other websites. This allows you to reuse one SaaS data space by multiple Commerce installations, as long as all websites have unique codes specified. Otherwise, you risk overwriting your data for the same website.
 
@@ -47,7 +47,7 @@ When you create a SaaS project, Commerce generates one or more SaaS data spaces 
 
 - **Magento Open Source** - One production environment; no testing environments
 
-### Select or create SaaS projects {#createsaasenv}
+### Select or create SaaS project {#createsaasenv}
 
 {:.bs-callout-info}
 If you do not see the **Commerce Services Connector** section in the Commerce configuration, you need to install the desired Commerce Service, such as [Product Recommendations]({{ site.devdocs_url }}/recommendations/install-configure.html).
