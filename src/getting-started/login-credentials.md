@@ -4,7 +4,7 @@ redirect_from:
   - /getting-started/for-your-records.html
 ---
 
-Before you proceed with setup and configuration, make sure that you have the information that you need to access the Admin of your store and your Magento account.
+Before you proceed with setup and configuration, make sure that you have the information that you need to access the Admin of your store and your Commerce account.
 
 ## Storefront URL
 
@@ -24,9 +24,9 @@ The address for your store Admin is set up during the installation. The default 
 - `http://mydomain.com/admin`
 - `http://www.mydomain.com/admin`
 
-## Magento account
+## Commerce account
 
-Your [Magento account]({% link magento/magento-account.md %}) provides access to information about your products and services, account settings, billing history, and support resources. To access your account, go to the main Magento site and click the _My Account_ ![]({% link images/images/btn-account.png %}) icon in the upper-right corner.
+Your [Commerce account]({% link magento/magento-account.md %}) provides access to information about your products and services, account settings, billing history, and support resources. To access your account, go to the main Commerce site and click **My Account** in the upper-right corner.
 
 ## Customer account
 
@@ -36,7 +36,7 @@ While you are learning your way around the store, make sure to set up a test [cu
 
 As a best practice, keep a record of the details of your installation, your login credentials, and the email address that is associated with each account. Make sure to log the following information and keep it in a secured, convenient place.
 
-### Magento Admin and store information
+### Commerce Admin and store information
 
 - Store URL
 - Admin URL
@@ -44,7 +44,7 @@ As a best practice, keep a record of the details of your installation, your logi
 - Admin password
 - Admin email address
 
-### Magento account information
+### Commerce account information
 
 - User name
 - Password
@@ -59,7 +59,7 @@ As a best practice, keep a record of the details of your installation, your logi
 ### Installation information
 
 - Installation date
-- Magento version
+- Commerce version
 - Encryption key
 - Database name
 - Database user name

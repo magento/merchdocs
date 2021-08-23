@@ -1,5 +1,4 @@
 ---
-ee_only: true
 title: Media - Banner
 ---
 
@@ -216,7 +215,7 @@ You can modify the banner content directly on the stage or when you are changing
    - **Page** - Identifies the destination page as a specific content page. Search for the page based on either a partial or full name. Choose the page from the search results list.
 
    <div class="bs-callout-info" markdown="1">
-   Starting with Magento 2.4.1, Page Builder no longer supports linking the banner and links within the nested text due to issues with display on the storefront. If you are using a link in the _Message Text_, you cannot configure the _Link_ option. If you prefer to use a single link for the whole banner, you can remove all links from the text.
+   Starting with the 2.4.1 release, Page Builder no longer supports linking the banner and links within the nested text due to issues with display on the storefront. If you are using a link in the _Message Text_, you cannot configure the _Link_ option. If you prefer to use a single link for the whole banner, you can remove all links from the text.
 
    ![Link configuration is blocked]({% link images/images-ee/page-builder-nested-link-blocked.png %}){: width="400px"}
    </div>

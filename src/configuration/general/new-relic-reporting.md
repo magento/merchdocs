@@ -15,7 +15,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 |New Relic API URL|Store View|The URL where New Relic APIs are deployed. For example: `https://api.newrelic.com/deployments.xml`|
 |Insights API URL|Store View|The URL where Insights APIs are deployed. Use the percent symbol (%) to represent your account ID. For example: `https://insights-collector.newrelic.com/v1/accounts/%s/events`|
 |New Relic Account ID|Store View|The account ID assigned to your New Relic account.|
-|New Relic Application ID|Store View|The application ID assigned to your New Relic account for the Magento integration.|
+|New Relic Application ID|Store View|The application ID assigned to your New Relic account for the Commerce integration.|
 |New Relic API Key|Store View|The key that is assigned to you for gaining access to the New Relic API.|
 |Insights API Key|Store View|The key that is assigned to you for gaining access to Insights.|
 |New Relic Application Name|Store View|The name that you have assigned to your New Relic integration.|

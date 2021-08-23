@@ -2,7 +2,7 @@
 title: Email a Friend
 ---
 
-The Email link makes it easy for your customers to share links to products with their friends. In the Magento demo store, the Email link appears as an envelope icon. The message template can be customized for your voice and brand. To prevent spamming, you can limit the number of recipients for each email, and the number of products that can be shared over a one-hour period.
+The Email link makes it easy for your customers to share links to products with their friends. In the demo Luma store, the Email link appears as an envelope icon. The message template can be customized for your voice and brand. To prevent spamming, you can limit the number of recipients for each email, and the number of products that can be shared over a one-hour period.
 
 ![Example storefront - email a friend]({% link images/images/storefront-email-a-friend.png %}){: .zoom}
 _Email a Friend_
@@ -41,7 +41,7 @@ _Email a Friend_
 
 When this feature is configured, store customers follow these steps to share product information with friends.
 
-1. On a catalog page, click the **Email** link. Then, do one of the following:
+1. On a catalog page, click the **Email** link. Then, if the feature is configured only for registered users, do one of the following:
 
     - Log in to your customer account.
     - Sign up for a new account.
@@ -53,6 +53,7 @@ When this feature is configured, store customers follow these steps to share pro
     - Enter the **Name** and **Email Address** of the additional person.
 
         You can send the message to as many additional people as the configuration allows.
+        You can remove the added invitee by clicking the **Remove** link.
 
 1. When ready to send the message, click <span class="btn">Send Email</span>.
 

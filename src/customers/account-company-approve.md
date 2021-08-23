@@ -19,7 +19,7 @@ _Pending Approval_
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
 
-   All pending requests appear at the top of the list. To make them more noticeable, you can adjust the [grid layout]({% link stores/admin-grid-layout.md %}) to include the _Status_ column.
+   All pending requests appear at the top of the list. To make them more noticeable, you can adjust the [grid layout]({% link stores/admin-grid-controls.md %}) to include the _Status_ column.
 
 1. In the _Action_ column, click **Edit**.
 

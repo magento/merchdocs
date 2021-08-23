@@ -58,7 +58,7 @@ A [Wish List]({% link marketing/wishlists.md %}) displays a list of products tha
 {:.ee-only}
 ### Store Credit
 
-The [Store credit]({% link sales/store-credit.md %}) tab displays an amount that is restored to a customer account, the admin can manage this value.
+The [Store credit]({% link customers/store-credit.md %}) tab displays an amount that is restored to a customer account, the admin can manage this value.
 
 {:.ee-only}
 ### Gift Registry

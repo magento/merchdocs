@@ -20,7 +20,7 @@ The Payment Card Industry (PCI) has established a set of requirements for busine
 |![checkbox]({% link images/images/assets/checkbox.png %})|Regularly test security systems and processes.|
 |![checkbox]({% link images/images/assets/checkbox.png %})|Maintain a policy that addresses information security.|
 
-To learn more, see [Magento Approach to PCI Compliance][1]{:target="_blank"}.
+To learn more, see [Adobe Approach to PCI Compliance][1]{:target="_blank"}.
 
 As your business grows, you may be required to file a compliance report on an annual basis. PCI reporting requirements increase in proportion to merchant level, but are waived for businesses that process fewer than 20,000 credit card transactions per year. To learn more, visit the [PCI Security Standards Council][2] website.
 

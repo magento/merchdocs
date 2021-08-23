@@ -4,8 +4,8 @@ pages:
 - label: Catalog Menu
   url: "/catalog/catalog-menu.html"
   children:
-  - label: Catalog URLs
-    url: "/catalog/catalog-urls.html"
+- label: Catalog and Product URLs
+  url: "/catalog/catalog-urls.html"
 - label: Products Grid
   url: "/catalog/products.html"
 - label: Creating Products
@@ -94,6 +94,7 @@ pages:
       edition: ce-only
     - label: Autosettings
       url: "/catalog/product-autosettings.html"
+      edition: ee-only
     - label: Gift Options
       url: "/catalog/product-gift-options.html"
     - label: Product In Shared Catalogs
@@ -276,6 +277,8 @@ pages:
       url: "/catalog/product-attributes-add.html"
   - label: Deleting Product Attributes
     url: "/stores/attribute-delete.html"
+  - label: Bulk Updates for Product Attributes
+    url: "/stores/bulk-product-attribute-update.html"
   - label: Attribute Sets
     url: "/stores/attribute-sets.html"
   - label: Attribute Input Types

@@ -12,7 +12,7 @@ _Amazon Sales Channel Workspace Controls Examples_
 
 _Actions_ include a list of actions that are available to a user for a page. When chosen, the action is applied to all selected items. To apply an action to a specific item, select the checkbox in the first column of each item and choose an option under _Actions_.
 
-For example, the **Actions** drop-down on the Attributes page includes the _Re-import Product Attribute Values_ action. Choosing this action will ping the corresponding Amazon Seller Central account and refresh the Magento data for each of the Amazon store items checked in the left-side column.
+For example, the **Actions** drop-down on the Attributes page includes the _Re-import Product Attribute Values_ action. Choosing this action will ping the corresponding Amazon Seller Central account and refresh the Commerce data for each of the Amazon store items checked in the left-side column.
 
 ![]({% link sales-channels/asc/assets/amazon-sales-channel-home-actions-option.png %}){: .zoom}
 _Actions Drop Down Example_

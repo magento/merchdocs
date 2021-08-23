@@ -1,5 +1,5 @@
 ---
-title: Catalog URLs
+title: Catalog and Product URLs
 ---
 
 The URLs you assign to products and categories play a major role in determining how well your site is indexed by search engines. Before you start building your catalog is an ideal time to consider the available options. To view the current URL format, go to the storefront and navigate to any product in your catalog. The format of the URL depends on the current configuration settings and method that you use to find the page.
@@ -54,7 +54,7 @@ You can configure the URL to either include or exclude the category path. By def
 
 - `http://mystore.com/helena-hooded-fleece.html`
 
-To prevent search engines from indexing multiple URLs that lead to the same content, you can exclude the category path from the URL. Another method is to use a canonical meta tag to let search engines know which URLs to index and which to ignore. By default, Magento does not include the category path in product URLs.
+To prevent search engines from indexing multiple URLs that lead to the same content, you can exclude the category path from the URL. Another method is to use a canonical meta tag to let search engines know which URLs to index and which to ignore. By default, Commerce does not include the category path in product URLs.
 
 ## Configure catalog URLs
 
@@ -96,6 +96,4 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 |--- |--- |--- |
 |Add Store Code to URLs|Global|If Web Server Rewrites are enabled, this inserts the Store Code of the current view in the URL. Options: Yes / No|
 |Auto-redirect to Base URL|Global|(For single-store setups) If there is a broken link on your site, this redirects traffic to the base URL rather than to a page with a “404 Page Not Found” message. Options: No / Yes (302 Found) / Yes (301 Moved Permanently) <br /><br />**_Important!_** Do not use auto-redirect to base URL for multi-store setups.|
-|Catalog media URL format|Defines the [URL format]({% link catalog/catalog-urls.md %}) assigned to products and categories. Options:
-**Unique hash per image variant (Legacy mode)** - Defines converted filename as a unique hash value.
-**Image optimization based on query parameters** - Defines [image optimization]({% link cms/media-gallery-image-optimization.md %}) process depending on query parameters.|
+|Catalog media URL format|Global|Defines the [URL format]({% link catalog/catalog-urls.md %}) assigned to products and categories. Options: <br />**Unique hash per image variant (Legacy mode)** - Defines converted filename as a unique hash value.<br />**Image optimization based on query parameters** - Defines [image optimization]({% link cms/media-gallery-image-optimization.md %}) process depending on query parameters.|

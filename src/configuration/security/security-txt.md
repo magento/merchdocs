@@ -16,7 +16,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 ## Contact information
 
 ![]({% link images/images/config-security-txt-contact-info.png %}){: .zoom}
-[_Contact Information_]({% link stores/security-issue-reporting.md %})
+[_Contact information_]({% link stores/security-issue-reporting.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -27,7 +27,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 ## Other information
 
 ![]({% link images/images/config-security-txt-other-info.png %}){: .zoom}
-[_Other Information_]({% link stores/security-issue-reporting.md %})
+[_Other information_]({% link stores/security-issue-reporting.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

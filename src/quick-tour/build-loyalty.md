@@ -1,13 +1,13 @@
 ---
 b2b_only: true
-title: Build Loyalty
+title: Build B2B Loyalty
 ---
 
 Purchase Orders
 :  Use [purchase orders][4] and [approval rules][5] to allow purchasing according to your company's purchasing policies.
 
 Friction-Free Purchasing
-:  Magento’s self-service model makes it easy to build loyalty for fast, [friction-free purchasing]({% link customers/account-dashboard.md %}).
+:  The Commerce self-service model makes it easy to build loyalty for fast, [friction-free purchasing]({% link customers/account-dashboard.md %}).
 
 Fast Reordering
 :  Customers can create new orders based on [previous orders]({% link customers/account-dashboard-my-orders.md %}) from the convenience of their customer account.
@@ -19,7 +19,7 @@ Request a Quote
 :  Authorized company buyers can initiate a price negotiation by [requesting a quote]({% link sales/quote-request.md %}) from the shopping cart.
 
 Punch Out Solutions
-:  Establish new customers with third-party solutions, such as [Punch Out Catalogs][2] and [PunchOut2Go][3]. You can find these solutions on the [Magento Marketplace][1]{:target="_blank"}.
+:  Establish new customers with third-party solutions, such as [Punch Out Catalogs][2] and [PunchOut2Go][3]. You can find these solutions on the [Commerce Marketplace][1]{:target="_blank"}.
 
 [1]: https://marketplace.magento.com/
 [2]: https://www.punchoutcatalogs.com/

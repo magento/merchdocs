@@ -8,6 +8,21 @@ To begin an assisted shopping session, the customer must be logged into their ac
 ![]({% link images/images-ee/customer-account-manage-cart-items.png %}){: .zoom}
 _Shopping Cart in in the customer account_
 
+### Actions control
+
+|Option|Description|
+|--- |--- |
+|Remove|Removes items from the current shopping cart|
+|Move to Wish List|Moves items to the selected customer wishlist|
+
+### Control buttons
+
+|Option|Description|
+|--- |--- |
+|Clear my shopping cart|Clears the current shopping cart from all products|
+|Update Items and Quantities|Enter the required quantity in the **Qty** field and update the number of items in the cart|
+|Add selections to my cart|Adds products from all sections to the cart|
+
 ## Verify that the customer is logged in
 
 1. On the _Admin_ sidebar, go to **Customers** > **Now Online**.
@@ -123,9 +138,9 @@ There are three types of products that need to be configured before adding to th
 
 ## Transfer an item
 
-Items can be transferred to the cart from a customer wish list, as well as recently viewed, compared, or ordered items. The number of items in each section appears in parentheses after the section header.
+You can transfer items to the cart from a customer's wish list, as well as recently viewed, compared, or ordered items. The number of items in each section appears in parentheses after the section header.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) one of the following sections.
+1. Expand ![]({% link images/images/btn-expand.png %}) one of the following sections:
 
    - Wish List
    - Products in the Comparison List

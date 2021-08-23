@@ -9,22 +9,25 @@
   - label: Your Commerce Account
     url: "/magento/magento-account.html"
 
-  - label: " Quick Tour"
+  - label: Quick Tour
     url: "/getting-started/quick-tour.html"
 
   - label: Basic Configuration
     url: /configuration/configuration-basic.html
 
+  - label: Industry Compliance
+    url: "/stores/compliance-industry.html"
+
   - label: Extensions
     url: /magento/magento-extensions.html
 
-  - label: Magento Marketplace
+  - label: Commerce Marketplace
     url: /magento/magento-marketplace.html
 
-  - label: Magento Identity Manager
+  - label: Commerce Identity Manager
     url: /magento/magento-identity-manager.html
 
-  - label: Resources
+  - label: Commerce Resources
     url: "/getting-started/resources.html"
 
   - label: What’s New in the User Guide

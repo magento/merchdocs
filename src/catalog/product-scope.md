@@ -6,7 +6,7 @@ group: getting-started
 For installations with multiple websites, stores, and views, the [scope]({% link configuration/scope.md %}) setting determines where products are available for sale, and the product information that is available for each store view. Initially, all products that you create are published to the default website, store, and store view.
 
 ![]({% link images/images/scope-multisite.png %}){: .zoom}
-_Multisite Installation_
+_Multisite installation_
 
 If you have only a single store with the default view, you can run your store in [Single Store Mode]({% link stores/store-mode-single.md %}) to hide the scope settings. However, if your store has multiple views, a scope indicator appears below the name of each field.
 
@@ -27,14 +27,14 @@ Although the _Spanish_ store view is selected in the following example, the prod
 1. Click <span class="btn">OK</span> to confirm the scope change.
 
     ![]({% link images/images/product-store-view-spanish-racer-tank.png %}){: .zoom}
-    _Store View_
+    _Store view_
 
 1. Update the field with the new value for the store view.
 
     A checkbox appears below any field that can be edited for the store view. To override the default value, deselect the **Use Default Value** checkbox.
 
     ![]({% link images/images/product-translate-field-spanish.png %}){: .zoom}
-    _Translating Product Name for Spanish Store View_
+    _Translating product name for Spanish store view_
 
 1. When complete, click <span class="btn">Save</span>.
 
@@ -45,7 +45,7 @@ Although the _Spanish_ store view is selected in the following example, the prod
    - In the upper-right corner, click the _Admin_ menu arrow and choose **Customer View**.
 
       ![]({% link images/images/product-admin-menu-customer-view.png %}){: .zoom}
-      _Customer View_
+      _Customer view_
 
    - In the upper-right corner of the store, set the **Language Chooser** to the store view of the product that you edited and find the product that you edited for the view.
 

@@ -3,7 +3,7 @@ title: Quotes
 b2b_only: true
 ---
 
-If [B2B Quotes]({% link stores/b2b-features.md %}) are enabled in the configuration, an authorized buyer from a company can initiate the price negotiation process by submitting a [request to negotiate]({% link sales/quote-price-negotiation.md %}) the price from the shopping cart. The _Quotes_ grid lists each quote received and maintains a history of the communication between buyer and seller. The standard [workplace controls]({% link stores/admin-workspace.md %}) can be used to filter the list, change the [column layout]({% link stores/admin-grid-layout.md %}), save views, and export data.
+If [B2B Quotes]({% link stores/b2b-features.md %}) are enabled in the configuration, an authorized buyer from a company can initiate the price negotiation process by submitting a [request to negotiate]({% link sales/quote-price-negotiation.md %}) the price from the shopping cart. The _Quotes_ grid lists each quote received and maintains a history of the communication between buyer and seller. The standard [workplace controls]({% link stores/admin-workspace.md %}) can be used to filter the list, change the [column layout]({% link stores/admin-grid-controls.md %}), save views, and export data.
 
 ![]({% link images/images-b2b/quotes.png %}){: .zoom}
 _Quotes_

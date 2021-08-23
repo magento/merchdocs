@@ -2,7 +2,7 @@
 title: Commerce Services
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Services]({% link configuration/services.md %}) > Magento Services
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Services]({% link configuration/services.md %}) > Commerce Services Connector
 
 ## API keys
 

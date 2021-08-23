@@ -10,7 +10,7 @@ You can make as many changes as necessary, and then update the records in a sing
 The selection of available actions varies by list, and additional options might appear, depending on the action selected. For example, when changing the status of a group of records, a Status box appears next to the Actions control with additional options.
 
 ![Catalog records - Change Status action]({% link images/images/actions-change-status.png %}){: .zoom}
-_Applying an Action to Selected Records_
+_Applying an action to selected records_
 
 ## Step 1: Select records
 

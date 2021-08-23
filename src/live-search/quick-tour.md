@@ -11,26 +11,23 @@ With a focus on speed, relevance, and ease of use, Live Search is a game changer
 
 Live Search responds with suggested products and a thumbnail image of top search results in a popover as shoppers type queries into the [Search]({% link catalog/search-quick.md %}) box. Shoppers can go immediately to the [product detail]({% link quick-tour/product-page.md %}) page by clicking a suggested or featured product.  A _View all_ link in the footer of the popover displays the search results page.
 
-The popover can return "search as you type" results for one character or more. To set the minimum number of characters required for a query, change the Catalog Search [Minimal Query Length](https://docs.magento.com/user-guide/catalog/search-configuration.html) configuration setting.
+Live Search returns "search as you type" results for a query of two or more characters. For a partial match, the maximum number of characters per word is 20. The number of characters in the query is not configurable. The following fields are included in the popover: `name`, `sku`, and `category_ids`.
 
-To customize the popover, refer to [Storefront Popover](https://devdocs.magento.com/live-search/storefront-popover.html) in the Live Search developer documentation.
+To customize the popover, refer to [Storefront Popover]({{ site.devdocs_url }}/live-search/storefront-popover.html) in the Live Search developer documentation.
 
 ![Example storefront - search as you type]({% link live-search/assets/storefront-search-as-you-type.png %}){: .zoom}
 _Search as you type_
 
-### Infinite scroll
+### View all search results
 
-When shoppers click _View all_ from the "search as you type" popover, additional products appear in the search results as they scroll down the page. There is no need to navigate through pages of static search results. The current query appears in the search box just above the results. Shoppers can simply change the current query to instantly update the results.
+To list all products returned by the "search as you type" query, click _View all_ in the footer of the popover.
 
-![Example storefront - view all]({% link live-search/assets/storefront-view-all.png %}){: .zoom}
-_View all_
+![Example storefront - price facets]({% link live-search/assets/storefront-view-all-search-results.png %}){: .zoom}
+_Search results_
 
 ### Filtered search with facets
 
-The Filters list in the left sidebar shows the available values derived from the current set of returned products. Filtered search uses multiple dimensions of attribute values, or [facets]({% link live-search/facets.md %}), as search criteria. The selection of filters is defined by the merchant and changes according to the products returned, with the most commonly-used facets pinned to the top of the list.
-
-![Example storefront - price facets]({% link live-search/assets/storefront-filters.png %}){: .zoom}
-_Filtered search_
+Filtered search uses multiple dimensions of attribute values, or [facets]({% link live-search/facets.md %}), as search criteria. The selection of filters is defined by the merchant and changes according to the products returned, with the most commonly-used facets pinned to the top of the list.
 
 ### Synonyms
 

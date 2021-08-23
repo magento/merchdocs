@@ -9,7 +9,7 @@ You can access the listing rules for store in the [store dashboard]({% link sale
 
 Listing Rules define the rules to determine which products Amazon Sales Channel will publish to Amazon. These rules provide many options to create simple to complex rules to include or exclude products as listings. Each rule consists of conditions that set the requirements for product listing eligibility.
 
-Your listing rules are continually synchronized with your Magento catalog. When you add new Magento products that meet eligibility requirements set by your listing rules, the products will automatically process for listing on Amazon.
+Your listing rules are continually synchronized with your Commerce catalog. When you add new Commerce products that meet eligibility requirements set by your listing rules, the products will automatically process for listing on Amazon.
 
 - If you want all of your products to be published to an Amazon listing, do not define any conditions for your listing rules.
 
@@ -17,7 +17,7 @@ Your listing rules are continually synchronized with your Magento catalog. When 
 
 - If your listing rules exclude a product, the eligibility status for that product changes to `Ineligible`. Ineligible products will not be published to Amazon.
 
-- If an ineligible product is already listed on Amazon and you match the Amazon listing to your Magento catalog product, the quantity for the Amazon listing will change to `0` to prevent sales of the product. Amazon listings can be [manually removed]({% link sales-channels/asc/end-listings-manually.md %}).
+- If an ineligible product is already listed on Amazon and you match the Amazon listing to your Commerce catalog product, the quantity for the Amazon listing will change to `0` to prevent sales of the product. Amazon listings can be [manually removed]({% link sales-channels/asc/end-listings-manually.md %}).
 
 Changes to quantity and eligibility status impact all listings that share the Amazon Seller SKU in marketplaces that exist for stores selling in the same region (as defined in **Amazon Marketplace Country** during [store integration]({% link sales-channels/asc/store-integration.md %})). However, a change to a shared Amazon Seller SKU in one region will not affect the product's Amazon listings in a different country.
 
@@ -34,8 +34,8 @@ See [Example: Define a Condition]({% link sales-channels/asc/ob-define-condition
 
 |Field|Description|
 |---|---|
-|Websites|The available options depend on the [websites]({% link stores/websites-stores-views.md %}) you have set up in your Magento configuration. Select the website to represent which website to have eligible products listed on Amazon. Only one website can be selected, as each website requires a unique Amazon store created in Amazon Sales Channel. |
-|Conditions|Used to define the Magento attributes for product eligibility within your Amazon region. See [Example: Define a Condition]({% link sales-channels/asc/ob-define-condition-example.md %}). |
+|Websites|The available options depend on the [websites]({% link stores/websites-stores-views.md %}) you have set up in your Commerce configuration. Select the website to represent which website to have eligible products listed on Amazon. Only one website can be selected, as each website requires a unique Amazon store created in Amazon Sales Channel. |
+|Conditions|Used to define the Commerce attributes for product eligibility within your Amazon region. See [Example: Define a Condition]({% link sales-channels/asc/ob-define-condition-example.md %}). |
 
 ## Conditions Workspace
 

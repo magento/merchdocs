@@ -33,3 +33,12 @@ See [PayPal Payment Solutions]({% link payment/paypal.md %}) for more informatio
 
 - [Klarna]({% link payment/klarna.md %})
 - [Amazon Pay]({% link configuration/sales/amazon-pay.md %})
+
+## Troubleshooting resources
+
+For help with troubleshooting online payment issues, see the following Commerce Support articles:
+
+- [Orders in payment system but not in Magento](https://support.magento.com/hc/en-us/articles/360052430272)
+- [Payment methods not displayed on checkout with multiple addresses](https://support.magento.com/hc/en-us/articles/360029360451)
+- [Double authorization on Paypal PayFlow Pro](https://support.magento.com/hc/en-us/articles/360051109051)
+- [PayPal troubleshooting on Magento](https://support.magento.com/hc/en-us/articles/115003846053)
