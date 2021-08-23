@@ -52,7 +52,7 @@ The following example shows how to create a customer segment that targets female
 
 1. Click <span class="btn">Save and Continue Edit</span>.
 
-   Additional options become available in the left pane.
+   Additional options become available in the left panel.
 
 ### Segment properties
 
@@ -117,6 +117,16 @@ The following example shows how to create a customer segment that targets female
 1. If the list of customers meets your goal, click <span class="btn">Save</span> to complete the customer segment.
 
 The customer segment can now be used for targeting promotions, content, and mailings.
+
+## Delete a customer segment
+
+1. On the _Admin_ sidebar, go to **Customers** > **Segments**.
+
+1. Find the segment to be deleted and click it.
+
+1. In the menu bar click **Delete** button.
+
+1. To confirm the action, click <span class="btn">OK</span>.
 
 |Column|Description|
 |--- |--- |
