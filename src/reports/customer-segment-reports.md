@@ -23,6 +23,14 @@ You can drill down to a list of customers in the segment, and export the data.
 ![]({% link images/images-ee/reports-customer-segment-drilldown.png %}){: .zoom}
 *Drill Down to Customer Data*
 
+To include the most recent data, the segment data must be refreshed. If the segment data are not available or are outdated, click **Refresh Segment Data** in the button bar to update them.
+
+1. For **Export to**, choose an export format:
+    - **CSV** - A comma-separated value file containing plain text data
+    - **Excel XML** - An XML-based, spreadsheet data format
+1. Click <span class="btn">Export</span>.
+   The generated file is automatically saved to your designated folder for downloads.
+
 |Column|Description|
 |--- |--- |
 |ID|A unique numeric identifier that is assigned to each user|
