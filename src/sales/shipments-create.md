@@ -50,17 +50,17 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 
 1. Expand the **Shipment Comments** section and modify the settings as needed:
 
-- The **Enabled** option is set to `Yes` by default, which means that the email is sent to a customer when a shipping comment is entered.
+   - The **Enabled** option is set to `Yes` by default, which means that the email is sent to a customer when a shipping comment is entered.
 
-- For **Shipment Comment Email Sender**, select the person from whom the shipment comment email is sent. The default offers five email addresses.
+   - For **Shipment Comment Email Sender**, select the person from whom the shipment comment email is sent. The default offers five email addresses.
 
-- For **Shipment Comment Email Template**, select the template based on your requirement or select the default option.
+   - For **Shipment Comment Email Template**, select the template based on your requirement or select the default option.
 
-- For **Shipment Comment Email Template for Guests**, choose the template used for customers who do not have an account in your store.
+   - For **Shipment Comment Email Template for Guests**, choose the template used for customers who do not have an account in your store.
 
-- For **Shipment Comment Email Copy To**, enter the email addresses to send a shipment comment email copy. Separate multiple email addresses with a comma.
+   - For **Shipment Comment Email Copy To**, enter the email addresses to send a shipment comment email copy. Separate multiple email addresses with a comma.
 
-- For **Shipment Comment Email Copy Method**, select `bcc` (blind carbon copy) or `separate email copy` method based on your preference.
+   - For **Shipment Comment Email Copy Method**, select `bcc` (blind carbon copy) or `separate email copy` method based on your preference.
 
 1. Click <span class="btn">Save Config</span>.
 
