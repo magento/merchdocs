@@ -122,7 +122,7 @@ The customer segment can now be used for targeting promotions, content, and mail
 
 1. On the _Admin_ sidebar, go to **Customers** > **Segments**.
 
-1. Find the segment to be deleted and click it.
+1. Find the segment to be deleted and select it.
 
 1. In the menu bar click **Delete** button.
 
