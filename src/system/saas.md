@@ -6,7 +6,7 @@ Some Adobe Commerce and Magento Open Source features are deployed as SaaS (softw
 
 ## Commerce API key and private key {#apikey}
 
-When you create a Commerce account, identified by a Commerce ID (MageID), you can generate a Commerce API key and private key. To use Commerce Services, such as Product Recommendations, the license-holder must generate these keys in order to pass entitlement validation. These keys can then be passed to the systems integrator or development team that manages the Commerce Services projects and environments on behalf of the license-holder. If you are a solution integrator, you are also entitled to use these services for your own needs. In that case, the signer of the Commerce partner contract should generate the keys.
+When you create a Commerce account, identified by a Commerce ID (MageID), you can generate a Commerce API key and private key. To use Commerce Services, such as Product Recommendations or Live Search, the license-holder must generate these keys in order to pass entitlement validation. These keys can then be passed to the systems integrator or development team that manages the Commerce Services projects and environments on behalf of the license-holder. If you are a solution integrator, you are also entitled to use these services for your own needs. In that case, the signer of the Commerce partner contract should generate the keys.
 
 ### Generate an API key and private key {#genapikey}
 
@@ -43,14 +43,14 @@ SaaS data spaces are designed to support multiple different websites, identified
 
 When you create a SaaS project, Commerce generates one or more SaaS data spaces depending on whether or not you have an Adobe Commerce license:
 
-- **Adobe Commerce** - One production environment; two testing environments
+- **Adobe Commerce** - One production data space; two testing data spaces
 
-- **Magento Open Source** - One production environment; no testing environments
+- **Magento Open Source** - One production data space; no testing data spaces
 
 ### Select or create SaaS project {#createsaasenv}
 
 {:.bs-callout-info}
-If you do not see the **Commerce Services Connector** section in the Commerce configuration, you need to install the desired Commerce Service, such as [Product Recommendations]({{ site.devdocs_url }}/recommendations/install-configure.html).
+If you do not see the **Commerce Services Connector** section in the Commerce configuration, you need to install the Commerce modules for your desired Commerce Service, such as [Product Recommendations]({{ site.devdocs_url }}/recommendations/install-configure.html).
 
 To select or create a SaaS project, request the Commerce API key from the Commerce license holder for your store.
 
