@@ -125,7 +125,7 @@ _[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 ## Layered Navigation
 
 {:.bs-callout-info}
-[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The standard layered navigation configuration does not apply to Live Search.
+The standard search configuration described in this section differs for [Live Search]({% link live-search/overview.md %}).
 
 ![]({% link images/images/config-catalog-catalog-layered-navigation-automatic-equalize-price-ranges.png %}){: .zoom}
 [_Layered Navigation - Automatic (equalize price ranges)_]({% link catalog/navigation-layered-configuration.md %})
@@ -186,7 +186,7 @@ _[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 ## Catalog Search
 
 {:.bs-callout-info}
-[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The standard search configuration described in this section differs from Live Search.
+The standard search configuration described in this section differs for [Live Search]({% link live-search/overview.md %}).
 
 Adobe Commerce supports several versions of Elasticsearch.
 

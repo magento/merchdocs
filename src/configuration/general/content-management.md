@@ -35,7 +35,7 @@ _[Advanced Content Tools]({% link cms/page-builder-workspace.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable Page Builder|Global|Determines if the Page Builder Advanced Content tools are available. Options: <br/>**Yes** - The Page Builder workspace appears in the Content section of pages, blocks, products, and categories. <br/>**No** - The standard Magento CMS tools appear in the Content section of pages, blocks, products, and categories.|
+|Enable Page Builder|Global|Determines if the Page Builder Advanced Content tools are available. Options: <br/>**Yes** - The Page Builder workspace appears in the Content section of pages, blocks, products, and categories. <br/>**No** - The standard Commerce CMS tools appear in the Content section of pages, blocks, products, and categories.|
 |Enable Page Builder Content Preview|Global|Determines if the Page Builder content previews are enabled for products and categories. Options: Yes / No <br/>**_Note:_** This is set to `Yes` by default, but turning the preview off can prevent any performance issues resulting from loading previews within a product or category form.|
 |Google Maps API Key|Global|The Google Maps API key from your Google account.|
 |Test Key||Validates the Google Maps API key.|

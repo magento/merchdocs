@@ -4,7 +4,7 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Sun Aug 1 14:27:54 2021
+updated: Sun Aug 15 14:28:30 2021
 entries:
 - description: Basic [Page Builder](https://docs.magento.com/user-guide/cms/page-builder.html)
     content tools now available in Magento Open Source.
@@ -1045,4 +1045,4 @@ entries:
   versions: 2.4.0
   type: Major update
   date: July 28, 2020
-  link:
+  link: 
