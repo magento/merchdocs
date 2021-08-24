@@ -2,11 +2,11 @@
 title: About Product Types
 ---
 
-Inventory Management supports inventory and order management for all product types in Magento: simple, configurable, virtual, downloadable, bundle, and grouped. Options and requirements may differ per product type for sources, stocks, and shipping.
+Inventory Management supports inventory and order management for all product types in Adobe Commerce and Magento Open Source: simple, configurable, virtual, downloadable, bundle, and grouped. Options and requirements may differ per product type for sources, stocks, and shipping.
 
 - Single Source merchants create and update product settings and quantities without requiring additional updates. All created and newly imported products automatically assign to the Default Source and Default Stock, immediately available to customers if enabled and In-Stock.
 
-- Multi Source merchants assign sources, quantities per source, and settings during or after product creation. Magento assigns all newly imported products to the Default Source, requiring additional edits to assign sources and quantities.
+- Multi Source merchants assign sources, quantities per source, and settings during or after product creation. Commerce assigns all newly imported products to the Default Source, requiring additional edits to assign sources and quantities.
 
 {: .list-table }
 |Product Type|Shipping and Source Selection Algorithm|

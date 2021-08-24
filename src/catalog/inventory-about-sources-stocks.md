@@ -8,7 +8,7 @@ These descriptions include products, sources, and stocks for a bicycle company w
 
 ## Sources
 
-[Sources]({% link catalog/inventory-sources.md %}) are the physical locations where product inventory is managed and shipped for order fulfillment or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, and drop shippers. Magento leverages the quantities and salable quantities per stock and manages inventory amounts automatically for managed products and orders. If you have one source, you are considered in _Single Source_ mode. If you have multiple sources, you are considered in _Multi Source_ mode.
+[Sources]({% link catalog/inventory-sources.md %}) are the physical locations where product inventory is managed and shipped for order fulfillment or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, and drop shippers. Commerce leverages the quantities and salable quantities per stock and manages inventory amounts automatically for managed products and orders. If you have one source, you are considered in _Single Source_ mode. If you have multiple sources, you are considered in _Multi Source_ mode.
 
 A source can have priority in the scope of stock in one warehouse, but not necessarily in all warehouses as the source can be re-used in different stocks. The number of stocks and sources adds to the complexity for determining the best warehouse or store to fulfill an order. For example, you may have a limited number of products available from your brick-and-mortar locations with an extensive inventory in your warehouses and services in key locations with limited availability.
 
@@ -37,7 +37,7 @@ Quantity is the number of products in your active inventory that is available fo
 
 Reservations track stock requests for the entire shopping process - adding products to cart, completing checkout, and managing refunds. For available inventory and stock, reservations reserve inventory amounts per order through the checkout process, subtracted from the salable quantity. Reservations convert to quantity deductions when invoicing and shipping products.
 
-Salable Quantity calculates the virtual inventory of products (or availability), taking into account configured thresholds, reserved or sold amounts, and quantities per source. For each stock, Magento accesses all assigned sources and aggregates associated product quantities. With this base value, it then subtracts all reservation amounts and the Notify for Quantity Below threshold.
+Salable Quantity calculates the virtual inventory of products (or availability), taking into account configured thresholds, reserved or sold amounts, and quantities per source. For each stock, Commerce accesses all assigned sources and aggregates associated product quantities. With this base value, it then subtracts all reservation amounts and the Notify for Quantity Below threshold.
 
 ![]({% link images/images/inventory/inventory-diagram-salable-qty.png %})<br/>
 _Calculating the Salable Quantity for a Stock_

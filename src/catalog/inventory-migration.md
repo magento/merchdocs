@@ -4,13 +4,13 @@ title: Migrating and Upgrading to Inventory Management
 
 If you used single source inventory in a previous release, this information provides details on new features and changes to your existing catalog and Inventory configurations.
 
-Magento Inventory Management includes features, enhancements, and developer support that enhances and updates all product stock management and add new features. All features are available out-of-the-box including the Source Selection Algorithm and Concurrent Checkout to match order quantities to sources and order fulfillment. Depending on your websites, stores, and merchant type, you can create additional stock and sources, assigning inventory amounts, and more. For complete information, see [Inventory Management]({% link catalog/inventory-management.md %}) and [Learn about Inventory Management]({% link catalog/inventory-learn-more.md %}).
+Inventory Management for Adobe Commerce and Magento Open Source includes features, enhancements, and developer support that enhances and updates all product stock management and add new features. All features are available out-of-the-box including the Source Selection Algorithm and Concurrent Checkout to match order quantities to sources and order fulfillment. Depending on your websites, stores, and merchant type, you can create additional stock and sources, assigning inventory amounts, and more. For complete information, see [Inventory Management]({% link catalog/inventory-management.md %}) and [Learn about Inventory Management]({% link catalog/inventory-learn-more.md %}).
 
-When you install Magento 2.4.x Open Source, Commerce, or Commerce Cloud, the following initial changes occur:
+When you install Magento Open Source 2.4.x or Adobe Commerce 2.4.x, the following initial changes occur:
 
 - [Inventory Management]({% link catalog/inventory.md %}) enables at the global store or product level. The Manage Stock option enables or disables tracking of inventory quantities, calculations of aggregated salable quantities, and reservation management for tracking purchases through to invoice and shipment. You can disable this option to use an ERP and other third party services for managing stock, orders, and shipments. For additional information, see Inventory Management Modules below.
 
-- A [Default Source]({% link catalog/inventory-sources.md %}) and [Default Stock]({% link catalog/inventory-stock.md %}) add to the system. Do not disable or remove these defaults. Magento assigns existing and newly imported products to these defaults.
+- A [Default Source]({% link catalog/inventory-sources.md %}) and [Default Stock]({% link catalog/inventory-stock.md %}) add to the system. Do not disable or remove these defaults. Commerce assigns existing and newly imported products to these defaults.
 
    - Stocks provide an aggregated, virtual Salable Quantity with reservations to track shopping carts and orders, ensuring concurrent checkout.
 
@@ -28,7 +28,7 @@ When you install Magento 2.4.x Open Source, Commerce, or Commerce Cloud, the fol
 
    - Backorders supports zero (infinite) and negative amounts. When enabled, the Notify for Quantity Below does not deduct from the Salable Quantity.
 
-- New Reservations track potential sales, converting to quantity deductions when the order ships. You never directly access or create reservations. Magento creates and manages reservations behind-the-scenes through orders, shipments, and credit memos.
+- New Reservations track potential sales, converting to quantity deductions when the order ships. You never directly access or create reservations. Commerce creates and manages reservations behind-the-scenes through orders, shipments, and credit memos.
 
 - [Orders and shipments]({% link catalog/inventory-orders-shipment.md %}) include new features to recommend shipments using the Source Selection Algorithm and support partial shipments from multiple sources to fulfill an order.
 
@@ -40,23 +40,23 @@ When you install Magento 2.4.x Open Source, Commerce, or Commerce Cloud, the fol
 
 ## Commerce Order Management and Inventory Management
 
-If you have installed [Commerce Order Management (MCOM)][1] in your Magento implementation to manage, sell, and fulfill inventory from any sales channel, be aware that MCOM is not compatible with the [Inventory Management extensions]({% link magento/magento-extensions.md %}). These modules provide all Inventory Management features to Magento, including single and multi Source management, stocks, reservations, and more.
+If you have installed [Commerce Order Management (MCOM)][1] in your Commerce implementation to manage, sell, and fulfill inventory from any sales channel, be aware that MCOM is not compatible with the [Inventory Management extensions]({% link magento/magento-extensions.md %}). These modules provide all Inventory Management features to Commerce, including single and multi Source management, stocks, reservations, and more.
 
 [Inventory Management extensions]({% link magento/magento-extensions.md %}) are disabled by default.
 
 MCOM provides extensive features and services for advanced omnichannel order management, global inventory and multisourcing, store to warehouse fulfillment, and centralized customer service. For a complete list of features, see the [MCOM Feature list][2].
 
-Magento Inventory Management extends existing Magento features with additional options to track in-flight orders, on-hand inventory, available inventory for a stock, and APIs for extension development.
+Inventory Management extends existing Commerce features with additional options to track in-flight orders, on-hand inventory, available inventory for a stock, and APIs for extension development.
 
 ## Inventory Management modules
 
 You may need to disable Inventory Management modules to:
 
-- Speed up upgrade of merchants currently on Magento 2.0/2.1/2.2/2.3 and migrating to 2.4.x.
+- Speed up upgrade of merchants currently on Adobe Commerce or Magento Open Source 2.0/2.1/2.2/2.3 and migrating to 2.4.x.
 
 - Use custom or third party inventory and order management modules.
 
-- Use Magento Order Management for inventory management. The current connector does not support Inventory Management interfaces. For OMS merchants upgrading to Magento 2.4.0, they need to disable these modules.
+- Use Order Management for inventory management. The current connector does not support Inventory Management interfaces. For OMS merchants upgrading to Adobe Commerce 2.4.0, they need to disable these modules.
 
 For complete details, see the DevDocs [Manage Inventory Management modules][3].
 

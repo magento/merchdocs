@@ -18,7 +18,7 @@ Single Source merchants may add new stores, warehouses, drop shippers, and more.
 
 1. Update [source assignments and quantities]({% link catalog/inventory-manage-inventory-quantities.md %}) for your products.
 
-   You can also use the [Mass Actions Tool]({% link catalog/inventory-bulk-assign-sources.md %}) and [Magento Import-Export]({% link catalog/inventory-import-export.md %}) feature to quickly add sources and product data.
+   You can also use the [Mass Actions Tool]({% link catalog/inventory-bulk-assign-sources.md %}) and [Import-Export]({% link catalog/inventory-import-export.md %}) feature to quickly add sources and product data.
 
 ## Restructure to Single Source
 
