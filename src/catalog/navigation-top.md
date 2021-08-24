@@ -55,7 +55,7 @@ For a multistore installation, a different main menu can be assigned as the [roo
 
 1. Expand the **Category Top Navigation** section.
 
-   Because the depth of the top navigation has a global [configuration scope]({% link configuration/scope.md %}), the setting applies to all websites, stores, and store views in the Magento installation. The Category Top Navigation configuration section is available only when Store View in the upper-left corner is set to “Default Config”.
+   Because the depth of the top navigation has a global [configuration scope]({% link configuration/scope.md %}), the setting applies to all websites, stores, and store views in the Commerce installation. The Category Top Navigation configuration section is available only when Store View in the upper-left corner is set to “Default Config”.
 
    ![]({% link images/images/configuration-store-view-default-config.png %}){: .zoom}
    _Default Config_

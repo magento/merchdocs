@@ -73,3 +73,6 @@ This section includes the additional information for a given transaction. Inform
 - submitTimeUTC
 - taxExempt
 - transactionStatus
+
+{:.bs-callout-info}
+If the transaction details are not available or are outdated, click **Fetch** in the button bar to update them.

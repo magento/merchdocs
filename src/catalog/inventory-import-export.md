@@ -2,9 +2,9 @@
 title: Importing and Exporting Inventory
 ---
 
-For catalogs with a large amount of products, use the Import and Export features of Magento with expanded Inventory Management options to update sources and quantities by SKU. With these options, you can add new sources and update inventory quantities for all or a specific source. For example, you can export products for a source in Germany without affecting product information for sources in France, England, or the US.
+For catalogs with a large amount of products, use the native Import and Export features with expanded Inventory Management options to update sources and quantities by SKU. With these options, you can add new sources and update inventory quantities for all or a specific source. For example, you can export products for a source in Germany without affecting product information for sources in France, England, or the US.
 
-- Magento automatically assigns the Default Source to your products when upgrading Magento or importing new products. If you import products with a custom source assigned, the Default Source will still be added with a quantity of 0. To update sources and quantities, use these import instructions.
+- Commerce automatically assigns the Default Source to your products when upgrading Commerce or importing new products. If you import products with a custom source assigned, the Default Source will still be added with a quantity of 0. To update sources and quantities, use these import instructions.
 
 - Single Source merchants use import to update only product quantities. All existing and added products are assigned to the Default Source.
 
@@ -16,8 +16,8 @@ To import updates, first export a CSV file for a specific or all sources. Edit t
 
 The export-import file includes the following information according to source:
 
-- `source_code` - The code for sources in Magento. You will see a row for each source and SKU.
-- `sku` - The SKU for the product in Magento. The SKU must match a product in your store to properly update Inventory Management data.
+- `source_code` - The code for sources in Commerce. You will see a row for each source and SKU.
+- `sku` - The SKU for the product in Commerce. The SKU must match a product in your store to properly update Inventory Management data.
 - `status` - 0 for Out of Stock. 1 for In Stock. This value must be 1 to purchase stock from this source.
 - `quantity` - The total amount of inventory available for this SKU and source.
 
@@ -38,7 +38,7 @@ _Example CSV file for Import - Export Inventory Data_
 
    The file generates and downloads to open and edit.
 
-After updating inventory amounts and product data, import the file back into Magento.
+After updating inventory amounts and product data, import the file back into Commerce.
 
 ![]({% link images/images/inventory/inventory-export-stock-sources.png %}){: .zoom}
 _Export Stock Sources for product data and sources_
@@ -59,7 +59,7 @@ _Export Stock Sources for product data and sources_
 
    The file generates and downloads to open and edit.
 
-After updating inventory amounts and product data, import the file back into Magento.
+After updating inventory amounts and product data, import the file back into Commerce.
 
 ![]({% link images/images/inventory/inventory-export-stock-sources.png %}){: .zoom}
 _Export Stock Sources for product data and sources_
