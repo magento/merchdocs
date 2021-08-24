@@ -3,7 +3,7 @@ ee_only: true
 title: Gift Registries
 ---
 
-Magento gives your customers the ability to create gift registries for special occasions, and to invite their friends and family to purchase their gifts from the gift registry. Magento keeps track of all items purchased and the quantities remaining.
+Adobe Commerce gives your customers the ability to create gift registries for special occasions, and to invite their friends and family to purchase their gifts from the gift registry. Adobe Commerce keeps track of all items purchased and the quantities remaining.
 
 ![Example storefront - gift registry]({% link images/images-ee/storefront-gift-registry-create-baby-info.png %}){: .zoom}
 _Creating a Baby Gift Registry_
@@ -22,7 +22,7 @@ Registry visitors who want to make a purchase can add the item to their carts di
 
 1. **Invitations are sent**. A link to the gift registry is included in each invitation. If [Gift Registry Search]({% link marketing/gift-registry-search.md %}) is available in the store, customers can search for specific gift registries by name, email address, or gift registry ID.
 
-1. **Invitation recipients place orders**. Those who receive an invitation can place an order for any item directly from the gift registry. As items are sold, Magento updates the gift registry item counts, and notifies the gift registry owner.
+1. **Invitation recipients place orders**. Those who receive an invitation can place an order for any item directly from the gift registry. As items are sold, Adobe Commerce updates the gift registry item counts, and notifies the gift registry owner.
 
 ## Add an item to a gift registry on the storefront
 
