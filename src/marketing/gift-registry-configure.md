@@ -3,13 +3,13 @@ ee_only: true
 title: Configuring Gift Registries
 ---
 
-Before you can offer gift registries to your customers, you must enable gift registries and configure the related email notifications. Magento sends the following email notifications in response to events in the gift registry workflow.
+Before you can offer gift registries to your customers, you must enable gift registries and configure the related email notifications. Adobe Commerce sends the following email notifications in response to events in the gift registry workflow.
 
 - When a new gift registry is created, an email is sent to the owner with a link to registry that can be shared.
 - Optionally, the store can send notification with a link to the gift registry to friends and family of the gift registry owner.
 - The owner is notified when items are purchased from the gift registry, but does not indicate the purchaser.
 
-Magento has predefined templates for each of these email messages that can be customized for your brand.
+Adobe Commerce has predefined templates for each of these email messages that can be customized for your brand.
 
 ## Step 1. Enable Gift Registries
 

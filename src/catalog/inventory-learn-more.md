@@ -10,7 +10,7 @@ sections:
      url: /catalog/inventory-about-ssa.html
 
    - title: About Order Status and Reservations
-     content: As you manage orders with shipments, refunds, and cancellations, Magento automatically updates your inventory quantities with reservations. Reservations ensure you do not oversell products across your entire stock.
+     content: As you manage orders with shipments, refunds, and cancellations, Commerce automatically updates your inventory quantities with reservations. Reservations ensure you do not oversell products across your entire stock.
      url: /catalog/inventory-about-order-status-reservation.html
 
    - title: About Product Types
@@ -18,7 +18,7 @@ sections:
      url: /catalog/inventory-about-ssa.html
 ---
 
-Magento enhances inventory management, enabling you to manage inventory across one or multiple locations and sales channels with concurrent checkout protection and shipment matching algorithms. Track your inventory quantities across multiple locations as sources for all product types with accurate salable stock amounts to customers and recommended shipping options. Configure management settings globally, per source, and per product. These features grow with your business, supporting single warehouses to complex shipping networks with warehouses, stores, drop shippers, and distribution centers.
+Commerce enhances inventory management, enabling you to manage inventory across one or multiple locations and sales channels with concurrent checkout protection and shipment matching algorithms. Track your inventory quantities across multiple locations as sources for all product types with accurate salable stock amounts to customers and recommended shipping options. Configure management settings globally, per source, and per product. These features grow with your business, supporting single warehouses to complex shipping networks with warehouses, stores, drop shippers, and distribution centers.
 
 Inventory Management features include:
 

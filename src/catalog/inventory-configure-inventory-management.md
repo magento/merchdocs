@@ -2,7 +2,7 @@
 title: Configuring Inventory Management
 ---
 
-Magento supports inventory configuration settings at the product and global level, and provides additional settings that affect source availability, storefront products, and order shipment. The configuration settings apply to the catalog (**Stores** > Settings > **Configuration** > **Catalog** > **Inventory**) as a whole or for specific products (**Catalog** > **Products** > **Advanced Inventory**).
+Commerce supports inventory configuration settings at the product and global level, and provides additional settings that affect source availability, storefront products, and order shipment. The configuration settings apply to the catalog (**Stores** > Settings > **Configuration** > **Catalog** > **Inventory**) as a whole or for specific products (**Catalog** > **Products** > **Advanced Inventory**).
 
 Your catalog can be configured to display inventory data in your storefront, manage active shopping carts, and more. Display the availability of each item as _In Stock_ or _Out of Stock_ and the available inventory when stock is low.
 
@@ -15,11 +15,11 @@ _Example of In Stock, Only 1 Left_
 
 ## Configuration options
 
-Magento stores and products support the following configurations for managing products, inventory, notifications and more. Magento provides additional configuration settings for bulk actions and the Distance Priority algorithm. For complete details, see [Inventory]({% link configuration/catalog/inventory.md %}) configuration information.
+Commerce stores and products support the following configurations for managing products, inventory, notifications and more. Commerce provides additional configuration settings for bulk actions and the Distance Priority algorithm. For complete details, see [Inventory]({% link configuration/catalog/inventory.md %}) configuration information.
 
 |Option|Description|
 |--|--|
-| Manage Stock | Enables Magento to manage all inventory. Sets if inventory control is used for this product or all products in Magento. Displays more options if set to `Yes`. |
+| Manage Stock | Enables Commerce to manage all inventory. Sets if inventory control is used for this product or all products in Commerce. Displays more options if set to `Yes`. |
 | Only X left Threshold | Sets a quantity amount to notify when a specific amount is left available for purchase. This amount is tracked at the stock level. |
 | Out-of-Stock Threshold | Your Safety Stock, Quantity to trigger an "out of stock" notification and to mitigate the risk of stockouts. This value affects backorders. Options:<br />**No Backorders**: Does not accept backorders when product is out of stock.<br />**Allow Qty Below 0**: Accepts backorders when the quantity falls below zero.<br />**Allow Qty Below 0 and Notify Customer**: Accepts backorders when the quantity falls below zero, but notifies customers that orders can still be placed. <br /><br />**Backorders disabled**: We recommend entering a positive value over 0, such as 5 or 25. <br/>**Backorders enabled**: Enter a negative threshold for the maximum amount of allowed backorders, such as -5 or -25. A value of 0 acts as infinite stock. A positive value is ignored and treated as 0.|
 | Minimum Qty Allowed in Shopping Cart | Sets the minimum quantity of the product that can be purchased in a single order. |
@@ -35,11 +35,11 @@ Magento stores and products support the following configurations for managing pr
 
 Configurations override or apply in the following path of inheritance: Product **Sources** section overrides Product **Advanced Options** overrides global **Inventory** store configuration.
 
-When Magento checks for custom settings to apply, it follows this order:
+When Commerce checks for custom settings to apply, it follows this order:
 
-1. Magento checks for custom settings at the Product level in the **Sources** section. A few settings are available.
+1. Checks for custom settings at the Product level in the **Sources** section. A few settings are available.
 
-1. Magento then checks the Product **Advanced Inventory** settings.
+1. Checks the Product **Advanced Inventory** settings.
 
 1. If **Use Config Settings** is selected for the product settings, it checks for a value in the **Stores** > _Configuration_ > **Inventory** page.
 

@@ -69,3 +69,21 @@ If your store has multiple views in different languages, the same products are a
 1. When complete, click <span class="btn">Save Category</span>.
 
 1. Repeat the process for all categories used in the store.
+
+## Step 4: Translate product attributes and attributes options
+
+1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
+
+1. Select the attribute to be translated.
+
+1. Choose **Manage Label** on the left and set the **Managed Titles** options to define the attribute title translations.
+
+    ![]({% link images/images/manage-label-tab.png %}){: .zoom}
+    _Manage Titles_
+
+1. Choose **Properties** on the left and enter the translated attribute options in the **Manage Options** section.
+
+    ![]({% link images/images/manage-option-tab.png %}){: .zoom}
+    _Manage Options_
+
+1. When complete, click <span class="btn">Save Attribute</span>.

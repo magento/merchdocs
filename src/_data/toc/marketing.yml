@@ -663,7 +663,5 @@ pages:
       url: "/marketing/google-tag-manager-create-tag.html"
     - label: Enhanced Ecommerce
       url: "/marketing/google-enhanced-ecommerce.html"
-    - label: Troubleshooting Tools
-      url: "/marketing/google-tag-manager-troubleshooting.html"
   - label: Google Adwords
     url: "/marketing/google-adwords.html"
