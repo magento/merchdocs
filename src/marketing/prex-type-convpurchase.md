@@ -8,7 +8,7 @@ The _Conversion rate (purchase)_ recommends products with the highest purchase c
 
 ## How it works
 
-The _Conversion rate (purchase)_ recommendation type calculates the proportion of sessions with a product view that register a subsequent purchase event for the same SKU. Simply put, out of all the shopper sessions that viewed the product, what percentage ended up purchasing the product?
+The _Conversion rate (purchase)_ recommendation type calculates the proportion of sessions with a product view that register a subsequent purchase event for the same SKU in the last seven days. Simply put, out of all the shopper sessions that viewed the product, what percentage ended up purchasing the product?
 
 ### Where used
 
