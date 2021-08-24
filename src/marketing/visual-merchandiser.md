@@ -35,7 +35,7 @@ _Category Products Viewed as Tiles_
 1. When complete, click <span class="btn">Save Category</span>.
 
 {:.bs-callout-info}
-In a clean installation, Magento reserves the category ID 2 for the root catalog of the default store. Visual Merchandiser can use only categories with an ID number of 3 or greater.
+In a clean installation, Adobe Commerce reserves the category ID 2 for the root catalog of the default store. Visual Merchandiser can use only categories with an ID number of 3 or greater.
 
 ## Workspace Controls
 
