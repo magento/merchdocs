@@ -18,7 +18,7 @@ _Virtual Product_
 
 1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose **Virtual Product**.
 
-    ![]({% link images/images/21product-add-virtual.png %}){: .zoom}
+    ![]({% link catalog/assets/product-add-virtual.png %}){: .zoom}
     _Add Virtual Product_
 
 ## Step 2: Choose the attribute set

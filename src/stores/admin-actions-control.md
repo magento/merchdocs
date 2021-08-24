@@ -9,7 +9,7 @@ You can make as many changes as necessary, and then update the records in a sing
 
 The selection of available actions varies by list, and additional options might appear, depending on the action selected. For example, when changing the status of a group of records, a Status box appears next to the Actions control with additional options.
 
-![Catalog records - Change Status action]({% link images/images/actions-change-status.png %}){: .zoom}
+![Catalog records - Change Status action]({% link stores/assets/actions-change-status.png %}){: .zoom}
 _Applying an action to selected records_
 
 ## Step 1: Select records
@@ -35,7 +35,7 @@ The checkbox in the first column of the list identifies each record that is a ta
 
       The Update Attributes page lists all the available attributes, organized by group in the panel on the left.
 
-      ![Update Attributes page]({% link images/images/action-update-attributes.png %}){: .zoom}
+      ![Update Attributes page]({% link stores/assets/action-update-attributes.png %}){: .zoom}
       _Update Attributes_
 
    - Select the **Change** checkbox next to each attribute and make the necessary changes.

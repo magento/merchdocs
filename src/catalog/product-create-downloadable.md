@@ -22,7 +22,7 @@ Downloadable file names can include letters and numbers. Either a dash or unders
 
 1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose `Downloadable Product`.
 
-    ![]({% link images/images/21product-add-downloadable.png %}){: .zoom}
+    ![]({% link catalog/assets/product-add-downloadable.png %}){: .zoom}
     _Add Downloadable Product_
 
 ## Step 2: Choose the attribute set
@@ -198,7 +198,7 @@ If you are ready to publish the product in the catalog, set **Enable Product** t
 
    The store opens in a new browser tab.
 
-   ![]({% link images/images/admin-customer-view.png %}){: .zoom}
+   ![]({% link catalog/assets/admin-customer-view.png %}){: .zoom}
    _Customer View_
 
 - **Method 2: Save and Close**

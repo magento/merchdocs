@@ -7,7 +7,7 @@ Your store _Admin_ is the password-protected back office where you, as the merch
 
 For additional security, the _Admin_ login is protected by [two-factor authentication]({% link stores/security-two-factor-authentication.md %}), and can be configured to require a [CAPTCHA]({% link stores/security-captcha.md %}). To learn more, go to [Configuring Admin Security]({% link stores/security-admin.md %}).
 
-![Commerce Admin - Dashboard]({% link images/images/admin-menu-dashboard.png %}){: .zoom}
+![Commerce Admin - Dashboard]({% link stores/assets/admin-dashboard.png %}){: .zoom}
 _Admin Sidebar and Dashboard_
 
 Your initial [sign-in]({% link stores/admin-signin.md %}) credentials were set up during the Commerce installation. If you forget your password, a temporary password can be sent to the email address that is associated with the account. To increase security, configure your store to require a case-sensitive user name and strong password.
@@ -18,7 +18,7 @@ In addition to the default _Admin_ account, you can create as many [additional a
 
 The first time you log in to the _Admin_, you are asked to grant Adobe permission to collect usage data for all administrators. By allowing _Admin_ usage data collection, you help us improve the experience of using the Adobe Commerce _Admin_, and related products and services.
 
-![]({% link images/images/admin-menu-dashboard-usage-data.png %}){: .zoom}
+![]({% link stores/assets/admin-usage-data.png %}){: .zoom}
 _Allow admin usage data collection_
 
 Individual administrators are not identified in usage data. Your data collection setting can be changed at any time from the [Admin Usage]({% link configuration/advanced/admin.md %}#admin-usage) configuration.

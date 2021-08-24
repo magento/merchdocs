@@ -28,7 +28,7 @@ The following instructions take you through the process of creating a bundle pro
 
 1. In the upper-right corner on the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu, choose **Bundle Product**.
 
-    ![]({% link images/images/21product-add-bundle.png %}){: .zoom}
+    ![]({% link catalog/assets/product-add-bundle.png %}){: .zoom}
     _Add Bundle Product_
 
 ## Step 2: Choose the attribute set

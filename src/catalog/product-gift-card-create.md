@@ -112,7 +112,7 @@ Complete the information in the following sections as needed:
 
    - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu,
 
-    ![]({% link images/images/admin-customer-view.png %}){: .zoom}
+    ![]({% link catalog/assets/admin-customer-view.png %}){: .zoom}
     _Customer View_
 
    **Method 2: Save and Close**
