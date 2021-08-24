@@ -13,17 +13,60 @@ _Billing agreements_
 
 1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Billing Agreements**.
 
-1. Find the billing agreement in the list.
+1. Find the billing agreement in the list and click to open it.
 
-1. In the _Actions_ column, click **View**.
+## Billing Agreement View
 
-### Column descriptions
+Each billing agreement page consists of two tabs: _General Information_ and _Related Orders_.
+
+### General Information
+
+This tab includes the general information about the billing agreement:
+
+- Reference ID: A unique numeric identifier that is assigned to current billing agreement.
+- Customer: Customer's account assigned to current billing agreement.
+- Status: Payment agreement status.
+- Created At: Creation date.
+- Updated At: Update dae.
+
+![Billing Agreement View]({% link images/images/sales-billing-agreement-view.png %}){: .zoom}
+_Billing agreement general information_
+
+### Related Orders
+
+This tab displays the list of the orders placed using the current billing agreement.
+
+![Billing Agreement View]({% link images/images/sales-billing-agreement-related-orders-tab.png %}){: .zoom}
+_Billing agreement related orders tab_
+
+## Cancel a billing agreement
+
+1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Billing Agreements**.
+
+1. Find the billing agreement in the list and click to open it.
+
+1. In the top-right corner, click **Cancel**.
+
+1. To confirm the action, click **OK**.
+
+## Delete a billing agreement
+
+1. On the _Admin_ sidebar, go to  **Sales** > _Operations_ > **Billing Agreements**.
+
+1. Find the billing agreement in the list and click to open it.
+
+1. In the top-right corner, click **Delete**.
+
+1. To confirm the action, click **OK**.
+
+## Column descriptions
 
 |Column|Description|
 |--- |--- |
 |ID|A unique numeric identifier that is assigned to each billing agreement|
 |Email|A customer’s contact email|
-|First & Last Name|A customer’s first and last name|
+|First Name|A customer’s first name|
+|Last Name|A customer’s last name|
 |Reference ID|A unique, numeric reference identifier that is assigned to each billing agreement|
 |Status|Payment agreement status. Options: `Active` or `Canceled`|
 |Created|Creation date|

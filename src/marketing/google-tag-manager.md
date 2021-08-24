@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Google Tag Manager
+redirect_from:
+  - /marketing/google-tag-manager-troubleshooting.html
 ---
 
 Google Tag Manager helps you manage the many tags, or snippets of code, that are related to your marketing campaign events. Google Tag Manager gives you the ability to add tracking tags to your site to measure the audience, or to personalize, retarget, or conduct search engine marketing initiatives.
@@ -122,6 +124,28 @@ For additional information, see Google's [Container export and import][5]. These
 1. When complete, click <span class="btn">Save Config</span>.
 
 1. Test your Google Tag Manager settings to verify that everything works correctly.
+
+## Step 4. Add the GTM code to your Adobe Commerce store
+
+1. Copy the GTM code:
+
+   There are two GTM code snippets to be added to your Commerce site: the first one for the <head> tag and the and the second for the <body> tag.
+
+    ![Install Google Tag Manager]({% link images/images-ee/install-google-tag-manager.png %}){: .zoom}
+    _Google Tag Manager code_
+
+1. In the Commerce Admin, go to **Content** > _Design_ > **Configuration** and open the store view in edit mode.
+
+1. Under _Other Settings_, expand **HTML Head** and paste the code you copied from GTM for the <head> tag in the **Scripts and Style Sheets** field.
+
+    ![Install Google Tag Manager]({% link images/images-ee/head-tag.png %}){: .zoom}
+    _Inserting code in the HTML Head_
+
+1. Expand **Footer** and paste the GTM code for <body> in the **Miscellaneous HTML** field.
+    ![Install Google Tag Manager]({% link images/images-ee/footer-tag-section.png %}){: .zoom}
+    _Inserting code in the Footer_
+
+1. When complete, click <span class="btn">Save Configuration</span>.
 
 ## Field Descriptions
 
