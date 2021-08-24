@@ -23,7 +23,7 @@ For Multi Source merchants using Inventory Management, scroll down to the Source
     * To set a notification for inventory quantities, do one of the following:
 
     | Custom Notify Quantity | Clear the **Notify Quantity Use Default** checkbox and enter an amount in **Notify Quantity**. |
-    | Default Notify Quantity | Select the **Notify Quantity Use Default** checkbox. Magento checks and uses the setting in Advanced Inventory or global Store configuration. |
+    | Default Notify Quantity | Select the **Notify Quantity Use Default** checkbox. Commerce checks and uses the setting in Advanced Inventory or global Store configuration. |
     {:style="table-layout:auto"}
 
     ![]({% link images/images/inventory/inventory-product-quantities.png %}){: .zoom}

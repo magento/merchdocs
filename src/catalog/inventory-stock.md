@@ -6,7 +6,7 @@ Stock represents a virtual, aggregated inventory of products for sources of your
 
 You start with a Default Stock that cannot be removed or disabled. You can add additional sales channels to the stock only. The only assigned source is Default Source. This stock is used by Single Source Merchants, 3rd party integrations, and imported products.
 
-Sales Channels represent entities selling your inventory. By default, Magento provides your store websites as sales channels. Sales channels can be extended to support additional channels such as B2B customers groups and store views. Each sales channels can only be associated to one Stock.
+Sales Channels represent entities selling your inventory. By default, Commerce provides your store websites as sales channels. Sales channels can be extended to support additional channels such as B2B customers groups and store views. Each sales channels can only be associated to one Stock.
 
 - **Sales Channel Support** - Sales channels currently include websites out-of-the-box. You can extend sales channels to include custom options like B2B customers groups and store views. Each sales channel can only have a single stock assigned to it. A single stock can be assigned to multiple sales channels.
 - **Map to Sources** - Each stock can have one or more enabled or disabled sources assigned, calculating the virtual aggregated inventory per product.

@@ -54,7 +54,7 @@ Next, configure, add, or modify the email template for your price alert. You may
 
 1. Under _Load default template_, choose the **Template** that you want to customize.
 
-   This may be the alert template from your theme. Or you can select the `Price Alert` or `Stock Alert` templates under _Magento_PriceAlert_.
+   This may be the alert template from your theme. Or you can select the `Price Alert` or `Stock Alert` templates under *Magento_PriceAlert*.
 
 1. Click <span class="btn"> Load Template </span>.
 
@@ -65,6 +65,6 @@ Next, configure, add, or modify the email template for your price alert. You may
    |Template Subject|This text is displayed in the subject line of an email.|
    |Template Content|This text is displayed in the full content of the sent email.|
 
-1. To add generated information from Magento data, use the **Insert Variable** option to use a list of available variables.
+1. To add generated information from Commerce data, use the **Insert Variable** option to use a list of available variables.
 
 1. Click <span class="btn">Save Template</span>.
