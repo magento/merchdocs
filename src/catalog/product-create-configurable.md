@@ -92,13 +92,13 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. To assign Categories to the product, click the **Select…** box and do either of the following:
 
-   - **Choose an existing category:**
+   - Choose an existing category:
 
       - Start typing in the box to find a match.
 
       - Select the checkbox of the category that is to be assigned.
 
-   - **Create a new category:**
+   - Create a new category:
 
       - Click <span class="btn">New Category</span>.
 
@@ -172,7 +172,7 @@ Choose the configuration options that apply.
 
 Use one of the following methods to configure the **images**:
 
-- **_Method 1: Apply a single set of images to all SKUs_**
+- **Method 1:** Apply a single set of images to all SKUs
 
    1. Select **Apply single set of images to all SKUs**.
 
@@ -181,7 +181,7 @@ Use one of the following methods to configure the **images**:
    ![]({% link images/images/product-configurations-images-apply-single-set.png %}){: .zoom}
    _Use same images for all SKUs_
 
-- **_Method 2: Apply unique images for each SKU_**
+- **Method 2:** Apply unique images for each SKU
 
    Because we already uploaded an image for the parent product, we’ll use this option to upload an image of each color. This is the image that will appear in the shopping cart when someone buys the shirt in a specific color.
 
@@ -198,7 +198,7 @@ Use one of the following methods to configure the **images**:
 
 Use one of the following methods to configure the **prices**:
 
-- **_Method 1: Apply the same price to all SKUs_**
+- **Method 1:** Apply the same price to all SKUs
 
 1. If the price is the same for all variations, select **Apply single price to all SKUs**.
 
@@ -207,7 +207,7 @@ Use one of the following methods to configure the **prices**:
    ![]({% link images/images/product-configurable-create-configurations-price-all-skus.png %}){: .zoom}
    _Same price per SKU_
 
-- **_Method 2: Apply a different price for each SKU_**
+- **Method 2:** Apply a different price for each SKU
 
 1. If the price differs for each or for some variations of the product, select **Apply unique prices by attribute to each SKU**.
 
@@ -222,7 +222,7 @@ Use one of the following methods to configure the **prices**:
 
 Use one of the following methods to configure the **quantity**:
 
-- **_Method 1: Apply the same quantity to all SKUs_**
+- **_Method 1:** Apply the same quantity to all SKUs
 
 1. If the quantity is the same for all SKUs, select **Apply single quantity to each SKU**.
 
@@ -246,7 +246,7 @@ Use one of the following methods to configure the **quantity**:
    ![]({% link images/images/inventory/inventory-configure-product-quantity.png %}){: .zoom}
    _Same Quantity for All SKUs_
 
-- **_Method 2: Apply Different Quantity by Attribute_**
+- **Method 2:** Apply Different Quantity by Attribute
 
 1. If the quantity is the different for each SKU, select **Apply unique quantity by attribute to each SKU**.
 
@@ -303,7 +303,7 @@ Scroll down and complete the information in the following sections as needed:
 
 1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` and do one of the following:
 
-   - **Method 1: Save and preview**
+   - **Method 1:** Save and preview
 
       - In the upper-right corner, click <span class="btn">Save</span>.
 
@@ -314,7 +314,7 @@ Scroll down and complete the information in the following sections as needed:
       ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
       _Customer View_
 
-   - **Method 2: Save and close**
+   - **Method 2:** Save and close
 
       On the _Save_ (![]({% link images/images/btn-dropdown.png %})) menu, choose **Save & Close**.
 

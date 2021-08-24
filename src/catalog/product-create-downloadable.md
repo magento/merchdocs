@@ -83,13 +83,13 @@ _Choose Attribute Set_
 
 1. To assign Categories to the product, click the **Select…** box and do either of the following:
 
-   - **Choose an existing category:**
+   - Choose an existing category:
 
       - Start typing in the box to find a match.
 
       - Select the checkbox of each category that is to be assigned.
 
-   - **Create a new category:**
+   - Create a new category:
 
       - Click <span class="btn">New Category</span>.
 
@@ -190,7 +190,7 @@ Scroll down and complete the information in the following sections as needed:
 
 If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` and do one of the following:
 
-- **Method 1: Save and Preview**
+- **Method 1:** Save and Preview
 
    - In the upper-right corner, click <span class="btn">Save</span>.
 
@@ -201,7 +201,7 @@ If you are ready to publish the product in the catalog, set **Enable Product** t
    ![]({% link catalog/assets/admin-customer-view.png %}){: .zoom}
    _Customer View_
 
-- **Method 2: Save and Close**
+- **Method 2:** Save and Close
 
    On the _Save_ ( ![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
