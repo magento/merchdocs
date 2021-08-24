@@ -29,3 +29,15 @@ _Price scope_
    *Catalog Price Scope*
 
 1. When complete, click <span class="btn">Save Config</span>.
+
+## How to setup different prices for same product?
+
+Magento does not allow to set a price for each store. To change the price per website basis follow below step:
+
+1. On the _Admin_ menu, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **Catalog** and choose **Catalog**.
+
+1. Then in the tab **Price**, set price scope to `Website` instead of global.
+
+1. To set the price open the product edit page and select the scope on the upper left side and then enter a new price per website.
