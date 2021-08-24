@@ -26,9 +26,9 @@ The [payment method]({% link payment/payments.md %}) for the order---account cre
 |Column|Description|
 |--- |--- |
 |Select|Select the checkbox to select the Credit Memo item(s) to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All|
-|Credit Memo|A unique numeric identifier that is assigned when a request for a Credit Memo is submitted of a buyer.|
+|Credit Memo|A unique numeric identifier that is assigned when a request for a Credit Memo is submitted.|
 |Created|The date and time the buyer first submitted the request for a Credit Memo.|
-|Order#|Order ID of the order whose products are to be returned.|
+|Order#|Order ID of the order whose products are being returned.|
 |Order Date|The date and time the buyer placed an order.|
 |Bill-to Name|The name of the person who is responsible to pay for the order.|
 |Status|Indicates the current state of a Credit Memo request.|
