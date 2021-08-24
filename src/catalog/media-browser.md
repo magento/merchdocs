@@ -18,4 +18,4 @@ _Image Zoom_
 
 ## Light boxes and sliders
 
-There are many third-party light boxes and sliders that you can use to enhance the presentation of your product images. Look for extensions in [Magento Marketplace]({% link magento/magento-marketplace.md %}).
+There are many third-party light boxes and sliders that you can use to enhance the presentation of your product images. Look for extensions in [Commerce Marketplace]({% link magento/magento-marketplace.md %}).

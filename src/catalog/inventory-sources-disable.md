@@ -2,7 +2,7 @@
 title: Disabling Sources
 ---
 
-Sources may not be deleted to ensure all order data retains in Magento. Sources, orders, and shipments are directly connected to each other. You can disable sources and modify information including location and point of contact.
+Sources may not be deleted to ensure all order data retains in Commerce. Sources, orders, and shipments are directly connected to each other. You can disable sources and modify information including location and point of contact.
 
 Depending on the status of your locations, you may need to disable a source. A disabled source retains all assignments per stocks and products but is not accessed for inventory and orders.
 
@@ -12,7 +12,7 @@ When a source is disabled:
 - Stocks do not access inventory quantities from the source for aggregated inventory totals.
 - Order shipments cannot be assigned to disabled locations.
 
-You cannot disable the Default Source. Magento uses this source for all new, imported products, for bundle products, and for third-party system support. You can enable or disable custom sources at any time.
+You cannot disable the Default Source. Commerce uses this source for all new, imported products, for bundle products, and for third-party system support. You can enable or disable custom sources at any time.
 
 Setting a source to `disabled` is helpful for the following situations:
 
