@@ -9,12 +9,12 @@ Google Tag Manager helps you manage the many tags, or snippets of code, that are
 
 Google Tag Manager directly transfers data and events to Google Analytics, Enhanced Ecommerce and other third-party analytics solutions, to produce a clear picture of how well your site, products, and promotions are performing.
 
-You should have a Google Analytics and Tag Manager account to continue this process. The following instructions walk you through the process of configuring your Google accounts, configuring your Magento store, and creating a tag.
+You should have a Google Analytics and Tag Manager account to continue this process. The following instructions walk you through the process of configuring your Google accounts, configuring your Commerce store, and creating a tag.
 
 {: .bs-callout .bs-callout-info}
 If your business is subject to privacy regulations such as the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}) and/or the [California Consumer Privacy Act]({% link stores/compliance-ccpa.md %}), see [Google Privacy Settings]({% link stores/compliance-privacy-google.md %}).
 
-## Step 1. Configure Your Google Analytics Account
+## Step 1. Configure your Google Analytics account
 
 See Google's [Set up Site Search][7] for the basics you need to get started. Also see the Google guides for [Google Analytics][1] and [Google Tag Manager][2].
 
@@ -53,7 +53,7 @@ See Google's [Set up Site Search][7] for the basics you need to get started. Als
     {:.bs-callout-info}
     If not all settings are `On`, repeat the previous steps, save, and reload the page. Repeat this process until all settings are set to `On`.
 
-## Step 2. Configure Your Google Tag Manager Account
+## Step 2. Configure your Google Tag Manager account
 
 The following instructions show how to configure a new container with the basic settings. A sample [Composer][4] configuration (.json) file is used to simplify the process, importing to generate a tag in a new container. For this example, we recommend that you create a new container, rather than modify an existing container.
 
@@ -98,9 +98,9 @@ For additional information, see Google's [Container export and import][5]. These
 
 1. Follow Google’s instructions to publish the new container.
 
-## Step 3. Configure Your Store
+## Step 3. Configure your store
 
-1. Log in to the Admin of your Magento store.
+1. Log in to the Admin of your Commerce store.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -147,7 +147,7 @@ For additional information, see Google's [Container export and import][5]. These
 
 1. When complete, click <span class="btn">Save Configuration</span>.
 
-## Field Descriptions
+## Field descriptions
 
 |Field|Scope|Description|
 |--- |--- |--- |
