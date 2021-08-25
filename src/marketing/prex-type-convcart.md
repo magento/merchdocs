@@ -8,7 +8,7 @@ The _Conversion rate (add-to-cart)_ recommends products with the highest add-to-
 
 ## How it works
 
-The _Conversion rate (add-to-cart)_ recommendation type calculates the proportion of sessions with a product view that register a subsequent add-to-cart event for the same SKU in the last seven days. Simply put, out of all the shopper sessions that viewed the product, what percentage ended up adding that product to their cart?
+The _Conversion rate (add-to-cart)_ recommendation type calculates the proportion of sessions with a product view that register a subsequent add-to-cart event for the same SKU in the last seven days. Simply put, out of all the shopper sessions that viewed the product, what percentage added that product to their cart?
 
 ### Where used
 

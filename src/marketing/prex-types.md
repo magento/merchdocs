@@ -15,8 +15,8 @@ Adobe Commerce provides the following types of recommendations:
 
 ## Popularity-based
 
-- [Conversion rate (add-to-cart)]({% link marketing/prex-type-convcart.md %}) - Recommends products with the highest add-to-cart conversion rate. Simply put, out of all the shopper sessions that viewed the product, what percentage ended up adding that product to their cart?
-- [Conversion rate (purchase)]({% link marketing/prex-type-convpurchase.md %}) - Recommends products with the highest purchase conversion rate. Simply put, out of all the shopper sessions that viewed the product, what percentage ended up purchasing the product?
+- [Conversion rate (add-to-cart)]({% link marketing/prex-type-convcart.md %}) - Recommends products with the highest add-to-cart conversion rate. Simply put, out of all the shopper sessions that viewed the product, what percentage added that product to their cart?
+- [Conversion rate (purchase)]({% link marketing/prex-type-convpurchase.md %}) - Recommends products with the highest purchase conversion rate. Simply put, out of all the shopper sessions that viewed the product, what percentage purchased the product?
 - [Most added to cart]({% link marketing/prex-type-mostaddcart.md %}) - Recommends items most frequently added to carts by shoppers within the last seven days
 - [Most purchased]({% link marketing/prex-type-mostpurchase.md %}) - Recommends items most purchased by shoppers within the last seven days
 - [Most viewed]({% link marketing/prex-type-mostviewed.md %}) - Recommends items most viewed by shoppers within the last seven days
@@ -29,4 +29,4 @@ Adobe Commerce provides the following types of recommendations:
 
 ## Personalized shopper-based
 
-- [Recommended for you]({% link marketing/prex-type-rcmdforyou.md %}) - Recommends items based on each shopper's current and previous on site behavior
+- [Recommended for you]({% link marketing/prex-type-rcmdforyou.md %}) - Recommends items based on each shopper's current and previous on-site behavior
