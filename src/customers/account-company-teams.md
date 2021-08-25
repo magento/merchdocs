@@ -5,7 +5,7 @@ title: Creating Company Teams
 
 The structure of a company account should reflect the purchasing organization, whether it is simple and flat or a complex organization with different teams for each subdivision and division of the company.
 
-If your Magento installation is [configured]({% link stores/b2b-features.md %}) to allow companies to manage their own accounts, setting up the company structure is one of the first tasks for a company administrator to complete after the account is approved. In the company account, the structure of the company is represented as a tree with the company administrator at the top.
+If your installation is [configured]({% link stores/b2b-features.md %}) to allow companies to manage their own accounts, setting up the company structure is one of the first tasks for a company administrator to complete after the account is approved. In the company account, the structure of the company is represented as a tree with the company administrator at the top.
 
 ![]({% link images/images-b2b/diagram-company-structure-teams.png %}){: .zoom}
 _Company Structure with Teams_
