@@ -42,7 +42,7 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
 
    - {:.ee-only}Do one of the following:
 
-      **Schedule New Update**
+      **Option 1:** Schedule a new update
 
       - Click <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
 
@@ -58,7 +58,7 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
         ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
         _Scheduled Change_
 
-      **Assign to Existing Update**
+      **Option 2:** Assign to an existing update:
 
       - Select **Assign to Another Update**.
 
