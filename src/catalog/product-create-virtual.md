@@ -18,7 +18,7 @@ _Virtual Product_
 
 1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose **Virtual Product**.
 
-    ![]({% link images/images/21product-add-virtual.png %}){: .zoom}
+    ![]({% link catalog/assets/product-add-virtual.png %}){: .zoom}
     _Add Virtual Product_
 
 ## Step 2: Choose the attribute set
@@ -73,13 +73,13 @@ _Choose Attribute Set_
 
 1. To assign **Categories** to the product, click the **Select…** box and do either of the following:
 
-   - **Choose an existing category:**
+   - Choose an existing category:
 
       - Start typing in the box to find a match.
 
       - Select the checkbox of the category that is to be assigned.
 
-   - **Create a new category:**
+   - Create a new category:
 
       - Click <span class="btn">New Category</span>.
 
@@ -110,7 +110,7 @@ Complete the information in the following sections as needed:
 
 1. Do one of the following:
 
-   - **Method 1: Save and Preview**
+   - **Method 1:** Save and Preview
 
       - At the upper-right corner, click <span class="btn">Save</span>.
 
@@ -121,7 +121,7 @@ Complete the information in the following sections as needed:
       ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
       _Customer View_
 
-   - **Method 2: Save and Close**
+   - **Method 2:** Save and Close
 
       On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
