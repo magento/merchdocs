@@ -9,7 +9,7 @@ The lifetime of a customer shopping session is determined by several factors, in
 
 If [Persistent Cart]({% link sales/cart-persistent.md %}) is enabled, the cart contents are saved for the next time customers sign into their accounts. When using a persistent cart, it is recommended that you set the lifetime of the server session and the session cookie to a long period of time.
 
-On the server, the length of the session is controlled by `php.ini`, and several variables. At this time, Magento does not have an Admin configuration setting that controls the length of the server session.
+On the server, the length of the session is controlled by `php.ini`, and several variables. At this time, Adobe Commerce does not have an Admin configuration setting that controls the length of the server session.
 
 ## Configure the cookie lifetime
 
