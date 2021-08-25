@@ -2,7 +2,7 @@
 title: Using the Default Theme
 ---
 
-The _Magento Blank_ responsive theme renders the display of your storefront for different devices and incorporates best practices for desktop, table, and mobile devices. Some themes are designed to be used only with specific devices. When Magento detects a specific browser ID, or user agent, it uses the theme that is configured to be used for the specific browser. The search string can also include Perl-Compatible Regular Expressions (PCRE). To learn more, see [User Agent][1].
+The _Magento Blank_ responsive theme renders the display of your storefront for different devices and incorporates best practices for desktop, table, and mobile devices. Some themes are designed to be used only with specific devices. When Commerce detects a specific browser ID, or user agent, it uses the theme that is configured to be used for the specific browser. The search string can also include Perl-Compatible Regular Expressions (PCRE). To learn more, see [User Agent][1].
 
 ![]({% link images/images/themes.png %}){: .zoom}
 _Themes_

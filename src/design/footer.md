@@ -24,5 +24,5 @@ _Footer configuration settings_
 |Field|Scope|Description|
 |--- |--- |--- |
 |Miscellaneous HTML|Store View|An input box where you can upload miscellaneous scripts to the server that must be placed just before the closing `<body>` tag.|
-|Copyright|Store View|The copyright statement that appears at the bottom of each page. To include the copyright symbol, use the HTML character entity `\&copy;` as follows: `\&copy; 2020 Magento Demo Store. All Rights Reserved.` Make sure to replace the sample copyright notice with your own.|
+|Copyright|Store View|The copyright statement that appears at the bottom of each page. To include the copyright symbol, use the HTML character entity `\&copy;` as in the following: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Make sure to replace the sample copyright notice with your own.|
 |Display Report Bugs Link|Store View|Allows the bug report link (supported for some themes) to be enabled or disabled.|

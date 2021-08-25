@@ -42,11 +42,11 @@ _Facebook Plugins_
 
 1. If your Magento installation has multiple store views, choose each **Store View** where the block is to be available.
 
-1. Add the code snippet to the block content:
+1. Add the code snippet to the block content, depending on your content tool:
 
-   - {:.ee-only}If using Page Builder, add an [HTML Code]({% link cms/page-builder-elements-html-code.md %}) block to the stage and paste the snippet of code that you copied from the Facebook site. Otherwise, paste the snippet of code into the **Content** box.
+   - If using Page Builder, add an [HTML Code]({% link cms/page-builder-elements-html-code.md %}) block to the stage and paste the snippet of code that you copied from the Facebook site. Otherwise, paste the snippet of code into the **Content** box.
 
-   - {:.ce-only}Paste the snippet of code that you copied from the Facebook site into the **Content** box.
+   - With the editor, paste the snippet of code that you copied from the Facebook site into the **Content** box.
 
 1. If the block is not ready to go live, set **Enable Block** to `No`.
 
@@ -54,11 +54,11 @@ _Facebook Plugins_
 
 ## Step 3. Place the Block
 
-1. Add the block.
+1. Add the block, depending on your content tool:
 
-   - {:.ee-only}If using Page Builder, follow the instructions to [add the block]({% link cms/page-builder-add-content-block.md %}) to the stage. Otherwise, on the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
+   - If using Page Builder, follow the instructions to [add the block]({% link cms/page-builder-add-content-block.md %}) to the stage.
 
-   - {:.ce-only}On the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
+   - Otherwise, on the _Admin_ sidebar, go to **Content** > _Elements_ > **Widgets**.
 
 1. In the upper-right corner, click **Add Widget** and do the following:
 

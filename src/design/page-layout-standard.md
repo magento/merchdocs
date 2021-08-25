@@ -32,6 +32,6 @@ The _3 Column_ layout has a center column that is wide enough for the main text 
 
 ![]({% link images/images/layout-blank-th.png %})
 
-The _Empty_ layout can be used to define custom page layouts. To learn more, see the [Designer’s Guide to Magento][1].
+The _Empty_ layout can be used to define custom page layouts. To learn more, see the [Designer’s Guide][1].
 
 [1]: https://info2.magento.com/rs/magentosoftware/images/magentodesignguide.pdf
