@@ -3,7 +3,7 @@ ee_only: true
 title: Configuring Invitations
 ---
 
-The invitation configuration enables invitations for the store, and determines how they are sent.
+The invitation configuration enables invitations for the store and determines how they are sent.
 
 ## Configure Invitations
 

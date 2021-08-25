@@ -60,7 +60,7 @@ To configure, select configurations and complete additional steps such as the Go
 
 ### Custom algorithms
 
-Magento supports custom development and extensions to add alternative algorithms to prioritize sources. For example, you can have one priority algorithm based upon geography and another based upon expense of stock or a customer attribute. When the cost of stock changes, your implementation can easily change algorithms to ensure the lowest cost.
+Commerce supports custom development and extensions to add alternative algorithms to prioritize sources. For example, you can have one priority algorithm based upon geography and another based upon expense of stock or a customer attribute. When the cost of stock changes, your implementation can easily change algorithms to ensure the lowest cost.
 
 ## Reservations
 
@@ -74,13 +74,13 @@ The following diagram helps define the process of reservations during an order a
 
 ![]({% link images/images/inventory/inventory-diagram-qty.png %})
 
-A customer submits an order. Magento checks the current inventory salable quantity. If enough inventory is available at the stock level, a reservation enters placing a temporary hold for the product SKU (for that stock) and recalculates the salable quantity.
+A customer submits an order. Commerce checks the current inventory salable quantity. If enough inventory is available at the stock level, a reservation enters placing a temporary hold for the product SKU (for that stock) and recalculates the salable quantity.
 
 After invoicing the order, you determine the product amounts to deduct and ship from your sources. The shipment is processed and sent from the selected source(s) to the customer. The quantities automatically deduct from the source inventory quantity and reservations clear. For complete details and examples, see [About Order Status and Reservations]({% link catalog/inventory-about-order-status-reservation.md %}).
 
 ### Updating reservations
 
-As changes complete in orders and product amounts, Magento automatically enters reservation compensations. You do not need to enter compensations through the Admin or code to update or clear these holds. Reservations are only affected by entered reservations to put a hold on a quantity or to clear a hold amount (compensating the reservations).
+As changes complete in orders and product amounts, Commerce automatically enters reservation compensations. You do not need to enter compensations through the Admin or code to update or clear these holds. Reservations are only affected by entered reservations to put a hold on a quantity or to clear a hold amount (compensating the reservations).
 
 Here is how they work:
 
