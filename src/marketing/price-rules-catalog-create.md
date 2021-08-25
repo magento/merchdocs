@@ -10,7 +10,7 @@ Follow these instructions to apply a discount to specific products whenever a se
 
 1. In the upper-right corner, click <span class="btn">Add New Rule</span>.
 
-   The Rule Information section includes expandable sections for Conditions and Actions.
+   The ****Rule Information** section includes expandable sections for **Conditions** and **Actions**.
 
    ![Catalog price rule - information]({% link images/images-ee/price-rule-catalog-new-ee.png %}){: .zoom}
    _Rule Information_{:.ee-only}
@@ -183,7 +183,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 
 1. Test the rule to make sure that it works correctly.
 
-   Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Magento recalculates the prices and the priorities accordingly.
+   Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Commerce recalculates the prices and the priorities accordingly.
 
 ## Field descriptions
 
