@@ -252,7 +252,7 @@ _Discount Label in Totals Section of Order_
 
 1. Test the rule to make sure that it works correctly.
 
-    Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Magento recalculates the prices and the priorities accordingly.
+    Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Commerce recalculates the prices and the priorities accordingly.
 
 ## Field Descriptions
 
