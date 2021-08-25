@@ -2,28 +2,28 @@
 title: Adobe Stock Integration
 ---
 
-Merchants can integrate [Adobe Stock][adobe-stock] with Magento giving them access to countless media assets for use in their stores.
+Merchants can integrate [Adobe Stock][adobe-stock] with Commerce giving them access to countless media assets for use in their stores.
 
 ![Adobe Stock Search Results]({% link images/images/adobe-stock/search-grid.png %}){: .zoom}
 
-The Adobe Stock service provides businesses with access to millions of high-quality, curated, royalty-free photos, vectors, illustrations, videos, templates, and 3D assets for all their creative projects. Magento users are able to quickly find, preview, and license Adobe Stock assets. Users can also save them to the
-[Media Storage][media-storage], all without leaving the Magento Admin workspace.
+The Adobe Stock service provides businesses with access to millions of high-quality, curated, royalty-free photos, vectors, illustrations, videos, templates, and 3D assets for all their creative projects. Commerce users are able to quickly find, preview, and license Adobe Stock assets. Users can also save them to the
+[Media Storage][media-storage], all without leaving the Commerce Admin workspace.
 
 ## Prerequisites
 
 This integration requires:
 
 - An [adobe.io Console][io-console] account
-- Magento 2.3.4 or newer
+- Adobe Commerce or Magento Open Source, 2.3.4 or newer
 
 Licensing Adobe Stock images requires:
 
 - An [Adobe account][adobe-signin]
 - A paid [Adobe Stock][adobe-stock] plan associated with the account
 
-## Integrate Magento and Adobe Stock
+## Integrate Commerce and Adobe Stock
 
-Configuring the Adobe Stock integration for Magento is a two-step process: [create an adobe.io integration][create-integration] to generate an API Key, and then [configure the Adobe Stock integration in your Magento Admin][configure].
+Configuring the Adobe Stock integration for Commerce is a two-step process: [create an adobe.io integration][create-integration] to generate an API Key, and then [configure the Adobe Stock integration in your Commerce Admin][configure].
 
 ### Create an Adobe.io integration
 
@@ -41,8 +41,8 @@ Configuring the Adobe Stock integration for Magento is a two-step process: [crea
 
    The default redirect URI is in the form `${HOST}/${ADMIN_URI}/adobe_ims/oauth/callback/`, such as `https://store.myshop.com/admin_hgkq1l/adobe_ims/oauth/callback/`, where:
 
-   - `${HOST}` is your Magento fully qualified domain name (i.e., `https://store.myshop.com`).
-   - `${ADMIN_URI}` is your Magento Admin URI (such as `admin_hgkq1l`), which can be retrieved by running `magento info:adminuri`.
+   - `${HOST}` is your Commerce fully qualified domain name (i.e., `https://store.myshop.com`).
+   - `${ADMIN_URI}` is your Commerce Admin URI (such as `admin_hgkq1l`), which can be retrieved by running `magento info:adminuri`.
 
 1. Specify the **Redirect URI pattern**, which is the same as your redirect URI with two differences:
 
@@ -59,7 +59,7 @@ Configuring the Adobe Stock integration for Magento is a two-step process: [crea
 
 ### Configure the Adobe Stock integration
 
-Use the **API Key** and **Client secret** generated in the [previous section][create-integration] to set the system configuration in your Magento Admin.
+Use the **API Key** and **Client secret** generated in the [previous section][create-integration] to set the system configuration in your Commerce Admin.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
