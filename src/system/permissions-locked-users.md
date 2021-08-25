@@ -6,7 +6,7 @@ For the security of your business, user accounts are locked by default after six
 
 Additional password security measures can be implemented in the [Advanced Admin]({% link configuration/advanced/admin.md %}) configuration. See [Admin Security]({% link stores/security-admin.md %}).
 
-![Login screen alert - account is temporarily disabled]({% link images/images/admin-login-locked-out-message.png %}){: .zoom}
+![Login screen alert - account is temporarily disabled]({% link system/assets/admin-login-locked-out-message.png %}){: .zoom}
 _Admin Account Disabled_
 
 ### Unlock an Admin account

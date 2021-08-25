@@ -108,7 +108,7 @@ In the storefront, a customer can create a wish list from their account dashboar
 
     The message is sent from your primary [store contact]({% link stores/store-email-addresses.md %}) and includes a thumbnail image of each product, with links to your store.
 
-    ![]({% link images/images/account-dashboard-wishlist-sharing-email.png %}){: .zoom}
+    ![]({% link customers/assets/account-dashboard-wishlist-sharing-email.png %}){: .zoom}
     _Shared Wish List Email_
 
 {:.ee-only}

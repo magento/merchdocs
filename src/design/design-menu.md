@@ -6,7 +6,7 @@ Magento provides a variety of easy-to-use design options that you can use to mak
 
 More advanced users appreciate the flexibility of working with an object-oriented environment that assembles pages from separate components. After you understand the basics, you will appreciate working in such a flexible and fluid environment. To learn more, see the [Frontend Developer Guide][1].
 
-![]({% link images/images/admin-menu-content-design.png %}){: .zoom}
+![]({% link design/assets/content-design-menu.png %}){: .zoom}
 _Design sub-menu_
 
 ## Display the Design sub-menu

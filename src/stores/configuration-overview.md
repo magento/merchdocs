@@ -6,7 +6,7 @@ The online [Configuration Reference]({% link stores/configuration.md %}) has fie
 
 ## Configuration Tabs
 
-![Magento Admin - configuration]({% link images/images/admin-menu-stores-configuration.png %}){: .zoom}
+![Magento Admin - configuration]({% link stores/assets/admin-menu-stores-configuration.png %}){: .zoom}
 _Configuration_
 
 ### General

@@ -5,7 +5,7 @@ group: getting-started
 
 Use the magnifying glass icon in the header of the _Admin_ to find any record in the database. The results can include customers, products, orders, or any related attribute. For example, if you enter a customer name, the results might include the customer record as well as any orders that are associated with the name.
 
-![Commerce Admin - Global search tool]({% link images/images/admin-search.png %}){: .zoom}
+![Commerce Admin - Global search tool]({% link stores/assets/admin-search.png %}){: .zoom}
 _Search_
 
 ## Find a match
