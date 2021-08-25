@@ -9,7 +9,7 @@ The **Now Online** option on the Customers menu lists all customers and visitors
 
 The online status of customers is updated only upon customer login, registration, or any other state-changing event, i.e. cart-related events such as adding, removing, modifying products, etc.
 
-Page visits alone will not update the customer's online status. To collect such information, it is recommended to [set up Google Analytics]({% link marketing/google-universal-analytics.md %}) (alone or via [Google Tag Manager]({% link marketing/google-tag-manager.md %})) or use other analytics software with Magento.
+Page visits alone will not update the customer's online status. To collect such information, it is recommended to [set up Google Analytics]({% link marketing/google-universal-analytics.md %}) (alone or via [Google Tag Manager]({% link marketing/google-tag-manager.md %})) or use other analytics software with Adobe Commerce.
 
 ## See all customers currently online
 

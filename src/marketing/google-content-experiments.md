@@ -2,21 +2,21 @@
 title: Google Content Experiments
 ---
 
-The following example shows how to set up an A/B test of products, categories, or content pages using Google Analytics Content Experiments. We recommend that you keep two browser tabs open while working through the instructions, because you will need to bounce back and forth between the Magento Admin and your Google Analytics account.
+The following example shows how to set up an A/B test of products, categories, or content pages using Google Analytics Content Experiments. We recommend that you keep two browser tabs open while working through the instructions, because you will need to bounce back and forth between the Commerce Admin and your Google Analytics account.
 
 {:.bs-callout-info}
 Google Content Experiments has been deprecated and will eventually be replaced by [Google Optimize][1].
 
-## Step 1. Enable Content Experiments (Magento)
+## Step 1. Enable content experiments (Commerce)
 
-1. Log in to the Admin of your Magento installation.
+1. Log in to the Admin of your Commerce installation.
 
-1. Follow the instructions to enable [Google Analytics]({% link marketing/google-universal-analytics.md %}) with Content Experiments in the Magento configuration.
+1. Follow the instructions to enable [Google Analytics]({% link marketing/google-universal-analytics.md %}) with Content Experiments in the Commerce configuration.
 
     ![Sales configuration - Google Analytics]({% link images/images-ee/config-sales-google-api-google-analytics-content-experiments.png %}){: .zoom}
     _[Enable Content Experiments]({% link marketing/google-universal-analytics.md %})_{:.ee-only}
 
-## Step 2. Set Up the Variations (Magento)
+## Step 2. Set up the variations (Commerce)
 
 Create multiple variations of the same product, category, or page.
 
@@ -25,7 +25,7 @@ Create multiple variations of the same product, category, or page.
 
 You can create up to ten variations of each entity that you want to test. For products, use [Save & Duplicate]({% link catalog/product-workspace.md %}) to save time.
 
-## Step 3. Set Up the Experiment (Google)
+## Step 3. Set up the experiment (Google)
 
 {:.bs-callout-info}
 You must have the appropriate permissions to the Google account to create an experiment.
@@ -34,11 +34,11 @@ You must have the appropriate permissions to the Google account to create an exp
 
 1. In the sidebar on the left, choose **Admin**. Then, do one of the following:
 
-   **Choose an Existing View**
+   **Method 1:** Choose an Existing View
 
    In the header of the **View** column, click the **down arrow**, and choose the view that is to provide the data for the experiment.
 
-   **Create a New Reporting View**
+   **Method 2:** Create a New Reporting View
 
    - In the header of the **View** column, click <span class="btn">Create View</span>. Then, do the following:
 
@@ -65,9 +65,9 @@ You must have the appropriate permissions to the Google account to create an exp
 
 1. When the experiment is set up, click <span class="btn">Manually Insert the Code</span>. Then, copy the code snippet.
 
-## Step 4. Paste Code Snippet (Magento)
+## Step 4. Paste code snippet (Commerce)
 
-1. Return to the Admin of your Magento installation. Then, open the original version of the product, category, or page in edit mode.
+1. Return to the Admin of your Commerce installation and open the original version of the product, category, or page in edit mode.
 
 1. Expand the **View Optimization** section for the product, category, or page.
 
@@ -81,7 +81,7 @@ You must have the appropriate permissions to the Google account to create an exp
 
 1. When complete, click <span class="btn">Save</span>.
 
-## Step 5: Review and Start the Experiment (Google)
+## Step 5: Review and start the experiment (Google)
 
 1. Return to your [Google Analytics][2] account.
 

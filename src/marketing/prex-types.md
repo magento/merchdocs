@@ -3,7 +3,7 @@ ee_only: true
 title: Recommendation Types
 ---
 
-Magento provides the following types of recommendations:
+Adobe Commerce provides the following types of recommendations:
 
 - [Most viewed]({% link marketing/prex-type-mostviewed.md %}) - Recommends items most viewed by shoppers within the last seven days
 - [Most purchased]({% link marketing/prex-type-mostpurchase.md %}) - Recommends items most purchased by shoppers within the last seven days

@@ -6,7 +6,7 @@ Catalog price rules can be used to offer products to buyers at a discounted pric
 
 For example, you can define and set the conditions for a price rule that when met, automatically display products with a special or promotional price. Defined rule properties might include customer groups, product categories, a discount amount or percentage, product color, product size, or just about any product attribute set up in your store. You can set start and end dates for a price rule that automatically start and stop a promotion on the dates you define in the rule. The properties of a saved rule can be updated or modified as needed.
 
-- {:.ee-only}In Magento Commerce, you can also link a defined rule to a [dynamic block]({% link cms/dynamic-blocks.md %}) to help promote the event or product in your store.
+- {:.ee-only}In Adobe Commerce, you can also link a defined rule to a [dynamic block]({% link cms/dynamic-blocks.md %}) to help promote the event or product in your store.
 
 - {:.ce-only}For recurring promotions in Magento Open Source, you can manually set a saved rule to Active or Inactive status each time you want to run the promotion.
 
