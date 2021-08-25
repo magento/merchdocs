@@ -14,7 +14,7 @@ The Adobe Stock service provides businesses with access to millions of high-qual
 This integration requires:
 
 - An [adobe.io Console][io-console] account
-- Adobe Commerce or Magento Open Source, 2.3.4 or newer
+- Adobe Commerce or Magento Open Source, 2.3.4 or later
 
 Licensing Adobe Stock images requires:
 
