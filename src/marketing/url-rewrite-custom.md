@@ -2,14 +2,14 @@
 title: Custom URL Rewrites
 ---
 
-A custom rewrite can be used to manage miscellaneous redirects, such as redirecting a page from your store to an external website. For example, you might have two Magento websites, each with their own domain. You can use a custom redirect to reroute requests for a product, category, or page to the other website. Unlike other redirect types, the target of a custom redirect is not chosen from a list of existing pages in your store.
+A custom rewrite can be used to manage miscellaneous redirects, such as redirecting a page from your store to an external website. For example, you might have two Commerce websites, each with their own domain. You can use a custom redirect to reroute requests for a product, category, or page to the other website. Unlike other redirect types, the target of a custom redirect is not chosen from a list of existing pages in your store.
 
 Before you begin, make sure that you understand exactly what the redirect is to accomplish. Think in terms of _target_ / _source_ or _redirect to_ / _redirect from_. Although people might still navigate to the former page from search engines or outdated links, the redirect causes your store to switch to the new target.
 
 ![URL rewrites - custom]({% link images/images/url-rewrite-custom.png %}){: .zoom}
 _Add URL Rewrite_
 
-## Step 1. Plan the Rewrite
+## Step 1. Plan the rewrite
 
 To avoid mistakes, write down the URL of the _redirect to_ page and the URL key of the _redirect from_ page.
 
@@ -29,7 +29,7 @@ Redirect from:
     product.html
     category/product.html
 
-## Step 2. Create the Rewrite
+## Step 2. Create the rewrite
 
 1. On the _Admin_ sidebar, go to **Marketing** > _SEO & Search_ > **URL Rewrites**.
 
@@ -78,7 +78,7 @@ Redirect from:
     ![Custom URL rewrite - saved]({% link images/images/url-rewrite-cms-page-saved.png %}){: .zoom}
     _Saved URL Rewrite_
 
-## Step 3. Test the Result
+## Step 3. Test the result
 
 1. Go to the home page of your store.
 
@@ -89,7 +89,7 @@ Redirect from:
 
     The new target page appears instead of the original page request.
 
-## Field Descriptions
+## Field descriptions
 
 |Create URL Rewrite|Indicates the type of rewrite. The type cannot be changed after the rewrite is created. Options: Custom / For category / For product / For CMS page|
 |Request Path|The CMS page that is to be redirected. The Request Path must be unique, and cannot be in use by another redirect. If you receive an error message that the Request Path already exists, delete the existing redirect and try again.|
