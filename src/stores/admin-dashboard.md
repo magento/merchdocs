@@ -10,7 +10,7 @@ If you have a lot of data to process, the chart can be turned off to improve per
 ![]({% link images/images/dashboard-full.png %}){: .zoom}
 _Dashboard_
 
-Advanced Reporting displays a personalized dashboard based on your product, order, and customer data. For more extensive analysis, see [Adobe Commerce Reporting][1].
+Advanced Reporting displays a personalized dashboard based on your product, order, and customer data. For more extensive analysis, see [Magento Business Intelligence][1].
 
 ![]({% link images/images/dashboard-advanced-reporting.png %}){: .zoom}
 [_Advanced Reporting_]({% link reports/advanced-reporting.md %})
