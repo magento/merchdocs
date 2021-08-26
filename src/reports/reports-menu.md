@@ -28,7 +28,7 @@ The selection of [sales reports]({% link reports/sales-reports.md %}) includes O
 {:.ee-only}
 ### System Insights
 
-The [Site-Wide Analysis Tool]({% link reports/site-wide-analysis-tool.md %}) (SWAT) provides system insights for Adobe Commerce Cloud installations with 24/7 real-time performance monitoring, reports, and recommendations.
+The [Site-Wide Analysis Tool]({% link reports/site-wide-analysis-tool.md %}) (SWAT) provides system insights for installations of Adobe Commerce on cloud infrastructure with 24/7 real-time performance monitoring, reports, and recommendations.
 
 {:.ee-only}
 ### Customers
