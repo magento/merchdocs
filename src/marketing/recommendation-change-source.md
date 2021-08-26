@@ -8,7 +8,7 @@ When you [configure a SaaS environment]({% link configuration/services/saas.md %
 
 On non-production environments like testing or staging, there is often not much storefront behavioral data (unless automated) to serve Recommendations. Actual shopper behavior at scale is captured only on the production environment.
 
-Magento allows you to use product recommendations computed in your product environment on other, non-production environments. Using this data inside non-production environments allows you to preview which recommendations your shoppers will see and experiment with different recommendation types and placement locations.
+Adobe Commerce allows you to use product recommendations computed in your product environment on other, non-production environments. Using this data inside non-production environments allows you to preview which recommendations your shoppers will see and experiment with different recommendation types and placement locations.
 
 Through the Admin UI in your non-production environment, you can fetch recommendations generated from actual shopper data from your production environment or another environment. Changing where those recommendations are fetched is done by specifying a different SaaS environment.
 
@@ -33,7 +33,7 @@ Before you begin, make sure that:
 
 1. Click **Save changes**.
 
-   Magento will now fetch recommendations from that environment.
+   Adobe Commerce will now fetch recommendations from that environment.
 
    {:.bs-callout-info}
    When recommendations from another SaaS environment are displayed on the storefront, a storefront user can only preview them (they are not clickable).

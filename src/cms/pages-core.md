@@ -2,7 +2,7 @@
 title: Core Content
 ---
 
-The Magento demo store has examples of core content pages to help you get started. All of the pages can be modified to meet your needs. Take a look at the following pages in your store to make sure that the content conveys your message, voice, and brand.
+The Commerce demo store has examples of core content pages to help you get started. All of the pages can be modified to meet your needs. Take a look at the following pages in your store to make sure that the content conveys your message, voice, and brand.
 
 ## Home
 

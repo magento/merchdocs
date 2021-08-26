@@ -19,7 +19,7 @@ _Grouped Product_
 
 1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose **Grouped Product**.
 
-    ![]({% link images/images/21product-add-grouped.png %}){: .zoom}
+    ![]({% link catalog/assets/product-add-grouped.png %}){: .zoom}
     _Add Grouped Product_
 
 ## Step 2: Choose the attribute set
@@ -37,7 +37,7 @@ _Choose Template_
 If the needed attributes do not exist, you can add new attributes while creating a product:
 
 - In the upper-right corner, click <span class="btn">Add Attribute</span>.
-- Define a new attribute (see [Adding an Attribute to a Product]]({% link catalog/product-attributes-add.md %})).
+- Define a new attribute (see [Adding an Attribute to a Product]({% link catalog/product-attributes-add.md %})).
 
    ![]({% link images/images/product-attribute-add-select.png %}){: .zoom}
    _New Attribute_

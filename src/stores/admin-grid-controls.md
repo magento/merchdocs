@@ -7,7 +7,7 @@ redirect_from:
 
 Admin pages that manage data display a collection of records in a grid. The controls at the top of each column can be used to sort the data. The current sort order is indicated by an ascending or descending arrow in the column header. You can specify which columns appear in the grid, and drag them into different positions. You can also save different column arrangements as views that can be used later. The **Action** column lists operations that can be applied to an individual record. In addition, date from the current view of most grids can be exported to a [CSV]({% link system/data-csv.md %}) or XML file.
 
-![Orders page - grid display]({% link images/images/admin-workspace-grid.png %}){: .zoom}
+![Orders page - grid display]({% link stores/assets/admin-workspace-grid.png %}){: .zoom}
 _Orders Grid_
 
 ## Sort the list
@@ -35,7 +35,7 @@ _Orders Grid_
 
 1. Click <span class="btn">Apply Filters</span>.
 
-    ![Orders list - filter controls]({% link images/images/admin-workspace-filters.png %}){: .zoom}
+    ![Orders list - filter controls]({% link stores/assets/admin-workspace-filters.png %}){: .zoom}
     _Filter controls_
 
 ## Export data
@@ -61,7 +61,7 @@ _Orders Grid_
 
 The selection of columns and their order in the grid can be changed according to your preference, and saved as a _view_. By default, only nine of twenty available columns are visible in the grid.
 
-![]({% link images/images/admin-grid-columns.png %}){: .zoom}
+![]({% link stores/assets/admin-grid-columns.png %}){: .zoom}
 _Order Grid Columns_
 
 ### Change the selection of columns

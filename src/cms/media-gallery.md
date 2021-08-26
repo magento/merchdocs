@@ -2,7 +2,7 @@
 title: The New Media Gallery
 ---
 
-With Magento 2.4, merchants can use the new _enhanced_ Media Gallery to organize and manage their media files on the server. This new Media Gallery contains the same functionalities as the existing Media Storage, but includes an improved user interface and a closer integration with [Adobe Stock][adobe-stock].
+With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhanced_ Media Gallery to organize and manage their media files on the server. This new Media Gallery contains the same functionalities as the existing Media Storage, but includes an improved user interface and a closer integration with [Adobe Stock][adobe-stock].
 
 ![Images displayed in the Media Gallery grid]({% link images/images/enhanced-media-gallery/gallery-grid.png %}){: .zoom}
 _Media Gallery grid_
@@ -49,16 +49,12 @@ To access the new Media Gallery when you are adding or editing a page:
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and do the following:
 
-   - {:.ce-only}If you have WYSIWYG mode disabled, click **Insert Image**.
-
-   - {:.ce-only}If you have WYSIWYG mode enabled, click **Show/Hide Editor** and then click **Insert Image**.
-
-   - {:.ee-only}If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>.
+   - If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>.
 
       ![]({% link images/images-ee/page-builder-media-image-drag.png %}){: .zoom}
       _Drag image to stage_
 
-   - {:.ee-only}If you have the [WYSIWYG editor enabled][editor-config], click **Show/Hide Editor** and then click **Insert Image**.
+   - If you have the [WYSIWYG editor enabled][editor-config], click **Show/Hide Editor** and then click **Insert Image**.
 
 [adobe-stock]: https://stock.adobe.com
 [content-menu]: {% link cms/content-menu.md %}

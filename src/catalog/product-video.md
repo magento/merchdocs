@@ -28,7 +28,7 @@ To add product video, you must first obtain an API Key from your Google account 
 
     In the next step, you will paste the key into your store’s configuration.
 
-## Step 2: Configure the key in Magento
+## Step 2: Configure the key in Commerce
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 

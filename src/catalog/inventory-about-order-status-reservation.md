@@ -2,7 +2,7 @@
 title: About Order Status and Reservations
 ---
 
-Inventory Management supports partial and full invoicing, payments, shipping, and cancellations per order. As you manage an order through processing, invoicing, shipment, and potentially refunds, Magento automatically enters or changes reservations to update the salable quantity for a stock (or sales channel) and the on-hand inventory quantity per source. You do not have to actively access or enter reservations. Completing actions to fulfill, cancel, or refund an order does it for you.
+Inventory Management supports partial and full invoicing, payments, shipping, and cancellations per order. As you manage an order through processing, invoicing, shipment, and potentially refunds, Commerce automatically enters or changes reservations to update the salable quantity for a stock (or sales channel) and the on-hand inventory quantity per source. You do not have to actively access or enter reservations. Completing actions to fulfill, cancel, or refund an order does it for you.
 
 These reservations always add to your salable quantity, with positive or negative amounts to increase or decrease quantities. These reservations are compensations, updating your on-hand inventory and salable quantities for up-to-date amounts for your store.
 
@@ -22,7 +22,7 @@ If a customer cancels their order prior to shipment (partial or in full), a new 
 
 ### Refunded orders
 
-If a customer requests a refund, issue the credit memo for the partial or full product amounts. When you receive the returned products, enter a credit memo to provide the funds and update product amounts. When selecting the Return to Stock option, Magento adds quantities back to the products and sources that shipped the orders and reservation compensations to update salable quantities for the associated stock.
+If a customer requests a refund, issue the credit memo for the partial or full product amounts. When you receive the returned products, enter a credit memo to provide the funds and update product amounts. When selecting the Return to Stock option, Commerce adds quantities back to the products and sources that shipped the orders and reservation compensations to update salable quantities for the associated stock.
 
 ## Order types
 
@@ -40,7 +40,7 @@ Availability reservations and inventory changes occur based on the order status.
 
 ## Status and reservations
 
-The following tables detail order and credit memo status with reservation changes entered by Magento to manage your inventory.
+The following tables detail order and credit memo status with reservation changes entered by Commerce to manage your inventory.
 
 |Order Status|Description|Reservation for Salable Quantity|
 |--|--|--|
@@ -70,15 +70,15 @@ She buys two great park bikes for her daughters, a BMX bike for her son, a nice 
 
 ### Example order from Biking Adventures
 
-She shows her family the great finds, but makes some changes. Before payment completes, she cancels two of the 33-BikeFun SKUs (her daughters did not like them). This is a partial cancellation due to payment pending, so no credit memo needed. To update, Magento adds back to the salable quantity stock for Canada. The order is paid, and all products ship, arriving in time for vacation. Magento updates the salable quantity and source quantities for the shipping warehouses for the shipped products.
+She shows her family the great finds, but makes some changes. Before payment completes, she cancels two of the 33-BikeFun SKUs (her daughters did not like them). This is a partial cancellation due to payment pending, so no credit memo needed. To update, Commerce adds back to the salable quantity stock for Canada. The order is paid, and all products ship, arriving in time for vacation. Commerce updates the salable quantity and source quantities for the shipping warehouses for the shipped products.
 
 But the shirt didn't quite fit her husband. Jenny requests a refund and sends back his shirt. The creation of the credit memo adds one 54-BikeLife shirt back to the Canada stock and shipping warehouse.
 
-- **Shipped products** - With products purchased and shipped, Magento updates the inventory. Reservation compensations convert to on-hand inventory quantity deductions from the shipped source. The available salable quantity updates for the stock.
+- **Shipped products** - With products purchased and shipped, Commerce updates the inventory. Reservation compensations convert to on-hand inventory quantity deductions from the shipped source. The available salable quantity updates for the stock.
 
-- **Canceled products** - By canceling stock, Magento removes the reservation for that product. Reservation compensation is entered to the stock level to add back salable quantities for the partial cancellation of two shirts. This does not affect the inventory quantity at the source level.
+- **Canceled products** - By canceling stock, Commerce removes the reservation for that product. Reservation compensation is entered to the stock level to add back salable quantities for the partial cancellation of two shirts. This does not affect the inventory quantity at the source level.
 
-- **Credit Memo/Refunded product** - By returning stock, we need to add back to our quantities. When issuing the credit memo, we select to return to stock. Magento adds back inventory quantity to the shipped source for the product. Reservation compensations enter to clear any remaining reservations. The salable quantity recalculates against the updated quantity.
+- **Credit Memo/Refunded product** - By returning stock, we need to add back to our quantities. When issuing the credit memo, we select to return to stock. Commerce adds back inventory quantity to the shipped source for the product. Reservation compensations enter to clear any remaining reservations. The salable quantity recalculates against the updated quantity.
 
 ![]({% link images/images/inventory/inventory-diagram-order2.png %})<br/>
 _Example Quantity Updates_

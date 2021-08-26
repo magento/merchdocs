@@ -20,3 +20,16 @@ The [payment method]({% link payment/payments.md %}) for the order---account cre
 - An order that was paid by credit card through a payment gateway is refunded online by the payment processor.
 
 - An order that was paid by Cash on Delivery ([COD]({% link payment/cash-on-delivery.md %})) or by [check or money order]({% link payment/check-money-order.md %}) is refunded offline.
+
+## Column descriptions
+
+|Column|Description|
+|--- |--- |
+|Select|Select the checkbox to select the Credit Memo item(s) to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All|
+|Credit Memo|A unique numeric identifier that is assigned when a request for a Credit Memo is submitted.|
+|Created|The date and time the buyer first submitted the request for a Credit Memo.|
+|Order#|Order ID of the order whose products are being returned.|
+|Order Date|The date and time the buyer placed an order.|
+|Bill-to Name|The name of the person who is responsible to pay for the order.|
+|Status|Indicates the current state of a Credit Memo request.|
+|Actions|**View** - Opens the request for a Credit Memo and maintains a record of the negotiation between buyer and seller.|

@@ -10,7 +10,7 @@ sections:
      url: /catalog/inventory-expand-restructure-inventory.html
 
    - title: Migrating and Upgrading
-     content: This information provides details for existing Magento users upgrading or migrating to Inventory Management. These features include new configurations, options, and settings added to existing catalogs. This topic also covers third part support, Magento Order Management, and extension information.
+     content: This information provides details for existing Commerce users upgrading or migrating to Inventory Management. These features include new configurations, options, and settings added to existing catalogs. This topic also covers third-party support, Order Management System, and extension information.
      url: /catalog/inventory-migration.html
 ---
 

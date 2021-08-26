@@ -10,7 +10,7 @@ _My Orders_{:.b2b-only}
 {:.b2b-only}
 ## Filter orders
 
-Your initial _My Orders_ results also contain matching orders from subordinate users from all websites within the Magento instance. Use Order filters to quickly find records within the results. To show the filter options, click <span class="btn">Filter</span>. Click <span class="btn">Close</span> to hide the filters.
+Your initial _My Orders_ results also contain matching orders from subordinate users from all websites within the commerce instance. Use Order filters to quickly find records within the results. To show the filter options, click <span class="btn">Filter</span>. Click <span class="btn">Close</span> to hide the filters.
 
 | Filter | Description |
 | -- | -- |

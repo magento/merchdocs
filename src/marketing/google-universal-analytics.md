@@ -10,13 +10,13 @@ If your business is subject to privacy regulations such as the [General Data Pro
 ![Sales configuration - Google API]({% link images/images/config-sales-google-api-google-analytics.png %}){: .zoom}
 [_Google Analytics_]({% link configuration/sales/google-api.md %})
 
-## Step 1. Sign Up for Google Universal Analytics
+## Step 1. Sign up for Google Universal Analytics
 
 Visit the Google website, and sign up for a [Google Universal Analytics][1] account.
 
-## Step 2. Complete the Magento Configuration
+## Step 2. Complete the Commerce configuration
 
-1. Log in to the Admin for your Magento store.
+1. Log in to the Admin for your Commerce store.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 

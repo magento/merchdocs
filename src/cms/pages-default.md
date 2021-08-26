@@ -18,16 +18,16 @@ The _Default Pages_ configuration determines the landing page that is associated
    {: .field-table }
    |Field|[Scope]({% link configuration/scope.md %})|Description|
    |--- |--- |--- |
-   |Default Web URL|Store View|Indicates the landing page that is associated with the base URL. This is set by default to `cms` to indicate a page from the Magento content management system. You can also use a different type of landing page, such as a blog. For example, if a blog is installed on the server at magento/blog, you can enter the folder name `blog` as a relative path to the selection of pages.|
+   |Default Web URL|Store View|Indicates the landing page that is associated with the base URL. This is set by default to `cms` to indicate a page from the Commerce content management system. You can also use a different type of landing page, such as a blog. For example, if a blog is installed on the server at `magento/blog`, you can enter the folder name `blog` as a relative path to the selection of pages.|
    |CMS Home Page|Store View|To choose the home page for the store, simply select the CMS page from the list. By default, the CMS Home Page lists the entire selection of CMS pages that are available for your store.|
    |Default No-route URL|Store View|Contains the URL of the default page that you want to appear when a `404 Page not Found` error occurs. The default value is `cms/noroute/index`.|
    |CMS No Route Page|Store View|Identifies a specific CMS page that you want to appear when a 404 Page Not Found error occurs. The default page is 404 Not Found.|
    |CMS No Cookies Page|Store View|Identifies a specific CMS page that appears when cookies are not enabled for the browser. The page explains why cookies are used, and how to enable them for each browser. The default page is Enable Cookies.|
    |Show Breadcrumbs for CMS Pages|Store View|Determines if a breadcrumb trail appears on all CMS pages in the catalog. Options: Yes / No|
 
-1. For **Default Web URL**, enter the relative path to the folder in the Magento installation that contains the landing page.
+1. For **Default Web URL**, enter the relative path to the folder in the Commerce installation that contains the landing page.
 
-   This is set by default to `cms` to indicate a page from Magento’s content management system.
+   This is set by default to `cms` to indicate a page from the Commerce content management system.
 
    {:.bs-callout-info}
    For a specific store view, clear the **Use Default** checkbox next to _Default Web URL_, and any other default settings to be changed.
@@ -42,7 +42,7 @@ The _Default Pages_ configuration determines the landing page that is associated
    - Privacy Policy
    - Company: Access Denied
 
-1. For **Default No-route URL**, enter the relative path to the folder in the Magento installation where the page is redirected when a _404 Page Not Found_ error occurs.
+1. For **Default No-route URL**, enter the relative path to the folder in the Commerce installation where the page is redirected when a _404 Page Not Found_ error occurs.
 
    The default value is `cms/index/noRoute`.
 

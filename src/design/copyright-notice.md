@@ -12,11 +12,11 @@ The `&copy;` character code is used to insert the copyright symbol, as shown in 
 
 - Long format example
 
-   `Copyright &copy; 2013-present Magento, Inc. All rights reserved.`
+   `Copyright &copy; 2013-present Luma, Inc. All rights reserved.`
 
 - Short format example
 
-   `&copy; 2020 Magento, Inc. All rights reserved.`
+   `&copy; 2021 Luma, Inc. All rights reserved.`
 
 ## Change the copyright notice
 
