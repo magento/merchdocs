@@ -95,7 +95,7 @@ Duo offers a free trial, and charges according to the number of users that are a
 
 The following example shows the options for `Ask me to choose an authenticator method`:
 
-1. When prompted, enter your Commerce _Admin_ credentials to sign in.
+1. When prompted, enter your _Admin_ credentials to sign in.
 
     ![Duo - signin]({% link images/images/storefront-2fa-duo-auth.png %}){: .zoom}
     _Duo access_
