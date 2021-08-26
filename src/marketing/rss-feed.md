@@ -43,12 +43,12 @@ _RSS Feeds_
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Catalog** section and set other feeds to `Enable` as needed.
 
-    If necessary, clear the **Use Default** checkbox to change the default value.
+   If necessary, clear the **Use Default** checkbox to change the default value.
 
-    - **New Products**
-    - **Special Products**
-    - **Coupons/Discounts**
-    - **Top Level Category**
+   - **New Products**
+   - **Special Products**
+   - **Coupons/Discounts**
+   - **Top Level Category**
 
     ![]({% link images/images/config-catalog-rss-feeds-catalog.png %}){: .zoom}
     _Catalog_
