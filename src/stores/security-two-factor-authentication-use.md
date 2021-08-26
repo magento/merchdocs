@@ -143,7 +143,7 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
 ### Step 2: Sign in with Authy
 
-1. Enter your account credentials and sign in to the Commerce _Admin_.
+1. Enter your account credentials and sign in to the _Admin_.
 
     ![Authy - signin]({% link images/images/storefront-2fa-authy-access.png %}){: .zoom}
     _Authy access_
