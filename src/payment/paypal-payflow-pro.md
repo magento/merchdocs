@@ -15,7 +15,7 @@ As of September 14, 2019, European banks might decline payments that do not meet
 
 - [PayPal Business Account][1] - The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant website, acting as both a gateway and a merchant account.
 
-- If you manage multiple Magento websites, you must have a separate PayPal merchant account for each website.
+- If you manage multiple Adobe Commerce and Magento Open Source websites, you must have a separate PayPal merchant account for each website.
 
 ## Customer workflow
 
@@ -25,7 +25,7 @@ As of September 14, 2019, European banks might decline payments that do not meet
 
 ## Online order processing workflow
 
-| **1** | **Administrator submits online invoice** | The store administrator submits an online invoice. and as a result a corresponding transaction and an invoice is created.|
+| **1** | **Administrator submits online invoice** | The store administrator submits an online invoice and, as a result, a corresponding transaction and invoice is created.|
 | **2** | **PayPal receives the transaction** | The order information is sent to PayPal. A record of the transaction and an invoice is generated. You can view all Payflow Pro Gateway transactions in your [PayPal merchant account][2].|
 
 {:.bs-callout-info}
@@ -66,7 +66,7 @@ Partial invoices and partial refunds are not supported by PayPal Payflow Pro.
    - Click <span class="btn">Confirm</span>.
 
       {:.bs-callout-info}
-      If you have multiple Magento websites, you must create a separate PayPal Payments Advanced account for each.
+      If you have multiple Commerce websites, you must create a separate PayPal Payments Advanced account for each.
 
 1. Set up an additional user (recommended by PayPal):
 
@@ -85,12 +85,12 @@ Partial invoices and partial refunds are not supported by PayPal Payflow Pro.
 
 1. Make sure to log out of your PayPal account.
 
-## Set up PayPal Payflow Pro in Magento
+## Set up PayPal Payflow Pro in Commerce
 
 {:.bs-callout-tip}
 Click <span class="btn">Save Config</span> at any time to save your progress.
 
-### Step 1: Begin the Magento configuration
+### Step 1: Begin the configuration
 
 This setup method assumes you have an existing PayPal account.
 
@@ -98,7 +98,7 @@ This setup method assumes you have an existing PayPal account.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
+1. If your Commerce installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
 
 1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
 
@@ -132,7 +132,7 @@ This setup method assumes you have an existing PayPal account.
 
 1. If you want to run test transactions, set **Test Mode** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][3] that are recommended by PayPal. When you are ready to _go live_, return to the configuration and set Test Mode to `No`.
+   When testing the configuration in a sandbox, use only [credit card numbers][3] that are recommended by PayPal. When you are ready to go live, return to the configuration and set Test Mode to `No`.
 
 1. If your system uses a proxy server to establish the connection to the PayPal system, set **Use Proxy** to `Yes` and do the following:
 
@@ -309,7 +309,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 1. Set **Payment Applicable From** to one of the following:
 
    |`All Allowed Countries` |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
-   |`Specific Countries` |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
+   |`Specific Countries` |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store. |
 
 1. To write communications with the payment system into the log file, set **Debug Mode** to `Yes`.
 
@@ -357,15 +357,15 @@ To determine when a transaction should be rejected when the Address Verification
       - Login
       - Password
 
-   - To run test reports before _going live_ with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
+   - To run test reports before going live with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
    - Enter the **Custom Endpoint Hostname or IP Address**.
 
-      By default, the value is: `reports.paypal.com`
+      By default, the value is `reports.paypal.com`.
 
    - Enter the **Custom Path** where reports are saved.
 
-      By default, the value is: `/ppreports/outgoing`
+      By default, the value is `/ppreports/outgoing`.
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
@@ -404,7 +404,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
    - `Payments by PayPal (150 x 60 or 150 x 40)`
    - `Shop Now Using PayPal (150 x 60 or 150 x 40)`
 
-1. To customize the appearance of your PayPal merchant pages, do the following:
+1. To customize the appearance of your PayPal merchant pages:
 
    - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages:
 
@@ -468,7 +468,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 1. To display a full summary of the customer order by line item from the PayPal site, set **Transfer Cart Line Items** to `Yes`.
 
-1. To allow the customer to complete the transaction from the PayPal site without returning to your Magento store for Order Review, set **Skip Order Review Step** to `Yes`.
+1. To allow the customer to complete the transaction from the PayPal site without returning to your store for Order Review, set **Skip Order Review Step** to `Yes`.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

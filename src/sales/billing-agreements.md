@@ -6,7 +6,7 @@ The _Billing Agreements_ page lists all PayPal [billing agreements]({% link paym
 
 When a customer places an order using a billing agreement, Magento sends the billing agreement reference ID and sales order billing information to PayPal. After PayPal authorizes the payment, it sends the billing agreement reference ID to both the customer and the store.
 
-![Billing agreements list displayed in the Admin]({% link images/images/sales-billling-agreements.png %}){: .zoom}
+![Billing agreements list displayed in the Admin]({% link images/images/sales-billing-agreements.png %}){: .zoom}
 _Billing agreements_
 
 ## View a billing agreement
