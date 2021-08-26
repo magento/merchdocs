@@ -79,7 +79,7 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
       ```
       {: .no-copy}
 
-1. Use one of the following methods to clear the Adobe Commerce cache:
+1. Use one of the following methods to clear the cache:
 
    - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**. Then, click **Flush Magento Cache**.
    - On the server, execute the following:
