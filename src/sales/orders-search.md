@@ -35,7 +35,8 @@ _Search Results_
 |Bill-to Name|Filters the search by the name of the person who is responsible to pay for the order.|
 |Ship-to Name|Filters the search by the name of the person to whom each order is shipped .|
 |Purchase Point|Filters the search by website, store, or store view where the order was placed.|
-|Status|Filters the search based on order status. Options: Canceled / Closed / Complete / Suspected Fraud / On Hold / Payment Review PayPal / Canceled / Reversal Pending / Pending Payment Processing|
+|Status|Filters the search based on order status. Options: Canceled / Closed / Complete / Suspected Fraud / On Hold / Payment Review / PayPal Canceled Reversal / PayPal Reversed / Pending / Pending Payment / Pending PayPal / Processing|
+|Braintree Transaction Source|Filters the search based on transaction source.|
 
 ### Search tools
 
