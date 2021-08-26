@@ -15,7 +15,7 @@ For complete instructions, see [Admin Sign In]({% link stores/admin-signin.md %}
 
 ### Step 1: Set up Google Authenticator
 
-1. Enter your account credentials and sign in to the Commerce _Admin_.
+1. Enter your account credentials and sign in to the _Admin_.
 
     A new authenticator screen appears with a QR code.
 
