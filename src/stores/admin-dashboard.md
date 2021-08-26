@@ -109,6 +109,6 @@ The dashboard chart can be generated in real-time or by using historical, aggreg
 |Button|Description|
 |--- |--- |
 |<span class="btn">Reload Data</span>|Refreshes dashboard data.|
-|<span class="btn">Go to Advanced Reporting</span>|Displays a personalized dashboard of dynamic charts and reports based on your product, order, and customer data. For more extensive analysis, see [Adobe Commerce Reporting][1].|
+|<span class="btn">Go to Advanced Reporting</span>|Displays a personalized dashboard of dynamic charts and reports based on your product, order, and customer data. For more extensive analysis, see [Magento Business Intelligence][1].|
 
 [1]: https://docs.magento.com/mbi/getting-started/getting-started.html
