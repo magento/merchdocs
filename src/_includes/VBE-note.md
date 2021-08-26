@@ -1,2 +1,2 @@
 {:.bs-callout-info}
-This integration is provided by a [Vendor Bundled Extension (VBE)]({{ site.devdocs_url }}/extensions/vendor/), which is a third-party Magento extension that we have thoroughly tested and included with each supported version of Magento Open Source and Magento Commerce.
+This integration is provided by a [Vendor Bundled Extension (VBE)]({{ site.devdocs_url }}/extensions/vendor/), which is a third-party extension that we have thoroughly tested and included with each supported version of Adobe Commerce and Magento Open Source.

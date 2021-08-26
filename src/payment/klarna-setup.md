@@ -2,14 +2,14 @@
 title: Setting Up Klarna
 ---
 
-To offer your customers the benefit of paying with Klarna, you must first sign up for a Klarna account and gain access to the Klarna Merchant Portal. Then, complete the Klarna configuration from the Admin of your Magento store.
+To offer your customers the benefit of paying with Klarna, you must first sign up for a Klarna account and gain access to the Klarna Merchant Portal. Then, complete the Klarna configuration from the Admin of your Adobe Commerce and Magento Open Source store.
 
 {:.bs-callout-info}
-**Important**: Klarna does not support currency switches to display multiple currencies in one website. Magento uses a base currency and tax configured at the website level (not store view) to avoid rounding and mismatch issues. To support multiple currencies, create a website per currency, using different URLs configured at the Magento website level (not store view).
+**Important**: Klarna does not support currency switches to display multiple currencies in one website. Commerce uses a base currency and tax configured at the website level (not store view) to avoid rounding and mismatch issues. To support multiple currencies, create a website per currency, using different URLs configured at the Commerce website level (not store view).
 
 ## Klarna merchant portal
 
-To enable and configure Klarna for your Magento store, you need the following information from your Klarna account.
+To enable and configure Klarna for your store, you need the following information from your Klarna account.
 
 ### Step 1: Generate API credentials
 
@@ -41,11 +41,11 @@ To enable and configure Klarna for your Magento store, you need the following in
 
 ### Step 2: Enable Klarna On-site Messaging (optional)
 
-To enable the display of Klarna promotional messages in your storefront, do the following:
+To enable the display of Klarna promotional messages in your storefront:
 
 1. In the Klarna merchant portal under _On-site messaging_, select the **Store** where the promotional messages are to be enabled, and click <span class="btn">Continue</span>.
 
-   The _Installation_ page contains two blocks of code that are needed to complete the Magento configuration. The first block of code is required to enable On-site Messaging. The second block of code refreshes the message placement if the order changes. We recommend that you copy each block of code and paste it to a text editor. You will need this code to complete the Magento configuration.
+   The _Installation_ page contains two blocks of code that are needed to complete the Commerce configuration. The first block of code is required to enable On-site Messaging. The second block of code refreshes the message placement if the order changes. We recommend that you copy each block of code and paste it to a text editor. You will need this code to complete the Commerce configuration.
 
    ![Klarna Portal - Installation scripts]({% link images/images/payments-klarna-portal-install-scripts.png %}){: .zoom}
    _Klarna portal - installation scripts_
@@ -54,7 +54,7 @@ To enable the display of Klarna promotional messages in your storefront, do the 
 
 1. For the second block of code, click <span class="btn">Copy to clipboard</span> and paste it into a text editor below the first script.
 
-   Take note of the `data-client-id` hash value in the code. You will need this value to complete the _On-site Messaging_ section of the Magento configuration.
+   Take note of the `data-client-id` hash value in the code. You will need this value to complete the _On-site Messaging_ section of the Commerce configuration.
 
 1. In the left sidebar under _On-site messaging_, choose **Placements**.
 
@@ -62,22 +62,22 @@ To enable the display of Klarna promotional messages in your storefront, do the 
 
 1. Copy the block(s) of code to the text editor below the other two installation scripts.
 
-The `data-key` value in each script corresponds to the _Product placement_ field in the Magento configuration. You now have all the information necessary to complete the Magento configuration.
+The `data-key` value in each script corresponds to the _Product placement_ field in the Commerce configuration. You now have all the information necessary to complete the Commerce configuration.
 
-## Magento configuration
+## Commerce configuration
 
-When you have API credentials and On-site Messaging code from your Klarna account, you can complete the Klarna configuration in the Magento Admin.
+When you have API credentials and On-site Messaging code from your Klarna account, you can complete the Klarna configuration in the Commerce Admin.
 
 {:.bs-callout-tip}
 Click <span class="btn">Save Config</span> at any time to save your progress.
 
-### Step 1: Begin the Magento configuration
+### Step 1: Begin the configuration
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
+1. If your Commerce installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
 
 1. If needed, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Other Payment Methods** section.
 
@@ -192,7 +192,7 @@ If you want to enable the display of Klarna promotional messages in your storefr
 
 If Klarna _On-site messaging_ is enabled, do the following to paste the scripts that you copied from the Klarna merchant portal:
 
-1. From the Magento Admin, go to **Marketing** > Design > **Configuration**.
+1. From the Admin, go to **Marketing** > Design > **Configuration**.
 
 1. In the list, find the store configuration that is to be updated and click **Edit**.
 
