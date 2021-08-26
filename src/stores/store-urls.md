@@ -18,7 +18,7 @@ The base URLs for your store were initially set up during your Adobe Commerce in
 If a security certificate was not available for the domain at the time of the installation, make sure to update the configuration before launching your store. After a security certificate is established for your domain, you can configure either or both base URLs to operate with encrypted Secure Sockets Layer (SSL) and [Transport Layer Security][1] (TLS) protocol.
 
 {:.bs-callout-info}
-Adobe strongly recommends for all pages of a production site, including content and product pages, to be transmitted with secure protocol.
+Adobe strongly recommends to transmit all pages of a production site, including content and product pages using a secure protocol.
 
 Adobe Commerce can be configured to deliver all pages over `HTTPS` by default. If your store has been running up until now with standard protocol, you can improve security by enabling [HTTP Strict Transport Security][2] (HSTS) and upgrading any unsecure page requests that are received by the store. HSTS is an opt-in protocol that prevents browsers from rendering standard `HTTP` pages that are transmitted with unsecure protocol for the specified domain. Because search engines might have already indexed each page of your store with standard `HTTP` URLs, you can configure Adobe Commerce to upgrade any unsecure page requests to `HTTPS` automatically , so you don't lose any traffic. When Adobe Commerce is configured to use secure URLs for both the store and Admin, two additional fields appear that allow you to enable `HSTS`.
 
