@@ -13,7 +13,7 @@ _Customer Login with CAPTCHA_
 
 For an extra level of security, you can add a CAPTCHA to the Admin Sign In and Forgot Password page. Admin users can reload the displayed CAPTCHA by clicking the Reload ![]({% link images/images/btn-reload.png %}) icon in the upper-right corner of the image. The number of reloads is unlimited.
 
-![Commerce Admin - Sign in with CAPTCHA]({% link images/images/security-captcha-admin.png %}){: .zoom}
+![Admin - Sign in with CAPTCHA]({% link images/images/security-captcha-admin.png %}){: .zoom}
 _Admin Sign In with CAPTCHA_
 
 ### Configure CAPTCHA for the Admin
@@ -30,7 +30,7 @@ _Admin Sign In with CAPTCHA_
 
 1. Set **Enable CAPTCHA in Admin** to `Yes`. Then complete the remaining options as follows:
 
-    ![Commerce Admin - CAPTCHA configuration]({% link images/images/config-advanced-admin-captcha.png %}){: .zoom}
+    ![Admin - CAPTCHA configuration]({% link images/images/config-advanced-admin-captcha.png %}){: .zoom}
     [_Admin CAPTCHA Configuration_]({% link configuration/advanced/admin.md %})
 
    - Enter the name of the **Font** to be used for CAPTCHA symbols (default: `LinLibertine`).

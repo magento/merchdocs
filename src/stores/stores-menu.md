@@ -4,7 +4,7 @@ title: Stores Menu
 
 The _Stores_ menu manages settings that are used less frequently, but referenced throughout your Adobe Commerce or Magento Open Source installation, including setting up the store hierarchy, configuration, sales and order settings, tax and currency, product attributes, product review ratings, and customer groups.
 
-![Commerce Admin - Stores menu]({% link images/images/stores-menu.png %}){: .zoom}
+![Admin - Stores menu]({% link images/images/stores-menu.png %}){: .zoom}
 _Stores Menu_{:.ee-only}
 
 ## Display the Stores menu

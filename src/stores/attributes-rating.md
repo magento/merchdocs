@@ -14,7 +14,7 @@ _Ratings_
 
 1. In the upper-right corner, click <span class="btn">Add New Rating</span>.
 
-    ![Commerce Admin - Ratings]({% link images/images/product-reviews-rating.png %}){: .zoom}
+    ![Admin - Ratings]({% link images/images/product-reviews-rating.png %}){: .zoom}
     _Ratings_
 
 1. In the _Rating Title_ section, enter the **Default Value** for the new rating.
