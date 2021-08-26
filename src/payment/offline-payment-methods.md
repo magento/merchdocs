@@ -2,7 +2,7 @@
 title: Offline Payment Methods
 ---
 
-Magento includes a number of built-in offline payment methods, which do not require the services of a third-party payment processing company:
+Adobe Commerce and Magento Open Source includes a number of built-in offline payment methods, which do not require the services of a third-party payment processing company:
 
 - [Zero Subtotal Checkout]({% link payment/zero-subtotal-checkout.md %})
 - [Cash On Delivery Payment]({% link payment/cash-on-delivery.md %})

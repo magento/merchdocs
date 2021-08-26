@@ -2,7 +2,7 @@
 title: Check / Money Order
 ---
 
-Magento allows you to accept payments by check or money order. The Check / Money Order payment method is enabled for your store by default. You can accept checks and money orders only from specific countries, and you can fine tune the configuration with minimum and maximum order total limits.
+Adobe Commerce and Magento Open Source allows you to accept payments by check or money order. The Check / Money Order payment method is enabled for your store by default. You can accept checks and money orders only from specific countries, and you can fine tune the configuration with minimum and maximum order total limits.
 
 ## Configure payment by check or money order
 
