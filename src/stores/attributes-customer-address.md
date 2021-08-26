@@ -12,7 +12,7 @@ Customer address attributes are used in the following forms:
 - [Customer Address Registration]({% link customers/account-create.md %})
 - [Customer Account Address]({% link customers/account-dashboard-address-book.md %})
 
-![Magento Admin - Customer address attributes]({% link images/images-ee/attributes-customer-address.png %}){: .zoom}
+![Commerce Admin - Customer address attributes]({% link images/images-ee/attributes-customer-address.png %}){: .zoom}
 _Customer Address Attributes_
 
 ## Step 1: Complete the Attribute Properties

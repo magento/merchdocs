@@ -2,9 +2,9 @@
 title: Stores Menu
 ---
 
-The _Stores_ menu manages settings that are used less frequently, but referenced throughout your Magento installation, including setting up the store hierarchy, configuration, sales and order settings, tax and currency, product attributes, product review ratings, and customer groups.
+The _Stores_ menu manages settings that are used less frequently, but referenced throughout your Adobe Commerce or Magento Open Source installation, including setting up the store hierarchy, configuration, sales and order settings, tax and currency, product attributes, product review ratings, and customer groups.
 
-![Magento Admin - Stores menu]({% link images/images/stores-menu.png %}){: .zoom}
+![Commerce Admin - Stores menu]({% link images/images/stores-menu.png %}){: .zoom}
 _Stores Menu_{:.ee-only}
 
 ## Display the Stores menu
@@ -15,7 +15,7 @@ On the _Admin_ sidebar, click **Stores**.
 
 ### Settings
 
-Manage the hierarchy of [websites, stores, and store views]({% link stores/stores-all-stores.md %}) in your Magento installation, and all [configuration settings]({% link stores/configuration-overview.md %}). In addition, you can set up the [Terms and Conditions]({% link sales/terms-and-conditions.md %}) of a sale, and manage [order status settings]({% link sales/order-status-custom.md %}).
+Manage the hierarchy of [websites, stores, and store views]({% link stores/stores-all-stores.md %}) in your Adobe Commerce installation, and all [configuration settings]({% link stores/configuration-overview.md %}). In addition, you can set up the [Terms and Conditions]({% link sales/terms-and-conditions.md %}) of a sale, and manage [order status settings]({% link sales/order-status-custom.md %}).
 
 ### Inventory
 
@@ -23,7 +23,7 @@ Manage the hierarchy of [websites, stores, and store views]({% link stores/store
 
 ### Taxes
 
-Manage all types of [tax functions]({% link tax/taxes.md %}) across your Magento store, set up the tax rules for your store, define customer and product tax classes, and manage tax zones and rates. You can also import tax rate data into your store.
+Manage all types of [tax functions]({% link tax/taxes.md %}) across your Adobe Commerce store, set up the tax rules for your store, define customer and product tax classes, and manage tax zones and rates. You can also import tax rate data into your store.
 
 ### Currency
 

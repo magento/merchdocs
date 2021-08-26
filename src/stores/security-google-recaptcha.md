@@ -2,11 +2,11 @@
 title: Google reCAPTCHA
 ---
 
-Google reCAPTCHA ensures that a human being, rather than a computer (or "bot"), is interacting with your website. Unlike the standard Magento [CAPTCHA]({% link stores/security-captcha.md %}), Google reCAPTCHA provides enhanced security with a selection of different display options and methods. Additional website traffic information is available in the dashboard of your Google reCAPTCHA account.
+Google reCAPTCHA ensures that a human being, rather than a computer (or "bot"), is interacting with your website. Unlike the standard Adobe Commerce and Magento Open Source[CAPTCHA]({% link stores/security-captcha.md %}), Google reCAPTCHA provides enhanced security with a selection of different display options and methods. Additional website traffic information is available in the dashboard of your Google reCAPTCHA account.
 
-Google reCAPTCHA is configured separately for the Magento Admin and storefront.
+Google reCAPTCHA is configured separately for the Commerce Admin and storefront.
 
-- For the Admin, Google reCAPTCHA can be used on the [Sign In]({% link stores/admin-signin.md %}) page and when a user requests a password reset. If the standard [Magento CAPTCHA]({% link stores/security-captcha.md %}) is also enabled, Google reCAPTCHA can be used at the same time without any problem.
+- For the Admin, Google reCAPTCHA can be used on the [Sign In]({% link stores/admin-signin.md %}) page and when a user requests a password reset. If the standard [Adobe Commerce CAPTCHA]({% link stores/security-captcha.md %}) is also enabled, Google reCAPTCHA can be used at the same time without any problem.
 
 - For the storefront, Google reCAPTCHA can be used to sign in to a [customer account]({% link customers/customer-sign-in.md %}), send a message from the [Contact Us]({% link stores/contact-us.md %}) page, and in numerous other storefront locations.
 
@@ -32,7 +32,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. For **Label**, enter a name to identify the keys for internal reference.
 
-   You need one set of keys for each reCAPTCHA type that is used in your Magento installation. For example: `Magento v2 Invisible`
+   You need one set of keys for each reCAPTCHA type that is used in your Adobe Commerce or Magento Open Source installation. For example: `Commerce Invisible`
 
 1. For **reCAPTCHA type**, choose the method that you want to use.
 
@@ -44,7 +44,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    If you have multiple stores with different domains, enter each domain on a separate line.
 
-   - Add your Magento instance domain and any subdomains.
+   - Add your store domain and any subdomains.
    - You can add `localhost`, other local VM domains, and staging domains as needed for testing.
 
 1. Select the checkbox to **Accept the reCAPTCHA Terms of Service**.
@@ -64,7 +64,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 ## Step 2: Configure Google reCAPTCHA Admin Panel
 
-1. Sign in to the Admin of your Magento store.
+1. Sign in to the Admin account for your store.
 
 1. On the Admin sidebar, go to **Stores** > _Settings_ > **Configuration**.
 

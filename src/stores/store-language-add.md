@@ -8,7 +8,7 @@ Language packs can be found under [Translations & Localization][1]{:target="_bla
 
 ## Step 1: Install a Language Pack
 
-Follow the standard instructions to install the language pack extension. For detailed information about installing an extension, see [General CLI installation][2] in the Magento Extensions Guide.
+Follow the standard instructions to install the language pack extension. For detailed information about installing an extension, see [General CLI installation][2] in the *Extensions Guide*.
 
 ## Step 2: Create a Store View for the Language
 

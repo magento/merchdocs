@@ -6,7 +6,8 @@ The online [Configuration Reference]({% link stores/configuration.md %}) has fie
 
 ## Configuration Tabs
 
-![Magento Admin - configuration]({% link stores/assets/admin-menu-stores-configuration.png %}){: .zoom}
+![Commerce Admin - configuration]({% link stores/assets/admin-menu-stores-configuration.png %}){: .zoom}
+>>>>>>> Update branding for Stores content
 _Configuration_
 
 ### General
@@ -35,7 +36,7 @@ _Configuration_
 
 ### Sales Channels
 
-[Sales Chanel]({% link configuration/sales-channels.md %}) settings configure the clear log history, background tasks source, debug login, and read-only mode settings. This feature is only available if your Magento 2 instance has Amazon Sales Channel installed and enabled.
+[Sales Chanel]({% link configuration/sales-channels.md %}) settings configure the clear log history, background tasks source, debug login, and read-only mode settings. This feature is only available if your Adobe Commerce instance has Amazon Sales Channel installed and enabled.
 
 ### Dotdigital
 

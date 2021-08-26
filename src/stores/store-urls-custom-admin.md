@@ -2,12 +2,12 @@
 title: Using a Custom Admin URL
 ---
 
-As a [security best practice](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf), Magento recommends that you use a unique, custom Admin URL instead of the default _admin_ or a common term such as _backend_. Although it will not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
+As a [security best practice](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf), Adobe recommends that you use a unique, custom Admin URL instead of the default _admin_ or a common term such as _backend_. Although it will not directly protect your site from a determined bad actor, it can reduce exposure to scripts that try to gain unauthorized access.
 
 {:.bs-callout-info}
 Check with your hosting provider before implementing a custom Admin URL. Some hosting providers require a standard URL to meet firewall protection rules.
 
-In a typical Magento installation, the Admin URL and path is immediately below the Magento base URL. The path to the store Admin is one directory below the root.
+In a typical installation, the Admin URL and path is immediately below the base URL. The path to the store Admin is one directory below the root.
 
 - **Default Base URL**: `http://yourdomain.com/magento/`
 - **Default Admin URL and Path**: `http://yourdomain.com/magento/admin`
@@ -17,7 +17,7 @@ Although it is possible to change the Admin URL and path to another location, an
 {:.bs-callout-info}
 As a precaution, do not try to change the Admin URL yourself unless you know how to edit configuration files on the server.
 
-## Method 1: Change from the Magento Admin
+## Method 1: Change from the Commerce Admin
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -37,7 +37,7 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
    - Enter the **Custom Admin URL**: `http://yourdomain.com/magento/`
 
         {:.bs-callout-info}
-        The Admin URL must be in the same Magento installation, and have the same document root as the storefront.
+        The Admin URL must be in the same Adobe Commerce installation, and have the same document root as the storefront.
 
    - Set **Custom Admin Path** to `Yes`.
 
@@ -61,7 +61,7 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
    This method allows you to change the Admin Path, but not the Admin URL.
 
    {:.bs-callout-tip}
-    On Magento Cloud, a custom admin path may be set using the **ADMIN_URL** variable in the Cloud UI. See the [Admin variables topic]({{ site.devdocs_url }}/cloud/env/environment-vars_magento.html#admin-url) in the _Magento Commerce Cloud guide_.
+    On Adobe Commerce on cloud infrastructure, you can set up a custom admin path using the **ADMIN_URL** variable in the Cloud UI. See the [Admin variables topic]({{ site.devdocs_url }}/cloud/env/environment-vars_magento.html#admin-url) in the _Cloud Guide for Commerce_.
 
    - **Default Admin Path**
       ```php?start_inline=1
@@ -79,7 +79,7 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
       ```
       {: .no-copy}
 
-1. Use one of the following methods to clear the Magento cache:
+1. Use one of the following methods to clear the Adobe Commerce cache:
 
    - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**. Then, click **Flush Magento Cache**.
    - On the server, execute the following:
@@ -116,7 +116,7 @@ In case you have set an invalid Admin URL or an Admin Path and lost access to th
    php bin/magento config:set admin/url/use_custom_path 0
    ```
 
-1. Use one of the following methods to clear the Magento cache:
+1. Use one of the following methods to clear the Adobe Commerce cache:
 
    - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**. Then, click **Flush Magento Cache**.
    - On the server, execute the following:

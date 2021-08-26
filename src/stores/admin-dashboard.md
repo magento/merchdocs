@@ -10,7 +10,7 @@ If you have a lot of data to process, the chart can be turned off to improve per
 ![]({% link images/images/dashboard-full.png %}){: .zoom}
 _Dashboard_
 
-Advanced Reporting displays a personalized dashboard based on your product, order, and customer data. For more extensive analysis, see [Magento Business Intelligence][1].
+Advanced Reporting displays a personalized dashboard based on your product, order, and customer data. For more extensive analysis, see [Adobe Commerce Reporting][1].
 
 ![]({% link images/images/dashboard-advanced-reporting.png %}){: .zoom}
 [_Advanced Reporting_]({% link reports/advanced-reporting.md %})
@@ -109,6 +109,6 @@ The dashboard chart can be generated in real-time or by using historical, aggreg
 |Button|Description|
 |--- |--- |
 |<span class="btn">Reload Data</span>|Refreshes dashboard data.|
-|<span class="btn">Go to Advanced Reporting</span>|Displays a personalized dashboard of dynamic charts and reports based on your product, order, and customer data. For more extensive analysis, see [Magento Business Intelligence][1].|
+|<span class="btn">Go to Advanced Reporting</span>|Displays a personalized dashboard of dynamic charts and reports based on your product, order, and customer data. For more extensive analysis, see [Adobe Commerce Reporting][1].|
 
 [1]: https://docs.magento.com/mbi/getting-started/getting-started.html
