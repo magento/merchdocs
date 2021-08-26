@@ -116,7 +116,7 @@ In case you have set an invalid Admin URL or an Admin Path and lost access to th
    php bin/magento config:set admin/url/use_custom_path 0
    ```
 
-1. Use one of the following methods to clear the Adobe Commerce cache:
+1. Use one of the following methods to clear the cache:
 
    - On the _Admin_ sidebar, go to **System** > _Tools_ > **Cache Management**. Then, click **Flush Magento Cache**.
    - On the server, execute the following:
