@@ -2,7 +2,7 @@
 title: Cash On Delivery
 ---
 
-Adobe Commerce and Magento Open Source allows you to accept cash on delivery (COD) payments for purchases. You can accept COD payment only from specific countries, and you can fine-tune the configuration with minimum and maximum order total limits.
+Adobe Commerce and Magento Open Source allow you to accept cash on delivery (COD) payments for purchases. You can accept COD payment only from specific countries, and you can fine-tune the configuration with minimum and maximum order total limits.
 
 The shipping carrier receives payment from the customer at the time of delivery, which is then transferred to you. You can make an adjustment for any fee charged by the carrier service in your shipping and handling charges.
 

@@ -5,7 +5,7 @@ redirect_from:
   - /configuration/sales/fraud-protection.html
 ---
 
-Fraud protection services and filters examine submitted orders before the transaction is processed to detect fraudulent orders and protect you from the expense of chargebacks. Adobe Commerce and Magento Open Source supports the following fraud protection solutions:
+Fraud protection services and filters examine submitted orders before the transaction is processed to detect fraudulent orders and protect you from the expense of chargebacks. Adobe Commerce and Magento Open Source support the following fraud protection solutions:
 
 - [PayPal Fraud Management Filter]({% link payment/paypal-fraud-management-filter.md %})
 

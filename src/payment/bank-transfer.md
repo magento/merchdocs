@@ -2,7 +2,7 @@
 title: Bank Transfer
 ---
 
-Adobe Commerce and Magento Open Source allows you to accept payment that is transferred from a customer bank account and deposited into your merchant bank account.
+Adobe Commerce and Magento Open Source allow you to accept payment that is transferred from a customer bank account and deposited into your merchant bank account.
 
 ## Configure bank transfer payments
 

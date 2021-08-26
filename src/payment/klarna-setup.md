@@ -2,7 +2,7 @@
 title: Setting Up Klarna
 ---
 
-To offer your customers the benefit of paying with Klarna, you must first sign up for a Klarna account and gain access to the Klarna Merchant Portal. Then, complete the Klarna configuration from the Admin of your Adobe Commerce and Magento Open Source store.
+To offer your customers the benefit of paying with Klarna, you must first sign up for a Klarna account and gain access to the Klarna Merchant Portal. Then, complete the Klarna configuration from the Admin of your Adobe Commerce or Magento Open Source store.
 
 {:.bs-callout-info}
 **Important**: Klarna does not support currency switches to display multiple currencies in one website. Commerce uses a base currency and tax configured at the website level (not store view) to avoid rounding and mismatch issues. To support multiple currencies, create a website per currency, using different URLs configured at the Commerce website level (not store view).

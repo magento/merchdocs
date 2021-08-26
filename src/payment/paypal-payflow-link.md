@@ -2,7 +2,7 @@
 title: PayPal Payflow Link
 ---
 
-PayPal PayFlow Link is available for merchants in the United States and Canada only. Customers are not required to have a personal PayPal account, and enter their credit card information in a form that is hosted by PayPal. The information is never stored on your Adobe Commerce and Magento Open Source server. PayFlow Link cannot be used for orders that are created from the Admin.
+PayPal PayFlow Link is available for merchants in the United States and Canada only. Customers are not required to have a personal PayPal account, and enter their credit card information in a form that is hosted by PayPal. The information is never stored on your Adobe Commerce or Magento Open Source server. PayFlow Link cannot be used for orders that are created from the Admin.
 
 Credit memos are supported for both online and offline refunds. However, multiple online refunds are not supported.
 
