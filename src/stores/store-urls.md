@@ -88,7 +88,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
    - **Upgrade Insecure Requests** — To upgrade any requests for standard unsecured HTTP pages to secure HTTPS, set to `Yes`.
 
-1. Most Adobe Commerce installations use the default `X-Forward-Proto` **Offloader Header** to identify the protocol as either `HTTP` or `HTTPS`. If your server configuration uses a different `offloader_header`, enter it here.
+1. Most Commerce installations use the default `X-Forward-Proto` **Offloader Header** to identify the protocol as either `HTTP` or `HTTPS`. If your server configuration uses a different `offloader_header`, enter it here.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
