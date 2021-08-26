@@ -37,7 +37,7 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
    - Enter the **Custom Admin URL**: `http://yourdomain.com/magento/`
 
         {:.bs-callout-info}
-        The Admin URL must be in the same Adobe Commerce installation, and have the same document root as the storefront.
+        The Admin URL must be in the same Commerce installation, and have the same document root as the storefront.
 
    - Set **Custom Admin Path** to `Yes`.
 
