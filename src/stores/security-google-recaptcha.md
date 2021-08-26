@@ -4,7 +4,7 @@ title: Google reCAPTCHA
 
 Google reCAPTCHA ensures that a human being, rather than a computer (or "bot"), is interacting with your website. Unlike the standard Adobe Commerce and Magento Open Source[CAPTCHA]({% link stores/security-captcha.md %}), Google reCAPTCHA provides enhanced security with a selection of different display options and methods. Additional website traffic information is available in the dashboard of your Google reCAPTCHA account.
 
-Google reCAPTCHA is configured separately for the Commerce Admin and storefront.
+Google reCAPTCHA is configured separately for the Admin and storefront.
 
 - For the Admin, Google reCAPTCHA can be used on the [Sign In]({% link stores/admin-signin.md %}) page and when a user requests a password reset. If the standard [Adobe Commerce CAPTCHA]({% link stores/security-captcha.md %}) is also enabled, Google reCAPTCHA can be used at the same time without any problem.
 

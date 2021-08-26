@@ -6,8 +6,7 @@ The online [Configuration Reference]({% link stores/configuration.md %}) has fie
 
 ## Configuration Tabs
 
-![Commerce Admin - configuration]({% link stores/assets/admin-menu-stores-configuration.png %}){: .zoom}
->>>>>>> Update branding for Stores content
+![Admin - configuration]({% link stores/assets/admin-menu-stores-configuration.png %}){: .zoom}
 _Configuration_
 
 ### General

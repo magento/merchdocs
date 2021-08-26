@@ -17,7 +17,7 @@ Although it is possible to change the Admin URL and path to another location, an
 {:.bs-callout-info}
 As a precaution, do not try to change the Admin URL yourself unless you know how to edit configuration files on the server.
 
-## Method 1: Change from the Commerce Admin
+## Method 1: Change from the Admin
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 

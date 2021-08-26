@@ -40,7 +40,7 @@ sections:
 
 ---
 
-This reference provides field descriptions for every configuration setting in the Commerce Admin. To learn how to apply configuration settings to specific store views, see [Configuration Scope]({% link configuration/scope.md %}).  To override the default values of configuration settings, see [Changing Scope]({% link configuration/scope-change.md %}).
+This reference provides field descriptions for every configuration setting in the Admin. To learn how to apply configuration settings to specific store views, see [Configuration Scope]({% link configuration/scope.md %}).  To override the default values of configuration settings, see [Changing Scope]({% link configuration/scope-change.md %}).
 
 In this guide, you can drill down through any section of the reference and follow the links to corresponding topics.
 
