@@ -53,7 +53,7 @@ Duo offers a free trial, and charges according to the number of users that are a
 
 ### Step 1: Set up Duo Security
 
-1. Enter your account credentials and sign in to the Commerce _Admin_.
+1. Enter your account credentials and sign in to the _Admin_.
 
 1. When the Duo Setup page appears. Click **Start setup** and do the following:
 
