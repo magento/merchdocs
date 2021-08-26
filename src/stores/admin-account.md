@@ -15,7 +15,7 @@ See [Permissions]({% link system/permissions.md %}) and [User Roles]({% link sys
 
 1. Click **Account Setting**.
 
-   ![Account Information]({% link images/images/admin-account-information.png %}){: .zoom}
+   ![]({% link images/images/admin-account-information-1.png %}){: .zoom}
    _Account Information_
 
 1. Make necessary changes to your account information.
