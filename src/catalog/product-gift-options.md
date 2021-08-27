@@ -25,9 +25,9 @@ _Gift Options_
 
 ## Gift message
 
-The default Magento 2 allows the customers to add a personalized gift message to their orders and products during the checkout process.
+By default, Commerce allows the customers to add a personalized gift message to their orders and products during the checkout process.
 
-The admin can facilitate the customers with the same using the method to enable _gift message_ in Magento 2 store. To Enable Gift Message in Magento 2 do the following:
+You can provide this feature to customers by enabling _gift message_ for your store:
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -35,14 +35,12 @@ The admin can facilitate the customers with the same using the method to enable 
 
 1. Expand ![]({% link images/images/btn-expand.png %}) **Gift Options** on the page.
 
-1. Select to `Yes` in required option:
+1. For **Allow Gift Messages on Order Level**, select `Yes` to enable a single gift message for the whole order.
 
-- **Allow Gift Messages on Order Level**: Select `Yes` if you want to add a single gift message to the whole order.
-
-- **Allow Gift Messages for Order Items**: Select `Yes` if you want to add gift messages separately to an individual item in your shopping cart.
+1. For **Allow Gift Messages for Order Items**, select `Yes` to enable adding gift messages separately to individual items in the customer shopping cart.
 
 1. Click <span class="btn">Save Config</span>.
 
-Now you can add a gift message to the cart page from frontend as shown in the below image:
+With this configuration, customers can add a gift message to the cart page from storefront as shown in the following example:
 
     ![]({% link images/images/gift-message.png%}){: .zoom}
