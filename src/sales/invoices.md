@@ -14,7 +14,7 @@ _Invoices grid_
 |Column|Description|
 |--- |--- |
 |Select|Select the checkbox to choose the quote(s) to be subject to an action, or use the selection control in the column header. Options: Select All/Deselect All|
-|Invoice|A unique numeric identifier that is assigned when an invoice is submitted from the Magento Admin. When viewing the invoice detail, this number appears at the top of the page, instead of the quote name.|
+|Invoice|A unique numeric identifier that is assigned when an invoice is submitted from the Admin. When viewing the invoice detail, this number appears at the top of the page, instead of the quote name.|
 |Invoice Date|The date and time the administrator first submitted the invoice.|
 |Order#|A unique numeric identifier that is assigned when an order is placed by a buyer. When viewing the invoice details, this number appears as a link in the Order & Account Information block.|
 |Order Date|The date and time the customer first successfully placed an order.|

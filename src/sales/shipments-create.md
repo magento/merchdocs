@@ -2,7 +2,7 @@
 title: Creating a Shipment
 ---
 
-The following instructions walk you through the process of creating a shipment for Magento Shipping. If you have Inventory Management enabled, you may want to review [Creating Shipments with Inventory Management]({% link catalog/inventory-shipment-create.md %}).
+The following instructions walk you through the process to create a shipment in Adobe Commerce or Magento Open Source. If you have Inventory Management enabled, you may want to review [Creating Shipments with Inventory Management]({% link catalog/inventory-shipment-create.md %}).
 
 If you have Inventory Management enabled, select a [source]({% link catalog/inventory-sources.md %}) (or location) and an amount of quantity to send per line item. For complete details, see [Creating Shipments with Inventory Management]({% link catalog/inventory-shipment-create.md %}).
 
@@ -134,7 +134,7 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 ### Documentation
 
 |Package Label|**PNG** - Download the shipment package label. Size: A6 (105 x 148 mm; 4.1 x 5.6 in.)|
-|High Value Report|**Text/HTML** - (Magento Shipping  only) Download the UPS Control Log for US shipments over $999.00. The report includes the tracking and reference numbers, declared value, and currency. The report includes a signature line to be completed by the delivery person, with pickup time and number of packages. Size: A4 (210 x 297 mm; 8.3 x 11.7 in)|
+|High Value Report|**Text/HTML** - (Magento Shipping only) Download the UPS Control Log for US shipments over $999.00. The report includes the tracking and reference numbers, declared value, and currency. The report includes a signature line to be completed by the delivery person, with pickup time and number of packages. Size: A4 (210 x 297 mm; 8.3 x 11.7 in)|
 
 <style>
 .buttons-table td:first-of-type {
