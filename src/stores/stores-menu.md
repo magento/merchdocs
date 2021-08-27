@@ -15,7 +15,7 @@ On the _Admin_ sidebar, click **Stores**.
 
 ### Settings
 
-Manage the hierarchy of [websites, stores, and store views]({% link stores/stores-all-stores.md %}) in your Adobe Commerce installation, and all [configuration settings]({% link stores/configuration-overview.md %}). In addition, you can set up the [Terms and Conditions]({% link sales/terms-and-conditions.md %}) of a sale, and manage [order status settings]({% link sales/order-status-custom.md %}).
+Manage the hierarchy of [websites, stores, and store views]({% link stores/stores-all-stores.md %}) in your Adobe Commerce or Magento Open Source installation, and all [configuration settings]({% link stores/configuration-overview.md %}). In addition, you can set up the [Terms and Conditions]({% link sales/terms-and-conditions.md %}) of a sale, and manage [order status settings]({% link sales/order-status-custom.md %}).
 
 ### Inventory
 
@@ -23,7 +23,7 @@ Manage the hierarchy of [websites, stores, and store views]({% link stores/store
 
 ### Taxes
 
-Manage all types of [tax functions]({% link tax/taxes.md %}) across your Adobe Commerce store, set up the tax rules for your store, define customer and product tax classes, and manage tax zones and rates. You can also import tax rate data into your store.
+Manage all types of [tax functions]({% link tax/taxes.md %}) across your store, set up the tax rules for your store, define customer and product tax classes, and manage tax zones and rates. You can also import tax rate data into your store.
 
 ### Currency
 

@@ -6,7 +6,7 @@ Google reCAPTCHA ensures that a human being, rather than a computer (or "bot"), 
 
 Google reCAPTCHA is configured separately for the Admin and storefront.
 
-- For the Admin, Google reCAPTCHA can be used on the [Sign In]({% link stores/admin-signin.md %}) page and when a user requests a password reset. If the standard [Adobe Commerce CAPTCHA]({% link stores/security-captcha.md %}) is also enabled, Google reCAPTCHA can be used at the same time without any problem.
+- For the Admin, Google reCAPTCHA can be used on the [Sign In]({% link stores/admin-signin.md %}) page and when a user requests a password reset. If the standard Commerce [CAPTCHA]({% link stores/security-captcha.md %}) is also enabled, Google reCAPTCHA can be used at the same time without any problem.
 
 - For the storefront, Google reCAPTCHA can be used to sign in to a [customer account]({% link customers/customer-sign-in.md %}), send a message from the [Contact Us]({% link stores/contact-us.md %}) page, and in numerous other storefront locations.
 

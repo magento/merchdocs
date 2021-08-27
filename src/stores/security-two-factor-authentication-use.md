@@ -167,7 +167,7 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
 Follow the instructions from the solution provider to configure your U2F device. For more information, see the vendor documentation, such as [YubiKey][1] by Yubico.
 
-1. Enter your account credentials and sign in to the Commerce _Admin_.
+1. Enter your account credentials and sign in to the _Admin_.
 
     ![U2F key access]({% link images/images/storefront-2fa-u2f.png %}){: .zoom}
     _U2F Key Access_
