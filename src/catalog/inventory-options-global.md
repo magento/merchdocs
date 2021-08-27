@@ -25,7 +25,7 @@ Configure the default configuration options for product and stock for your websi
         The message begins to appear when the quantity in stock reaches the threshold. For example, if set to `3`, the message “Only 3 left” appears when the quantity in stock reaches three. The message adjusts to reflect the quantity in stock, until the quantity reaches zero.
 
     - To display an “In Stock” or “Out of Stock” message on the product page, set **Display Products Availability In Stock on Storefront** to `Yes`.
-   
+
     - To check inventory when loading a product in the cart, set **Enable Inventory Check On Cart Load** to `Yes`. With this option disabled, the inventory check is skipped. Disabling this option speeds up checkout, especially if there are many items in shopping cart. But some out-of-stock scenarios could throw different types of exceptions if this pre-validation is omitted.
 
     - To keep consistency between inventory and catalog, set **Synchronize with Catalog** to `Yes`. With this option enabled, inventory data will be adjusted according to the catalog changes (such as product removed, product SKU changed, and product type changed).
