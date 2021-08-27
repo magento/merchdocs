@@ -2,10 +2,10 @@
 title: Managing Amazon Pay Transactions
 ---
 
-All purchases made in your store and processed by Amazon Pay can be viewed from the Amazon Pay website. If you receive a request for a refund, follow the normal Magento process to issue a [credit memo]({% link sales/credit-memos.md %}) and make a refund. The _Credit Memo_ option is available after a sales order is invoiced.
+All purchases made in your store and processed by Amazon Pay can be viewed from the Amazon Pay website. If you receive a request for a refund, follow the normal Adobe Commerce and Magento Open Source process to issue a [credit memo]({% link sales/credit-memos.md %}) and make a refund. The credit memo option is available after a sales order is invoiced.
 
-![Invoice with Credit Memo option displayed]({% link images/images/sales-credit-memo-order-account-info.png %}){: .zoom}
-_Invoice with Credit Memo option_
+![Invoice with credit memo option displayed]({% link images/images/sales-credit-memo-order-account-info.png %}){: .zoom}
+_Invoice with credit memos_
 
 ## Issue a refund
 
@@ -27,7 +27,7 @@ _Invoice with Credit Memo option_
 
 1. In the header at the _Sign In_ prompt, choose **Merchants**.
 
-   ![Merchant Sign In]({% link images/images/payments-amazon-pay-site-header.png %}){: .zoom}
+   ![Merchant sign in]({% link images/images/payments-amazon-pay-site-header.png %}){: .zoom}
    _Merchant sign in_
 
 1. When prompted, do the following:
@@ -40,8 +40,8 @@ _Invoice with Credit Memo option_
 
 1. To view orders from a specific region, choose the region from **Account Activity**.
 
-   ![Orders from Region]({% link images/images/payments-amazon-pay-account-activity-from-region.png %}){: .zoom}
-   _Orders from Region_
+   ![Orders from region]({% link images/images/payments-amazon-pay-account-activity-from-region.png %}){: .zoom}
+   _Orders from region_
 
 1. To find an order, click **Can’t find an order?** and choose the Amazon service that processed the order.
 

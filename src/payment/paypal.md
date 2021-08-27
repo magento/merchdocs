@@ -20,14 +20,12 @@ Customers who use PayPal Express Checkout or Express Checkout for Payflow Pro mu
 
 Website Payments Pro, Website Payments Pro Payflow Edition, Payflow Pro Gateway, and Payflow Link require customers to enter credit card information during checkout.
 
-## Magento supported PayPal solutions
+## Commerce-supported PayPal solutions
 
-With PayPal and Magento, you can accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even your customers who don’t have a PayPal account can pay for their purchases with PayPal.
+With PayPal and Adobe Commerce and Magento Open Source, you can accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even your customers who don’t have a PayPal account can pay for their purchases with PayPal.
 
 {:.bs-callout-info}
-You cannot have more than one PayPal method enabled in your Magento store at a time, with the exception of PayPal Express Checkout. PayPal Express Checkout can be used in combination with other PayPal payment methods, except for PayPal Payments Standard. If you change payment solutions, the previously method is disabled.
-
-In this guide and the Magento configuration, PayPal payments solutions are categorized as follows:
+You cannot have more than one PayPal method enabled in your store at a time, with the exception of PayPal Express Checkout. PayPal Express Checkout can be used in combination with other PayPal payment methods, except for PayPal Payments Standard. If you change payment solutions, the previously method is disabled.
 
 ## PayPal Express Checkout
 

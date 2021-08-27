@@ -24,7 +24,7 @@ Payment on Account is not supported for orders with [multiple shipping addresses
 
 1. To allow payment on account, set **Enabled** to `Yes`.
 
-1. Enter a **Title** to identify the this payment method during checkout, or you can accept the `Payment on Account` default title.
+1. Enter a **Title** to identify the payment method during checkout, or you can accept the `Payment on Account` default title.
 
 1. If orders typically wait for approval, accept the default **New Order Status** as `Pending` until it is approved.
 

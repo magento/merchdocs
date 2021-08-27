@@ -9,7 +9,7 @@ International customers may also have an option to select their preferred curren
 ![Amazon Pay on Product Page]({% link images/images/storefront-product-amazon-pay.png %}){: .zoom}
 _Amazon Pay on a product page_
 
-The following information describes the customer experience using Amazon Pay when placing an order from the Magento storefront.
+The following information describes the customer experience using Amazon Pay when placing an order from the storefront.
 
 1. To begin the checkout process, click <span class="btn">Amazon Pay</span> and enter your Amazon credentials.
 
@@ -33,7 +33,7 @@ The following information describes the customer experience using Amazon Pay whe
 
 1. Complete the **Review & Payments** checkout step.
 
-   The standard Magento payment methods are replaced with the payment methods that are available in the Amazon account. The pagination indicator shows how many payment methods are available. However, only four can be viewed at a time.
+   The standard Admin Commerce and Magento Open Source payment methods are replaced with the payment methods that are available in the Amazon account. The pagination indicator shows how many payment methods are available. However, only four can be viewed at a time.
 
    ![Review and Payments]({% link images/images/payments-amazon-pay-checkout-step2-review-payments.png %}){: .zoom}
    _Review & Payments_

@@ -8,11 +8,11 @@ Zero Subtotal Checkout can be used for orders with a subtotal of zero that are t
 
 - The customer adds a [downloadable]({% link catalog/product-create-downloadable.md %}) or [virtual]({% link catalog/product-create-virtual.md %}) product to the shopping cart, and the price equals zero.
 
-- The price of a [simple]({% link catalog/product-create-simple.md %}) product is zero, and the [Free Shipping]({% link shipping/shipping-free.md %}) method is available.
+- The price of a [simple]({% link catalog/product-create-simple.md %}) product is zero, and the [free shipping]({% link shipping/shipping-free.md %}) method is available.
 
 - A [coupon code]({% link marketing/price-rules-cart-coupon.md %}) covers the full price of products and shipping.
 
-To save time, zero subtotal orders can be set to invoice automatically.
+To save time, zero subtotal orders can be set to automatically invoice.
 
 ## Configure zero subtotal checkout
 

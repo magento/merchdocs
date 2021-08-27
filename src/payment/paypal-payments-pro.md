@@ -28,13 +28,13 @@ At the customer’s request, the store administrator can also create an order fr
 ## Order processing workflow
 
 |**1**|**Order placed**|The order can be processed either the Admin of your store, or from your PayPal merchant account.|
-|**2**|**Payment action**|The payment action specified in the configuration is applied to the order. Options include:<br/>**Authorize** - Magento creates a sales order with the _Processing_ status. In this case, the amount of money to be authorized is pending approval.<br/>**Sale** - Magento creates both a sales order and invoice.<br/>**Capture** - PayPal transfers the order amount from the customer balance, bank account, or credit card to the merchant account.|
-|**3**|**Invoicing**|An invoice is created in Magento after PayPal sends an instant payment notification message to Magento.<br/><br/>**Note**: Make sure that instant payment notifications are enabled in your PayPal merchant account.<br/><br/>If required, an order can be partially invoiced for a specified quantity of products. For each partial invoice submitted, a separate Capture transaction with a unique ID becomes available, and a separate invoice is generated.<br/><br/>Authorization-only payment transactions are closed only after the full order amount is captured.<br/><br/>An order can be voided online at any time until the order amount is fully invoiced.|
+|**2**|**Payment action**|The payment action specified in the configuration is applied to the order. Options include:<br/>**Authorize** - Commerce creates a sales order with the _Processing_ status. In this case, the amount of money to be authorized is pending approval.<br/>**Sale** - Commerce creates both a sales order and invoice.<br/>**Capture** - PayPal transfers the order amount from the customer balance, bank account, or credit card to the merchant account.|
+|**3**|**Invoicing**|An invoice is created in Commerce after PayPal sends an instant payment notification message to Commerce.<br/><br/>**Note**: Make sure that instant payment notifications are enabled in your PayPal merchant account.<br/><br/>If required, an order can be partially invoiced for a specified quantity of products. For each partial invoice submitted, a separate Capture transaction with a unique ID becomes available, and a separate invoice is generated.<br/><br/>Authorization-only payment transactions are closed only after the full order amount is captured.<br/><br/>An order can be voided online at any time until the order amount is fully invoiced.|
 |**4**|**Returns**|If for any reason the customer returns the purchased products and claims a refund, as with order amount capturing and invoice creation, you can create an online refund either from the Admin or from your PayPal merchant account.|
 
 ## Configure your PayPal Account
 
-Before you set up PayPal Payments Pro in Magento, you must configure your merchant account on the PayPal website.
+Before you set up PayPal Payments Pro in Commerce, you must configure your merchant account on the PayPal website.
 
 1. Log in to your [PayPal business account](https://manager.paypal.com/).
 
@@ -50,7 +50,7 @@ Before you set up PayPal Payments Pro in Magento, you must configure your mercha
 
 1. Under **Payment Confirmation**, set **Return URL Method** to `POST`.
 
-1. Under **Security Options**, make the following settings:
+1. Under **Security Options**, configure the following:
 
    |**AVS** |`No` |
    |**CSC** |`No` |
@@ -73,7 +73,7 @@ Before you set up PayPal Payments Pro in Magento, you must configure your mercha
 1. Click <span class="btn">Confirm</span>.
 
    {:.bs-callout-info}
-   If you have multiple Magento websites, you must create a separate PayPal Payments Pro account for each.
+   If you have multiple Commerce websites, you must create a separate PayPal Payments Pro account for each.
 
 1. Set up an additional user (recommended by PayPal):
 
@@ -92,7 +92,7 @@ Before you set up PayPal Payments Pro in Magento, you must configure your mercha
 
 1. Make sure to log out of your PayPal account.
 
-## Set up PayPal Payments Pro in Magento
+## Set up PayPal Payments Pro in Commerce
 
 {:.bs-callout-info}
 You can have two PayPal solutions active at the same time: [PayPal Express Checkout], plus any one of the [all-in-one solutions]. If you change payment solutions, the one used previously is automatically disabled.
@@ -100,13 +100,13 @@ You can have two PayPal solutions active at the same time: [PayPal Express Check
 {:.bs-callout-tip}
 Click <span class="btn">Save Config</span> at any time to save your progress.
 
-### Step 1: Begin the Magento configuration
+### Step 1: Begin the configuration
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
+1. If your Commerce installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
 
 1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
 
@@ -144,7 +144,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. If you want to run test transactions, set **Test Mode** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by PayPal. When you are ready to _go live_, return to the configuration and set Test Mode to `No`.
+   When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by PayPal. When you are ready to go live, return to the configuration and set Test Mode to `No`.
 
 1. If your system uses a proxy server to establish the connection to the PayPal system, set **Use Proxy** to `Yes` and do the following:
 
@@ -321,7 +321,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 1. Set **Payment Applicable From** to one of the following:
 
    |`All Allowed Countries` |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
-   |`Specific Countries` |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store.|
+   |`Specific Countries` |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.|
 
 1. To write communications with the payment system into the log file, set **Debug Mode** to `Yes`.
 
@@ -366,15 +366,15 @@ Set **Enable PayPal PayLater Experience** to one of the following:
       - Login
       - Password
 
-   - To run test reports before _going live_ with Payments Pro on your site, set **Sandbox Mode** to `Yes`.
+   - To run test reports before going live with Payments Pro on your site, set **Sandbox Mode** to `Yes`.
 
    - Enter the **Custom Endpoint Hostname or IP Address**.
 
-      By default, the value is: `reports.paypal.com`
+      By default, the value is `reports.paypal.com`.
 
    - Enter the **Custom Path** where reports are saved.
 
-      By default, the value is: `/ppreports/outgoing`
+      By default, the value is `/ppreports/outgoing`.
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
@@ -477,7 +477,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 1. To display a full summary of the customer order by line item from the PayPal site, set **Transfer Cart Line Items** to `Yes`.
 
-1. To allow the customer to complete the transaction from the PayPal site without returning to your Magento store for Order Review, set **Skip Order Review Step** to `Yes`.
+1. To allow the customer to complete the transaction from the PayPal site without returning to your store for Order Review, set **Skip Order Review Step** to `Yes`.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
