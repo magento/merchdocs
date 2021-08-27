@@ -28,7 +28,7 @@ _Blocks page_
 
 1. Add the content for the block using the displayed content tool set:
 
-   - {:.ee-only}If [Page Builder]({% link cms/page-builder.md %}) is enabled, the content [workspace]({% link cms/page-builder-workspace.md %}) includes the Page Builder tools.
+   - If [Page Builder]({% link cms/page-builder.md %}) is enabled, the content [workspace]({% link cms/page-builder-workspace.md %}) includes the Page Builder tools.
 
       ![]({% link images/images-ee/page-builder-workspace-block.png %}){: .zoom}
       _Page Builder workspace_

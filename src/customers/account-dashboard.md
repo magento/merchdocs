@@ -4,7 +4,7 @@ title: Account Dashboard
 
 Customers can manage and monitor their own information and activities from their account dashboard. Customers can reorder, track orders, manage shipping addresses and payment methods, product reviews, newsletter subscriptions, and more.
 
-- {:.b2b-only}The full range of B2B options are available only for customers who are associated with a company. Otherwise, the dashboard options for individual accounts are the same as those available to Magento Commerce customers.
+- {:.b2b-only}The full range of B2B options are available only for customers who are associated with a company. Otherwise, the dashboard options for individual accounts are the same as those available to Adobe Commerce customers.
 
 ![]({% link images/images-ee/customer-account-dashboard.png %}){: .zoom}
 _Account Dashboard_

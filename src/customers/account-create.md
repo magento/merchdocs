@@ -165,7 +165,7 @@ Additional buttons become available when the profile is saved for the first time
 |<span class="btn">Reset</span>|Resets any unsaved changes in the customer form to their previous values.|
 |<span class="btn">Create Order</span>|Creates a new order for the customer.|
 |<span class="btn">Reset Password</span>|Sends a [reset password]({% link customers/password-reset.md %}) link to the customer by email.|
-|<span class="btn">Force Sign-in</span>|Revokes the OAuth access tokens that are associated with the customer account. This can be used only with customer accounts that have been assigned OAuth tokens as part of a Web API [integration]({% link system/integrations.md %}). To learn more, see [OAuth-based authentication]({{ site.devdocs_url }}/guides/v{{ site.version }}/get-started/authentication/gs-authentication-oauth.html) in the Magento DevDocs.|
+|<span class="btn">Force Sign-in</span>|Revokes the OAuth access tokens that are associated with the customer account. This can be used only with customer accounts that have been assigned OAuth tokens as part of a Web API [integration]({% link system/integrations.md %}). To learn more, see [OAuth-based authentication]({{ site.devdocs_url }}/guides/v{{ site.version }}/get-started/authentication/gs-authentication-oauth.html) in our DevDocs.|
 |<span class="btn">Manage Shopping Cart</span>|Allows the administrator to manage the shopping cart for the customer.|
 |<span class="btn">Save and Continue Edit</span>|Saves changes and keeps the customer profile open.|
 |<span class="btn">Save Customer</span>|Saves changes and closes the customer profile.|
