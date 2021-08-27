@@ -7,7 +7,7 @@ B2B for Adobe Commerce gives you the ability to maintain gated _shared_ catalogs
 
 If the [Shared Catalog]({% link stores/b2b-features.md %}) feature is enabled in the configuration, the original master catalog continues to be visible from the Admin, but only the Default (General) public shared catalog is visible from the storefront. In addition, custom catalogs can be created that are visible only to members of specific [company]({% link customers/account-companies.md %}) accounts.
 
-For the Default (General) public shared catalog, You must need to assign products to display catalog on the storefront. By default, it is empty and does not contains any products.
+For the Default (General) public shared catalog, You must need to assign products to display catalog on the storefront. By default, it is empty and does not contain any products.
 
 The Shared Catalogs grid lists the shared catalogs that are currently in existence, and provides tools to create and maintain the catalogs.
 
