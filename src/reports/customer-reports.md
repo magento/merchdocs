@@ -31,7 +31,7 @@ The Order Total Report shows customer orders for a specified time interval or da
 |Customer|The name of the customer who placed the orders.|
 |Orders|The number of orders for the specified interval.|
 |Average|Average order amount.|
-|Total|The total amount of all orders for the period.|
+|Total|The sum total of all orders for the period.|
 
 ## Order Count
 
@@ -147,8 +147,8 @@ The Customer Segment Report provides information about the number of customers i
 
 |Column|Description|
 |--- |--- |
-|ID|A unique numeric identifier that is assigned to each segment|
-|Segment|Segment name|
+|ID|A unique numeric identifier that is assigned to each segment.|
+|Segment|Segment name.|
 |Status|Segment status. Options: Active / Inactive|
-|Website|Website to which the segment is assigned|
-|Customers|Number of customers assigned to a segment|
+|Website|Website to which the segment is assigned.|
+|Customers|Number of customers assigned to the segment.|
