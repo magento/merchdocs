@@ -2,7 +2,7 @@
 title: RSS Feeds
 ---
 
-RSS (Really Simple Syndication) is an XML-based data format that is used to distribute information online. Your customers can subscribe to your RSS feeds to learn about new products and promotions. RSS Feeds can also be used to publish your product information to shopping aggregation sites, and can be included in newsletters.
+RSS (Really Simple Syndication) is an XML-based data format that is used to distribute information online. Your customers can subscribe to your RSS feeds to learn about new products and promotions. RSS feeds can also be used to publish your product information to shopping aggregation sites, and can be included in newsletters.
 
 When RSS feeds are enabled, any additions to products, specials, categories, and coupons are automatically sent to the subscribers of each feed. A link to all RSS feeds that you publish is in the footer of your store.
 
