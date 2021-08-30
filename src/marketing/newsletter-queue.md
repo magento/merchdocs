@@ -35,13 +35,26 @@ _Add to Newsletter Queue_
    {:.bs-callout-info}
    Do not remove the instructions, which are required by law in many jurisdictions.
 
+1. To apply custom styles to a newsletter, add them into the **Newsletter Styles** field.
+
 1. When complete, click <span class="btn">Save and Resume</span>.
 
     The newsletter appears in the queue waiting to be processed.
 
-    ![Newletter queue]({% link images/images/newsletter-queue-saved.png %}){: .zoom}
+    ![Newsletter queue]({% link images/images/newsletter-queue-saved.png %}){: .zoom}
     _Newsletter Queue_
 
 ## Check for Problems
 
 On the _Admin_ menu, go to **Reports** > _Marketing_ > **Newsletter Problem Reports**.
+
+### Button bar
+
+{: .format-table }
+|Button|Description|
+|--- |--- |
+|<span class="btn">Back</span>|Returns to the Newsletter Templates page without saving changes.|
+|<span class="btn">Reset</span>|Resets any unsaved changes in the queue information form to their previous values.|
+|<span class="btn">Preview Template</span>|Opens a preview page in a separate tab.|
+|<span class="btn">Save and Resume</span>|Saves all made changes. Puts the newsletter to queue.|
+|<span class="btn">Save Newsletter</span>|Saves all made changes. Puts the newsletter to queue.|

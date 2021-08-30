@@ -10,7 +10,7 @@ _Message Log_
 
 ## Enable message performance logs
 
-1. Log into the Magento Commerce Admin.
+1. Log into the Adobe Commerce Admin.
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 1. In the left panel, expand **MCOM Connector** and choose **Configuration**.
 1. Scroll down to the Performance Monitor section and enable desired New Relic or Logger Output options.
@@ -36,7 +36,7 @@ See the [Message performance section](https://omsdocs.magento.com/integration/co
    ![Click the History section to see a full error trace]({% link images/images-ee/mcom-message-log-trace.png %}){: .zoom}
    _See full error trace in History_
 
-Information about fatal errors is located in the `apache/nginx` error log (the [same place logs are located]({{ site.devdocs_url }}/cloud/project/log-locations.html#application-logs) for the Connector-less Magento installation).
+Information about fatal errors is located in the `apache/nginx` error log (the [same place logs are located]({{ site.devdocs_url }}/cloud/project/log-locations.html#application-logs) for the Connector-less Adobe Commerce installation).
 
 If you are working in Developer mode, all errors will be visible on your screen.
 

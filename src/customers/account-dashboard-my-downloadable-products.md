@@ -27,7 +27,7 @@ The following table describes the _My Downloadable Products_ values:
 
 1. Look for the file in the downloads location used by your web browser and choose **Download**.
 
-    ![]({% link images/images/account-dashboard-download-video.png %}){: .zoom}
+    ![]({% link /customers/assets/account-dashboard-download-video.png %}){: .zoom}
     _Download Video_
 
 {:.bs-callout-tip}

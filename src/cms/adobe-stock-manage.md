@@ -21,16 +21,12 @@ To search Adobe Stock assets and add a stock image to a page:
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and do the following:
 
-   - {:.ce-only}If you have WYSIWYG mode disabled, click **Insert Image**.
+   - If you have the [WYSIWYG editor enabled]({% link cms/editor-configure.md %}), click **Show/Hide Editor** and then click **Insert Image**.
 
-   - {:.ce-only}If you have WYSIWYG mode enabled, click **Show/Hide Editor** and then click **Insert Image**.
-
-   - {:.ee-only}If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>.
+   - If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>.
 
       ![]({% link images/images-ee/page-builder-media-image-drag.png %}){: .zoom}
       _Dragging an image to the Page Builder stage_
-
-   - {:.ee-only}If you have the [WYSIWYG editor enabled]({% link cms/editor-configure.md %}), click **Show/Hide Editor** and then click **Insert Image**.
 
 1. Click <span class="btn">Search Adobe Stock</span>.
 
@@ -61,7 +57,7 @@ To search Adobe Stock assets and add a stock image from the WYSIWYG Editor:
 
 ## Filter and search for Adobe Stock assets
 
-The [Adobe Stock Search Grid][access-search] provides querying and filtering functionality to help you find the perfect image for your Magento stores.
+The [Adobe Stock Search Grid][access-search] provides querying and filtering functionality to help you find the perfect image for your Commerce stores.
 
 By default, the search results shown are from an Adobe Stock curated gallery of a few hundred results. As soon as you apply your own keyword search, you will be
 searching the millions of assets available via Adobe Stock.
@@ -143,7 +139,7 @@ _Adobe Stock search results with licensed images_
 
 ### Save images to the Media Storage
 
-Images searched using the Adobe Stock integration can be saved to the Magento [Media Storage][media-storage] for easy re-use across your Magento store.
+Images searched using the Adobe Stock integration can be saved to the Commerce [Media Storage][media-storage] for easy re-use across your Commerce store.
 
 You can save two types of images: an [image preview][save-preview] or a [licensed image][save-licensed].
 
@@ -168,7 +164,7 @@ An image preview is a watermarked version of an Adobe Stock asset. Image preview
 
 #### Save a licensed image
 
-Adobe Stock assets that you want to use for your production Magento stores should be licensed to ensure you have legal access to the image as well as to eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
+Adobe Stock assets that you want to use for your production Commerce stores should be licensed to ensure you have legal access to the image as well as to eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
 
 1. [Log in to your Adobe account][log-in-to-adobe-account].
 

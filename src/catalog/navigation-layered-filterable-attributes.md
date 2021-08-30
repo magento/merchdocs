@@ -60,3 +60,27 @@ The [Position field]({% link stores/attributes-product.md %}) will be grayed out
 To test the setting, visit your store and navigate to the category from the main menu. The selection of filterable attributes appears in the layered navigation of the category page.
 
 Search, filter, and review the displayed products.
+
+## Remove filterable attribute values from layered navigation
+
+Layered navigation includes filters for all available attribute values and their product counts, including those with zero (0) product matches (as shown in the following image).
+
+   ![]({% link images/images/filterable-attributes-on-plp.png %}){: .zoom}
+   _Zero filters displaying_
+
+This makes it difficult for customers to select a preferred product, and there is no need to display attribute values ​​with 0 products in the front-end.
+
+You can use the following steps to remove filterable attribute values with 0 Products from the layered navigation:
+
+1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
+
+1. Browse or use filtered search to find an attribute in the list and open it in edit mode.
+
+1. Under _Attribute Information_ , click **Storefront Properties**.
+
+   ![]({% link images/images/storefront-properties-tab.png %}){: .zoom}
+   _Attribute Information section_
+
+1. For **Layered Navigation**, choose `Filterable (with results)`.
+
+1. Click <span class="btn">Save Attribute</span>.

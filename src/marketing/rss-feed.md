@@ -2,7 +2,7 @@
 title: RSS Feeds
 ---
 
-RSS (Really Simple Syndication) is an XML-based data format that is used to distribute information online. Your customers can subscribe to your RSS feeds to learn of new products and promotions. RSS Feeds can also be used to publish your product information to shopping aggregation sites, and can be included in newsletters.
+RSS (Really Simple Syndication) is an XML-based data format that is used to distribute information online. Your customers can subscribe to your RSS feeds to learn about new products and promotions. RSS feeds can also be used to publish your product information to shopping aggregation sites, and can be included in newsletters.
 
 When RSS feeds are enabled, any additions to products, specials, categories, and coupons are automatically sent to the subscribers of each feed. A link to all RSS feeds that you publish is in the footer of your store.
 
@@ -13,6 +13,14 @@ The software that is required to read an RSS feed is called a feed reader, and a
 
 ![Example storefront - RSS feed]({% link images/images/storefront-rss-feeds.png %}){: .zoom}
 _RSS Feeds_
+
+## Benefits of setting up an RSS feed
+
+- Download the latest update from your store or blog
+- Light ads
+- Ordinary shares
+- Boost SEO
+- Increase sales
 
 ## Set Up RSS Feeds for Your Store
 
@@ -35,12 +43,12 @@ _RSS Feeds_
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Catalog** section and set other feeds to `Enable` as needed.
 
-    If necessary, clear the **Use Default** checkbox to change the default value.
+   If necessary, clear the **Use Default** checkbox to change the default value.
 
-    - **New Products**
-    - **Special Products**
-    - **Coupons/Discounts**
-    - **Top Level Category**
+   - **New Products**
+   - **Special Products**
+   - **Coupons/Discounts**
+   - **Top Level Category**
 
     ![]({% link images/images/config-catalog-rss-feeds-catalog.png %}){: .zoom}
     _Catalog_
@@ -48,6 +56,11 @@ _RSS Feeds_
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order** section and set **Customer Order Status Notification** to `Enable`.
 
 1. When complete, click <span class="btn">Save Config</span>.
+
+1. See result on the storefront with “/rss” at the end of the page URL.
+
+   ![]({% link images/images/rss-feed-on-the-storefront.png %}){: .zoom}
+   _RSS Feeds on the Storefront_
 
 ## Types of RSS Feeds
 

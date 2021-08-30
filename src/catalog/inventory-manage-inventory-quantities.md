@@ -6,7 +6,7 @@ The following information details how to assign sources and quantities for new p
 
 When creating new products, assign sources and quantities during product creation. See [Product Types]({% link catalog/product-types.md %}) documentation for full instructions. These pages includes Single and Multi Source information for sources and quantities per source.
 
-When first accessing an upgraded Magento with Inventory Management, all products and quantities are assigned to the Default Source. When importing new products via .csv file, they are also assigned to the Default Source.
+When first accessing an upgraded Commerce with Inventory Management, all products and quantities are assigned to the Default Source. When importing new products via .csv file, they are also assigned to the Default Source.
 
 Single and Multi Source merchants can update sources, inventory quantities, and thresholds per product or in bulk.
 

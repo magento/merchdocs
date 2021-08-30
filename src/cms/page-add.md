@@ -26,28 +26,8 @@ _Pages Grid_
 
 ## Step 2: Complete the content
 
-{:.ce-only}
-### Use the Custom Design Update
+Depending on your [Advanced Content Tools configuration]({% link configuration/general/content-management.md %}), add the page content.
 
-1. To schedule design changes, expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Custom Design Update**.
-
-   ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
-   _Custom Design Update_{:.ce-only}
-
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Content**.
-
-   ![]({% link images/images/page-content.png %}){: .zoom}
-   _Content_{:.ce-only}
-
-1. In the **Content Heading** box, enter the heading that you want to appear at the top of the page.
-
-1. Complete the content and format the text as needed.
-
-   You can add [images]({% link cms/media-storage.md %}), [variables]({% link marketing/variables.md %}), and [widgets]({% link cms/widgets.md %}) as needed. For more information, see [Using the Editor]({% link cms/editor.md %}).
-
-1. Click <span class="btn">Save</span>.
-
-{:.ee-only}
 ### Use the Page Builder content tools
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Content**.
@@ -62,6 +42,19 @@ _Pages Grid_
 1. Complete the content, and format the text as needed.
 
    For more information, see [Workspace]({% link cms/page-builder-workspace.md %}). If _Page Builder_ is not enabled, the editor opens in WYSIWYG mode with the toolbar at the top.
+
+### Use the editor toolbar
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Content**.
+
+   ![]({% link images/images/page-content.png %}){: .zoom}
+   _Content_
+
+1. In the **Content Heading** box, enter the heading that you want to appear at the top of the page.
+
+1. Complete the content and format the text as needed.
+
+   You can add [images]({% link cms/media-storage.md %}), [variables]({% link marketing/variables.md %}), and [widgets]({% link cms/widgets.md %}) as needed. For more information, see [Using the Editor]({% link cms/editor.md %}).
 
 ## Step 3: Complete the SEO information
 
@@ -109,7 +102,6 @@ _Pages Grid_
 
 1. If this page is a child of another page, select the checkbox of the **Parent page**.
 
-{:.ee-only}
 ## Step 6: Enter design changes (optional)
 
 1. To change the layout of the page, expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Design**.

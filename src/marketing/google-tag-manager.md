@@ -1,18 +1,20 @@
 ---
 ee_only: true
 title: Google Tag Manager
+redirect_from:
+  - /marketing/google-tag-manager-troubleshooting.html
 ---
 
 Google Tag Manager helps you manage the many tags, or snippets of code, that are related to your marketing campaign events. Google Tag Manager gives you the ability to add tracking tags to your site to measure the audience, or to personalize, retarget, or conduct search engine marketing initiatives.
 
 Google Tag Manager directly transfers data and events to Google Analytics, Enhanced Ecommerce and other third-party analytics solutions, to produce a clear picture of how well your site, products, and promotions are performing.
 
-You should have a Google Analytics and Tag Manager account to continue this process. The following instructions walk you through the process of configuring your Google accounts, configuring your Magento store, and creating a tag.
+You should have a Google Analytics and Tag Manager account to continue this process. The following instructions walk you through the process of configuring your Google accounts, configuring your Commerce store, and creating a tag.
 
 {: .bs-callout .bs-callout-info}
 If your business is subject to privacy regulations such as the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}) and/or the [California Consumer Privacy Act]({% link stores/compliance-ccpa.md %}), see [Google Privacy Settings]({% link stores/compliance-privacy-google.md %}).
 
-## Step 1. Configure Your Google Analytics Account
+## Step 1. Configure your Google Analytics account
 
 See Google's [Set up Site Search][7] for the basics you need to get started. Also see the Google guides for [Google Analytics][1] and [Google Tag Manager][2].
 
@@ -51,7 +53,7 @@ See Google's [Set up Site Search][7] for the basics you need to get started. Als
     {:.bs-callout-info}
     If not all settings are `On`, repeat the previous steps, save, and reload the page. Repeat this process until all settings are set to `On`.
 
-## Step 2. Configure Your Google Tag Manager Account
+## Step 2. Configure your Google Tag Manager account
 
 The following instructions show how to configure a new container with the basic settings. A sample [Composer][4] configuration (.json) file is used to simplify the process, importing to generate a tag in a new container. For this example, we recommend that you create a new container, rather than modify an existing container.
 
@@ -96,9 +98,9 @@ For additional information, see Google's [Container export and import][5]. These
 
 1. Follow Google’s instructions to publish the new container.
 
-## Step 3. Configure Your Store
+## Step 3. Configure your store
 
-1. Log in to the Admin of your Magento store.
+1. Log in to the Admin of your Commerce store.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -123,7 +125,29 @@ For additional information, see Google's [Container export and import][5]. These
 
 1. Test your Google Tag Manager settings to verify that everything works correctly.
 
-## Field Descriptions
+## Step 4. Add the GTM code to your Adobe Commerce store
+
+1. Copy the GTM code:
+
+   There are two GTM code snippets to be added to your Commerce site: the first one for the <head> tag and the and the second for the <body> tag.
+
+    ![Install Google Tag Manager]({% link images/images-ee/install-google-tag-manager.png %}){: .zoom}
+    _Google Tag Manager code_
+
+1. In the Commerce Admin, go to **Content** > _Design_ > **Configuration** and open the store view in edit mode.
+
+1. Under _Other Settings_, expand **HTML Head** and paste the code you copied from GTM for the <head> tag in the **Scripts and Style Sheets** field.
+
+    ![Install Google Tag Manager]({% link images/images-ee/head-tag.png %}){: .zoom}
+    _Inserting code in the HTML Head_
+
+1. Expand **Footer** and paste the GTM code for <body> in the **Miscellaneous HTML** field.
+    ![Install Google Tag Manager]({% link images/images-ee/footer-tag-section.png %}){: .zoom}
+    _Inserting code in the Footer_
+
+1. When complete, click <span class="btn">Save Configuration</span>.
+
+## Field descriptions
 
 |Field|Scope|Description|
 |--- |--- |--- |
