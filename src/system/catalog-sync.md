@@ -2,13 +2,13 @@
 title: Catalog Sync
 ---
 
-Magento compiles catalog data into tables using indexers. This process is automatically [triggered by several events]({% link system/index-management-events.md %}), such as changes to a product's price or inventory levels. To allow some Magento services to use that catalog data, a catalog sync process runs hourly. The catalog sync process exports product data from the Magento server to SaaS services on an ongoing basis. For example, the [Product Recommendations]({% link marketing/product-recommendations.md %}) feature needs up-to-date catalog information so that it can accurately return recommendations with correct names, pricing, and availability. The **Catalog Sync** dashboard allows you to observe and manage the Magento to SaaS syncing process.
+Adobe Commerce and Magento Open Source compiles catalog data into tables using indexers. This process is automatically [triggered by several events]({% link system/index-management-events.md %}), such as changes to a product's price or inventory levels. To allow some Commerce services to use that catalog data, a catalog sync process runs hourly. The catalog sync process exports product data from the Commerce server to SaaS services on an ongoing basis. For example, the [Product Recommendations]({% link marketing/product-recommendations.md %}) feature needs up-to-date catalog information so that it can accurately return recommendations with correct names, pricing, and availability. The **Catalog Sync** dashboard allows you to observe and manage the Commerce to SaaS syncing process.
 
 {:.bs-callout-info}
 To use the Catalog Sync dashboard, you must have an [API key and a SaaS environment configured]({% link system/saas.md %}).
 
 {:.bs-callout-info}
-See the [developer documentation]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-catalog-sync.html) to learn how to use the command-line interface to trigger the catalog sync and reindex product data for consumption by SaaS services.
+See the [Commerce Developer Guide]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-catalog-sync.html) to learn how to use the command-line interface to trigger the catalog sync and reindex product data for consumption by SaaS services.
 
 With the **Catalog Sync** dashboard you can:
 
@@ -36,7 +36,7 @@ The catalog sync process automatically runs every hour. However, if you are not 
 
 ### Products synced
 
-Displays the total number of products synced from your Magento catalog. After the initial sync, you should expect only changed products to be synced.
+Displays the total number of products synced from your Commerce catalog. After the initial sync, you should expect only changed products to be synced.
 
 ## Resync {#resync}
 
@@ -51,7 +51,7 @@ Forcing a resync triggers a resync of your entire product catalog, which can inc
 
 1. In the _Resync Data_ section, click <span class="btn">Resync</span>.
 
-   Magento syncs your catalog during the next scheduled sync window. Depending on the size of your catalog, this operation can take a long time.
+   Commerce syncs your catalog during the next scheduled sync window. Depending on the size of your catalog, this operation can take a long time.
 
 ## Synced catalog products
 
@@ -66,7 +66,7 @@ Last Exported | Date the product was last successfully exported from your catalo
 Last Modified | Date the product was last modified in your catalog
 SKU | Displays the stock keeping unit for the product
 Price | Price of the product
-Visibility | A product's visibility setting as defined in the Magento catalog
+Visibility | A product's visibility setting as defined in the Commerce catalog
 
 ## Resolve catalog sync issues {#resolvesync}
 
@@ -75,7 +75,7 @@ When you trigger a data resync, it can take up to an hour for the data to update
 ### Data discrepancy
 
 1. Display the detailed view of the product in question in the search results.
-1. Copy the JSON output and verify the content matches what you have in the Magento catalog.
+1. Copy the JSON output and verify the content matches what you have in the Commerce catalog.
 1. If the content does not match, make a minor change to the product in your catalog, such as adding a space or a period.
 1. Wait for a resync or [trigger a manual resync](#resync).
 

@@ -2,20 +2,20 @@
 title: Importing Product Images
 ---
 
-Multiple product images of each type can be imported into Magento, and associated with a specific product. The path and file name of each product image is entered in the CSV file, and the image files to be imported are uploaded to the corresponding path on the Magento server or external server.
+Multiple product images of each type can be imported into Adobe Commerce and Magento Open Source, and associated with a specific product. The path and file name of each product image is entered in the CSV file, and the image files to be imported are uploaded to the corresponding path on the Commerce server or external server.
 
-Magento creates its own directory structure for product images that is organized alphabetically. When you export product data with existing images to a CSV file, you can see the alphabetized path before the file name of each image. However, when you import new images, you do not need to specify a path, because Magento manages the directory structure automatically. Just make sure to enter the relative path to the import directory before the file name of each image to be imported.
+Commerce creates its own directory structure for product images that is organized alphabetically. When you export product data with existing images to a CSV file, you can see the alphabetized path before the file name of each image. However, when you import new images, you do not need to specify a path, because Commerce manages the directory structure automatically. Just make sure to enter the relative path to the import directory before the file name of each image to be imported.
 
-To upload images, you must have login credentials and correct permissions to access to the Magento folder on the server. With the correct credentials, you can use any SFTP utility to upload the files from your desktop computer to the server.
+To upload images, you must have login credentials and correct permissions to access to the Commerce folder on the server. With the correct credentials, you can use any SFTP utility to upload the files from your desktop computer to the server.
 
 Before you try to import a large amount of images, review the steps in the import method that you want to use, and run through the process with a few products. After you understand how it works, you’ll feel confident importing large quantities of images.
 
 {:.bs-callout-info}
-**Important!** We recommend that you use a program that supports UTF-8 encoding to edit CSV files, such as [Notepad++][1] or [OpenOffice Calc][2]. Microsoft Excel inserts additional characters into the column header of the CSV file, which can prevent the data from being imported back into Magento.
+**Important!** We recommend that you use a program that supports UTF-8 encoding to edit CSV files, such as [Notepad++][1] or [OpenOffice Calc][2]. Microsoft Excel inserts additional characters into the column header of the CSV file, which can prevent the data from being imported back into Commerce.
 
 ## Method 1: Import Images from the Local Server
 
-1. On the Magento server, upload the image files to the `var/import/images` folder or a subfolder, such as `var/import/images/product_images`. This is the default root folder for importing product images.
+1. On the Commerce server, upload the image files to the `var/import/images` folder or a subfolder, such as `var/import/images/product_images`. This is the default root folder for importing product images.
 
     ```terminal
     <Magento root folder>/var/import/images
@@ -23,7 +23,7 @@ Before you try to import a large amount of images, review the steps in the impor
     {:.no-copy}
 
     {:.bs-callout-info}
-    Starting with the Magento `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory - `<Magento-root-folder>/var/import/images`. For earlier Magento releases, you can use a different folder on the Magento server, as long as the path to the folder is specified during the import process.
+    Starting with the Adobe Commerce and Magento Open Source `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory - `<Magento-root-folder>/var/import/images`. For earlier Adobe Commerce and Magento Open Source releases, you can use a different folder on the Commerce server, as long as the path to the folder is specified during the import process.
 
 1. In the CSV data, enter the name of each image file to be imported on the correct row, by `sku`, and in the correct column according to image type (`base_image`, `small_image`, `thumbnail_image`, or `additional_images`).
 
@@ -47,7 +47,7 @@ Before you try to import a large amount of images, review the steps in the impor
     _Images File Directory_
 
     {:.bs-callout-tip}
-    Leave the **Images File Directory** blank to use the `<Magento-root-folder>/var/import/images` directory. Beginning with Magento version 2.3.2, this is the default import images base directory.
+    Leave the **Images File Directory** blank to use the `<Magento-root-folder>/var/import/images` directory. Beginning with Adobe Commerce and Magento Open Source version 2.3.2, this is the default import images base directory.
 
     If importing multiple images for a single `sku`, insert the images in a column named `additional_images` (add the column if not already added), separated by commas. Example: `image02.jpg,image03.jpg`
 
@@ -73,7 +73,7 @@ Before you try to import a large amount of images, review the steps in the impor
     ```
 
     {:.bs-callout-info}
-    Starting with the Magento `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory: `<remote-storage-root-folder>/var/import/images`. For earlier Magento releases, you can use a different folder on the Magento server as long as the path to the folder is specified during the import process.
+    Starting with the Adobe Commerce and Magento Open Source `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory: `<remote-storage-root-folder>/var/import/images`. For earlier Adobe Commerce and Magento Open Source releases, you can use a different folder on the Commerce server as long as the path to the folder is specified during the import process.
 
 1. In the CSV data, enter the name of each image file to be imported on the correct row, by `sku`, and in the correct column according to image type (`base_image`, `small_image`, `thumbnail_image`, or `additional_images`).
 
@@ -97,7 +97,7 @@ Before you try to import a large amount of images, review the steps in the impor
     _Images File Directory_
 
     {:.bs-callout-tip}
-    Leave the **Images File Directory** blank to use the `<Magento-root-folder>/var/import/images` directory. Beginning with Magento version 2.3.2, this is the default import images base directory.
+    Leave the **Images File Directory** blank to use the `<Magento-root-folder>/var/import/images` directory. Beginning with Adobe Commerce and Magento Open Source version 2.3.2, this is the default import images base directory.
 
     If importing multiple images for a single `sku`, insert the images in a column named `additional_images` (add the column if not already added), separated by commas: `image02.jpg,image03.jpg`
 

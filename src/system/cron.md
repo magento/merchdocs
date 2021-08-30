@@ -2,7 +2,7 @@
 title: Cron (Scheduled Tasks)
 ---
 
-Magento performs some operations on schedule by periodically running a script. You can control the execution and scheduling of Magento cron jobs from the Admin. Store operations that run according to a cron schedule include:
+Adobe Commerce and Magento Open Source performs some operations on schedule by periodically running a script. You can control the execution and scheduling of Commerce cron jobs from the Admin. Store operations that run according to a cron schedule include:
 
 - [Email ]({% link marketing/communications.md %})
 - [Catalog Price Rules]({% link marketing/price-rules-catalog.md %})
@@ -15,7 +15,7 @@ In addition, you can configure the following to run according to a cron schedule
 - Order System Grid Updates and Reindexing
 - Pending Payment Lifetime
 
-Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store are set correctly, so the URLs that are generated during cron operations are correct. See [Set up cron jobs][1]{:target="_blank"} in the developer documentation.
+Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store are set correctly, so the URLs that are generated during cron operations are correct. See [Set up cron jobs][1]{:target="_blank"} in the Commerce Developer Guide.
 
 ## Configure Cron
 

@@ -15,7 +15,7 @@ _Add Scheduled Export_
 
 The details of each export are not written to a log, but in case of failure you will receive an Export Failed email, which contains the error description. The result of the last export job appears in the Last Outcome column on the Scheduled Import/Export page.
 
-After each export, the export file is placed in the user-defined location, and a copy of the file is placed in the `var/log/import_export`directory on the server where Magento is deployed. The timestamp and the marker of the exported entity (products or customers) and type of the operation (in this case, export) are added to the export file name.
+After each export, the export file is placed in the user-defined location, and a copy of the file is placed in the `var/log/import_export`directory on the server where Commerce is deployed. The timestamp and the marker of the exported entity (products or customers) and type of the operation (in this case, export) are added to the export file name.
 
 ## Step 1: Complete the Export Settings
 
@@ -50,7 +50,7 @@ After each export, the export file is placed in the user-defined location, and a
 
 1. Set **Server Type** to one of the following:
 
-   - `Local Server` - To save the export file on the same server where Magento is installed.
+   - `Local Server` - To save the export file on the same server where Commerce is installed.
    - `Remote FTP` — To save the export file on a remote server.
 
     ![Scheduled export file information]({% link images/images-ee/data-transfer-scheduled-export-file-information.png %}){: .zoom}
@@ -61,7 +61,7 @@ After each export, the export file is placed in the user-defined location, and a
 
 1. Enter the **File Directory** where the export file is to be saved as follows:
 
-   - For **Local Server**, enter a relative path within the Magento installation, such as `var/export`. If the Remote storage module is configured, use `import_export/export`.
+   - For **Local Server**, enter a relative path within the Commerce installation, such as `var/export`. If the Remote storage module is configured, use `import_export/export`.
    - For **Remote FTP server**, enter the full URL and path to the target folder on the destination server.
 
 ## Step 3: Configure the Export Failed Emails
@@ -116,8 +116,8 @@ File Format | Select the format of the export file. Currently only the `.CSV` op
 
 Field | Description
 ----- | -----------
-Server Type | Determines the location of the export file. Options:<br>**Local Server** — Places the export file on the same server where Magento is deployed. If the Remote storage module is enabled, `Local Server` is switched to `Remote Storage`.<br>**Remote FTP** — Places the export file on a remote server. Additional options for credentials and file transfer settings appear.
-File Directory| Specify the directory where the export file is placed. In case Server Type is set to Local Server, specify the relative to Magento installation path. For example, `var/export`, or `import_export/export` for remote storage.
+Server Type | Determines the location of the export file. Options:<br>**Local Server** — Places the export file on the same server where Commerce is deployed. If the Remote storage module is enabled, `Local Server` is switched to `Remote Storage`.<br>**Remote FTP** — Places the export file on a remote server. Additional options for credentials and file transfer settings appear.
+File Directory| Specify the directory where the export file is placed. In case Server Type is set to Local Server, specify the relative to Commerce installation path. For example, `var/export`, or `import_export/export` for remote storage.
 
 ### Export Failed Emails
 

@@ -2,13 +2,13 @@
 title: Index Management
 ---
 
-Magento reindexes automatically whenever one or more items change. Actions that trigger reindexing include price changes, creating catalog or shopping cart price rules, adding new categories, and so on. To optimize performance, Magento accumulates data into special tables using indexers. As the data changes, the indexed tables must be updated—or reindexed. Magento reindexes as a background process, and your store remains accessible during the processes.
+Adobe Commerce and Magento Open Source reindexes automatically whenever one or more items change. Actions that trigger reindexing include price changes, creating catalog or shopping cart price rules, adding new categories, and so on. To optimize performance, Commerce accumulates data into special tables using indexers. As the data changes, the indexed tables must be updated—or reindexed. Commerce reindexes as a background process, and your store remains accessible during the processes.
 
-Reindexing data speeds up processing, and reduces the time the customer has to wait. For example, if you change the price of an item from $4.99 to $3.99, Magento reindexes the data to show the price change in the store. Without indexing, Magento would have to calculate the price of every product on the fly—taking into account shopping cart price rules, bundle pricing, discounts, tier pricing, and so on. Loading the price for a product might take longer than the customer is willing to wait.
+Reindexing data speeds up processing, and reduces the time the customer has to wait. For example, if you change the price of an item from $4.99 to $3.99, Commerce reindexes the data to show the price change in the store. Without indexing, Commerce would have to calculate the price of every product on the fly—taking into account shopping cart price rules, bundle pricing, discounts, tier pricing, and so on. Loading the price for a product might take longer than the customer is willing to wait.
 
-The indexers can be set to either update on save or on schedule. All indexes can use either option, except Customer Grid which only supports on save. When indexing on save, Magento starts a reindex on save actions. The Index Management page will update and flush the reindex message within a minute or two. When reindexing on a schedule, a reindex runs according to a schedule as a cron job. A system message appears if a [cron job]({% link system/cron.md %}) is not available to update any indexers that become invalid. Your store remains accessible during reindex processes.
+The indexers can be set to either update on save or on schedule. All indexes can use either option, except Customer Grid which only supports on save. When indexing on save, Commerce starts a reindex on save actions. The Index Management page will update and flush the reindex message within a minute or two. When reindexing on a schedule, a reindex runs according to a schedule as a cron job. A system message appears if a [cron job]({% link system/cron.md %}) is not available to update any indexers that become invalid. Your store remains accessible during reindex processes.
 
-When you need to reindex, a notification appears at the top of the page. The index and message clears based on the reindex mode and potential actions you take. See [Indexing overview][1]{:target="_blank"} in the developer documentation.
+When you need to reindex, a notification appears at the top of the page. The index and message clears based on the reindex mode and potential actions you take. See [Indexing overview][1]{:target="_blank"} in the Commerce Developer Guide.
 
 ![Index management - notification]({% link images/images/system-index-management-notification.png %}){: .zoom}
 _Reindex notification_
@@ -22,12 +22,12 @@ _Index Management_
 
 ## Best practices for reindexing
 
-Reindexing and caching have different purposes Magento. Indexes track database information for increased search performance, faster data retrieval for storefronts, and more. [Caches]({% link system/cache-management.md %}) save loaded data, images, formats, and the like for increased performance loading and accessing the storefront.
+Reindexing and caching have different purposes Commerce. Indexes track database information for increased search performance, faster data retrieval for storefronts, and more. [Caches]({% link system/cache-management.md %}) save loaded data, images, formats, and the like for increased performance loading and accessing the storefront.
 
-- Typically, you want to reindex when updating data in Magento.
+- Typically, you want to reindex when updating data in Commerce.
 - If you have a large store or multiple stores, you may want to set indexers like category and products to scheduled cron jobs due to potential reindex looping. You may want to set the reindex on a schedule during non-peak hours.
 - When reindexing, you do not need to also perform a flush cache.
-- For fresh Magento installations, you need to flush the cache and reindex.
+- For fresh Commerce installations, you need to flush the cache and reindex.
 - Flushing caches and reindexing does not flush your computer's web browser cache. We recommend also flushing the browser cache after completing updates to your storefront.
 
 ## Change the index mode
@@ -63,7 +63,7 @@ Reindexing and caching have different purposes Magento. Indexes track database i
 
 ## Reindex using the command line
 
-Magento provides additional reindex options using the command line. These options may require developer support to complete. For complete details and command options, see [Reindex][2]{:target="_blank"} in [Manage the indexers][3]{:target="_blank"}. The DevDocs PHP Developer Guide also includes an [Indexing section][4]{:target="_blank"}.
+Commerce provides additional reindex options using the command line. These options may require developer support to complete. For complete details and command options, see [Reindex][2]{:target="_blank"} in [Manage the indexers][3]{:target="_blank"}. The DevDocs PHP Developer Guide also includes an [Indexing section][4]{:target="_blank"}.
 
 [1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/extension-dev-guide/indexing.html
 [2]: {{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex
