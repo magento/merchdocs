@@ -5,28 +5,28 @@ title: Billing Agreements
 Customers who enter into a billing agreement with a payment provider can make purchases now and pay for them later, according to the agreement. To learn more, see [PayPal Billing Agreements]({% link payment/paypal-billing-agreements.md %}).
 
 ![Billing agreements list in the customer's dashboard]({% link images/images/customer-billing-agreements.png %}){: .zoom}
-_Billing agreement in customer's dashboard_
+_Billing agreement in customer dashboard_
 
 ## Create a billing agreement
 
-1. On the customer's dashboard go to **Billing Agreements**.
+1. From their dashboard, customer selects **Billing Agreements**.
 
-1. Under **New Billing Agreement** Select a payment provider from the drop-down.
+1. Under **New Billing Agreement**, selects a payment provider from the drop-down.
 
-1. Click the **Create** button.
+1. Clicks **Create**.
 
-You will be redirected to the payment system website.
+This redirects the customer to the payment system website.
 
 ![Creating new billing agreement in the customer's dashboard]({% link images/images/customer-create-billing-agreement.png %}){: .zoom}
 _Create Billing agreement_
 
 ## View a billing agreement
 
-1. On the customer's dashboard go to **Billing Agreements**.
+1. From their dashboard, customer selects **Billing Agreements**.
 
-1. Find the needed billing agreement to be viewed and click the **View** button.
+1. Find the billing agreement and clicks **View**.
 
-An active billing agreement can be cancelled by customer. For cancelling click the **Cancel** button, and confirm the action by clicking **OK**.
+The customer can cancel an active billing agreement by clicking **Cancel**, and then confirming the action by clicking **OK**.
 
 ![View billing agreement in customer's dashboard]({% link images/images/customer-view-billing-agreement.png %}){: .zoom}
 _View Billing agreement_
