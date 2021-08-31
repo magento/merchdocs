@@ -66,9 +66,9 @@ The [Braintree]({% link payment/braintree.md %}) Settlement Report can be filter
 
 1. On the _Admin_ sidebar, go to **Reports**.
 
-2. Choose the reports you want to refresh.
+1. Choose the reports you want to refresh.
 
-3. To update statistics, click on the anchor text `here`.
+1. To update statistics, click on the anchor text `here`.
 
 ### Step 2: Filter reports
 
@@ -87,4 +87,4 @@ Admin can get a whole website or one store report, a report for a time interval 
 
 1. To export the report, select file type: `Exel XML` or `CSV`
 
-1. Click **Export**. 
+1. Click **Export**.
