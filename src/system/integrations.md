@@ -23,7 +23,7 @@ _Integrations_
 
    - Enter the **Callback URL** where OAuth credentials can be sent when using OAuth for token exchange. We strongly recommend using `https://`.
 
-   - Enter the **Identity Link URL** to redirect the users to a third-party account with these Commerce integration credentials.
+   - Enter the **Identity Link URL** to redirect the users to a third-party account with these Adobe Commerce or Magento Open Source integration credentials.
 
    - When prompted, enter **Your Password** to confirm your identity.
 

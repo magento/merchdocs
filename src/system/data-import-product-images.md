@@ -2,7 +2,7 @@
 title: Importing Product Images
 ---
 
-Multiple product images of each type can be imported into Adobe Commerce and Magento Open Source, and associated with a specific product. The path and file name of each product image is entered in the CSV file, and the image files to be imported are uploaded to the corresponding path on the Commerce server or external server.
+Multiple product images of each type can be imported into Adobe Commerce and Magento Open Source and associated with a specific product. The path and file name of each product image is entered in the CSV file, and the image files to be imported are uploaded to the corresponding path on the Commerce server or external server.
 
 Commerce creates its own directory structure for product images that is organized alphabetically. When you export product data with existing images to a CSV file, you can see the alphabetized path before the file name of each image. However, when you import new images, you do not need to specify a path, because Commerce manages the directory structure automatically. Just make sure to enter the relative path to the import directory before the file name of each image to be imported.
 

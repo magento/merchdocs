@@ -32,7 +32,7 @@ The [Support Tools]({% link system/support.md %}) can be used as a resource duri
 
 ### Permissions
 
-Commerce uses [roles and permissions]({% link system/permissions.md %}) to create different levels of access for Admin users, which gives you the ability to grant permission on a “need to know” basis to people who work on your site.
+Adobe Commerce and Magento Open Source use [roles and permissions]({% link system/permissions.md %}) to create different levels of access for Admin users, which gives you the ability to grant permission on a “need to know” basis to people who work on your site.
 
 {:.ee-only}
 ### Action Log

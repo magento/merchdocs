@@ -2,7 +2,7 @@
 title: Cache Management
 ---
 
-The Adobe Commerce and Magento Open Source cache management system is an easy way to improve the performance of your site. Whenever a cache needs to be refreshed, a notice appears at the top of the workspace to guide you through the process. Follow the link to Cache Management, and refresh the invalid caches.
+The Adobe Commerce and Magento Open Source cache management system provides an easy way to improve the performance of your site. Whenever a cache needs to be refreshed, a notice appears at the top of the workspace to guide you through the process. Follow the link to Cache Management, and refresh the invalid caches.
 
 ![Save product attribute - update cache message]({% link images/images/product-attribute-save-msg-update-cache.png %}){: .zoom}
 _Update Cache Message_
@@ -11,12 +11,12 @@ The Cache Management page shows the status of each primary cache and its associa
 
 After clearing a cache, always refresh your browser to make sure that you can see the most recent files. Clearing the Commerce cache does not clear your web browser cache. You may need to clear the browser cache to see updated content.
 
-Access to specific cache maintenance actions can be assigned to users by [role]({% link system/permissions-role-resources.md %}), including options to view, toggle, and flush caches. Commerce recommends only enabling flush actions to administrator level users. Providing access to all Cache Management features can impact your storefront's performance.
+Access to specific cache maintenance actions can be assigned to users by [role]({% link system/permissions-role-resources.md %}), including options to view, toggle, and flush caches. Adobe recommends enabling flush actions only for administrator level users. Providing access to all Cache Management features can impact your storefront's performance.
 
 ![Role resources - cache management]({% link images/images/system-permissions-role-resources-cache-management.png %}){: .zoom}
 [_Cache Management Role Resources_]({% link system/permissions-role-resources.md %})
 
-For technical information, see [Commerce cache overview][1]{:target="_blank"} in the Commerce Developer Guide.
+For technical information, see [Cache overview][1]{:target="_blank"} in the Commerce Developer Guide.
 
 ![Cache management]({% link images/images/system-cache-management-invalid.png %}){: .zoom}
 _Cache Management_
@@ -71,7 +71,7 @@ Access the Cache Management page by doing one of the following:
 
 ## Flush Using the Command Line
 
-Commerce provides additional flush cache options using the command line. These options may require developer support to complete. For complete details and command options, see [Commerce cache overview][1]{:target="_blank"} and [Manage the cache][2]{:target="_blank"} in the Commerce Developer Guide.
+Commerce provides additional flush cache options using the command line. These options may require developer support to complete. For complete details and command options, see [Cache overview][1]{:target="_blank"} and [Manage the cache][2]{:target="_blank"} in the Commerce Developer Guide.
 
 ## Controls
 

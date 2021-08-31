@@ -21,7 +21,7 @@ The flat product and category indexers also influence how catalog and shopping c
 
 Action | Result | To Control
 ------ | ------ | ----------
-Creating a new store, new customer group, or any action listed in `Actions that Cause a Full Reindex` | Full reindex | Full reindexing is performed on the schedule determined by your Commerce cron job.
+Creating a new store, new customer group, or any action listed in `Actions that Cause a Full Reindex` | Full reindex | Full reindexing is performed on the schedule determined by your Adobe Commerce or Magento Open Source cron job.
 Bulk loading of items (Commerce import/export, Direct SQL query, and any other method that directly adds, changes, or deletes data) | Partial reindex (only changed items are reindexed) | At the frequency determined by your Commerce cron job.
 Changing scope (for example, from global to website) | Partial reindex (only changed items are reindexed) | At the frequency determined by your Commerce cron job.
 

@@ -2,7 +2,7 @@
 title: Catalog Sync
 ---
 
-Adobe Commerce and Magento Open Source compiles catalog data into tables using indexers. This process is automatically [triggered by several events]({% link system/index-management-events.md %}), such as changes to a product's price or inventory levels. To allow some Commerce services to use that catalog data, a catalog sync process runs hourly. The catalog sync process exports product data from the Commerce server to SaaS services on an ongoing basis. For example, the [Product Recommendations]({% link marketing/product-recommendations.md %}) feature needs up-to-date catalog information so that it can accurately return recommendations with correct names, pricing, and availability. The **Catalog Sync** dashboard allows you to observe and manage the Commerce to SaaS syncing process.
+Adobe Commerce and Magento Open Source compile catalog data into tables using indexers. This process is automatically [triggered by several events]({% link system/index-management-events.md %}), such as changes to a product's price or inventory levels. To allow some Commerce services to use that catalog data, a catalog sync process runs hourly. The catalog sync process exports product data from the Commerce server to SaaS services on an ongoing basis. For example, the [Product Recommendations]({% link marketing/product-recommendations.md %}) feature needs up-to-date catalog information so that it can accurately return recommendations with correct names, pricing, and availability. The **Catalog Sync** dashboard allows you to observe and manage the Commerce to SaaS syncing process.
 
 {:.bs-callout-info}
 To use the Catalog Sync dashboard, you must have an [API key and a SaaS environment configured]({% link system/saas.md %}).
