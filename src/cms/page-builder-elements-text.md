@@ -14,7 +14,7 @@ _Formatted text on a banner_
 You can access the text editor directly from the stage or from a settings page. Changes made directly to the stage are saved automatically. For more information, see [Using the Editor]({% link cms/editor.md %}).
 
 ![]({% link images/images-ee/page-builder-elements-text-editor-tools.png %}){: .zoom}
-_Text editor tool - TinyMCE 4_
+_Text editor tool - TinyMCE 5_
 
 ## Text container toolbox
 
