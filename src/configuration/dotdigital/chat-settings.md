@@ -9,13 +9,13 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdi
 ## Chat Settings
 
 ![]({% link images/images/config-engagement-cloud-chat-settings.png %}){: .zoom}
-_[Chat Settings - Not Enabled]({% link marketing/dotdigital/setup.md %})_
+_[Chat Settings - not enabled]({% link marketing/dotdigital/setup.md %})_
 
 ![]({% link images/images/config-engagement-cloud-chat-settings-enabled.png %}){: .zoom}
-_[Chat Settings - Enabled]({% link marketing/dotdigital/setup.md %})_
+_[Chat Settings - enabled]({% link marketing/dotdigital/setup.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enabled|Website|Determines if Chat is enabled for your Magento website. When enabled, the Chat widget appears on the pages of your website and the configuration buttons become available. Options: Yes / No|
-|Configure Chat Widget||<span class="btn">Configure</span> Opens the Widget tab from the Account page of your dotdigital account.|
-|Configure Chat Teams||<span class="btn">Configure</span> Opens the Teams tab from the Account page of your dotdigital account.|
+|Enabled|Website|Determines if _Chat_ is enabled for your website. When enabled, the _Chat_ widget appears on the pages of your website and the configuration buttons become available. Options: Yes / No|
+|Configure Chat Widget||<span class="btn">Configure</span> Opens the _Widget_ tab from the _Account_ page of your dotdigital account.|
+|Configure Chat Teams||<span class="btn">Configure</span> Opens the _Teams_ tab from the _Account_ page of your dotdigital account.|
