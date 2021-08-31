@@ -16,7 +16,7 @@ _Import Settings_
 |Contact Sync Size|Website|Sets the batch size limit for the amount of contacts that can be loaded for every data synchronization.|
 |Transactional Data Sync Size|Website|Sets the batch size limit for the amount of transactions that can be loaded for every data synchronization.|
 |Enable Subscribers Sales Data Sync|Website|Indicates if subscriber sales data is synchronized. This option is disabled by default due to the increased server load and synchronization times.|
-|Remove /pub directory from URLs|Global|Determines if the /pub path is included or removed from URLs. Options:<br /> Yes - Removes the /pub path from URLs.<br /> No - Leaves the /pub path in URLs.|
+|Remove `/pub` directory from URLs|Global|Determines if the `/pub` path is included or removed from URLs. Options:<br /> Yes - Removes the `/pub` path from URLs.<br /> No - Leaves the `/pub` path in URLs.|
 
 ## Sync Settings
 
