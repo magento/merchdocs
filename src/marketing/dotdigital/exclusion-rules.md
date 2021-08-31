@@ -21,7 +21,6 @@ _Exclusion rules_
 1. On the _Rule Information_ tab, do the following:
 
    - Enter a descriptive **Rule Name**.
-
    - Set **Rule Type** to one of the following:
 
       - `Abandoned Cart Exclusion Rule`
@@ -45,14 +44,12 @@ _Exclusion rules_
 
 1. Click <span class="btn">Add New Condition</span>. Then, do the following:
 
-      - Choose the **Attribute** that is the subject of the conditional statement.
+   - Choose the **Attribute** that is the subject of the conditional statement.
+   - Under _Condition_, choose the operator.
+   - Enter the **Value** that is needed to complete the condition.
 
-      - Under _Condition_, choose the operator.
-
-      - Enter the **Value** that is needed to complete the condition.
-
-        ![Exclusion rule - add new condition]({% link images/images/engagement-cloud-exclusion-rules-conditions-new.png %}){: .zoom}
-        _Add new condition_
+    ![Exclusion rule - add new condition]({% link images/images/engagement-cloud-exclusion-rules-conditions-new.png %}){: .zoom}
+    _Add new condition_
 
 1. To add another condition, click <span class="btn">Add New Condition</span> and repeat these steps.
 
