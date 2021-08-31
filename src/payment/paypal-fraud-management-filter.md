@@ -2,7 +2,7 @@
 title: PayPal Fraud Management Filter
 ---
 
-PayPal fraud management filters make it easier to detect and respond to fraudulent transactions, and can be configured to flag, hold for review, or deny riskier payments. Magento [order status]({% link sales/order-status.md %}) values changed according to the fraud filter settings.
+PayPal fraud management filters make it easier to detect and respond to fraudulent transactions, and can be configured to flag, hold for review, or deny riskier payments. Adobe Commerce and Magento Open Source [order status]({% link sales/order-status.md %}) values changed according to the fraud filter settings.
 
 ## Filter actions
 

@@ -4,7 +4,7 @@ title: User Roles
 
 To give someone restricted access to the Admin, the first step is to create a role that has the appropriate level of permissions. After the role is saved, you can add new users and assign the restricted role to grant them limited access to the Admin.
 
-![Magento Admin - user roles]({% link images/images/permissions-role-grid.png %})
+![Admin - user roles]({% link images/images/permissions-role-grid.png %})
 
 ## Define a role
 
@@ -46,7 +46,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
     _Role Resources Assigned_
 
     {:.bs-callout-info}
-    The list of available permissions may include additional options for Magento developed, Core Bundled, and installed extensions. By selecting the top-most permission for each feature, you assign all permissions available for the user.
+    The list of available permissions may include additional options for Commerce developed, Core Bundled, and installed extensions. By selecting the top-most permission for each feature, you assign all permissions available for the user.
 
 1. When complete, click <span class="btn">Save Role</span>.
 

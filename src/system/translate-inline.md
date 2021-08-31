@@ -7,7 +7,7 @@ You can use the Translate Inline tool in [developer mode]({% link magento/instal
 {:.bs-callout-info}
 The Translate Inline tool is available only when working in [developer mode]({% link magento/installation-modes.md %}).
 
-See [Translations overview][1]{:target="_blank"} in the developer documentation.
+See [Translations overview][1]{:target="_blank"} in the Commerce Developer Guide.
 
 ![Example storefront - translatable text]({% link images/images/storefront-translate-inline.png %}){: .zoom}
 _Translatable Text_

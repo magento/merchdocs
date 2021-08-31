@@ -8,7 +8,7 @@ Manage Stock Aggregates provides information about existing stock aggregates, an
 ![Manage Stock Aggregates]({% link images/images-ee/mcom-manage-stock-aggregates.png %}){: .zoom}
 _Manage Stock Aggregates_
 
-You [create sources](https://omsdocs.magento.com/en/features-processes/stock-sourcing/inventory/#configure-sources) and [aggregates](https://omsdocs.magento.com/en/features-processes/stock-sourcing/inventory/#configure-stock-aggregates) in the Order Management System (OMS) Admin. Then you assign which website(s) are associated with each aggregate via Manage Stock Aggregates in the Magento Commerce Admin.
+You [create sources](https://omsdocs.magento.com/en/features-processes/stock-sourcing/inventory/#configure-sources) and [aggregates](https://omsdocs.magento.com/en/features-processes/stock-sourcing/inventory/#configure-stock-aggregates) in the Order Management System (OMS) Admin. Then you assign which website(s) are associated with each aggregate via Manage Stock Aggregates in the Adobe Commerce Admin.
 
 ## Add a new stock aggregate
 
