@@ -22,7 +22,7 @@ _Index Management_
 
 ## Best practices for reindexing
 
-Reindexing and caching have different purposes Commerce. Indexes track database information for increased search performance, faster data retrieval for storefronts, and more. [Caches]({% link system/cache-management.md %}) save loaded data, images, formats, and the like for increased performance loading and accessing the storefront.
+Reindexing and caching have different purposes in Commerce. Indexes track database information for increased search performance, faster data retrieval for storefronts, and more. [Caches]({% link system/cache-management.md %}) save loaded data, images, formats, and the like for increased performance loading and accessing the storefront.
 
 - Typically, you want to reindex when updating data in Commerce.
 - If you have a large store or multiple stores, you may want to set indexers like category and products to scheduled cron jobs due to potential reindex looping. You may want to set the reindex on a schedule during non-peak hours.
