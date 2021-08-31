@@ -19,7 +19,7 @@ _Login As Customer_
 
 ## Enable Login as Customer
 
-Enabling Login as Customer requires that you enable the feature in your Magento instance and then enable access for Magento Admin users in the user role permissions.
+Enabling Login as Customer requires that you enable the feature in your commerce instance and then enable access for Admin users in the user role permissions.
 
 ### Enable the feature
 
@@ -32,15 +32,15 @@ Enabling Login as Customer requires that you enable the feature in your Magento 
 
 1. Set **Enable Login as Customer** to `Yes`.
 
-1. (Optional) Set **Disable Page Cache for Admin User** to `No` to enable the page cache when the Magento Admin user logs in as a customer.
+1. (Optional) Set **Disable Page Cache for Admin User** to `No` to enable the page cache when the Admin user logs in as a customer.
 
    Disabling the page cache (`Yes` - default) ensures that the user logging in as Customer will get fresh, uncached data.
 
-1. (Optional) Set **Store View to Log in** to `Manual Selection` if you have a multi-site and/or multi-store setup and want the Magento Admin user to select the store view when logging in as a customer.
+1. (Optional) Set **Store View to Log in** to `Manual Selection` if you have a multi-site and/or multi-store setup and want the Admin user to select the store view when logging in as a customer.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-### Enable access for Magento Admin users
+### Enable access for Admin users
 
 1. On the _Admin_ sidebar, go to **System** > _Permissions_ > **User Roles**.
 
@@ -77,7 +77,7 @@ Enabling Login as Customer requires that you enable the feature in your Magento 
 {:.ee-only}
 ## Login as Customer logging
 
-Magento provides a logging for the _Login as Customer_ actions. It lists all sessions where a Magento Admin user accesses the feature. To access the logged actions, go to the [Admin Actions Report]({% link system/action-log-report.md %}).
+Adobe Commerce provides a logging for the _Login as Customer_ actions. It lists all sessions where a Admin user accesses the feature. To access the logged actions, go to the [Admin Actions Report]({% link system/action-log-report.md %}).
 
 You can filter the report setting **Action Group** to `Login As Customer` at the top of the page and clicking <span class="btn">Search</span>.
 
@@ -102,7 +102,7 @@ Without this permission, an Admin user cannot login as this customer to provide 
 ## Using Login as Customer
 
 {:.bs-callout-info}
-To use Login as Customer, ensure your Magento Admin is configured as described earlier.
+To use Login as Customer, ensure your Admin is configured as described earlier.
 
 Login as Customer allows you to see the site just as the customer does, and allows you to troubleshoot and take other actions for the customer. If you have an assigned user role with the required permissions:
 

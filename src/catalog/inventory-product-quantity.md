@@ -23,7 +23,7 @@ All updated quantities and sources display in the product grid.
    - To set a notification for inventory quantities, do one of the following:
 
       - Custom Notify Quantity - Deselect the **Use Default** checkbox and enter an amount in **Notify Qty**.
-      - Default Notify Quantity - Select the **Use Default** checkbox. Magento checks and uses the setting in Advanced Inventory or global Store configuration.
+      - Default Notify Quantity - Select the **Use Default** checkbox. Commerce checks and uses the setting in Advanced Inventory or global Store configuration.
 
     ![]({% link images/images/inventory/inventory-product-quantities.png %}){: .zoom}
     _Update Product Quantities per Source_

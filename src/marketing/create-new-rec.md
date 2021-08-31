@@ -10,7 +10,7 @@ When you create a recommendation, you are creating what is called a *recommendat
 
 The products inside the recommendation unit are called *recommended items*.
 
-After you create and activate the recommendation unit, Magento will begin [collecting metrics]({% link marketing/recommendation-metrics.md %}) that measure data such as impressions, views, clicks, and so on. The [Product Recommendations]({% link marketing/product-recommendations.md %}#dashboard) dashboard displays these metrics for each recommendation unit to help you make informed business decisions.
+After you create and activate the recommendation unit, Adobe Commerce will begin [collecting metrics]({% link marketing/recommendation-metrics.md %}) that measure data such as impressions, views, clicks, and so on. The [Product Recommendations]({% link marketing/product-recommendations.md %}#dashboard) dashboard displays these metrics for each recommendation unit to help you make informed business decisions.
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations** to display the **Product Recommendations** dashboard.
 
@@ -40,7 +40,7 @@ After you create and activate the recommendation unit, Magento will begin [colle
 
 1. In the **Storefront display label** section, enter an externally-facing name your shoppers will see, such as "Top sellers".
 
-   Magento provides the [following guidance for label names]({% link marketing/recommendation-best-practices.md %}#bplabels).
+   Adobe Commerce provides the [following guidance for label names]({% link marketing/recommendation-best-practices.md %}#bplabels).
 
    {:.bs-callout-info}
    If you selected **Page Builder** as your page type, you will specify the **Text** or **Heading** element as your storefront display label in the [Page Builder editor]({% link cms/page-builder-elements.md %}).
@@ -84,4 +84,4 @@ The preview panel supports [fetching recommendations from a different environmen
 
 As you create your recommendation unit, experiment with the page type, recommendation type, and filters to get immediate real-time feedback about the products that will be included. As you begin to understand what products will be displayed, you can configure the recommendation unit to best meet your business needs.
 
-What appears in the preview panel and on the storefront can occasionally vary. This is because Magento [filters recommendations]({% link marketing/recommendation-incl-excl.md %}#default) to avoid displaying duplicate products when multiple recommendation units are deployed on a single page.
+What appears in the preview panel and on the storefront can occasionally vary. This is because Adobe Commerce [filters recommendations]({% link marketing/recommendation-incl-excl.md %}#default) to avoid displaying duplicate products when multiple recommendation units are deployed on a single page.

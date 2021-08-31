@@ -20,14 +20,12 @@ Customers who use PayPal Express Checkout or Express Checkout for Payflow Pro mu
 
 Website Payments Pro, Website Payments Pro Payflow Edition, Payflow Pro Gateway, and Payflow Link require customers to enter credit card information during checkout.
 
-## Magento supported PayPal solutions
+## Commerce-supported PayPal solutions
 
-With PayPal and Magento, you can accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even your customers who don’t have a PayPal account can pay for their purchases with PayPal.
+With PayPal and Adobe Commerce and Magento Open Source, you can accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even your customers who don’t have a PayPal account can pay for their purchases with PayPal.
 
 {:.bs-callout-info}
-You cannot have more than one PayPal method enabled in your Magento store at a time, with the exception of PayPal Express Checkout. PayPal Express Checkout can be used in combination with other PayPal payment methods, except for PayPal Payments Standard. If you change payment solutions, the previously method is disabled.
-
-In this guide and the Magento configuration, PayPal payments solutions are categorized as follows:
+You cannot have more than one PayPal method enabled in your store at a time, with the exception of PayPal Express Checkout. PayPal Express Checkout can be used in combination with other PayPal payment methods, except for PayPal Payments Standard. If you change payment solutions, the previously method is disabled.
 
 ## PayPal Express Checkout
 
@@ -45,6 +43,17 @@ In the United States, PayPal offers the following PCI-compliant solutions to mee
 _Configuration - PayPal all-in-one payment solutions_
 
 ## PayPal payment gateways
+
+A payment gateway is a merchant service provided by an e-commerce application service provider that authorizes credit card or direct payments processing. They work as intermediaries between customers and banks.
+
+Payment gateways are available in online and offline environments. Payments can be accepted by phone, online, or through a mobile app. The transaction is sent to the service provider's processing system and then sent to the customer's bank for verification and confirmation. If verified, the merchant receives the payment without having direct contact with the customer's bank account.
+
+There are two types of payment gateways---direct and hosted.
+
+- Direct payment gateways allow users to enter their card details on the store website.
+- Hosted payment gateways redirect users to a hosted payment page, outside of the store website.
+
+The payment gateway provides security and protection for all parties involved in a transaction.
 
 PayPal offers a choice of two payment gateway solutions for your business. You can let PayPal host your checkout on its secure payment site, or you can take control of the entire payment experience with a completely customizable solution.
 

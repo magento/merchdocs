@@ -3,7 +3,7 @@ ee_only: true
 title: Setting Up a Gift Registry
 ---
 
-A gift registry can be created for any type of event, such as a wedding, birthday, anniversary, new baby, or any other special occasion. By default, Magento includes the following special events:
+A gift registry can be created for any type of event, such as a wedding, birthday, anniversary, new baby, or any other special occasion. By default, Adobe Commerce includes the following special events:
 
 - Baby
 - Birthday
@@ -112,7 +112,7 @@ Select the type of data and input control that is associated with the attribute.
 {: .fields-table }
 |**_Custom Types_**| |
 |Text|Displays the attribute as a text field.|
-|Select|Displays the attribute as a drop-down list. Click **Add New Option** to add more conditions to the drop-down menu:<br/>**Code** - A unique name to identify the attribute internally.<br/>**Label** - The name that identifies the attribute in the customer’s account dashboard.<br/>**Is Default** - Set this switch to select the default condition.<br/>**Delete Option** - Click to delete the option.|
+|Select|Displays the attribute as a drop-down list. Click **Add New Option** to add more conditions to the drop-down list:<br/>**Code** - A unique name to identify the attribute internally.<br/>**Label** - The name that identifies the attribute in the customer’s account dashboard.<br/>**Is Default** - Set this switch to select the default condition.<br/>**Delete Option** - Click to delete the option.|
 |Date|Displays the attribute as a date field. Options: Short (3/23/2014) / Medium (Mar 23, 1914) / Long (March 23, 1914) / Full (Sunday, March 23, 2014)|
 |Country|Displays the attribute as a drop-down list of countries. Set **Show Region** to: Yes / No.|
 |**_Static Types_**| |

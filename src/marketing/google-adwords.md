@@ -4,12 +4,12 @@ title: Google AdWords
 
 [Google AdWords][1] is a service that you can use to place ads in Google Search results and on the pages of companies in the Google Display Network. The AdWords dashboard includes tools to manage your campaigns, track response, and measure results.
 
-Conversion tracking shows how many ad clicks lead to a sale or other valuable action. The _Success_ page that appears to your customer after an order has been submitted is used to track conversions because it appears only after a sale. After completing the Google AdWords configuration for your store, there is no need to copy the conversion tracking script to the Success page, because Magento already has the necessary information. To learn more, see [Google AdWords Help][2].
+Conversion tracking shows how many ad clicks lead to a sale or other valuable action. The _Success_ page that appears to your customer after an order has been submitted is used to track conversions because it appears only after a sale. After completing the Google AdWords configuration for your store, there is no need to copy the conversion tracking script to the Success page, because Commerce already has the necessary information. To learn more, see [Google AdWords Help][2].
 
 ![Google Ads]({% link images/images/google-adwords-magento-ad.png %}){: .zoom}
 _Magento Ad in Google Search Results_
 
-## Step 1. Create a Google AdWords Campaign
+## Step 1. Create a Google AdWords campaign
 
 1. Visit [Google AdWords][3], and sign up for an account.
 
@@ -34,7 +34,7 @@ _Magento Ad in Google Search Results_
 
 1. When complete, click <span class="btn">Save and Continue</span>.
 
-## Step 2. Get Your Conversion Tag
+## Step 2. Get your conversion tag
 
 1. Under **Install your tag**, choose to count conversions on **Page load**.
 
@@ -49,7 +49,7 @@ _Magento Ad in Google Search Results_
 
 1. When complete, click <span class="btn">Done</span>.
 
-## Step 3. Configure Your Store
+## Step 3. Configure your store
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -121,7 +121,7 @@ _Magento Ad in Google Search Results_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-## Step 4. Verify the Configuration
+## Step 4. Verify the configuration
 
 Within a few hours, the tracking status in your Google AdWords dashboard changes from `Unverified` to `No recent conversions` or `Recording conversions`. When someone clicks your ad and makes a purchase, the conversion appears on the Conversion Actions page of your dashboard and campaign report.
 

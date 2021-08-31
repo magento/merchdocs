@@ -13,7 +13,7 @@ A customer can initiate the reorder functionality for a specific order from two 
 
 The _Reorder_ button is displayed in the list with Orders near the _View_ button.
 
-![]({% link images/images/account-dashboard-reorder.png %}){: .zoom}
+![]({% link customers/assets/account-dashboard-reorder.png %}){: .zoom}
 _Reorder button on the My Order page_
 
 **Case 1.** All products from the order are available for reorder
@@ -24,7 +24,7 @@ Customer is redirected to the [shopping cart]({% link quick-tour/shopping-cart.m
 
 The Reorder button will not appear on the _My Orders_ and _View Order_ pages.
 
-![]({% link images/images/account-dashboard-reorder-grid.png %}){: .zoom}
+![]({% link customers/assets/account-dashboard-reorder-grid.png %}){: .zoom}
 _My Order page_
 
 ## Reorder from Order view page
