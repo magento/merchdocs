@@ -3,7 +3,7 @@ ee_only: true
 title: Data Collector
 ---
 
-Data Collector gathers the information about your system that is needed by our Support team to troubleshoot issues with your Magento installation. The backup that is created takes several minutes to complete, and includes both a code and database dump. The data can be exported to a CSV or Excel XML file.
+Data Collector gathers the information about your system that is needed by our Support team to troubleshoot issues with your Adobe Commerce installation. The backup that is created takes several minutes to complete, and includes both a code and database dump. The data can be exported to a CSV or Excel XML file.
 
 ![System - Data Collector]({% link images/images-ee/system-data-collector-show-log.png %}){: .zoom}
 _Data Collector_
