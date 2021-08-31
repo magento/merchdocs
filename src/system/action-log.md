@@ -7,7 +7,7 @@ The Action Logs feature records (logs) every change made by an admin who works i
 
 For most admin actions, the logged information includes the action, the name of the user who performed the action, whether the action was a success or failure, and the ID of the object on which the action was performed. The IP address and date are also always logged.
 
-By default, all admin actions are enabled and logged. To configure Admin Actions Logging, review the options and select or clear the checkbox per action types. Adobe Commerce and Magento Open Source only log checked types.
+By default, all admin actions are enabled and logged. To configure Admin Actions Logging, review the options and select or clear the checkbox per action types. Adobe Commerce logs only checked types.
 
 View the [Action Logs Report]({% link system/action-log-report.md %}) to review logged admin actions and details.
 
