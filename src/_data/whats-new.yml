@@ -4,8 +4,99 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Sun Aug 15 14:28:30 2021
+updated: Wed Sep 1 14:27:28 2021
 entries:
+- description: Updated the [Filterable Attributes](https://docs.magento.com/user-guide/catalog/navigation-layered-filterable-attributes.html)
+    topic to include steps for removing filterable attribute values with 0 products
+    from the layered navigation.
+  versions: 2.4.x
+  type: Minor update
+  date: August 24, 2021
+  link: https://github.com/magento/merchdocs/pull/1438
+  merge_commit: b5ad175ee636ca8505f3e23e936999e13a3a1a6e
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Google Tag Manager](https://docs.magento.com/user-guide/marketing/google-tag-manager.html)
+    to include the procedure for adding the GTM code snippets to the Commerce store.
+  versions: 2.4.x
+  type: Major update
+  date: August 24, 2021
+  link: https://github.com/magento/merchdocs/pull/1431
+  merge_commit: 8a8fcc40f8e14e48511be8600d5943eff6692fbc
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - Major update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Translating Products](https://docs.magento.com/user-guide/catalog/product-translate.html)
+    topic to include steps for translating product attributes and attribute options.
+  versions: 2.4.x
+  type: Major update
+  date: August 24, 2021
+  link: https://github.com/magento/merchdocs/pull/1433
+  merge_commit: a75427bd484e8f456a7ade42bade5bd366a4e90f
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - Major update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Adding New Blocks](https://docs.magento.com/user-guide/cms/block-add.html)
+    topic to add new section about removing custom blocks.
+  versions: 2.4.x
+  type: Major update
+  date: August 24, 2021
+  link: https://github.com/magento/merchdocs/pull/1436
+  merge_commit: '084f639129687a752ca6f54f74e6b597f4cbeb2d'
+  contributor: DmitryTsymbal
+  membership: false
+  labels:
+  - Major update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Billing Agreements](https://docs.magento.com/user-guide/sales/billing-agreements.html)
+    topic to include detailed information about managing billing agreements.
+  versions: 2.4.x
+  type: Major update
+  date: August 24, 2021
+  link: https://github.com/magento/merchdocs/pull/1437
+  merge_commit: b4560ad119451c2c6d97d8ec4fa8fa6f655824c0
+  contributor: DmitryTsymbal
+  membership: false
+  labels:
+  - Major update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Shipping an Order](https://docs.magento.com/user-guide/sales/order-ship.html)
+    topic to include steps to configuring shipping comments for email to customers.
+  versions: 2.4.x
+  type: Major update
+  date: August 24, 2021
+  link: https://github.com/magento/merchdocs/pull/1442
+  merge_commit: dca2cd81ae36b6147767024b6d39fc56a70d1de3
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - Major update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
 - description: Basic [Page Builder](https://docs.magento.com/user-guide/cms/page-builder.html)
     content tools now available in Magento Open Source.
   versions: 2.4.3
