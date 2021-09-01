@@ -36,7 +36,7 @@ Commerce does not allow setting a product price for each store. But you can chan
 
 1. On the _Admin_ menu, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel, expand **Catalog** and choose **Catalog**.
+1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
 1. In the **Price** tab, set price scope to `Website` instead of global.
 
