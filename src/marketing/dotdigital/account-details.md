@@ -4,18 +4,18 @@ redirect_from:
   - /marketing/engagement-cloud-account-details.html
 ---
 
-Use the Account option on the Settings menu to update your information and settings, and view your account dashboard.
+Use the _Account_ option on the _Settings_ menu to update your information and settings and view your dotdigital Engagement Cloud dashboard.
 
 ## Edit your Account Details
 
-1. In the lower-left corner, click the **Settings** icon at the bottom of the sidebar.
+1. In the lower-left corner, click the **Settings** (![]({% link images/images/engagement-cloud-btn-settings.png %}){: .Inline}) icon at the bottom of the sidebar.
 
 1. In the menu, choose **Account**.
 
     ![dotdigital - account]({% link images/images/engagement-cloud-account.png %}){: .zoom}
-    _Account_
+    _dotdigital account_
 
-1. On the Account page, choose the **Billing details** tab.
+1. On the _Account_ page, choose the **Billing details** tab.
 
     - Update the **Company details** as needed.
 

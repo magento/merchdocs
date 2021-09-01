@@ -4,16 +4,16 @@ redirect_from:
   - /marketing/engagement-cloud-account-access.html
 ---
 
-Use the Access option on the Settings menu to add users, and set permissions. Initially, the person who sets up the account is assigned as the “account holder” with responsibility to manage the account.
+Use the Access option on the _Settings_ menu of your dotdigital account to add users and set permissions. Initially, the person who sets up the account is assigned as the “account holder” with responsibility to manage the account.
 
 In addition to general account access, the account holder and any other user with appropriate permissions can set up access for [API]({% link marketing/dotdigital/account-api-users.md %}) and [transactional email]({% link marketing/dotdigital/account-transactional-email-users.md %}) users.
 
 ![dotdigital - account access]({% link images/images/engagement-cloud-access.png %}){: .zoom}
-_Access_
+_dotdigital account access_
 
 ## Add a New Account User
 
-1. Click the **Settings** ( ![Settings icon]({% link images/images/icon-settings-engagement-cloud.png %})) icon at the bottom of the sidebar.
+1. Click the **Settings** (![Settings icon]({% link images/images/engagement-cloud-btn-settings.png %}){: .Inline}) icon at the bottom of the sidebar.
 
     The Access tab is selected by default.
 
@@ -21,30 +21,30 @@ _Access_
 
     - Enter the **Email address** of the user.
 
-    - Under **Permission**, select the checkbox of each activity or type of information that the user has permission to access.
+    - Under _Permission_, select the checkbox of each activity or type of information that the user has permission to access.
 
 1. When complete, click <span class="btn">Save</span>.
 
     ![dotdigital - add user]({% link images/images/engagement-cloud-add-user.png %}){: .zoom}
-    _Add a User_
+    _Add a user_
 
     An invitation to join the account is sent to the email address of the new user. To activate the account, the new user must click the activation link, and provide their contact and login information.
 
-    When the account is verified, the new user is added to the Access list and logged in to the account. A chat session opens to help the new user set goals and learn their way around.
+    When the account is verified, the new user is added to the _Access_ list and logged in to the account. A chat session opens to help the new user set goals and learn their way around.
 
     ![Engagement Cloud - access list]({% link images/images/engagement-cloud-access-list.png %}){: .zoom}
-    _New User in Access List_
+    _New user in access list_
 
 ## Update User Information
 
-1. Find the user in the Access list. Then in the Edit column, click **Edit** (![Edit icon]({% link images/images/icon-settings-edit-engagement-cloud.png %})).
+1. Find the user in the _Access_ list. Then in the _Edit_ column, click **Edit** (![Edit icon]({% link images/images/engagement-cloud-btn-settings-edit.png %}){: .Inline}).
 
-1. On the **Manage Users** page, update the **User Details** and **Permission** settings as needed.
+1. On the _Manage Users_ page, update the **User Details** and **Permission** settings as needed.
 
 1. When complete, click <span class="btn">Save</span>.
 
     ![dotdigital - manage users]({% link images/images/engagement-cloud-access-manage-users.png %}){: .zoom}
-    _Manage Users_
+    _Manage users_
 
 ## Change Account Permissions
 
@@ -63,12 +63,12 @@ _Access_
 
 When ownership is transferred, you lose access to key administration areas of the account. The only way to reverse the change is for the new account owner to transfer the account back to you.
 
-1. Find the user in the Access list and select the checkbox in the first column.
+1. Find the user in the _Access_ list and select the checkbox in the first column.
 
 1. Set **More actions** to `Make account holder`.
 
     ![dotdigital - transfer account ownership]({% link images/images/engagement-cloud-access-account-transfer.png %}){: .zoom}
-    _Transfer Account Ownership_
+    _Transfer account ownership_
 
     Enter your password and click <span class="btn">Transfer ownership now</span>.
 
@@ -76,11 +76,11 @@ When ownership is transferred, you lose access to key administration areas of th
 
 |Permission|Description|
 |--- |--- |
-|All permissions|Has unrestricted  access to the Engagement Cloud account.|
+|All permissions|Has unrestricted access to the dotdigital Engagement Cloud account.|
 |Can create contacts|Can add individual users and upload multiple users to the account.|
 |Can manage account|Can edit account settings and see invoices.|
 |Can send without approval|Can send without approval. (Requires Sender permission.)|
-|Can user surveys and forms|Can access surveys and forms.|
+|Can use surveys and forms|Can access surveys and forms.|
 |Contact exporter|Can export contacts. (Requires Contacts permission.)|
 |Contacts|Can access account contacts and email addresses.|
 |Edit campaigns|Can edit campaigns.|
