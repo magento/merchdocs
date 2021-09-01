@@ -4,7 +4,7 @@ title: Braintree
 
 Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system.
 
-If you are upgrading to 2.4.x from an earlier version of Adobe Commerce and Magento Open Source with the Braintree extension from Commerece Marketplace installed, see the [2.4 Migration Notes](#migration) at the end of this topic.
+If you are upgrading to 2.4.x from an earlier version of Adobe Commerce and Magento Open Source with the Braintree extension from Commerce Marketplace installed, see the [2.4 Migration Notes](#migration) at the end of this topic.
 
 ## Changes in the latest release
 
