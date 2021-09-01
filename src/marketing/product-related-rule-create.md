@@ -51,6 +51,18 @@ For an attribute to be used in a targeted rule, the [Use for Promo Rule Conditio
 
 1. When complete, click <span class="btn">Save</span>.
 
+## Delete a Related Product Rule
+
+1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Related Product Rules**.
+
+1. Find the related product rule that you want to delete.
+
+1. Click the rule to open the details page.
+
+1. In the right upper corner, click **Delete**.
+
+1. To confirm the action, click **OK**.
+
 ## Field Descriptions
 
 {: .fields-table }
