@@ -28,3 +28,15 @@ _Stored Payment Methods_
 1. Clicks <span class="btn">Place Order</span>.
 
 The saved payment method is then displayed in the _Stored Payment Methods_ tab of the customer dashboard.
+
+## Delete a stored payment method
+
+Any of added earlier stored payment methods can not be edited by customer, but can be deleted only. This action cannot be undone.
+
+1. In the sidebar of their account, the customer selects **Stored Payment Methods**.
+
+1. Finds the payment method entry to be deleted.
+
+1. Clicks **Delete**.
+
+1. To confirm the action, clicks <span class="btn">OK<span>.
