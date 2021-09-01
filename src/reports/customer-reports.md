@@ -60,7 +60,7 @@ The Order Count Report shows the number of orders per customer for a specified t
 |Customer|The customer who placed the order.|
 |Orders|The number of orders for the specified interval.|
 |Average|Average order amount.|
-|Total|The total amount of all orders for the period.|
+|Total|The sum total of all orders for the period.|
 
 ## New Accounts
 
