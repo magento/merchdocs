@@ -33,8 +33,8 @@ Access to a private sale, event, or site can be limited to registered customers 
 
    - To let search engine bots and spiders know that the landing page is correct and there are no other pages on the site to index, set **HTTP Response** to `200 OK`. In all other cases set to `503 Service Unavailable`.
 
-{:.bs-callout-info}
-Applicable only if restriction mode is set to "Website Closed". The landing page is rendered as raw HTML.
+   {:.bs-callout-info}
+   Applicable only if restriction mode is set to "Website Closed". The landing page is rendered as raw HTML.
 
    - If you want the fields in the customer login and forgot password forms to be filled automatically from previous entries, set **Enable Autocomplete on login/forgot password forms** to `Yes`.
 
