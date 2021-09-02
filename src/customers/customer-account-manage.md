@@ -105,8 +105,8 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 
 1. In the action menu, click Export and select the desired format:
 
-   - CSV
-   - Excel XML
+- CSV
+- Excel XML
 
 1.  Click <span class="btn">OK</span>.
 
