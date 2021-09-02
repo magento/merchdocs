@@ -92,6 +92,6 @@ To specify a list of order statuses that can be archived, see [Configuring the A
 
 ## Export archived order
 
-1. On the _Admin_ sidebar, go to **Sales** > _Operations > **Orders**.
+1. On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Orders**.
 
 1. In the action menu, click **Export** and select the desired format.
