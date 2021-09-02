@@ -109,7 +109,7 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 
 - Excel XML
 
-1.  Click <span class="btn">OK</span>.
+1. Click <span class="btn">OK</span>.
 
 1. Open the exported file in the browser downloads section.
 
