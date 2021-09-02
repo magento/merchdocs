@@ -29,7 +29,7 @@ A store customer creates a new account on the storefront.
 
     This option appears even if the store doesn’t publish a newsletter.
 
-1. If you want to allows merchants to [See what you see]({% link customers/login-as-customer.md %}) and take actions on your behalf in order to provide better assistance, select the **Allow remote shopping assistance** checkbox.
+1. If you want to enable store support staff to [see what you see]({% link customers/login-as-customer.md %}) and take actions on your behalf in order to provide better assistance, select the **Allow remote shopping assistance** checkbox.
 
 1. Under **Sign-in Information**, enter your **Email** address.
 
@@ -51,7 +51,7 @@ A store customer creates a new account on the storefront.
 
     Then, enter it again to **Confirm Password**.
 
-1. Click <span class="btn">Show Password</span> to see what password you are entering.
+1. If needed, click <span class="btn">Show Password</span> to view the password you entered.
 
 1. When complete, click <span class="btn">Create an Account</span>.
 
