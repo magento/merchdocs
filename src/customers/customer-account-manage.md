@@ -99,6 +99,19 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 
    To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
 
+## Export customers accounts
+
+1. O1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
+
+1. In the action menu, click Export and select the desired format:
+
+   - CSV
+   - Excel XML
+
+1.  Click <span class="btn">OK</span>.
+
+1. Open the exported file in the browser downloads section
+
 ## Actions/controls
 
 {: .fields-table }
