@@ -6,6 +6,16 @@ Use the _Map_ content type to add a map from [Google Maps Platform][1] to the [P
 
 To get the most from Google Maps Platform, you can customize the map, highlight your store location(s), and use Google [Places][2] to add rich information about your store to all Google maps.
 
+## Benefits of embedding Google Map
+
+1. Provides buyers with a full scope of information about your business (phone number, website, reviews, star ratings, and so on.) right on your site.
+
+1. A Google map usually recommends and highlights nearby attractions, parks, restaurants, and so on. This helps your customers determine your physical location and plan their trip.
+
+1. Makes it easy for customers to find the address for your physical store without the need to open a new browser window and leave your site.
+
+1. If you have a chain of physical stores, adding a Google Map on your site helps to increase your brand awareness and credibility in the form of highlighted items.
+
 ![]({% link images/images-ee/page-builder-media-maps-storefront.png %}){: .zoom}
 _Example storefront - map with location_
 

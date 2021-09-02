@@ -7,10 +7,10 @@ The PayPal Settlement report provides the store administrator with the informati
 {:.bs-callout-info}
 Before generating settlement reports, the store administrator must request PayPal Merchant Technical Services to create an SFTP user account, enable settlement reports generation, and enable SFTP in their PayPal business account.
 
-After configuring and enabling settlement reports in the PayPal merchant account, Magento will start generating reports during the following twenty-four hours. The list of available settlement reports can be viewed from the Admin.
+After configuring and enabling settlement reports in the PayPal merchant account, Adobe Commerce and Magento Open Source will start generating reports during the following 24 hours. The list of available settlement reports can be viewed from the Admin.
 
 ![PayPal Settlement Reports]({% link images/images/reports-sales-paypal-settlement.png %}){: .zoom}
-_PayPal Settlement Reports_
+_PayPal settlement reports_
 
 ## View settlement reports
 

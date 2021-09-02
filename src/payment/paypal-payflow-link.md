@@ -2,7 +2,7 @@
 title: PayPal Payflow Link
 ---
 
-PayPal PayFlow Link is available for merchants in the United States and Canada only. Customers are not required to have a personal PayPal account, and enter their credit card information in a form that is hosted by PayPal. The information is never stored on your Magento server. PayFlow Link cannot be used for orders that are created from the Admin.
+PayPal PayFlow Link is available for merchants in the United States and Canada only. Customers are not required to have a personal PayPal account, and enter their credit card information in a form that is hosted by PayPal. The information is never stored on your Adobe Commerce or Magento Open Source server. PayFlow Link cannot be used for orders that are created from the Admin.
 
 Credit memos are supported for both online and offline refunds. However, multiple online refunds are not supported.
 
@@ -14,14 +14,14 @@ As of September 14, 2019, European banks might decline payments that do not meet
 
 - [PayPal Business Account][1] The PayPal Payflow Pro gateway links the merchant account at PayPal with the merchant website, acting as both a gateway and a merchant account.
 
-- If you manage multiple Magento websites, you must have a separate PayPal merchant account for each website.
+- If you manage multiple Commerce websites, you must have a separate PayPal merchant account for each website.
 
 ## Customer workflow
 
 | **1** | **Customer goes to checkout** | During checkout, the customer chooses to pay with PayPal PayFlow link and enters the credit card information. The customer is not required to have a personal PayPal account.|
 | **2** | **Customer chooses Pay Now** | The customer taps the Pay Now button to submit the order.|
 | **3** | **Customer enters credit card information** | The customer enters the credit card information on a form that is hosted by PayPal. If the customer clicks the _Cancel Payment_ link, the customer returns to the Payment Information stage of checkout and the order status changes to _Canceled_.|
-| **4** | **Customer submits the order** | The credit card information is submitted directly to PayPal and is not retained anywhere on the Magento site.|
+| **4** | **Customer submits the order** | The credit card information is submitted directly to PayPal and is not retained anywhere on the Commerce site.|
 
 ## Order workflow
 
@@ -63,12 +63,12 @@ As of September 14, 2019, European banks might decline payments that do not meet
 
    - Click <span class="btn">Update</span>.
 
-## Set up PayPal Payflow Link in Magento
+## Set up PayPal Payflow Link
 
 {:.bs-callout-tip}
 Click <span class="btn">Save Config</span> at any time to save your progress.
 
-### Step 1: Begin the Magento configuration
+### Step 1: Begin the configuration
 
 This setup method assumes you have an existing PayPal account.
 
@@ -76,7 +76,7 @@ This setup method assumes you have an existing PayPal account.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
+1. If your Commerce installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
 
 1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
 
@@ -92,7 +92,7 @@ This setup method assumes you have an existing PayPal account.
 
 ### Step 2: Complete the required PayPal settings
 
-![Required Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-llink-required-a.png %}){: .zoom}
+![Required Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-link-required-a.png %}){: .zoom}
 _Required PayPal Settings - PayPal Payflow Link_
 
 1. (Optional) Enter the **Email Associated with your PayPal Merchant Account**.
@@ -110,7 +110,7 @@ _Required PayPal Settings - PayPal Payflow Link_
 
 1. If you want to run test transactions, set **Test Mode** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][3] that are recommended by PayPal. When you are ready to _go live_, return to the configuration and set Test Mode to `No`.
+   When testing the configuration in a sandbox, use only [credit card numbers][3] that are recommended by PayPal. When you are ready to go live, return to the configuration and set Test Mode to `No`.
 
 1. If your system uses a proxy server to establish the connection to the PayPal system, set **Use Proxy** to `Yes` and do the following:
 
@@ -321,15 +321,15 @@ Set **Enable PayPal PayLater Experience** to one of the following:
       - Login
       - Password
 
-   - To run test reports before _going live_ with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
+   - To run test reports before going live with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
    - Enter the **Custom Endpoint Hostname or IP Address**.
 
-      By default, the value is: `reports.paypal.com`
+      By default, the value is `reports.paypal.com`.
 
    - Enter the **Custom Path** where reports are saved.
 
-      By default, the value is: `/ppreports/outgoing`
+      By default, the value is `/ppreports/outgoing`.
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
@@ -368,7 +368,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
    - `Payments by PayPal (150 x 60 or 150 x 40)`
    - `Shop Now Using PayPal (150 x 60 or 150 x 40)`
 
-1. To customize the appearance of your PayPal merchant pages, do the following:
+1. To customize the appearance of your PayPal merchant pages:
 
    - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages:
 
@@ -432,7 +432,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 1. To display a full summary of the customer order by line item from the PayPal site, set **Transfer Cart Line Items** to `Yes`.
 
-1. To allow the customer to complete the transaction from the PayPal site without returning to your Magento store for Order Review, set **Skip Order Review Step** to `Yes`.
+1. To allow the customer to complete the transaction from the PayPal site without returning to your store for Order Review, set **Skip Order Review Step** to `Yes`.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

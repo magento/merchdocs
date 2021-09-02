@@ -22,12 +22,12 @@ sections:
    url: /sales/checkout-process.html
 ---
 
-Magento reduces ordering errors by automatically verifying the SKU and availability of all items before an order is submitted. In this section of the guide, you’ll learn how to configure the cart and checkout options, and offer assistance to your customers.
+Adobe Commerce and Magento Open Source reduce ordering errors by automatically verifying the SKU and availability of all items before an order is submitted. In this section of the guide, you’ll learn how to configure the cart and checkout options, and offer assistance to your customers.
 
 {% include grid.html sections=page.sections %}
 
-## Magento eBook
+## Increase conversion
 
-Top ten tips you can use to increase your conversion rates by evaluating and optimizing your site’s entire shopping experience. Get the [eBook][] now!
+For tips on evaluating and optimizing the entire site shopping experience to increase conversion, see the [Increasing Conversion Rates] eBook.
 
-[eBook]: https://magento.com/resources/increasing-conversion-rates-ebook
+[Increasing Conversion Rates]: http://info2.magento.com/rs/magentosoftware/images/IncreasingConversionRates_Final.pdf

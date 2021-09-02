@@ -3,7 +3,7 @@ ee_only: true
 title: MCOM Menu
 ---
 
-If you use the Magento Order Management System (OMS) with Magento Commerce an **MCOM** option is available in the left menu of the  Magento Commerce Admin.
+If you use the Order Management System (OMS) with Adobe Commerce, an **MCOM** option is available in the left menu of the Admin.
 
 With this MCOM option, you can manage stock aggregates and integrations, and access both the message log and changelog.
 

@@ -16,7 +16,18 @@ In the upper-right corner, click the **Columns** ( ![]({% link images/images/bt
 
 Make sure to scroll down to see all available columns.
 
-## To move a column:
+## Reset the column selection
+
+1. Click the **Columns** ( ![]({% link images/images/btn-columns.png %} ){: .Inline}) control.
+
+1. To reset the grid columns, click the **Reset** button.
+
+    The grid layout changes to display only default columns.
+
+    |Default grid columns|ID<br>Grand Total (Purchased)<br>Purchase Point<br>Purchase Date<br>Bill-to Name<br>Ship-to Name<br>Grand Total (Base)<br>Status<br>Action<br>Allocated sources<br>Braintree Transaction Source|
+    |Additional grid columns|Billing Address<br>Customer Email<br>Shipping and Handling<br>Payment Method<br>Refunded to Store Credit<br>Shipping Information<br>Subtotal<br>Company Name<br>Shipping Address<br>Customer Group<br>Customer Name<br>Total Refunded<br>Pickup Location Code|
+
+## Move a column
 
 1. Click and hold the header of the column.
 

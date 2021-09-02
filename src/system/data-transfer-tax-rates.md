@@ -2,12 +2,12 @@
 title: Import/Export Tax Rates
 ---
 
-If you conduct business in several states and ship a large quantity of product, entering tax rates manually can be very time consuming. It is faster and more efficient to download tax rates by ZIP code and import them into Magento. The following example shows how to import a set of state-specific tax rates downloaded from the a trusted source. Avalara provides [tax rate tables](http://www.avalara.com/taxrates/en/download-tax-tables.html), that you can download at no charge, for every ZIP code in the United States.
+If you conduct business in several states and ship a large quantity of product, entering tax rates manually can be very time consuming. It is faster and more efficient to download tax rates by ZIP code and import them into Commerce. The following example shows how to import a set of state-specific tax rates downloaded from the a trusted source. Avalara provides [tax rate tables](http://www.avalara.com/taxrates/en/download-tax-tables.html), that you can download at no charge, for every ZIP code in the United States.
 
 {:.bs-callout .bs-callout-info}
-If you are interested in automating your sales and use tax compliance and reporting, Magento versions 2.2.4+ and 2.3.0+ offer [Vertex Cloud]({% link tax/vertex.md %}){:target=“_blank”} as a trusted, built-in option. You can also find Magento-trusted options on the [Magento Partners](https://partners.magento.com/portal/directory/?_token=_vJAasZxq5QA0moyZVfX1SczSr3WWWRp&query=sales+tax) site.
+If you are interested in automating your sales and use tax compliance and reporting, Adobe Commerce and Magento Open Source versions 2.2.4+ and 2.3.0+ offer [Vertex Cloud]({% link tax/vertex.md %}){:target=“_blank”} as a trusted, built-in option. You can also find Commerce-trusted options on the [Commerce Partners](https://partners.magento.com/portal/directory/?_token=_vJAasZxq5QA0moyZVfX1SczSr3WWWRp&query=sales+tax) site.
 
-## Step 1: Export the Magento Tax Rate Data
+## Step 1: Export the Commerce Tax Rate Data
 
 1. On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Import/Export Tax Rates**.
 
@@ -19,7 +19,7 @@ If you are interested in automating your sales and use tax compliance and report
 
     This example uses OpenOffice Calc.
 
-    The exported Magento tax rate data includes the following columns:
+    The exported Commerce tax rate data includes the following columns:
     - Code
     - Country
     - State
@@ -49,15 +49,15 @@ If you are interested in automating your sales and use tax compliance and report
 
 ## Step 2: Prepare the Import Data
 
-You have two spreadsheets open, side by side. One contains the Magento export file structure, and the other contains the new tax rate data that you want to import.
+You have two spreadsheets open, side by side. One contains the Commerce export file structure, and the other contains the new tax rate data that you want to import.
 
-1. To create a place to work in the spreadsheet with the new tax rate data, insert as many blank columns at the far right as needed to add data from the Magento export file. Use cut-and-paste to add the data and then rearrange the columns so they match the order of the Magento export data file.
+1. To create a place to work in the spreadsheet with the new tax rate data, insert as many blank columns at the far right as needed to add data from the Commerce export file. Use cut-and-paste to add the data and then rearrange the columns so they match the order of the Commerce export data file.
 
-1. Rename the column headers to match the Magento export data.
+1. Rename the column headers to match the Commerce export data.
 
 1. Delete any columns that have no data.
 
-   Otherwise, the structure of the import file should match the original Magento export data.
+   Otherwise, the structure of the import file should match the original Commerce export data.
 
 1. Before saving the file, scroll down and make sure that the tax rate columns contain only numeric data.
 

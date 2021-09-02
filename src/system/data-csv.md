@@ -8,9 +8,9 @@ The comma-separated-value (CSV) file format is used as the basis of data transfe
 - Export: `CSV`
 
 {:.bs-callout-info}
-**Important!** We recommend that you use a program that supports UTF-8 encoding, such as [Notepad++][1] or [OpenOffice Calc][2], to edit CSV files. Microsoft Excel inserts additional characters into the column header of the CSV file, which can prevent the data from being imported back into Magento. If you work on the Mac, you can save your data in the CSV (Windows) format.
+**Important!** We recommend that you use a program that supports UTF-8 encoding, such as [Notepad++][1] or [OpenOffice Calc][2], to edit CSV files. Microsoft Excel inserts additional characters into the column header of the CSV file, which can prevent the data from being imported back into Commerce. If you work on the Mac, you can save your data in the CSV (Windows) format.
 
-CSV files have a specific structure that must match the database. Each column heading corresponds to the Attribute Code of the field that is represented by the column. To ensure that the column headings can be read by Magento, first export the data from your store as a CSV file. You can then edit the data and re-import it into Magento.
+CSV files have a specific structure that must match the database. Each column heading corresponds to the Attribute Code of the field that is represented by the column. To ensure that the column headings can be read by Commerce, first export the data from your store as a CSV file. You can then edit the data and re-import it into Commerce.
 
 If you open an exported CSV file in a text editor, you will see that values are separated by commas, and multiple values are enclosed in double-quotes. During import, you can specify a custom separator character, although a comma is the default.
 
