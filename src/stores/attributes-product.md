@@ -10,7 +10,7 @@ Product attribute properties determine how an attribute can be used in the catal
 
 To learn how to use attributes while creating a product, see [Using Product Attributes]({% link catalog/product-attributes.md %}).
 
-![Magento Admin - product attributes]({% link images/images/product-attributes.png %}){: .zoom}
+![Admin - product attributes]({% link images/images/product-attributes.png %}){: .zoom}
 _Product Attributes Page_
 
 ## Attribute Properties

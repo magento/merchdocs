@@ -2,7 +2,7 @@
 title: Currency
 ---
 
-Magento gives you the ability to accept currencies from more than two hundred countries around the world. If the store supports multiple currencies, a Currency Chooser appears in the header after currency rates are [updated]({% link stores/currency-update.md %}).
+Adobe Commerce and Magento Open Source give you the ability to accept currencies from more than two hundred countries around the world. If the store supports multiple currencies, a Currency Chooser appears in the header after currency rates are [updated]({% link stores/currency-update.md %}).
 
 {:.bs-callout-info}
 If you accept payment in multiple currencies, make sure to monitor the currency rate settings, because any fluctuation can impact your profit margin.
