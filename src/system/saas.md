@@ -14,7 +14,10 @@ When you create a Commerce account, identified by a Commerce ID (MageID), you ca
 
 1. Under the **Magento** tab, select **API Portal** on the sidebar.
 
-1. Select **Production** or **Sandbox** from the _Environment_ menu.
+1. From the _Environment_ menu, select **Production** or **Sandbox**.
+
+   {:.bs-callout-info}
+   For Product Recommendations and Live Search features, select **Production**. Production keys give you access to production and non-production data spaces. Sandbox keys are not used in those features.
 
 1. Enter a name in the **API Keys** section and click **Add New**.
 
@@ -41,12 +44,6 @@ You should use your production SaaS data space only on your production Commerce 
 
 SaaS data spaces are designed to support multiple different websites, identified by their website codes. Data from the same website gets compiled together and separated from data from other websites. This allows you to reuse one SaaS data space by multiple Commerce installations, as long as all websites have unique codes specified. Otherwise, you risk overwriting your data for the same website.
 
-When you create a SaaS project, Commerce generates one or more SaaS data spaces depending on whether or not you have an Adobe Commerce license:
-
-- **Adobe Commerce** - One production data space; two testing data spaces
-
-- **Magento Open Source** - One production data space; no testing data spaces
-
 ### Select or create SaaS project {#createsaasenv}
 
 {:.bs-callout-info}
@@ -71,7 +68,9 @@ To select or create a SaaS project, request the Commerce API key from the Commer
 
 1. If there are no SaaS projects created, click **Create Project** to display the **Project Name** field and enter a name for your SaaS project.
 
-   Commerce creates a SaaS project and the number of SaaS data spaces you are entitled to.
+   When you create a SaaS project, Commerce generates one or more SaaS data spaces depending on your Commerce license:
+   - **Adobe Commerce** - One production data space; two testing data spaces
+   - **Magento Open Source** - One production data space; no testing data spaces
 
 1. Select the **SaaS Data Space** to use for the current configuration of your Commerce store.
 
