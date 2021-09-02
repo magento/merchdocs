@@ -7,21 +7,21 @@ redirect_from:
 dotdigital Chat is a smart, customizable widget that makes it easy for shoppers to communicate in real time with members of your team. You can use the Chat widget to answer product questions and reduce calls to customer support.
 
 ![]({% link images/images/storefront-engagement-cloud-chat-home.png %}){: .zoom}
-_Chat Widget on Home Page_
+_Chat widget on home page_
 
-The Chat widget is available on all pages of your store, although there is a delay of a few seconds before it appears on each page to give the customer the opportunity to view the entire page. The Chat widget can be hidden from view as needed, and restored by clicking the button in the lower-right corner.
+The _Chat_ widget is available on all pages of your store, although there is a delay of a few seconds before it appears to give the customer the opportunity to view the entire page. The _Chat_ widget can be hidden as needed, and restored by clicking the button in the lower-right corner.
 
 ![]({% link images/images/storefront-engagement-cloud-chat-checkout.png %}){: .zoom}
-_Live Chat During Checkout_
+_Live Chat during checkout_
 
-When Chat is enabled in the Magento configuration, the Chat option appears in the left navigation of your dotdigital account. From the Chats page of your account, you can access your personal chats, all chats related to your account, or those of a specific team. You can also manage your chats in real time from the [Chat Settings]({% link configuration/dotdigital/chat-settings.md %}) configuration in the Magento Admin.
+When _Chat_ is enabled in your Commerce configuration, the _Chat_ option appears in the left navigation of your dotdigital account. From the _Chats_ page of your account, you can access your personal chats, all chats related to your account, or those of a specific team. You can also manage your chats in real time from the [Chat Settings]({% link configuration/dotdigital/chat-settings.md %}) configuration in the Commerce _Admin_.
 
 ![]({% link images/images/engagement-cloud-account-chats.png %}){: .zoom}
-_Live Chat from dotdigital Account_
+_Live Chat from dotdigital account_
 
 ## Step 1: Enable dotdigital Chat
 
-1. On the Admin sidebar, go to **Marketing** > _Customer Engagement_ > **dotdigital Chat**.
+1. On the _Admin_ sidebar, go to **Marketing** > _Customer Engagement_ > **dotdigital Chat**.
 
 1. Under _Chat Settings_, set **Enabled** to `Yes`.
 
@@ -29,7 +29,7 @@ _Live Chat from dotdigital Account_
 
 ## Step 2: Configure dotdigital Chat
 
-The following steps continue from the Chat Settings section in the Magento configuration, but open the Chat Settings page from your dotdigital account.
+The following steps continue from the _Chat Settings_ section in the Commerce configuration, but open the _Chat Settings_ page from your dotdigital account.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -44,7 +44,7 @@ The following steps continue from the Chat Settings section in the Magento confi
    Follow the instructions in the dotdigital knowledge base to [add multiple chat teams][2].
 
    ![]({% link images/images/config-dotdigital-chat-enabled.png %}){: .zoom}
-   _Enable Chat_
+   _Enable chat_
 
    To learn more, see [Getting Started with Chat][1] in the dotdigital knowledge base.
 

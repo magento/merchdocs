@@ -8,9 +8,9 @@ The time it takes to load resource files can be reduced by merging and bundling 
 - Bundling is a technique that groups separate files in order to reduce the number of HTTP requests that are required to load a page.
 - Minification removes spaces, line breaks, and comments, but does not affect the functionality of the code. Because minimized files cannot be edited, the process should be applied only when you are ready to go into production.
 
-By default, Magento does not merge, bundle, or minimize files, and the project developer should determine which file optimization methods should be used.
+By default, Adobe Commerce and Magento Open Source do not merge, bundle, or minimize files, and the project developer should determine which file optimization methods should be used.
 
-See [Configuration best practices][1]{:target="_blank"} in the developer documentation.
+See [Configuration best practices][1]{:target="_blank"} in the Commerce Developer Guide.
 
 {:.bs-callout-info}
 CSS and JavaScript files can be optimized in [Developer Mode]({% link magento/installation-modes.md %}) only.

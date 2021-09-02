@@ -4,7 +4,7 @@ redirect_from:
   - /marketing/engagement-cloud.html
 ---
 
-[dotdigital][1] Engagement Cloud gives you the ability to produce professional, personalized communications and generated reports using data from your Magento store, including:
+[dotdigital][1] Engagement Cloud gives you the ability to produce professional, personalized communications and generated reports using data from your store, including:
 
 - [Chat with customers]({% link marketing/dotdigital/chat.md %})
 - [Customize email campaigns][2]

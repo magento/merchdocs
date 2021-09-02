@@ -3,7 +3,7 @@ ee_only: true
 title: Scheduled Import/Export
 ---
 
-Scheduled imports and exports can be run on a daily, weekly or monthly basis. The files to be imported or exported can be located on local Magento servers, or on remote FTP servers. Scheduled Import/Export is implemented by default, and does not require additional configuration. All scheduled imports and exports are managed by the Cron job scheduler.
+Scheduled imports and exports can be run on a daily, weekly or monthly basis. The files to be imported or exported can be located on local Adobe Commerce servers, or on remote FTP servers. Scheduled Import/Export is implemented by default, and does not require additional configuration. All scheduled imports and exports are managed by the Cron job scheduler.
 
 ## Access Scheduled Import/Export
 
@@ -22,6 +22,6 @@ Scheduled imports and exports can be run on a daily, weekly or monthly basis. Th
    {:.bs-callout-info}
    Scheduled import/export makes changes to the system configuration. After saving, make sure you address the cache invalidation notice that appears at the top of the Admin page and flush the cache in order to apply the new or updated schedule.
 
-1. After each scheduled job, a copy of the file is placed in the `var/log/import_export` directory on the Magento local server.
+1. After each scheduled job, a copy of the file is placed in the `var/log/import_export` directory on the Adobe Commerce local server.
 
     The details of each operation are not written to the log. If an error occurs, notification is sent of the failed import/export job, with a description of the error.
