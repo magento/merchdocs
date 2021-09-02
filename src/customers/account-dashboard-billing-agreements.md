@@ -24,9 +24,9 @@ _Create Billing agreement_
 
 1. From their dashboard, customer selects **Billing Agreements**.
 
-1. Find the billing agreement and clicks **View**.
+1. Finds the billing agreement and clicks **View**.
 
-The customer can cancel an active billing agreement by clicking **Cancel**, and then confirming the action by clicking **OK**.
+The customer can cancel an active billing agreement by clicking **Cancel**, and then confirms the action by clicking **OK**.
 
 ![View billing agreement in customer's dashboard]({% link images/images/customer-view-billing-agreement.png %}){: .zoom}
 _View Billing agreement_
