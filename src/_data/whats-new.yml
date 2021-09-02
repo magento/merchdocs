@@ -23,7 +23,7 @@ entries:
   - 2.4.x
   - 'Progress: done'
 - description: Updated the [Google Tag Manager](https://docs.magento.com/user-guide/marketing/google-tag-manager.html)
-    to include the procedure for adding the GTM code snippets to the Commerce store.
+    topic to include the procedure for adding the GTM code snippets to the Commerce store.
   versions: 2.4.x
   type: Major update
   date: August 24, 2021
