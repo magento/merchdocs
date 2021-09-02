@@ -60,7 +60,7 @@ The [PayPal Settlement Report]({% link payment/paypal-settlement-reports.md %}) 
 
 The [Braintree]({% link payment/braintree.md %}) Settlement Report can be filtered according to creation date, amount, status, transaction type, payment type, transaction ID, order ID, PayPal payment ID, type, merchant account ID or settlement batch ID. The report contains the transaction ID, order ID, PayPal payment ID, type, creation date, amount, settlement code, status, settlement response text, reimbursement IDs, merchant account ID, settlement batch ID, and the currency used.
 
-## How to manage Sales Reports
+## Manage your sales reports
 
 ### Step 1: Refresh the report statistics
 
@@ -68,11 +68,11 @@ The [Braintree]({% link payment/braintree.md %}) Settlement Report can be filter
 
 1. Choose the reports you want to refresh.
 
-1. To update statistics, click on the anchor text `here`.
+1. To update statistics, click **here** in the text.
 
 ### Step 2: Filter reports
 
-Admin can get a whole website or one store report, a report for a time interval or a date. To filter sale report set:
+In the Admin, you can access can generate a report for a whole website or for one store, within a time interval or a date. To filter a sale report, set the following options:
 
 |--- |--- |
 |Date Used|Sets the data to be used for the report.|
@@ -85,6 +85,6 @@ Admin can get a whole website or one store report, a report for a time interval 
 
 1. To generate the report, click <span class="btn">Show Report</span>.
 
-1. To export the report, select file type: `Exel XML` or `CSV`
+1. To export the report, select the file type: `Exel XML` or `CSV`
 
 1. Click **Export**.
