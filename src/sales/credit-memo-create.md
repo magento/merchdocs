@@ -213,7 +213,7 @@ _Create Credit Memo_
 
 |--- |--- |
 |Product|The product name, SKU, and options (if applicable).|
-|Price|The purchase price of the item. For Adobe Commerce for B2B, this value reflects any discount applied to the item from the shared catalog, if applicable.|
+|Price|The purchase price of the item. For B2B for Adobe Commerce, this value reflects any discount applied to the item from the shared catalog, if applicable.|
 |Qty|The quantity ordered.|
 |Return to Stock|Checkbox that indicates if the returned item is to be returned to stock.|
 |Qty to Refund|Indicates the number of units returned of the product.|
