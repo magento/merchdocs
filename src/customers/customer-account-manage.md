@@ -103,7 +103,7 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 
-1. In the action menu, click Export and select the desired format:
+1. In the Table Header Menu, click **Export** and select the desired format:
 
 - CSV
 
@@ -112,6 +112,9 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 1. Click <span class="btn">OK</span>.
 
 1. Open the exported file in the browser downloads section.
+
+{:.bs-callout-info}
+The above instruction will export all customer's accounts. If you want to export a limited number, you should either with checkboxes for accounts you want to export, or use filters on the control panel to select a range of customer accounts and then use **Export**.
 
 ## Actions/controls
 
