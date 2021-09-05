@@ -7,10 +7,10 @@ Your store _Admin_ is the password-protected back office where you, as the merch
 
 For additional security, the _Admin_ login is protected by [two-factor authentication]({% link stores/security-two-factor-authentication.md %}), and can be configured to require a [CAPTCHA]({% link stores/security-captcha.md %}). To learn more, go to [Configuring Admin Security]({% link stores/security-admin.md %}).
 
-![Commerce Admin - Dashboard]({% link stores/assets/admin-dashboard.png %}){: .zoom}
+![Admin - Dashboard]({% link stores/assets/admin-dashboard.png %}){: .zoom}
 _Admin Sidebar and Dashboard_
 
-Your initial [sign-in]({% link stores/admin-signin.md %}) credentials were set up during the Commerce installation. If you forget your password, a temporary password can be sent to the email address that is associated with the account. To increase security, configure your store to require a case-sensitive user name and strong password.
+Your initial [sign-in]({% link stores/admin-signin.md %}) credentials were set up during Adobe Commerce or Magento Open Source installation. If you forget your password, a temporary password can be sent to the email address that is associated with the account. To increase security, configure your store to require a case-sensitive user name and strong password.
 
 In addition to the default _Admin_ account, you can create as many [additional accounts]({% link system/permissions-users-all.md %}) as needed to manage the store and support customer accounts. Each account can be associated with a specific [role]({% link system/permissions-user-roles.md %}) and [level of access]({% link system/permissions-role-resources.md %}), based on business need to know. The email address that is associated with each _Admin_ account must be unique.
 
@@ -23,4 +23,4 @@ _Allow admin usage data collection_
 
 Individual administrators are not identified in usage data. Your data collection setting can be changed at any time from the [Admin Usage]({% link configuration/advanced/admin.md %}#admin-usage) configuration.
 
-For Adobe Commerce, allowing data collection also enables _In-Product Guidance_, which is designed to bring interactive content such as help, tool tips, walk-through guides, onboarding information, feature announcements, and more to the _Admin_.
+For Adobe Commerce and Magento Open Source, allowing data collection also enables _In-Product Guidance_, which is designed to bring interactive content such as help, tool tips, walk-through guides, onboarding information, feature announcements, and more to the _Admin_.

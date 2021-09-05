@@ -5,7 +5,7 @@ group: getting-started
 
 The Admin workspace provides access to all the tools, data, and content that you need to run your store. The default start up page can be set in the configuration. Many Admin pages have a grid that lists the data for the section, with a set of tools to search, sort, filter, select, and apply actions. By default, the [Dashboard]({% link stores/admin-dashboard.md %}) is the startup page for the Admin. However, you can choose any other page to appear as the startup page when you log in. You can click the logo in the Admin sidebar to return to the Admin startup page.
 
-![Commerce Admin - workspace]({% link stores/assets/admin-workspace.png %}){: .zoom}
+![Admin - workspace]({% link stores/assets/admin-workspace.png %}){: .zoom}
 _Admin Workspace_
 
 ## Change the Admin startup page

@@ -4,11 +4,11 @@ title: Adding a Language
 
 Most of the text that appears to be hard-coded on pages throughout your store can be instantly changed to a different language by changing the locale of the view. Changing the locale does not actually translate the text word-for-word, but simply references a different translation table that provides the interface text that is used throughout the store. The text that can be changed includes navigational titles, labels, buttons, and links such as _My Cart_ and _My Account_. You can also use the [Inline Translation]({% link configuration/advanced/developer.md %}) tool to touch up text in the interface.
 
-Language packs can be found under [Translations & Localization][1]{:target="_blank"} on Magento Marketplace. New extensions are continually added to Marketplace, so check back often!
+Language packs can be found under [Translations & Localization][1]{:target="_blank"} on Commerce Marketplace. New extensions are continually added to Marketplace, so check back often!
 
 ## Step 1: Install a Language Pack
 
-Follow the standard instructions to install the language pack extension. For detailed information about installing an extension, see [General CLI installation][2] in the Magento Extensions Guide.
+Follow the standard instructions to install the language pack extension. For detailed information about installing an extension, see [General CLI installation][2] in the *Extensions Guide*.
 
 ## Step 2: Create a Store View for the Language
 

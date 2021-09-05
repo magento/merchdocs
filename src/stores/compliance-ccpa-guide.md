@@ -23,7 +23,7 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 
 A coordinated effort is required to develop and implement a plan to address compliance. Use this roadmap as a guide to mobilize resources and prioritize tasks so you can move ahead on multiple fronts.  The process is essentially the same for all Commerce installations, with the following exception:
 
-- **Cloud Infrastructure for Adobe Commerce**: Merchants with stores hosted on our [Cloud Infrastructure][4]{:target="_blank"} can ask their Adobe Commerce Technical Account Manager or Customer Support for help responding to consumer requests.
+- **Adobe Commerce on cloud infrastructure**: Merchants with stores hosted on our [cloud infrastructure][4]{:target="_blank"} can ask their Adobe Commerce Technical Account Manager or Customer Support for help responding to consumer requests.
 
 - **On-Premise**: Merchants with on-premise installations of Adobe Commerce or Magento Open Source must develop their own processes and tools to respond to and manage consumer requests related to privacy regulations.
 
@@ -88,7 +88,7 @@ From a data management perspective, each request for personal information involv
 
 - **Entities acting as Businesses within the scope of CCPA** (Brands): Commerce merchants collect and store personal information from their customers and guests who make purchases in their store(s).
 
-- **Data Processor** (Technology Vendors): Adobe Commerce acts as a processor of the personal data that is stored as part the services provided to merchants. As a processor, Adobe processes personal data in accordance with the merchant's permission and instructions, as set forth in the license agreement.
+- **Data Processor** (Technology Vendors): Adobe Commerce and Magento Open Source act as processors of the personal data that is stored as part the services provided to merchants. As a processor, Adobe processes personal data in accordance with the merchant's permission and instructions, as set forth in the license agreement.
 
 Merchants are responsible to do the following:
 

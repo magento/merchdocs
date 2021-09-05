@@ -23,7 +23,7 @@ _Integrations_
 
    - Enter the **Callback URL** where OAuth credentials can be sent when using OAuth for token exchange. We strongly recommend using `https://`.
 
-   - Enter the **Identity Link URL** to redirect the users to a third-party account with these Magento integration credentials.
+   - Enter the **Identity Link URL** to redirect the users to a third-party account with these Adobe Commerce or Magento Open Source integration credentials.
 
    - When prompted, enter **Your Password** to confirm your identity.
 
@@ -78,7 +78,7 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-See [Restricting access to anonymous web APIs][2]{:target="_blank"} in the Magento developer documentation.
+See [Restricting access to anonymous web APIs][2]{:target="_blank"} in the Commerce Developer Guide.
 
 ## Delete an integration
 

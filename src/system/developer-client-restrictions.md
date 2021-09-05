@@ -7,7 +7,7 @@ Before using a tool such as [Template Path Hints]({% link system/template-path-h
 {:.bs-callout-info}
 Developer Client Restrictions can be set in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
-For technical information, see [Custom VCL for allowing requests][1]{:target="_blank"} in the developer documentation.
+For technical information, see [Custom VCL for allowing requests][1]{:target="_blank"} in the Commerce Developer Guide.
 
 ## Add your IP address to the allow list
 

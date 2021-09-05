@@ -53,7 +53,7 @@ _Import_
 
 1. If the import data includes paths to product images, make sure that the image files have been uploaded to the appropriate location.
 
-   The default location on the Magento server is: `pub/media/import`.
+   The default location on the Commerce server is: `pub/media/import`.
 
     If the images reside on an external server, make sure that you have the full URL to the directory that contains the images.
 
@@ -91,12 +91,12 @@ _Import_
 
 1. Find the CSV file that you prepared to import and click **Open**.
 
-1. In the **Images File Directory** field, enter the relative path to the location on the Magento server where uploaded images are stored.
+1. In the **Images File Directory** field, enter the relative path to the location on the Commerce server where uploaded images are stored.
 
    For example: `product_images`.
 
    {:.bs-callout-info}
-   Starting with the Magento `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory: `<Magento-root-folder>/var/import/images`. For example, place the `product_images` files in the `<Magento-root-directory>/var/import/images/product_images` folder. The import images base directory can be configured in the `\Magento\ImportExport\etc\config.xml` file. If the Remote storage module is enabled, import files to the `<remote-storage-root-directory>/var/import/images/product_images` folder.
+   Starting with the Adobe Commerce and Magento Open Source `2.3.2` release, the path specified in the **Images File Directory** concatenates for import to the images base directory: `<Magento-root-folder>/var/import/images`. For example, place the `product_images` files in the `<Magento-root-directory>/var/import/images/product_images` folder. The import images base directory can be configured in the `\Magento\ImportExport\etc\config.xml` file. If the Remote storage module is enabled, import files to the `<remote-storage-root-directory>/var/import/images/product_images` folder.
 
    To learn more about importing product images, see [Importing Product Images]({% link system/data-import-product-images.md %}).
 

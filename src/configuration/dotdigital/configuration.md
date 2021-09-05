@@ -182,7 +182,7 @@ _Catalog Sync Settings_
 |--- |--- |--- |
 |Catalog Values|Website|Determines the scope of the catalog synchronization. Options: Default Level / Store Level|
 |Catalog Visibility|Website|Specifies which products are exported to dotdigital. If left blank, the default setting is "Catalog, Search". To select multiple visibility settings, hold down the Ctrl key (PC) or Command key (Mac) and click each option. Options: Not Visible Individually / Catalog / Search / Catalog, Search|
-|Catalog Type|Website|Specifies which product types are exported to dotdigital. If left blank, the default setting is "Simple Product". To select multiple product types, hold down the Ctrl key (PC) or Command key (Mac) and click each option. Options:  Simple Product / Virtual Product / Bundle Product / Configurable Product / Downloadable Product / <span class="ee-only">Gift Card</span> / Grouped Product|
+|Catalog Type|Website|Specifies which product types are exported to dotdigital. If left blank, the default setting is "Simple Product". To select multiple product types, hold down the Ctrl key (PC) or Command key (Mac) and click each option. Options:<br />Simple Product<br />Virtual Product<br />Bundle Product<br />Configurable Product<br />Downloadable Product<br /><span class="ee-only">Gift Card</span><br /> Grouped Product|
 
 ## Customer Preference
 
@@ -193,6 +193,6 @@ _Customer Preference_
 |--- |--- |--- |
 |Show Preferences to Customer|Website|Determines if customers can view and edit their own preferences. Options: Yes / No|
 |Show Addressbooks to Customer|Website|Determines if customers can view and edit their own subscriptions to dotdigital [address books](https://support.dotdigital.com/hc/en-gb/articles/212211968-Creating-an-address-book){:target="_blank"}. Options: Yes / No|
-|Addressbooks to Show|Website|Specifies which dotdigital address books are available to the customer, in addition to the general Magento subscription list. Options: (Available address books)|
+|Addressbooks to Show|Website|Specifies which dotdigital address books are available to the customer, in addition to the subscription list. Options: (Available address books)|
 |Show Data Fields to Customer?|Website|Determines if customers can see address book data fields. Options: Yes / No|
 |Data Fields to Show|Website|Specifies which address book data fields are visible to the customer. Options: FIRSTNAME / FULLNAME / GENDER / LASTNAME / ZIPCODE|
