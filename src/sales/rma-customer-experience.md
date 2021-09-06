@@ -62,6 +62,6 @@ The Customer completes the following steps on the storefront to submit an RMA:
 1. Additionally, sets **Contact Email Address** and **Comments** if needed.
 
 {:.bs-callout-info}
-If the order contains several items and customer wants to return for example two out of four, they click **Add Item To Return** button, selects an item and sets all mentioned options.
+If the order contains several items and the customer wants to return, for example, two out of four, they click the **Add Item To Return** button, then select an item and then set all mentioned options.
 
 1. Clicks <span class="btn">Submit</span>.
