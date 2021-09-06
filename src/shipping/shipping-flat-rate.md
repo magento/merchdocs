@@ -57,8 +57,8 @@ Flat rate is a fixed, predefined charge that can be applied per item, or per shi
 
 1. Set **Show Method if Not Applicable**:
 
-   * `Yes` – Always shows the Free Shipping method, even when not applicable.
-   * `No` – Shows the Free Shipping method only when applicable.
+   - `Yes` – Always shows the Flat Rate method, even when not applicable.
+   - `No` – Shows the Flat Rate method only when applicable.
 
 1. For **Sort Order**, enter a number to determine the sequence in which Flat Rate Shipping appears when listed with other delivery methods during checkout.
 
