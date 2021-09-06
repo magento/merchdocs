@@ -31,7 +31,7 @@ The saved payment method is then displayed in the _Stored Payment Methods_ tab o
 
 ## Delete a stored payment method
 
-Any of added earlier stored payment methods can not be edited by customer, but can be deleted only. This action cannot be undone.
+Any previously added, stored payment methods cannot be edited by the customer, they can only be deleted. This action cannot be undone.
 
 1. In the sidebar of their account, the customer selects **Stored Payment Methods**.
 
