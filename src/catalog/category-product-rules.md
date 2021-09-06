@@ -75,8 +75,8 @@ Use caution when applying a category product rule, because any products that do 
 
     Sorting is based on current conditions:
 
-    |Stock quantity|Sort to top or bottom: `Move low stock to top` or `Move out of stock to bottom`|
-    |Special price|Sort to top or bottom: `Special price to top` or `Special price to bottom`|
+    |Stock quantity|Sort based on stock, from top or bottom: `Move low stock to top` or `Move out of stock to bottom`|
+    |Special price|Sort based on price, from top or bottom: `Special price to top` or `Special price to bottom`|
     |New Products|List newest products: `Newest products first`|
     |Color|Sort alphabetically by color: `Sort by color`|
     |Product Names|Sort by name in ascending or descending order: `Name A - Z` or `Name Z -A`|
