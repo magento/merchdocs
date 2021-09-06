@@ -34,7 +34,7 @@ _Edit Event_
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Private Sales_ > **Events**.
 
-1. Find the event in the list, and open it in edit mode.
+1. Find the event in the list and open it in edit mode.
 
 1. In the upper-right corner, click <span class="btn">Delete</span>.
 
@@ -45,8 +45,8 @@ _Edit Event_
 {: .buttons-table }
 |Button|Description|
 |--- |--- |
-|<span class="btn">Back</span>|Returns to the Events page without saving the new event or changes in existing.|
+|<span class="btn">Back</span>|Returns to the Events page without saving the new event or changes in an existing event.|
 |<span class="btn">Delete</span>|Deletes the event.
-|<span class="btn">Reset</span>|Clears the form of any unsaved changes, and restores the original event information.|
-|<span class="btn">Save and Continue Edit</span>|Saves all changes, and keeps the form open in edit mode.|
+|<span class="btn">Reset</span>|Clears the form of any unsaved changes and restores the original event information.|
+|<span class="btn">Save and Continue Edit</span>|Saves all changes and keeps the form open in edit mode.|
 |<span class="btn">Save</span>|Saves changes, closes the form, and returns to the Events page.|
