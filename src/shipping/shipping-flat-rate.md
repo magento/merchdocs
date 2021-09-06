@@ -55,6 +55,11 @@ Flat rate is a fixed, predefined charge that can be applied per item, or per shi
    | All Allowed Countries | Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this delivery method. |
    | Specific Countries | When you choose this option, the _Ship to Specific Countries_ list appears. Select each country in the list where this delivery method can be used. |
 
+1. Set **Show Method if Not Applicable**:
+
+   * `Yes` – Always shows the Free Shipping method, even when not applicable.
+   * `No` – Shows the Free Shipping method only when applicable.
+
 1. For **Sort Order**, enter a number to determine the sequence in which Flat Rate Shipping appears when listed with other delivery methods during checkout.
 
    `0` = first, `1` = second, `2` = third, and so on.
