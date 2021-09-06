@@ -51,9 +51,11 @@ _Gift Registry items managing_
 
 1. From customer account dashboard, go to **Gift Registry**.
 
-1. Find the registry event, items which you want to manage, and click **Manage Items**.
+1. Find the registry event, then the items which you want to manage, and click **Manage Items**.
 
-1. Change the needed options like: **Note**, **Qty** or **Delete** an item from gift registry by checking checkbox near needed item.
+1. Change the required options such as : **Note** &  **Qty**.
+
+1. Or **Delete** an item from the gift registry by checking the checkbox near the required item.
 
 1. Click **Update Gift Registry** to save the changes.
 
