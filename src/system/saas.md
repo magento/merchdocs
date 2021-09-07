@@ -17,9 +17,9 @@ When you create a Commerce account, identified by a Commerce ID (MageID), you ca
 1. From the _Environment_ menu, select **Production** or **Sandbox**.
 
    {:.bs-callout-info}
-   For Product Recommendations and Live Search features, select **Production**. Production keys give you access to production and non-production data spaces. Sandbox keys are not used in those features.
+   For _Product Recommendations_ and _Live Search_, select **Production**. Production keys give you access to production and non-production data spaces. Sandbox keys are not used for these services.
 
-1. Enter a name in the **API Keys** section and click **Add New**.
+1. Enter a name in the _API Keys_ section and click **Add New**.
 
    This opens a dialog for downloading the new key.
 
@@ -66,11 +66,11 @@ To select or create a SaaS project, request the Commerce API key from the Commer
 
    When you save, if there are any SaaS projects associated with your API key, those projects will appear in the **SaaS Project** field located in the **SaaS Identifier** section.
 
-1. If there are no SaaS projects created, click **Create Project** to display the **Project Name** field and enter a name for your SaaS project.
+1. If no SaaS projects exist, click **Create Project**. Then in the **Project Name** field, enter a name for your SaaS project.
 
    When you create a SaaS project, Commerce generates one or more SaaS data spaces depending on your Commerce license:
-   - **Adobe Commerce** - One production data space; two testing data spaces
-   - **Magento Open Source** - One production data space; no testing data spaces
+   - Adobe Commerce - One production data space; two testing data spaces
+   - Magento Open Source - One production data space; no testing data spaces
 
 1. Select the **SaaS Data Space** to use for the current configuration of your Commerce store.
 
