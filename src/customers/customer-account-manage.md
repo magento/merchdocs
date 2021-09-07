@@ -114,7 +114,7 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 1. Open the exported file in the browser downloads section.
 
 {:.bs-callout-info}
-The above instruction will export all customer's accounts. If you want to export a limited number, you should either with checkboxes for accounts you want to export, or use filters on the control panel to select a range of customer accounts and then use **Export**.
+The above instruction will export all customer accounts. If you want to export a limited number, you should either use checkboxes for accounts you want to export, or use filters on the control panel to select a range of customer accounts and then use **Export**.
 
 ## Actions/controls
 
