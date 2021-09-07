@@ -9,7 +9,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdi
 ## Visitor Action Automation Enrolment
 
 ![]({% link images/images/config-engagement-cloud-automation-visitor-action-automation-enrolment.png %}){: .zoom}
-_Visitor Action Automation Enrolment_
+_Visitor action automation enrolment_
 
 For each type of contact that you want to automate enrollment, select the appropriate [dotdigital program](https://support.dotmailer.com/hc/en-gb/articles/212213878-Getting-started-with-the-program-builder){:target="_blank"}. To learn more, see [Automated and triggered campaigns - an overview](https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview).
 

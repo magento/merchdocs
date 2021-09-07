@@ -38,14 +38,14 @@ _Tags Fired in Shopping Cart Shown in Debug Mode_
 
     |Name|Event Type|Filter|
     |--- |--- |--- |
-    |AddToCart|Custom Event||
-    |Checkout|Custom Event||
-    |Checkout only|Page View|Page URL matches RegEx /checkout/.*|
-    |CheckoutOption|Custom Event||
+    |addToCart|Custom Event||
+    |checkout|Custom Event||
+    |checkout only|Page View|Page URL matches RegEx /checkout/.*|
+    |checkoutOption|Custom Event||
     |gtm.dom|Custom Event||
-    |ProductClick|Custom Event||
-    |PromotionClick|Custom Event||
-    |RemoveFromCart|Custom Event||
+    |productClick|Custom Event||
+    |promotionClick|Custom Event||
+    |removeFromCart|Custom Event||
 
 1. Create the following Universal Analytics tags with the same basic configuration.
 
@@ -53,13 +53,13 @@ _Tags Fired in Shopping Cart Shown in Debug Mode_
 
       |Name|Type|Firing triggers|
       |--- |--- |--- |
-      |Add to cart tracking|Universal Analytics|AddToCart|
-      |Checkout option tracking|Universal Analytics|CheckoutOption|
-      |Checkout tracking|Universal Analytics|Checkout|
+      |Add to cart tracking|Universal Analytics|addToCart|
+      |Checkout option tracking|Universal Analytics|checkoutOption|
+      |Checkout tracking|Universal Analytics|checkout|
       |Pageview tracking|Universal Analytics|gtm.dom|
-      |Product click tracking|Universal Analytics|ProductClick|
-      |Promo click tracking|Universal Analytics|PromotionClick|
-      |Remove from cart tracking|Universal Analytics|RemoveFromCart|
+      |Product click tracking|Universal Analytics|productClick|
+      |Promo click tracking|Universal Analytics|promotionClick|
+      |Remove from cart tracking|Universal Analytics|removeFromCart|
 
    - Basic Tag Configuration
 
@@ -81,7 +81,7 @@ _Tags Fired in Shopping Cart Shown in Debug Mode_
       |Track Type|Event|
       |Category|Ecommerce|
       |Action|Add to Cart|
-      |Trigger|AddToCart|
+      |Trigger|addToCart|
 
    - Enter the following **Checkout option** tracking settings:
 
@@ -90,7 +90,7 @@ _Tags Fired in Shopping Cart Shown in Debug Mode_
       |Track Type|Event|
       |Category|Ecommerce|
       |Action|Checkout Option|
-      |Trigger|CheckoutOption|
+      |Trigger|checkoutOption|
 
    - Enter the following **PageView** tracking settings:
 
@@ -106,7 +106,7 @@ _Tags Fired in Shopping Cart Shown in Debug Mode_
       |Track Type|Event|
       |Category|Ecommerce|
       |Action|Product Click|
-      |Trigger|ProductClick|
+      |Trigger|productClick|
 
    - Complete the following **Promotion Click** tracking configuration:
 
@@ -115,7 +115,7 @@ _Tags Fired in Shopping Cart Shown in Debug Mode_
       |Track Type|Event|
       |Category|Ecommerce|
       |Action|Promotion Click|
-      |Trigger|PromotionClick|
+      |Trigger|promotionClick|
 
    - Complete the following **Remove from Cart** tracking configuration:
 
@@ -124,7 +124,7 @@ _Tags Fired in Shopping Cart Shown in Debug Mode_
       |Track Type|Event|
       |Category|Ecommerce|
       |Action|Remove from Cart|
-      |Trigger|RemoveFromCart|
+      |Trigger|removeFromCart|
 
 1. When complete, click <span class="btn">Preview</span> and verify that the tags work correctly.
 

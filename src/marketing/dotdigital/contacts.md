@@ -13,28 +13,28 @@ Your dotdigital account is [synced]({% link configuration/dotdigital/sync-settin
     The contact list in the main menu at the top of the page includes customer, guest, and subscription data that is automatically imported from your store.
 
     ![dotdigital - my contacts]({% link images/images/engagement-cloud-menu-contacts-mycontacts.png %}){: .zoom}
-    _My Contacts_
+    _My contacts_
 
-1. To view the import report, click the **Notifications** bell ( ![Notifications icon]({% link images/images/icon-notifictions-engagement-cloud.png %})) in the upper-right corner.
+1. To view the import report, click the **Notifications** bell (![Notifications icon]({% link images/images/engagement-cloud-btn-notifications.png %})) in the upper-right corner.
 
     ![dotdigital - subscribers address book]({% link images/images/engagement-cloud-contacts-subscribers-address-book.png %}){: .zoom}
-    _Address Books_
+    _Address books_
 
 1. In the first message, click **import report**.
 
     ![dotdigital - import notifications]({% link images/images/engagement-cloud-import-notifications.png %}){: .zoom}
     _Notifications_
 
-1. In the Notifications list, click **import report**.
+1. In the _Notifications_ list, click **import report**.
 
-    The Contacts import report includes a summary of all subscribers as well as duplicates, failures, soft and hard bounces, invalid email addresses, and those who have unsubscribed, or have been blocked or globally suppressed. You can use this report to help keep your data clean.
+    The _Contacts import_ report includes a summary of all subscribers as well as duplicates, failures, soft and hard bounces, invalid email addresses, and those who have unsubscribed, or have been blocked or globally suppressed. You can use this report to help keep your data clean.
 
     ![dotdigital - contacts import report]({% link images/images/engagement-cloud-contacts-import-report.png %}){: .zoom}
-    _Import Report_
+    _Import report_
 
 1. After reading the report, click **Go to address book**.
 
-1. Return to **Contacts** > **My Contacts** from the main menu and click the **Magento_Customers** address book.
+1. Return to **Contacts** > **My Contacts** from the main menu and click the **Commerce_Customers** address book.
 
 1. To see all the things you can do with your customer data, click **More actions**.
 

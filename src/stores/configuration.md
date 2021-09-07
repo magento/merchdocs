@@ -23,7 +23,7 @@ sections:
     url: /configuration/sales.html
 
   - title: Sales Channels
-    content: Sales Channels settings configure the clear log history, background tasks source, debug login, and read-only mode settings. This feature is only available if your Magento 2 instance has Amazon Sales Channel installed and enabled.
+    content: Sales Channels settings configure the clear log history, background tasks source, debug login, and read-only mode settings. This feature is only available if your Adobe Commerce or Magento Open Source instance has Amazon Sales Channel installed and enabled.
     url: /configuration/sales-channels.html
 
   - title: dotdigital
@@ -40,7 +40,7 @@ sections:
 
 ---
 
-This reference provides field descriptions for every configuration setting in the Magento Admin. To learn how to apply configuration settings to specific store views, see [Configuration Scope]({% link configuration/scope.md %}).  To override the default values of configuration settings, see [Changing Scope]({% link configuration/scope-change.md %}).
+This reference provides field descriptions for every configuration setting in the Admin. To learn how to apply configuration settings to specific store views, see [Configuration Scope]({% link configuration/scope.md %}).  To override the default values of configuration settings, see [Changing Scope]({% link configuration/scope-change.md %}).
 
 In this guide, you can drill down through any section of the reference and follow the links to corresponding topics.
 

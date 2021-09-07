@@ -2,7 +2,7 @@
 title: Using Two-Factor Authentication
 ---
 
-These instructions show how to set up two-factor authentication during your initial sign in and how to authenticate your identity using the following apps and devices:
+These instructions show how to set up two-factor authentication during your initial sign in to Adobe Commerce or Magento Open Source and how to authenticate your identity using the following apps and devices:
 
 - [Google Authenticator](#google-authenticator)
 - [Duo Security](#duo-security)
@@ -15,7 +15,7 @@ For complete instructions, see [Admin Sign In]({% link stores/admin-signin.md %}
 
 ### Step 1: Set up Google Authenticator
 
-1. Enter your account credentials and sign in to the Adobe Commerce _Admin_.
+1. Enter your account credentials and sign in to the _Admin_.
 
     A new authenticator screen appears with a QR code.
 
@@ -53,7 +53,7 @@ Duo offers a free trial, and charges according to the number of users that are a
 
 ### Step 1: Set up Duo Security
 
-1. Enter your account credentials and sign in to the Adobe Commerce _Admin_.
+1. Enter your account credentials and sign in to the _Admin_.
 
 1. When the Duo Setup page appears. Click **Start setup** and do the following:
 
@@ -95,7 +95,7 @@ Duo offers a free trial, and charges according to the number of users that are a
 
 The following example shows the options for `Ask me to choose an authenticator method`:
 
-1. When prompted, enter your Adobe Commerce _Admin_ credentials to sign in.
+1. When prompted, enter your _Admin_ credentials to sign in.
 
     ![Duo - signin]({% link images/images/storefront-2fa-duo-auth.png %}){: .zoom}
     _Duo access_
@@ -114,7 +114,7 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
 ### Step 1: Set up Authy
 
-1. Enter your account credentials and sign in to the Adobe Commerce _Admin_.
+1. Enter your account credentials and sign in to the _Admin_.
 
     ![Authy registration]({% link images/images/storefront-2fa-authy-auth.png %}){: .zoom}
     _Authy registration_
@@ -143,7 +143,7 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
 ### Step 2: Sign in with Authy
 
-1. Enter your account credentials and sign in to the Adobe Commerce _Admin_.
+1. Enter your account credentials and sign in to the _Admin_.
 
     ![Authy - signin]({% link images/images/storefront-2fa-authy-access.png %}){: .zoom}
     _Authy access_
@@ -167,7 +167,7 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
 Follow the instructions from the solution provider to configure your U2F device. For more information, see the vendor documentation, such as [YubiKey][1] by Yubico.
 
-1. Enter Adobe Commerce _Admin_ account credentials and sign in to your account.
+1. Enter your account credentials and sign in to the _Admin_.
 
     ![U2F key access]({% link images/images/storefront-2fa-u2f.png %}){: .zoom}
     _U2F Key Access_

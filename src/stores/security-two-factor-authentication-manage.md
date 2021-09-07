@@ -8,7 +8,7 @@ If you have trouble signing in with 2FA, consider the following:
 
 - Some mobile apps include synchronization options. This option reconnects the app and server, and synchronizes the time settings on the device and server.
 - Revoking a device or resetting an authenticator can help users connect.
-- Clearing web cache and cookies for the Adobe Commerce installation can also help. Authenticators, like Google, use generated cookies to save access and duration. Clear the cookies for your specific browser and Adobe Commerce domain.
+- Clearing web cache and cookies for the Adobe Commerce or Magento Source installation can also help. Authenticators, like Google, use generated cookies to save access and duration. Clear the cookies for your specific browser and store domain.
 - Blocking cookies prevents some authenticators, such as Google Authenticator, from completing the verification process. Add a rule to your browser that allows cookies for your Adobe Commerce installation.
 
 To reset authenticators from the command line and more advanced troubleshooting information, see [Two-Factor Authentication][1] in the Adobe Commerce developer documentation.
