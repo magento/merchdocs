@@ -14,7 +14,7 @@ _Import Settings_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Contact Sync Size|Website|Sets the batch size limit for the amount of contacts that can be loaded for every data synchronization.|
-|Transactional Data Sync Size|Website|Sets the batch size limit for the amount of transactions that can be loaded for every data synchronization.|
+|Transactional Data Sync Size|Global|Sets the batch size limit for the amount of transactions that can be loaded for every data synchronization.|
 |Enable Subscribers Sales Data Sync|Website|Indicates if subscriber sales data is synchronized. This option is disabled by default due to the increased server load and synchronization times.|
 |Remove `/pub` directory from URLs|Global|Determines if the `/pub` path is included or removed from URLs. Options:<br /> Yes - Removes the `/pub` path from URLs.<br /> No - Leaves the `/pub` path in URLs.|
 
@@ -51,6 +51,7 @@ _Reset Sync Options_
 |Reset Review Data|Website|Force marks all product review data for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets review data.|
 |Reset Wishlist Data|Website|Force marks all wish list data for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets wish list data.|
 |Reset Catalog Data|Website|Force marks all catalog data for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets catalog data.|
+|Reset B2B Quotes|Website|Force marks all quotes for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Reset B2B Quotes.|
 
 ## Debug
 
