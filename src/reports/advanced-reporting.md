@@ -113,6 +113,10 @@ To determine if your store has multiple base currencies, you can query your Comm
 select distinct base_currency_code from sales_order;
 ```
 
+### Data discrepancy
+
+If you notice that the `Data last updated...` caption displays yesterday's date and not today's, there might be a delay of up to a day in the Advanced Reporting updates due to a larger than expected queue size.
+
 ## Dashboard Reports
 
 ### Orders
