@@ -42,7 +42,7 @@ For the Commerce storefront, the facet label is determined by the [_Attribute Pr
 
 ### Sort type
 
-All facets rendered for the storefront are sorted alphabetically.  For headless implementations, facets can be sorted alphabetically or by count.
+All facets rendered for the storefront are sorted alphabetically. For headless implementations, facets can be sorted alphabetically or by count.
 
 |**Sort type**|**Description**|
 |---|---|
