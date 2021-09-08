@@ -32,12 +32,15 @@ Refer to [Settings]({% link live-search/settings.md %}) to configure price facet
      ![Edit options]({% link live-search/assets/facet-edit-menu.png %}){: .zoom}
      _Edit menu_
 
-1. To edit the facet label, click the value in the first column and edit the text as needed.
+1. To edit the facet label, do one of the following:
+
+    - For a Commerce storefront, edit the [attribute label]({% link stores/attributes-product.md %}).
+    - For a headless implementation, click the value in the first column and edit the text as needed. 
 
      ![Edit label]({% link live-search/assets/facet-edit-label.png %}){: .zoom}
      _Edit label_
 
-1. To change the method that is used to sort facet values, click the value in the _Sort Type_ column and choose one of the following:
+1. (Headless only) To change the method that is used to sort facet values, click the value in the _Sort Type_ column and choose one of the following:
 
      - Alphabetical
      - Count
