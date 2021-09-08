@@ -21,3 +21,27 @@ _Customer Order Status Notification_
 1. Set **Customer Order Status Notification** to `Enable`.
 
 1. When complete, click **Save Config**.
+
+## Configure New Order Email Notification
+
+1. On the Admin sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **Sales** and choose **Sales Email** underneath.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order** section and enable the order email notification.
+
+1. Set **New Order Confirmation Email Sender** to one of the following:
+
+    - General Contact
+    - Sales Representative
+    - Customer Support
+
+1. Choose the **New Order Confirmation Template** for `Customers` and `Guests`.
+
+1. To notify about the new order, enter the email address to **Send Order Email Copy To**.
+
+1. Set the **Send Order Email Copy Method** to one of the following:
+
+    |--- |--- |
+    |Bcc|Only one email about the new order will be sent to both customer and the recipient, but the customer won't see that the email they received was also sent to the recipient.|
+    |Separate Email|Two separate emails will be sent to the recipient and the customer.|
