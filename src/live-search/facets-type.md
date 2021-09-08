@@ -21,7 +21,7 @@ _Filter by price_
 
 Facets that are rendered for the Commerce storefront are processed by the search adapter, which routes requests and renders the results in the storefront. All Commerce storefront facets are sorted alphabetically with single-select options, regardless of the input type that is assigned to the corresponding attribute. Facets that are available in the storefront are rendered according to the current theme and reflect any customizations made to the layered navigation presentation.
 
-In contrast, [headless](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/webapi-vision.html?itm_source=devdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=headless) implementations are processed by the API and support additional options. Headless facets can be sorted alphabetically or by count and can have either single- or multi-select options.
+In contrast, [headless](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/webapi-vision.html) implementations are processed by the API and support additional options. Headless facets can be sorted alphabetically or by count and can have either single- or multi-select options.
 
 ### Select type
 
