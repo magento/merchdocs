@@ -93,4 +93,4 @@ If the cart is not empty and the user  clicks **Reorder** (from the _My Orders_ 
 
 1. Fill in all required fields as needed.
 
-1. To submit reorder click <span class="btn">Submit Order</span>.
+1. To submit the order, click <span class="btn">Submit Order</span>.
