@@ -5,7 +5,7 @@ tag: live-search
 group: marketing
 ---
 
-Any filterable product attribute can be used as a facet. The _Add facets_ panel lists the current facets and makes it easy to assign additional product attributes as facets. During this three-step process, an attribute is chosen to be used as a facet, properties can be edited if needed, and the changes published to the storefront.
+Any filterable product attribute can be used as a facet. The _Add facets_ panel lists the current facets and makes it easy to assign additional product attributes as facets. During this three-step process, an attribute is chosen to be used as a facet, properties are edited if needed, and the changes published to the storefront.
 
 ![Faceting workspace]({% link live-search/assets/facets-add.png %}){: .zoom}
 _Add facet_
