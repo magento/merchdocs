@@ -5,7 +5,7 @@ tag: live-search
 group: marketing
 ---
 
-Any filterable product attribute can be used as a facet. The _Add facets_ panel lists the current facets and makes it easy to assign additional product attributes. Adding a facet is a three-step process.
+Any filterable product attribute can be used as a facet. The _Add facets_ panel lists the current facets and makes it easy to assign additional product attributes as facets. Adding a facet is a three-step process.
 
 ![Faceting workspace]({% link live-search/assets/facets-add.png %}){: .zoom}
 _Add facet_
@@ -42,9 +42,9 @@ Refer to [Settings]({% link live-search/settings.md %}) to configure price facet
 1. If you need to edit the facet properties, click **More** (![More selector]({% link live-search/assets/btn-more.png %})) options in the far-right column.
 1. On the menu, click **Edit**. Then, adjust the following properties as needed.
 
-     - Label - Enter the facet label that appears in the storefront.
-     - Select type - The default single- or multi-select type is determined by the attribute properties. The logical operator (`or` or `and`) that is used with multi-select input types determines the set of products returned.
-     - Sort type - Choose the method that is used to sort facet values. Options: Alphabetical, Count
+     - Label - (Headless only) Enter the facet label that you want to use.
+     - Select type - The _Select type_ used for all Commerce storefronts is `single select`. For headless implementations, `multi-select` type can be assigned with a logical operator (`or` or `and`) to determine the set of products returned.
+     - Sort type - Facets are sorted alphabetically for all Commerce storefronts. For headless implementations, facets can be sorted either alphabetically or by count. Options: Alphabetical, Count (headless only)
      - Max Value - Enter the maximum number of facet values displayed in the storefront. Valid entries: 0 - 10
 
 1. When complete, click **Save**.
@@ -70,9 +70,9 @@ Refer to [Settings]({% link live-search/settings.md %}) to configure price facet
 {: .fields-table }
 |Field |Description |
 |--- |--- |
-|Label |The facet label that is visible in the storefront. You can edit the label to be consistent with your brand. |
-|Select type | Refers to the selection method that is used to choose an attribute value from the storefront. A facet can be either single- or multi-select based on the [input type]({% link stores/attributes-input-types.md %}) of the corresponding attribute. Options:<br />Single-select - Returns products that match a single attribute value. For example: Size: Small; Color: Blue<br />Multi-select - Allows a shopper to choose more than one option. The corresponding logical operator determines the set of products that is returned.<br />- Multi-select (or) - Returned product(s) can match any selected value.<br />- Multi-select (and) - Returned product(s) must match all selected value(s).|
-|Sort Type |The method that is used to sort facet values. Options:<br />Alphabetical - Sorts facet values alphabetically.<br />Count - Sorts facet values based on the number of matches found.|
+|Label |(Headless only) The [facet label]({% link live-search/facets-type.md %}) that is visible to the shopper. You can edit the label to be consistent with your brand.|
+|Select type | Refers to the [selection method]({% link live-search/facets-type.md %}) that is used to choose a facet value as a filter. All Commerce storefronts support `Single select` only. Headless implementations also support `Multi-select` with the logical operators `OR` and `AND`.|
+|Sort Type |The method that is used to [sort]({% link live-search/facets-type.md %}) facet values. All Commerce storefronts sort facets alphabetically only. Headless implementations can also sort by `Count`. Options:<br />Alphabetical - Sorts facet values alphabetically.<br />Count - (Headless only) Sorts facet values based on the number of matches found.|
 |Max Value |The maximum number of values that can be displayed in the storefront for each facet. Facets that represent a range of values are evenly distributed. Default: 8|
 
 ### Controls
