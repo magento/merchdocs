@@ -109,12 +109,10 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 
 - Excel XML
 
-1. Click <span class="btn">OK</span>.
-
-1. Open the exported file in the browser downloads section.
+1. Click <span class="btn">OK</span>. The file will go to your default downloads folder.
 
 {:.bs-callout-info}
-The above instruction will export all customer accounts. If you want to export a limited number, you should either use checkboxes for accounts you want to export, or use filters on the control panel to select a range of customer accounts and then use **Export**.
+The above instruction will export all customer accounts. If you want to export a limited set, select the checkboxes for the accounts you want to export, or use filters on the control panel to select a range of customer accounts.
 
 ## Actions/controls
 
