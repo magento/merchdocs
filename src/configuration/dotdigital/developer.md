@@ -51,7 +51,7 @@ _Reset Sync Options_
 |Reset Review Data|Website|Force marks all product review data for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets review data.|
 |Reset Wishlist Data|Website|Force marks all wish list data for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets wish list data.|
 |Reset Catalog Data|Website|Force marks all catalog data for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets catalog data.|
-|Reset B2B Quotes|Website|Force marks all quotes for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Reset B2B Quotes.|
+|Reset B2B Quotes|Website|Force marks all quotes for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets B2B Quotes.|
 
 ## Debug
 
