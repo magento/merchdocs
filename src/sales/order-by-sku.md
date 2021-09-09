@@ -42,7 +42,7 @@ _Order by SKU in the Storefront_
 
 1. On the _Admin_ sidebar, click **Stores**.
 
-1. In the _Settings_ section, choose **Configure**.
+1. In the _Settings_ section, choose **Configuration**.
 
 1. In the _Sales_ section in the left panel, choose **Sales**.
 
@@ -59,8 +59,8 @@ _Order by SKU in the Storefront_
 
 1. Click **Save Config**.
 
-   {:.bs-callout-info}
-   To enable the **Order by SKU** function, disable the **Quick Order** function.
+{:.bs-callout-info}
+To enable the **Order by SKU** function, disable the **Quick Order** function.
 
 1. Go to **Stores** > _Settings_ > **Configuration**.
 
