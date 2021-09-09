@@ -55,7 +55,7 @@ _Save & Duplicate_
 
 ## Delete a Page
 
-There are two ways to remove created page. You can remove it from _Pages_ grid, or from the _Edit_ page.
+There are two ways to remove a created page. You can remove it from _Pages_ grid or from the _Edit_ page.
 
 ### Method 1: Remove a block from the Blocks grid
 
