@@ -27,7 +27,7 @@ This tab includes the general information about the billing agreement:
 - Customer: Customer's account assigned to current billing agreement.
 - Status: Payment agreement status.
 - Created At: Creation date.
-- Updated At: Update dae.
+- Updated At: Update date.
 
 ![Billing Agreement View]({% link images/images/sales-billing-agreement-view.png %}){: .zoom}
 _Billing agreement general information_
