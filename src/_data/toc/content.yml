@@ -29,7 +29,7 @@ pages:
     - label: Adding a New Page
       url: "/cms/page-add.html"
       children:
-      - label: Duplicating & Deleting a Page
+      - label: Duplicating and Deleting a Page
         url: "/cms/page-duplicate.html"
       - label: Switching Home Pages
         url: "/cms/page-home-new.html"
