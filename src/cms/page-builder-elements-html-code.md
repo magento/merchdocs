@@ -70,7 +70,7 @@ The following example demonstrates how to embed [Google Font][1] code and declar
    ![]({% link images/images-ee/page-builder-elements-html-code-example.png %}){: .zoom}
    _HTML code and styles_
 
-1. Update the remaining settings as needed (see [Change HTML code settings][#html-settings] for details).
+1. Update the remaining settings as needed (see [Change HTML code settings]({% link /cms/page-builder-elements-html-code.md %}#html-settings) for details).
 
 1. In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
