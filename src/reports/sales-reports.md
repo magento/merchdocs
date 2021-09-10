@@ -85,6 +85,6 @@ In the Admin, you can access can generate a report for a whole website or for on
 
 1. To generate the report, click <span class="btn">Show Report</span>.
 
-1. To export the report, select the file type: `Exel XML` or `CSV`
+1. To export the report, select the file type: `Excel XML` or `CSV`
 
 1. Click **Export**.
