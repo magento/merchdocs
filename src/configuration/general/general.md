@@ -17,7 +17,7 @@ _Country Options configuration settings_
 |Allow Countries|Website|The countries where you accept orders.|
 |Zip/Postal Code is Optional for|Global|Countries that do not require a ZIP or postal code in the shipping address.|
 |European Union Countries|Global|Countries that are members of the European Union.|
-|Top Destinations|Global|The primary countries that you target for sales.|
+|Top Destinations|Store View|The primary countries that you target for sales.|
 
 ## State Options
 
