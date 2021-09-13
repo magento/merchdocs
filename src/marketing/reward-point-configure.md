@@ -62,11 +62,11 @@ In this step, the number of reward points that can be earned for various custome
 
     - Enter a number in the **Invitation to Customer Conversions Quantity Limit** field to limit the number of invitation conversions that can be used to earn points for the customer who sends the invitation (blank for no limit).
 
-1. For **Converting Invitation to Order**, enter the number of points earned by a customer who sends an invitation and the recipient then places an order. Then, do the following:
+1. For **Converting Invitation to Order**, enter the number of points earned by a customer who sends an invitation to the recipient who then places an order. Then, do the following:
 
-    - In the **Invitation to Order Conversions Quantity Limit** field, enter the number of points earned by a customer sending an invitation when the recipient places an initial order (blank for no limit).
+    - In the **Invitation to Order Conversions Quantity Limit** field, enter the number of points earned by the customer sending the invitation when the recipient places an initial order (blank for no limit).
 
-    - In the **Invitation Conversion to Order Reward** dropdown select `Each` option for earning points for each placed by recipient order or `First` option for earning points only for the first placed order by recipient.
+    - In the **Invitation Conversion to Order Reward** dropdown select the `Each` option to earn points for each placed by recipient order, or select the `First` option to earn points only for the first placed order by the recipient.
 
 1. For **Review Submission**, enter the number of points earned by a customer who submits a review that is approved for publication.
 
