@@ -121,20 +121,20 @@ _Number of SKUs Approval Rule_
 
 ### Edit approval rules
 
-1. In the sidebar of their account, the customer selects **Approval Rules**.
+1. In the sidebar, select **Approval Rules**.
 
-1. Finds the approval rule entry to be edited.
+1. Find the approval rule entry to be edited.
 
-1. Clicks **Edit**.
+1. Click **Edit**.
 
-1. Makes all needed changes and clicks **Save**.
+1. Make all needed changes and click **Save**.
 
 ### Delete approval rules
 
-1. In the sidebar of their account, the customer selects **Approval Rules**.
+1. In the sidebar of their account, select **Approval Rules**.
 
-1. Finds the approval rule entry to be deleted.
+1. Find the approval rule entry to be deleted.
 
-1. Clicks **Delete**.
+1. Click **Delete**.
 
-1. To confirm the action, clicks <span class="btn">OK<span>.
+1. To confirm the action, click <span class="btn">OK<span>.
