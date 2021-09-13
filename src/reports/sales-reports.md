@@ -66,7 +66,7 @@ The [Braintree]({% link payment/braintree.md %}) Settlement Report can be filter
 
 1. On the _Admin_ sidebar, go to **Reports**.
 
-1. Choose the reports you want to refresh.
+1. Choose the reports to refresh.
 
 1. To update statistics, click **here** in the text.
 
