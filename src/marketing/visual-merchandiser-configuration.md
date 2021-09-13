@@ -12,9 +12,9 @@ _General Options_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
+1. In the left panel, expand **Catalog** and choose **Visual Merchandiser** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Visual Merchandising Options** section. Then, do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Options** section. Then, do the following:
 
     - In the **Attributes for Category Rules** list, select each attribute that you want to make available for visual merchandising. To select multiple attributes, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.
 
