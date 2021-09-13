@@ -70,10 +70,10 @@ _Scheduled change_
 
 1. On the top bar click <span class="btn">Remove from Update</span>.
 
-1. In the opened modal, select **Delete the Update** and click **Done** button
+1. In the dialog, select **Delete the Update** and click **Done**.
 
-{:.bs-callout-info}
-The product will be removed from the update and all scheduled changes will be lost.
+   {:.bs-callout-info}
+   The product is removed from the update and all scheduled changes are lost.
 
    ![]({% link images/images-ee/remove-product-scheduled-changes.png %}){: .zoom}
    _Remove Scheduled Change_
