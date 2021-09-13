@@ -57,7 +57,7 @@ When converting currency to points, the amount of points cannot be divided. Any 
 
 1. Find the reward exchange rate to be deleted and open it in edit mode.
 
-1. In the menu bar click **Delete** button.
+1. In the menu bar, click **Delete**.
 
 1. To confirm the action, click <span class="btn">OK</span>.
 
