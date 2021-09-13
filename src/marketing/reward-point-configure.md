@@ -69,9 +69,9 @@ In this step, the number of reward points that can be earned for various custome
 
 1. For **Review Submission**, enter the number of points earned by a customer who submits a review that is approved for publication.
 
-2. Then to limit the number of reviews that can be used to earn points per customer, enter the number in the **Rewarded Reviews Submission Quantity Limit** field (blank for no limit).
+1. Then to limit the number of reviews that can be used to earn points per customer, enter the number in the **Rewarded Reviews Submission Quantity Limit** field (blank for no limit).
 
-3. When complete, click <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Config</span>.
 
 ## Step 3. Complete the Email Notification Settings
 
