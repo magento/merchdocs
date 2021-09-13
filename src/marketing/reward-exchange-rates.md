@@ -51,6 +51,16 @@ When converting currency to points, the amount of points cannot be divided. Any 
 
 1. When complete, click <span class="btn">Save</span>.
 
+## Delete Reward Exchange Rate
+
+1. On the _Admin_ sidebar, go to **Stores** > _Other Settings_ > **Reward Exchange Rates**.
+
+1. Find the reward exchange rate to be deleted and open it in edit mode.
+
+1. In the menu bar click **Delete** button.
+
+1. To confirm the action, click <span class="btn">OK</span>.
+
 ## Field Descriptions
 
 |Field|Description|
