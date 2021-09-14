@@ -24,7 +24,7 @@ When the customer makes the payment for his outstanding credit limit to the admi
 
 1. Change the other values as needed.
 
-1.  When ready, click <span class="btn">Save</span>.
+1. When ready, click <span class="btn">Save</span>.
 
 ## Company Credit grid
 
