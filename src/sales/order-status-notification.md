@@ -51,6 +51,6 @@ Customers can track the status of their orders by [RSS feed]({% link marketing/r
 
     |--- |--- |
     |Bcc|Only one email about the new order is sent to both customer and the additional recipient, but the customer does not see that the email they received was also sent to the additional recipient.|
-    |Separate Email|Two separate emails are sent to the recipient and the customer.|
+    |Separate Email|Two separate emails are sent---one to the recipient and one to the customer.|
 
 1. When complete, click **Save Config**.
