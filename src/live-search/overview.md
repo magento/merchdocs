@@ -31,4 +31,14 @@ sections:
 
 Live Search from Adobe Commerce delivers a lightning fast, super-relevant, and intuitive search experience, and is available for Adobe Commerce at no additional charge. Live Search powered by [Adobe Sensei](https://www.adobe.com/sensei.html) uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Adobe Commerce catalog, results in highly engaging, relevant, and personalized shopping experiences. With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike.
 
+### The main benefits of the Live Search
+
+- Instant return of search-as-you-type results when users make their request.
+
+- Rich set of merchandiser tools to enlarge, place, hide and pin products with customizable rules
+
+- Easily manage synonyms with one- and two-sided synonym groups to help clients get the best results.
+
+- Easy extension installation, simple design, and directory synchronization.
+
 {% include grid.html sections=page.sections%}
