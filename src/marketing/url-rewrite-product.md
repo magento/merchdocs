@@ -41,8 +41,6 @@ If you are not sure, open each product page in your store, and copy the path fro
 
 1. In the upper-right corner of the URL Rewrites page, click <span class="btn">Add URL Rewrite</span>.
 
-1. When you return to the URL Rewrites page, click <span class="btn">Add URL Rewrite</span>.
-
 1. Set **Create URL Rewrite** to `For product`.
 
 1. In the grid, find the product that is the target (destination) of the redirect and click the row.
