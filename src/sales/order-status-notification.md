@@ -40,8 +40,8 @@ Customers can track the status of their orders by [RSS feed]({% link marketing/r
 
 1. Choose the templates you want to use for each customer type:
 
-   - **New Order Confirmation Template** - Choose a template to use for customers with a registered store account.
-   - **New Order Confirmation Template for Guest** - Choose a template to use for guest customers withoiut a registered store aaccount.
+    - **New Order Confirmation Template** - Choose a template to use for customers with a registered store account.
+    - **New Order Confirmation Template for Guest** - Choose a template to use for guest customers withoiut a registered store aaccount.
 
 1. To notify another person (such as a business manager) about the new order, enter the email address to **Send Order Email Copy To**.
 
