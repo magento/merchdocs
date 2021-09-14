@@ -21,12 +21,12 @@ _Predefined Variables for Email Template_
 
 1. To apply a template, click <span class="btn">Load Template</span>.
 
-   - The configuration path where the template is used is displayed in the **Currently used for** field.
+    - The configuration path where the template is used is displayed in the **Currently used for** field.
 
-   - The **Template Subject** and **Template Content** are automatically generated relative to the selected template.
+    - The **Template Subject** and **Template Content** are automatically generated relative to the selected template.
 
-   |Template Subject|This text is displayed in the subject line of an email.|
-   |Template Content|This text is displayed in the full content of the sent email.|
+    |Template Subject|This text is displayed in the subject line of an email.|
+    |Template Content|This text is displayed in the full content of the sent email.|
 
 1. Enter a **Template Name**.
 
@@ -54,9 +54,9 @@ _Predefined Variables for Email Template_
 
 ## Convert the Template to Plain Text
 
-1. Open a template in edit mode. 
+1. Open a template in edit mode.
 
-1. At the top of the page, click <span class="btn">Convert to Plain Text</span>. 
+1. At the top of the page, click <span class="btn">Convert to Plain Text</span>.
 
 1. When prompted to strip tags, click OK.
 
@@ -64,6 +64,6 @@ _Predefined Variables for Email Template_
 
 ## Restore Html Version
 
-1. At the top of the page, click <span class="btn">Return HTML Version</span>.  
+1. At the top of the page, click <span class="btn">Return HTML Version</span>.
 
 1. To save the HTML version of template, click <span class="btn">Save Template</span>.
