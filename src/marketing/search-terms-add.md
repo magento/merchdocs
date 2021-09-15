@@ -36,8 +36,34 @@ _Search Terms_
 
 ## Delete a Search Term
 
+There are two methods for deleting a Search Term -- from the grid and on the edit page.
+
+**Method 1:** In the Search Terms grid.
+
 1. In the list, select the checkbox of the term to be deleted.
 
 1. In the upper-left corner of the list, set **Actions** to `Delete`.
 
 1. When complete, click <span class="btn">Submit</span>.
+
+**Method 2:** On the Edit a Search Term page.
+
+1. On the _Admin_ sidebar, go to **Marketing** > _SEO & Search_ > **Search Terms**.
+
+1. Find the search term to be deleted and open it in edit mode.
+
+1. Click <span class="btn">Delete Search</span> button.
+
+1. To confirm the action, click <span class="btn">OK</span>.
+
+## Grid column description
+
+|Column|Description|
+|--- |--- |
+|Search Query|The query used to perform the search.|
+|Store|The store where the search query was applied.|
+|Results|Number of results found by query.|
+|Uses|Number of uses.|
+|Redirect URL|URL of the target page where user was redirected after performing the search.|
+|Suggested Terms|Determines if the query displays in suggested terms.|
+|Actions|Opens the product in Edit mode.|
