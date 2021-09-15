@@ -9,11 +9,11 @@ _Billing agreement in customer dashboard_
 
 ## Create a billing agreement
 
-1. From their dashboard, customer selects **Billing Agreements**.
+1. From the customer dashboard, select **Billing Agreements**.
 
-1. Under **New Billing Agreement**, selects a payment provider from the drop-down.
+1. Under **New Billing Agreement**, select a payment provider.
 
-1. Clicks **Create**.
+1. Click **Create**.
 
 This redirects the customer to the payment system website.
 
@@ -22,25 +22,25 @@ _Create Billing agreement_
 
 ## View a billing agreement
 
-1. From their dashboard, customer selects **Billing Agreements**.
+1. From the customer dashboard, select **Billing Agreements**.
 
-1. Finds the billing agreement and clicks **View**.
+1. Select the billing agreement and click **View**.
 
 ![View billing agreement in customer's dashboard]({% link images/images/customer-view-billing-agreement.png %}){: .zoom}
 _View Billing agreement_
 
 ## Cancel a billing agreement
 
-1. From their dashboard, customer selects **Billing Agreements**.
+1. From the customer dashboard, select **Billing Agreements**.
 
-1. Finds the billing agreement and clicks **View**.
+1. Select the billing agreement and click **View**.
 
 1. In the top-right corner, click <span class="btn">Cancel</span>.
 
 1. To confirm the action, click <span class="btn">OK</span>.
 
 {:.bs-callout-info}
-In case the administrator cancels the Billing Agreement via Magento admin, you cannot do it on the Storefront. The "Canceled" status will be displayed for this agreement( See the [Billing Agreements]({% link sales/billing-agreements.md %}) for more information).
+If the administrator cancels the Billing Agreement via the Magento admin, it cannot be cancelled on the Storefront. The "Canceled" status is displayed for this agreement. See the [Billing Agreements]({% link sales/billing-agreements.md %}) for more information.
 
 |Column|Description|
 |--- |--- |
