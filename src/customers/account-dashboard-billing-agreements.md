@@ -26,10 +26,21 @@ _Create Billing agreement_
 
 1. Finds the billing agreement and clicks **View**.
 
-The customer can cancel an active billing agreement by clicking **Cancel**, and then confirms the action by clicking **OK**.
-
 ![View billing agreement in customer's dashboard]({% link images/images/customer-view-billing-agreement.png %}){: .zoom}
 _View Billing agreement_
+
+## Cancel a billing agreement
+
+1. From their dashboard, customer selects **Billing Agreements**.
+
+1. Finds the billing agreement and clicks **View**.
+
+1. In the top-right corner, click <span class="btn">Cancel</span>.
+
+1. To confirm the action, click <span class="btn">OK</span>.
+
+{:.bs-callout-info}
+In case the administrator cancels the Billing Agreement via Magento admin, you cannot do it on the Storefront. The "Canceled" status will be displayed for this agreement( See the [Billing Agreements]({% link sales/billing-agreements.md %}) for more information).
 
 |Column|Description|
 |--- |--- |
