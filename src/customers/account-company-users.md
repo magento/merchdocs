@@ -14,6 +14,9 @@ Company users are assigned by the company administrator, and are visible from th
 
 - Define roles and permissions, and assign users to roles
 
+{:.bs-callout-info}
+Company users can be _Added/Edited/Removed_ only by the company administrator. The removal cannot be reversed as the user is removed from the company structure.
+
 ## Add company users
 
 1. From the storefront, sign in to your account as the company administrator.
@@ -51,9 +54,23 @@ To save time during their first order, the company administrator can remind each
 ![]({% link images/images-b2b/customer-account-company-users-list.png %}){: .zoom}
 _List of Company Users_
 
+## Edit company users
+
+1. From the storefront, sign in to your account as the company administrator.
+
+1. In the left panel, choose **Company Users**.
+
+1. Find the user record that should be eddited, and click <span class="btn">Edit</span>.
+
+1. Make changes you nessesary.
+
+1. When complete, click <span class="btn">Save</span>.
+
 ## Remove a company user
 
-Company users can be removed only by the company administrator, and the removal cannot be reversed. The user is removed from the company structure.
+1. From the storefront, sign in to your account as the company administrator.
+
+1. In the left panel, choose **Company Structure**.
 
 1. Select the company user in the company structure.
 
