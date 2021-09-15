@@ -40,4 +40,4 @@ _Pagination Controls_
 
 1. For **Anchor Text for Next**, enter the text that you want to appear for the Next link. Leave blank to use the default arrow.
 
-1. When complete, click <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Configuration</span>.
