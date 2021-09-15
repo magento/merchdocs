@@ -21,7 +21,7 @@ To help capture more data on your subscribers while also using the tracking and 
 
 1. In the _Page Builder_ panel, expand **Add Content** and drag a **dotdigital form** placeholder to the stage.
 
-##  Edit dotdigital form settings
+## Edit dotdigital form settings
 
 1. Hover over the empty _dotdigital form_ container to display the toolbox and click the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
