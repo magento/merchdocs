@@ -24,7 +24,7 @@ For Commerce Product Reviews, a submitted product review must be approved before
 
 1. When complete, click <span class="btn">Save Review</span>.
 
-## Delete Product Review
+## Delete a product review
 
 1. On the _Admin_ sidebar, go to **Marketing** > _User Content_ > **All Reviews**.
 
