@@ -52,18 +52,18 @@ _Predefined Variables for Email Template_
 
 1. When complete, click <span class="btn">Save Template</span>.
 
-## Convert the Template to Plain Text
+## Convert the template to plain text
 
 1. Open a template in edit mode.
 
 1. At the top of the page, click <span class="btn">Convert to Plain Text</span>.
 
-1. When prompted to strip tags, click OK.
+1. When prompted to strip tags, click **OK**.
 
 1. To save the plain text version, click <span class="btn">Save Template</span>.
 
-## Restore Html Version
+## Restore the HTML version
 
 1. At the top of the page, click <span class="btn">Return HTML Version</span>.
 
-1. To save the HTML version of template, click <span class="btn">Save Template</span>.
+1. To save the HTML version of the template, click <span class="btn">Save Template</span>.
