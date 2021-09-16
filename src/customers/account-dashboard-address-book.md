@@ -44,8 +44,8 @@ _[Additional Address Entries]({% link configuration/customers/customer-configura
 
 1. Make edits that neccessary.
 
-{:.bs-callout-info}
-You can set this address as default **Shipping or Billig** using the _Use as my default billing address_ checkboxes.
+   {:.bs-callout-info}
+   You can set this address as default **Shipping or Billig** using the _Use as my default billing address_ checkboxes.
 
 1. When finish, clicks <span class="btn">save Address<span>.
 
