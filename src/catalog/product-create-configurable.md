@@ -222,7 +222,7 @@ Use one of the following methods to configure the **prices**:
 
 Use one of the following methods to configure the **quantity**:
 
-- **_Method 1:** Apply the same quantity to all SKUs
+- **Method 1:** Apply the same quantity to all SKUs
 
 1. If the quantity is the same for all SKUs, select **Apply single quantity to each SKU**.
 
