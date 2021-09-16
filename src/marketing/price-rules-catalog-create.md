@@ -10,7 +10,7 @@ Follow these instructions to apply a discount to specific products whenever a se
 
 1. In the upper-right corner, click <span class="btn">Add New Rule</span>.
 
-   The ****Rule Information** section includes expandable sections for **Conditions** and **Actions**.
+   The **Rule Information** section includes expandable sections for **Conditions** and **Actions**.
 
    ![Catalog price rule - information]({% link images/images-ee/price-rule-catalog-new-ee.png %}){: .zoom}
    _Rule Information_{:.ee-only}
