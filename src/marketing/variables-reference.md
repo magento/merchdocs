@@ -28,6 +28,8 @@ Most [email templates]({% link marketing/email-template-custom.md -%}) have a se
 |General Contact Email|{{config path="trans_email/ident_general/email"}}|
 |Sales Representative Contact Name|{{config path="trans_email/ident_sales/name"}}|
 |Sales Representative Contact Email|{{config path="trans_email/ident_sales/email"}}|
+|Customer Support Name|{{config path="trans_email/ident_support/name"}}|
+|Customer Support Email|{{config path="trans_email/ident_support/email"}}|
 |Custom1 Contact Name|{{config path="trans_email/ident_custom1/name"}}|
 |Custom1 Contact Email|{{config path="trans_email/ident_custom1/email"}}|
 |Custom2 Contact Name|{{config path="trans_email/ident_custom2/name"}}|
@@ -42,6 +44,7 @@ Most [email templates]({% link marketing/email-template-custom.md -%}) have a se
 |Street Address 1|{{config path="general/store_information/street_line1"}}|
 |Street Address 2|{{config path="general/store_information/street_line2"}}|
 |Store Contact Address|{{config path="general/store_information/address"}}|
+|VAT Number|{{config path="general/store_information/merchant_vat_number"}}|
 
 ## New Account Template Variables
 

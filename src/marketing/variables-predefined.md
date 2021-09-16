@@ -17,6 +17,19 @@ _Predefined Variables for Email Template_
 
     - To use the variable in a new template, click <span class="btn">Add New Template</span> and customize the default template code. See [Message Templates]({% link marketing/email-template-message.md %}).
 
+1. Under _Load default template_, choose the **Template** that you want to customize.
+
+1. To apply a template, click <span class="btn">Load Template</span>.
+
+    - The configuration path where the template is used is displayed in the **Currently used for** field.
+
+    - The **Template Subject** and **Template Content** are automatically generated relative to the selected template.
+
+    |Template Subject|This text is displayed in the subject line of an email.|
+    |Template Content|This text is displayed in the full content of the sent email.|
+
+1. Enter a **Template Name**.
+
 1. For a list of the [predefined]({% link marketing/variables-predefined.md %}) variables that can be used with this email template, click <span class="btn">Insert Variable</span>.
 
    Determine which variable you want to insert into the template. Then, click **Close** (x) in the upper-right corner. (You will return to this later.)
@@ -38,3 +51,19 @@ _Predefined Variables for Email Template_
    _Email Template Content_
 
 1. When complete, click <span class="btn">Save Template</span>.
+
+## Convert the template to plain text
+
+1. Open a template in edit mode.
+
+1. At the top of the page, click <span class="btn">Convert to Plain Text</span>.
+
+1. When prompted to strip tags, click **OK**.
+
+1. To save the plain text version, click <span class="btn">Save Template</span>.
+
+## Restore the HTML version
+
+1. At the top of the page, click <span class="btn">Return HTML Version</span>.
+
+1. To save the HTML version of the template, click <span class="btn">Save Template</span>.
