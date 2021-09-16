@@ -148,7 +148,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    When testing the configuration in a sandbox, use only [credit card numbers][4] that are recommended by PayPal. When you are ready to go live, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
 
-1. If your system uses a proxy server to establish the connection between Magento and the PayPal payment system, set **API Uses Proxy** to `Yes` and complete the following:
+1. If your system uses a proxy server to establish the connection between Commerce and the PayPal payment system, set **API Uses Proxy** to `Yes` and complete the following:
 
    - **Proxy Host**
    - **Proxy Port**

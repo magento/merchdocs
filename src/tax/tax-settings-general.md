@@ -2,7 +2,7 @@
 title: General Tax Settings
 ---
 
-The following instructions take you through the basic tax configuration for your Magento installation. Before setting up your taxes, make sure that you are familiar with the tax requirements of your [locale]({% link stores/locale-options.md %}). Then, complete the tax configuration according to your requirements.
+The following instructions take you through the basic tax configuration for your Commerce instance. Before setting up your taxes, make sure that you are familiar with the tax requirements of your [locale]({% link stores/locale-options.md %}). Then, complete the tax configuration according to your requirements.
 
 Admin [permissions]({% link system/permissions.md %}) can be set to restrict access to [tax resources]({% link system/permissions-role-resources.md %}), based on the business “need to know.” To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default shipping point of origin, you must also allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
 

@@ -317,7 +317,7 @@ entries:
   - Major update
   - New topic
 - description: Updated [Security Scan](https://docs.magento.com/user-guide/magento/security-scan.html)
-    for a new feature added to the Magento Scan Tool that enables merchants to submit
+    for a new feature added to the Scan Tool that enables merchants to submit
     PWA stores for scanning.
   versions: 2.4.x
   type: Major update
@@ -883,7 +883,7 @@ entries:
   date: December 2, 2020
   link: https://github.com/magento/merchdocs/pull/874
 - description: Updated the [Gift Options configuration reference](https://docs.magento.com/user-guide/configuration/sales/sales.html#gift-options)
-    to include additional fields available in Magento Commerce.
+    to include additional fields available in Adobe Commerce.
   versions: 2.4.x
   type: Major update
   date: November 30, 2020
@@ -983,7 +983,7 @@ entries:
   link: https://github.com/magento/merchdocs/pull/719
 - description: The [Site-Wide Analysis Tool](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html)
     (SWAT) provides 24/7 real-time performance monitoring, reports and recommendations
-    to ensure the security and operability of Magento Commerce Cloud installations.
+    to ensure the security and operability of Adobe Commerce on cloud infrastructure.
   versions: 2.4.1
   type: New topic
   date: October 15, 2020

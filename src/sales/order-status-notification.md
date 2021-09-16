@@ -8,7 +8,7 @@ Customers can track the status of their orders by [RSS feed]({% link marketing/r
 [Customer Order Status Notification]({% link configuration/catalog/rss-feeds.md %})
 _Customer Order Status Notification_
 
-## To enable Order Status Notification:
+## Enable order status notification
 
 1. On the _Admin_ sidebar, click **Stores**.
 

@@ -6,10 +6,10 @@ redirect_from:
 
 Your Vertex Cloud dashboard initially appears in [Test Mode][1]. When you are ready to Go Live with Vertex Cloud, you can change the status of your account with the click of a button.
 
-To enter the information that is needed to calculate tax and file returns, you must complete the configuration for each company that is associated with your account. After you finish the basic Vertex Cloud configuration, there are a few additional settings that must be completed from the Admin of your Magento installation.
+To enter the information that is needed to calculate tax and file returns, you must complete the configuration for each company that is associated with your account. After you finish the basic Vertex Cloud configuration, there are a few additional settings that must be completed from the Admin.
 
 {:.bs-callout-info}
-Some Vertex field names differ from those used by Magento. See [Vertex Field Mapping]({% link tax/vertex-field-mapping.md %}) for the differences between the two.
+Some Vertex field names differ from those used by Commerce. See [Vertex Field Mapping]({% link tax/vertex-field-mapping.md %}) for the differences between the two.
 
 1. Log in to your **Vertex Cloud** account.
 
@@ -26,9 +26,9 @@ Some Vertex field names differ from those used by Magento. See [Vertex Field Map
 
    - Choose the **Country** where the business is located.
 
-   - Enter a **Company Code** that will be used to establish the connect between Vertex and your Magento installation.
+   - Enter a **Company Code** that will be used to establish the connect between Vertex and your Commerce instance.
 
-      Take note of this Company Code, because you will need it later for the Magento configuration.
+      Take note of this Company Code, because you will need it later for the Commerce configuration.
 
    - Verify the **Company Name/Filing Entity** that was initially entered during the Vertex registration. If necessary, update the value.
 
@@ -52,7 +52,7 @@ Some Vertex field names differ from those used by Magento. See [Vertex Field Map
       - State
       - Zip/Postal Code
 
-1. You can skip the _Discount Codes_ section, because they are not used by Magento.
+1. You can skip the _Discount Codes_ section, because they are not used by Commerce.
 
 1. When complete, click **Add Company**.
 
@@ -141,7 +141,7 @@ _Enabled State_
 
       The Location Code is an identifier that is used in batch uploads of adjustment files. If you do not have a preassigned Location Code, you can create one. The Location Code cannot be changed after the company configuration is saved.
 
-      Take note of the Location Code that you enter, because you need it later for the Magento configuration.
+      Take note of the Location Code that you enter, because you need it later for the Commerce configuration.
 
    - Enter the **Location Name**.
 
@@ -196,9 +196,9 @@ The configuration settings for each company are organized into three columns on 
 ![]({% link images/images/tax-vertex-cloud-configure-overview-registrations-red.png %}){: .zoom}
    _Registrations Column_
 
-The basic Vertex configuration is now complete. At this point, you can either skip ahead to the Magento configuration, or continue the Vertex configuration:
+The basic Vertex configuration is now complete. At this point, you can either skip ahead to the Commerce configuration, or continue the Vertex configuration:
 
-- Complete the [Magento Configuration]({% link tax/vertex-configure-magento.md %})
+- Complete the [Commerce Configuration]({% link tax/vertex-configure-magento.md %})
 
 - Continue with the following sections of the Vertex configuration:
 

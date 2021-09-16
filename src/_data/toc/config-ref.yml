@@ -1,7 +1,7 @@
 ---
 label: Configuration Reference
 pages:
-- label: Magento Modes
+- label: Commerce Modes
   url: "/magento/installation-modes.html"
 - label: General
   url: "/configuration/general.html"
@@ -190,7 +190,7 @@ pages:
 - label: Services
   url: "/configuration/services.html"
   children:
-  - label: Magento Web API
+  - label: Web API
     url: "/configuration/services/magento-web-api.html"
   - label: Commerce Services
     url: "/configuration/services/saas.html"
