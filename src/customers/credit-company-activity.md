@@ -10,21 +10,21 @@ The [Company Credit]({% link customers/account-dashboard-company-credit.md %}) s
 ![]({% link images/images-b2b/company-credit-reimbursements-grid.png %}){: .zoom}
 _Company Credit activity_
 
-## Admin Updating the Credit Limit
+## Update the credit information
 
-When the customer makes the payment for his outstanding credit limit to the admin, then the admin needs to update the customer’s detail in the panel:
+When the customer makes the payment for their outstanding credit to the merchant, a store administrator must then update the customer credit information in the Admin.
 
 1. On the _Admin_ sidebar, go to **Customers > Companies**.
 
 1. Find the company in the grid and open in _Edit_ mode.
 
-1. Expand the **Company Credit** tab.
+1. Expand the **Company Credit** section.
 
-1. Set the new value to the **Credit Limit** field.
+1. For **Credit Limit**, enter the new value.
 
 1. Change the other values as needed.
 
-1. When ready, click <span class="btn">Save</span>.
+1. When updates are complete, click <span class="btn">Save</span>.
 
 ## Company Credit grid
 
