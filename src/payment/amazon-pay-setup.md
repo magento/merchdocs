@@ -92,7 +92,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
 
 1. Set **Payment Action** to one of the following:
 
-   | Charge on Shipment | (Default) Amazon receives a capture request and charges the customer when an invoice is created in Magento. |
+   | Charge on Shipment | (Default) Amazon receives a capture request and charges the customer when an invoice is created in Commerce. |
    | Charge on Order | Amazon creates the invoice and charges the customer when the order is placed. |
 
 1. Set **Authorization Mode** to determine the method that is used to transmit authorization data.
@@ -102,7 +102,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
 
 1. Set **Update Mechanism** to one of the following:
 
-   | Data Polling via Cron job | (Default) Uses the standard Magento notification process that is scheduled by [Cron]({% link system/cron.md %}) job. |
+   | Data Polling via Cron job | (Default) Uses the standard Commerce notification process that is scheduled by [Cron]({% link system/cron.md %}) job. |
    | Instant Payment Notifications | (IPN) Sends notifications to the Instant Payment Notification URL. |
 
    ![Sales configuration - Amazon Pay options]({% link images/images/config-sales-payment-methods-amazon-pay-options.png %}){: .zoom}

@@ -11,7 +11,7 @@ The Grid Settings configuration schedules updates to the following order managem
 
 The benefits of scheduling these tasks is to avoid the locks that occur when data is saved, and to reduce processing time. When enabled, any updates take place only during the scheduled cron job. For best results, Cron should be configured to run once every minute.
 
-## To enable scheduled grid updates and reindexing:
+## Enable scheduled grid updates and reindexing
 
 1. On the _Admin_ sidebar, click **Stores**.
 

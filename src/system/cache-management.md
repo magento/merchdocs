@@ -7,7 +7,7 @@ The Adobe Commerce and Magento Open Source cache management system provides an e
 ![Save product attribute - update cache message]({% link images/images/product-attribute-save-msg-update-cache.png %}){: .zoom}
 _Update Cache Message_
 
-The Cache Management page shows the status of each primary cache and its associated tag. The large buttons in the upper-right corner can be used to flush the Magento Cache, or the all-inclusive Cache Storage. At the bottom of the page there are additional buttons to flush the catalog product images cache and JavaScript/CSS cache.
+The Cache Management page shows the status of each primary cache and its associated tag. The large buttons in the upper-right corner can be used to flush the cache, or the all-inclusive Cache Storage. At the bottom of the page there are additional buttons to flush the catalog product images cache and JavaScript/CSS cache.
 
 After clearing a cache, always refresh your browser to make sure that you can see the most recent files. Clearing the Commerce cache does not clear your web browser cache. You may need to clear the browser cache to see updated content.
 

@@ -4,10 +4,10 @@ title: Configuring Vertex
 
 Your Vertex Cloud dashboard initially appears in _Test Mode_. When you are ready to “go live” with Vertex Cloud, you can change the status of your account.
 
-To provide the information that is needed to calculate tax and file returns, the configuration must be completed for each company that is associated with your account. After you complete the configuration from your Vertex Cloud dashboard, you must also complete a few configuration settings from the Admin of your Magento installation.
+To provide the information that is needed to calculate tax and file returns, the configuration must be completed for each company that is associated with your account. After you complete the configuration from your Vertex Cloud dashboard, you must also complete a few configuration settings from the Admin.
 
 {:.bs-callout-info}
-Some Vertex field names differ from those used by Magento. See the Field Mapping table at the end of this topic for the differences between the two.
+Some Vertex field names differ from those used by Commerce. See the Field Mapping table at the end of this topic for the differences between the two.
 
 ## Configure your Vertex account
 
@@ -17,7 +17,7 @@ Some Vertex field names differ from those used by Magento. See the Field Mapping
 
 1. On the **Configure Overview** page, take note of the **Company Code** below your company name.
 
-   You will need to enter this code later in the Magento configuration to establish the link between Magento and your Vertex account.
+   You will need to enter this code later in the Commerce configuration to establish the link between Commerce and your Vertex account.
 
    ![]({% link images/images/tax-vertex-cloud-configure.png %}){: .zoom}
    _Configure Vertex_
@@ -30,7 +30,7 @@ Some Vertex field names differ from those used by Magento. See the Field Mapping
 
 ## Field mapping
 
-|Vertex Cloud|Magento|
+|Vertex Cloud|Commerce|
 |--- |--- |
 |Company (Filing Entity)|n/a|
 |Company Code|Company Code|
