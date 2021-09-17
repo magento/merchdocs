@@ -155,8 +155,6 @@ pages:
       url: "/cms/page-builder-add-content-products.html"
     - label: Product Recommendations
       url: "/marketing/page-builder-add-product-recs.html"
-    - label: Dotdigital form
-      url: "/cms/dotdigital-form.html"
 - label: Media Storage
   url: "/cms/media-storage.html"
   children:
