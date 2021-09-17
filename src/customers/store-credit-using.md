@@ -37,7 +37,7 @@ _Store Credit Balance_
 
 1. For **Update Balance**, enter the new value.
 
-1. To notify customer about balance updating check **Notify Customer by Email** checkbox and choose the store view from **Send Email Notification From the Following Store View**. 
+1. To notify customer about balance updating check **Notify Customer by Email** checkbox and choose the store view from **Send Email Notification From the Following Store View**.
 
 1. Enter the **Comment**
 
