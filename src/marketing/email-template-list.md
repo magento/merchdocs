@@ -2,7 +2,7 @@
 title: Email Template List
 ---
 
-The list of email templates is organized alphabetically by Magento module.
+The list of email templates is organized alphabetically by module.
 
 ## Amazon_Payment
 
@@ -174,6 +174,8 @@ The list of email templates is organized alphabetically by Magento module.
 
 ## Magento_PurchaseOrder
 
+{: .template-table }
+|Template|Configuration path|
 |--- |--- |
 |Approved Purchase Order|**Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Purchase Order Approval<br/>**Field:** Approved Purchase Order |
 |Approved, requires payment|**Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Purchase Order Approval<br/>**Field:** Approved, requires payment details (to Buyer) |
@@ -280,6 +282,8 @@ The list of email templates is organized alphabetically by Magento module.
 
 ## Magento_TwoFactorAuth
 
+{: .template-table }
+|Template|Configuration path|
 |--- |--- |
 |2FA Configuration Required by User| n/a |
 |2FA Configuration Required for the Application| n/a |
