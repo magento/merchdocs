@@ -27,7 +27,6 @@ _Add facet_
      - Use in Search - `Yes`
      - Use in Search Results Layered Navigation - `Yes`
      - Use in Layered Navigation - `Filterable (with results)`
-     - Use in Search Results Layered Navigation - `Yes`
 
 1. When prompted, refresh the cache.
 
