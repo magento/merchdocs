@@ -10,9 +10,9 @@ Tax calculation method options include Unit Price, Row Total, and Total. The fol
 
 |Setting|Calculation and Display|
 |--- |--- |
-|Unit Price|Magento calculates the tax for each item and displays prices tax-inclusive. To calculate the tax total, Magento rounds the tax for each item, and then  adds them together.|
-|Row Total|Magento calculates the tax for each line. To calculate the tax total, Magento rounds the tax for each line item and then adds them together.|
-|Total|Magento calculates the tax for each item and adds those tax values to calculate the total unrounded tax amount for the order. Magento then applies the specified rounding mode to the total tax to determine the total tax for the order.|
+|Unit Price|Commerce calculates the tax for each item and displays prices tax-inclusive. To calculate the tax total, it rounds the tax for each item, and then adds them together.|
+|Row Total|Commerce calculates the tax for each line. To calculate the tax total, it rounds the tax for each line item and then adds them together.|
+|Total|Commerce calculates the tax for each item and adds those tax values to calculate the total unrounded tax amount for the order. It then applies the specified rounding mode to the total tax to determine the total tax for the order.|
 
 ## Catalog prices with or without tax
 
@@ -24,7 +24,7 @@ The possible display fields vary depending on the calculation method and whether
 |IncludingTax|Using this setting, the base item price excluding tax is calculated first. This value is used as the base price, and the tax calculation methods are applied.|
 
 {:.bs-callout-info}
-**Important!** Changes have been made from earlier versions for EU merchants or other VAT merchants who display prices including tax and operate in several countries with multiple store views. If you load prices with more than two digits of precision, Magento automatically rounds all prices to two digits to ensure that a consistent price is presented to buyers.
+**Important!** Changes have been made from earlier versions for EU merchants or other VAT merchants who display prices including tax and operate in several countries with multiple store views. If you load prices with more than two digits of precision, Commerce automatically rounds all prices to two digits to ensure that a consistent price is presented to buyers.
 
 ## Shipping prices with or without tax
 

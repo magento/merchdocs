@@ -30,7 +30,7 @@ sections:
    url: /shipping/shipping-settings.html
 
  - title: Basic Delivery Methods
-   content: Magento supports a wide range of built-in delivery methods, including Flat Rate, Free Shipping, Table Rates, and real-time online rates.
+   content: Adobe Commerce and Magento Open Source support a wide range of built-in delivery methods, including Flat Rate, Free Shipping, Table Rates, and real-time online rates.
    url: /shipping/methods-basic.html
 
  - title: Shipping Carriers
@@ -47,4 +47,4 @@ Studies show that stores offering customers a choice of several delivery methods
 {% include grid.html sections=page.sections %}
 
 {:.bs-callout-info}
-Due to the impending shutdown of Temando, support for Magento Shipping is removed in 2.4.0. For detailed status information and recommendations for new shipping implementations in Magento, see our [product information](https://magento.com/shipping){:target="_blank"} page.
+Due to the impending shutdown of Temando, support for Magento Shipping is removed in 2.4.0. For detailed status information and recommendations for new shipping implementations in Commerce, see our [product information](https://magento.com/shipping){:target="_blank"} page.

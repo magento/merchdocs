@@ -2,7 +2,7 @@
 title: Email Template List
 ---
 
-The list of email templates is organized alphabetically by Magento module.
+The list of email templates is organized alphabetically by module.
 
 ## Magento_Checkout
 
