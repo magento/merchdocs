@@ -87,9 +87,9 @@ To see a gift card history:
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Gift Card Accounts**.
 
-1. Find a gift card account to be deleted and open it in edit mode.
+1. Select tghe gift card account to be deleted and open it in edit mode.
 
-1. In the menu bar click **Delete** button.
+1. In the menu bar, click **Delete**.
 
 1. To confirm the action, click <span class="btn">OK</span>.
 
