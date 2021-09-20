@@ -33,17 +33,17 @@ _Store Credit Balance_
 
 1. In the left panel, choose **Store Credit**.
 
-1. Choose the website (storefront) for which the balance will be associated.
+1. Choose the website (storefront) to associate with the balance.
 
 1. For **Update Balance**, enter the new value.
 
-1. To notify customer about balance updating check **Notify Customer by Email** checkbox and choose the store view from **Send Email Notification From the Following Store View**.
+1. To notify the customer about the balance update, select the **Notify Customer by Email** checkbox and choose the store view from **Send Email Notification From the Following Store View**.
 
-1. Enter the **Comment**
+1. Enter a **Comment** about the change.
 
 1. When updates are complete, click <span class="btn">Save and Continue Edit</span> or <span class="btn">Save Customer</span>.
 
-Updated Balance entity should be displayed in **Balance History**
+Updated Balance entity should be displayed in **Balance History**.
 
 ## Apply a credit balance to an order
 
