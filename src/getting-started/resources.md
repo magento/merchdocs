@@ -6,12 +6,12 @@ redirect_from:
 
 Adobe provides a wealth of business and technical resources, self-help tools, and services to help you succeed.
 
-[Product documentation][1]{:target="_blank"}|Whether you are a merchant, designer, [developer][2], or all of the above, this is where you can gain a deeper insight into how you can leverage the power of Magento to grow your business.|
+[Product documentation][1]{:target="_blank"}|Whether you are a merchant, designer, [developer][2], or all of the above, this is where you can gain a deeper insight into how you can leverage the power of Commrce to grow your business.|
 [Commerce Resources Library][3]{:target="_blank"}|Access Ebooks, Commerce whitepapers, and webinars to gain expert insight and online business resources to help develop and improve your store.|
-[Security Center][4]{:target="_blank"}|Join the Magento Security Alert Registry to get the latest information on potential vulnerabilities and [Security Best Practices][5].
+[Security Center][4]{:target="_blank"}|Join the Security Alert Registry to get the latest information on potential vulnerabilities and [Security Best Practices][5].
 [Forums][6]{:target="_blank"}|The forums provide access to a network of dedicated Adobe Commerce and Magento Open Source enthusiasts who share tips, tricks, and support.
 [Blog][7]{:target="_blank"}|Check out the blog for the latest information about new features, trends, best practices, upcoming events, and more.|
-[Events and webinars][8]{:target="_blank"}|Keep tabs on our calendar of upcoming events and webinars. There is always something happening in the Magento ecosystem.|
+[Events and webinars][8]{:target="_blank"}|Keep tabs on our calendar of upcoming events and webinars. There is always something happening in the Commerce ecosystem.|
 [Commerce Marketplace][9]{:target="_blank"}|Visit the Commerce next-generation marketplace of digital commerce solutions. Commerce Marketplace offers merchants a curated selection of solutions, while providing qualified developers the tools, platform, and prime location for a thriving business.|
 [Training and certification][10]{:target="_blank"}|Learn how to unleash the power and flexibility of Adobe Commerce and Magento Open Source. We provide training for every role in your business, including marketers, designers, developers, and more. Experienced Commerce professionals can validate their real-world skills by earning a Commerce certification.|
 [Partners][12]{:target="_blank"}|Adobe partners are committed to your success and provide custom integrations, best-in-class customer experiences, strategic marketing initiatives, and expert performance and scalability optimization for both on-premise and cloud-based solutions.|
