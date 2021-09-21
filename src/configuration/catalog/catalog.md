@@ -164,7 +164,7 @@ The standard search configuration described in this section differs for [Live Se
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Popular Search Terms|Store View|Determines if Popular Search Terms is implemented in the store. Options: Enable / Disable|
+|Popular Search Terms|Store View|Determines if _Popular Search Terms_ is implemented in the store. This setting does not apply to stores that use [Live Search]({% link live-search/overview.md %}). Options: Enable / Disable|
 |Product URL Suffix|Store View|Determines if a suffix, such as html or htm, is applied to product URLs. If used, do not include a period before the suffix, because it is applied automatically.|
 |Category URL Suffix|Store View|Determines if a suffix, such as html or htm, is applied to category URLs. If used, do not include a period before the suffix, because it is applied automatically.|
 |Use Categories Path for Product URLs|Store View|Determines if category paths are included in product URLs. Doing so can cause multiple URLs to point to the same page, which might impact search rank. To learn more, see: [Canonical Meta Tag]({% link marketing/meta-canonical.md %}).|
