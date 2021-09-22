@@ -10,24 +10,16 @@ Before you can offer your customers a selection of shipping carriers, you must c
 
 * Configure the settings for each carrier service that you want to offer.
 
-The configuration options vary for each carrier. However, all require the following stops:
+   [**UPS**]({% link shipping/ups.md %})|United Parcel Service (UPS) offers domestic and international shipping services by land and air to more than 220 countries.|
+   [**USPS**]({% link shipping/usps.md %})|The United States Postal Service (USPS) is the independent postal service of United States government. USPS offers domestic and international shipping services by land and air.|
+   [**FedEx**]({% link shipping/fedex.md %})|FedEx offers domestic and international shipping services by land and air to more than 220 countries.|
+   [**DHL**]({% link shipping/dhl.md %})|DHL offers integrated international services and tailored, customer-focused solutions for managing and transporting letters, goods and information.|
+
+The configuration options vary for each carrier. However, all require the following steps:
 
 1. Open a shipping account with the carrier.
 
-1. Enter your account number or user ID, and the gateway URL to their system into the configuration of your store. See [Magento Connect]({% link magento/magento-marketplace.md %}) for additional shipping services for your Magento installation.
+1. Enter your account number or user ID, and the gateway URL to their system into the configuration of your store.
 
-## UPS
-
-[United Parcel Service]({% link shipping/ups.md %}) offers domestic and international shipping services by land and air to more than 220 countries.
-
-## USPS
-
-The [United States Postal Service]({% link shipping/usps.md %}) is the independent postal service of United States government. USPS offers domestic and international shipping services by land and air.
-
-## FedEx
-
-Offers [domestic and international]({% link shipping/fedex.md %}) shipping services by land and air to more than 220 countries.
-
-## DHL
-
-Offers [integrated international services and tailored]({% link shipping/dhl.md %}), customer-focused solutions for managing and transporting letters, goods and information.
+{:.bs-callout-info}
+See [Commerce Marketplace]({% link magento/magento-marketplace.md %}) for additional shipping services for your Commerce installation.

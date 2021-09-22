@@ -7,7 +7,7 @@ The following instructions include a sample procedure to set up a 20% VAT in the
 {:.bs-callout-info}
 Before proceeding, make sure to find out which rules and regulations apply to VAT in your area.
 
-In certain business-to-business transactions, VAT is not assessed. Magento can validate a customer’s VAT ID to ensure that VAT is assessed (or not assessed) properly. See [VAT ID Validation]({% link tax/vat-validation.md %}).
+In certain business-to-business transactions, VAT is not assessed. Commerce can validate a customer’s VAT ID to ensure that VAT is assessed (or not assessed) properly. See [VAT ID Validation]({% link tax/vat-validation.md %}).
 
 ## Step 1: Set up customer tax classes
 

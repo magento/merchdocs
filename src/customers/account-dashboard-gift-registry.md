@@ -10,11 +10,11 @@ _Gift Registry_
 
 ## Create a new gift registry
 
-1. Select **Gift Registry** in the customer account dashboard.
+1. The customer selects **Gift Registry** in their account dashboard.
 
-1. On the Gift Registry page, click **Add New**.
+1. On the _Gift Registry_ page, clicks **Add New**.
 
-1. Choose a **Gift Registry Type**:
+1. Chooses a **Gift Registry Type**:
 
    - Birthday
 
@@ -22,32 +22,47 @@ _Gift Registry_
 
    - Wedding
 
-1. Click **Next**.
+1. Clicks **Next**.
 
-1. Fill in the required information, and click **Save**.
+1. Enters the required information, and clicks **Save**.
 
 ## Share a gift registry
 
-1. From customer account dashboard, go to **Gift Registry**.
+1. From their account dashboard, the customer goes to **Gift Registry**.
 
-1. Find the registry event that you want to manage, and click **Share**.
+1. Finds the registry event that they want to manage and clicks **Share**.
 
-1. Fill in the required information, and click **Share Gift Registry**.
+1. Enters the required information and clicks **Share Gift Registry**.
 
 ## Edit a gift registry
 
-1. From customer account dashboard, go to **Gift Registry**.
+1. From their account dashboard, the custoemr goes to **Gift Registry**.
 
-1. Find the registry event that you want to manage, and click **Edit**.
+1. Finds the registry event that they want to manage and clicks **Edit**.
 
-1. Change any options that are necessary.
+1. Changes any options as needed.
 
-1. Edit the required options, and click **Save**.
+1. Edits the required options and clicks **Save**.
+
+## Manage gift registry items
+
+1. From their account dashboard, the customer goes to **Gift Registry**.
+
+   ![]({% link images/images-ee/account-dashboard-gift-registry-items-management.png %}){: .zoom}
+   _Managing gift registry items_
+
+1. Finds the registry event, selects the items that they want to manage, and clicks **Manage Items**.
+
+1. Changes the required options, such as **Note** and **Qty**.
+
+1. If needed, removes an item from the gift registry by selecting the checkbox and clicking **Delete**.
+
+1. Clicks **Update Gift Registry** to save the changes.
 
 ## Delete a gift registry
 
-1. From customer account dashboard, go to **Gift Registry**.
+1. From their account dashboard, the customer goes to **Gift Registry**.
 
-1. Find the registry event that you want to manage, and click **Delete**.
+1. Finds the registry event that they want to manage and clicks **Delete**.
 
-1. Click **OK** to confirm.
+1. Clicks **OK** to confirm.

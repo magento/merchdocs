@@ -10,7 +10,7 @@ Only default custom order status values are used in the order workflow. Custom s
 ![]({% link images/images/order-status.png %}){: .zoom}
 _Order Status Settings_
 
-## To create a custom order status:
+## Create a custom order status
 
 1. On the _Admin_ sidebar, click **Stores**.
 
@@ -31,7 +31,7 @@ _Order Status Settings_
 
 1. Click **Save Status**.
 
-## To assign an order status to a state:
+## Assign an order status to a state
 
 1. On the _Order Status_ page, click **Assign Status to State**.
 
@@ -53,7 +53,7 @@ _Order Status Settings_
 
 1. Click **Save Status Assignment**.
 
-## To edit an existing order status:
+## Edit an existing order status
 
 1. In the _Order Status_ grid, open the status record in edit mode.
 
@@ -61,7 +61,7 @@ _Order Status Settings_
 
 1. Click **Save Status**.
 
-## To remove an order status from an assigned state:
+## Remove an order status from an assigned state
 
 {:.bs-callout-info}
 A status setting cannot be unassigned from a state if the status is currently in use.
@@ -72,7 +72,7 @@ A status setting cannot be unassigned from a state if the status is currently in
 
    A message appears at the top of the workspace that the order status has been unassigned. Although the order status label still appears in the list, it is no longer assigned to a state. Order status settings cannot be deleted.
 
-### Order Status and State
+## Order status and state
 
 |Order Status|Order State||
 |--- |--- |--- |

@@ -119,6 +119,21 @@ Deleted customer accounts cannot be restored. Information about customer activit
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
+## Export customers accounts
+
+1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
+
+1. In the Table Header Menu, click **Export** and select the desired format:
+
+- CSV
+
+- Excel XML
+
+1. Click <span class="btn">OK</span>. The file will go to your default downloads folder.
+
+{:.bs-callout-info}
+The above instruction will export all customer accounts. If you want to export a limited set, select the checkboxes for the accounts you want to export, or use filters on the control panel to select a range of customer accounts.
+
 ## Actions/controls
 
 {: .fields-table }

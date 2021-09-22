@@ -54,7 +54,7 @@ _MySQL Message Queue Cleanup_
 [_Mail Sending Settings_]({% link system/email-communications.md %})
 
 {:.bs-callout-warning}
-**Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1]{:target="_blank"} for email communications.  In the Mail Sending Settings, make sure that Set Return Path is set to "No". To learn more, see the [Magento Security Center posting][2]{:target="_blank"}.
+**Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1]{:target="_blank"} for email communications.  In the Mail Sending Settings, make sure that Set Return Path is set to "No". To learn more, see the [Security Center posting][2]{:target="_blank"}.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -71,7 +71,7 @@ _MySQL Message Queue Cleanup_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Installed Currencies|Global|Indicates the currencies that are currently available to the Magento installation. Options include all available currencies, with installed currencies selected.|
+|Installed Currencies|Global|Indicates the currencies that are currently available to the Commerce installation. Options include all available currencies, with installed currencies selected.|
 
 ## Security
 
@@ -103,8 +103,8 @@ _MySQL Message Queue Cleanup_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable Scheduled Backup|Global|Determines if the Magento installation is automatically backed up on a regular schedule. Options: Yes / No|
-|Backup Type|Global|Determines the elements of the Magento installation that are included in the backup. Options: Database, Database and Media, System, System (excluding Media)|
+|Enable Scheduled Backup|Global|Determines if the Commerce instance is automatically backed up on a regular schedule. Options: Yes / No|
+|Backup Type|Global|Determines the elements of the Commerce instance that are included in the backup. Options: Database, Database and Media, System, System (excluding Media)|
 |Start Time|Global|Specifies the hour, minute, and second that the scheduled backup begins.|
 |Frequency|Global|Determines how often the scheduled backup takes place. Options: Daily, Weekly, Monthly|
 |Maintenance Mode|Global|Determines if the store is put in Maintenance Mode during the scheduled backup. Options: Yes / No|
@@ -158,7 +158,7 @@ Varnish Caching - Recommended for the production environment.
 [_Storage Configuration for Media - Database_]({% link cms/media-storage.md %})
 
 {:.bs-callout-warning}
-The database media storage method has been deprecated as of Magento 2.4.3.
+The database media storage method has been deprecated as of Adobe Commerce and Magento Open Source 2.4.3.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -202,7 +202,7 @@ The database media storage method has been deprecated as of Magento 2.4.3.
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Quality|Global|Determines the JPG quality for the resized image. Lower quality reduces the file size. We recommend 80-90% to help reduce file size with high quality.Default: 80|
-|Enable Frontend Resize|Global|Enable to allow Magento to resize large, oversized images you may upload for the Product Details Page. Magento resizing the image files using JavaScript prior to uploading the file. When the image is resized, it keeps the exact proportions, meeting and not exceeding the largest size for Maximum Width or Maximum Height. Default: Yes|
+|Enable Frontend Resize|Global|Enable to allow Commerce to resize large, oversized images you may upload for the Product Details Page. Commerce resizes the image files using JavaScript prior to uploading the file. When the image is resized, it keeps the exact proportions, meeting and not exceeding the largest size for Maximum Width or Maximum Height. Default: Yes|
 |Maximum Width|Global|Determines the maximum pixel width for the image. When the image is resized, it does not exceed this width. Default: 1920|
 |Maximum Height|Global|Determines the maximum pixel height for the image. When the image is resized, it does not exceed this height. Default: 1200|
 
@@ -214,7 +214,7 @@ _Adobe Stock Integration_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled Adobe Stock|Global|Enables or disables the Adobe Stock Integration.|
-|API Key (Client ID)|Global|An API key is required to connect your Magento store to the Adobe Stock service. For more information about generating this key and configuring this integration, see [Adobe Stock Integration]({% link cms/adobe-stock.md %}).|
+|API Key (Client ID)|Global|An API key is required to connect your store to the Adobe Stock service. For more information about generating this key and configuring this integration, see [Adobe Stock Integration]({% link cms/adobe-stock.md %}).|
 |Client Secret|Global|The Client Secret for your Adobe Stock integration is required. For more information about retrieving this secret and configuring this integration, see [Adobe Stock Integration]({% link cms/adobe-stock.md %}).|
 |Test Connection||Runs a test to verify that the API key is valid for use with the Adobe Stock service.|
 

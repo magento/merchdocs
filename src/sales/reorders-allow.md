@@ -79,14 +79,18 @@ If the cart is not empty and the user  clicks **Reorder** (from the _My Orders_ 
 
 ## Reorder from the Admin
 
-1. Open the _Orders_ grid.
+1. On the _Admin_ sidebar, go to **Sales** > **Orders**.
 
-1. Click **View**.
+1. Locate the order and open in **View** mode.
 
- _Reorder_ is displayed in the top button bar.
+1. Click <span class="btn">Reorder</span> which is displayed in the top button bar.
 
    ![]({% link images/images/order-view-admin.png %}){: .zoom}
 
    After you click **Reorder**, the _Create New Order_ page opens with reorder products.
 
    ![]({% link images/images/create-reorder-page.png %}){: .zoom}
+
+1. Fill in all required fields as needed.
+
+1. To submit the order, click <span class="btn">Submit Order</span>.

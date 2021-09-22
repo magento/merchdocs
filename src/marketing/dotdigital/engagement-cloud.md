@@ -13,6 +13,7 @@ redirect_from:
 - [Automate campaigns][5]
 - [Schedule campaigns][6]
 - [Generate reports]({% link reports/customer-engagement.md %})
+- [Add Content - Dotdigital form][8]
 
 ## Release notes
 
@@ -25,3 +26,4 @@ The dotdigital integration is a third-party extension that we have thoroughly te
 [5]: https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview
 [6]: https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview
 [7]: https://devdocs.magento.com/extensions/vendor/dotdigital/release-notes.html
+[8]: https://support.dotdigital.com/hc/en-gb/articles/360015568200-Embed-Engagement-Cloud-pages-and-forms-on-your-storefront-Magento-2

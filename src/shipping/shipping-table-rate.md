@@ -72,6 +72,8 @@ The first step is to complete the default settings for table rates. You can comp
    | All Allowed Countries | Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this delivery method. |
    | Specific Countries | When you choose this option, the _Ship to Specific Countries_ list appears. Select each country in the list where this delivery method can be used. |
 
+1. Set **Show Method if Not Applicable** to `Yes` if you want to show Table Rates all the time
+
 1. For **Sort Order**, enter a number to determine the sequence in which Table Rate Shipping appears when listed with other delivery methods during checkout.
 
    `0` = first, `1` = second, `2` = third, and so on.
