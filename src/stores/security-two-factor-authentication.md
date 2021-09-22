@@ -72,3 +72,9 @@ The store domain is used by default during the authentication process. To use a 
 
 ![Security configuration - U2F Devices]({% link images/images/config-security-2fa-u2f-key.png %}){: .zoom}
 _U2F Devices_
+
+## FAQ resources
+
+For help with FAQ Two-Factor Authentication, see the following Commerce Support article:
+
+- [Two-Factor Authentication in Admin Panel on Adobe Commerce FAQ](https://support.magento.com/hc/en-us/articles/360051134432)
