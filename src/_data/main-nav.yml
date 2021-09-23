@@ -185,7 +185,7 @@
   url: /stores/configuration.html
   children:
 
-  - label: Magento Modes
+  - label: Commerce Modes
     url: "/magento/installation-modes.html"
 
   - label: General

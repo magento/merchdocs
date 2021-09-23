@@ -19,4 +19,4 @@ For Adobe Commerce and Magento Open Source versions prior to 2.3.3, the Yotpo ex
 
 Integrating your store is a quick, simple process that gives you access to the content and data customizations available in your Yotpo account. See [Integrate your Store with your Yotpo Account]({% link marketing/yotpo-connect.md %}).
 
-See the [Yotpo website](https://www.yotpo.com/platform/visual-marketing/) for more information about additional features, settings, and [Magento integration](https://www.yotpo.com/integrations/magento/).
+See the [Yotpo website](https://www.yotpo.com/platform/visual-marketing/) for more information about additional features, settings, and [Commerce integration](https://www.yotpo.com/integrations/magento/).

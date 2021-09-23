@@ -102,7 +102,7 @@ The following instructions show how to set up a fixed product tax for your store
    ![]({% link images/images/tax-product-fpt-belgium.png %}){: .zoom}
    _Fixed Product Tax for Belgium_
 
-   - If your Magento installation has multiple websites, choose the appropriate **Website** and base currency. In this example, the field is set by default to `All Websites [USD]`.
+   - If your Commerce instance has multiple websites, choose the appropriate **Website** and base currency. In this example, the field is set by default to `All Websites [USD]`.
 
    - Set **Country/State** to the region where the fixed product tax applies.
 

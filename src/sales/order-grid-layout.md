@@ -7,7 +7,7 @@ The selection of columns and their order in the grid can be changed according to
 ![]({% link images/images/order-grid-columns.png %}){: .zoom}
 _Order Grid Columns_
 
-## To change the column selection:
+## Change the column selection
 
 In the upper-right corner, click the **Columns** ( ![]({% link images/images/btn-columns.png %} ){: .Inline}) control. Then, do the following:
 
@@ -33,7 +33,7 @@ Make sure to scroll down to see all available columns.
 
 1. Drag the column to the new position and release.
 
-## To save a grid view:
+## Save a grid view
 
 1. Click the **View** ( ![]({% link images/images/btn-default-view.png %}){: .Inline}) control.
 
@@ -45,7 +45,7 @@ Make sure to scroll down to see all available columns.
 
     The name of the view now appears as the current view.
 
-## To change the view:
+## Change the view
 
 Click the **View** (![]({% link images/images/btn-default-view.png %}){: .Inline} ) control. Then, do one of the following:
 
