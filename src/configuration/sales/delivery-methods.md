@@ -91,7 +91,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |--- |--- |--- |
 |Enabled for Checkout|Website|Determines if UPS is available to customers as a shipping method during checkout. Options: Yes / No.|
 |Enabled for RMA|Website|Determines if UPS is available to customers as a shipping method for an RMA. Options: Yes / No.|
-|UPS Type|Store View|Specifies the  method used to connect to the UPS shipping system. Options: <br/>**United Parcel Service XML** - (Default) Your store sends an XML file with data to UPS as a request. <br/>**United Parcel Service** - Your store sends key-value pairs to UPS as a request. <br/><br/>**_Note:_** The standard United Parcel Service type is scheduled for deprecation in Magento. For new configurations, you should use the United Parcel Service XML type.|
+|UPS Type|Store View|Specifies the  method used to connect to the UPS shipping system. Options: <br/>**United Parcel Service XML** - (Default) Your store sends an XML file with data to UPS as a request. <br/>**United Parcel Service** - Your store sends key-value pairs to UPS as a request. <br/><br/>**_Note:_** The standard United Parcel Service type is scheduled for deprecation in Commerce. For new configurations, you should use the United Parcel Service XML type.|
 |_UPS Account Settings_|||
 |Live Account|Store View|Specifies that the United Parcel Service account is live. Options: Yes / No|
 |Gateway URL|Website|The URL that connects to the UPS system to retrieve dynamic shipping rates. UPS is discontinuing support of HTTP. Default value: `https://www.ups.com/using/services/rave/qcostcgi.cgi`|

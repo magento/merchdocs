@@ -16,5 +16,6 @@ See the following pages for more information on each section:
 - [Automation]({% link configuration/dotdigital/automation.md %})
 - [Dynamic Content]({% link configuration/dotdigital/dynamic-content.md %})
 - [Transactional Emails]({% link configuration/dotdigital/transactional-emails.md %})
+- [Transactional SMS]({% link configuration/dotdigital/transactional-sms.md %})
 - [Configuration]({% link configuration/dotdigital/configuration.md %})
 - [Developer]({% link configuration/dotdigital/developer.md %})

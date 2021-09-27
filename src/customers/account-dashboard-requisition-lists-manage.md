@@ -49,7 +49,7 @@ _My Requisition Lists_
 
 1. Click the **Export** link.
 
-Magento will generate and download a CSV list with `sku` and `qty` values.
+Adobe Commerce will generate and download a CSV list with `sku` and `qty` values.
 
 ### Move items to a different list
 

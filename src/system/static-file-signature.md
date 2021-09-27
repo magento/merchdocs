@@ -4,7 +4,7 @@ title: Using Static File Signatures
 
 Adding a digital signature to the URL of static files makes it possible for browsers to detect when a newer version of the file is available. Static files that can be tracked with digital signatures include JavaScript, CSS, images, and fonts. The signature is appended to the path directly after the base URL. If a file’s signature differs from what is currently stored in the browser’s cache, then the newer version of the file is used.
 
-See [Static content signing][1]{:target="_blank"} in the developer documentation.
+See [Static content signing][1]{:target="_blank"} in the Commerce Developer Guide.
 
 {:.bs-callout-info}
 The Static File Settings configuration is available only when working in [developer mode]({% link magento/installation-modes.md %}).

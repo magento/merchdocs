@@ -6,8 +6,8 @@ To simplify the checkout process, customers can enter into a billing agreement w
 
 The Billing Agreements grid lists all billing agreements between your store and its customers. The store administrator can filter the records by the customer or billing agreement information including billing agreement reference ID, status, and creation date. Each record includes general information about the billing agreement, and all sales orders that have used it as a payment method. The store administrator can view, cancel, or delete customer billing agreements. A canceled billing agreement can be deleted only by the store administrator.
 
-![Billing Agreements]({% link images/images/sales-billling-agreements.png %}){: .zoom}
-_Billing Agreements_
+![Billing agreements]({% link images/images/sales-billing-agreements.png %}){: .zoom}
+_Billing agreements_
 
 ## Billing agreement workflow
 
@@ -17,4 +17,4 @@ _Billing Agreements_
    | **Sign up at checkout** | Customers who pay for a purchase with PayPal Express Checkout can  mark a checkbox to create a billing agreement. Although the billing agreement is not used for the current order, it becomes available as a payment method option the next time the customer places an order. |
    | **Sign up by store administrator** | Upon customer request, the store administrator can create a sales order using the customer billing agreement.|
 
-1. **PayPal verifies and records agreement**. When the customer places the order with payment by billing agreement, the billing agreement reference ID and sales order payment details are transferred to PayPal and recorded in the customer account, along with reference information. If the payment is authorized, an order is created in Magento. The billing agreement reference ID is sent to the customer and to the store.
+1. **PayPal verifies and records agreement**. When the customer places the order with payment by billing agreement, the billing agreement reference ID and sales order payment details are transferred to PayPal and recorded in the customer account, along with reference information. If the payment is authorized, an order is created in Commerce. The billing agreement reference ID is sent to the customer and to the store.

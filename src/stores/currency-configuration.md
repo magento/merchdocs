@@ -2,7 +2,7 @@
 title: Currency Configuration
 ---
 
-Before setting up individual currency rates, you must first set the scope of the [base currency]({% link configuration/general/currency-setup.md %}). It is set to global by default, which applies the base currency setting to the entire [store hierarchy]({% link stores/websites-stores-views.md %}). If you have a multisite Magento installation, you can manage multiple base currencies by setting the scope to the website level.
+Before setting up individual currency rates, you must first set the scope of the [base currency]({% link configuration/general/currency-setup.md %}). It is set to global by default, which applies the base currency setting to the entire [store hierarchy]({% link stores/websites-stores-views.md %}). If you have a multisite Adobe Commerce or Magento Open Source installation, you can manage multiple base currencies by setting the scope to the website level.
 
 You also specify the currencies that you accept and which currency you want to use for the display of [prices]({% link catalog/catalog-price-scope.md %}) in your store. In the following illustration, the scope of the base currency is set at the website level, so each website can have a different base currency.
 

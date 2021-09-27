@@ -32,3 +32,15 @@ _Staging dashboard in grid view_
 
    ![]({% link images/images-ee/content-staging-campaign-info.png %}){: .zoom}
    _Campaign information_
+
+## Grid column descriptions
+
+|Column|Description|
+|--- |--- |
+|Status|Campaign's status. `Active` or `Upcoming`.|
+|Update Name|The name of the campaign.|
+|Includes|Defines how many objects are included in the campaign.|
+|Start Time|The date when the campaign starts.|
+|End Time|The date when the campaign ends.|
+|Description|Additional description of each campaign.|
+|Action|The actions that can be applied to an individual record include:<br/>**View/Edit** - Opens the campaign in edit mode.<br/>**Preview** - Displays the campaign in preview mode.|

@@ -6,7 +6,7 @@ ee_only: true
 
 To analyze how well your recommendations are performing, Adobe Commerce collects and displays the following metrics on the Product Recommendations dashboard:
 
-- **Impressions** - Number of times a Recommendation unit is loaded and rendered on a page. Note that the recommendation can be rendered on a page but not viewed by the shopper; for example, a Recommendation unit can be loaded “below the fold” of the browser’s viewport. In this case, the rendered unit would be counted as an impression, but a view would only be counted if the user scrolled the unit into view.
+- **Impressions** - Number of times a Recommendation unit is loaded and rendered on a page. Note that the recommendation can be rendered on a page but not viewed by the shopper; for example, a Recommendation unit can be loaded _below the fold_ of the browser’s viewport. In this case, the rendered unit would be counted as an impression, but a view would only be counted if the user scrolled the unit into view.
 
 - **Viewable Impressions** - Number of Recommendation unit impressions that register at least one view.
 

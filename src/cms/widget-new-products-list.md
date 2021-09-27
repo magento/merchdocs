@@ -11,7 +11,7 @@ _New products list on the storefront home page_
 ## Step 1: Set each product as new
 
 {:.bs-callout-info}
-For Magento Commerce customers, see [Scheduling an Update]({% link cms/content-staging-scheduled-update.md %}) and then continue to the Step 2 on this page.
+For Adobe Commerce stores, see [Scheduling an Update]({% link cms/content-staging-scheduled-update.md %}) and then continue to the Step 2 on this page.
 _Set Product as New_ date range setting can be configured only in scheduled updates.
 
 Setting a product as new adds the product to the _New products_ list. You can change the setting back at any point when you no longer want to include it in the list.

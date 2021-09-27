@@ -1,16 +1,16 @@
 ---
-title: Configuring Magento for Vertex Tax Calculations
+title: Configuring Commerce for Vertex Tax Calculations
 redirect_from:
   - /tax/vertex-test-configuration.html
 ---
 
-To complete the Magento configuration for Vertex tax calculations, you will need to enter a few values from Vertex Cloud. If you need help, see [Vertex Field Mapping]({% link tax/vertex-field-mapping.md %}).
+To complete the Commerce configuration for Vertex tax calculations, you will need to enter a few values from Vertex Cloud. If you need help, see [Vertex Field Mapping]({% link tax/vertex-field-mapping.md %}).
 
 When enabled, the _Vertex_ section of the [Tax configuration]({% link configuration/sales/tax.md %}) page includes the following Vertex sections:
 
 |Connection Settings|Vertex ID and API connections
 |Integration Settings|Vertex tax integration configuration
-|Flexible Fields|Configure these settings to identify taxability based on information in your Magento store beyond the standard
+|Flexible Fields|Configure these settings to identify taxability based on information in your store beyond the standard
 |Delivery Terms|Configure the shipping terms for shipments.
 |Seller Details|Configure seller information used for tax calculation
 |Logging|Configure logging functions
@@ -37,7 +37,7 @@ These steps outline the configurations required for a valid Vertex connection.
 
    - Verify the default values for the **Calculation API URL** and **Address Validation API URL**.
 
-      These connect the integration with Vertex Cloud and must match the URL displayed in your _Vertex Connectors_ page for the Magento connector in the **ERP Connector URL** and **Address Lookup URL** fields. Clear the **Use system value** checkbox and change these values if needed.
+      These connect the integration with Vertex Cloud and must match the URL displayed in your _Vertex Connectors_ page for the Commerce connector in the **ERP Connector URL** and **Address Lookup URL** fields. Clear the **Use system value** checkbox and change these values if needed.
 
    - Enter the **Trusted ID** from your Vertex Cloud account.
 
@@ -89,16 +89,16 @@ When you are ready to continue, you can complete the following sections for addi
 
 ## Flexible Fields {#flex-fields}
 
-If you need to identify taxability based on information in your Magento store beyond the standard customer and and product taxability drivers defined by Vertex, configure the flexible fields to be used in your Vertex Tax Assist Rules.
+If you need to identify taxability based on information in your store beyond the standard customer and and product taxability drivers defined by Vertex, configure the flexible fields to be used in your Vertex Tax Assist Rules.
 
-### Step 1: Create custom Flexible Field in Magento
+### Step 1: Create custom Flexible Field in Commerce
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Flexible Fields** section.
 
    ![]({% link images/images/config-sales-tax-vertex-flexible-fields.png %}){: .zoom}
    [_Flexible Fields_]({% link configuration/sales/tax.md %})
 
-1. Expand the area for the category you want to use to map a Magento field.
+1. Expand the area for the category you want to use to map a Commerce field.
 
    There are three available flexible field categories:
 
@@ -106,7 +106,7 @@ If you need to identify taxability based on information in your Magento store be
    |Numeric Fields|Use this category to define fields using numeric values for data, such as durations and weights, including floating decimal points. You can create a maximum of 10 flexible numeric fields.|
    |Date Fields|Use this category to define fields using dates in the format YYYY/MM/DD. You can create a maximum of five flexible date fields.|
 
-1. For the _Field ID_ you want to configure, click the **Data Source** option to display the list of Magento fields and select the field to use as a flexible field in Vertex Cloud.
+1. For the _Field ID_ you want to configure, click the **Data Source** option to display the list of Commerce fields and select the field to use as a flexible field in Vertex Cloud.
 
    You can enter a text string in the search field at the top of the list to filter the displayed items and help to find the field you want.
 
@@ -192,7 +192,7 @@ After you save your configuration changes, [refresh the cache]({% link system/ca
 
 ## Test the Vertex configuration
 
-After completing the configuration, your Magento store is connected to Vertex Cloud. Visit the [Vertex Cloud Help Center][1] to review your settings in more detail, and to learn how to enter [test transactions][2], [generate returns][3], and [run reports.][4]
+After completing the configuration, your store is connected to Vertex Cloud. Visit the [Vertex Cloud Help Center][1] to review your settings in more detail, and to learn how to enter [test transactions][2], [generate returns][3], and [run reports.][4]
 
 Vertex Cloud has excellent documentation with videos to help you come up to speed. When your testing is complete and you are ready, you can [Go Live][2] with the click of a button.
 
@@ -200,7 +200,7 @@ Vertex Cloud has excellent documentation with videos to help you come up to spee
 
 ### Vertex API automatically disabled
 
-When the Vertex connector is enabled and the [Display prices in Catalog]({% link configuration/sales/tax.md %}) is set to `Including Tax`, updating your product prices in the Magento catalog to include tax could significantly degrade Magento performance. In this situation, the Vertex connector will automatically disable and you will see an error message in the Vertex configuration settings. You must set this value to `Excluding Tax` to re-enable the Vertex connector.
+When the Vertex connector is enabled and the [Display prices in Catalog]({% link configuration/sales/tax.md %}) is set to `Including Tax`, updating your product prices in the catalog to include tax could significantly degrade Commerces performance. In this situation, the Vertex connector will automatically disable and you will see an error message in the Vertex configuration settings. You must set this value to `Excluding Tax` to re-enable the Vertex connector.
 
 ![]({% link images/images/vertex-error.png %}){: .zoom}
 _Vertex API error_

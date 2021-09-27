@@ -37,4 +37,4 @@ When you [enable]({% link configuration/catalog/catalog.md %}#product-reviews) p
 1. Clicks <span class="btn">Submit Review<span>.
 
 {:.bs-callout-info}
-The submitted review appears on the product page after the Magento admin approves it.
+The submitted review appears on the product page after the Admin approves it.

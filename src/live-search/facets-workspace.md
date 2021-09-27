@@ -35,9 +35,9 @@ If your Adobe Commerce installation includes multiple store views, set **Scope**
 
 |Column |Description |
 |--- |--- |
-|Name |The label of the facet that is visible in the storefront. |
-|Select type | The selection method that is used to choose a facet value from the storefront. Options: Multi-select (and), Multi-select (or), Single-select |
-|Sort type |The sorting order of facet values. Options: Alphabetical, Count |
+|Name |The [label]({% link live-search/facets-type.md %}) of the facet that is visible in the storefront. |
+|Select type | The [selection method]({% link live-search/facets-type.md %}) that is used to choose a facet value from the storefront. |
+|Sort type |The [sorting order]({% link live-search/facets-type.md %}) of facet values. |
 |Max value |The number of facet values that are available in the storefront as filters, with a maximum of 10. |
 
 ## Controls

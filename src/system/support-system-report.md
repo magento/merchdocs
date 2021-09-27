@@ -11,7 +11,7 @@ From the System Reports grid, you can view and download existing reports, delete
 
 On the _Admin_ sidebar, go to **System** > _Support_ > **System Report**.
 
-![Magento Admin - system reports]({% link images/images-ee/system-reports.png %}){: .zoom}
+![Admin - system reports]({% link images/images-ee/system-reports.png %}){: .zoom}
 _Manage System Reports_
 
 ## Create a new report
@@ -68,7 +68,7 @@ In the **Action** column of the grid, select one of the following:
 
 Report group | Information included
 ------------ | --------------------
-General | Magento Version<br>Data Count<br>Cache Status<br>Index Status
+General | Adobe Commerce Version<br>Data Count<br>Cache Status<br>Index Status
 Environment | Environment Information<br>MySQL Status
 Data | Duplicate Categories By URL Key<br>Duplicate Products By URL Key<br>Duplicate Products By SKU<br>Duplicate Orders By Increment Id<br>Duplicate Users By Email<br>Corrupted Categories Data
 Modules | Custom Modules List<br>Disabled Modules List<br>All Modules List

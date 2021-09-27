@@ -4,8 +4,191 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Sun Aug 15 14:28:30 2021
+updated: Mon Sep 20 14:27:53 2021
 entries:
+- description: Updated the [Order Status Notification](https://docs.magento.com/user-guide/sales/order-status-notification.html)
+    topic to include configuration of email templates for new order notifications.
+  versions: 2.4.x
+  type: Minor update
+  date: September 16, 2021
+  link: https://github.com/magento/merchdocs/pull/1491
+  merge_commit: e690bf4ebf3f6633a449f2f779b06125e9375554
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Minimum Advertised Price](https://docs.magento.com/user-guide/catalog/product-price-minimum-advertised.html)
+    topic to include more detailed information about the feature and how it affects
+    the customer experience on the storefront.
+  versions: 2.4.x
+  type: Minor update
+  date: September 13, 2021
+  link: https://github.com/magento/merchdocs/pull/1477
+  merge_commit: 8b7ec76ea5762aedeaa2ddf274acc776b7769844
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Sales Reports](https://docs.magento.com/user-guide/reports/sales-reports.html)
+    topic to include details about refresh, filtering, and export for sales reports.
+  versions: 2.4.x
+  type: Minor update
+  date: September 13, 2021
+  link: https://github.com/magento/merchdocs/pull/1469
+  merge_commit: 13152404bcdcacf311ec663e69256db041058066
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Creating an Individual Customer Account](https://docs.magento.com/user-guide/customers/account-create.html)
+    topic to include the _Allow remote shopping assistance_ and _Show Password_ options
+    available to customers on the storefront.
+  versions: 2.4.x
+  type: Minor update
+  date: September 9, 2021
+  link: https://github.com/magento/merchdocs/pull/1468
+  merge_commit: 518411d78dee6d89e48a2d1f83fef7cd0ac5e174
+  contributor: pawan
+  membership: false
+  labels:
+  - Minor update
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Gift Registry](https://docs.magento.com/user-guide/customers/account-dashboard-gift-registry.html)
+    topic to add the workflow for customers managing their gift registry items from
+    their customer dashboard.
+  versions: 2.4.x
+  type: Minor update
+  date: September 9, 2021
+  link: https://github.com/magento/merchdocs/pull/1472
+  merge_commit: 2827a35e2671f2532a2e24ef2c5f034870c765e0
+  contributor: DmitryTsymbal
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Added information to the [Gift Options](https://docs.magento.com/user-guide/catalog/product-gift-options.html)
+    topic for enabling gift messages on the storefront.
+  versions: 2.4.x
+  type: Minor update
+  date: September 2, 2021
+  link: https://github.com/magento/merchdocs/pull/1451
+  merge_commit: db40971adac5fa1b59358cb7eda4dbf6e185ecad
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Filterable Attributes](https://docs.magento.com/user-guide/catalog/navigation-layered-filterable-attributes.html)
+    topic to include steps for removing filterable attribute values with 0 products
+    from the layered navigation.
+  versions: 2.4.x
+  type: Minor update
+  date: August 24, 2021
+  link: https://github.com/magento/merchdocs/pull/1438
+  merge_commit: b5ad175ee636ca8505f3e23e936999e13a3a1a6e
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Google Tag Manager](https://docs.magento.com/user-guide/marketing/google-tag-manager.html)
+    topic to include the procedure for adding the GTM code snippets to the Commerce
+    store.
+  versions: 2.4.x
+  type: Major update
+  date: August 24, 2021
+  link: https://github.com/magento/merchdocs/pull/1431
+  merge_commit: 8a8fcc40f8e14e48511be8600d5943eff6692fbc
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - Major update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Translating Products](https://docs.magento.com/user-guide/catalog/product-translate.html)
+    topic to include steps for translating product attributes and attribute options.
+  versions: 2.4.x
+  type: Major update
+  date: August 24, 2021
+  link: https://github.com/magento/merchdocs/pull/1433
+  merge_commit: a75427bd484e8f456a7ade42bade5bd366a4e90f
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - Major update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Adding New Blocks](https://docs.magento.com/user-guide/cms/block-add.html)
+    topic to add new section about removing custom blocks.
+  versions: 2.4.x
+  type: Major update
+  date: August 24, 2021
+  link: https://github.com/magento/merchdocs/pull/1436
+  merge_commit: '084f639129687a752ca6f54f74e6b597f4cbeb2d'
+  contributor: DmitryTsymbal
+  membership: false
+  labels:
+  - Major update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Billing Agreements](https://docs.magento.com/user-guide/sales/billing-agreements.html)
+    topic to include detailed information about managing billing agreements.
+  versions: 2.4.x
+  type: Major update
+  date: August 24, 2021
+  link: https://github.com/magento/merchdocs/pull/1437
+  merge_commit: b4560ad119451c2c6d97d8ec4fa8fa6f655824c0
+  contributor: DmitryTsymbal
+  membership: false
+  labels:
+  - Major update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Shipping an Order](https://docs.magento.com/user-guide/sales/order-ship.html)
+    topic to include steps to configuring shipping comments for email to customers.
+  versions: 2.4.x
+  type: Major update
+  date: August 24, 2021
+  link: https://github.com/magento/merchdocs/pull/1442
+  merge_commit: dca2cd81ae36b6147767024b6d39fc56a70d1de3
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - Major update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
 - description: Basic [Page Builder](https://docs.magento.com/user-guide/cms/page-builder.html)
     content tools now available in Magento Open Source.
   versions: 2.4.3
@@ -180,8 +363,8 @@ entries:
   - Major update
   - New topic
 - description: Updated [Security Scan](https://docs.magento.com/user-guide/magento/security-scan.html)
-    for a new feature added to the Magento Scan Tool that enables merchants to submit
-    PWA stores for scanning.
+    for a new feature added to the Scan Tool that enables merchants to submit PWA
+    stores for scanning.
   versions: 2.4.x
   type: Major update
   date: June 17, 2021
@@ -746,7 +929,7 @@ entries:
   date: December 2, 2020
   link: https://github.com/magento/merchdocs/pull/874
 - description: Updated the [Gift Options configuration reference](https://docs.magento.com/user-guide/configuration/sales/sales.html#gift-options)
-    to include additional fields available in Magento Commerce.
+    to include additional fields available in Adobe Commerce.
   versions: 2.4.x
   type: Major update
   date: November 30, 2020
@@ -846,7 +1029,7 @@ entries:
   link: https://github.com/magento/merchdocs/pull/719
 - description: The [Site-Wide Analysis Tool](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html)
     (SWAT) provides 24/7 real-time performance monitoring, reports and recommendations
-    to ensure the security and operability of Magento Commerce Cloud installations.
+    to ensure the security and operability of Adobe Commerce on cloud infrastructure.
   versions: 2.4.1
   type: New topic
   date: October 15, 2020

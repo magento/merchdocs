@@ -2,7 +2,7 @@
 title: CAPTCHA
 ---
 
-A CAPTCHA is a visual device that ensures that a human being, rather than a computer (or "bot"), is interacting with the site. CAPTCHA is an acronym for _Completely Automated Public Turing test to tell Computers and Humans Apart_. It can be used for both Admin access and a variety of storefront actions initiated by registered customers. Magento supports the standard CAPTCHA that is described in this topic and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
+A CAPTCHA is a visual device that ensures that a human being, rather than a computer (or "bot"), is interacting with the site. CAPTCHA is an acronym for _Completely Automated Public Turing test to tell Computers and Humans Apart_. It can be used for both Admin access and a variety of storefront actions initiated by registered customers. Adobe Commerce and Magento Open Source support the standard CAPTCHA that is described in this topic and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
 
 You can reload the CAPTCHA as many times as is necessary by clicking the Reload icon in the upper-right corner of the image. The CAPTCHA is fully configurable and can be set appear every time, or only after a number of failed login attempts.
 
@@ -11,9 +11,9 @@ _Customer Login with CAPTCHA_
 
 ## Admin CAPTCHA
 
-For an extra level of security, you can add a CAPTCHA to the Admin Sign In and Forgot Password page. Magento Admin users can reload the displayed CAPTCHA by clicking the Reload ![]({% link images/images/btn-reload.png %}) icon in the upper-right corner of the image. The number of reloads is unlimited.
+For an extra level of security, you can add a CAPTCHA to the Admin Sign In and Forgot Password page. Admin users can reload the displayed CAPTCHA by clicking the Reload ![]({% link images/images/btn-reload.png %}) icon in the upper-right corner of the image. The number of reloads is unlimited.
 
-![Magento Admin - Sign in with CAPTCHA]({% link images/images/security-captcha-admin.png %}){: .zoom}
+![Admin - Sign in with CAPTCHA]({% link images/images/security-captcha-admin.png %}){: .zoom}
 _Admin Sign In with CAPTCHA_
 
 ### Configure CAPTCHA for the Admin
@@ -24,18 +24,18 @@ _Admin Sign In with CAPTCHA_
 
 1. In the upper-right corner, set **Store View** to `Default`.
 
-    If the [scope]({% link stores/websites-stores-views.md %}) of your Magento installation includes multiple websites, choose the website(s) where you want the CAPTCHA configuration to apply.
+    If the [scope]({% link stores/websites-stores-views.md %}) of your Commerce installation includes multiple websites, choose the website(s) where you want the CAPTCHA configuration to apply.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **CAPTCHA** section.
 
 1. Set **Enable CAPTCHA in Admin** to `Yes`. Then complete the remaining options as follows:
 
-    ![Magento Admin - CAPTCHA configuration]({% link images/images/config-advanced-admin-captcha.png %}){: .zoom}
+    ![Admin - CAPTCHA configuration]({% link images/images/config-advanced-admin-captcha.png %}){: .zoom}
     [_Admin CAPTCHA Configuration_]({% link configuration/advanced/admin.md %})
 
    - Enter the name of the **Font** to be used for CAPTCHA symbols (default: `LinLibertine`).
 
-        To add your own font, the font file must reside in the same directory as your Magento installation and must be declared in the `config.xml` file of the Captcha module at `app/code/Magento/Captcha/etc`.
+        To add your own font, the font file must reside in the same directory as your Commerce installation and must be declared in the `config.xml` file of the Captcha module at `app/code/Magento/Captcha/etc`.
 
    - Select any of the following **Forms** where the CAPTCHA is to be used. To choose multiple forms, hold down the Ctrl key (PC) or Command key (Mac).
 
@@ -83,7 +83,7 @@ _[Customer CAPTCHA configuration]({% link configuration/customers/customer-confi
 
    - Enter the name of the **Font** to be used for the CAPTCHA symbols (default: `LinLibertine`).
 
-        To add your own font, the font file must reside in the same directory as your Magento installation and must be declared in the `config.xml` file of the CAPTCHA module.
+        To add your own font, the font file must reside in the same directory as your Commerce installation and must be declared in the `config.xml` file of the CAPTCHA module.
 
    - Select any of the following **Forms** where the CAPTCHA is to be used. To choose multiple forms, hold down the Ctrl key (PC) or Command key (Mac).
 

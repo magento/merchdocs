@@ -31,7 +31,7 @@ For online payments, the following methods are supported:
 
 {:.bs-callout-info}
 Purchase orders should use an _In-Context_ checkout experience. _Out-of-Context_ checkouts are not supported because they bypass the normal checkout flow.
-Generally, _In-Context_ means the customer stays on the Magento site to complete the process. _Out-of-Context_ is when the customer is taken to another site to complete the purchase.
+Generally, _In-Context_ means the customer stays on the your commerce site to complete the process. _Out-of-Context_ is when the customer is taken to another site to complete the purchase.
 
 {:.bs-callout-warning}
 Using gift cards, store credit, or reward points with online payment methods for purchase orders is not supported. Enabling these features with online payments may cause some unexpected behavior. It is recommended to disable gift cards, store credit, and reward points when online payments are enabled for purchase orders.
@@ -118,3 +118,23 @@ This is five items, but two distinct SKUs.
 
 ![]({% link images/images-b2b/storefront-approval-rule-number-skus.png %}){: .zoom}
 _Number of SKUs Approval Rule_
+
+### Edit approval rules
+
+1. In the sidebar, select **Approval Rules**.
+
+1. Find the approval rule entry to be edited.
+
+1. Click **Edit**.
+
+1. Make all needed changes and click **Save**.
+
+### Delete approval rules
+
+1. In the sidebar of their account, select **Approval Rules**.
+
+1. Find the approval rule entry to be deleted.
+
+1. Click **Delete**.
+
+1. To confirm the action, click <span class="btn">OK<span>.

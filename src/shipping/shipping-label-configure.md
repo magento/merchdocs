@@ -55,7 +55,7 @@ The country of manufacture is required for all products that are shipped interna
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **USPS** section, and verify that the following fields are complete:
 
-   - **Secure Gateway URL** – Magento automatically enters the gateway URL.
+   - **Secure Gateway URL** – The system automatically enters the gateway URL.
    - **Password** – The password is provided by USPS and gives you access to their system through Web Services.
    - **Length, Width, Height, Girth** – The default dimensions of the package. To make these fields appear, set **Size** to `Large`.
 

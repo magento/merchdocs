@@ -8,7 +8,7 @@ The term _content marketing_ refers to the art of promoting your products or ser
 
 Your content should reflect the branding of your store, and be delivered with your distinctive visual presentation and voice to convey your message. Use pictures to tell a story. Educate, inspire, and entertain. Keep in mind that with quality content, sometimes less is more.
 
-![The Content menu displayed in the Magento Admin]({% link images/images-ee/admin-menu-content-ee.png %}){: .zoom}
+![The Content menu displayed in the Commerce Admin]({% link images/images-ee/admin-menu-content-ee.png %}){: .zoom}
 _Content menu_
 
 {:.bs-callout-info}
@@ -34,7 +34,7 @@ The _Banners_ option in this menu was deprecated in 2.3.1 and is now removed. It
 
 Manage the [visual presentation]({% link design/design-theme.md %}) of your store:
 
-- Set the [Design configuration]({% link design/configuration.md %}) to maintain different settings for each website, store, and view in your Magento installation.
+- Set the [Design configuration]({% link design/configuration.md %}) to maintain different settings for each website, store, and view in your Commerce installation.
 
 - Use [themes]({% link design/themes.md %}), which are collections of layout files, template files, translation files, and skins, to determine the visual presentation of your store.
 

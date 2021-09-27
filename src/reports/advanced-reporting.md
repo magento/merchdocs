@@ -4,7 +4,7 @@ redirect_from:
   - /reports/advanced-reports.html
 ---
 
-Advanced Reporting, which is included with Magento Commerce and Open Source, gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. While Advanced Reporting uses Magento Business Intelligence (MBI) for analytics, you do not need to have an MBI account to use Advanced Reporting.
+Advanced Reporting, which is included with Adobe Commerce and Magento Open Source, gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. While Advanced Reporting uses Magento Business Intelligence for analytics, you do not need to have a Magento Business Intelligence account to use Advanced Reporting.
 
 For technical information, see [Advanced Reporting][2]{:target="_blank"} in our developer documentation.
 
@@ -17,20 +17,20 @@ _Advanced Reporting dashboard_
 
 * The domain must have a valid security (SSL) certificate.
 
-* Magento must have been installed or upgraded successfully without error.
+* Commerce must have been installed or upgraded successfully without error.
 
-* In the Magento configuration for [store URLs]({% link stores/store-urls.md %}), the **Base URL (Secure)** setting for the store view must point to the secure URL. For example https://yourdomain.com.
+* In the Commerce configuration for [store URLs]({% link stores/store-urls.md %}), the **Base URL (Secure)** setting for the store view must point to the secure URL. For example https://yourdomain.com.
 
-* In the Magento configuration for [store URLs]({% link stores/store-urls.md %}), **Use Secure URLs on Storefront** and **Use Secure URLs in Admin** must be set to `Yes`.
+* In the Commerce configuration for [store URLs]({% link stores/store-urls.md %}), **Use Secure URLs on Storefront** and **Use Secure URLs in Admin** must be set to `Yes`.
 
-* Make sure that [Magento crontab][3]{:target="_blank"} is created and cron jobs are running on the installed server.
+* Make sure that [Commerce crontab][3]{:target="_blank"} is created and cron jobs are running on the installed server.
 
 {:.bs-callout-info}
-Advanced Reporting can be used only with Magento installations that have continually used a single [base currency]({% link stores/currency-configuration.md %}).
+Advanced Reporting can be used only with Commerce installations that have continually used a single [base currency]({% link stores/currency-configuration.md %}).
 
 ## Step 1: Enable Advanced Reporting
 
-In the Magento configuration, [Advanced Reporting]({% link configuration/general/advanced-reporting.md %}) is enabled by default, and starts automatically if cron is [configured]({% link configuration/advanced/system.md %}) and running. An attempt to establish the subscription is initiated at the beginning of each hour over the next 24-hours until successful. The subscription status is “pending” until the subscription is successfully established.
+In the Commerce configuration, [Advanced Reporting]({% link configuration/general/advanced-reporting.md %}) is enabled by default, and starts automatically if cron is [configured]({% link configuration/advanced/system.md %}) and running. An attempt to establish the subscription is initiated at the beginning of each hour over the next 24-hours until successful. The subscription status is “pending” until the subscription is successfully established.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -105,13 +105,17 @@ If you get a 404 “Page Not Found” message, verify that your store meets the 
 
 ### Verify Single Base Currency
 
-Advanced Reporting can be used only with Magento installations that have used only a single [base currency]({% link stores/currency-configuration.md %}) since the time of installation. The result is that in the history, all orders use the same base currency. Advanced Reporting will not work if you have, at any time, changed your base currency and have orders in your history that were processed with different base currencies.
+Advanced Reporting can be used only with Commerce installations that have used only a single [base currency]({% link stores/currency-configuration.md %}) since the time of installation. The result is that in the history, all orders use the same base currency. Advanced Reporting will not work if you have, at any time, changed your base currency and have orders in your history that were processed with different base currencies.
 
-To determine if your store has multiple base currencies, you can query your Magento database from the command line using the following MySQL example. You might need to change the table names to match your data structure:
+To determine if your store has multiple base currencies, you can query your Commerce database from the command line using the following MySQL example. You might need to change the table names to match your data structure:
 
 ```sql
 select distinct base_currency_code from sales_order;
 ```
+
+### Data discrepancy
+
+If you notice that the `Data last updated...` caption displays yesterday's date and not today's, there might be a delay of up to a day in the Advanced Reporting updates due to a larger than expected queue size.
 
 ## Dashboard Reports
 

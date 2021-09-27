@@ -7,7 +7,7 @@ The selection of columns and their order in the grid can be changed according to
 ![]({% link images/images/order-grid-columns.png %}){: .zoom}
 _Order Grid Columns_
 
-## To change the column selection:
+## Change the column selection
 
 In the upper-right corner, click the **Columns** ( ![]({% link images/images/btn-columns.png %} ){: .Inline}) control. Then, do the following:
 
@@ -16,13 +16,24 @@ In the upper-right corner, click the **Columns** ( ![]({% link images/images/bt
 
 Make sure to scroll down to see all available columns.
 
-## To move a column:
+## Reset the column selection
+
+1. Click the **Columns** ( ![]({% link images/images/btn-columns.png %} ){: .Inline}) control.
+
+1. To reset the grid columns, click the **Reset** button.
+
+    The grid layout changes to display only default columns.
+
+    |Default grid columns|ID<br>Grand Total (Purchased)<br>Purchase Point<br>Purchase Date<br>Bill-to Name<br>Ship-to Name<br>Grand Total (Base)<br>Status<br>Action<br>Allocated sources<br>Braintree Transaction Source|
+    |Additional grid columns|Billing Address<br>Customer Email<br>Shipping and Handling<br>Payment Method<br>Refunded to Store Credit<br>Shipping Information<br>Subtotal<br>Company Name<br>Shipping Address<br>Customer Group<br>Customer Name<br>Total Refunded<br>Pickup Location Code|
+
+## Move a column
 
 1. Click and hold the header of the column.
 
 1. Drag the column to the new position and release.
 
-## To save a grid view:
+## Save a grid view
 
 1. Click the **View** ( ![]({% link images/images/btn-default-view.png %}){: .Inline}) control.
 
@@ -34,7 +45,7 @@ Make sure to scroll down to see all available columns.
 
     The name of the view now appears as the current view.
 
-## To change the view:
+## Change the view
 
 Click the **View** (![]({% link images/images/btn-default-view.png %}){: .Inline} ) control. Then, do one of the following:
 

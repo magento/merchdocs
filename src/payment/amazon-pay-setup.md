@@ -4,11 +4,11 @@ redirect_from:
   - /payment/amazon-pay-seller-central.html
 ---
 
-Amazon Pay and Login with Amazon work together to create a great buyer experience. For more information, see the [Amazon Pay and Login with Amazon extension for Magento 2][1] documentation provided by Amazon.
+Amazon Pay and Login with Amazon work together to create a great buyer experience for Adobe Commerce and Magento Open Source customers. For more information, see the [Amazon Pay and Login with Amazon extension][1] documentation provided by Amazon.
 
 ## Prerequisites
 
-You must have the following resources available to complete the Amazon Pay setup in the Magento Admin:
+You must have the following resources available to complete the Amazon Pay setup in the Admin:
 
 - A verified Amazon Pay merchant account ([https://pay.amazon.com/signup][4])
 - [Amazon Pay seller credentials][5]
@@ -37,11 +37,11 @@ You must have the following resources available to complete the Amazon Pay setup
 
 ## Credentials
 
-Your credentials are transferred automatically from your Amazon Pay account to the Magento Admin. Your credentials can also be found in Amazon Seller Central in both Production and Sandbox modes.
+Your credentials are transferred automatically from your Amazon Pay account to the Commerce Admin. Your credentials can also be found in Amazon Seller Central in both Production and Sandbox modes.
 
 ### Configure credentials for Sandbox mode
 
-1. Get your Test Credentials for the Amazon Pay Sandbox.
+1. Get your test credentials for the Amazon Pay Sandbox.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Credentials** section.
 
@@ -62,7 +62,7 @@ Your credentials are transferred automatically from your Amazon Pay account to t
 
    - For **Credentials JSON**, enter the JSON string of all Amazon Pay seller credentials.
 
-      This JSON will be used to set values for Merchant Id, Access Key Id, Secret Access Key, Client Id, and Client Secret on save and clear any of the values that were entered manually.
+      This JSON will be used to set values for Merchant ID, Access Key ID, Secret Access Key, Client ID, and Client Secret on save and clear any of the values that were entered manually.
 
 1. Set **Sandbox** to `Yes`.
 
@@ -70,7 +70,7 @@ Your credentials are transferred automatically from your Amazon Pay account to t
 
 1. When complete, click <span class="btn">Save Config</span> to validate the supplied credentials.
 
-   Look for the message, _Your Amazon configuration is valid_ at the top of the Configuration page.
+   Look for the _Your Amazon configuration is valid_ message at the top of the Configuration page.
 
    If your credentials are valid, continue with the configuration. Otherwise, correct your credentials and try again.
 
@@ -92,7 +92,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
 
 1. Set **Payment Action** to one of the following:
 
-   | Charge on Shipment | (Default) Amazon receives a capture request and charges the customer when an invoice is created in Magento. |
+   | Charge on Shipment | (Default) Amazon receives a capture request and charges the customer when an invoice is created in Commerce. |
    | Charge on Order | Amazon creates the invoice and charges the customer when the order is placed. |
 
 1. Set **Authorization Mode** to determine the method that is used to transmit authorization data.
@@ -102,13 +102,15 @@ When you are through testing and ready to go live with Amazon Pay, return to the
 
 1. Set **Update Mechanism** to one of the following:
 
-   | Data Polling via Cron job | (Default) Uses the standard Magento notification process that is scheduled by [Cron]({% link system/cron.md %}) job. |
+   | Data Polling via Cron job | (Default) Uses the standard Commerce notification process that is scheduled by [Cron]({% link system/cron.md %}) job. |
    | Instant Payment Notifications | (IPN) Sends notifications to the Instant Payment Notification URL. |
 
    ![Sales configuration - Amazon Pay options]({% link images/images/config-sales-payment-methods-amazon-pay-options.png %}){: .zoom}
    [_Amazon Pay options_]({% link configuration/sales/amazon-pay.md %})
 
 ## Advanced
+
+The following are advanced setup and configuration options for Amazon Pay.
 
 ### Frontend
 
@@ -124,7 +126,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
    - `it-IT` - Italian (Italy)
    - `sp-SP` - Spanish (Spain)
 
-   To learn more, see [Language][2] in the _Amazon Pay Integration Guide_.
+   To learn more, see [Multi-language integration][2] in the _Amazon Pay and Login with Amazon integration Guide_.
 
 1. Set **Button Color** to one of the following:
 
@@ -205,7 +207,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
 1. When prompted to update the cache, click **Cache Management** in the system message and follow the instructions to refresh the cache.
 
 [1]: https://amzn.github.io/amazon-payments-magento-2-plugin/index.html
-[2]: https://developer.amazon.com/docs/eu/amazon-pay-onetime/intro.html
+[2]: https://amazonpaylegacyintegrationguide.s3.amazonaws.com/docs/eu/amazon-pay-onetime/multilanguage.html
 [3]: https://pay.amazon.com/us/merchant/tools
 [4]: https://pay.amazon.com/signup
 [5]: https://amzn.github.io/amazon-payments-magento-2-plugin/configuration.html#credentials

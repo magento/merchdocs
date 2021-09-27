@@ -4,7 +4,7 @@ title: Onepage Checkout
 
 The purpose of Onepage Checkout is to gather the information that is needed and complete the sale as quickly as possible without requiring extra clicks for the shopper. When Onepage Checkout is enabled, the entire checkout process takes place on a single page. Each section of the checkout information is expanded as needed.
 
-Magento’s Onepage Checkout is enabled by default. If you are implementing a custom integration or checkout extension, it might be necessary to disable Onepage Checkout.
+Onepage Checkout is enabled by default. If you are implementing a custom integration or checkout extension, it might be necessary to disable Onepage Checkout.
 
 ## Disable Onepage Checkout
 

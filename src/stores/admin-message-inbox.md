@@ -5,12 +5,12 @@ group: getting-started
 
 Your store receives messages from Adobe on a regular basis. The messages are rated by importance and might refer to system updates, patches, new releases, scheduled maintenance, or upcoming events. The bell icon in the header indicates the number of unread messages in your inbox.
 
-![Commerce Admin - incoming messages]({% link images/images/admin-inbox-summary.png %}){: .zoom}
+![Admin - incoming messages]({% link stores/assets/admin-inbox-summary.png %}){: .zoom}
 _Incoming Messages_
 
 Any message of critical importance appears in a pop-up window when you log into your store. The notice continues to appear after each login until the message is either marked as read or removed.
 
-![Incoming message - Critical]({% link images/images/admin-message-incoming.png %}){: .zoom}
+![Incoming message - Critical]({% link stores/assets/admin-message-incoming.png %}){: .zoom}
 _Message of critical importance_
 
 The _Notifications_ page lists all messages ranked by severity, with the most recent at the top. The Action commands can be used to mark individual messages as read, view more detailed information, or to remove the message from the inbox.
@@ -48,7 +48,7 @@ For a message of critical importance, do one of the following:
 
    - To keep the message in your inbox, click **Mark As Read**.
 
-        ![Commerce Admin - notifications ]({% link images/images/admin-notifications-mark-as-read.png %}){: .zoom}
+        ![Admin - notifications ]({% link stores/assets/admin-notifications-mark-as-read.png %}){: .zoom}
         _All Notifications_
 
    - To delete the message, click **Remove**.
