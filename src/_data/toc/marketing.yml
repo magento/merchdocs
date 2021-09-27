@@ -303,7 +303,7 @@ pages:
           url: "/marketing/prex-type-boughtbought.html"
         - label: Conversion (view to cart)
           url: "/marketing/prex-type-convcart.html"
-        - label: Conversion (purchase)
+        - label: Conversion (view to purchase)
           url: "/marketing/prex-type-convpurchase.html"
         - label: More like this
           url: "/marketing/prex-type-morelikethis.html"
