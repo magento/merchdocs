@@ -301,7 +301,7 @@ pages:
       children:
         - label: Bought this, bought that
           url: "/marketing/prex-type-boughtbought.html"
-        - label: Conversion (add-to-cart)
+        - label: Conversion (view to cart)
           url: "/marketing/prex-type-convcart.html"
         - label: Conversion (purchase)
           url: "/marketing/prex-type-convpurchase.html"
