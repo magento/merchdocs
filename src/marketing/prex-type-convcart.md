@@ -4,7 +4,7 @@ tag: product-recommendations
 ee_only: true
 ---
 
-The _Conversion rate (add-to-cart)_ recommends products with the highest add-to-cart conversion rate.
+The _Conversion rate (add-to-cart)_ recommendation type recommends products with the highest add-to-cart conversion rate.
 
 ## How it works
 

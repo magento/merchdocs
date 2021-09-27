@@ -4,7 +4,7 @@ tag: product-recommendations
 ee_only: true
 ---
 
-The _Conversion rate (purchase)_ recommends products with the highest purchase conversion rate.
+The _Conversion rate (purchase)_ recommendation type recommends products with the highest purchase conversion rate.
 
 ## How it works
 
