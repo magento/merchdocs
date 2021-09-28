@@ -35,7 +35,7 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-**Method 1:** Via customer's edit page
+**Method 1:** From the account edit page
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 
