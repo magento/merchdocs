@@ -8,7 +8,7 @@ Order by SKU is a [widget]({% link cms/widgets.md %}) that can be displayed in t
 ![]({% link images/images/storefront-order-by-sku.png %}){: .zoom}
 _Order by SKU in the Storefront_
 
-## To order by SKU from the storefront:
+## Order by SKU from the storefront
 
 1. In the _Order by SKU_ block, enter the **SKU** and **Qty** of the item to be ordered.
 
@@ -16,7 +16,7 @@ _Order by SKU in the Storefront_
 
 1. Click **Add to Cart**.
 
-## To order by SKU from a customer account:
+## Order by SKU from a customer account
 
 1. From the storefront, log in to your customer account.
 
@@ -38,11 +38,11 @@ _Order by SKU in the Storefront_
 
        - Click **Add to Cart**.
 
-## To configure Order by SKU:
+## Configure order by SKU
 
 1. On the _Admin_ sidebar, click **Stores**.
 
-1. In the _Settings_ section, choose **Configure**.
+1. In the _Settings_ section, choose **Configuration**.
 
 1. In the _Sales_ section in the left panel, choose **Sales**.
 
@@ -59,8 +59,8 @@ _Order by SKU in the Storefront_
 
 1. Click **Save Config**.
 
-   {:.bs-callout-info}
-   To enable the **Order by SKU** function, disable the **Quick Order** function.
+{:.bs-callout-info}
+To enable the **Order by SKU** function, disable the **Quick Order** function.
 
 1. Go to **Stores** > _Settings_ > **Configuration**.
 

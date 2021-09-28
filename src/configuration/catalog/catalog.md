@@ -125,7 +125,7 @@ _[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 ## Layered Navigation
 
 {:.bs-callout-info}
-[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The standard layered navigation configuration does not apply to Live Search.
+The standard search configuration described in this section differs for [Live Search]({% link live-search/overview.md %}).
 
 ![]({% link images/images/config-catalog-catalog-layered-navigation-automatic-equalize-price-ranges.png %}){: .zoom}
 [_Layered Navigation - Automatic (equalize price ranges)_]({% link catalog/navigation-layered-configuration.md %})
@@ -164,7 +164,7 @@ _[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Popular Search Terms|Store View|Determines if Popular Search Terms is implemented in the store. Options: Enable / Disable|
+|Popular Search Terms|Store View|Determines if _Popular Search Terms_ is implemented in the store. This setting does not apply to stores that use [Live Search]({% link live-search/overview.md %}). Options: Enable / Disable|
 |Product URL Suffix|Store View|Determines if a suffix, such as html or htm, is applied to product URLs. If used, do not include a period before the suffix, because it is applied automatically.|
 |Category URL Suffix|Store View|Determines if a suffix, such as html or htm, is applied to category URLs. If used, do not include a period before the suffix, because it is applied automatically.|
 |Use Categories Path for Product URLs|Store View|Determines if category paths are included in product URLs. Doing so can cause multiple URLs to point to the same page, which might impact search rank. To learn more, see: [Canonical Meta Tag]({% link marketing/meta-canonical.md %}).|
@@ -186,7 +186,7 @@ _[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 ## Catalog Search
 
 {:.bs-callout-info}
-[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The standard search configuration described in this section differs from Live Search.
+The standard search configuration described in this section differs for [Live Search]({% link live-search/overview.md %}).
 
 Adobe Commerce supports several versions of Elasticsearch.
 

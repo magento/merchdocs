@@ -16,7 +16,7 @@ PayPal Payments Advanced cannot be used for orders created from the Admin of you
 ## Requirements
 
 - [PayPal business account][1]
-- If you manage multiple Magento websites, you must have a separate PayPal merchant account for each website.
+- If you manage multiple Adobe Commerce and Magento Open Source websites, you must have a separate PayPal merchant account for each website.
 
 ## Checkout workflow
 
@@ -31,12 +31,12 @@ Processing orders with PayPal Payments Advanced is the same as for any regular P
 
 | **1** | **Customer places order** | In the final stage of checkout, the customer taps the Place Order button. |
 | **2** | **PayPal responds** | PayPal evaluates the request. If found to be valid, PayPal processes the transaction.|
-| **3** | **Magento sets order status** | Magento receives response from PayPal, and sets the order status to one of the following:<br/>**Processing** - The transaction was successful.<br/>**Pending Payment** - The system did not receive any response from PayPal.<br/>**Canceled** - The transaction was not successful for some reason.<br/>**Suspected Fraud** -  The transaction did not pass some of the [PayPal fraud filters]({% link payment/paypal-fraud-management-filter.md %}). The system receives the response from PayPal that the transaction is under review by Fraud Service.
+| **3** | **Commerce sets order status** | Commerce receives response from PayPal, and sets the order status to one of the following:<br/>**Processing** - The transaction was successful.<br/>**Pending Payment** - The system did not receive any response from PayPal.<br/>**Canceled** - The transaction was not successful for some reason.<br/>**Suspected Fraud** -  The transaction did not pass some of the [PayPal fraud filters]({% link payment/paypal-fraud-management-filter.md %}). The system receives the response from PayPal that the transaction is under review by Fraud Service.
 | **4** | **Merchant fulfills order** | The merchant invoices and ships the order.|
 
 ## Configure your PayPal Account
 
-Before you set up PayPal Payments Advanced in Magento, you must configure your account on the PayPal website.
+Before you set up PayPal Payments Advanced in Commerce, you must configure your account on the PayPal website.
 
 1. Log in to your [PayPal business account][2].
 
@@ -49,7 +49,7 @@ Before you set up PayPal Payments Advanced in Magento, you must configure your a
 1. **Save** the settings.
 
    {:.bs-callout-info}
-   If you have multiple Magento websites, you must create a separate PayPal Payments Advanced account for each.
+   If you have multiple Commerce websites, you must create a separate PayPal Payments Advanced account for each.
 
 1. When prompted to create a layout, do the following:
 
@@ -67,7 +67,7 @@ Before you set up PayPal Payments Advanced in Magento, you must configure your a
 
    - **Save** the changes.
 
-## Set up PayPal Payments Advanced in Magento
+## Set up PayPal Payments Advanced in Commerce
 
 {:.bs-callout-info}
 You can have two PayPal solutions active at the same time: Express Checkout, plus any All-In-One or Payment Gateway solution. If you change payment solutions, the one that was used previously is disabled.
@@ -75,20 +75,20 @@ You can have two PayPal solutions active at the same time: Express Checkout, plu
 {:.bs-callout-tip}
 Click <span class="btn">Save Config</span> at any time to save your progress.
 
-### Step 1: Begin the Magento configuration
+### Step 1: Begin the configuration
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
+1. If your Commerce installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
 
 1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
 
    This setting determines the selection of PayPal Solutions that appear in the configuration.
 
-   ![Merchant Country]({% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
-   _Merchant Country_
+   ![Merchant country]({% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
+   _Merchant country_
 
 1. Expand **PayPal All-in-One Payment Solution** and click <span class="btn">Configure</span> for  **Payments Advanced**.
 
@@ -119,7 +119,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. If you want to run test transactions, set **Test Mode** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][3] that are recommended by PayPal. When you are ready to _go live_, return to the configuration and set Test Mode to `No`.
+   When testing the configuration in a sandbox, use only [credit card numbers][3] that are recommended by PayPal. When you are ready to go live, return to the configuration and set Test Mode to `No`.
 
 1. If your system uses a proxy server to establish the connection to the PayPal system, set **Use Proxy** to `Yes` and do the following:
 
@@ -133,7 +133,16 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. If you want to offer [PayPal Credit]({% link payment/paypal-credit.md %}) to your customers, set **Enable PayPal Credit** to `Yes`.
 
-### Step 4: Set up Advertise PayPal Credit (optional)
+### Step 3: Set up Advertise PayPal Credit / Advertise PayPal Pay Later (optional)
+
+Starting with the 2.4.3 release, PayPal Pay Later is supported in deployments that include PayPal. This feature allows shoppers to pay for an order in bi-weekly installments instead of paying the full amount at time of purchase. The PayPal Credit experience is deprecated.
+
+Set **Enable PayPal PayLater Experience** to one of the following:
+
+- `Yes` - To setup Advertise PayPal PayLater
+- `No` - To setup Advertise PayPal Credit
+
+#### Advertise PayPal Credit
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal Credit** section.
 
@@ -171,6 +180,83 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
    - **Catalog Product Page**
    - **Checkout Cart Page**
 
+#### Advertise PayPal Pay Later
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal PayLater** section.
+
+1. Set **Enable PayPal PayLater** to `Yes`.
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Home Page** section.
+
+1. To place a banner on the page, set **Display** to `Yes`.
+
+1. Set **Position** to one of the following:
+
+   - `Header (center)`
+   - `Sidebar`
+
+1. Set **Style Layout** to one of the following:
+
+   - `Text`
+   - `Flex`
+
+1. For Style Layout **Text** only, set **Logo Type** to one of the following:
+
+   - `Primary`
+   - `Alternative`
+   - `Inline`
+   - `None`
+
+1. For Style Layout **Text** only, set **Logo Position** to one of the following:
+
+   - `Left`
+   - `Right`
+   - `Top`
+
+1. For Style Layout **Text** only, set **Text Color** to one of the following:
+
+   - `Black`
+   - `White`
+   - `Monochrome`
+   - `Grayscale`
+
+1. For Style Layout **Text** only, set **Text Size** to one of the following:
+
+   - `10px`
+   - `11px`
+   - `12px`
+   - `13px`
+   - `14px`
+   - `15px`
+   - `16px`
+
+1. For Style Layout **Flex** only, set **Ratio** to one of the following:
+
+   - `1x1`
+   - `1x4`
+   - `8x1`
+   - `20x1`
+
+1. For Style Layout **Flex** only, set **Color** to one of the following:
+
+   - `Blue`
+   - `Black`
+   - `White`
+   - `White No Border`
+   - `Gray`
+   - `Monochrome`
+   - `Grayscale`
+
+   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png %}){: .zoom}
+   _Advertise PayPal PayLater - Home Page Settings_
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the remaining sections and repeat the previous steps:
+
+   - **Catalog Product Page**
+   - **Checkout Cart Page**
+   - **Checkout Payment Step**
+   - **Catalog Category Page**
+
 ### Step 4: Complete the basic settings
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Basic Settings - PayPal Payments Advanced** section, if needed.
@@ -201,11 +287,11 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 1. Set **Payment Applicable From** to one of the following:
 
    |`All Allowed Countries` |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
-   |`Specific Countries` |After choosing this option, the _Payment from Specific Countries_ list appears. Hold down the Ctrl key and select each country in the list where customers can make purchases from your store. |
+   |`Specific Countries` |After choosing this option, the _Payment from Specific Countries_ list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store. |
 
 1. To write communications with the payment system into the log file, set **Debug Mode** to `Yes`.
 
-   The log file for PayPal Payments Advanced is: `payments_payflow_advanced.log`.
+   The log file for PayPal Payments Advanced is `payments_payflow_advanced.log`.
 
    {:.bs-callout-info}
    In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
@@ -244,15 +330,15 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
       - Login
       - Password
 
-   - To run test reports before _going live_, set **Sandbox Mode** to `Yes`.
+   - To run test reports before going live, set **Sandbox Mode** to `Yes`.
 
    - Enter the **Custom Endpoint Hostname or IP Address**.
 
-      By default, the value is: `reports.paypal.com`
+      By default, the value is `reports.paypal.com`.
 
    - Enter the **Custom Path** where reports are saved.
 
-      By default, the value is: `/ppreports/outgoing`
+      By default, the value is `/ppreports/outgoing`.
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
@@ -291,7 +377,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
    - `Payments by PayPal (150 x 60 or 150 x 40)`
    - `Shop Now Using PayPal (150 x 60 or 150 x 40)`
 
-1. To customize the appearance of your PayPal merchant pages, do the following:
+1. To customize the appearance of your PayPal merchant pages:
 
    - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages:
 
@@ -332,7 +418,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
 1. To display the _Check out with PayPal_ button on the product page, set **Display on Product Details Page** to `Yes`.
 
-### Step 8: Complete Advanced Settings - PayPal Express Checkout
+### Step 7: Complete Advanced Settings - PayPal Express Checkout
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
 
@@ -355,7 +441,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
 1. To display a full summary of the customer’s order by line item from the PayPal site, set **Transfer Cart Line Items** to `Yes`.
 
-1. To allow the customer to complete the transaction from the PayPal site without returning to your Magento store for Order Review, set **Skip Order Review Step** to `Yes`.
+1. To allow the customer to complete the transaction from the PayPal site without returning to your store for Order Review, set **Skip Order Review Step** to `Yes`.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

@@ -12,7 +12,7 @@ _Tags Fired in Shopping Cart Shown in Debug Mode_
 
 ## Step 1. Sign Up for Google Accounts
 
-1. Sign up for a [Google Tag Manager]({% link marketing/google-tag-manager.md %}) account, and complete the Magento configuration.
+1. Sign up for a [Google Tag Manager]({% link marketing/google-tag-manager.md %}) account, and complete the Commerce configuration.
 
 1. Sign up for a new [Google Universal Analytics][1] account.
 
@@ -38,93 +38,93 @@ _Tags Fired in Shopping Cart Shown in Debug Mode_
 
     |Name|Event Type|Filter|
     |--- |--- |--- |
-    |AddToCart|Custom Event||
-    |Checkout|Custom Event||
-    |Checkout only|Page View|Page URL matches RegEx /checkout/.*|
-    |CheckoutOption|Custom Event||
+    |addToCart|Custom Event||
+    |checkout|Custom Event||
+    |checkout only|Page View|Page URL matches RegEx /checkout/.*|
+    |checkoutOption|Custom Event||
     |gtm.dom|Custom Event||
-    |ProductClick|Custom Event||
-    |PromotionClick|Custom Event||
-    |RemoveFromCart|Custom Event||
+    |productClick|Custom Event||
+    |promotionClick|Custom Event||
+    |removeFromCart|Custom Event||
 
 1. Create the following Universal Analytics tags with the same basic configuration.
 
-    **Universal Analytics Tags**
+   - Universal Analytics Tags
 
-    |Name|Type|Firing triggers|
-    |--- |--- |--- |
-    |Add to cart tracking|Universal Analytics|AddToCart|
-    |Checkout option tracking|Universal Analytics|CheckoutOption|
-    |Checkout tracking|Universal Analytics|Checkout|
-    |Pageview tracking|Universal Analytics|gtm.dom|
-    |Product click tracking|Universal Analytics|ProductClick|
-    |Promo click tracking|Universal Analytics|PromotionClick|
-    |Remove from cart tracking|Universal Analytics|RemoveFromCart|
+      |Name|Type|Firing triggers|
+      |--- |--- |--- |
+      |Add to cart tracking|Universal Analytics|addToCart|
+      |Checkout option tracking|Universal Analytics|checkoutOption|
+      |Checkout tracking|Universal Analytics|checkout|
+      |Pageview tracking|Universal Analytics|gtm.dom|
+      |Product click tracking|Universal Analytics|productClick|
+      |Promo click tracking|Universal Analytics|promotionClick|
+      |Remove from cart tracking|Universal Analytics|removeFromCart|
 
-    **Basic Tag Configuration**
+   - Basic Tag Configuration
 
-    |Setting|Value|
-    |--- |--- |
-    |Product|Google Analytics|
-    |Tag Type|Universal Analytics|
-    |Tracking ID|UA-XXX (The tracking ID from your Universal Analytics account.)|
-    |Enable Enhanced Ecommerce Features|True|
-    |Use data layer|True|
-    |Use Debug version|True|
+      |Setting|Value|
+      |--- |--- |
+      |Product|Google Analytics|
+      |Tag Type|Universal Analytics|
+      |Tracking ID|UA-XXX (The tracking ID from your Universal Analytics account.)|
+      |Enable Enhanced Ecommerce Features|True|
+      |Use data layer|True|
+      |Use Debug version|True|
 
 1. Complete the individual tracking configurations.
 
-    - Enter the following **Add to Cart** tracking settings:
+   - Enter the following **Add to Cart** tracking settings:
 
-        |Setting|Value|
-        |--- |--- |
-        |Track Type|Event|
-        |Category|Ecommerce|
-        |Action|Add to Cart|
-        |Trigger|AddToCart|
+      |Setting|Value|
+      |--- |--- |
+      |Track Type|Event|
+      |Category|Ecommerce|
+      |Action|Add to Cart|
+      |Trigger|addToCart|
 
-    - Enter the following **Checkout option** tracking settings:
+   - Enter the following **Checkout option** tracking settings:
 
-        |Setting|Value|
-        |--- |--- |
-        |Track Type|Event|
-        |Category|Ecommerce|
-        |Action|Checkout Option|
-        |Trigger|CheckoutOption|
+      |Setting|Value|
+      |--- |--- |
+      |Track Type|Event|
+      |Category|Ecommerce|
+      |Action|Checkout Option|
+      |Trigger|checkoutOption|
 
-    - Enter the following **PageView** tracking settings:
+   - Enter the following **PageView** tracking settings:
 
-        |Setting|Value|
-        |--- |--- |
-        |Track Type|PageView|
-        |Trigger|gtm.dom|
+      |Setting|Value|
+      |--- |--- |
+      |Track Type|PageView|
+      |Trigger|gtm.dom|
 
-    - Complete the following **Product Click** tracking configuration:
+   - Complete the following **Product Click** tracking configuration:
 
-        |Setting|Value|
-        |--- |--- |
-        |Track Type|Event|
-        |Category|Ecommerce|
-        |Action|Product Click|
-        |Trigger|ProductClick|
+      |Setting|Value|
+      |--- |--- |
+      |Track Type|Event|
+      |Category|Ecommerce|
+      |Action|Product Click|
+      |Trigger|productClick|
 
-    - Complete the following **Promotion Click** tracking configuration:
+   - Complete the following **Promotion Click** tracking configuration:
 
-        |Setting|Value|
-        |--- |--- |
-        |Track Type|Event|
-        |Category|Ecommerce|
-        |Action|Promotion Click|
-        |Trigger|PromotionClick|
+      |Setting|Value|
+      |--- |--- |
+      |Track Type|Event|
+      |Category|Ecommerce|
+      |Action|Promotion Click|
+      |Trigger|promotionClick|
 
-    - Complete the following **Remove from Cart** tracking configuration:
+   - Complete the following **Remove from Cart** tracking configuration:
 
-        |Setting|Value|
-        |--- |--- |
-        |Track Type|Event|
-        |Category|Ecommerce|
-        |Action|Remove from Cart|
-        |Trigger|RemoveFromCart|
+      |Setting|Value|
+      |--- |--- |
+      |Track Type|Event|
+      |Category|Ecommerce|
+      |Action|Remove from Cart|
+      |Trigger|removeFromCart|
 
 1. When complete, click <span class="btn">Preview</span> and verify that the tags work correctly.
 

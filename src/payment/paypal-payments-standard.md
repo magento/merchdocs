@@ -32,7 +32,7 @@ PayPal Payments Standard cannot be used simultaneously with any other PayPal met
 {:.bs-callout-tip}
 Click <span class="btn">Save Config</span> at any time to save your progress.
 
-### Step 1: Begin the Magento configuration
+### Step 1: Begin the configuration
 
 This setup method assumes you have an existing PayPal account.
 
@@ -40,7 +40,7 @@ This setup method assumes you have an existing PayPal account.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
+1. If your Commerce installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
 
 1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
 
@@ -97,14 +97,23 @@ _Payments Standard - configuration_
 
 1. If you are using credentials from your sandbox account, set **Sandbox Mode** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by PayPal. When you are ready to _go live_, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
+   When testing the configuration in a sandbox, use only [credit card numbers][2] that are recommended by PayPal. When you are ready to go live, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
 
-1. If your system uses a proxy server to establish the connection between Magento and the PayPal payment system, set **API Uses Proxy** to `Yes` and complete the following:
+1. If your system uses a proxy server to establish the connection between Adobe Commerce or Magento Open Source and the PayPal payment system, set **API Uses Proxy** to `Yes` and complete the following:
 
    - **Proxy Host**
    - **Proxy Port**
 
-### Step 4: Set up Advertise PayPal Credit (optional)
+### Step 4: Set up Advertise PayPal Credit / Advertise PayPal Pay Later (optional)
+
+Starting with the 2.4.3 release, PayPal Pay Later is supported in deployments that include PayPal. This feature allows shoppers to pay for an order in bi-weekly installments instead of paying the full amount at time of purchase. The PayPal Credit experience is deprecated.
+
+Set **Enable PayPal PayLater Experience** to one of the following:
+
+- `Yes` - To setup Advertise PayPal PayLater
+- `No` - To setup Advertise PayPal Credit
+
+#### Advertise PayPal Credit
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal Credit** section.
 
@@ -141,6 +150,83 @@ _Payments Standard - configuration_
    - **Catalog Category Page**
    - **Catalog Product Page**
    - **Checkout Cart Page**
+
+#### Advertise PayPal Pay Later
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal PayLater** section.
+
+1. Set **Enable PayPal PayLater** to `Yes`.
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Home Page** section.
+
+   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png %}){: .zoom}
+   _Advertise PayPal PayLater - Home Page Settings_
+
+1. To place a banner on the page, set **Display** to `Yes`.
+
+1. Set **Position** to one of the following:
+
+   - `Header (center)`
+   - `Sidebar`
+
+1. Set **Style Layout** to one of the following:
+
+   - `Text`
+   - `Flex`
+
+1. For Style Layout **Text** only, set **Logo Type** to one of the following:
+
+   - `Primary`
+   - `Alternative`
+   - `Inline`
+   - `None`
+
+1. For Style Layout **Text** only, set **Logo Position** to one of the following:
+
+   - `Left`
+   - `Right`
+   - `Top`
+
+1. For Style Layout **Text** only, set **Text Color** to one of the following:
+
+   - `Black`
+   - `White`
+   - `Monochrome`
+   - `Grayscale`
+
+1. For Style Layout **Text** only, set **Text Size** to one of the following:
+
+   - `10px`
+   - `11px`
+   - `12px`
+   - `13px`
+   - `14px`
+   - `15px`
+   - `16px`
+
+1. For Style Layout **Flex** only, set **Ratio** to one of the following:
+
+   - `1x1`
+   - `1x4`
+   - `8x1`
+   - `20x1`
+
+1. For Style Layout **Flex** only, set **Color** to one of the following:
+
+   - `Blue`
+   - `Black`
+   - `White`
+   - `White No Border`
+   - `Gray`
+   - `Monochrome`
+   - `Grayscale`
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the remaining sections and repeat the previous steps:
+
+   - **Catalog Product Page**
+   - **Checkout Cart Page**
+   - **Checkout Payment Step**
+   - **Catalog Category Page**
 
 ### Step 5: Complete the basic settings
 
@@ -211,7 +297,7 @@ _Payments Standard - configuration_
    {:.bs-callout-info}
    Merchants must request PayPal Merchant Technical Support to enable billing agreements in their accounts. The _Billing Agreement Signup_ parameter can be enabled only after PayPal confirms that billing agreements are enabled for your merchant account.
 
-1. To allow the customer to complete the transaction from the PayPal site without returning to your Magento store for Order Review, set **Skip Order Review Step** to `Yes`.
+1. To allow the customer to complete the transaction from the PayPal site without returning to your store for Order Review, set **Skip Order Review Step** to `Yes`.
 
 ### Step 7: Complete and save the configuration settings
 
@@ -273,15 +359,15 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
       - Login
       - Password
 
-   - To run test reports before _going live_ with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
+   - To run test reports before going live with Express Checkout on your site, set **Sandbox Mode** to `Yes`.
 
    - Enter the **Custom Endpoint Hostname or IP Address**.
 
-      By default, the value is: `reports.paypal.com`
+      By default, the value is `reports.paypal.com`.
 
    - Enter the **Custom Path** where reports are saved.
 
-      By default, the value is: `/ppreports/outgoing`
+      By default, the value is `/ppreports/outgoing`.
 
 1. To generate reports according to a schedule, complete the **Scheduled Fetching** settings:
 
@@ -320,7 +406,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
    - `Payments by PayPal (150 x 60 or 150 x 40)`
    - `Shop Now Using PayPal (150 x 60 or 150 x 40)`
 
-1. To customize the appearance of your PayPal merchant pages, do the following:
+1. To customize the appearance of your PayPal merchant pages:
 
    - Enter the name of the **Page Style** that you want to apply to your PayPal merchant pages:
 

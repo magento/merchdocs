@@ -2,6 +2,9 @@
 title: Popular Search Terms
 ---
 
+{:.bs-callout-info}
+The search functionality described in this topic does not apply to stores that use [Live Search]({% link live-search/overview.md %}). For those stores, the _Search Terms_ link does not appear in the footer.
+
 The Search Terms link in the footer of your store displays the search terms used by visitors to your store, ranked by popularity. Search terms appear in a _tag cloud_ format, where the size of the text indicates the popularity of the term.
 
 By default, Popular Search Terms is enabled as a search engine optimization tool, but has no direct connection to the catalog search process. Because the Search Terms page is indexed by search engines, any terms on the page can help improve your search engine ranking and the visibility of your store. The URL of the Popular Search Terms page is: `mystore.com/search/term/popular/`
@@ -27,4 +30,4 @@ _Popular Search Terms_
 [_Search Engine Optimization_]({% link configuration/catalog/catalog.md %})
 
 {:.bs-callout-info}
-You can further configure the caching of popular [catalog searches({% link catalog/search-configuration.md %}).
+You can further configure the caching of popular [catalog searches]({% link catalog/search-configuration.md %}).

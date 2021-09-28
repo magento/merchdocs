@@ -36,7 +36,7 @@ title: International Tax Guidelines
 |Tax Calculation|On item|
 |Tax shipping?|Yes|
 |Apply Discount|Before tax, discount on prices, including tax.|
-|Comment|For B2B merchants to provide simpler VAT supply chain considerations. Tax calculation on row is also valid; however, check with your taxing jurisdiction. Setup assumes a merchant is in the supply chain and that goods sold are used by other vendors for VAT rebates and so on. This makes it easy to discern tax by item for faster rebate generation. <br/><br/>**_Note:_** Some jurisdictions require different rounding strategies not currently supported by Magento, and that not all jurisdictions allow item or row level tax.|
+|Comment|For B2B merchants to provide simpler VAT supply chain considerations. Tax calculation on row is also valid; however, check with your taxing jurisdiction. Setup assumes a merchant is in the supply chain and that goods sold are used by other vendors for VAT rebates and so on. This makes it easy to discern tax by item for faster rebate generation. <br/><br/>**_Note:_** Some jurisdictions require different rounding strategies not currently supported by Commerce, and that not all jurisdictions allow item or row level tax.|
 
 ## Canada tax configuration
 

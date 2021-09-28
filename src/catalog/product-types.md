@@ -2,7 +2,7 @@
 title: Product Types
 ---
 
-Magento supports multiple product types within the catalog.
+Adobe Commerce and Magento Open Source support multiple product types within the catalog.
 
 Simple product
 :  A [simple product]({% link catalog/product-create-simple.md %}) is a physical item with a single SKU. Simple products have a variety of pricing and of input controls which makes it possible to sell variations of the product. Simple products can be used in association with grouped, bundle, and configurable products.

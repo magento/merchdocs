@@ -7,9 +7,9 @@ redirect_from:
 ---
 
 {:.bs-callout-info}
-[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The standard search configuration described in this topic does not apply to Live Search.
+The standard search configuration described in this topic does not apply to [Live Search]({% link live-search/overview.md %}).
 
-Elasticsearch is a powerful and highly scalable distributed search engine that is used by many industry leaders with high-volume sites. The implementation of Elasticsearch includes both search suggestions and recommendations. As of Magento 2.4.0, Elasticsearch 7.6.x is required for all installations. For installation instructions, see [Set up Elasticsearch service][1]{:target="_blank"} in our developer documentation.
+Elasticsearch is a powerful and highly scalable distributed search engine that is used by many industry leaders with high-volume sites. The implementation of Elasticsearch includes both search suggestions and recommendations. As of Adobe Commerce and Magento Open Source 2.4.0, Elasticsearch 7.6.x is required for all installations. For installation instructions, see [Set up Elasticsearch service][1]{:target="_blank"} in our developer documentation.
 
 ## Step 1: Configure general search options
 
@@ -25,7 +25,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 1. To limit the length and word count of search query text, set a value for **Minimal Query Length** and **Maximum Query Length**.
 
    {:.bs-callout-info}
-   **Important:** The value set for this minimum and maximum range must be compatible with the corresponding range set in your Elasticsearch search engine configuration. For example, if you set these values to `2` and `300` in Magento, update the corresponding values in your search engine.
+   **Important:** The value set for this minimum and maximum range must be compatible with the corresponding range set in your Elasticsearch search engine configuration. For example, if you set these values to `2` and `300` in Commerce, update the corresponding values in your search engine.
 
 1. To limit the amount of popular search results to cache for faster responses, set an amount for **Number of top search results to cache**.
 
@@ -42,20 +42,20 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 ## Step 2: Configure the Elasticsearch connection
 
 {:.bs-callout-info}
-The **Search Engine**, **Elasticsearch Server Hostname**, **Elasticsearch Server Port**, **Elasticsearch Index Prefix**, **Enable Elasticsearch HTTP Auth**, and **Elasticsearch Server Timeout** fields were configured when Magento was installed or upgraded. These values should only be changed when upgrading or modifying Elasticsearch.
+The **Search Engine**, **Elasticsearch Server Hostname**, **Elasticsearch Server Port**, **Elasticsearch Index Prefix**, **Enable Elasticsearch HTTP Auth**, and **Elasticsearch Server Timeout** fields were configured when Commerce was installed or upgraded. These values should only be changed when upgrading or modifying Elasticsearch.
 
 ![]({% link images/images/config-catalog-catalog-search-elasticsearch-2.png %}){: .zoom}
 [_Elasticsearch Connection Settings_]({% link configuration/catalog/catalog.md %})
 
 1. For **Search Engine**, accept the default value `Elasticsearch 7`.
 
-   Elasticsearch 7.6.x is required for all Magento installations.
+   Elasticsearch 7.6.x is required for all Commerce installations.
 
-1. For **Elasticsearch Server Hostname**, accept the default value that was configured when Magento was installed.
+1. For **Elasticsearch Server Hostname**, accept the default value that was configured when Commerce was installed.
 
    In this example, the default value is `elasticsearch.internal`.
 
-1. For **Elasticsearch Server Port**, accept the default value that was configured when Magento was installed.
+1. For **Elasticsearch Server Port**, accept the default value that was configured when Commerce was installed.
 
    In this example, the default value is `9200`.
 

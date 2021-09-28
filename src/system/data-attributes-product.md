@@ -32,7 +32,7 @@ The installation used to export this data has the sample data installed, and has
 |meta_title|The meta title appears in the title bar and tab of the browser and search results lists. The meta title should be unique to the product, incorporate high-value keywords, and be less than 70 characters in length.|
 |meta_keywords|Meta keywords are visible only to search engines, and are ignored by some search engines. Choose high-value keywords, separated by a comma. For example: `keyword1`, `keyword2`, `keyword3`|
 |meta_description|Meta descriptions provide a brief overview of the product for search results listings. Ideally, a meta description should be between 150-160 characters in length, although the field accepts up to 255 characters.|
-|base_image|The relative path for the main image on the product page. Magento stores files internally in an alphabetical folder structure. You can see the exact location of each image in the exported data. For example: `/sample_data/m/b/mb01-blue-0.jpg`<br/>To upload a new image or write over an existing image, enter the file name, preceded by a forward slash. For example: `/image.jpg`|
+|base_image|The relative path for the main image on the product page. Commerce stores files internally in an alphabetical folder structure. You can see the exact location of each image in the exported data. For example: `/sample_data/m/b/mb01-blue-0.jpg`<br/>To upload a new image or write over an existing image, enter the file name, preceded by a forward slash. For example: `/image.jpg`|
 |base_image_label|The label that is associated with the base image.|
 |small_image|The  file name of the small image that is used on catalog pages, preceded by a forward slash. For example: `/image.jpg`|
 |small_image_label|The label associated with the small image. For example: `Small Image 1`, `Small Image 2`|
@@ -85,7 +85,7 @@ The installation used to export this data has the sample data installed, and has
 |upsell_position|Determines the position (sort order) of the SKUs that are listed as Up-sell Products in the upsell_skus column.|
 |additional_images|The  file names of any additional image to be associated with the product, preceded by a forward slash. For example: `/image.jpg`|
 |additional_image_labels|The labels associated with any additional images. For example: `Label 1`, `Label 2`|
-|custom_options|Specifies the properties and values assigned to each custom option. For example: <br/>`name=Color,type=drop_down,required=1,price= price_type=fixed,sku=,option_title=Black|name=Color,type=drop_down,required=1,price=,price_type=fixed,sku=,option_title=White`|
+|custom_options|Specifies the properties and values assigned to each custom option. For example: <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White`|
 
 ### Service Data for Product Variations
 

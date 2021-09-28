@@ -2,7 +2,7 @@
 title: Site-Wide Analysis Tool
 ---
 
-The Site-Wide Analysis Tool (SWAT) provides 24/7 real-time performance monitoring, reports, and recommendations to ensure the security and operability of Magento Commerce Cloud installations. The Site-Wide Analysis Tool provides a dashboard and reports with system insights and recommendations based on best practices that you can use to address detected issues. The service is available in [production mode]({% link magento/installation-modes.md %}) for Admin users with permission to access user [role resources]({% link system/permissions-user-roles.md %}).
+The Site-Wide Analysis Tool (SWAT) provides 24/7 real-time performance monitoring, reports, and recommendations to ensure the security and operability for installations of Adobe Commerce on cloud infrastructure. The Site-Wide Analysis Tool provides a dashboard and reports with system insights and recommendations based on best practices that you can use to address detected issues. The service is available in [production mode]({% link magento/installation-modes.md %}) for Admin users with permission to access user [role resources]({% link system/permissions-user-roles.md %}).
 
 ![Swat Dashboard]({% link images/images-ee/reports-swat-dashboard.png %}){: .zoom}
 _SWAT Dashboard_
@@ -26,7 +26,7 @@ For the custom role needing Site-Wide Analysis Tool access, do the following:
 1. Notify any users who are assigned that role to sign out of the Admin, and sign in again.
 
 {:.bs-callout-info}
-If you have verified that the user account has permission to access the Site-Wide Analysis Tool and the user receives a 403 error when trying to access the tool from the Admin, your Magento Commerce Cloud instance could have HTTP access control enabled. The Site-Wide Analysis Tool Dashboard is NOT supported if you have HTTP Auth enabled. For more information about resolving this issue, see our [Support article](https://support.magento.com/hc/en-us/articles/360057400172-403-errors-when-accessing-Site-Wide-Analysis-Tool-on-Magento).
+If you have verified that the user account has permission to access the Site-Wide Analysis Tool and the user receives a 403 error when trying to access the tool from the Admin, your instance of Adobe Commerce on cloud infrastructure could have HTTP access control enabled. The Site-Wide Analysis Tool Dashboard is NOT supported if you have HTTP Auth enabled. For more information about resolving this issue, see our [Support article](https://support.magento.com/hc/en-us/articles/360057400172-403-errors-when-accessing-Site-Wide-Analysis-Tool-on-Magento).
 
 ## Step 2: Access Site-Wide Analysis Tool
 
@@ -58,7 +58,7 @@ If you have verified that the user account has permission to access the Site-Wid
 |Tab|Description|
 |--- |--- |
 |Dashboard|Shows the health of your system with current notifications and recommendations by priority.|
-|Information|Provides customer contact information and summary of current tickets, with detailed information about each installed Magento product.|
+|Information|Provides customer contact information and summary of current tickets, with detailed information about each installed Adobe Commerce product.|
 |Recommendations|Lists recommendations based on best practices to address issues detected on your site.|
 |Exceptions|Lists errors thrown by the application caused by abnormal conditions without a error handler.|
 |Extensions|Lists all 3rd-Party Extensions and 3rd-Party Libraries.|

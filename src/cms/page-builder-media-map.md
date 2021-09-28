@@ -1,11 +1,20 @@
 ---
-ee_only: true
 title: Media - Map
 ---
 
 Use the _Map_ content type to add a map from [Google Maps Platform][1] to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). For example, you might add a map to a block, and then add the block to the [About Us]({% link cms/pages-core.md %}) and [Contact Us]({% link stores/contact-us.md %}) pages.
 
 To get the most from Google Maps Platform, you can customize the map, highlight your store location(s), and use Google [Places][2] to add rich information about your store to all Google maps.
+
+## Benefits of embedding Google Map
+
+1. Provides buyers with a full scope of information about your business (phone number, website, reviews, star ratings, and so on.) right on your site.
+
+1. A Google map usually recommends and highlights nearby attractions, parks, restaurants, and so on. This helps your customers determine your physical location and plan their trip.
+
+1. Makes it easy for customers to find the address for your physical store without the need to open a new browser window and leave your site.
+
+1. If you have a chain of physical stores, adding a Google Map on your site helps to increase your brand awareness and credibility in the form of highlighted items.
 
 ![]({% link images/images-ee/page-builder-media-maps-storefront.png %}){: .zoom}
 _Example storefront - map with location_
@@ -42,7 +51,7 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
 1. Copy your API Key to the clipboard.
 
-### Step 2: Configure Google Maps in Magento
+### Step 2: Configure Google Maps in Commerce
 
 1. In the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -169,7 +178,7 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
    When complete, click <span class="btn">Finish</span>.
 
-1. Export the completed style as JSON code or as a URL so that you can add it to the Magento configuration.
+1. Export the completed style as JSON code or as a URL so that you can add it to the Commerce configuration.
 
    ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-export-style.png %}){: .zoom}
    _Export Style_

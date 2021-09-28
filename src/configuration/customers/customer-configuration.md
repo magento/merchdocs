@@ -11,7 +11,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Share Customer Accounts|Global|Determines the scope of customer accounts in the store hierarchy. Options: <br/>**Global** - Customer account information is shared with every website and store in the Magento installation. <br/>**Per Website** - Customer account information is limited to the website where the account was created.|
+|Share Customer Accounts|Global|Determines the scope of customer accounts in the store hierarchy. Options: <br/>**Global** - Customer account information is shared with every website and store in the Commerce installation. <br/>**Per Website** - Customer account information is limited to the website where the account was created.|
 
 ## Online Customers Options
 
@@ -166,8 +166,8 @@ _[CAPTCHA]({% link stores/security-captcha.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable CAPTCHA on Storefront|Website|Enables CAPTCHA in the store(s) associated with the Magento website. Options: Yes / No|
-|Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Magento installation and add the declaration to the `config.xml` file at `app/code/Magento/Captcha/etc`.|
+|Enable CAPTCHA on Storefront|Website|Enables CAPTCHA in the store(s) associated with the Commerce website. Options: Yes / No|
+|Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Commerce installation and add the declaration to the `config.xml` file at `app/code/Magento/Captcha/etc`.|
 |Forms|Website|Determines the form(s) where CAPTCHA is used. Options: <br />Applying Coupon Code <br />Checkout/Placing Order<br />Create user <br />Login <br />Forgot password <br />Contact Us <br />Change password <br />Share Wishlist Form <br />Send to Friend Form <br />Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991)) <br /><span class="ee-only">Add Gift Card Code</span> <br /><span class="ee-only">Create company</span><br /><br />_**Note:**_ The Create User, Forgot Password, and Payflow Pro forms are always enabled when selected.|
 |Displaying Mode|Website|Determines when the CAPTCHA appears. Options: <br/>**Always** - CAPTCHA is always required to log in. <br/>**After number of attempts to login** - This option applies only to the Admin Sign In form. When selected, the Number of Unsuccessful Attempts to Login field appears. Enter the number of login attempts that you want to allow. A value of 0 (zero) is similar to setting Displaying Mode to 'Always'.<br/>_**Note:**_ To track the number of unsuccessful login attempts, each attempt to log in under one email address and from one IP-address is counted. The maximum number of login attempts allowed from the same IP-address is 1,000. This limitation applies only when CAPTCHA is enabled.|
 |Number of Unsuccessful Attempts to Login|Website|Specifies the number of times a customer can try to log in before the account is locked.|

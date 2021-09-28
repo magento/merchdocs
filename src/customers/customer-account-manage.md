@@ -2,7 +2,7 @@
 title: Managing Customer Accounts
 ---
 
-Use the Customers grid to find any customer account. You can use the standard [workplace controls]({% link stores/admin-workspace.md %}) to filter the list, change the [column layout]({% link stores/admin-grid-layout.md %}), save views, and export data. The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an operation to multiple customer records.
+Use the Customers grid to find any customer account. You can use the standard [workplace controls]({% link stores/admin-workspace.md %}) to filter the list, change the [column layout]({% link stores/admin-grid-controls.md %}), save views, and export data. The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an operation to multiple customer records.
 
 ![]({% link images/images/customers-all-customers.png %}){: .zoom}
 _All Customers_
@@ -99,6 +99,21 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 
    To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
 
+## Export customers accounts
+
+1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
+
+1. In the Table Header Menu, click **Export** and select the desired format:
+
+- CSV
+
+- Excel XML
+
+1. Click <span class="btn">OK</span>. The file will go to your default downloads folder.
+
+{:.bs-callout-info}
+The above instruction will export all customer accounts. If you want to export a limited set, select the checkboxes for the accounts you want to export, or use filters on the control panel to select a range of customer accounts.
+
 ## Actions/controls
 
 {: .fields-table }
@@ -137,7 +152,7 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 
 ### Additional Columns
 
-These columns are available by changing the [column layout]({% link stores/admin-grid-layout.md %}) of the grid.
+These columns are available by changing the [column layout]({% link stores/admin-grid-controls.md %}) of the grid.
 
 {: .fields-table }
 |Company|The company name of the customer.|

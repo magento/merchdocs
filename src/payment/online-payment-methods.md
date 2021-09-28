@@ -5,9 +5,7 @@ redirect_from:
   - /payment/gateways.html
 ---
 
-{:.bs-callout-info}
-
-Magento supports numerous payment solutions that offer merchant services in all parts of the world. Unlike some payment solutions that transfer control to another site to complete the transaction, a payment gateway makes it possible for you to accept credit card payments directly from your store without the customer leaving your site.
+Adobe Commerce and Magento Open Source support numerous payment solutions that offer merchant services in all parts of the world. Unlike some payment solutions that transfer control to another site to complete the transaction, a payment gateway makes it possible for you to accept credit card payments directly from your store without the customer leaving your site.
 
 ## Recommended solutions
 

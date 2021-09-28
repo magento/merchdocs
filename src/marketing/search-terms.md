@@ -2,11 +2,14 @@
 title: Search Terms
 ---
 
+{:.bs-callout-info}
+The _Search Terms_ functionality described in this section does not apply to stores that use [Live Search]({% link live-search/overview.md %}).
+
 You can learn what your customers are looking for by examining the search terms they use to find products in your store. If enough people look for a product that you don’t carry, perhaps it is time to add it to your catalog. Meanwhile, rather than have them leave them empty handed, why not redirect them to another product in your catalog? Here are a few ways you can leverage customer search terms:
 
 ## Landing Page
 
-The [landing page]({% link cms/pages.md -%}) for a search term can be a content page, a category page, a product detail page, or even a page on a different site.
+The [landing page]({% link cms/pages.md %}) for a search term can be a content page, a category page, a product detail page, or even a page on a different site.
 
 ## Synonyms
 
@@ -15,7 +18,7 @@ One way to improve the effectiveness of [catalog search]({% link catalog/search-
 Adobe Commerce supports two different synonym management solutions:
 
 - Live Search [Synonyms]({% link live-search/synonyms.md %}) is available for Adobe Commerce installations with Live Search installed.
-- Standard [Search Synonyms](https://docs.magento.com/user-guide/marketing/search-synonyms.html) is available out-of-the-box for all Adobe Commerce installations.
+- Standard [Search Synonyms]({% link marketing/search-synonyms.md %}) is available out-of-the-box for all Adobe Commerce installations.
 
 ## Misspelled Words
 

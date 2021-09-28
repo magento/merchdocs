@@ -98,7 +98,7 @@ After creating a new shared catalog, it must be configured with the appropriate 
 |Field|Description|
 |--- |--- |
 |Name|Identifies the shared catalog throughout the Admin, and in the customer account(s) where it is available. The catalog name should be descriptive and no more than 32 characters in length. You cannot have two shared catalogs with the same name. Maximum characters: 32|
-|Type|**Custom** - Identifies a catalog with custom pricing that is available only to the specific companies to which it is assigned.<br/>**Public** - Identifies the shared catalog that is available to all guest visitors and to logged-in customers who are not associated with a company. A default pubic shared catalog is created when Magento Commerce for B2B is installed, but must be configured by the administrator. Only one public shared catalog can exist at a time.|
+|Type|**Custom** - Identifies a catalog with custom pricing that is available only to the specific companies to which it is assigned.<br/>**Public** - Identifies the shared catalog that is available to all guest visitors and to logged-in customers who are not associated with a company. A default pubic shared catalog is created when B2B for Adobe Commerce is installed, but must be configured by the administrator. Only one public shared catalog can exist at a time.|
 |Customer Tax Class|Determines the tax class that is used for purchases made from the catalog. The options include all available tax classes.|
 |Description|A brief explanation of how the catalog is to be used.|
 

@@ -6,7 +6,7 @@ Stock represents a virtual, aggregated inventory of products for sources of your
 
 You start with a Default Stock that cannot be removed or disabled. You can add additional sales channels to the stock only. The only assigned source is Default Source. This stock is used by Single Source Merchants, 3rd party integrations, and imported products.
 
-Sales Channels represent entities selling your inventory. By default, Magento provides your store websites as sales channels. Sales channels can be extended to support additional channels such as B2B customers groups and store views. Each sales channels can only be associated to one Stock.
+Sales Channels represent entities selling your inventory. By default, Commerce provides your store websites as sales channels. Sales channels can be extended to support additional channels such as B2B customers groups and store views. Each sales channels can only be associated to one Stock.
 
 - **Sales Channel Support** - Sales channels currently include websites out-of-the-box. You can extend sales channels to include custom options like B2B customers groups and store views. Each sales channel can only have a single stock assigned to it. A single stock can be assigned to multiple sales channels.
 - **Map to Sources** - Each stock can have one or more enabled or disabled sources assigned, calculating the virtual aggregated inventory per product.
@@ -26,7 +26,7 @@ All stores start with a Default Stock. It must remain "Enabled" for the followin
 
 For Multi Source merchants, create and configure stocks as needed to best fit your stores and order fulfillment. When you assign new stock to a sales channel, any pre-existing stock in that sales channel becomes unassigned.
 
-For a multisite installation, the Default Stock is initially assigned to the [Main Website]({% link stores/stores-all-create-website.md %}) and default store.
+For a multi-store installation, the Default Stock is initially assigned to the [Main Website]({% link stores/stores-all-create-website.md %}) and default store. Correct stock and quantities are displayed for enabled and disabled products in the **Products** grid view.
 
 ![]({% link images/images/stores-inventory-stock.png %}){: .zoom}
 _Manage Stock_

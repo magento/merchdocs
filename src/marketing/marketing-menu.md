@@ -4,10 +4,10 @@ title: Marketing Menu
 
 The Marketing menu provides access tools for managing promotions, communications, SEO, and user-generated content.
 
-![Magento Admin - Marketing menu]({% link images/images-ee/admin-menu-marketing-ee.png %}){: .zoom}
-_Marketing Menu_{:.ee-only}
+![Commerce Admin - Marketing menu]({% link images/images-ee/admin-menu-marketing-ee.png %}){: .zoom}
+_Marketing menu_
 
-## Display the Marketing Menu
+## Display the Marketing menu
 
 On the _Admin_ sidebar, click **Marketing**.
 

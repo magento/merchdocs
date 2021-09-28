@@ -2,7 +2,7 @@
 title: Moderate Reviews
 ---
 
-To ensure that reviews are appropriate for public display your store, a submitted Magento product review must be approved before it can be displayed. A submitted review is in a `Pending` status until it is approved or rejected.
+For Commerce Product Reviews, a submitted product review must be approved before it can be displayed. This ensures that reviews are appropriate for public display your store. A submitted review is in a `Pending` status until it is approved or rejected.
 
 1. On the _Admin_ sidebar, go to **Marketing** > _User Content_ > **Pending Reviews** or **All Reviews**.
 
@@ -14,12 +14,25 @@ To ensure that reviews are appropriate for public display your store, a submitte
 
    - To reject a review, select `Not Approved`. Unapproved reviews disappear from the list of **Pending Reviews** page.
 
-1. If needed, change the values for **Detailed Rating**, **Nickname**, and **Summary of Review**.
+   {:.bs-callout-info}
+   Reviews with the `Pending` and `Not Approved` statuses are not displayed on the storefront.
+
+1. If needed, change the values for **Detailed Rating**, **Nickname**, and **Summary of Review**. To change the store view where a review will be available, choose the needed store view in the **Visibility** column.
 
    ![Edit review page]({% link images/images/edit-review-page.png %}){: .zoom}
    _Edit review page_
 
 1. When complete, click <span class="btn">Save Review</span>.
+
+## Delete a product review
+
+1. On the _Admin_ sidebar, go to **Marketing** > _User Content_ > **All Reviews**.
+
+1. Find the product review to be deleted and open it in edit mode.
+
+1. In the menu bar click **Delete Review** button.
+
+1. To confirm the action, click <span class="btn">OK</span>.
 
 ## Button bar
 

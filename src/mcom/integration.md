@@ -3,7 +3,7 @@ ee_only: true
 title: Integration
 ---
 
-Integration enables you to add or disable the Order Management System (OMS) integration for Magento Commerce and view details of the integration.
+Integration enables you to add or disable the Order Management System (OMS) integration for Adobe Commerce and view details of the integration.
 
 ![Integration]({% link images/images-ee/mcom-integration.png %}){: .zoom}
 _Integration_

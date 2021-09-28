@@ -8,13 +8,13 @@ This information includes specifics for Inventory Management. For additional inf
 
 ## Orders
 
-Magento supports single orders and multiaddress orders out-of-the-box without additional configurations. As customers or your staff enter orders, Inventory Management tracks inventory using reservations against the salable quantity, deducting from inventory quantity when invoicing and shipping the products.
+Commerce supports single orders and multiaddress orders out-of-the-box without additional configurations. As customers or your staff enter orders, Inventory Management tracks inventory using reservations against the salable quantity, deducting from inventory quantity when invoicing and shipping the products.
 
 ### Multiaddress orders
 
 For multiaddress orders, a series of single orders are generated, one for each destination address entered. During checkout, customers select each set of products associated per address during checkout generates as single orders according to the destination address. Each order includes the products associated per address.
 
-Magento manages inventory for these multiaddress orders exactly like single orders, allowing for Source Selection Algorithm recommendations or overrides during shipment, partial shipments, canceling orders, and refunding with stock updates.
+Commerce manages inventory for these multiaddress orders exactly like single orders, allowing for Source Selection Algorithm recommendations or overrides during shipment, partial shipments, canceling orders, and refunding with stock updates.
 
 ![]({% link images/images/inventory/inventory-multi-ship.png %}){: .zoom}
 _Multiaddress at Checkout_
@@ -34,11 +34,11 @@ Behind the scenes, Inventory Management automatically enters a compensation rese
 
 ## Shipments
 
-With Magento Inventory Management enabled, you can send partial or complete shipments from one or more sources to fulfill orders. You control your outgoing inventory for each order, setting the amounts to deduct, sending one or more shipments, and delivering in stock and backorders as inventory is available. For each line item in the order, enter an amount to deduct from the source quantity. Generate a shipment per source as you have inventory stock, until the entire order is fulfilled.
+With Inventory Management enabled, you can send partial or complete shipments from one or more sources to fulfill orders. You control your outgoing inventory for each order, setting the amounts to deduct, sending one or more shipments, and delivering in stock and backorders as inventory is available. For each line item in the order, enter an amount to deduct from the source quantity. Generate a shipment per source as you have inventory stock, until the entire order is fulfilled.
 
 ### Partial shipments
 
-For Multi Source merchants, Magento generates a shipment for every source you select. The general workflow allows you to select a source, set the products quantity to deduct to fulfill the order, and proceed to shipment. When complete, create additional shipments for each source until you have fulfilled the order.
+For Multi Source merchants, Commerce generates a shipment for every source you select. The general workflow allows you to select a source, set the products quantity to deduct to fulfill the order, and proceed to shipment. When complete, create additional shipments for each source until you have fulfilled the order.
 
 Single Source merchants may also send partial shipments to support backorders or balance inventory as orders come in for popular items.
 

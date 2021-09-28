@@ -2,11 +2,11 @@
 title: Adding Stores
 ---
 
-A single installation of Magento can have multiple stores that share the same Admin. Stores that are under the same website have the same IP address and domain, use the same security certificate, and share a single checkout process.
+A single installation of Adobe Commerce or Magento Open Source can have multiple stores that share the same Admin. Stores that are under the same website have the same IP address and domain, use the same security certificate, and share a single checkout process.
 
-The important thing to understand is that the stores use the same Magento code and share the same Admin. Each store can have a separate catalog, or the stores can share the same catalog. Each store can have a separate [root category]({% link catalog/category-root.md %}), which makes it possible to have a different main menu for each store. Stores can also have different branding, presentation, and content. Take some time to plan your store hierarchy with future growth in mind before you begin, because it is used throughout the configuration.
+The important thing to understand is that the stores use the same code and share the same Admin. Each store can have a separate catalog, or the stores can share the same catalog. Each store can have a separate [root category]({% link catalog/category-root.md %}), which makes it possible to have a different main menu for each store. Stores can also have different branding, presentation, and content. Take some time to plan your store hierarchy with future growth in mind before you begin, because it is used throughout the configuration.
 
-Multi-store installations of Magento must be configured from the Admin and also from the command line of the server. The Magento developer [documentation]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/multi-site/ms_over.html) provides detailed instructions for configuring the server environment.
+Multi-store installations of Adobe Commerce must be configured from the Admin and also from the command line of the server. The Adobe Commerce developer [documentation]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/multi-site/ms_over.html) provides detailed instructions for configuring the server environment.
 
 ![Scope - multiple stores]({% link images/images/scope-multistore.png %}){:width="550px"}
 
@@ -101,4 +101,4 @@ To configure your web server, see the following tutorials:
 - [Set up multiple websites with NGNX]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/multi-site/ms_nginx.html)
 - [Set up multiple websites with Apache]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/multi-site/ms_apache.html)
 
-For Magento Commerce Cloud, see [Set up multiple websites or stores]({{ site.devdocs_url }}/cloud/project/project-multi-sites.html).
+For Adobe Commerce on cloud infrastructure, see [Set up multiple websites or stores]({{ site.devdocs_url }}/cloud/project/project-multi-sites.html).

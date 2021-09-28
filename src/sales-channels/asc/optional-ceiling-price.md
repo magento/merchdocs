@@ -19,7 +19,7 @@ Define your optional highest price settings in the **Optional Ceiling Price** se
 
 1. For **Ceiling Price Source**, choose an attribute.
 
-   Select your Magento [product attribute]({% link catalog/product-attributes.md %}) that will indicate your relative ceiling limit. For example, if you do not want your Amazon listing price to go above the MSRP of your item, you would choose the `Manufacturer's Suggested Retail Price` attribute.
+   Select your Commerce [product attribute]({% link catalog/product-attributes.md %}) that will indicate your relative ceiling limit. For example, if you do not want your Amazon listing price to go above the MSRP of your item, you would choose the `Manufacturer's Suggested Retail Price` attribute.
 
 1. For **Ceiling Price Action**, choose an option.
 
@@ -40,7 +40,7 @@ _Intelligent Repricing Rule: Optional Ceiling Price_
 
 |Field |Description|
 |---|---|
-|Ceiling Price Source|Choose the Magento [product attribute]({% link catalog/product-attributes.md %}) that will indicate your relative ceiling limit. For example, if you do not want your product listing price to go above the MSRP of your item, you would choose the `Manufacturer's Suggested Retail Price` attribute. |
+|Ceiling Price Source|Choose the Commerce [product attribute]({% link catalog/product-attributes.md %}) that will indicate your relative ceiling limit. For example, if you do not want your product listing price to go above the MSRP of your item, you would choose the `Manufacturer's Suggested Retail Price` attribute. |
 |Ceiling Price Action |Choose a pricing adjustment action. Options:<br/>**Decrease By** - Choose when you want the defined _Ceiling Price Source_ value to be adjusted down, creating a lower ceiling price for the rule, before listing to Amazon.<br/>**Increase By** - Choose when you want the defined _Ceiling Price Source_ value to be adjusted up, creating a higher ceiling price for the rule, before listing to Amazon.<br/>**Match** - Choose when you do not want the listing price to fluctuate above the defined _Ceiling Price Source_ value. When set to `Match`, the _Apply_ and _Ceiling Adjustment Amount_ fields are disabled. |
 |Apply|**Apply as percentage** - A percentage adjustment relative to the _Ceiling Price Source_ value. |
 |Ceiling Price Adjustment|Enter the numerical value for the percent to adjust your _Ceiling Price Source_ value. |

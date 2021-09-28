@@ -4,8 +4,8 @@ pages:
 - label: Catalog Menu
   url: "/catalog/catalog-menu.html"
   children:
-  - label: Catalog URLs
-    url: "/catalog/catalog-urls.html"
+- label: Catalog and Product URLs
+  url: "/catalog/catalog-urls.html"
 - label: Products Grid
   url: "/catalog/products.html"
 - label: Creating Products
@@ -94,6 +94,7 @@ pages:
       edition: ce-only
     - label: Autosettings
       url: "/catalog/product-autosettings.html"
+      edition: ee-only
     - label: Gift Options
       url: "/catalog/product-gift-options.html"
     - label: Product In Shared Catalogs

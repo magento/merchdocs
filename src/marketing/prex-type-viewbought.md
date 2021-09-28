@@ -1,6 +1,7 @@
 ---
-ee_only: true
 title: Viewed this, bought that
+tag: product-recommendations
+ee_only: true
 ---
 
 The _Viewed this, bought that_ recommendation type recommends products other shoppers purchased disproportionally more after viewing the current product.

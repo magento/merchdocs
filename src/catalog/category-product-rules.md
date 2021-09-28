@@ -12,7 +12,7 @@ Each condition consists of an attribute, value, and logical operator. Only attri
 Make sure to configure each attribute that is used in the rule as a [“smart” attribute]({% link marketing/visual-merchandiser-configuration.md %}).
 
 ![]({% link images/images-ee/category-product-rule-with-stock.png %}){: .zoom}
-*Category Product Rule*
+_Category Product Rule_
 
 Category product rules can speed up the process of assigning specific products to categories, based on conditions that determine which products appear in the category. The “smart” attributes that can be used with category product rules are specified in the [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}) configuration.
 
@@ -72,6 +72,16 @@ Use caution when applying a category product rule, because any products that do 
 
     ![]({% link images/images-ee/automatic_sorting_field.png %}){: .zoom}
     _Automatic Sorting_
+
+    Sorting is based on current conditions:
+
+    |Stock quantity|Sort based on stock, from top or bottom: `Move low stock to top` or `Move out of stock to bottom`|
+    |Special price|Sort based on price, from top or bottom: `Special price to top` or `Special price to bottom`|
+    |New Products|List newest products: `Newest products first`|
+    |Color|Sort alphabetically by color: `Sort by color`|
+    |Product Names|Sort by name in ascending or descending order: `Name A - Z` or `Name Z -A`|
+    |SKU|Sort by SKU in ascending or descending order: `SKU: Ascending` or `SKU: Descending`|
+    |Price|Sort by price in ascending or descending order: `Price: High to low` or `Price: Low to high`|
 
 1. When complete, click <span class="btn">Save Category</span>.
 

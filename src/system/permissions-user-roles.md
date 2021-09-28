@@ -4,7 +4,7 @@ title: User Roles
 
 To give someone restricted access to the Admin, the first step is to create a role that has the appropriate level of permissions. After the role is saved, you can add new users and assign the restricted role to grant them limited access to the Admin.
 
-![Magento Admin - user roles]({% link images/images/permissions-role-grid.png %})
+![Admin - user roles]({% link images/images/permissions-role-grid.png %})
 
 ## Define a role
 
@@ -46,7 +46,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
     _Role Resources Assigned_
 
     {:.bs-callout-info}
-    The list of available permissions may include additional options for Magento developed, Core Bundled, and installed extensions. By selecting the top-most permission for each feature, you assign all permissions available for the user.
+    The list of available permissions may include additional options for Commerce developed, Core Bundled, and installed extensions. By selecting the top-most permission for each feature, you assign all permissions available for the user.
 
 1. When complete, click <span class="btn">Save Role</span>.
 
@@ -74,3 +74,27 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
     ![User accounts assigned to the role]({% link images/images/permissions-role-users.png %}){: .zoom}
     _Role Users_
+
+## Edit a role
+
+1. On the _Admin_ sidebar, go to **System** > _Permissions_ > **User Roles**.
+
+1. Locate the role using filters above the grid and click the role name.
+
+1. Make needed changes.
+
+   Review the steps for creating a user role for information about the role settings.
+
+1. When prompted, enter **Your Password** to confirm your identity.
+
+1. Click the <span class="btn">Save Role</span>.
+
+## Delete a role
+
+1. On the _Admin_ sidebar, go to **System** > _Permissions_ > **User Roles**.
+
+1. Locate the role using filters above the grid and open in edit mode.
+
+1. In the upper-right corner, click <span class="btn">Delete Role</span>.
+
+1. To confirm the action, click <span class="btn">OK</span>.

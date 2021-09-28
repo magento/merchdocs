@@ -19,11 +19,11 @@ sections:
     url: /marketing/events-private-sales.html
 ---
 
-Merchandising is a term used in retail to describe the art and science of floor plan development and the presentation of products. In your Magento store, you might think of the category-based navigation as the floor plan of the store, and the dynamic presentation of products as the conditions that you can apply to the listing of products in the store.
+Merchandising is a term used in retail to describe the art and science of floor plan development and the presentation of products. In your Adobe Commerce store, you might think of the category-based navigation as the floor plan of the store, and the dynamic presentation of products as the conditions that you can apply to the listing of products in the store.
 
 {% include grid.html sections=page.sections%}
 
-## Magento eBook
+## Curated commerce eBook
 
 Curated commerce uses intelligence gleaned from customer segmentation: the practice of dividing markets into discrete customer groups that share similar characteristics. Get the [eBook][1]{:target="_blank"} now!
 

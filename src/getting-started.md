@@ -24,8 +24,8 @@ sections:
     content: Review the information available for many of the extensions developed and released by Adobe. Understand the functionality for each of these extensions and link to installation instructions and detailed configuration information.
     url: /magento/magento-extensions.html
 
-  - title: Magento Marketplace
-    content: Learn about the Magento Marketplace, our next generation application store that offers merchants a curated selection of eCommerce solutions. It offers a selection of extensions that are available for free, as well as those that are for sale.
+  - title: Commerce Marketplace
+    content: Learn about the Commerce Marketplace, our next generation application store that offers merchants a curated selection of eCommerce solutions. It offers a selection of extensions that are available for free, as well as those that are for sale.
     url: /magento/magento-extensions.html
 ---
 
@@ -33,7 +33,7 @@ Welcome to the next generation of the world’s leading digital commerce platfor
 
 ## Product editions
 
-Adobe offers two Magento editions to fit the requirements of your eCommerce business. The information in this User Guide is designed to accommodate business users from either edition, with notations for features and functions that are specific to one edition or an extended feature set.
+Adobe offers two Commerce editions to fit the requirements of your eCommerce business. The information in this User Guide is designed to accommodate business users from either edition, with notations for features and functions that are specific to one edition or an extended feature set.
 
 - {:.ce-only}**Magento Open Source** is a self-hosted eCommerce platform with essential commerce features available free of charge. It offers you a stable and customizable solution for your growing small business or as a tool to prototype new ideas and business models for larger merchants.
 

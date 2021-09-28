@@ -2,11 +2,11 @@
 title: Configuration
 ---
 
-The online [Configuration Reference]({% link stores/configuration.md %}) has field descriptions for every configuration setting in Magento. To learn how to apply configuration settings to specific store views, see [Configuration Scope]({% link configuration/scope.md %}).
+The online [Configuration Reference]({% link stores/configuration.md %}) has field descriptions for every configuration setting in Commerce. To learn how to apply configuration settings to specific store views, see [Configuration Scope]({% link configuration/scope.md %}).
 
 ## Configuration Tabs
 
-![Magento Admin - configuration]({% link images/images/admin-menu-stores-configuration.png %}){: .zoom}
+![Admin - configuration]({% link stores/assets/admin-menu-stores-configuration.png %}){: .zoom}
 _Configuration_
 
 ### General
@@ -35,7 +35,7 @@ _Configuration_
 
 ### Sales Channels
 
-[Sales Chanel]({% link configuration/sales-channels.md %}) settings configure the clear log history, background tasks source, debug login, and read-only mode settings. This feature is only available if your Magento 2 instance has Amazon Sales Channel installed and enabled.
+[Sales Chanel]({% link configuration/sales-channels.md %}) settings configure the clear log history, background tasks source, debug login, and read-only mode settings. This feature is only available if your Adobe Commerce instance has Amazon Sales Channel installed and enabled.
 
 ### Dotdigital
 
@@ -43,7 +43,7 @@ _Configuration_
 
 ### Services
 
-[Services configuration]({% link configuration/services.md %}) determines Magento API settings, including SOAP and OAuth.
+[Services configuration]({% link configuration/services.md %}) determines Commerce API settings, including SOAP and OAuth.
 
 ### MCOM Connector
 

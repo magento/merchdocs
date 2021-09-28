@@ -2,11 +2,11 @@
 title: Communications
 sections:
   - title: Email
-    content: Learn about the responsive email templates that are triggered by a variety of events that take place during the operation of your Magento store.
+    content: Learn about the responsive email templates that are triggered by a variety of events that take place during the operation of your store.
     url: /marketing/email-templates.html
 
   - title: Customer Engagement
-    content: Learn how to use dotdigital Engagement Cloud to produce professional, personalized communications and reports using data from your Magento store.
+    content: Learn how to use dotdigital Engagement Cloud to produce professional, personalized communications and reports using data from your store.
     url: /marketing/dotdigital/engagement-cloud.html
 
   - title: Sales Documents
@@ -26,7 +26,7 @@ sections:
     url: /marketing/variables.html
 
   - title: Social
-    content: You can integrate your Magento store with your social networks by installing a Marketplace extension or adding a plugin to your content pages.
+    content: You can integrate your store with your social networks by installing a Marketplace extension or adding a plugin to your content pages.
     url: /marketing/social-plugins.html
 ---
 

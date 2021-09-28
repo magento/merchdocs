@@ -5,9 +5,9 @@ redirect_from:
 ---
 
 
-Conditions determine which products will be eligible for the price rule. Defining the conditions for your Amazon pricing rules follow the same logic and process as defining the conditions for [Cart Price Rules]({% link marketing/price-rules-cart.md %}) in Magento.
+Conditions determine which products will be eligible for the price rule. Defining the conditions for your Amazon pricing rules follow the same logic and process as defining the conditions for [Cart Price Rules]({% link marketing/price-rules-cart.md %}) in Commerce.
 
-**If your price rule applies to all products in your Magento catalog, then leave this section blank.**
+**Important:** If your price rule applies to all products in your Commerce catalog, then leave this section blank.
 
 Any areas in the conditions that are bold can be clicked to see the various options.
 
@@ -69,7 +69,7 @@ You can create different conditions by changing the combination of these values.
       ![]({% link sales-channels/asc/assets/ob-price-rule-condition-4.png %}){: .zoom}
       _Condition Line 2, Part 4_
 
-      This example condition is complete. As stated, this condition means that any product in your Magento catalog that has a defined category of Books (`4`) is eligible for this pricing rule. You can add more condition lines to further narrow your eligible products.
+      This example condition is complete. As stated, this condition means that any product in your Commerce catalog that has a defined category of Books (`4`) is eligible for this pricing rule. You can add more condition lines to further narrow your eligible products.
 
 1. To add another condition line to the statement, return to Step 1 and repeat the process until all desired conditions are complete.
 

@@ -11,7 +11,7 @@ Merchants who have not yet reached the threshold (50k/100k Euro of annual busine
 Merchants who are audited for taxes paid for digital goods, must provide two pieces of supporting information to establish the customer place of residence.
 
 - The customer’s shipping address and a record of a successful payment transaction can be used to establish the customer place of residence. (Payment is accepted only if the shipping address matches payment provider information.)
-- The information can also be captured directly from the data store in the Magento database tables.
+- The information can also be captured directly from the data store in the Commerce database tables.
 
 ## Collect digital goods tax information
 

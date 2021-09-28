@@ -22,7 +22,7 @@ PayPal has deprecated support for the sale of digital goods through PayPal Expre
 
 ## Express checkout workflow
 
-Unlike other payment methods, PayPal Express Checkout allows the customer to check out at the beginning of the usual checkout workflow from the product page, the mini shopping cart, and shopping cart.
+Unlike other payment methods, PayPal Express Checkout allows the customer to check out at the beginning of the usual checkout workflow from the product page, the mini shopping cart, and the shopping cart.
 
 | **1** |**Customer places order** | The customer clicks/taps the _Check out with PayPal_ button.|
 | **2** | **Customer is redirected to PayPal site** | The customer is redirected to the PayPal site to complete the transaction.|
@@ -45,7 +45,7 @@ When you configure your store for PayPal Express Checkout, you can enable this o
 
 ## Configure your PayPal account
 
-Before you set up PayPal Express Checkout in Magento, you must configure your merchant account on the PayPal website.
+Before you set up PayPal Express Checkout in Adobe Commerce and Magento Open Source, you must configure your merchant account on the PayPal website.
 
 1. Log in to your PayPal Advanced account at [manager.paypal.com][3].
 
@@ -65,27 +65,27 @@ Before you set up PayPal Express Checkout in Magento, you must configure your me
 
    - Click <span class="btn">Update</span>.
 
-## Set up PayPal Express Checkout in Magento
+## Set up PayPal Express Checkout in Commerce
 
 You can have two PayPal solutions active at the same time: Express Checkout, plus an all-in-one solution. If you enable a different solution, the one used previously is automatically deactivated.
 
 {:.bs-callout-info}
 Click <span class="btn">Save Config</span> at any time to save your progress.
 
-### Step 1: Begin the Magento configuration
+### Step 1: Begin the configuration
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. If your Magento installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
+1. If your installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
 
 1. In the **Merchant Location** section, select the **Merchant Country** where your business is located.
 
    This setting determines the selection of PayPal Solutions that appear in the configuration.
 
-   ![Merchant Country]({% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
-   _Merchant Country_
+   ![Merchant country]({% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
+   _Merchant country_
 
 1. Under **Recommended Solutions**, click <span class="btn">Configure</span> for **PayPal Express Checkout**.
 
@@ -108,7 +108,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Set **Enable this Solution** to `Yes`.
 
-1. To enable [PayPal In-Context Checkout](#in-context-checkout), do the following:
+1. To enable [PayPal In-Context Checkout](#in-context-checkout):
 
    - Set **Enable In-Context Checkout Experience** to `Yes`.
 
@@ -146,16 +146,25 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. If you are using credentials from your sandbox account, set **Sandbox Mode** to `Yes`.
 
-   When testing the configuration in a sandbox, use only [credit card numbers][4] that are recommended by PayPal. When you are ready to _go live_, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
+   When testing the configuration in a sandbox, use only [credit card numbers][4] that are recommended by PayPal. When you are ready to go live, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
 
-1. If your system uses a proxy server to establish the connection between Magento and the PayPal payment system, set **API Uses Proxy** to `Yes` and complete the following:
+1. If your system uses a proxy server to establish the connection between Commerce and the PayPal payment system, set **API Uses Proxy** to `Yes` and complete the following:
 
    - **Proxy Host**
    - **Proxy Port**
 
 This completes the required PayPal settings. You can continue with the Basic and Advanced Settings or click <span class="btn">Save Config</span> and return later to adjust the configuration
 
-### Step 4: Set up Advertise PayPal Credit (optional)
+### Step 4: Set up Advertise PayPal Credit / Advertise PayPal Pay Later (optional)
+
+Starting with the 2.4.3 release, PayPal Pay Later is supported in deployments that include PayPal. This feature allows shoppers to pay for an order in bi-weekly installments instead of paying the full amount at time of purchase. The PayPal Credit experience is deprecated.
+
+Set **Enable PayPal PayLater Experience** to one of the following:
+
+- `Yes` - To setup Advertise PayPal PayLater
+- `No` - To setup Advertise PayPal Credit
+
+#### Advertise PayPal Credit
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal Credit** section.
 
@@ -185,13 +194,90 @@ This completes the required PayPal settings. You can continue with the Basic and
    - `800 x 66`
 
    ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
-   _Advertise PayPal Credit - Home Page Settings_
+   _Advertise PayPal Credit - Home Page settings_
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the remaining sections and repeat the previous steps:
 
    - Catalog Category Page
    - Catalog Product Page
    - Checkout Cart Page
+
+#### Advertise PayPal Pay Later
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal PayLater** section.
+
+1. Set **Enable PayPal PayLater** to `Yes`.
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Home Page** section.
+
+1. To place a banner on the page, set **Display** to `Yes`.
+
+1. Set **Position** to one of the following:
+
+   - `Header (center)`
+   - `Sidebar`
+
+1. Set **Style Layout** to one of the following:
+
+   - `Text`
+   - `Flex`
+
+1. For Style Layout **Text** only, set **Logo Type** to one of the following:
+
+   - `Primary`
+   - `Alternative`
+   - `Inline`
+   - `None`
+
+1. For Style Layout **Text** only, set **Logo Position** to one of the following:
+
+   - `Left`
+   - `Right`
+   - `Top`
+
+1. For Style Layout **Text** only, set **Text Color** to one of the following:
+
+   - `Black`
+   - `White`
+   - `Monochrome`
+   - `Grayscale`
+
+1. For Style Layout **Text** only, set **Text Size** to one of the following:
+
+   - `10px`
+   - `11px`
+   - `12px`
+   - `13px`
+   - `14px`
+   - `15px`
+   - `16px`
+
+1. For Style Layout **Flex** only, set **Ratio** to one of the following:
+
+   - `1x1`
+   - `1x4`
+   - `8x1`
+   - `20x1`
+
+1. For Style Layout **Flex** only, set **Color** to one of the following:
+
+   - `Blue`
+   - `Black`
+   - `White`
+   - `White No Border`
+   - `Gray`
+   - `Monochrome`
+   - `Grayscale`
+
+   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png %}){: .zoom}
+   _Advertise PayPal PayLater - Home Page settings_
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the remaining sections and repeat the previous steps:
+
+   - Catalog Product Page
+   - Checkout Cart Page
+   - Checkout Payment Step
+   - Catalog Category Page
 
 ### Step 5: Complete the basic settings
 
@@ -212,7 +298,7 @@ This completes the required PayPal settings. You can continue with the Basic and
 
    |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is _captured_ by the merchant.|
    |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
-   |`Order` |The amount of the order is neither captured nor authorized in the customer balance, bank account, or credit card at PayPal. The Order payment action represents an agreement between the PayPal payment system and the merchant, which enables the merchant to capture one or more amounts up to the ordered total from the customer buyer account, over a period of up to 29 days. After the funds are ordered, the merchant can capture them at any time during the following 29-day period. Capturing of the order amount can be done only from the Magento Admin by creating one or more invoices.|
+   |`Order` |The amount of the order is neither captured nor authorized in the customer balance, bank account, or credit card at PayPal. The Order payment action represents an agreement between the PayPal payment system and the merchant, which enables the merchant to capture one or more amounts up to the ordered total from the customer buyer account, over a period of up to 29 days. After the funds are ordered, the merchant can capture them at any time during the following 29-day period. Capturing of the order amount can be done only from the Commerce Admin by creating one or more invoices.|
 
 1. To display the _Check out with PayPal_ button on the product page, set **Display on Product Details Page** to `Yes`.
 
@@ -238,7 +324,7 @@ This completes the required PayPal settings. You can continue with the Basic and
 
 1. To write communications with the payment system into the log file, set **Debug Mode** to `Yes`.
 
-   The log file for PayPal Payments Advanced is payments: `_payflow_advanced.log`
+   The log file for PayPal Payments Advanced is `_payflow_advanced.log`.
 
    {:.bs-callout-info}
    In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.
@@ -274,7 +360,7 @@ This completes the required PayPal settings. You can continue with the Basic and
     {:.bs-callout-info}
     Merchants must ask [PayPal Merchant Technical Support](https://developer.paypal.com/support/) to enable billing agreements in their accounts. The _Billing Agreement Signup_ parameter is enabled only after PayPal confirms that billing agreements are enabled for your merchant account.
 
-1. To allow the customer to complete the transaction from the PayPal site without returning to your Magento store for Order Review, set **Skip Order Review Step** to `Yes`.
+1. To allow the customer to complete the transaction from the PayPal site without returning to your store for Order Review, set **Skip Order Review Step** to `Yes`.
 
 1. Complete the additional sections, as needed for your store:
 

@@ -4,10 +4,10 @@ redirect_from:
   - /marketing/engagement-cloud-exclusion-rules.html
 ---
 
-Create an exclusion rule in Magento to prevent abandoned cart and review emails from being sent from dotdigital [campaigns]({% link marketing/dotdigital/campaign-create.md %}) under certain conditions. A rule describes the conditions that must be met to trigger the action. For example, a rule might exclude all abandoned carts with a subtotal that is equal to, or less than ten.
+Create an exclusion rule in your Commerce store to prevent abandoned cart and review emails from being sent from dotdigital [campaigns]({% link marketing/dotdigital/campaign-create.md %}) under certain conditions. The rule describes the conditions that trigger the action. For example, a rule might exclude all abandoned carts with a subtotal that is equal to, or less than ten.
 
 ![Customer engagement - exclusion rules]({% link images/images/engagement-cloud-exclusion-rules.png %}){: .zoom}
-_Exclusion Rules_
+_Exclusion rules_
 
 ## Add a New Rule
 
@@ -16,18 +16,17 @@ _Exclusion Rules_
 1. In the upper-right corner, click <span class="btn">Add New Rule</span>.
 
     ![New exclusion rule]({% link images/images/engagement-cloud-exclusion-rules-iinformation.png %}){: .zoom}
-    _Rule Information_
+    _Rule information_
 
-1. On the **Rule Information** tab, do the following:
+1. On the _Rule Information_ tab, do the following:
 
    - Enter a descriptive **Rule Name**.
-
    - Set **Rule Type** to one of the following:
 
       - `Abandoned Cart Exclusion Rule`
       - `Review Email Exclusion Rule`
 
-   - Leave **Status** set to `Inactive` for now. (You can change it to `Active` later .)
+   - Leave **Status** set to `Inactive` for now. (You can change it to `Active` later.)
 
    - Choose the **Websites** where the rule applies.
 
@@ -41,19 +40,17 @@ _Exclusion Rules_
       - `ALL`
 
         ![Exclusion rule conditions]({% link images/images/engagement-cloud-exclusion-rules-conditions.png %}){: .zoom}
-        _Exclusion Rule Conditions_
+        _Exclusion rule conditions_
 
-   - Click <span class="btn">Add New Condition</span>. Then, do the following:
+1. Click <span class="btn">Add New Condition</span>. Then, do the following:
 
-      - Choose the **Attribute** that is the subject of the conditional statement.
+   - Choose the **Attribute** that is the subject of the conditional statement.
+   - Under _Condition_, choose the operator.
+   - Enter the **Value** that is needed to complete the condition.
 
-      - Under **Condition**, choose the operator.
+    ![Exclusion rule - add new condition]({% link images/images/engagement-cloud-exclusion-rules-conditions-new.png %}){: .zoom}
+    _Add new condition_
 
-      - Enter the **Value** that is needed to complete the condition.
-
-        ![Exclusion rule - add new condition]({% link images/images/engagement-cloud-exclusion-rules-conditions-new.png %}){: .zoom}
-        _Add New Condition_
-
-   - To add another condition, click <span class="btn">Add New Condition</span> and repeat these steps.
+1. To add another condition, click <span class="btn">Add New Condition</span> and repeat these steps.
 
 1. When complete, click <span class="btn">Save</span>.

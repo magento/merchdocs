@@ -4,7 +4,7 @@ title: Differentiate and Personalize
 ---
 
 Create Custom Experiences
-:  Magento offers a rich set of tools to create [personalized experiences]({% link quick-tour/engage.md %}) across multiple digital touchpoints, based on customer activity and profile.
+:  Adobe Commerce and Magento Open Source offer a rich set of tools to create [personalized experiences]({% link quick-tour/engage.md %}) across multiple digital touchpoints, based on customer activity and profile.
 
 Custom Catalog and Price Lists
 :  Offer a curated product selection with custom [pricing for specific companies]({% link catalog/catalog-shared-pricing-structure.md %}), while continuing to offer the standard catalog with regular pricing for general customers.

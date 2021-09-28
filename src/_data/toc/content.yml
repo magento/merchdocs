@@ -29,13 +29,15 @@ pages:
     - label: Adding a New Page
       url: "/cms/page-add.html"
       children:
-      - label: Duplicating a Page
+      - label: Duplicating and Deleting a Page
         url: "/cms/page-duplicate.html"
       - label: Switching Home Pages
         url: "/cms/page-home-new.html"
     - label: Using the Editor
       url: "/cms/editor.html"
       children:
+      - label: Configuring the Editor
+        url: "/cms/editor-configure.html"
       - label: Inserting a Link
         url: "/cms/editor-insert-link.html"
       - label: Inserting an Image
@@ -44,8 +46,6 @@ pages:
         url: "/cms/editor-widget.html"
       - label: Inserting a Variable
         url: "/cms/editor-insert-variable.html"
-      - label: Configuring the Editor
-        url: "/cms/editor-configure.html"
   - label: Hierarchy
     url: "/cms/page-hierarchy.html"
     edition: ee-only
@@ -84,7 +84,7 @@ pages:
     children:
     - label: Widget Types
       url: "/cms/widget-types.html"
-    - label: Creating a Widget
+    - label: Creating and Managing Widgets
       url: "/cms/widget-create.html"
       children:
       - label: New Products List
@@ -95,8 +95,11 @@ pages:
     url: "/cms/page-builder-templates.html"
 - label: Page Builder
   url: "/cms/page-builder.html"
-  edition: ee-only
   children:
+  - label: Page Builder Setup
+    url: "/cms/page-builder-setup.html"
+  - label: Workspace
+    url: "/cms/page-builder-workspace.html"
   - label: Learning Page Builder
     url: "/cms/page-builder-learn.html"
     children:
@@ -106,10 +109,6 @@ pages:
       url: "/cms/page-builder-tutorial2-blocks.html"
     - label: 'Tutorial 3: Catalog Content'
       url: "/cms/page-builder-tutorial3-catalog-content.html"
-  - label: Page Builder Setup
-    url: "/cms/page-builder-setup.html"
-  - label: Workspace
-    url: "/cms/page-builder-workspace.html"
   - label: Layout
     url: "/cms/page-builder-layout.html"
     children:

@@ -10,7 +10,7 @@ Different factors can affect the price of the same product in one location and n
 - {:.b2b-only}See also [Configuring Catalog Price Scope]({% link catalog/catalog-shared-price-scope.md %}).
 
 ![]({% link images/images/scope-product-price.png %}){: .zoom}
-_Price Scope_
+_Price scope_
 
 ## Configure price scope
 
@@ -26,6 +26,18 @@ _Price Scope_
    The scope setting that you choose appears below price fields in your catalog.
 
    ![]({% link images/images-ee/config-catalog-catalog-price-website.png %}){: .zoom}
-   *Catalog Price Scope*{:.ee-only}
+   *Catalog Price Scope*
 
 1. When complete, click <span class="btn">Save Config</span>.
+
+## Use scope to set up product prices
+
+Commerce does not allow setting a product price for each store. But you can change the price per website:
+
+1. On the _Admin_ menu, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
+
+1. In the **Price** tab, set price scope to `Website` instead of global.
+
+1. Set the price by opening the product edit page, selecting the scope on the upper left, and then entering a new price per website.

@@ -16,7 +16,7 @@ The Notifications page lists all messages ranked by severity, with the most rece
 
    - To keep the message in your inbox, click **Mark As Read**.
 
-        ![Magento Admin - notifications ]({% link images/images/admin-notifications-mark-as-read.png %}){: .zoom}
+        ![Admin - notifications ]({% link stores/assets/admin-notifications-mark-as-read.png %}){: .zoom}
         _All Notifications_
 
    - To delete the message, click **Remove**.

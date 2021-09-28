@@ -91,7 +91,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |--- |--- |--- |
 |Enabled for Checkout|Website|Determines if UPS is available to customers as a shipping method during checkout. Options: Yes / No.|
 |Enabled for RMA|Website|Determines if UPS is available to customers as a shipping method for an RMA. Options: Yes / No.|
-|UPS Type|Store View|Specifies the  method used to connect to the UPS shipping system. Options: <br/>**United Parcel Service XML** - (Default) Your store sends an XML file with data to UPS as a request. <br/>**United Parcel Service** - Your store sends key-value pairs to UPS as a request. <br/><br/>**_Note:_** The standard United Parcel Service type is scheduled for deprecation in Magento. For new configurations, you should use the United Parcel Service XML type.|
+|UPS Type|Store View|Specifies the  method used to connect to the UPS shipping system. Options: <br/>**United Parcel Service XML** - (Default) Your store sends an XML file with data to UPS as a request. <br/>**United Parcel Service** - Your store sends key-value pairs to UPS as a request. <br/><br/>**_Note:_** The standard United Parcel Service type is scheduled for deprecation in Commerce. For new configurations, you should use the United Parcel Service XML type.|
 |_UPS Account Settings_|||
 |Live Account|Store View|Specifies that the United Parcel Service account is live. Options: Yes / No|
 |Gateway URL|Website|The URL that connects to the UPS system to retrieve dynamic shipping rates. UPS is discontinuing support of HTTP. Default value: `https://www.ups.com/using/services/rave/qcostcgi.cgi`|
@@ -99,7 +99,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |_UPS XML Account Settings_|||
 |Access License Number|Website|Your UPS shipper account access license number.|
 |Gateway XML URL|Website|For UPS XML service, displays the following URLs that are required to transmit XML data: Gateway XML URL, Tracking XML URL, Shipping Confirm XML URL, Shipping Accept XML URL|
-|Mode|Website|Determines the mode of transmission used for data sent to the UPS system. Options: <br/>**Development** - UPS does not verify that data received from the Magento server is sent over SSL. <br/>**Live** - UPS verifies that data received from the Magento server is sent over a secure socket layer (SSL).|
+|Mode|Website|Determines the mode of transmission used for data sent to the UPS system. Options: <br/>**Development** - UPS does not verify that data received from the Commerce server is sent over SSL. <br/>**Live** - UPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|
 |User ID|Website|Your UPS shipper account user ID.|
 |Origin of the Shipment|Website|(UPS XML  Only) The country or region where the product shipment originates.|
 |Password|Store View|Your UPS shipper account password.|
@@ -158,7 +158,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Title|Store View|The title of this shipping option as it appears in the shopping cart checkout.|
 |User ID|Website|Your USPS shipper account user ID.|
 |Password|Website|Your USPS shipper account password.|
-|Mode|Website|Determines the mode of transmission used for data sent to the USPS system. Options include: <br/>**Development** - USPS does not verify that data received from the Magento server is sent over SSL. <br/>**Live** - USPS verifies that data received from the Magento server is sent over a secure socket layer (SSL).|
+|Mode|Website|Determines the mode of transmission used for data sent to the USPS system. Options include: <br/>**Development** - USPS does not verify that data received from the Commerce server is sent over SSL. <br/>**Live** - USPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|
 
 ![]({% link images/images/config-sales-shipping-methods-usps-packaging.png %}){: .zoom}
 [_USPS Packaging Settings_]({% link shipping/usps.md %})

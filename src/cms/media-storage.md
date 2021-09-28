@@ -2,11 +2,11 @@
 title: Media Storage
 ---
 
-Media Storage helps you organize and gain access to media files that are stored on the server. The path to the location of the files is determined by the [Base URL]({% link stores/store-urls.md %}) configuration. Files in media storage can be accessed from the editor while working on pages and static blocks. Media Storage is usually located in the file system on the same server as the Magento program files.
+Media Storage helps you organize and gain access to media files that are stored on the server. The path to the location of the files is determined by the [Base URL]({% link stores/store-urls.md %}) configuration. Files in media storage can be accessed from the editor while working on pages and static blocks. Media Storage is usually located in the file system on the same server as the Commerce program files.
 
 Alternatively, media files can be managed in a [database]({% link system/media-storage-database.md %}), or located on a separate server or [content delivery network]({% link system/media-storage-content-delivery-network.md %}). The editor can be configured to use either static or [dynamic media URLs]({% link catalog/catalog-urls-dynamic-media.md %}) for catalog content in category or product descriptions.
 
-![Magento Media Storage]({% link images/images/media-storage.png %}){: .zoom}
+![Commerce Media Storage]({% link images/images/media-storage.png %}){: .zoom}
 _Media Storage_
 
 ## Add files to the Media Storage

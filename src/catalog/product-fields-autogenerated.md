@@ -1,5 +1,5 @@
 ---
-title: Default Field Values
+title: Product Default Field Values
 ---
 
 To save time when creating products, the default value of several product fields references values from another field. You can either accept the default value or enter another. The following fields have automatically generated default values:

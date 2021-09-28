@@ -49,7 +49,7 @@ _My Requisition Lists_
 
 1. Click the **Export** link.
 
-Magento will generate and download a CSV list with `sku` and `qty` values.
+Adobe Commerce will generate and download a CSV list with `sku` and `qty` values.
 
 ### Move items to a different list
 
@@ -60,7 +60,7 @@ Magento will generate and download a CSV list with `sku` and `qty` values.
    - Choose an existing requisition list.
    - Click **Create New Requisition List**.
 
-### Print the List
+### Print a list
 
 1. In the upper-right corner of the list, click **Print**.
 
@@ -100,7 +100,7 @@ A product in the Requisition List may be edited if:
 
 1. When prompted to confirm, click <span class="btn">Delete</span>.
 
-### Rename the List
+### Rename a list
 
 1. After the list title, click **Rename**.
 
@@ -110,6 +110,17 @@ A product in the Requisition List may be edited if:
 
    ![]({% link images/images-b2b/customer-company-requisition-list-rename.png %}){: .zoom}
    _Rename Requisition List_
+
+### Remove a requisition list
+
+1. Open the requisition list to be deleted.
+
+1. Click the **Delete Requisition List** button.
+
+1. When prompted to confirm, click <span class="btn">Delete</span>.
+
+{:.bs-callout-info}
+This action cannot be undone.
 
 ## Actions
 

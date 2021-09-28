@@ -4,9 +4,9 @@ tag: product-recommendations
 ee_only: true
 ---
 
-Product recommendations are a powerful marketing tool you can use to increase conversions, boost revenue, and stimulate shopper engagement. Product recommendations are surfaced on the storefront in the form of units such as “Customers who viewed this product also viewed”. Magento's product recommendations are powered by [Adobe Sensei](https://www.adobe.com/sensei.html), which uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Magento catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
+Product recommendations are a powerful marketing tool you can use to increase conversions, boost revenue, and stimulate shopper engagement. Product recommendations are surfaced on the storefront in the form of units such as “Customers who viewed this product also viewed”. Adobe Commerce product recommendations are powered by [Adobe Sensei](https://www.adobe.com/sensei.html), which uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Adobe Commerce catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
 
-You can create, manage, and deploy recommendations across your store views directly from the Magento Admin panel. If you have implemented your storefront using PWA Studio, see the [PWA documentation](https://magento.github.io/pwa-studio/product-recs).
+You can create, manage, and deploy recommendations across your store views directly from the Adobe Commerce Admin. If you have implemented your storefront using PWA Studio, see the [PWA documentation](https://magento.github.io/pwa-studio/product-recs).
 
 {:.bs-callout-info}
 For information about installing product recommendations modules, refer to the [developer documentation]({{ site.devdocs_url }}/recommendations/install-configure.html).
@@ -19,7 +19,7 @@ This dashboard displays a table of previously configured recommendations (if any
 
 ## Available recommendation types {#availablerectypes}
 
-See [Recommendation Types]({% link marketing/prex-types.md %}) to learn about the available recommendation types in Magento.
+See [Recommendation Types]({% link marketing/prex-types.md %}) to learn about the available recommendation types in Adobe Commerce.
 
 ## Training time for machine learning models {#trainmlmodels}
 
@@ -45,18 +45,18 @@ Other variables that can impact the time needed to train:
 
 - Higher traffic volume contributes to faster learning
 - Some recommendation types train faster than others
-- Magento recomputes behavioral data every four hours. While you can technically deploy your recommendation units at that time, know that the recommendations will become more accurate the longer they are used on your site.
+- Adobe Commerce recomputes behavioral data every four hours. While you can technically deploy your recommendation units at that time, know that the recommendations will become more accurate the longer they are used on your site.
 
 While data is collected on production and machine learning models are trained, you can implement the [remaining tasks necessary]({{ site.devdocs_url }}/recommendations/implementation.html) to deploy recommendations to your storefront. By the time you have finished testing and configuring recommendations, the machine learning models will have collected and computed enough data to build relevant recommendations thus allowing you to deploy the recommendations to your storefront.
 
 {:.bs-callout-info}
-Until there is enough training data collected, Magento uses [backup recommendations](#backup-recommendations) to populate your recommendation units.
+Until there is enough training data collected, Adobe Commerce uses [backup recommendations](#backup-recommendations) to populate your recommendation units.
 
 ### Backup recommendations {#backup-recommendations}
 
-If there is not sufficient input data to provide all requested recommendation items in a unit, Magento provides backup recommendations to fill those items.
+If there is not sufficient input data to provide all requested recommendation items in a unit, Adobe Commerce provides backup recommendations to fill those items.
 
-For example, if you deploy the **Recommended for you** recommendation type to your homepage, a first time shopper on your site will not have generated enough behavioral data to accurately recommended personalized products. In this case, Magento will surface items based on the **Most viewed** recommendation type to this shopper.
+For example, if you deploy the **Recommended for you** recommendation type to your homepage, a first time shopper on your site will not have generated enough behavioral data to accurately recommended personalized products. In this case, Adobe Commerce will surface items based on the **Most viewed** recommendation type to this shopper.
 
 The following recommendation types will fallback to **Most viewed** if there is not sufficient input data collected:
 
@@ -69,6 +69,11 @@ The following recommendation types will fallback to **Most viewed** if there is 
 - **Bought this, bought that**
 
 - **Trending**
+
+The following recommendation types will fallback to **Most popular** or **Most viewed** if there is not sufficient input data collected:
+
+- **Conversion (view to purchase)**
+- **Conversion (view to cart)**
 
 ## Product recommendations placement {#productrecplacement}
 

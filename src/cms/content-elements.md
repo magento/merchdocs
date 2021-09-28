@@ -2,7 +2,7 @@
 title: Content Elements
 sections:
   - title: Pages
-    content: This section provides details about the core content pages included with the Magento demo store, as well as ways to add your own custom content pages.
+    content: This section provides details about the core content pages included with the Commerce demo store, as well as ways to add your own custom content pages.
     url: /cms/pages.html
 
   - title: <span class="ee-only">Hierarchy</span>
@@ -31,7 +31,7 @@ In this section of the guide, you will find detailed information for how to crea
 
 {% include grid.html sections=page.sections%}
 
-## Magento eBook
+## Commerce eBook
 
 Curated commerce is the practice of creating targeted content for customers that share similar characteristics. For more information, download the [eBook][1].
 

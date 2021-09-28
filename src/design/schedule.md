@@ -23,3 +23,24 @@ _Scheduled design changes_
 1. For the **Date From** and **Date To**, click the _Calendar_ (![]({% link images/images/btn-calendar.png %})) icon to choose the start and end values for the period when the change is in effect.
 
 1. When complete, click <span class="btn">Save</span>.
+
+## Edit scheduled design change
+
+1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Schedule**.
+
+1. Select the item you want to edit.
+
+1. Make the necessary changes.
+
+1. When complete, click <span class="btn">Save</span>.
+
+## Delete scheduled design change
+
+1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Schedule**.
+
+1. Select the item you want to delete.
+
+In the button bar at the top of the page, click <span class="btn">Delete</span>.
+
+   ![]({% link images/images/delete-store-design-change.png %}){: .zoom}
+   _Delete Scheduled Design Change_

@@ -2,7 +2,7 @@
 title: License an Adobe Stock Image
 ---
 
-Adobe Stock assets that you want to use for your production Magento stores should be licensed to ensure you have legal access to the image as well as to
+Adobe Stock assets that you want to use for your production Adobe Commerce and Magento Open Source stores should be licensed to ensure you have legal access to the image as well as to
 eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
 
 The new [Media Gallery]({% link cms/media-gallery.md %}) provides a direct integration with Adobe Stock, making it easy to license your images directly from the gallery page.

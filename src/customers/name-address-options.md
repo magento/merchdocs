@@ -7,9 +7,9 @@ The _Name and Address Options_ determine which fields are included in the name a
 ![]({% link images/images-ee/storefront-customer-account-address-book.png %}){: .zoom}
 _[Customer Account sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ee-only}
 
-The steps for configuring the name and address options are different for Magento Commerce and Magento Open Source.
+The steps for configuring the name and address options are different for Adobe Commerce and Magento Open Source.
 
-## Configure name and address options for Magento Commerce
+## Configure name and address options for Adobe Commerce
 
 ### Step 1: Set the scope of the configuration
 

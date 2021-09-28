@@ -4,13 +4,13 @@ group: getting-started
 ---
 
 {:.bs-callout-info}
-This is one in a series of topics to help Magento merchants and developers understand the implications of the California Consumer Privacy Act. The information is based on the text of the statute. Consult with your attorney to confirm if CCPA applies to your business before taking action on compliance.
+This is one in a series of topics to help Adobe Commerce and Magento Open Source merchants and developers understand the implications of the California Consumer Privacy Act. The information is based on the text of the statute. Consult with your attorney to confirm if CCPA applies to your business before taking action on compliance.
 
-This topic provides a high-level outline of the steps required for Magento merchants to comply with privacy regulations such as the [California Consumer Privacy Act]({% link stores/compliance-ccpa.md -%}) (CCPA).
+This topic provides a high-level outline of the steps required for merchants to comply with privacy regulations such as the [California Consumer Privacy Act]({% link stores/compliance-ccpa.md -%}) (CCPA).
 
 ## GDPR and CCPA
 
-If your business is required to comply with both the [General Data Protection Regulation]({% link stores/compliance-gdpr.md -%}) (GDPR) and the CCPA, you can leverage some of the work from your GDPR compliance program for the CCPA. Although the regulations have some similarities, a few differences include:
+If your business is required to comply with both the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}) (GDPR) and the CCPA, you can leverage some of the work from your GDPR compliance program for the CCPA. Although the regulations have some similarities, a few differences include:
 
 - The definition of personal information differs for each regulation.
 - The GDPR requires consumers to opt in before their personal data may be used for certain purposes; CCPA provides consumers with the right to opt out.
@@ -21,11 +21,11 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 
 ## Compliance Roadmap
 
-A coordinated effort is required to develop and implement a plan to address compliance. Use this roadmap as a guide to mobilize resources and prioritize tasks so you can move ahead on multiple fronts.  The process is essentially the same for all installations of Magento, with the following exception:
+A coordinated effort is required to develop and implement a plan to address compliance. Use this roadmap as a guide to mobilize resources and prioritize tasks so you can move ahead on multiple fronts.  The process is essentially the same for all Commerce installations, with the following exception:
 
-- **Adobe Commerce Cloud**: Merchants with stores hosted on [Adobe Commerce Cloud][4]{:target="_blank"} can ask their Magento Technical Account Manager or Customer Support for help responding to consumer requests.
+- **Adobe Commerce on cloud infrastructure**: Merchants with stores hosted on our [cloud infrastructure][4]{:target="_blank"} can ask their Adobe Commerce Technical Account Manager or Customer Support for help responding to consumer requests.
 
-- **On-Premise Magento**: Merchants with on-premise installations of Magento must develop their own processes and tools to respond to and manage consumer requests related to privacy regulations.
+- **On-Premise**: Merchants with on-premise installations of Adobe Commerce or Magento Open Source must develop their own processes and tools to respond to and manage consumer requests related to privacy regulations.
 
 ### Step 1: Assemble a cross-functional team to address regulation compliance.
 
@@ -46,13 +46,13 @@ From a business perspective, you must determine if your company will extend thes
 
 Take inventory of your digital properties, including all integrations and those who have access to your consumer data.
 
-1. Determine what public and private personal information is collected through your website(s) and mobile application(s).  For example, a standard Magento database stores the following types of public and private personal information:
+1. Determine what public and private personal information is collected through your website(s) and mobile application(s).  For example, a standard Commerce database stores the following types of public and private personal information:
 
    - **Public**: Wish Lists, Product Reviews
 
    - **Private**: Customer Information, Order Information, Reward Points, Gift Registry, Address Book, Store Credit, Payment Methods, Billing Agreements, Newsletter Subscriptions, Invitations.
 
-      If your Magento installation has been customized, additional personal information might be collected. Personal information might also reside in [cookies]({% link stores/cookie-reference.md -%}), tags, and other technologies that collect information.
+      If your Commerce installation has been customized, additional personal information might be collected. Personal information might also reside in [cookies]({% link stores/cookie-reference.md -%}), tags, and other technologies that collect information.
 
 1. Identify the parties with whom you share data. Your list will include service providers and third parties such as advertising networks, internet service providers, data analytics providers, government entities, operating systems and platforms, social networks, and consumer data resellers who do not directly collect personal information from your consumers.
 
@@ -68,12 +68,12 @@ Take inventory of your digital properties, including all integrations and those 
 
 1. Identify each point in the [customer journey]({% link getting-started/quick-tour.md -%}) where personal information is collected, and the type of information that is collected at each step.
 
-    Visitors to your site must be notified in advance, or at the point of data collection. For example, a Magento store without custom integrations collects personal information when a customer account is created and during checkout. If your store has custom integrations, there might be additional data items and attributes to identify.
+    Visitors to your site must be notified in advance, or at the point of data collection. For example, a store without custom integrations collects personal information when a customer account is created and during checkout. If your store has custom integrations, there might be additional data items and attributes to identify.
 
-1. See the following topics for applicable data flow diagrams and database entity mappings for each version of Magento:
+1. See the following topics for applicable data flow diagrams and database entity mappings for each version:
 
-   - [Personal Information Reference (Magento 2.x)][1]
-   - [Personal Information Reference (Magento 1.x)][2]
+   - [Personal Information Reference (2.x)][1]
+   - [Personal Information Reference (1.x)][2]
 
     ![]({{ site.devdocs_url }}/compliance/privacy/frontend-data-entry-points.svg){: .zoom}
     _Storefront Data Entry Points_
@@ -86,9 +86,9 @@ From a data management perspective, each request for personal information involv
 
 - **Data Subjects** (Consumers): Under CCPA, any person in California who provides personal information to make a purchase and/or to maintain a customer account might submit a request to access or delete their personal data.
 
-- **Entities acting as Busineses within the scope of CCPA** (Brands): Magento merchants collect and store personal information from their customers and guests who make purchases in their store(s).
+- **Entities acting as Businesses within the scope of CCPA** (Brands): Commerce merchants collect and store personal information from their customers and guests who make purchases in their store(s).
 
-- **Data Processor** (Technology Vendors): Adobe (Magento Commerce) acts as a processor of the personal data that is stored as part the services provided to merchants. As a processor, Adobe processes personal data in accordance with the merchant's permission and instructions, as set forth in the license agreement.
+- **Data Processor** (Technology Vendors): Adobe Commerce and Magento Open Source act as processors of the personal data that is stored as part the services provided to merchants. As a processor, Adobe processes personal data in accordance with the merchant's permission and instructions, as set forth in the license agreement.
 
 Merchants are responsible to do the following:
 
@@ -108,8 +108,8 @@ Merchants are responsible to do the following:
 
    - **Requests to Delete**
 
-      - Merchants whose stores are hosted on Adobe Commerce Cloud should contact Magento Support for assistance deleting personal information. Contact your Magento Technical Account Manager or Customer Support for more information.
-      - Merchants running installations of Magento on premise must implement their own process and script to delete personal information upon request.
+      - Merchants whose stores are hosted on Adobe Commerce Cloud should contact Adobe Support for assistance deleting personal information. Contact your Adobe Technical Account Manager or Customer Support for more information.
+      - Merchants running installations of Adobe Commerce or Magento Open Source on premise must implement their own process and script to delete personal information upon request.
 
 ### Step 5: Write the content for the required customer notifications.
 
@@ -159,7 +159,7 @@ Review your current privacy policy and consider what, if any, additional disclos
    - **Minors 13 to < 16**: Minors at least 13 and less than 16 years of age can opt in to the sale of their personal information, provided the business establishes a reasonable process to document the action. The process must be set forth in the company's [privacy policy]({% link stores/privacy-policy.md -%}). When a business receives requests from minors in this age range, it must inform them of their right to opt out at a later date, and explain how to do it.
 
   {: .bs-callout-info}
-  Merchants are prohibited from storing the personal data of children on our platform or systems. If there is reason to believe collected data belongs to a minor, it must be removed from our platform immediately to avoid breach of Magento license terms.
+  Merchants are prohibited from storing the personal data of children on our platform or systems. If there is reason to believe collected data belongs to a minor, it must be removed from our platform immediately to avoid breach of Adobe license terms.
 
 ### Step 8: Document all related procedures and maintain records.
 

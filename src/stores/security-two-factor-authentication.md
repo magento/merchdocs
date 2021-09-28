@@ -2,7 +2,7 @@
 title: Two-Factor Authentication
 ---
 
-The Adobe Commerce _Admin_ provides access to your store, orders, and customer data. To prevent unauthorized access to your data, all users who attempt to sign in to the _Admin_ must complete an authentication process to verify their identity.
+The Commerce _Admin_ for your Adobe Commerce or Magento Open Source installation provides access to your store, orders, and customer data. To prevent unauthorized access to your data, all users who attempt to sign in to the _Admin_ must complete an authentication process to verify their identity.
 
 {: .bs-callout-info}
 This implementation of two-factor authentication (2FA) applies to the _Admin_ only, and is not available for customer accounts. The two-factor authentication that protects your [magento.com account]({% link magento/magento-account.md %}) has a separate setup. To learn more, go to [Securing Your Account]({% link magento/magento-account-secure.md %}).

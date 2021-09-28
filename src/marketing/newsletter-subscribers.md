@@ -70,3 +70,13 @@ If you want to use a third-party service to send newsletters, you can export you
 
    ![Export newsletter subscribers]({% link images/images/newsletter-subscribers-export.png %}){: .zoom}
    _Export Newsletter Subscribers_
+
+## Delete a subscriber from the Newsletter Subscribers list
+
+1. On the _Admin_ sidebar, go to **Marketing** > _Communications_ > **Newsletter Subscribers**.
+
+1. Find the subscriber in the grid and select the checkbox in the first column.
+
+1. Set the _Action_ control to **Delete** and click <span class="btn">Submit</span>.
+
+1. When prompted to confirm, click <span class="btn">OK</span>.

@@ -27,6 +27,8 @@ pages:
         url: "/sales/cart-quote-lifetime.html"
       - label: Minimum Order Amount
         url: "/sales/cart-minimum-order-amount.html"
+      - label: Minimum Order Quantity
+        url: "/sales/minimum-order-qty.html"
       - label: Cart Thumbnails
         url: "/sales/cart-thumbnails.html"
         edition: ee-only

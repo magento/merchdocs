@@ -2,7 +2,7 @@
 title: Managing Sources
 ---
 
-Sources are the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, pickup locations, and drop shippers. You allocate inventory quantities to these sources, and Magento automatically aggregates the total salable products for your stocks. For large companies, add multiple sources for all of your locations: in different geographic locations by country and continent, locations in a city, based on the type of inventory, even based on services.
+Sources are the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, pickup locations, and drop shippers. You allocate inventory quantities to these sources, and Commerce automatically aggregates the total salable products for your stocks. For large companies, add multiple sources for all of your locations: in different geographic locations by country and continent, locations in a city, based on the type of inventory, even based on services.
 
 It is recommended to provide specific physical geographical locations when creating a source. That allows the _Distance Priority Algorithm_ to compare the location of the shipping destination address with the available source locations to determine the closest source to fulfill shipments. You can use Google Maps or offline calculations, which use geocodes. For more information on this _Distance Priority Algorithm_, see [Configure Distance Priority Algorithm]({% link catalog/inventory-configure-distance-priority.md %}).
 
@@ -19,7 +19,7 @@ _Example Sources for a Mountain Bike_
 
 All stores begin with a Default Source that must remain enabled:
 
-- All new products imported into Magento require a source and stock, automatically assigned for immediate access to inventory management.
+- All new products imported into Commerce require a source and stock, automatically assigned for immediate access to inventory management.
 - Single Source merchants use the Default Source as their single point of inventory location and shipments.
 
 ## Edit sources

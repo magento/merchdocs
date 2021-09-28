@@ -13,7 +13,7 @@ _Transactional Email Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enabled|Website|Determines if dotdigital transactional email messages are enabled for your Magento website. Options: Yes / No|
+|Enabled|Website|Determines if dotdigital transactional email messages are enabled for your Adobe Commerce or Magento Open Source website. Options: Yes / No|
 |Send Mode|Website|Specifies the protocol that is used to send transactional email messages from dotdigital. Option: SMTP|
 |Host|Website|Specifies the host that sends email to customers.|
 |Username|Website|The username associated with an admin account with full permissions.|
@@ -64,4 +64,4 @@ _Email Templates_
 |Stock Alert|Website|The campaign that sends notification to a customer of a stock alert. Options: (All available campaigns)|
 |Product Price Alert|Website|The campaign that sends notification to a customer of a product price alert. Options: (All available campaigns)|
 |**Additional Templates**|||
-|Sync additional campaigns as templates|Website|Maps additional campaigns as templates. Synced templates can be selected from Magento.<br /><span class="btn">Sync New Campaign</span>Map a new campaign to appear in lists of available campaign templates. Options: <br />**Campaign**: Lists mapped campaigns by name.<br />**Action**: Lists the action that triggers the campaign.|
+|Sync additional campaigns as templates|Website|Maps additional campaigns as templates. Synced templates can be selected from your Commerce _Admin_.<br /><span class="btn">Sync New Campaign</span>Map a new campaign to appear in lists of available campaign templates. Options: <br />Campaign - Lists mapped campaigns by name.<br />Action - Lists the action that triggers the campaign.|

@@ -108,5 +108,37 @@ In the storefront, a customer can create a wish list from their account dashboar
 
     The message is sent from your primary [store contact]({% link stores/store-email-addresses.md %}) and includes a thumbnail image of each product, with links to your store.
 
-    ![]({% link images/images/account-dashboard-wishlist-sharing-email.png %}){: .zoom}
+    ![]({% link customers/assets/account-dashboard-wishlist-sharing-email.png %}){: .zoom}
     _Shared Wish List Email_
+
+{:.ee-only}
+## Move items to a different list
+
+1. Customer selects the checkbox of each item to be moved.
+
+1. Clicks **Move Selected to Wish List** and does one of the following:
+
+    - Chooses an existing wish list.
+    - Clicks **Create New Wish List**.
+
+{:.ee-only}
+## Copy items to a different list
+
+1. Selects the checkbox of each item to be moved.
+
+1. Clicks **Copy Selected to Wish List** and does one of the following:
+
+    - Chooses an existing wish list.
+    - Clicks **Create New Wish List**.
+
+{:.ee-only}
+## Delete an existing wish list
+
+1. Customer opens the wish list to be deleted.
+
+1. Clicks <span class="btn">Delete Wish List</span>.
+
+1. When prompted to confirm, clicks <span class="btn">OK</span>.
+
+{:.bs-callout-info}
+This action cannot be undone.

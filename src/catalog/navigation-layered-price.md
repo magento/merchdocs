@@ -4,7 +4,7 @@ group: marketing
 ---
 
 {:.bs-callout-info}
-[Live Search]({% link live-search/overview.md %}) is an advanced search service that is available for Adobe Commerce. The price navigation described in this topic differs from Live Search.
+The price navigation configuration described in this topic differs for [Live Search]({% link live-search/overview.md %}).
 
 Price navigation can be used to distribute products by price range in layered navigation. You can also split each range in intervals. There are a few ways to calculate price navigation:
 

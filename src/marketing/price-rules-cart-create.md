@@ -15,7 +15,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
    - If you do not want the rule to go into effect immediately, set **Active** to `No`.
 
     ![Cart price rule - rule information]({% link images/images-ee/price-rule-cart-new.png %}){: .zoom}
-    _Rule Information_{:.ee-only}
+    _Rule Information_
 
 1. To establish the [scope]({% link configuration/scope.md %}) of the rule, do the following:
 
@@ -27,13 +27,13 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
 1. Set the rule to apply with or without a [coupon]({% link marketing/price-rules-cart-coupon.md %}) as follows:
 
-   - To have the cart rule applied to all cart items, set **Coupon** to `No Coupon`, and skip to step 5.
+   - To have the cart rule applied without the use of a coupon code, set **Coupon** to `No Coupon` and skip to step 5.
 
-   - To associate a coupon with a price rule, set **Coupon** to `Specific Coupon`. Then, do the following:
+   - To associate a coupon with a price rule, set **Coupon** to `Specific Coupon` and do the following:
 
       - Enter a free-text **Coupon Code** that the customer must enter to receive the discount.
 
-      - To set a limit on the number of times the coupon can be used, complete the following:
+      - To set a limit on the number of times the coupon can be used, complete the following options:
 
       |Uses per Coupon |Determines how many times the coupon code can be used. If there is no limit, leave the field blank. |
       |Uses per Customer |Determines how many times the coupon code can be used by the same registered customer who belongs to any of the selected customer groups. The setting does not apply to guest shoppers who are members of the NOT LOGGED IN customer group, or to customers who shop without logging in to their accounts. If there is no limit, leave the field blank. |
@@ -41,7 +41,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
         To learn more, see [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}).
 
         ![Cart price rule  - coupon settings]({% link images/images-ee/price-rule-cart-coupon-settings-ee.png %}){: .zoom}
-        _Manage Coupon Codes{:.ee-only}
+        _Coupon settings_
 
    - {:.ce-only}Use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the **From** and **To** date range for the promotion.
 
@@ -56,19 +56,19 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
    - {:.ce-only}After the rule is saved, the name of the cart price rule appears at the top of the page.
 
-   - {:.ee-only}After the rule is saved, the name of the cart price rule and the Scheduled Changes box appear at the top of the page.
+   - {:.ee-only}After the rule is saved, the name of the cart price rule and the Scheduled Changes box appears at the top of the page.
 
-   ![Cart price rule - scheduled changes]({% link images/images-ee/price-rule-cart-scheduled-changes.png %}){: .zoom}
-   _[Scheduled Changes]({% link marketing/price-rule-cart-scheduled-changes.md %})_{:.ee-only}
+      ![Cart price rule - scheduled changes]({% link images/images-ee/price-rule-cart-scheduled-changes.png %}){: .zoom}
+      _[Scheduled Changes]({% link marketing/price-rule-cart-scheduled-changes.md %})_
 
 ## Step 2: Describe the Conditions
 
 In this step, the conditions are described that must be met for an order to qualify for the promotion. The rule goes into action whenever the set of conditions is met.
 
-![Cart price rule - conditions]({% link images/images/price-rule-cart-conditions.png %}){: .zoom}
-_Conditions_
-
 1. In the left panel, select **Conditions**.
+
+   ![Cart price rule - conditions]({% link images/images/price-rule-cart-conditions.png %}){: .zoom}
+   _Conditions_
 
    The first condition appears by default, and states:
 
@@ -87,26 +87,32 @@ _Conditions_
    - When prompted to **Choose the condition to add**, choose `Products Subselection`.
 
    ![Cart price rule condition - products subselection]({% link images/images-ee/price-rule-cart-condition-products-subselection.png %}){: .zoom}
-    _Products Subselection_{:.ee-only}
+   _Products Subselection_
+
+   - In the condition statement, click **total quantity** and select `total quantity` or `total amount`.
+
+   - In the condition statement, click **is** and select `greater than`.
 
 1. When the next part of the condition appears, hover over the line so you can see where each link with variable values is located.
 
    ![Cart price rule condition]({% link images/images/price-rule-cart-condition-products-subselection2.png %}){: .zoom}
    _If ALL of these conditions are TRUE_
 
-1. Click the "more" (...) link, and enter `greater than 100`. This condition requires the total quantity of the cart to be 101 or greater.
+1. Click the "more" (...) link, and enter `100`.
+
+   This condition requires the total quantity of the cart to be 101 or greater.
 
    ![Cart price rule condition - total quantity value]({% link images/images/price-rule-cart-condition-products-subselection3.png %}){: .zoom}
    _Total Quantity Value_
 
-1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line. Then add a condition that is based on **Category**.
+1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line, and then add a condition that is based on **Category**.
 
    ![Cart price rule condition - product attribute category]({% link images/images/price-rule-cart-condition-products-subselection4.png %}){: .zoom}
    _Category_
 
-1. In the next part of the condition, click the **more** (...) link to display the input field. Then, open the **Chooser** (![List icon]({% link images/images/btn-chooser.png %})) to display the category tree.
+1. In the next part of the condition, click the **more** (...) link to display the input field, and then open the **Chooser** (![List icon]({% link images/images/btn-chooser.png %})) to display the category tree.
 
-1. Select the checkbox of the category that you want to use as a condition for the price rule. Click the ![Add icon]({% link images/images/btn-checkmark-green.png %}) icon to accept the category selection(s).
+1. Select the checkbox of the category that you want to use as a condition for the price rule and click the ![Add icon]({% link images/images/btn-checkmark-green.png %}) icon to accept the category selection(s).
 
    The condition can be based on any category that is a child of the store’s [root category]({% link catalog/category-root.md %}).
 
@@ -136,6 +142,30 @@ _Conditions_
 
  {:.bs-callout-warning}
  For purchase orders only: When a Cart Price Rule is set based on one or more specific Payment Methods, the discount is applied to the total when a purchase order is created. If, after the purchase order is created, the payment method is changed to one that is not covered by the Cart Price rule, the discount remains applied to the total.
+
+### Add a product attribute to cart price rules
+
+1. Go to **Stores** > _Attributes_ > **Product** and open the product attribute.
+
+1. In the left panel, select **Storefront Properties**.
+
+1. Set **Use for Promo Rule Conditions** to `Yes`.
+
+1. Click <span class="btn">Save Attribute</span>.
+
+1. Go to **Marketing** > **Cart Price Rules** and open the required cart price rule.
+
+1. Expand ![]({% link images/images/btn-expand.png %}) the **Condition** section and select **Product attribute combination**.
+
+1. Set this condition to one of the following values:
+
+   - Click **FOUND** and select `FOUND` or `NOT FOUND`.
+
+   - Click **ALL** and select `ALL` or `ANY`.
+
+1. Click the Add (![Add icon]({% link images/images/btn-add-grn.png %})) icon and select the **Product Attribute** that you set up for promotional rule conditions.
+
+1. Click <span class="btn">Save</span>.
 
 ## Step 3: Define the Actions
 
@@ -222,7 +252,7 @@ _Discount Label in Totals Section of Order_
 
 1. Test the rule to make sure that it works correctly.
 
-    Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Magento recalculates the prices and the priorities accordingly.
+    Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Commerce recalculates the prices and the priorities accordingly.
 
 ## Field Descriptions
 
