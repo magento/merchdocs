@@ -22,9 +22,9 @@ _All Customers_
 {:.b2b-only}
 ### Set active/inactive
 
-Customers with inactive accounts cannot log in or make purchases from their accounts. There are two methods to set active/inactive of customer account:
+Customers with inactive accounts cannot log in or make purchases from their accounts. There are two methods to set a customer account as active or inactive:
 
-**Method 1:** Via customers grid
+**Method 1:** From the customers grid
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 
@@ -45,9 +45,9 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 1. Select the **Account Information** tab.
 
-1. Set the ** Customer Active** swatcher to `Yes` or `No`.
+1. Set ** Customer Active** to `Yes` or `No`.
 
-1. When finish, click <span class="btn">Save Customer</span>.
+1.  Click <span class="btn">Save Customer</span>.
 
 ### Subscribe to newsletter
 
