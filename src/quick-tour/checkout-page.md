@@ -16,7 +16,7 @@ Checkout consists of two steps:
    The second step of the checkout process is for the customer to choose the payment method and optionally apply a  discount code.
 
    {:.bs-callout-info}
-   Although _Magento 2_ allows configuring multiple coupon codes, a Customer can use **only one coupon code in the cart**. (See the [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}) for more information.)
+   Although Commerce allows configuring multiple coupon codes, a customer may use only one coupon code in the cart. (See the [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}) for more information.)
 
    ![Example storefront checkout page]({% link images/images/storefront-checkout-payment-full.png %}){: .zoom}
    _Checkout page (Review & Payments)_
