@@ -42,4 +42,3 @@ An order that was paid by Cash on Delivery ([COD]({% link payment/cash-on-delive
 |Bill-to Name|The name of the person who is responsible to pay for the order.|
 |Status|Indicates the current state of a Credit Memo request.|
 |Actions|**View** - Opens the request for a Credit Memo and maintains a record of the negotiation between buyer and seller.|
-
