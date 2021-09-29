@@ -43,6 +43,6 @@ If the gift card is not redeemable, the gift card code may be applied during che
 
 1. During the `Review & Payments step` click **Apply Gift Card**.
 
-1. Enter the gift card code, then click **Apply**. The discount should be reflected in the 'Order Summary'.
+1. Enter the gift card code, then click **Apply**. The discount should be reflected in the _Order Summary_.
 
 1. Click <span class="btn">Place Order</span> to finalize the order.
