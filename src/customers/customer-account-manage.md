@@ -109,7 +109,7 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 
    To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
 
-1. When finish, click <span class="btn">Save Customer</span>.
+1. When complete, click <span class="btn">Save Customer</span>.
 
 ### Delete customer accounts
 
