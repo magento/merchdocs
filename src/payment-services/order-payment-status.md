@@ -79,7 +79,11 @@ From the Order payment status report view, you can customize the timeframe of th
 
 ## View statuses
 
+By default, 30 days of order payment statuses are shown in the grid.
+
 Scroll to the left and right to view [order payment status information](#column-descriptions), including order date, authorized date, invoiced, shipped, pay status, and more.
+
+The number of rows returned in a search, or shown in the default 30 days of order payment statuses, are shown above the Order payment status view grid alongside the Order dates calendar selector filter.
 
 ## Download order payment statuses
 
