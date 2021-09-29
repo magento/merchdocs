@@ -20,7 +20,7 @@ _Customer Profile_{:.ee-only}
 1. When complete, click <span class="btn">Save Customer</span> or <span class="btn">Save and Continue Edit</span>.
 
 {:.bs-callout-info}
-If you want to undo all the edits made, click the **Rese** button in the top bar, this will return all changes to the last saved version
+If you want to undo all the edits made, click **Reset** in the top button bar to return all changes to the last saved version
 
 ## Customer information
 
