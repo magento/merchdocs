@@ -93,7 +93,7 @@ To see a gift card history:
 
 1. To confirm the action, click <span class="btn">OK</span>.
 
-## Grid Columns
+## Column Descriptions
 
 |Column|Description|
 |--- |--- |
