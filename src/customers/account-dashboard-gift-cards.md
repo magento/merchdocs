@@ -39,7 +39,7 @@ All operations for the gift card balance are available on the **Store Credit** p
 
 ## Apply a gift card during checkout
 
-If the gift card is not redeemable, the gift card code may be used during checkout.
+If the gift card is not redeemable, the gift card code may be applied during checkout.
 
 1. During the `Review & Payments step` click **Apply Gift Card**.
 

@@ -43,7 +43,7 @@ _Store Credit Balance_
 
 1. When updates are complete, click <span class="btn">Save and Continue Edit</span> or <span class="btn">Save Customer</span>.
 
-Updated Balance entity should be displayed in **Balance History**.
+The updated balance should be displayed in **Balance History**.
 
 ## Apply a credit balance to an order
 
