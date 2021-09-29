@@ -1,5 +1,4 @@
 ---
-b2b_only: true
 title: Integration with ERP Systems
 ---
 

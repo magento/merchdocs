@@ -1,6 +1,7 @@
 ---
-ee_only: true
 title: Bought this, bought that
+tag: product-recommendations
+ee_only: true
 ---
 
 The _Bought this, bought that_ recommendation type recommends products that tend to be purchased disproportionately more than others when purchasing the current item.

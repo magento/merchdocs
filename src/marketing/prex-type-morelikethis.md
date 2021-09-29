@@ -1,6 +1,7 @@
 ---
-ee_only: true
 title: More like this
+tag: product-recommendations
+ee_only: true
 ---
 
 The _More like this_ recommendation type recommends items based on similar content and attributes to the product being viewed.

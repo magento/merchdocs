@@ -4,9 +4,9 @@ tag: product-recommendations
 ee_only: true
 ---
 
-Product recommendations are a powerful marketing tool you can use to increase conversions, boost revenue, and stimulate shopper engagement. Product recommendations are surfaced on the storefront in the form of units such as “Customers who viewed this product also viewed”. Product recommendations in Adobe Commerce are powered by [Adobe Sensei](https://www.adobe.com/sensei.html), which uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
+Product recommendations are a powerful marketing tool you can use to increase conversions, boost revenue, and stimulate shopper engagement. Product recommendations are surfaced on the storefront in the form of units such as “Customers who viewed this product also viewed”. Adobe Commerce product recommendations are powered by [Adobe Sensei](https://www.adobe.com/sensei.html), which uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Adobe Commerce catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
 
-You can create, manage, and deploy recommendations across your store views directly from the Admin panel. If you have implemented your storefront using PWA Studio, see the [PWA documentation](https://magento.github.io/pwa-studio/product-recs).
+You can create, manage, and deploy recommendations across your store views directly from the Adobe Commerce Admin. If you have implemented your storefront using PWA Studio, see the [PWA documentation](https://magento.github.io/pwa-studio/product-recs).
 
 {:.bs-callout-info}
 For information about installing product recommendations modules, refer to the [developer documentation]({{ site.devdocs_url }}/recommendations/install-configure.html).
@@ -69,6 +69,11 @@ The following recommendation types will fallback to **Most viewed** if there is 
 - **Bought this, bought that**
 
 - **Trending**
+
+The following recommendation types will fallback to **Most popular** or **Most viewed** if there is not sufficient input data collected:
+
+- **Conversion (view to purchase)**
+- **Conversion (view to cart)**
 
 ## Product recommendations placement {#productrecplacement}
 
