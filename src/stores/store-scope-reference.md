@@ -22,7 +22,7 @@ group: getting-started
 |Checkout|The [checkout process]({% link sales/checkout-process.md %}) takes place at the website level, although some display options can be configured for each store view. All stores associated with a website have the same [checkout configuration]({% link sales/checkout-options.md %}).|
 |Allowed countries|Allowed countries can be configured on the website level. The [allowed countries]({% link stores/country-options.md %}) settings are used in the checkout to limit where a customer can come from.|
 |**Store**||
-|Domain|In the case of multiple stores, each store can have the same domain, a subdomain, or distinctly different domains. For more information, see [Adding Stores]({% link stores/stores-all-create-store.md %}).|
+|Domain|In the case of multiple stores, each store can have the same domain, a subdomain, or distinctly different domains. For more information, refer to [Adding Stores]({% link stores/stores-all-create-store.md %}).|
 |Root Category|Each store can have a separate set of products and main menu that is based on a “root” category and subcategories. Each catalog has a [root category]({% link catalog/category-root.md %}) that is assigned at the store level.|
 |**Store View**||
 |Subcategories|The [subcategories]({% link catalog/category-create.md %}) that make up the main menu (under the root) are assigned at the store view level.|
