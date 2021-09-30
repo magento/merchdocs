@@ -45,6 +45,8 @@ To select the data source for your Order Payment Status report:
 
 By default, 30 days of transactions are shown in the grid.
 
+The number of rows returned in a search, or shown in the default 30 days of transactions, are shown above the Payouts view grid alongside the Transaction dates calendar selector filter.
+
 Scroll to the left and right to view [information for each payout transaction](#column-descriptions) in the daily report, including transaction date, reference ID, invoice number, and payment method details.
 
 ### Customize transactions timeframe
@@ -54,7 +56,7 @@ From the Payouts view, you can customize the timeframe for the payout transactio
 1. On the _Admin_ sidebar, go to **Sales** > **Payment Services** > **Payouts**.
 1. Click the Transaction dates calendar selector filter.
 1. Choose the applicable date range.
-1. View the payouts statuses for your specified dates in the grid.
+1. View the payouts statuses in the grid for your specified dates.
 
 ## Download transactions
 
@@ -65,20 +67,6 @@ You can download a .csv file with all of the transactions visible in the Payouts
 1. Click the _Download_ (![]({% link images/images/btn-download.png %})) icon.
 
 Your payout transactions are downloaded in a .csv format.
-
-<!-- ## Default transactions timeframes
-
-These payout transactions timeframes are currently available in Payment Services.
-
-Report | Description
------------- | --------------------
-Yesterday | Available from the Payout transaction dates selector, this shows information for the prior date.
-Today | Available from the Payout transaction dates selector, this shows information for the current day.
-Last 7 days | Available from the Payout transaction dates selector, this shows information for the last seven days.
-Last 30 days | Available from the Payout transaction dates selector and by default in the Payout transactions view, this shows information for the last 30 days.
-Last 90 days | Available from the Payout transaction dates selector, this shows information for the last 90 days.
-Year to date | Available from the Payout transaction dates selector, this shows information for the the entire year to date.
-Custom range | Available from the Payout transaction dates selector, this can be filtered to show a custom date range. -->
 
 ## Transactions information
 
