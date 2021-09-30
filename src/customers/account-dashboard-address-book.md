@@ -40,14 +40,14 @@ _[Additional Address Entries]({% link configuration/customers/customer-configura
 
 1. Finds the address entry to be edited.
 
-1. Click the **Edit** button.
+1. Clicks **Edit**.
 
-1. Make edits that neccessary.
+1. Makes any needed changes.
 
    {:.bs-callout-info}
-   You can set this address as default **Shipping or Billig** using the _Use as my default billing address_ checkboxes.
+   The customer can set this address as the default **Shipping or Billing** address by selecting the _Use as my default billing address_ checkboxes.
 
-1. When finish, clicks <span class="btn">save Address<span>.
+1. When changes are complete, clicks <span class="btn">Save Address<span>.
 
 ## Change the default address
 
