@@ -93,8 +93,8 @@ _[Default Layouts]({% link design/page-layout.md %})_{:.ee-only}
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Cookie Lifetime|Store View|Determines how long a cookie can exist before it is automatically deleted; Default value is 3600 seconds (1 hour)|
-|Cookie Path|Store View|Specifies the folders on the server where Commerce cookies can be used. To make Commerce cookies available everywhere in the installation, set the Cookie Path to a single forward slash: `/`.|
-|Cookie Domain|Store View|Determines if Commerce cookies are available to subdomains. For example, to support mysubdomain.domain.com, enter the name of your domain with a period at the beginning, like `.domain.com`.|
+|Cookie Path|Store View|Specifies the folders on the server where Commerce cookies can be used. To make Commerce cookies available everywhere in the installation, set the Cookie Path to a single forward slash: `/`. It can't contain any other cookie parameters, except the cookie path.|
+|Cookie Domain|Store View|Determines if Commerce cookies are available to subdomains. For example, to support mysubdomain.domain.com, enter the name of your domain with a period at the beginning, like `.domain.com`. It can't contain any other cookie parameters, except the cookie domain.|
 |Use HTTP Only|Store View|Determines if Commerce Cookies can be used only over an unsecure channel (http), or can also be used over an encrypted channel (https). Options: Yes / No|
 |Cookie Restriction Mode|Website|Determines if Cookie Restriction Mode is enabled. Options: Yes / No|
 
