@@ -1,7 +1,5 @@
 ---
 title: Amazon Sales Channel - Listing Rules
-redirect_from:
-  - /sales-channels/asc/ob-listing-rules.html
 redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/listing-rules.html
 ---

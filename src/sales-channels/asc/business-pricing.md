@@ -1,7 +1,5 @@
 ---
 title: Amazon Sales Channel - "(B2B) Business Price"
-redirect_from:
-  - /sales-channels/asc/ob-business-pricing.html
 redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/business-pricing.html
 ---

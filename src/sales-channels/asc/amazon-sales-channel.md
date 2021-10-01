@@ -1,7 +1,5 @@
 ---
 title: Amazon Sales Channel
-redirect_from:
-  - /sales-channels/amazon/amazon-sales-channel.html
 redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---

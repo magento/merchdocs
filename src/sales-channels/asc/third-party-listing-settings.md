@@ -1,7 +1,5 @@
 ---
 title: Amazon Sales Channel - Third Party Listings
-redirect_from:
-  - /sales-channels/asc/ob-third-party-listings.html
 redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/third-party-listing-settings.html
 ---

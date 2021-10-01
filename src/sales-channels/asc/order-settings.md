@@ -1,7 +1,5 @@
 ---
 title: Amazon Sales Channel - Order Settings
-redirect_from:
-  - /sales-channels/asc/ob-order-settings.html
 redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-channels/amazon/order-settings.html
 ---

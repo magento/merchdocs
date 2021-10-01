@@ -1,7 +1,5 @@
 ---
 title: Amazon Sales Channel - Product Listing Condition
-redirect_from:
-  - /sales-channels/asc/ob-product-listing-condition.html
 redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/product-listing-condition.html
 ---

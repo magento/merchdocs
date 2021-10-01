@@ -1,7 +1,5 @@
 ---
 title: Amazon Sales Channel - Listing Price
-redirect_from:
-  - /sales-channels/asc/ob-listing-price.html
 redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/listing-price.html
 ---

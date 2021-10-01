@@ -1,7 +1,5 @@
 ---
 title: Amazon Sales Channel - Listing Settings
-redirect_from:
-  - /sales-channels/asc/ob-listing-settings.html
 redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/listing-settings.html
 ---

@@ -1,7 +1,5 @@
 ---
 title: Amazon Sales Channel - Manage Pricing
-redirect_from:
-  - /sales-channels/asc/ob-pricing-rules.html
 redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/pricing-products.html
 ---
