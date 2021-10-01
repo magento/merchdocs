@@ -4,48 +4,44 @@ title: Performance
 group: marketing
 ---
 
-The Performance dashboard provides insight into product-specific search performance that you can leverage to optimize search.
+The Live Search Performance dashboard provides insight into the effectiveness of search terms that customers use. The information can be used to identify trends, increase click-through, and improve the conversion rate.
 
-![Performance]({% link live-search/assets/performance.png %}){: .zoom}
-_Performance_
+The Performance dashboard provides a snapshot of search metrics for a specific date range, and includes the following reports:
 
-## Generate a report
+- Unique searches
+- Zero results
+- Popular results
 
-1. Choose the report **View**.
-1. To enter a date range for the report, choose a preset **timeframe** or choose the beginning and ending dates from the calendar.
+![Performance]({% link live-search/assets/performance-unique-searches.png %}){: .zoom}
+_Performance dashboard_
 
-   ![Performance report timeframe]({% link live-search/assets/performance-timeframe.png %}){: .zoom}
-   _Report timeframe_
+## View a report
 
-## Export report data
+1. To enter the **Date range**, click the calendar (![]({% link live-search/assets/btn-calendar.png %})) and do one of the following:
 
-1. On the `Performance` tab, click **Export**.
-1. Choose one of the following file formats:
+   - To specify a single date, double-click the date on the calendar.
+   - To specify a range of dates, click the first and last date on the calendar.
 
-   - CSV (Comma-separated-values)
-   - XLS (Excel worksheet)
+   ![Performance report timeframe]({% link live-search/assets/performance-calendar.png %}){: .zoom}
+   _Choose date range_
 
-1. Click **Export**.
+1. Click the report tab that you want to view.
+
+   ![Performance popular results]({% link live-search/assets/performance-popular-results.png %}){: .zoom}
+   _Popular results report_
 
 ## Field descriptions
 
-|Reporting fields |Description|
-|--- |--- |
-|Report View |Determines the data that is used to generate the Performance report. Options: Search |
-|Export Report |Options: <br />Date range - Defines the date range for the Performance report.<br />Export CSV - Exports report data to a comma-separated value (CSV) file.<br />Export XLS - Exports report data to an Excel worksheet (XLS) file.|
-
-|Report tabs |Description|
-|--- |--- |
-|Unique searches |Displays unique search detail, including search term, count, number of refinements, and conversion rate.|
-|Top searches |Displays top search detail. |
-|Zero results |Displays detail about searches that returned no results. |
-|Trending searches |Displays detail about trending searches. |
-|Popular results |Displays detail about popular search results. |
-
 |Snapshot data |Description|
 |--- |--- |
-|Unique searches |The number of unique searches initiated from the current store view during the specified date range. |
-|Conversion rate |The percentage of unique searches that led to a customer making a purchase. |
-|Zero results rate|The percentage of unique searches that returned no results. |
+|Unique searches |The number of unique searches during the specified date range. |
 |Click-through rate|The percentage of unique searches in which the shopper clicked through to a product detail page. |
-|Avg. click-through rate|The average click-through rate based on unique searches from the current store view during the specified date range. |
+|Conversion rate |The percentage of unique searches that culminate with a customer purchase. |
+|Zero results rate|The percentage of unique searches that return no results. |
+|Avg. click position|The relative position of the average click-through rate based on unique searches for the specified date range. |
+
+|Reports |Description|
+|--- |--- |
+|Unique searches |Lists unique search terms that were used during the specified date range and the number of times each term was used. |
+|Zero results |Lists the search terms that returned no results, and the number of times each was used during the specified date range. |
+|Popular results |Lists the most popular search terms with the number of impressions and revenue generated for each term during the specified date range. |
