@@ -26,9 +26,9 @@ _Cookie Restriction Notice In Footer_
 
     - Enter the **Cookie Lifetime** in seconds.
 
-    - If you want to make cookies available to other folders, enter the **Cookie Path**. To make the cookies available anywhere in the site, enter a forward slash (`/`). It can't contain any other cookie parameters, except the cookie path.
+    - If you want to make cookies available to other folders, enter the **Cookie Path**. To make the cookies available anywhere in the site, enter a forward slash (`/`). This value can contain only the cookie path, and **_cannot_** contain any other cookie parameters.
 
-    - To make the cookies available to a subdomain, enter the subdomain name in the **Cookie Domain** field (`subdomain.yourdomain.com`). To make cookies available to all subdomains, enter the domain name preceded by a period (`.yourdomain.com`). It can't contain any other cookie parameters, except the cookie domain.
+    - To make the cookies available to a subdomain, enter the subdomain name in the **Cookie Domain** field (`subdomain.yourdomain.com`). To make cookies available to all subdomains, enter the domain name preceded by a period (`.yourdomain.com`). This value can contain only the cookie domain, and **_cannot_** contain any other cookie parameters.
 
     - To prevent scripting languages, such as JavaScript, from gaining access to cookies, make sure that **Use HTTP Only** is set to `Yes`.
 
