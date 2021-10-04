@@ -42,9 +42,10 @@ _Yotpo Default Sync Settings_
 
 |Field|Default|Description|
 |---|---|---|
+|Sync Status||Displays the sync progress, last sync date and total number of synced orders with Yotpo.|
 |Orders Sync From Date|[date of setup]|Set the initial date for syncing Commerce orders to Yotpo (90 days retroactive).|
 |Orders Sync Limit|50|Defines the maximum number of orders to send to Yotpo in a single transmission.|
-|Orders Sync Statuses|Complete |Defines the order status(es) that are sent to Yotpo. Default is `Complete`. Multiple order statuses can be selected by pressing the `Ctrl/Cmd` on your keyboard.|
+|Orders Sync Statuses|Complete |Defines the order status(es) that are sent to Yotpo. Default is `Complete`. Multiple order statuses can be selected by pressing the `Ctrl/Cmd` on your keyboard. Options: Canceled / Closed /Complete / Suspected Fraud / On Hold / Payment Review / PayPal Canceled Reversal / PayPal Reversed / Pending / Pending Payment / Pending PayPal / Processing|
 
 {:.bs-callout-info}
 To change the settings for any of these fields, you must clear the **Use Website** checkbox.

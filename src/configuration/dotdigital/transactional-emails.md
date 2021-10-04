@@ -34,6 +34,7 @@ _Email Templates_
 |New Account Confirmation|Store View|The campaign that sends a confirmation email to customers who open a new account. Options: (All available campaigns)|
 |Forgot Password|Store View|The campaign that sends an email to customers who forget their passwords. Options: (All available campaigns)|
 |Remind Password|Store View|The campaign that sends a password reminder email to customers who have forgotten their passwords. Options: (All available campaigns)|
+|Reset Password|Store View|The campaign that sends a confirmation email to customers who reset their passwords. Options: (All available campaigns)|
 |Wish List Sharing|Store View|The campaign that sends a confirmation email when the customer shares a wish list. Options: (All available campaigns)|
 |Forgot Admin Password|Store View|The campaign that sends a password reminder email to Admin users who have forgotten their passwords. Options: (All available campaigns)|
 |**Newsletter**|||
