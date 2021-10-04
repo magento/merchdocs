@@ -36,3 +36,13 @@ The gift card amount is activated and added to the total _Store Credit_ balance.
 _Store Credit balance_
 
 All operations for the gift card balance are available on the **Store Credit** page.
+
+## Apply a gift card during checkout
+
+If the gift card is not redeemable, the gift card code may be applied during checkout.
+
+1. During the `Review & Payments step` click **Apply Gift Card**.
+
+1. Enter the gift card code, then click **Apply**. The discount should be reflected in the _Order Summary_.
+
+1. Click <span class="btn">Place Order</span> to finalize the order.
