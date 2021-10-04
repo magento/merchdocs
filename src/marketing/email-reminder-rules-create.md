@@ -90,8 +90,8 @@ Email reminders might promote a cart price rule with, or without, a coupon. A ca
 
 |Source|Trigger|
 |--- |--- |
-|Wish List|Conditions Combination<br/>Sharing<br/>Number of Items<br/>Items Sublection|
-|Shopping Cart|Conditions Combination<br/>Coupon Code<br/>Cart Line Items<br/>Items Quantity<br/>Virtual Only<br/>Total Amount<br/>Items Sublection|
+|Wish List|Conditions Combination<br/>Sharing<br/>Number of Items<br/>Items Subselection|
+|Shopping Cart|Conditions Combination<br/>Coupon Code<br/>Cart Line Items<br/>Items Quantity<br/>Virtual Only<br/>Total Amount<br/>Items Subselection|
 
 ## Field Descriptions
 
