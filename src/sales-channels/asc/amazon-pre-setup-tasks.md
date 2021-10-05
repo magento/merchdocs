@@ -1,7 +1,8 @@
 ---
-title: Pre-Setup Tasks
+title: Amazon Sales Channel - Pre-Setup Tasks
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/onboarding/amazon-pre-setup-tasks.html
 ---
-
 
 Before [Store Integration]({% link sales-channels/asc/store-integration.md %}), you must ensure that your Amazon Seller Central account and your Commerce account are ready for the integration. To successfully integrate, we have outlined some required pre-setup tasks.
 

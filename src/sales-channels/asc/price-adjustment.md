@@ -1,7 +1,8 @@
 ---
-title: Price Adjustment
+title: Amazon Sales Channel - Price Adjustment
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/price-adjustment.html
 ---
-
 
 {:.bs-callout-info}
 The Price Adjustment section differs slightly for Standard and Intelligent repricing rules. **Match Competitor Price** is only available under _Price Action_ when **Rule Type** is set to `Intelligent repricing rule`.

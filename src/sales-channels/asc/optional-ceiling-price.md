@@ -1,7 +1,8 @@
 ---
-title: 'Intelligent Repricing Rule: Optional Ceiling Price'
+title: Amazon Sales Channel - Optional Ceiling Price
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/optional-ceiling-price.html
 ---
-
 
 Sections of an intelligent repricing rule include:
 

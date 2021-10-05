@@ -1,5 +1,7 @@
 ---
-title: Add Pricing Rules
+title: Amazon Sales Channel - Add Pricing Rules
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/add-pricing-rule.html
 ---
 
 Pricing rules can be configured or modified at any time after your store is integrated. Pricing rules are part of [Listing Settings]({% link sales-channels/asc/listing-settings.md %}) and can be accessed in the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
