@@ -7,18 +7,18 @@ The Payment Card Industry (PCI) has established a set of requirements for busine
 
 ## PCI requirements
 
-|![checkbox]({% link images/images/assets/checkbox.png %})|Install and maintain a firewall configuration to protect cardholder data.|
-|![checkbox]({% link images/images/assets/checkbox.png %})|Do not use vendor-supplied defaults for system passwords and other security parameters.|
-|![checkbox]({% link images/images/assets/checkbox.png %})|Protect stored cardholder data.|
-|![checkbox]({% link images/images/assets/checkbox.png %})|Encrypt transmission of cardholder data across open, public networks.|
-|![checkbox]({% link images/images/assets/checkbox.png %})|Use and regularly update antivirus software.|
-|![checkbox]({% link images/images/assets/checkbox.png %})|Develop and maintain secure systems and applications.|
-|![checkbox]({% link images/images/assets/checkbox.png %})|Restrict access to cardholder data by business need to know.|
-|![checkbox]({% link images/images/assets/checkbox.png %})|Assign a unique ID to each person with computer access.|
-|![checkbox]({% link images/images/assets/checkbox.png %})|Restrict physical access to cardholder data.|
-|![checkbox]({% link images/images/assets/checkbox.png %})|Track and monitor all access to network resources and cardholder data.|
-|![checkbox]({% link images/images/assets/checkbox.png %})|Regularly test security systems and processes.|
-|![checkbox]({% link images/images/assets/checkbox.png %})|Maintain a policy that addresses information security.|
+|![checkbox]({% link assets/checkbox.png %})|Install and maintain a firewall configuration to protect cardholder data.|
+|![checkbox]({% link assets/checkbox.png %})|Do not use vendor-supplied defaults for system passwords and other security parameters.|
+|![checkbox]({% link assets/checkbox.png %})|Protect stored cardholder data.|
+|![checkbox]({% link assets/checkbox.png %})|Encrypt transmission of cardholder data across open, public networks.|
+|![checkbox]({% link assets/checkbox.png %})|Use and regularly update antivirus software.|
+|![checkbox]({% link assets/checkbox.png %})|Develop and maintain secure systems and applications.|
+|![checkbox]({% link assets/checkbox.png %})|Restrict access to cardholder data by business need to know.|
+|![checkbox]({% link assets/checkbox.png %})|Assign a unique ID to each person with computer access.|
+|![checkbox]({% link assets/checkbox.png %})|Restrict physical access to cardholder data.|
+|![checkbox]({% link assets/checkbox.png %})|Track and monitor all access to network resources and cardholder data.|
+|![checkbox]({% link assets/checkbox.png %})|Regularly test security systems and processes.|
+|![checkbox]({% link assets/checkbox.png %})|Maintain a policy that addresses information security.|
 
 To learn more, see [Adobe Approach to PCI Compliance][1]{:target="_blank"}.
 
