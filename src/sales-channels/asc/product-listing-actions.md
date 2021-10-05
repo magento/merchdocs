@@ -1,9 +1,8 @@
 ---
-title: Product Listing Actions
-redirect_from:
-  - /sales-channels/asc/ob-product-listing-actions.html
+title: Amazon Sales Channel - Product Listing Actions
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/product-listing-actions.html
 ---
-
 
 Product Listing Actions settings are part of your store listing settings. Listing settings are accessed from the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
 

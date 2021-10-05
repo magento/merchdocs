@@ -1,7 +1,8 @@
 ---
-title: Ready to List
+title: Amazon Sales Channel - Ready to List
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/ready-to-list.html
 ---
-
 
 The _Ready to List_ tab shows your Commerce catalog products that meet your listing settings and are ready to publish to Amazon as a **new** listing. Unlike other listing tabs, this tab does not always appear on the [_Product Listings_]({% link sales-channels/asc/managing-product-listings.md %}) page.
 

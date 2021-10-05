@@ -1,7 +1,8 @@
 ---
-title: Manage Orders
+title: Amazon Sales Channel - Manage Orders
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-orders/managing-orders.html
 ---
-
 
 You can view your Amazon order information, as received from Amazon, in the _Recent Orders_ section of the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) or on the _Amazon orders_ page (also called the _All Orders_ view).
 

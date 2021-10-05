@@ -1,5 +1,7 @@
 ---
-title: Manage Product Listings by Status / Tab
+title: Amazon Sales Channel - Manage Product Listings by Status / Tab
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/managing-listings-by-tab.html
 ---
 
 {% include amazon-managing-listings-intro.md %}
