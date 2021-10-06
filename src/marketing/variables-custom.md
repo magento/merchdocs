@@ -77,7 +77,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
    - Drag a new **Text** object to the stage.
 
-1. At the far right of the editor toolbar, click (![]({% link images/images/editor4-toolbar/btn-insert-variable.png %}){: .Inline}) to insert a variable.
+1. At the far right of the editor toolbar, click (![]({% link cms/assets/editor-btn-insert-variable.png %})) to insert a variable.
 
    ![Page Builder stage]({% link images/images-ee/variable-custom-pagebuilder-stage.png %}){: .zoom}
    _PageBuilder Stage and Panel_

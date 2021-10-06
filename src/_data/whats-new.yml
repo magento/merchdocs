@@ -4,8 +4,52 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Sep 27 14:27:53 2021
+updated: Mon Oct 4 14:21:42 2021
 entries:
+- description: Updated the [Email Template List](https://docs.magento.com/user-guide/marketing/email-template-list.html)
+    topic for additional templates and configuration paths.
+  versions: 2.4.x
+  type: Minor update
+  date: September 29, 2021
+  link: https://github.com/magento/merchdocs/pull/1514
+  merge_commit: 770355c633893a003a5458c398ae12824559d711
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Applying Store Credit](https://docs.magento.com/user-guide/customers/store-credit-using.html)
+    topic to include information about updating a customer's store credit balance.
+  versions: 2.4.x
+  type: Minor update
+  date: September 29, 2021
+  link: https://github.com/magento/merchdocs/pull/1520
+  merge_commit: 17e3f6cb82c7dafa55f713d8d191320b4a72d019
+  contributor: DmitryTsymbal
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: 'Added content for new product recommendation types: [Conversion (view
+    to cart)](https://docs.magento.com/user-guide/marketing/prex-type-convcart.html),
+    [Conversion (view to purchase)](https://docs.magento.com/user-guide/marketing/prex-type-convpurchase.html),
+    and [Recently viewed](https://docs.magento.com/user-guide/marketing/prex-type-recentview.html).'
+  versions: 2.4.x
+  type: New topic
+  date: September 27, 2021
+  link: https://github.com/magento-commerce/merchdocs/pull/157
+  merge_commit: 195c78de2bf8703988c5235024e614930798af70
+  contributor: erikmarr
+  membership: true
+  labels:
+  - 2.4.x
+  - New topic
 - description: Updated the [Order Status Notification](https://docs.magento.com/user-guide/sales/order-status-notification.html)
     topic to include configuration of email templates for new order notifications.
   versions: 2.4.x

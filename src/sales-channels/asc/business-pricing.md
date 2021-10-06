@@ -1,7 +1,7 @@
 ---
-title: "(B2B) Business Price"
-redirect_from:
-  - /sales-channels/asc/ob-business-pricing.html
+title: Amazon Sales Channel - "(B2B) Business Price"
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/business-pricing.html
 ---
 
 (B2B) Business Price settings are part of your store listing settings. Listing settings are accessed from the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
