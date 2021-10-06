@@ -39,7 +39,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Title|Store View|The name that is used for this  shipping method during checkout.|
 |Method Name|Store View|A name that describes the method of calculation that is used to produce a shipping estimate. The method name appears next to the calculated estimated rate in the shopping cart. The default value is `Free`.|
 |Minimum Order Amount|Website|The minimum purchase that is required to apply Free Shipping to an order.|
-|Include Tax to Amount|Determines if tax is included in the Minimum Order Amount calculation. Options: <br/>**Yes** – Tax is included when calculating the Minimum Order amount (Subtotal + Tax - Discount).<br/>**No** – Tax is not included tax when calculating the Minimum Order amount (Subtotal - Discount).|
+|Include Tax to Amount|Website|Determines if tax is included in the Minimum Order Amount calculation. Options: <br/>**Yes** – Tax is included when calculating the Minimum Order amount (Subtotal + Tax - Discount).<br/>**No** – Tax is not included tax when calculating the Minimum Order amount (Subtotal - Discount).|
 |Displayed Error Message|Store View|A message that appears if a customer chooses Free Shipping, but for some reason the method is not available.|
 |Ship to Applicable Countries|Website|Identifies the countries where you offer Free Shipping. Options: <br/>**All Allowed Countries** - Customers from any country specified in the store configuration can use Free Shipping. <br/>**Specific Countries** - Customers from only specific countries can use Free Shipping.|
 |Ship to Specific Countries|Website|Identifies each country where customers can use Free Shipping.|

@@ -1,7 +1,8 @@
 ---
-title: Communication Errors Log
+title: Amazon Sales Channel -Communication Errors Log
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/reports-logs/logs/communication-errors-log.html
 ---
-
 
 The Communication Errors Log shows any reported communication errors with Amazon. Information includes the affected Amazon Sales Channel store, error code and brief description, and the date and time of the error.
 
