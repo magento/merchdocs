@@ -1,7 +1,8 @@
 ---
-title: Manage Attributes
+title: Amazon Sales Channel - Manage Attributes
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/attributes/managing-attributes.html
 ---
-
 
 Amazon and Commerce both use a system of product properties, known as attributes, used to define a product. Attributes define the description, content, images, prices, and various data for your products.
 

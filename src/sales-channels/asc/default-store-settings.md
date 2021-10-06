@@ -1,5 +1,7 @@
 ---
-title: Default Store Settings
+title: Amazon Store Channel - Default Store Settings
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/onboarding/default-store-settings.html
 ---
 
 After your store is connected and you've set up your first listing rule, the sync of data between Amazon and Commerce starts. There are several types of store settings that allow you to customize your store for your needs. Store settings are accessed on the store [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).

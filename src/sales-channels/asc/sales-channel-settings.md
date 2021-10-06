@@ -1,7 +1,8 @@
 ---
-title: Sales Channel Admin Settings
+title: Amazon Sales Channel - Admin Settings
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/sales-channel-settings.html
 ---
-
 
 When the Amazon Sales Channel extension is installed, default values are set in the Admin for Amazon Sales Channel. These settings can be modified in your configuration settings for your Amazon store. These settings include:
 

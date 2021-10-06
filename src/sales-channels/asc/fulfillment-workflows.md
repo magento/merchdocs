@@ -1,7 +1,8 @@
 ---
-title: Amazon Fulfillment Workflows
+title: Amazon Sales Channel - Fulfillment Workflows
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-orders/fulfillment-workflows.html
 ---
-
 
 ## Example: Fulfilled by Merchant
 
