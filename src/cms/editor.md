@@ -7,7 +7,7 @@ The editor gives you the ability to enter and format while working in a _What Yo
 {:.bs-callout-info}
 TinyMCE 4 is the default WYSIWYG editor. TinyMCE 3 was deprecated in the 2.4.0 release and is now removed in the 2.4.3 release.
 
-![Editor toolbar]({% link images/images/editor-toolbar-tm4/toolbar.png %}){: .zoom}
+![Editor toolbar]({% link cms/assets/editor-toolbar.png %}){: .zoom}
 _WYSIWYG editor toolbar_
 
 The following topics provide detailed information about using the editor:
