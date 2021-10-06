@@ -36,33 +36,6 @@ Adobe Commerce provides the following inclusion and exclusion filters you can us
 - **Type** - Filters based on product type, such as: _Simple_, _Configurable_, _Virtual_, _Downloadable_, or _Gift card_.  _Bundled_ and _Grouped_ products are [not yet supported]({% link marketing/product-recs-limitations.md %}).
 - **Visibility** - Filters products based on visibility, such as: _Catalog_, _Search_, or both.
 
-
-
-<!--B2B CONTENT:
-As a Magento merchant, I need displayed Recommendations to correctly reflect the allowed customer-specific product categories for all my customer groups. Magento allows the merchant to set up category permissions, which identify a subset of the catalog where defined  customer groups can: 
-
-- see the products or not
-- see the product pricing or not
-- can add to cart or not
-
-This capability is also called Shared Catalogs in the B2B world and is based on category permissions (a Commerce-only feature)
-
-Effectively a merchant can maintain many different sub-catalogs that various customer groups can see (and have their own pricing applied to products). 
-
- 
-
-Use cases
-
-If I have specified certain categories to be hidden from my retail customer segment, then a logged-in customer in that segment would not be shown recommendations for products in that group 
-When I define a shared catalog for a specific customer group - meaning customers in that group can access only defined products - those customer will see recommendations only for products they can see/access. 
-B2B content-->
-
-
-
-
-
-
-
 When creating filters for categories, Adobe Commerce recommends the following best practices:
 
 |Page|Filter by|
