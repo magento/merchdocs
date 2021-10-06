@@ -11,7 +11,7 @@ _Page Actions_
 
 Use the _Action_ column on the far right to apply any of the following actions to the individual page:
 
-- Edit - opens a page in edit mode
+- Edit - opens the page in edit mode
 - Delete - deletes the page (requires confirmation)
 - View - opens a page directly on the storefront
 
