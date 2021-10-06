@@ -4,7 +4,7 @@ title: Performance
 group: marketing
 ---
 
-The Live Search Performance dashboard provides insight into the effectiveness of search terms that customers use. The information can be used to identify trends, increase click-through, and improve the conversion rate. The Performance dashboard provides a snapshot of search metrics for a specific date range, and includes the following reports:
+The Live Search Performance dashboard provides insight into the effectiveness of search terms that shoppers use. The information can be used to identify trends, increase click-through, and improve the conversion rate. The Performance dashboard provides a snapshot of search metrics for a specific date range, and includes the following reports:
 
 - Unique searches
 - Zero results
@@ -32,14 +32,14 @@ _Performance dashboard_
 
 |Snapshot data |Description|
 |--- |--- |
-|Unique searches |The number of unique searches during the specified date range. |
-|Click-through rate|The percentage of unique searches in which the shopper clicked through to a product detail page. |
-|Conversion rate |The percentage of unique searches that culminate with a customer purchase. |
-|Zero results rate|The percentage of unique searches that return no results. |
+|Unique searches |The total number of unique searches for the specified date range. Multiple searches by the same shopper, even if for the same query, are considered unique if submitted more than one hour apart. |
+|Click-through rate|The percentage of products a shopper clicks versus the products the shopper views for the specified date range. For example, if a shopper views six products in the popover and clicks one, the click-through rate for the interaction is 16.67%. |
+|Conversion rate |The percentage of products a shopper purchases versus the number of products a shopper clicks for the specified date range. For example, if a shopper views six products in the popover, clicks one and makes a purchase, the conversion rate of the interaction is 100%.<br /><br />The conversion rate is not affected by the number of views of a given product. For example, if a shopper uses search but does not click any products, the conversion rate remains the same.|
+|Zero results rate|The percentage of unique searches that return no results for the specified date range. For example, if a shopper searches for “fjjajfjfjf” twice (without results) and for “pants” once (with results), the zero results rate is 66.67%. |
 |Avg. click position|The relative position of the average click-through rate based on unique searches for the specified date range. |
 
 |Reports |Description|
 |--- |--- |
-|Unique searches |Lists unique search terms that were used during the specified date range and the number of times each term was used. |
-|Zero results |Lists the search terms that returned no results, and the number of times each was used during the specified date range. |
-|Popular results |Lists the most popular search terms with the number of impressions and revenue generated for each term during the specified date range. |
+|Unique searches |Lists the unique search queries used during the specified date range. The report data is  calculated the same way as unique search snapshot data. If a shopper types the same search query twice, but more than an hour apart, the search is considered to be two unique searches.  Report limit: Top 500 terms |
+|Zero results |Lists the search queries that return no results and the number of times used during the specified date range. Report limit: Top 500 terms |
+|Popular results |Lists the names of products that received the most views during the specified date range.  Popular results are calculated based on impressions only and aren’t affected by the number of clicks or revenue generated. Report limit: Top 500 terms |
