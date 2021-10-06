@@ -38,4 +38,4 @@ _[My Wish List Link]({% link marketing/wishlist-configuration.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Display Wish List Summary|Store View|Configures the display of the Wish List Summary in the customer account dashboard. Options: Display number of items in wish list / Display item quantities|
+|Display Wish List Summary|Website|Configures the display of the Wish List Summary in the customer account dashboard. Options: Display number of items in wish list / Display item quantities|
