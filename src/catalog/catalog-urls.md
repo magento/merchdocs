@@ -36,7 +36,6 @@ Because the suffix is controlled by the system configuration, you should never t
 #### URL with HTML suffix
 
 - `http://mystore.com/helena-hooded-fleece.html`
-- `http://mystore.com/helena-hooded-fleece.htm`
 
 #### URL without HTML suffix
 
