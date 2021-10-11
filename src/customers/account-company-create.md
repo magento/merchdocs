@@ -223,7 +223,7 @@ _New Company_
 ### Company Admin
 
 {: .options-table }
-|Website|Identifies the website where the company applies.|
+|Website|Determines which website the company admin belongs to.|
 |Job Title|The title of the company administrator who manages the company account.|
 |Email|The email address of the company administrator can be the same as the company email address. If a different email address is entered, a separate individual account is created for the company administrator, in addition to the company account.|
 |Prefix|If applicable, the prefix that is associated with the name of the company administrator (such as Mr., Ms., Mrs., or Dr.). Depending on the configuration, the input field might be a text field or list.|
