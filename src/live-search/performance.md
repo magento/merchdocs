@@ -40,6 +40,6 @@ _Performance dashboard_
 
 |Reports |Description|
 |--- |--- |
-|Unique searches |Lists the unique search queries used during the specified date range. The report data is  calculated the same way as unique search snapshot data. If a shopper types the same search query twice, but more than an hour apart, the search is considered to be two unique searches.  Report limit: Top 500 terms |
+|Unique searches |Lists the unique search queries used during the specified date range. The report data is calculated the same way as unique search snapshot data. If a shopper types the same search query twice, but more than an hour apart, the search is considered to be two unique searches. Report limit: Top 500 terms |
 |Zero results |Lists the search queries that return no results and the number of times used during the specified date range. Report limit: Top 500 terms |
-|Popular results |Lists the names of products that received the most views during the specified date range.  Popular results are calculated based on impressions only and aren’t affected by the number of clicks or revenue generated. Report limit: Top 500 terms |
+|Popular results |Lists the names of products that received the most views during the specified date range. Popular results are calculated based on impressions only and aren’t affected by the number of clicks or revenue generated. Report limit: Top 500 terms |
