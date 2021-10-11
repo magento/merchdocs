@@ -33,9 +33,9 @@ _Performance dashboard_
 |Snapshot data |Description|
 |--- |--- |
 |Unique searches |The total number of unique searches for the specified date range. Multiple searches by the same shopper, even if for the same query, are considered unique if submitted more than one hour apart. |
-|Click-through rate|The percentage of products a shopper clicks versus the products the shopper views for the specified date range. For example, if a shopper views six products in the popover and clicks one, the click-through rate for the interaction is 16.67%. |
-|Conversion rate |The percentage of products a shopper purchases versus the number of products a shopper clicks for the specified date range. For example, if a shopper views six products in the popover, clicks one and makes a purchase, the conversion rate of the interaction is 100%.<br /><br />The conversion rate is not affected by the number of views of a given product. For example, if a shopper uses search but does not click any products, the conversion rate remains the same.|
-|Zero results rate|The percentage of unique searches that return no results for the specified date range. For example, if a shopper searches for “fjjajfjfjf” twice (without results) and for “pants” once (with results), the zero results rate is 66.67%. |
+|Click-through rate|The percentage of searches that conclude with the shopper clicking a product. For example, the click-through rate is 50% if the shopper searches for "pants" and "shirt" and then clicks one result in the "shirt" search. |
+|Conversion rate |The percentage of products the shopper purchases versus the number of products the shopper clicks for the specified date range. For example, the conversion rate of the interaction is 100% if the shopper views six products in the popover, clicks one, and makes a purchase. <br /><br />The conversion rate is not affected by the number of views of a given product. For example, the conversion rate remains the same if the shopper uses search, but does not click any products. |
+|Zero results rate|The percentage of unique searches that returns no results for the specified date range. For example, the zero results rate is 66.67% if the shopper searches for “fjjajfjfjf” twice (without results) and for “pants” once (with results). |
 |Avg. click position|The relative position of the average click-through rate based on unique searches for the specified date range. |
 
 |Reports |Description|
