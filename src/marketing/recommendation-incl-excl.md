@@ -29,7 +29,7 @@ Adobe Commerce provides the following inclusion and exclusion filters you can us
 - **Product** - Specifies which specific products are eligible or not eligible to be displayed in recommendations. You cannot select products that are disabled or not visible individually because those products can never appear in recommendations.
 - **Out of stock** - (Available as an exclusion only.) Excludes products that are out of stock.
 - **Low in stock** - (Available as an exclusion only.) Excludes products that are low in stock. Low stock status is based on the _Only X left Threshold_ value in [Inventory configuration]({% link configuration/catalog/inventory.md %}).
-- **Type** - Filters based on product type, such as: _Simple_, _Configurable_, _Virtual_, _Downloadable_, or _Gift card_.  _Bundled_ and _Grouped_ products are not yet supported.
+- **Type** - Filters based on product type, such as: _Simple_, _Configurable_, _Virtual_, _Downloadable_, or _Gift card_.  _Bundle_ and _Grouped_ products are not yet supported.
 - **Visibility** - Filters products based on visibility, such as: _Catalog_, _Search_, or both.
 
 When creating filters for categories, Adobe Commerce recommends the following best practices:
