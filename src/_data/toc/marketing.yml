@@ -137,8 +137,6 @@ pages:
       url: "/marketing/recommendation-metrics.html"
     - label: Recommendation Best Practices
       url: "/marketing/recommendation-best-practices.html"
-    - label: Limitations with Product Recommendations
-      url: "/marketing/product-recs-limitations.html"
     - label: Fetch Product Recommendations from a Different Source
       url: "/marketing/recommendation-change-source.html"
     - label: Product Recommendations versus Product Relationships
