@@ -101,6 +101,6 @@ The following table lists the storefront pages, where you can place the recommen
 |**Page Builder**|You can [drag and drop]({% link marketing/page-builder-add-product-recs.md %}#add-an-existing-recommendation-unit) the Product Recommendation content type for positioning|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
 
 {:.b2b-only}
-## B2B support in Product Recommendations
+## B2B support in Product Recommendations {b2bsupport}
 
 B2B storefronts often require complex logic that dictates product visibility and pricing for each shopper or customer group. Product Recommendations now [support]({{ site.devdocs_url }}/recommendations/release-notes.html) this functionality by honoring [category permissions]({% link catalog/category-permissions.md %}), [shared catalogs]({% link catalog/catalog-shared.md %}), and [customer group-specific pricing]({% link catalog/pricing-advanced.md %}#customer-group-price). For example, if you have hidden certain categories from your retail customer segment, then a shopper in that segment would not be shown recommendations for products in those categories. Also, when you define a [shared catalog]({% link catalog/catalog-shared.md %}) for specific customer groups and companies, those shoppers will see recommendations only for products they can access. All recommended products will reflect correct customer group-specific price based on each shopper's customer group.
