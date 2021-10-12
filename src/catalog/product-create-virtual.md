@@ -104,7 +104,7 @@ Complete the information in the following sections as needed:
 - [Design]({% link catalog/settings-advanced-design.md %})
 - [Gift Options]({% link catalog/product-gift-options.md %})
 - [Downloadable Information ]({% link catalog/product-downloadable-information.md %})
-   
+
     {:.bs-callout-info}
     The _Is this downloadable product_ option is disabled by default, as soon as you enable this feature for a virtual product, the product immediately becomes **Downloadable**.
 
