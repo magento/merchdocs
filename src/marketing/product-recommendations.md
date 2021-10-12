@@ -2,6 +2,8 @@
 title: Product Recommendations
 tag: product-recommendations
 ee_only: true
+redirect_from:
+  - /marketing/product-recs-limitations.html
 ---
 
 Product recommendations are a powerful marketing tool you can use to increase conversions, boost revenue, and stimulate shopper engagement. Product recommendations are surfaced on the storefront in the form of units such as “Customers who viewed this product also viewed”. Adobe Commerce product recommendations are powered by [Adobe Sensei](https://www.adobe.com/sensei.html), which uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Adobe Commerce catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
@@ -97,3 +99,8 @@ The following table lists the storefront pages, where you can place the recommen
 |**Cart**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
 |**Confirmation**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
 |**Page Builder**|You can [drag and drop]({% link marketing/page-builder-add-product-recs.md %}#add-an-existing-recommendation-unit) the Product Recommendation content type for positioning|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
+
+{:.b2b-only}
+## B2B support in Product Recommendations
+
+You can use Product Recommendations in your B2B storefront. The Product Recommendations displayed will reflect the [customer-specific product categories]({% link catalog/category-permissions.md %}) and [customer-specific group pricing]({% link catalog/pricing-advanced.md %}#customer-group-price) for all your configured customer groups. For example, if you have hidden certain categories from your retail customer segment, then a logged-in customer in that segment would not be shown recommendations for products in that group. Also, when you define a [shared catalog]({% link catalog/catalog-shared.md %}) for specific customer groups and companies, those customers will see recommendations only for products they can access.
