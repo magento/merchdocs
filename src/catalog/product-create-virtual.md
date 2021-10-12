@@ -2,7 +2,7 @@
 title: Virtual Product
 ---
 
-Virtual products, or digital goods, represent non-tangible items such as memberships, services, warranties, or subscriptions and digital downloads of books, music, videos, or other products. Virtual products can be sold individually or included as part of the [Grouped Product]({% link catalog/product-create-grouped.md %}) or [Bundle Product]({% link catalog/product-create-bundle.md %}) product types.
+Virtual products, or digital goods, represent non-tangible items such as memberships, services, warranties, or subscriptions and digital downloads of books, music, videos, or other products. Virtual products can be sold individually or included as part of the [Grouped Product]({% link catalog/product-create-grouped.md %}), [Configurable Product]({% link catalog/product-create-configurable.md %}) or [Bundle Product]({% link catalog/product-create-bundle.md %}) product types.
 
 Aside from the absence of the Weight field, the process of creating a virtual product and a simple product is the same. The following instructions demonstrate the process of creating a virtual product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}), as needed.
 
@@ -103,6 +103,10 @@ Complete the information in the following sections as needed:
 - [Products in Websites]({% link catalog/settings-basic-websites.md %})
 - [Design]({% link catalog/settings-advanced-design.md %})
 - [Gift Options]({% link catalog/product-gift-options.md %})
+- [Downloadable Information ]({% link catalog/product-downloadable-information.md %})
+   
+    {:.bs-callout-info}
+    The _Is this downloadable product_ option is disabled by default, as soon as you enable this feature for a virtual product, the product immediately becomes **Downloadable**.
 
 ## Step 6: Publish the product
 
