@@ -25,13 +25,13 @@ You can configure PayPal Smart Buttons in the Admin. See [Configuring Payment Se
 
 ### PayPal button
 
-Customers can checkout with ease and confidence using the PayPal button.
+Customers can check out with ease and confidence using the PayPal button.
 
 The PayPal button is visible from the product page, mini-cart, shopping cart, and checkout views.
 
 ### Venmo button
 
-Customers can checkout using the [Venmo](https://venmo.com/) button.
+Customers can check out using the [Venmo](https://venmo.com/) button.
 
 The Venmo button is visible from the product page, mini-cart, shopping cart, and checkout views.
 
@@ -50,7 +50,7 @@ There are two payment options with the Pay Later button:
 
 The Pay Now button is visible in the PayPal popup window when a customer clicks a payment button on the payments screen.
 
-If the final order amount it not yet known (such as when we do not yet have shipping address information) and the customer is in checkout from the product page, mini-cart, or shopping cart, a **Continue** button is available instead. When a customer clicks Continue, after they confirm their payment method, they are directed to an order review page to gather any more needed details before completing checkout.
+If the final order amount is not yet known (such as when we do not yet have shipping address information) and the customer is in the process of checking out from the product page, mini-cart, or shopping cart, a _Continue_ button is available instead. When a customer clicks _Continue_, after they confirm their payment method, they are directed to an order review page to gather any more needed details before completing checkout.
 
 ## Pay Later messaging
 
@@ -82,4 +82,4 @@ When a customer enters the checkout flow from the product page, the checkout pag
 
 ## Security
 
-See [PCI compliance]({% link payment-services/pci.md %}#paypal-smart-buttons) for more information.
+See [PCI compliance]({% link payment-services/pci.md %}) for more information.
