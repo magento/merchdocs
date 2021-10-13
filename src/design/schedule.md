@@ -40,7 +40,9 @@ _Scheduled design changes_
 
 1. Select the item you want to delete.
 
-In the button bar at the top of the page, click <span class="btn">Delete</span>.
+1. In the button bar at the top of the page, click <span class="btn">Delete</span>.
+
+1. To confirm the action, click <span class="btn">OK</span>.
 
    ![]({% link images/images/delete-store-design-change.png %}){: .zoom}
    _Delete Scheduled Design Change_
