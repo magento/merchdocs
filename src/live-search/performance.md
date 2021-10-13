@@ -4,7 +4,7 @@ title: Performance
 group: marketing
 ---
 
-The Live Search Performance dashboard provides insight into the effectiveness of search terms that shoppers use. The information can be used to identify trends, increase click-through, and improve the conversion rate. The Performance dashboard provides a snapshot of search metrics for a specific date range, and includes the following reports:
+The Live Search Performance dashboard provides insight into the search terms that shoppers use. The information can be used to identify trends, increase click-through, and improve the conversion rate. The Performance dashboard provides a snapshot of search metrics for a specific date range, and includes the following reports:
 
 - Unique searches
 - Zero results
