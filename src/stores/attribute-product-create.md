@@ -130,6 +130,18 @@ _New Attribute Properties_
    ![Product attributes - storefront properties]({% link images/images/product-attribute-add-storefront-properties.png %}){: .zoom}
    _Storefront Properties_
 
+## Step 3: Assign created attribute to the attribute set
+
+For an attribute to be visible on the product creation page, it must belong to a specific attribute set. Therefore, to complete the flow of creating and assigning an attribute, do the following:
+
+1. After complitting _Step 1 and Step 2_, go to **Stores** > _Attributes_ > **Attribute Set**.
+
+1. Select the attribute set you need in the list, and open in edit mode.
+
+1. Drag the created attribute from the **Unassigned Attributes** list to the appropriate folder in the **Groups** column.
+
+1. When complete, click <span class="btn">Save</span>.
+
 ## Attributes for configurable products
 
 Any attribute that is used as a drop-down list of options for a [configurable product]({% link catalog/product-create-configurable.md %}) must have the following properties:
