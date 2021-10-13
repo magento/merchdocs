@@ -3,15 +3,19 @@ ee_only: true
 title: Gift Card
 ---
 
-A **Gift Card** -  is a code consisting of letters and numbers, for example, _HAPPYBD_GC12_.They allow customers to buy gift cards and send them to friends via email or regular mail, create unlimited gift cards with different pricing models, [product types]({% link catalog/product-gift-card.md %}) and easily track all purchased cards.
+A **Gift Card** is a code consisting of letters and numbers, for example, _HAPPYBD_GC12_.They allow customers to buy gift cards and send them to friends via email or regular mail, create unlimited gift cards with different pricing models, [product types]({% link catalog/product-gift-card.md %}) and easily track all purchased cards.
 
 Some features of the gift card functionality:
 
 - It can be applied at the checkout/cart to cover the total amount of the order.
 These codes are fumble for in code pools: greeting cards, Christmas cards, etc. You can call them whatever you want. Before selling gift cards, you need to create a code pool for your campaign.
+
 - In the catalog, the gift card is presented as a separate type of product. The customer can buy this product and receive a code. You can also allow customers to use the gift cards they bought for themselves.
+
 - The gift card is always associated with a pool of codes. The code pool must be generated first, then the product is associated with the pool.
+
 - The gift card code is only activated after the order has been invoiced. If the order is not paid, the customer will not be able to use the gift card.
+
 - Accounts with gift codes are created to track the balance of a specific voucher. The store manager can manually adjust the balance.
 
 The Gift Card section of your account dashboard can be used to check the balance of your [gift card account]({% link catalog/product-gift-card-accounts.md %}) and redeem gift cards for [store credit]({% link customers/store-credit-using.md %}).
