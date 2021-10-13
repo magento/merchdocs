@@ -10,24 +10,26 @@ Conditions can be static or dynamic. A static condition uses existing product at
 
 {:.bs-callout-info}
 Inclusion and exclusion filters replace the legacy category exclusions in versions 3.2.2 and later of the `magento/product-recommendations` module. See the [release notes]({{ site.devdocs_url }}/recommendations/release-notes.html) to learn more.
+
 ### Default filters {#default}
 
 Adobe Commerce automatically applies non-configurable default filters to recommendation units.
 
 If you have multiple recommendation units deployed to a page, Adobe Commerce filters out products that would be repeated among these units. The first recommendation unit on a page is not affected by product deduplication. For every other recommendation unit, products already shown in previous units are filtered out. That way you do not waste your merchandising space on items already displayed to the shopper.
 Additionally, Adobe Commerce filters out previously purchased products and those currently in the cart.
+
 ## Types of filters {#filtertypes}
 
 Adobe Commerce provides the following inclusion and exclusion filters you can use to control which products can be displayed in recommendations.
 
 ![Filters]({% link images/images-ee/rec-conditions.png %}){: .zoom}
 
-- **Category** - Filters based on a product's category. Adobe Commerce uses direct category assignments and their subcategories. For example, enabling an exclusion condition for category `Gear` will exclude products assigned to `Gear` and all of its subcategories such as `Gear/Bags` or `Gear/Fitness Equipment`.
-- **Price** - Filters based on a product's price. Adobe Commerce uses a product's final price when performing the comparison. The final price includes any discounts or special pricing available to anonymous shoppers. For B2B merchants, the price displayed reflects the customer group pricing [currently set]({% link catalog/pricing-advanced.md %}#customer-group-price).
+- **Category** - Filters based on a product's category. Adobe Commerce uses direct category assignments and their subcategories. For example, enabling an exclusion condition for category `Gear` will exclude products assigned to `Gear` and all of its subcategories such as `Gear/Bags` or `Gear/Fitness Equipment`. For B2B merchants, the Category filter adheres to any [customer-specific product categories]({% link catalog/category-permissions.md %}) you have configured.
+- **Price** - Filters based on a product's price. Adobe Commerce uses a product's final price when performing the comparison. The final price includes any discounts or special pricing available to anonymous shoppers. For B2B merchants, the price displayed reflects the [customer-specific group pricing]({% link catalog/pricing-advanced.md %}#customer-group-price) you have configured.
 - **Product** - Specifies which specific products are eligible or not eligible to be displayed in recommendations. You cannot select products that are disabled or not visible individually because those products can never appear in recommendations.
 - **Out of stock** - (Available as an exclusion only.) Excludes products that are out of stock.
 - **Low in stock** - (Available as an exclusion only.) Excludes products that are low in stock. Low stock status is based on the _Only X left Threshold_ value in [Inventory configuration]({% link configuration/catalog/inventory.md %}).
-- **Type** - Filters based on product type, such as: _Simple_, _Configurable_, _Virtual_, _Downloadable_, or _Gift card_.  _Bundled_ and _Grouped_ products are [not yet supported]({% link marketing/product-recs-limitations.md %}).
+- **Type** - Filters based on product type, such as: _Simple_, _Configurable_, _Virtual_, _Downloadable_, or _Gift card_.  _Bundle_ and _Grouped_ products are not yet supported.
 - **Visibility** - Filters products based on visibility, such as: _Catalog_, _Search_, or both.
 
 When creating filters for categories, Adobe Commerce recommends the following best practices:
