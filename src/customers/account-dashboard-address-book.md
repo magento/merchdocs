@@ -34,7 +34,22 @@ _[Address Book]({% link configuration/customers/customer-configuration.md %})_
 ![]({% link images/images-ee/customer-account-dashboard-address-saved.png %}){: .zoom}
 _[Additional Address Entries]({% link configuration/customers/customer-configuration.md %})_
 
-## Change an address
+## Edit an address
+
+1. In the sidebar of the their account, the customer selects **Address Book**.
+
+1. Finds the address entry to be edited.
+
+1. Clicks **Edit**.
+
+1. Makes any needed changes.
+
+   {:.bs-callout-info}
+   The customer can set this address as the default **Shipping or Billing** address by selecting the _Use as my default billing address_ checkboxes.
+
+1. When changes are complete, clicks <span class="btn">Save Address<span>.
+
+## Change the default address
 
 1. In the sidebar of the their account, the customer selects **Address Book**.
 

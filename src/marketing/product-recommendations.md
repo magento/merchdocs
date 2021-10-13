@@ -2,11 +2,13 @@
 title: Product Recommendations
 tag: product-recommendations
 ee_only: true
+redirect_from:
+  - /marketing/product-recs-limitations.html
 ---
 
-Product recommendations are a powerful marketing tool you can use to increase conversions, boost revenue, and stimulate shopper engagement. Product recommendations are surfaced on the storefront in the form of units such as “Customers who viewed this product also viewed”. Product recommendations in Adobe Commerce are powered by [Adobe Sensei](https://www.adobe.com/sensei.html), which uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
+Product recommendations are a powerful marketing tool you can use to increase conversions, boost revenue, and stimulate shopper engagement. Product recommendations are surfaced on the storefront in the form of units such as “Customers who viewed this product also viewed”. Adobe Commerce product recommendations are powered by [Adobe Sensei](https://www.adobe.com/sensei.html), which uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Adobe Commerce catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
 
-You can create, manage, and deploy recommendations across your store views directly from the Admin panel. If you have implemented your storefront using PWA Studio, see the [PWA documentation](https://magento.github.io/pwa-studio/product-recs).
+You can create, manage, and deploy recommendations across your store views directly from the Adobe Commerce Admin. If you have implemented your storefront using PWA Studio, see the [PWA documentation](https://magento.github.io/pwa-studio/product-recs).
 
 {:.bs-callout-info}
 For information about installing product recommendations modules, refer to the [developer documentation]({{ site.devdocs_url }}/recommendations/install-configure.html).
@@ -70,6 +72,11 @@ The following recommendation types will fallback to **Most viewed** if there is 
 
 - **Trending**
 
+The following recommendation types will fallback to **Most popular** or **Most viewed** if there is not sufficient input data collected:
+
+- **Conversion (view to purchase)**
+- **Conversion (view to cart)**
+
 ## Product recommendations placement {#productrecplacement}
 
 You can place the recommendations in one of the following page locations.
@@ -92,3 +99,8 @@ The following table lists the storefront pages, where you can place the recommen
 |**Cart**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
 |**Confirmation**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
 |**Page Builder**|You can [drag and drop]({% link marketing/page-builder-add-product-recs.md %}#add-an-existing-recommendation-unit) the Product Recommendation content type for positioning|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
+
+{:.b2b-only}
+## B2B support in Product Recommendations {#b2bsupport}
+
+B2B storefronts often require complex logic that dictates product visibility and pricing for each shopper or customer group. Product Recommendations now [support]({{ site.devdocs_url }}/recommendations/release-notes.html) this functionality by honoring [category permissions]({% link catalog/category-permissions.md %}), [shared catalogs]({% link catalog/catalog-shared.md %}), and [customer group-specific pricing]({% link catalog/pricing-advanced.md %}#customer-group-price). For example, if you have hidden certain categories from your retail customer segment, then a shopper in that segment would not be shown recommendations for products in those categories. Also, when you define a [shared catalog]({% link catalog/catalog-shared.md %}) for specific customer groups and companies, those shoppers will see recommendations only for products they can access. All recommended products will reflect correct customer group-specific price based on each shopper's customer group.

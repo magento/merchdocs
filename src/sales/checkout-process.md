@@ -60,6 +60,9 @@ _Checkout step 1: shipping_
 
 During the second step of the checkout process, the customer chooses the [payment method]({% link payment/payments.md %}), and applies any coupons with promotional codes to the purchase. All information can be reviewed, and edited if needed. If enabled, the customer must to agree to the terms and conditions of the sale before placing the order.
 
+{:.bs-callout-info}
+Although Commerce allows configuring multiple coupon codes, a customer may apply only one coupon code to the cart. (See the [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}) for more information.)
+
 ![]({% link images/images/storefront-checkout-step2-payment-review.png %}){: .zoom}
 _Review and payment page during checkout_
 

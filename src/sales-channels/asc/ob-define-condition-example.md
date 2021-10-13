@@ -1,7 +1,8 @@
 ---
-title: 'Example: Define a Condition'
+title: Amazon Sales Channel - Define a Condition Example
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/rules-examples/ob-define-condition-example.html
 ---
-
 
 ## Conditions
 

@@ -342,6 +342,8 @@ If you have a different image for each variation you can set the configuration t
 
 - A configurable product allows the shopper to choose options from drop-down, multiple select, visual swatch and text swatch input types. Each option is a separate, simple product.
 
+- Configurable child products can be simple or virtual products **without custom options**.
+
 - The attributes that are used for product variations must have a global scope and the customer must be required to choose a value. The product variation attributes must be included in the attribute set that is used as a template for the configurable product.
 
 - The attribute set that is used as a template for a configurable product must include the attribute(s) that contain the values that are needed for each product variation.
