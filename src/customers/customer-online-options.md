@@ -27,3 +27,19 @@ On the server, the length of the session is controlled by `php.ini`, and several
 1. To change the default, clear the **Use system value** checkbox and enter the new value in seconds.
 
 1. Click <span class="btn">Save Config</span>.
+
+## How to configure Remember Me functionality
+
+Magento offers a feature that makes login easier. This is the **Remember Me** feature, which allows users to not enter their credentials every time they enter the store. For security reasons, the persistence feature is disabled by default.
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. Under **Customers**, select **Persistent Shopping Cart**.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Options** section.
+
+1. To change the default, clear the Use system value checkbox for the **Enable Persistence** field and select `Yes`.
+
+1. Set `Yes`/ `No` in the **Enable “Remember Me”** field according to your requirements.
+
+1. Click <span class="btn">Save Config</span>.
