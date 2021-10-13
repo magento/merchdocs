@@ -7,8 +7,7 @@ A **Gift Card** is a code consisting of letters and numbers, for example, _HAPPY
 
 Some features of the gift card functionality:
 
-- It can be applied at the checkout/cart to cover the total amount of the order.
-These codes are fumble for in code pools: greeting cards, Christmas cards, etc. You can call them whatever you want. Before selling gift cards, you need to create a code pool for your campaign.
+- It can be applied at the checkout/cart to cover the total amount of the order.These codes are fumble for in code pools: greeting cards, Christmas cards, etc. You can call them whatever you want. Before selling gift cards, you need to create a code pool for your campaign.
 
 - In the catalog, the gift card is presented as a separate type of product. The customer can buy this product and receive a code. You can also allow customers to use the gift cards they bought for themselves.
 
