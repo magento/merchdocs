@@ -66,9 +66,9 @@ _Newsletter Templates_
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Communications_ > **Newsletter Template**.
 
-1. Find the newsletter template to be deleted and open it in edit mode.
+1. Find the newsletter template to be deleted and open it in Edit mode.
 
-1. In the menu bar click **Delete Template** button.
+1. In the menu bar, click the **Delete Template** button.
 
 1. To confirm the action, click <span class="btn">OK</span>.
 
@@ -79,8 +79,8 @@ _Newsletter Templates_
 |ID|A unique numeric identifier that is assigned to each newsletter template.|
 |Template|The name of template entity.|
 |Added|The date when the template entity was created.|
-|Updated|The date when the template entity was updated.|
+|Updated|The date when the template entity was last updated.|
 |Subject|Subject of newsletter template.|
 |Sender|Contact the template will be sent from.|
-|Template Type|Shows template type: **html** or **text**.|
-|Actions|**Preview**: opens a separate window to preview the template, **Queue Newsletter**: puts newsletter template to sending queue.|
+|Template Type|The template type: **html** or **text**.|
+|Actions|**Preview**: opens a separate window to preview the template, **Queue Newsletter**: puts the newsletter template into the sending queue.|
