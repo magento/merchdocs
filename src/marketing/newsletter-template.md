@@ -62,7 +62,6 @@ _Newsletter Templates_
 
 1. To save the HTML version, click <span class="btn">Save Template</span>.
 
-
 ## Delete Newsletter Template
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Communications_ > **Newsletter Template**.
