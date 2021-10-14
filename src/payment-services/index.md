@@ -34,10 +34,9 @@ See [Lifecycle policy]({{ site.devdocs_url }}/release/lifecycle-policy.html) and
 
 ## Currency availability
 
-Paypal supports several currencies and card brands for each of the countries where it operates. Payment services is only available for some supported currencies (USA/USD) at the moment. 
+Paypal supports several currencies and card brands for each of the countries where it operates. Payment services is only available for some supported currencies (USA/USD) at the moment.
 
 See the [PayPal currency availability](https://developer.paypal.com/docs/platforms/checkout/reference/country-availability-advanced-cards/) for more information.
-
 
 ## Get started
 
