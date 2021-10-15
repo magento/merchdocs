@@ -106,7 +106,7 @@ Complete the information in the following sections as needed:
 - [Downloadable Information ]({% link catalog/product-downloadable-information.md %})
 
     {:.bs-callout-info}
-    The _Is this downloadable product_ option is disabled by default, as soon as you enable this feature for a virtual product, the product immediately becomes **Downloadable**.
+    The _Is this downloadable product_ option is disabled by default. Enabling this feature for a virtual product makes the product **Downloadable**.
 
 ## Step 6: Publish the product
 
