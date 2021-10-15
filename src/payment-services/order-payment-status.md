@@ -85,6 +85,17 @@ Scroll to the left and right to view [order payment status information](#column-
 
 The number of rows returned in a search, or shown in the default 30 days of order payment statuses, are shown above the Order payment status view grid alongside the Order dates calendar selector filter.
 
+## Update report data
+
+The Order payment status report view shows a _Last updated_ timestamp, adjacent to the _Data source_ dropdown, that shows the last time the report info was updated. By default, Order payment status report data is auto-refreshed every 3 hours.
+
+You can also manually force a refresh of the Order payment status report data to see the most up-do-date report information.
+
+1. On the _Admin_ sidebar, go to **Sales** > **Payment Services** > **Order payment status**.
+1. Click the refresh button ![refresh button]({% link payment-services/assets/refresh-button.png %}), adjacent to the _Last updated_ timestamp.
+
+   The Order payment status report data will be refreshed, an *Update complete* confirmation appears, and the latest information is present in the grid.
+
 ## Download order payment statuses
 
 You can download a .csv file with all of the statuses visible in the Order payment status view grid, whether you are viewing the default 30 days of statuses or a customized timeframe.

@@ -58,6 +58,17 @@ From the Payouts view, you can customize the timeframe for the payout transactio
 1. Choose the applicable date range.
 1. View the payouts statuses in the grid for your specified dates.
 
+## Update report data
+
+The Payouts report view shows a _Last updated_ timestamp, adjacent to the _Data source_ dropdown, that shows the last time the report info was updated. By default, Payouts report data is auto-refreshed every 24 hours.
+
+You can also manually force a refresh of the Payouts report data to see the most up-do-date report information.
+
+1. On the _Admin_ sidebar, go to **Sales** > **Payment Services** > **Payouts**.
+1. Click the refresh button ![refresh button]({% link payment-services/assets/refresh-button.png %}), adjacent to the _Last updated_ timestamp.
+
+   The Payouts report data will be refreshed, an *Update complete* confirmation appears, and the latest information is present in the grid.
+
 ## Download transactions
 
 You can download a .csv file with all of the transactions visible in the Payouts view grid.
