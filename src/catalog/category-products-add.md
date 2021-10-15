@@ -11,6 +11,12 @@ To add products use either the **Search All Products** or **Add Product by SKU**
 
 ## Method 1: Search All Products
 
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+
+1. In the category tree on the left, choose the category that you want to add product.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) _Products in Category_ section.
+
 1. Click <span class="btn">Add Products</span>.
 
 1. Use _Search by keyword_ or filters to find the products you want to add.
@@ -47,3 +53,17 @@ To add products use either the **Search All Products** or **Add Product by SKU**
     _Add Products by SKU tab_
 
 1. To apply your changes, click <span class="btn">Save and Close</span>.
+
+## Remove products from category
+
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+
+1. In the category tree on the left, choose the category that you want to edit.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) _Products in Category_ section.
+
+1. Find the products to be removed.
+
+1. In the _Actions_ column click **Unassign**.
+
+1. To apply your changes, click <span class="btn">Save</span>.
