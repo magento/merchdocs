@@ -89,6 +89,7 @@ _Product Tiles_
 ## Sort order options
 
 The following options from the **Sort Order** drop-down can be chosen and applied:
+
 - `Move low stock to top`
 - `Move out of stock to bottom`
 - `Special price to top`
