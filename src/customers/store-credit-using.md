@@ -62,7 +62,4 @@ _Apply the store credit balance to the order_
 
    The order total is recalculated and the amount of store credit that is applied appears in the Order Summary.
 
-   ![]({% link images/images-ee/storefront-checkout-store-credit-order-summary.png %}){: .zoom}
-   _Order Summary with Store Credit_{:.ee-only}
-
 1. When ready, click <span class="btn">Place Order</span>.
