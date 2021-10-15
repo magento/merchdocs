@@ -22,7 +22,7 @@ You can set up the category options separately for each [store]({% link stores/s
 
 ## Step 2: Sort the products
 
-In the _Products in Category_ section, click the tiles (![]({% link images/images/btn-view-as-tiles.png %})) icon to show the product tiles in a grid. Use either the **Manual** or **Automatic** method to sort the products.
+Expand ![Expansion selector]({% link images/images/btn-expand.png %}) _Products in Category_ section, click the tiles (![]({% link images/images/btn-view-as-tiles.png %})) icon to show the product tiles in a grid. Use either the **Manual** or **Automatic** method to sort the products.
 
 ![]({% link images/images-ee/category-products-tiles.png %}){: .zoom}
 _Product Tiles_
@@ -85,3 +85,19 @@ _Product Tiles_
 1. In the storefront, verify that the product selection, sorting, and category rules work correctly.
 
    If you need to make adjustments, change the settings and try again.
+
+## Sort order options
+
+The following options from the **Sort Order** drop-down can be chosen and applied:
+- `Move low stock to top`
+- `Move out of stock to bottom`
+- `Special price to top`
+- `Specil price to bottom`
+- `Newest products firts`
+- `Sort by color`
+- `Name: A-Z`
+- `Name: Z-A`
+- `SKU: Ascending`
+- `SKU: Descending`
+- `Price: High to low`
+- `Price: Low to high`
