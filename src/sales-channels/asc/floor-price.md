@@ -1,7 +1,8 @@
 ---
-title: 'Intelligent Repricing Rule: Floor Price'
+title: Amazon Sales Channel - Floor Price Rule
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/floor-price.html
 ---
-
 
 Sections of an intelligent repricing rule include:
 

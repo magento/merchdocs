@@ -15,14 +15,14 @@ _Media Storage_
 
 1. On the editor toolbar, click the _Insert Image_ icon.
 
-   ![]({% link images/images/editor-toolbar/editor-menu-image-button.png %}){: .zoom}
+   ![]({% link cms/assets/editor-toolbar-image-button.png %}){: .zoom}
    _Insert Image icon_
 
    This opens the _Insert/edit image_ dialog.
 
 1. For **Source**, click the _Search_ icon and use the method that matches the location of the image asset that you want to use:
 
-   ![]({% link images/images/editor-toolbar/editor-dialog-insert-image.png %}){: .zoom}
+   ![]({% link cms/assets/editor-dialog-insert-image.png %}){: .zoom}
    _Selecting the search icon_
 
    - **Upload a new image**: Use this method to upload a new image file.

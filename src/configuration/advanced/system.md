@@ -128,21 +128,19 @@ _MySQL Message Queue Cleanup_
 ![]({% link images/images/config-advanced-system-full-page-cache-varnish.png %}){: .zoom}
 [_Varnish Configuration_]({% link system/cache-full-page.md %})
 
-Caching application
-Built-in Application - Not recommended for the production environment.
-Varnish Caching - Recommended for the production environment.
-
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Caching Application|Global|Determines the application that is used to manage the full-page cache. Options: <br/>**Built-in Application** - Not recommended for the production environment. <br/>**Varnish Caching** - Recommended for the production environment.|
 |TTL for public content|Global|Determines the lifetime of the public content cache in seconds. Default value: 120|
-|**Varnish Configuration**|||xs
+|**Varnish Configuration**|||
 |Access list|Global|Specifies the IP addresses that can purge the Varnish configuration to generate a config file. Separate multiple entries with a comma. Default value: localhost|
 |Backend host|Global|Specifies the backend host that generates config files. Default value: localhost|
 |Backend port|Global|Specifies the backend port that is used to generate config files. Default value: 8080|
+|Grace period|Global|Specifies the grace period in seconds for generating a config file. Default value: 300|
 |**Export Configuration**|||
-|Export VCL for Varnish 3|Global|Exports the `varnish.vcl` file for version 3.|
 |Export VCL for Varnish 4|Global|Exports the `varnish.vcl` file for version 4.|
+|Export VCL for Varnish 5|Global|Exports the `varnish.vcl` file for version 5.|
+|Export VCL for Varnish 6|Global|Exports the `varnish.vcl` file for version 6.|
 
 ## Storage Configuration for Media
 

@@ -10,7 +10,7 @@ Your store includes many predefined [variables]({% link marketing/variables-pred
 
 1. Position the cursor where you want the variable to appear and click the _Insert Variable_ icon.
 
-   ![Editor toolbar - Insert Variable]({% link images/images/editor-toolbar/editor-menu-variable-button.png %} "Insert Variable"){: .zoom}
+   ![Editor toolbar - Insert Variable]({% link cms/assets/editor-toolbar-variable-button.png %} "Insert Variable"){: .zoom}
    _Insert variable icon_
 
    If you do not have Page Builder and prefer to work with the HTML code, click <span class="btn">Show / Hide Editor</span>. Position the insertion point in the text where you want the variable to appear. Then, click <span class="btn">Insert Variable</span>.

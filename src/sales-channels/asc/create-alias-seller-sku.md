@@ -1,7 +1,8 @@
 ---
-title: Create an Alias Amazon Seller SKU
+title: Amazon Sales Channel - Create an Alias Amazon Seller SKU
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/create-alias-seller-sku.html
 ---
-
 
 An Alias Amazon Seller SKU is used to create a new Amazon listing from same product in your Commerce catalog. If you are an experienced Amazon seller, you may be familiar with the [Amazon Global SKU][1]{:target="_blank"} and Marketplace-specific SKU for inventory and shipping. Following similar principles for Amazon Sales Channel, the Amazon Seller SKU controls product listing information at multi-regional level, and the Alias Amazon Seller SKU can be used to control product listing information at a region-specific level.
 
