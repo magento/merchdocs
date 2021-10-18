@@ -45,7 +45,7 @@ _Store Credit Balance_
 
 The updated balance should be displayed in **Balance History**.
 
-## Apply a credit balance to an order in magento admin
+## Apply a credit balance to an order as as admin
 
 As a store administrator, you can do a number of things on behalf of a customer. This includes submitting orders. When you [create an order]({% link customers/customer-account-create-order.md %}), you can apply a Store Credit balance that is due to the customer. The available balance is displayed in the _Payment & Shipping Information_ section. Select the **Use Store Credit** checkbox to apply the balance, or a portion of the balance if the order total is less.
 
