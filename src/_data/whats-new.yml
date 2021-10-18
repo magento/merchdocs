@@ -9,7 +9,7 @@ entries:
 - description: Added the 'Delete a Template' and Grid Columns sections to the [Newsletter
     Templates](https://docs.magento.com/user-guide/marketing/newsletter-template.html)
     topic.
-  versions: ''
+  versions: 2.4.x
   type: Major update
   date: October 13, 2021
   link: https://github.com/magento/merchdocs/pull/1551
