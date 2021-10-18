@@ -426,6 +426,6 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
       |**Page Background Color** |Background color for the checkout page and around the header and payment form.|
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm
+[2]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [3]: https://developer.paypal.com/docs/api-basics/sandbox/
 [4]: https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/
