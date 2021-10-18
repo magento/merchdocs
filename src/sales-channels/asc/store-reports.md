@@ -1,5 +1,7 @@
 ---
-title: Store Reports
+title: Amazon Sales Channel - Store Reports
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/reports-logs/amazon-logs-reports.html
 ---
 
 The following store-specific reports can be accessed from the [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) for each store.

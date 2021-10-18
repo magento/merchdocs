@@ -1,7 +1,8 @@
 ---
 title: Workspace Controls
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/workspace-controls.html
 ---
-
 
 The [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page has some common workspace controls including Filters, Default View, Columns, and Export. Not all pages will have the same control options.
 

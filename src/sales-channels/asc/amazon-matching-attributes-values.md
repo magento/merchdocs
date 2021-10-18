@@ -1,7 +1,8 @@
 ---
-title: View Amazon Attribute Mapping
+title: Amazon Sales Channel - View Attribute Mapping
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/attributes/amazon-matching-attributes-values.html
 ---
-
 
 As you map Amazon attributes to Commerce attributes, Amazon Sales Channel tracks and provides a filterable list of all Amazon values. Use this page to verify values for your linked Commerce attributes correctly sync between Commerce and Amazon. You can review synced values for Amazon attribute linked or not linked to a Commerce attribute. To create or edit your Amazon attributes, see [Creating and Editing Attributes]({% link sales-channels/asc/creating-attributes.md %}).
 

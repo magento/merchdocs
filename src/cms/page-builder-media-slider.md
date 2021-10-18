@@ -127,7 +127,7 @@ You can add any [widgets type]({% link cms/widget-types.md %}) to your slide in 
 
 1. In the Page Builder panel, expand **Media** and drag a **Slider** placeholder to a row, column, or tab on the stage.
 
-1. Click in the slider container to display the [text editor]({% link cms/editor.md %}) toolbar and click the _Insert Widget_ ![]({% link images/images/editor4-toolbar/btn-insert-widget.png  %})) icon.
+1. Click in the slider container to display the [text editor]({% link cms/editor.md %}) toolbar and click the _Insert Widget_ ![]({% link cms/assets/editor-btn-insert-widget.png  %})) icon.
 
 1. Select the **Widget Type** you need.
 
