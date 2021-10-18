@@ -482,5 +482,5 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm
+[2]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [3]: https://developer.paypal.com/docs/paypal-payments-pro/

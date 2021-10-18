@@ -101,7 +101,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Connect your account for test or production:
 
-   - For testing (development) mode, click <span class="btn">Sandbox Credentials</span> and enter your [PayPal sandbox][3] credentials.
+   - For testing (development) mode, click <span class="btn">Sandbox Credentials</span> and enter your [PayPal sandbox][7] credentials.
    - For production mode, click <span class="btn">Connect with PayPal</span> and enter you production account credentials.
 
    When your connection is validated, you can proceed.
@@ -564,6 +564,7 @@ Features settings allow you to disable certain features related to this PayPal s
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://www.paypal.com/webapps/mpp/buying-online
 [3]: https://manager.paypal.com/
-[4]: https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm
-[5]: https://developer.paypal.com/docs/classic/express-checkout/in-context/
+[4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
+[5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
 [6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
+[7]: https://developer.paypal.com/docs/api-basics/sandbox/
