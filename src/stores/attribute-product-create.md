@@ -134,7 +134,7 @@ _New Attribute Properties_
 
 For an attribute to be visible on the product creation page, add it to a specific attribute set.
 
-1. After completing _Step 1 and Step 2_, go to **Stores** > _Attributes_ > **Attribute Set**.
+1. After completing previous steps, go to **Stores** > _Attributes_ > **Attribute Set**.
 
 1. Select the attribute set you need in the list, and open in edit mode.
 
