@@ -565,6 +565,6 @@ Features settings allow you to disable certain features related to this PayPal s
 [2]: https://www.paypal.com/webapps/mpp/buying-online
 [3]: https://manager.paypal.com/
 [4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[5]: https://developer.paypal.com/docs/business/pay-later/us/commerce-platforms/magento2/magento-paypal/
+[5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
 [6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
 [7]: https://developer.paypal.com/docs/api-basics/sandbox/
