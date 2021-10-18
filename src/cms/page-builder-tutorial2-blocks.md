@@ -250,7 +250,7 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
    Relative URL
    : `../women/tops-women/tees-women.html`
 
-1. Return to the Page Builder workspace tab and text editor, select the `Shop Tees >` text in the third line, and choose **Bold** (![]({% link images/images/editor4-toolbar/btn-bold.png %})) in the editor toolbar.
+1. Return to the Page Builder workspace tab and text editor, select the `Shop Tees >` text in the third line, and choose **Bold** (![]({% link cms/assets/editor-btn-bold.png %})) in the editor toolbar.
 
 1. With the `Shop Tees >` text in the third line still selected, choose **Insert/edit link** (![]({% link images/images-ee/icon-pb-add-link.png %})) in the editor toolbar.
 

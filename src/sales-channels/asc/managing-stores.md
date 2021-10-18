@@ -1,7 +1,8 @@
 ---
-title: Amazon Stores View
+title: Amazon Sales Channel - Amazon Stores View
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/managing-stores.html
 ---
-
 
 When viewing the Amazon Sales Channel home page, the _Amazon Stores_ view opens by default.
 

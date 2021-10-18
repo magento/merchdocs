@@ -488,12 +488,12 @@ The second column of the row will contain content from a customer review, includ
 
 1. Click in the text element to display the editor toolbar.
 
-1. In the toolbar, click the _Insert Image_ (![]({% link images/images/editor4-toolbar/btn-insert-edit-image.png %})) icon and do the following:
+1. In the toolbar, click the _Insert Image_ (![]({% link cms/assets/editor-btn-insert-edit-image.png %})) icon and do the following:
 
    ![]({% link images/images-ee/page-builder-tutorial1-column2-editor-toolbar-insert-image.png %}){: .zoom}
    _Inserting an image in the text_
 
-   - In the _Insert/edit image_ dialog, click the Find ( ![]({% link images/images/editor4-toolbar/btn-find-source.png %}) ) icon next to the _Source_ field.
+   - In the _Insert/edit image_ dialog, click the Find ( ![]({% link cms/assets/editor-btn-find-source.png %}) ) icon next to the _Source_ field.
 
       ![]({% link images/images-ee/page-builder-tutorial1-column2-text-insert-edit-image.png %}){: .zoom}
       _Insert/edit image dialog_
@@ -509,7 +509,7 @@ The second column of the row will contain content from a customer review, includ
 
    - For **Image Description**, enter `5-Star Rating` and click <span class="btn">OK</span> to insert the image into the column.
 
-   - In the editor toolbar, click **Align Center** (![]({% link images/images/editor4-toolbar/btn-align-center.png %})) to center the image in the column.
+   - In the editor toolbar, click **Align Center** (![]({% link cms/assets/editor-btn-align-center.png %})) to center the image in the column.
 
       ![]({% link images/images-ee/page-builder-tutorial1-column2-5stars-centered.png %}){: .zoom}
       _Centered rating image_
@@ -572,7 +572,7 @@ The second column of the row will contain content from a customer review, includ
 
 ### Step 5: Insert a catalog product link
 
-1. Select the `Antonia Racer Tank` text and click the Insert Link (![]({% link images/images/editor4-toolbar/btn-insert--edit-link.png %})) icon in the editor toolbar.
+1. Select the `Antonia Racer Tank` text and click the Insert Link (![]({% link cms/assets/editor-btn-insert-edit-link.png %})) icon in the editor toolbar.
 
 1. In the Insert link dialog, specify the link to the catalog product:
 
