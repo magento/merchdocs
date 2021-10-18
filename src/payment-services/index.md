@@ -32,6 +32,12 @@ Payment Services is available for some supported Magento versions.
 
 See [Lifecycle policy]({{ site.devdocs_url }}/release/lifecycle-policy.html) and [Upcoming releases]({{ site.devdocs_url }}/release/) for more release and version-specific information.
 
+## Accepted credit cards and currencies
+
+Currently, Payment Services is only available in the United States (US) and accepts United States Dollars (USD) currency.
+
+See the [PayPal currency availability](https://developer.paypal.com/docs/platforms/checkout/reference/country-availability-advanced-cards/) documentation for more information.
+
 ## Get started
 
 Onboarding and setting up Payment Services is completed in just a few steps:
