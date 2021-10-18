@@ -87,12 +87,12 @@ The number of rows returned in a search, or shown in the default 30 days of orde
 
 ## Update report data
 
-The Order payment status report view shows a _Last updated_ timestamp, adjacent to the _Data source_ dropdown, that shows the last time the report info was updated. By default, Order payment status report data is auto-refreshed every 3 hours.
+The Order payment status report view shows a _Last updated_ timestamp that shows the last time the report info was updated. By default, Order payment status report data is auto-refreshed every 3 hours.
 
 You can also manually force a refresh of the Order payment status report data to see the most up-do-date report information.
 
 1. On the _Admin_ sidebar, go to **Sales** > **Payment Services** > **Order payment status**.
-1. Click the refresh button ![refresh button]({% link payment-services/assets/refresh-button.png %}), adjacent to the _Last updated_ timestamp.
+1. Click the _Refresh_ icon (![refresh icon]({% link payment-services/assets/refresh-button-med.png %})).
 
    The Order payment status report data will be refreshed, an *Update complete* confirmation appears, and the latest information is present in the grid.
 
