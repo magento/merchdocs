@@ -16,7 +16,7 @@ The ability to:
 |<span class="btn">Send</span>|Sends the updated quote as a reply to the buyer’s inquiry. This button is disabled if the seller is waiting for a reply from the buyer.|
 |<span class="btn">Back</span>|Returns to the _Quotes_ page without saving changes.|
 |<span class="btn">Print</span>|Sends the quote to a printer or saves it as a PDF file.|
-|<span class="btn">Save as Draft</span>|Save any changes made to the quote, but do not send it back to the buyer.|
+|<span class="btn">Save as Draft</span>|Saves any changes made to the quote, but does not send it back to the buyer.|
 |<span class="btn">Decline</span>|Declines the request to negotiate prices, either on the initial inquiry, or during ongoing negotiations. When a quote is declined, the seller should add a comment to explain the decision. When a quote is declined, all negotiated prices are reset to the original values. This button is disabled while the seller is waiting for a reply from the buyer.|
 |<span class="btn">Send</span>|Sends the updated quote as a reply to the buyer’s inquiry. This button is disabled if the seller is waiting for a reply from the buyer.|
 
@@ -48,7 +48,7 @@ To grant access to quote functions in the Admin, go to **System** > _Permissions
 
       By default, the following formats are supported: doc, docx, xls, xlsx, pdf, txt, jpg, png, and jpeg
 
-   - For **Maximum file size**, enter the maximum size of an attached file in megabytes.T
+   - For **Maximum file size**, enter the maximum size of an attached file in megabytes.
 
       The value you enter might be overridden by the server setting.
 
