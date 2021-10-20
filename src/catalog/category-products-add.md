@@ -1,5 +1,5 @@
 ---
-title: Adding Category Products
+title: Adding and Removing Category Products
 ---
 
 From the [Products in Category]({% link catalog/categories-category-products.md %}) section , a store administrator can add products to the category. This section lists all the products that are actually assigned to the category and displays <span class="btn">Add Product</span> when **Match products by rule** is set to `No`.
@@ -7,9 +7,13 @@ From the [Products in Category]({% link catalog/categories-category-products.md 
 ![]({% link images/images-ee/category-product.png %}){: .zoom}
 _Products in Category_
 
-To add products use either the **Search All Products** or **Add Product by SKU** method.
+## Search for products to add
 
-## Method 1: Search All Products
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+
+1. In the category tree on the left, choose the category where you want to add a product.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the _Products in Category_ section.
 
 1. Click <span class="btn">Add Products</span>.
 
@@ -33,13 +37,13 @@ To add products use either the **Search All Products** or **Add Product by SKU**
 |Select All on This Page|Selects the checkbox of records on the current page.|
 |Deselect All on This Page|Clears the checkbox of records on the current page.|
 
-## Method 2: Add Products by SKU
+## Add products by SKU
 
 1. Click <span class="btn">Add Products</span>
 
 1. Select the **Add Products by SKU** tab.
 
-1. Enter SKUs below, one per line, and click <span class="btn">Assign</span>.
+1. Enter SKUs (one per line) and click <span class="btn">Assign</span>.
 
    To discard the changes, click <span class="btn">Remove</span>.
 
@@ -47,3 +51,17 @@ To add products use either the **Search All Products** or **Add Product by SKU**
     _Add Products by SKU tab_
 
 1. To apply your changes, click <span class="btn">Save and Close</span>.
+
+## Remove products from a category
+
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+
+1. In the category tree on the left, choose the category that you want to edit.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the _Products in Category_ section.
+
+1. Find the products to be removed.
+
+1. In the _Actions_ column, click **Unassign**.
+
+1. To apply your changes, click <span class="btn">Save</span>.
