@@ -1,7 +1,8 @@
 ---
-title: Create and Assign Products
+title: Amazon Sales Channel - Create and Assign Products
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/creating-assigning-catalog-products.html
 ---
-
 
 When viewing _New Third Party_ tab, you can match your Commerce catalog products to an existing Amazon listing. There are two options for this matching. You can assign a listing to an existing catalog product, or you can use the information from the listing to create new catalog products. These options are helpful when your Amazon listings do not automatically match to your Commerce catalog.
 
