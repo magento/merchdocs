@@ -39,4 +39,4 @@ Before you begin, make sure that:
    When recommendations from another SaaS environment are displayed on the storefront, a storefront user can only preview them (they are not clickable).
 
    {:.bs-callout-warning}
-   The recommendation settings page in the production environment is different from staging or testing instances. There is no configuration available for production, which means you will not see a **fetch from different source** setting.
+   The recommendation settings page in the production environment is different from staging or testing instances. There is no configuration available for production, which means you will not see a **Recommendations source** setting.
