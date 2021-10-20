@@ -25,7 +25,7 @@ To reset 2FA providers for other users, you must be an `administrator` or have c
 
 1. In the left panel, click **2FA**.
 
-1. In the _Configuration reset_ section, click <span class="btn">Reset <provider></span>. When prompted, click **OK** to confirm.
+1. In the _Configuration reset_ section, click <span class="btn">Reset</span>. When prompted, click **OK** to confirm.
 
    ![User account - 2FA]({% link stores/assets/admin-2fa-config-reset-providers.png %}){: .zoom}
    _Enable 2FA for User_

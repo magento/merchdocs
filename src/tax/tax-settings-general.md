@@ -70,7 +70,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
     **Important**:
     If [cross-border trade]({% link tax/tax-cross-border-price.md %}) is enabled, the profit margin changes by tax rate. Profit is determined by the formula (`Revenue - CustomerVAT - CostOfGoodsSold`). To enable cross-border trade, prices must be set to include tax.
 
-### Default Tax Destination Calculation*
+### Default Tax Destination Calculation
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Default Tax Destination Calculation** section.
 
