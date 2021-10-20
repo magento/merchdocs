@@ -40,4 +40,3 @@ Before you begin, make sure that:
 
    {:.bs-callout-warning}
    The recommendation settings page in the production environment is different from staging or testing instances. There is no configuration available for production, which means you will not see a **fetch from different source** setting.
-
