@@ -3,11 +3,11 @@ ee_only: true
 title: Gift Card
 ---
 
-A *gift card* is a code consisting of letters and numbers, such as *HAPPYBD_GC12*, that allows customers to buy gift cards and send them to friends via email or regular mail. Store owners can create unlimited gift cards with different pricing models ([product type]({% link catalog/product-gift-card.md %})) and easily track all purchased cards.
+A *gift card* is a code consisting of letters and numbers, such as *HAPPYBD_GC12*, that allows customers to buy gift cards and send them to friends by email or regular mail. Store owners can create unlimited gift cards with different pricing models ([product type]({% link catalog/product-gift-card.md %})) and easily track all purchased cards.
 
 How gift cards work on the storefront:
 
-- The gift card code can be applied at the checkout/cart to cover the total amount of the order.
+- The gift card code can be applied in the cart or at checkout to cover the total amount of the order.
 
 - In the catalog, a gift card is presented as a separate type of product.
 
