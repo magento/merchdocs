@@ -128,6 +128,18 @@ The customer segment can now be used for targeting promotions, content, and mail
 
 1. To confirm the action, click <span class="btn">OK</span>.
 
+## Button bar
+
+{: .buttons-table }
+|Button|Description|
+|--- |--- |
+|<span class="btn">Back</span>|Returns to the Customer Segments page without saving changes.|
+|<span class="btn">Delete</span>|Deletes the current customer segment. Customers or completed orders associated with the customer in the segment are not removed.|
+|<span class="btn">Reset</span>|Resets any unsaved changes in the customer segment form to their previous values.|
+|<span class="btn">Refresh Segment Data</span>|Refreshes the segment data to the most recently saved values. Relevant if any segment data is unavailable or out of date.|
+|<span class="btn">Save and Continue Edit</span>|Saves changes and keeps the customer segment open.|
+|<span class="btn">Save </span>|Saves changes and closes the customer segment.|
+
 |Column|Description|
 |--- |--- |
 |ID|The customer ID of a registered customer.|
