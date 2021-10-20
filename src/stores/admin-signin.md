@@ -112,9 +112,7 @@ The Admin provides access to manage the orders, customers, products, shipping, a
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
-## Configure admin login to case sensitive
-
-The Magento store admin panel stores customer data so security cannot be compromised. For Magento stores, it is recommended to set up administrator security such that the system is case sensitive.
+## Configure admin login to be case sensitive
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -122,6 +120,6 @@ The Magento store admin panel stores customer data so security cannot be comprom
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Security** section.
 
-1. Set `Yes` to **Login is Case Sensitive** field. By default, this field is configured to be not case sensitive.
+1. Set the **Login is Case Sensitive** field to `Yes`.
 
 1. Click <span class="btn">Save Config</span>.
