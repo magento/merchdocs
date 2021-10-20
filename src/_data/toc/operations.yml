@@ -68,6 +68,8 @@ pages:
           url: "/tax/tax-class-configure.html"
         - label: Adding New Tax Classes
           url: "/tax/tax-class-new.html"
+        - label: Tax Calculation Settings
+          url: "/tax/tax-calculation-settings.html"
         - label: Default Tax Destination
           url: "/tax/tax-destination-default.html"
         - label: EU Place of Supply for Digital Goods
