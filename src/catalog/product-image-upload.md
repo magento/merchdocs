@@ -17,9 +17,8 @@ If you plan to upload large images for viewing on the _Product Details_ page, yo
 ### Upload an image
 
 {:.bs-callout-info}
-We recommend to upload all product images with `sRGB` color profile for the best compatibility.
-All other color profiles will be automatically converted to the `sRGB` color profile during the product images upload.
-This may cause to the color inconsistency in the uploaded images.
+For the best compatibility, it is recommended to upload all product images with the `sRGB` color profile.
+All other color profiles are automatically converted to the `sRGB` color profile during the product image upload, which could cause color inconsistency in the uploaded image.
 
 To upload an image, do one of the following:
 

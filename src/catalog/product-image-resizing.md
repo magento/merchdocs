@@ -5,9 +5,8 @@ title: Resizing Product Images
 When uploading product images, you may add larger images with varying sizes to provide detailed, high quality zooms on the _Product Details_ page. To ensure all images have a similar size and look, we provide an image upload resizing option to ensure all images match a specific pixel size. This option automatically resizes all product images using the configuration settings, which can help with performance of zoom, faster loading of images and keep a uniform look to your product images.
 
 {:.bs-callout-info}
-We recommend to upload all product images with `sRGB` color profile for the best compatibility.
-All other color profiles will be automatically converted to the `sRGB` color profile during the product images upload.
-This may cause to the color inconsistency in the uploaded images.
+For the best compatibility, it is recommended to upload all product images with the `sRGB` color profile.
+All other color profiles are automatically converted to the `sRGB` color profile during the product image upload, which could cause color inconsistency in the uploaded image.
 
 Setting a maximum pixel width and height resizes the image to the physical dimensions by pixel. Commerce resizes the image according to the higher amount of either width or height while keeping the proportions. Reducing the quality amount for JPG images reduces the file size.
 
