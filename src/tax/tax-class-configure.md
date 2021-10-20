@@ -15,11 +15,20 @@ The tax class that is used for shipping, and the default tax classes for [produc
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Tax Classes** section.
 
-1. Choose the tax class for each of the following:
+1. Set **Tax Class for Shipping**, **Tax Class for Gift Options** and **Default Tax Class for Product** to one of the following:
 
-    - **Set Tax Class for Shipping**
-    - **Tax Class for Gift Options**
-    - **Default Tax Class for Product**
-    - **Default Tax Class for Customer**
+    - None
+    - Taxable Goods
+    - Refund Adjustments
+    - Gift Options
+    - Order Gift Wrapping
+    - Item Gift Wrapping
+    - Printed Gift Card
+    - Reward Points
+    - VAT Reduced
+    - VAT Standard
+    - VAT Zero
+
+1. Set the **Default Tax Class for Customers**, `Retail Customer` is the default option provided by Magento.
 
 1. When complete, click <span class="btn">Save Config</span>.
