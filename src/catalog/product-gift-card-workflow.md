@@ -22,8 +22,7 @@ A Luma gift card is packaged in a custom art mailer and sent at no charge to the
 
 ## Combined gift card
 
-A combined gift card has the characteristics of both a virtual and physical gift card.
-A Luma combined gift card is shipped and emailed to the recipient. The email and shipping address are required during the purchase of the gift card.  It will never expire.
+A combined gift card has the characteristics of both a virtual and physical gift card. A Luma combined gift card is shipped and emailed to the recipient. The email and shipping address are required during the purchase of the gift card. It will never expire.
 
 ## Gift card flow
 
