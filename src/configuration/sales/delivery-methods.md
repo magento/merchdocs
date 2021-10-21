@@ -39,7 +39,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Title|Store View|The name that is used for this  shipping method during checkout.|
 |Method Name|Store View|A name that describes the method of calculation that is used to produce a shipping estimate. The method name appears next to the calculated estimated rate in the shopping cart. The default value is `Free`.|
 |Minimum Order Amount|Website|The minimum purchase that is required to apply Free Shipping to an order.|
-|Include Tax to Amount|Determines if tax is included in the Minimum Order Amount calculation. Options: <br/>**Yes** – Tax is included when calculating the Minimum Order amount (Subtotal + Tax - Discount).<br/>**No** – Tax is not included tax when calculating the Minimum Order amount (Subtotal - Discount).|
+|Include Tax to Amount|Website|Determines if tax is included in the Minimum Order Amount calculation. Options: <br/>**Yes** – Tax is included when calculating the Minimum Order amount (Subtotal + Tax - Discount).<br/>**No** – Tax is not included tax when calculating the Minimum Order amount (Subtotal - Discount).|
 |Displayed Error Message|Store View|A message that appears if a customer chooses Free Shipping, but for some reason the method is not available.|
 |Ship to Applicable Countries|Website|Identifies the countries where you offer Free Shipping. Options: <br/>**All Allowed Countries** - Customers from any country specified in the store configuration can use Free Shipping. <br/>**Specific Countries** - Customers from only specific countries can use Free Shipping.|
 |Ship to Specific Countries|Website|Identifies each country where customers can use Free Shipping.|
@@ -91,7 +91,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |--- |--- |--- |
 |Enabled for Checkout|Website|Determines if UPS is available to customers as a shipping method during checkout. Options: Yes / No.|
 |Enabled for RMA|Website|Determines if UPS is available to customers as a shipping method for an RMA. Options: Yes / No.|
-|UPS Type|Store View|Specifies the  method used to connect to the UPS shipping system. Options: <br/>**United Parcel Service XML** - (Default) Your store sends an XML file with data to UPS as a request. <br/>**United Parcel Service** - Your store sends key-value pairs to UPS as a request. <br/><br/>**_Note:_** The standard United Parcel Service type is scheduled for deprecation in Magento. For new configurations, you should use the United Parcel Service XML type.|
+|UPS Type|Store View|Specifies the  method used to connect to the UPS shipping system. Options: <br/>**United Parcel Service XML** - (Default) Your store sends an XML file with data to UPS as a request. <br/>**United Parcel Service** - Your store sends key-value pairs to UPS as a request. <br/><br/>**_Note:_** The standard United Parcel Service type is scheduled for deprecation in Commerce. For new configurations, you should use the United Parcel Service XML type.|
 |_UPS Account Settings_|||
 |Live Account|Store View|Specifies that the United Parcel Service account is live. Options: Yes / No|
 |Gateway URL|Website|The URL that connects to the UPS system to retrieve dynamic shipping rates. UPS is discontinuing support of HTTP. Default value: `https://www.ups.com/using/services/rave/qcostcgi.cgi`|

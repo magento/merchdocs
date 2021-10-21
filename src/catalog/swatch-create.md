@@ -132,3 +132,23 @@ Use either of the following methods to create swatches for your products.
 
     ![]({% link images/images/storefront-swatch-blue-schmear.png %}){: .zoom}
     _Swatch in Storefront_
+
+## Add Swatches to the Simple Product
+
+1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
+
+1. Open a product in edit mode, check the product status (should be enabled).
+
+1. Click <span class="btn">Create Configurations</span> button (under the `Configurations` tab).
+
+1. In the pop up window choose the Color attribute and <span class="btn">Next</span>.
+
+1. Select color swatches from the attribute that you want to include in this product.
+
+1. In the progress bar, click <span class="btn">Next</span>.
+
+1. [Configure the images, price, and quantity.]({% link catalog/product-create-configurable.md %}#step-3-configure-the-images-price-and-quantity). On this step set the images, pricing, and quantity of each configuration. The available options are the same for each, and you can choose only one. You can apply the same setting to all SKUs, apply a unique setting to each SKU, or skip the settings for now.
+
+1. When configuration for images, price, and quantity are complete, click <span class="btn">Next</span> in the upper-right corner
+
+    The current product variations appear at the bottom of the Configuration section. If you are satisfied with the configurations, click <span class="btn">Generate Products</span>

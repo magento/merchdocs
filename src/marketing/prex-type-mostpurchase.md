@@ -1,6 +1,7 @@
 ---
-ee_only: true
 title: Most purchased
+tag: product-recommendations
+ee_only: true
 ---
 
 Commonly referred to as Top sellers, the _Most purchased_ recommendation type recommends items most purchased within the last seven days.

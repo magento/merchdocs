@@ -90,9 +90,9 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
    {:.bs-callout-info}
    Note that the changes made using the Method 1 will have the priority over the changes made in the `app/etc/env.php` file.
 
-## Method 3: Change the Admin Path using the Magento CLI
+## Method 3: Change the Admin Path using the Commerce CLI
 
-You can use the Magento CLI `setup:config:set` command to change the Admin Path. The following example uses the `--backend-frontname` option to change the path from the Magento root to a new Admin path:
+You can use the CLI `setup:config:set` command to change the Admin Path. The following example uses the `--backend-frontname` option to change the path from the Commerce root to a new Admin path:
 
     ```terminal
     bin/magento setup:config:set --backend-frontname="backend_front_name"

@@ -1,6 +1,7 @@
 ---
-ee_only: true
 title: Most added to cart
+tag: product-recommendations
+ee_only: true
 ---
 
 The _Most added to cart_ recommendation type recommends items most added to a cart within the last seven days.

@@ -1,5 +1,7 @@
 ---
 title: About Amazon Sales Channel
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/about-amazon-sales-channel.html
 ---
 
 Amazon Sales Channel is a powerful extension that seamlessly integrates your Commerce Admin with your Amazon Seller Central account. After [onboarding]({% link sales-channels/asc/amazon-onboarding-home.md %}), Commerce becomes a "central command center" for managing and controlling your Amazon listings, orders and inventory, and pricing for your Amazon store.

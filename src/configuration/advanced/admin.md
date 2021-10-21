@@ -73,9 +73,9 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Use Custom Admin URL|Global|Determines if a custom URL is used to access the Magento Admin. Options: Yes / No|
-|Custom Admin URL|Global|Specifies a custom URL to access the Magento Admin. By default, the Admin URL is the same as the base URL.<br/>**Important:** The Admin URL must be in the same Magento installation, and have the same document root as the storefront.|
-|Use Custom Admin Path|Global|Determines if a custom path is used to access the Magento Admin. The default path is `admin`. Options: Yes / No|
+|Use Custom Admin URL|Global|Determines if a custom URL is used to access the Admin. Options: Yes / No|
+|Custom Admin URL|Global|Specifies a custom URL to access the Admin. By default, the Admin URL is the same as the base URL.<br/>**Important:** The Admin URL must be in the same Commerce installation, and have the same document root as the storefront.|
+|Use Custom Admin Path|Global|Determines if a custom path is used to access the Admin. The default path is `admin`. Options: Yes / No|
 |Custom Admin Path|Global|Changes the name of the default Admin path to something hard to guess. Enter the custom path name in lowercase characters. For example: `aardvark`|
 
 ## Security
@@ -115,7 +115,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable CAPTCHA in Admin|Website|Enables CAPTCHA for the Admin login. Options: Yes / No|
-|Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Magento instance, and add the declaration to the config.xml file at `app/code/Magento/Captcha/etc` Default font: LinLibertine|
+|Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Commerce instance, and add the declaration to the config.xml file at `app/code/Magento/Captcha/etc` Default font: LinLibertine|
 |Forms|Website|Determines the form(s) where CAPTCHA is used. Options: Admin Login / Admin Forgot Password|
 |Displaying Mode|Website|Determines when the CAPTCHA appears. Options: <br/>**Always** - CAPTCHA is always required to log in. <br/>**After number of attempts to login** - Displays the Number of Unsuccessful Attempts to Login field. Enter the number of login attempts allowed. A value of 0 (zero) is similar to setting Displaying Mode to Always. This option does not cover the Forgot Password and Create User forms. If CAPTCHA is enabled and set to appear, it is always included on the form.<br />**Note**: To track the number of unsuccessful login attempts, each attempt to log in under one email address and from one IP-address is counted. The maximum number of login attempts allowed from the same IP-address is 1,000. This limitation applies only when CAPTCHA is enabled.|
 |Number of Unsuccessful Attempts to Login|Global|Determines the number of times a person can try to login before the account is locked. To track the number of unsuccessful attempts to log in, the system tracks the login attempts from one email address from a single IP-address. The maximum number of attempts allowed from the same IP address is 1,000. This limitation applies only if CAPTCHA is enabled.|

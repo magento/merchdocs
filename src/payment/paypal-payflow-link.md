@@ -438,5 +438,5 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://manager.paypal.com/
-[3]: https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm
+[3]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [4]: https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager

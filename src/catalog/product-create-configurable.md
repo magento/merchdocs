@@ -243,7 +243,7 @@ Use one of the following methods to configure the **quantity**:
 
    - Enter an on-hand inventory amount per source.
 
-   ![]({% link images/images/inventory/inventory-configure-product-quantity.png %}){: .zoom}
+   ![]({% link catalog/assets/inventory-configure-product-quantity.png %}){: .zoom}
    _Same Quantity for All SKUs_
 
 - **Method 2:** Apply Different Quantity by Attribute
@@ -341,6 +341,8 @@ If you have a different image for each variation you can set the configuration t
 ## Things to remember
 
 - A configurable product allows the shopper to choose options from drop-down, multiple select, visual swatch and text swatch input types. Each option is a separate, simple product.
+
+- Configurable child products can be simple or virtual products **without custom options**.
 
 - The attributes that are used for product variations must have a global scope and the customer must be required to choose a value. The product variation attributes must be included in the attribute set that is used as a template for the configurable product.
 

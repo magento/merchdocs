@@ -18,11 +18,11 @@ Email reminder rules can be sent at regular intervals by the minute, hour, or da
 
    - Set **Enable Reminder Emails** to `Yes`.
 
-   - To set how often Magento checks for new customers who qualify automated email reminders, set **Frequency** to one of the following:
+   - To set how often to run checks for new customers who qualify automated email reminders, set **Frequency** to one of the following:
 
-      - Minute Intervals
-      - Hourly
-      - Daily
+      - `Minute Intervals`
+      - `Hourly`
+      - `Daily`
 
    - Set the appropriate **Interval**, based on the Frequency setting.
 

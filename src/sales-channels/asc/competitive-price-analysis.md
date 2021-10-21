@@ -1,7 +1,8 @@
 ---
-title: Competitive Price Analysis
+title: Amazon Sales Channel - Competitive Price Analysis
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/reports-logs/store-reports/competitive-price-analysis.html
 ---
-
 
 The Competitive Price Analysis report shows your Amazon listings per marketplace with the respective [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) price and [lowest competitor]({% link sales-channels/asc/lowest-competitor-pricing.md %}) price values. No actions are available for the log. It is a review-only feature.
 
