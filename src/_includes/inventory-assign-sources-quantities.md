@@ -7,7 +7,7 @@ For Multi Source merchants using Inventory Management, scroll down to the Source
 
 1. Browse or search for a source you want to add. Select the checkbox next to the source(s) you want to add for the product.
 
-    ![]({% link images/images/inventory/inventory-product-assign-sources.png %}){: .zoom}
+    ![]({% link catalog/assets/inventory-product-assign-sources.png %}){: .zoom}
     *Assign sources to the product*
 
 1. Click **Done** to add the sources.
@@ -26,5 +26,5 @@ For Multi Source merchants using Inventory Management, scroll down to the Source
     | Default Notify Quantity | Select the **Notify Quantity Use Default** checkbox. Commerce checks and uses the setting in Advanced Inventory or global Store configuration. |
     {:style="table-layout:auto"}
 
-    ![]({% link images/images/inventory/inventory-product-quantities.png %}){: .zoom}
+    ![]({% link catalog/assets/inventory-product-quantity.png %}){: .zoom}
     *Update Product Quantities per Source*

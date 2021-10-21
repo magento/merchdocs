@@ -14,8 +14,7 @@ A source can have priority in the scope of stock in one warehouse, but not neces
 
 In this example, the merchant has a mountain bike available for shipment from stores, warehouses, and a drop shipper.
 
-![]({% link images/images/inventory/inventory-diagram-sources.png %})<br/>
-_Example Sources for a Mountain Bike_
+![Example sources diagram]({% link catalog/assets/inventory-diagram-sources.png %})
 
 ## Stocks
 
@@ -25,8 +24,7 @@ Sales Channels represent entities selling your inventory, including websites, st
 
 You start with a Default Stock assigned with the Default Source and your website, best used by Single Source merchants. Only the Default Source can be assigned to this stock. Multi Source merchants create custom stocks for custom sources and websites as needed.
 
-![]({% link images/images/inventory/inventory-diagram-stock.png %})<br/>
-_Example Stocks for a Mountain Bike and Store_
+![Diagram for example stocks for a store]({% link catalog/assets/inventory-diagram-stock.png %})
 
 ## Product quantities
 
@@ -39,8 +37,7 @@ Reservations track stock requests for the entire shopping process - adding produ
 
 Salable Quantity calculates the virtual inventory of products (or availability), taking into account configured thresholds, reserved or sold amounts, and quantities per source. For each stock, Commerce accesses all assigned sources and aggregates associated product quantities. With this base value, it then subtracts all reservation amounts and the Notify for Quantity Below threshold.
 
-![]({% link images/images/inventory/inventory-diagram-salable-qty.png %})<br/>
-_Calculating the Salable Quantity for a Stock_
+![Calculating the salable quantity for a stock]({% link catalog/assets/inventory-diagram-salable-quantity.png %})
 
 ## Inventory configurations
 
