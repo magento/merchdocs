@@ -16,8 +16,7 @@ For multiaddress orders, a series of single orders are generated, one for each d
 
 Commerce manages inventory for these multiaddress orders exactly like single orders, allowing for Source Selection Algorithm recommendations or overrides during shipment, partial shipments, canceling orders, and refunding with stock updates.
 
-![]({% link images/images/inventory/inventory-multi-ship.png %}){: .zoom}
-_Multiaddress at Checkout_
+![Multi-address at checkout]({% link catalog/assets/inventory-multi-ship.png %}){: .zoom}
 
 ### Refunds
 

@@ -43,8 +43,7 @@ To configure, assign and order sources to a custom stock. See [Prioritizing Sour
 
 The following example details the mapped sources in order, available quantity, and recommended source and amount to deduct and ship. The top source is a Drop Shipper in the United Kingdom with an available quantity of 240.
 
-![]({% link images/images/inventory/inventory-diagram-ssa-sources.png %})<br/>
-_Example SSA recommendations for a Mountain Bike_
+![Example SSA recommendations for a mountain bike]({% link catalog/assets/inventory-diagram-ssa-sources.png %})
 
 ### Distance Priority Algorithm
 
@@ -72,7 +71,7 @@ Reservations place holds on inventory quantities deducted from the salable quant
 
 The following diagram helps define the process of reservations during an order and through to shipment.
 
-![]({% link images/images/inventory/inventory-diagram-qty.png %})
+![Reservations from order to delivery]({% link catalog/assets/inventory-diagram-quantity.png %})
 
 A customer submits an order. Commerce checks the current inventory salable quantity. If enough inventory is available at the stock level, a reservation enters placing a temporary hold for the product SKU (for that stock) and recalculates the salable quantity.
 
@@ -90,7 +89,7 @@ Here is how they work:
 
 - **Shipped Order** - When an order ships (all or partial), a compensation reservation enters to clear that amount. For example, shipping two backpacks enters a +2 reservation for that SKU and stock, clearing the hold. The product quantity is directly reduced by 2 for the shipment. The calculated salable quantity is also updated for the reduced stock amount, but is no longer affected by the reservation.
 
-![]({% link images/images/inventory/inventory-diagram-reservation.png %})
+![Reservation updates]({% link catalog/assets/inventory-diagram-reservation.png %})
 
 All reservations need to be cleared by compensations when orders complete fulfillment, products cancel, credit memos are issued, etc. If compensations do not clear out reservations, you may have quantities held in stasis, not available for sale and never shipping.
 

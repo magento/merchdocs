@@ -28,13 +28,11 @@ If a customer requests a refund, issue the credit memo for the partial or full p
 
 Simple orders begin with a shopping cart, continue to payment, and end with a satisfied delivery. In these orders, Inventory Management easily processes reservations against the availability (or salable quantity) in the cart and checkout, and deducts from the on-hand inventory at shipment.
 
-![]({% link images/images/inventory/inventory-diagram-simple-order.png %}){: .zoom}
-_Process for a Simple Order_
+![Process for a simple order]({% link catalog/assets/inventory-diagram-simple-order.png %}){: .zoom}
 
 A more complicated order may have partial cancellations, partial shipments, and refunds. In these situations, reservations affect the available inventory to add quantities for cancellations and refunds and decrease quantities when ordered and shipped.
 
-![]({% link images/images/inventory/inventory-diagram-complicated-order.png %}){: .zoom}
-_Process for a Complicated Order_
+![Process for a complicated order]({% link catalog/assets/inventory-diagram-complicated-order.png %}){: .zoom}
 
 Availability reservations and inventory changes occur based on the order status.
 
@@ -66,7 +64,7 @@ Jenny Sanders orders bikes and clothing for her family vacation and fun. She see
 
 She buys two great park bikes for her daughters, a BMX bike for her son, a nice mountain bike for herself, and a modern German cross-country bike for her husband. The store had a sale on cute shirts, so she bought some for the whole family to match. See the list of vacation purchases below, the matching SKUs, and the reservations entered against the stock salable quantities.
 
-![]({% link images/images/inventory/inventory-diagram-order1.png %})
+![Complex order]({% link catalog/assets/inventory-diagram-order-complex.png %})
 
 ### Example order from Biking Adventures
 
@@ -80,5 +78,4 @@ But the shirt didn't quite fit her husband. Jenny requests a refund and sends ba
 
 - **Credit Memo/Refunded product** - By returning stock, we need to add back to our quantities. When issuing the credit memo, we select to return to stock. Commerce adds back inventory quantity to the shipped source for the product. Reservation compensations enter to clear any remaining reservations. The salable quantity recalculates against the updated quantity.
 
-![]({% link images/images/inventory/inventory-diagram-order2.png %})<br/>
-_Example Quantity Updates_
+![Order refund quantity updates]({% link catalog/assets/inventory-diagram-order-refund.png %})

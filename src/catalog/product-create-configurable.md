@@ -243,7 +243,7 @@ Use one of the following methods to configure the **quantity**:
 
    - Enter an on-hand inventory amount per source.
 
-   ![]({% link images/images/inventory/inventory-configure-product-quantity.png %}){: .zoom}
+   ![]({% link catalog/assets/inventory-configure-product-quantity.png %}){: .zoom}
    _Same Quantity for All SKUs_
 
 - **Method 2:** Apply Different Quantity by Attribute
