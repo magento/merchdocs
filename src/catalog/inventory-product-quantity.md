@@ -37,4 +37,3 @@ All updated quantities and sources display in the product grid.
 The Product Grid updates with a list of all sources and related quantities. For products with more than five assigned sources, hover over the _Quantity per Source_ column to see the full list.
 
 ![Product quantities per source]({% link catalog/assets/inventory-product-quantity.png %}){: .zoom}
-
