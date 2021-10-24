@@ -15,13 +15,13 @@ _Customer Group Discount_
 
 ## Pricing benefits for a group of Magento 2 customers
 
-- Suitable for wholesale buyers
+    - Suitable for wholesale buyers
 
-- Invite customers to upgrade their customer group to take advantage of discounts
+    - Invite customers to upgrade their customer group to take advantage of discounts
 
-- Targeted marketing campaigns
+    - Targeted marketing campaigns
 
-- Reward loyal customers, thereby building trust and credibility
+    - Reward loyal customers, thereby building trust and credibility
 
 ## Set up a group price
 
