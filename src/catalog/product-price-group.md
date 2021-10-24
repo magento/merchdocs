@@ -2,12 +2,26 @@
 title: Group Price
 ---
 
-A discounted price on any product can be extended to members of a specific customer group, provided they shop while logged in to their accounts. The discounted price appears on the product page with the regular price noted below, and replaces the regular price in the shopping cart.
+## What is Magento 2 Group Pricing?
 
-Customer group prices are a component of tier pricing and are set up in a similar way. The only difference is that customer group prices have a quantity of 1.
+The configuration to set prices for discounted items based on customer groups from the admin panel in a Magento 2 store is called group prices.
+
+The discounted price of any product can be extended to members of a specific customer group, provided they shop by logging into their accounts. The customer group price is displayed on the product page along with the regular price so that users can easily compare prices and act accordingly. After the product is added to the cart, the regular price is replaced by the group price based on that user's customer group.
+
+Pricing for customer groups is a component of tiered pricing and is set in a similar manner. The only difference is that customer group prices have a quantity of 1.
 
 ![]({% link images/images/storefront-price-group.png %}){: .zoom}
 _Customer Group Discount_
+
+## Pricing benefits for a group of Magento 2 customers
+
+- Suitable for wholesale buyers
+
+- Invite customers to upgrade their customer group to take advantage of discounts
+
+- Targeted marketing campaigns
+
+- Reward loyal customers, thereby building trust and credibility
 
 ## Set up a group price
 
