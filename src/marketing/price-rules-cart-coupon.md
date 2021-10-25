@@ -190,3 +190,10 @@ Do the following to test the dynamic coupon code URLs that you generate with the
 1. Make a test purchase in your store and apply the coupon code in the shopping cart.
 
  [1]: https://support.dotdigital.com/hc/en-gb/articles/360000466730-Dynamic-content-Coupon-codes-Magento-2
+
+ {:.ref-header}
+Related topics
+
+In our support knowledge base:
+
+- [How many coupons can a customer use in Adobe Commerce?](https://support.magento.com/hc/en-us/articles/115004348454)
