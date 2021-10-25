@@ -87,7 +87,7 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 1. Enter the product **Weight**.
 
 {:.bs-callout-info}
-A configurable product always has weight. In case you select the setting **This item has no weight** in the drop-down list, it will automatically be changed to **This item has weight** after saving the product.
+A configurable product must always have a weight. If you select **This item has no weight** from the drop-down list, it is automatically changed to **This item has weight** after saving the product.
 
 1. Accept the default **Visibility** setting of `Catalog, Search`.
 
@@ -345,7 +345,7 @@ If you have a different image for each variation you can set the configuration t
 
 - A configurable product allows the shopper to choose options from drop-down, multiple select, visual swatch and text swatch input types. Each option is a separate, simple product.
 
-- Configurable child products can be simple or virtual products **without custom options**. To make custom child products virtual, you need to select _Тhis item has no weight_ in the _Wweight_ setting for each of them.
+- Configurable child products can be simple or virtual products **without custom options**. To make custom child products virtual, you must select _Тhis item has no weight_ in the _Weight_ setting for each of them.
 
 - The attributes that are used for product variations must have a global scope and the customer must be required to choose a value. The product variation attributes must be included in the attribute set that is used as a template for the configurable product.
 
