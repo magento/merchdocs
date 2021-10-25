@@ -21,3 +21,24 @@ After a category is established, it can be edited, moved to another position in 
 1. Click <span class="btn">Delete Category</span>.
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
+
+## Add event to category
+
+1. In the category tree, select the category for which you want to create an event.
+
+   Each category can have only one event at a time, any categories that already have an active event will be suspended.
+
+1. Click <span class="btn">Add Event</span>.
+
+1. In the **Catalog Event Information** section, do the following:
+
+   - Use the **Calendar** ( ![]({% link images/images/btn-calendar.png %}) ) to choose the **Start Date** and **End Date** for the event.
+
+   - To upload an **Image** for the event widget, click <span class="btn">Choose File</span>. Then, select the image file from your directory.
+
+   - In the **Sort Order** field, enter a number to indicate the sequence in which this event appears when listed with other events.
+
+   - Select the checkbox of each page where you want to display the event:
+
+      - Category Page
+      - Product Page
