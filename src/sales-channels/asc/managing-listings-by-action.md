@@ -1,7 +1,8 @@
 ---
-title: Manage Product Listings by Action
+title: Amazon Sales Channel - Manage Product Listings by Action
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/managing-listings-by-action.html
 ---
-
 
 {% include amazon-managing-listings-intro.md %}
 

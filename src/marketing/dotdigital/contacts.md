@@ -34,7 +34,7 @@ Your dotdigital account is [synced]({% link configuration/dotdigital/sync-settin
 
 1. After reading the report, click **Go to address book**.
 
-1. Return to **Contacts** > **My Contacts** from the main menu and click the **Commerce_Customers** address book.
+1. Return to **Contacts** > **My Contacts** from the main menu and click the **Commerce Customers** address book.
 
 1. To see all the things you can do with your customer data, click **More actions**.
 

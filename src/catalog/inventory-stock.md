@@ -14,7 +14,7 @@ Sales Channels represent entities selling your inventory. By default, Commerce p
 
 The following diagram helps define how a Stock works in relation to Sources and Sales Channels for a Bicycle Shop merchant.
 
-![]({% link images/images/inventory/inventory-diagram-stock.png %})
+![Diagram for example stocks for a store]({% link catalog/assets/inventory-diagram-stock.png %})
 
 ## Example stocks for a mountain bike and store
 

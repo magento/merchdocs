@@ -258,9 +258,9 @@ Scroll down and complete the information in the following sections as needed:
 
 ## Things to remember
 
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Customers can _build their own_ bundle product. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Bundle items can be simple or virtual products without custom options. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | The Price View can be set to either `Price Range` or `As Low As`. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | SKU and Weight can be either `Fixed` or `Dynamic`. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | The quantity can be a preset or user-defined value. However, do not assign the _User Defined_ property to checkbox or multiple-select input types. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Bundle items can be shipped together or separately. |
+| ![]({% link assets/checkbox.png %})| Customers can _build their own_ bundle product. |
+| ![]({% link assets/checkbox.png %})| Bundle items can be simple or virtual products without custom options. |
+| ![]({% link assets/checkbox.png %})| The Price View can be set to either `Price Range` or `As Low As`. |
+| ![]({% link assets/checkbox.png %})| SKU and Weight can be either `Fixed` or `Dynamic`. |
+| ![]({% link assets/checkbox.png %})| The quantity can be a preset or user-defined value. However, do not assign the _User Defined_ property to checkbox or multiple-select input types. |
+| ![]({% link assets/checkbox.png %})| Bundle items can be shipped together or separately. |

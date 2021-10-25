@@ -19,18 +19,14 @@ _All Customers_
 
 1. When complete, click <span class="btn">Save</span>.
 
-### Delete customer accounts
-
-Deleted customer accounts cannot be restored. Information about customer activity and transactions is retained in the system.
-
-1. Set the **Actions** control to `Delete`.
-
-1. When prompted to confirm, click <span class="btn">OK</span>.
-
 {:.b2b-only}
 ### Set active/inactive
 
-Customers with inactive accounts cannot log in or make purchases from their accounts.
+Customers with inactive accounts cannot log in or make purchases from their accounts. There are two methods to set a customer account as active or inactive:
+
+**Method 1:** From the customers grid
+
+1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 
 1. Set the **Actions** control to one of the following:
 
@@ -38,6 +34,20 @@ Customers with inactive accounts cannot log in or make purchases from their acco
    - `Inactive`
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
+
+**Method 2:** From the account edit page
+
+1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
+
+1. In the grid, find the customer record to be edited.
+
+1. In the _Actions_ column on the far right, click **Edit**.
+
+1. Select the **Account Information** tab.
+
+1. Set **Customer Active** to `Yes` or `No`.
+
+1. Click <span class="btn">Save Customer</span>.
 
 ### Subscribe to newsletter
 
@@ -98,6 +108,16 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 1. Make the necessary changes to the company information.
 
    To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
+
+1. When complete, click <span class="btn">Save Customer</span>.
+
+### Delete customer accounts
+
+Deleted customer accounts cannot be restored. Information about customer activity and transactions is retained in the system.
+
+1. Set the **Actions** control to `Delete`.
+
+1. When prompted to confirm, click <span class="btn">OK</span>.
 
 ## Export customers accounts
 

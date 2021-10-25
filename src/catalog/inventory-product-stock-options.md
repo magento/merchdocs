@@ -30,7 +30,7 @@ Configure the quantities and additional settings per [added source]({% link cata
 
 1. When complete, click <span class="btn">Done</span>, then <span class="btn">Save</span>.
 
-   ![]({% link images/images/inventory/inventory-product-quantities.png %}){: .zoom}
+   ![]({% link catalog/assets/inventory-product-quantity-edit.png %}){: .zoom}
    _Sources Section for Product_
 
 1. When complete, click <span class="btn">Done</span>, then <span class="btn">Save</span> for the product.

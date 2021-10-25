@@ -43,6 +43,9 @@ Examples of online payments are:
 - Paypal
 - Braintree
 
+{:.bs-callout-warning}
+Using gift cards, store credit, or reward points with online payment methods for purchase orders is not supported. Enabling these features with online payments may cause some unexpected behavior. It is recommended to disable gift cards, store credit, and reward points when online payments are enabled for purchase orders.
+
 For security reasons, online stores generally do not want to store credit card details while waiting for the approval process to complete. Therefore, if an online payment option is selected, the purchase order creator returns to the store after approval, enters the payment details, and completes the order.
 
 As offline payment methods, such as a money order, are handled outside the website, they are safer. Purchase orders with offline payments can be processed automatically, after any approval process.

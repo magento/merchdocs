@@ -186,6 +186,8 @@ If you have a different image for each product in the group, you can set the con
 
 - A grouped product is essentially a collection of simple associated products.
 
+- Grouped child products can be simple or virtual products **without custom options**.
+
 - Each item purchased appears individually in the shopping cart, rather than as part of the group.
 
 - The thumbnail image in the shopping cart can be set to display the image from the grouped parent product or associated product.
