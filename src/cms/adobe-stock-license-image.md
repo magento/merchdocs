@@ -53,7 +53,7 @@ This feature requires the [Adobe Stock Integration][adobe-stock-integration] mod
 
     This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
-    ![Save Adobe Stock licensed image]({% link images/images/adobe-stock/save-licensed.png %}){: .zoom}
+    ![Save Adobe Stock licensed image]({% link cms/assets/adobe-stock-save-licensed.png %}){: .zoom}
     _Save the licensed image_
 
 1. Click <span class="btn">Confirm</span>.
