@@ -25,7 +25,7 @@ All updated quantities and sources display in the product grid.
       - Custom Notify Quantity - Deselect the **Use Default** checkbox and enter an amount in **Notify Qty**.
       - Default Notify Quantity - Select the **Use Default** checkbox. Commerce checks and uses the setting in Advanced Inventory or global Store configuration.
 
-    ![]({% link images/images/inventory/inventory-product-quantities.png %}){: .zoom}
+    ![]({% link catalog/assets/inventory-product-quantity-edit.png %}){: .zoom}
     _Update Product Quantities per Source_
 
 1. Do one of the following to save:
@@ -36,5 +36,4 @@ All updated quantities and sources display in the product grid.
 
 The Product Grid updates with a list of all sources and related quantities. For products with more than five assigned sources, hover over the _Quantity per Source_ column to see the full list.
 
-![]({% link images/images/inventory/inventory-product-qty.png %}){: .zoom}
-_Product Quantities per Source_
+![Product quantities per source]({% link catalog/assets/inventory-product-quantity.png %}){: .zoom}

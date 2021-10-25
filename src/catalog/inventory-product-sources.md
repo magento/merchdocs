@@ -19,14 +19,14 @@ Before modifying quantities and settings, you need to assign [sources]({% link c
     {:.bs-callout-info}
     Currently, only Simple, Configurable, Virtual, Downloadable, and Grouped products support multiple sources. Bundle products can be created and managed with only the Default Source and Stock.
 
-    ![]({% link images/images/inventory/inventory-product-sources-before.png %}){: .zoom}
+    ![]({% link catalog/assets/inventory-product-sources-before.png %}){: .zoom}
     _Product Sources section_
 
 1. To add a source, click **Assign Sources**.
 
 1. On the _Assign Sources_ page, select the checkbox next to each source that you want to assign for the product.
 
-    ![Product - assign sources]({% link images/images/inventory/inventory-product-assign-sources.png %}){: .zoom}
+    ![Product - assign sources]({% link catalog/assets/inventory-product-assign-sources.png %}){: .zoom}
     _Assign sources to the product_
 
 1. Click <span class="btn">Done</span> to add the sources.

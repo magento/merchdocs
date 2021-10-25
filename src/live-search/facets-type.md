@@ -7,7 +7,7 @@ group: marketing
 
 All facets used by Live Search are dynamic and appear in the _Filters_ list only when relevant. The list of available facets changes according to the products returned. The following characteristics affect their presentation and behavior:
 
-- Pinned facets  - The most commonly-used facets can be pinned to the top of the list. The remaining facets are listed in alphabetical order after the pinned facets.
+- Pinned facets  - The most commonly-used facets can be pinned to the top of the list. The remaining facets are listed in _Sort type_ order after the pinned facets.
 - Intelligent facets - Product attributes that [Adobe Sensei](https://www.adobe.com/sensei.html) finds most relevant to a product set and query. The calculation takes into account the attribute metadata of the entire catalog and determines at query time the most relevant facets for the query.
 - Popular facets - Product attributes that are most often present in search results.
 - Price facets - Return products by price range. You can specify the number of selections and the price range interval on the [_Settings_]({% link live-search/settings.md %}) tab.
