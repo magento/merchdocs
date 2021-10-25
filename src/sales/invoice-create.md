@@ -8,6 +8,9 @@ Normally, orders are invoiced and captured when the shipping process starts. If 
 
 When the state of new orders is set to `Processing`, the option to _Automatically Invoice All Items_ becomes available in the configuration. Some credit card payment methods complete the invoicing step as part of the process when the [payment action]({% link configuration/sales/payment-methods.md %}#payment-actions) is set to `Authorize and Capture`. In such a case, the Invoice button does not appear, and the order is ready to ship.
 
+{:.bs-callout-info}
+Invoices are not created automatically for orders placed by using `Gift Card`, `Store Credit`, `Reward Points`, or other offline payment methods.
+
 You must generate an invoice for an order before you can print it. To view or print the PDF, first download and install a PDF reader such as [Adobe Acrobat Reader][1].
 
 ![]({% link images/images/sales-invoices.png %}){: .zoom}

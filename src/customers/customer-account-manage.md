@@ -45,7 +45,7 @@ Customers with inactive accounts cannot log in or make purchases from their acco
 
 1. Select the **Account Information** tab.
 
-1. Set ** Customer Active** to `Yes` or `No`.
+1. Set **Customer Active** to `Yes` or `No`.
 
 1. Click <span class="btn">Save Customer</span>.
 
