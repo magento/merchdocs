@@ -6,7 +6,7 @@ Products with tax exceptions can be entered individually through your Vertex das
 
 The product table in your dashboard lists all products that have been entered into Vertex Cloud for the company.
 
-![]({% link images/images/tax-vertex-cloud-configure-product-table.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-cloud-configure-product-table.png %}){: .zoom}
 _Product Table_
 
 ## Before you begin
@@ -64,14 +64,14 @@ Commerce assigns tax classes to individual SKUs through the associated _Tax Clas
 
 In the sidebar, choose **Configure**. Then in the **Products** column of the company section, click **Add**.
 
-![]({% link images/images/tax-vertex-cloud-configure-products.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-cloud-configure-products.png %}){: .zoom}
 _Products_
 
 ### Step 1: Complete the product information
 
 1. On the **Add Single Product** tab, complete the following product information:
 
-   ![]({% link images/images/tax-vertex-cloud-configure-products-add-single.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-cloud-configure-products-add-single.png %}){: .zoom}
    _Add Single Product_
 
 1. Set **Tax Type** to one of the following:
@@ -102,7 +102,7 @@ In this step, each product is mapped to the appropriate tax category. Tax catego
 
    For this example, the General tax category applies to an item of clothing from the Luma demo catalog.
 
-   ![]({% link images/images/tax-vertex-cloud-configure-product-mapping-general.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-cloud-configure-product-mapping-general.png %}){: .zoom}
    _Product Mapping_
 
 1. Choose the tax category for the next level from the following options:
@@ -112,12 +112,12 @@ In this step, each product is mapped to the appropriate tax category. Tax catego
 
    For this example, TTP/Goods applies to the product.
 
-   ![]({% link images/images/tax-vertex-cloud-configure-product-mapping-tpp-goods.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-cloud-configure-product-mapping-tpp-goods.png %}){: .zoom}
    _Mapping to TPP/Goods Tax Category_
 
 1. Choose the tax category from the next level in the list that applies to the product.
 
-   ![]({% link images/images/tax-vertex-cloud-configure-product-mapping-clothing.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-cloud-configure-product-mapping-clothing.png %}){: .zoom}
    _Mapping to Clothing Tax Category_
 
 1. Continue to assign tax categories, as long as there is an applicable option.
@@ -132,7 +132,7 @@ Some states have qualifying conditions that might apply to various items in the 
 
 1. Click **Add Qualifying Condition**.
 
-   ![]({% link images/images/tax-vertex-cloud-configure-product-qualifying-conditions.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-cloud-configure-product-qualifying-conditions.png %}){: .zoom}
    _Qualifying Conditions_
 
 1. Under _Jurisdiction_, choose the **State** where the qualifying condition applies.
@@ -143,7 +143,7 @@ Some states have qualifying conditions that might apply to various items in the 
 
 1. Under _Qualifying Condition_, select each condition that applies to the item.
 
-   ![]({% link images/images/tax-vertex-cloud-configure-product-qualifying-conditions-complete.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-cloud-configure-product-qualifying-conditions-complete.png %}){: .zoom}
    _Qualifying Conditions_
 
 1. To add another condition, click **Add Qualifying Condition**.
@@ -162,12 +162,12 @@ Some states have qualifying conditions that might apply to various items in the 
 
 1. Choose the **Upload Multiple Products** tab and click **Download File Format Template**.
 
-    ![]({% link images/images/tax-vertex-cloud-configure-product-upload-multiple.png %}){: .zoom}
+    ![]({% link tax/assets/tax-vertex-cloud-configure-product-upload-multiple.png %}){: .zoom}
     _Upload Multiple Products_
 
 1. Look for the `ProductsSample.csv` file at the bottom of the browser window and open the file in your spreadsheet.
 
-   ![]({% link images/images/tax-vertex-cloud-configure-product-upload-data.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-cloud-configure-product-upload-data.png %}){: .zoom}
    _Upload Template_
 
    **Column Descriptions:**
