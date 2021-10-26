@@ -15,7 +15,7 @@ sections:
     url: /reports/sales-reports.html
 
   - title: System Insights
-    content: The Site-Wide Analysis Tool (SWAT) provides system insights for Cloud installations of Adobe Commerce with 24/7 real-time performance monitoring, reports, and recommendations.
+    content: The Site-Wide Analysis Tool provides system insights for Cloud installations of Adobe Commerce with 24/7 real-time performance monitoring, reports, and recommendations.
     url: /reports/site-wide-analysis-tool.html
 
   - title: Customer Reports
