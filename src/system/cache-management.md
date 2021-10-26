@@ -13,12 +13,12 @@ After clearing a cache, always refresh your browser to make sure that you can se
 
 Access to specific cache maintenance actions can be assigned to users by [role]({% link system/permissions-role-resources.md %}), including options to view, toggle, and flush caches. Adobe recommends enabling flush actions only for administrator level users. Providing access to all Cache Management features can impact your storefront's performance.
 
-![Role resources - cache management]({% link system/assets/system-permissions-role-resources-cache-management.png %}){: .zoom}
+![Role resources - cache management]({% link system/assets/permissions-role-resources-cache-management.png %}){: .zoom}
 [_Cache Management Role Resources_]({% link system/permissions-role-resources.md %})
 
 For technical information, see [Cache overview][1]{:target="_blank"} in the Commerce Developer Guide.
 
-![Cache management]({% link system/assets/system-cache-management-invalid.png %}){: .zoom}
+![Cache management]({% link system/assets/cache-management-invalid.png %}){: .zoom}
 _Cache Management_
 
 ## Best Practices for Caching

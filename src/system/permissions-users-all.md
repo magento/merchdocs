@@ -21,7 +21,7 @@ _Example Admin Users_
 
 1. In the _Account Information_ section, do the following:
 
-    ![User account information]({% link system/assets/system-permissions-user-new.png %}){: .zoom}
+    ![User account information]({% link system/assets/permissions-user-new.png %}){: .zoom}
     _New User Account Information_
 
    - Enter the **User Name** for account.

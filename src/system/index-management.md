@@ -10,10 +10,10 @@ The indexers can be set to either update on save or on schedule. All indexes can
 
 When you need to reindex, a notification appears at the top of the page. The index and message clears based on the reindex mode and potential actions you take. See [Indexing overview][1]{:target="_blank"} in the Commerce Developer Guide.
 
-![Index management - notification]({% link system/assets/system-index-management-notification.png %}){: .zoom}
+![Index management - notification]({% link system/assets/index-management-notification.png %}){: .zoom}
 _Reindex notification_
 
-![Index management - actions]({% link system/assets/system-index-management-actions.png %}){: .zoom}
+![Index management - actions]({% link system/assets/index-management-actions.png %}){: .zoom}
 _Index Management_
 
 - Index Management has a slightly different presentation for flat product catalogs.

@@ -20,7 +20,7 @@ _Manage System Reports_
 
 1. In the **Groups** list, select each set of information that you want to include in the report. By default, all groups are selected.
 
-   ![System report - select groups]({% link system/assets/system-report-create.png %}){: .zoom}
+   ![System report - select groups]({% link system/assets/report-create.png %}){: .zoom}
    _Select Groups_
 
 1. In the upper-right corner, click <span class="btn">Create</span>.
@@ -56,12 +56,12 @@ In the **Action** column of the grid, select one of the following:
 
 1. For the report you need, select **View** in the Actions column.
 
-   ![System report - view details]({% link system/assets/system-report-grid-action-view.png %}){: .zoom}
+   ![System report - view details]({% link system/assets/report-grid-view.png %}){: .zoom}
    _View System Report_
 
 1. In the left panel, expand ![Expansion selector]({% link images/images/btn-expand.png %}) each section of the report to view the detail.
 
-   ![General system report information]({% link system/assets/system-report-information.png %}){: .zoom}
+   ![General system report information]({% link system/assets/report-information.png %}){: .zoom}
    _General System Report Information_
 
 ## Available system reports
