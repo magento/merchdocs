@@ -8,7 +8,7 @@ The selection of available gift options appears in the cart before the checkout 
 
 - {:.ee-only}Greeting cards, gift wrapping, and gift receipts are available in Adobe Commerce only.
 
-![]({% link images/images/storefront-cart-gift-options-for-products-or-order.png %}){: .zoom}
+![]({% link sales/assets/storefront-cart-gift-options-for-products-or-order.png %}){: .zoom}
 _Example storefront - Gift options in shopping cart_
 
 The Gift Options configuration applies to the entire website, but can be overridden at the product level.

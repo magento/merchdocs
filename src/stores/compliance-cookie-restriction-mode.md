@@ -10,7 +10,7 @@ Your [privacy policy]({% link stores/privacy-policy.md %}) should include the na
 {:.bs-callout-info}
 If you change the URL key of the privacy policy, you must also create a custom URL rewrite to redirect traffic to the new URL key. Otherwise, the link in the Cookie Restriction Mode message will return `404 Page Not Found`.
 
-![Example storefront - cookie restriction notice]({% link images/images/storefront-cookie-restriction-message.png %}){: .zoom}
+![Example storefront - cookie restriction notice]({% link stores/assets/storefront-cookie-restriction-message.png %}){: .zoom}
 _Cookie Restriction Notice In Footer_
 
 ## Step 1: Enable Cookie Restriction Mode

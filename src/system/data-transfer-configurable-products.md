@@ -6,7 +6,7 @@ The best way to understand how configurable product data is structured, is to ex
 
 In the following example, you add a set of product variations for a new size in each color. First, you export the configurable product, and examine the data structure. Then, you update the data and import it back into the catalog. If you do not want to go through the exercise of exporting the data, you can download the CSV file that is used in the example.
 
-![Example storefront - size and color attributes]({% link images/images/storefront-hoodie-new-size.png %}){: .zoom}
+![Example storefront - size and color attributes]({% link system/assets/storefront-hoodie-new-size.png %}){: .zoom}
 _New Size Variation Added for Each Color_
 
 ## Step 1: Verify Attribute Settings and Values
