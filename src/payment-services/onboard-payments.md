@@ -73,6 +73,8 @@ The first step in onboarding Payment Services is to configure your Commerce Serv
 
 To begin, and complete, sandbox onboarding you need to sign up for a free PayPal Developer's account. You can create multiple Developer accounts, if desired.
 
+A PayPal sandbox account allows you to use Payment Services in test mode. You must use a PayPal Developer Portal-generated Business sandbox test account, email, and password for sandbox onboarding. Do not use personal PayPal login credentials. You can reset and reapply for a sandbox account, if needed. See the [PayPal create a business sandbox account](https://developer.paypal.com/docs/api-basics/sandbox/accounts/#create-a-business-sandbox-account) documentation for more information.
+
 To complete sandbox onboarding:
 
 1. Navigate to the [PayPal Developer Account page](https://developer.paypal.com/developer/accounts/).
