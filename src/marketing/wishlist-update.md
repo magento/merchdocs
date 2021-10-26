@@ -4,7 +4,7 @@ title: Updating Wish Lists
 
 Customers can manage their wish lists by logging in to their accounts on the storefront. As a store administrator, you can also manage customer wish lists from the Admin.
 
-![Example storefront - My Wish List]({% link images/images/storefront-customer-wishlist-edit.png %}){: .zoom}
+![Example storefront - My Wish List]({% link marketing/assets/storefront-customer-wishlist-edit.png %}){: .zoom}
 _“My Wish List” in customer account_
 
 ## Update the wish list from a customer account

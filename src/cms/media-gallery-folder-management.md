@@ -14,7 +14,7 @@ Use folders to organize images in the new [Media Gallery]({% link cms/media-gall
 
 1. Enter the new folder name and click <span class="btn">Confirm</span>.
 
-    ![]({% link images/images/enhanced-media-gallery/folder-name-modal.png %}){: .zoom}
+    ![]({% link cms/assets/media-gallery-folder-name.png %}){: .zoom}
     _New Folder Name_
 
 ## Delete a folder
@@ -26,12 +26,12 @@ Deleting a folder will cause the deletion of all the images within that folder.
 
 1. Select the folder to be deleted.
 
-    ![]({% link images/images/enhanced-media-gallery/selected-folder.png %}){: .zoom}
+    ![]({% link cms/assets/media-gallery-selected-folder.png %}){: .zoom}
     _Select Folder_
 
 1. Click <span class="btn">Delete Folder</span>.
 
 1. To confirm the folder deletion, click <span class="btn">OK<span>.
 
-    ![]({% link images/images/enhanced-media-gallery/delete-folder-confirmation.png %}){: .zoom}
+    ![]({% link cms/assets/media-gallery-delete-folder-confirm.png %}){: .zoom}
     _Delete Confirmation_

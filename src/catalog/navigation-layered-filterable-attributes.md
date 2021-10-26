@@ -10,7 +10,7 @@ Layered navigation can be used to search for products by category or by attribut
 
 The attribute properties, combined with the product input type, determine which attributes can be used for layered navigation. Layered navigation is available only for [_anchor_]({% link catalog/categories-display-settings.md %}) categories, but can also be added to search results pages. The **Catalog Input Type for Store Owner** property of each attribute must be set to `Yes/No`, `Dropdown`, `Multiple Select`, or `Price`. To make the attributes filterable, the **Use in Layered Navigation** property of each must be set to either `Filterable (with results)` or `Filterable (no results)`.
 
-![]({% link images/images/storefront-layered-navigation-filtered.png %}){: .zoom}
+![]({% link catalog/assets/storefront-layered-navigation-filtered.png %}){: .zoom}
 _Filterable Attributes In Layered Navigation_
 
 ![]({% link images/images/storefront-product-attribute-filter-no-results.png %}){: .zoom}

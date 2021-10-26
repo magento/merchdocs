@@ -69,7 +69,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
 1. When complete, click <span class="btn">Submit</span>.
 
-    ![]({% link images/images/storefront-translate-inline-detail.png %}){: .zoom}
+    ![]({% link system/assets/storefront-translate-inline-detail.png %}){: .zoom}
     _Enter Custom Text_
 
 1. To see your changes in the store, press the **F5** key to refresh the browser.

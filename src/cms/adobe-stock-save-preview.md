@@ -20,7 +20,7 @@ This feature requires the [Adobe Stock Integration][adobe-stock-integration] mod
 
    This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
-   ![Save Adobe Stock preview image]({% link images/images/adobe-stock/save-preview.png %}){: .zoom}
+   ![Save Adobe Stock preview image]({% link cms/assets/adobe-stock-save-preview.png %}){: .zoom}
    _Save the preview image_
 
 1. Click <span class="btn">Confirm</span>.

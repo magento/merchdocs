@@ -29,7 +29,7 @@ For complete instructions, see [Admin Sign In]({% link stores/admin-signin.md %}
 
 1. When complete, click <span class="btn">Confirm</span>.
 
-    ![Google Authenticator QR code]({% link images/images/storefront-2fa-google-qrcode.png %}){: .zoom}
+    ![Google Authenticator QR code]({% link stores/assets/storefront-2fa-google-qrcode.png %}){: .zoom}
     _Google Authenticator QR code_
 
 ### Step 2: Sign in with Google Authenticator
@@ -145,7 +145,7 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
 1. Enter your account credentials and sign in to the _Admin_.
 
-    ![Authy - signin]({% link images/images/storefront-2fa-authy-access.png %}){: .zoom}
+    ![Authy - signin]({% link stores/assets/storefront-2fa-authy-access.png %}){: .zoom}
     _Authy access_
 
 1. Choose one of the following methods to authenticate:
