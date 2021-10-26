@@ -72,7 +72,7 @@ _Choose Attribute Set_
 
    - By default, **Stock Status** is set to `Out of Stock`.
 
-   - Because downloadable products are not shipped, the **Weight** field is not used.
+   - Because downloadable products are not shipped, the **Weight** field is not used. Enabling this feature for a downloadable product makes the product **Simple** and blocks the **Is this downloadable product?** tab filling.
 
     {:.bs-callout-info}
     **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following _Assign Sources and Quantities (Inventory Management)_ section.
@@ -134,6 +134,9 @@ _Downloadable Information_
 
       |Upload File|Choose this method to upload the distribution file to the server. Browse to the file and select it for upload.|
       |URL|Choose this method to access the distribution file from a URL. Enter the full URL to the download file.|
+
+   {:.bs-callout-info}
+   You cannot add any links to resources as downloadable products. Valid link domains are predefined programmatically in the `env.php` file. ( See, [env.php reference](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-envphp.html))
 
    - Set **Shareable** to one of the following:
 
