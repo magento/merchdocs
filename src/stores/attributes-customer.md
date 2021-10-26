@@ -116,7 +116,7 @@ _Customer Attributes_
 |Field|Description|
 |--- |--- |
 |Default Label|The default label that identifies the attribute in the Admin and storefront.|
-|Attribute Code|A unique code that identifies the attribute within the system. The code can be up to 21 characters in length, and cannot include spaces or special characters. The underscore symbol can be used instead of a space.|
+|Attribute Code|A unique code that identifies the attribute within the system. The code can be up to 60 characters in length, and cannot include spaces or special characters. The underscore symbol can be used instead of a space.|
 |Input Type|Determines the [input control]({% link stores/attributes-input-types.md %}) that is used for data entry. Options: <br/>**Text Field** - A single-line text field. <br/>**Text Area** - A multi-line text area. <br/>**Multiple Line** - Creates multiple text lines for the attribute, similar to a multi-line street address. The number of separate data entry lines can be from 2 to 20. <br/>**Date** - Displays a date field with a pop-up calendar.<br/>**Dropdown** - A drop-down list that accepts only one value to be selected. <br/>**Multiple Select** - A drop-down list that accepts multiple values to be selected. <br/>**Yes/No** - A  field that offers only a choice of `Yes` or `No` values. <br/>**File (attachment)** - A field that allows a file to be uploaded and associated with the customer attribute as an attachment. <br/>**Image File** - A field that allows an image to be uploaded to the gallery and associated with the customer attribute.|
 |Values Required|Determines if a value must be entered into the field. Options: Yes / No|
 |Default Value|Specifies the initial value of the attribute.|
