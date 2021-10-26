@@ -6,7 +6,7 @@ A discounted price on any product can be extended to members of a specific custo
 
 Customer group prices are a component of tier pricing and are set up in a similar way. The only difference is that customer group prices have a quantity of 1.
 
-![]({% link images/images/storefront-price-group.png %}){: .zoom}
+![]({% link catalog/assets/storefront-price-group.png %}){: .zoom}
 _Customer Group Discount_
 
 ## Set up a group price

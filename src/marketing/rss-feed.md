@@ -11,7 +11,7 @@ _Orange RSS symbol identifying an RSS feed_
 
 The software that is required to read an RSS feed is called a feed reader, and allows people to subscribe to headlines, blogs, podcasts, and much more. Google Reader is one of the many feed readers that are available online for free.
 
-![Example storefront - RSS feed]({% link images/images/storefront-rss-feeds.png %}){: .zoom}
+![Example storefront - RSS feed]({% link marketing/assets/storefront-rss-feeds.png %}){: .zoom}
 _RSS Feeds_
 
 ## Benefits of setting up an RSS feed

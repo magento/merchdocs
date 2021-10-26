@@ -5,7 +5,7 @@ group: marketing
 
 Product listings can be set to appear by default as either a list or grid. You can also determine how many products appear per page, and which attribute is used to sort the list. Each catalog page with a product list has a set of controls that can be used to sort the products, change the format of the list, sort by attribute, and advance from one page to the next.
 
-![]({% link images/images/storefront-catalog-page.png %}){: .zoom}
+![]({% link catalog/assets/storefront-catalog-page.png %}){: .zoom}
 _Products Displayed as a Grid_
 
 ## Configure product listings

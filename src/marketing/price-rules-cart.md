@@ -4,7 +4,7 @@ title: Cart Price Rules
 
 Cart price rules apply discounts to items in the shopping cart, based on a set of conditions. The discount can be applied automatically as soon as the conditions are met, or when the customer enters a valid coupon code. When applied, the discount appears in the cart under the subtotal. A cart price rule can be used as needed for a season or promotion by changing its status and date range.
 
-![Example storefront - cart apply coupon]({% link images/images/storefront-cart-apply-coupon.png %}){: .zoom}
+![Example storefront - cart apply coupon]({% link marketing/assets/storefront-cart-apply-coupon.png %}){: .zoom}
 _Apply Coupon in Cart_
 
 ## Access cart price rules
