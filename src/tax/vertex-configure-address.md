@@ -4,7 +4,7 @@ title: Configuring Storefront Address Cleansing
 
 Your [Vertex Cloud account]({% link tax/vertex-account.md %}) also includes the Vertex Address Cleansing module. When this functionality is enabled for your store, the storefront prompts the customer to correct the address information on both the shipping and billing steps of the one-page checkout and when the customer adds an address to their account.
 
-![]({% link images/images/tax-vertex-cloud-address-verify-store.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-cloud-address-verify-store.png %}){: .zoom}
 _Address message for correction_
 
 {:.bs-callout-info}

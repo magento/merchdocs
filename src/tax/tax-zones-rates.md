@@ -25,7 +25,7 @@ _Tax Zones and Rates_
 
    - Select the **Zip/Post is Range** checkbox and define the range by entering the first and last ZIP or postal code for **Range From** and **Range To**.
 
-      ![]({% link images/images/tax-rate-new-zip-post-range.png %}){: .zoom}
+      ![]({% link tax/assets/tax-rate-new-zip-post-range.png %}){: .zoom}
        _ZIP/Post is Range_
 
    - Choose the **State** where the tax rate applies.
@@ -36,7 +36,7 @@ _Tax Zones and Rates_
 
 1. When complete, click <span class="btn">Save Rate</span>.
 
-   ![]({% link images/images/tax-rate-new.png %}){: .zoom}
+   ![]({% link tax/assets/tax-rate-new.png %}){: .zoom}
    _New Tax Rate_
 
 ## Edit an existing tax rate
