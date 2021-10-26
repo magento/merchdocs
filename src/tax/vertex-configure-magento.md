@@ -110,7 +110,7 @@ If you need to identify taxability based on information in your store beyond the
 
    You can enter a text string in the search field at the top of the list to filter the displayed items and help to find the field you want.
 
-   ![]({% link images/images/tax-vertex-configure-flex-field.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-configure-flex-field.png %}){: .zoom}
    _Code - Field ID 1_
 
 1. Click <span class="btn">Save Config</span>.
@@ -121,12 +121,12 @@ Add a new tax assist rule or edit an existing rule for your Vertex Cloud account
 
 For detailed information about adding tax assist rules in the Vertex Cloud, see [Add a tax assist rule][5] (requires a login to the Vertex Documentation Center).
 
-![]({% link images/images/tax-vertex-cloud-tax-assist.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-cloud-tax-assist.png %}){: .zoom}
 _Vertex Tax Assist Rule_
 
 In this example, `Flex Code 1` is mapped to _Product_ > _Eco Collection_ and when this has a value of `1`, the Physical Origin/Ship From address (215 S Gilbert St, Danville, IL 61832) is used instead of the Company Address configured in Vertex.
 
-![]({% link images/images/tax-vertex-cloud-tax-assist-order.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-cloud-tax-assist-order.png %}){: .zoom}
 _Vertex Tax Assist Rule_
 
 ## Delivery Terms
@@ -196,7 +196,7 @@ After completing the configuration, your store is connected to Vertex Cloud. Vis
 
 Vertex Cloud has excellent documentation with videos to help you come up to speed. When your testing is complete and you are ready, you can [Go Live][2] with the click of a button.
 
-![]({% link images/images/tax-vertex-cloud-help-center.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-cloud-help-center.png %}){: .zoom}
 
 ### Vertex API automatically disabled
 
