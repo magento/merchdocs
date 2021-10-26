@@ -15,7 +15,7 @@ Some Vertex field names differ from those used by Commerce. See [Vertex Field Ma
 
 1. In the sidebar, choose **Configure**.
 
-   ![]({% link images/images/tax-vertex-configure-add-company-information.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-configure-add-company-information.png %}){: .zoom}
    _Configure Vertex_
 
 1. Continue with the following sections.
@@ -66,7 +66,7 @@ Some Vertex field names differ from those used by Commerce. See [Vertex Field Ma
     If you later want to edit the company information, click the **Edit Company (Filing Entity) Information**
     link in the lower-left corner of the summary.
 
-    ![]({% link images/images/tax-vertex-cloud-configure-company-filing-entity.png %}){: .zoom}
+    ![]({% link tax/assets/tax-vertex-cloud-configure-company-filing-entity.png %}){: .zoom}
     _Filing Entity Information_
 
 ## Configure the jurisdictions
@@ -79,7 +79,7 @@ This enables each jurisdiction where your company calculates and reports sales a
    - Canada
    - International
 
-   ![]({% link images/images/tax-vertex-cloud-configure-registration-country.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-cloud-configure-registration-country.png %}){: .zoom}
    _Registration_
 
 1. Scroll down the list and enable each state or province where you have sales tax requirements and complete the following for each applicable state or province.
@@ -95,7 +95,7 @@ The configuration settings for each company are organized into three columns on 
 
 1. Click the **Registration(s)** link to display the returns for the state.
 
-    ![]({% link images/images/tax-vertex-cloud-configure-registration-country-states.png %}){: .zoom}
+    ![]({% link tax/assets/tax-vertex-cloud-configure-registration-country-states.png %}){: .zoom}
     _States_
 
 1. Under _Common Forms_, complete at least one of the forms listed.
@@ -104,7 +104,7 @@ The configuration settings for each company are organized into three columns on 
 
    - Click the name of the form.
 
-        ![]({% link images/images/tax-vertex-configure-jurisdictions-texas-registrations-returns.png %}){: .zoom}
+        ![]({% link tax/assets/tax-vertex-configure-jurisdictions-texas-registrations-returns.png %}){: .zoom}
         _Texas Returns_
 
    - If applicable, select the checkbox of each schedule that is needed in addition to the required form. Then, complete the **Registration Details**.
@@ -118,7 +118,7 @@ The configuration settings for each company are organized into three columns on 
 
 1. When complete, click **Save** and then **Return to Company Overview**.
 
-   ![]({% link images/images/tax-vertex-configure-jurisdictions-texas-registrations-return-01-114.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-configure-jurisdictions-texas-registrations-return-01-114.png %}){: .zoom}
    _Registration Details_
 
 ### Locations
@@ -132,7 +132,7 @@ _Enabled State_
 
 1. Click **Add a New Location**.
 
-   ![]({% link images/images/tax-vertex-cloud-configure-registration-country-states-locations.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-cloud-configure-registration-country-states-locations.png %}){: .zoom}
    _Locations_
 
 1. Under _Location Information_, do the following:
@@ -159,14 +159,14 @@ _Enabled State_
 
 1. When complete, click **Add Location**.
 
-   ![]({% link images/images/tax-vertex-configure-jurisdictions-texas-add-location-form.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-configure-jurisdictions-texas-add-location-form.png %}){: .zoom}
    _Location Form_
 
 ### Advanced Settings
 
 Use the Advanced Settings column to turn individual jurisdictions on or off for cities, countries, and districts. By default, all jurisdictions are selected.
 
-![]({% link images/images/tax-vertex-configure-jurisdictions-texas-advanced-settings.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-configure-jurisdictions-texas-advanced-settings.png %}){: .zoom}
 _Advanced Settings_
 
 1. Do the following for the applicable **Cities**, **Counties**, and **Districts/Other** options:
@@ -188,12 +188,12 @@ _Advanced Settings_
 
 When the configuration is complete, click **Ready to Save**.
 
-![]({% link images/images/tax-vertex-configure-jurisdictions-red.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-configure-jurisdictions-red.png %}){: .zoom}
 _Ready to Save_
 
 The configuration settings for each company are organized into three columns on the Configure Overview page. The Registrations column is highlighted in red until the forms for all registered locations are complete.
 
-![]({% link images/images/tax-vertex-cloud-configure-overview-registrations-red.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-cloud-configure-overview-registrations-red.png %}){: .zoom}
    _Registrations Column_
 
 The basic Vertex configuration is now complete. At this point, you can either skip ahead to the Commerce configuration, or continue the Vertex configuration:
