@@ -2,8 +2,7 @@
 title: License an Adobe Stock Image
 ---
 
-Adobe Stock assets that you want to use for your production Adobe Commerce and Magento Open Source stores should be licensed to ensure you have legal access to the image as well as to
-eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
+Adobe Stock assets that you want to use for your production Adobe Commerce and Magento Open Source stores should be licensed to ensure you have legal access to the image as well as to eliminate the Adobe Stock watermark that is present on all [image previews][save-preview]. To license images or to save already-licensed images, you must be logged in to your Adobe account.
 
 The new [Media Gallery]({% link cms/media-gallery.md %}) provides a direct integration with Adobe Stock, making it easy to license your images directly from the gallery page.
 
@@ -17,12 +16,12 @@ This feature requires the [Adobe Stock Integration][adobe-stock-integration] mod
 
 1. Follow the steps on [Using Adobe Stock Images][using-adobe-stock] to login and save preview images to the [Media Storage][media-storage].
 
-    ![]({% link images/images/enhanced-media-gallery/asi-preview-image.png %}){: .zoom}
+    ![]({% link cms/assets/adobe-stock-gallery-unlicensed.png %}){: .zoom}
     _Saved Preview Image_
 
-1. Click the three dots below the image (![]({% link images/images/enhanced-media-gallery/three-dots-btn.png %})), and then click <span class="btn">License</span>.
+1. Click the three dots below the image (![]({% link cms/assets/media-gallery-asset-menu-icon.png %})), and then click <span class="btn">License</span>.
 
-    ![]({% link images/images/enhanced-media-gallery/asi-image-actions.png %}){: .zoom}
+    ![]({% link cms/assets/adobe-stock-gallery-image-actions.png %}){: .zoom}
     _Adobe Stock Image Actions_
 
     {:.bs-callout-info}
@@ -30,7 +29,7 @@ This feature requires the [Adobe Stock Integration][adobe-stock-integration] mod
 
 1. In the licensing confirmation dialog, click <span class="btn">Confirm</span> to license the image.
 
-    ![]({% link images/images/enhanced-media-gallery/asi-license-confirmation.png %}){: .zoom}
+    ![]({% link cms/assets/adobe-stock-gallery-license-confirm.png %}){: .zoom}
     _License Confirmation_
 
     {:.bs-callout-info}
