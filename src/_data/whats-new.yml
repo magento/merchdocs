@@ -1192,7 +1192,7 @@ entries:
   date: October 15, 2020
   link: https://github.com/magento/merchdocs/pull/719
 - description: The [Site-Wide Analysis Tool](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html)
-    (SWAT) provides 24/7 real-time performance monitoring, reports and recommendations
+    provides 24/7 real-time performance monitoring, reports and recommendations
     to ensure the security and operability of Adobe Commerce on cloud infrastructure.
   versions: 2.4.1
   type: New topic
