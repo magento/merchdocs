@@ -18,7 +18,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
 1. Under _Current User Identity Verification_, enter **Your Password**.
 
-    ![System permissions - role information]({% link images/images/system-permissions-role-info.png %}){: .zoom}
+    ![System permissions - role information]({% link system/assets/system-permissions-role-info.png %}){: .zoom}
     _Role Name_
 
 ### Step 2: Assign resources
@@ -42,7 +42,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
     To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default [shipping point of origin]({% link shipping/point-of-origin.md %}), you must allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
 
-    ![Assigned user role resources]({% link images/images/system-permissions-role-resources-product.png %}){: .zoom}
+    ![Assigned user role resources]({% link system/assets/system-permissions-role-resources-product.png %}){: .zoom}
     _Role Resources Assigned_
 
     {:.bs-callout-info}

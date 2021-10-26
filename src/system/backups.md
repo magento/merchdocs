@@ -10,7 +10,7 @@ Adobe Commerce and Magento Open Source give you the ability to backup different 
 
 {% include backup-deprecated.md %}
 
-![System tools - backups]({% link images/images/system-tools-backups.png %}){: .zoom}
+![System tools - backups]({% link system/assets/system-tools-backups.png %}){: .zoom}
 _Backups_
 
 ## Create a Backup
