@@ -16,12 +16,12 @@ _Search Results_
 
    The Search Synonyms grid appears. If this is the first time you have used search synonyms, the grid will be empty.
 
-    ![Search synonyms grid]({% link images/images/search-synonyms-grid-empty.png %}){: .zoom}
+    ![Search synonyms grid]({% link marketing/assets/search-synonyms-grid-empty.png %}){: .zoom}
     _Search Synonyms Grid_
 
 1. Click <span class="btn">New Synonym Group</span> and do the following:
 
-    ![New search synonyms group]({% link images/images/search-synonym-group-new.png %}){: .zoom}
+    ![New search synonyms group]({% link marketing/assets/search-synonym-group-new.png %}){: .zoom}
     _New Synonym Group_
 
    - Set **Scope** to the store views where the synonyms apply.
@@ -37,7 +37,7 @@ _Search Results_
 
 1. When complete, click <span class="btn">Save Synonym Group</span>.
 
-    ![Search synonyms group grid - saved group]({% link images/images/search-synonym-group-grid.png %}){: .zoom}
+    ![Search synonyms group grid - saved group]({% link marketing/assets/search-synonym-group-grid.png %}){: .zoom}
     _Search Synonym Group Saved_
 
 ## Edit a synonym group
