@@ -12,7 +12,7 @@ Customer have easy access to their accounts from every page in your store. Depen
 
 When customers forget their passwords, a reset link is sent to the email address that is associated with the account. The number of times a customer can try to enter a password, the number of minutes between attempts, the number of total attempts before the account is locked, and the length of the lockout is set in the [Password Options]({% link customers/password-options.md %}) configuration.
 
-![]({% link images/images/storefront-sign-in-create-account.png %}){: .zoom}
+![]({% link customers/assets/storefront-sign-in-create-account.png %}){: .zoom}
 _Sign In_
 
 ## Sign in to your customer account

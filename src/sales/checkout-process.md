@@ -18,7 +18,7 @@ The first step of the checkout process is for the customer to complete the shipp
 
 The progress bar at the top of the page follows each step of the checkout process, and the Order Summary shows the information entered so far.
 
-![The shipping page during the checkout process]({% link images/images/storefront-checkout-step1-shipping.png %}){: .zoom}
+![The shipping page during the checkout process]({% link sales/assets/storefront-checkout-step1-shipping.png %}){: .zoom}
 _Checkout step 1: shipping_
 
 ### Ship to a different address
@@ -35,7 +35,7 @@ _Checkout step 1: shipping_
 
    By default, the customer’s first and last name initially appear in the form.
 
-   ![The Shipping Address form includes name and address information]({% link images/images/storefront-checkout-step1-shipping-add-new-address.png %}){: .zoom}
+   ![The Shipping Address form includes name and address information]({% link sales/assets/storefront-checkout-step1-shipping-add-new-address.png %}){: .zoom}
    _Shipping Address form_
 
 1. To save the new address in the address book, select the checkbox at the bottom of the form.
@@ -110,5 +110,5 @@ The order confirmation appears after the order is placed. For registered custome
 
 The order confirmation page is also called the _Success_ page, and is used by analytics programs to track conversions.
 
-![The Order Confirmation page displays a success message and the order number]({% link images/images/storefront-checkout-confirmation-customer.png %}){: .zoom}
+![The Order Confirmation page displays a success message and the order number]({% link sales/assets/storefront-checkout-confirmation-customer.png %}){: .zoom}
 _Example storefront Order Confirmation page_

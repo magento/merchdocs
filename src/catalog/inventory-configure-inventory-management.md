@@ -10,7 +10,7 @@ The out of stock threshold indicates when a product needs to be reordered, subtr
 
 Another way you can use the stock availability threshold is to manage products that are in high demand. If you want to capture new customers, rather than sell to high-quantity buyers, you can set a maximum quantity to prevent a single buyer from taking out your entire inventory.
 
-![]({% link images/images/storefront-stock-options-1-left.png %}){: .zoom}
+![]({% link catalog/assets/storefront-stock-options-1-left.png %}){: .zoom}
 _Example of In Stock, Only 1 Left_
 
 ## Configuration options

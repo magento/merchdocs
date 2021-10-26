@@ -38,7 +38,7 @@ PayPal Express Checkout does not support orders with multiple-addresses.
 
 PayPal’s _In-Context Checkout_ makes it easier than ever to pay online. Customers never lose sight of your store during this simplified one- or two-click seamless checkout. In-context checkout works equally well on Macs and PCs, and offers a consistent experience on desktop computers, tablets, and mobile devices. To learn more, see [In-Context Checkout in Express Checkout][5].
 
-![PayPal in-context checkout demo]({% link images/images/storefront-paypal-in-context.png %}){: .zoom}
+![PayPal in-context checkout demo]({% link payment/assets/storefront-paypal-in-context.png %}){: .zoom}
 [_PayPal in-context checkout demo_][6]
 
 When you configure your store for PayPal Express Checkout, you can enable this option.
