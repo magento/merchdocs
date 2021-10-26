@@ -100,7 +100,7 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 
 1. Click <span class="btn">Save Config</span>.
 
-   ![]({% link sales/assets/shipment-coments.png %}){: .zoom}
+   ![]({% link sales/assets/shipment-comments.png %}){: .zoom}
    _Shipment comment configuration_
 
 ## Shipment field descriptions
