@@ -34,7 +34,7 @@ The payment solution presented to the customer might be one of the following:
 
    The terms appear below. In the following example, no sign-up is needed and the customer can pay in X days (depending on a market).
 
-   ![Pay Later in X days]({% link images/images/storefront-cart-payment-method-klarna_pl.png %}){: .zoom}
+   ![Pay Later in X days]({% link payment/assets/storefront-cart-payment-method-klarna_pl.png %}){: .zoom}
    _Pay Later_
 
 1. To pay later with Klarna according to the terms specified, the customer clicks/taps <span class="btn">Place Order</span>.

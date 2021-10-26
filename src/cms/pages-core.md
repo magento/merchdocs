@@ -37,5 +37,5 @@ The About Us page is linked from the footer of your store. You can include image
 
 The Customer Service page is another node in the page hierarchy. The two headers on the page have content that only becomes visible when the customer clicks the header.
 
-![]({% link images/images/storefront-customer-service.png %}){: .zoom}
+![]({% link cms/assets/storefront-customer-service.png %}){: .zoom}
 _Customer Service page on the storefront_

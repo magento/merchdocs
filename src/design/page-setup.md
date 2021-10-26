@@ -8,5 +8,5 @@ The main sections of the page are controlled, in part, by a set of standard HTML
 - [Header]({% link design/header.md %})
 - [Footer]({% link design/footer.md %})
 
-![]({% link images/images/storefront-home-html-inspect.png %}){: .zoom}
+![]({% link design/assets/storefront-home-html-inspect.png %}){: .zoom}
 _HTML page sections_
