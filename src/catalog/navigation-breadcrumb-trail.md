@@ -28,7 +28,7 @@ History (or path) based breadcrumbs have the same function as a browser back but
 
 This type of breadcrumb link is extremely useful when customers simply want to quickly return to a previous page after applying a few filters on a category page. It focuses on the actual click path, not location.
 
-Example: `Home > What's New > Gear > Bags `
+Example: `Home > What's New > Gear > Bags`
 
 ### Attribute-based breadcrumbs
 
