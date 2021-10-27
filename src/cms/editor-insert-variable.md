@@ -17,7 +17,7 @@ Your store includes many predefined [variables]({% link marketing/variables-pred
 
 1. In the list of available variables, choose the one you want and click <span class="btn">Insert Variable</span>.
 
-   ![Insert Variable page]({% link images/images/content-insert-variable.png %} "Insert Variable page"){: .zoom}
+   ![Insert Variable page]({% link cms/assets/content-insert-variable.png %} "Insert Variable page"){: .zoom}
    _Insert Variable page_
 
 1. When your content edits are complete, click <span class="btn">Save</span>.
