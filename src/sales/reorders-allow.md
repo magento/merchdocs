@@ -89,7 +89,7 @@ If the cart is not empty and the user  clicks **Reorder** (from the _My Orders_ 
 
    After you click **Reorder**, the _Create New Order_ page opens with reorder products.
 
-   ![]({% link images/images/create-reorder-page.png %}){: .zoom}
+   ![]({% link sales/assets/create-reorder-page.png %}){: .zoom}
 
 1. Fill in all required fields as needed.
 
