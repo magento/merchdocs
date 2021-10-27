@@ -51,7 +51,7 @@ To set up **Order Approval Configuration**, do the following:
 1. To allows companies to create purchase orders, set **Enable Purchase Orders** to `Yes`.
 
 1. When complete, click <span class="btn">Save Config</span>.
-   
+
    Purchase orders feature is enabled at the website level, to enable this type of order for a company, do the same with the appropriate settings in each company profile.
 
 To enable the **Purchase Orders**, do the following:
