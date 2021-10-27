@@ -11,7 +11,7 @@ _Apply Coupon in Cart_
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Cart Price Rules**.
 
-    ![Cart price rule]({% link images/images/price-rule-cart.png %}){: .zoom}
+    ![Cart price rule]({% link marketing/assets/price-rule-cart.png %}){: .zoom}
     _Cart Price Rules_{:.ce-only}
 
 1. If you have many rules, use the filter options at the top of each column to streamline the list and click <span class="btn">Search</span> to apply the filter(s).
