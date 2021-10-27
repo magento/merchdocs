@@ -59,7 +59,7 @@ _RSS Feeds_
 
 1. See result on the storefront with “/rss” at the end of the page URL.
 
-   ![]({% link images/images/rss-feed-on-the-storefront.png %}){: .zoom}
+   ![]({% link marketing/assets/rss-feed-on-the-storefront.png %}){: .zoom}
    _RSS Feeds on the Storefront_
 
 ## Types of RSS Feeds

@@ -6,42 +6,42 @@ The selection of sales reports includes Orders, Tax, Invoiced, Shipping, Refunds
 
 ## Orders
 
-![]({% link images/images/reports-sales-orders-report.png %}){: .zoom}
+![]({% link reports/assets/order-report.png %}){: .zoom}
 *Orders Report*
 
 The Orders Report can be filtered by time interval, date and status. The report includes the number of orders placed and canceled, with totals for sales, amounts invoiced, refunded, tax collected, shipping charged, and discounts.
 
 ## Tax
 
-![]({% link images/images/reports-sales-tax-report.png %}){: .zoom}
+![]({% link reports/assets/tax-report.png %}){: .zoom}
 *Tax Report*
 
 The Tax Report can be filtered by time interval, date, and status. The report includes the tax rule applied, tax rate, number of orders, and amount of tax charged.
 
 ## Invoiced
 
-![]({% link images/images/reports-sales-invoiced.png %}){: .zoom}
+![]({% link reports/assets/sales-invoiced.png %}){: .zoom}
 *Invoice Report*
 
 The Invoice Report can be filtered by time interval, date, and status. The report includes the number of orders and invoices during the time period, with amounts invoiced, paid, and unpaid.
 
 ## Shipping
 
-![]({% link images/images/reports-sales-shipping.png %}){: .zoom}
+![]({% link reports/assets/shipping.png %}){: .zoom}
 *Shipping Report*
 
 The Shipping Report can be filtered by time interval, date, and status. The report includes the number of orders for carrier or shipping method used,with amounts for total sales shipping and and total shipping.
 
 ## Refunds
 
-![]({% link images/images/report-sales-refunds.png %}){: .zoom}
+![]({% link reports/assets/sales-refunds.png %}){: .zoom}
 *Refunds Report*
 
 The Refunds Report can be filtered by time interval, date, and status. The report includes the number of refunded orders, and total amount refunded online and offline.
 
 ## Coupons
 
-![]({% link images/images/reports-sales-coupons.png %}){: .zoom}
+![]({% link reports/assets/sales-coupons.png %}){: .zoom}
 *Coupons Report*
 
 The [Coupons Report]({% link marketing/price-rules-cart-coupon-report.md %}) can be filtered by time interval, date, and status. The report includes each coupon code used during the specified time interval, related price rule, and number of times used with totals and subtotals for sales and discounts.
@@ -55,7 +55,7 @@ The [PayPal Settlement Report]({% link payment/paypal-settlement-reports.md %}) 
 
 ## Braintree Settlement
 
-![]({% link images/images/reports-sales-braintree-settlement.png %}){: .zoom}
+![]({% link reports/assets/braintree-settlement.png %}){: .zoom}
 *Braintree Settlement Report*
 
 The [Braintree]({% link payment/braintree.md %}) Settlement Report can be filtered according to creation date, amount, status, transaction type, payment type, transaction ID, order ID, PayPal payment ID, type, merchant account ID or settlement batch ID. The report contains the transaction ID, order ID, PayPal payment ID, type, creation date, amount, settlement code, status, settlement response text, reimbursement IDs, merchant account ID, settlement batch ID, and the currency used.
