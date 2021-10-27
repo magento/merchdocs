@@ -42,6 +42,6 @@ _Scheduled Changes_
 
 1. In the list, find the needed campaign and click <span class="btn">Select</span>.
 
-1. Make any changes necessary to the scheduled update.
+1. Make the necessary changes to the scheduled update.
 
 1. When complete, click <span class="btn">Save</span>.
