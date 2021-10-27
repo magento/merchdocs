@@ -38,7 +38,7 @@ _Customer Groups_
 
    No websites are excluded by default. To select multiple values, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-   ![]({% link images/images/stores-customer-group-information.png %}){: .zoom}
+   ![]({% link customers/assets/group-information.png %}){: .zoom}
    _Group Information_
 
 1. When complete, click <span class="btn">Save Customer Group</span>.
@@ -65,7 +65,7 @@ _Customer Groups_
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-   ![]({% link images/images/stores-customer-group-assign.png %}){: .zoom}
+   ![]({% link customers/assets/group-assign.png %}){: .zoom}
    _Assign a Customer Group_
 
 ## Associate a group of customers with specific discounts
@@ -76,7 +76,7 @@ _Customer Groups_
 
 1. Select the customer groups the rule will apply to.
 
-   ![]({% link images/images/stores-customer-group-discounts.png %}){: .zoom}
+   ![]({% link customers/assets/group-discount.png %}){: .zoom}
    _Customer Group to Specific Discounts_
 
 1. Click <span class="btn">Save</span>.
