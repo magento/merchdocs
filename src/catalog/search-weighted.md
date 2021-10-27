@@ -5,7 +5,7 @@ group: marketing
 
 Product attributes that are enabled for catalog search can be assigned a weight to give them a higher value in search results. Attributes with a greater weight are returned before those with a lower weight. For example, if there are two attributes in the system, _color_ with a search weight of 3 and _description_ with a search weight of 1. A search for the word _red_ returns a list of products with a color attribute value of `red`, but does not return products with descriptions that contain the word _red_. In this example, the `color` attribute has a greater defined weight than the `description` attribute.
 
-![]({% link images/images/search-weight.png %}){: .zoom}
+![]({% link catalog/assets/search-weight.png %}){: .zoom}
 _Search Weight_
 
 ## Set the search weight properties of an attribute
