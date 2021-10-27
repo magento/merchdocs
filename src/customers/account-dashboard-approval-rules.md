@@ -36,6 +36,28 @@ Generally, _In-Context_ means the customer stays on the your commerce site to co
 {:.bs-callout-warning}
 Using gift cards, store credit, or reward points with online payment methods for purchase orders is not supported. Enabling these features with online payments may cause some unexpected behavior. It is recommended to disable gift cards, store credit, and reward points when online payments are enabled for purchase orders.
 
+## Enable purchase order
+
+The ability to track order processing, purchase orders gives company administrators control over the actions of the company's buyers. So, the order approval functionality is available, when the purchase orders feature is enabled.
+
+1. To set up **Order Approval Configuration**, do the following:
+
+   - On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+   - In the left panel, expand **General** and choose **B2B Features**.
+   - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order Approval Configuration** section.
+   - To allows companies to create purchase orders, set **Enable Purchase Orders** to `Yes`.
+   - When complete, click <span class="btn">Save Config</span>.
+
+Purchase orders feature is enabled at the website level, to enable this type of order for a company, do the same with the appropriate settings in each company profile.
+
+1. To enable the **Purchase Orders**, do the following:
+
+   - On the _Admin_ sidebar, go to **Customers** > **Companies**.
+   - Find the company in the list and click **Edit**.
+   - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
+   - Set **Enable Purchase Orders** to `Yes`.
+   - When complete, click <span class="btn">Save</span> and check the [Account Dashboard]({% link customers/account-dashboard.md %}) on the storefront. The ** Approval Rules ** section should appear.
+
 ## Create an approval rule
 
 ![]({% link images/images-b2b/storefront-create-approval-rule.png %}){: .zoom}
