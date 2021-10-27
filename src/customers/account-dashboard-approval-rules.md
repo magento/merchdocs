@@ -44,7 +44,7 @@ To set up **Order Approval Configuration**, do the following:
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-1.  In the left panel, expand **General** and choose **B2B Features**.
+1. In the left panel, expand **General** and choose **B2B Features**.
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order Approval Configuration** section.
 
