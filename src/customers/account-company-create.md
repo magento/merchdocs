@@ -19,7 +19,7 @@ The person who sets up a company account from the storefront is usually assigned
 
    |--- |--- |
    |Yes|Allows customers to register companies from the storefront.|
-   |No|Disables the ability to create companies from the storefront. A [company]({% link customers/account-company-create.html#method-2-create-company-from-the-admin.md %}) can only be created from the admin panel.|
+   |No|Disables the ability to create companies from the storefront. A [company]({% link customers/account-company-create.md %}#method-2-create-company-from-the-admin) can only be created from the admin panel.|
 
 ## Method 1: Create company from the storefront
 
