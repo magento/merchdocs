@@ -28,7 +28,7 @@ For Multi Source merchants, create and configure stocks as needed to best fit yo
 
 For a multi-store installation, the Default Stock is initially assigned to the [Main Website]({% link stores/stores-all-create-website.md %}) and default store. Correct stock and quantities are displayed for enabled and disabled products in the **Products** grid view.
 
-![]({% link images/images/stores-inventory-stock.png %}){: .zoom}
+![]({% link catalog/assets/inventory-stock.png %}){: .zoom}
 _Manage Stock_
 
 ## Button bar

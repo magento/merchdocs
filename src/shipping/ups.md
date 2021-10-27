@@ -174,7 +174,7 @@ The handling fee is optional and appears as an additional charge that is added t
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Origin** on the page and configure the shipping origin address.
 
-   ![]({% link images/images/shipping-origin-magento.png %}){: .zoom}
+   ![]({% link shipping/assets/shipping-origin-magento.png %}){: .zoom}
    [_Sales configuration - shipping origin address options_]({% link configuration/sales/shipping-settings.md %})
 
 1. Click <span class="btn">Save Config</span>.
