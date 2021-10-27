@@ -35,7 +35,7 @@ _Terms and Conditions at checkout_
 
 1. In the upper-right corner, click **Add New Condition**.
 
-   ![]({% link images/images/terms-conditions-new.png %}){: .zoom}
+   ![]({% link sales/assets/terms-conditions-new.png %}){: .zoom}
    _New Condition_
 
 1. Enter the **Condition Name** for internal reference.
