@@ -40,23 +40,31 @@ Using gift cards, store credit, or reward points with online payment methods for
 
 The ability to track order processing, purchase orders gives company administrators control over the actions of the company's buyers. So, the order approval functionality is available, when the purchase orders feature is enabled.
 
-1. To set up **Order Approval Configuration**, do the following:
+To set up **Order Approval Configuration**, do the following:
 
-   - On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
-   - In the left panel, expand **General** and choose **B2B Features**.
-   - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order Approval Configuration** section.
-   - To allows companies to create purchase orders, set **Enable Purchase Orders** to `Yes`.
-   - When complete, click <span class="btn">Save Config</span>.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-Purchase orders feature is enabled at the website level, to enable this type of order for a company, do the same with the appropriate settings in each company profile.
+1.  In the left panel, expand **General** and choose **B2B Features**.
 
-1. To enable the **Purchase Orders**, do the following:
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order Approval Configuration** section.
 
-   - On the _Admin_ sidebar, go to **Customers** > **Companies**.
-   - Find the company in the list and click **Edit**.
-   - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
-   - Set **Enable Purchase Orders** to `Yes`.
-   - When complete, click <span class="btn">Save</span> and check the [Account Dashboard]({% link customers/account-dashboard.md %}) on the storefront. The **Approval Rules** section should appear.
+1. To allows companies to create purchase orders, set **Enable Purchase Orders** to `Yes`.
+
+1. When complete, click <span class="btn">Save Config</span>.
+   
+   Purchase orders feature is enabled at the website level, to enable this type of order for a company, do the same with the appropriate settings in each company profile.
+
+To enable the **Purchase Orders**, do the following:
+
+1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
+
+1. Find the company in the list and click **Edit**.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
+
+1. Set **Enable Purchase Orders** to `Yes`.
+
+1. When complete, click <span class="btn">Save</span> and check the [Account Dashboard]({% link customers/account-dashboard.md %}) on the storefront. The **Approval Rules** section should appear.
 
 ## Create an approval rule
 
