@@ -107,7 +107,7 @@ The first step is to complete the default settings for table rates. You can comp
    * The Country column must contain a [valid three-character code][1] for each row.
    * Sort the data by Region/State so the specific locations are at the top of the list, and the wildcard locations at the bottom. This will process the rules with the absolute values first, and the wildcard values later.
 
-   ![]({% link images/images/table-rates-weight-destination-csv.png %}){: .zoom}
+   ![]({% link shipping/assets/table-rates-weight-destination-csv.png %}){: .zoom}
    _Weight vs. Destination (Australia)_
 
 1. Save the `tablerates.csv` file.
