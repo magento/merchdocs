@@ -4,7 +4,7 @@ title: Meta Data
 
 Your store is loaded with places where you can enter keyword-rich meta data to improve the way search engines index your site. While setting up your store, you might enter preliminary meta data, with the intention of finishing it later. Over time, you can fine-tune the meta data to target the buying patterns and preferences of your customers.
 
-![Example storefront - meta title]({% link images/images/storefront-home-page-meta-title.png %}){: .zoom}
+![Example storefront - meta title]({% link marketing/assets/storefront-home-page-meta-title.png %}){: .zoom}
 _Web Browser - Meta Title_
 
 ## Meta Title

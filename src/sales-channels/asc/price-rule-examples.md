@@ -1,5 +1,7 @@
 ---
-title: Price Rule Examples
+title: Amazon Sales Channel - Price Rule Examples
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/rules-examples/price-rule-examples.html
 ---
 
 ## Standard Price Rule Examples

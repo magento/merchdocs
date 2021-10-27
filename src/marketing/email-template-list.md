@@ -2,7 +2,22 @@
 title: Email Template List
 ---
 
-The list of email templates is organized alphabetically by Magento module.
+The list of email templates is organized alphabetically by module.
+
+## Amazon_Payment
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+|Hard-declined Authorization| n/a |
+|Soft-declined Authorization| n/a |
+
+## Dotdigitalgroup_Email
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+|dotdigital System Alert| n/a |
 
 ## Magento_Checkout
 
@@ -21,6 +36,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Assign Company to Customer | **Page:** Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})<br/>**Section:**Customer-Related Emails <br/>**Field:** Default 'Assign Company to Customer' Email|
 | Company Admin Changed to Member | **Page:** Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})<br/>**Section:**Customer-Related Emails<br/>**Field:** Default 'Company Admin Changed To Member' Email|
 | Company Admin Set Inactive | **Page:** Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})<br/>**Section:**Customer-Related Emails<br/>**Field:** Default 'Customer Status Inactive' Email|
+| Company Invite | n/a |
 | Company Registration Request | **Page:** Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})<br/>**Section:** Email Options - Company Registration<br/>**Field:** Default Company Registration Email|
 | Company Status Active1 | **Page:** Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})<br/>**Section:**Company Status Change<br/>**Field:** Default 'Company Status Change To Active 1" Emai|
 | Company Status Active2 | **Page:** Customers > [Company Configuration]({% link configuration/customers/company-configuration.md %})<br/>**Section:**Company Status Change<br/>**Field:** Default 'Company Status Change To Active 2" Emai|
@@ -55,8 +71,8 @@ The list of email templates is organized alphabetically by Magento module.
 {: .template-table }
 |Template|Configuration path|
 |--- |--- |
-| Change Email | n/a |
-| Change Email and Password | n/a |
+| Change Email |  **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Account Information Options<br/>**Field:** Change Email Template|
+| Change Email and Password | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Account Information Options<br/>**Field:** Change Email and Password Template|
 | Forgot Password | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Password Options<br/>**Field:** Forgot Email Template|
 | New Account | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Create New Account Options<br/>**Field:** Default Welcome Email|
 | New Account (Magento/luma) | **Page:** Customers > [Customer Configuration]({% link configuration/customers/customer-configuration.md %})<br/>**Section:** Create New Account Options<br/>**Field:** Default Welcome Email |
@@ -137,6 +153,7 @@ The list of email templates is organized alphabetically by Magento module.
 |--- |--- |
 | Declined Quote | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Declined Quote Template (to Buyer) |
 | Expiration Date Reset | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Expiration Date Reset| **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Order Ready For Pickup Email Template |
+| Expiration Warning | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Quote Expiration (in 48 hrs) |
 | Expiration Warning1 | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Quote Expiration (in 24 hrs) |
 | New Quote | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** New Quote Template (to Seller) |
 | Updated Quote | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Quote<br/>**Field:** Updated Quote Template (to Seller) |
@@ -158,6 +175,21 @@ The list of email templates is organized alphabetically by Magento module.
 | Cron Error Warning | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts Run Settings<br/>**Field:** Error Email Template |
 | Price Alert | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts<br/>**Field:** Price Alert Email Template |
 | Stock Alert | **Page:** Catalog > [Catalog]({% link configuration/catalog/catalog.md %})<br/>**Section:** Product Alerts<br/>**Field:** Stock Alert Email Template |
+
+## Magento_PurchaseOrder
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+|Approved Purchase Order|**Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Purchase Order Approval<br/>**Field:** Approved Purchase Order |
+|Approved, requires payment|**Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Purchase Order Approval<br/>**Field:** Approved, requires payment details (to Buyer) |
+|Comment added to Purchase Order|**Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Purchase Order Approval<br/>**Field:** Comment added to Purchase Order |
+|Created and Auto-approved Purchase Order|**Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Purchase Order Approval<br/>**Field:** Created and Automatically approved Purchase Order (to Buyer) |
+|Created and automatically approved, requires payment details|**Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Purchase Order Approval<br/>**Field:** Created and automatically approved, requires payment details (to Buyer) |
+|Created and requires Approval Purchase Order|**Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Purchase Order Approval<br/>**Field:** Created and requires Approval Purchase Order (to Buyer) |
+|Error creating Order from Purchase Order|**Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Purchase Order Approval<br/>**Field:** Error creating Order from Purchase Order (to Buyer) |
+|Purchase Order requires Approval|**Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Purchase Order Approval<br/>**Field:** Purchase Order requires Approval (to Approver) |
+|Rejected Purchase Order|**Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %}) <br/>**Section:** Purchase Order Approval<br/>**Field:** Rejected Purchase Order (to Buyer) |
 
 {:.ee-only}
 ## Magento_Reminder
@@ -202,6 +234,7 @@ The list of email templates is organized alphabetically by Magento module.
 | Invoice Update | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Invoice Comments<br/>**Field:** Invoice Comment Email Template |
 | Invoice Update (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Invoice Comments<br/>**Field:** Invoice Comment Email Template |
 | Invoice Update for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Invoice Comments<br/>**Field:** Invoice Comment Email Template for Guest |
+| Invoice Update for Guest (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Invoice Comments<br/>**Field:** Invoice Comment Email Template for Guest |
 | New Credit Memo | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Credit Memo<br/>**Field:** Credit Memo Email Template |
 | New Credit Memo (Magento/luma) | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Credit Memo<br/>**Field:** Credit Memo Email Template |
 | New Credit Memo for Guest | **Page:** Sales > [Sales Emails]({% link configuration/sales/sales-emails.md %})<br/>**Section:** Credit Memo<br/>**Field:** Credit Memo Email Template for Guest |
@@ -250,6 +283,14 @@ The list of email templates is organized alphabetically by Magento module.
 |Template|Configuration path|
 |--- |--- |
 | Sitemap Generation  Settings | **Page:** Catalog > [XML Sitemap]({% link configuration/catalog/xml-sitemap.md %})<br/>**Section:** Generation Settings<br/>**Field:** Error Email Template |
+
+## Magento_TwoFactorAuth
+
+{: .template-table }
+|Template|Configuration path|
+|--- |--- |
+|2FA Configuration Required by User| n/a |
+|2FA Configuration Required for the Application| n/a |
 
 ## Magento_User
 

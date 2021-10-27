@@ -38,7 +38,7 @@ PayPal Express Checkout does not support orders with multiple-addresses.
 
 PayPal’s _In-Context Checkout_ makes it easier than ever to pay online. Customers never lose sight of your store during this simplified one- or two-click seamless checkout. In-context checkout works equally well on Macs and PCs, and offers a consistent experience on desktop computers, tablets, and mobile devices. To learn more, see [In-Context Checkout in Express Checkout][5].
 
-![PayPal in-context checkout demo]({% link images/images/storefront-paypal-in-context.png %}){: .zoom}
+![PayPal in-context checkout demo]({% link payment/assets/storefront-paypal-in-context.png %}){: .zoom}
 [_PayPal in-context checkout demo_][6]
 
 When you configure your store for PayPal Express Checkout, you can enable this option.
@@ -101,7 +101,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Connect your account for test or production:
 
-   - For testing (development) mode, click <span class="btn">Sandbox Credentials</span> and enter your [PayPal sandbox][3] credentials.
+   - For testing (development) mode, click <span class="btn">Sandbox Credentials</span> and enter your [PayPal sandbox][7] credentials.
    - For production mode, click <span class="btn">Connect with PayPal</span> and enter you production account credentials.
 
    When your connection is validated, you can proceed.
@@ -148,7 +148,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    When testing the configuration in a sandbox, use only [credit card numbers][4] that are recommended by PayPal. When you are ready to go live, return to the configuration and set Sandbox Mode to `No` and connect to your production PayPal account.
 
-1. If your system uses a proxy server to establish the connection between Magento and the PayPal payment system, set **API Uses Proxy** to `Yes` and complete the following:
+1. If your system uses a proxy server to establish the connection between Commerce and the PayPal payment system, set **API Uses Proxy** to `Yes` and complete the following:
 
    - **Proxy Host**
    - **Proxy Port**
@@ -564,6 +564,7 @@ Features settings allow you to disable certain features related to this PayPal s
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
 [2]: https://www.paypal.com/webapps/mpp/buying-online
 [3]: https://manager.paypal.com/
-[4]: https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm
-[5]: https://developer.paypal.com/docs/classic/express-checkout/in-context/
+[4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
+[5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
 [6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
+[7]: https://developer.paypal.com/docs/api-basics/sandbox/

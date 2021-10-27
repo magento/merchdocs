@@ -118,3 +118,23 @@ This is five items, but two distinct SKUs.
 
 ![]({% link images/images-b2b/storefront-approval-rule-number-skus.png %}){: .zoom}
 _Number of SKUs Approval Rule_
+
+### Edit approval rules
+
+1. In the sidebar, select **Approval Rules**.
+
+1. Find the approval rule entry to be edited.
+
+1. Click **Edit**.
+
+1. Make all needed changes and click **Save**.
+
+### Delete approval rules
+
+1. In the sidebar of their account, select **Approval Rules**.
+
+1. Find the approval rule entry to be deleted.
+
+1. Click **Delete**.
+
+1. To confirm the action, click <span class="btn">OK<span>.

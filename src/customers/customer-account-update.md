@@ -17,7 +17,10 @@ _Customer Profile_{:.ee-only}
 
 1. Make any necessary changes to the field values using the field descriptions for reference.
 
-1. When complete, click <span class="btn">Save Customer</span>.
+1. When complete, click <span class="btn">Save Customer</span> or <span class="btn">Save and Continue Edit</span>.
+
+{:.bs-callout-info}
+If you want to undo all the edits made, click **Reset** in the top button bar to return all changes to the last saved version
 
 ## Customer information
 

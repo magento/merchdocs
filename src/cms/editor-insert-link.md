@@ -8,12 +8,12 @@ An easy way to insert a link is to use the Link button in the editor toolbar. It
 
 1. Click _Insert/edit link_ icon in the editor toolbar.
 
-   ![Editor toolbar - Insert Link]({% link images/images/editor-toolbar/editor-menu-link-button.png %} "Insert Link Button"){: .zoom}
+   ![Editor toolbar - Insert Link]({% link cms/assets/editor-toolbar-link-button.png %} "Insert Link Button"){: .zoom}
    _Insert/edit link icon_
 
    This opens the _Insert link_ dialog.
 
-   ![Editor - Insert link dialog]({% link images/images/editor-toolbar/editor-dialog-insert-link.png %} "Insert Link Button"){: .zoom}
+   ![Editor - Insert link dialog]({% link cms/assets/editor-dialog-insert-link.png %} "Insert Link Button"){: .zoom}
    _Insert link dialog
 
 1. For **Url**, enter one of the following:

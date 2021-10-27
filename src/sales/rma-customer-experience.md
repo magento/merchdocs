@@ -27,7 +27,7 @@ The Customer completes the following steps on the storefront to submit an RMA:
 
 1. Clicks **Continue**.
 
-   ![]({% link images/images/storefront-orders-and-returns.png %}){: .zoom}
+   ![]({% link sales/assets/storefront-orders-and-returns.png %}){: .zoom}
    _Orders and Returns_
 
 1. Below the order date, clicks **Return**.
@@ -58,5 +58,10 @@ The Customer completes the following steps on the storefront to submit an RMA:
 
     ![]({% link images/images/storefront-orders-and-returns-create-new-return.png %}){: .zoom}
     _Create New Return_
+
+1. If needed, sets **Contact Email Address** and **Comments**.
+
+   {:.bs-callout-info}
+   If the order contains several items and the customer wants to return another item, for example, two out of four, they can click **Add Item To Return**, select the item, and then set all mentioned options.
 
 1. Clicks <span class="btn">Submit</span>.

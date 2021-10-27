@@ -38,14 +38,14 @@ As you enter shipments, your on-hand inventory quantities deduct entered amounts
 
    - Click <span class="btn">Proceed to Shipment</span>.
 
-      ![]({% link images/images/shipment-magento-shipping-sources.png %}){: .zoom}
+      ![]({% link catalog/assets/shipment-magento-shipping-sources.png %}){: .zoom}
       _Select a Source and enter a Quantity_
 
 1. Review the _New Shipment_ page to enter any additional changes.
 
    The Inventory section displays the source, products shipping, total ordered quantity, and quantity to ship.
 
-   ![]({% link images/images/inventory/inventory-shipment-details.png %}){: .zoom}
-   _Inventory details for the Shipment, example Partial Shipment_
+   ![]({% link catalog/assets/inventory-shipment-details.png %}){: .zoom}
+   _Inventory details for the shipment, example Partial Shipment_
 
 1. Click <span class="btn">Submit Shipment</span> to complete.

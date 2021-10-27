@@ -24,7 +24,7 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 
 ### Shipping Information
 
-### Method 1: Using the order page
+**Method 1:** Using the order page
 
 1. On the _Admin_ sidebar, go to **Sales** > **Orders**.
 
@@ -44,7 +44,7 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 
 1. Enter **Title** and **Number** to track the shipment.
 
-### Method 2: Using the shipment page
+**Method 2:** Using the shipment page
 
 1. On the _Admin_ sidebar, go to **Sales** > **Shipments**.
 
@@ -100,7 +100,7 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 
 1. Click <span class="btn">Save Config</span>.
 
-   ![]({% link images/images/shipment-coments.png %}){: .zoom}
+   ![]({% link sales/assets/shipment-comments.png %}){: .zoom}
    _Shipment comment configuration_
 
 ## Shipment field descriptions
@@ -134,7 +134,6 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 ### Documentation
 
 |Package Label|**PNG** - Download the shipment package label. Size: A6 (105 x 148 mm; 4.1 x 5.6 in.)|
-|High Value Report|**Text/HTML** - (Magento Shipping only) Download the UPS Control Log for US shipments over $999.00. The report includes the tracking and reference numbers, declared value, and currency. The report includes a signature line to be completed by the delivery person, with pickup time and number of packages. Size: A4 (210 x 297 mm; 8.3 x 11.7 in)|
 
 <style>
 .buttons-table td:first-of-type {

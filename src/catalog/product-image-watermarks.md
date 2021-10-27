@@ -10,7 +10,7 @@ The watermark used for the _small_ image in the following example is a black log
 - Opacity: 5
 - Position: Tile
 
-![]({% link images/images/storefront-watermark-tiled.png %}){: .zoom}
+![]({% link catalog/assets/storefront-watermark-tiled.png %}){: .zoom}
 _Tiled Watermark_
 
 ## Add watermarks to product images

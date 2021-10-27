@@ -1,6 +1,7 @@
 ---
-ee_only: true
 title: Visual similarity
+tag: product-recommendations
+ee_only: true
 ---
 
 The _Visual similarity_ recommendation type recommends similar looking products to the product being viewed. This recommendation type is most useful where images and visual aspects of the products are important parts of the shopping experience.

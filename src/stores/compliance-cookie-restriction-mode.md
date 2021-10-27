@@ -10,7 +10,7 @@ Your [privacy policy]({% link stores/privacy-policy.md %}) should include the na
 {:.bs-callout-info}
 If you change the URL key of the privacy policy, you must also create a custom URL rewrite to redirect traffic to the new URL key. Otherwise, the link in the Cookie Restriction Mode message will return `404 Page Not Found`.
 
-![Example storefront - cookie restriction notice]({% link images/images/storefront-cookie-restriction-message.png %}){: .zoom}
+![Example storefront - cookie restriction notice]({% link stores/assets/storefront-cookie-restriction-message.png %}){: .zoom}
 _Cookie Restriction Notice In Footer_
 
 ## Step 1: Enable Cookie Restriction Mode
@@ -26,9 +26,9 @@ _Cookie Restriction Notice In Footer_
 
     - Enter the **Cookie Lifetime** in seconds.
 
-    - If you want to make cookies available to other folders, enter the **Cookie Path**. To make the cookies available anywhere in the site, enter a forward slash (`/`).
+    - If you want to make cookies available to other folders, enter the **Cookie Path**. To make the cookies available anywhere in the site, enter a forward slash (`/`). This value can contain only the cookie path, and **_cannot_** contain any other cookie parameters.
 
-    - To make the cookies available to a subdomain, enter the subdomain name in the **Cookie Domain** field (`subdomain.yourdomain.com`). To make cookies available to all subdomains, enter the domain name preceded by a period (`.yourdomain.com`).
+    - To make the cookies available to a subdomain, enter the subdomain name in the **Cookie Domain** field (`subdomain.yourdomain.com`). To make cookies available to all subdomains, enter the domain name preceded by a period (`.yourdomain.com`). This value can contain only the cookie domain, and **_cannot_** contain any other cookie parameters.
 
     - To prevent scripting languages, such as JavaScript, from gaining access to cookies, make sure that **Use HTTP Only** is set to `Yes`.
 

@@ -86,6 +86,9 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. Enter the product **Weight**.
 
+{:.bs-callout-info}
+A configurable product must always have a weight. If you select **This item has no weight** from the drop-down list, it is automatically changed to **This item has weight** after saving the product.
+
 1. Accept the default **Visibility** setting of `Catalog, Search`.
 
 1. To feature the product in the list of[ new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
@@ -222,7 +225,7 @@ Use one of the following methods to configure the **prices**:
 
 Use one of the following methods to configure the **quantity**:
 
-- **_Method 1:** Apply the same quantity to all SKUs
+- **Method 1:** Apply the same quantity to all SKUs
 
 1. If the quantity is the same for all SKUs, select **Apply single quantity to each SKU**.
 
@@ -243,7 +246,7 @@ Use one of the following methods to configure the **quantity**:
 
    - Enter an on-hand inventory amount per source.
 
-   ![]({% link images/images/inventory/inventory-configure-product-quantity.png %}){: .zoom}
+   ![]({% link catalog/assets/inventory-configure-product-quantity.png %}){: .zoom}
    _Same Quantity for All SKUs_
 
 - **Method 2:** Apply Different Quantity by Attribute
@@ -341,6 +344,8 @@ If you have a different image for each variation you can set the configuration t
 ## Things to remember
 
 - A configurable product allows the shopper to choose options from drop-down, multiple select, visual swatch and text swatch input types. Each option is a separate, simple product.
+
+- Configurable child products can be simple or virtual products **without custom options**. To make custom child products virtual, you must select _Тhis item has no weight_ in the _Weight_ setting for each of them.
 
 - The attributes that are used for product variations must have a global scope and the customer must be required to choose a value. The product variation attributes must be included in the attribute set that is used as a template for the configurable product.
 

@@ -11,7 +11,7 @@ The Archive option appears in the Sales menu only when archiving is [enabled]({%
 ![Orders, Invoices, Shipments, Credit Memos Archiving]({% link images/images/order-move-to-archive.png %} "Orders, Invoices, Shipments, Credit Memos Archiving"){: .zoom}
 _[Move Order to Archive]({% link configuration/sales/sales.md %})_
 
-## To enable archiving:
+## Enable archiving
 
 1. On the _Admin_ sidebar, click **Stores**.
 
@@ -36,7 +36,7 @@ _[Move Order to Archive]({% link configuration/sales/sales.md %})_
 
   Adobe Commerce Support recommends enabling Order archiving to save MySQL disk space and improve checkout performance. See [Best practices for order placement performance ](https://support.magento.com/hc/en-us/articles/360048170772) in Adobe Commerce Support Knowledge Base.
 
-## To manually archive an order:
+## Manually archive an order
 
 1. On the _Admin_ sidebar, click **Sales**.
 
@@ -75,7 +75,7 @@ To specify a list of order statuses that can be archived, see [Configuring the A
     ![]({% link images/images-ee/order-archived-view.png %}){: .zoom}
     _View Archived Order_
 
-## Restore an archived order:
+## Restore an archived order
 
 1. On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Orders**.
 
@@ -92,6 +92,6 @@ To specify a list of order statuses that can be archived, see [Configuring the A
 
 ## Export archived order
 
-1. On the _Admin_ sidebar, go to **Sales** > _Operations > **Orders**.
+1. On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Orders**.
 
 1. In the action menu, click **Export** and select the desired format.

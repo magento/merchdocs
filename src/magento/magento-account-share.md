@@ -77,13 +77,10 @@ The following instructions are written from the perspective of a shared user who
    ![]({% link images/images/magento-account-shared-support.png %}){: .zoom}
    _Support_
 
-   You can use the [Commerce Help Center](https://support.magento.com/hc/en-us) from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
-
-   ![]({% link images/images/magento-account-shared-help-center.png %}){: .zoom}
-   _Commerce Help Center_
+   You can use the [Adobe Commerce Help Center](https://support.magento.com/hc/en-us) from the shared account to search for articles and troubleshooting information, find patches for known issues, and create support tickets.
 
    {:.bs-callout-info}
-   After receiving shared access, the user needs to log in to [Magento.com](https://account.magento.com/customer/account/login), navigate to _Shared Access_, and click the **Support** tab. This needs to be done the first time only, in order to ensure that the [Commerce Help Center](https://support.magento.com/hc/en-us) is configured properly through the `SSO` call.
+   After receiving shared access, the user needs to log in to [magento.com](https://account.magento.com/customer/account/login), navigate to _Shared Access_, and click the **Support** tab. This needs to be done the first time only, in order to ensure that the [Commerce Help Center](https://support.magento.com/hc/en-us) is configured properly through the `SSO` call.
 
 1. To return to your own account, click the **Back** button in your browser and set **Switch Accounts** to `My Account`.
 

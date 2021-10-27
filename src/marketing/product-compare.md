@@ -4,7 +4,7 @@ title: Compare Products
 
 Compare Products generates a detailed, side-by-side comparison of two or more products. Depending on the theme, the Add to Compare link might be represented by an icon or text. The Compare Products block usually appears in either the left or right sidebar of a catalog page.
 
-![Example storefront - comparison list]({% link images/images/storefront-comparison-list.png %}){: .zoom}
+![Example storefront - comparison list]({% link marketing/assets/storefront-comparison-list.png %}){: .zoom}
 _Comparison List_
 
 Unlike the [Recently Viewed / Compared Products ]({% link marketing/products-viewed-compared.md %}) block, the Admin does not include additional configuration settings for Compare Products.
@@ -25,5 +25,5 @@ Unlike the [Recently Viewed / Compared Products ]({% link marketing/products-vie
 
 1. To remove a single product from the comparison page, clicks **Delete** (![Delete icon]({% link images/images/btn-delete-x.png %})).
 
-    ![Example storefront - compare products]({% link images/images/storefront-compare-products.png %}){: .zoom}
+    ![Example storefront - compare products]({% link marketing/assets/storefront-compare-products.png %}){: .zoom}
     _Compare Products_

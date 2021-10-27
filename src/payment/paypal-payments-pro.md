@@ -4,7 +4,7 @@ title: PayPal Payments Pro
 
 [PayPal Payments Pro][3] brings you all the benefits of a merchant account and payment gateway in one, plus the ability to create your own, fully customized checkout experience. PayPal Express Checkout is automatically enabled with PayPal Payments Pro, so you can tap into more than 110 million active PayPal users.
 
-![PayPal Payments Pro displayed in the mini cart]({% link images/images/storefront-mini-cart-payments-pro-racer-tank.png %}){: .zoom}
+![PayPal Payments Pro displayed in the mini cart]({% link payment/assets/storefront-mini-cart-payments-pro-racer-tank.png %}){: .zoom}
 _PayPal Payments Pro on storefront_
 
 {:.bs-callout-warning}
@@ -482,5 +482,5 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm
+[2]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [3]: https://developer.paypal.com/docs/paypal-payments-pro/

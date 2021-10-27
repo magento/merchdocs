@@ -4,7 +4,7 @@ title: Pending Payment Order Lifetime
 
 The lifetime of orders with pending payments is determined by the Orders Cron Settings configuration. The default value is set to 480 minutes, which is eight hours.
 
-## To set the lifetime of orders with pending payments:
+## Set the lifetime of orders with pending payments
 
 1. On the _Admin_ sidebar, click **Stores**.
 
