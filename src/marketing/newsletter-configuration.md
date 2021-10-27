@@ -4,6 +4,18 @@ title: Configuring Newsletters
 
 The first step in creating newsletters is to configure the newsletter settings for your site. You can require customers to click a confirmation link that is sent by email to confirm the subscription. This double opt-in method requires customers to confirm twice that they want to receive your newsletter and reduces the possibility that it might be considered to be spam.
 
+## Enable newsletters
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **Customers** and choose **Newsletter**.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Options** section.
+
+1. To enable newsletters for the store view scope, set **Enabled** to `Yes`.
+
+   After enabling the newsletter function the **Subscription Options** section appears.
+
 ## Configure the subscription options
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
