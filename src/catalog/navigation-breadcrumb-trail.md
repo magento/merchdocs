@@ -37,7 +37,7 @@ The most significant difference between attribute-based and hierarchical breadcr
 
 Example: `Home > Suits > All Suits > Refined by > Slim Fit`
 
-## Remove the breadcrumbs from CMS pages
+## Add/Remove the breadcrumbs from CMS pages
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -47,7 +47,7 @@ Example: `Home > Suits > All Suits > Refined by > Slim Fit`
 
     - Deselect the **Use system value** checkbox.
 
-    - Set **Show Breadcrumbs for CMS Pages** to `No`.
+    - Set **Show Breadcrumbs for CMS Pages** to `No` or `Yes`.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
