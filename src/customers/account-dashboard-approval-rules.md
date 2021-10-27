@@ -56,7 +56,7 @@ Purchase orders feature is enabled at the website level, to enable this type of 
    - Find the company in the list and click **Edit**.
    - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
    - Set **Enable Purchase Orders** to `Yes`.
-   - When complete, click <span class="btn">Save</span> and check the [Account Dashboard]({% link customers/account-dashboard.md %}) on the storefront. The ** Approval Rules ** section should appear.
+   - When complete, click <span class="btn">Save</span> and check the [Account Dashboard]({% link customers/account-dashboard.md %}) on the storefront. The **Approval Rules** section should appear.
 
 ## Create an approval rule
 
