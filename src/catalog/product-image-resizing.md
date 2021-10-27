@@ -17,7 +17,7 @@ For example, a 3000 x 2100 pixel JPG at 100% could be a 5mb+ image file. Resizin
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Images Upload Configuration_ section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Images Upload Configuration_ section.
 
     To change default settings, you may need to deselect the **Use system value** checkbox.
 

@@ -32,7 +32,7 @@ _Shipping address locked for a quote_
 
 1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Checkout Options** section.
 
    ![The Configuration page displays the Checkout Options]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
    [_Sales configuration - checkout options_]({% link configuration/sales/checkout.md %})

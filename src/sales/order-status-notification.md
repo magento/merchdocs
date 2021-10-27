@@ -10,7 +10,7 @@ Customers can track the status of their orders by [RSS feed]({% link marketing/r
 
 1. In the left panel, expand **Catalog** and choose **RSS Feeds** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Order** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Order** section.
 
 1. Set **Customer Order Status Notification** to `Enable`.
 
@@ -25,7 +25,7 @@ Customers can track the status of their orders by [RSS feed]({% link marketing/r
 
 1. In the left panel, expand **Sales** and choose **Sales Emails** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Order** section.
 
    ![]({% link images/images/config-sales-sales-emails-order.png %}){: .zoom}
    [_Order_]({% link sales/orders.md %})

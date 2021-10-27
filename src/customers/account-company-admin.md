@@ -14,7 +14,7 @@ The company administrator is initially assigned when the company account is firs
    ![]({% link images/images-b2b/companies-grid-abc-xyz.png %}){: .zoom}
    _Companies_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Company Admin** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Company Admin** section and do the following:
 
    ![]({% link images/images-b2b/company-account-company-admin.png %}){: .zoom}
    _Company Admin_

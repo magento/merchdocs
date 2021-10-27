@@ -46,7 +46,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
 1. Open the CMS page or block where the variable is to appear.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Content** section. Then, click <span class="btn">Show / Hide Editor</span> to work in HTML.
+1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the **Content** section. Then, click <span class="btn">Show / Hide Editor</span> to work in HTML.
 
 1. Position the insertion point in the editor where you want the variable to appear and click <span class="btn">Insert Variable</span>.
 
@@ -69,7 +69,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
 1. Open the page or block where the variable is to appear.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Content** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the **Content** section.
 
 1. In the left panel, click **Elements** and do one of the following:
 

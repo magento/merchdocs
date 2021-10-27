@@ -57,7 +57,7 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
 1. In the left panel under _General_, choose **Content Management**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Advanced Content Tools**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Advanced Content Tools**.
 
    ![]({% link images/images/config-general-content-management-advanced-content-tools.png %}){: .zoom}
    [_Advanced Content Tools_]({% link configuration/general/content-management.md %})
@@ -162,7 +162,7 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
 1. In the left panel under _General_, choose **Content Management**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Advanced Content Tools**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Advanced Content Tools**.
 
 1. Under the **Google Maps Style** text box, click [Create Map Style][6].
 
@@ -259,7 +259,7 @@ The grid size determines the size of the map related to a [column]({% link cms/p
 
 1. In the left panel under _General_, choose **Content Management**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Advanced Content Tools**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Advanced Content Tools**.
 
 1. Update the grid options as needed:
 

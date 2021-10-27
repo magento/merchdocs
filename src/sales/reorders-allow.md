@@ -21,7 +21,7 @@ _Customer reorder link in the Admin_
 
 1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Reorder** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Reorder** section.
 
    ![]({% link images/images/config-sales-sales-reorder.png %}){: .zoom}
    [_Reorder options_]({% link configuration/sales/sales.md %})

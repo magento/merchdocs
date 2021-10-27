@@ -13,7 +13,7 @@ The store credit configuration controls automatic refunds, the display of availa
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Store Credit Options** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Store Credit Options** section.
 
    ![]({% link images/images-ee/config-customers-customer-configuration-store-credit-options.png %}){: .zoom}
    [_Store Credit Options_]({% link configuration/customers/customer-configuration.md %}#store-credit-options)

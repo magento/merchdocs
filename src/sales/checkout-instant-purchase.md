@@ -73,7 +73,7 @@ The following example shows how to configure the Braintree vault.
 
 1. In the left panel under the _Sales_ section, choose **Sales**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Instant Purchase** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Instant Purchase** section.
 
 1. If this change is for a specific store view, [choose the store view]({% link configuration/scope-change.md %}) where the configuration applies.
 

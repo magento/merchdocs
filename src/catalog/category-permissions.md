@@ -21,7 +21,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Category Permissions** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Category Permissions** section.
 
     ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom}
     _[Category Permissions]({% link configuration/catalog/catalog.md %})_
@@ -103,7 +103,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
 1. In the category tree, select the target category.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) **Category Permissions** on the page and do the following:
+1. Expand ![]({% link assets/icon-display-expand.png %}) **Category Permissions** on the page and do the following:
 
     - To create a permissions rule, click <span class="btn">New Permission</span>.
 

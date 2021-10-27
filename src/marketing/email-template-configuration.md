@@ -13,7 +13,7 @@ The configuration determines the logo that appears in the default header templat
 
 1. Find the store view that you want to configure and click **Edit** in the _Action_ column.
 
-1. Under **Other Settings**, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Transactional Emails** section.
+1. Under **Other Settings**, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Transactional Emails** section.
 
 1. To upload your prepared **Logo Image**, click <span class="btn">Upload</span> and select the file from your system.
 

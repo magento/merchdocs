@@ -10,7 +10,7 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides an _Image Opti
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Media Gallery Image Optimization** and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Media Gallery Image Optimization** and do the following:
 
    - Set **Enable Image Optimization** to `Yes`.
    - Enter the **Maximum Width** and **Maximum Height** values (in pixels) according to your needs..

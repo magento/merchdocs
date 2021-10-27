@@ -26,7 +26,7 @@ _Condition_
 
 ## Step 3. Define the Actions
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Actions** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Actions** section and do the following:
 
    - Set **Apply** to `Buy X get Y free (discount amount is Y)`.
 

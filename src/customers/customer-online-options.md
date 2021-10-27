@@ -19,7 +19,7 @@ On the server, the length of the session is controlled by `php.ini`, and several
 
 1. In the left panel under **General**, choose **Web**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Default Cookie Settings** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Default Cookie Settings** section.
 
    ![]({% link images/images/config-general-web-default-cookie-settings.png %}){: .zoom}
    [_Default Cookie Settings_]({% link configuration/general/web.md %})
@@ -36,7 +36,7 @@ To make login easier, the **Remember Me** function allows user account holders t
 
 1. In the left panel, expand **Customers** and choose **Persistent Shopping Cart**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General Options** section.
 
 1. For **Enable Persistence**, set to `Yes`. (Clear the **Use system value** checkbox to allow changing the default setting.)
 

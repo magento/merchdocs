@@ -38,7 +38,7 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
 
 1. To make the coupon valid for a period of time, do the following:
 
-   - {:.ce-only}Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link images/images/btn-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
+   - {:.ce-only}Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link assets/icon-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
 
    - {:.ee-only}Do one of the following:
 
@@ -51,7 +51,7 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
 
       - Enter the **Update Name** and **Description**.
 
-      - Choose the **Start Date** and **End Date** from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
+      - Choose the **Start Date** and **End Date** from the Calendar ( ![Calendar icon]({% link assets/icon-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
 
       - When complete, click <span class="btn">Save</span>.
 
@@ -83,7 +83,7 @@ The generation of discount coupons is an asynchronous operation, which executes 
    In case of simultaneous use of the same coupon by multiple customers at the same time, it is possible that the usage
    limit that is set could be exceeded due to delayed coupon processing.
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Manage Coupon Codes** section. Then, do the following:
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Manage Coupon Codes** section. Then, do the following:
 
    ![Cart price rule - manage coupon codes]({% link images/images/price-rule-cart-manage-coupon-codes.png %}){: .zoom}
    _Manage Coupon codes_

@@ -15,7 +15,7 @@ Configure the quantities and additional settings per [added source]({% link cata
 
 1. Open a product in **Edit** mode.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Sources** section and configure product settings per source.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Sources** section and configure product settings per source.
 
    - Enter a **Qty** (quantity) amount.
 

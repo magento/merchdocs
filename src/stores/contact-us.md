@@ -26,12 +26,12 @@ _Contact Us page_
 
 1. In the left panel under **General**, choose **Contacts**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Contact Us** section and set **Enable Contact Us** to `Yes`.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Contact Us** section and set **Enable Contact Us** to `Yes`.
 
    ![General configuration - contact us]({% link images/images/config-general-contacts-contact-us.png %}){: .zoom}
    _Contact Us_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Email Options** section and set the email contact options:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Email Options** section and set the email contact options:
 
     ![General configuration - email options]({% link images/images/config-general-contacts-email-options.png %}){: .zoom}
     _Email Options_

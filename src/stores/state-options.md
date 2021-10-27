@@ -16,7 +16,7 @@ Because standard address formats vary from one country to another, you can also 
 
 1. Under **General** in the left panel, choose **General**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **State Options** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the **State Options** section and do the following:
 
     - In the **State is required for** list, select each country where Region/State is a required entry.
 

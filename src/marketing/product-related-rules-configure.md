@@ -11,7 +11,7 @@ The behavior and display of product relationship rules is determined by the conf
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![Expansion]({% link images/images/btn-expand.png %}) the **Rules-Based Product Relations** section and do the following:
+1. Expand ![Expansion]({% link assets/icon-display-expand.png %}) the **Rules-Based Product Relations** section and do the following:
 
     ![Catalog configuration - rule-based product relations]({% link images/images/config-catalog-catalog-rule-based-product-relations.png %}){: .zoom}
     [_Rule-Based Product Relations_]({% link configuration/catalog/catalog.md -%})

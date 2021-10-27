@@ -14,7 +14,7 @@ _Products Displayed as a Grid_
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Storefront** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Storefront** section.
 
    ![]({% link images/images/config-catalog-catalog-storefront.png %}){: .zoom}
    [_Storefront_]({% link configuration/catalog/catalog.md %})

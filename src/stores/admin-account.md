@@ -11,7 +11,7 @@ See [Permissions]({% link system/permissions.md %}) and [User Roles]({% link sys
 
 ## Edit Account Information
 
-1. Click the **Account** (![]({% link images/images/btn-account.png %}){: .Inline}) icon.
+1. Click the **Account** (![]({% link assets/icon-admin-user.png %}){: .Inline}) icon.
 
 1. Click **Account Setting**.
 
