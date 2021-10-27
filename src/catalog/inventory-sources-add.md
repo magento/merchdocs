@@ -119,3 +119,4 @@ If editing the Default Source, you can edit all configurations except name and c
 |Frontend Name|The name of the pickup location for the source.|
 |Frontend Description|The description of the pickup location for the source. It can contain attached images.|
 
+[1]: https://www.google.com/maps
