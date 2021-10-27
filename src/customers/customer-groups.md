@@ -17,7 +17,7 @@ _Customer Groups_
 
 1. Enter criteria for searching groups, including a range of IDs, group, or tax class.
 
-   ![]({% link images/images/customer-groups-filters.png %}){: .zoom}
+   ![]({% link customers/assets/groups-filters.png %}){: .zoom}
    _Filtering Options_
 
 1. When complete, click <span class="btn">Apply Filters</span>.
