@@ -112,7 +112,7 @@ The Admin provides access to manage the orders, customers, products, shipping, a
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
-## Configure the admin login to be case sensitive
+## Configure the admin user name to be case sensitive
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
