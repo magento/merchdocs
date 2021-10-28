@@ -11,15 +11,15 @@ Pricing for customer groups is a component of [tiered pricing]({% link catalog/p
 ![]({% link images/images/storefront-price-group.png %}){: .zoom}
 _Customer Group Discount_
 
-## Pricing benefits for a group of Magento 2 customers
+## Benefits of using group pricing
 
     - Suitable for wholesale buyers
-
-    - Invite customers to upgrade their customer group to take advantage of discounts
-
+    
+    - Incentive for customers to upgrade their customer group to take advantage of discounts
+    
     - Targeted marketing campaigns
-
-    - Reward loyal customers, thereby building trust and credibility
+    
+    - Build trust and credibility by rewarding loyal customers
 
 ## Set up a group price
 
