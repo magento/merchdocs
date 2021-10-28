@@ -13,13 +13,13 @@ _Customer Group Discount_
 
 ## Benefits of using group pricing
 
-    - Suitable for wholesale buyers
-    
-    - Incentive for customers to upgrade their customer group to take advantage of discounts
-    
-    - Targeted marketing campaigns
-    
-    - Build trust and credibility by rewarding loyal customers
+- Suitable for wholesale buyers
+ 
+- Incentive for customers to upgrade their customer group to take advantage of discounts
+
+- Targeted marketing campaigns
+
+- Build trust and credibility by rewarding loyal customers
 
 ## Set up a group price
 
