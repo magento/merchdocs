@@ -115,6 +115,14 @@ To complete sandbox onboarding:
    {:.bs-callout .bs-callout-warning}
    If you revoke consent to Payment Services for Adobe Commerce and Magento Open Source for processing your payments (in your PayPal account settings), orders in your store cannot be processed by Payment Services.
 
+### Enable contact telephone number
+
+Contact telephone number is a feature that lets you obtain the contact telephone numbers that PayPal collects from your customers. Contact telephone number is off by default. PayPal always collects contact telephone numbers from PayPal account holders to help confirm their identities and to contact them if that is required to resolve problems on their accounts, or to complete their fulfillment processes.
+
+See the [PayPal get contact telephone numbers](https://developer.paypal.com/docs/admin/checkout-settings/#get-contact-telephone-numbers) documentation for more information.
+
+For example, once enabled a merchant will be able to see phone numbers after a customer does a branded checkout.
+
 ## Test in sandbox environment
 
 See [Test and validate]({% link payment-services/test-validate.md %}) for more information.
