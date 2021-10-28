@@ -72,7 +72,7 @@ _Choose Attribute Set_
 
    - By default, **Stock Status** is set to `Out of Stock`.
 
-    - Because downloadable products are not shipped, the **Weight** field is not used. If you enable this feature, it becomes a [Simple product]({% link catalog/product-create-simple.md %}) and the _Is this downloadable product?_ tab cannot be used.
+   - Because downloadable products are not shipped, the **Weight** field is not used. If you enable this feature, it becomes a [Simple product]({% link catalog/product-create-simple.md %}) and the _Is this downloadable product?_ tab cannot be used.
 
     {:.bs-callout-info}
     **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following _Assign Sources and Quantities (Inventory Management)_ section.
