@@ -137,7 +137,7 @@ _Downloadable Information_
 
    {:.bs-callout-info}
    You cannot use links to external resources as downloadable products. Valid link domains are predefined programmatically in the `env.php` file (see [env.php reference](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-envphp.html#downloadable_domains) in the developer documentation).
-    
+
    - Set **Shareable** to one of the following:
 
       |No|Requires customers to log in to their accounts to access the download link.|
