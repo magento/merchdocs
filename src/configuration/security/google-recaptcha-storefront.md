@@ -58,6 +58,9 @@ Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini`�
 {: .bs-callout-info}
 The reCAPTCHA type you choose must match the type that is associated with the API key from your Google reCAPTCHA account.
 
+{:.bs-callout-warning}
+When using version 3, a genuine user with low score will be unable to proceed; when using version 2, a genuine user with a low score will receive an challenge. Consider carefully if genuine users with a low score should be given an opportunity to solve a challenge (version 2) or completely blocked (version 3).
+
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--|--|--|
 |Enable for Customer Login|Website|Specifies the type of reCAPTCHA that is used when customers [sign in]({% link customers/customer-sign-in.md %}) to their accounts. Options:<br/>No - (default) Does not validate the password reset request.<br />reCAPTCHA v2 ("I am not a robot") - Requires the user to select the _I’m not a robot_ checkbox.<br />Invisible reCaptcha v2 - Validates user behavior in the background without requiring interactions based on score.<br/>Invisible reCaptcha v3 -  (Recommended) Validates user behavior in the background based on interaction score.|
