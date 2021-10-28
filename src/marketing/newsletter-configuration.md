@@ -14,7 +14,7 @@ The first step in creating newsletters is to configure the newsletter settings f
 
 1. To enable newsletters for the store view scope, set **Enabled** to `Yes`.
 
-   After enabling the newsletter function the **Subscription Options** section appears.
+After enabling the newsletter function the **Subscription Options** section appears.
 
 ## Configure the subscription options
 
