@@ -62,7 +62,7 @@ For more information, see [Using the Editor]({% link cms/editor.md %}).
 
    - `Static block only`
    - `Static block and products`
-   
+
 1. When complete, click <span class="btn">Save</span> and review the block display on the storefront (requires cache refresh).
 
 ## Content settings reference
