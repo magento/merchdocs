@@ -16,7 +16,7 @@ Multi-site installations of Adobe Commerce or Magento Open Source must be config
 
 1. Set the **Web Site Information** options:
 
-    ![Create website - options]({% link images/images/stores-all-create-website-information.png %}){: .zoom}
+    ![Create website - options]({% link stores/assets/create-website-info.png %}){: .zoom}
 
     - **Name** — Enter the domain of the new website. For example, `domain.com`.
 

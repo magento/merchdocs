@@ -27,7 +27,7 @@ The Customer completes the following steps on the storefront to submit an RMA:
 
 1. Clicks **Continue**.
 
-   ![]({% link images/images/storefront-orders-and-returns.png %}){: .zoom}
+   ![]({% link sales/assets/storefront-orders-and-returns.png %}){: .zoom}
    _Orders and Returns_
 
 1. Below the order date, clicks **Return**.

@@ -4,14 +4,14 @@ title: Configuring MAP
 
 Your store’s Minimum Advertised Price (MAP) settings can be applied to all products in your catalog or configured for specific products. When MAP is enabled globally, all product prices in the storefront are hidden from view. There are a variety of configuration options that you can use to remain in compliance with the terms of your agreement with the manufacturer, while still offering your customers a better price.
 
-![]({% link images/images/storefront-msrp-on-gesture.png %}){: .zoom}
+![]({% link catalog/assets/storefront-msrp-on-gesture.png %}){: .zoom}
 _Actual Price Appears “On Gesture”_
 
 On the global level, you can enable or disable MAP, apply it to all products, define how the actual price is displayed, and edit the text of the related messages and information tips that appear in the store.
 
 When MAP is enabled, the product-level MAP settings become available. You can apply MAP to an individual product by entering the MSRP and choosing how you want the actual price to appear in the store. Product-level MAP settings override the global MAP settings.
 
-![]({% link images/images/storefront-price-map.png %}){: .zoom}
+![]({% link catalog/assets/storefront-price-map.png %}){: .zoom}
 _Click for Price_
 
 ## Step 1: Enable MAP for the store view

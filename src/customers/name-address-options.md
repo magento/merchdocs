@@ -101,7 +101,7 @@ _[Customer Account sign up form]({% link configuration/customers/customer-config
 
 1. To include a prefix (such as Mr. or Mrs.) as part of the name, set **Show Prefix** to `Yes`.
 
-   ![]({% link images/images/storefront-customer-account-prefix.png %}){: .zoom}
+   ![]({% link customers/assets/storefront-customer-account-prefix.png %}){: .zoom}
    _[Prefix in customer sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
    For **Prefix Dropdown Options**, enter each prefix that you want to appear in the list, separated by a semicolon.

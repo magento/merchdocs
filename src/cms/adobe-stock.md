@@ -4,7 +4,7 @@ title: Adobe Stock Integration
 
 Merchants can integrate [Adobe Stock][adobe-stock] with Commerce giving them access to countless media assets for use in their stores.
 
-![Adobe Stock Search Results]({% link images/images/adobe-stock/search-grid.png %}){: .zoom}
+![Adobe Stock Search Results]({% link cms/assets/adobe-stock-search-grid.png %}){: .zoom}
 
 The Adobe Stock service provides businesses with access to millions of high-quality, curated, royalty-free photos, vectors, illustrations, videos, templates, and 3D assets for all their creative projects. Commerce users are able to quickly find, preview, and license Adobe Stock assets. Users can also save them to the
 [Media Storage][media-storage], all without leaving the Commerce Admin workspace.
