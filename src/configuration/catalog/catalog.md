@@ -188,7 +188,7 @@ The standard search configuration described in this section differs for [Live Se
 {:.bs-callout-info}
 The standard search configuration described in this section differs for [Live Search]({% link live-search/overview.md %}).
 
-Adobe Commerce supports several versions of Elasticsearch.
+Adobe Commerce aand Magento Open Source support several versions of Elasticsearch.
 
 ![]({% link images/images/config-catalog-catalog-search-elasticsearch.png %}){: .zoom}
 [Catalog Search]({% link catalog/search-configuration.md %})
