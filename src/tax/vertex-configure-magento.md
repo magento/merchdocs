@@ -202,7 +202,7 @@ Vertex Cloud has excellent documentation with videos to help you come up to spee
 
 When the Vertex connector is enabled and the [Display prices in Catalog]({% link configuration/sales/tax.md %}) is set to `Including Tax`, updating your product prices in the catalog to include tax could significantly degrade Commerces performance. In this situation, the Vertex connector will automatically disable and you will see an error message in the Vertex configuration settings. You must set this value to `Excluding Tax` to re-enable the Vertex connector.
 
-![]({% link images/images/vertex-error.png %}){: .zoom}
+![]({% link tax/assets/vertex-error.png %}){: .zoom}
 _Vertex API error_
 
 ### Vertex cache management

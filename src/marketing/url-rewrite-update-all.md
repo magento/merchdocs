@@ -23,5 +23,5 @@ You can quickly update URL rewrites for multiple or all products simultaneously 
 {:.bs-callout .bs-callout-info}
 All selected products will be re-added to the selected websites and URL rewrites will be regenerated.
 
-![Update Attributes - update multiple URL rewrites]({% link images/images/url-rewrites-update.png %}){: .zoom}
+![Update Attributes - update multiple URL rewrites]({% link marketing/assets/url-rewrites-update.png %}){: .zoom}
 _Update multiple URL rewrites_

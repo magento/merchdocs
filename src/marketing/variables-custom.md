@@ -59,7 +59,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
    `customVar code=my_custom_variable`
 
-   ![New custom variable]({% link images/images/variable-custom-insert-content.png %}){: .zoom}
+   ![New custom variable]({% link marketing/assets/variable-custom-insert-content.png %}){: .zoom}
    _Custom Variable Code_
 
 1. When complete, click <span class="btn">Save</span>.

@@ -37,7 +37,7 @@ Follow the steps below to set up the type of free shipping promotion that you wa
    - Set **Apply to Shipping Amount** to `Yes`.
    - Set **Free Shipping** to `For shipment with matching items`.
 
-      ![Cart price rule - free shipping actions]({% link images/images/price-rule-cart-free-shipping-actions.png %}){: .zoom}
+      ![Cart price rule - free shipping actions]({% link marketing/assets/free-shipping-actions.png %}){: .zoom}
       _Price Rule Action_
 
 ### Example 2: Free Shipping for Orders Over $ Amount
@@ -52,7 +52,7 @@ Follow the steps below to set up the type of free shipping promotion that you wa
    - Click **is** and choose `equals or greater than`.
    - Click **...** and enter a threshold value for the Subtotal, such as `100`, to complete the condition.
 
-      ![Cart price rule - condition]({% link images/images/price-rule-cart-free-shipping-condition1.png %}){: .zoom}
+      ![Cart price rule - condition]({% link marketing/assets/free-shipping-condition1.png %}){: .zoom}
       _Condition_
 
 1. If necessary, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Actions** section and do the following:
@@ -61,7 +61,7 @@ Follow the steps below to set up the type of free shipping promotion that you wa
    - Set **Apply to Shipping Amount** to `Yes`.
    - Set **Free Shipping** to `For shipment with matching items`.
 
-      ![Cart price rule - free shipping actions]({% link images/images/price-rule-cart-free-shipping-actions-example2.png %}){: .zoom}
+      ![Cart price rule - free shipping actions]({% link marketing/assets/free-shipping-actions-example2.png %}){: .zoom}
       _Actions_
 
 ## Step 3. Complete the Labels

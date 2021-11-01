@@ -45,7 +45,7 @@ The code that determines the content of the New Products list and its placement 
 
 1. Click <span class="btn">Continue</span>.
 
-   ![]({% link images/images/widget-settings-new-products-list.png %}){: .zoom}
+   ![]({% link cms/assets/widget-settings-new-products-list.png %}){: .zoom}
    _New product list widget settings_
 
 1. In the _Storefront Properties_ section, do the following:
@@ -58,7 +58,7 @@ The code that determines the content of the New Products list and its placement 
 
    - (Optional) For **Sort Order**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
-   ![]({% link images/images/widget-storefront-properties-new-products-list.png %}){: .zoom}
+   ![]({% link cms/assets/widget-storefront-properties-new-products-list.png %}){: .zoom}
    _Widget storefront properties_
 
 ## Step 3: Choose the location
@@ -76,7 +76,7 @@ The code that determines the content of the New Products list and its placement 
    - `New Product List Template`
    - `New Products Grid Template`
 
-   ![]({% link images/images/widget-layout-update-new-products-list.png %}){: .zoom}
+   ![]({% link cms/assets/widget-layout-update-new-products-list.png %}){: .zoom}
    _Layout updates_
 
 1. Click <span class="btn">Save and Continue Edit</span>.

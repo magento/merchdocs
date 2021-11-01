@@ -51,12 +51,12 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
 1. (Optional) Select the **Send alerts to owners** checkbox to send notification if Google detects issues or suspicious traffic.
 
-    ![Google reCAPTCHA - site registration]({% link images/images/recaptcha-register-new-site.png %}){: .zoom}
+    ![Google reCAPTCHA - site registration]({% link stores/assets/recaptcha-register-new-site.png %}){: .zoom}
     _Google reCAPTCHA Site Registration_
 
 1. Click **SUBMIT** to complete registration and receive keys.
 
-   ![Google reCAPTCHA Keys]({% link images/images/recaptcha-keys.png %}){: .zoom}
+   ![Google reCAPTCHA Keys]({% link stores/assets/recaptcha-keys.png %}){: .zoom}
    _Google reCAPTCHA Keys_
 
    {:.bs-callout-info}

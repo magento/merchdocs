@@ -52,7 +52,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
     If **ALL** of these conditions are **TRUE**:
 
-   ![Catalog price rule - condition line 1]({% link images/images/price-rule-catalog-condition1.png %}){: .zoom}
+   ![Catalog price rule - condition line 1]({% link marketing/assets/catalog-condition1.png %}){: .zoom}
    _Condition - Line 1_
 
     The statement has two bold links that you can click to display the selection of options for that part of the statement. You can create different conditions by changing the combination of these values. Do any of the following:
@@ -67,7 +67,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
    - In the list under **Product Attribute**, choose the attribute that you want to use as the basis of the condition. For this example, the condition is `Attribute Set`.
 
-      ![Catalog price rule - condition line 2]({% link images/images/price-rule-catalog-condition2.png %}){: .zoom}
+      ![Catalog price rule - condition line 2]({% link marketing/assets/catalog-condition2.png %}){: .zoom}
       _Condition Line 2, Part 1_
 
       {:.bs-callout-info}
@@ -81,7 +81,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
    - Select or enter values for the condition. Depending on the condition, you may select products from a grid or list, enter a numerical value, and so on. For this example, click the (**...**) more link and choose the attribute set upon which the condition is based.
 
-   ![Catalog price rule - condition line 2]({% link images/images/price-rule-catalog-condition3.png %}){: .zoom}
+   ![Catalog price rule - condition line 2]({% link marketing/assets/catalog-condition3.png %}){: .zoom}
    _Condition Line 2, Part 3_
 
    The selected item appears in the statement to complete the condition.
@@ -101,7 +101,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %})the **Actions** section and do the following:
 
-   ![Catalog price rule - actions]({% link images/images/price-rule-catalog-actions.png %}){: .zoom}
+   ![Catalog price rule - actions]({% link marketing/assets/price-rule-catalog-actions.png %}){: .zoom}
    _Actions_
 
 1. Under **Pricing Structure Rules**, set **Apply** to one of the following:
@@ -165,7 +165,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 
    - {:.ce-only}Click <span class="btn">Save and Apply</span>.
 
-      ![Catalog price rules - pricing structures]({% link images/images/price-rule-catalog-saved.png %}){: .zoom}
+      ![Catalog price rules - pricing structures]({% link marketing/assets/price-rule-catalog-saved.png %}){: .zoom}
       _Pricing Structure Rules_{:.ce-only}
 
    - {:.ee-only}Click <span class="btn">Save</span>.
