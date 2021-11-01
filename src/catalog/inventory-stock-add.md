@@ -8,7 +8,7 @@ When creating a custom stock, you assign websites and sources. Sources can inclu
 
 After adding sources, you need to prioritize the order for the sources from top (first) to bottom (last). This order affects recommendations during order shipment.
 
-![]({% link images/images/stores-inventory-stock-new.png %}){: .zoom}
+![]({% link catalog/assets/inventory-stock-new.png %}){: .zoom}
 _New Stock_
 
 ## Add new stock
@@ -19,7 +19,7 @@ _New Stock_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **General** section and enter a unique **Name** to identify the new stock.
 
-   ![]({% link images/images/stores-inventory-stock-general.png %}){: .zoom}
+   ![]({% link catalog/assets/inventory-stock-general.png %}){: .zoom}
    _General_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Sales Channels** section and select the **Websites** where this stock is available.
@@ -29,14 +29,14 @@ _New Stock_
    {:.bs-callout-info}
    If you select a website or sales channel assigned to another stock, it will be unassigned from that stock. Any Sales Channels not assigned to a custom stock are assigned to the Default Stock.
 
-   ![]({% link images/images/stores-inventory-stock-sales-channel.png %}){: .zoom}
+   ![]({% link catalog/assets/inventory-sales-channel.png %}){: .zoom}
    _Sales Channels_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Sources** section and do the following for any stock other than the default:
 
     - Click <span class="btn">Assign Sources</span>.
 
-    ![]({% link images/images/stores-inventory-stock-sources.png %}){: .zoom}
+    ![]({% link catalog/assets/inventory-stock-sources.png %}){: .zoom}
     _Assigned Sources_
 
     - Select checkboxes for all sources you want to assign to the stock.
@@ -45,7 +45,7 @@ _New Stock_
 
       The added sources display in Assigned Sources.
 
-      ![]({% link images/images/stores-inventory-stock-assign-sources.png %}){: .zoom}
+      ![]({% link catalog/assets/inventory-assign-sources.png %}){: .zoom}
       _Assign Sources to Stock_
 
 1. Use ![]({% link images/images/btn-sort-3.png %}) to drag and drop the sources into a priority from top (first) to bottom (last).

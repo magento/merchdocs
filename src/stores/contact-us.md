@@ -54,7 +54,7 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 
 1. Find the **Contact Us Info** block in the list and open in **Edit** mode.
 
-    ![]({% link images/images/content-block-contact-us-info.png %}){: .zoom}
+    ![]({% link stores/assets/content-block-contact-us-info.png %}){: .zoom}
     _Contact Us Info_
 
 1. Scroll down to the **Content** field and make any necessary changes.
@@ -63,7 +63,7 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 
     - Click <span class="btn">Show / Hide Editor</span> to work directly with the HTML.
 
-    ![Content block - contact us example]({% link images/images/content-block-contact-us-content.png %}){: .zoom}
+    ![Content block - contact us example]({% link stores/assets/content-block-contact-us-content.png %}){: .zoom}
     _Contact Us Demo Content_
 
 1. When complete, click <span class="btn">Save Block</span>.

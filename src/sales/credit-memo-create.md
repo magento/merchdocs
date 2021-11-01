@@ -118,7 +118,7 @@ _Create Credit Memo_
 
       See [Credit Memos]({% link sales/credit-memos.md %}) for more information about offline and online refunds.
 
-   ![]({% link images/images/credit-memo-order-total-refund.png %}){: .zoom}
+   ![]({% link sales/assets/credit-memo-order-total-refund.png %}){: .zoom}
    _Items to Refund_
 
 ### Issue an offline refund for check or money order

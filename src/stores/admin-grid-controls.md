@@ -50,7 +50,7 @@ _Orders Grid_
    - CSV
    - Excel XML
 
-    ![Orders list - export options]({% link images/images/customers-grid-export.png %}){: .zoom}
+    ![Orders list - export options]({% link stores/assets/customers-grid-export.png %}){: .zoom}
     _Export Control_
 
 1. Click <span class="btn">Export</span>.

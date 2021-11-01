@@ -11,10 +11,10 @@ _Pagination Controls_
 ## Pagination Controls
 
 |--- |--- |
-|![]({% link images/images/controls-pagination-list-grid.png %})|View As - Displays the list in either a Grid or List format.|
-|![]({% link images/images/control-pagination-sort-by.png %})|Sort By - Changes the sort order of the list. The “Used for Sorting in Product Listing” storefront property determines which [product attributes]({% link stores/attributes-product.md %}) can be used to sort the list.|
-|![]({% link images/images/control-pagination-show-per-page.png %})|Show Per Page - Determines how many products appear per page.|
-|![]({% link images/images/control-pagination.png %})|Pagination Links - Navigation links to other pages.|
+|![]({% link catalog/assets/controls-pagination-list-grid.png %})|View As - Displays the list in either a Grid or List format.|
+|![]({% link catalog/assets/control-pagination-sort-by.png %})|Sort By - Changes the sort order of the list. The “Used for Sorting in Product Listing” storefront property determines which [product attributes]({% link stores/attributes-product.md %}) can be used to sort the list.|
+|![]({% link catalog/assets/control-pagination-show-per-page.png %})|Show Per Page - Determines how many products appear per page.|
+|![]({% link catalog/assets/control-pagination.png %})|Pagination Links - Navigation links to other pages.|
 {:style="table-layout:auto"}
 
 ## Configure the pagination controls

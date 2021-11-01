@@ -10,7 +10,7 @@ Google reCAPTCHA is configured separately for the Admin and storefront.
 
 - For the storefront, Google reCAPTCHA can be used to sign in to a [customer account]({% link customers/customer-sign-in.md %}), send a message from the [Contact Us]({% link stores/contact-us.md %}) page, and in numerous other storefront locations.
 
-   ![Google reCAPTCHA - customer login]({% link images/images/customer-account-login-recaptcha.png %}){: .zoom}
+   ![Google reCAPTCHA - customer login]({% link stores/assets/customer-account-login-recaptcha.png %}){: .zoom}
    _Customer Login with reCAPTCHA v2_
 
 [Google reCAPTCHA][1] can be implemented in several ways:

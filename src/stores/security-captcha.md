@@ -6,7 +6,7 @@ A CAPTCHA is a visual device that ensures that a human being, rather than a comp
 
 You can reload the CAPTCHA as many times as is necessary by clicking the Reload icon in the upper-right corner of the image. The CAPTCHA is fully configurable and can be set appear every time, or only after a number of failed login attempts.
 
-![Login with CAPTCHA]({% link images/images/customer-account-login-captcha.png %}){: .zoom}
+![Login with CAPTCHA]({% link stores/assets/customer-account-login-captcha.png %}){: .zoom}
 _Customer Login with CAPTCHA_
 
 ## Admin CAPTCHA

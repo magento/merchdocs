@@ -28,7 +28,7 @@ Setting a source to `disabled` is helpful for the following situations:
 
 1. Click the _Actions_ menu at the upper-left corner and choose **Disable**.
 
-   ![Inventory Management sources - Actions menu]({% link images/images/stores-inventory-sources-disable.png %}){: .zoom}
+   ![Inventory Management sources - Actions menu]({% link catalog/assets/inventory-source-disable.png %}){: .zoom}
    _Actions menu_
 
 1. In the confirmation dialog, click <span class="btn">OK</span>.
