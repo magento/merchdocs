@@ -50,7 +50,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 ## Product Alerts
 
 ![]({% link images/images/config-catalog-catalog-product-alerts.png %}){: .zoom}
-[_Product Alerts_]({% link configuration/scope.md %})
+[_Product Alerts_]({% link catalog/inventory-product-alerts.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
