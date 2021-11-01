@@ -43,5 +43,5 @@ You can provide this feature to customers by enabling _gift message_ for your st
 
 With this configuration, customers can add a gift message to the cart page from storefront as shown in the following example:
 
-![]({% link images/images/gift-message.png %}){: .zoom}
+![]({% link catalog/assets/gift-message.png %}){: .zoom}
 _Gift Message_

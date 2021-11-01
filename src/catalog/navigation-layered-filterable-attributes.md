@@ -65,7 +65,7 @@ Search, filter, and review the displayed products.
 
 Layered navigation includes filters for all available attribute values and their product counts, including those with zero (0) product matches (as shown in the following image).
 
-   ![]({% link images/images/filterable-attributes-on-plp.png %}){: .zoom}
+   ![]({% link catalog/assets/filterable-attributes-on-plp.png %}){: .zoom}
    _Zero filters displaying_
 
 This makes it difficult for customers to select a preferred product, and there is no need to display attribute values ​​with 0 products in the front-end.
