@@ -18,11 +18,11 @@ Ad-hoc color descriptions can pose a challenge from the standpoint of database o
 
 ## Variations management
 
-Leverage custom options and complex products for variations management. It allows you easier to categorize products, create cart price rules and dynamic categories rules, and also offer a selection of options with a variety of text, selection, and date input types.
+Leverage product [Configurations options]({% link catalog/product-configurations.md %}) and [configurable products]({% link catalog/product-create-configurable.md %}) to manage variations in your product offerings. These features make it easier to categorize products, to create cart price rules and dynamic categories rules, and to offer a selection of options with a variety of text, selection, and date input types.
 
-## Weighted Search
+## Weighted search
 
-Product attributes that are enabled for catalog search can be assigned a weight to give them a higher value in search results. Attributes with a greater weight are returned before those with a lower weight. For example, if there are two attributes in the system, _color_ with a search weight of 3 and _description_ with a search weight of 1. A search for the word _red_ returns a list of products with a color attribute value of `red`, but does not return products with descriptions that contain the word _red_. In this example, the `color` attribute has a greater defined weight than the `description` attribute.
+Product attributes that are enabled for [catalog search]({% link catalog/search.md %}) can be assigned a weight to give them a higher value in search results. Attributes with a greater weight are returned before those with a lower weight. For example, consider two attributes in the system, _color_ with a search weight of 3 and _description_ with a search weight of 1. A search for the word _red_ returns a list of products with a color attribute value of `red`, but does not return products with descriptions that contain the word _red_. In this example, the `color` attribute has a greater defined weight than the `description` attribute.
 
 ## Unused properties
 
