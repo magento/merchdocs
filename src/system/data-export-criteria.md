@@ -4,7 +4,7 @@ title: Export Criteria
 
 Export filters are used to specify the data that you want to in the export file, based on attribute value. In addition, you can specify which attribute data you want to include or exclude from the export.
 
-![Data export criteria]({% link images/images/data-export-entity-attributes-exclude.png %}){: .zoom}
+![Data export criteria]({% link system/assets/data-export-entity-attributes-exclude.png %}){: .zoom}
 _Export Criteria_
 
 ## Export Filters

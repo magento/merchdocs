@@ -10,7 +10,7 @@ The term complex data refers to the data that is associated with multiple produc
 
 If you were to export a configurable product, you would find the standard attributes that make up a simple product, plus the additional attributes that are needed to manage complex data.
 
-![Configurable product - exported data]({% link images/images/data-exported-configurable-product.png %}){: .zoom}
+![Configurable product - exported data]({% link system/assets/data-exported-configurable-product.png %}){: .zoom}
 _Exported Configurable Product Data_
 
 ## Complex Data Attributes
