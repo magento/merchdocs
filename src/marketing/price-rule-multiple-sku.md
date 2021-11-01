@@ -27,14 +27,14 @@ Before you begin, make sure that the [Storefront Properties]({% link stores/attr
     - Follow the instructions to create a new [catalog price rule]({% link marketing/price-rules-catalog.md %}).
     - Open an existing catalog price rule.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Conditions** section, and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Conditions** section, and do the following:
 
     - In the first line, set the first parameter to `ANY`.
 
         ![Catalog price rule condition - ANY]({% link marketing/assets/multiple-skus-condition1.png %}){: .zoom}
         _If ANY of these conditions are TRUE_
 
-    - Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line. Then, in the list under **Product Attribute**, click `SKU`.
+    - Click **Add** (![Add icon]({% link assets/icon-add-green-circle.png %})) at the beginning of the next line. Then, in the list under **Product Attribute**, click `SKU`.
 
         ![Catalog price rule condition - SKU is one of]({% link marketing/assets/multiple-skus-condition1a.png %}){: .zoom}
         _Condition based on SKU_
@@ -44,7 +44,7 @@ Before you begin, make sure that the [Storefront Properties]({% link stores/attr
         ![Catalog price rule condition - SKU is one of]({% link marketing/assets/multiple-skus-condition1b.png %}){: .zoom}
         _SKU is one of …_
 
-    - To complete the condition, click the (**…**) more link. Then, click the **Chooser** (![List icon]({% link images/images/btn-chooser.png %})) icon for the list of available products.
+    - To complete the condition, click the (**…**) more link. Then, click the **Chooser** (![List icon]({% link assets/icon-list-chooser.png %})) icon for the list of available products.
 
         ![Catalog price rule condition - multiple SKUs]({% link marketing/assets/multiple-skus-condition2b.png %}){: .zoom}
         _Choose Each SKU_

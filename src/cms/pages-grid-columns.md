@@ -9,7 +9,7 @@ _Moving a column_
 
 ## Change the selection of columns
 
-In the upper-right corner, click the _Columns_ (![Column icon]({% link images/images/btn-columns.png %})) control and do the following:
+In the upper-right corner, click the _Columns_ (![Column icon]({% link assets/icon-columns.png %})) control and do the following:
 
 - Select the checkbox of any column you want to add to the grid.
 
@@ -23,7 +23,7 @@ In the upper-right corner, click the _Columns_ (![Column icon]({% link images/im
 
 ## Save a view
 
-1. Click the _View_ (![Eye icon]({% link images/images/btn-default-view.png %})) control and then click **Save View As**.
+1. Click the _View_ (![Eye icon]({% link assets/icon-view-eye.png %})) control and then click **Save View As**.
 
    ![The view controls displayed above the Pages grid]({% link images/images/page-grid-default-view-save.png %}){: .zoom}
    _Saving the current view_
@@ -36,11 +36,11 @@ In the upper-right corner, click the _Columns_ (![Column icon]({% link images/im
 
 ## Change the view
 
-Click the _View_ (![Eye icon]({% link images/images/btn-default-view.png %})) control and do one of the following:
+Click the _View_ (![Eye icon]({% link assets/icon-view-eye.png %})) control and do one of the following:
 
 - Choose the view that you want to use.
 
-- Change the name of a view by clicking the Edit (![Pencil icon]({% link images/images/btn-edit.png %})) icon and updating the name.
+- Change the name of a view by clicking the Edit (![Pencil icon]({% link assets/icon-edit-pencil.png %})) icon and updating the name.
 
 ![The saved view appears in the view controls with an edit icon]({% link images/images/pages-default-grid-control.png %}){: .zoom}
 _Choosing a view_

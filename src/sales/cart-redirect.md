@@ -10,7 +10,7 @@ The shopping cart page can be configured to appear whenever an item is added to 
 
 1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Shopping Cart** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Shopping Cart** section.
 
    ![The shopping cart configuration settings expanded on the page]({% link images/images/config-sales-checkout-shopping-cart.png %}){: .zoom}
    [_Shopping cart configuration settings_]({% link configuration/sales/checkout.md %})

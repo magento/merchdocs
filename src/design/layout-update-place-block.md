@@ -35,7 +35,7 @@ The following steps show how to use a layout update to place a block on a page. 
 
 1. Find the page where you want to place the block and open it in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Design** section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Design** section.
 
 1. Click **Custom Layout Update** arrow to display all available layout updates that are associated with the page.
 

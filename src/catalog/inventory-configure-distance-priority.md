@@ -68,12 +68,12 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 1. In the left panel, expand **Catalog** and choose **Inventory**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Distance Provider for Distance Based SSA_ section and set **Provider** to `Google MAP`.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Distance Provider for Distance Based SSA_ section and set **Provider** to `Google MAP`.
 
     ![]({% link images/images/config-catalog-catalog-inventory-distance-provider.png %}){: .zoom}
     _Distance Providers for Distance Based SSA_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Google Distance Provider_ section and configure the settings:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Google Distance Provider_ section and configure the settings:
 
    - For **Google API Key**, enter the key copied from your Google Account.
 
@@ -115,7 +115,7 @@ Complete these commands anytime you need to add more geocodes.
 
 1. In the left panel, expand **Catalog** and choose **Inventory**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Distance Provider for Distance Based SSA_ section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Distance Provider for Distance Based SSA_ section.
 
 1. Deselect the **Use system value** checkbox and set **Provider** to `Offline Calculation`.
 

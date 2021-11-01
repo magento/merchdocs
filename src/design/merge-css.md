@@ -13,7 +13,7 @@ CSS files can be merged from the _Admin_ panel only when working in [Developer M
 
 1. In the left panel, expand **Advanced** and choose **Developer**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **CSS Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **CSS Settings** section.
 
    ![]({% link images/images/config-advanced-developer-css-settings.png %}){: .zoom}
    [*CSS Settings*]({% link configuration/advanced/developer.md %}#css-settings)

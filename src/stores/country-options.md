@@ -17,7 +17,7 @@ If needed, clear the **Use system value** checkbox for each setting you want to 
 
 1. In the left panel under **General**, choose **General**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Country Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Country Options** section.
 
 1. Choose the **Default Country** where your business is located.
 

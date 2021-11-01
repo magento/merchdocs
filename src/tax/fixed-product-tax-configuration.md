@@ -12,7 +12,7 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. In the left panel, expand **Sales** and choose **Tax**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Fixed Product Taxes** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Fixed Product Taxes** section.
 
 1. Set **Enable FPT** to `Yes`.
 
@@ -52,7 +52,7 @@ The following instructions show how to set up a fixed product tax for your store
    ![]({% link tax/assets/tax-fpt-attribute-properties.png %}){: .zoom}
    _Attribute Properties_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Advanced Attribute Properties** section and set the property options:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Attribute Properties** section and set the property options:
 
    |**Attribute Code**|Enter a unique identifier in lowercase, without spaces or special characters. The maximum length is 30 characters. You can leave the field blank to the text from the Default Label field.|
    |**Add to Column Options**|If you want the FPT field to appear in the Inventory [grid]({% link catalog/products.md %}), set to `Yes`.|

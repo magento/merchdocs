@@ -22,12 +22,12 @@ _Favicon in the browser tab_
 
 1. In the grid, find the store view that you want to configure and click **Edit** in the _Action_ column.
 
-1. Under _Other Settings_, expand ![]({% link images/images/btn-expand.png %}) the **HTML Head** section.
+1. Under _Other Settings_, expand ![]({% link assets/icon-display-expand.png %}) the **HTML Head** section.
 
    ![]({% link images/images/design-configuration-html-head.png %}){: .zoom}
    _[HTML Head settings]({% link design/html-head.md %})_
 
-1. If you want to remove the current favicon, click the _Delete_ (![]({% link images/images/btn-delete.png %})) icon in the lower-left corner of the image.
+1. If you want to remove the current favicon, click the _Delete_ (![]({% link assets/icon-delete-trashcan.png %})) icon in the lower-left corner of the image.
 
 1. Click <span class="btn">Upload</span> and open the favicon file that you prepared.
 

@@ -65,7 +65,7 @@ Use the **API Key** and **Client secret** generated in the [previous section][cr
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Adobe Stock Integration** and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Adobe Stock Integration** and do the following:
 
    - Set **Enabled Adobe Stock** to `Yes`.
 

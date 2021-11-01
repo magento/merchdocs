@@ -10,7 +10,7 @@ The wish list configuration enables wish lists and determines the email template
 
 1. In the left panel, expand **Customers** and choose **Wish List**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Options** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General Options** section and do the following:
 
     ![Customers configuration - wish list general settings]({% link images/images-ee/config-customers-wishlist-general-options-ee.png %}){: .zoom}
     [_General Settings_]({% link configuration/customers/wishlist.md %})
@@ -23,7 +23,7 @@ The wish list configuration enables wish lists and determines the email template
 
     - Set the **Show in Sidebar** field to `Yes`. This displays the wish list(s) in the sidebar.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Share Options** section. Then, do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Share Options** section. Then, do the following:
 
     ![Customers configuration - wish list share options]({% link images/images/config-customers-wishlist-share-options.png %}){: .zoom}
     [_Share Options_]({% link configuration/customers/wishlist.md %})
@@ -36,7 +36,7 @@ The wish list configuration enables wish lists and determines the email template
 
     - To limit the size of the message, enter a **Email Text Length Limit** value. The default is 255.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **My Wish List Link** section and set **Display Wish List Summary** to one of the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **My Wish List Link** section and set **Display Wish List Summary** to one of the following:
 
     - `Display number of items in wish list`
     - `Display item quantities`

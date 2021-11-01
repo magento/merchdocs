@@ -25,7 +25,7 @@ _My Requisition Lists_
 
 1. To change any product options, do the following:
 
-   - In the line item, click **Edit** (![]({% link images/images/btn-edit.png %})).
+   - In the line item, click **Edit** (![]({% link assets/icon-edit-pencil.png %})).
    - Change any options that are necessary.
    - Click **Update Requisition List**.
 
@@ -73,7 +73,7 @@ Adobe Commerce will generate and download a CSV list with `sku` and `qty` values
 
 To edit a product options in the list, do the following:
 
-1. Click the _Pencil_  (![]({% link images/images/btn-edit.png %})) icon to open the product page.
+1. Click the _Pencil_  (![]({% link assets/icon-edit-pencil.png %})) icon to open the product page.
 
 1. Change any options that are necessary.
 

@@ -21,7 +21,7 @@ Before you can configure email addresses for the store, each must be set up as a
 
 1. Under **General** in the left panel, choose **Store Email Addresses**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Contact** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General Contact** section and do the following:
 
     ![General configuration - store email addresses]({% link images/images/config-general-store-email-addresses-general-contact.png %}){: .zoom}
     [_General Contact_]({% link configuration/general/store-email-addresses.md %})
