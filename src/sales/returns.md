@@ -65,7 +65,7 @@ RMAs can be issued for simple, grouped, configurable, and bundle product types. 
 
 1. To create a return, click <span class="btn">Submit Returns</span>.
 
-    ![]({% link images/images/return-item-request.png %}){: .zoom}
+    ![]({% link sales/assets/return-item-request.png %}){: .zoom}
     _RMA Items Requested_
 
     The newly submitted RMA request appears on the **Returns** page with a `Pending` status.

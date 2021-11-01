@@ -67,7 +67,7 @@ In this step, the conditions are described that must be met for an order to qual
 
 1. In the left panel, select **Conditions**.
 
-   ![Cart price rule - conditions]({% link images/images/price-rule-cart-conditions.png %}){: .zoom}
+   ![Cart price rule - conditions]({% link marketing/assets/conditions.png %}){: .zoom}
    _Conditions_
 
    The first condition appears by default, and states:
@@ -95,19 +95,19 @@ In this step, the conditions are described that must be met for an order to qual
 
 1. When the next part of the condition appears, hover over the line so you can see where each link with variable values is located.
 
-   ![Cart price rule condition]({% link images/images/price-rule-cart-condition-products-subselection2.png %}){: .zoom}
+   ![Cart price rule condition]({% link marketing/assets/condition-products-subselection2.png %}){: .zoom}
    _If ALL of these conditions are TRUE_
 
 1. Click the "more" (...) link, and enter `100`.
 
    This condition requires the total quantity of the cart to be 101 or greater.
 
-   ![Cart price rule condition - total quantity value]({% link images/images/price-rule-cart-condition-products-subselection3.png %}){: .zoom}
+   ![Cart price rule condition - total quantity value]({% link marketing/assets/condition-products-subselection3.png %}){: .zoom}
    _Total Quantity Value_
 
 1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line, and then add a condition that is based on **Category**.
 
-   ![Cart price rule condition - product attribute category]({% link images/images/price-rule-cart-condition-products-subselection4.png %}){: .zoom}
+   ![Cart price rule condition - product attribute category]({% link marketing/assets/condition-products-subselection4.png %}){: .zoom}
    _Category_
 
 1. In the next part of the condition, click the **more** (...) link to display the input field, and then open the **Chooser** (![List icon]({% link images/images/btn-chooser.png %})) to display the category tree.
@@ -116,7 +116,7 @@ In this step, the conditions are described that must be met for an order to qual
 
    The condition can be based on any category that is a child of the store’s [root category]({% link catalog/category-root.md %}).
 
-   ![Cart price rule condition - product category]({% link images/images/price-rule-cart-subselection-category.png %}){: .zoom}
+   ![Cart price rule condition - product category]({% link marketing/assets/subselection-category.png %}){: .zoom}
    _Choosing a Category for a Condition_
 
 1. To add more conditions, click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) and define another condition.
@@ -219,19 +219,19 @@ The shopping cart price rule actions describe how prices are updated when the co
 
 The label appears in the totals section of the order to identify the discount. The label text is enclosed in parentheses, after the word `Discount`. You can enter a default label for all store views, or enter a different label for each view.
 
-![Storefront cart - discount labels]({% link images/images/price-rule-cart-order-totals-section-discount-special.png %}){: .zoom}
+![Storefront cart - discount labels]({% link marketing/assets/order-totals-section-discount-special.png %}){: .zoom}
 _Discount Label in Totals Section of Order_
 
 1. Scroll down to **Labels**, and expand ![Expansion selector]({% link images/images/btn-expand.png %})the section.
 
 1. Enter the text that you want used as the **Default Rule Label for All Store Views**.
 
-   ![Cart price rule - default label]({% link images/images/price-rule-cart-label-default.png %}){: .zoom}
+   ![Cart price rule - default label]({% link marketing/assets/label-default.png %}){: .zoom}
    _Default Label_
 
 1. If your store has multiple views, or multiple websites with multiple views, enter the appropriate label text for each. For example, if each store view is in a different language, enter the translation of the label for each view.
 
-   ![]({% link images/images/price-rule-cart-label-store-specific.png %}){: .zoom}
+   ![]({% link marketing/assets/label-store-specific.png %}){: .zoom}
 
 {: .ee-only}
 ## Step 5: Add Related Dynamic Blocks (optional)
