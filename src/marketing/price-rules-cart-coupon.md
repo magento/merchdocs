@@ -111,6 +111,9 @@ The generation of discount coupons is an asynchronous operation, which executes 
    ![Cart price rule - generated coupon codes]({% link marketing/assets/coupons-generated.png %}){: .zoom}
    _Generated Codes_
 
+   {:.bs-callout-info}
+   Although Commerce allows configuring multiple coupon codes, a customer can use only one coupon code in the cart. To allow the use of more than one coupon code in the cart simultaneously, you could consider using a corresponding extension from [Commerce Marketplace](https://marketplace.magento.com/).
+
 ## Method 3: Generate a dynamic dotdigital coupon URL
 
 1. Create a [cart price rule]({% link marketing/price-rules-cart.md %}) with the following settings:

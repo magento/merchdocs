@@ -4,7 +4,7 @@ title: Billing Agreements
 
 Customers who enter into a billing agreement with a payment provider can make purchases now and pay for them later, according to the agreement. To learn more, see [PayPal Billing Agreements]({% link payment/paypal-billing-agreements.md %}).
 
-![Billing agreements list in the customer's dashboard]({% link images/images/customer-billing-agreements.png %}){: .zoom}
+![Billing agreements list in the customer's dashboard]({% link customers/assets/billing-agreements.png %}){: .zoom}
 _Billing agreement in customer dashboard_
 
 ## Create a billing agreement
@@ -17,7 +17,7 @@ _Billing agreement in customer dashboard_
 
 This redirects the customer to the payment system website.
 
-![Creating new billing agreement in the customer's dashboard]({% link images/images/customer-create-billing-agreement.png %}){: .zoom}
+![Creating new billing agreement in the customer's dashboard]({% link customers/assets/create-billing-agreement.png %}){: .zoom}
 _Create Billing agreement_
 
 ## View a billing agreement
@@ -26,7 +26,7 @@ _Create Billing agreement_
 
 1. Select the billing agreement and click **View**.
 
-![View billing agreement in customer's dashboard]({% link images/images/customer-view-billing-agreement.png %}){: .zoom}
+![View billing agreement in customer's dashboard]({% link customers/assets/view-billing-agreement.png %}){: .zoom}
 _View Billing agreement_
 
 ## Cancel a billing agreement
