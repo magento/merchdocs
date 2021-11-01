@@ -25,7 +25,7 @@ A [placeholder]({% link catalog/product-image-placeholders.md %}) image appears 
 
 As you add product images, you can customize the display in the  customize the display in the _Image Detail_ window.
 
- ![]({% link images/images/image-video.png %}){: .zoom}
+ ![]({% link catalog/assets/image-video.png %}){: .zoom}
     _Product images_
 
 To set image displaying options for a product:

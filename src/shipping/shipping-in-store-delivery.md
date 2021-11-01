@@ -4,7 +4,7 @@ title: In-store Delivery
 
 With the in-store delivery method, the customer can select a source to be used as a pickup location during the checkout.
 
-![]({% link images/images/luma-in-store-example.png %}){: .zoom}
+![]({% link shipping/assets/luma-in-store-example.png %}){: .zoom}
 [_In-store Delivery Method at Checkout_]({% link sales/checkout-process.md %})
 
 <div class="bs-callout-warning" markdown="1">
