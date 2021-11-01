@@ -6,7 +6,7 @@ The Coupons report aggregates data from each coupon that is used during a specif
 
 In the following example, the coupon code “H20” was used by two customers. One of the orders is invoiced, but the other is still _pending_. The projected Sales Subtotal, Sales Discount, and Sales Total columns show the aggregated amounts from both orders, but only the actual invoiced order appears in the Subtotal, Discount, and Total columns. Each row in the report represents a single coupon promotion.
 
-![Coupons report]({% link images/images/reports-coupons.png %}){: .zoom}
+![Coupons report]({% link marketing/assets/reports-coupons.png %}){: .zoom}
 _Coupons Report_
 
 ## Run the Report
@@ -17,12 +17,12 @@ _Coupons Report_
 
 1. To refresh the sales [statistics]({% link reports/statistics.md %}) for the day, click the _Last Updated_ message at the top of the workspace. Then, click to select the **Coupons** checkbox and click **Refresh**.
 
-   ![Coupons report - refresh statistics]({% link images/images/reports-coupons-refresh-statistics.png %}){: .zoom}
+   ![Coupons report - refresh statistics]({% link marketing/assets/reports-coupons-refresh-statistics.png %}){: .zoom}
    _Refresh Statistics_
 
 1. To filter the data, do the following:
 
-   ![Coupon report - filters]({% link images/images/reports-coupons-filters.png %}){: .zoom}
+   ![Coupon report - filters]({% link marketing/assets/reports-coupons-filters.png %}){: .zoom}
    _Coupon Report Filters_
 
    - Set **Date Used** to one of the following:
