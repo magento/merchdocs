@@ -112,7 +112,7 @@ The generation of discount coupons is an asynchronous operation, which executes 
    _Generated Codes_
 
    {:.bs-callout-info}
-   Although Adobe Commerce allows configuring multiple coupon codes, a customer can use only one coupon code in the cart. To use more than one coupon code in the cart simultaneously, you may consider using a corresponding extension in [Commerce Marketplace](https://marketplace.magento.com/).
+   Although Commerce allows configuring multiple coupon codes, a customer can use only one coupon code in the cart. To allow the use of more than one coupon code in the cart simultaneously, you could consider using a corresponding extension from [Commerce Marketplace](https://marketplace.magento.com/).
 
 ## Method 3: Generate a dynamic dotdigital coupon URL
 
