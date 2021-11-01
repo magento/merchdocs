@@ -8,7 +8,7 @@ Adobe Commerce and Magento Open Source offer some basic information on the activ
 
 _Admin_ sidebar > **Dashboard**
 
-![Commerce Admin - launch Yotpo]({% link images/images/yotpo-admin-dashboard.png %}){: .zoom}
+![Commerce Admin - launch Yotpo]({% link marketing/assets/yotpo-admin-dashboard.png %}){: .zoom}
 _Admin Dashboard_
 
 You can click **Launch Yotpo** to access your Yotpo account for additional information.
@@ -17,7 +17,7 @@ You can click **Launch Yotpo** to access your Yotpo account for additional infor
 
 _Admin_ sidebar > **Marketing** > _User Content_ > **Yotpo Reviews**
 
-![Commerce Admin - Yotpo reviews]({% link images/images/yotpo-at-a-glance.png %}){: .zoom}
+![Commerce Admin - Yotpo reviews]({% link marketing/assets/yotpo-at-a-glance.png %}){: .zoom}
 _Yotpo Reviews_
 
 You can:

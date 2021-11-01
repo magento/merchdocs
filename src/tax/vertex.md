@@ -7,10 +7,10 @@ Vertex is a cloud-based solution that automates your sales and use tax complianc
 The integration includes tax configuration and address cleansing   for your stores, overrides per country, and performance enhancing options.
 
 {: .icon-table }
-![]({% link images/images/tile-vertex-calculations-returns.png %}) | **Automate Tax Calculations & Returns**<br>Vertex saves time, reduces risk, and helps you file your tax returns on time.
-![]({% link images/images/tile-vertex-consumer-use-tax.png %}) | **Sales & Use Tax**<br>Vertex Cloud calculates sales tax in the shopping cart based on the tax profile of each product that is purchased, and the jurisdiction.
-![]({% link images/images/tile-vertex-exemption-certificates.png %}) | **Manage Exception Certificates**<br>Vertex makes it easy to manage customers by jurisdiction who have non-standard tax requirements.
-![]({% link images/images/tile-vertex-prepare-returns.png %}) | **Generate Returns**<br>Vertex Cloud automatically regenerates signature-ready PDF returns and sends a message when the returns are available.
+![]({% link tax/assets/tile-vertex-calculations-returns.png %}) | **Automate Tax Calculations & Returns**<br>Vertex saves time, reduces risk, and helps you file your tax returns on time.
+![]({% link tax/assets/tile-vertex-consumer-use-tax.png %}) | **Sales & Use Tax**<br>Vertex Cloud calculates sales tax in the shopping cart based on the tax profile of each product that is purchased, and the jurisdiction.
+![]({% link tax/assets/tile-vertex-exemption-certificates.png %}) | **Manage Exception Certificates**<br>Vertex makes it easy to manage customers by jurisdiction who have non-standard tax requirements.
+![]({% link tax/assets/tile-vertex-prepare-returns.png %}) | **Generate Returns**<br>Vertex Cloud automatically regenerates signature-ready PDF returns and sends a message when the returns are available.
 
 ## Changes in the latest release
 

@@ -23,7 +23,7 @@ Additional Category URLs
     http://www.example.com/all-on-sale.html
     http://www.example.com/save-now/spring-sale
 
-![URL rewrites grid]({% link images/images/url-rewrites.png %}){: .zoom}
+![URL rewrites grid]({% link marketing/assets/url-rewrites.png %}){: .zoom}
 _URL Rewrites_
 
 Commerce offers these URL rewrite types:

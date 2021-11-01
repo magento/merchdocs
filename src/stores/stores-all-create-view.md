@@ -10,12 +10,12 @@ Store views are typically used to make the store available in different [locales
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
 
-    ![All Stores]({% link images/images/stores-all.png %}){: .zoom}
+    ![All Stores]({% link stores/assets/stores-all.png %}){: .zoom}
     _All Stores_
 
 1. Click **Create Store View**.
 
-    ![Create store view]({% link images/images/stores-all-create-store-view.png %}){: .zoom}
+    ![Create store view]({% link stores/assets/create-store-view.png %}){: .zoom}
     _Create new store view_
 
 1. Set **Store** to the parent store of this view.

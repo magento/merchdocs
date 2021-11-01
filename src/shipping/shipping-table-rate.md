@@ -96,7 +96,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. Save the `tablerates.csv` file to your computer.
 
-   ![]({% link images/images/shipping-table-rates-export.png %}){: .zoom}
+   ![]({% link shipping/assets/shipping-table-rates-export.png %}){: .zoom}
    _Export CS_
 
 1. Open the file in a spreadsheet application.
@@ -120,7 +120,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. For **Import**, click <span class="btn">Choose File</span> and select your completed `tablerates.csv` file to import the rates.
 
-   ![]({% link images/images/shipping-table-rates-import.png %}){: .zoom}
+   ![]({% link shipping/assets/shipping-table-rates-import.png %}){: .zoom}
    _Import Table Rates_
 
 1. Click <span class="btn">Save Config</span>.

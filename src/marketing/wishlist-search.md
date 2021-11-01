@@ -58,7 +58,7 @@ _Wish list search_
 
 1. In the **Container** list, choose the area of the page layout where it is to be placed.
 
-    ![Wish list search widget - layout]({% link images/images/widget-wishlist-search-layout-update.png %}){: .zoom}
+    ![Wish list search widget - layout]({% link marketing/assets/widget-wishlist-search-layout-update.png %}){: .zoom}
     _Layout Update_
 
 1. In the left panel, choose **Widget Options**.
