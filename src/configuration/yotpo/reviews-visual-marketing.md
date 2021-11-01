@@ -10,7 +10,7 @@ See also [Yotpo documentation](https://support.yotpo.com/en/article/setting-up-y
 
 To view Yotpo Setup fields, you must select the store view in the _Default Config_ drop-down.
 
-![]({% link images/images/yotpo-config-setup-default.png %}){: .zoom}
+![]({% link configuration/assets/yotpo-config-setup-default.png %}){: .zoom}
 _Yotpo Default Setup Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

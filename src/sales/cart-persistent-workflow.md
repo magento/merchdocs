@@ -32,7 +32,7 @@ Customers can select the _Remember Me_ checkbox on the Login page to save the co
 
 {: .cookie-table }
 |![Continue Persistence After Logout - Yes]({% link images/images/retain-persistence-logout-a.png %})|**Yes**|When the customer logs in, invokes the persistent cookie in addition to the session cookie, which is already in use.|
-|![Continue Persistence After Logout - Yes]({% link images/images/retain-persistence-logout-c.png %})|**Yes**|When the customer logs out, deletes both cookies.|
+|![Continue Persistence After Logout - Yes]({% link sales/assets/retain-persistence-logout-c.png %})|**Yes**|When the customer logs out, deletes both cookies.|
 |![Continue Persistence After Logout - Yes]({% link images/images/retain-persistence-logout-b.png %})|**Yes**|If the customer does not log out but the session cookie expires, the persistent cookie remains in effect.|
 
 ## Persistent cart settings and effects

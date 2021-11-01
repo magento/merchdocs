@@ -15,7 +15,7 @@ See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create fre
 
 1. Complete the account information.
 
-   ![Yotpo - create account]({% link images/images/yotpo-account-creation-create.png %}){: .zoom}
+   ![Yotpo - create account]({% link marketing/assets/yotpo-account-creation-create.png %}){: .zoom}
 
     - For **Full Name**, enter the name you want to use for your Yotpo account.
     - For **Email Address**, enter the email address you want to use for your Yotpo account.
@@ -24,7 +24,7 @@ See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create fre
 
 1. On the _We’re Almost Done_ screen, complete the additional account information:
 
-   ![Yotpo - finish account creation]({% link images/images/yotpo-account-creation-finish.png %}){: .zoom}
+   ![Yotpo - finish account creation]({% link marketing/assets/yotpo-account-creation-finish.png %}){: .zoom}
 
     - Set **Platform** to `Magento 2`.
     - For **Website URL**, enter your store URL.
@@ -56,7 +56,7 @@ If you have an existing Yotpo account, you can enable Yotpo inside the Commerce 
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-   ![Yotpo configuration - setup]({% link images/images/yotpo-config-setup.png %}){: .zoom}
+   ![Yotpo configuration - setup]({% link marketing/assets/yotpo-config-setup.png %}){: .zoom}
    _Yotpo Setup settings_
 
 After you connect your store to your Yotpo account, the system sets the default values for your [Widget]({% link marketing/yotpo-settings.md %}) and [Sync]({% link marketing/yotpo-settings.md %}) settings.

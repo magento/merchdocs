@@ -11,16 +11,16 @@ sections:
     content: If you are just getting started with Page Builder, you can get up to speed quickly by completing the tutorials and building a sample page, reusable content block, and catalog page for product listings.
     url: /cms/page-builder-learn.html
   - title: Layout
-    content: Explore the _Layout_ section of the Page Builder panel, and how to use these tools to add rows, columns, or tabs to the Page Builder stage.
+    content: Explore the Layout section of the Page Builder panel, and how to use these tools to add rows, columns, or tabs to the Page Builder stage.
     url: /cms/page-builder-layout.html
   - title: Elements
-    content: Explore the _Elements_ section of the Page Builder panel, and how to use these tools to add text, headings, buttons, dividers, and HTML code to any layout container on the Page Builder stage.
+    content: Explore the Elements section of the Page Builder panel, and how to use these tools to add text, headings, buttons, dividers, and HTML code to any layout container on the Page Builder stage.
     url: /cms/page-builder-elements.html
   - title: Media
-    content: Explore the _Media_ section of the Page Builder panel, and how to use these tools to add images, video, banners, sliders, and Google Maps to any layout container on the Page Builder stage.
+    content: Explore the Media section of the Page Builder panel, and how to use these tools to add images, video, banners, sliders, and Google Maps to any layout container on the Page Builder stage.
     url: /cms/page-builder-media.html
   - title: Add Content
-    content: Explore the _Add Content_ section of the Page Builder panel, and how to add existing content components to the Page Builder stage.
+    content: Explore the Add Content section of the Page Builder panel, and how to add existing content components to the Page Builder stage.
     url: /cms/page-builder-elements.html
 ---
 

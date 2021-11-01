@@ -65,5 +65,5 @@ _Returns Attributes_
 
 1. To save changes, click <span class="btn">Save Attribute</span>.
 
-![]({% link images/images/return-attributes.png %}){: .zoom}
+![]({% link stores/assets/return-attributes.png %}){: .zoom}
 _Manage Labels/Options_

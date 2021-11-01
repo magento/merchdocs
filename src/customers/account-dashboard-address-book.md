@@ -13,7 +13,7 @@ _[Address Book]({% link configuration/customers/customer-configuration.md %})_
 
 1. On the Address Book page under _Additional Address Entries_, clicks <span class="btn">Add New Address</span>.
 
-    ![]({% link images/images/customer-account-addresses-additional-address-add-new.png %}){: .zoom}
+    ![]({% link customers/assets/add-new-address.png %}){: .zoom}
     _Add New Address_
 
 1. Defines the new address item:

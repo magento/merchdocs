@@ -45,7 +45,7 @@ _Enable RMA for a product_
 
 1. Expand the section for the carrier that you want to use for return service, such as **UPS**.
 
-   ![Enable RMA service for carrier ]({% link images/images/rma-delivery-method.png %}){: .zoom}
+   ![Enable RMA service for carrier ]({% link sales/assets/rma-delivery-method.png %}){: .zoom}
    _Shipping method for RMA_
 
 1. Set **Enabled for RMA** to `Yes`.

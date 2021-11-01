@@ -65,7 +65,7 @@ RMAs can be issued for simple, grouped, configurable, and bundle product types. 
 
 1. To create a return, click <span class="btn">Submit Returns</span>.
 
-    ![]({% link images/images/return-item-request.png %}){: .zoom}
+    ![]({% link sales/assets/return-item-request.png %}){: .zoom}
     _RMA Items Requested_
 
     The newly submitted RMA request appears on the **Returns** page with a `Pending` status.
@@ -80,4 +80,4 @@ RMAs can be issued for simple, grouped, configurable, and bundle product types. 
 
 3: Merchandise received and return processed
    The following flow chart describes the operational order to complete the return process:<br/><br/>
-   ![Product Return Workflow]({% link images/images/workflow-customer-returns.png %} "Product Return Workflow"){:width="500px"}
+   ![Product Return Workflow]({% link sales/assets/workflow-customer-returns.png %} "Product Return Workflow"){:width="500px"}

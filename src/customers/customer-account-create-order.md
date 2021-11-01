@@ -5,7 +5,7 @@ group: sales
 
 For registered customers who need assistance, you can create an entire order directly from the Admin. The Create New Order form includes all the information that is needed to complete the normal checkout process, with activity summaries from the customer’s account dashboard.
 
-![]({% link images/images/customer-create-new-order.png %}){: .zoom}
+![]({% link customers/assets/create-new-order.png %}){: .zoom}
 _Create New Order_
 
 ## Step 1: Create a new order
@@ -45,19 +45,19 @@ You can transfer items to the cart from a customer's wish list, as well as recen
 
    The item appears in the order form.
 
-   ![]({% link images/images/customer-account-create-order-add-from-wishlist.png %}){: .zoom}
+   ![]({% link customers/assets/create-order-add-wishlist.png %}){: .zoom}
    _Add to Cart_
 
 ### Add products from the catalog
 
 1. Click <span class="btn">Add Products</span>.
 
-   ![]({% link images/images/customer-account-add-product-from-wishlist.png %}){: .zoom}
+   ![]({% link customers/assets/account-add-wishlist-product.png %}){: .zoom}
    _Add Products_
 
 1. In the grid, select the checkbox of each product to be added to the cart and enter the **Qty** to be purchased.
 
-   ![]({% link images/images/customer-account-create-order-select-from-catalog.png %}){: .zoom}
+   ![]({% link customers/assets/create-order-from-catalog.png %}){: .zoom}
    _Select Products_
 
 1. Configure available product options:
@@ -78,7 +78,7 @@ You can transfer items to the cart from a customer's wish list, as well as recen
 
    - To update the cart totals, click <span class="btn">Update Items and Quantities</span>.
 
-   ![]({% link images/images/customer-account-create-order-custom-price.png %}){: .zoom}
+   ![]({% link customers/assets/create-order-custom-price.png %}){: .zoom}
    _Custom Price_
 
 1. Complete the following sections as needed for the order:
@@ -95,5 +95,5 @@ Click <span class="btn">Submit Order</span>.
 
 A confirmation is sent to the customer and the customer can view the order details from their account.
 
-![]({% link images/images/customer-account-create-order-submtited.png %}){: .zoom}
+![]({% link customers/assets/create-order-submitted.png %}){: .zoom}
 _Order Created_
