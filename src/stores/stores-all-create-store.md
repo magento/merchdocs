@@ -8,7 +8,7 @@ The important thing to understand is that the stores use the same code and share
 
 Multi-store installations of Adobe Commerce must be configured from the Admin and also from the command line of the server. The Adobe Commerce developer [documentation]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/multi-site/ms_over.html) provides detailed instructions for configuring the server environment.
 
-![Scope - multiple stores]({% link images/images/scope-multistore.png %}){:width="550px"}
+![Scope - multiple stores]({% link stores/assets/scope-multistore.png %}){:width="550px"}
 
 Here are some examples of how URLs can be configured for multiple stores:
 
