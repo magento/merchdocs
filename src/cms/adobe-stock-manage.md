@@ -52,7 +52,7 @@ To search Adobe Stock assets and add a stock image from the WYSIWYG Editor:
 
 1. Click <span class="btn">Search Adobe Stock</span>.
 
-   ![Adobe Stock search results]({% link images/images/adobe-stock/search-grid.png %}){: .zoom}
+   ![Adobe Stock search results]({% link cms/assets/adobe-stock-search-grid.png %}){: .zoom}
    _Adobe Stock search results_
 
 ## Filter and search for Adobe Stock assets
@@ -68,7 +68,7 @@ searching the millions of assets available via Adobe Stock.
 
 1. Enter your keyword search into the **Search by keyword** input field in the top-left and click the magnifying glass or press **Enter**.
 
-   ![Adobe Stock Search Results for the "mango" keyword]({% link images/images/adobe-stock/mango.png %}){: .zoom}
+   ![Adobe Stock Search Results for the "mango" keyword]({% link cms/assets/adobe-stock-search-keyword.png %}){: .zoom}
    _Adobe Stock search results - "mango" keyword_
 
 ### Filter Adobe Stock assets
@@ -88,7 +88,7 @@ searching the millions of assets available via Adobe Stock.
    |Safe search|Enable or disable Safe search|
    |Isolated Assets|Show only Isolated Assets, which have subjects appear alone on a solid background|
 
-   ![Adobe Stock search filters]({% link images/images/adobe-stock/filters.png %}){: .zoom}
+   ![Adobe Stock search filters]({% link cms/assets/adobe-stock-filters.png %}){: .zoom}
    _Adobe Stock search filters_
 
 1. Click **Apply Filters**.
@@ -110,7 +110,7 @@ Each image has details available for viewing. Additional image-specific actions,
    - Related images, such as images from the same _series_ or _model_
    - Action buttons, such as [Save Preview][save-preview] and [Save (and optionally license) Image][save-licensed]
 
-   ![Adobe Stock image details]({% link images/images/adobe-stock/image-details.png %}){: .zoom}
+   ![Adobe Stock image details]({% link cms/assets/adobe-stock-image-details.png %}){: .zoom}
    _Adobe Stock image details_
 
 ## Log in to your Adobe account
@@ -125,7 +125,7 @@ To gain complete access to an image and eliminate the Adobe Stock watermark, you
 
    After completing the sign-in process, the [licensed state][licensed-state] of images is displayed in search results as an additional label.
 
-   ![Adobe sign in]({% link images/images/adobe-stock/ims-login.png %}){: .zoom}
+   ![Adobe sign in]({% link cms/assets/adobe-stock-account-login.png %}){: .zoom}
    _Adobe account sign in_
 
 ### View the licensed state of search results
@@ -134,7 +134,7 @@ To gain complete access to an image and eliminate the Adobe Stock watermark, you
 
 All licensed images associated to your Adobe account will have an additional label displayed on them, making it clear which images you have licensed.
 
-![Adobe Stock search results with licensed images]({% link images/images/adobe-stock/licensed-images.png %}){: .zoom}
+![Adobe Stock search results with licensed images]({% link cms/assets/adobe-stock-licensed-images.png %}){: .zoom}
 _Adobe Stock search results with licensed images_
 
 ### Save images to the Media Storage
@@ -155,7 +155,7 @@ An image preview is a watermarked version of an Adobe Stock asset. Image preview
 
     This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
-    ![Save Adobe Stock preview image]({% link images/images/adobe-stock/save-preview.png %}){: .zoom}
+    ![Save Adobe Stock preview image]({% link cms/assets/adobe-stock-save-preview.png %}){: .zoom}
     _Save the preview image_
 
 1. Click <span class="btn">Confirm</span>.
@@ -181,7 +181,7 @@ Adobe Stock assets that you want to use for your production Commerce stores shou
 
    This displays a prompt for you to specify a file name that is used to save the image to the [Media Storage][media-storage]. A default file name is provided, but you can customize the name to your preferences.
 
-   ![Save Adobe Stock licensed image]({% link images/images/adobe-stock/save-licensed.png %}){: .zoom}
+   ![Save Adobe Stock licensed image]({% link cms/assets/adobe-stock-save-licensed.png %}){: .zoom}
    _Save the licensed image_
 
 1. Click <span class="btn">Confirm</span>.

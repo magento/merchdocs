@@ -4,7 +4,7 @@ title: Stock Message Scenarios
 
 You can use a combination of configuration settings to control stock availability messages on product pages and in listings of products on catalog pages.
 
-![]({% link images/images/storefront-out-of-stock-message.png %}){: .zoom}
+![]({% link catalog/assets/storefront-out-of-stock-message.png %}){: .zoom}
 _Grouped Product with “Out of Stock” Message_
 
 ## Product page stock messages

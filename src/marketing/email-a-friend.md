@@ -57,5 +57,5 @@ When this feature is configured, store customers follow these steps to share pro
 
 1. When ready to send the message, click <span class="btn">Send Email</span>.
 
-    ![Example storefront - email to a friend]({% link images/images/storefront-email-a-friend-form.png %}){: .zoom}
+    ![Example storefront - email to a friend]({% link marketing/assets/storefront-email-a-friend-form.png %}){: .zoom}
     _Email to a Friend Form_

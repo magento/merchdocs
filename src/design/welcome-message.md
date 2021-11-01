@@ -5,7 +5,7 @@ group: getting-started
 
 The welcome message in the header expands to include the name of the customer who is logged in. Before you launch your store, be sure to change the default _Welcome_ text for each store view.
 
-![]({% link images/images/storefront-welcome-message.png %}){: .zoom}
+![]({% link design/assets/storefront-welcome-message.png %}){: .zoom}
 _Welcome message_
 
 ## Change the welcome message

@@ -8,7 +8,7 @@ The Customer Exceptions configuration can be used to set up individual customer 
 
 Only customers with non-standard tax requirements are added to Vertex Cloud. The standard jurisdiction tax rates are used for all other customers.
 
-![]({% link images/images/tax-vertex-cloud-customer-exceptions-grid.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-cloud-customer-exceptions-grid.png %}){: .zoom}
 _Customer Exceptions_
 
 ## Before you begin
@@ -50,7 +50,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
 1. On the _Add Single Exception_ tab under **Customer Information**, do the following:
 
-    ![]({% link images/images/tax-vertex-cloud-configure-exception-single.png %}){: .zoom}
+    ![]({% link tax/assets/tax-vertex-cloud-configure-exception-single.png %}){: .zoom}
     _Add Single Exception_
 
    - In the _Customer Name_ field, enter the full name of the customer as it appears in the _Customers_ grid.
@@ -66,7 +66,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
    - If applicable, use the calendar to choose the **End Date** when the customer is no longer available to Vertex Cloud.
 
-      ![]({% link images/images/tax-vertex-cloud-configure-exception-customer-information.png %}){: .zoom}
+      ![]({% link tax/assets/tax-vertex-cloud-configure-exception-customer-information.png %}){: .zoom}
       _Customer Information_
 
 1. To set **Tax Result**, do one of the following:
@@ -74,7 +74,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
    - Choose `Taxable` if the customer normally pays sales or use tax.
    - Choose `Exempt` if the customer is exempt from paying sales or use tax.
 
-    ![]({% link images/images/tax-vertex-cloud-configure-exception-tax-result.png %}){: .zoom}
+    ![]({% link tax/assets/tax-vertex-cloud-configure-exception-tax-result.png %}){: .zoom}
     _Tax Result_
 
 1. Complete the **Certificate Information** as follows:
@@ -98,7 +98,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
    - When complete, click **Validate** to verify that the information is correct.
 
-      ![]({% link images/images/tax-vertex-cloud-configure-exception-certificate-information.png %}){: .zoom}
+      ![]({% link tax/assets/tax-vertex-cloud-configure-exception-certificate-information.png %}){: .zoom}
       _Certificate Information_
 
 1. In the **Certificate Reporting Criteria** section, do the following:
@@ -109,7 +109,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
    - In the **Expiration Date** field, enter the date that is printed on the exception certificate to indicate when it stops being valid.
 
-    ![]({% link images/images/tax-vertex-cloud-configure-exception-certificate-reporting-criteria.png %}){: .zoom}
+    ![]({% link tax/assets/tax-vertex-cloud-configure-exception-certificate-reporting-criteria.png %}){: .zoom}
     _Certificate Reporting Criteria_
 
 1. Under _Certificate Image_, click **Browse** to upload a PDF of the certificate. Then, navigate to the image file on your computer.
@@ -117,7 +117,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
     {:.bs-callout-info}
     The PDF, JPG and BMP image formats are supported when exceptions are uploaded from a CSV file.
 
-    ![]({% link images/images/tax-vertex-cloud-configure-exception-certificate-image.png %}){: .zoom}
+    ![]({% link tax/assets/tax-vertex-cloud-configure-exception-certificate-image.png %}){: .zoom}
     _Certificate Image_
 
 ## Upload multiple exceptions
@@ -132,7 +132,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
    For information about each item in the template, see the following column descriptions:
 
-   ![]({% link images/images/tax-vertex-configure-exception-upload-template.png %})
+   ![]({% link tax/assets/tax-vertex-configure-exception-upload-template.png %})
 
 1. Complete the upload data according to the following field descriptions and save it as a comma-separated value (CSV) file.
 
@@ -156,7 +156,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
 
 1. To upload the completed template, click **Browse**. Then, navigate to the file on your computer and click **Upload File**.
 
-   ![]({% link images/images/tax-vertex-cloud-configure-exception-upload-multiple.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-cloud-configure-exception-upload-multiple.png %}){: .zoom}
    _Upload Multiple Exceptions_
 
    **Customer Information**

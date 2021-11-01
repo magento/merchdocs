@@ -26,7 +26,7 @@ _Tax Rules_
 
    - Update the form as needed and click <span class="btn">Save</span>.
 
-   ![]({% link images/images/tax-rule-information.png %}){: .zoom}
+   ![]({% link tax/assets/tax-rule-information.png %}){: .zoom}
    _Tax Rule Information_
 
 1. To enter tax rates, use either of the following methods:
@@ -39,7 +39,7 @@ _Tax Rules_
 
 1. When complete, click <span class="btn">Save</span>.
 
-   ![]({% link images/images/tax-rate-create-new.png %}){: .zoom}
+   ![]({% link tax/assets/tax-rate-create-new.png %}){: .zoom}
    _New Tax Rate_
 
 ### Method 2: Import tax rates
@@ -54,7 +54,7 @@ _Tax Rules_
 
 1. To export tax rates, click **Export Tax Rates** (see [Import/Export Tax Rates]({% link system/data-transfer-tax-rates.md %})).
 
-![]({% link images/images/tax-rule-new-import-export.png %}){: .zoom}
+![]({% link tax/assets/tax-rule-new-import-export.png %}){: .zoom}
 _Import / Export Tax Rates_
 
 ## Step 2: Complete the additional settings
@@ -81,7 +81,7 @@ _Import / Export Tax Rates_
 
 1. For **Sort Order**, enter a number to indicate the order of this tax rule when listed with others.
 
-   ![]({% link images/images/tax-rule-new-additional-settings.png %}){: .zoom}
+   ![]({% link tax/assets/tax-rule-new-additional-settings.png %}){: .zoom}
    _Additional Settings_
 
 1. When complete, click <span class="btn">Save Rule</span>.

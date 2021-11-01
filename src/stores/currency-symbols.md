@@ -4,7 +4,7 @@ title: Currency Symbols
 
 Manage Currency Symbols gives you the ability to customize the symbol associated with each currency that is accepted as payment in your store.
 
-![Currency symbols]({% link images/images/stores-currency-symbols.png %}){: .zoom}
+![Currency symbols]({% link stores/assets/stores-currency-symbols.png %}){: .zoom}
 _Currency Symbols_
 
 ## Customize currency symbols

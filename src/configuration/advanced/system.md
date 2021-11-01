@@ -218,7 +218,7 @@ _Adobe Stock Integration_
 
 ## Media Gallery
 
-![Advanced configuration - Media Gallery]({% link images/images/enhanced-media-gallery/system-enhanced-media-gallery.png %}){: .zoom}
+![Advanced configuration - Media Gallery]({% link configuration/advanced/assets/system-media-gallery.png %}){: .zoom}
 _Media Gallery_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -227,7 +227,7 @@ _Media Gallery_
 
 ## Media Gallery Image Optimization
 
-![Advanced configuration - Media Gallery Image Optimization]({% link images/images/enhanced-media-gallery/system-image-optimization.png %}){: .zoom}
+![Advanced configuration - Media Gallery Image Optimization]({% link configuration/advanced/assets/system-media-image-optimization.png %}){: .zoom}
 _Media Gallery Image Optimization_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

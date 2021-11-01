@@ -4,7 +4,7 @@ title: PayPal Payments Pro
 
 [PayPal Payments Pro][3] brings you all the benefits of a merchant account and payment gateway in one, plus the ability to create your own, fully customized checkout experience. PayPal Express Checkout is automatically enabled with PayPal Payments Pro, so you can tap into more than 110 million active PayPal users.
 
-![PayPal Payments Pro displayed in the mini cart]({% link images/images/storefront-mini-cart-payments-pro-racer-tank.png %}){: .zoom}
+![PayPal Payments Pro displayed in the mini cart]({% link payment/assets/storefront-mini-cart-payments-pro-racer-tank.png %}){: .zoom}
 _PayPal Payments Pro on storefront_
 
 {:.bs-callout-warning}
