@@ -4,7 +4,7 @@ title: Allow Reorders
 
 When enabled, reorders can be made directly from the customer account or from the original order in the _Admin_. Reorders are enabled by default.
 
-![]({% link images/images/customer-reorder.png %}){: .zoom}
+![]({% link sales/assets/customer-reorder.png %}){: .zoom}
 _Customer reorder link in the Admin_
 
 ## Criteria for reorder to be allowed for an order

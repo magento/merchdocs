@@ -13,7 +13,7 @@ Customers usually reset their passwords from the storefront by clicking the “F
 
 1. When prompted, enter the **Email Address** that is associated with your account and click <span class="btn">Reset My Password</span>.
 
-   ![]({% link images/images/customer-account-sign-in-forgot-password.png %}){: .zoom}
+   ![]({% link customers/assets/forgot-password.png %}){: .zoom}
    _Forgot Your Password_
 
    If the email address you entered matches the one that is associated with the account, you will receive a Password Reset Confirmation email with a link to reset your password.
