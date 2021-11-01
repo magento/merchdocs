@@ -16,8 +16,9 @@ If you plan to upload large images for viewing on the _Product Details_ page, yo
 
 ### Upload an image
 
-{:.bs-callout-info}
 For the best compatibility, it is recommended to upload all product images with the `sRGB` color profile. All other color profiles are automatically converted to the `sRGB` color profile during the product image upload, which could cause color inconsistency in the uploaded image.
+
+The image file name length, including extension, cannot exceed 90 characters.
 
 To upload an image, do one of the following:
 

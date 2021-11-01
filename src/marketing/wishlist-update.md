@@ -35,7 +35,7 @@ _“My Wish List” in customer account_
 
    Any options selected for the product appear below the product name.
 
-    ![Commerce Admin - customer wish list]({% link images/images/customer-wishlist-edit-admin.png %}){: .zoom}
+    ![Commerce Admin - customer wish list]({% link marketing/assets/customer-wishlist-edit-admin.png %}){: .zoom}
     _Wish list from the Admin_
 
 1. To edit the product options, do the following:

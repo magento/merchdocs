@@ -16,36 +16,36 @@ Follow the basic [instructions]({% link marketing/price-rules-cart.md %}) to cre
 
 1. Click **Add** (![]({% link images/images/btn-add-grn.png %})) and choose **Product Attribute Combination**.
 
-    ![Cart price rule condition - product attribute combination]({% link images/images/price-rule-cart-minimum-discount-condition1.png %}){: .zoom}
+    ![Cart price rule condition - product attribute combination]({% link marketing/assets/condition1.png %}){: .zoom}
     _Product Attribute Combination_
 
 1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line. Then, in the list under **Product Attribute**, choose **Category**.
 
-    ![Cart price rule condition - category]({% link images/images/price-rule-cart-minimum-discount-condition2.png %}){: .zoom}
+    ![Cart price rule condition - category]({% link marketing/assets/condition2.png %}){: .zoom}
     _Category_
 
     - Click the (**…**) _more_ link to display additional options.
 
-        ![Cart price rule condition - category options]({% link images/images/price-rule-cart-minimum-discount-condition3.png %}){: .zoom}
+        ![Cart price rule condition - category options]({% link marketing/assets/condition3.png %}){: .zoom}
         _Category IS_
 
     - Click the **Chooser** (![List icon]({% link images/images/btn-chooser.png %})) icon to see the available categories. In the category tree, select the checkbox of each category that you want to include. Then, press **Enter** to add the categories to the condition.
 
-        ![Cart price rule condition - category]({% link images/images/price-rule-cart-minimum-discount-condition4.png %}){: .zoom}
+        ![Cart price rule condition - category]({% link marketing/assets/condition4.png %}){: .zoom}
         _Category IS_
 
 1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line and do the following:
 
     - In the list under **Cart Item Attribute**, choose **Price in cart**.
 
-        ![Cart price rule condition - cart item attribute]({% link images/images/price-rule-cart-minimum-discount-condition5.png %}){: .zoom}
+        ![Cart price rule condition - cart item attribute]({% link marketing/assets/condition5.png %}){: .zoom}
         _Category IS_
 
     - Click **is** and choose `equals or greater than`.
 
     - Click **...** and enter the amount that the Price in Cart must be to meet the condition. For example, enter `200`.
 
-        ![Cart price rule condition - price in cart]({% link images/images/price-rule-cart-minimum-discount-condition6.png %}){: .zoom}
+        ![Cart price rule condition - price in cart]({% link marketing/assets/condition6.png %}){: .zoom}
         _Enter the Price to Complete the Condition_
 
 1. Click <span class="btn">Save and Continue Edit </span>.
@@ -54,7 +54,7 @@ Follow the basic [instructions]({% link marketing/price-rules-cart.md %}) to cre
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Actions** section and do the following:
 
-    ![Cart price rule actions]({% link images/images/price-rule-cart-minimum-discount-actions.png %}){: .zoom}
+    ![Cart price rule actions]({% link marketing/assets/minimum-discount-actions.png %}){: .zoom}
     _Actions_
 
     - Set **Apply** to `Percent of product price discount`.
