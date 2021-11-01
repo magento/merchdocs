@@ -59,7 +59,7 @@ Before Google reCAPTCHA can be configured, you must ensure that yourÂ `PHP.ini`Â
 The reCAPTCHA type you choose must match the type that is associated with the API key from your Google reCAPTCHA account.
 
 {:.bs-callout-warning}
-When using version 3, a genuine user with low score will be unable to proceed; when using version 2, a genuine user with a low score will receive an challenge. Consider carefully if genuine users with a low score should be given an opportunity to solve a challenge (version 2) or completely blocked (version 3).
+When using reCAPTCHA version 3, a genuine user with low score cannot proceed. For version 2, a genuine user with a low score receives a challenge. Consider carefully if genuine users with a low score should have an opportunity to solve a challenge (version 2) or be completely blocked (version 3).
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--|--|--|
