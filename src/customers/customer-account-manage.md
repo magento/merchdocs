@@ -4,7 +4,7 @@ title: Managing Customer Accounts
 
 Use the Customers grid to find any customer account. You can use the standard [workplace controls]({% link stores/admin-workspace.md %}) to filter the list, change the [column layout]({% link stores/admin-grid-controls.md %}), save views, and export data. The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an operation to multiple customer records.
 
-![]({% link images/images/customers-all-customers.png %}){: .zoom}
+![]({% link customers/assets/customers-all-customers.png %}){: .zoom}
 _All Customers_
 
 ## Customer account actions
@@ -87,7 +87,7 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 
    The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
 
-   ![]({% link images/images/customers-grid-quick-edit.png %}){: .zoom}
+   ![]({% link customers/assets/customers-grid-quick-edit.png %}){: .zoom}
    _Quick Edit_
 
 1. Update any of the following values, as needed:

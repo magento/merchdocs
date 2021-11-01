@@ -8,7 +8,7 @@ The product reports give you insight regarding products viewed and ordered, best
 
 On the _Admin_ sidebar, go to **Reports** > _Products_ > **Views**.
 
-![]({% link images/images/reports-product-views.png %}){: .zoom}
+![]({% link reports/assets/product-views.png %}){: .zoom}
 *Product Views Report*
 
 The Product Views Report shows the products that have been viewed during a time interval or range of dates. The report includes the product name, price, and number of views.
@@ -17,7 +17,7 @@ The Product Views Report shows the products that have been viewed during a time 
 
 On the _Admin_ sidebar, go to **Reports** > _Products_ > **Bestsellers**.
 
-![]({% link images/images/reports-products-bestsellers.png %}){: .zoom}
+![]({% link reports/assets/bestsellers.png %}){: .zoom}
 *Bestsellers Report*
 
 The Bestsellers Report shows the five top-selling five during an interval of time or date range. The report includes the product name, price, and quantity ordered.
@@ -26,7 +26,7 @@ The Bestsellers Report shows the five top-selling five during an interval of tim
 
 On the _Admin_ sidebar, go to **Reports** > _Products_ > **Low Stock**.
 
-![]({% link images/images/reports-product-low-stock.png %}){: .zoom}
+![]({% link reports/assets/low-stock.png %}){: .zoom}
 *Low Stock Report*
 
 The Low Stock Report lists all products with stock levels within a specified range. With Inventory Management enabled, the report includes low stock inventory amounts per source with the listed source code.
@@ -35,7 +35,7 @@ The Low Stock Report lists all products with stock levels within a specified ran
 
 On the _Admin_ sidebar, go to **Reports** > _Products_ > **Ordered**.
 
-![]({% link images/images/reports-products-ordered.png %}){: .zoom}
+![]({% link reports/assets/products-ordered.png %}){: .zoom}
 *Ordered Products Report*
 
 The Ordered Products Report lists all products ordered for a specified time interval or date range. The report includes the product name and quantity ordered.
@@ -44,7 +44,7 @@ The Ordered Products Report lists all products ordered for a specified time inte
 
 On the _Admin_ sidebar, go to **Reports** > _Products_ > **Downloaded**.
 
-![]({% link images/images/reports-products-downloads.png %}){: .zoom}
+![]({% link reports/assets/downloads.png %}){: .zoom}
 *Downloads Report*
 
 The Downloads Report lists all downloads during the specified time interval or date range. The report includes the product name, download link, and SKU, with the number of purchases and downloads.

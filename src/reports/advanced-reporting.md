@@ -8,7 +8,7 @@ Advanced Reporting, which is included with Adobe Commerce and Magento Open Sourc
 
 For technical information, see [Advanced Reporting][2]{:target="_blank"} in our developer documentation.
 
-![]({% link images/images/reporting-advanced.png %}){: .zoom}
+![]({% link reports/assets/reporting-advanced.png %}){: .zoom}
 _Advanced Reporting dashboard_
 
 ## Requirements
@@ -65,7 +65,7 @@ In the Commerce configuration, [Advanced Reporting]({% link configuration/genera
    * Hover over any data point for more information.
    * Click each tab to see all dashboard reports.
 
-   ![]({% link images/images/reporting-advanced-data-point.png %}){: .zoom}
+   ![]({% link reports/assets/reporting-advanced-data-point.png %}){: .zoom}
    *Data Point*
 
 ## To access your data resources:
