@@ -205,8 +205,8 @@ Adobe Commerce aand Magento Open Source support several versions of Elasticsearc
 |Elasticsearch Server Port|Global|Specifies the number of the server port used by Elasticsearch. Default value: `9200`|
 |Elasticsearch Index Prefix|Global|Assigns a prefix to identify the Elasticsearch index. Default value: `magento2`|
 |Enable Elasticsearch HTTP Auth|Global|If enabled, uses HTTP authentication to prompt for a username and password before accessing Elasticsearch Server. Options: Yes / No|
-|Elasticsearch HTTP Username|Global|Specifies the username for Elasticsearch HTTP authentication.|
-|Elasticsearch HTTP Password|Global|Specifies the password for Elasticsearch HTTP authentication.|
+|Elasticsearch HTTP Username|Global|When _Enable Elasticsearch HTTP Auth_ is set to `Yes`, specifies the username for Elasticsearch HTTP authentication.|
+|Elasticsearch HTTP Password|Global|When _Enable Elasticsearch HTTP Auth_ is set to `Yes`, specifies the password for Elasticsearch HTTP authentication.|
 |Elasticsearch Server Timeout|Global|Determines the number of seconds before the server times out. Default value: `15`|
 |Test Connection||Validates the Elasticsearch connection.|
 |Enable Search Recommendations|Store View|Determines if search recommendations are offered when a search returns no results and appear under the `Related search terms` section on the **Search results** page. Options: Yes / No <br/>When set to Yes, additional options display for Search Recommendations Count and Shows Results Count for Each Recommendation.|
