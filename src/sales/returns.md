@@ -80,4 +80,4 @@ RMAs can be issued for simple, grouped, configurable, and bundle product types. 
 
 3: Merchandise received and return processed
    The following flow chart describes the operational order to complete the return process:<br/><br/>
-   ![Product Return Workflow]({% link images/images/workflow-customer-returns.png %} "Product Return Workflow"){:width="500px"}
+   ![Product Return Workflow]({% link sales/assets/workflow-customer-returns.png %} "Product Return Workflow"){:width="500px"}
