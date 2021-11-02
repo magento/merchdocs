@@ -31,7 +31,7 @@ This happens in two steps:
 The only data that is exported and collated for reporting purposes is data used by the Order payment status report.
 
 {:.bs-callout-info}
-The data shown in this table is sorted `DESC` by default using the `ORDER DATE`. This corresponds to the date timestamp when the order was created.
+The data shown in this table is sorted in descending order (`DESC`) by default using the `ORDER DATE`. The `ORDER DATE` is the date timestamp when the order was created.
 
 ### Configure data export
 
