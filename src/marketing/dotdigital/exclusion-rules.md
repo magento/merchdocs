@@ -6,7 +6,7 @@ redirect_from:
 
 Create an exclusion rule in your Commerce store to prevent abandoned cart and review emails from being sent from dotdigital [campaigns]({% link marketing/dotdigital/campaign-create.md %}) under certain conditions. The rule describes the conditions that trigger the action. For example, a rule might exclude all abandoned carts with a subtotal that is equal to, or less than ten.
 
-![Customer engagement - exclusion rules]({% link images/images/engagement-cloud-exclusion-rules.png %}){: .zoom}
+![Customer engagement - exclusion rules]({% link marketing/assets/engagement-cloud-exclusion-rules.png %}){: .zoom}
 _Exclusion rules_
 
 ## Add a New Rule
@@ -15,7 +15,7 @@ _Exclusion rules_
 
 1. In the upper-right corner, click <span class="btn">Add New Rule</span>.
 
-    ![New exclusion rule]({% link images/images/engagement-cloud-exclusion-rules-iinformation.png %}){: .zoom}
+    ![New exclusion rule]({% link marketing/assets/engagement-cloud-exclusion-rules-iinformation.png %}){: .zoom}
     _Rule information_
 
 1. On the _Rule Information_ tab, do the following:
@@ -39,7 +39,7 @@ _Exclusion rules_
       - `ANY`
       - `ALL`
 
-        ![Exclusion rule conditions]({% link images/images/engagement-cloud-exclusion-rules-conditions.png %}){: .zoom}
+        ![Exclusion rule conditions]({% link marketing/assets/engagement-cloud-exclusion-rules-conditions.png %}){: .zoom}
         _Exclusion rule conditions_
 
 1. Click <span class="btn">Add New Condition</span>. Then, do the following:
@@ -48,7 +48,7 @@ _Exclusion rules_
    - Under _Condition_, choose the operator.
    - Enter the **Value** that is needed to complete the condition.
 
-    ![Exclusion rule - add new condition]({% link images/images/engagement-cloud-exclusion-rules-conditions-new.png %}){: .zoom}
+    ![Exclusion rule - add new condition]({% link marketing/assets/engagement-cloud-exclusion-rules-conditions-new.png %}){: .zoom}
     _Add new condition_
 
 1. To add another condition, click <span class="btn">Add New Condition</span> and repeat these steps.
