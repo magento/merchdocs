@@ -15,7 +15,7 @@ The Frontend Development Workflow configuration is available in [Developer Mode]
 
 1. In the left panel, expand **Advanced** and choose **Developer**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Front-end Development Workflow** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Front-end Development Workflow** section.
 
 1. Set **Workflow Type** to one of the following:
 

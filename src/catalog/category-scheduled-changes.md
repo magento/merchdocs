@@ -22,7 +22,7 @@ _Scheduled Changes_
 
    - Enter a brief **Description** of the update and how it is to be used.
 
-   - Use the Calendar (![]({% link images/images/btn-calendar.png %})) tool to choose the **Start Date** and **End Date** for the campaign.
+   - Use the Calendar (![]({% link assets/icon-calendar.png %})) tool to choose the **Start Date** and **End Date** for the campaign.
 
 1. Make any changes necessary to the scheduled update.
 

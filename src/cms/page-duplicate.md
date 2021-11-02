@@ -30,7 +30,7 @@ _Save & Duplicate_
 
    - Update the **Page Title**, as needed.
 
-   - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section and enter the unique **URL Key** that you want to use for the duplicate page.
+   - Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Search Engine Optimization** section and enter the unique **URL Key** that you want to use for the duplicate page.
 
       ![]({% link images/images/page-search-engine-optimization-url-key-duplicate.png %}){: .zoom}
       _Temporary URL key_

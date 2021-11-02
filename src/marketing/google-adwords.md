@@ -61,7 +61,7 @@ _Magento Ad in Google Search Results_
 
 1. In the left panel, expand **Sales** and choose **Google API**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Google AdWords** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Google AdWords** section and do the following:
 
     If necessary, clear the **Use Website** checkbox for each setting to be changed.
 

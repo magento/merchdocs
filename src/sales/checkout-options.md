@@ -16,7 +16,7 @@ _[Checkout options configuration settings]({% link configuration/sales/checkout.
 1. Set any of the following options you require.
 1. Click **Save Config**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Checkout Options** section.
 
 1. If the settings are for a specific store view, [choose the store view]({% link configuration/scope-change.md %}) where the configuration applies.
 

@@ -20,7 +20,7 @@ _Scheduled design changes_
 
 1. Set **Custom Design** to the theme, or variation of a theme, to be used.
 
-1. For the **Date From** and **Date To**, click the _Calendar_ (![]({% link images/images/btn-calendar.png %})) icon to choose the start and end values for the period when the change is in effect.
+1. For the **Date From** and **Date To**, click the _Calendar_ (![]({% link assets/icon-calendar.png %})) icon to choose the start and end values for the period when the change is in effect.
 
 1. When complete, click <span class="btn">Save</span>.
 

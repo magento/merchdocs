@@ -30,18 +30,18 @@ _RSS Feeds_
 
 1. In the left panel, expand **Catalog** and choose **RSS Feeds**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Rss Config** section. Then, set **Enable RSS** to `Enable`.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Rss Config** section. Then, set **Enable RSS** to `Enable`.
 
     If necessary, clear the **Use Default** checkbox to change the default value.
 
     ![Catalog configuration - RSS feeds]({% link images/images/config-catalog-rss-feeds-rss-config.png %}){: .zoom}
     _RSS Feeds_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Wish List** section and set **Enable RSS** to `Enable`.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Wish List** section and set **Enable RSS** to `Enable`.
 
     If necessary, clear the **Use Default** checkbox to change the default value.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Catalog** section and set other feeds to `Enable` as needed.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Catalog** section and set other feeds to `Enable` as needed.
 
    If necessary, clear the **Use Default** checkbox to change the default value.
 
@@ -53,7 +53,7 @@ _RSS Feeds_
     ![]({% link images/images/config-catalog-rss-feeds-catalog.png %}){: .zoom}
     _Catalog_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order** section and set **Customer Order Status Notification** to `Enable`.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Order** section and set **Customer Order Status Notification** to `Enable`.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

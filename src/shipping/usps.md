@@ -16,7 +16,7 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. In the left panel, expand **Sales** and choose **Delivery Methods**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **USPS** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **USPS** section.
 
    {:.bs-callout-info}
    If necessary, first deselect the **Use system value** checkbox to change the following settings as described.

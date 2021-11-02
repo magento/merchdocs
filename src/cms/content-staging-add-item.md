@@ -20,7 +20,7 @@ The following example adds a promotional image to the category page for the dura
    ![]({% link images/images-ee/content-staging-assign-to-existing-campaign.png %}){: .zoom}
    _Assigning to an existing campaign_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Content**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Content**.
 
 1. For **Category Image**, click <span class="btn">Upload</span> and select the image to be displayed on the category page during the campaign.
 
@@ -41,7 +41,7 @@ The following example adds a promotional image to the category page for the dura
    ![]({% link images/images-ee/content-staging-dashboard-summary.png %}){: .zoom}
    _Campaign detail_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Categories** to view the list of assigned categories.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Categories** to view the list of assigned categories.
 
 1. Return to the dashboard, click the campaign again, and then click <span class="btn">Preview</span> to review the pages for the category when the campaign is active.
 

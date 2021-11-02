@@ -68,7 +68,7 @@ To use New Relic APM Pro to gather and transmit data, the PHP agent must be ins
 
 ## Step 4: Enable Cron for New Relic Reporting
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Cron** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the **Cron** section.
 
     ![]({% link images/images/config-general-new-relic-reporting-cron.png %}){: .zoom}
     [_Cron_]({% link configuration/general/new-relic-reporting.md %})

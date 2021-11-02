@@ -14,7 +14,7 @@ _Cross-sells in Shopping Cart_
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the _Related Products, Up-Sells, and Cross-Sells_ section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the _Related Products, Up-Sells, and Cross-Sells_ section.
 
 1. Click <span class="btn">Add Cross-Sell Products</span>.
 

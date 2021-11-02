@@ -11,7 +11,7 @@ The Gift Card configuration establishes the default settings for all gift cards 
 
 1. In the left panel, expand **Sales** and choose **Gift Cards**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Gift Card Email Settings_ section and do the following:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Gift Card Email Settings_ section and do the following:
 
    - Set **Gift Card Notification Email Sender** to the store identity that appears as the sender of gift card notifications.
 
@@ -20,7 +20,7 @@ The Gift Card configuration establishes the default settings for all gift cards 
     ![]({% link images/images/config-sales-gift-cards-gift-card-email-settings.png %}){: .zoom}
     [_Gift Card Email Settings_]({% link configuration/sales/gift-cards.md %})
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Email Sent from Gift Card Account Management_ section and do the following:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Email Sent from Gift Card Account Management_ section and do the following:
 
    - Set **Gift Card Email Sender** to the store identity to appear as the sender of the gift cards.
 
@@ -30,7 +30,7 @@ See [Store Email Addresses]({% link configuration/general/store-email-addresses.
 
 ## Step 2: Complete the general settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Gift Card General Settings_ section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Gift Card General Settings_ section.
 
 1. To allow the customer to redeem the value on the card for cash, set **Redeemable** to `Yes`.
 
@@ -53,7 +53,7 @@ See [Store Email Addresses]({% link configuration/general/store-email-addresses.
 
 ## Step 3: Establish the gift card code pool
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Gift Card Account General Settings_ section and do the following:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Gift Card Account General Settings_ section and do the following:
 
    ![]({% link images/images/config-sales-gift-cards-gift-card-account-general-settings.png %}){: .zoom}
    [_Gift Card Account General Settings_]({% link configuration/sales/gift-cards.md %})

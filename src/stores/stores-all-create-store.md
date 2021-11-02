@@ -81,14 +81,14 @@ The first step is to choose how you want to position the store. Will the stores 
     ![Store view]({% link stores/assets/create-store-config-view.png %}){: .zoom}
     _Choose the New Store View_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Base URLs** section and enter the base URL for the store.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the **Base URLs** section and enter the base URL for the store.
 
     If needed, clear the **Use system value** checkbox to change the setting.
 
     ![General configuration - web base URLs]({% link images/images/config-general-web-base-urls-clear-checkbox.png %})
     [Base URLs]({% link configuration/general/web.md %})
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Secure Base URLs** section and repeat the previous step as needed to configure the store’s [secure URL]({% link stores/store-urls.md %}).
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the **Secure Base URLs** section and repeat the previous step as needed to configure the store’s [secure URL]({% link stores/store-urls.md %}).
 
 1. Click <span class="btn">Save Config</span>.
 

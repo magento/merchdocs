@@ -14,7 +14,7 @@ The Admin email template configuration determines the email templates that are s
 
 1. In the left side panel under **Advanced**, choose **Admin**.
 
-1. Expand ![expansion toggler]({% link images/images/btn-expand.png %}) the **Admin User Emails** section.
+1. Expand ![expansion toggler]({% link assets/icon-display-expand.png %}) the **Admin User Emails** section.
 
 1. Set **Forgot Password Email Template** to the template that is sent when an Admin user forgets their passwords.
 

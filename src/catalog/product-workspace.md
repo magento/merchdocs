@@ -25,7 +25,7 @@ _Attribute Set_
 
 ## Expand/collapse
 
-To expand or collapse a section, click either the expand ![]({% link images/images/btn-expand.png %}) or collapse ![]({% link images/images/btn-collapse.png %}) icon.
+To expand or collapse a section, click either the expand ![]({% link assets/icon-display-expand.png %}) or collapse ![]({% link assets/icon-display-collapse.png %}) icon.
 
 ## Save menu
 

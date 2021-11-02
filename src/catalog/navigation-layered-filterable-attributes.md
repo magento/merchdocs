@@ -48,7 +48,7 @@ The [Position field]({% link stores/attributes-product.md %}) will be grayed out
 
 1. In the categories tree, select the category where you want to use layered navigation.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Display Settings** section and set **Anchor** to `Yes`.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Display Settings** section and set **Anchor** to `Yes`.
 
 1. Click <span class="btn">Save</span>.
 

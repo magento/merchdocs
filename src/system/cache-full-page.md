@@ -21,7 +21,7 @@ For technical information, see [Configure and Use Varnish][1]{:target="_blank"} 
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Full Page Cache** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Full Page Cache** section.
 
     ![Advanced configuration - full page cache]({% link images/images/config-advanced-system-full-page-cache.png %}){: .zoom}
     [_Full Page Cache_]({% link configuration/advanced/system.md %})

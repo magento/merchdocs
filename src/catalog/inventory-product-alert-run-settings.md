@@ -13,7 +13,7 @@ These settings enable you to select how often Commerce checks for changes that r
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Product Alerts Run Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Product Alerts Run Settings** section.
 
 1. To determine how often product alerts are sent, set **Frequency** to one of the following:
 
