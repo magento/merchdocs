@@ -39,7 +39,7 @@ The balance of the gift card is displayed.
 
 1. The customer clicks **Redeem Gift Card**.
 
-![]({% link customers/assets/gift-reddemed-balance.png %}){: .zoom}
+![]({% link customers/assets/gift-redeemed-balance.png %}){: .zoom}
 _Message about successful activation of the gift card_
 
 The gift card amount is activated and added to the total _Store Credit_ balance.
