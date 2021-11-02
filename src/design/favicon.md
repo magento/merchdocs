@@ -31,7 +31,7 @@ _Favicon in the browser tab_
 
 1. Click <span class="btn">Upload</span> and open the favicon file that you prepared.
 
-   ![]({% link images/images/favicon-upload.png %}){: .zoom}
+   ![]({% link design/assets/favicon-upload.png %}){: .zoom}
    _Uploaded favicon_
 
 1. When complete, click <span class="btn">Save Configuration</span>.
