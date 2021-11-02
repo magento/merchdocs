@@ -48,7 +48,7 @@ _Security scan tool_
 
       - In the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
       - Find your site in the list, and click **Edit**.
-      - Expand ![]({% link images/images/btn-expand.png %}) the **HTML Head** section.
+      - Expand ![]({% link assets/icon-display-expand.png %}) the **HTML Head** section.
       - Scroll down to **Scripts and Style Sheets** and click in the text box at the end of any existing code and paste the confirmation code into the text box.
 
          ![]({% link images/images/magento-security-scan-paste-confirmation-code.png %}){: .zoom}

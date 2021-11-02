@@ -15,7 +15,7 @@ For technical information, refer to [Supported browsers]({{ site.devdocs_url }}/
 
 1. In the panel on the left under _General_, choose **Web**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Browser Capabilities Detection** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Browser Capabilities Detection** section and do the following:
 
    - To display instructions that explain how to configure the browser to allow cookies, set **Redirect to CMS-page if Cookies are Disabled** to `Yes`.
 

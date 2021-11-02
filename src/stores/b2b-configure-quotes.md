@@ -24,7 +24,7 @@ A quote is controlled via settings in [Role Resources]({% link system/permission
 
 1. In the left panel, expand **Sales** and choose **Quotes**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General** section and do the following:
 
    ![Sales quotes configuration - general]({% link images/images-b2b/config-sales-quotes-general.png %}){: .zoom}
    [_General_]({% link configuration/sales/quotes.md %})
@@ -35,7 +35,7 @@ A quote is controlled via settings in [Role Resources]({% link system/permission
 
    - For **Default Expiration Period**, enter the number of **days**, **weeks**, or **months** that a quote is to remain valid.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Attached files** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Attached files** section and do the following:
 
    - For **File formats for upload**, enter the suffix of each file type that you support for files that are attached to a quote.
 

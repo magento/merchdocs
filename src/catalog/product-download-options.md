@@ -8,7 +8,7 @@ The downloadable configuration settings determine the default values and deliver
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Downloadable Product Options_ section and do the following:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Downloadable Product Options_ section and do the following:
 
     ![]({% link images/images/config-catalog-catalog-downloadable-product-options.png %}){: .zoom}
     [_Downloadable Product Options_]({% link configuration/catalog/catalog.md %})

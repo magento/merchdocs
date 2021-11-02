@@ -11,7 +11,7 @@ The Merchant Location setting is used to configure [payment methods]({% link pay
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Merchant Location** section and choose your **Merchant Country**.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Merchant Location** section and choose your **Merchant Country**.
 
    ![]({% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
    _[Merchant Location setting]({% link configuration/sales/payment-methods.md %})_

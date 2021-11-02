@@ -93,7 +93,7 @@ Admin users can change the maximum number of items displayed in the order summar
 
 1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Checkout Options** section.
 
 1. For **Maximum Number of Items to Display in Order Summary**, enter the maximum number of items to be displayed.
 

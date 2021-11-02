@@ -13,7 +13,7 @@ _Minimum Order Message in Cart_
 
 1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Minimum Order Amount** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Minimum Order Amount** section.
 
    ![The minimum order configuration options expanded on the page]({% link images/images/config-sales-sales-minimum-order-amount.png %}){: .zoom}
    _[Minimum order amount options]({% link configuration/sales/sales.md %})_

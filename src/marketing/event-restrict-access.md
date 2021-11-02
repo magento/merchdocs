@@ -14,7 +14,7 @@ Access to a private sale, event, or site can be limited to registered customers 
 
 1. In the left panel, expand **General** and choose **General** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Website Restrictions** section and do the following:.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Website Restrictions** section and do the following:.
 
    - Set **Access Restriction** to `Yes`.
 

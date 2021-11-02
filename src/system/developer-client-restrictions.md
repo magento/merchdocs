@@ -15,7 +15,7 @@ For technical information, see [Custom VCL for allowing requests][1]{:target="_b
 
 1. In the left panel, expand **Advanced** and choose **Developer**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Developer Client Restrictions** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Developer Client Restrictions** section.
 
     ![Advanced configuration - developer client restrictions]({% link images/images/config-advanced-developer-developer-client-restrictions.png %}){: .zoom}
     [_Developer Client Restrictions_]({% link configuration/advanced/developer.md %})

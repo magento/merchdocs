@@ -34,7 +34,7 @@ _Pending Approval_
 
 1. If applicable, set **Sales Representative** to a specific Admin account.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Account Information** section and use the **Comment** field to enter notes about the account.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Account Information** section and use the **Comment** field to enter notes about the account.
 
    The comments are not visible from the storefront.
 

@@ -14,7 +14,7 @@ _Category Products Viewed as Tiles_
 
 1. Drill down through the category tree and click the category that you want to edit.
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Products in Category** section.
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Products in Category** section.
 
 1. Click the **View as Tiles** ( ![View as tiles]({% link images/images/btn-view-as-tiles.png %}) ) button to display the products as a grid.
 
@@ -26,7 +26,7 @@ _Category Products Viewed as Tiles_
 
     - **Method 1: Drag and Drop**
 
-        Grab the **Drag** (![Drag icon]({% link images/images/btn-drag.png %})) control in the upper-right corner of the product tile and drop the product into position. The number of each product adjusts to reflect the new position.
+        Grab the **Drag** (![Drag icon]({% link assets/icon-move.png %})) control in the upper-right corner of the product tile and drop the product into position. The number of each product adjusts to reflect the new position.
 
     - **Method 2: Set Position Value**
 
@@ -45,7 +45,7 @@ In a clean installation, Adobe Commerce reserves the category ID 2 for the root
 |![]({% link images/images/btn-view-as-tiles.png %}){: .button_height}|View as Tiles|
 |![]({% link images/images/btn-no.png %}){: .button_height}|Match by Rule|
 |![]({% link images/images/btn-yes.png %}){: .button_height}|Match by Rule|
-|![]({% link images/images/btn-drag.png %}){: .button_height}|Drag|
+|![]({% link assets/icon-move.png %}){: .button_height}|Drag|
 |![]({% link images/images/btn-position.png %}){: .button_height}|Position|
 |![]({% link images/images/btn-remove.png %}){: .button_height}|Remove from Category|
 |![]({% link images/images/btn-per-page.png %}){: .button_height}|View Per Page|

@@ -84,7 +84,7 @@ Reuse of the last four passwords assigned to the account is not allowed.
 
 ## Sign out of the Admin
 
-1. In the upper-right corner, click the **Account** (![Account]({% link images/images/btn-account.png %})) icon.
+1. In the upper-right corner, click the **Account** (![Account]({% link assets/icon-admin-user.png %})) icon.
 
 1. Click **Sign Out**.
 
@@ -104,7 +104,7 @@ The Admin provides access to manage the orders, customers, products, shipping, a
 
 1. In the left panel, expand **Advanced** and choose **Admin**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Security** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Security** section.
 
 1. For **Admin Account Sharing**, select `Yes`.
 
@@ -118,7 +118,7 @@ The Admin provides access to manage the orders, customers, products, shipping, a
 
 1. In the left panel, expand **Advanced** and choose **Admin**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Security** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Security** section.
 
 1. Set the **Login is Case Sensitive** field to `Yes`.
 

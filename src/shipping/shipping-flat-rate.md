@@ -13,7 +13,7 @@ Flat rate is a fixed, predefined charge that can be applied per item, or per shi
 
 1. In the left panel, expand **Sales** and choose **Delivery Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Flat Rate** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Flat Rate** section.
 
 1. Set **Enabled** to `Yes`.
 

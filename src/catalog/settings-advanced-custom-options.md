@@ -18,7 +18,7 @@ _Cart with Customizable Option and Price Rule_
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the _Customizable Options_ section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the _Customizable Options_ section.
 
 1. Click <span class="btn">Add Option</span>.
 

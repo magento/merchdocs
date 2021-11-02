@@ -12,7 +12,7 @@ The first step in creating newsletters is to configure the newsletter settings f
 
 1. If needed, [change the configuration scope]({% link configuration/scope-change.md %}) to apply the newsletter configuration changes to a specific site/store view.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Subscription Options** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Subscription Options** section and do the following:
 
    ![Customers configuration - newsletter subscriptions]({% link images/images/config-customers-newsletter-subscription-options.png %}){: .zoom}
    [_Subscription Options_]({% link configuration/customers.md -%})
