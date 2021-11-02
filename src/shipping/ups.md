@@ -16,7 +16,7 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. In the panel on the left, under **Sales**, choose **Delivery Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **UPS** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **UPS** section.
 
 1. Set **Enabled for Checkout** to `Yes`.
 
@@ -172,7 +172,7 @@ The handling fee is optional and appears as an additional charge that is added t
 
 1. In the left panel, expand **Sales** and select **Shipping Settings**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Origin** on the page and configure the shipping origin address.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Origin** on the page and configure the shipping origin address.
 
    ![]({% link shipping/assets/shipping-origin-magento.png %}){: .zoom}
    [_Sales configuration - shipping origin address options_]({% link configuration/sales/shipping-settings.md %})

@@ -20,7 +20,7 @@ The first two steps are the same as if you are inserting an image.
 
    This opens the _Insert/edit image_ dialog.
 
-1. After _Source_, click the _Search_ icon (![]({% link images/images/btn-browse.png %}){: width="20px"}).
+1. After _Source_, click the _Search_ icon (![]({% link cms/assets/media-gallery-icon-browse.png %}){: width="20px"}).
 
 1. In the directory tree on the left, do one of the following:
 
@@ -59,7 +59,7 @@ Open the page or block to be edited. Then, use one of the following methods to i
 
 1. On the [editor]({% link cms/editor.md %}) toolbar, click the _Insert Image_ icon.
 
-1. After _Source_, click the _Search_ icon (![]({% link images/images/btn-browse.png %}){: width="20px"}).
+1. After _Source_, click the _Search_ icon (![]({% link cms/assets/media-gallery-icon-browse.png %}){: width="20px"}).
 
    ![]({% link cms/assets/editor-dialog-insert-image.png %}){: .zoom}
    _Selecting the search icon_

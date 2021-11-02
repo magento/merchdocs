@@ -35,7 +35,7 @@ Follow these instructions to apply a discount to specific products whenever a se
 
    - {:.ce-only}Enter the **From** and **To** dates to determine when the price rule is in effect.
 
-        You can enter the dates or use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the dates. If you leave the dates blank, the rule is enabled as soon as the price rule is saved.
+        You can enter the dates or use the **Calendar** (![Calendar icon]({% link assets/icon-calendar.png %})) to choose the dates. If you leave the dates blank, the rule is enabled as soon as the price rule is saved.
 
    - Enter a number to establish the **Priority** of this rule in relation to other rules.
 
@@ -46,7 +46,7 @@ Follow these instructions to apply a discount to specific products whenever a se
 
 Most of the available conditions are based on existing attribute values. To apply the rule to all products, leave the conditions blank.
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Conditions** section.
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Conditions** section.
 
     The first condition appears by default, and states:
 
@@ -63,7 +63,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
    You can create different conditions by changing the combination of these values. For this example, the default condition is used.
 
-1. Click the **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) icon at the beginning of the next line and select an option for the condition, such as a product attribute or combination.
+1. Click the **Add** (![Add icon]({% link assets/icon-add-green-circle.png %})) icon at the beginning of the next line and select an option for the condition, such as a product attribute or combination.
 
    - In the list under **Product Attribute**, choose the attribute that you want to use as the basis of the condition. For this example, the condition is `Attribute Set`.
 
@@ -88,18 +88,18 @@ Most of the available conditions are based on existing attribute values. To appl
 
    If **ALL** of these conditions are **TRUE**: <br/> Attribute Set **is Default**
 
-1. To add another condition line to the statement, click the **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) icon and choose one of the following:
+1. To add another condition line to the statement, click the **Add** (![Add icon]({% link assets/icon-add-green-circle.png %})) icon and choose one of the following:
 
    - `Conditions Combination`
    - `Product Attribute`
 
    Then, repeat the process until all desired conditions are complete.
 
-   If at any time you want to delete part of the condition statement, click the **Delete** (![Delete icon]({% link images/images/btn-del-red.png %})) icon at the end of the line.
+   If at any time you want to delete part of the condition statement, click the **Delete** (![Delete icon]({% link assets/icon-delete-red-circle.png %})) icon at the end of the line.
 
 ## Step 3: Define the Actions
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %})the **Actions** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %})the **Actions** section and do the following:
 
    ![Catalog price rule - actions]({% link marketing/assets/price-rule-catalog-actions.png %}){: .zoom}
    _Actions_
@@ -126,7 +126,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
 [Dynamic blocks]({% link cms/dynamic-blocks.md %}) that are associated with a catalog price rule appear in the storefront whenever the conditions are met. This is an optional step.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %})the **Related Dynamic Blocks** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %})the **Related Dynamic Blocks** section.
 
 1. Use the [search filters]({% link stores/admin-workspace.md %}) to locate the dynamic block(s) that you want to associate with the rule.
 
@@ -152,7 +152,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 
 1. To schedule the rule, enter the **Start Date** and **End Date** that the price rule is to be active.
 
-    You can either enter the dates or choose the dates from the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})).
+    You can either enter the dates or choose the dates from the **Calendar** (![Calendar icon]({% link assets/icon-calendar.png %})).
 
     ![Catalog price rule - update schedule]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
     _Update Schedule_

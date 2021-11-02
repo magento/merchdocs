@@ -24,7 +24,7 @@ Follow the steps below to edit any of the objects in this campaign.
 
 1. Update any of the settings in the _General_ section as needed.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) any section that contains an item to be edited.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) any section that contains an item to be edited.
 
    ![]({% link images/images-ee/content-staging-campaign-edit-products.png %}){: .zoom}
    _Updating the assigned products for a campaign item_

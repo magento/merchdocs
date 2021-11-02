@@ -14,7 +14,7 @@ Assigning a customer group to a company is essentially the same as assigning a s
    ![]({% link images/images-b2b/companies-grid-edit.png %}){: .zoom}
    _Edit Company_
 
-1. On the company page, scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
+1. On the company page, scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
    ![]({% link images/images-b2b/company-customer-group-shared-catalog.png %}){: .zoom}
    _Customer Groups / Shared Catalogs_

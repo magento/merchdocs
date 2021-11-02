@@ -14,7 +14,7 @@ Log archiving requires a [cron job]({% link system/cron.md %}) to be set up.
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Admin Actions Log Archiving** section and set these options:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Admin Actions Log Archiving** section and set these options:
 
     - **Log Entry Lifetime, Days** — Enter the number of days that you want to keep the log entries in the database before they are removed.
     - **Log Archiving Frequency** — Set to `Daily`, `Weekly`, or `Monthly`.

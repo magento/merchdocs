@@ -85,7 +85,7 @@ _Advanced Attribute Properties_
 
 ## Step 4: Enter the field label
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Manage titles** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Manage titles** section.
 
 1. Enter a **Title** to be used as a label for the field.
 
@@ -96,7 +96,7 @@ _Advanced Attribute Properties_
 
 ## Step 5: Describe the storefront properties
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Storefront Properties** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Storefront Properties** section.
 
    ![]({% link images/images/product-attribute-add-storefront-properties.png %}){: .zoom}
    _Storefront Properties_

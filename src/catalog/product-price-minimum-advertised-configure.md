@@ -22,7 +22,7 @@ _Click for Price_
 
 1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Minimum Advertised Price_ section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Minimum Advertised Price_ section.
 
 1. If necessary, set **Enable MAP** to `Yes`.
 

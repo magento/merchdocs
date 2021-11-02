@@ -72,7 +72,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 ## Step 3: Complete the advanced settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Advanced Braintree Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Braintree Settings** section.
 
 1. For **Vault Title**, enter a descriptive title for your reference that identifies the vault where your customer card information is stored.
 

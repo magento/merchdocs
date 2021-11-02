@@ -17,12 +17,12 @@ _New Stock_
 
 1. Click <span class="btn">Add New Stock</span>.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **General** section and enter a unique **Name** to identify the new stock.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **General** section and enter a unique **Name** to identify the new stock.
 
    ![]({% link catalog/assets/inventory-stock-general.png %}){: .zoom}
    _General_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Sales Channels** section and select the **Websites** where this stock is available.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Sales Channels** section and select the **Websites** where this stock is available.
 
    For a multisite installation, hold down the Ctrl key (PC) or the Command key (Mac) and click each website.
 
@@ -32,7 +32,7 @@ _New Stock_
    ![]({% link catalog/assets/inventory-sales-channel.png %}){: .zoom}
    _Sales Channels_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Sources** section and do the following for any stock other than the default:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Sources** section and do the following for any stock other than the default:
 
     - Click <span class="btn">Assign Sources</span>.
 
@@ -55,7 +55,7 @@ _New Stock_
    ![]({% link images/images/stores-inventory-stock-priorityafter.png %}){: .zoom}
    _Assigned Sources Example_
 
-1. On the **Save** (![]({% link images/images/btn-dropdown.png %})) menu, choose **Save & Close**.
+1. On the **Save** (![]({% link assets/icon-menu-down-arrow-red.png %})) menu, choose **Save & Close**.
 
 ## Field descriptions
 

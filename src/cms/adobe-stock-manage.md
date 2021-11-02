@@ -19,7 +19,7 @@ To search Adobe Stock assets and add a stock image to a page:
 
    If you want to edit an existing page, you can use the _Action_ column to click **Select** and choose **Edit**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section and do the following:
 
    - If you have the [WYSIWYG editor enabled]({% link cms/editor-configure.md %}), click **Show/Hide Editor** and then click **Insert Image**.
 

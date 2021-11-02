@@ -37,19 +37,19 @@ _Import_
 
 1. Locate the export file at the downloads location for your web browser and open the file.
 
-    ![Open download sample file]({% link images/images/data-import-download-sample-file.png %}){: .zoom}
+    ![Open download sample file]({% link system/assets/data-import-download-sample-file.png %}){: .zoom}
     _Open Download Sample File_
 
     The sample file includes column headings with placeholder data for example product types.
 
-    ![Import data sample file]({% link images/images/data-export-sample-data.png %}){: .zoom}
+    ![Import data sample file]({% link system/assets/data-export-sample-data.png %}){: .zoom}
     _View Sample File_
 
 1. Examine the structure of the sample file and use it to prepare your CSV import file, making sure that the column headings are spelled correctly.
 
 1. Verify that the size of your import file does not exceed the limit shown in the message.
 
-    ![Data import size notification]({% link images/images/data-import-size-notification.png %}){: .zoom}
+    ![Data import size notification]({% link system/assets/data-import-size-notification.png %}){: .zoom}
 
 1. If the import data includes paths to product images, make sure that the image files have been uploaded to the appropriate location.
 
@@ -82,7 +82,7 @@ _Import_
 
 1. If you want to enclose any special characters that might be found in the data as an _escape sequence_, select the **Fields Enclosure** checkbox.
 
-    ![Data import behavior]({% link images/images/data-import-import-behavior.png %}){: .zoom}
+    ![Data import behavior]({% link system/assets/data-import-import-behavior.png %}){: .zoom}
     _Import Behavior_
 
 ## Step 3: Identify the Import File
@@ -122,7 +122,7 @@ _Import_
 
     If an error message appears in the Validation Results, correct the problem in the data and import the file again.
 
-    ![Error message - URL key already exists]({% link images/images/data-import-validation-error-url-key-exists.png %}){: .zoom}
+    ![Error message - URL key already exists]({% link system/assets/data-import-validation-error-url-key-exists.png %}){: .zoom}
     _URL Key Already Exists_
 
     A message appears when the import is complete.

@@ -64,7 +64,7 @@ Create the [tax rules]({% link tax/tax-rules.md %}) that you need to use VAT IDÂ
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Create New Account Options** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Create New Account Options** section.
 
    In the following example, the general customer settings that are not related to VAT Validation are dimmed.
 
@@ -83,7 +83,7 @@ Create the [tax rules]({% link tax/tax-rules.md %}) that you need to use VAT IDÂ
 
 1. In the left panel, expand **General** and choose **General** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Store Information** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Store Information** section.
 
    ![]({% link images/images/config-general-general-store-information.png %}){: .zoom}
    [_Store Information_]({% link configuration/general/general.md %})
@@ -98,7 +98,7 @@ Create the [tax rules]({% link tax/tax-rules.md %}) that you need to use VAT IDÂ
 
 ## Step 5: Verify the list of EU member countries
 
-1. Continuing in the _General_ configuration page, expand ![]({% link images/images/btn-expand.png %}) the **Countries Options** section.
+1. Continuing in the _General_ configuration page, expand ![]({% link assets/icon-display-expand.png %}) the **Countries Options** section.
 
 1. In the **European Union Countries** list, verify that each member country of the EU is selected.
 

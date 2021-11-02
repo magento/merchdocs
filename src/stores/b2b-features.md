@@ -79,7 +79,7 @@ By default, all B2B features are initially disabled. However, they are always av
      ![B2B configuration - default shipping methods]({% link images/images-b2b/config-general-b2b-shipping-methods.png %}){: .zoom}
      _Default B2B Shipping Methods_
 
-1. To enable purchase orders for company accounts, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order Approval Configuration** section and set **Enable Purchase Orders** to `Yes`.
+1. To enable purchase orders for company accounts, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Order Approval Configuration** section and set **Enable Purchase Orders** to `Yes`.
 
    ![]({% link images/images-b2b/config-general-b2b-features-order_approval_config.png %}){: .zoom}
    _Order Approval Configuration_

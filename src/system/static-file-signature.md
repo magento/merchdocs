@@ -18,7 +18,7 @@ The Static File Settings configuration is available only when working in [develo
 
 1. In the left panel, expand **Advanced** and choose **Developer**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Static Files Settings** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Static Files Settings** section.
 
 1. Set **Sign Static Files** to `Yes`.
 

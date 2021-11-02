@@ -20,7 +20,7 @@ To save time, zero subtotal orders can be set to automatically invoice.
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. Under _Other Payment Methods_, expand ![]({% link images/images/btn-expand.png %}) the **Zero Subtotal Checkout** section.
+1. Under _Other Payment Methods_, expand ![]({% link assets/icon-display-expand.png %}) the **Zero Subtotal Checkout** section.
 
    ![Zero Subtotal Checkout]({% link images/images/config-sales-payment-methods-zero-subtotal-checkout.png %}){: .zoom}
    [_Zero Subtotal Checkout configuration_]({% link configuration/sales/payment-methods.md %}#zero-subtotal-checkout)

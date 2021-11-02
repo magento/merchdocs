@@ -45,7 +45,7 @@ _Orders Grid_
     {:.bs-callout-info}
     Product data cannot be exported from the grid. To learn more, see [Export]({% link system/data-export.md %}).
 
-1. On the **Export** (![Menu selector]({% link images/images/btn-export.png %}){: .Inline}) menu in the upper-right corner, choose one of the following file formats:
+1. On the **Export** (![Menu selector]({% link assets/icon-export.png %})) menu in the upper-right corner, choose one of the following file formats:
 
    - CSV
    - Excel XML
@@ -66,7 +66,7 @@ _Order Grid Columns_
 
 ### Change the selection of columns
 
-1. In the upper-right corner, click the **Columns** (![Columns control]({% link images/images/btn-columns.png %}){: .Inline}) control.
+1. In the upper-right corner, click the **Columns** (![Columns control]({% link assets/icon-columns.png %})) control.
 
 1. Change the column selections:
 
@@ -84,7 +84,7 @@ _Order Grid Columns_
 
 ### Save a grid view
 
-1. Click the **View** (![View control]({% link images/images/btn-default-view.png %}){: .Inline}) control.
+1. Click the **View** (![View control]({% link assets/icon-view-eye.png %}){: .Inline}) control.
 
 1. Click **Save Current View**.
 
@@ -96,9 +96,9 @@ _Order Grid Columns_
 
 ### Change the grid view
 
-1. Click the **View** (![View icon]({% link images/images/btn-default-view.png %}){: .Inline}) control.
+1. Click the **View** (![View icon]({% link assets/icon-view-eye.png %}){: .Inline}) control.
 
 1. Do one of the following:
 
    - To use a different view, click the name of the view.
-   - To change the name of a view, click the **Edit** (![Edit icon]({% link images/images/btn-edit.png %}){: .Inline}) icon and update the name.
+   - To change the name of a view, click the **Edit** (![Edit icon]({% link assets/icon-edit-pencil.png %})) icon and update the name.

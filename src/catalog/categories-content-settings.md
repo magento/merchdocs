@@ -9,7 +9,7 @@ The _Content_ settings determine any additional content appears on the category 
 
 1. Open the category in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
    ![]({% link images/images-ee/category-content.png %}){: .zoom}
    _Category content_
@@ -37,7 +37,7 @@ For more information, see [Using the Editor]({% link cms/editor.md %}).
 
 1. Open the category in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
    ![]({% link images/images/category-content-ce.png %}){: .zoom}
    _Category content_

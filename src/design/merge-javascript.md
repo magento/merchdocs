@@ -13,7 +13,7 @@ JavaScript files can be merged from the _Admin_ panel only when working in [Deve
 
 1. In the left panel, expand **Advanced** and choose **Developer**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **JavaScript Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the **JavaScript Settings** section.
 
    ![]({% link images/images/config-advanced-developer-javascript-settings.png %}){: .zoom}
    [*JavaScript Settings*]({% link configuration/advanced/developer.md %}#javascript-settings)

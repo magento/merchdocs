@@ -15,7 +15,7 @@ One way to resize your logo to fit the required size is to create a new, blank i
 
 1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Invoice and Packing Slip Design** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Invoice and Packing Slip Design** section and do the following:
 
     ![Sales configuration - sales invoice and packing slip design]({% link images/images/config-sales-sales-invoice-packing-slip-design.png %}){: .zoom}
     [_Invoice and Packing Slip Design_]({% link configuration/sales/sales.md -%})

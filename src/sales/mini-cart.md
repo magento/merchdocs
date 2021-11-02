@@ -15,7 +15,7 @@ _Mini Cart_
 
 1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the _Mini Cart_ section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the _Mini Cart_ section.
 
    ![]({% link images/images/config-sales-mini-cart.png %}){: .zoom}
    [_Configuring the mini cart_]({% link configuration/sales/checkout.md %})
