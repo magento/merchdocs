@@ -27,7 +27,7 @@ If you choose to display both prices (with and without tax), the storefront will
 
 1. In the left panel, expand **Sales** and choose **Tax**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Price Display Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Price Display Settings** section.
 
 1. For **Display Product Prices in Catalog**, choose one of the following:
 
@@ -51,7 +51,7 @@ If you choose to display both prices (with and without tax), the storefront will
 
 ### Step 2: Configure shopping cart display settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Shopping Cart Display Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Shopping Cart Display Settings** section.
 
    ![]({% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
    _Shopping Cart Display Settings_
@@ -94,7 +94,7 @@ If you choose to display both prices (with and without tax), the storefront will
 
 ### Step 3: Configure order, invoice, and credit memo display settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
 
    ![]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
    _Orders, Invoices, Credit Memos Display Settings_

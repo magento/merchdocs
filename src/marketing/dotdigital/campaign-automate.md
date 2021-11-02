@@ -145,7 +145,7 @@ If you added placeholders for new campaigns, you still need to complete the defi
 
 1. On the **Automation** menu, choose **Triggered campaign content**.
 
-1. Find the campaign in the list and click **Edit** (![Edit icon]({% link images/images/btn-dotmailer-edit.png %})).
+1. Find the campaign in the list and click **Edit** (![Edit icon]({% link marketing/assets/dotdigital-icon-edit.png %})).
 
     ![dotdigital - my campaigns]({% link marketing/assets/engagement-cloud-automation-my-campaigns.png %}){: .zoom}
     _My campaigns_

@@ -149,7 +149,7 @@ Complete the information in the following sections as needed:
 
    - In the upper-right corner, click <span class="btn">Save</span>.
 
-   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link assets/icon-menu-down-arrow-black.png %}) ) menu.
 
       The store opens in a new browser tab.
 
@@ -158,7 +158,7 @@ Complete the information in the following sections as needed:
 
    **Method 2:** Save and Close
 
-   - On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+   - On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}) ) menu, choose **Save & Close**.
 
    ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
    _Save & Close_
@@ -171,7 +171,7 @@ If you have a different image for each product in the group, you can set the con
 
 1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Shopping Cart**.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Shopping Cart**.
 
 1. Set **Grouped Product Image** to `Product Thumbnail Itself`.
 

@@ -18,7 +18,7 @@ URL with Web Server Rewrite
 
 1. In the left panel where **General** is expanded, choose **Web**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Search Engine Optimization** section.
 
     ![General configuration - web search engine optimization]({% link images/images/config-general-web-search-engine-optimization.png %}){: .zoom}
     [_Search Engine Optimization_]({% link configuration/general/web.md -%})

@@ -39,7 +39,7 @@ You can create different conditions by changing the combination of these values.
 
 `If ALL of these conditions are TRUE:`
 
-1. Click the **Add** (![]({% link images/images/btn-add-grn.png %}){: .Inline}) icon at the beginning of the condition line to show available attributes on which the condition function. Select an attribute on which to base the condition, such as a conditions combination or a product attribute.
+1. Click the **Add** (![]({% link assets/icon-add-green-circle.png %}){: .Inline}) icon at the beginning of the condition line to show available attributes on which the condition function. Select an attribute on which to base the condition, such as a conditions combination or a product attribute.
 
    - **Conditions Combination** - Choose to allow you to create an additional set of `All/Any` and `True/False` conditions inside the existing set.
 
@@ -55,7 +55,7 @@ You can create different conditions by changing the combination of these values.
 
       The selected condition appears in the statement, followed by two more bold links. The options differ depending on the product attribute you select.
 
-      After you set the attribute, it cannot be changed. To change the attribute, you must delete the line and add the new attribute. You can delete a condition line by clicking the **Delete** (![]({% link images/images/btn-del-red.png %}){: .Inline}) icon at the end of the line.
+      After you set the attribute, it cannot be changed. To change the attribute, you must delete the line and add the new attribute. You can delete a condition line by clicking the **Delete** (![]({% link assets/icon-delete-red-circle.png %}){: .Inline}) icon at the end of the line.
 
      1. Click **is** and choose the comparison operator that describes the condition for products to meet. For this example, the comparison operator is `is`. The available options depend on the attribute selected in the previous step and may include different comparison options such as matching values, not including or including at least one of a value, and greater than, equal to, and less than a numerical amount. In this example, the options are `is` and `is not`.
 
@@ -70,4 +70,4 @@ You can create different conditions by changing the combination of these values.
 
 To add another condition line to the statement, return to step 1 and repeat the process until all desired conditions are complete.
 
-You can delete a line of the condition statement at any time by clicking the **Delete** (![]({% link images/images/btn-del-red.png %}){: .Inline}) icon at the end of the line.
+You can delete a line of the condition statement at any time by clicking the **Delete** (![]({% link assets/icon-delete-red-circle.png %}){: .Inline}) icon at the end of the line.

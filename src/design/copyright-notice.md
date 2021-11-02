@@ -27,7 +27,7 @@ The `&copy;` character code is used to insert the copyright symbol, as shown in 
    ![]({% link images/images/design-configuration.png %}){: .zoom}
    [_Design Configuration_]({% link design/configuration.md %})
 
-1. Under _Other Settings_, expand ![]({% link images/images/btn-expand.png %})the **Footer** section.
+1. Under _Other Settings_, expand ![]({% link assets/icon-display-expand.png %})the **Footer** section.
 
       ![]({% link images/images/design-configuration-footer.png %}){: .zoom}
       _Footer design settings_

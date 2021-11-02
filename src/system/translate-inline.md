@@ -40,7 +40,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
 1. In the left panel, expand **Advanced** and choose **Developer**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Translate Inline** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Translate Inline** section.
 
     Clear the **Use Website** checkbox as needed to modify these settings.
 
@@ -59,7 +59,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
 1. Open your storefront in a browser and go to the page that you want to edit.
 
-   If necessary, use the language chooser to change the store view. Each string of text that can be translated is outlined in red. When you hover over any text box, a book icon (![Book icon]({% link images/images/btn-book.png %})) appears.
+   If necessary, use the language chooser to change the store view. Each string of text that can be translated is outlined in red. When you hover over any text box, a book icon (![Book icon]({% link assets/icon-book.png %})) appears.
 
 1. Click the book icon to open the _Translate_ window and do the following:
 
@@ -86,7 +86,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
 1. In the left panel, expand **Advanced** and choose **Developer**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Translate Inline** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Translate Inline** section.
 
 1. Set **Enabled for Frontend** to `No`.
 

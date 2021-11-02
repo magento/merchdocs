@@ -12,7 +12,7 @@ _CMS Page Hierarchy_
 
 1. In the left panel under _General_, choose **Content Management**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **CMS Page Hierarchy**  and make any changes that are necessary.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **CMS Page Hierarchy**  and make any changes that are necessary.
 
 1. When complete, click <span class="btn">Save Config</span>.
 

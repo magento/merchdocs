@@ -18,7 +18,7 @@ _Popular Search Terms_
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Search Engine Optimization** section.
 
 1. Set **Popular Search Terms** as needed.
 

@@ -4,7 +4,7 @@ title: Advanced Pricing Data
 
 Advanced Price Import/Export allows you to quickly update pricing information for product groups and tier prices. The process to [import]({% link system/data-import.md %}) and [export]({% link system/data-export.md %}) advanced price data is the same as any other entity type. The sample CSV file contains tier and group prices for each product type that supports advanced pricing. Making changes to advanced pricing does not affect the rest of the product record.
 
-![Example export data - advanced pricing]({% link images/images/data-advanced-pricing-export-sample.png %}){: .zoom}
+![Example export data - advanced pricing]({% link system/assets/data-advanced-pricing-export-sample.png %}){: .zoom}
 _Advanced Price Sample File_
 
 ## Advanced Pricing Attributes

@@ -28,7 +28,7 @@ To view all reviews for a specific product in the Admin, do the following:
 
 1. Find the product that you want to view and click **Edit** in the _Action_ column.
 
-1. On the product page, scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Product Reviews** section.
+1. On the product page, scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Product Reviews** section.
 
    In this grid, you can also [change]({% link marketing/magento-product-reviews-moderate.md %}) the specific review by clicking the **Edit** link in the _Action_ column.
 

@@ -55,7 +55,7 @@ These steps enable backorders for all products at the site level.
 
 1. In the left panel, expand **Catalog** and choose **Inventory**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) **Product Stock Options**.
+1. Expand ![]({% link assets/icon-display-expand.png %}) **Product Stock Options**.
 
 1. For **Backorders**, deselect the **Use system value** checkbox and select an option:
 

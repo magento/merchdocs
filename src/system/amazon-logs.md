@@ -17,7 +17,7 @@ Amazon Pay logs the following information:
 
 1. For **Amazon Pay**, click <span class="btn">Configure</span>.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Advanced** section, and then expand **Developer Options**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Advanced** section, and then expand **Developer Options**.
 
    - If there are generated logs, select a link to download to view Client and IPN logs.
 

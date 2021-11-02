@@ -21,7 +21,7 @@ By default, images inserted into the catalog from the WYSIWYG editor have relati
 
 1. In the left panel under **General**, choose **Content Management**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **WYSIWYG Options** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **WYSIWYG Options** section.
 
    ![]({% link images/images/config-general-content-management-wysiwyg-options.png %}){: .zoom}
    _[WYSIWYG Options]({% link configuration/general/content-management.md %})_

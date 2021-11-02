@@ -22,7 +22,7 @@ _Tax Rules_
 
    If you need to edit an existing tax rate, do the following:
 
-   - Hover over the tax rate and click the **Edit**![]({% link images/images/btn-edit.png %}) icon.
+   - Hover over the tax rate and click the **Edit**![]({% link assets/icon-edit-pencil.png %}) icon.
 
    - Update the form as needed and click <span class="btn">Save</span>.
 
@@ -63,13 +63,13 @@ _Import / Export Tax Rates_
 
 1. Choose the **Customer Tax Class** to which the rule applies.
 
-   - To edit a customer tax class, click the edit ![]({% link images/images/btn-edit.png %}) icon, update the form as needed, and click <span class="btn">Save</span>.
+   - To edit a customer tax class, click the edit ![]({% link assets/icon-edit-pencil.png %}) icon, update the form as needed, and click <span class="btn">Save</span>.
 
    - To create a new tax class, click <span class="btn">Add New Tax Class</span>, complete the form as needed, and click <span class="btn">Save</span>.
 
 1. Choose the **Product Tax Class** to which the rule applies.
 
-   - To edit a product tax class, click the edit ![]({% link images/images/btn-edit.png %}) icon, update the form as needed, and click **Save**.
+   - To edit a product tax class, click the edit ![]({% link assets/icon-edit-pencil.png %}) icon, update the form as needed, and click **Save**.
 
    - To create a new tax class, click <span class="btn">Add New Tax Class</span>, complete the form as needed, and click <span class="btn">Save</span>.
 
