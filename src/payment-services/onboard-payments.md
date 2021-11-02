@@ -117,9 +117,12 @@ To complete sandbox onboarding:
 
 ### Enable contact telephone number
 
-Contact telephone number is a feature that lets you obtain the contact telephone numbers that PayPal collects from your customers. PayPal always collects contact telephone numbers from PayPal account holders to help confirm their identities and to contact them to resolve problems on their accounts, or to complete their fulfillment processes. See the [PayPal get contact telephone numbers](https://developer.paypal.com/docs/admin/checkout-settings/#get-contact-telephone-numbers) documentation for more information.
+Contact telephone number allows you to obtain the contact telephone numbers that PayPal collects from your customers. PayPal always collects contact telephone numbers from PayPal account holders to help confirm their identities and to contact them to resolve problems on their accounts, or to complete their fulfillment processes. See the [PayPal get contact telephone numbers](https://developer.paypal.com/docs/admin/checkout-settings/#get-contact-telephone-numbers) documentation for more information.
 
-This feature is off by default. When you enable it, store administrators can see phone numbers after a customer completes a Branded Checkout flow outside of the checkout page. It does not apply to other checkout flows.
+This feature is `off` by default. When you enable it, store administrators can see phone numbers after a customer completes a Branded Checkout flow outside of the checkout page.
+
+{: .bs-callout-warning}
+It does not apply to other checkout flows.
 
 ## Test in sandbox environment
 
