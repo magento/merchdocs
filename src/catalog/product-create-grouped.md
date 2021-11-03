@@ -108,6 +108,9 @@ To add an existing attribute to the product, use the [filter controls]({% link s
 
 1. In the list, select the checkbox of each item that you want to include in the group.
 
+    {:.bs-callout-info}
+    Only simple, downloadable, and virtual products with no configurable options can be grouped child products. Other product types will not appear in the selection list
+
     ![]({% link images/images/product-grouped-add-products.png %}){: .zoom}
     _Add Selected Products_
 
@@ -186,7 +189,7 @@ If you have a different image for each product in the group, you can set the con
 
 - A grouped product is essentially a collection of simple associated products.
 
-- Grouped child products can be simple or virtual products **without custom options**.
+- Grouped child products can be simple, downloadable or virtual products **without custom options**.
 
 - Each item purchased appears individually in the shopping cart, rather than as part of the group.
 
