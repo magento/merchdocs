@@ -10,30 +10,29 @@ The breadcrumb trail can be configured to appear on content pages and on catalog
 ![]({% link images/images/storefront-breadcrumb-trail.png %}){: .zoom}
 _Breadcrumb Trail_
 
-## Common types of breadcrumbs
+## General types of bread crumbs
 
-There are three main types of breadcrumbs, each with slightly different flows. Below are 3 ways you can implement breadcrumbs effectively on your website.
+Breadcrumbs can be divided into three main types, which differ in their purpose. The essence and main principles of the implementation of each type of bread crumbs are described below.
 
 ### Hierarchy-based breadcrumbs
 
-This is considered the most widely used type of bread crumbs. Hierarchy-based breadcrumbs tell customers where they are within the site structure. Each text link is for a page that is one level higher than the right one.
+This kind of breadcrumbs are based on the category hierarchy set up on the site. The chains presented tell the user at what structural level they are. In this case, each text link is intended for a page that is one level higher than the previous one.
 
 Example: `Men > Tops > Hoodies & Sweatshirts`
 
-This type of breadcrumbs helps users easily see where they are in the architecture of your site. Navigating to pages at a lower or higher level also becomes much more convenient when you can interact with every part of the navigation chain.
+This type of breadcrumb helps users easily see which category level they are in and provide easy navigation between catalog pages.
 
 ### History-based breadcrumbs
 
-A history (or path) based breadcrumb is the same idea as a browser 'Back' button. This allows users to quickly return to the previous pages they visited, with all their choices unchanged.
+History (or path) -based navigation is similar to the back button in a browser. This allows users to quickly return to the previous pages they have visited without changes.
 
-This type of breadcrumb link is useful when customers simply want to quickly return to a previous page after applying a few filters on a category page. It uses the actual click path, not location.
+This type of breadcrumbs is useful when customers want to return to a previous page after selecting multiple filters on a category page.
 
 Example: `Home > What's New > Gear > Bags`
 
 ### Attribute-based breadcrumbs
 
-This type of breadcrumb shows customers which attributes they have clicked on.
-The most significant difference between attribute-based and hierarchical breadcrumbs is that they not only list your path but also represent the filters you choose for the product (price, quality, color, etc.). You can also deselect product filters right from the navigation bar.
+This type of angry crumbs displays the attributes selected on the category page. The main difference from the previous types is that the attribute-based breadcrumbs represent the filters and options you have selected in the navigation layer for certain products (price, quality, color, etc.).
 
 Example: `Home > Suits > All Suits > Refined by > Slim Fit`
 
