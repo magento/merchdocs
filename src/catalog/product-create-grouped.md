@@ -109,7 +109,7 @@ To add an existing attribute to the product, use the [filter controls]({% link s
 1. In the list, select the checkbox of each item that you want to include in the group.
 
     {:.bs-callout-info}
-    Only simple, downloadable, and virtual products with no configurable options can be grouped child products. Other product types will not appear in the selection list
+    Only simple, downloadable, and virtual products with no configurable options can be grouped child products. Other product types will not appear in the selection list.
 
     ![]({% link images/images/product-grouped-add-products.png %}){: .zoom}
     _Add Selected Products_
