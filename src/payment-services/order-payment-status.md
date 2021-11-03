@@ -30,6 +30,9 @@ This happens in two steps:
 
 The only data that is exported and collated for reporting purposes is data used by the Order payment status report.
 
+{:.bs-callout-info}
+The data shown in this table is sorted in descending order (`DESC`) by default using the `ORDER DATE`. The `ORDER DATE` is the date timestamp when the order was created.
+
 ### Configure data export
 
 Even though, by default, re-indexing happens in `ON SAVE` mode, we recommend you index in `BY SCHEDULE` mode. `BY SCHEDULE` runs on a cron schedule of one minute, and any changed data will appear in your Order status report within two minutes of any data change. This helps you reduce any strain on your store, especially if you have a lot of incoming orders, because re-indexing happens on a schedule (not as each order is placed).

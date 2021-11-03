@@ -11,6 +11,9 @@ See linked Magento order and transaction IDs, transaction amounts, payment metho
 
 You can download payout transactions in a .csv file format for use in existing accounting or order management software.
 
+{:.bs-callout-info}
+The data shown in this table is sorted in descending order (`DESC`) by default using the `TRANS DATE`. The `TRANS DATE` is the date and time when the transaction was initiated.
+
 ## Availability
 
 On the _Admin_ sidebar, go to **Sales** > **Payment Services** > **Payouts**.
