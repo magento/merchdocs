@@ -10,7 +10,7 @@ The first step in creating newsletters is to configure the newsletter settings f
 
 1. In the left panel, expand **Customers** and choose **Newsletter**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General Options** section.
 
 1. To enable newsletters for the store view scope, set **Enabled** to `Yes`.
 
