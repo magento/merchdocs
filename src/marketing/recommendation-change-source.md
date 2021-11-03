@@ -36,4 +36,4 @@ Before you begin, make sure that:
    Adobe Commerce will now fetch recommendations from that environment.
 
    {:.bs-callout-info}
-   Recommendations from another SaaS data space can be viewed on the non-production storefront, but not clicked.
+   While you can view recommendations fetched from another SaaS data space on the non-production storefront, you cannot click the recommendations.
