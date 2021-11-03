@@ -46,6 +46,25 @@ For more information, see [Using the Editor]({% link cms/editor.md %}).
 
    You can drag the lower-right corner to change the height of the text box.
 
+## Add a CMS block to the category page
+
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+
+1. In the category tree, select the category that you want to edit.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+
+1. For **Add the CMS block**, select a block you want to add.
+
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Display Settings** section.
+
+1. Set the **Display Mode** to one of the following:
+
+   - `Static block only`
+   - `Static block and products`
+
+1. When complete, click <span class="btn">Save</span> and review the block display on the storefront (requires cache refresh).
+
 ## Content settings reference
 
 |Setting|[Scope]({% link configuration/scope.md %})|Description|
