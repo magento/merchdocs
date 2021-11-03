@@ -77,8 +77,8 @@ A PayPal sandbox account allows you to use Payment Services in test mode. You mu
 
 You can reset your sandbox account if:
 
-*  An invalid email account is used.
-*  Sandbox account is stuck during the validation process.
+* An invalid email account is used.
+* Sandbox account is stuck during the validation process.
 
 In order to reset your sandbox account click <span class="btn">Reset sandbox</span>. See the [PayPal create a business sandbox account](https://developer.paypal.com/docs/api-basics/sandbox/accounts/#create-a-business-sandbox-account) documentation for more information.
 
