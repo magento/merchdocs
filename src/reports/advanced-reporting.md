@@ -6,6 +6,9 @@ redirect_from:
 
 Advanced Reporting, which is included with Adobe Commerce and Magento Open Source, gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. While Advanced Reporting uses Magento Business Intelligence for analytics, you do not need to have a Magento Business Intelligence account to use Advanced Reporting.
 
+{:.bs-callout-info}
+Magento Business Intelligence Pro accounts will use built-in reporting, rather than the Advanced Reporting feature.
+
 For technical information, see [Advanced Reporting][2]{:target="_blank"} in our developer documentation.
 
 ![]({% link reports/assets/reporting-advanced.png %}){: .zoom}
