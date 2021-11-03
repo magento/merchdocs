@@ -115,7 +115,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 ## Price
 
 ![]({% link images/images-ee/config-catalog-catalog-price.png %}){: .zoom}
-_[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
+_[Price]({% link catalog/catalog-price-scope.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

@@ -23,7 +23,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Tax Classes** section.
 
    ![]({% link images/images-ee/config-sales-tax-tax-classes.png %}){: .zoom}
-   _[Tax Classes]({% link configuration/sales/tax.md %})_{:.ee-only}
+   _[Tax Classes]({% link configuration/sales/tax.md %})_
 
    - **Tax Class for Shipping** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
    - {:.ee-only}**Tax Class for Gift Options** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`

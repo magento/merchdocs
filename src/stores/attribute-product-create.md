@@ -35,7 +35,7 @@ _New Attribute Properties_
    |Fixed Product Tax|Lets you define [FPT rates]({% link tax/fixed-product-tax.md %}) based on the requirements of your locale.|
    |Visual Swatch|Displays a swatch that depicts the color, texture, or pattern of a configurable product. A [visual swatch]({% link catalog/swatches.md %}) can be filled with a hexadecimal color value, or display an uploaded image that represents the color, material, texture, or pattern of the option.|
    |Text Swatch|A text-based representation of a configurable product option that is frequently used for size. [Text swatches]({% link catalog/swatches.md %}) can also include hexadecimal color values.|
-   |<span class="ee-only">Page Builder</span>|A fully-functioning [Page Builder]({% link cms/page-builder.md %}) workspace at the attribute location that makes it easy to add engaging content to the product page.|
+   |Page Builder|A fully-functioning [Page Builder]({% link cms/page-builder.md %}) workspace at the attribute location that makes it easy to add engaging content to the product page.|
 
 1. If you want to require an option selection before the customer can purchase the product, set **Values Required** to `Yes`.
 

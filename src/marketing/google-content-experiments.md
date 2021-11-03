@@ -14,7 +14,7 @@ Google Content Experiments has been deprecated and will eventually be replaced b
 1. Follow the instructions to enable [Google Analytics]({% link marketing/google-universal-analytics.md %}) with Content Experiments in the Commerce configuration.
 
     ![Sales configuration - Google Analytics]({% link images/images-ee/config-sales-google-api-google-analytics-content-experiments.png %}){: .zoom}
-    _[Enable Content Experiments]({% link marketing/google-universal-analytics.md %})_{:.ee-only}
+    _[Enable content experiments]({% link marketing/google-universal-analytics.md %})_
 
 ## Step 2. Set up the variations (Commerce)
 

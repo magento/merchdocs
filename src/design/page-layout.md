@@ -33,9 +33,9 @@ _Standard two-column with left bar page layout_
 
    When [Page Builder]({% link cms/page-builder.md %}) is enabled, there are additional full width options available. You can then use the Page Builder content tools to design the layout for your product pages.
 
-   |<span class="ee-only">Page -- Full Width</span> |Uses the _Page - Full Width_  layout for product pages.|
-   |<span class="ee-only">Category -- Full Width</span> |Uses the _Category - Full Width_ layout for product pages.|
-   |<span class="ee-only">Product -- Full Width</span> |(Recommended) Uses the _Product - Full Width_ layout for product pages.|
+   |Page -- Full Width |Uses the _Page - Full Width_  layout for product pages.|
+   |Category -- Full Width |Uses the _Category - Full Width_ layout for product pages.|
+   |Product -- Full Width |(Recommended) Uses the _Product - Full Width_ layout for product pages.|
 
 1. Choose the **Default Category Layout** that you want to use for category pages.
 
@@ -50,9 +50,9 @@ _Standard two-column with left bar page layout_
 
    When [Page Builder]({% link cms/page-builder.md %}) is enabled, there are additional full width options available. You can then use the Page Builder content tools to design the layout for your category pages.
 
-   |<span class="ee-only">Page -- Full Width</span> |Uses the _Page - Full Width_ layout for category pages.|
-   |<span class="ee-only">Category -- Full Width</span> |(Recommended) Uses the _Category - Full Width_ layout for category pages.|
-   |<span class="ee-only">Product -- Full Width </span>|Uses the _Product - Full Width_ layout for category pages.|
+   |Page -- Full Width |Uses the _Page - Full Width_ layout for category pages.|
+   |Category -- Full Width |(Recommended) Uses the _Category - Full Width_ layout for category pages.|
+   |Product -- Full Width |Uses the _Product - Full Width_ layout for category pages.|
 
 1. Choose the **Default Page Layout** that you want to use for CMS pages.
 
@@ -67,8 +67,8 @@ _Standard two-column with left bar page layout_
 
    When [Page Builder]({% link cms/page-builder.md %}) is enabled, there are additional full width options available. You can then use the Page Builder content tools to design the layout for your CMS pages.
 
-   |<span class="ee-only">Page -- Full Width</span> |(Recommended) Uses the _Page - Full Width_ layout for CMS pages.|
-   |<span class="ee-only">Category - Full Width</span> |Uses the _Category - Full Width_ layout for CMS pages.|
-   |<span class="ee-only">Product - Full Width</span> |Uses the _Product - Full Width_ layout for CMS pages.|
+   |Page -- Full Width |(Recommended) Uses the _Page - Full Width_ layout for CMS pages.|
+   |Category - Full Width |Uses the _Category - Full Width_ layout for CMS pages.|
+   |Product - Full Width |Uses the _Product - Full Width_ layout for CMS pages.|
 
 1. When complete, click <span class="btn">Save Config</span>.

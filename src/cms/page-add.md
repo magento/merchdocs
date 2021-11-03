@@ -33,7 +33,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Content**.
 
    ![]({% link images/images-ee/page-content.png %}){: .zoom}
-   _Content with Page Builder_{:.ee-only}
+   _Content with Page Builder_
 
 1. In the **Content Heading** box, enter the heading that you want to appear at the top of the page.
 
@@ -116,9 +116,9 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
    - `2 columns with left bar`
    - `2 columns with right bar`
    - `3 columns`
-   - {: .ee-only}`Page -- Full Width` (Requires [Page Builder]({% link cms/page-builder.md %}))
-   - {: .ee-only}`Category -- Full Width` (Requires Page Builder)
-   - {: .ee-only}`Product -- Full Width` (Requires Page Builder)
+   - `Page -- Full Width` (Requires [Page Builder]({% link cms/page-builder.md %}))
+   - `Category -- Full Width` (Requires Page Builder)
+   - `Product -- Full Width` (Requires Page Builder)
 
 1. To apply a **Custom Layout Update**, choose the name of the file from the list.
 

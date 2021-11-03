@@ -5,7 +5,7 @@ title: Products in Category
 The Products in Category section lists the products that are currently assigned to the category. The search filters at the top of each column are used to add and remove products from the category. You can also use [category rules]({% link catalog/category-product-rules.md %}) (<span class="ee-only"></span>) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}).
 
 ![]({% link images/images-ee/category-products-in-category.png %}){: .zoom}
-_Category Products_{:.ee-only}
+_Category Products_
 
 {:.ee-only}
 ## Apply a category rule
