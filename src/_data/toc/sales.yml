@@ -253,7 +253,7 @@ pages:
       url: "/payment-services/install-payments.html"
   - label: Configure Payment Services
     url: "/payment-services/configure-payments.html"
-  - label: Create order with Payment Services
+  - label: Create an order with Payment Services
     url: "/payment-services/order-admin-payments.html"
   - label: Financial reporting
     url: "/payment-services/financial-reporting.html"
