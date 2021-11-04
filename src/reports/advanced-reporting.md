@@ -72,7 +72,7 @@ In the Commerce configuration, [Advanced Reporting]({% link configuration/genera
 
 In the upper-right corner of the Advanced Reporting dashboard, click **Additional Resources**.
 
-![]({% link images/images/advanced-reporting-your-data-resources.png %}){: .zoom}
+![]({% link reports/assets/advanced-reporting-your-data-resources.png %}){: .zoom}
 
 ## Troubleshooting
 
@@ -86,17 +86,17 @@ If you get a 404 “Page Not Found” message, verify that your store meets the 
 
 1. To reestablish the user, click **Reauthorize** and do the following:
 
-   ![]({% link images/images/advanced-reporting-integration-reauthorize.png %}){: .zoom}
+   ![]({% link reports/assets/advanced-reporting-integration-reauthorize.png %}){: .zoom}
    *Reauthorize*
 
    * When prompted, click <span class="btn">Reauthorize</span> to approve access to the API resources.
 
-      ![]({% link images/images/advanced-reporting-integration-api.png %}){: .zoom}
+      ![]({% link reports/assets/advanced-reporting-integration-api.png %}){: .zoom}
       *Reauthorize Access to API Resources*
 
    * Verify that the list of Integration Tokens for Extensions is complete. Then, click <span class="btn">Done</span>.
 
-      ![]({% link images/images/advanced-reporting-integration-tokens-for-extensions.png %}){: .zoom}
+      ![]({% link reports/assets/advanced-reporting-integration-tokens-for-extensions.png %}){: .zoom}
       *Integration Tokens*
 
 1. Look for the message that indicates the integration “Magento Analytics user” is reauthorized.

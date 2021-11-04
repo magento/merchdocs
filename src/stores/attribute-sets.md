@@ -7,7 +7,7 @@ One of the first steps when creating a product is to choose the attribute set th
 
 The attributes are organized into groups that determine where they appear in the product record. Your store comes with an initial attribute set, called _default_, that includes a set of commonly-used attributes. If you would like to add only a small number of attributes, you can add them to this default attribute set. However, if you sell products that require specific types of information, such as cameras, it might be better to create a dedicated attribute set that includes the specific attributes that are needed to describe the product.
 
-![Attribute Sets]({% link images/images/attribute-sets.png %}){: .zoom}
+![Attribute Sets]({% link stores/assets/attribute-sets.png %}){: .zoom}
 _Attribute Sets_
 
 ## Create an attribute set
@@ -16,7 +16,7 @@ _Attribute Sets_
 
 1. Click <span class="btn">Add New Set</span>.
 
-    ![Attribute set - edit name]({% link images/images/attribute-set-new.png %}){: .zoom}
+    ![Attribute set - edit name]({% link stores/assets/attribute-set-new.png %}){: .zoom}
     _Edit Set Name_
 
 1. Enter a **Name** for the attribute set.
@@ -38,7 +38,7 @@ _Attribute Sets_
 
 1. When complete, click <span class="btn">Save</span>.
 
-![Attribute set - edit]({% link images/images/attribute-set-edit.png %}){: .zoom}
+![Attribute set - edit]({% link stores/assets/attribute-set-edit.png %}){: .zoom}
 _Edit Attribute Set_
 
 ## Create a new attribute group

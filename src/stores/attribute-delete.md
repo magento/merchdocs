@@ -17,5 +17,5 @@ Before deleting an attribute, make sure that it is not currently used by any pro
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 
-![Delete attribute]({% link images/images/attribute-delete.png %}){: .zoom}
+![Delete attribute]({% link stores/assets/attribute-delete.png %}){: .zoom}
 _Delete Attribute_

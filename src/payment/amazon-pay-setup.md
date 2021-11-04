@@ -182,7 +182,7 @@ The following are advanced setup and configuration options for Amazon Pay.
    - Swiss Franc (CHF)
    - United States Dollar (USD)
 
-   ![Sales configuration - Amazon Pay multi-currency]({% link images/images/amazon-pay-multi-currency.png %}){: .zoom}
+   ![Sales configuration - Amazon Pay multi-currency]({% link payment/assets/amazon-pay-multi-currency.png %}){: .zoom}
    [_Amazon Pay configuration - Sales Options with multi-currency_]({% link configuration/sales/amazon-pay.md %})
 
 ### Developer Options
