@@ -75,13 +75,13 @@ To begin, and complete, sandbox onboarding you need to sign up for a free PayPal
 
 A PayPal sandbox account allows you to use Payment Services in test mode. You must use a PayPal Developer Portal-generated Business sandbox test account, email, and password for sandbox onboarding. Do not create a new account during the sandbox onboarding process.
 
-If you created an account during the sandbox PayPal onboarding process, you will be not able to verify your email. In that case, you can reset your sandbox onboarding.
+If you created an account during the sandbox PayPal onboarding process, you must reset your sandbox onboarding because you will not be able to verify your email.
 
-In order to reset your sandbox account:
+To reset your sandbox account:
 
-1. click <span class="btn">Reset sandbox</span>. See the [PayPal create a business sandbox account](https://developer.paypal.com/docs/api-basics/sandbox/accounts/#create-a-business-sandbox-account) documentation for more information.
+1. Click <span class="btn">Reset sandbox</span>. See the [PayPal create a business sandbox account](https://developer.paypal.com/docs/api-basics/sandbox/accounts/#create-a-business-sandbox-account) documentation for more information.
 1. Click <span class="btn">Sandbox onboarding</span>.
-1. Follow next steps to complete sandbox onboarding.
+1. Follow the steps to complete sandbox onboarding.
 
 To complete sandbox onboarding:
 
