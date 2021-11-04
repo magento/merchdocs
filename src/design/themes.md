@@ -10,7 +10,7 @@ A responsive theme adjusts the page layout to fit the view port of the device. 
 
 Commerce themes include layout files, template files, translation files, and skins. A skin is a collection of supporting CSS, images, and JavaScript files that together, create the visual presentation and interactions that your customers experience when they visit your store. Themes and skins can be modified and customized by a developer or designer who has knowledge of Commerce theme design and access to your server. To learn more, see our [Frontend Developer Guide][1].
 
-![]({% link images/images/design-responsive.png %}){: .zoom}
+![]({% link design/assets/design-responsive.png %}){: .zoom}
 _Luma theme_
 
 [1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/frontend-dev-guide/themes/theme-overview.html
