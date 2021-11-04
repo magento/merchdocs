@@ -4,7 +4,7 @@ title: Adding an Attribute to a Product
 
 Although attributes are managed primarily from the [Stores]({% link stores/stores-menu.md %}) menu, you can also add new attributes _on the fly_ while working on a product. You can choose from the list of existing attributes or create a new attribute. The new attribute is added to the [attribute set]({% link stores/attribute-sets.md %}) upon which the product is based.
 
-![]({% link images/images/product-attribute-add.png %}){: .zoom}
+![]({% link catalog/assets/product-attribute-add.png %}){: .zoom}
 _Add Attribute_
 
 ## Step 1: Add a product attribute
@@ -26,7 +26,7 @@ _Add Attribute_
 
 ## Step 2: Describe the basic properties
 
-![]({% link images/images/product-attribute-add-new.png %}){: .zoom}
+![]({% link catalog/assets/product-attribute-add-new.png %}){: .zoom}
 _Attribute Properties_
 
 1. Under **Attribute Properties**, enter an **Attribute Label** to identify the attribute.

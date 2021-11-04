@@ -15,7 +15,7 @@ _Simple product_
 
 1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right, choose **Simple Product**.
 
-    ![]({% link images/images/product-add-simple.png %}){: .zoom}
+    ![]({% link catalog/assets/product-add-simple.png %}){: .zoom}
     _Add Simple Product_
 
 ## Step 2: Choose the attribute set

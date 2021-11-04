@@ -25,7 +25,7 @@ _Cross-sells in Shopping Cart_
 
 1. In the list, select the checkbox of any product you want to feature as a cross-sell product.
 
-    ![]({% link images/images/product-cross-sell-add.png %}){: .zoom}
+    ![]({% link catalog/assets/product-cross-sell-add.png %}){: .zoom}
     _Cross-sell Products_
 
 1. When complete, click <span class="btn">Add Selected Products</span>.
