@@ -4,7 +4,7 @@ title: Create an order with Payment Services
 
 You can customize Payment Services to your needs with helpful configuration options in the Admin.
 
-Payment services for Adobe Commerce and Magento Open Source offer registered customers who need assistance, the ability to fulfill an order directly from the Admin. The **Create New Order** form includes all the information that is needed to complete the normal checkout process, including hosted fields with credit card information. See [Creating an order]({% link customers/customer-account-create-order.md %}) for detailed information about the required steps.
+Payment services for Adobe Commerce and Magento Open Source offer customers who need assistance, the ability to fulfill an order directly from the Admin. The **Create New Order** form includes all the information that is needed to complete the normal checkout process, including hosted fields with credit card information. See [Creating an order]({% link customers/customer-account-create-order.md %}) for detailed information about the required steps.
 
 ## Hosted credit card fields
 
