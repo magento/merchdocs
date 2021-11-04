@@ -7,7 +7,7 @@ In addition to the preset order status settings, you can create custom order sta
 {:.bs-callout-info}
 Only default custom order status values are used in the order workflow. Custom status values that are not set as default can be used only in the comments section of the order.
 
-![]({% link images/images/order-status.png %}){: .zoom}
+![]({% link sales/assets/order-status.png %}){: .zoom}
 _Order Status Settings_
 
 ## Create a custom order status
@@ -18,7 +18,7 @@ _Order Status Settings_
 
 1. In the upper-right corner, click **Create New Status**.
 
-   ![]({% link images/images/order-status-new.png %}){: .zoom}
+   ![]({% link sales/assets/order-status-new.png %}){: .zoom}
    _Create New Order Status_
 
 1. Update the _Order Status Information_ section:
@@ -48,7 +48,7 @@ _Order Status Settings_
 
    - To make this status visible from the storefront, select the **Visible On Storefront** checkbox.
 
-   ![Assign Status to State]({% link images/images/order-status-assign-state.png %} "Assign Status to State"){: .zoom}
+   ![Assign Status to State]({% link sales/assets/order-status-assign-state.png %} "Assign Status to State"){: .zoom}
    _Assign Status to State_
 
 1. Click **Save Status Assignment**.

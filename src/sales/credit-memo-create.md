@@ -39,7 +39,7 @@ If you are using [Vertex Cloud]({% link tax/vertex.md %}), see the [Vertex Setti
 
 Determine the type of refund that you want to issue---for a [credit purchase](#issue-a-refund-for-a-credit-purchase) or for [check or money order](#issue-an-offline-refund-for-check-or-money-order)---and generate the credit memo and issue a refund.
 
-![]({% link images/images/order-credit-memo.png %}){: .zoom}
+![]({% link sales/assets/order-credit-memo.png %}){: .zoom}
 _Create Credit Memo_
 
 ### Issue a refund for a credit purchase
@@ -62,12 +62,12 @@ _Create Credit Memo_
 
 1. Find the invoice in the grid and click **View**.
 
-   ![]({% link images/images/order-invoices-grid.png %}){: .zoom}
+   ![]({% link sales/assets/order-invoices-grid.png %}){: .zoom}
    _Invoices Grid_
 
 1. Scroll down to the **Invoice Totals** section of the invoice, and verify that the invoice is set to `Capture Online`. Then, click <span class="btn">Submit Invoice</span>.
 
-   ![]({% link images/images/order-invoice-capture-online.png %}){: .zoom}
+   ![]({% link sales/assets/order-invoice-capture-online.png %}){: .zoom}
    _Capture Online_
 
    If that option isn't available, the invoice has already been created. Proceed to the next step.

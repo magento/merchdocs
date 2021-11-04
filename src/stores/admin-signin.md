@@ -99,7 +99,7 @@ The Admin provides access to manage the orders, customers, products, shipping, a
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
-    ![]({% link images/images/multiple-admin-login.png %}){: .zoom}
+    ![]({% link stores/assets/multiple-admin-login.png %}){: .zoom}
     _Multiple Admin Login_
 
 1. In the left panel, expand **Advanced** and choose **Admin**.

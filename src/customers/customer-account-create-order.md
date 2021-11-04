@@ -18,7 +18,7 @@ _Create New Order_
 
 1. In the workspace header, click **Create Order**.
 
-   ![]({% link images/images/order-create-buttons.png %}){: .zoom}
+   ![]({% link customers/assets/order-create-buttons.png %}){: .zoom}
    _Workspace header_
 
    You can also create a new order in the [Order workspace]({% link sales/orders-workspace.md %}) by clicking <span class="btn">Create New Order</span>.

@@ -4,7 +4,7 @@ title: Newsletter Templates
 
 You can create as many newsletter templates as you need for different purposes. You might send a weekly product update, a monthly newsletter, or annual holiday newsletter. Newsletter templates can be prepared with HTML markup, or as plain text. Unlike HTML, plain text newsletters contain no images, rich text, or formatted links. In the grid, the Template Type column indicates whether a template is HTML or text.
 
-![Newsletter templates]({% link images/images/newsletter-templates.png %}){: .zoom}
+![Newsletter templates]({% link marketing/assets/newsletter-templates.png %}){: .zoom}
 _Newsletter Templates_
 
 ## Create a Newsletter Template
@@ -21,7 +21,7 @@ _Newsletter Templates_
 
     - In the **Sender Email** field, enter the email address of the newsletter sender.
 
-        ![Newsletter template information]({% link images/images/newsletter-template-information1.png %}){: .zoom}
+        ![Newsletter template information]({% link marketing/assets/newsletter-template-information1.png %}){: .zoom}
         _Template Information_
 
     - At the **Template Content** field, click <span class="btn">Show / Hide Editor</span> to display the WYSIWYG editor. Then, update the content as needed.
@@ -33,7 +33,7 @@ _Newsletter Templates_
 
     - In the **Template Styles** field, enter the CSS declarations needed to format the content.
 
-        ![Newsletter template information]({% link images/images/newsletter-template-information2.png %}){: .zoom}
+        ![Newsletter template information]({% link marketing/assets/newsletter-template-information2.png %}){: .zoom}
         _Template Information_
 
 1. Click **Preview Template** to see how it looks. Then, make any changes that are needed.
