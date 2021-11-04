@@ -7,7 +7,7 @@ The _Contact Us_ link in the footer of the store is an easy way for customers to
 
 It is important to understand that the default Contact Us form is rendered directly from code rather than from a CMS page.
 
-![]({% link images/images/page-contact-us-default.png %}){: .zoom}
+![]({% link stores/assets/page-contact-us-default.png %}){: .zoom}
 _Default Contact Us page_
 
 The store footer includes a link to the Contact Us page that is available throughout the store.
