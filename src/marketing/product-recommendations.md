@@ -6,6 +6,8 @@ redirect_from:
   - /marketing/product-recs-limitations.html
 ---
 
+ADD LINKS TO HEADLESS AND PWA DOCS...
+
 Product recommendations are a powerful marketing tool you can use to increase conversions, boost revenue, and stimulate shopper engagement. Product recommendations are surfaced on the storefront in the form of units such as “Customers who viewed this product also viewed”. Adobe Commerce product recommendations are powered by [Adobe Sensei](https://www.adobe.com/sensei.html), which uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Adobe Commerce catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
 
 You can create, manage, and deploy recommendations across your store views directly from the Adobe Commerce Admin. If you have implemented your storefront using PWA Studio, see the [PWA documentation](https://magento.github.io/pwa-studio/product-recs).
