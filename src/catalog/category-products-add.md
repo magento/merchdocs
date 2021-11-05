@@ -13,7 +13,7 @@ _Products in Category_
 
 1. In the category tree on the left, choose the category where you want to add a product.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the _Products in Category_ section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the _Products in Category_ section.
 
 1. Click <span class="btn">Add Products</span>.
 
@@ -58,7 +58,7 @@ _Products in Category_
 
 1. In the category tree on the left, choose the category that you want to edit.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the _Products in Category_ section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the _Products in Category_ section.
 
 1. Find the products to be removed.
 

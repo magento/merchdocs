@@ -29,7 +29,7 @@ _Tags Fired in Shopping Cart Shown in Debug Mode_
 
 1. When complete, click <span class="btn">Submit</span>.
 
-    ![Google Universal Analytics - enable Enhanced Ecommerce]({% link images/images/google-universal-analytics-ecommerce-setup1.png %}){: .zoom}
+    ![Google Universal Analytics - enable Enhanced Ecommerce]({% link marketing/assets/google-universal-analytics-ecommerce-setup1.png %}){: .zoom}
     _Enable Enhanced Ecommerce_
 
 ## Step 3. Create Tags and Triggers

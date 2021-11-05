@@ -25,7 +25,7 @@ _Themes_
 
 1. To view a sample page, click the **Theme Preview Image**.
 
-![]({% link images/images/theme-settings.png %}){: .zoom}
+![]({% link design/assets/theme-settings.png %}){: .zoom}
 _Preview theme_
 
 ## Apply a default theme
@@ -36,7 +36,7 @@ _Preview theme_
 
 1. Under _Default Theme_, set **Applied Theme** to the one that you want to use for the current view.
 
-   ![]({% link images/images/theme-default-apply.png %}){: .zoom}
+   ![]({% link design/assets/theme-default-apply.png %}){: .zoom}
    _Applied Theme_
 
 1. When complete, click <span class="btn">Save Configuration</span>.
@@ -47,7 +47,7 @@ _Preview theme_
 
 1. Under _Design Rule_, click <span class="btn">Add New User Agent Rule</span>.
 
-   ![]({% link images/images/theme-design-rule.png %}){: .zoom}
+   ![]({% link design/assets/theme-design-rule.png %}){: .zoom}
    _Design Rule_
 
 1. For **Search String**, enter the browser ID for the specific device.

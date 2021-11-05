@@ -10,7 +10,7 @@ Configure the default configuration options for product and stock for your websi
 
 1. In the left panel, expand **Catalog** and choose **Inventory**.
 
-1. Expand ![]({% link images/images/btn-expand.png %})the **Stock Options** section and set the options:
+1. Expand ![]({% link assets/icon-display-expand.png %})the **Stock Options** section and set the options:
 
     - To adjust the quantity on hand when an order is placed, set **Decrease Stock When Order is Placed** to `Yes`.
 
@@ -31,7 +31,7 @@ Configure the default configuration options for product and stock for your websi
        ![]({% link images/images/config-catalog-catalog-inventory-stock-options.png %}){: .zoom}
        [_Stock Options_]({% link configuration/catalog/inventory.md %})
 
-1. Expand ![]({% link images/images/btn-expand.png %})the **Product Stock Options** section and set the options:
+1. Expand ![]({% link assets/icon-display-expand.png %})the **Product Stock Options** section and set the options:
 
     - To activate [inventory control]({% link catalog/inventory.md %}) for your catalog, set **Manage Stock** to `Yes`.
 
@@ -62,7 +62,7 @@ Configure the default configuration options for product and stock for your websi
 
     - For Inventory Management, **Automatically Return Credit Memo Item to Stock** is set to `No`. When submitting a credit memo, you enter and select to return stock to sources.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Admin bulk operations** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Admin bulk operations** section.
 
     - Set **Run asynchronously** to run bulk operations asynchronously for mass product actions
 

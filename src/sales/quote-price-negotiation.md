@@ -29,7 +29,7 @@ While the quote is open for review, its status in the buyer’s account is set t
 
 ## Step 2: Modify the quote
 
-1. Under _Quote & Account Information_, click the **Calendar** (![]({% link images/images/btn-calendar.png %})).
+1. Under _Quote & Account Information_, click the **Calendar** (![]({% link assets/icon-calendar.png %})).
 
    ![]({% link images/images-b2b/quote-details-quote-account-information.png %}){: .zoom}
    _Quote & Account Information_

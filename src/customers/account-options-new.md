@@ -13,7 +13,7 @@ _Create New Account Options_
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Create New Account Options** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Create New Account Options** section and do the following:
 
    - Set **Default Group** to the customer group that is assigned to new customers when an account is created.
 

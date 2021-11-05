@@ -27,7 +27,7 @@ _Scheduled Changes_
 
     - Enter a brief **Description** of the update, including how or why it is applied.
 
-    - Use the Calendar (![]({% link images/images/btn-calendar.png %}){: .Inline}) to choose the **Start Date** and **End Date** for the scheduled change to be in effect. To create an open-ended change, leave the end date blank.
+    - Use the Calendar (![]({% link assets/icon-calendar.png %}){: .Inline}) to choose the **Start Date** and **End Date** for the scheduled change to be in effect. To create an open-ended change, leave the end date blank.
 
     ![Catalog price rules - new scheduled changes]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
     _Add Scheduled Changes_
@@ -70,7 +70,7 @@ _Scheduled Changes_
     ![]({% link images/images-ee/price-rule-catalog-scheduled-preview-calendar.png %}){: .zoom}
     _List of Scheduled Updates for a Specific Date_
 
-1. To preview a different day or time, click the **Date & Time** calendar ![]({% link images/images/btn-calendar.png %}){: .Inline} and do the following:
+1. To preview a different day or time, click the **Date & Time** calendar ![]({% link assets/icon-calendar.png %}){: .Inline} and do the following:
 
     - Choose a different date and/or time.
 

@@ -19,7 +19,7 @@ _Tiled Watermark_
 
 1. Find the store view that you want to configure and click **Edit** in the _Action_ column.
 
-1. Under _Other Settings_, expand ![]({% link images/images/btn-expand.png %}) the _Product Image Watermarks_ section.
+1. Under _Other Settings_, expand ![]({% link assets/icon-display-expand.png %}) the _Product Image Watermarks_ section.
 
 1. Complete the **Base**, **Thumbnail**, **Small**, and **Swatch Image** image settings as follows.
 

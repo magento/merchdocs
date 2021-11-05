@@ -32,7 +32,7 @@ Email reminders might promote a cart price rule with, or without, a coupon. A ca
 
    - To set up a date range for the rule to be active, enter the **From** and **To** dates.
 
-        You can also choose the date from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ).
+        You can also choose the date from the Calendar ( ![Calendar icon]({% link assets/icon-calendar.png %}) ).
 
    - To send the reminder more than once, enter the number of days before the next email blast in the **Repeat Schedule** field.
 
@@ -45,7 +45,7 @@ Email reminders might promote a cart price rule with, or without, a coupon. A ca
     ![Email reminder conditions]({% link images/images-ee/email-reminder-conditions.png %}){: .zoom}
     _Conditions_
 
-   - Click **Add** ( ![Add icon]({% link images/images/btn-add-grn.png %})) to display the list of options. Then, choose one of the following conditions:
+   - Click **Add** ( ![Add icon]({% link assets/icon-add-green-circle.png %})) to display the list of options. Then, choose one of the following conditions:
 
       - Wish List
       - Shopping Cart

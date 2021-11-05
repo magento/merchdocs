@@ -28,7 +28,7 @@ The following example shows how to create a new root category and assign it to a
 
 1. If you want to add products to the catalog from the current catalog, do the following:
 
-   - Expand ![]({% link images/images/btn-expand.png %}) the _Products in Category_ section.
+   - Expand ![]({% link assets/icon-display-expand.png %}) the _Products in Category_ section.
 
    - Use the [search filters]({% link stores/admin-grid-controls.md %}) to find the products you want and select the checkbox for each product that you want to copy into the new catalog.
 

@@ -15,7 +15,7 @@ _Shipping Policy During Checkout_
 
 1. In the left panel, expand **Sales** and choose **Shipping Settings**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Shipping Policy Parameters** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Shipping Policy Parameters** section.
 
 1. Set **Apply Custom Shipping Policy** to `Yes`.
 

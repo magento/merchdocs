@@ -44,7 +44,7 @@ Ensure that the Customer Segments feature is enabled. Refer to [Creating a Custo
 
        The default condition begins, “If ALL of these conditions are TRUE:”
 
-   - Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) and select `Number of Orders`.
+   - Click **Add** (![Add icon]({% link assets/icon-add-green-circle.png %})) and select `Number of Orders`.
 
    - Click **is** and select `less than`.
 
@@ -104,11 +104,11 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
 1. Define the **Conditions**.
 
-   - Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Conditions** section.
+   - Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Conditions** section.
 
       The default rule begins, "If ALL of these conditions are TRUE:".
 
-   - Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) and select `Customer Segment`.
+   - Click **Add** (![Add icon]({% link assets/icon-add-green-circle.png %})) and select `Customer Segment`.
 
        The qualifier field defaults to `matches`.
 
@@ -117,7 +117,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
       For this example, the segment ID for the new segment created in Step 1 is `2`.
 
       {:.bs-callout-info}
-      If you don't know the segment ID, click the chooser icon ( ![List icon]({% link images/images/btn-chooser.png %}) ) to display the Customer Segment list. You can manually enter the ID in the field or select the checkbox for the desired segment to auto-populate the field.
+      If you don't know the segment ID, click the chooser icon ( ![List icon]({% link assets/icon-list-chooser.png %}) ) to display the Customer Segment list. You can manually enter the ID in the field or select the checkbox for the desired segment to auto-populate the field.
 
    - Click the green checkmark ( ![Green checkmark]({% link images/images/icon-green-check.png %}) ) to save the condition setting.
 
@@ -128,7 +128,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
    ![Customer segment condition]({% link images/images-ee/customer-segment-matches.png %}){: .zoom}
    _Defining the Customer Segment_
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %})the **Actions** section and define the actions for the rule.
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %})the **Actions** section and define the actions for the rule.
 
    In this section, you define the type of discount and value/amount of the discount you want to apply for first-time customers. This example defines a 10% discount for all customers who meet the defined condition. For information on other available options, see [Creating a Cart Price Rule]({% link marketing/price-rules-cart-create.md %}).
 

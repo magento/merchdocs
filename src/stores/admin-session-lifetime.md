@@ -13,7 +13,7 @@ As a security measure, the _Admin_ is initially set to time out after 900 second
 
 1. Click **Admin**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the _Security_ section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the _Security_ section.
 
 1. For **Admin Session Lifetime (seconds)**, enter the number of seconds that a session remains active before it times out.
 

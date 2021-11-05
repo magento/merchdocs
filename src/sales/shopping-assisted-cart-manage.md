@@ -52,7 +52,7 @@ _Shopping Cart in in the customer account_
 
 ## Add products to cart by attribute
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Products** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Products** section.
 
 1. Find a product to add using any of the filters at the top of each column.
 
@@ -104,7 +104,7 @@ There are three types of products that need to be configured before adding to th
 
 ## Add product by SKU
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Add to Shopping Cart by SKU** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Add to Shopping Cart by SKU** section.
 
 1. Add products individually by **SKU** or add products by uploading a CSV file.
 
@@ -140,7 +140,7 @@ There are three types of products that need to be configured before adding to th
 
 You can transfer items to the cart from a customer's wish list, as well as recently viewed, compared, or ordered items. The number of items in each section appears in parentheses after the section header.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) one of the following sections:
+1. Expand ![]({% link assets/icon-display-expand.png %}) one of the following sections:
 
    - Wish List
    - Products in the Comparison List
@@ -158,7 +158,7 @@ You can transfer items to the cart from a customer's wish list, as well as recen
 
    - For **Apply Coupon Code**, enter a valid coupon code.
 
-   - Click the _Apply_ (![]({% link images/images/btn-apply.png %})) arrow.
+   - Click the _Apply_ (![]({% link assets/icon-apply-arrow.png %})) arrow.
 
 1. Adjust the quantity ordered as needed:
 

@@ -13,7 +13,7 @@ _Default Tax Destination Calculation_
 
 1. In the left panel, expand **Sales** and choose **Tax**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Default Tax Destination Calculation** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Default Tax Destination Calculation** section.
 
 1. Set **Default Country** to the country upon which tax calculations are based.
 

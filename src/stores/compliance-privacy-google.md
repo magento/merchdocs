@@ -7,7 +7,7 @@ redirect_from:
 
 If your business is required to comply with privacy regulations such as the [GDPR]({% link stores/compliance-gdpr.md %}) or [CCPA]({% link stores/compliance-ccpa.md %}), the default settings of [Google Analytics]({% link marketing/google-universal-analytics.md %}), or [Google Universal Analytics]({% link marketing/google-universal-analytics.md %}) and [Google Tag Manager]({% link marketing/google-tag-manager.md %}) (<span class="ee-only"></span>), can be changed to meet privacy requirements. Follow these steps to ensure that your use of customer data remains in compliance.
 
-![Google Analytics - data sharing settings]({% link images/images/google-data-sharing-settings.png %}){: .zoom}
+![Google Analytics - data sharing settings]({% link stores/assets/google-data-sharing-settings.png %}){: .zoom}
 _Google Data Sharing Settings_
 
 ## Step 1: Update Google settings

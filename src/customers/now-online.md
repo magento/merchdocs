@@ -23,7 +23,7 @@ Page visits alone will not update the customer's online status. To collect such 
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Online Customers Options** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Online Customers Options** section and do the following:
 
       ![]({% link images/images/config-customers-customer-configuration-online-customers-options.png %}){: .zoom}
       [_Online Customers Options_]({% link configuration/customers/customer-configuration.md %})

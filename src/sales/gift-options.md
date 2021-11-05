@@ -19,7 +19,7 @@ The Gift Options configuration applies to the entire website, but can be overrid
 
 1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) **Gift Options** on the page.
+1. Expand ![]({% link assets/icon-display-expand.png %}) **Gift Options** on the page.
 
     ![]({% link images/images-ee/config-sales-sales-gift-options.png %}){: .zoom}
     _[Sales configuration - Gift Options settings]({% link configuration/sales/sales.md %}#gift-options)_

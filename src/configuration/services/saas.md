@@ -18,7 +18,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 
 ## SaaS Identifier
 
-![]({% link images/images/saas-env-saasidentifier.png %}){: .zoom}
+![]({% link configuration/assets/saas-env-saasidentifier.png %}){: .zoom}
 [_SaaS Identifier_]({% link system/saas.md %}#saasenv)
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

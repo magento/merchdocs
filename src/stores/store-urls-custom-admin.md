@@ -23,7 +23,7 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
 
 1. In the left panel, expand **Advanced** and choose **Admin**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Admin Base URL** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Admin Base URL** section.
 
 1. Set the configuration options for the custom URL:
 
