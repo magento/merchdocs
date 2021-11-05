@@ -22,26 +22,26 @@ Data export is an asynchronous operation, which executes in the background so th
 
 1. If you want to enclose any special characters that might be found in the data as an _escape sequence_, select the **Fields Enclosure** checkbox.
 
-    ![Data export settings]({% link images/images/data-export-settings.png %}){: .zoom}
+    ![Data export settings]({% link system/assets/data-export-settings.png %}){: .zoom}
     _Export Settings_
 
 1. If needed, change the display of the entity attributes.
 
    By default, the Entity Attributes section lists all the available attributes in alphabetical order. You can use the standard [list controls]({% link stores/admin-grid-controls.md %}) to search for specific attributes and to sort the list. The Search and Reset Filter controls control the display of the list, but have no effect on the selection of attributes to be included in the export file.
 
-    ![Data export filtered entity attributes]({% link images/images/data-export-filter-entity-attributes.png %}){: .zoom}
+    ![Data export filtered entity attributes]({% link system/assets/data-export-filter-entity-attributes.png %}){: .zoom}
     _Filtered Entity Attributes_
 
 1. To filter the exported data based on attribute value, do the following:
 
     - To export only records with specific attribute values, enter the required value in the **Filter** column. The following example exports only a specific SKU.
 
-      ![Data export - product based on SKU]({% link images/images/data-export-entity-attributes-sku.png %}){: .zoom}
+      ![Data export - product based on SKU]({% link system/assets/data-export-entity-attributes-sku.png %}){: .zoom}
       _Export Product Based on SKU_
 
     - To omit an attribute from the export, select the **Exclude** checkbox at the beginning of the row. For example, to export only the sku and image columns, select the checkbox of every other attribute. The column appears in the export file, but without any values.
 
-      ![Data export - exclude attributes]({% link images/images/data-export-filter-exclude.png %}){: .zoom}
+      ![Data export - exclude attributes]({% link system/assets/data-export-filter-exclude.png %}){: .zoom}
       _Exclude Attributes_
 
 1. Scroll down and click **Continue** in the lower-right corner of the page.

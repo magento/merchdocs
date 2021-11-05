@@ -59,7 +59,7 @@ In the **Action** column of the grid, select one of the following:
    ![System report - view details]({% link system/assets/report-grid-view.png %}){: .zoom}
    _View System Report_
 
-1. In the left panel, expand ![Expansion selector]({% link images/images/btn-expand.png %}) each section of the report to view the detail.
+1. In the left panel, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) each section of the report to view the detail.
 
    ![General system report information]({% link system/assets/report-information.png %}){: .zoom}
    _General System Report Information_

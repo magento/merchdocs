@@ -15,7 +15,7 @@ TinyMCE 4 is the default WYSIWYG editor. The implemented version, which is actua
 
 1. In the left panel under _General_, choose **Content Management**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **WYSIWYG Options**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **WYSIWYG Options**.
 
 1. Set **Enable WYSIWYG Editor** to your preference.
 

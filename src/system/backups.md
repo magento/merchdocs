@@ -35,7 +35,7 @@ _Backups_
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Backup Settings** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Backup Settings** section and do the following:
 
    - Set Enabled Schedule Backup to `Yes`.
    - Set the **Scheduled Backup Type**.

@@ -13,7 +13,7 @@ Check your shipping carrier configuration for any additional settings that may b
 
 1. In the left panel, expand **Sales** and choose **Delivery Methods**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Free Shipping** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Free Shipping** section.
 
    {:.bs-callout-info}
    If necessary, first deselect the **Use system value** checkbox to change the following settings as described.
@@ -58,7 +58,7 @@ Check your shipping carrier configuration for any additional settings that may b
 
 Make sure to complete any configuration that is required for each carrier that you plan to use for free shipping. For example, if your [UPS configuration]({% link shipping/ups.md %}) is otherwise complete, update the following settings to enable and configure free shipping.
 
-1. In the _Delivery Methods_ configuration, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **UPS** section.
+1. In the _Delivery Methods_ configuration, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **UPS** section.
 
 1. Set **Free Method** to `UPS Ground` or another type you want to designate for free shipping.
 

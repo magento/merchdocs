@@ -113,7 +113,7 @@ _Choose Attribute Set_
 
 ## Step 5: Complete the downloadable information
 
-Scroll down, expand ![]({% link images/images/btn-expand.png %}) the _Downloadable Information_ section, and select the **Is this downloadable product?** checkbox.
+Scroll down, expand ![]({% link assets/icon-display-expand.png %}) the _Downloadable Information_ section, and select the **Is this downloadable product?** checkbox.
 
 The _Downloadable Information_ section has two parts. The first part describes each download link, and the second part describes each sample file. The default value for many of these options can be set in the [configuration]({% link catalog/product-download-options.md %}).
 
@@ -194,7 +194,7 @@ If you are ready to publish the product in the catalog, set **Enable Product** t
 
    - In the upper-right corner, click <span class="btn">Save</span>.
 
-   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link assets/icon-menu-down-arrow-black.png %}) ) menu.
 
    The store opens in a new browser tab.
 
@@ -203,7 +203,7 @@ If you are ready to publish the product in the catalog, set **Enable Product** t
 
 - **Method 2:** Save and Close
 
-   On the _Save_ ( ![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+   On the _Save_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}) ) menu, choose **Save & Close**.
 
    ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
    _Save & Close_

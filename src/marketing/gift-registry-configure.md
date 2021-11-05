@@ -17,7 +17,7 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
 1. In the left panel, expand **Customers** and choose **Gift Registry**
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Options** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General Options** section and do the following:
 
     ![Customers configuration - gift registry general]({% link images/images-ee/config-customers-gift-registry-general-options.png %}){: .zoom}
     _General Options_
@@ -28,7 +28,7 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
 ## Step 2. Configure Email Notifications
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Owner Notification** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Owner Notification** section and do the following:
 
     ![Customers configuration - gift registry owner notification]({% link images/images-ee/config-customers-gift-registry-owner-notification.png %}){: .zoom}
     _Owner Notification_
@@ -37,7 +37,7 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
    - Choose the [store contact]({% link stores/store-email-addresses.md %}) that appears as the **Email Sender** of the message.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Gift Registry Sharing** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Gift Registry Sharing** section and do the following:
 
     ![Customers configuration - gift registry sharing]({% link images/images-ee/config-customers-gift-registry-gift-registry-sharing.png %}){: .zoom}
     _Gift Registry Sharing_
@@ -48,7 +48,7 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
    - In the **Maximum Sent Emails Threshold** field, enter the maximum number of emails that can be sent at one time.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Gift Registry Update** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Gift Registry Update** section and do the following:
 
     ![Customers configuration - gift registry update]({% link images/images-ee/config-customers-gift-registry-gift-registry-update.png %}){: .zoom}
     _Gift Registry Update_

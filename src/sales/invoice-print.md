@@ -27,7 +27,7 @@ To view or print the PDF, you must have a PDF reader. You can download [Adobe R
 
 1. Set the **Actions** control to `PDF Invoices`.
 
-   ![]({% link images/images/invoices-print-batch.png %}){: .zoom}
+   ![]({% link sales/assets/invoices-print-batch.png %}){: .zoom}
    _Print multiple invoices_
 
 The invoices are saved in a single PDF file that can be sent to a printer or saved.

@@ -22,7 +22,7 @@ Visit the Google website, and sign up for a [Google Universal Analytics][1] acco
 
 1. In the left panel, expand **Sales** and choose **Google API**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Google Analytics** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Google Analytics** section and do the following:
 
     - Set **Enable** to `Yes`.
 

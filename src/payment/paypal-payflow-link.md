@@ -137,7 +137,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 #### Advertise PayPal Credit
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal Credit** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advertise PayPal Credit** section.
 
    ![Advertise PayPal Credit]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
    _Advertise PayPal Credit_
@@ -146,7 +146,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Enter your **Publisher ID**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Home Page** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Home Page** section.
 
    ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
    _Advertise PayPal Credit - Home Page_
@@ -167,7 +167,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
    - `728 x 90`
    - `800 x 66`
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the remaining sections and repeat the previous steps for home page configuration:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the remaining sections and repeat the previous steps for home page configuration:
 
    - **Catalog Category Page**
    - **Catalog Product Page**
@@ -175,11 +175,11 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 #### Advertise PayPal Pay Later
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal PayLater** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advertise PayPal PayLater** section.
 
 1. Set **Enable PayPal PayLater** to `Yes`.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Home Page** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Home Page** section.
 
    ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png %}){: .zoom}
    _Advertise PayPal PayLater - Home Page Settings_
@@ -243,7 +243,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
    - `Monochrome`
    - `Grayscale`
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the remaining sections and repeat the previous steps:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the remaining sections and repeat the previous steps:
 
    - **Catalog Product Page**
    - **Checkout Cart Page**
@@ -252,7 +252,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 ### Step 4: Complete the basic Settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Basic Settings - PayPal Payflow Link** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Basic Settings - PayPal Payflow Link** section.
 
    ![Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-link-basic-settings.png %}){: .zoom}
    _Basic Settings - PayPal Payflow Link_
@@ -272,7 +272,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 ### Step 5: Complete the advanced settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
    ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-link-advanced-settings.png %}){: .zoom}
    _Advanced Settings - PayPal Payflow Link_
@@ -309,7 +309,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 #### Settlement Report Settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Settlement Report Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Settlement Report Settings** section.
 
    ![Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
    _Settlement Report Settings - PayPal Payflow Pro_
@@ -353,7 +353,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 The Frontend Experience Settings give you the opportunity to choose which PayPal logos appear on your site, and to customize the appearance of your PayPal merchant pages.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Frontend Experience Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Frontend Experience Settings** section.
 
    ![Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
    _Frontend Experience Settings - PayPal Payflow Pro_
@@ -389,7 +389,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 ### Step 6: Complete the basic settings for PayPal Express Checkout
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Basic Settings - PayPal Express Checkout** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Basic Settings - PayPal Express Checkout** section.
 
    ![Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-link-express-checkout-basic-settings.png %}){: .zoom}
    _Basic Settings - PayPal Express Checkout_
@@ -411,7 +411,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 ### Step 7: Complete the advanced settings for PayPal Express Checkout
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
    ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-link-express-checkout-advanced-settings.png %}){: .zoom}
    _Advanced Settings - PayPal Express Checkout_

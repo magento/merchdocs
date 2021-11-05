@@ -30,7 +30,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 ### Use the Page Builder content tools
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Content**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Content**.
 
    ![]({% link images/images-ee/page-content.png %}){: .zoom}
    _Content with Page Builder_{:.ee-only}
@@ -45,7 +45,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 ### Use the editor toolbar
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Content**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Content**.
 
    ![]({% link images/images/page-content.png %}){: .zoom}
    _Content_
@@ -58,7 +58,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 ## Step 3: Complete the SEO information
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Search Engine Optimization**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Search Engine Optimization**.
 
    ![]({% link images/images/page-search-engine-optimization.png %}){: .zoom}
    _Search Engine Optimization_
@@ -83,7 +83,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 ## Step 4: Specify the scope of the page
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Page in Websites**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Page in Websites**.
 
    ![]({% link images/images/page-in-websites.png %}){: .zoom}
    _Pages in Websites_
@@ -95,7 +95,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 {:.ee-only}
 ## Step 5: Identify the parent page (if applicable)
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Hierarchy**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Hierarchy**.
 
    ![]({% link images/images-ee/page-hierarchy.png %}){: .zoom}
    _Hierarchy_
@@ -104,7 +104,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 ## Step 6: Enter design changes (optional)
 
-1. To change the layout of the page, expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Design**.
+1. To change the layout of the page, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Design**.
 
    ![]({% link images/images/page-design.png %}){: .zoom}
    _Design_
@@ -129,12 +129,12 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
    - `Magento Black`
    - `Magento Luma`
 
-1. {:.ce-only}To schedule a design change, expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Custom Design Update** and do the following:
+1. {:.ce-only}To schedule a design change, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Custom Design Update** and do the following:
 
    ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
    _Custom Design Update_
 
-   - Use the calendar (![]({% link images/images/btn-calendar.png %})) to choose the **From** and **To** dates for the change to take effect.
+   - Use the calendar (![]({% link assets/icon-calendar.png %})) to choose the **From** and **To** dates for the change to take effect.
 
    - To apply a different theme to the page, select the name of the **New Theme**.
 

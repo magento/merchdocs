@@ -21,12 +21,12 @@ Complete [Step 2]({% link marketing/price-rules-cart.md %}) of the cart instruct
 
 If left blank, the rule is triggered for every cart.
 
-![Cart price rule - condition]({% link images/images/price-rule-cart-buy-x-get-y-condition-default.png %}){: .zoom}
+![Cart price rule - condition]({% link marketing/assets/buy-x-get-y-condition-default.png %}){: .zoom}
 _Condition_
 
 ## Step 3. Define the Actions
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Actions** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Actions** section and do the following:
 
    - Set **Apply** to `Buy X get Y free (discount amount is Y)`.
 
@@ -38,14 +38,14 @@ _Condition_
 
    - If you want to prevent other discounts from being applied to the purchase, set **Discard subsequent rules** to `Yes`.
 
-      ![Cart price rule - buy 3 get 1 free]({% link images/images/price-rule-cart-buy-3-get-1-actions.png %}){: .zoom}
+      ![Cart price rule - buy 3 get 1 free]({% link marketing/assets/buy-3-get-1-actions.png %}){: .zoom}
       _Buy 3 Get 1 Free_
 
 1. To apply the rule only to specific items in the cart, complete the condition to describe the cart item(s) and/or product attribute(s) that are required for the promotion.
 
     The following example uses the SKU to apply the rule to all associated variations of a configurable product.
 
-    ![Cart price rule - condition for cart items]({% link images/images/price-rule-cart-buy-3-get-1-actions-condition.png %}){: .zoom}
+    ![Cart price rule - condition for cart items]({% link marketing/assets/buy-3-get-1-actions-condition.png %}){: .zoom}
     _Condition for Cart Items_
 
 1. To include **Free Shipping**, choose one of the following options:

@@ -6,7 +6,7 @@ Before setting up individual currency rates, you must first set the scope of the
 
 You also specify the currencies that you accept and which currency you want to use for the display of [prices]({% link catalog/catalog-price-scope.md %}) in your store. In the following illustration, the scope of the base currency is set at the website level, so each website can have a different base currency.
 
-![Currency scope diagram]({% link images/images/scope-base-currency.png %}){: .zoom}
+![Currency scope diagram]({% link stores/assets/scope-base-currency.png %}){: .zoom}
 _Scope of Base Currency_
 
 ## Step 1: Choose the Accepted Currencies
@@ -17,7 +17,7 @@ _Scope of Base Currency_
 
 1. In the left panel under _General_, choose **Currency Setup**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Currency Options** section and set the following options:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Currency Options** section and set the following options:
 
    - **Base Currency** — Set to the primary currency that you use for online transactions.
 
@@ -30,7 +30,7 @@ _Scope of Base Currency_
    ![General configuration - currency options]({% link images/images/config-general-currency-setup-currency-options.png %}){: .zoom}
    [_Currency Options_]({% link configuration/general/currency-setup.md %})
 
-1. When prompted to refresh the cache, click **Close** ( ![Close box]({% link images/images/btn-close.png %})) in the upper-right corner of the system message.
+1. When prompted to refresh the cache, click **Close** ( ![Close box]({% link assets/icon-close-x.png %})) in the upper-right corner of the system message.
 
    You can [refresh the cache]({% link system/cache-management.md %}) later.
 
@@ -38,7 +38,7 @@ _Scope of Base Currency_
 
    - In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-   - Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Price** section. (This section only appears if the scope is set as **Store View:** _Default config_.)
+   - Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Price** section. (This section only appears if the scope is set as **Store View:** _Default config_.)
 
    - Set **Catalog Price Scope** to either `Global` or `Website`.
 
@@ -57,7 +57,7 @@ _Scope of Base Currency_
 
    - To connect to the [fixer.io service](https://fixer.io/):
 
-      - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Fixer.io** section.
+      - Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Fixer.io** section.
 
       - Enter your fixer.io **API key**.
 
@@ -68,7 +68,7 @@ _Scope of Base Currency_
 
    - To connect to the [Currency Convertor API service](https://free.currencyconverterapi.com/):
 
-      - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Currency Convertor API** section.
+      - Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Currency Convertor API** section.
 
       - Enter your Currency Convertor **API key**.
 
@@ -79,7 +79,7 @@ _Scope of Base Currency_
 
 ## Step 3: Configure the Scheduled Import Settings
 
-1. Continuing with Currency Setup, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Scheduled Import Settings** section.
+1. Continuing with Currency Setup, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Scheduled Import Settings** section.
 
    ![General configuration - currency scheduled import settings]({% link images/images/config-general-currency-setup-scheduled-import-settings.png %}){: .zoom}
    _Scheduled Import Settings_

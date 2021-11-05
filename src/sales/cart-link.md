@@ -13,7 +13,7 @@ _Example storefront - cart link at the top of the page_
 
 1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **My Cart Link** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **My Cart Link** section.
 
 1. Set **Display Cart Summary** to one of the following settings:
 

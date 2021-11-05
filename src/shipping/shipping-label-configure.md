@@ -43,7 +43,7 @@ The country of manufacture is required for all products that are shipped interna
 
 1. In the left panel, expand **Sales** and choose **Shipping Settings**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Origin** section, and verify that the following fields are complete:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Origin** section, and verify that the following fields are complete:
 
    - **Street Address** – The street address of the place from which shipments are sent. For example, the location of your company or warehouse. This field is required for shipping labels.
    - **Street Address Line 2** – Any additional address information, such as the floor, entrance and so on. We strongly recommend that you use this field.
@@ -53,13 +53,13 @@ The country of manufacture is required for all products that are shipped interna
 
 1. In the _Sales_ section in the left panel, choose **Delivery Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **USPS** section, and verify that the following fields are complete:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **USPS** section, and verify that the following fields are complete:
 
    - **Secure Gateway URL** – The system automatically enters the gateway URL.
    - **Password** – The password is provided by USPS and gives you access to their system through Web Services.
    - **Length, Width, Height, Girth** – The default dimensions of the package. To make these fields appear, set **Size** to `Large`.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **FedEx** section and verify that the following fields are complete:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **FedEx** section and verify that the following fields are complete:
 
    - Meter Number
    - Key
@@ -69,7 +69,7 @@ The country of manufacture is required for all products that are shipped interna
 
 1. In the left panel, expand **General** and choose **General** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Store Information** section and verify that the following fields are complete:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Store Information** section and verify that the following fields are complete:
 
    - **Store Name** – The name of the store or store view.
    - **Store Contact Telephone** – The telephone number of the primary contact for the store or store view.

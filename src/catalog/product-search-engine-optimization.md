@@ -13,7 +13,7 @@ _Search Engine Optimization_
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the _Search Engine Optimization_ section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the _Search Engine Optimization_ section.
 
 1. Enter the **URL Key** (optional).
 

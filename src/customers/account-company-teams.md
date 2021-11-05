@@ -76,7 +76,7 @@ As you work on the company structure, you can collapse or expand the tree:
 
 - Click **Collapse All** or **Expand All**.
 
-- Click ![]({% link images/images/btn-collapse.png %}) to collapse a team or ![]({% link images/images/btn-expand.png %}) to expand a team.
+- Click ![]({% link assets/icon-display-collapse.png %}) to collapse a team or ![]({% link assets/icon-display-expand.png %}) to expand a team.
 
 ## Company structure icons
 

@@ -13,7 +13,7 @@ The tax class that is used for shipping, and the default tax classes for [produc
 
 1. In the left panel, expand **Sales** and choose **Tax**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Tax Classes** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Tax Classes** section.
 
 1. Choose the tax class for each of the following:
 

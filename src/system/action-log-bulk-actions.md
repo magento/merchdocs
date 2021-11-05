@@ -14,7 +14,7 @@ _Bulk Actions Log_
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Bulk Actions** section and set the log save option:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Bulk Actions** section and set the log save option:
 
     **Days Saved in Log** — Enter the number of days that bulk actions are saved in a log.
 

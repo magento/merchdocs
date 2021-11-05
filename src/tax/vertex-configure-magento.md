@@ -26,7 +26,7 @@ These steps outline the configurations required for a valid Vertex connection.
 
 1. In the left panel, expand **Sales** and choose **Tax**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Vertex** on the page to enable Vertex and configure initial settings.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Vertex** on the page to enable Vertex and configure initial settings.
 
    ![]({% link images/images/config-sales-tax-vertex-settings.png %}){: .zoom}
    _Vertex Connection Disabled_
@@ -43,7 +43,7 @@ These steps outline the configurations required for a valid Vertex connection.
 
       To find your Vertex _Trusted ID_, log in to your Vertex Cloud account and go to **Settings** > **View All Connectors**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Integrations Settings** section and activate the tax calculations:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Integrations Settings** section and activate the tax calculations:
 
    ![]({% link images/images/config-sales-tax-vertex-integration.png %}){: .zoom}
    _Vertex - Integration Settings_
@@ -61,7 +61,7 @@ These steps outline the configurations required for a valid Vertex connection.
 
    - Set how you want to **Summarize Tax By**: `Product and Shipping` or `Jurisdiction`.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Seller Details** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Seller Details** section and do the following:
 
    ![]({% link images/images/config-sales-tax-vertex-seller-details.png %}){: .zoom}
    _Vertex - Seller Details_
@@ -93,7 +93,7 @@ If you need to identify taxability based on information in your store beyond the
 
 ### Step 1: Create custom Flexible Field in Commerce
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Flexible Fields** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Flexible Fields** section.
 
    ![]({% link images/images/config-sales-tax-vertex-flexible-fields.png %}){: .zoom}
    [_Flexible Fields_]({% link configuration/sales/tax.md %})
@@ -133,7 +133,7 @@ _Vertex Tax Assist Rule_
 
 Set the delivery terms (shipping terms) that determines the vendor or customer jurisdiction where the title transfer of a supply takes place. You can set a global term and overrides per country. These options provide support to EU VAT.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Delivery Terms** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Delivery Terms** section.
 
    ![]({% link images/images/config-sales-tax-vertex-delivery-terms.png %}){: .zoom}
    [_Vertex Delivery Terms_]({% link configuration/sales/tax.md %})
@@ -150,7 +150,7 @@ Set the delivery terms (shipping terms) that determines the vendor or customer j
 
 To track and review Vertex actions and taxes, enable the logging options. This exports the logs and saves the information to the `var/vertexlog_Y-m-d.csv` file (year-month-day). When opening and reviewing the CSV log files, make sure to use a spreadsheet application that supports long cell contents. Some applications, like Microsoft Excel, could cause issues with cut off data.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Logging** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Logging** section.
 
 1. Set **Vertex Request Logging** to `Enable` to capture full logs.
 
@@ -202,7 +202,7 @@ Vertex Cloud has excellent documentation with videos to help you come up to spee
 
 When the Vertex connector is enabled and the [Display prices in Catalog]({% link configuration/sales/tax.md %}) is set to `Including Tax`, updating your product prices in the catalog to include tax could significantly degrade Commerces performance. In this situation, the Vertex connector will automatically disable and you will see an error message in the Vertex configuration settings. You must set this value to `Excluding Tax` to re-enable the Vertex connector.
 
-![]({% link images/images/vertex-error.png %}){: .zoom}
+![]({% link tax/assets/vertex-error.png %}){: .zoom}
 _Vertex API error_
 
 ### Vertex cache management

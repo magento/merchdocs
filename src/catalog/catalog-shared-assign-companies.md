@@ -36,7 +36,7 @@ _Assign Companies_
     ![]({% link images/images-b2b/companies-grid-edit.png %}){: .zoom}
     _Edit Company_
 
-1. On the company page, scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
+1. On the company page, scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
     ![]({% link images/images-b2b/company-customer-group-shared-catalog.png %}){: .zoom}
     _Customer Groups / Shared Catalogs_
