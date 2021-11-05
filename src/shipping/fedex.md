@@ -8,7 +8,7 @@ FedEx is one of the world’s largest shipping service companies, providing air,
 *FedEx Shipping Options at Checkout*
 
 {:.bs-callout-info}
-FedEx now uses [dimensional weight]({% link shipping/weight-dimensional.md %}) to determine some shipping rates.
+FedEx can use [dimensional weight]({% link shipping/weight-dimensional.md %}) to determine some shipping rates. However, Magento only supports weight based shipping cost calculation.
 
 ## Step 1: Register for FedEx Web Services Production
 

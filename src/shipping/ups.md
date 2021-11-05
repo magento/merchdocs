@@ -4,7 +4,8 @@ title: UPS
 
 United Parcel Service offers domestic and international shipping services by land and air to more than 220 countries.
 
-UPS uses [dimensional weight]({% link shipping/weight-dimensional.md %}) to determine some shipping rates.
+{:.bs-callout-info}
+UPS can use [dimensional weight]({% link shipping/weight-dimensional.md %}) to determine some shipping rates. However, Magento only supports weight based shipping cost calculation.
 
 ## Step 1: Open a UPS Shipping Account
 
