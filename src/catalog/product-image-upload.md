@@ -16,14 +16,15 @@ If you plan to upload large images for viewing on the _Product Details_ page, yo
 
 ### Upload an image
 
-{:.bs-callout-info}
 For the best compatibility, it is recommended to upload all product images with the `sRGB` color profile. All other color profiles are automatically converted to the `sRGB` color profile during the product image upload, which could cause color inconsistency in the uploaded image.
+
+The image file name length, including extension, cannot exceed 90 characters.
 
 To upload an image, do one of the following:
 
-- Drag an image from your desktop and drop it on the **camera** ( ![]({% link images/images/btn-camera.png %})) tile in the _Images_ box.
+- Drag an image from your desktop and drop it on the **camera** ( ![]({% link assets/icon-camera.png %})) tile in the _Images_ box.
 
-- In the _Images_ box, click the **camera** ( ![]({% link images/images/btn-camera.png %}){: .Inline}) tile, select the image file on your computer, and click <span class="btn">Open</span>.
+- In the _Images_ box, click the **camera** ( ![]({% link assets/icon-camera.png %}){: .Inline}) tile, select the image file on your computer, and click <span class="btn">Open</span>.
 
     ![]({% link images/images/product-images-and-video-jewel-tee.png %}){: .zoom}
     _Upload or Drag and Drop_
@@ -37,7 +38,7 @@ _Change Order_
 
 ### Delete an image
 
-To remove an image from the gallery, click the **Delete** ( ![]({% link images/images/btn-delete.png %}) ) icon in the upper-right corner of the image tile and click <span class="btn">Save</span>.
+To remove an image from the gallery, click the **Delete** ( ![]({% link assets/icon-delete-trashcan.png %}) ) icon in the upper-right corner of the image tile and click <span class="btn">Save</span>.
 
 ### Set image details
 
@@ -46,7 +47,7 @@ Click the image that you want to open in detail view and do any of the following
    ![]({% link images/images/product-image-detail-jewel-tee.png %}){: .zoom}
    _Image Detail View_
 
-  To close detail view, click **Close** ( ![]({% link images/images/btn-close.png %}) ) in the upper-right corner.
+  To close detail view, click **Close** ( ![]({% link assets/icon-close-x.png %}) ) in the upper-right corner.
 
 When complete, click <span class="btn">Save</span>.
 

@@ -10,7 +10,7 @@ The customer password options determine the level of security that is used for p
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Password Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Password Options** section.
 
    ![]({% link images/images/config-customers-customer-configuration-password-options.png %}){: .zoom}
    [_Password Options_]({% link configuration/customers/customer-configuration.md %})

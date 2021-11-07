@@ -13,7 +13,7 @@ _Media Gallery grid_
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Media Gallery**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Media Gallery**.
 
    ![Advanced configuration - Media Gallery]({% link configuration/advanced/assets/system-media-gallery.png %}){: .zoom}
    _Media Gallery_
@@ -47,7 +47,7 @@ To access the new Media Gallery when you are adding or editing a page:
 
    If you want to edit an existing page, you can use the _Action_ column to click **Select** and choose **Edit**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section and do the following:
 
    - If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>.
 

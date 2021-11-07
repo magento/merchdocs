@@ -73,7 +73,7 @@ There are two methods you can use to verify the results.
         ![]({% link images/images/catalog-flat-test-category.png %}){: .zoom}
         _Test Subcategory_
 
-    - Expand ![]({% link images/images/btn-expand.png %}) the **Products in Category** section and click **Reset Filter** to display all products.
+    - Expand ![]({% link assets/icon-display-expand.png %}) the **Products in Category** section and click **Reset Filter** to display all products.
 
     - Select the checkbox of several products to add them to the new category.
 

@@ -10,7 +10,7 @@ Your site map should be updated as frequently as the content on your site change
 
 1. In the left panel, expand **Catalog** and choose **XML Sitemap**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Categories Options** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Categories Options** section and do the following:
 
     If needed, clear the **Use system value** checkbox to change these settings.
 
@@ -29,7 +29,7 @@ Your site map should be updated as frequently as the content on your site change
     ![]({% link images/images/config-catalog-xml-sitemap-categories-options.png %}){: .zoom}
     [_Categories Options_]({% link configuration/catalog/xml-sitemap.md %})
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Products Options** section and complete the **Frequency** and **Priority** settings as needed.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Products Options** section and complete the **Frequency** and **Priority** settings as needed.
 
 1. To determine the extent that images are included in the sitemap, set **Add Images into Sitemap** to one of the following:
 
@@ -40,12 +40,12 @@ Your site map should be updated as frequently as the content on your site change
     ![Catalog configuration - XML sitemap products]({% link images/images/config-catalog-xml-sitemap-products-options.png %}){: .zoom}
     [_Products Options_]({% link configuration/catalog/xml-sitemap.md %})
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **CMS Pages Options** section and complete the **Frequency** and **Priority** settings as needed.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **CMS Pages Options** section and complete the **Frequency** and **Priority** settings as needed.
 
     ![Catalog configuration - XML sitemap CMS pages]({% link images/images/config-catalog-xml-sitemap-cms-pages-options.png %}){: .zoom}
     [_CMS Pages Options_]({% link configuration/catalog/xml-sitemap.md -%})
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Store Url Options** section and complete the **Frequency** and **Priority** settings as needed.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Store Url Options** section and complete the **Frequency** and **Priority** settings as needed.
 
    ![Catalog configuration - XML sitemap store url]({% link images/images/config-catalog-xml-sitemap-store-url-options.png %}){: .zoom}
    [_Store Url Options_]({% link configuration/catalog/xml-sitemap.md -%})
@@ -54,7 +54,7 @@ Your site map should be updated as frequently as the content on your site change
 
 ## Step 2. Complete the Generation Settings
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Generation Settings** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Generation Settings** section.
 
      If needed, clear the **Use system value** checkbox to change these settings.
 
@@ -79,7 +79,7 @@ Your site map should be updated as frequently as the content on your site change
 
 ## Step 3. Set the Site Map File Limits
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Sitemap File Limits** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Sitemap File Limits** section.
 
    If needed, clear the **Use system value** checkbox to change these settings.
 
@@ -92,7 +92,7 @@ Your site map should be updated as frequently as the content on your site change
 
 ## Step 4. Set the Search Engine Submission Settings
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Search Engine Submission Settings** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Search Engine Submission Settings** section.
 
     If needed, clear the **Use system value** checkbox to change these settings.
 

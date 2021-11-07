@@ -6,7 +6,7 @@ If a category is removed from your catalog, you can use a category rewrite to re
 
 If [automatic redirects]({% link marketing/url-redirect-product-automatic.md %}) are enabled for your store, there is no need to create a rewrite when a category [URL Key]({% link catalog/catalog-urls.md %}) is changed.
 
-![Add URL rewrite for category]({% link images/images/url-rewrite-for-category.png %}){: .zoom}
+![Add URL rewrite for category]({% link marketing/assets/url-rewrite-for-category.png %}){: .zoom}
 _URL Rewrite for Category_
 
 {% include url-rewrite-skip.md %}
@@ -38,7 +38,7 @@ If you are not sure, open each category page in your store, and copy the path fr
 
 1. Set **Create URL Rewrite** to `For category`. Then in the category tree, choose the target category that is the destination of the redirect.
 
-    ![URL rewrite - choose category]({% link images/images/url-rewrite-category-choose.png %}){: .zoom}
+    ![URL rewrite - choose category]({% link marketing/assets/url-rewrite-category-choose.png %}){: .zoom}
     _Category Tree_
 
 1. In the URL Rewrite section, do the following:
@@ -57,7 +57,7 @@ If you are not sure, open each category page in your store, and copy the path fr
 
    - For your reference, enter a brief description of the rewrite.
 
-    ![Category URL rewrite - settings]({% link images/images/url-rewrite-category-information.png %}){: .zoom}
+    ![Category URL rewrite - settings]({% link marketing/assets/url-rewrite-category-information.png %}){: .zoom}
     _Category Rewrite Information_
 
 1. Before saving the redirect, review the following:
@@ -69,7 +69,7 @@ If you are not sure, open each category page in your store, and copy the path fr
 
     The new category rewrite appears at the top of the URL Rewrites grid.
 
-    ![Category URL rewrite - saved]({% link images/images/url-rewrite-category-saved.png %}){: .zoom}
+    ![Category URL rewrite - saved]({% link marketing/assets/url-rewrite-category-saved.png %}){: .zoom}
     _New Category Rewrite_
 
 ## Step 3. Test the Result

@@ -9,7 +9,7 @@ The _Content_ settings determine any additional content appears on the category 
 
 1. Open the category in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
    ![]({% link images/images-ee/category-content.png %}){: .zoom}
    _Category content_
@@ -37,7 +37,7 @@ For more information, see [Using the Editor]({% link cms/editor.md %}).
 
 1. Open the category in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
    ![]({% link images/images/category-content-ce.png %}){: .zoom}
    _Category content_
@@ -45,6 +45,25 @@ For more information, see [Using the Editor]({% link cms/editor.md %}).
 1. Enter the category **Description** and use the [editor toolbar]({% link cms/editor.md %}) to format as needed.
 
    You can drag the lower-right corner to change the height of the text box.
+
+## Add a CMS block to the category page
+
+1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
+
+1. In the category tree, select the category that you want to edit.
+
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section.
+
+1. For **Add the CMS block**, select a block you want to add.
+
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Display Settings** section.
+
+1. Set the **Display Mode** to one of the following:
+
+   - `Static block only`
+   - `Static block and products`
+
+1. When complete, click <span class="btn">Save</span> and review the block display on the storefront (requires cache refresh).
 
 ## Content settings reference
 

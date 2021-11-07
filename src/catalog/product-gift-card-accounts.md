@@ -46,7 +46,7 @@ _Gift Card Accounts_
 
     - Enter the initial **Balance** on the gift card.
 
-    - To set an **Expiration Date** for the gift card, select the date from the calendar ![]({% link images/images/btn-calendar.png %}).
+    - To set an **Expiration Date** for the gift card, select the date from the calendar ![]({% link assets/icon-calendar.png %}).
 
       If left blank, the gift card account will not expire.
 

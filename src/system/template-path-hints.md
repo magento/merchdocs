@@ -25,7 +25,7 @@ Before using template path hints, add your IP address to the [allow list]({% li
 
 1. In the left panel, expand **Advanced** and choose **Developer**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Debug** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Debug** section and do the following:
 
     ![Advanced configuration - debug]({% link images/images/config-advanced-developer-debug.png %}){: .zoom}
     [_Debug_]({% link configuration/advanced/developer.md %})

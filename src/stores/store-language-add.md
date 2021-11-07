@@ -40,7 +40,7 @@ Follow the standard instructions to install the language pack extension. For det
 
 1. When prompted to confirm scope switching, click **OK**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Locale Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Locale Options** section.
 
 1. Clear the **Use Website** checkbox after the Locale field and set **Locale** to the language that you want to assign to the view.
 

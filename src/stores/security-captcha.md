@@ -6,7 +6,7 @@ A CAPTCHA is a visual device that ensures that a human being, rather than a comp
 
 You can reload the CAPTCHA as many times as is necessary by clicking the Reload icon in the upper-right corner of the image. The CAPTCHA is fully configurable and can be set appear every time, or only after a number of failed login attempts.
 
-![Login with CAPTCHA]({% link images/images/customer-account-login-captcha.png %}){: .zoom}
+![Login with CAPTCHA]({% link stores/assets/customer-account-login-captcha.png %}){: .zoom}
 _Customer Login with CAPTCHA_
 
 ## Admin CAPTCHA
@@ -26,7 +26,7 @@ _Admin Sign In with CAPTCHA_
 
     If the [scope]({% link stores/websites-stores-views.md %}) of your Commerce installation includes multiple websites, choose the website(s) where you want the CAPTCHA configuration to apply.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **CAPTCHA** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **CAPTCHA** section.
 
 1. Set **Enable CAPTCHA in Admin** to `Yes`. Then complete the remaining options as follows:
 
@@ -74,7 +74,7 @@ _CAPTCHA during checkout_
 
 1. In the left panel, expand _Customers_ and choose **Customer Configuration**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **CAPTCHA** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **CAPTCHA** section.
 
 ![]({% link images/images-ee/config-customer-configuration-captcha.png %}){: .zoom}
 _[Customer CAPTCHA configuration]({% link configuration/customers/customer-configuration.md %})_

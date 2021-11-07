@@ -10,7 +10,7 @@ DHL offers integrated international services and tailored, customer-focused solu
 
 1. In the left panel, expand **Sales** and choose **Delivery Methods**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **DHL** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **DHL** section.
 
    {:.bs-callout-info}
    If necessary, first deselect the **Use system value** checkbox to change the following settings as described.

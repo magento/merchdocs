@@ -13,7 +13,7 @@ When enabled in the configuration, Page Builder is the default content creation 
 
 1. In the left panel under _General_, choose **Content Management**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Advanced Content Tools** and verify that **Enable Page Builder** is set to `Yes`.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Advanced Content Tools** and verify that **Enable Page Builder** is set to `Yes`.
 
 1. If you are ready to set up Google Maps, do the following:
 
@@ -44,7 +44,7 @@ When enabled in the configuration, Page Builder is the default content creation 
 
 1. In the left panel under _General_, choose **Web**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Default Layouts** and and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Default Layouts** and and do the following:
 
    ![]({% link images/images-ee/config-general-web-default-layouts.png %}){: .zoom}
    [_Default Layouts_]({% link configuration/general/web.md %})
@@ -66,7 +66,7 @@ Disabling Page Builder replaces the Advanced Content Tools with the WYSIWYG [edi
 
 1. In the left panel under _General_, choose **Content Management**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Advanced Content Tools** and set **Enable Page Builder** to `No`.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Advanced Content Tools** and set **Enable Page Builder** to `No`.
 
 1. When prompted to confirm, click <span class="btn">Turn Off</span>.
 

@@ -17,7 +17,7 @@ _Welcome message_
    ![]({% link images/images/design-configuration.png %}){: .zoom}
    _[Design Configuration page]({% link design/configuration.md %})_
 
-1. Under _Other Settings_, expand ![]({% link images/images/btn-expand.png %}) the **Header** section.
+1. Under _Other Settings_, expand ![]({% link assets/icon-display-expand.png %}) the **Header** section.
 
 1. For **Welcome Text**, enter the welcome message text that you want to appear in the header of your store.
 

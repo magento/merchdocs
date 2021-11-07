@@ -14,7 +14,7 @@ _Website Chooser_
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Price** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Price** section.
 
 1. Set **Catalog Price Scope** to `Website`.
 

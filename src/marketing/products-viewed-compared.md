@@ -10,7 +10,7 @@ The Recently Viewed and Recently Compared blocks usually appear in the right sid
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Recently Viewed/Compared Products** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Recently Viewed/Compared Products** section.
 
    ![Catalog configuration - recently viewed/compared products]({% link images/images/config-catalog-catalog-recently-viewed-and-compared-products.png %}){: .zoom}
    [_Recently Viewed/Compared Products_]({% link configuration/catalog/catalog.md %})

@@ -19,7 +19,7 @@ The following example shows how to schedule a temporary price change for a produ
 
    - Enter a brief **Description** of the update and how it is to be used.
 
-   - Use the Calendar (![]({% link images/images/btn-calendar.png %})) tool to choose the **Start Date** and **End Date** for the campaign.
+   - Use the Calendar (![]({% link assets/icon-calendar.png %})) tool to choose the **Start Date** and **End Date** for the campaign.
 
       To create an open-ended campaign, do not specify an end date (leave blank). For this example, the campaign is scheduled to begin at the stroke of midnight for the new year, January 1, 2021 at 12:00 AM PST.
 

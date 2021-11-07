@@ -14,7 +14,7 @@ When it is enabled for an _Admin_ user, the Login as Customer button will appear
 * [Shipment View page]({% link sales/shipments-create.md %})
 * [Credit Memo View page]({% link sales/credit-memo-create.md %})
 
-![]({% link images/images/customers-login-as-customer-use.png %}){: .zoom}
+![]({% link customers/assets/login-as-customer.png %}){: .zoom}
 _Login As Customer_
 
 ## Enable Login as Customer

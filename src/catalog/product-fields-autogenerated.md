@@ -20,7 +20,7 @@ The placeholders that represent the value of another field are enclosed in doubl
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Product Fields Auto-Generation** section and make any changes needed to the placeholder values.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Product Fields Auto-Generation** section and make any changes needed to the placeholder values.
 
    For example, if there’s a specific keyword that you want to include for every product or a phrase that you want to include in every meta description, you can type the value directly into the appropriate field.
 
