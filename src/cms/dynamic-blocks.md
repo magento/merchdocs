@@ -58,7 +58,7 @@ _Page Builder - dynamic block workspace_
 
 ## Step 3: Choose a related promotion
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Related Promotions**.
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Related Promotions**.
 
 1. Click the type of promotion to associate with the dynamic block:
 

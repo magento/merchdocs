@@ -13,7 +13,7 @@ _Add to Newsletter Queue_
 
 1. In the grid, find the template for the newsletter that is to be sent and set the **Action** column to `Queue Newsletter`.
 
-1. In the **Queue Date Start** field, select the date that the transmission is to begin from the calendar (![Calendar icon]({% link images/images/btn-calendar.png %})).
+1. In the **Queue Date Start** field, select the date that the transmission is to begin from the calendar (![Calendar icon]({% link assets/icon-calendar.png %})).
 
 1. In the **Subscribers From** list select each store view that is to be included in the email blast.
 

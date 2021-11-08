@@ -20,7 +20,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 
 ### Tax Classes
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Tax Classes** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Tax Classes** section.
 
    ![]({% link images/images-ee/config-sales-tax-tax-classes.png %}){: .zoom}
    _[Tax Classes]({% link configuration/sales/tax.md %})_
@@ -72,7 +72,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 
 ### Default Tax Destination Calculation
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Default Tax Destination Calculation** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Default Tax Destination Calculation** section.
 
    ![]({% link images/images/config-sales-tax-default-tax-destination-calculation.png %}){: .zoom}
    [_Default Tax Destination Calculation_]({% link configuration/sales/tax.md %})
@@ -91,7 +91,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 **Important!**
 Some combinations of settings related to a price display that both include and exclude tax can be confusing to the customer. To avoid triggering a warning message, see the [recommended settings]({% link tax/warning-messages.md %}).
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Price Display Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Price Display Settings** section.
 
    ![Price Display Settings]({% link images/images/config-sales-tax-price-display-settings.png %} "Price Display Settings"){: .zoom}
    [_Price Display Settings_]({% link configuration/sales/tax.md %})
@@ -108,7 +108,7 @@ Some combinations of settings related to a price display that both include and e
 
 ### Shopping Cart Display Settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Shopping Cart Display Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Shopping Cart Display Settings** section.
 
    ![]({% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
    [_Shopping Cart Display Settings_]({% link configuration/sales/tax.md %})
@@ -135,7 +135,7 @@ Some combinations of settings related to a price display that both include and e
 
 ### Orders, Invoices, Credit Memos Display Settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
 
    ![Orders, Invoices, Credit Memos Display Settings]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %} "Orders, Invoices, Credit Memos Display Settings"){: .zoom}
    [_Orders, Invoices, Credit Memos Display Settings_]({% link configuration/sales/tax.md %})
@@ -162,7 +162,7 @@ Some combinations of settings related to a price display that both include and e
 
 ### Fixed Product Taxes
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Fixed Product Taxes** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Fixed Product Taxes** section.
 
     ![Fixed Product Taxes]({% link images/images/config-sales-tax-orders-fixed-product-taxes.png %} "Fixed Product Taxes"){: .zoom}
     [_Fixed Product Taxes_]({% link configuration/sales/tax.md %})

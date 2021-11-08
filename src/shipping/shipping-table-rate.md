@@ -26,7 +26,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. In the _Sales_ section of the left panel, choose **Delivery Methods**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Table Rates** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Table Rates** section.
 
    {:.bs-callout-info}
    If necessary, first deselect the **Use system value** checkbox to change the following settings as described.

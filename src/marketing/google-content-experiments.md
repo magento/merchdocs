@@ -50,7 +50,7 @@ You must have the appropriate permissions to the Google account to create an exp
 
    - When complete, click <span class="btn">Create View</span>. Then, click the back arrow to return to the previous page.
 
-        ![Google Analytics - content experiments reporting]({% link images/images/google-analytics-content-experiments-new-reporting-view.png %}){: .zoom}
+        ![Google Analytics - content experiments reporting]({% link marketing/assets/google-analytics-content-experiments-new-reporting-view.png %}){: .zoom}
         _New Reporting View_
 
 1. In the left panel under **Reports**, choose **Behavior > Experiments**.

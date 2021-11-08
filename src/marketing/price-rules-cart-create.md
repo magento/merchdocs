@@ -43,7 +43,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
         ![Cart price rule  - coupon settings]({% link images/images-ee/price-rule-cart-coupon-settings-ee.png %}){: .zoom}
         _Coupon settings_
 
-   - {:.ce-only}Use the **Calendar** (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the **From** and **To** date range for the promotion.
+   - {:.ce-only}Use the **Calendar** (![Calendar icon]({% link assets/icon-calendar.png %})) to choose the **From** and **To** date range for the promotion.
 
 1. Enter a number to define the **Priority** of this price rule in relation to the Action settings of other price rules which are active at the same time.
 
@@ -80,7 +80,7 @@ In this step, the conditions are described that must be met for an order to qual
    - Click **TRUE** and select `TRUE` or `FALSE`.
    - Leave the condition unchanged to apply the rule to all products.
 
-1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line and select an option for the condition, such as cart attribute, product subselection, or combination.
+1. Click **Add** (![Add icon]({% link assets/icon-add-green-circle.png %})) at the beginning of the next line and select an option for the condition, such as cart attribute, product subselection, or combination.
 
    For this example, complete the next part of the condition as follows:
 
@@ -105,21 +105,21 @@ In this step, the conditions are described that must be met for an order to qual
    ![Cart price rule condition - total quantity value]({% link marketing/assets/condition-products-subselection3.png %}){: .zoom}
    _Total Quantity Value_
 
-1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line, and then add a condition that is based on **Category**.
+1. Click **Add** (![Add icon]({% link assets/icon-add-green-circle.png %})) at the beginning of the next line, and then add a condition that is based on **Category**.
 
    ![Cart price rule condition - product attribute category]({% link marketing/assets/condition-products-subselection4.png %}){: .zoom}
    _Category_
 
-1. In the next part of the condition, click the **more** (...) link to display the input field, and then open the **Chooser** (![List icon]({% link images/images/btn-chooser.png %})) to display the category tree.
+1. In the next part of the condition, click the **more** (...) link to display the input field, and then open the **Chooser** (![List icon]({% link assets/icon-list-chooser.png %})) to display the category tree.
 
-1. Select the checkbox of the category that you want to use as a condition for the price rule and click the ![Add icon]({% link images/images/btn-checkmark-green.png %}) icon to accept the category selection(s).
+1. Select the checkbox of the category that you want to use as a condition for the price rule and click the ![Add icon]({% link assets/icon-checkmark-green-circle.png %}) icon to accept the category selection(s).
 
    The condition can be based on any category that is a child of the store’s [root category]({% link catalog/category-root.md %}).
 
    ![Cart price rule condition - product category]({% link marketing/assets/subselection-category.png %}){: .zoom}
    _Choosing a Category for a Condition_
 
-1. To add more conditions, click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) and define another condition.
+1. To add more conditions, click **Add** (![Add icon]({% link assets/icon-add-green-circle.png %})) and define another condition.
 
    You can repeat the process as many times as needed to describe the conditions that must be met for the price rule. Here are some examples:
 
@@ -155,7 +155,7 @@ In this step, the conditions are described that must be met for an order to qual
 
 1. Go to **Marketing** > **Cart Price Rules** and open the required cart price rule.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Condition** section and select **Product attribute combination**.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Condition** section and select **Product attribute combination**.
 
 1. Set this condition to one of the following values:
 
@@ -163,7 +163,7 @@ In this step, the conditions are described that must be met for an order to qual
 
    - Click **ALL** and select `ALL` or `ANY`.
 
-1. Click the Add (![Add icon]({% link images/images/btn-add-grn.png %})) icon and select the **Product Attribute** that you set up for promotional rule conditions.
+1. Click the Add (![Add icon]({% link assets/icon-add-green-circle.png %})) icon and select the **Product Attribute** that you set up for promotional rule conditions.
 
 1. Click <span class="btn">Save</span>.
 
@@ -171,7 +171,7 @@ In this step, the conditions are described that must be met for an order to qual
 
 The shopping cart price rule actions describe how prices are updated when the conditions are met.
 
-1. Scroll down to **Actions**, and expand ![Expansion selector]({% link images/images/btn-expand.png %})the section. Then, do the following:
+1. Scroll down to **Actions**, and expand ![Expansion selector]({% link assets/icon-display-expand.png %})the section. Then, do the following:
 
    ![Cart price rule - actions ]({% link images/images-ee/price-rule-cart-actions.png %}){: .zoom}
    _Cart Price Rule Actions_
@@ -222,7 +222,7 @@ The label appears in the totals section of the order to identify the discount. T
 ![Storefront cart - discount labels]({% link marketing/assets/order-totals-section-discount-special.png %}){: .zoom}
 _Discount Label in Totals Section of Order_
 
-1. Scroll down to **Labels**, and expand ![Expansion selector]({% link images/images/btn-expand.png %})the section.
+1. Scroll down to **Labels**, and expand ![Expansion selector]({% link assets/icon-display-expand.png %})the section.
 
 1. Enter the text that you want used as the **Default Rule Label for All Store Views**.
 
@@ -238,7 +238,7 @@ _Discount Label in Totals Section of Order_
 
 [Dynamic Blocks]({% link cms/dynamic-blocks.md %}) that are associated with the rule appear in the storefront whenever the conditions are met.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Related Dynamic Blocks** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Related Dynamic Blocks** section.
 
 1. Use the [search filters]({% link stores/admin-workspace.md %}) to locate the block(s) that you want to associate with the rule.
 

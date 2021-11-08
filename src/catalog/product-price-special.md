@@ -24,7 +24,7 @@ Adobe Commerce includes support for [Scheduled Updates]({% link cms/content-stag
 
 1. Enter a brief **Description**.
 
-1. Use the **Calendar** ( ![]({% link images/images/btn-calendar.png %}) ) to choose the **Start Date** and **End Date** for the special price promotion.
+1. Use the **Calendar** ( ![]({% link assets/icon-calendar.png %}) ) to choose the **Start Date** and **End Date** for the special price promotion.
 
    You can use the **Hour** and **Minute** sliders to choose the start and end time, as well. Click <span class="btn">Close</span> when the start and end are set.
 
@@ -54,7 +54,7 @@ Magento Open Source includes simple start and end date options in the Advanced P
 
 1. Scroll down to the _Price_ field, click **Advanced Pricing**, and enter the **Special Price** amount.
 
-1. Use the **Calendar** ( ![]({% link images/images/btn-calendar.png %}) ) to choose the **Start Date** and **End Date** for the special price promotion.
+1. Use the **Calendar** ( ![]({% link assets/icon-calendar.png %}) ) to choose the **Start Date** and **End Date** for the special price promotion.
 
     The special price goes into effect immediately after midnight at the beginning of the start date (00:01) and continues until just before midnight (23:59) on the day before the end date.
 
@@ -129,11 +129,11 @@ The following example shows how to assign the same special price to multiple pro
 
     - Select the **Change** checkbox below the _Special Price_ field and enter the special price that you want to offer.
 
-    - Select the **Change** checkbox below the _Special Price From Date_ field, click the **Calendar** ( ![]({% link images/images/btn-calendar.png %}) ), and choose the first date of the special price promotion.
+    - Select the **Change** checkbox below the _Special Price From Date_ field, click the **Calendar** ( ![]({% link assets/icon-calendar.png %}) ), and choose the first date of the special price promotion.
 
         The special price goes into effect immediately after midnight at the beginning of the start date (00:01) and continues until just before midnight (23:59) on the day before the end date.
 
-    - Select the **Change** checkbox below the _Special Price To Date_ field, click the **Calendar** ( ![]({% link images/images/btn-calendar.png %}) ), and choose the last date of the special price promotion.
+    - Select the **Change** checkbox below the _Special Price To Date_ field, click the **Calendar** ( ![]({% link assets/icon-calendar.png %}) ), and choose the last date of the special price promotion.
 
     ![]({% link images/images/product-price-special-action-update-attributes-fields.png %}){: .zoom}
     _Special Price Fields_

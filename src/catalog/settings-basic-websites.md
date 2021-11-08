@@ -11,7 +11,7 @@ _Multisite Installation_
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the _Product in Websites_ section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the _Product in Websites_ section.
 
     ![]({% link images/images/catalog-product-in-websites-multisite-main-french.png %}){: .zoom}
     _Product in Websites_

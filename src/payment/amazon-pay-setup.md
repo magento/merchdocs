@@ -21,7 +21,7 @@ You must have the following resources available to complete the Amazon Pay setup
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. If needed, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Other Payment Methods** section.
+1. If needed, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Other Payment Methods** section.
 
 1. For _Amazon Pay_, click <span class="btn">Configure</span>.
 
@@ -43,7 +43,7 @@ Your credentials are transferred automatically from your Amazon Pay account to t
 
 1. Get your test credentials for the Amazon Pay Sandbox.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Credentials** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Credentials** section.
 
    ![Sales configuration - Amazon Pay credentials]({% link images/images/config-sales-payment-methods-amazon-pay-credentials.png %}){: .zoom}
    _Amazon Pay credentials_
@@ -84,7 +84,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
 
 ## Options
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Options** section.
 
 1. Set **Enable Amazon Pay** to `Yes`.
 
@@ -114,7 +114,7 @@ The following are advanced setup and configuration options for Amazon Pay.
 
 ### Frontend
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Frontend** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Frontend** section.
 
 1. (Optional) If your store is available in multiple languages, you can display the text on the Amazon Pay button in a different language for each [store view]({% link stores/websites-stores-views.md %}).
 
@@ -155,7 +155,7 @@ The following are advanced setup and configuration options for Amazon Pay.
 
 ### Sales Options
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Sales Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Sales Options** section.
 
 1. Enter the **Store Name**.
 
@@ -187,7 +187,7 @@ The following are advanced setup and configuration options for Amazon Pay.
 
 ### Developer Options
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Developer Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Developer Options** section.
 
 1. Make sure that **Logging** is set to `Yes`.
 

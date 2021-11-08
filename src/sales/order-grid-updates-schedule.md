@@ -19,7 +19,7 @@ The benefits of scheduling these tasks is to avoid the locks that occur when dat
 
 1. On the left panel in the _Advanced_ section, choose **Developer**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Grid Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the **Grid Settings** section.
 
 1. Set **Asynchronous Indexing** to `Enable`.
 

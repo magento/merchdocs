@@ -23,7 +23,7 @@ Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store ar
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Cron** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Cron** section.
 
     ![Advanced configuration - cron tasks]({% link images/images/config-advanced-system-cron.png %}){: .zoom}
     _Cron (Scheduled Tasks)_

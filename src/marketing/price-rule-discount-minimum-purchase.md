@@ -12,14 +12,14 @@ Follow the basic [instructions]({% link marketing/price-rules-cart.md %}) to cre
 
 ## Step 2. Define the Conditions
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Conditions** section.
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Conditions** section.
 
-1. Click **Add** (![]({% link images/images/btn-add-grn.png %})) and choose **Product Attribute Combination**.
+1. Click **Add** (![]({% link assets/icon-add-green-circle.png %})) and choose **Product Attribute Combination**.
 
     ![Cart price rule condition - product attribute combination]({% link marketing/assets/condition1.png %}){: .zoom}
     _Product Attribute Combination_
 
-1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line. Then, in the list under **Product Attribute**, choose **Category**.
+1. Click **Add** (![Add icon]({% link assets/icon-add-green-circle.png %})) at the beginning of the next line. Then, in the list under **Product Attribute**, choose **Category**.
 
     ![Cart price rule condition - category]({% link marketing/assets/condition2.png %}){: .zoom}
     _Category_
@@ -29,12 +29,12 @@ Follow the basic [instructions]({% link marketing/price-rules-cart.md %}) to cre
         ![Cart price rule condition - category options]({% link marketing/assets/condition3.png %}){: .zoom}
         _Category IS_
 
-    - Click the **Chooser** (![List icon]({% link images/images/btn-chooser.png %})) icon to see the available categories. In the category tree, select the checkbox of each category that you want to include. Then, press **Enter** to add the categories to the condition.
+    - Click the **Chooser** (![List icon]({% link assets/icon-list-chooser.png %})) icon to see the available categories. In the category tree, select the checkbox of each category that you want to include. Then, press **Enter** to add the categories to the condition.
 
         ![Cart price rule condition - category]({% link marketing/assets/condition4.png %}){: .zoom}
         _Category IS_
 
-1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) at the beginning of the next line and do the following:
+1. Click **Add** (![Add icon]({% link assets/icon-add-green-circle.png %})) at the beginning of the next line and do the following:
 
     - In the list under **Cart Item Attribute**, choose **Price in cart**.
 
@@ -52,7 +52,7 @@ Follow the basic [instructions]({% link marketing/price-rules-cart.md %}) to cre
 
 ## Step 3. Define the Actions
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Actions** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Actions** section and do the following:
 
     ![Cart price rule actions]({% link marketing/assets/minimum-discount-actions.png %}){: .zoom}
     _Actions_

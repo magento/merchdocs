@@ -41,7 +41,7 @@ _Reimburse Balance_
 
 1. Open the company profile in **Edit** mode.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Company Credit** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Company Credit** section.
 
 1. Find the reimbursement transaction in the grid and click **Edit**.
 

@@ -8,7 +8,7 @@ You can set the minimum quantity allowed for an order. The minimum quantity can 
 
 1. In the left panel, expand **Catalog** and choose **Inventory**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Product Stock Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Product Stock Options** section.
 
    ![]({% link images/images/config-catalog-catalog-inventory-product-stock-options.png %}){: .zoom}
    [_Product Stock Options_]({% link catalog/inventory-options-global.md %})

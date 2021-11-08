@@ -13,7 +13,7 @@ _New Tax Classes_
 
 1. Click **Add New Tax Rule**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Additional Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Additional Settings** section.
 
 1. Under _Customer Tax Class_, click **Add New Tax Class**.
 

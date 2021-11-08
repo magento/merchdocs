@@ -33,7 +33,7 @@ _Invoices_
 
     The new invoice page looks similar to a completed order page, with additional fields that can be edited.
 
-    ![]({% link images/images/invoice-sales-order.png %}){: .zoom}
+    ![]({% link sales/assets/invoice-sales-order.png %}){: .zoom}
     _Invoice Sales Order_
 
 1. If the items are ready to ship, generate a packing slip for the shipment at the same time that you create the invoice:
@@ -42,7 +42,7 @@ _Invoices_
 
       The shipment record is created at the same time the invoice is generated.
 
-      ![]({% link images/images/invoice-create-shipment-fedex.png %}){: .zoom}
+      ![]({% link sales/assets/invoice-create-shipment-fedex.png %}){: .zoom}
       _Create Shipment_
 
    - Include a tracking number:
@@ -55,7 +55,7 @@ _Invoices_
       - In the _Items to Invoice_ section, update the **Qty to Invoice** column to include only specific items on the invoice.
       - Then, click **Update Qty’s**.
 
-        ![]({% link images/images/invoice-items-to-invoice.png %}){: .zoom}
+        ![]({% link sales/assets/invoice-items-to-invoice.png %}){: .zoom}
         _Items to Invoice_
 
 1. If an online payment method was used for the order, set **Amount** to the appropriate option.
@@ -68,13 +68,13 @@ _Invoices_
 
 1. When complete, click **Submit Invoice** at the bottom of the page. The status of the order changes from `Pending` to `Complete`.
 
-    ![]({% link images/images/invoice-submit-invoice-capture-online.png %}){: .zoom}
+    ![]({% link sales/assets/invoice-submit-invoice-capture-online.png %}){: .zoom}
     _Submit Invoice (Online Payment Method)_
 
-    ![]({% link images/images/invoice-submit-invoice.png %}){: .zoom}
+    ![]({% link sales/assets/invoice-submit-invoice.png %}){: .zoom}
     _Submit Invoice (Offline Payment Method)_
 
-    ![]({% link images/images/invoice-full.png %}){: .zoom}
+    ![]({% link sales/assets/invoice-full.png %}){: .zoom}
     _Completed Invoice_
 
 [1]: http://www.adobe.com/products/reader.html "Get Adobe Reader"

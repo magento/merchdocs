@@ -57,7 +57,7 @@ _Page Builder full bleed row with banner_
    ![]({% link images/images-ee/page-builder-tutorial1-currently-active.png %}){: .zoom}
    _Basic page settings_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Design** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Design** section.
 
    Notice that **Layout** is set to `Page -- Full Width` by default. In addition to the five standard [layout]({% link design/page-layout.md %}) options, Page Builder adds full-width layouts for pages, categories, and products.
 
@@ -77,7 +77,7 @@ _Page Builder full bleed row with banner_
 
 ### Step 2: Format the row
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section.
 
    This displays the Page Builder preview with an empty row.
 
@@ -278,7 +278,7 @@ _Example page using contained row with two equal columns_
 
 1. In the Pages grid, find the _Simple Page_ that you created in the first part of this tutorial and select **Edit** in the _Action_ column.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section.
 
 1. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 
@@ -395,7 +395,7 @@ _Example full width row with columns of different widths_
 
 1. In the Pages grid, find the _Simple Page_ that you created in the first part of this tutorial and select **Edit** in the _Action_ column.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section.
 
 1. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 
@@ -606,7 +606,7 @@ The second column of the row will contain content from a customer review, includ
 
 With all three rows complete, the final step is to rearrange the rows to match the original _Simple Page_ example. To match the original example, the first row must be moved to the bottom, and the last row must be moved to the top.
 
-1. If necessary, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+1. If necessary, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section.
 
 1. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 

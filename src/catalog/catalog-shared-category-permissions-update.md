@@ -13,7 +13,7 @@ title: Updating Category Permissions
 
    To include all products, select the top-level category in the tree.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Category Permissions** section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Category Permissions** section.
 
 1. Click <span class="btn">New Permission</span> and do the following:
 

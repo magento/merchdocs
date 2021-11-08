@@ -14,7 +14,7 @@ The locale determines the language, country, tax rate, and other settings that a
 
 1. In the left panel under **General**, choose **General**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Locale Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the **Locale Options** section.
 
 1. Select your **Timezone** from the list.
 

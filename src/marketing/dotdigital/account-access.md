@@ -8,7 +8,7 @@ Use the Access option on the _Settings_ menu of your dotdigital account to add u
 
 In addition to general account access, the account holder and any other user with appropriate permissions can set up access for [API]({% link marketing/dotdigital/account-api-users.md %}) and [transactional email]({% link marketing/dotdigital/account-transactional-email-users.md %}) users.
 
-![dotdigital - account access]({% link images/images/engagement-cloud-access.png %}){: .zoom}
+![dotdigital - account access]({% link marketing/assets/engagement-cloud-access.png %}){: .zoom}
 _dotdigital account access_
 
 ## Add a New Account User
@@ -25,25 +25,25 @@ _dotdigital account access_
 
 1. When complete, click <span class="btn">Save</span>.
 
-    ![dotdigital - add user]({% link images/images/engagement-cloud-add-user.png %}){: .zoom}
+    ![dotdigital - add user]({% link marketing/assets/engagement-cloud-add-user.png %}){: .zoom}
     _Add a user_
 
     An invitation to join the account is sent to the email address of the new user. To activate the account, the new user must click the activation link, and provide their contact and login information.
 
     When the account is verified, the new user is added to the _Access_ list and logged in to the account. A chat session opens to help the new user set goals and learn their way around.
 
-    ![Engagement Cloud - access list]({% link images/images/engagement-cloud-access-list.png %}){: .zoom}
+    ![Engagement Cloud - access list]({% link marketing/assets/engagement-cloud-access-list.png %}){: .zoom}
     _New user in access list_
 
 ## Update User Information
 
-1. Find the user in the _Access_ list. Then in the _Edit_ column, click **Edit** (![Edit icon]({% link images/images/engagement-cloud-btn-settings-edit.png %}){: .Inline}).
+1. Find the user in the _Access_ list. Then in the _Edit_ column, click **Edit** (![Edit icon]({% link marketing/assets/engagement-cloud-btn-settings-edit.png %}){: .Inline}).
 
 1. On the _Manage Users_ page, update the **User Details** and **Permission** settings as needed.
 
 1. When complete, click <span class="btn">Save</span>.
 
-    ![dotdigital - manage users]({% link images/images/engagement-cloud-access-manage-users.png %}){: .zoom}
+    ![dotdigital - manage users]({% link marketing/assets/engagement-cloud-access-manage-users.png %}){: .zoom}
     _Manage users_
 
 ## Change Account Permissions
@@ -67,7 +67,7 @@ When ownership is transferred, you lose access to key administration areas of th
 
 1. Set **More actions** to `Make account holder`.
 
-    ![dotdigital - transfer account ownership]({% link images/images/engagement-cloud-access-account-transfer.png %}){: .zoom}
+    ![dotdigital - transfer account ownership]({% link marketing/assets/engagement-cloud-access-account-transfer.png %}){: .zoom}
     _Transfer account ownership_
 
     Enter your password and click <span class="btn">Transfer ownership now</span>.

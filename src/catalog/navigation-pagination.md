@@ -23,7 +23,7 @@ _Pagination Controls_
 
 1. Find the store view that you want to configure and, in the **Action** column, click **Edit**.
 
-1. Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}) the **Pagination** section.
+1. Under **Other Settings**, expand ![]({% link assets/icon-display-expand.png %}) the **Pagination** section.
 
    ![]({% link images/images/config-design-pagination.png %}){: .zoom}
    [_Pagination_]({% link design/configuration.md %})

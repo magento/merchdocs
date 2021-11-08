@@ -12,7 +12,7 @@ Use the _Account_ option on the _Settings_ menu to update your information and s
 
 1. In the menu, choose **Account**.
 
-    ![dotdigital - account]({% link images/images/engagement-cloud-account.png %}){: .zoom}
+    ![dotdigital - account]({% link marketing/assets/engagement-cloud-account.png %}){: .zoom}
     _dotdigital account_
 
 1. On the _Account_ page, choose the **Billing details** tab.

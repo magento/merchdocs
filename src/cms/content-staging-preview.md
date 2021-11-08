@@ -34,7 +34,7 @@ _Preview page controls_
 
 1. Preview a specific day or time:
 
-   - Click the **Date & Time** calendar (![Calendar icon]({% link images/images/btn-calendar.png %})).
+   - Click the **Date & Time** calendar (![Calendar icon]({% link assets/icon-calendar.png %})).
 
    - Choose a different date and/or time.
 

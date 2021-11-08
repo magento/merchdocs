@@ -13,7 +13,7 @@ _Email a Friend_
 
 1. In the left panel, expand **Catalog** and choose **Email to a Friend**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Email Templates** section and set the options:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Email Templates** section and set the options:
 
     ![Catalog configuration - email templates]({% link images/images/config-catalog-email-to-a-friend-email-templates.png %}){: .zoom}
     [_Email Templates_]({% link configuration/catalog/email-to-a-friend.md %})
