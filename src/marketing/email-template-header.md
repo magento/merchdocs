@@ -63,7 +63,7 @@ _Email Templates_
 
 1. In the grid, find the store view that you want to configure and click **Edit** in the _Action_ column.
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Transactional Emails** section.
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Transactional Emails** section.
 
 1. Choose the **Header Template** that is used as the default for email notifications.
 

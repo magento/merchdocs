@@ -28,7 +28,7 @@ _Order by SKU in the Storefront_
 
        - Enter the **SKU** and **Qty** of the item to be ordered.
 
-       - To add additional items as needed, click **Add Row** ![]({% link images/images/btn-add-row.png %}){: .Inline} and repeat for as many items as necessary.
+       - To add additional items as needed, click **Add Row** ![]({% link assets/button-add-item.png %}) and repeat for as many items as necessary.
 
     - Upload a CSV file of multiple items to be ordered, do the following:
 
@@ -46,7 +46,7 @@ _Order by SKU in the Storefront_
 
 1. In the _Sales_ section in the left panel, choose **Sales**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Order by SKU Settings_ section.
+1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the _Order by SKU Settings_ section.
 
 1. Set **Enable Order by SKU on my Account in Storefront** to one of the following:
 
@@ -66,7 +66,7 @@ To enable the **Order by SKU** function, disable the **Quick Order** function.
 
 1. In the left panel under _General_, choose **B2B Features**
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **B2B Features** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **B2B Features** section.
 
 1. Set **Enable Quick Order** to `No`.
 

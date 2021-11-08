@@ -14,7 +14,7 @@ _Enable RMA for a product_
 
 1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **RMA Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **RMA Settings** section.
 
    ![]({% link images/images/config-sales-sales-rma-settings.png %}){: .zoom}
    [_RMA Settings_]({% link configuration/sales/sales.md %})
@@ -45,7 +45,7 @@ _Enable RMA for a product_
 
 1. Expand the section for the carrier that you want to use for return service, such as **UPS**.
 
-   ![Enable RMA service for carrier ]({% link images/images/rma-delivery-method.png %}){: .zoom}
+   ![Enable RMA service for carrier ]({% link sales/assets/rma-delivery-method.png %}){: .zoom}
    _Shipping method for RMA_
 
 1. Set **Enabled for RMA** to `Yes`.

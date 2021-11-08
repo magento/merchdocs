@@ -77,7 +77,7 @@ To get started with dotdigital Engagement Cloud, you must first sign up for a fr
     {:.bs-callout-info}
     At some point while working with your free trial, you are asked to verify your account. When prompted, click the free trial message above the header and follow the instructions. Until then, the status of your account is _unverified_.
 
-    ![dotdigital - build your first campaign]({% link images/images/engagement-cloud-free-trial-build-campaign.png %}){: .zoom}
+    ![dotdigital - build your first campaign]({% link marketing/assets/engagement-cloud-free-trial-build-campaign.png %}){: .zoom}
     _Build your first campaign_
 
 ## Step 4: Complete your store's configuration

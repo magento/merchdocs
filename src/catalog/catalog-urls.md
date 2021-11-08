@@ -62,7 +62,7 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Search Engine Optimizations** section and set the options:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Search Engine Optimizations** section and set the options:
 
    - Set **Product URL Suffix** to `html` or `htm`. Enter the suffix without a period, because it is applied automatically.
 
@@ -86,7 +86,7 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
 1. In the left panel, expand **General** and choose **Web**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Url Options** section and set the options:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Url Options** section and set the options:
 
 ![Web > General Options]({% link images/images/config-general-web-url-options.png %}){: .zoom}
 [_URL Options configuration settings_]({% link stores/store-urls.md %})

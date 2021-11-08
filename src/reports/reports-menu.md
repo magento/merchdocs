@@ -4,7 +4,7 @@ title: Reports Menu
 
 Adobe Commerce and Magento Open Source provide a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity. The Reports menu provides easy access to current information about your sales, products, customers, and promotions.
 
-![Reports Menu]({% link images/images/reports-overview.png %}){: .zoom}
+![Reports Menu]({% link reports/assets/overview.png %}){: .zoom}
 _Reports Menu_{:.ee-only}
 
 ## Display the Reports menu
@@ -28,7 +28,7 @@ The selection of [sales reports]({% link reports/sales-reports.md %}) includes O
 {:.ee-only}
 ### System Insights
 
-The [Site-Wide Analysis Tool]({% link reports/site-wide-analysis-tool.md %}) (SWAT) provides system insights for installations of Adobe Commerce on cloud infrastructure with 24/7 real-time performance monitoring, reports, and recommendations.
+The [Site-Wide Analysis Tool]({% link reports/site-wide-analysis-tool.md %}) provides system insights for installations of Adobe Commerce on cloud infrastructure with 24/7 real-time performance monitoring, reports, and recommendations.
 
 {:.ee-only}
 ### Customers

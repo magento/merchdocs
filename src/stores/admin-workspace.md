@@ -14,7 +14,7 @@ _Admin Workspace_
 
 1. In the left side panel under **Advanced**, choose **Admin**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Startup Page** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the **Startup Page** section.
 
 1. Set **Startup Page** to the page that you want to appear first after you log in to the Admin.
 

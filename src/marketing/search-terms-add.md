@@ -13,7 +13,7 @@ _Search Terms_
 
 1. Click <span class="btn">Add New Search Term</span> and do the following:
 
-    ![Search terms general information]({% link images/images/search-terms-information.png %}){: .zoom}
+    ![Search terms general information]({% link marketing/assets/search-terms-information.png %}){: .zoom}
     _General Information_
 
     - Under _General Information_ in the **Search Query** box, enter the word or phrase that you want to add as a new search term.

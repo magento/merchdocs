@@ -6,7 +6,7 @@ Adding customizable options to a product is an easy way to offer a selection of 
 
 When a customer purchases a product with a customizable option, a description of each selected option appears below the product description, and any associated markup (or markdown) is automatically applied to the price of the item.
 
-![]({% link images/images/storefront-customizable-option-product-detail.png %}){: .zoom}
+![]({% link catalog/assets/storefront-customizable-option-product-detail.png %}){: .zoom}
 _Product Detail with Customizable Option_
 
 If a cart price rule is triggered by the purchase, the initial calculation applies first to the product price and secondarily to the line item price with any adjustment for applicable customizable options. In the following example, the customer purchases a duffle bag for $74.00, plus a customizable option for a monogram. A markup of $14.80 is applied to the base product price, and the adjusted price is shown as $88.80. In this case, the purchase of the duffle bag triggers a cart price rule based on the product SKU and applies a discount to the purchase, plus free shipping. Although the cart price rule is not triggered by the customizable option, it applies the discount to the cart contents, which includes the markup for the customizable option.
@@ -18,7 +18,7 @@ _Cart with Customizable Option and Price Rule_
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the _Customizable Options_ section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the _Customizable Options_ section.
 
 1. Click <span class="btn">Add Option</span>.
 

@@ -19,7 +19,7 @@ Some Vertex field names differ from those used by Commerce. See the Field Mappin
 
    You will need to enter this code later in the Commerce configuration to establish the link between Commerce and your Vertex account.
 
-   ![]({% link images/images/tax-vertex-cloud-configure.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-cloud-configure.png %}){: .zoom}
    _Configure Vertex_
 
    The configuration settings for each company are organized into three columns on the Configure Over page. Follow the instructions in this guide to complete the configuration for each of the following:

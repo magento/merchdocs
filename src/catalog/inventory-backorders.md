@@ -29,10 +29,10 @@ The following is an example:
 
 The Salable Quantity for this product is `75 (25 - (-50))`.
 
-![]({% link images/images/inventory/inventory-backorders-before.png %}){: .zoom}
+![]({% link catalog/assets/inventory-backorders-before.png %}){: .zoom}
 _Example Salable Quantity before backorders enabled_
 
-![]({% link images/images/inventory/inventory-backorders-after.png %}){: .zoom}
+![]({% link catalog/assets/inventory-backorders-after.png %}){: .zoom}
 _Example Salable Quantity after backorders enabled_
 
 When customers purchase more than 25 products, new orders enter as backorders. As the product's Salable Quantity reduces to 5 (70 items have been sold), the _Product_ page will display a message `Only 5 left` on the storefront. When the Salable Quantity reaches `0`, the product is displayed as `Out of Stock` in the storefront.
@@ -55,7 +55,7 @@ These steps enable backorders for all products at the site level.
 
 1. In the left panel, expand **Catalog** and choose **Inventory**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) **Product Stock Options**.
+1. Expand ![]({% link assets/icon-display-expand.png %}) **Product Stock Options**.
 
 1. For **Backorders**, deselect the **Use system value** checkbox and select an option:
 
@@ -103,7 +103,7 @@ Product level configurations override global configurations. You may want to con
     | Zero | With Backorders enabled, entering `0` allows for infinite backorders. |
     | Negative amount | With Backorders enabled, we recommend entering a negative amount. The amount is added to the Salable Quantity. For example, enter `-50` to allow orders up to this amount. |
 
-    ![]({% link images/images/inventory/inventory-backorders-product-settings.png %}){: .zoom}
+    ![]({% link catalog/assets/inventory-backorders-product-settings.png %}){: .zoom}
     _Advanced Inventory configured for Backorders_
 
 1. Click <span class="btn">Done</span>, and then <span class="btn">Save</span>.

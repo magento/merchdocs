@@ -23,8 +23,8 @@ The export-import file includes the following information according to source:
 
 Use this option to quickly update multiple products and assigned sources to update and correct any inaccuracies in inventory records rather than one at a time through the application interface. For a base file, export first and update as needed.
 
-![]({% link images/images/inventory/inventory-import-export-data.png %}){: .zoom}
-_Example CSV file for Import - Export Inventory Data_
+![]({% link catalog/assets/inventory-import-export-data.png %}){: .zoom}
+_Example CSV file for import - export inventory data_
 
 ## Export product data for all sources
 
@@ -40,8 +40,8 @@ _Example CSV file for Import - Export Inventory Data_
 
 After updating inventory amounts and product data, import the file back into Commerce.
 
-![]({% link images/images/inventory/inventory-export-stock-sources.png %}){: .zoom}
-_Export Stock Sources for product data and sources_
+![]({% link catalog/assets/inventory-export-stock-sources.png %}){: .zoom}
+_Export stock sources for product data and sources_
 
 ## Export product data for a specific source
 
@@ -61,9 +61,6 @@ _Export Stock Sources for product data and sources_
 
 After updating inventory amounts and product data, import the file back into Commerce.
 
-![]({% link images/images/inventory/inventory-export-stock-sources.png %}){: .zoom}
-_Export Stock Sources for product data and sources_
-
 ## Import product data
 
 1. On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Import**.
@@ -78,5 +75,6 @@ _Export Stock Sources for product data and sources_
 
 1. Click <span class="btn">Check Data</span> and complete the import.
 
-![]({% link images/images/inventory/inventory-import-sources.png %}){: .zoom}
+![]({% link catalog/assets/inventory-import-sources.png %}){: .zoom}
 _Import product data and sources_
+s

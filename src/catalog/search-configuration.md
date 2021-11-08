@@ -17,7 +17,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Catalog Search_ section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Catalog Search_ section.
 
    ![]({% link images/images/config-catalog-catalog-search-elasticsearch-1.png %}){: .zoom}
    [_Elasticsearch Settings_]({% link configuration/catalog/catalog.md %})

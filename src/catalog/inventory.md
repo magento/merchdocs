@@ -33,7 +33,7 @@ With Inventory Management enabled, see the following to configure all settings:
 
 1. In the left panel, expand **Catalog** and choose **Inventory**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) _Product Stock Options_ and configure:
+1. Expand ![]({% link assets/icon-display-expand.png %}) _Product Stock Options_ and configure:
 
    - To manage inventory and use all Commerce features, set **Manage Stock** to `Yes` (default).
 

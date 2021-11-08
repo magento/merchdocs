@@ -11,7 +11,7 @@ Before you can create an event, you must complete the basic configuration to ena
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Catalog Events** section. Then, do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Catalog Events** section. Then, do the following:
 
     ![Catalog configuration - catalog events]({% link images/images-ee/config-catalog-catalog-events.png %}){: .zoom}
     _Catalog Events_

@@ -86,6 +86,9 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. Enter the product **Weight**.
 
+{:.bs-callout-info}
+A configurable product must always have a weight. If you select **This item has no weight** from the drop-down list, it is automatically changed to **This item has weight** after saving the product.
+
 1. Accept the default **Visibility** setting of `Catalog, Search`.
 
 1. To feature the product in the list of[ new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
@@ -243,7 +246,7 @@ Use one of the following methods to configure the **quantity**:
 
    - Enter an on-hand inventory amount per source.
 
-   ![]({% link images/images/inventory/inventory-configure-product-quantity.png %}){: .zoom}
+   ![]({% link catalog/assets/inventory-configure-product-quantity.png %}){: .zoom}
    _Same Quantity for All SKUs_
 
 - **Method 2:** Apply Different Quantity by Attribute
@@ -275,7 +278,7 @@ _Current Configurations_
 
 ### Step 5: Add a product image
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the _Images and Videos_ section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the _Images and Videos_ section.
 
 1. Click the **Camera** tile and browse to the main image that you want to use for the configurable product.
 
@@ -307,7 +310,7 @@ Scroll down and complete the information in the following sections as needed:
 
       - In the upper-right corner, click <span class="btn">Save</span>.
 
-      - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+      - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link assets/icon-menu-down-arrow-black.png %}) ) menu.
 
       The store opens in a new browser tab.
 
@@ -316,7 +319,7 @@ Scroll down and complete the information in the following sections as needed:
 
    - **Method 2:** Save and close
 
-      On the _Save_ (![]({% link images/images/btn-dropdown.png %})) menu, choose **Save & Close**.
+      On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %})) menu, choose **Save & Close**.
 
       ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
       _Save & Close_
@@ -329,7 +332,7 @@ If you have a different image for each variation you can set the configuration t
 
 1. In the left panel, expand **Sales** and choose **Checkout** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Shopping Cart_ section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Shopping Cart_ section.
 
 1. Set **Configurable Product Image** to `Product Thumbnail Itself`.
 
@@ -341,6 +344,8 @@ If you have a different image for each variation you can set the configuration t
 ## Things to remember
 
 - A configurable product allows the shopper to choose options from drop-down, multiple select, visual swatch and text swatch input types. Each option is a separate, simple product.
+
+- Configurable child products can be simple or virtual products **without custom options**. To make custom child products virtual, you must select _Тhis item has no weight_ in the _Weight_ setting for each of them.
 
 - The attributes that are used for product variations must have a global scope and the customer must be required to choose a value. The product variation attributes must be included in the attribute set that is used as a template for the configurable product.
 

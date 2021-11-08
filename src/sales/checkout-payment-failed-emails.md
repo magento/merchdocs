@@ -17,7 +17,7 @@ Make sure that you have updated the needed [email template]({% link marketing/em
 
 1. On the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Payment Failed Emails** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Payment Failed Emails** section.
 
 1. Set the options for payment failed emails:
 

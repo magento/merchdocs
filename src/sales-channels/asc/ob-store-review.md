@@ -1,5 +1,7 @@
 ---
-title: Store Settings
+title: Amazon Sales Channel - Store Settings
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/ob-store-review.html
 ---
 
 After you create and integrate your Amazon Sales Channel store, you should review your store default settings to ensure your product, listing, pricing, and other settings are correct for your store.

@@ -23,6 +23,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |--- |--- |--- |
 |Frequency|Store View|Determines how often sitemap products are updated. Options: Always / Hourly / Daily / Weekly / Monthly / Yearly / Never|
 |Priority|Store View|A value between 0.0 and 1.0 that determines the priority of product sitemap updates in relation to other content. Zero has the lowest priority.|
+|Add Images into Sitemap|Store View|Determines the extent that images are included in the sitemap. Options: None / Base Only / All|
 
 ## CMS Pages Options
 

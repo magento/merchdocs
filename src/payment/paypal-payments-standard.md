@@ -72,7 +72,7 @@ _Payments Standard - configuration_
 
 ### Step 3: Complete the Payments Standard settings
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Payments Standard** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Payments Standard** section.
 
    ![Required Settings]({% link images/images/config-sales-payment-methods-paypal-payments-standard-required.png %}){: .zoom}
    _Payments Standard settings_
@@ -115,7 +115,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 #### Advertise PayPal Credit
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal Credit** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advertise PayPal Credit** section.
 
    ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
    _Advertise PayPal Credit - Home Page_
@@ -127,7 +127,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
    ![Advertise PayPal Credit]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
    _Advertise PayPal Credit_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Home Page** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Home Page** section.
 
 1. To place a banner on the page, set **Display** to `Yes`.
 
@@ -145,7 +145,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
    - `728 x 90`
    - `800 x 66`
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the remaining sections and repeat the previous steps:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the remaining sections and repeat the previous steps:
 
    - **Catalog Category Page**
    - **Catalog Product Page**
@@ -153,11 +153,11 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 #### Advertise PayPal Pay Later
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal PayLater** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advertise PayPal PayLater** section.
 
 1. Set **Enable PayPal PayLater** to `Yes`.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Home Page** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Home Page** section.
 
    ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png %}){: .zoom}
    _Advertise PayPal PayLater - Home Page Settings_
@@ -221,7 +221,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
    - `Monochrome`
    - `Grayscale`
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the remaining sections and repeat the previous steps:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the remaining sections and repeat the previous steps:
 
    - **Catalog Product Page**
    - **Checkout Cart Page**
@@ -230,7 +230,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 ### Step 5: Complete the basic settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Basic Settings - PayPal Website Payments Standard** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Basic Settings - PayPal Website Payments Standard** section.
 
    ![Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payments-standard-basic.png %}){: .zoom}
    _Basic Settings - PayPal Website Payments Standard_
@@ -252,7 +252,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 ### Step 6: Complete the advanced Settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
    ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payment-standard-advanced.png %}){: .zoom}
    _Advanced Settings - PayPal Website Payments Standard_
@@ -313,7 +313,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sales agreement between the merchant and customer that has been authorized by PayPal for use with multiple orders. During the checkout process, the Billing Agreement payment option appears only for customers who have already entered into a billing agreement with your company. After PayPal authorizes the agreement, the payment system issues a unique reference ID to identify each order that is associated with the agreement. Similar to a purchase order, there is no limit to the number of billing agreements a customer can set up with your company.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **PayPal Billing Agreement Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **PayPal Billing Agreement Settings** section.
 
    ![Billing Agreement Settings]({% link images/images/config-sales-payment-methods-paypal-express-checkout-billing-agreement-settings.png %}){: .zoom}
    _Billing Agreement Settings - PayPal Payments Standard_
@@ -347,7 +347,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 #### Settlement Report Settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Settlement Report Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Settlement Report Settings** section.
 
    ![Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
    _Settlement Report Settings - PayPal Payments Standard_
@@ -391,7 +391,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 The Frontend Experience Settings give you the opportunity to choose which PayPal logos appear on your site, and to customize the appearance of your PayPal merchant pages.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Frontend Experience Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Frontend Experience Settings** section.
 
    ![Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
    _Frontend Experience Settings - PayPal Payments Standard_
@@ -426,6 +426,6 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
       |**Page Background Color** |Background color for the checkout page and around the header and payment form.|
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm
+[2]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [3]: https://developer.paypal.com/docs/api-basics/sandbox/
 [4]: https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/

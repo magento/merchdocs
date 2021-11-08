@@ -22,11 +22,11 @@ _Tax Rules_
 
    If you need to edit an existing tax rate, do the following:
 
-   - Hover over the tax rate and click the **Edit**![]({% link images/images/btn-edit.png %}) icon.
+   - Hover over the tax rate and click the **Edit**![]({% link assets/icon-edit-pencil.png %}) icon.
 
    - Update the form as needed and click <span class="btn">Save</span>.
 
-   ![]({% link images/images/tax-rule-information.png %}){: .zoom}
+   ![]({% link tax/assets/tax-rule-information.png %}){: .zoom}
    _Tax Rule Information_
 
 1. To enter tax rates, use either of the following methods:
@@ -39,7 +39,7 @@ _Tax Rules_
 
 1. When complete, click <span class="btn">Save</span>.
 
-   ![]({% link images/images/tax-rate-create-new.png %}){: .zoom}
+   ![]({% link tax/assets/tax-rate-create-new.png %}){: .zoom}
    _New Tax Rate_
 
 ### Method 2: Import tax rates
@@ -54,7 +54,7 @@ _Tax Rules_
 
 1. To export tax rates, click **Export Tax Rates** (see [Import/Export Tax Rates]({% link system/data-transfer-tax-rates.md %})).
 
-![]({% link images/images/tax-rule-new-import-export.png %}){: .zoom}
+![]({% link tax/assets/tax-rule-new-import-export.png %}){: .zoom}
 _Import / Export Tax Rates_
 
 ## Step 2: Complete the additional settings
@@ -63,13 +63,13 @@ _Import / Export Tax Rates_
 
 1. Choose the **Customer Tax Class** to which the rule applies.
 
-   - To edit a customer tax class, click the edit ![]({% link images/images/btn-edit.png %}) icon, update the form as needed, and click <span class="btn">Save</span>.
+   - To edit a customer tax class, click the edit ![]({% link assets/icon-edit-pencil.png %}) icon, update the form as needed, and click <span class="btn">Save</span>.
 
    - To create a new tax class, click <span class="btn">Add New Tax Class</span>, complete the form as needed, and click <span class="btn">Save</span>.
 
 1. Choose the **Product Tax Class** to which the rule applies.
 
-   - To edit a product tax class, click the edit ![]({% link images/images/btn-edit.png %}) icon, update the form as needed, and click **Save**.
+   - To edit a product tax class, click the edit ![]({% link assets/icon-edit-pencil.png %}) icon, update the form as needed, and click **Save**.
 
    - To create a new tax class, click <span class="btn">Add New Tax Class</span>, complete the form as needed, and click <span class="btn">Save</span>.
 
@@ -81,7 +81,7 @@ _Import / Export Tax Rates_
 
 1. For **Sort Order**, enter a number to indicate the order of this tax rule when listed with others.
 
-   ![]({% link images/images/tax-rule-new-additional-settings.png %}){: .zoom}
+   ![]({% link tax/assets/tax-rule-new-additional-settings.png %}){: .zoom}
    _Additional Settings_
 
 1. When complete, click <span class="btn">Save Rule</span>.

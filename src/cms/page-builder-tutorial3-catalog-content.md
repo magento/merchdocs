@@ -22,7 +22,7 @@ Page Builder makes it easy to add a product list to the stage. In this example, 
 
 1. Find the _Simple Page_ that you created in the first tutorial and modified in the second, and select **Edit** in the _Action_ column.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section and click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 
 1. In the Page Builder panel under _Layout_, drag a **Row** to the top of the stage.
 
@@ -42,14 +42,14 @@ Page Builder makes it easy to add a product list to the stage. In this example, 
 
 1. Add a new condition:
 
-   - Click the _Add_ (![]({% link images/images/btn-add-grn.png %})) icon.
+   - Click the _Add_ (![]({% link assets/icon-add-green-circle.png %})) icon.
 
    - Under _Product Attribute_, choose **Category**.
 
       ![]({% link images/images-ee/page-builder-add-content-products-settings-condition.png %}){: .zoom}
       _Choosing the category attribute for the condition_
 
-   - Complete the _Category is ..._ part of the condition by clicking the More (...) icon and then click the Chooser (![]({% link images/images/btn-chooser.png %})) icon.
+   - Complete the _Category is ..._ part of the condition by clicking the More (...) icon and then click the Chooser (![]({% link assets/icon-list-chooser.png %})) icon.
 
       ![]({% link images/images-ee/page-builder-add-content-products-settings-condition-category-is.png %}){: .zoom}
       _Defining the condition_
@@ -59,7 +59,7 @@ Page Builder makes it easy to add a product list to the stage. In this example, 
       ![]({% link images/images-ee/page-builder-add-content-products-settings-condition-category-tree.png %}){: .zoom}
       _Choosing the category in the tree_
 
-   - Click the Checkmark (![]({% link images/images/btn-checkmark-green.png %})) icon.
+   - Click the Checkmark (![]({% link assets/icon-checkmark-green-circle.png %})) icon.
 
       The corresponding category ID appears in the field to complete the condition.
 
@@ -92,7 +92,7 @@ In this part of the tutorial, you will learn how easy it is to customize a produ
 
 1. Find a simple product that you can use for this example and open it in edit mode.
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section.
 
 1. Next to _Description_, click <span class="btn">Edit with Page Builder</span>.
 
@@ -196,7 +196,7 @@ In this step, you create two new custom attributes to show how the Page Builder 
    ![]({% link images/images-ee/page-builder-attribute-page-builder.png %}){: .zoom}
    _Page Builder Input Type_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Advanced Attribute Properties** section and make the following settings:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Advanced Attribute Properties** section and make the following settings:
 
    | Attribute Code: | Enter an attribute code in lowercase characters, using hyphens instead of spaces. For this example, use `my_page_builder_attribute`. |
    | Scope: | Accept the default value, `Store View`. |
@@ -247,7 +247,7 @@ In this step, you create two new custom attributes to show how the Page Builder 
 
 1. In the Products grid, find _My Product_ and open it in edit mode.
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section.
 
    At the top of the section, there are two standard attributes for product content:
 

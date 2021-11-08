@@ -1,7 +1,7 @@
 ---
-title: Product Listing Condition
-redirect_from:
-  - /sales-channels/asc/ob-product-listing-condition.html
+title: Amazon Sales Channel - Product Listing Condition
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/product-listing-condition.html
 ---
 
 Product Listing Condition settings are part of your store listing settings. You can access the listing settings on the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).

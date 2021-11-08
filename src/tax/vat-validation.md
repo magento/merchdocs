@@ -32,7 +32,7 @@ The system behavior concerned with the VAT ID validation and the customer group 
 
 In case a customer uses Google Express Checkout, PayPal Express Checkout or another external checkout method, when the checkout is performed completely on the side of the external payment gateway, the Validate on Each Transaction setting cannot be applied. Thus the customer group cannot change during checkout.
 
-![]({% link images/images/vat-id-validation2.png %}){: width="650px"}
+![]({% link tax/assets/vat-id-validation2.png %}){: width="650px"}
 <br/>_VAT Validation Checkout Workflow_
 
 [1]: http://ec.europa.eu/taxation_customs/vies/

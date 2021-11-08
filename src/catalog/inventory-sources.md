@@ -14,8 +14,7 @@ You start with a Default Source you can update but not disable. This source is u
 
 The following diagram helps define the Sources for a Bicycle Shop merchant selling a mountain bike, available to stocks and accessible by the SSA for shipments.
 
-![Example sources diagram]({% link images/images/inventory/inventory-diagram-sources.png %})<br/>
-_Example Sources for a Mountain Bike_
+![Example sources diagram]({% link catalog/assets/inventory-diagram-sources.png %})
 
 All stores begin with a Default Source that must remain enabled:
 

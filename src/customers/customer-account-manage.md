@@ -4,7 +4,7 @@ title: Managing Customer Accounts
 
 Use the Customers grid to find any customer account. You can use the standard [workplace controls]({% link stores/admin-workspace.md %}) to filter the list, change the [column layout]({% link stores/admin-grid-controls.md %}), save views, and export data. The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an operation to multiple customer records.
 
-![]({% link images/images/customers-all-customers.png %}){: .zoom}
+![]({% link customers/assets/customers-all-customers.png %}){: .zoom}
 _All Customers_
 
 ## Customer account actions
@@ -19,18 +19,14 @@ _All Customers_
 
 1. When complete, click <span class="btn">Save</span>.
 
-### Delete customer accounts
-
-Deleted customer accounts cannot be restored. Information about customer activity and transactions is retained in the system.
-
-1. Set the **Actions** control to `Delete`.
-
-1. When prompted to confirm, click <span class="btn">OK</span>.
-
 {:.b2b-only}
 ### Set active/inactive
 
-Customers with inactive accounts cannot log in or make purchases from their accounts.
+Customers with inactive accounts cannot log in or make purchases from their accounts. There are two methods to set a customer account as active or inactive:
+
+**Method 1:** From the customers grid
+
+1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 
 1. Set the **Actions** control to one of the following:
 
@@ -38,6 +34,20 @@ Customers with inactive accounts cannot log in or make purchases from their acco
    - `Inactive`
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
+
+**Method 2:** From the account edit page
+
+1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
+
+1. In the grid, find the customer record to be edited.
+
+1. In the _Actions_ column on the far right, click **Edit**.
+
+1. Select the **Account Information** tab.
+
+1. Set **Customer Active** to `Yes` or `No`.
+
+1. Click <span class="btn">Save Customer</span>.
 
 ### Subscribe to newsletter
 
@@ -77,7 +87,7 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 
    The value of each value that can be updated appears in a text box. Only some values of the selected customer record can be edited from the grid.
 
-   ![]({% link images/images/customers-grid-quick-edit.png %}){: .zoom}
+   ![]({% link customers/assets/customers-grid-quick-edit.png %}){: .zoom}
    _Quick Edit_
 
 1. Update any of the following values, as needed:
@@ -98,6 +108,16 @@ See [Managing Subscribers]({% link marketing/newsletter-subscribers.md %}) for m
 1. Make the necessary changes to the company information.
 
    To learn more, see [Updating Customer Accounts]({% link customers/customer-account-update.md %}).
+
+1. When complete, click <span class="btn">Save Customer</span>.
+
+### Delete customer accounts
+
+Deleted customer accounts cannot be restored. Information about customer activity and transactions is retained in the system.
+
+1. Set the **Actions** control to `Delete`.
+
+1. When prompted to confirm, click <span class="btn">OK</span>.
 
 ## Export customers accounts
 

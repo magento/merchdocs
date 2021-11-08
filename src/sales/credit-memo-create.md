@@ -82,7 +82,7 @@ _Create Credit Memo_
 
    - Update the **Qty to Refund**, and click <span class="btn">Update Qty's</span>.
 
-      ![]({% link images/images/invoice-credit-memo-items-to-refund.png %}){: .zoom}
+      ![]({% link sales/assets/invoice-credit-memo-items-to-refund.png %}){: .zoom}
       _Items to Refund_
 
 1. Update the **Refunds Totals** section as follows:
@@ -118,7 +118,7 @@ _Create Credit Memo_
 
       See [Credit Memos]({% link sales/credit-memos.md %}) for more information about offline and online refunds.
 
-   ![]({% link images/images/credit-memo-order-total-refund.png %}){: .zoom}
+   ![]({% link sales/assets/credit-memo-order-total-refund.png %}){: .zoom}
    _Items to Refund_
 
 ### Issue an offline refund for check or money order

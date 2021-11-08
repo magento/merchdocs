@@ -31,37 +31,37 @@ Follow the steps below to set up the type of free shipping promotion that you wa
       - To offer a free shipping promotion without a coupon, accept the default (`No Coupon`) setting.
       - To use a coupon with the price rule, select `Specific Coupon`. If necessary, complete the instructions to set up a [coupon]({% link marketing/price-rules-cart-coupon.md %}).
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Actions** section and do the following:
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Actions** section and do the following:
 
    - Set **Apply** to `Percent of product price discount`.
    - Set **Apply to Shipping Amount** to `Yes`.
    - Set **Free Shipping** to `For shipment with matching items`.
 
-      ![Cart price rule - free shipping actions]({% link images/images/price-rule-cart-free-shipping-actions.png %}){: .zoom}
+      ![Cart price rule - free shipping actions]({% link marketing/assets/free-shipping-actions.png %}){: .zoom}
       _Price Rule Action_
 
 ### Example 2: Free Shipping for Orders Over $ Amount
 
 1. Complete the **General Information** settings as described in the previous example.
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Conditions** section.
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Conditions** section.
 
-1. Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) to insert a condition and do the following:
+1. Click **Add** (![Add icon]({% link assets/icon-add-green-circle.png %})) to insert a condition and do the following:
 
    - In the list under **Cart Attribute**, choose **Subtotal**.
    - Click **is** and choose `equals or greater than`.
    - Click **...** and enter a threshold value for the Subtotal, such as `100`, to complete the condition.
 
-      ![Cart price rule - condition]({% link images/images/price-rule-cart-free-shipping-condition1.png %}){: .zoom}
+      ![Cart price rule - condition]({% link marketing/assets/free-shipping-condition1.png %}){: .zoom}
       _Condition_
 
-1. If necessary, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Actions** section and do the following:
+1. If necessary, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Actions** section and do the following:
 
    - Set **Apply** to `Percent of product price discount`.
    - Set **Apply to Shipping Amount** to `Yes`.
    - Set **Free Shipping** to `For shipment with matching items`.
 
-      ![Cart price rule - free shipping actions]({% link images/images/price-rule-cart-free-shipping-actions-example2.png %}){: .zoom}
+      ![Cart price rule - free shipping actions]({% link marketing/assets/free-shipping-actions-example2.png %}){: .zoom}
       _Actions_
 
 ## Step 3. Complete the Labels

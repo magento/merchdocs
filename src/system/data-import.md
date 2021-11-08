@@ -16,7 +16,7 @@ Special characters (such as the equal sign, greater and less than symbols, singl
 
 When importing product data, new product data is added to existing product data entries in the database. All fields except SKU can be updated through import. All existing product data is replaced with the imported new data. Exercise caution when replacing data. All existing product data will be completely cleared and all references in the system will be lost.
 
-![Data import]({% link images/images/import-options.png %}){: .zoom}
+![Data import]({% link system/assets/import-options.png %}){: .zoom}
 _Import_
 
 ## Step 1: Prepare the Data
@@ -37,19 +37,19 @@ _Import_
 
 1. Locate the export file at the downloads location for your web browser and open the file.
 
-    ![Open download sample file]({% link images/images/data-import-download-sample-file.png %}){: .zoom}
+    ![Open download sample file]({% link system/assets/data-import-download-sample-file.png %}){: .zoom}
     _Open Download Sample File_
 
     The sample file includes column headings with placeholder data for example product types.
 
-    ![Import data sample file]({% link images/images/data-export-sample-data.png %}){: .zoom}
+    ![Import data sample file]({% link system/assets/data-export-sample-data.png %}){: .zoom}
     _View Sample File_
 
 1. Examine the structure of the sample file and use it to prepare your CSV import file, making sure that the column headings are spelled correctly.
 
 1. Verify that the size of your import file does not exceed the limit shown in the message.
 
-    ![Data import size notification]({% link images/images/data-import-size-notification.png %}){: .zoom}
+    ![Data import size notification]({% link system/assets/data-import-size-notification.png %}){: .zoom}
 
 1. If the import data includes paths to product images, make sure that the image files have been uploaded to the appropriate location.
 
@@ -82,7 +82,7 @@ _Import_
 
 1. If you want to enclose any special characters that might be found in the data as an _escape sequence_, select the **Fields Enclosure** checkbox.
 
-    ![Data import behavior]({% link images/images/data-import-import-behavior.png %}){: .zoom}
+    ![Data import behavior]({% link system/assets/data-import-import-behavior.png %}){: .zoom}
     _Import Behavior_
 
 ## Step 3: Identify the Import File
@@ -122,7 +122,7 @@ _Import_
 
     If an error message appears in the Validation Results, correct the problem in the data and import the file again.
 
-    ![Error message - URL key already exists]({% link images/images/data-import-validation-error-url-key-exists.png %}){: .zoom}
+    ![Error message - URL key already exists]({% link system/assets/data-import-validation-error-url-key-exists.png %}){: .zoom}
     _URL Key Already Exists_
 
     A message appears when the import is complete.
@@ -131,6 +131,6 @@ _Import_
 
 Operation | Description
 --------- | -----------
-Add/Update| New product data is added to the existing product data for the existing entries in the database. All fields except `sku` can be updated.<br><br>New tax classes that are specified in the import data are created automatically.<br><br>New product categories that are specified in the import file are created automatically.<br><br>New SKUs that are specified in the import file are created automatically<br><br>**_Note:_** For products, you can update all fields except SKU through import.
+Add/Update| New product data is added to the existing product data for the existing entries in the database. All fields except `sku` can be updated.<br><br>New tax classes that are specified in the import data are created automatically.<br><br>New product categories that are specified in the import file are created automatically.<br><br>New SKUs that are specified in the import file are created automatically<br><br>**_Note:_** For products, you can update all fields except SKU through import.<br><br>**_Important:_** Multiple field values, such as websites or categories, cannot be removed using the _Add/Update_ import behavior. These fields remain in the database after the import if they are not listed in the CSV file.
 Replace| The existing product data is replaced with new data.<br><br>**_Important:_** Exercise caution when replacing data because the existing product data will be completely cleared and all  references in the system will be lost.<br><br>If a SKU in the import data matches the SKU of an existing entity, all fields, including the SKU, are deleted and a new record is created using the CSV data. An error occurs if the CSV file references a SKU that does not exist in the database. You can Check Data to display error.
 Delete| Any entities in the import data that already exist in the database are deleted from the database.<br><br>Delete ignores all columns in the import data, except for SKU. You can disregard all other attributes in the data.<br><br>An error occurs if the CSV file references a SKU that does not exist in the database. You can Check Data to display error.

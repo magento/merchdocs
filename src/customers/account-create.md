@@ -67,7 +67,7 @@ As a merchant, you can create a new customer account from the Admin.
 
 ### Step 1: Complete the account information
 
-![]({% link images/images/customer-account-new-information.png %}){: .zoom}
+![]({% link customers/assets/new-information.png %}){: .zoom}
 _Customer Information_
 
 1. In the **Account Information** section, do the following:
@@ -117,7 +117,7 @@ _Customer Information_
    - Default Billing Address
    - Default Shipping Address
 
-    ![]({% link images/images/customer-account-information-addresses.png %}){: .zoom}
+    ![]({% link customers/assets/information-addresses.png %}){: .zoom}
     _Add an Address_{:.ce-only}
 
 1. Scroll down and complete the required address fields in the second column.
@@ -136,12 +136,12 @@ _Customer Information_
 
     The new address displays in the Addresses view with the selected Default Billing and Default Shipping addresses above the full list.
 
-    ![]({% link images/images/customer-account-information-address-list.png %}){: .zoom}
+    ![]({% link customers/assets/address-list.png %}){: .zoom}
     _Addresses view_
 
     The new customer account now appears in the Customers grid.
 
-    ![]({% link images/images/customers-grid-new-account.png %}){: .zoom}
+    ![]({% link customers/assets/customers-grid-new-account.png %}){: .zoom}
     _Customers grid_
 
 ### Step 3: Reset the password

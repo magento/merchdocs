@@ -8,7 +8,7 @@ The important thing to understand is that the stores use the same code and share
 
 Multi-store installations of Adobe Commerce must be configured from the Admin and also from the command line of the server. The Adobe Commerce developer [documentation]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/multi-site/ms_over.html) provides detailed instructions for configuring the server environment.
 
-![Scope - multiple stores]({% link images/images/scope-multistore.png %}){:width="550px"}
+![Scope - multiple stores]({% link stores/assets/scope-multistore.png %}){:width="550px"}
 
 Here are some examples of how URLs can be configured for multiple stores:
 
@@ -39,12 +39,12 @@ The first step is to choose how you want to position the store. Will the stores 
 
    - **Root Category** — Set to the [root category]({% link catalog/category-root.md %}) that defines the category structure for the main menu of the new store. If you have already created a specific root category for the store, select it. Otherwise, select `Default Category`. You can come back later and update the setting.
 
-    ![Create Store - store options]({% link images/images/stores-all-store-information.png %}){: .zoom}
+    ![Create Store - store options]({% link stores/assets/stores-all-store-information.png %}){: .zoom}
     _Store Information_
 
 1. Click <span class="btn">Save Store</span>.
 
-    ![New store]({% link images/images/stores-all-create-store-saved.png %}){: .zoom}
+    ![New store]({% link stores/assets/create-store-saved.png %}){: .zoom}
     _New Store_
 
 ## Step 3: Create a default store view
@@ -65,7 +65,7 @@ The first step is to choose how you want to position the store. Will the stores 
 
     If you were to open your store in edit mode, you would see that it now has a default view.
 
-    ![New store - default view]({% link images/images/stores-all-new-store-default-view.png %}){: .zoom}
+    ![New store - default view]({% link stores/assets/new-store-default-view.png %}){: .zoom}
     _New Store with Default View_
 
 ## Step 4: Configure the store URL
@@ -78,17 +78,17 @@ The first step is to choose how you want to position the store. Will the stores 
 
 1. When prompted to confirm [scope]({% link configuration/scope.md %}) switching, click **OK**.
 
-    ![Store view]({% link images/images/stores-all-create-store-config-view.png %}){: .zoom}
+    ![Store view]({% link stores/assets/create-store-config-view.png %}){: .zoom}
     _Choose the New Store View_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Base URLs** section and enter the base URL for the store.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the **Base URLs** section and enter the base URL for the store.
 
     If needed, clear the **Use system value** checkbox to change the setting.
 
     ![General configuration - web base URLs]({% link images/images/config-general-web-base-urls-clear-checkbox.png %})
     [Base URLs]({% link configuration/general/web.md %})
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Secure Base URLs** section and repeat the previous step as needed to configure the store’s [secure URL]({% link stores/store-urls.md %}).
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the **Secure Base URLs** section and repeat the previous step as needed to configure the store’s [secure URL]({% link stores/store-urls.md %}).
 
 1. Click <span class="btn">Save Config</span>.
 

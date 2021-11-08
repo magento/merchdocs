@@ -46,7 +46,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
 1. Open the CMS page or block where the variable is to appear.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Content** section. Then, click <span class="btn">Show / Hide Editor</span> to work in HTML.
+1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the **Content** section. Then, click <span class="btn">Show / Hide Editor</span> to work in HTML.
 
 1. Position the insertion point in the editor where you want the variable to appear and click <span class="btn">Insert Variable</span>.
 
@@ -59,7 +59,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
    `customVar code=my_custom_variable`
 
-   ![New custom variable]({% link images/images/variable-custom-insert-content.png %}){: .zoom}
+   ![New custom variable]({% link marketing/assets/variable-custom-insert-content.png %}){: .zoom}
    _Custom Variable Code_
 
 1. When complete, click <span class="btn">Save</span>.
@@ -69,7 +69,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
 1. Open the page or block where the variable is to appear.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Content** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the **Content** section.
 
 1. In the left panel, click **Elements** and do one of the following:
 
@@ -77,7 +77,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
    - Drag a new **Text** object to the stage.
 
-1. At the far right of the editor toolbar, click (![]({% link images/images/editor4-toolbar/btn-insert-variable.png %}){: .Inline}) to insert a variable.
+1. At the far right of the editor toolbar, click (![]({% link cms/assets/editor-btn-insert-variable.png %})) to insert a variable.
 
    ![Page Builder stage]({% link images/images-ee/variable-custom-pagebuilder-stage.png %}){: .zoom}
    _PageBuilder Stage and Panel_

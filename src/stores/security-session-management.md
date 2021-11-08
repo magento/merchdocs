@@ -20,7 +20,7 @@ Both settings are measured in bytes and default to `256000` bytes (or 256KB).
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link /images/images/btn-expand.png %}) the **Security** section to access the session settings.
+1. Expand ![Expansion selector]({% link /assets/icon-display-expand.png %}) the **Security** section to access the session settings.
 
    ![Session settings]({% link /images/images/session-size-settings.png %}){: .zoom}
 

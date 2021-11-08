@@ -22,7 +22,7 @@ _Scheduled Changes_
 
 1. Enter a brief **Description** of the update and how it is to be used.
 
-1. Use the Calendar (![]({% link images/images/btn-calendar.png %})) tool to choose the **Start Date** and **End Date** for the campaign.
+1. Use the Calendar (![]({% link assets/icon-calendar.png %})) tool to choose the **Start Date** and **End Date** for the campaign.
 
 1. Scroll down to _Price_ and click **Advanced Pricing**.
 
@@ -45,7 +45,7 @@ _Scheduled Changes_
    ![]({% link images/images-ee/scheduled-changes-assign-to-existing-campaign.png %}){: .zoom}
    _Assigning to an existing campaign_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Content**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Content**.
 
 1. When complete, click <span class="btn">Save</span>.
 

@@ -4,7 +4,7 @@ title: Integrations
 
 Establishes the location of [OAuth][1]{:target="_blank"} credentials and redirect URL for third-party integrations, and identifies the available API resources that are needed for the integration.
 
-![Integrations]({% link images/images/integrations.png %}){: .zoom}
+![Integrations]({% link system/assets/integrations.png %}){: .zoom}
 _Integrations_
 
 ## Onboarding workflow
@@ -27,7 +27,7 @@ _Integrations_
 
    - When prompted, enter **Your Password** to confirm your identity.
 
-    ![New integration]({% link images/images/integration-new.png %}){: .zoom}
+    ![New integration]({% link system/assets/integration-new.png %}){: .zoom}
     _New Integration_
 
 1. In the left panel, choose **API** and do the following:
@@ -39,7 +39,7 @@ _Integrations_
 
    - For custom access, select the checkbox of each resource that is needed.
 
-      ![Integrations - available API]({% link images/images/integrations-available-api.png %}){: .zoom}
+      ![Integrations - available API]({% link system/assets/integrations-available-api.png %}){: .zoom}
       _Resources Needed for Custom Access_
 
 1. When complete, click **Save**.
@@ -69,7 +69,7 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 
 1. In the left panel, expand **Services** and choose **Magento Web API**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Web API Security Setting** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Web API Security Setting** section.
 
     ![Services configuration - web API security settings]({% link images/images/config-services-magento-web-api-web-api-security.png %}){: .zoom}
     _Web API Security_
