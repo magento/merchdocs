@@ -88,32 +88,32 @@ By default, all B2B features are initially disabled. However, they are always av
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-## Configure Order Approval
+## Configure order approval
 
-The ability to track order processing, purchase orders gives company administrators control over the actions of the company's buyers. So, the order approval functionality is available, when the purchase orders feature is enabled.
+The ability to track order processing and purchase orders gives company administrators control over the actions of the company's buyers. The order approval functionality is available when the purchase orders feature is enabled.
 
-To set up **Order Approval Configuration**, do the following:
+To set up order approval, do the following:
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **General** and choose **B2B Features**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order Approval Configuration** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Order Approval Configuration** section.
 
-1. To allows companies to create purchase orders, set **Enable Purchase Orders** to `Yes`.
+1. To allow companies to create purchase orders, set **Enable Purchase Orders** to `Yes`.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-   Purchase orders feature is enabled at the website level, to enable this type of order for a company, do the same with the appropriate settings in each company profile.
+   The purchase orders feature is enabled at the website level. To enable this type of order for a company, do the same with the appropriate settings in each company profile.
 
-To enable the **Purchase Orders**, do the following:
+## Configure purchase orders
 
 1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
 
 1. Find the company in the list and click **Edit**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
+1. Expand ![Expansion selector]({% assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
 1. Set **Enable Purchase Orders** to `Yes`.
 
-1. When complete, click <span class="btn">Save</span> and check the [Account Dashboard]({% link customers/account-dashboard.md %}) on the storefront. The **Approval Rules** section should appear.
+1. When complete, click <span class="btn">Save</span> and check the customer [Account Dashboard]({% link customers/account-dashboard.md %}) on the storefront to confirm display of the **Approval Rules** section.
