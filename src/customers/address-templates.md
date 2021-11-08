@@ -28,7 +28,7 @@ You can modify the template that determines the format of customer billing and s
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Address Templates** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Address Templates** section.
 
    The section includes a separate set of formatting instructions for each of the following:
 

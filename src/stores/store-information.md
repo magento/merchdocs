@@ -14,7 +14,7 @@ The Store Information section provides the basic information that appears on sal
 
 1. Under **General** in the left panel, choose **General**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Store Information** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the **Store Information** section and do the following:
 
     - Enter the **Store Name** that you want to use in all communications.
 

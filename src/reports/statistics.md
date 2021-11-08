@@ -4,7 +4,7 @@ title: Refresh Statistics
 
 To reduce the performance impact of generating sales reports, Commerce calculates and stores the required statistics for each report. Rather than recalculate the statistics every time a report is generated, the stored statistics are used, unless you refresh the statistics. To include the most recent data, the report statistics must be refreshed before a sales report is generated.
 
-![]({% link images/images/reports-refresh-statistics.png %}){: .zoom}
+![]({% link reports/assets/refresh-stats.png %}){: .zoom}
 *Refresh Statistics*
 
 ## Refresh report statistics

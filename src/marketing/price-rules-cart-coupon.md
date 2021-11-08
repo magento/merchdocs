@@ -29,7 +29,7 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
 
       For unlimited use, leave these fields blank.
 
-      ![Cart price rule - coupon information]({% link images/images/price-rule-cart-coupon-info.png %}){: .zoom}
+      ![Cart price rule - coupon information]({% link marketing/assets/coupon-info.png %}){: .zoom}
       _Coupon Information_
 
    {:.bs-callout-info}
@@ -38,7 +38,7 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
 
 1. To make the coupon valid for a period of time, do the following:
 
-   - {:.ce-only}Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link images/images/btn-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
+   - {:.ce-only}Complete the **From** and **To** dates. To select the date, click the **Calendar** (![]({% link assets/icon-calendar.png %})) icon next to each field. If you leave the date range empty, the rule does not expire.
 
    - {:.ee-only}Do one of the following:
 
@@ -46,16 +46,16 @@ If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled,
 
       - Click <span class="btn">Schedule New Update</span> in the upper-right corner of the page. Then, do the following:
 
-        ![]({% link images/images/price-rule-cart-coupon-schedule-new-update.png %}){: .zoom}
+        ![]({% link marketing/assets/coupon-schedule-new-update.png %}){: .zoom}
         *Schedule Update*
 
       - Enter the **Update Name** and **Description**.
 
-      - Choose the **Start Date** and **End Date** from the Calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
+      - Choose the **Start Date** and **End Date** from the Calendar ( ![Calendar icon]({% link assets/icon-calendar.png %}) ). If you leave the date range empty, the rule will not expire.
 
       - When complete, click <span class="btn">Save</span>.
 
-        ![Cart price rule - scheduled change]({% link images/images/price-rule-cart-coupon-scheduled-change.png %}){: .zoom}
+        ![Cart price rule - scheduled change]({% link marketing/assets/coupon-scheduled-change.png %}){: .zoom}
         _Scheduled Change_
 
       **Option 2:** Assign to an existing update:
@@ -76,16 +76,16 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
 1. To limit the number of times each customer can use the coupon, enter the number of **Uses per Customer**.
 
-   ![Cart price rule - generate auto-numbered coupons]({% link images/images/price-rule-cart-coupon-auto.png %}){: .zoom}
+   ![Cart price rule - generate auto-numbered coupons]({% link marketing/assets/coupon-auto.png %}){: .zoom}
    _Generate Auto-numbered Coupons_
 
    {:.bs-callout-info}
    In case of simultaneous use of the same coupon by multiple customers at the same time, it is possible that the usage
    limit that is set could be exceeded due to delayed coupon processing.
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Manage Coupon Codes** section. Then, do the following:
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Manage Coupon Codes** section. Then, do the following:
 
-   ![Cart price rule - manage coupon codes]({% link images/images/price-rule-cart-manage-coupon-codes.png %}){: .zoom}
+   ![Cart price rule - manage coupon codes]({% link marketing/assets/manage-coupon-codes.png %}){: .zoom}
    _Manage Coupon codes_
 
    - For **Coupons Qty**, enter the number of coupons that you want to generate.
@@ -108,8 +108,11 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
    The list of generated codes appears below.
 
-   ![Cart price rule - generated coupon codes]({% link images/images/price-rule-cart-coupons-generated.png %}){: .zoom}
+   ![Cart price rule - generated coupon codes]({% link marketing/assets/coupons-generated.png %}){: .zoom}
    _Generated Codes_
+
+   {:.bs-callout-info}
+   Although Commerce allows configuring multiple coupon codes, a customer can use only one coupon code in the cart. To allow the use of more than one coupon code in the cart simultaneously, you could consider using a corresponding extension from [Commerce Marketplace](https://marketplace.magento.com/).
 
 ## Method 3: Generate a dynamic dotdigital coupon URL
 
@@ -120,7 +123,7 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
 1. Expand the **dotdigital Coupon URL Builder** section.
 
-   ![]({% link images/images/price-rule-cart-coupon-url-builder.png %}){: .zoom}
+   ![]({% link marketing/assets/coupon-url-builder.png %}){: .zoom}
    _dotdigital Coupon URL Builder_
 
 1. To use a specific code format, set **Code Format** to one of the following:
@@ -152,7 +155,7 @@ The generation of discount coupons is an asynchronous operation, which executes 
    - Expand the **Manage Coupon Codes** section and find the coupon in the grid.
    - To filter the list, set the **Generated by dotdigital** filter at the top of the fourth column to `Yes` and click <span class="btn">Search</span>.
 
-   ![]({% link images/images/price-rule-cart-manage-coupon-codes-grid.png %}){: .zoom}
+   ![]({% link marketing/assets/manage-coupon-codes-grid.png %}){: .zoom}
    _Coupon Generate by dotdigital_
 
 ## Test your dotdigital coupon code URLs

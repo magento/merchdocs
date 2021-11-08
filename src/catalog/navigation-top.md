@@ -5,7 +5,7 @@ group: marketing
 
 The main menu of your store is like a directory to the different departments in your store. Each option represents a different category of products. The position and presentation of the top navigation might vary by theme, but the way it works is essentially the same.
 
-![]({% link images/images/storefront-top-navigation.png %}){: .zoom}
+![]({% link catalog/assets/storefront-top-navigation.png %}){: .zoom}
 _Top Navigation_
 
 The category structure of your catalog can influence how well your site is indexed by search engines. The more deeply nested a category, the less likely it is to be thoroughly indexed. As a general rule, anywhere between one and three visible levels is considered to be the most effective. The [root category]({% link catalog/category-root.md %}) counts as the first level, although it doesn't appear in the menu. The maximum number of levels that are available in the top navigation is determined by the configuration. In addition, there might be a limit to the number of menu levels that are supported by your store theme. For example, the sample Luma theme supports up to five levels, including the root.

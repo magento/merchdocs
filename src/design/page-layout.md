@@ -15,7 +15,7 @@ _Standard two-column with left bar page layout_
 
 1. In the left panel under _General_, choose **Web**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Default Layouts** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Default Layouts** section.
 
    ![]({% link images/images-ee/config-general-web-default-layouts.png %}){: .zoom}
    [*Default Layouts*]({% link configuration/general/web.md %}#default-layouts)

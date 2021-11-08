@@ -28,7 +28,7 @@ Setting a source to `disabled` is helpful for the following situations:
 
 1. Click the _Actions_ menu at the upper-left corner and choose **Disable**.
 
-   ![Inventory Management sources - Actions menu]({% link images/images/stores-inventory-sources-disable.png %}){: .zoom}
+   ![Inventory Management sources - Actions menu]({% link catalog/assets/inventory-source-disable.png %}){: .zoom}
    _Actions menu_
 
 1. In the confirmation dialog, click <span class="btn">OK</span>.
@@ -39,7 +39,7 @@ Setting a source to `disabled` is helpful for the following situations:
 
 1. Locate a custom source and click **Edit**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _General_ section and change **Is Enabled**:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _General_ section and change **Is Enabled**:
 
     | Yes | Source is enabled. The quantity adds to Salable Quantity. The source lists with current quantity when shipping orders. The Source Selection Algorithm checks it the source for shipping. |
     | No | Source is disabled. Quantities are not added to Salable Quantities. The source does not list when shipping orders. Shipping options skip this source. |

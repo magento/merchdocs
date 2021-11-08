@@ -15,7 +15,7 @@ There are many ways to use hidden categories. You might want to create additiona
 
 1. In the **Display Settings** section, set **Anchor** to `No`.
 
-   ![]({% link images/images/hidden-categories.png %}){: .zoom}
+   ![]({% link catalog/assets/hidden-categories.png %}){: .zoom}
    _Hidden Category_
 
     The hidden category is active, but does not appear in the top menu, or in layered navigation.

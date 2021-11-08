@@ -22,7 +22,7 @@ By default, links inherit their style from the style sheet of the theme.
 
 1. Position the cursor where you want the widget to appear and click the _Insert Widget_ icon.
 
-   ![Editor toolbar - Insert Widget]({% link images/images/editor-toolbar/editor-menu-widget-button.png %} "Insert Widget"){: .zoom}
+   ![Editor toolbar - Insert Widget]({% link cms/assets/editor-toolbar-widget-button.png %} "Insert Widget"){: .zoom}
    _Insert widget icon_
 
    If you do not have Page Builder enabled and prefer to work with the code, click <span class="btn">Show / Hide Editor</span>. Position the insertion point in the text where you want the widget to appear. Then, click <span class="btn">Insert Widget</span>.

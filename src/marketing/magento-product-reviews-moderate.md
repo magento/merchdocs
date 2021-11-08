@@ -14,12 +14,25 @@ For Commerce Product Reviews, a submitted product review must be approved before
 
    - To reject a review, select `Not Approved`. Unapproved reviews disappear from the list of **Pending Reviews** page.
 
-1. If needed, change the values for **Detailed Rating**, **Nickname**, and **Summary of Review**.
+   {:.bs-callout-info}
+   Reviews with the `Pending` and `Not Approved` statuses are not displayed on the storefront.
+
+1. If needed, change the values for **Detailed Rating**, **Nickname**, and **Summary of Review**. To change the store view where a review will be available, choose the needed store view in the **Visibility** column.
 
    ![Edit review page]({% link images/images/edit-review-page.png %}){: .zoom}
    _Edit review page_
 
 1. When complete, click <span class="btn">Save Review</span>.
+
+## Delete a product review
+
+1. On the _Admin_ sidebar, go to **Marketing** > _User Content_ > **All Reviews**.
+
+1. Find the product review to be deleted and open it in edit mode.
+
+1. In the menu bar click **Delete Review** button.
+
+1. To confirm the action, click <span class="btn">OK</span>.
 
 ## Button bar
 

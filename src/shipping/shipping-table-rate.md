@@ -26,7 +26,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. In the _Sales_ section of the left panel, choose **Delivery Methods**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Table Rates** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Table Rates** section.
 
    {:.bs-callout-info}
    If necessary, first deselect the **Use system value** checkbox to change the following settings as described.
@@ -72,6 +72,8 @@ The first step is to complete the default settings for table rates. You can comp
    | All Allowed Countries | Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this delivery method. |
    | Specific Countries | When you choose this option, the _Ship to Specific Countries_ list appears. Select each country in the list where this delivery method can be used. |
 
+1. Set **Show Method if Not Applicable** to `Yes` if you want to show Table Rates all the time
+
 1. For **Sort Order**, enter a number to determine the sequence in which Table Rate Shipping appears when listed with other delivery methods during checkout.
 
    `0` = first, `1` = second, `2` = third, and so on.
@@ -94,7 +96,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. Save the `tablerates.csv` file to your computer.
 
-   ![]({% link images/images/shipping-table-rates-export.png %}){: .zoom}
+   ![]({% link shipping/assets/shipping-table-rates-export.png %}){: .zoom}
    _Export CS_
 
 1. Open the file in a spreadsheet application.
@@ -105,7 +107,7 @@ The first step is to complete the default settings for table rates. You can comp
    * The Country column must contain a [valid three-character code][1] for each row.
    * Sort the data by Region/State so the specific locations are at the top of the list, and the wildcard locations at the bottom. This will process the rules with the absolute values first, and the wildcard values later.
 
-   ![]({% link images/images/table-rates-weight-destination-csv.png %}){: .zoom}
+   ![]({% link shipping/assets/table-rates-weight-destination-csv.png %}){: .zoom}
    _Weight vs. Destination (Australia)_
 
 1. Save the `tablerates.csv` file.
@@ -118,7 +120,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. For **Import**, click <span class="btn">Choose File</span> and select your completed `tablerates.csv` file to import the rates.
 
-   ![]({% link images/images/shipping-table-rates-import.png %}){: .zoom}
+   ![]({% link shipping/assets/shipping-table-rates-import.png %}){: .zoom}
    _Import Table Rates_
 
 1. Click <span class="btn">Save Config</span>.

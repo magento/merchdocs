@@ -5,7 +5,7 @@ title: Wish List Search
 
 Any public wish list can be found using the Wish List Search [widget]({% link cms/widgets.md %}). The widget enables a customer to search by the name or email address of the wish list owner. Store customers can find wish lists that belong to other customers, view them and order products from them, or add the products to their own wish lists. If an item is purchased from a public wish list by another customer, it is not removed from the original wish list. The Wish List Search widget can be added to any page of your store to make it easy for customers to find the wish lists of friends and family members.
 
-![Example storefront - wish list search]({% link images/images/storefront-wishlist-search.png %}){: .zoom}
+![Example storefront - wish list search]({% link marketing/assets/storefront-wishlist-search.png %}){: .zoom}
 _Wish list search_
 
 ## Add a Wish List Search widget
@@ -58,7 +58,7 @@ _Wish list search_
 
 1. In the **Container** list, choose the area of the page layout where it is to be placed.
 
-    ![Wish list search widget - layout]({% link images/images/widget-wishlist-search-layout-update.png %}){: .zoom}
+    ![Wish list search widget - layout]({% link marketing/assets/widget-wishlist-search-layout-update.png %}){: .zoom}
     _Layout Update_
 
 1. In the left panel, choose **Widget Options**.

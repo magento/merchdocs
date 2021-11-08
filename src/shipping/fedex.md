@@ -15,7 +15,7 @@ FedEx now uses [dimensional weight]({% link shipping/weight-dimensional.md %}) t
 You must create a [FedEx merchant account][1] and register for FedEx Web Services Production Access. After creating a FedEx account, read through the production account information page, then click the Obtain Production Key link at the bottom of the page to register and obtain a key.
 
 {:.bs-callout-info}
-Make sure to copy or write down the authentication key. You will need it to set up FedEx in your Magento shipping settings.
+Make sure to copy or write down the authentication key. You will need it to set up FedEx in your Commerce shipping settings.
 
 ## Step 2: Enable FedEx for Your Store
 
@@ -23,7 +23,7 @@ Make sure to copy or write down the authentication key. You will need it to set 
 
 1. In the left panel, expand **Sales** and choose **Delivery Methods**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **FedEx** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **FedEx** section.
 
 1. Set **Enabled for Checkout** to `Yes`.
 

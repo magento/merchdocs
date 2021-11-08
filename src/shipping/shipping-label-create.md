@@ -4,7 +4,7 @@ title: Creating Shipping Labels
 
 To create shipping labels, you must first set up your shipping carrier account to support labels. Then, follow the prompts to enter a description of the package and its contents.
 
-After you configure the shipping label information and submit an order, Magento connects to the shipping carrier system, submits an order, and receives a shipping label and a tracking number. If a shipping label for this shipment already exists in the system, it is replaced with a new one. However, existing tracking numbers are not replaced. Any new tracking number is added to the existing one.
+After you configure the shipping label information and submit an order, Commerce connects to the shipping carrier system, submits an order, and receives a shipping label and a tracking number. If a shipping label for this shipment already exists in the system, it is replaced with a new one. However, existing tracking numbers are not replaced. Any new tracking number is added to the existing one.
 
 ## Step 1: Contact your shipping carriers
 
@@ -27,7 +27,7 @@ Follow the instructions provided by each carrier to add shipping label support t
 
 1. In the left panel, expand **Sales** and select **Shipping Settings**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Origin** section and configure the **Shipping Origin Address**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Origin** section and configure the **Shipping Origin Address**.
 
 1. Follow the instructions below for each carrier account that is activated for label printing.
 
@@ -37,7 +37,7 @@ United Parcel Service ships both domestically and internationally. However, ship
 
 1. In the _Sales_ section in the left panel, choose **Delivery Methods**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **UPS** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **UPS** section.
 
 1. Verify that your UPS **Shipper Number** is correct.
 
@@ -49,7 +49,7 @@ United Parcel Service ships both domestically and internationally. However, ship
 
 The United States Postal Service ships both domestically and internationally.
 
-1. Continuing in the **Delivery Methods** configuration, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **USPS** section.
+1. Continuing in the **Delivery Methods** configuration, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **USPS** section.
 
 1. Verify that the **Secure Gateway URL** is correct.
 
@@ -68,7 +68,7 @@ The United States Postal Service ships both domestically and internationally.
 
 FedEx ships domestically and internationally. Stores located outside the United States can create FedEx labels for international shipments only.
 
-1. Continuing in the **Delivery Methods** configuration, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **FedEx** section.
+1. Continuing in the **Delivery Methods** configuration, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **FedEx** section.
 
 1. Verify that the following FedEx credentials are correct:
 
@@ -82,7 +82,7 @@ FedEx ships domestically and internationally. Stores located outside the United 
 
 DHL provides international shipping services.
 
-1. Continuing in the **Delivery Methods** configuration, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **DHL** section.
+1. Continuing in the **Delivery Methods** configuration, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **DHL** section.
 
 1. Verify that the **Gateway URL** is correct.
 
@@ -129,7 +129,7 @@ DHL provides international shipping services.
 
 1. Click **OK**.
 
-   Magento connects to the shipping carrier system, submits the order, and receives a shipping label and tracking number for each package.
+   Commerce connects to the shipping carrier system, submits the order, and receives a shipping label and tracking number for each package.
 
 ### Method 2: Create label for existing shipment
 
@@ -162,7 +162,7 @@ Because an individual shipment order for each package is created, multiple shipp
 
    Depending on your browser settings, the shipping labels can be viewed and printed directly from the PDF file.
 
-   The Print Shipping Label button appears only after the carrier generates labels for the shipment. If the button is missing, click **Create Shipping Label**. The button appears after Magento receives the label from the carrier.
+   The Print Shipping Label button appears only after the carrier generates labels for the shipment. If the button is missing, click **Create Shipping Label**. The button appears after Commerce receives the label from the carrier.
 
 ### Method 2: Print labels for multiple orders
 

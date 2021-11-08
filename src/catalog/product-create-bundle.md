@@ -182,21 +182,21 @@ _Choose Template_
 
 1. Repeat these steps for each item you want to add to the bundle.
 
-1. To change the order of items in a bundle section, click the **Move** ( ![Move icon]({% link images/images/btn-drag.png %}) ) icon at the beginning of the row and drag the item into position.
+1. To change the order of items in a bundle section, click the **Move** ( ![Move icon]({% link assets/icon-move.png %}) ) icon at the beginning of the row and drag the item into position.
 
     ![]({% link images/images/product-bundle-items-move.png %}){: .zoom}
     _Change the Order of Bundle Items_
 
     The order of items can also be changed in the data of an exported bundle product and then reimported into the catalog. For more information, see [Importing Bundle Products]({% link system/data-transfer-bundle-products.md %}).
 
-1. To change the order of sections in a bundle product, click the **Move** ( ![Move icon]({% link images/images/btn-drag.png %}) ) icon in the header of the section and drag the section to the new position.
+1. To change the order of sections in a bundle product, click the **Move** ( ![Move icon]({% link assets/icon-move.png %}) ) icon in the header of the section and drag the section to the new position.
 
    To have a better view of the workspace, collapse each section first and then drag them into position.
 
     ![]({% link images/images/product-bundle-section-move.png %}){: .zoom}
     _Change the Order of Bundle Sections_
 
-1. To remove any item from the bundle, click the **Delete** ( ![]({% link images/images/btn-delete.png %}) ) icon.
+1. To remove any item from the bundle, click the **Delete** ( ![]({% link assets/icon-delete-trashcan.png %}) ) icon.
 
 1. When complete, click <span class="btn">Save</span>.
 
@@ -223,7 +223,7 @@ Scroll down and complete the information in the following sections as needed:
 
    - In the upper-right corner, click <span class="btn">Save</span>.
 
-   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link assets/icon-menu-down-arrow-black.png %}) ) menu.
 
       The store opens in a new browser tab.
 
@@ -232,7 +232,7 @@ Scroll down and complete the information in the following sections as needed:
 
    **Method 2:** Save and close
 
-    On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+    On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}) ) menu, choose **Save & Close**.
 
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_
@@ -258,9 +258,9 @@ Scroll down and complete the information in the following sections as needed:
 
 ## Things to remember
 
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Customers can _build their own_ bundle product. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Bundle items can be simple or virtual products without custom options. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | The Price View can be set to either `Price Range` or `As Low As`. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | SKU and Weight can be either `Fixed` or `Dynamic`. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | The quantity can be a preset or user-defined value. However, do not assign the _User Defined_ property to checkbox or multiple-select input types. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Bundle items can be shipped together or separately. |
+| ![]({% link assets/checkbox.png %})| Customers can _build their own_ bundle product. |
+| ![]({% link assets/checkbox.png %})| Bundle items can be simple or virtual products without custom options. |
+| ![]({% link assets/checkbox.png %})| The Price View can be set to either `Price Range` or `As Low As`. |
+| ![]({% link assets/checkbox.png %})| SKU and Weight can be either `Fixed` or `Dynamic`. |
+| ![]({% link assets/checkbox.png %})| The quantity can be a preset or user-defined value. However, do not assign the _User Defined_ property to checkbox or multiple-select input types. |
+| ![]({% link assets/checkbox.png %})| Bundle items can be shipped together or separately. |

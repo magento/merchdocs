@@ -15,12 +15,12 @@ When you delete the stock, all assigned web sites are assigned to the Default St
 
 1. From the **Actions** menu, select **Delete**.
 
-    ![]({% link images/images/inventory/inventory-stock-delete1.png %}){: .zoom}
+    ![]({% link catalog/assets/inventory-stock-delete.png %}){: .zoom}
     _Select Delete from the Actions menu_
 
 1. In the confirmation dialog, click <span class="btn">OK</span>.
 
    The stock is deleted and any assigned sales channels are unmapped.
 
-    ![]({% link images/images/inventory/inventory-stock-delete2.png %}){: .zoom}
+    ![]({% link catalog/assets/inventory-stock-delete-confirm.png %}){: .zoom}
     _Stock delete verification message_

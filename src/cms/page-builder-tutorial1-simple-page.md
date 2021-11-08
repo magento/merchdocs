@@ -57,7 +57,7 @@ _Page Builder full bleed row with banner_
    ![]({% link images/images-ee/page-builder-tutorial1-currently-active.png %}){: .zoom}
    _Basic page settings_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Design** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Design** section.
 
    Notice that **Layout** is set to `Page -- Full Width` by default. In addition to the five standard [layout]({% link design/page-layout.md %}) options, Page Builder adds full-width layouts for pages, categories, and products.
 
@@ -77,7 +77,7 @@ _Page Builder full bleed row with banner_
 
 ### Step 2: Format the row
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section.
 
    This displays the Page Builder preview with an empty row.
 
@@ -278,7 +278,7 @@ _Example page using contained row with two equal columns_
 
 1. In the Pages grid, find the _Simple Page_ that you created in the first part of this tutorial and select **Edit** in the _Action_ column.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section.
 
 1. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 
@@ -395,7 +395,7 @@ _Example full width row with columns of different widths_
 
 1. In the Pages grid, find the _Simple Page_ that you created in the first part of this tutorial and select **Edit** in the _Action_ column.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section.
 
 1. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 
@@ -488,12 +488,12 @@ The second column of the row will contain content from a customer review, includ
 
 1. Click in the text element to display the editor toolbar.
 
-1. In the toolbar, click the _Insert Image_ (![]({% link images/images/editor4-toolbar/btn-insert-edit-image.png %})) icon and do the following:
+1. In the toolbar, click the _Insert Image_ (![]({% link cms/assets/editor-btn-insert-edit-image.png %})) icon and do the following:
 
    ![]({% link images/images-ee/page-builder-tutorial1-column2-editor-toolbar-insert-image.png %}){: .zoom}
    _Inserting an image in the text_
 
-   - In the _Insert/edit image_ dialog, click the Find ( ![]({% link images/images/editor4-toolbar/btn-find-source.png %}) ) icon next to the _Source_ field.
+   - In the _Insert/edit image_ dialog, click the Find ( ![]({% link cms/assets/editor-btn-find-source.png %}) ) icon next to the _Source_ field.
 
       ![]({% link images/images-ee/page-builder-tutorial1-column2-text-insert-edit-image.png %}){: .zoom}
       _Insert/edit image dialog_
@@ -509,7 +509,7 @@ The second column of the row will contain content from a customer review, includ
 
    - For **Image Description**, enter `5-Star Rating` and click <span class="btn">OK</span> to insert the image into the column.
 
-   - In the editor toolbar, click **Align Center** (![]({% link images/images/editor4-toolbar/btn-align-center.png %})) to center the image in the column.
+   - In the editor toolbar, click **Align Center** (![]({% link cms/assets/editor-btn-align-center.png %})) to center the image in the column.
 
       ![]({% link images/images-ee/page-builder-tutorial1-column2-5stars-centered.png %}){: .zoom}
       _Centered rating image_
@@ -572,7 +572,7 @@ The second column of the row will contain content from a customer review, includ
 
 ### Step 5: Insert a catalog product link
 
-1. Select the `Antonia Racer Tank` text and click the Insert Link (![]({% link images/images/editor4-toolbar/btn-insert--edit-link.png %})) icon in the editor toolbar.
+1. Select the `Antonia Racer Tank` text and click the Insert Link (![]({% link cms/assets/editor-btn-insert-edit-link.png %})) icon in the editor toolbar.
 
 1. In the Insert link dialog, specify the link to the catalog product:
 
@@ -606,7 +606,7 @@ The second column of the row will contain content from a customer review, includ
 
 With all three rows complete, the final step is to rearrange the rows to match the original _Simple Page_ example. To match the original example, the first row must be moved to the bottom, and the last row must be moved to the top.
 
-1. If necessary, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section.
+1. If necessary, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section.
 
 1. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 

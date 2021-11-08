@@ -1,7 +1,8 @@
 ---
-title: Amazon Store Dashboard
+title: Amazon Sales Channel - Amazon Store Dashboard
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/amazon-store-dashboard.html
 ---
-
 
 In the _Amazon Stores_ view on Amazon Sales Channel home page, you can click **View Store** on a store card to open the store dashboard.
 

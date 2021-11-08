@@ -54,7 +54,7 @@ _MySQL Message Queue Cleanup_
 [_Mail Sending Settings_]({% link system/email-communications.md %})
 
 {:.bs-callout-warning}
-**Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1]{:target="_blank"} for email communications.  In the Mail Sending Settings, make sure that Set Return Path is set to "No". To learn more, see the [Magento Security Center posting][2]{:target="_blank"}.
+**Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1]{:target="_blank"} for email communications.  In the Mail Sending Settings, make sure that Set Return Path is set to "No". To learn more, see the [Security Center posting][2]{:target="_blank"}.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -71,7 +71,7 @@ _MySQL Message Queue Cleanup_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Installed Currencies|Global|Indicates the currencies that are currently available to the Magento installation. Options include all available currencies, with installed currencies selected.|
+|Installed Currencies|Global|Indicates the currencies that are currently available to the Commerce installation. Options include all available currencies, with installed currencies selected.|
 
 ## Security
 
@@ -103,8 +103,8 @@ _MySQL Message Queue Cleanup_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable Scheduled Backup|Global|Determines if the Magento installation is automatically backed up on a regular schedule. Options: Yes / No|
-|Backup Type|Global|Determines the elements of the Magento installation that are included in the backup. Options: Database, Database and Media, System, System (excluding Media)|
+|Enable Scheduled Backup|Global|Determines if the Commerce instance is automatically backed up on a regular schedule. Options: Yes / No|
+|Backup Type|Global|Determines the elements of the Commerce instance that are included in the backup. Options: Database, Database and Media, System, System (excluding Media)|
 |Start Time|Global|Specifies the hour, minute, and second that the scheduled backup begins.|
 |Frequency|Global|Determines how often the scheduled backup takes place. Options: Daily, Weekly, Monthly|
 |Maintenance Mode|Global|Determines if the store is put in Maintenance Mode during the scheduled backup. Options: Yes / No|
@@ -128,21 +128,19 @@ _MySQL Message Queue Cleanup_
 ![]({% link images/images/config-advanced-system-full-page-cache-varnish.png %}){: .zoom}
 [_Varnish Configuration_]({% link system/cache-full-page.md %})
 
-Caching application
-Built-in Application - Not recommended for the production environment.
-Varnish Caching - Recommended for the production environment.
-
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Caching Application|Global|Determines the application that is used to manage the full-page cache. Options: <br/>**Built-in Application** - Not recommended for the production environment. <br/>**Varnish Caching** - Recommended for the production environment.|
 |TTL for public content|Global|Determines the lifetime of the public content cache in seconds. Default value: 120|
-|**Varnish Configuration**|||xs
+|**Varnish Configuration**|||
 |Access list|Global|Specifies the IP addresses that can purge the Varnish configuration to generate a config file. Separate multiple entries with a comma. Default value: localhost|
 |Backend host|Global|Specifies the backend host that generates config files. Default value: localhost|
 |Backend port|Global|Specifies the backend port that is used to generate config files. Default value: 8080|
+|Grace period|Global|Specifies the grace period in seconds for generating a config file. Default value: 300|
 |**Export Configuration**|||
-|Export VCL for Varnish 3|Global|Exports the `varnish.vcl` file for version 3.|
 |Export VCL for Varnish 4|Global|Exports the `varnish.vcl` file for version 4.|
+|Export VCL for Varnish 5|Global|Exports the `varnish.vcl` file for version 5.|
+|Export VCL for Varnish 6|Global|Exports the `varnish.vcl` file for version 6.|
 
 ## Storage Configuration for Media
 
@@ -158,7 +156,7 @@ Varnish Caching - Recommended for the production environment.
 [_Storage Configuration for Media - Database_]({% link cms/media-storage.md %})
 
 {:.bs-callout-warning}
-The database media storage method has been deprecated as of Magento 2.4.3.
+The database media storage method has been deprecated as of Adobe Commerce and Magento Open Source 2.4.3.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -202,7 +200,7 @@ The database media storage method has been deprecated as of Magento 2.4.3.
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Quality|Global|Determines the JPG quality for the resized image. Lower quality reduces the file size. We recommend 80-90% to help reduce file size with high quality.Default: 80|
-|Enable Frontend Resize|Global|Enable to allow Magento to resize large, oversized images you may upload for the Product Details Page. Magento resizing the image files using JavaScript prior to uploading the file. When the image is resized, it keeps the exact proportions, meeting and not exceeding the largest size for Maximum Width or Maximum Height. Default: Yes|
+|Enable Frontend Resize|Global|Enable to allow Commerce to resize large, oversized images you may upload for the Product Details Page. Commerce resizes the image files using JavaScript prior to uploading the file. When the image is resized, it keeps the exact proportions, meeting and not exceeding the largest size for Maximum Width or Maximum Height. Default: Yes|
 |Maximum Width|Global|Determines the maximum pixel width for the image. When the image is resized, it does not exceed this width. Default: 1920|
 |Maximum Height|Global|Determines the maximum pixel height for the image. When the image is resized, it does not exceed this height. Default: 1200|
 
@@ -214,13 +212,13 @@ _Adobe Stock Integration_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled Adobe Stock|Global|Enables or disables the Adobe Stock Integration.|
-|API Key (Client ID)|Global|An API key is required to connect your Magento store to the Adobe Stock service. For more information about generating this key and configuring this integration, see [Adobe Stock Integration]({% link cms/adobe-stock.md %}).|
+|API Key (Client ID)|Global|An API key is required to connect your store to the Adobe Stock service. For more information about generating this key and configuring this integration, see [Adobe Stock Integration]({% link cms/adobe-stock.md %}).|
 |Client Secret|Global|The Client Secret for your Adobe Stock integration is required. For more information about retrieving this secret and configuring this integration, see [Adobe Stock Integration]({% link cms/adobe-stock.md %}).|
 |Test Connection||Runs a test to verify that the API key is valid for use with the Adobe Stock service.|
 
 ## Media Gallery
 
-![Advanced configuration - Media Gallery]({% link images/images/enhanced-media-gallery/system-enhanced-media-gallery.png %}){: .zoom}
+![Advanced configuration - Media Gallery]({% link configuration/advanced/assets/system-media-gallery.png %}){: .zoom}
 _Media Gallery_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -229,7 +227,7 @@ _Media Gallery_
 
 ## Media Gallery Image Optimization
 
-![Advanced configuration - Media Gallery Image Optimization]({% link images/images/enhanced-media-gallery/system-image-optimization.png %}){: .zoom}
+![Advanced configuration - Media Gallery Image Optimization]({% link configuration/advanced/assets/system-media-image-optimization.png %}){: .zoom}
 _Media Gallery Image Optimization_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

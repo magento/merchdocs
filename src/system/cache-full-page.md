@@ -21,7 +21,7 @@ For technical information, see [Configure and Use Varnish][1]{:target="_blank"} 
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Full Page Cache** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Full Page Cache** section.
 
     ![Advanced configuration - full page cache]({% link images/images/config-advanced-system-full-page-cache.png %}){: .zoom}
     [_Full Page Cache_]({% link configuration/advanced/system.md %})
@@ -39,15 +39,14 @@ For technical information, see [Configure and Use Varnish][1]{:target="_blank"} 
 
    - **Backend host** - Enter the IP address of the backend host that generates config files. The default value is `localhost`.
 
-   - **Backend port** - Identify the backend port that is used to generate config files. The default value is: `8080`
+   - **Backend port** - Identify the backend port that is used to generate config files. The default value is: `8080`.
+
+   - **Grace period** - Specify the number of seconds to use as a grace period to generate config files. See [Advanced Varnish configuration]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/varnish/config-varnish-advanced.html) in the _Commerce DevDocs Configuration Guide_.
 
    - To export the configuration as a `varnish.vcl` file, click the button for the version of Varnish that you use.
 
-      - <span class="btn">Export VCL for Varnish 3</span>
-      - <span class="btn">Export VCL for Varnish 4</span>
-
-    ![Advance configuration - full page cache varnish]({% link images/images/config-advanced-system-full-page-cache-varnish.png %}){: .zoom}
-    [_Varnish Configuration_]({% link configuration/advanced/system.md %})
+   ![Advance configuration - full page cache varnish]({% link images/images/config-advanced-system-full-page-cache-varnish.png %}){: .zoom}
+   [_Varnish Configuration_]({% link configuration/advanced/system.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.
 

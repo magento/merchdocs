@@ -13,7 +13,7 @@ _Image Placeholder_
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![Expansion icon]({% link images/images/btn-expand.png %}) the _Product Image Placeholders_ section.
+1. Expand ![Expansion icon]({% link assets/icon-display-expand.png %}) the _Product Image Placeholders_ section.
 
 1. For each image role, click <span class="btn">Choose File</span>, find the image on your computer, and upload the file.
 

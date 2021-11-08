@@ -13,7 +13,7 @@ To set these fields to `No` and disable Commerce Product Reviews, you must clear
 
 1. In the left panel, expand **Catalog** and select **Catalog** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Product Reviews** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Product Reviews** section.
 
 1. Set **Enabled** to `Yes`.
 

@@ -6,9 +6,12 @@ redirect_from:
 
 Advanced Reporting, which is included with Adobe Commerce and Magento Open Source, gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. While Advanced Reporting uses Magento Business Intelligence for analytics, you do not need to have a Magento Business Intelligence account to use Advanced Reporting.
 
+{:.bs-callout-info}
+Magento Business Intelligence accounts will use built-in reporting, rather than the Advanced Reporting feature.
+
 For technical information, see [Advanced Reporting][2]{:target="_blank"} in our developer documentation.
 
-![]({% link images/images/reporting-advanced.png %}){: .zoom}
+![]({% link reports/assets/reporting-advanced.png %}){: .zoom}
 _Advanced Reporting dashboard_
 
 ## Requirements
@@ -65,7 +68,7 @@ In the Commerce configuration, [Advanced Reporting]({% link configuration/genera
    * Hover over any data point for more information.
    * Click each tab to see all dashboard reports.
 
-   ![]({% link images/images/reporting-advanced-data-point.png %}){: .zoom}
+   ![]({% link reports/assets/reporting-advanced-data-point.png %}){: .zoom}
    *Data Point*
 
 ## To access your data resources:
@@ -112,6 +115,10 @@ To determine if your store has multiple base currencies, you can query your Comm
 ```sql
 select distinct base_currency_code from sales_order;
 ```
+
+### Data discrepancy
+
+If you notice that the `Data last updated...` caption displays yesterday's date and not today's, there might be a delay of up to a day in the Advanced Reporting updates due to a larger than expected queue size.
 
 ## Dashboard Reports
 

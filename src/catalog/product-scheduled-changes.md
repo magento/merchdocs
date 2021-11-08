@@ -22,7 +22,7 @@ _Scheduled Changes_
 
 1. Enter a brief **Description** of the update and how it is to be used.
 
-1. Use the Calendar (![]({% link images/images/btn-calendar.png %})) tool to choose the **Start Date** and **End Date** for the campaign.
+1. Use the Calendar (![]({% link assets/icon-calendar.png %})) tool to choose the **Start Date** and **End Date** for the campaign.
 
 1. Scroll down to _Price_ and click **Advanced Pricing**.
 
@@ -45,7 +45,7 @@ _Scheduled Changes_
    ![]({% link images/images-ee/scheduled-changes-assign-to-existing-campaign.png %}){: .zoom}
    _Assigning to an existing campaign_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Content**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Content**.
 
 1. When complete, click <span class="btn">Save</span>.
 
@@ -69,6 +69,11 @@ _Scheduled change_
 1. In the _Scheduled Changes_ box at the top of the page, click **View/Edit**.
 
 1. On the top bar click <span class="btn">Remove from Update</span>.
+
+1. In the dialog, select **Delete the Update** and click **Done**.
+
+   {:.bs-callout-info}
+   The product is removed from the update and all scheduled changes are lost.
 
    ![]({% link images/images-ee/remove-product-scheduled-changes.png %}){: .zoom}
    _Remove Scheduled Change_

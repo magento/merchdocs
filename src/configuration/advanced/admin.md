@@ -28,42 +28,42 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 |--- |--- |--- |
 |[Dashboard]({% link stores/admin-dashboard.md %})|||
-|[Sales]({% link sales.md %})|[Operations]({% link sales/order-management.md %})||
-||<span class="b2b-only">[Quotes]({% link sales/quotes.md %})</span><br/>[Orders]({% link sales/orders.md %})<br/>[Invoices]({% link sales/invoices.md %})<br/>[Shipments]({% link sales/shipments.md %})<br/>[Credit Memos]({% link sales/credit-memos.md %})<br/>[Billing Agreements]({% link sales/billing-agreements.md %})<br/><span class="ee-only">[Returns]({% link sales/returns.md %})</span><br/>[Transactions]({% link sales/transactions.md %})<br/>Braintree Virtual Terminal|
-|[Catalog]({% link catalog/catalog-menu.md %})|||
-||[Inventory]({% link catalog/products.md %})|Products<br/>Categories<br/>Shared Catalog|
+|[Sales]({% link sales.md %})|[Operations]({% link sales/order-management.md %})|<span class="b2b-only">[Quotes]({% link sales/quotes.md %})</span><br/>[Orders]({% link sales/orders.md %})<br/>[Invoices]({% link sales/invoices.md %})<br/>[Shipments]({% link sales/shipments.md %})<br/>[Credit Memos]({% link sales/credit-memos.md %})<br/>[Billing Agreements]({% link sales/billing-agreements.md %})<br/><span class="ee-only">[Returns]({% link sales/returns.md %})</span><br/>[Transactions]({% link sales/transactions.md %})<br/>Braintree Virtual Terminal|
+||<span class="ee-only">[Archive]({% link sales/order-archive.md %})</span>|Orders<br/>Invoices<br/>Shipments<br/>Credit Memos|
+|[Catalog]({% link catalog/catalog-menu.md %})|[Inventory]({% link catalog/products.md %})|Products<br/>Categories<br/>Shared Catalog|
 |[Customers]({% link customers.md %}) | [All Customers]({% link customers/customers-all.md %})<br/>[Now Online]({% link customers/now-online.md %})<br/>[Customer Groups]({% link customers/customer-groups.md %})<br/><span class="ee-only">[Segments]({% link marketing/customer-segments.md %})</span><br/><span class="b2b-only">[Companies]({% link customers/account-companies.md %})</span>||
-|[Marketing]({% link marketing.md %})|[Promotions]({% link marketing/promotions.md %})|[Catalog Price Rule]({% link marketing/price-rules-catalog.md %}) <br/>[Cart Price Rules]({% link marketing/price-rules-cart.md %}) <br/><span class="ee-only">[Related Products Rules]({% link marketing/product-related-rules.md %})</span><br/><span class="ee-only">[Gift Card Accounts]({% link catalog/product-gift-card-accounts.md %})</span>
+|[Marketing]({% link marketing.md %})|[Promotions]({% link marketing/promotions.md %})|[Catalog Price Rule]({% link marketing/price-rules-catalog.md %}) <br/>[Cart Price Rules]({% link marketing/price-rules-cart.md %}) <br/><span class="ee-only">[Related Products Rules]({% link marketing/product-related-rules.md %})</span><br/><span class="ee-only">[Gift Card Accounts]({% link catalog/product-gift-card-accounts.md %})</span>|
 ||<span class="ee-only">[Private Sales]({% link marketing/events-private-sales.md %})</span>|[Events]({% link marketing/event-components.md %}) <br/>[Invitations]({% link marketing/invitations.md %})|
 ||[Communications]({% link marketing/communications.md %})|[Email Templates]({% link marketing/email-templates.md %}) <br/>[Newsletter Template]({% link marketing/newsletter-template.md %}) <br/>[Newsletter Queue]({% link marketing/newsletter-queue.md %}) <br/>[Newsletter Subscribers]({% link marketing/newsletter-subscribers.md %}) <br/><span class="ee-only">[Email Reminders]({% link marketing/email-reminder-rules.md %})</span>|
 ||[SEO & Search]({% link marketing/seo-search.md %})|[Search Terms]({% link marketing/search-terms.md %}) <br/><span class="ee-only">[Search Synonyms]({% link marketing/search-synonyms.md %})</span><br/>[URL Rewrites]({% link marketing/url-rewrite.md %}) <br/>[Site Map]({% link marketing/sitemap-xml.md %})|
-||[User Content]({% link catalog/settings-advanced-product-reviews.md %}) | [All Reviews]({% link catalog/settings-advanced-product-reviews.md %}) <br/>[Pending Reviews]({% link marketing/magento-product-reviews-moderate.md %}) <br/>[Yotpo Reviews]({% link marketing/yotpo-reviews-intro.md %})||
+||[User Content]({% link catalog/settings-advanced-product-reviews.md %}) | [All Reviews]({% link catalog/settings-advanced-product-reviews.md %}) <br/>[Pending Reviews]({% link marketing/magento-product-reviews-moderate.md %}) <br/>[Yotpo Reviews]({% link marketing/yotpo-reviews-intro.md %})|
 ||Customer Engagement|[dotdigital Engagement Cloud]({% link marketing/dotdigital/engagement-cloud.md %})<br/>[dotdigital Chat]({% link marketing/dotdigital/chat.md %})<br/>[Exclusion Rules]({% link marketing/dotdigital/exclusion-rules.md %})|
-|[Content]({% link content.md %}) | [Elements]({% link cms/content-elements.md %}) | [Pages]({% link cms/pages.md %})<br/><span class="ee-only">[Hierarchy]({% link cms/page-hierarchy.md %})</span><br/>[Blocks]({% link cms/blocks.md %})<br/><span class="ee-only">[Dynamic Blocks]({% link cms/dynamic-blocks.md %})</span><br/>[Widgets]({% link cms/widgets.md %})<br/>[Media Gallery]({% link cms/media-storage.md %})||
-||[Design]({% link design/design-theme.md %}) | [Configuration]({% link design/configuration.md %})<br/>[Themes]({% link design/themes.md %})<br/>[Schedule]({% link design/schedule.md %})||
-||<span class="ee-only">[Content Staging]({% link cms/content-staging.md %})</span><br />
-|[Reports]({% link reports.md %}) | [Marketing]({% link reports/marketing-reports.md %})|Products in Cart<br />Search Terms<br />Abandoned Carts<br />Newsletter Problem Reports||
+|[Content]({% link content.md %}) | [Elements]({% link cms/content-elements.md %}) | [Pages]({% link cms/pages.md %})<br/><span class="ee-only">[Hierarchy]({% link cms/page-hierarchy.md %})</span><br/>[Blocks]({% link cms/blocks.md %})<br/><span class="ee-only">[Dynamic Blocks]({% link cms/dynamic-blocks.md %})</span><br/>[Widgets]({% link cms/widgets.md %})<br/>[Media Gallery]({% link cms/media-storage.md %})|
+||[Design]({% link design/design-theme.md %}) | [Configuration]({% link design/configuration.md %})<br/>[Themes]({% link design/themes.md %})<br/>[Schedule]({% link design/schedule.md %})|
+||<span class="ee-only">[Content Staging]({% link cms/content-staging.md %})</span><br />|Dashboard|
+|[Reports]({% link reports.md %}) | [Marketing]({% link reports/marketing-reports.md %})|Products in Cart<br />Search Terms<br />Abandoned Carts<br />Newsletter Problem Reports|
 ||[Reviews]({% link reports/review-reports.md %})|By Customer<br />By Products<br />Yotpo Reviews|
-||[Sales]({% link reports/sales-reports.md %})||
+||[Sales]({% link reports/sales-reports.md %})|Orders<br/>Tax<br/>Invoiced<br/>Shipping<br/>Refunds<br/>Coupons<br/>PayPal Settlement<br/>Braintree Settlement|
 ||<span class="ee-only">System Insights|[Site-Wide Analysis Tool]({% link reports/site-wide-analysis-tool.md %})|
 ||[Customers]({% link reports/customer-reports.md %})| Order Total<br/>Order Count<br/>New<br/>Wish Lists<br/>Segments<br/>|
 ||[Products]({% link reports/product-reports.md %})|Views<br/>Bestsellers<br/>Low Stock<br/>Ordered<br/>Downloads|
 ||<span class="ee-only">[Private Sales]({% link marketing/events-private-sales.md %})|Invitations<br/>Invited Customers<br/>Conversions|
 ||[Statistics]({% link reports/statistics.md %})|Refresh Statistics|
 ||[Business Intelligence]({% link reports/business-intelligence.md %})|Advanced Reporting<br/>BI Essentials<br/>Yotpo Analytics|
-|[Stores]({% link stores/stores.md %}) | [Settings]({% link stores/stores-menu.md %}) | [All Stores]({% link stores/stores-all-stores.md %})<br/>[Configuration]({% link stores/configuration-overview.md %})<br/>[Terms and Conditions]({% link sales/terms-and-conditions.md %})<br/>[Order Status]({% link sales/order-status.md %})||
-||[Inventory]({% link configuration/catalog/inventory.md %})|[Sources]({% link catalog/sources.md %})<br/>Stocks||
+||Customer Engagement|Dashboard<br/>Importer Status<br/>Automation Enrollment<br/>Campaign Sends<br/>SMS Sends<br/>Cron Tasks<br/>Log Viewer<br/>Abandoned Carts|
+|[Stores]({% link stores/stores.md %}) | [Settings]({% link stores/stores-menu.md %}) | [All Stores]({% link stores/stores-all-stores.md %})<br/>[Configuration]({% link stores/configuration-overview.md %})<br/>[Terms and Conditions]({% link sales/terms-and-conditions.md %})<br/>[Order Status]({% link sales/order-status.md %})|
+||[Inventory]({% link configuration/catalog/inventory.md %})|[Sources]({% link catalog/sources.md %})<br/>Stocks|
 ||[Taxes]({% link tax/taxes.md %})|[Tax Rules]({% link tax/tax-rules.md %})<br/>[Tax Zones and Rates]({% link tax/tax-zones-rates.md %})|
-||[Currency]({% link stores/currency.md %})|[Currency Rates]({% link stores/currency-configuration.md %})<br/>[Currency Symbols]({% link stores/currency-symbols.md %})||
-||[Attributes]({% link stores/attributes.md %})|[Product]({% link stores/attributes-product.md %})<br/>[Update Attributes]({% link stores/attribute-product-create.md %})<br/>[Attribute Set]({% link stores/attribute-sets.md %})<br/>[Ratings]({% link stores/attributes-rating.md %})|
+||[Currency]({% link stores/currency.md %})|[Currency Rates]({% link stores/currency-configuration.md %})<br/>[Currency Symbols]({% link stores/currency-symbols.md %})|
+||[Attributes]({% link stores/attributes.md %})|[Customer]({% link stores/attributes-customer.md %})<br/>[Customer Address]({% link stores/attributes-customer-address.md %})<br/>[Product]({% link stores/attributes-product.md %})<br/>[Attribute Set]({% link stores/attribute-sets.md %})<br/>[Returns]({% link stores/attributes-returns.md %})<br/>[Ratings]({% link stores/attributes-rating.md %})|
 ||Other Settings|[Reward Exchange Rates]({% link marketing/reward-exchange-rates.md %})<br/>[Gift Wrapping]({% link sales/gift-wrap.md %})<br/>[Gift Registry]({% link customers/account-dashboard-gift-registry.md %})|
-|[System]({% link system/system.md %}) | [Data Transfer]({% link system/data-transfer.md %}) | [Import]({% link system/data-import.md %})<br/>[Export]({% link system/data-export.md %})<br/>[Import/Export Tax Rates]({% link system/data-transfer-tax-rates.md %})<br/>[Import History]({% link system/data-import-history.md %})<br/>[Scheduled Import/Export]({% link system/data-scheduled-import-export.md %})||
+|[System]({% link system/system.md %}) | [Data Transfer]({% link system/data-transfer.md %}) | [Import]({% link system/data-import.md %})<br/>[Export]({% link system/data-export.md %})<br/>[Import/Export Tax Rates]({% link system/data-transfer-tax-rates.md %})<br/>[Import History]({% link system/data-import-history.md %})<br/>[Scheduled Import/Export]({% link system/data-scheduled-import-export.md %})|
 ||Extensions|[Integrations]({% link system/integrations.md %})|
-||[Tools]({% link system/tools.md %}) | [Cache Management]({% link system/cache-management.md %})<br/>[Index Management]({% link system/index-management.md %})||
+||[Tools]({% link system/tools.md %}) | [Cache Management]({% link system/cache-management.md %})<br/>[Index Management]({% link system/index-management.md %})|
 ||[Support]({% link system/support.md %})|[Data Collector]({% link system/support-data-collector.md %})<br/>[System Report]({% link system/support-system-report.md %})|
 ||[Permissions]({% link system/permissions.md %}) | [All Users]({% link system/permissions-users-all.md %})<br/>[Locked Users]({% link system/permissions-locked-users.md %})<br/>[User Roles]({% link system/permissions-user-roles.md %})|
-|<span class="ee-only">[Action Log]({% link system/action-log.md %})</span>| [Report]({% link system/action-log.md %})<br/>[Archive]({% link system/action-log-archive.md %})<br/>[Bulk Actions]({% link system/action-log-bulk-actions.md %})|
-||Other Settings|[Notifications]({% link stores/admin-message-inbox.md %})<br/>[Custom Variables]({% link marketing/variables-custom.md %})<br/>[Manage Encryption Key]({% link system/encryption-key.md %})||
+||<span class="ee-only">[Action Log]({% link system/action-log.md %})</span>| [Report]({% link system/action-log.md %})<br/>[Archive]({% link system/action-log-archive.md %})<br/>[Bulk Actions]({% link system/action-log-bulk-actions.md %})|
+||Other Settings|[Notifications]({% link stores/admin-message-inbox.md %})<br/>[Custom Variables]({% link marketing/variables-custom.md %})<br/>[Manage Encryption Key]({% link system/encryption-key.md %})|
 |Find Partners & Extensions|||
 
 ## Admin Base URL
@@ -73,9 +73,9 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Use Custom Admin URL|Global|Determines if a custom URL is used to access the Magento Admin. Options: Yes / No|
-|Custom Admin URL|Global|Specifies a custom URL to access the Magento Admin. By default, the Admin URL is the same as the base URL.<br/>**Important:** The Admin URL must be in the same Magento installation, and have the same document root as the storefront.|
-|Use Custom Admin Path|Global|Determines if a custom path is used to access the Magento Admin. The default path is `admin`. Options: Yes / No|
+|Use Custom Admin URL|Global|Determines if a custom URL is used to access the Admin. Options: Yes / No|
+|Custom Admin URL|Global|Specifies a custom URL to access the Admin. By default, the Admin URL is the same as the base URL.<br/>**Important:** The Admin URL must be in the same Commerce installation, and have the same document root as the storefront.|
+|Use Custom Admin Path|Global|Determines if a custom path is used to access the Admin. The default path is `admin`. Options: Yes / No|
 |Custom Admin Path|Global|Changes the name of the default Admin path to something hard to guess. Enter the custom path name in lowercase characters. For example: `aardvark`|
 
 ## Security
@@ -115,7 +115,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable CAPTCHA in Admin|Website|Enables CAPTCHA for the Admin login. Options: Yes / No|
-|Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Magento instance, and add the declaration to the config.xml file at `app/code/Magento/Captcha/etc` Default font: LinLibertine|
+|Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Commerce instance, and add the declaration to the config.xml file at `app/code/Magento/Captcha/etc` Default font: LinLibertine|
 |Forms|Website|Determines the form(s) where CAPTCHA is used. Options: Admin Login / Admin Forgot Password|
 |Displaying Mode|Website|Determines when the CAPTCHA appears. Options: <br/>**Always** - CAPTCHA is always required to log in. <br/>**After number of attempts to login** - Displays the Number of Unsuccessful Attempts to Login field. Enter the number of login attempts allowed. A value of 0 (zero) is similar to setting Displaying Mode to Always. This option does not cover the Forgot Password and Create User forms. If CAPTCHA is enabled and set to appear, it is always included on the form.<br />**Note**: To track the number of unsuccessful login attempts, each attempt to log in under one email address and from one IP-address is counted. The maximum number of login attempts allowed from the same IP-address is 1,000. This limitation applies only when CAPTCHA is enabled.|
 |Number of Unsuccessful Attempts to Login|Global|Determines the number of times a person can try to login before the account is locked. To track the number of unsuccessful attempts to log in, the system tracks the login attempts from one email address from a single IP-address. The maximum number of attempts allowed from the same IP address is 1,000. This limitation applies only if CAPTCHA is enabled.|

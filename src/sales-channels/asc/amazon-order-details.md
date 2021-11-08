@@ -1,5 +1,7 @@
 ---
-title: Amazon Order Details
+title: Amazon Sales Channel - Order Details
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-orders/amazon-order-details.html
 ---
 
 ![]({% link sales-channels/asc/assets/amazon-order-details-header.png %}){: .zoom}

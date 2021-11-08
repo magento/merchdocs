@@ -5,7 +5,7 @@ title: Configuring the Archive
 
 Your store can be configured to archive orders, invoices, shipments, and credit memos after a set number of days. You can move orders and their associated documents to the archive, or restore them to their previous state. Archived orders are not deleted and remain available from the Admin. Archived data can be exported to a CSV file and opened in a spreadsheet. When enabled, the “Archive” command appears at the top of the workspace.
 
-## To configure the order archive:
+## Configure the order archive
 
 1. On the Admin menu, click **Stores**.
 
@@ -13,7 +13,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
 1. In the _Sales_ section of the Configuration panel on the left, choose **Sales**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Orders, Invoices, Shipments, Credit Memos Archiving_ section.
+1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the _Orders, Invoices, Shipments, Credit Memos Archiving_ section.
 
     ![Orders, Invoices, Shipments, Credit Memos Archiving]({% link images/images/config-sales-sales-orders-invoices-shipments-credit-memos-archiving.png %} "Orders, Invoices, Shipments, Credit Memos Archiving"){: .zoom}
     _[Orders, Invoices, Shipments, Credit Memos Archiving]({% link configuration/sales/sales.md %})_
@@ -33,7 +33,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
 1. When prompted, refresh any invalid cache.
 
-## View Archived Documents
+## View archived documents
 
 1. In the _Sales_ menu under _Archive_, choose any of the following:
 
@@ -44,7 +44,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
 1. Click any archived document in the list to view details.
 
-## Apply an Action to an Archived Document
+## Apply an action to an archived document
 
 Select each document to be the target of the action. Then, choose one of the following actions:
 
@@ -54,7 +54,7 @@ Select each document to be the target of the action. Then, choose one of the fol
 - Print
 - Move to Orders Management
 
-## Manually Archive Documents
+## Manually archive documents
 
 1. Select the type of the document to archive from the following:
 
@@ -69,7 +69,7 @@ Select each document to be the target of the action. Then, choose one of the fol
 
 1. Click **Submit** to archive the selected documents.
 
-## Restore Archived Documents
+## Restore archived documents
 
 1. Choose the type of document you want to restore.
 
@@ -83,7 +83,7 @@ Select each document to be the target of the action. Then, choose one of the fol
 
 1. Click **Submit** to restore the documents.
 
-## Export Archived Documents
+## Export archived documents
 
 1. Choose the type of document you want to export.
 

@@ -1,7 +1,8 @@
 ---
 title: Amazon Sales Channel Home
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/amazon-sales-channel-home.html
 ---
-
 
 The Amazon Sales Channel home page is your landing page when accessing your Amazon Sales Channel.
 

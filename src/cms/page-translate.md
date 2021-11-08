@@ -15,7 +15,7 @@ To translate a content page, you must create a new page that has the same URL K
 
 1. In the grid, find the page to be translated and open in _edit_ mode.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section and copy the **URL Key** to the clipboard.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Search Engine Optimization** section and copy the **URL Key** to the clipboard.
 
 1. Click **Back** in the top button bar to return to the _Pages_ grid.
 
@@ -25,17 +25,17 @@ To translate a content page, you must create a new page that has the same URL K
 
 1. Enter the translated **Page Title**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and complete the translated text for the page.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section and complete the translated text for the page.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Search Engine Optimization** section and do the following:
 
    - Paste the **URL Key** that you copied from the original page.
 
    - Enter the translated text for the **Meta Title**, **Meta Keywords**, and **Meta Description**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Page in Websites** section and set **Store View** to the store view where the page is to be available.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Page in Websites** section and set **Store View** to the store view where the page is to be available.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the  **Design** section and set the column **Layout** of the page.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the  **Design** section and set the column **Layout** of the page.
 
 1. Click <span class="btn">Save</span>.
 

@@ -5,7 +5,7 @@ group: getting-started
 
 The welcome message in the header expands to include the name of the customer who is logged in. Before you launch your store, be sure to change the default _Welcome_ text for each store view.
 
-![]({% link images/images/storefront-welcome-message.png %}){: .zoom}
+![]({% link design/assets/storefront-welcome-message.png %}){: .zoom}
 _Welcome message_
 
 ## Change the welcome message
@@ -17,7 +17,7 @@ _Welcome message_
    ![]({% link images/images/design-configuration.png %}){: .zoom}
    _[Design Configuration page]({% link design/configuration.md %})_
 
-1. Under _Other Settings_, expand ![]({% link images/images/btn-expand.png %}) the **Header** section.
+1. Under _Other Settings_, expand ![]({% link assets/icon-display-expand.png %}) the **Header** section.
 
 1. For **Welcome Text**, enter the welcome message text that you want to appear in the header of your store.
 

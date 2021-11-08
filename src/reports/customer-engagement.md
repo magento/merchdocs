@@ -19,7 +19,7 @@ These options include:
 
 The dotdigital reporting **Dashboard** provides import settings, sync jobs, reset options, etc to update, sync, and manage collected data.
 
-![Engagement Cloud Reports Dashboard]({% link images/images/engagement-cloud-reports-dashboard.png %}){: .zoom}
+![Engagement Cloud Reports Dashboard]({% link reports/assets/engagement-cloud-reports-dashboard.png %}){: .zoom}
 _Engagement Cloud Reports Dashboard_
 
 ## Available Reports

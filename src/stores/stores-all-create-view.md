@@ -4,18 +4,18 @@ title: Adding Store Views
 
 Store views are typically used to make the store available in different [locales]({% link stores/locale-options.md %}). Shoppers can use the language chooser in the header of the store to change the store view.
 
-![Scope - multiple store views]({% link images/images/scope-multiview.png %}){:width="550px"}
+![Scope - multiple store views]({% link stores/assets/scope-multiview.png %}){:width="550px"}
 
 ## Create a new store view
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Stores**.
 
-    ![All Stores]({% link images/images/stores-all.png %}){: .zoom}
+    ![All Stores]({% link stores/assets/stores-all.png %}){: .zoom}
     _All Stores_
 
 1. Click **Create Store View**.
 
-    ![Create store view]({% link images/images/stores-all-create-store-view.png %}){: .zoom}
+    ![Create store view]({% link stores/assets/create-store-view.png %}){: .zoom}
     _Create new store view_
 
 1. Set **Store** to the parent store of this view.

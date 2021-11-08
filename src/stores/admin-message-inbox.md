@@ -73,7 +73,7 @@ For a message of critical importance, do one of the following:
 
 1. Choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Notifications** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the **Notifications** section and do the following:
 
    - If your store Admin runs over a [secure URL]({% link stores/store-urls.md %}), set **Use HTTPS to Get Feed** to  `Yes`.
 

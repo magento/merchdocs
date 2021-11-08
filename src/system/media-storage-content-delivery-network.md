@@ -24,7 +24,7 @@ After configuring the CDN, you must complete the configuration from the Admin. T
 
 1. In the upper-left corner, set **Store View** as needed.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Base URLs** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Base URLs** section and do the following:
 
     ![General configuration - web base URLs]({% link images/images/config-general-web-base-urls.png %}){: .zoom}
     [_Base URLs_]({% link configuration/general/web.md %})
@@ -35,7 +35,7 @@ After configuring the CDN, you must complete the configuration from the Admin. T
 
         Both these fields can be left blank, or can start with the placeholder: `{% raw %}{{unsecure_base_url}}{% endraw %}`
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Base URLs (Secure)** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Base URLs (Secure)** section and do the following:
 
     ![General configuration - web base URLs (secure)]({% link images/images/config-general-web-base-urls-secure.png %}){: .zoom}
     [_Base URLs (Secure)_]({% link configuration/general/web.md %})

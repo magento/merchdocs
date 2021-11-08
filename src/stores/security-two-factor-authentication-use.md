@@ -145,7 +145,7 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
 1. Enter your account credentials and sign in to the _Admin_.
 
-    ![Authy - signin]({% link images/images/storefront-2fa-authy-access.png %}){: .zoom}
+    ![Authy - signin]({% link stores/assets/storefront-2fa-authy-access.png %}){: .zoom}
     _Authy access_
 
 1. Choose one of the following methods to authenticate:

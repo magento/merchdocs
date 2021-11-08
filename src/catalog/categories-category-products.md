@@ -82,7 +82,7 @@ The quantity of a configurable product with child options is calculated by combi
 | ![]({% link images/images/btn-view-as-tiles.png %}) | View as Tiles |
 | ![]({% link images/images/btn-no.png %}) | Match by Rule - No|
 |![]({% link images/images/btn-yes.png %}) | Match by Rule - Yes|
-| ![]({% link images/images/btn-drag.png %}) | The drag and drop control allows you to grab a product and move it to another position in the current page of the grid. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}). |
+| ![]({% link assets/icon-move.png %}) | The drag and drop control allows you to grab a product and move it to another position in the current page of the grid. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}). |
 | ![]({% link images/images/btn-position.png %}) | Determines the position of the product in the list. |
 
 {:.ce-only}
@@ -90,7 +90,7 @@ The quantity of a configurable product with child options is calculated by combi
 
 | Control  | Description  |
 |----------|--------------|
-| ![]({% link images/images/btn-checkbox.png %}) | Use the checkbox in the header of the first column to select all products or clear all selections. The control in the first row determines the type of search and can be set to include any record, or include only those that are either assigned or not assigned to the category. The checkbox in the first column of each row identifies products to be added to the category. Options: Yes / No / Any |
+| ![]({% link assets/checkbox-selected.png %}) | Use the checkbox in the header of the first column to select all products or clear all selections. The control in the first row determines the type of search and can be set to include any record, or include only those that are either assigned or not assigned to the category. The checkbox in the first column of each row identifies products to be added to the category. Options: Yes / No / Any |
 | Search Filters | The filter controls at the top of each column can be used to enter specific values you want to either include or omit from the list, depending on the Select All setting. |
 | Reset Filter | Clears all search filters. |
 | Search | Searches the catalog based on the filter criteria and displays the result. |

@@ -17,7 +17,7 @@ The steps for configuring the name and address options are different for Adobe C
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Name and Address Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Name and Address Options** section.
 
    Notice that the scope of the name and address options applies at the `website` level.
 
@@ -71,7 +71,7 @@ _[Customer Account sign up form]({% link configuration/customers/customer-config
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Name and Address Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Name and Address Options** section.
 
    Notice that the scope of the name and address options applies at the `website` level.
 
@@ -101,7 +101,7 @@ _[Customer Account sign up form]({% link configuration/customers/customer-config
 
 1. To include a prefix (such as Mr. or Mrs.) as part of the name, set **Show Prefix** to `Yes`.
 
-   ![]({% link images/images/storefront-customer-account-prefix.png %}){: .zoom}
+   ![]({% link customers/assets/storefront-customer-account-prefix.png %}){: .zoom}
    _[Prefix in customer sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
    For **Prefix Dropdown Options**, enter each prefix that you want to appear in the list, separated by a semicolon.

@@ -11,7 +11,7 @@ The invitation configuration enables invitations for the store and determines ho
 
 1. In the left panel, expand **Customers** and choose **Invitations**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General** section and do the following:
 
     ![Customers configuration - invitations general options]({% link images/images-ee/config-customers-invitations-general.png %}){: .zoom}
     [_General_]({% link configuration/customers/invitations.md -%})
@@ -34,7 +34,7 @@ The invitation configuration enables invitations for the store and determines ho
 
    - To limit the number of invitations that can be sent at one time, enter the number in the **Max Invitations Allowed to be Sent at One Time** field.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Email** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Email** section and do the following:
 
     ![Customers configuration - invitations email options]({% link images/images-ee/config-customers-invitations-email.png %}){: .zoom}
     [_Email_]({% link configuration/customers/invitations.md -%})

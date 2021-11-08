@@ -12,21 +12,21 @@ Before modifying quantities and settings, you need to assign [sources]({% link c
 
 1. Open a product in **Edit** mode.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Sources** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Sources** section.
 
    This section allows you to modify the source, update inventory quantities, and more.
 
     {:.bs-callout-info}
     Currently, only Simple, Configurable, Virtual, Downloadable, and Grouped products support multiple sources. Bundle products can be created and managed with only the Default Source and Stock.
 
-    ![]({% link images/images/inventory/inventory-product-sources-before.png %}){: .zoom}
+    ![]({% link catalog/assets/inventory-product-sources-before.png %}){: .zoom}
     _Product Sources section_
 
 1. To add a source, click **Assign Sources**.
 
 1. On the _Assign Sources_ page, select the checkbox next to each source that you want to assign for the product.
 
-    ![Product - assign sources]({% link images/images/inventory/inventory-product-assign-sources.png %}){: .zoom}
+    ![Product - assign sources]({% link catalog/assets/inventory-product-assign-sources.png %}){: .zoom}
     _Assign sources to the product_
 
 1. Click <span class="btn">Done</span> to add the sources.
@@ -34,6 +34,6 @@ Before modifying quantities and settings, you need to assign [sources]({% link c
 1. Do one of the following to save:
 
    - Click <span class="btn">Save</span>.
-   - On the **Save** (![menu button]({% link images/images/btn-dropdown.png %})) menu, choose **Save & Close**.
+   - On the **Save** (![menu button]({% link assets/icon-menu-down-arrow-red.png %})) menu, choose **Save & Close**.
 
 After assigning sources, update the [inventory quantity]({% link catalog/inventory-product-quantity.md %}) for each product source.

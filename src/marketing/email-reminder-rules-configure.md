@@ -11,18 +11,18 @@ Email reminder rules can be sent at regular intervals by the minute, hour, or da
 
 1. In the left panel, expand **Customers** and choose **Promotions**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Automated Email Reminder Rules** section. Then, do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Automated Email Reminder Rules** section. Then, do the following:
 
     ![Customers configuration - automated email reminder rules]({% link images/images-ee/config-customers-promotions-automated-email-reminder-rules.png %}){: .zoom}
     [_Automated Email Reminder Rules_]({% link configuration/customers/promotions.md %})
 
    - Set **Enable Reminder Emails** to `Yes`.
 
-   - To set how often Magento checks for new customers who qualify automated email reminders, set **Frequency** to one of the following:
+   - To set how often to run checks for new customers who qualify automated email reminders, set **Frequency** to one of the following:
 
-      - Minute Intervals
-      - Hourly
-      - Daily
+      - `Minute Intervals`
+      - `Hourly`
+      - `Daily`
 
    - Set the appropriate **Interval**, based on the Frequency setting.
 

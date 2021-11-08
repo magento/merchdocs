@@ -5,16 +5,16 @@ group: marketing
 
 The Pagination settings appear at the top and bottom of the list, and control the format of the pagination links for product listings. You can set the number of links that appear in the control, and configure the Next and Previous links. For the pagination links to appear, there must be more products in the list than are allowed per page in the product list configuration.
 
-![]({% link images/images/storefront-pagination-controls.png %}){: .zoom}
+![]({% link catalog/assets/storefront-pagination-controls.png %}){: .zoom}
 _Pagination Controls_
 
 ## Pagination Controls
 
 |--- |--- |
-|![]({% link images/images/controls-pagination-list-grid.png %})|View As - Displays the list in either a Grid or List format.|
-|![]({% link images/images/control-pagination-sort-by.png %})|Sort By - Changes the sort order of the list. The “Used for Sorting in Product Listing” storefront property determines which [product attributes]({% link stores/attributes-product.md %}) can be used to sort the list.|
-|![]({% link images/images/control-pagination-show-per-page.png %})|Show Per Page - Determines how many products appear per page.|
-|![]({% link images/images/control-pagination.png %})|Pagination Links - Navigation links to other pages.|
+|![]({% link catalog/assets/controls-pagination-list-grid.png %})|View As - Displays the list in either a Grid or List format.|
+|![]({% link catalog/assets/control-pagination-sort-by.png %})|Sort By - Changes the sort order of the list. The “Used for Sorting in Product Listing” storefront property determines which [product attributes]({% link stores/attributes-product.md %}) can be used to sort the list.|
+|![]({% link catalog/assets/control-pagination-show-per-page.png %})|Show Per Page - Determines how many products appear per page.|
+|![]({% link catalog/assets/control-pagination.png %})|Pagination Links - Navigation links to other pages.|
 {:style="table-layout:auto"}
 
 ## Configure the pagination controls
@@ -23,7 +23,7 @@ _Pagination Controls_
 
 1. Find the store view that you want to configure and, in the **Action** column, click **Edit**.
 
-1. Under **Other Settings**, expand ![]({% link images/images/btn-expand.png %}) the **Pagination** section.
+1. Under **Other Settings**, expand ![]({% link assets/icon-display-expand.png %}) the **Pagination** section.
 
    ![]({% link images/images/config-design-pagination.png %}){: .zoom}
    [_Pagination_]({% link design/configuration.md %})
@@ -40,4 +40,4 @@ _Pagination Controls_
 
 1. For **Anchor Text for Next**, enter the text that you want to appear for the Next link. Leave blank to use the default arrow.
 
-1. When complete, click <span class="btn">Save Config</span>.
+1. When complete, click <span class="btn">Save Configuration</span>.

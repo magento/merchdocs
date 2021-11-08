@@ -114,7 +114,7 @@ See the Basic settings section of each individual payment method topic for a com
 |Authorization |Approves the purchase, but puts hold on the funds. The amount is not withdrawn until is captured by the merchant.
 |Authorize |Authorizes the buyer's account for the order total but does not capture the payment. Capture payment by creating an invoice. Authorized orders can be voided or canceled.
 |Authorize and Capture |Authorizes the buyer's account for the order total and captures the payment. An invoice is automatically created. You can refund captured funds via credit memo. You cannot cancel an order once payment has been captured.
-|Charge on shipment |Amazon receives a capture request and charges the customer when an invoice is created in Magento.
+|Charge on shipment |Amazon receives a capture request and charges the customer when an invoice is created in Commerce.
 |Charge on order |Amazon creates the invoice and charges the customer when the order is placed.
 |Not Capture |When the invoice is submitted, the system does not capture the payment. It is assumed that you will capture the payment through Commerce at a later date. There is a Capture button in the completed invoice. Before capturing, you can cancel the invoice. After capturing you can create a credit memo and void the invoice.
 |Order |Represents an agreement with PayPal that allows the merchant to capture one or more amounts up to the order total from the customer’s buyer account, within a defined period of time (up to 29 days).

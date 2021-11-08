@@ -10,7 +10,7 @@ The settings in the HTML Head section correspond to the `<head>` tag of an HTML
 
 1. Find the store view that you want to configure and click **Edit** in the _Action_ column.
 
-1. Under _Other Settings_, expand ![]({% link images/images/btn-expand.png %}) the **HTML Head** section.
+1. Under _Other Settings_, expand ![]({% link assets/icon-display-expand.png %}) the **HTML Head** section.
 
    ![]({% link images/images/design-configuration-html-head.png %}){: .zoom}
    _HTML Head configuration settings_
