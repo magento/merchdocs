@@ -61,6 +61,20 @@ By default, a saved integration appears on the grid with an _Inactive_ status. T
 
 1. In the upper-right corner, click <span class="btn">Done</span>.
 
+## Reauthorize an integration
+
+To generate new Integration Access Token and Access Token Secret, the integration can be re-authorized from Admin Panel.
+
+1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
+
+1. Find the needed integration with **Active** status.
+
+1. Click the __Reauthorize__ button in **Activate** column.
+
+1. Click <span class="btn">Reauthorize</span> to approve access to the API resources.
+
+1. Save new integration tokens for extensions and click <span class="btn">Done</span>.
+
 ## Change the API guest access security setting
 
 By default, the system does not permit anonymous guest access to CMS, catalog, and other store resources. If you need to change the setting, do the following:
