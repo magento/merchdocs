@@ -13,16 +13,16 @@ _New Tax Classes_
 
 1. Click **Add New Tax Rule**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Additional Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Additional Settings** section.
 
 1. Under _Customer Tax Class_, click **Add New Tax Class**.
 
-    ![]({% link images/images/tax-class-customer-add-new.png %}){: .zoom}
+    ![]({% link tax/assets/tax-class-customer-add-new.png %}){: .zoom}
     _Add New Tax Class_
 
 1. Enter the **Name** of the new tax class in the text box and click the checkmark to add the new class to the list of available customer tax classes.
 
-    ![]({% link images/images/tax-class-customer-add-new-wholesale.png %}){: .zoom}
+    ![]({% link tax/assets/tax-class-customer-add-new-wholesale.png %}){: .zoom}
     _Wholesale Tax Class_
 
 ## Add a new product tax class

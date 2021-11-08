@@ -8,7 +8,7 @@ During the initial installation, you are prompted to either let Commerce generat
 
 For technical information, see [Install the Commerce][1]{:target="_blank"} software in the Commerce Developer Guide.
 
-![System encryption key]({% link images/images/system-encryption-key.png %}){: .zoom}
+![System encryption key]({% link system/assets/encryption-key.png %}){: .zoom}
 _Encryption Key_
 
 ## Step 1: Make the File Writable

@@ -77,7 +77,7 @@ If Google Maps is already configured for your store, you can skip this step and 
 
 1. In the left panel under _General_, choose **Content Management**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Advanced Content Tools**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Advanced Content Tools**.
 
    ![]({% link images/images/config-general-content-management-advanced-content-tools.png %}){: .zoom}
    [_Advanced Content Tools_]({% link configuration/general/content-management.md %})
@@ -96,7 +96,7 @@ If Google Maps is already configured for your store, you can skip this step and 
 
 1. In the grid, find the _Simple Page_ that you created in the first tutorial and select **Edit** in the _Action_ column.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section and click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 
 1. In the Page Builder panel under _Layout_, drag a **Row** placeholder to the top of the stage.
 
@@ -282,7 +282,7 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
 
 1. Open the _Tee Shirt Promo_ dynamic block in edit mode again.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Related Promotions** section and click <span class="btn">Add Cart Price Rules</span>.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Related Promotions** section and click <span class="btn">Add Cart Price Rules</span>.
 
    ![]({% link images/images-ee/page-builder-dynamic-blocks-related-promotions.png %}){: .zoom}
    _Related promotions_
@@ -305,7 +305,7 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
 
 1. Find the _Simple Page_ that you created in the [first tutorial]({% link cms/page-builder-tutorial1-simple-page.md %}) and open it in edit mode.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and click <span class="btn">Edit with Page Builder</span>.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section and click <span class="btn">Edit with Page Builder</span>.
 
 1. Hover over the top row with the same image as the dynamic block to display the toolbox and the _Remove_ (![]({% link images/images-ee/icon-pb-remove.png %}){: width="20px"}) icon.
 
@@ -363,7 +363,7 @@ _Sample dynamic block in the storefront_
 
 1. Find your _Tee Shirt Promo_ dynamic block in the grid and open it in edit mode.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and click <span class="btn">Edit with Page Builder</span>.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section and click <span class="btn">Edit with Page Builder</span>.
 
 1. Change the column width:
 

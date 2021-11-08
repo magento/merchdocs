@@ -48,9 +48,9 @@ If your store has multiple views in different languages, the same products are a
 
 1. For _Basic Information_, translate **Category Name**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Content_ section and translate **Description**.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Content_ section and translate **Description**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Search Engine Optimization Settings** section and translate the following fields:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Search Engine Optimization Settings** section and translate the following fields:
 
     - **Meta Title**
     - **Meta Keywords**

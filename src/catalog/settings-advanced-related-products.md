@@ -4,14 +4,14 @@ title: Related Products
 
 Related products are meant to be purchased in addition to the item the customer is viewing. The customer can place the item in the shopping cart by simply clicking the checkbox. The placement of the _Related Products_ block varies according to defined theme and page layout. In the example below, the _Related Products_ block appears at the bottom of the _Product View_ page. With a two-column layout, the _Related Products_ block often appears in the right sidebar.
 
-![]({% link images/images/storefront-product-related-products.png %}){: .zoom}
+![]({% link catalog/assets/storefront-product-related-products.png %}){: .zoom}
 _Related Products_
 
 ## Set up related products
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %})the _Related Products, Up-Sells, and Cross-Sells_ section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %})the _Related Products, Up-Sells, and Cross-Sells_ section.
 
 1. Click <span class="btn">Add Related Products</span>.
 

@@ -16,7 +16,7 @@ _Live Chat during checkout_
 
 When _Chat_ is enabled in your Commerce configuration, the _Chat_ option appears in the left navigation of your dotdigital account. From the _Chats_ page of your account, you can access your personal chats, all chats related to your account, or those of a specific team. You can also manage your chats in real time from the [Chat Settings]({% link configuration/dotdigital/chat-settings.md %}) configuration in the Commerce _Admin_.
 
-![]({% link images/images/engagement-cloud-account-chats.png %}){: .zoom}
+![]({% link marketing/assets/engagement-cloud-account-chats.png %}){: .zoom}
 _Live Chat from dotdigital account_
 
 ## Step 1: Enable dotdigital Chat

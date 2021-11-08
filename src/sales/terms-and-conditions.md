@@ -15,7 +15,7 @@ _Terms and Conditions at checkout_
 
 1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Checkout Options** section.
 
    ![]({% link images/images/config-sales-checkout-options-terms-conditions-yes.png %}){: .zoom}
    [_Checkout Options_]({% link configuration/sales/checkout.md %})
@@ -35,7 +35,7 @@ _Terms and Conditions at checkout_
 
 1. In the upper-right corner, click **Add New Condition**.
 
-   ![]({% link images/images/terms-conditions-new.png %}){: .zoom}
+   ![]({% link sales/assets/terms-conditions-new.png %}){: .zoom}
    _New Condition_
 
 1. Enter the **Condition Name** for internal reference.

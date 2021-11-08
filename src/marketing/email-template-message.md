@@ -73,7 +73,7 @@ The Currently Used For breadcrumb trail at the top of the Template Information s
     ![]({% link images/images/email-template-new-currently-used-for.png %}){: .zoom}
     _Current email template_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the section, and find the field for the email template that you customized.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the section, and find the field for the email template that you customized.
 
 1. Clear the **Use system value** checkbox and click the name of your custom template.
 

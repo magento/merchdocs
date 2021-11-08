@@ -4,8 +4,131 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Oct 18 14:22:45 2021
+updated: Mon Nov 8 15:26:27 2021
 entries:
+- description: Updated [Best Practices for Product Attributes](https://docs.magento.com/user-guide/catalog/attribute-best-practices.html)
+    to include information about product variations, weighted search, and unused properties.
+  versions: 2.4.x
+  type: Minor update
+  date: November 3, 2021
+  link: https://github.com/magento/merchdocs/pull/1590
+  merge_commit: d512d019d571585a7388dcf29eb57d458749c623
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Category Content](https://docs.magento.com/user-guide/catalog/categories-content-settings.html)
+    page to include the procedure for adding a CMS block to the _Content_ properties
+    for a category.
+  versions: 2.4.x
+  type: Minor update
+  date: November 3, 2021
+  link: https://github.com/magento/merchdocs/pull/1578
+  merge_commit: b176388ab9d17c0a7cc5fa8651729cc2fa4cb779
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: The Live Search [Performance](https://docs.magento.com/user-guide/live-search/performance.html)
+    reporting dashboard provides insight into the effectiveness of search terms that
+    shoppers use.
+  versions: 2.4.x
+  type: Major update, New topic
+  date: October 21, 2021
+  link: https://github.com/magento-commerce/merchdocs/pull/231
+  merge_commit: 6c649f63dd41f2cd29335026a2ff34bc96325065
+  contributor: ccondra
+  membership: true
+  labels:
+  - 2.4.x
+  - Major update
+  - New topic
+- description: Updated the [Import](https://docs.magento.com/user-guide/system/data-import.html)
+    and [Scheduling an Import](https://docs.magento.com/user-guide/system/data-schedule-import.html)
+    topics to include important information about the _Add/Update_ import behavior
+    affecting fields that carry multiple values.
+  versions: 2.4.x
+  type: Minor update
+  date: October 20, 2021
+  link: https://github.com/magento/merchdocs/pull/1546
+  merge_commit: 3d4d1c69285aef6124bc8a0c79db2bd8ff4fcdd0
+  contributor: vkolesny
+  membership: true
+  labels:
+  - Minor update
+  - 2.4.x
+  - Back port
+  - Stakeholder
+  - 'Progress: done'
+- description: Updated the [Scheduled Changes for Cart Price Rules](https://docs.magento.com/user-guide/marketing/price-rule-cart-scheduled-changes.html)
+    topic to include information about the coupon-related fields that are not available
+    for the Cart Price Rules scheduled updates.
+  versions: 2.4.x
+  type: Minor update
+  date: October 20, 2021
+  link: https://github.com/magento/merchdocs/pull/1565
+  merge_commit: 1b71139b1a4071b5c94ce274af8c966e63a28cfc
+  contributor: vkolesny
+  membership: true
+  labels:
+  - Minor update
+  - 2.4.x
+  - Stakeholder
+  - 'Progress: done'
+- description: Updated the [Creating an Invoice](https://docs.magento.com/user-guide/sales/invoice-create.html)
+    topic to clarify that invoices are not created automatically for orders placed
+    by using Gift Card, Store Credit, Reward Points, or other offline payment methods.
+  versions: 2.4.x
+  type: Minor update
+  date: October 20, 2021
+  link: https://github.com/magento/merchdocs/pull/1567
+  merge_commit: 4df69f45d79c7762e461a8a091fb32d3771d6ca1
+  contributor: vkolesny
+  membership: true
+  labels:
+  - Minor update
+  - 2.4.x
+  - Stakeholder
+  - 'Progress: done'
+- description: Updated the [Gift Card](https://docs.magento.com/user-guide/customers/account-dashboard-gift-cards.html)
+    topic to describe the gift card functionality on the storefront.
+  versions: 2.4.x
+  type: Minor update
+  date: October 20, 2021
+  link: https://github.com/magento/merchdocs/pull/1552
+  merge_commit: e099ef85799494134566048395d679e77f5a1bf8
+  contributor: EvheniiaKolkhiieva
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Customer Session Lifetime](https://docs.magento.com/user-guide/customers/customer-online-options.html)
+    topic to include the procedure for enabling the persistent login feature on the
+    storefront.
+  versions: 2.4.x
+  type: Minor update
+  date: October 20, 2021
+  link: https://github.com/magento/merchdocs/pull/1556
+  merge_commit: 1d9674140f6930775014e825ad79d92c8a16664c
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
 - description: Added the 'Delete a Template' and Grid Columns sections to the [Newsletter
     Templates](https://docs.magento.com/user-guide/marketing/newsletter-template.html)
     topic.
@@ -1100,8 +1223,8 @@ entries:
   date: October 15, 2020
   link: https://github.com/magento/merchdocs/pull/719
 - description: The [Site-Wide Analysis Tool](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html)
-    (SWAT) provides 24/7 real-time performance monitoring, reports and recommendations
-    to ensure the security and operability of Adobe Commerce on cloud infrastructure.
+    provides 24/7 real-time performance monitoring, reports and recommendations to
+    ensure the security and operability of Adobe Commerce on cloud infrastructure.
   versions: 2.4.1
   type: New topic
   date: October 15, 2020

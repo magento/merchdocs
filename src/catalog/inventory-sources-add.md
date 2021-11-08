@@ -15,7 +15,7 @@ If editing the Default Source, you can edit all configurations except name and c
    ![]({% link images/images/stores-inventory-sources.png %}){: .zoom}
    _Manage Sources_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **General** section and do the following:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **General** section and do the following:
 
     - Enter a unique **Name** to identify the inventory source.
 
@@ -31,14 +31,14 @@ If editing the Default Source, you can edit all configurations except name and c
 
       To find the GPS coordinates with [Google Maps][1], enter the address in the **Search** box. Right-click the marker on the map and choose **What’s here?**. The GPS coordinates appear in the details box below the street address.
 
-      ![]({% link images/images/stores-inventory-source-general.png %}){: .zoom}
+      ![]({% link catalog/assets/inventory-source-general.png %}){: .zoom}
       _General_
 
     - If this inventory source is a pickup location, set **Use as Pickup Location** to `Yes`.
 
       The Default Source cannot be used as a pickup location for in-store pickup orders.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Contact Info** section and do the following:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Contact Info** section and do the following:
 
     - For **Contact Name**, enter the full name of the primary contact at the location.
 
@@ -48,10 +48,10 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - For **Fax**, enter the area code and phone number of the fax, if available.
 
-      ![]({% link images/images/stores-inventory-source-contact-info.png %}){: .zoom}
+      ![]({% link catalog/assets/inventory-source-contact-info.png %}){: .zoom}
       _Contact Info_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Address Data** section and do the following:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Address Data** section and do the following:
 
     - Choose the **Country**.
 
@@ -63,16 +63,16 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - For **Postcode**, enter the ZIP or postal code.
 
-      ![]({% link images/images/stores-inventory-source-address-data.png %}){: .zoom}
+      ![]({% link catalog/assets/inventory-source-address.png %}){: .zoom}
       _Address Data_
 
-1. If you set the source as a pickup location in the earlier step, expand ![]({% link images/images/btn-expand.png %}) the **Pickup Location** section and provide descriptive information about the location:
+1. If you set the source as a pickup location in the earlier step, expand ![]({% link assets/icon-display-expand.png %}) the **Pickup Location** section and provide descriptive information about the location:
 
     - Enter the **Frontend Name** of the pickup location.
 
     - Enter a **Frontend Description** of the pickup location. Use this text box to display store hours, the location relative to other landmarks, or other useful information that will help the customer select the correct pickup location.
 
-      ![]({% link images/images/stores-inventory-pickup-location.png %}){: .zoom}
+      ![]({% link catalog/assets/inventory-pickup-location.png %}){: .zoom}
       _Pickup Location_
 
     For more information about how to configure email notifications when using a source as a pickup location, see [Sales Emails]({% link configuration/sales/sales-emails.md %}).
@@ -81,7 +81,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - To save your work and continue editing, click <span class="btn">Save & Continue</span>.
 
-    - To save your work and return to the Manage Sources page, click the down arrow ( ![]({% link images/images/btn-dropdown.png %})) and choose **Save & Close**.
+    - To save your work and return to the Manage Sources page, click the down arrow ( ![]({% link assets/icon-menu-down-arrow-red.png %})) and choose **Save & Close**.
 
     - To save your work on the current source record and enter a new source, choose **Save & New**.
 
@@ -119,3 +119,4 @@ If editing the Default Source, you can edit all configurations except name and c
 |Frontend Name|The name of the pickup location for the source.|
 |Frontend Description|The description of the pickup location for the source. It can contain attached images.|
 
+[1]: https://www.google.com/maps

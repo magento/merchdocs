@@ -10,7 +10,7 @@ You can maintain a selection of different home pages, and activate the page that
 
 1. In the left panel under _General_, choose **Web**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Default Pages** section and set **CMS Home Page** to the new page.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Default Pages** section and set **CMS Home Page** to the new page.
 
    - Welcome to our Exclusive Online Store
    - Rewards Points

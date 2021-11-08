@@ -17,7 +17,7 @@ The following example shows how to create a customer segment that targets female
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Customer Segments** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Customer Segments** section.
 
 1. Verify that **Enable Customer Segment Functionality** is set to `Yes`.
 
@@ -75,7 +75,7 @@ The following example shows how to create a customer segment that targets female
 
 1. Create a condition to target female customers:
 
-   - Click the Add (![Plus sign]({% link images/images/btn-add-grn.png %})) icon to display the list of conditions and select `Gender`.
+   - Click the Add (![Plus sign]({% link assets/icon-add-green-circle.png %})) icon to display the list of conditions and select `Gender`.
 
    - Leave the default **is** condition control option.
 
@@ -86,17 +86,17 @@ The following example shows how to create a customer segment that targets female
 
 1. Create another condition that targets residents of Los Angeles:
 
-   - On the next line, click the Add (![Plus sign]({% link images/images/btn-add-grn.png %})) icon and select `Customer Address`.
+   - On the next line, click the Add (![Plus sign]({% link assets/icon-add-green-circle.png %})) icon and select `Customer Address`.
 
       This creates a parent condition where you can define one or more address fields to match.
 
-   - Click the Add (![Plus sign]({% link images/images/btn-add-grn.png %})) icon to display the list of address fields and select `City`.
+   - Click the Add (![Plus sign]({% link assets/icon-add-green-circle.png %})) icon to display the list of address fields and select `City`.
 
    - Click **is** to display the condition control options and select `contains`.
 
    - Click **...** and enter `Los Angeles`.
 
-   - On the next line, click the Add (![Plus sign]({% link images/images/btn-add-grn.png %})) icon and select `State/Province`.
+   - On the next line, click the Add (![Plus sign]({% link assets/icon-add-green-circle.png %})) icon and select `State/Province`.
 
    - Leave the default **is** condition control option.
 
@@ -127,6 +127,18 @@ The customer segment can now be used for targeting promotions, content, and mail
 1. In the menu bar click **Delete** button.
 
 1. To confirm the action, click <span class="btn">OK</span>.
+
+## Button bar
+
+{: .buttons-table }
+|Button|Description|
+|--- |--- |
+|<span class="btn">Back</span>|Returns to the Customer Segments page without saving changes.|
+|<span class="btn">Delete</span>|Deletes the current customer segment. Customers or completed orders associated with the customer in the segment are not removed.|
+|<span class="btn">Reset</span>|Resets any unsaved changes in the customer segment form to their previous values.|
+|<span class="btn">Refresh Segment Data</span>|Refreshes the segment data to the most recently saved values. Relevant if any segment data is unavailable or out of date.|
+|<span class="btn">Save and Continue Edit</span>|Saves changes and keeps the customer segment open.|
+|<span class="btn">Save </span>|Saves changes and closes the customer segment.|
 
 |Column|Description|
 |--- |--- |

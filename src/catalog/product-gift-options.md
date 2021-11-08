@@ -11,7 +11,7 @@ _Gift Options_
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the _Gift Options_ section and do the following:
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the _Gift Options_ section and do the following:
 
     - To override the default setting, deselect the **Use Config Settings** checkbox.
 
@@ -33,7 +33,7 @@ You can provide this feature to customers by enabling _gift message_ for your st
 
 1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) **Gift Options** on the page.
+1. Expand ![]({% link assets/icon-display-expand.png %}) **Gift Options** on the page.
 
 1. For **Allow Gift Messages on Order Level**, select `Yes` to enable a single gift message for the whole order.
 
@@ -43,5 +43,5 @@ You can provide this feature to customers by enabling _gift message_ for your st
 
 With this configuration, customers can add a gift message to the cart page from storefront as shown in the following example:
 
-![]({% link images/images/gift-message.png %}){: .zoom}
+![]({% link catalog/assets/gift-message.png %}){: .zoom}
 _Gift Message_

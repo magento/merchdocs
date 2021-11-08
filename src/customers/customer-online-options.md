@@ -19,11 +19,27 @@ On the server, the length of the session is controlled by `php.ini`, and several
 
 1. In the left panel under **General**, choose **Web**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Default Cookie Settings** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Default Cookie Settings** section.
 
    ![]({% link images/images/config-general-web-default-cookie-settings.png %}){: .zoom}
    [_Default Cookie Settings_]({% link configuration/general/web.md %})
 
 1. To change the default, clear the **Use system value** checkbox and enter the new value in seconds.
+
+1. Click <span class="btn">Save Config</span>.
+
+## Configure Remember Me functionality
+
+To make login easier, the **Remember Me** function allows user account holders to avoid entering their credentials every time they enter the storefront. For security reasons, the persistence feature is disabled by default.
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **Customers** and choose **Persistent Shopping Cart**.
+
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General Options** section.
+
+1. For **Enable Persistence**, set to `Yes`. (Clear the **Use system value** checkbox to allow changing the default setting.)
+
+1. For **Enable “Remember Me”**, set to `Yes` or `No` according to your requirements.
 
 1. Click <span class="btn">Save Config</span>.

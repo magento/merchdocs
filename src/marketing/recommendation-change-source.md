@@ -25,7 +25,7 @@ Before you begin, make sure that:
 
 1. Select **Settings**.
 
-1. In the _Recommendations source_ section, enable the **Fetch recommendations from a different SaaS data space** option.
+1. In the _Recommendations source_ section, enable the **Fetch recommendations from a different SaaS data space** option. The _Recommendations source_ section only appears in a non-production environment.
 
    The _Available SaaS data spaces_ list appears.
 
@@ -36,7 +36,4 @@ Before you begin, make sure that:
    Adobe Commerce will now fetch recommendations from that environment.
 
    {:.bs-callout-info}
-   When recommendations from another SaaS environment are displayed on the storefront, a storefront user can only preview them (they are not clickable).
-
-   {:.bs-callout-warning}
-   The recommendation settings page in the production environment is different from staging or testing instances. There is no configuration available for production, which means you will not see a **Recommendations source** setting.
+   While you can view recommendations fetched from another SaaS data space on the non-production storefront, you cannot click the recommendations.

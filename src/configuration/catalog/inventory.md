@@ -11,11 +11,11 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Decrease Stock When Order is Placed|Global|If set to “Yes”, decreases the quantity in stock when the order is placed. With Manage Stock enabled, reservations are entered for the ordered products and quantities. Options: Yes / No|
-|Set Items’ Status to be in Stock When Order is Cancelled|Store View|If set to “Yes”, returns item to stock when order is canceled. With Manage Stock enabled, the reservation is cleared for the canceled products and quantities. Options: Yes / No|
-|Display Out of Stock Products|Global|If set to “Yes”, displays products that are out of stock. If product alerts are also enabled, customers can sign up to be notified when the product becomes available. Options: Yes / No|
-|Only X left Threshold|Website|Establishes the threshold for the “Only x left” message. For example, if set to 3, the message appears when there are three or fewer of an item in stock. The message does not appear if the value is set to 0.|
-|Display products availability in Stock on Storefront|Store View|If set to “Yes”, displays an “In Stock or “Out of Stock” message on the product page. Options: Yes / No|
+|Decrease Stock When Order is Placed|Global|If set to `Yes`, decreases the quantity in stock when the order is placed. With Manage Stock enabled, reservations are entered for the ordered products and quantities. Options: Yes / No|
+|Set Items’ Status to be in Stock When Order is Cancelled|Store View|If set to `Yes`, returns item to stock when order is canceled. With Manage Stock enabled, the reservation is cleared for the canceled products and quantities. Options: Yes / No|
+|Display Out of Stock Products|Global|If set to `Yes`, displays products that are out of stock. If product alerts are also enabled, customers can sign up to be notified when the product becomes available. Options: Yes / No|
+|Only X left Threshold|Website|Establishes the threshold for the `Only x left` message. For example, if set to 3, the message appears when there are three or fewer of an item in stock. The message does not appear if the value is set to 0.|
+|Display products availability in Stock on Storefront|Store View|If set to `Yes`, displays an `In Stock` or `Out of Stock` message on the product page. Options: Yes / No|
 |Synchronize with Catalog|Global|When set to `Yes`, inventory data is adjusted according to the catalog changes (such as product removals, product SKU changes, and product type changes) and keeps consistency between inventory and catalog. Options: Yes / No|
 
 ## Product Stock Options
@@ -46,6 +46,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Run asynchronously|Global|Determines if you run bulk operations asynchronously for mass product actions including bulk [assign sources]({% link catalog/inventory-bulk-assign-sources.md %}), [unassign sources]({% link catalog/inventory-bulk-unassign-sources.md %}), and [transfer inventory to source]({% link catalog/inventory-bulk-transfer-inventory.md %}). It collects bulk actions up to the Asynchronous batch size, then runs those actions. This feature is disabled by default. We recommend reviewing your performance with bulk actions before enabling. Options: <br/>**Yes** - Runs all bulk operations for Inventory Management asynchronously. To enable, you must configure an asynchronous queue manager. <br/>**No** - Default. Does not run bulk operations asynchronously.|
+|Asynchronous batch size|Global|Set **Run asynchronously** to `Yes` to enter a value for **Asynchronous batch size** field. <br/>The default batch size is 100. When bulk processes reach this amount, they perform them at that time.|
 
 ## Inventory Indexer Settings
 

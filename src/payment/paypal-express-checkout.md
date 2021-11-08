@@ -38,7 +38,7 @@ PayPal Express Checkout does not support orders with multiple-addresses.
 
 PayPal’s _In-Context Checkout_ makes it easier than ever to pay online. Customers never lose sight of your store during this simplified one- or two-click seamless checkout. In-context checkout works equally well on Macs and PCs, and offers a consistent experience on desktop computers, tablets, and mobile devices. To learn more, see [In-Context Checkout in Express Checkout][5].
 
-![PayPal in-context checkout demo]({% link images/images/storefront-paypal-in-context.png %}){: .zoom}
+![PayPal in-context checkout demo]({% link payment/assets/storefront-paypal-in-context.png %}){: .zoom}
 [_PayPal in-context checkout demo_][6]
 
 When you configure your store for PayPal Express Checkout, you can enable this option.
@@ -94,7 +94,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 ### Step 2: Enable and connect your PayPal account
 
-1. If needed, expand ![]({% link images/images/btn-expand.png %}) the **Required PayPal Settings** section.
+1. If needed, expand ![]({% link assets/icon-display-expand.png %}) the **Required PayPal Settings** section.
 
    ![Connect your PayPal account]({% link images/images/config-sales-payment-methods-paypal-express-required.png %}){: .zoom}
    _Required PayPal Settings - PayPal account connection_
@@ -121,7 +121,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 ### Step 3: Complete the required PayPal settings
 
-1. If needed, expand ![]({% link images/images/btn-expand.png %}) the **Express Checkout** section.
+1. If needed, expand ![]({% link assets/icon-display-expand.png %}) the **Express Checkout** section.
 
    ![Required Settings]({% link images/images/config-sales-payment-methods-paypal-express-checkout-settings.png %}){: .zoom}
    _PayPal Express Checkout settings_
@@ -166,7 +166,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 #### Advertise PayPal Credit
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal Credit** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advertise PayPal Credit** section.
 
 1. Click <span class="btn">Get Publisher ID from PayPal</span> and follow the instructions to get your account information.
 
@@ -175,7 +175,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
      ![Advertise PayPal Credit]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
      _Advertise PayPal Credit_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Home Page** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Home Page** section.
 
 1. To place a banner on the page, set **Display** to `Yes`.
 
@@ -196,7 +196,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
    ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
    _Advertise PayPal Credit - Home Page settings_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the remaining sections and repeat the previous steps:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the remaining sections and repeat the previous steps:
 
    - Catalog Category Page
    - Catalog Product Page
@@ -204,11 +204,11 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 #### Advertise PayPal Pay Later
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Advertise PayPal PayLater** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advertise PayPal PayLater** section.
 
 1. Set **Enable PayPal PayLater** to `Yes`.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Home Page** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Home Page** section.
 
 1. To place a banner on the page, set **Display** to `Yes`.
 
@@ -272,7 +272,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
    ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png %}){: .zoom}
    _Advertise PayPal PayLater - Home Page settings_
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the remaining sections and repeat the previous steps:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the remaining sections and repeat the previous steps:
 
    - Catalog Product Page
    - Checkout Cart Page
@@ -281,7 +281,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 ### Step 5: Complete the basic settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Basic Settings - PayPal Express Checkout** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Basic Settings - PayPal Express Checkout** section.
 
    ![Basic Settings]({% link images/images/config-sales-payment-methods-paypal-express-checkout-basic-settings.png %}){: .zoom}
    _Basic Settings - PayPal Express Checkout_
@@ -310,7 +310,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 ### Step 6: Complete the advanced settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Advanced Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
    ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-express-checkout-advanced-settings.png %}){: .zoom}
    _Advanced Settings - PayPal Express Checkout_
@@ -376,7 +376,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sales agreement between the merchant and customer that has been authorized by PayPal for use with multiple orders. During the checkout process, the Billing Agreement payment option appears only for customers who have already entered into a billing agreement with your company. After PayPal authorizes the agreement, the payment system issues a unique reference ID to identify each order that is associated with the agreement. Similar to a purchase order, there is no limit to the number of billing agreements a customer can set up with your company.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **PayPal Billing Agreement Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **PayPal Billing Agreement Settings** section.
 
    ![Billing Agreement Settings]({% link images/images/config-sales-payment-methods-paypal-express-checkout-billing-agreement-settings.png %}){: .zoom}
    _Billing Agreement Settings - PayPal Payments Standard_
@@ -410,7 +410,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 #### Settlement Report Settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Settlement Report Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Settlement Report Settings** section.
 
    ![Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
    _Settlement Report Settings - PayPal Payments Standard_
@@ -454,7 +454,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 The Frontend Experience Settings give you the opportunity to choose which PayPal logos appear on your site, and to customize the appearance of your PayPal merchant pages.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Frontend Experience Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Frontend Experience Settings** section.
 
    ![Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
    _Frontend Experience Settings - PayPal Payments Standard_
@@ -496,7 +496,7 @@ The _Smart Payment Buttons_ feature allows you to customize the PayPal button, w
 - The text that appears on the PayPal button
 - The layout, when multiple buttons are displayed (horizontal or vertical)
 
-To customize buttons, expand ![]({% link images/images/btn-expand.png %}) each of the following sections and adjust the settings:
+To customize buttons, expand ![]({% link assets/icon-display-expand.png %}) each of the following sections and adjust the settings:
 
 - **Checkout Page**
 - **Product Pages**
@@ -508,7 +508,7 @@ _Customize Smart Buttons settings - Checkout Page_
 
 To configure the button display for each page type:
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the section.
 
 1. Set **Customize Button** to `Yes`.
 
@@ -548,7 +548,7 @@ To configure the button display for each page type:
 
 Features settings allow you to disable certain features related to this PayPal solution.
 
-1. Expand ![]({% link images/images/btn-expand.png %})the **Features** section.
+1. Expand ![]({% link assets/icon-display-expand.png %})the **Features** section.
 
    ![Checkout Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings3.png %}){: .zoom}
    _Features - PayPal Express Checkout_

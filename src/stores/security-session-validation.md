@@ -19,7 +19,7 @@ Enabling all of the validation variables can help prevent attacks, but might als
 
 1. In the left panel, expand _General_ and choose **Web**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Session Validation Settings** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Session Validation Settings** section.
 
 1. Set each of the configuration options:
 

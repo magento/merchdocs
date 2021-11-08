@@ -26,12 +26,12 @@ _Contact Us page_
 
 1. In the left panel under **General**, choose **Contacts**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Contact Us** section and set **Enable Contact Us** to `Yes`.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Contact Us** section and set **Enable Contact Us** to `Yes`.
 
    ![General configuration - contact us]({% link images/images/config-general-contacts-contact-us.png %}){: .zoom}
    _Contact Us_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Email Options** section and set the email contact options:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Email Options** section and set the email contact options:
 
     ![General configuration - email options]({% link images/images/config-general-contacts-email-options.png %}){: .zoom}
     _Email Options_
@@ -54,7 +54,7 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 
 1. Find the **Contact Us Info** block in the list and open in **Edit** mode.
 
-    ![]({% link images/images/content-block-contact-us-info.png %}){: .zoom}
+    ![]({% link stores/assets/content-block-contact-us-info.png %}){: .zoom}
     _Contact Us Info_
 
 1. Scroll down to the **Content** field and make any necessary changes.
@@ -63,7 +63,7 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 
     - Click <span class="btn">Show / Hide Editor</span> to work directly with the HTML.
 
-    ![Content block - contact us example]({% link images/images/content-block-contact-us-content.png %}){: .zoom}
+    ![Content block - contact us example]({% link stores/assets/content-block-contact-us-content.png %}){: .zoom}
     _Contact Us Demo Content_
 
 1. When complete, click <span class="btn">Save Block</span>.

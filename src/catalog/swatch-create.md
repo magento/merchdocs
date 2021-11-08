@@ -14,7 +14,7 @@ Use either of the following methods to create swatches for your products.
 
 1. To capture the true color of a product, open the image in a photo editor and use the eye dropper tool to identify the exact color and take note of the equivalent hexadecimal value.
 
-    ![]({% link images/images/swatch-hex-values.png %}){: .zoom}
+    ![]({% link catalog/assets/swatch-hex-values.png %}){: .zoom}
     _Hexadecimal Color Values_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
@@ -39,7 +39,7 @@ Use either of the following methods to create swatches for your products.
 
         ![]({% link images/images/attribute-swatch-color-picker-hex-value.png %}){: .zoom}
 
-    - To save the swatch, click the **Color Wheel** ( ![]({% link images/images/btn-color-wheel.png %})) icon in the lower-right corner of the color picker.
+    - To save the swatch, click the **Color Wheel** ( ![]({% link assets/icon-color-wheel.png %})) icon in the lower-right corner of the color picker.
 
     - In the _Admin_ column, enter a label to describe the color to the store administrator.
 
@@ -66,7 +66,7 @@ Use either of the following methods to create swatches for your products.
 
    The size and dimensions of the swatch is determined by the theme. As a general rule, saving an image as a square helps to preserve the aspect ratio of a pattern.
 
-    ![]({% link images/images/swatch-samples.png %}){: .zoom}
+    ![]({% link catalog/assets/swatch-samples.png %}){: .zoom}
     _Swatch Images_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Attributes_ > **Product**.
@@ -92,7 +92,7 @@ Use either of the following methods to create swatches for your products.
 
       In this example, we include the SKU in the admin label for reference because these colors are used only for a specific product. You can include a space or underscore in the label, but cannot include a hyphen.
 
-      ![]({% link images/images/swatch-upload.png %}){: .zoom}
+      ![]({% link catalog/assets/swatch-upload.png %}){: .zoom}
       _Enter Labels_
 
 1. When complete, click <span class="btn">Save Attribute</span> and refresh the cache when prompted.
@@ -109,7 +109,7 @@ Use either of the following methods to create swatches for your products.
 
    The following example filters the list on a partial product name.
 
-    ![]({% link images/images/swatch-apply-filter-product.png %}){: .zoom}
+    ![]({% link catalog/assets/swatch-apply-filter-product.png %}){: .zoom}
     _Filters_
 
 1. In the grid, select the checkbox of each product to which the swatch applies.
@@ -118,19 +118,19 @@ Use either of the following methods to create swatches for your products.
 
    In this example, all blue capris are selected.
 
-    ![]({% link images/images/swatch-apply-update-attributes.png %}){: .zoom}
+    ![]({% link catalog/assets/swatch-apply-update-attributes.png %}){: .zoom}
     _Update Attributes_
 
 1. Scroll down to the **Color** attribute and select the **Change** checkbox.
 
-    ![]({% link images/images/swatch-update-attributes-choose-color.png %}){: .zoom}
+    ![]({% link catalog/assets/swatch-update-attributes-choose-color.png %}){: .zoom}
     _Change_
 
 1. Choose the swatch that applies to the selected products and click <span class="btn">Save</span>.
 
 1. When prompted, refresh the cache.
 
-    ![]({% link images/images/storefront-swatch-blue-schmear.png %}){: .zoom}
+    ![]({% link catalog/assets/swatch-blue-schmear.png %}){: .zoom}
     _Swatch in Storefront_
 
 ## Add Swatches to the Simple Product
