@@ -14,7 +14,7 @@ _Data Collector_
 
 1. In the upper-right corner, click **New Backup**.
 
-    It takes a few minutes to generate the backup. When complete, the backup appears in the Data Collector grid.
+    It takes a few minutes to generate the backup. You can monitor the results of processing by clicking the **Refresh Status** button. When complete, the backup appears in the Data Collector grid.
 
 1. To view a log with the backup details, do the following:
 
@@ -35,3 +35,25 @@ _Data Collector_
     _Export Format_
 
 1. Access the file from the web browser download location and **Save** it.
+
+## Download backup data
+
+Once the backup was generated you can download the copy of Code and DB dumps to your computer.
+
+1. Find the needed backup entity in the grid.
+
+1. Make sure it has _Complete_ status.
+
+1. Click the entity's name in _Code Dump_ or _DB Dump_ columns.
+
+The downloading to your computer should be started automatically.
+
+## Delete backup data
+
+1. On the _Admin_ sidebar, to **System** > _Support_ > **Data Collector**.
+
+1. Find the backup data to be deleted and select it.
+
+1. In the _Action_ column click **Delete** button.
+
+1. To confirm the action, click <span class="btn">OK</span>.
