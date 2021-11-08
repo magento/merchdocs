@@ -65,3 +65,13 @@ _Terms and Conditions at checkout_
    For example, to make the text box one inch high on a 96 dpi display, enter `96`. A scroll bar appears if the content extends beyond the height of the box.
 
 1. Click <span class="btn">Save Condition</span>.
+
+## Delete created Terms and Conditions
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Terms and Conditions**.
+
+1. Find the terms and condition entity to be deleted and open it in edit mode.
+
+1. In the menu bar click **Delete Condition** button.
+
+1. To confirm the action, click <span class="btn">OK</span>.
