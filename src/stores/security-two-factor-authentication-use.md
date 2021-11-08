@@ -29,8 +29,8 @@ For complete instructions, see [Admin Sign In]({% link stores/admin-signin.md %}
 
 1. When complete, click <span class="btn">Confirm</span>.
 
-    ![Google Authenticator QR code]({% link images/images/storefront-2fa-google-qrcode.png %}){: .zoom}
-    _Google Authenticator QR code_
+    ![Google Authenticator QR code]({% link images/images/storefront-2fa-google-qrcode.png %}){: .zoom}
+    _Google Authenticator QR code_
 
 ### Step 2: Sign in with Google Authenticator
 
