@@ -106,7 +106,7 @@ _Customer Information_
    After the customer account is saved, the full set of options appears in the left panel and in the menu at the top of the page. The _Customer View_ tab displays a summary of the account.
 
    ![]({% link images/images-ee/customer-account-create-saved.png %}){: .zoom}
-   _Customer View_{:.ee-only}
+   _Customer View_
 
 ### Step 2: Complete the address information
 
