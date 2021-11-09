@@ -11,7 +11,7 @@ title: Adding a Lightbox or Slider
 
 - You can also download an extension from Commerce Marketplace. For additional help, see the documentation provided by the extension developer.
 
-   ![]({% link images/images/marketplace-sliders.png %}){: .zoom}
+   ![]({% link cms/assets/marketplace-sliders.png %}){: .zoom}
    _Slider extensions_
 
 [1]: https://marketplace.magento.com/extensions.html?q=lightbox

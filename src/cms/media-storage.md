@@ -66,7 +66,7 @@ Open the page or block to be edited. Then, use one of the following methods to i
 
 1. In the directory tree on the left, navigate to the folder where the image is stored.
 
-   ![]({% link images/images/media-storage-insert-file.png %}){: .zoom}
+   ![]({% link cms/assets/media-storage-insert-file.png %}){: .zoom}
    _Navigating to the image file_
 
 1. Select the tile of the image and click <span class="btn">Add Selected</span>.

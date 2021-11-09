@@ -5,7 +5,7 @@ group: marketing
 
 With the Commerce Product Reviews, customers can assign ratings when they submit a product review. The default ratings are quality, price, and value. In addition to these, you can add your own custom ratings. The five-star ratings that appear on catalog pages are averaged for each product.
 
-![Example storefront - custom ratings]({% link images/images/attribute-custom-ratings-review.png %}){: .zoom}
+![Example storefront - custom ratings]({% link stores/assets/attribute-custom-ratings-review.png %}){: .zoom}
 _Ratings_
 
 ## Create your own ratings

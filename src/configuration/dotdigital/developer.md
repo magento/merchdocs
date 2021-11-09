@@ -55,7 +55,7 @@ _Reset Sync Options_
 
 ## Debug
 
-![Debug]({% link images/images/dotdigital-dash-debug.png %}){: .zoom}
+![Debug]({% link configuration/assets/dotdigital-dash-debug.png %}){: .zoom}
 _Debug_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -102,7 +102,7 @@ _Cron Timings_
 
 ## System Alerts
 
-![System Alerts]({% link images/images/dotdigital-dash-systemalerts.png %}){: .zoom}
+![System Alerts]({% link configuration/assets/dotdigital-dash-systemalerts.png %}){: .zoom}
 _System Alerts_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -114,7 +114,7 @@ _System Alerts_
 
 ## PWA Settings
 
-![PWA Settings]({% link images/images/dotdigital-dash-pwa-settings.png %}){: .zoom}
+![PWA Settings]({% link configuration/assets/dotdigital-dash-pwa-settings.png %}){: .zoom}
 _PWA Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

@@ -33,7 +33,7 @@ If your store has multiple views in different languages, the same products are a
 
 1. In the _Manage Titles_ section, enter a translated label for each store view.
 
-    ![]({% link images/images/product-attribute-labels-translate.png %}){: .zoom}
+    ![]({% link catalog/assets/product-attribute-labels-translate.png %}){: .zoom}
     _Enter Translated Labels_
 
 1. When complete, click <span class="btn">Save Attribute</span>.

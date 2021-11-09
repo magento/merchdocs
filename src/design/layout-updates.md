@@ -16,7 +16,7 @@ The [Widget]({% link cms/widgets.md %}) tool is an easy way to add an existing [
 
 In the following diagram, the names that refer to containers are black and the block types, or block class paths, are blue.
 
-![]({% link images/images/page-layout-default.png %}){: .zoom}
+![]({% link design/assets/page-layout-default.png %}){: .zoom}
 _Standard block layout diagram_
 
 |Block type|Description|
