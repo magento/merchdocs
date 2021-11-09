@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 
 ## API keys
 
-![]({% link images/images/api-key-saas-configuration.png %}){: .zoom}
+![]({% link configuration/assets/api-key-saas-configuration.png %}){: .zoom}
 [_API Key_]({% link system/saas.md %}#apikey)
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

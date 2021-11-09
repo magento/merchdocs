@@ -24,7 +24,7 @@ The following instructions show how to set up basic layered navigation with filt
 
 1. Browse or use filtered search to find an attribute in the list and open it in edit mode.
 
-   ![]({% link images/images/attribute-search.png %}){: .zoom}
+   ![]({% link catalog/assets/attribute-search.png %}){: .zoom}
    _Enter search terms per column to use Filtered Search_
 
 1. In the left panel, choose **Storefront Properties** and set **Use In Layered Navigation** to one of the following:
@@ -34,7 +34,7 @@ The following instructions show how to set up basic layered navigation with filt
 
 1. Set **Use In Search Results Layered Navigation** to `Yes`.
 
-    ![]({% link images/images/attribute-storefront-properties.png %}){: .zoom}
+    ![]({% link catalog/assets/attribute-storefront-properties.png %}){: .zoom}
     _Storefront Properties_
 
 1. Repeat these steps for each attribute that you want to include in layered navigation.
