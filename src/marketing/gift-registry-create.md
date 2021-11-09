@@ -81,6 +81,16 @@ _Gift Registry Types_
 
 1. When complete, click <span class="btn">Save</span>.
 
+## Delete a Gift Registry
+
+1. On the Admin sidebar, go to **Stores** > _Other Settings_ > **Gift Registry**.
+
+1. Find the gift registry to be deleted and open it in edit mode.
+
+1. In the upper-right corner, click <span class="btn">Delete</span>.
+
+1. To confirm the action, click <span class="btn">OK</span>.
+
 ## Field Descriptions
 
 ### General Information
