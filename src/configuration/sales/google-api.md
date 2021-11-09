@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## Google Analytics
 
 ![]({% link images/images-ee/config-sales-google-api-google-analytics-ee.png %}){: .zoom}
-_[Google Analytics]({% link marketing/google-universal-analytics.md %})_{:.ee-only}
+_[Google Analytics]({% link marketing/google-universal-analytics.md %})_
 
 | Field                                     | [Scope]({% link configuration/scope.md %}) | Description                                                                                                                                                                                                     |
 | ----------------------------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
