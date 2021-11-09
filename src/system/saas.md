@@ -23,7 +23,7 @@ When you create a Commerce account, identified by a Commerce ID (MageID), you ca
 
    This opens a dialog for downloading the new key.
 
-   ![]({% link images/images/download-api-private-key.png %}){: .zoom}
+   ![]({% link system/assets/download-api-private-key.png %}){: .zoom}
    _Download private key_
 
    {:.bs-callout-warning}

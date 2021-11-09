@@ -66,7 +66,7 @@ To directly link your Engagement Cloud and Commerce accounts without requiring a
    1. To sync subscriber dales data, set **Enable Subscribers Sales Data Sync** to `Yes`. (This option is disabled by default due to the increased server load and sync times.)
    1. To remove the /pub directory from image URLs in the catalog, set **Remove /pub directory from URLs** to `Yes`.
 
-      ![]({% link images/images/dotdigital-dash-import.png %}){: .zoom}
+      ![]({% link reports/assets/dotdigital-dash-import.png %}){: .zoom}
       _Import Settings_
 
 1. To detect, create, and map data fields automatically (not manually) from Commerce into Engagement Cloud, expand *Sync Settings* > *Admin Task* and click **Run Now** for **Automap Data Fields**.
@@ -90,7 +90,7 @@ Between automated syncs (run by cron job), you may need to manually run sync job
 1. To run a contact sync, click <span class="btn">Run Contact Sync</span> at the top.
 1. To run a importer sync, click <span class="btn">Run Importer Sync</span> at the top.
 
-    ![Sync Options]({% link images/images/dotdigital-dash-btn.png %}){: .zoom}
+    ![Sync Options]({% link reports/assets/dotdigital-dash-btn.png %}){: .zoom}
     _Sync Options_
 
 1. Expand *Sync Settings*, then expand *Manually Run Sync*.
