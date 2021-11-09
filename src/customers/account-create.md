@@ -9,6 +9,8 @@ Visitors to your store can open an account to manage their purchases and activit
 
 The following instructions represent the default customer account configuration. To change the selection and behavior of some of the fields in the form, see [Configuring Customer Accounts]({% link customers/customer-account-configuration.md %}).
 
+As a store administrator, you can also set the [new account options]({% link customers/account-options-new.md %}) to send a confirmation email to new registered customers, which helps to ensure that registered accounts are valid.
+
 ![]({% link images/images/storefront-create-an-account-link.png %}){: .zoom}
 _Create an Account_
 
@@ -155,22 +157,6 @@ Customer accounts created from the Admin do not initially have passwords assigne
 1. In the menu bar at the top of the page, click **Reset Password**.
 
 1. Notification is sent to the account owner, with instructions for setting the password.
-
-## How to set up a confirmation email for new customers
-
-Administrators can configure the system to send a confirmation email to new registered customers. This can be useful if you want to make sure your store has no fake registrations.
-
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
-
-1. In the left panel, expand **Customers** and choose **Customer Configuration**.
-
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Create New Account Option** section.
-
-1. Set `Yes` to the **Require Email Confirmation** field.
-
-   After registering a new account, an email will be sent with a confirmation link. Until the customer confirms the registration, he will not be able to log in.
-
-1. When complete, click <span class="btn">Save</span>Save Config</span>.
 
 ## Button bar
 
