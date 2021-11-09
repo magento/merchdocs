@@ -5,7 +5,7 @@ title: Name and Address Options
 The _Name and Address Options_ determine which fields are included in the name and address forms when customers create an [account]({% link customers/account-create.md %}) with your store.
 
 ![]({% link images/images-ee/storefront-customer-account-address-book.png %}){: .zoom}
-_[Customer Account sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ee-only}
+_[Customer Account sign up form]({% link configuration/customers/customer-configuration.md %})_
 
 The steps for configuring the name and address options are different for Adobe Commerce and Magento Open Source.
 
@@ -29,7 +29,7 @@ The steps for configuring the name and address options are different for Adobe C
    The Name and Address Options section doesn't appear when the scope is set to `Default Store View`.
 
    ![]({% link images/images-ee/config-customer-configuration-scope.png %}){: .zoom}
-   _[Configuration Scope]({% link configuration/scope.md %})_{:.ee-only}
+   _[Configuration Scope]({% link configuration/scope.md %})_
 
 ### Step 2: Configure the name and address options
 
@@ -38,7 +38,7 @@ The steps for configuring the name and address options are different for Adobe C
    If you are not using the `Default config` scope setting, you must clear the `Use Default` checkbox for each field before changing the value.
 
    ![]({% link images/images-ee/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
-   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %}#commerce-options)_{:.ee-only}
+   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %}#commerce-options)_
 
 1. For **Prefix Dropdown Options**, enter each prefix that you want to appear in the list, separated by a semicolon.
 

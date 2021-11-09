@@ -35,12 +35,12 @@ _Cart with Customizable Option and Price Rule_
 
    - If the option is not required to purchase the product, deselect the **Required** checkbox.
 
-   ![]({% link images/images/product-customizable-options-new-option.png %}){: .zoom}
+   ![]({% link catalog/assets/product-customizable-options-new-option.png %}){: .zoom}
    _New Option_
 
 1. Click <span class="btn">Add New Row</span> and complete the following:
 
-   ![]({% link images/images/product-customizable-options-add-values.png %}){: .zoom}
+   ![]({% link catalog/assets/product-customizable-options-add-values.png %}){: .zoom}
    _Add Value_
 
    - For **Title**, enter a name for this option.
@@ -56,7 +56,7 @@ _Cart with Customizable Option and Price Rule_
 
    - To change the order of the options, click the **Change Order** ![]({% link images/images/btn-sort-order-inline.png %}) icon and drag the option to a new position in the list.
 
-   ![]({% link images/images/product-customizable-options-move.png %}){: .zoom}
+   ![]({% link catalog/assets/product-customizable-options-move.png %}){: .zoom}
    _Change Order of Options_
 
     Repeat this step for each option to be added.

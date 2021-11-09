@@ -9,7 +9,7 @@ The Search Terms link in the footer of your store displays the search terms used
 
 By default, Popular Search Terms is enabled as a search engine optimization tool, but has no direct connection to the catalog search process. Because the Search Terms page is indexed by search engines, any terms on the page can help improve your search engine ranking and the visibility of your store. The URL of the Popular Search Terms page is: `mystore.com/search/term/popular/`
 
-![Example storefront - popular search terms]({% link images/images/store-front-search-terms-yoga-pants.png %}){: .zoom}
+![Example storefront - popular search terms]({% link marketing/assets/store-front-search-terms-yoga-pants.png %}){: .zoom}
 _Popular Search Terms_
 
 ## Configure Popular Search Terms
