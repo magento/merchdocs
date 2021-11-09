@@ -51,7 +51,7 @@ The _Reorder_ button is always displayed in the list with Orders (even if all pr
 
 User will be redirected to the cart, and all products are added to the cart
 
-![]({% link images/images/shopping-cart-page.png %}){: .zoom}
+![]({% link sales/assets/shopping-cart-page.png %}){: .zoom}
 
 **Case 2.** Some/all products from the order are **not available** for reorder
 
@@ -75,7 +75,7 @@ The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
 
 If the cart is not empty and the user  clicks **Reorder** (from the _My Orders_  or _Order View_ page), the existing products will remain in the cart with the added reorder products.
 
-![]({% link images/images/shopping-cart-view1.png %}){: .zoom}
+![]({% link sales/assets/shopping-cart-view1.png %}){: .zoom}
 
 ## Reorder from the Admin
 

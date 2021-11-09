@@ -48,7 +48,7 @@ This is the actual cost of the item.
 ### Customer Group Price
 
 ![]({% link images/images-ee/product-pricing-advanced.png %}){: .zoom}
-_Advanced Pricing_{:.ee-only}
+_Advanced Pricing_
 
 Sets up promotional and tier prices for specific customer groups.
 
