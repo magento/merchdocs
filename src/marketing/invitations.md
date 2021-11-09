@@ -18,7 +18,7 @@ When invitations are enabled, customers can send and view [invitations]({% link 
 
 1. In the upper-right corner, click **Add Invitations**.
 
-1. On the next screen, enter email addresses to invite new customers, add a custom message, choose a sender, and select an invitee group.
+1. On the next screen, enter email addresses to invite new customers, add a custom message, choose a sender, and select an invitee group. If you have multiple store views, set the **Send From** chooser to establish from what store view an invitation will be sent.
 
     ![Invitations Information]({% link images/images-ee/create-invitation-page.png %}){: .zoom}
     _Create Invitation_
@@ -26,6 +26,26 @@ When invitations are enabled, customers can send and view [invitations]({% link 
 1. When complete, click **Save**.
 
 In the [Private Sales Reports]({% link reports/private-sales-reports.md %}) section, you can see the number of invitations sent during a specified period, or customers to whom you have sent invitations.
+
+## Discard Invitations for single entity
+
+1. On the _Admin_ sidebar, go to **Marketing** > _Private Sales_ > **Invitations**.
+
+1. Find the needed invitation using filters and open it en edit mode.
+
+1. In the upper-right corner, click <span class="btn">Discard Invitation</span>.
+
+1. To confirm the action, click <span class="btn">OK</span>.
+
+## Discard Invitations for multiple entities
+
+1. On the _Admin_ sidebar, go to **Marketing** > _Private Sales_ > **Invitations**.
+
+1. Find the invitations to be discarded and select them.
+
+1. Choose **Discard Selected** in the __Actions__ drop-down and click **Submit**.
+
+1. To confirm the action, click <span class="btn">OK</span>.
 
 ## Field Descriptions
 
