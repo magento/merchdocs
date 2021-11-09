@@ -45,7 +45,7 @@ A customer can initiate the reorder functionality for a specific order from two 
 
 The _Reorder_ button is always displayed in the list with Orders (even if all products from the order are not available for reorder).
 
-![]({% link images/images/my-order-page-view.png %}){: .zoom}
+![]({% link sales/assets/my-order-page-view.png %}){: .zoom}
 
 **Case 1.** All products from the order are **available** for reorder
 
@@ -57,7 +57,7 @@ User will be redirected to the cart, and all products are added to the cart
 
 The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
 
-![]({% link images/images/my-orders-view-page1.png %}){: .zoom}
+![]({% link sales/assets/my-orders-view-page1.png %}){: .zoom}
 
 ## Order view page
 
@@ -69,7 +69,7 @@ User will be redirected to the cart, and all products are added to the cart
 
 The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
 
-![]({% link images/images/order-view-page.png %}){: .zoom}
+![]({% link sales/assets/order-view-page.png %}){: .zoom}
 
 ## Cart is not empty
 
@@ -85,7 +85,7 @@ If the cart is not empty and the user  clicks **Reorder** (from the _My Orders_ 
 
 1. Click <span class="btn">Reorder</span> which is displayed in the top button bar.
 
-   ![]({% link images/images/order-view-admin.png %}){: .zoom}
+   ![]({% link sales/assets/order-view-admin.png %}){: .zoom}
 
    After you click **Reorder**, the _Create New Order_ page opens with reorder products.
 

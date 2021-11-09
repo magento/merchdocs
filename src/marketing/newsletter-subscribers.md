@@ -24,17 +24,17 @@ If you want to use a third-party service to send newsletters, you can export you
 
    For a single site/single store setup, you can simply select or clear the **Subscribed to Newsletter** checkbox.
 
-   ![Single store customer newsletter subscription checkbox]({% link images/images/newsletter-customer-single-store.png %}){: .zoom}
+   ![Single store customer newsletter subscription checkbox]({% link marketing/assets/newsletter-customer-single-store.png %}){: .zoom}
    _Customer Newsletter subscription - Single Store Setup_
 
    For a single site/multi-store setup, you can select or clear the **Subscribed to Newsletter** checkbox and set **Subscribed on Store View** to the correct store view for the subscription.
 
-   ![Multi-store customer newsletter subscription checkbox and store view selector]({% link images/images/newsletter-customer-multi-store.png %}){: .zoom}
+   ![Multi-store customer newsletter subscription checkbox and store view selector]({% link marketing/assets/newsletter-customer-multi-store.png %}){: .zoom}
    _Customer Newsletter subscription - Multi-Store Setup_
 
    For a multi-site/multi-store setup with a global customer account scope, the page displays the subscription status for all sites. You can select or clear the **Subscribed** checkbox and/or change the **Store View** for the subscription.
 
-   ![Multi-site customer newsletter subscription checkboxes and store view selectors]({% link images/images/newsletter-customer-multi-site.png %}){: .zoom}
+   ![Multi-site customer newsletter subscription checkboxes and store view selectors]({% link marketing/assets/newsletter-customer-multi-site.png %}){: .zoom}
    _Customer Newsletter subscription - Multi-Site Setup_
 
 1. Click <span class="btn">Save Customer</span>.
@@ -52,7 +52,7 @@ If you want to use a third-party service to send newsletters, you can export you
 
 1. Set the _Action_ control to **Unsubscribe** and click <span class="btn">Submit</span>.
 
-   ![Unsubscribe newsletter]({% link images/images/newsletter-unsubscribe.png %}){: .zoom}
+   ![Unsubscribe newsletter]({% link marketing/assets/newsletter-unsubscribe.png %}){: .zoom}
    _Unsubscribe_
 
    The status of the record changes to `Unsubscribed`.
@@ -68,7 +68,7 @@ If you want to use a third-party service to send newsletters, you can export you
 
 1. Click <span class="btn">Export</span>. Then, look for the prompt at the bottom of the screen and save the file.
 
-   ![Export newsletter subscribers]({% link images/images/newsletter-subscribers-export.png %}){: .zoom}
+   ![Export newsletter subscribers]({% link marketing/assets/newsletter-subscribers-export.png %}){: .zoom}
    _Export Newsletter Subscribers_
 
 ## Delete a subscriber from the Newsletter Subscribers list

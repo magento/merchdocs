@@ -4,7 +4,7 @@ title: Order Search
 
 The Search box in the upper-left of the Orders grid can be used to find specific orders by keyword, or by filtering the order records in the grid.
 
-![]({% link images/images/order-search.png %}){: .zoom}
+![]({% link sales/assets/order-search.png %}){: .zoom}
 _Search Results_
 
 ## Search for a match
@@ -21,7 +21,7 @@ _Search Results_
 
 1. Click **Apply Filters** to display the results.
 
-   ![]({% link images/images/order-search-filter.png %}){: .zoom}
+   ![]({% link sales/assets/order-search-filter.png %}){: .zoom}
    _Order Filters_
 
 ### Search filters

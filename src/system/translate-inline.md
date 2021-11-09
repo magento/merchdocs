@@ -29,7 +29,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
 1. Set the **Actions** control to `Disable` and click <span class="btn">Submit</span>.
 
-    ![Disable output caches]({% link images/images/output-cache-disable.png %}){: .zoom}
+    ![Disable output caches]({% link system/assets/output-cache-disable.png %}){: .zoom}
     _Disable Output Caches_
 
 ## Step 2: Enable the Translate Inline tool

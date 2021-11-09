@@ -23,5 +23,5 @@ You can set the minimum quantity allowed for an order. The minimum quantity can 
 
 1. Click <span class="btn">Save Config</span>.
 
-    ![]({% link images/images/minimum-qty-allowed-in-shopping-cart.png %}){: .zoom}
+    ![]({% link sales/assets/minimum-qty-allowed-in-shopping-cart.png %}){: .zoom}
     _Minimum quantity requirement in shopping cart_

@@ -8,7 +8,7 @@ Archiving orders on a regular basis improves performance and keeps your workspac
 {:.bs-callout-info}
 The Archive option appears in the Sales menu only when archiving is [enabled]({% link configuration/sales/sales.md %}).
 
-![Orders, Invoices, Shipments, Credit Memos Archiving]({% link images/images/order-move-to-archive.png %} "Orders, Invoices, Shipments, Credit Memos Archiving"){: .zoom}
+![Orders, Invoices, Shipments, Credit Memos Archiving]({% link sales/assets/order-move-to-archive.png %} "Orders, Invoices, Shipments, Credit Memos Archiving"){: .zoom}
 _[Move Order to Archive]({% link configuration/sales/sales.md %})_
 
 ## Enable archiving
