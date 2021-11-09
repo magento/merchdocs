@@ -22,7 +22,7 @@ The country of manufacture is required for all products that are shipped interna
 
 1. Click <span class="btn">Save</span>.
 
-   ![]({% link images/images/product-country-of-manufacture.png %}){: .zoom}
+   ![]({% link shipping/assets/product-country-of-manufacture.png %}){: .zoom}
    _Country of Manufacture_
 
 ### Method 2: Update multiple records
