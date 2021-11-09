@@ -13,7 +13,7 @@ Follow these instructions to apply a discount to specific products whenever a se
    The **Rule Information** section includes expandable sections for **Conditions** and **Actions**.
 
    ![Catalog price rule - information]({% link images/images-ee/price-rule-catalog-new-ee.png %}){: .zoom}
-   _Rule Information_{:.ee-only}
+   _Rule Information_
 
 1. In the **Rule Information** section, do the following:
 
@@ -173,7 +173,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
       The Rule Information page displays an updated timeline in the Scheduled Changes for the rule.
 
       ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-updated.png %}){: .zoom}
-      _Scheduled Changes_{:.ee-only}
+      _Scheduled Changes_
 
 1. Update properties for a rule:
 

@@ -25,7 +25,7 @@ Before you begin, make sure that:
 
 1. Select **Settings**.
 
-1. In the _Recommendations source_ section, enable the **Fetch recommendations from a different SaaS data space** option.
+1. In the _Recommendations source_ section, enable the **Fetch recommendations from a different SaaS data space** option. The _Recommendations source_ section only appears in a non-production environment.
 
    The _Available SaaS data spaces_ list appears.
 

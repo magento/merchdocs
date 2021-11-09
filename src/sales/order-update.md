@@ -8,7 +8,7 @@ When helping a customer who has placed an order, you need to determine the statu
 
 After a customer places an order, but before the payment is received, the order is in `Pending` status. You can edit the order, place it on hold, or cancel it entirely. The button bar of a pending order lists the available actions for an order.
 
-![]({% link images/images/order-button-bar-pending.png %}){: .zoom}
+![]({% link sales/assets/order-button-bar-pending.png %}){: .zoom}
 _Pending Order Options_
 
 If you modify the substance of an order, the original order is canceled and a new order is generated. You can, however, change the billing or shipping address without generating a new order.
@@ -39,7 +39,7 @@ The [payment action configuration]({% link configuration/sales/payment-methods.m
 You cannot change the substance of a `Processing` order, but you can edit the billing and shipping address.
 
 ![]({% link images/images-ee/order-button-bar-processing.png %}){: .zoom}
-_Processing Order Options_{:.ee-only}
+_Processing Order Options_
 
 {:.bs-callout-info}
 When the payment action of the payment method is set to `Authorize and Capture`, an invoice is automatically created when the customer places an order. In this circumstance, you can refund funds using a [credit memo]({% link sales/credit-memo-create.md %}), but cannot [cancel](#cancel-a-pending-order) or [void](#void-a-processing-order) the order.

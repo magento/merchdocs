@@ -4,7 +4,7 @@ title: Sending Newsletters
 
 To manage the load on the server, newsletters with many subscribers are sent in a queue of multiple batches. You can check the newsletter queue periodically to check the status, and see how many have been processed. Any problems that occur during transmission appear on the Newsletter Problem Report.
 
-![Newsletter templates]({% link images/images/newsletter-templates-grid.png %}){: .zoom}
+![Newsletter templates]({% link marketing/assets/newsletter-templates-grid.png %}){: .zoom}
 _Add to Newsletter Queue_
 
 ## Send a Newsletter
@@ -27,7 +27,7 @@ _Add to Newsletter Queue_
 
         The default name and email address of the sender is specified in the configuration.
 
-        ![Newsletter queue information]({% link images/images/newsletter-queue-information1.png %}){: .zoom}
+        ![Newsletter queue information]({% link marketing/assets/newsletter-queue-information1.png %}){: .zoom}
         _Queue Information_
 
 1. If applicable, enter a note in the **Message** box above the instructions to unsubscribe.
@@ -41,7 +41,7 @@ _Add to Newsletter Queue_
 
     The newsletter appears in the queue waiting to be processed.
 
-    ![Newsletter queue]({% link images/images/newsletter-queue-saved.png %}){: .zoom}
+    ![Newsletter queue]({% link marketing/assets/newsletter-queue-saved.png %}){: .zoom}
     _Newsletter Queue_
 
 ## Check for Problems

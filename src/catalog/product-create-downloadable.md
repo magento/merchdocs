@@ -37,7 +37,7 @@ To choose the attribute set that is used as a template for the product, do one o
 
 The form is updated to reflect the change.
 
-![]({% link images/images/product-create-choose-attribute-set-downloadable.png %}){: .zoom}
+![]({% link catalog/assets/product-create-choose-attribute-set-downloadable.png %}){: .zoom}
 _Choose Attribute Set_
 
 ## Step 3: Complete the required settings

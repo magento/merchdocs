@@ -4,7 +4,7 @@ title: Page Search
 
 The Search box in the upper-left of the _Pages_ grid can be used to find specific pages by keyword. For a more advanced search, you can [filter]({% link stores/admin-grid-controls.md %}) the search by multiple parameters.
 
-![The term Home is entered in the search box to filter the Pages list]({% link images/images/pages-search-home.png %}){: .zoom}
+![The term Home is entered in the search box to filter the Pages list]({% link cms/assets/pages-search-home.png %}){: .zoom}
 _Keyword search results_
 
 ## Search by keyword
@@ -25,7 +25,7 @@ _Keyword search results_
 
 1. Click <span class="btn">Apply Filters</span> to display the results.
 
-![The selected Filters tab displays the search filter options at the top of the page]({% link images/images/pages-search-filter.png %}){: .zoom}
+![The selected Filters tab displays the search filter options at the top of the page]({% link cms/assets/pages-search-filter.png %}){: .zoom}
 _Filtered search_
 
 ## Search filters

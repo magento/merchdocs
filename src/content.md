@@ -6,7 +6,7 @@ sections:
     content: Learn to create pages with text, images, and dynamic blocks of content that can be incorporated into your store navigation and linked to other pages.
     url: /cms/content-elements.html
 
-  - title: <span class="ee-only">Page Builder</span>
+  - title: Page Builder
     content: Learn to use Page Builder, the advanced content tools that make it easy to create content-rich pages that enhance your visual storytelling, and drive customer engagement and loyalty.
     url: /cms/page-builder.html
 

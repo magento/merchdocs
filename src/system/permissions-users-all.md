@@ -8,7 +8,7 @@ If there are others on your team or service providers who need access, you can c
 
 For users or roles that are temporary, you can also set an expiration date for the user account.
 
-![User types for your Admin]({% link images/images/merchant-admin-users.png %}){: .zoom}
+![User types for your Admin]({% link system/assets/merchant-admin-users.png %}){: .zoom}
 _Example Admin Users_
 
 ## Create a new user

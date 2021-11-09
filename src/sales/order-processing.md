@@ -121,7 +121,7 @@ _Address Information_
 
 ## Payment & Shipping Method
 
-![]({% link images/images/order-payment-and-shipping-method-braintree.png %}){: .zoom}
+![]({% link sales/assets/order-payment-and-shipping-method-braintree.png %}){: .zoom}
 _Payment & Shipping Method_
 
 {: .format-table }
@@ -132,7 +132,7 @@ _Payment & Shipping Method_
 
 ## Review items ordered
 
-![]({% link images/images/order-items-ordered-tristan.png %}){: .zoom}
+![]({% link sales/assets/order-items-ordered-tristan.png %}){: .zoom}
 _Items Ordered_
 
 In the **Order Total** section, do the following:

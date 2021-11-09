@@ -4,7 +4,7 @@ title: Order Grid Layout
 
 The selection of columns and their order in the grid can be changed according to your preference. The new layout can be saved as a grid “view.” By default, only nine of twenty available columns are included in the grid.
 
-![]({% link images/images/order-grid-columns.png %}){: .zoom}
+![]({% link sales/assets/order-grid-columns.png %}){: .zoom}
 _Order Grid Columns_
 
 ## Change the column selection

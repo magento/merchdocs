@@ -174,7 +174,7 @@ The shopping cart price rule actions describe how prices are updated when the co
 1. Scroll down to **Actions**, and expand ![Expansion selector]({% link assets/icon-display-expand.png %})the section. Then, do the following:
 
    ![Cart price rule - actions ]({% link images/images-ee/price-rule-cart-actions.png %}){: .zoom}
-   _Cart Price Rule Actions_{:.ee-only}
+   _Cart Price Rule Actions_
 
 1. Set **Apply** to one of the following discount options:
 
