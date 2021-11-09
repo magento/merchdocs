@@ -64,4 +64,4 @@ If you have verified that the user account has permission to access the Site-Wid
 |Extensions|Lists all 3rd-Party Extensions and 3rd-Party Libraries.|
 
 {:.bs-callout-info}
-After applying a recommendation it may a few days to show an updated information on the Site Wide Analysis Dashboard or generated report.
+After applying a recommendation, it may take a few days for it to be updated in the Site Wide Analysis Dashboard or generated report.
