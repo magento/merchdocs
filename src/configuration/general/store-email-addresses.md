@@ -20,7 +20,7 @@ _General Contact configuration settings_
 
 See [Store Email Addresses]({% link stores/store-email-addresses.md %}) for specific configuration fields and options.
 
-![Store Email Addresses > Sales Representative]({% link images/images/config-general-store-email-addresses-sales-representative.png %}){: .zoom}
+![Store Email Addresses > Sales Representative]({% link configuration/assets/email-sales-rep.png %}){: .zoom}
 _Sales Representative configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -32,7 +32,7 @@ _Sales Representative configuration settings_
 
 See [Store Email Addresses]({% link stores/store-email-addresses.md %}) for specific configuration fields and options.
 
-![Store Email Addresses > Customer Support]({% link images/images/config-general-store-email-addresses-customer-support.png %}){: .zoom}
+![Store Email Addresses > Customer Support]({% link configuration/assets/general-store-customer-support.png %}){: .zoom}
 _Customer Support configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

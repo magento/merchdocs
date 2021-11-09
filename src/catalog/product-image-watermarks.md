@@ -33,7 +33,7 @@ _Tiled Watermark_
 
    - Set **Image Position** to determine where the watermark appears.
 
-    ![]({% link images/images/config-design-product-image-watermarks-base.png %}){: .zoom}
+    ![]({% link catalog/assets/config-design-product-image-watermarks-base.png %}){: .zoom}
     [_Product Image Watermarks - Base_]({% link design/configuration.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

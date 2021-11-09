@@ -16,7 +16,7 @@ The _Configuration_ settings in the _Data Mapping_ section of your Commerce inst
 
 1. In the **Sync Settings** section under _Admin Task_, click **Automap Data Fields** <span class="btn">Run Now</span>.
 
-   ![]({% link images/images/config-engagement-cloud-developer-sync-settings.png %}){: .zoom}
+   ![]({% link marketing/assets/engagement-cloud-sync-settings.png %}){: .zoom}
    [_Sync settings - admin task_]({% link configuration/dotdigital/developer.md %})
 
 ## Map data fields manually
@@ -102,7 +102,7 @@ The _Configuration_ settings in the _Data Mapping_ section of your Commerce inst
 
    - In your Commerce _Configuration_, go to **DOTDIGITAL** > **Developer** > **Sync Settings**. Under _Manually Run Sync_, click **Catalog Sync** <span class="btn">Run Now</span>.
 
-   ![]({% link images/images/config-dotdigital-developer-sync-settings-manually-run-sync.png %}){: .zoom}
+   ![]({% link marketing/assets/dotdigital-manually-run-sync.png %}){: .zoom}
    [_Manually Run Sync_]({% link configuration/dotdigital/developer.md %})
 
 1. In your dotdigital account, go to **Ecommerce** > **Catalogs**.

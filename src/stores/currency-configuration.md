@@ -63,7 +63,7 @@ _Scope of Base Currency_
 
       - For **Connection Timeout in Seconds**, enter the number of seconds of inactivity to allow before the connection times out.
 
-      ![General configuration - currency setup - Fixer.io options]({% link images/images/config-general-currency-setup-fixerio.png %}){: .zoom}
+      ![General configuration - currency setup - Fixer.io options]({% link stores/assets/config-general-currency-setup-fixerio.png %}){: .zoom}
       _Fixer.io_
 
    - To connect to the [Currency Convertor API service](https://free.currencyconverterapi.com/):

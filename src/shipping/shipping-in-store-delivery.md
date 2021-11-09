@@ -25,7 +25,7 @@ First, check that In-store Delivery is enabled.
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **In-Store Delivery** section.
 
-   ![]({% link images/images/config-sales-shipping-methods-in-store.png %}){: .zoom}
+   ![]({% link shipping/assets/in-store-shipping.png %}){: .zoom}
    _[In-store Delivery]({% link configuration/sales/delivery-methods.md %})_
 
 1. Set **Enabled** to `Yes`.

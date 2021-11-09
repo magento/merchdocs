@@ -47,7 +47,7 @@ Your site map should be updated as frequently as the content on your site change
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Store Url Options** section and complete the **Frequency** and **Priority** settings as needed.
 
-   ![Catalog configuration - XML sitemap store url]({% link images/images/config-catalog-xml-sitemap-store-url-options.png %}){: .zoom}
+   ![Catalog configuration - XML sitemap store url]({% link marketing/assets/xml-sitemap.png %}){: .zoom}
    [_Store Url Options_]({% link configuration/catalog/xml-sitemap.md -%})
 
 1. When complete, click <span class="btn">Save Config</span>.

@@ -136,7 +136,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 ## Admin Usage
 
-![Admin Usage]({% link images/images/config-advanced-admin-usage.png %}){: .zoom}
+![Admin Usage]({% link configuration/assets/advanced-admin-usage.png %}){: .zoom}
 _Admin Usage_
 
 Field | Scope | Description

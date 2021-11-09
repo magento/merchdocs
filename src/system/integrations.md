@@ -71,7 +71,7 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Web API Security Setting** section.
 
-    ![Services configuration - web API security settings]({% link images/images/config-services-magento-web-api-web-api-security.png %}){: .zoom}
+    ![Services configuration - web API security settings]({% link system/assets/web-api-security.png %}){: .zoom}
     _Web API Security_
 
 1. Set **Allow Anonymous Guest Access** to `Yes`.

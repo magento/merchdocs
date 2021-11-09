@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## Import Settings
 
-![]({% link images/images/config-engagement-cloud-developer-import-settings.png %}){: .zoom}
+![]({% link configuration/assets/ec-import-settings.png %}){: .zoom}
 _Import Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -23,7 +23,7 @@ _Import Settings_
 ![Admin Tasks]({% link images/images/dotdigital-dash-admin.png %}){: .zoom}
 _Sync Settings - Admin Task_
 
-![Manually Run Syncs]({% link images/images/config-engagement-cloud-sync-settings-manually-run-sync.png %}){: .zoom}
+![Manually Run Syncs]({% link configuration/assets/ec-sync-manual-sync.png %}){: .zoom}
 _Manually Run Syncs_
 
 ![Reset Syncs]({% link images/images/dotdigital-dash-resetsync.png %}){: .zoom}

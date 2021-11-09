@@ -338,7 +338,7 @@ If you have a different image for each variation you can set the configuration t
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-    ![]({% link images/images/config-sales-checkout-shopping-cart-configurable-product.png %}){: .zoom}
+    ![]({% link catalog/assets/configurable-product.png %}){: .zoom}
     _Shopping cart - configurable product image_
 
 ## Things to remember

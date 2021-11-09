@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdi
 
 ## Data Fields
 
-![]({% link images/images/config-engagement-cloud-configuration-data-fields.png %}){: .zoom}
+![]({% link configuration/assets/cloud-data-fields.png %}){: .zoom}
 _Data Fields_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -18,7 +18,7 @@ _Data Fields_
 
 ## Image Types
 
-![]({% link images/images/config-engagement-cloud-configuration-image-types.png %}){: .zoom}
+![]({% link configuration/assets/ec-image-types.png %}){: .zoom}
 _Image Types_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -30,7 +30,7 @@ _Image Types_
 
 ## Tracking
 
-![]({% link images/images/config-engagement-cloud-configuration-tracking.png %}){: .zoom}
+![]({% link configuration/assets/ec-tracking.png %}){: .zoom}
 _Tracking_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -41,7 +41,7 @@ _Tracking_
 
 ## Consent
 
-![]({% link images/images/config-engagement-cloud-configuration-consent.png %}){: .zoom}
+![]({% link configuration/assets/consent.png %}){: .zoom}
 _Consent_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -52,7 +52,7 @@ _Consent_
 
 ## Transactional Data
 
-![]({% link images/images/config-engagement-cloud-configuration-transactional-data.png %}){: .zoom}
+![]({% link configuration/assets/ec-transactional-data.png %}){: .zoom}
 _Transactional Data_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -64,7 +64,7 @@ _Transactional Data_
 
 ## Abandoned Carts
 
-![]({% link images/images/config-engagement-cloud-configuration-abandoned-carts.png %}){: .zoom}
+![]({% link configuration/assets/cloud-abandoned-carts.png %}){: .zoom}
 _Abandoned Carts_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -80,7 +80,7 @@ _Abandoned Carts_
 
 ## Dynamic Content Styling
 
-![]({% link images/images/config-engagement-cloud-configuration-dynamic-content-styling.png %}){: .zoom}
+![]({% link configuration/assets/cloud-dynamic-content-styling.png %}){: .zoom}
 _Dynamic Content Styling_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -89,7 +89,7 @@ _Dynamic Content Styling_
 
 ### Product Name
 
-![]({% link images/images/config-engagement-cloud-configuration-product-name.png %}){: .zoom}
+![]({% link configuration/assets/ec-product-name.png %}){: .zoom}
 _Product Name_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -100,7 +100,7 @@ _Product Name_
 
 ### Product Price
 
-![]({% link images/images/config-engagement-cloud-configuration-product-price.png %}){: .zoom}
+![]({% link configuration/assets/ec-product-price.png %}){: .zoom}
 *Product Price*
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -111,7 +111,7 @@ _Product Name_
 
 ### Product Link
 
-![]({% link images/images/config-engagement-cloud-configuration-product-link.png %}){: .zoom}
+![]({% link configuration/assets/ec-product-link.png %}){: .zoom}
 _Product Link_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -122,7 +122,7 @@ _Product Link_
 
 ### Applies to Whole Document
 
-![]({% link images/images/config-engagement-cloud-configuration-applies-to-whole-document.png %}){: .zoom}
+![]({% link configuration/assets/applies-to-whole-doc.png %}){: .zoom}
 _Applies to Whole Document_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -132,7 +132,7 @@ _Applies to Whole Document_
 
 ### Other Text (Will Apply To Other Remaining Text)
 
-![]({% link images/images/config-engagement-cloud-configuration-other-text.png %}){: .zoom}
+![]({% link configuration/assets/ec-other-text.png %}){: .zoom}
 _Other Text_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -143,7 +143,7 @@ _Other Text_
 
 ### Coupon Code
 
-![]({% link images/images/config-engagement-cloud-configuration-coupon-code.png %}){: .zoom}
+![]({% link configuration/assets/cloud-coupon-code.png %}){: .zoom}
 _Coupon Code_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -156,7 +156,7 @@ _Coupon Code_
 
 ## Dynamic Content
 
-![]({% link images/images/config-engagement-cloud-configuration-dynamic-content.png %}){: .zoom}
+![]({% link configuration/assets/ec-config-dynamic-content.png %}){: .zoom}
 _Dynamic Content_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -165,7 +165,7 @@ _Dynamic Content_
 
 ## Admin
 
-![]({% link images/images/config-engagement-cloud-configuration-admin.png %}){: .zoom}
+![]({% link configuration/assets/cloud-config-admin.png %}){: .zoom}
 _Admin_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -175,7 +175,7 @@ _Admin_
 
 ## Catalog Sync Settings
 
-![]({% link images/images/config-engagement-cloud-configuration-catalog-sync-settings.png %}){: .zoom}
+![]({% link configuration/assets/cloud-catalog-sync-settings.png %}){: .zoom}
 _Catalog Sync Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -186,7 +186,7 @@ _Catalog Sync Settings_
 
 ## Customer Preference
 
-![]({% link images/images/config-engagement-cloud-configuration-customer-preference.png %}){: .zoom}
+![]({% link configuration/assets/cloud-customer-prefs.png %}){: .zoom}
 _Customer Preference_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

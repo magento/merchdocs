@@ -8,10 +8,10 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## Settings
 
-![]({% link images/images/config-engagement-cloud-accounts-settings-no.png %}){: .zoom}
+![]({% link configuration/assets/cloud-accounts-setting-no.png %}){: .zoom}
 _Settings - not enabled_
 
-![]({% link images/images/config-engagement-cloud-accounts-settings-yes.png %}){: .zoom}
+![]({% link configuration/assets/cloud-accounts-settings-yes.png %}){: .zoom}
 _Settings - enabled_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
