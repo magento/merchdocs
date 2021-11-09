@@ -8,7 +8,7 @@ A configurable product looks like a single product with drop-down lists of optio
 
 The following instructions demonstrate the process of creating a configurable product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
 
-![]({% link images/images/product-configurable.png %}){: .zoom}
+![]({% link catalog/assets/product-configurable.png %}){: .zoom}
 _Configurable product_
 
 ## Part 1: Creating a configurable product
@@ -126,7 +126,7 @@ The following example shows how to add configurations for three colors and three
 
 The progress bar at the top of the page shows where you are in the process and guides you through each step.
 
-![]({% link images/images/product-configurable-progress-bar-step1.png %}){: .zoom}
+![]({% link catalog/assets/product-configurable-progress-bar-step1.png %}){: .zoom}
 _Progress bar_
 
 ### Step 1: Choose the attributes
@@ -142,7 +142,7 @@ _Progress bar_
 
 1. The list includes all attributes from the attribute set that can be used in a configurable product.
 
-    ![]({% link images/images/product-create-configurable-step1.png %}){: .zoom}
+    ![]({% link catalog/assets/product-create-configurable-step1.png %}){: .zoom}
     _Select Attributes_
 
 1. If you need to add a new attribute, click <span class="btn">Create New Attribute</span> and do the following:
@@ -159,7 +159,7 @@ _Progress bar_
 
 1. For each attribute, select the checkbox of the values that apply to the product.
 
-    ![]({% link images/images/product-create-configurable-step2.png %}){: .zoom}
+    ![]({% link catalog/assets/product-create-configurable-step2.png %}){: .zoom}
 
 1. To rearrange the attributes, grab the **Change Order** ( ![]({% link images/images/btn-sort-order-inline.png %}) ) icon and move the section to a new position.
 
@@ -181,7 +181,7 @@ Use one of the following methods to configure the **images**:
 
    1. Browse to each image that you want to include in the product gallery, or drag them to the box.
 
-   ![]({% link images/images/product-configurations-images-apply-single-set.png %}){: .zoom}
+   ![]({% link catalog/assets/product-configurations-images-apply-single-set.png %}){: .zoom}
    _Use same images for all SKUs_
 
 - **Method 2:** Apply unique images for each SKU
@@ -196,7 +196,7 @@ Use one of the following methods to configure the **images**:
 
       If you drag the an image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the **trashcan** (![]({% link images/images/btn-trashcan2.png %}){: .Inline}) icon.
 
-      ![]({% link images/images/product-configurable-create-configurations-add-images-unique.png %}){: .zoom}
+      ![]({% link catalog/assets/product-configurable-create-configurations-add-images-unique.png %}){: .zoom}
       _Unique images per SKU_
 
 Use one of the following methods to configure the **prices**:
@@ -207,7 +207,7 @@ Use one of the following methods to configure the **prices**:
 
 1. Enter the **Price**.
 
-   ![]({% link images/images/product-configurable-create-configurations-price-all-skus.png %}){: .zoom}
+   ![]({% link catalog/assets/product-configurable-create-configurations-price-all-skus.png %}){: .zoom}
    _Same price per SKU_
 
 - **Method 2:** Apply a different price for each SKU
@@ -220,7 +220,7 @@ Use one of the following methods to configure the **prices**:
 
    In this example, the XL size costs more.
 
-   ![]({% link images/images/product-configurable-create-configurations-price-unique.png %}){: .zoom}
+   ![]({% link catalog/assets/product-configurable-create-configurations-price-unique.png %}){: .zoom}
    _Unique price per SKU_
 
 Use one of the following methods to configure the **quantity**:
@@ -231,7 +231,7 @@ Use one of the following methods to configure the **quantity**:
 
 1. Enter the **Quantity**.
 
-   ![]({% link images/images/product-configurations-quantity-same-all-skus.png %}){: .zoom}
+   ![]({% link catalog/assets/product-configurations-quantity-same-all-skus.png %}){: .zoom}
     _Same Quantity for All SKUs_
 
 1. If needed, apply the Same Quantity to All SKUs (Inventory Management).
@@ -255,7 +255,7 @@ Use one of the following methods to configure the **quantity**:
 
 1. Enter the **Quantity** for each.
 
-   ![]({% link images/images/product-configurations-quantity-different.png %}){: .zoom}
+   ![]({% link catalog/assets/product-configurations-quantity-different.png %}){: .zoom}
    _Different quantities per attribute_
 
 When configuration for images, price, and quantity are complete, click <span class="btn">Next</span> in the upper-right corner.

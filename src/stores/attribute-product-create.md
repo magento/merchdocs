@@ -14,7 +14,7 @@ _New Attribute Properties_
 
 1. Click <span class="btn">Add New Attribute</span>.
 
-   ![Add new product attribute]({% link images/images/product-attribute-add-attribute-properties-flavor.png %}){: .zoom}
+   ![Add new product attribute]({% link stores/assets/product-attribute-add-attribute-properties-flavor.png %}){: .zoom}
    _Attribute Properties_
 
 1. Under Attribute Properties, enter a **Default Label** to identify the attribute.
