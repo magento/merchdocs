@@ -78,7 +78,7 @@ In the storefront, a customer can create a wish list from their account dashboar
 1. To add a **Comment** about the product, enter the text in the box below the price.
 
     ![]({% link images/images-ee/account-dashboard-wishlist-edit-options.png %}){: .zoom}
-    _Edit Options_{:.ee-only}
+    _Edit Options_
 
 1. To change the selection of product options, click **Edit** and do the following:
 

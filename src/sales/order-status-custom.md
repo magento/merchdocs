@@ -35,7 +35,7 @@ _Order Status Settings_
 
 1. On the _Order Status_ page, click **Assign Status to State**.
 
-   ![]({% link images/images/store-status-assign-status.png %}){: .zoom}
+   ![]({% link sales/assets/store-status-assign-status.png %}){: .zoom}
    _Assign Status_
 
 1. Update the **Assignment Information** section, do the following:

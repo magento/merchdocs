@@ -12,4 +12,4 @@ The My Account page consist of following sections:
 - [Recent Orders]({% link customers/account-dashboard-my-orders.md %})
 
 ![]({% link images/images-ee/customer-account-dashboard-my-account.png %}){: .zoom}
-_My Account_{:.ee-only}
+_My Account_

@@ -11,7 +11,7 @@ _Web Browser - Meta Title_
 
 The meta title appears in the title bar and tab of your browser and search results listings. The meta title should be unique to the page, and less than seventy characters in length.
 
-![Product settings - search engine optimization]({% link images/images/product-basic-settings-search-engine-optimization-yoga-strap.png %}){: .zoom}
+![Product settings - search engine optimization]({% link marketing/assets/product-basic-settings-search-engine-optimization-yoga-strap.png %}){: .zoom}
 
 ## Meta Keywords
 

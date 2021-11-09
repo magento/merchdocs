@@ -59,7 +59,7 @@ In this step, the Sprite Yoga Companion Kit is exported as a ([CSV]({% link syst
 
    In the `bundle_values` data, each element is separated by comma, and each bundle item is separated from the next with a vertical bar. (The last item does not end with a vertical bar.) Your exported bundle data should look similar to the following example:
 
-    ![]({% link images/images/product-bundle-values-export-data.png
+    ![]({% link system/assets/product-bundle-values-export-data.png
      %}){: .zoom}
     _Bundle Values_
 
@@ -69,7 +69,7 @@ In this step, the Sprite Yoga Companion Kit is exported as a ([CSV]({% link syst
 
    In the following illustration, a `position=[number]` parameter is added to each yoga strap to change the order of the items in the store listing.
 
-   ![]({% link images/images/product-bundle-values-position-parameter.png%}){: .zoom}
+   ![]({% link system/assets/product-bundle-values-position-parameter.png%}){: .zoom}
    _Position Parameter_
 
 1. After editing the data, **Save** the CSV file.

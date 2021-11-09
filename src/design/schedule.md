@@ -4,7 +4,7 @@ title: Scheduling Design Changes
 
 Schedule your theme design changes in advance so that they go into effect according to your business cycles and events. You can use scheduled design changes for seasonal changes, promotions, or just to add variation.
 
-![]({% link images/images/design-schedule.png %}){: .zoom}
+![]({% link design/assets/design-schedule.png %}){: .zoom}
 _Scheduled design changes_
 
 ## Schedule a design change
@@ -13,7 +13,7 @@ _Scheduled design changes_
 
 1. Click <span class="btn">Add Design Change</span>.
 
-   ![]({% link images/images/design-schedule-change-new.png %}){: .zoom}
+   ![]({% link design/assets/design-schedule-change-new.png %}){: .zoom}
    _New Store Design Change settings_
 
 1. Set **Store** to the store view where the change will apply.
