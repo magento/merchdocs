@@ -157,7 +157,7 @@ _Vertex - Developer & Support Information_
 ## Orders, Invoices, Credit Memos Display Settings
 
 ![]({% link images/images-ee/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
-_[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.md %})_{:.ee-only}
+_[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

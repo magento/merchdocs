@@ -24,7 +24,7 @@ You can use the default `Gift Card` attribute set or choose another. To choose t
 - For **Search**, enter the name of the attribute set.
 - In the list, choose the attribute set that you want to use.
 
-![]({% link images/images/product-create-choose-attribute-set-gift-card.png %}){: .zoom}
+![]({% link catalog/assets/product-create-choose-attribute-set-gift-card.png %}){: .zoom}
 _Choose Attribute Set_
 
 ## Step 3: Complete the required settings

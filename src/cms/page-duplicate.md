@@ -21,7 +21,7 @@ _Save & Duplicate_
    - A unique, but temporary URL Key is assigned.
    - The Status of the page is `Disabled`.
 
-   ![]({% link images/images/pages-grid-duplicated-page.png %}){: .zoom}
+   ![]({% link cms/assets/pages-grid-duplicated-page.png %}){: .zoom}
    _Duplicating a page in the grid_
 
 1. Open the duplicate page in _Edit_ mode and do the following:
@@ -32,7 +32,7 @@ _Save & Duplicate_
 
    - Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Search Engine Optimization** section and enter the unique **URL Key** that you want to use for the duplicate page.
 
-      ![]({% link images/images/page-search-engine-optimization-url-key-duplicate.png %}){: .zoom}
+      ![]({% link cms/assets/page-search-engine-optimization-url-key-duplicate.png %}){: .zoom}
       _Temporary URL key_
 
    - Update the remaining page content, as needed.
@@ -41,7 +41,7 @@ _Save & Duplicate_
 
    The duplicate page in the grid reflects your changes.
 
-   ![]({% link images/images/pages-grid-duplicate-updated-url-key.png %}){: .zoom}
+   ![]({% link cms/assets/pages-grid-duplicate-updated-url-key.png %}){: .zoom}
    _Duplicate page with an updated URL key_
 
 ## Save menu

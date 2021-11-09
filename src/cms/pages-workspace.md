@@ -11,7 +11,7 @@ _Pages grid_
 
 1. Click any row in the grid.
 
-   ![Page properties are editable in the Pages grid]({% link images/images/page-grid-properties-update.png %}){: .zoom}
+   ![Page properties are editable in the Pages grid]({% link cms/assets/page-grid-properties-update.png %}){: .zoom}
    _Updating page properties_
 
    To select multiple records, select the checkbox of each row that you want to update.

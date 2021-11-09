@@ -7,5 +7,5 @@ The Bundle Items section is used to add items to a [Bundle]({% link catalog/prod
 ![]({% link images/images/product-bundle-items.png %}){: .zoom}
 _Bundle Items Section_
 
-![]({% link images/images/product-bundle-items-ball.png %}){: .zoom}
+![]({% link catalog/assets/product-bundle-items-ball.png %}){: .zoom}
 _Bundle Items_

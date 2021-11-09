@@ -7,7 +7,7 @@ The Configurations section lists any existing variations of the product and can 
 ![]({% link images/images/product-configurable-create-configurations.png %}){: .zoom}
 _Configurations Section_
 
-![]({% link images/images/product-configurations-hoodie.png %}){: .zoom}
+![]({% link catalog/assets/product-configurations-hoodie.png %}){: .zoom}
 _Product Configurations_
 
 ## Field reference

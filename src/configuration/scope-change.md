@@ -11,7 +11,7 @@ The _Use System Value_ checkbox to the right of many configuration settings is u
 
 The checkbox label changes according to the current scope, and always refers to the parent level that is one step up in the scope hierarchy. Because the parent level is a container for all the items below that level, the scope setting from the parent level is inherited unless it is overridden.
 
-![]({% link images/images/store-view-control.png %}){: .zoom}
+![]({% link configuration/assets/store-view-control.png %}){: .zoom}
 _Default configuration with "Use System Value" checkboxes selected_
 
 ## Set the configuration scope
@@ -36,7 +36,7 @@ Before making a configuration setting that applies only to a specific website, s
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-   ![]({% link images/images/store-view-french.png %}){: .zoom}
+   ![]({% link configuration/assets/store-view-french.png %}){: .zoom}
    _Setting the locale of the French store view_
 
 ## Store hierarchy

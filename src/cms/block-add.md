@@ -13,7 +13,7 @@ _Blocks page_
 
 1. In the upper-right corner, click <span class="btn">Add New Block</span>.
 
-   ![The New Block page displays options and a content space]({% link images/images/block-detail.png %}){: .zoom}
+   ![The New Block page displays options and a content space]({% link cms/assets/block-detail.png %}){: .zoom}
    _Block detail information_
 
 1. If you want to change the default enabled status of the new block, set **Enable Block** to `No`.
@@ -40,7 +40,7 @@ _Blocks page_
 
       If you prefer to work with HTML code, click <span class="btn">Show / Hide Editor</span>.
 
-      ![]({% link images/images/block-editor-hidden.png %}){: .zoom}
+      ![]({% link cms/assets/block-editor-hidden.png %}){: .zoom}
       _Block editor (hidden)_
 
 1. When complete, click the **Save** arrow and choose **Save & Close**.

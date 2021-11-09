@@ -44,7 +44,7 @@ Although the _Spanish_ store view is selected in the following example, the prod
 
    - In the upper-right corner, click the _Admin_ menu arrow and choose **Customer View**.
 
-      ![]({% link images/images/product-admin-menu-customer-view.png %}){: .zoom}
+      ![]({% link catalog/assets/product-admin-menu-customer-view.png %}){: .zoom}
       _Customer view_
 
    - In the upper-right corner of the store, set the **Language Chooser** to the store view of the product that you edited and find the product that you edited for the view.
