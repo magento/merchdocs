@@ -108,4 +108,4 @@ _Amazon ASIN Attribute_
 ![]({% link sales-channels/asc/assets/creating-amazon-condition-attribute.png %}){: .zoom}
 _Amazon Condition Attribute_
 
-![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Add or Verify API Key**]({% link sales-channels/asc/amazon-verify-api-key.md %})
+![]({% link assets/icon-next-arrow.png %}){: .Inline} [**Continue to Add or Verify API Key**]({% link sales-channels/asc/amazon-verify-api-key.md %})

@@ -72,7 +72,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Dashboard
 
-![]({% link images/images/config-sales-sales-dashboard.png %}){: .zoom}
+![]({% link configuration/assets/sales-dashboard.png %}){: .zoom}
 [_Dashboard_]({% link stores/admin-dashboard.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

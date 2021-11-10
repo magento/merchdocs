@@ -65,7 +65,7 @@ If necessary, first deselect the **Use system value** checkbox to change these s
 
    The range cannot be further split beyond this limit. The default value is `9`.
 
-    ![]({% link images/images/config-catalog-catalog-layered-navigation-automatic-equalize-product-counts.png %}){: .zoom}
+    ![]({% link catalog/assets/equalize-product-counts.png %}){: .zoom}
     [_Automatic (equalize product counts)_]({% link configuration/catalog/catalog.md %})
 
 ### Method 3: Manual

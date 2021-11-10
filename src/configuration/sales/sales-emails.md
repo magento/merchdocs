@@ -43,7 +43,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Invoice
 
-![]({% link images/images/config-sales-sales-emails-invoice.png %}){: .zoom}
+![]({% link configuration/assets/emails-invoice.png %}){: .zoom}
 [_Invoice_]({% link sales/invoices.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -57,7 +57,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Invoice Comments
 
-![]({% link images/images/config-sales-sales-emails-invoice-comments.png %}){: .zoom}
+![]({% link configuration/assets/emails-invoice-comments.png %}){: .zoom}
 [_Invoice Comments_]({% link sales/invoice-create.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -71,7 +71,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Shipment
 
-![]({% link images/images/config-sales-sales-emails-shipment.png %}){: .zoom}
+![]({% link configuration/assets/emails-shipment.png %}){: .zoom}
 [_Shipment_]({% link sales/shipments.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -85,7 +85,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Shipment Comments
 
-![]({% link images/images/config-sales-sales-emails-shipment-comments.png %}){: .zoom}
+![]({% link configuration/assets/emails-shipment-comments.png %}){: .zoom}
 [_Shipment Comments_]({% link sales/shipments.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -99,7 +99,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Credit Memo
 
-![]({% link images/images/config-sales-sales-emails-credit-memo.png %}){: .zoom}
+![]({% link configuration/assets/emails-credit-memo.png %}){: .zoom}
 [_Credit Memo_]({% link sales/credit-memos.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -113,7 +113,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Credit Memo Comments
 
-![]({% link images/images/config-sales-sales-emails-credit-memo-comments.png %}){: .zoom}
+![]({% link configuration/assets/emails-credit-memo-comments.png %}){: .zoom}
 [_Credit Memo Comments_]({% link sales/credit-memo-create.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -127,7 +127,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Order Ready For Pickup in Store
 
-![]({% link images/images/config-sales-emails-order-ready-pickup.png %}){: .zoom}
+![]({% link configuration/assets/emails-ready-pickup.png %}){: .zoom}
 [_Order Ready For Pickup in Store_]({% link shipping/shipping-in-store-delivery.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

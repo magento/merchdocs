@@ -83,7 +83,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. For _Klarna_, click <span class="btn">Configure</span>.
 
-   ![Klarna]({% link images/images/config-sales-payment-methods-recommended-solutions-klarna.png %}){: .zoom}
+   ![Klarna]({% link payment/assets/payment-methods-klarna.png %}){: .zoom}
    [_Klarna configuration_]({% link configuration/sales/klarna.md %})
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **API Configuration** section.

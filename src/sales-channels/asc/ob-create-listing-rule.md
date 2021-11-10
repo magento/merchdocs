@@ -46,4 +46,4 @@ You can view your Amazon order information in the _Recent Orders_ section of the
 {:.bs-callout .bs-callout-warning}
 There are some important store settings (listings, pricing, rules, fulfillment, more) that have default values for a new store. You should review your [Store Settings]({% link sales-channels/asc/default-store-settings.md %}) to ensure your store is set up for your specific needs.
 
-![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Default Store Settings**]({% link sales-channels/asc/default-store-settings.md %})
+![]({% link assets/icon-next-arrow.png %}){: .Inline} [**Continue to Default Store Settings**]({% link sales-channels/asc/default-store-settings.md %})

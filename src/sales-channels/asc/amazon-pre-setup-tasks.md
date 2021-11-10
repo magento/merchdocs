@@ -69,7 +69,7 @@ You may not want some products to be listed on Amazon. Amazon Sales Channel has 
 
 To help facilitate error-free data transition during integration, we highly recommend setting your Amazon region to `Inactive` status in Settings > Account Info > Vacation Settings. Refer to [Amazon: Listing Status for Vacations][11]{:target="_blank"}. When your setup is complete, change the status back to `Active` in Amazon.
 C
-![]({% link images/images/btn-next.png %}) [**Continue to Creating Commerce Attributes**]({% link sales-channels/asc/ob-creating-magento-attributes.md %})
+![]({% link assets/icon-next-arrow.png %}) [**Continue to Creating Commerce Attributes**]({% link sales-channels/asc/ob-creating-magento-attributes.md %})
 
 [1]: https://services.amazon.com/content/sell-on-amazon.html
 [2]: https://services.amazon.com/content/sell-on-amazon.htm/

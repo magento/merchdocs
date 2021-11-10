@@ -40,9 +40,9 @@ _Google Data Sharing Settings_
 
    - Click **Manage DPA Details** to open a DPA administration page where you can edit contacts and your organization's legal entities.
 
-   - In the **Legal Entities** section, click the **Edit** ( ![]({% link images/images/btn-ga-edit.png %}) ) icon and add one or more registered name(s) for your organization. When complete, click <span class="btn">Save</span>.
+   - In the **Legal Entities** section, click the **Edit** ( ![]({% link stores/assets/google-icon-edit.png %}) ) icon and add one or more registered name(s) for your organization. When complete, click <span class="btn">Save</span>.
 
-   - In the **Contacts** section, click the **Add** ( ![]({% link images/images/btn-ga-add.png %}) ) icon and enter the information for the first contact. Then, select the checkbox of each applicable role and click <span class="btn">Add</span>.
+   - In the **Contacts** section, click the **Add** ( ![]({% link stores/assets/google-icon-add.png %}) ) icon and enter the information for the first contact. Then, select the checkbox of each applicable role and click <span class="btn">Add</span>.
 
         | Primary Contact | (Notification Email Address) The contact to whom notices are sent. |
         | Data Protection Officer | (If applicable) The person who is designated to facilitate privacy regulation compliance. |

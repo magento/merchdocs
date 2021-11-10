@@ -41,7 +41,7 @@ Make sure to scroll down to see all available columns.
 
 1. Enter a **name** for the view.
 
-1. Click the arrow ( ![]({% link images/images/btn-save-all-changes.png %}){: .Inline} ) to save all changes.
+1. Click the arrow ( ![]({% link assets/icon-arrow-save.png %}){: .Inline} ) to save all changes.
 
     The name of the view now appears as the current view.
 

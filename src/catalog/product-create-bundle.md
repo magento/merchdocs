@@ -26,7 +26,7 @@ The following instructions take you through the process of creating a bundle pro
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. In the upper-right corner on the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu, choose **Bundle Product**.
+1. In the upper-right corner on the _Add Product_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Bundle Product**.
 
     ![]({% link catalog/assets/product-add-bundle.png %}){: .zoom}
     _Add Bundle Product_
@@ -215,7 +215,7 @@ Scroll down and complete the information in the following sections as needed:
 
 ## Step 7: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ).
+1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link assets/toggle-yes.png %}) ).
 
 1. Do one of the following:
 
@@ -232,7 +232,7 @@ Scroll down and complete the information in the following sections as needed:
 
    **Method 2:** Save and close
 
-    On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}) ) menu, choose **Save & Close**.
+    On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Save & Close**.
 
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_

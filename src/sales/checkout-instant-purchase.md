@@ -66,7 +66,7 @@ The following example shows how to configure the Braintree vault.
 
 1. Set **Vault Enabled** to `Yes`.
 
-   ![]({% link images/images/config-sales-payment-methods-braintree-basic-settings.png %}){: .zoom}
+   ![]({% link sales/assets/braintree-basic-settings.png %}){: .zoom}
    [_Basic Braintree Settings_]({% link payment/braintree.md %})
 
 ### Step 3: Enable instant purchase

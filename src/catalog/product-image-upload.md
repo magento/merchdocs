@@ -31,7 +31,7 @@ To upload an image, do one of the following:
 
 ### Rearrange images
 
-To change the order of images in the gallery, click the **Sort** ( ![]({% link images/images/btn-sort2.png %}) ) icon at the bottom of the image tile and  drag the image to a different position in the _Images_ box.
+To change the order of images in the gallery, click the **Sort** ( ![]({% link catalog/assets/inventory-icon-sort.png %}) ) icon at the bottom of the image tile and  drag the image to a different position in the _Images_ box.
 
 ![]({% link images/images/product-images-and-videos-drag.png %}){: .zoom}
 _Change Order_

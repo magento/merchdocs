@@ -41,7 +41,7 @@ _Advertise PayPal Credit_
 
 ## Basic Settings - PayPal Payments Standard
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-standard-basic-settings.png %}){: .zoom}
+![]({% link configuration/assets/paypal-standard-basic-settings.png %}){: .zoom}
 _Basic Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

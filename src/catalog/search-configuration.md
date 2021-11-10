@@ -19,7 +19,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the _Catalog Search_ section.
 
-   ![]({% link images/images/config-catalog-catalog-search-elasticsearch-1.png %}){: .zoom}
+   ![]({% link catalog/assets/elasticsearch-1.png %}){: .zoom}
    [_Elasticsearch Settings_]({% link configuration/catalog/catalog.md %})
 
 1. To limit the length and word count of search query text, set a value for **Minimal Query Length** and **Maximum Query Length**.
@@ -44,7 +44,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 {:.bs-callout-info}
 The **Search Engine**, **Elasticsearch Server Hostname**, **Elasticsearch Server Port**, **Elasticsearch Index Prefix**, **Enable Elasticsearch HTTP Auth**, and **Elasticsearch Server Timeout** fields were configured when Commerce was installed or upgraded. These values should only be changed when upgrading or modifying Elasticsearch.
 
-![]({% link images/images/config-catalog-catalog-search-elasticsearch-2.png %}){: .zoom}
+![]({% link catalog/assets/elasticsearch-2.png %}){: .zoom}
 [_Elasticsearch Connection Settings_]({% link configuration/catalog/catalog.md %})
 
 1. For **Search Engine**, accept the default value `Elasticsearch 7`.
@@ -84,7 +84,7 @@ Search suggestions and recommendations can impact server performance.
 
 1. Set **Enable Search Suggestions** to `Yes` and do the following:
 
-   ![]({% link images/images/config-catalog-catalog-search-elasticsearch-3.png %}){: .zoom}
+   ![]({% link catalog/assets/elasticsearch-3.png %}){: .zoom}
    [_Elasticsearch Suggestion and Recommendation Settings_]({% link configuration/catalog/catalog.md %})
 
    - For **Search Suggestions Count**, enter the number of search suggestions to offer.

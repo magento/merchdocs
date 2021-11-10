@@ -32,7 +32,7 @@ _Enable RMA for a product_
    - `Yes` – Send returned products to the store address.
    - `No` – Enter an alternate address for product returns.
 
-   ![]({% link images/images/config-sales-sales-rma-settings-address-info.png %}){: .zoom}
+   ![]({% link sales/assets/rma-address-info.png %}){: .zoom}
    [_RMA Settings with alternate address_]({% link configuration/sales/sales.md %})
 
 1. Click <span class="btn">Save Config</span>.

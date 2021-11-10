@@ -13,8 +13,8 @@ The online status of the product is indicated by the switch at the top of the fo
 
 | Control | Description |
 |----------
-| ![]({% link images/images/btn-switch-yes.png %}) | Indicates that the product is currently online. |
-| ![]({% link images/images/btn-switch-no.png %}) | Indicates that the product is currently offline. |
+| ![]({% link assets/toggle-yes.png %}) | Indicates that the product is currently online. |
+| ![]({% link assets/toggle-no.png %}) | Indicates that the product is currently offline. |
 
 ## Attribute set
 
