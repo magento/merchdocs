@@ -112,7 +112,7 @@ To set up order approval, do the following:
 
 1. Find the company in the list and click **Edit**.
 
-1. Expand ![Expansion selector]({% assets/icon-display-expand.png %}) the **Advanced Settings** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
 1. Set **Enable Purchase Orders** to `Yes`.
 
