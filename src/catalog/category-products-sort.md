@@ -22,7 +22,7 @@ You can set up the category options separately for each [store]({% link stores/s
 
 ## Step 2: Sort the products
 
-In the _Products in Category_ section, click the tiles (![]({% link images/images/btn-view-as-tiles.png %})) icon to show the product tiles in a grid. Use either the **Manual** or **Automatic** method to sort the products.
+In the _Products in Category_ section, click the tiles (![]({% link assets/icon-view-tiles.png %})) icon to show the product tiles in a grid. Use either the **Manual** or **Automatic** method to sort the products.
 
 ![]({% link images/images-ee/category-products-tiles.png %}){: .zoom}
 _Product Tiles_
@@ -42,7 +42,7 @@ _Product Tiles_
 
 ### Method 2: Automatic sort
 
-1. Set **Match products by rule** (![]({% link images/images/btn-switch-yes.png %})) to `Yes`.
+1. Set **Match products by rule** (![]({% link assets/toggle-yes.png %})) to `Yes`.
 
     ![]({% link images/images-ee/category-edit-automatic-sorting.png %}){: .zoom}
     _Match Products by Rule_
@@ -53,7 +53,7 @@ _Product Tiles_
 
 ## Step 3: Create a category rule
 
-1. Set **Match products by rule** (![]({% link images/images/btn-switch-yes.png %})) to `Yes`.
+1. Set **Match products by rule** (![]({% link assets/toggle-yes.png %})) to `Yes`.
 
 1. Click <span class="btn">Add Condition</span> and do the following:
 

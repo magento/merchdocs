@@ -34,6 +34,6 @@ Before modifying quantities and settings, you need to assign [sources]({% link c
 1. Do one of the following to save:
 
    - Click <span class="btn">Save</span>.
-   - On the **Save** (![menu button]({% link assets/icon-menu-down-arrow-red.png %})) menu, choose **Save & Close**.
+   - On the **Save** (![menu button]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"}) menu, choose **Save & Close**.
 
 After assigning sources, update the [inventory quantity]({% link catalog/inventory-product-quantity.md %}) for each product source.

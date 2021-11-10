@@ -30,7 +30,7 @@ In the upper-right corner, click the _Columns_ (![Column icon]({% link assets/ic
 
 1. Enter a name for the view.
 
-1. Click the _Arrow_ (![Arrow icon]({% link images/images/btn-save-all-changes.png %})) to save the view.
+1. Click the _Arrow_ (![Arrow icon]({% link assets/icon-arrow-save.png %})) to save the view.
 
    The name of the view now appears as the current view.
 

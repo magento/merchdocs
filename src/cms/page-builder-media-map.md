@@ -112,7 +112,7 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
    **Method 1:** Copy from URL
 
-   - In the upper-left corner, enter the address in the **Search** box and click the Search (![]({% link images/images/btn-search.png %})) icon.
+   - In the upper-left corner, enter the address in the **Search** box and click the Search (![]({% link assets/icon-magnify-search.png %})) icon.
 
    - Copy the coordinates in the URL and paste them into a notepad.
 

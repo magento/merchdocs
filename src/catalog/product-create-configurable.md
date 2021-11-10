@@ -31,7 +31,7 @@ The properties of each attribute that is used for a configurable product variati
 
 1. On the _Admin_ sidebar, go to  **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose **Configurable Product**.
+1. On the _Add Product_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu at the upper-right corner, choose **Configurable Product**.
 
     ![]({% link catalog/assets/product-add-configurable.png %}){: .zoom}
     _Add configurable product_
@@ -161,7 +161,7 @@ _Progress bar_
 
     ![]({% link catalog/assets/product-create-configurable-step2.png %}){: .zoom}
 
-1. To rearrange the attributes, grab the **Change Order** ( ![]({% link images/images/btn-sort-order-inline.png %}) ) icon and move the section to a new position.
+1. To rearrange the attributes, grab the **Change Order** ( ![]({% link assets/icon-sort-order.png %}) ) icon and move the section to a new position.
 
    The order determines the position of the drop-down lists on the product page.
 
@@ -194,7 +194,7 @@ Use one of the following methods to configure the **images**:
 
    1. For each attribute value, either browse to the images that you want to use for that configuration or drag them to the box.
 
-      If you drag the an image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the **trashcan** (![]({% link images/images/btn-trashcan2.png %}){: .Inline}) icon.
+      If you drag the an image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the **trashcan** (![]({% link assets/icon-delete-trashcan-solid.png %})) icon.
 
       ![]({% link catalog/assets/product-configurable-create-configurations-add-images-unique.png %}){: .zoom}
       _Unique images per SKU_
@@ -319,7 +319,7 @@ Scroll down and complete the information in the following sections as needed:
 
    - **Method 2:** Save and close
 
-      On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %})) menu, choose **Save & Close**.
+      On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"}) menu, choose **Save & Close**.
 
       ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
       _Save & Close_

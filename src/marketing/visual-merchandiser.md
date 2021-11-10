@@ -16,7 +16,7 @@ _Category Products Viewed as Tiles_
 
 1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Products in Category** section.
 
-1. Click the **View as Tiles** ( ![View as tiles]({% link images/images/btn-view-as-tiles.png %}) ) button to display the products as a grid.
+1. Click the **View as Tiles** ( ![View as tiles]({% link assets/icon-view-tiles.png %}) ) button to display the products as a grid.
 
 1. When complete, click <span class="btn">Save Category</span>.
 
@@ -30,7 +30,7 @@ _Category Products Viewed as Tiles_
 
     - **Method 2: Set Position Value**
 
-        In the **Position** field (![Position field]({% link images/images/btn-position.png %}))on the product tile, enter the number where you want the product to appear. Enter the number zero (0) to place the product at the top of the list.
+        In the **Position** field (![Position field]({% link assets/control-position.png %})) on the product tile, enter the number where you want the product to appear. Enter the number zero (0) to place the product at the top of the list.
 
 1. When complete, click <span class="btn">Save Category</span>.
 
@@ -41,12 +41,12 @@ In a clean installation, Adobe Commerce reserves the category ID 2 for the root
 
 |Control|Description|
 |--- |--- |
-|![]({% link images/images/btn-view-as-list.png %}){: .button_height}|View as List|
-|![]({% link images/images/btn-view-as-tiles.png %}){: .button_height}|View as Tiles|
-|![]({% link images/images/btn-no.png %}){: .button_height}|Match by Rule|
-|![]({% link images/images/btn-yes.png %}){: .button_height}|Match by Rule|
+|![]({% link assets/icon-view-list.png %}){: .button_height}|View as List|
+|![]({% link assets/icon-view-tiles.png %}){: .button_height}|View as Tiles|
+|![]({% link assets/toggle-no.png %}){: .button_height}|Match by Rule|
+|![]({% link assets/toggle-yes.png %}){: .button_height}|Match by Rule|
 |![]({% link assets/icon-move.png %}){: .button_height}|Drag|
-|![]({% link images/images/btn-position.png %}){: .button_height}|Position|
-|![]({% link images/images/btn-remove.png %}){: .button_height}|Remove from Category|
-|![]({% link images/images/btn-per-page.png %}){: .button_height}|View Per Page|
-|![]({% link images/images/btn-paginate.png %}){: .button_height}|Go To Next / Previous|
+|![]({% link assets/control-position.png %}){: .button_height}|Position|
+|![]({% link assets/icon-delete-x.png %}){: .button_height}|Remove from Category|
+|![]({% link assets/control-items-per-page.png %}){: .button_height}|View Per Page|
+|![]({% link assets/control-page-display.png %}){: .button_height}|Go To Next / Previous|

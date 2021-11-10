@@ -110,7 +110,7 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 |Carrier|The name of the selected carrier|
 |Title|A descriptive name assigned to the package by the carrier.|
 |Number|The linked tracking number that is assigned to the package.|
-|Action|![]({% link images/images/btn-trashcan2.png %}) - Deletes the package information from the shipment record.|
+|Action|![]({% link assets/icon-delete-trashcan-solid.png %}) - Deletes the package information from the shipment record.|
 |Add|Add another package to the shipment.|
 
 ### Route Information
