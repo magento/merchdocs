@@ -31,7 +31,7 @@ To expand or collapse a section, click either the expand ![]({% link assets/icon
 
 The _Save_ menu includes several options that let you save and continue, save and create a new product, save and duplicate the product, or save and close.
 
-![]({% link images/images/product-save-menu.png %}){: .zoom}
+![]({% link catalog/assets/product-save-menu.png %}){: .zoom}
 _Save Menu_
 
 |Command|Description|

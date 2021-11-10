@@ -104,7 +104,7 @@ _Choose Attribute Set_
 
    If necessary, you can edit the [attribute]({% link stores/attribute-product-create.md %}) to add more values.
 
-    ![]({% link images/images/product-details-downloadable.png %}){: .zoom}
+    ![]({% link catalog/assets/product-details-downloadable.png %}){: .zoom}
     _Product Details_
 
    There might be additional attributes that describe the product. The selection varies by attribute set and you can complete them later.
@@ -149,7 +149,7 @@ _Downloadable Information_
       - To limit downloads per customer, enter the number of **Max. Downloads**.
       - To allow unlimited downloads, select the **Unlimited** checkbox.
 
-    ![]({% link images/images/product-downloadable-link-detail.png %}){: .zoom}
+    ![]({% link catalog/assets/product-downloadable-link-detail.png %}){: .zoom}
     _Link Detail_
 
 1. To add another link, click <span class="btn">Add Link</span> and repeat these steps.
@@ -160,7 +160,7 @@ _Downloadable Information_
 
 1. To complete the information for each sample, click <span class="btn">Add Link</span>.
 
-    ![]({% link images/images/product-downloadable-samples.png %}){: .zoom}
+    ![]({% link catalog/assets/product-downloadable-samples.png %}){: .zoom}
     _Samples_
 
 1. Complete the link detail as follows:

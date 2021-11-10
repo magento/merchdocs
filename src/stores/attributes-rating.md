@@ -14,14 +14,14 @@ _Ratings_
 
 1. In the upper-right corner, click <span class="btn">Add New Rating</span>.
 
-    ![Admin - Ratings]({% link images/images/product-reviews-rating.png %}){: .zoom}
+    ![Admin - Ratings]({% link stores/assets/product-reviews-rating.png %}){: .zoom}
     _Ratings_
 
 1. In the _Rating Title_ section, enter the **Default Value** for the new rating.
 
    If applicable, also enter the translation for each store view.
 
-    ![Rating title settings]({% link images/images/product-rating-title.png %}){: .zoom}
+    ![Rating title settings]({% link stores/assets/product-rating-title.png %}){: .zoom}
     _Rating Title_
 
 1. In the _Rating Visibility_ section, set **Visibility In** to the store view where the rating is to be used.
@@ -35,7 +35,7 @@ _Ratings_
 
 1. If you want to show your rating on the storefront, select the **Is Active** checkbox.
 
-    ![Rating visibility settings]({% link images/images/product-rating-visibility.png %}){: .zoom}
+    ![Rating visibility settings]({% link stores/assets/product-rating-visibility.png %}){: .zoom}
     _Rating Visibility_
 
 1. When complete, click <span class="btn">Save Rating</span>.

@@ -9,7 +9,7 @@ Aside from the absence of the Weight field, the process of creating a virtual pr
 {:.bs-callout-info}
 PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout and recommends that you use either [PayPal Payments Standard]({% link payment/paypal-payments-standard.md %}) or any other PayPal payment gateway to process any order that includes virtual products.
 
-![]({% link images/images/product-virtual-membership.png %}){: .zoom}
+![]({% link catalog/assets/product-virtual-membership.png %}){: .zoom}
 _Virtual Product_
 
 ## Step 1: Choose the product type
