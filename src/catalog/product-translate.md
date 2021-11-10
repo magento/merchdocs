@@ -64,7 +64,7 @@ If your store has multiple views in different languages, the same products are a
 
     - Make sure that the **Create Permanent Redirect for old URL** checkbox is selected.
 
-    ![]({% link images/images/category-translate-url-key.png %})
+    ![]({% link catalog/assets/category-translate-url-key.png %})
 
 1. When complete, click <span class="btn">Save Category</span>.
 

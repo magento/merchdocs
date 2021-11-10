@@ -39,12 +39,12 @@ For an attribute to be used in a targeted rule, the [Use for Promo Rule Conditio
 
 1. In the left panel, choose **Products to Match**. Then, build the condition(s) as you would for a [catalog price rule]({% link marketing/price-rules-catalog.md %}).
 
-    ![Related products rule - products to match]({% link images/images/catalog-related-products-match.png %}){: .zoom}
+    ![Related products rule - products to match]({% link marketing/assets/catalog-related-products-match.png %}){: .zoom}
     _Products to Match_
 
 1. In the left panel, choose **Products to Display**. Then, build the results condition(s) as you would for a [catalog price rule]({% link marketing/price-rules-catalog.md %}).
 
-    ![Related products rule - products to display]({% link images/images/catalog-related-products-to-display.png %}){: .zoom}
+    ![Related products rule - products to display]({% link marketing/assets/catalog-related-products-to-display.png %}){: .zoom}
     _Products to Display_
 
     Complete the condition to describe the products that you want to include in the displayed results.
