@@ -180,4 +180,4 @@ The handling fee is optional and appears as an additional charge that is added t
 1. Click <span class="btn">Save Config</span>.
 
 {:.bs-callout-info}
-Magento does not declare the full order price to UPS when calculating shipping charges. This behavior cannot be changed.
+Commerce does not declare the full order price to UPS when calculating shipping charges. This behavior cannot be changed.
