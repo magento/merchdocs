@@ -42,7 +42,7 @@ The selection of [product reports]({% link reports/product-reports.md %}) includ
 {:.ee-only}
 ### Private Sales
 
-The selection of reports for [private sales and events]({% link reports/statistics.md %}) includes Invitation, Invited Customers, and Conversions.
+The selection of reports for [private sales and events]({% link reports/private-sales-reports.md %}) includes Invitation, Invited Customers, and Conversions.
 
 ### Statistics
 
