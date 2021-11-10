@@ -7,6 +7,8 @@ Company accounts can be set up from the storefront by the customer, or from the 
 
 The person who sets up a company account from the storefront is usually assigned a role as the [company administrator]({% link customers/account-company-admin.md %}). After the request to create a company account is approved, the company administrator can set an account password and log in to the account.
 
+To allow customers to register a company from the storefront, make sure that the [B2B Features]({% link stores/b2b-features.md %}) are configured so that **Allow Company Registration from the Storefront** is set to `Yes`.
+
 ## Method 1: Create company from the storefront
 
 {:.bs-callout-info}
