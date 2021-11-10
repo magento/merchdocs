@@ -148,6 +148,6 @@ Make sure to copy or write down the authentication key. You will need it to set 
    _[FedEx Applicable Countries]({% link configuration/sales/delivery-methods.md %})_
 
 {:.bs-callout-info}
-Please note that Magento always declare the full order price to FedEx when calculating shipping charges. This behavior cannot be changed.
+Commerce always declares the full order price to FedEx when calculating shipping charges. This behavior cannot be changed.
 
 [1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp
