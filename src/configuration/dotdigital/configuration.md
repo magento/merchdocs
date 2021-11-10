@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdi
 
 ## Data Fields
 
-![]({% link configuration/assets/cloud-data-fields.png %}){: .zoom}
+![]({% link configuration/assets/ec-data-fields.png %}){: .zoom}
 _Data Fields_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -41,7 +41,7 @@ _Tracking_
 
 ## Consent
 
-![]({% link configuration/assets/consent.png %}){: .zoom}
+![]({% link configuration/assets/ec-concent.png %}){: .zoom}
 _Consent_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -64,7 +64,7 @@ _Transactional Data_
 
 ## Abandoned Carts
 
-![]({% link configuration/assets/cloud-abandoned-carts.png %}){: .zoom}
+![]({% link configuration/assets/ec-abandoned-carts.png %}){: .zoom}
 _Abandoned Carts_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -80,7 +80,7 @@ _Abandoned Carts_
 
 ## Dynamic Content Styling
 
-![]({% link configuration/assets/cloud-dynamic-content-styling.png %}){: .zoom}
+![]({% link configuration/assets/ec-dynamic-content-styling.png %}){: .zoom}
 _Dynamic Content Styling_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -122,7 +122,7 @@ _Product Link_
 
 ### Applies to Whole Document
 
-![]({% link configuration/assets/applies-to-whole-doc.png %}){: .zoom}
+![]({% link configuration/assets/ec-applies-to-whole-doc.png %}){: .zoom}
 _Applies to Whole Document_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -175,7 +175,7 @@ _Admin_
 
 ## Catalog Sync Settings
 
-![]({% link configuration/assets/cloud-catalog-sync-settings.png %}){: .zoom}
+![]({% link configuration/assets/ec-catalog-sync-settings.png %}){: .zoom}
 _Catalog Sync Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

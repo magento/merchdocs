@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## Abandoned Cart Program
 
-![]({% link configuration/assets/cloud-abandoned-cart-program.png %}){: .zoom}
+![]({% link configuration/assets/ec-abandoned-cart-program.png %}){: .zoom}
 _Abandoned Cart Program_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -38,7 +38,7 @@ _Customer email series settings_
 
 ## Guests
 
-![]({% link configuration/assets/abandoned-carts-guest.png %}){: .zoom}
+![]({% link configuration/assets/ec-abandoned-carts-guest.png %}){: .zoom}
 _Guest email series settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

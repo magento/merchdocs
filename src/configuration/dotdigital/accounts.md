@@ -8,10 +8,10 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## Settings
 
-![]({% link configuration/assets/cloud-accounts-setting-no.png %}){: .zoom}
+![]({% link configuration/assets/ec-settings-no.png %}){: .zoom}
 _Settings - not enabled_
 
-![]({% link configuration/assets/cloud-accounts-settings-yes.png %}){: .zoom}
+![]({% link configuration/assets/ec-accounts-settings-yes.png %}){: .zoom}
 _Settings - enabled_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
