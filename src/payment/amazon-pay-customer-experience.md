@@ -20,7 +20,7 @@ The following information describes the customer experience using Amazon Pay whe
 
    The pagination indicator shows how many addresses are available. However, only four can be displayed at a time.
 
-   - Click the arrow (![]({% link images/images/btn-next2.png %})) to view all available options.
+   - Click the arrow (![]({% link payment/assets/amazon-pay-icon-next.png %})) to view all available options.
 
    - To add a new address to the Address Book, click **Add new**.
 
@@ -38,7 +38,7 @@ The following information describes the customer experience using Amazon Pay whe
    ![Review and Payments]({% link images/images/payments-amazon-pay-checkout-step2-review-payments.png %}){: .zoom}
    _Review & Payments_
 
-   - Click the arrow (![]({% link images/images/btn-next2.png %})) to view all available options.
+   - Click the arrow (![]({% link payment/assets/amazon-pay-icon-next.png %})) to view all available options.
 
    - Choose the **Payment Method** to use for the purchase.
 

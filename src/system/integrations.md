@@ -84,7 +84,7 @@ See [Restricting access to anonymous web APIs][2]{:target="_blank"} in the Comme
 
 1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
 
-1. Find the existing integration and click the icon ( ![trashcan icon]({% link images/images/btn-trashcan2.png %}) ) in the **Delete** column.
+1. Find the existing integration and click the icon ( ![trashcan icon]({% link assets/icon-delete-trashcan-solid.png %}) ) in the **Delete** column.
 
 1. To confirm your action, click <span class="btn">OK</span>.
 

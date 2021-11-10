@@ -78,12 +78,12 @@ The quantity of a configurable product with child options is calculated by combi
 
 | Control  | Description  |
 |----------|--------------|
-| ![]({% link images/images/btn-view-as-list.png %}) | View as List |
-| ![]({% link images/images/btn-view-as-tiles.png %}) | View as Tiles |
-| ![]({% link images/images/btn-no.png %}) | Match by Rule - No|
-|![]({% link images/images/btn-yes.png %}) | Match by Rule - Yes|
+| ![]({% link assets/icon-view-list.png %}) | View as List |
+| ![]({% link assets/icon-view-tiles.png %}) | View as Tiles |
+| ![]({% link assets/toggle-no.png %}) | Match by Rule - No|
+|![]({% link assets/toggle-yes.png %}) | Match by Rule - Yes|
 | ![]({% link assets/icon-move.png %}) | The drag and drop control allows you to grab a product and move it to another position in the current page of the grid. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}). |
-| ![]({% link images/images/btn-position.png %}) | Determines the position of the product in the list. |
+| ![]({% link assets/control-position.png %}) | Determines the position of the product in the list. |
 
 {:.ce-only}
 ## Page controls

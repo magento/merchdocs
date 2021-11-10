@@ -11,7 +11,7 @@ _Keyword search results_
 
 1. Enter a search term into the page search box.
 
-1. Click the Search (![Magnifying glass icon]({% link images/images/btn-search.png %})) icon to display the results.
+1. Click the Search (![Magnifying glass icon]({% link assets/icon-magnify-search.png %})) icon to display the results.
 
    The results include all pages that contain the keyword.
 
@@ -19,7 +19,7 @@ _Keyword search results_
 
 1. If necessary, click **Clear All** to clear the previous search criteria.
 
-1. Click the **Filters** ![Funnel icon]({% link images/images/btn-filter-search.png %}) tab to display the selection of search filters.
+1. Click the **Filters** ![Funnel icon]({% link assets/icon-filter-search.png %}) tab to display the selection of search filters.
 
 1. Complete as many of the filters as necessary to describe the page(s) that you want to find.
 

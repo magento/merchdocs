@@ -81,7 +81,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - To save your work and continue editing, click <span class="btn">Save & Continue</span>.
 
-    - To save your work and return to the Manage Sources page, click the down arrow ( ![]({% link assets/icon-menu-down-arrow-red.png %})) and choose **Save & Close**.
+    - To save your work and return to the Manage Sources page, click the down arrow ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"}) and choose **Save & Close**.
 
     - To save your work on the current source record and enter a new source, choose **Save & New**.
 

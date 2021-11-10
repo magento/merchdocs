@@ -17,7 +17,7 @@ _Grouped Product_
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose **Grouped Product**.
+1. On the _Add Product_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu at the upper-right corner, choose **Grouped Product**.
 
     ![]({% link catalog/assets/product-add-grouped.png %}){: .zoom}
     _Add Grouped Product_
@@ -55,7 +55,7 @@ To add an existing attribute to the product, use the [filter controls]({% link s
 
     Take note that the **Quantity** field is not available because the value is derived from the individual products that make up the group.
 
-1. Because the product is not yet ready to publish, set **Enable Product** to `No` ( ![]({% link images/images/btn-switch-no.png %}) ).
+1. Because the product is not yet ready to publish, set **Enable Product** to `No` ( ![]({% link assets/toggle-no.png %}) ).
 
 1. Click <span class="btn">Save</span> and continue.
 
@@ -125,7 +125,7 @@ To add an existing attribute to the product, use the [filter controls]({% link s
 
 1. Enter a **Default Quantity** for any of the items.
 
-1. To change the order of the products, grab the **Change Order** icon ( ![]({% link images/images/btn-sort-order-inline.png %}) ) in the first column and drag the product to the new position in the list.
+1. To change the order of the products, grab the **Change Order** icon ( ![]({% link assets/icon-sort-order.png %}) ) in the first column and drag the product to the new position in the list.
 
 1. To remove a product from the group, click **Remove**.
 
@@ -161,7 +161,7 @@ Complete the information in the following sections as needed:
 
    **Method 2:** Save and Close
 
-   - On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}) ) menu, choose **Save & Close**.
+   - On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Save & Close**.
 
    ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
    _Save & Close_

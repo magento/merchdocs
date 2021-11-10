@@ -44,11 +44,11 @@ _Tiled Watermark_
     _Refresh Cache_
 
 {:.bs-callout-info}
-You can click **Use Default Value** (![]({% link images/images/btn-use-default.png %})) to restore the default value.
+You can click **Use Default Value** (![]({% link assets/icon-arrow-return.png %})) to restore the default value.
 
 ## Delete a watermark
 
-1. In the lower-left corner of the image, click the **Delete** ( ![]({% link images/images/btn-trashcan2.png %}) ) icon.
+1. In the lower-left corner of the image, click the **Delete** ( ![]({% link assets/icon-delete-trashcan-solid.png %}) ) icon.
 
     ![]({% link images/images/product-image-watermark-delete.png %}){: .zoom}
     _Delete Watermark_
