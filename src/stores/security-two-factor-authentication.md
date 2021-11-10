@@ -28,7 +28,7 @@ The first time a user signs in to the _Admin_, they must set up each [2FA]({% li
 
 1. Complete the settings for each required 2FA method.
 
-   ![Security configuration - 2FA]({% link images/images/config-2fa-general.png %}){: .zoom}
+   ![Security configuration - 2FA]({% link stores/assets/config-2fa-general.png %}){: .zoom}
    _Providers to use_
 
 1. When complete, click <span class="btn">Save Config</span>.

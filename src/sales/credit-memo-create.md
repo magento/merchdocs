@@ -25,7 +25,7 @@ See [Creating an invoice]({% link sales/invoice-create.md %}) for more informati
 
 The refund workflow for orders paid by credit card is determined by the [Payment Action setting]({% link configuration/sales/payment-methods.md %}) in the configuration for each available payment method. Refunds cannot be issued until the transaction is settled.
 
-![]({% link images/images/config-payment-methods-braintree-payment-action-authorize-capture.png %}){: .zoom}
+![]({% link sales/assets/braintree-authorize-capture.png %}){: .zoom}
 _Payment Action Setting_
 
 - If the Payment Action for your configured payment method is set to `Authorize`, you must first generate the invoice from the Admin before a credit memo can be created.

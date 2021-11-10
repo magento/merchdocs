@@ -54,7 +54,7 @@ _Cart with Customizable Option and Price Rule_
 
    - Enter a **SKU** for the option. The option SKU is a suffix that is added to the product SKU.
 
-   - To change the order of the options, click the **Change Order** ![]({% link images/images/btn-sort-order-inline.png %}) icon and drag the option to a new position in the list.
+   - To change the order of the options, click the **Change Order** ![]({% link assets/icon-sort-order.png %}) icon and drag the option to a new position in the list.
 
    ![]({% link catalog/assets/product-customizable-options-move.png %}){: .zoom}
    _Change Order of Options_

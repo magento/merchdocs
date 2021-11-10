@@ -20,7 +20,7 @@ Downloadable file names can include letters and numbers. Either a dash or unders
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose `Downloadable Product`.
+1. On the _Add Product_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu at the upper-right corner, choose `Downloadable Product`.
 
     ![]({% link catalog/assets/product-add-downloadable.png %}){: .zoom}
     _Add Downloadable Product_
@@ -174,7 +174,7 @@ _Downloadable Information_
 
    - To add another sample, click <span class="btn">Add Link</span> and repeat these steps.
 
-   - To change the order of the samples, grab the **Change Order** ( ![]({% link images/images/btn-sort-order-inline.png %}) ) icon and drag the sample to a new position.
+   - To change the order of the samples, grab the **Change Order** ( ![]({% link assets/icon-sort-order.png %}) ) icon and drag the sample to a new position.
 
 ## Step 6: Complete the product information
 
@@ -206,7 +206,7 @@ If you are ready to publish the product in the catalog, set **Enable Product** t
 
 - **Method 2:** Save and Close
 
-   On the _Save_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}) ) menu, choose **Save & Close**.
+   On the _Save_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Save & Close**.
 
    ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
    _Save & Close_

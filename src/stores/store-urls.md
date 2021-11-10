@@ -81,7 +81,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 1. For _Enhanced Security Settings_, do the following:
 
-    ![General configuration - URL enhanced security]({% link images/images/config-general-web-base-urls-secure-hsts.png %}){: .zoom}
+    ![General configuration - URL enhanced security]({% link stores/assets/config-general-web-base-urls-secure-hsts.png %}){: .zoom}
     _Enhanced Security_
 
    - **Enable HTTP Strict Transport Security (HSTS)** — If you want your store to display only secure HTTPS page requests, set to `Yes`.

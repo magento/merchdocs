@@ -164,7 +164,7 @@ Some combinations of settings related to a price display that both include and e
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Fixed Product Taxes** section.
 
-    ![Fixed Product Taxes]({% link images/images/config-sales-tax-orders-fixed-product-taxes.png %} "Fixed Product Taxes"){: .zoom}
+    ![Fixed Product Taxes]({% link tax/assets/fixed-product-taxes.png %} "Fixed Product Taxes"){: .zoom}
     [_Fixed Product Taxes_]({% link configuration/sales/tax.md %})
 
 1. Set **Enable FPT** to either to `Yes` or `No`, according to your requirements.

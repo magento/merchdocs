@@ -85,7 +85,7 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Web API Security Setting** section.
 
-    ![Services configuration - web API security settings]({% link images/images/config-services-magento-web-api-web-api-security.png %}){: .zoom}
+    ![Services configuration - web API security settings]({% link system/assets/web-api-security.png %}){: .zoom}
     _Web API Security_
 
 1. Set **Allow Anonymous Guest Access** to `Yes`.
@@ -98,7 +98,7 @@ See [Restricting access to anonymous web APIs][2]{:target="_blank"} in the Comme
 
 1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
 
-1. Find the existing integration and click the icon ( ![trashcan icon]({% link images/images/btn-trashcan2.png %}) ) in the **Delete** column.
+1. Find the existing integration and click the icon ( ![trashcan icon]({% link assets/icon-delete-trashcan-solid.png %}) ) in the **Delete** column.
 
 1. To confirm your action, click <span class="btn">OK</span>.
 

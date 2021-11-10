@@ -11,7 +11,7 @@ _Customer Login with CAPTCHA_
 
 ## Admin CAPTCHA
 
-For an extra level of security, you can add a CAPTCHA to the Admin Sign In and Forgot Password page. Admin users can reload the displayed CAPTCHA by clicking the Reload ![]({% link images/images/btn-reload.png %}) icon in the upper-right corner of the image. The number of reloads is unlimited.
+For an extra level of security, you can add a CAPTCHA to the Admin Sign In and Forgot Password page. Admin users can reload the displayed CAPTCHA by clicking the Reload ![]({% link stores/assets/CAPTCHA-icon-reload.png %}) icon in the upper-right corner of the image. The number of reloads is unlimited.
 
 ![Admin - Sign in with CAPTCHA]({% link stores/assets/security-captcha-admin.png %}){: .zoom}
 _Admin Sign In with CAPTCHA_

@@ -43,7 +43,7 @@ The following steps continue from the _Chat Settings_ section in the Commerce co
 
    Follow the instructions in the dotdigital knowledge base to [add multiple chat teams][2].
 
-   ![]({% link images/images/config-dotdigital-chat-enabled.png %}){: .zoom}
+   ![]({% link marketing/assets/dotdigital-chat-enabled.png %}){: .zoom}
    _Enable chat_
 
    To learn more, see [Getting Started with Chat][1] in the dotdigital knowledge base.
