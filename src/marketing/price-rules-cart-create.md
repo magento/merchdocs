@@ -190,12 +190,12 @@ The shopping cart price rule actions describe how prices are updated when the co
 
    - In the **Maximum Qty Discount is Applied To** field, enter the maximum quantity of the same product that can qualify for the discount in the same purchase.
 
-   - Set **Apply to Shipping Amount** (![Option toggle]({% link images/images/btn-switch-yes.png %})) as follows:
+   - Set **Apply to Shipping Amount** (![Option toggle]({% link assets/toggle-yes.png %})) as follows:
 
       |Yes |Applies the discount amount separately to the subtotal and shipping amounts. |
       |No |Applies the discount amount only to the subtotal. |
 
-   - To stop processing other rules after this rule is applied, set **Discard Subsequent Rules** (![Option toggle]({% link images/images/btn-switch-yes.png %})) to `Yes`. This setting prevents multiple discounts from being applied to the same product.
+   - To stop processing other rules after this rule is applied, set **Discard Subsequent Rules** (![Option toggle]({% link assets/toggle-yes.png %})) to `Yes`. This setting prevents multiple discounts from being applied to the same product.
 
       |Yes |Prevents any other pricing rules that may apply to a product from being applied. Discarding subsequent rules means that, in the event that multiple pricing rules apply to the same product, only the pricing rule with the highest defined priority (in a rule's Priority field) will be applied to the qualifying product. This prevents multiple pricing rules from stacking and providing unintended additional discounts. |
       |No |Allows multiple pricing rules to apply to the same product. This could result in stacking and providing multiple discounts applied to your listing price. |
