@@ -105,7 +105,7 @@ _Category tree_
    - Meta Keywords
    - Meta Description
 
-   ![]({% link images/images/catalog-categories-search-engine-optimization.png %}){: .zoom}
+   ![]({% link catalog/assets/catalog-categories-search-engine-optimization.png %}){: .zoom}
    [_Search engine optimization_]({% link catalog/categories-search-engine-optimization.md %})
 
 1. Click <span class="btn">Save</span> and continue.

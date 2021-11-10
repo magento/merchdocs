@@ -42,5 +42,5 @@ _Ratings_
 
     The average rating for all reviews is displayed for each product on the catalog product grid page.
 
-     ![Catalog Page]({% link images/images/catalog-rating-page.png %}){: .zoom}
+     ![Catalog Page]({% link stores/assets/catalog-rating-page.png %}){: .zoom}
     _Catalog Page_

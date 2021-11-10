@@ -13,7 +13,7 @@ _Multisite Installation_
 
 1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the _Product in Websites_ section.
 
-    ![]({% link images/images/catalog-product-in-websites-multisite-main-french.png %}){: .zoom}
+    ![]({% link catalog/assets/catalog-product-in-websites-multisite-main-french.png %}){: .zoom}
     _Product in Websites_
 
 1. Select the checkbox of the website where you want to place the copied product.

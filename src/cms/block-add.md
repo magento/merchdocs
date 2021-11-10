@@ -45,7 +45,7 @@ _Blocks page_
 
 1. When complete, click the **Save** arrow and choose **Save & Close**.
 
-   ![The Save menu displays a Save and Close option]({% link images/images/cms-new-block-save-and-close.png %}){: .zoom}
+   ![The Save menu displays a Save and Close option]({% link cms/assets/cms-new-block-save-and-close.png %}){: .zoom}
    _Choosing the Save & Close option_
 
    The new block appears at the bottom of the list in the Blocks grid.
