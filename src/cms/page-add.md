@@ -156,7 +156,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 1. Click the **Save** arrow and choose **Save & Close**.
 
-   ![]({% link images/images/cms-pages-save-and-close.png %}){: .zoom}
+   ![]({% link cms/assets/cms-pages-save-and-close.png %}){: .zoom}
    _Save & Close_
 
 ### Save menu

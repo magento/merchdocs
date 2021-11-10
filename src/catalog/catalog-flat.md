@@ -70,7 +70,7 @@ There are two methods you can use to verify the results.
 
     - When complete, click <span class="btn">Save</span>.
 
-        ![]({% link images/images/catalog-flat-test-category.png %}){: .zoom}
+        ![]({% link catalog/assets/catalog-flat-test-category.png %}){: .zoom}
         _Test Subcategory_
 
     - Expand ![]({% link assets/icon-display-expand.png %}) the **Products in Category** section and click **Reset Filter** to display all products.
@@ -79,7 +79,7 @@ There are two methods you can use to verify the results.
 
     - Click <span class="btn">Save</span>.
 
-        ![]({% link images/images/catalog-flat-test-category-products.png %}){: .zoom}
+        ![]({% link catalog/assets/catalog-flat-test-category-products.png %}){: .zoom}
         _Test Category Products_
 
 1. On a new browser tab, navigate to the home page of your store and use the store navigation to browse to the category you created.

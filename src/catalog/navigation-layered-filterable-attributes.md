@@ -52,7 +52,7 @@ The [Position field]({% link stores/attributes-product.md %}) will be grayed out
 
 1. Click <span class="btn">Save</span>.
 
-   ![]({% link images/images/category-layered-navigation-anchor.png %}){: .zoom}
+   ![]({% link catalog/assets/category-layered-navigation-anchor.png %}){: .zoom}
    _Category Display Settings_
 
 ## Step 3: Test the results
