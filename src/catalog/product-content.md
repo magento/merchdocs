@@ -39,7 +39,7 @@ Enter only plain ASCII characters into the text box. If pasting text from a word
 
 1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
-   ![]({% link images/images/product-simple-content.png %}){: .zoom}
+   ![]({% link catalog/assets/product-simple-content.png %}){: .zoom}
    _Product content_
 
 1. Enter a **Short Description** of the product and format as needed.
