@@ -24,7 +24,7 @@ Before you enable a flat catalog for a live store, make sure to test the configu
 
     - Set **Use Flat Catalog Product** to `Yes`.
 
-    ![]({% link images/images/config-catalog-catalog-storefront-use-flat-catalog.png %}){: .zoom}
+    ![]({% link catalog/assets/use-flat-catalog.png %}){: .zoom}
     _Flat Catalog Configuration_
 
 1. When complete, click <span class="btn">Save Config</span>.

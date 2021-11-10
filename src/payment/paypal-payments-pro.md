@@ -117,7 +117,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Expand **PayPal All-in-One Payment Solution** and click <span class="btn">Configure</span> for **Payments Pro**.
 
-   ![PayPal Payments Advanced]({% link images/images/config-sales-payment-methods-paypal-payments-pro.png %}){: .zoom}
+   ![PayPal Payments Advanced]({% link payment/assets/paypal-payments-pro.png %}){: .zoom}
    _Payments Pro - Configure_
 
 ### Step 2: Complete the required PayPal settings

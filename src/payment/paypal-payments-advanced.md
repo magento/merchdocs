@@ -92,7 +92,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Expand **PayPal All-in-One Payment Solution** and click <span class="btn">Configure</span> for  **Payments Advanced**.
 
-   ![PayPal Payments Advanced]({% link images/images/config-sales-payment-methods-paypal-payments-advanced.png %}){: .zoom}
+   ![PayPal Payments Advanced]({% link payment/assets/paypal-payments-advanced.png %}){: .zoom}
    _Payments Advanced - Configure_
 
 ### Step 2: Complete the required settings
@@ -281,7 +281,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
-   ![Advanced Settings - PayPal Payments Advanced]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advanced-settings.png %}){: .zoom}
+   ![Advanced Settings - PayPal Payments Advanced]({% link payment/assets/paypal-payments-advanced2.png %}){: .zoom}
    _Advanced Settings - PayPal Payments Advanced_
 
 1. Set **Payment Applicable From** to one of the following:

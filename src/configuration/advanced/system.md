@@ -22,7 +22,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
 |Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
 
-![]({% link images/images/config-advanced-system-cron-group-default.png %}){: .zoom}
+![]({% link configuration/assets/cron-group-default.png %}){: .zoom}
 [_Cron Group: Default_]({% link system/cron.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -38,7 +38,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 {:.ee-only}
 ## MySQL Message Queue Cleanup
 
-![]({% link images/images/config-advanced-system-mysql-message-queue-cleanup.png %}){: .zoom}
+![]({% link configuration/assets/mysql-message-queue-cleanup.png %}){: .zoom}
 _MySQL Message Queue Cleanup_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -66,7 +66,7 @@ _MySQL Message Queue Cleanup_
 
 ## Currency
 
-![]({% link images/images/config-advanced-system-currency.png %}){: .zoom}
+![]({% link configuration/assets/system-currency.png %}){: .zoom}
 [_Currency_]({% link stores/currency.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -96,7 +96,7 @@ _MySQL Message Queue Cleanup_
 
 ## Scheduled Backup Settings
 
-![]({% link images/images/config-advanced-system-scheduled-backup-settings.png %}){: .zoom}
+![]({% link configuration/assets/scheduled-backup-settings.png %}){: .zoom}
 [_Scheduled Backup Settings_]({% link system/backups.md %})
 
 {% include backup-deprecated.md %}
@@ -144,7 +144,7 @@ _MySQL Message Queue Cleanup_
 
 ## Storage Configuration for Media
 
-![]({% link images/images/config-advanced-system-storage-cofiguration-for-media-file-system.png %}){: .zoom}
+![]({% link configuration/assets/media-file-system-config.png %}){: .zoom}
 [_Storage Configuration for Media - File System_]({% link cms/media-storage.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

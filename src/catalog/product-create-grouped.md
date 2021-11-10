@@ -182,7 +182,7 @@ If you have a different image for each product in the group, you can set the con
 
 1. Click <span class="btn">Save Config</span>.
 
-   ![]({% link images/images/config-sales-checkout-shopping-cart-grouped-product.png %}){: .zoom}
+   ![]({% link catalog/assets/cart-grouped-product.png %}){: .zoom}
    [_Shopping Cart_]({% link configuration/sales/checkout.md %})
 
 ## Things to remember

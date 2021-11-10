@@ -109,12 +109,12 @@ This setup method assumes you have an existing PayPal account.
 
 1. Expand **PayPal Payment Gateways** (if needed) and click <span class="btn">Configure</span> for **Payflow Pro**.
 
-   ![Configure]({% link images/images/config-sales-payment-methods-paypal-payflow-pro.png %}){: .zoom}
+   ![Configure]({% link payment/assets/payflow-pro.png %}){: .zoom}
    _Payflow Pro - Configure_
 
 ### Step 2: Complete the required PayPal settings
 
-   ![Required Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-required-a.png %}){: .zoom}
+   ![Required Settings]({% link payment/assets/payflow-pro-required-a.png %}){: .zoom}
    _Required PayPal Settings - PayPal Payflow Pro_
 
 1. (Optional) Enter the **Email Associated with your PayPal Merchant Account**.
@@ -332,7 +332,7 @@ To determine when a transaction should be rejected when the Address Verification
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **CVV and AVS Settings** section.
 
-   ![CVV and AVS Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-advanced-settings-cvv-avs.png %}){: .zoom}
+   ![CVV and AVS Settings]({% link payment/assets/payflow-pro-cvv-avs.png %}){: .zoom}
    _CVV and AVS Settings - PayPal Payflow Pro_
 
 1. To reject a transaction based on a mismatched street mismatch, set **AVS Street Does Not Match** to `Yes`.

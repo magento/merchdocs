@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## Address Book Mapping
 
-![]({% link images/images/config-engagement-cloud-sync-settings-address-book.png %}){: .zoom}
+![]({% link configuration/assets/ec-sync-address-book.png %}){: .zoom}
 _Address Book Mapping_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -39,7 +39,7 @@ Choose 'Yes' for each sync type that you want to enable. When first enabled, an 
 
 ## Create Address Book
 
-![]({% link images/images/config-engagement-cloud-sync-settings-create-address-book.png %}){: .zoom}
+![]({% link configuration/assets/ec-sync-create-address-book.png %}){: .zoom}
 _Create Address Book_
 
 Changing an address book with previously synchronized data resets all address book data from your Adobe Commerce or Magento Open Source website so it can be resynchronized with the new address book.

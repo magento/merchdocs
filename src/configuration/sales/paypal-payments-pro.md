@@ -54,7 +54,7 @@ _Basic Settings_
 
 ## Advanced Settings
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-pro-advanced-settings.png %}){: .zoom}
+![]({% link configuration/assets/paypal-advanced-settings.png %}){: .zoom}
 _Advanced Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

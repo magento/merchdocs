@@ -17,7 +17,7 @@ _Terms and Conditions at checkout_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Checkout Options** section.
 
-   ![]({% link images/images/config-sales-checkout-options-terms-conditions-yes.png %}){: .zoom}
+   ![]({% link sales/assets/checkout-terms-options.png %}){: .zoom}
    [_Checkout Options_]({% link configuration/sales/checkout.md %})
 
 1. Verify that **Enable Onepage Checkout** is set to `Yes`.
