@@ -27,6 +27,11 @@ Customers usually reset their passwords from the storefront by clicking the “F
 
    When you receive confirmation that the password is updated, you can use the new password to sign in to your account.
 
+   {:.bs-callout-info}
+   The _reset password_ link is valid by default 24 hours.
+
+   When you receive confirmation that the password is updated, you can use the new password to sign in to your account.
+
 ## Reset a password from the Admin
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
