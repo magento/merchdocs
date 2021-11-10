@@ -2,7 +2,7 @@
 title: Approval Rules
 ---
 
-Most companies have order approval rules for purchase orders. Companies can control who can create purchase orders and how much they can spend.
+Most companies have [order approval]({% link stores/b2b-features.md %}#configure-order-approval) rules for purchase orders. Companies can control who can create purchase orders and how much they can spend.
 For example:
 
 * Any PO less than X value is automatically approved.

@@ -87,3 +87,33 @@ By default, all B2B features are initially disabled. However, they are always av
    You must also enable purchases orders for each [company account]({% link customers/account-company-create.md %}) where you want to activate them.
 
 1. When complete, click <span class="btn">Save Config</span>.
+
+## Configure order approval
+
+The ability to track order processing and purchase orders gives company administrators control over the actions of the company's buyers. The order approval functionality is available when the purchase orders feature is enabled.
+
+To set up order approval, do the following:
+
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **General** and choose **B2B Features**.
+
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Order Approval Configuration** section.
+
+1. To allow companies to create purchase orders, set **Enable Purchase Orders** to `Yes`.
+
+1. When complete, click <span class="btn">Save Config</span>.
+
+   The purchase orders feature is enabled at the website level. To enable this type of order for a company, do the same with the appropriate settings in each company profile.
+
+## Configure purchase orders
+
+1. On the _Admin_ sidebar, go to **Customers** > **Companies**.
+
+1. Find the company in the list and click **Edit**.
+
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
+
+1. Set **Enable Purchase Orders** to `Yes`.
+
+1. When complete, click <span class="btn">Save</span> and check the customer [Account Dashboard]({% link customers/account-dashboard.md %}) on the storefront to confirm display of the **Approval Rules** section.

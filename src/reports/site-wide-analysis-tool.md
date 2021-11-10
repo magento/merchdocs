@@ -62,3 +62,6 @@ If you have verified that the user account has permission to access the Site-Wid
 |Recommendations|Lists recommendations based on best practices to address issues detected on your site.|
 |Exceptions|Lists errors thrown by the application caused by abnormal conditions without a error handler.|
 |Extensions|Lists all 3rd-Party Extensions and 3rd-Party Libraries.|
+
+{:.bs-callout-info}
+After applying a recommendation, it may take a few days for it to be updated in the Site Wide Analysis Dashboard or generated report.

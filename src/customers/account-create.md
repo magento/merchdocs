@@ -9,6 +9,8 @@ Visitors to your store can open an account to manage their purchases and activit
 
 The following instructions represent the default customer account configuration. To change the selection and behavior of some of the fields in the form, see [Configuring Customer Accounts]({% link customers/customer-account-configuration.md %}).
 
+As a store administrator, you can also set the [new account options]({% link customers/account-options-new.md %}) to send a confirmation email to new registered customers, which helps to ensure that registered accounts are valid.
+
 ![]({% link images/images/storefront-create-an-account-link.png %}){: .zoom}
 _Create an Account_
 
