@@ -18,7 +18,7 @@ _Abandoned Cart Program_
 
 ## Customers
 
-![]({% link configuration/assets/abandoned-carts-customers.png %}){: .zoom}
+![]({% link configuration/assets/ec-abandoned-carts-customer.png %}){: .zoom}
 _Customer email series settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
