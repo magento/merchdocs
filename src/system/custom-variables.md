@@ -37,4 +37,17 @@ To meet the specific needs of your business, you can create custom variables and
 
 1. When complete, click <span class="btn">Save</span>.
 
+## Delete custom variable
+
+1. On the _Admin_ sidebar, go to **System** > _Other Settings_ > **Custom Variables**.
+
+1. Find the custom variable to be deleted and open it in edit mode.
+
+1. In the upper-right corner, click <span class="btn">Delete</span>.
+
+1. To confirm the action, click <span class="btn">OK</span>.
+
+{:.bs-callout-info}
+The code of already inserted custom variable will be stayed on the page, block or email template and must be deleted separately.
+
 For information about inserting a custom variable, see [Adding Custom Variables]({% link marketing/variables-custom.md %}#step-2-insert-the-custom-variable).
