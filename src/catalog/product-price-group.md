@@ -45,7 +45,7 @@ _Customer Group Discount_
       |Fixed|Enter the discounted product price.|
       |Discount|Enter the discounted price as a percentage of the product price.|
 
-      ![]({% link images/images/product-price-group-discount.png %}){: .zoom}
+      ![]({% link catalog/assets/product-price-group-discount.png %}){: .zoom}
       _10% Discount Customer Group Price_
 
 1. To add another group price, click <span class="btn">Add</span> and repeat the previous step.

@@ -26,14 +26,14 @@ To upload an image, do one of the following:
 
 - In the _Images_ box, click the **camera** ( ![]({% link assets/icon-camera.png %}){: .Inline}) tile, select the image file on your computer, and click <span class="btn">Open</span>.
 
-    ![]({% link images/images/product-images-and-video-jewel-tee.png %}){: .zoom}
+    ![]({% link catalog/assets/product-images-and-video-jewel-tee.png %}){: .zoom}
     _Upload or Drag and Drop_
 
 ### Rearrange images
 
 To change the order of images in the gallery, click the **Sort** ( ![]({% link catalog/assets/inventory-icon-sort.png %}) ) icon at the bottom of the image tile and  drag the image to a different position in the _Images_ box.
 
-![]({% link images/images/product-images-and-videos-drag.png %}){: .zoom}
+![]({% link catalog/assets/product-images-and-videos-drag.png %}){: .zoom}
 _Change Order_
 
 ### Delete an image
@@ -44,7 +44,7 @@ To remove an image from the gallery, click the **Delete** ( ![]({% link assets/
 
 Click the image that you want to open in detail view and do any of the following:
 
-   ![]({% link images/images/product-image-detail-jewel-tee.png %}){: .zoom}
+   ![]({% link catalog/assets/product-image-detail-jewel-tee.png %}){: .zoom}
    _Image Detail View_
 
   To close detail view, click **Close** ( ![]({% link assets/icon-close-x.png %}) ) in the upper-right corner.
@@ -65,14 +65,14 @@ In the _Role_ box, choose the role that you want to assign to the image.
 
 When you return to the _Images and Videos_ section, the currently assigned roles appear below each image.
 
-![]({% link images/images/product-images-video-swatch.png %}){: .zoom}
+![]({% link catalog/assets/product-images-video-swatch.png %}){: .zoom}
 _Assigned Roles_
 
 #### Hide an image
 
 To exclude an image from the thumbnail gallery, select the **Hidden** checkbox and click <span class="btn">Save</span>.
 
-   ![]({% link images/images/product-images-and-videos-hidden.png %}){: .zoom}
+   ![]({% link catalog/assets/product-images-and-videos-hidden.png %}){: .zoom}
    _Hidden Images_
 
 ## Image roles

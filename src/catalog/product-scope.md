@@ -26,14 +26,14 @@ Although the _Spanish_ store view is selected in the following example, the prod
 
 1. Click <span class="btn">OK</span> to confirm the scope change.
 
-    ![]({% link images/images/product-store-view-spanish-racer-tank.png %}){: .zoom}
+    ![]({% link catalog/assets/product-store-view-spanish-racer-tank.png %}){: .zoom}
     _Store view_
 
 1. Update the field with the new value for the store view.
 
     A checkbox appears below any field that can be edited for the store view. To override the default value, deselect the **Use Default Value** checkbox.
 
-    ![]({% link images/images/product-translate-field-spanish.png %}){: .zoom}
+    ![]({% link catalog/assets/product-translate-field-spanish.png %}){: .zoom}
     _Translating product name for Spanish store view_
 
 1. When complete, click <span class="btn">Save</span>.

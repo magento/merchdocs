@@ -72,7 +72,7 @@ _Choose Attribute Set_
 
    - By default, **Stock Status** is set to `Out of Stock`.
 
-   - Because downloadable products are not shipped, the **Weight** field is not used.
+   - Because downloadable products are not shipped, the **Weight** field is not used. If you enable this feature, it becomes a [Simple product]({% link catalog/product-create-simple.md %}) and the _Is this downloadable product?_ tab cannot be used.
 
     {:.bs-callout-info}
     **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following _Assign Sources and Quantities (Inventory Management)_ section.
@@ -104,7 +104,7 @@ _Choose Attribute Set_
 
    If necessary, you can edit the [attribute]({% link stores/attribute-product-create.md %}) to add more values.
 
-    ![]({% link images/images/product-details-downloadable.png %}){: .zoom}
+    ![]({% link catalog/assets/product-details-downloadable.png %}){: .zoom}
     _Product Details_
 
    There might be additional attributes that describe the product. The selection varies by attribute set and you can complete them later.
@@ -135,6 +135,9 @@ _Downloadable Information_
       |Upload File|Choose this method to upload the distribution file to the server. Browse to the file and select it for upload.|
       |URL|Choose this method to access the distribution file from a URL. Enter the full URL to the download file.|
 
+   {:.bs-callout-info}
+   You cannot use links to external resources as downloadable products. Valid link domains are predefined programmatically in the `env.php` file (see [env.php reference](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-envphp.html#downloadable_domains) in the developer documentation).
+
    - Set **Shareable** to one of the following:
 
       |No|Requires customers to log in to their accounts to access the download link.|
@@ -146,7 +149,7 @@ _Downloadable Information_
       - To limit downloads per customer, enter the number of **Max. Downloads**.
       - To allow unlimited downloads, select the **Unlimited** checkbox.
 
-    ![]({% link images/images/product-downloadable-link-detail.png %}){: .zoom}
+    ![]({% link catalog/assets/product-downloadable-link-detail.png %}){: .zoom}
     _Link Detail_
 
 1. To add another link, click <span class="btn">Add Link</span> and repeat these steps.
@@ -157,7 +160,7 @@ _Downloadable Information_
 
 1. To complete the information for each sample, click <span class="btn">Add Link</span>.
 
-    ![]({% link images/images/product-downloadable-samples.png %}){: .zoom}
+    ![]({% link catalog/assets/product-downloadable-samples.png %}){: .zoom}
     _Samples_
 
 1. Complete the link detail as follows:

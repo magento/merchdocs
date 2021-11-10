@@ -6,7 +6,7 @@ One of the keys to harnessing the power of product types is learning when to use
 
 The following instructions demonstrate the process of creating a simple product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}), as needed.
 
-![]({% link images/images/product-simple.png %}){: .zoom}
+![]({% link catalog/assets/product-simple.png %}){: .zoom}
 _Simple product_
 
 ## Step 1: Choose the product type
