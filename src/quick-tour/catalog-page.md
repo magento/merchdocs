@@ -6,5 +6,5 @@ Catalog page listings typically have small product images and brief descriptions
 
 The initial product description usually gives shoppers just enough information to merit a closer look. People who know what they want can add the product to their carts and go. Customers who shop while logged in to their accounts enjoy a personalized shopping experience.
 
-![Collection page on the storefront]({% link images/images/storefront-collection-page.png %}){: .zoom}
+![Collection page on the storefront]({% link quick-tour/assets/storefront-collection-page.png %}){: .zoom}
 _Catalog page_

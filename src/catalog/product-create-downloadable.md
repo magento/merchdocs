@@ -6,7 +6,7 @@ A downloadable product can be anything that you can deliver as a file, such as a
 
 Because the actual download is not available until after the purchase, you can provide samples, such as an excerpt from a book, a clip from an audio file, or a trailer from a video that the customer can try before purchasing the product. The files that you make available for download can be either uploaded to your server or from a different server.
 
-![]({% link images/images/storefront-product-downloadable.png %}){: .zoom}
+![]({% link catalog/assets/storefront-product-downloadable.png %}){: .zoom}
 _Downloadable Product_
 
 Downloadable products can be configured to require that the customer log in to an account to receive the link or can be sent by email and shared with others. The status of the order before the download becomes available, default values, and other delivery options are set in the configuration. Fore more information, see [Download Options]({% link catalog/product-download-options.md %}).

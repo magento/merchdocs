@@ -49,5 +49,5 @@ Although the _Spanish_ store view is selected in the following example, the prod
 
    - In the upper-right corner of the store, set the **Language Chooser** to the store view of the product that you edited and find the product that you edited for the view.
 
-      ![]({% link images/images/storefront-language-chooser.png %}){: .zoom}
+      ![]({% link catalog/assets/storefront-language-chooser.png %}){: .zoom}
       _Language Chooser_

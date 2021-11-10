@@ -6,7 +6,7 @@ A _block_ is a modular unit of content that can be positioned most anywhere on t
 
 You can create custom blocks of content without writing any code, and assign them to appear in a specific place in the page layout. Blocks can be positioned using the [Widget]({% link cms/widget-static-block.md %}) tool or by composing a [layout update]({% link design/layout-update-place-block.md %}) in XML and saving it on the server. For more information about using layout updates, see the [Layout][1] information in the Frontend Developer Guide.
 
-![]({% link images/images/storefront-blocks-home-page.png %}){: .zoom}
+![]({% link cms/assets/storefront-blocks-home-page.png %}){: .zoom}
 _Blocks on the sample storefront home page_
 
 [1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/frontend-dev-guide/layouts/layout-overview.html

@@ -15,7 +15,7 @@ The data that is used to calculate tables rates is prepared in a spreadsheet and
 {:.bs-callout-info}
 Only one set of table rate data can be active at a time.
 
-![]({% link images/images/storefront-cart-table-rate.png %}){: .zoom}
+![]({% link shipping/assets/storefront-cart-table-rate.png %}){: .zoom}
 _Table Rate in Shopping Cart_
 
 ## Step 1: Complete the default settings

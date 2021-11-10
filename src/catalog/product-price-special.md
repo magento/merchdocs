@@ -4,7 +4,7 @@ title: Special Price
 
 A special price can be offered for a designated period of time. During the specified time period, the special price appears instead of the regular price, followed by a notation that shows the regular price.
 
-![]({% link images/images/storefront-price-special.png %}){: .zoom}
+![]({% link catalog/assets/storefront-price-special.png %}){: .zoom}
 _Special Price on Product Page_
 
 ## Apply special price to an individual product
@@ -144,7 +144,7 @@ The following example shows how to assign the same special price to multiple pro
 
     The special price becomes available in the store on the date specified, and appears in catalog listings as well as on the product page. For a configurable product, the regular price also appears on the product page when the options are chosen.
 
-    ![]({% link images/images/storefront-special-price-configurable-product-detail.png %}){: .zoom}
+    ![]({% link catalog/assets/storefront-special-price-configurable-product-detail.png %}){: .zoom}
     _Special Price for Configurable Product_
 
 ## Testing
