@@ -6,7 +6,7 @@ Customers can speed through checkout by using the payment methods and shipping a
 
 International customers may also have an option to select their preferred currency if you list prices in more than one currency. This multi-currency support allows customers to complete purchases without worrying about currency conversions or rates.
 
-![Amazon Pay on Product Page]({% link images/images/storefront-product-amazon-pay.png %}){: .zoom}
+![Amazon Pay on Product Page]({% link payment/assets/storefront-product-amazon-pay.png %}){: .zoom}
 _Amazon Pay on a product page_
 
 The following information describes the customer experience using Amazon Pay when placing an order from the storefront.

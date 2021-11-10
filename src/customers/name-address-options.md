@@ -62,7 +62,7 @@ The steps for configuring the name and address options are different for Adobe C
 
 ## Configure name and address options for Magento Open Source
 
-![]({% link images/images/storefront-customer-account-signup.png %}){: .zoom}
+![]({% link customers/assets/storefront-customer-account-signup.png %}){: .zoom}
 _[Customer Account sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
 ### Step 1: Set the scope of the configuration
@@ -129,7 +129,7 @@ _[Customer Account sign up form]({% link configuration/customers/customer-config
 
    Customers can use the Calendar icon after the field to choose the birth date from a pop-up calendar.
 
-   ![]({% link images/images/storefront-customer-account-date-of-birth.png %}){: .zoom}
+   ![]({% link customers/assets/storefront-customer-account-date-of-birth.png %}){: .zoom}
    _[Date of Birth in customer sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
 1. To allow customers to enter their tax or [VAT]({% link tax/vat.md %}) number, set **Show Tax/VAT Number** to one of the following:
@@ -142,7 +142,7 @@ _[Customer Account sign up form]({% link configuration/customers/customer-config
    - Optional
    - Required
 
-   ![]({% link images/images/storefront-customer-account-gender.png %}){: .zoom}
+   ![]({% link customers/assets/storefront-customer-account-gender.png %}){: .zoom}
    _[Gender Options in customer sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
 1. To include the following fields in customer forms, set the value of each to `Optional` or `Required`, as needed.
