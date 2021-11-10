@@ -39,9 +39,6 @@ _Tax Zones and Rates_
 {:.bs-callout-info}
 Leave this field empty if you wish to use the tax identifier.
 
-![]({% link images/images/tax-rate-new-tax-titles.png %}){: .zoom}
-_Tax Titles_
-
 1. When complete, click <span class="btn">Save Rate</span>.
 
    ![]({% link images/images/tax-rate-new.png %}){: .zoom}
@@ -61,7 +58,7 @@ _Tax Titles_
 
 1. When complete, click <span class="btn">Save Rate</span>.
 
-## Delete Tax Rate
+## Delete tax rate
 
 1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
 
