@@ -37,7 +37,7 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
       Set **Price** to `Fixed` and enter the adjusted price for one unit at that tier.
 
-      ![]({% link images/images/product-price-tier-fixed.png %}){: .zoom}
+      ![]({% link catalog/assets/product-price-tier-fixed.png %}){: .zoom}
       _Tier Price as a Fixed Amount_
 
    - **Method 2: Enter Price as Percentage**

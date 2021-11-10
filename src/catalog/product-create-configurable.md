@@ -111,7 +111,7 @@ A configurable product must always have a weight. If you select **This item has 
 
 1. Choose the **Country of Manufacture**.
 
-    ![]({% link images/images/product-details-configurable.png %}){: .zoom}
+    ![]({% link catalog/assets/product-details-configurable.png %}){: .zoom}
     _Product Details_
 
     There might be additional attributes that are used to describe the product. The selection varies by attribute set, and you can complete them later.

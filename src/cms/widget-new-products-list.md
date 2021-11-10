@@ -22,7 +22,7 @@ Setting a product as new adds the product to the _New products_ list. You can ch
 
 1. For **Set Product as New**, toggle the option to set the product as a new product or not.
 
-   ![]({% link images/images/product-set-as-new.png %}){: .zoom}
+   ![]({% link cms/assets/product-set-as-new.png %}){: .zoom}
    _Setting the product as new_
 
 1. When complete, click <span class="btn">Save</span>.

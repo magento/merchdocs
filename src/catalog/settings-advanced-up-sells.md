@@ -22,7 +22,7 @@ _Up-Sell_
 
 1. In the list, select the checkbox of any product you want to feature as an up-sell product.
 
-    ![]({% link images/images/product-up-sell-add.png %}){: .zoom}
+    ![]({% link catalog/assets/product-up-sell-add.png %}){: .zoom}
     _Up-Sell Products_
 
 1. When complete, click <span class="btn">Add Selected Products</span>.

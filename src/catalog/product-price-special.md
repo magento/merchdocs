@@ -86,7 +86,7 @@ The following example shows how to assign the same special price to multiple pro
 
 1. Scroll down to the _Special Price_ field and select the **Change** checkbox below the _Special Price_ field and enter the special price that you want to offer.
 
-    ![]({% link images/images/product-price-special-commerce.png %}){: .zoom}
+    ![]({% link catalog/assets/product-price-special-commerce.png %}){: .zoom}
     _Special Price fields_
 
 1. When complete, click <span class="btn">Save</span>.
@@ -106,14 +106,14 @@ The following example shows how to assign the same special price to multiple pro
 
 1. Set **Type** to `Simple Product`.
 
-    ![]({% link images/images/product-price-special-filter.png %}){: .zoom}
+    ![]({% link catalog/assets/product-price-special-filter.png %}){: .zoom}
     _Filters_
 
 1. Click <span class="btn">Apply Filters</span>.
 
     The grid lists all simple products that are associated as variations of the configurable product.
 
-    ![]({% link images/images/product-price-special-filter-grid.png %}){: .zoom}
+    ![]({% link catalog/assets/product-price-special-filter-grid.png %}){: .zoom}
     _Product Variations_
 
 1. If you want to assign the same special price to all of the products, set the control in the header of the first column to `Select All`.
@@ -122,7 +122,7 @@ The following example shows how to assign the same special price to multiple pro
 
 1. Set the **Actions** control to `Update attributes`.
 
-    ![]({% link images/images/product-price-special-action-update-attributes.png %}){: .zoom}
+    ![]({% link catalog/assets/product-price-special-action-update-attributes.png %}){: .zoom}
     _Update Attributes_
 
 1. Scroll down to the _Special Price_ field and do the following:
@@ -135,7 +135,7 @@ The following example shows how to assign the same special price to multiple pro
 
     - Select the **Change** checkbox below the _Special Price To Date_ field, click the **Calendar** ( ![]({% link assets/icon-calendar.png %}) ), and choose the last date of the special price promotion.
 
-    ![]({% link images/images/product-price-special-action-update-attributes-fields.png %}){: .zoom}
+    ![]({% link catalog/assets/product-price-special-action-update-attributes-fields.png %}){: .zoom}
     _Special Price Fields_
 
 1. When complete, click <span class="btn">Save</span>.
