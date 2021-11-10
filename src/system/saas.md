@@ -2,13 +2,13 @@
 title: Commerce Services Connector
 ---
 
-Some Adobe Commerce and Magento Open Source features are powered by Commerce Services and deployed as SaaS (software as a service). To use these services, you must connect your Commerce instance to these services using an API key and a private key, and specify the desired data space in the [configuration]({% link configuration/services/saas.md %}). You only need to set this up once.
+Some Adobe Commerce and Magento Open Source features are powered by Commerce Services and deployed as SaaS (software as a service). To use these services, you must connect your Commerce instance using an API key and a private key, and specify the data space in the [configuration]({% link configuration/services/saas.md %}). You only need to set this up once.
 
-## Available features
+## Available services
 
 The following lists the Commerce features you can access through the Commerce Services Connector:
 
-Feature | Availability
+Service | Availability
 ---|---
 [Product Recommendations powered by Adobe Sensei]({% link marketing/product-recommendations.md %}) | Adobe Commerce
 [Live Search powered by Adobe Sensei]({% link live-search/overview.md %}) | Adobe Commerce
@@ -26,7 +26,7 @@ The following sections discuss each of these elements in more detail.
 
 ## Credentials {#apikey}
 
-When you create a Commerce account, identified by a Commerce ID (MageID), you can generate a Commerce API key and private key. To use Commerce Services, such as Product Recommendations or Live Search, the license-holder must generate these keys in order to pass entitlement validation. These keys can then be passed to the systems integrator or development team that manages the Commerce Services projects and environments on behalf of the license-holder. If you are a solution integrator, you are also entitled to use these services for your own needs. In that case, the signer of the Commerce partner contract should generate the keys.
+The API key and private key are generated from the Commerce account of the license holder, which is identified by a unique Commerce ID (MageID). To pass entitlement validation for services such as Product Recommendations or Live Search, either the license holder or a trusted individual with shared access to the account must generate the set of keys. The keys can be shared on a "need to know" basis with the systems integrator or development team that manages projects and environments on behalf of the license holder. If you are a solution integrator, the signer of the Commerce partner contract should generate the keys.
 
 ### Generate an API key and private key {#genapikey}
 
@@ -53,7 +53,7 @@ When you create a Commerce account, identified by a Commerce ID (MageID), you ca
 
    The **API Keys** section now displays your API key. You will need both the API key and private key when you [select or create a SaaS project](#createsaasenv).
 
-## SaaS Configuration {#saasenv}
+## SaaS configuration {#saasenv}
 
 Commerce instances need to be configured with a SaaS Project and a SaaS Data Space so that Commerce Services can send data to the right location. A SaaS Project groups all of the SaaS Data Spaces. The SaaS Data Spaces are used to collect and store data that enables Commerce Services to work. Some of this data may be exported from the Commerce instance and some may be collected from shopper behavior on the storefront. That data is then persisted to secure cloud storage.
 
@@ -81,7 +81,7 @@ To select or create a SaaS project, request the Commerce API key from the Commer
 
 1. Click **Save Config**.
 
-   When you save, if there are any SaaS projects associated with your API key, those projects will appear in the **SaaS Project** field located in the **SaaS Identifier** section.
+  Any SaaS projects that are associated with your API key appear in the **SaaS Project** field.
 
 1. If no SaaS projects exist, click **Create Project**. Then in the **Project Name** field, enter a name for your SaaS project.
 
