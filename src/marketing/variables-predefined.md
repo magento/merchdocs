@@ -4,7 +4,7 @@ title: Adding Predefined Variables
 
 [Predefined]({% link marketing/variables-predefined.md %}) variables make it easy to personalize [email]({% link marketing/email-templates.md -%}) and [newsletter]({% link marketing/newsletters.md -%}) templates, as well as other types of [content]({% link cms/content-elements.md -%}). The list of allowed [predefined]({% link marketing/variables-predefined.md %}) variables appears when you click the Insert Variable button. As shown in the following image, the list of available variables for a specific email template is determined by the data that is associated with the template. See the [Variable Reference]({% link marketing/variables-reference.md -%}) for a list of frequently-used email templates and their associated variables.
 
-![]({% link images/images/email-template-new-pickup-order-predefined-variables.png %}){: .zoom}
+![]({% link marketing/assets/email-template-new-pickup-order-predefined-variables.png %}){: .zoom}
 _Predefined Variables for Email Template_
 
 ## Add a variable to an email template
@@ -38,7 +38,7 @@ _Predefined Variables for Email Template_
 
    When the preview opens in a new tab, determine where you want to place the variable in relation to the other content. Then return to the original tab to continue.
 
-   ![]({% link images/images/email-template-new-pickup-order-preview.png %}){: .zoom}
+   ![]({% link marketing/assets/email-template-new-pickup-order-preview.png %}){: .zoom}
    _Preview Template_
 
 1. In the **Template Content** box, position the insertion point where you want the variable to appear and click <span class="btn">Insert Variable</span>.
@@ -47,7 +47,7 @@ _Predefined Variables for Email Template_
 
    In this example, the `Order Items Grid` variable is added to the template.
 
-   ![]({% link images/images/email-template-content.png %}){: .zoom}
+   ![]({% link marketing/assets/email-template-content.png %}){: .zoom}
    _Email Template Content_
 
 1. When complete, click <span class="btn">Save Template</span>.
