@@ -4,7 +4,7 @@ title: PayPal Payflow Pro
 
 PayPal Payflow Pro gateway, formerly known as _Verisign_, is available for customers of the United States, Canada, Australia, and New Zealand. Unlike other PayPal payment methods, merchants are charged a fixed monthly fee, plus a fixed fee for each transaction, regardless of the number.
 
-![Checkout with PayPal]({% link images/images/storefront-cart-paypal.png %}){: .zoom}
+![Checkout with PayPal]({% link payment/assets/storefront-cart-paypal.png %}){: .zoom}
 _Checkout with PayPal_
 
 {:.bs-callout-warning}

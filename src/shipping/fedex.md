@@ -4,7 +4,7 @@ title: FedEx
 
 FedEx is one of the world’s largest shipping service companies, providing air, freight, and ground shipping services with several levels of priorities.
 
-![]({% link images/images/storefront-checkout-shipping-fedex.png %}){: .zoom}
+![]({% link shipping/assets/storefront-checkout-shipping-fedex.png %}){: .zoom}
 *FedEx Shipping Options at Checkout*
 
 {:.bs-callout-info}

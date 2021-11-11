@@ -5,7 +5,7 @@ group: catalog
 
 You can customize the format of date and time fields, and select the input control that is used for data entry. Dates values can be selected from a drop-down list, or pop-up calendar.
 
-![Example - storefront popup calendar]({% link images/images/storefront-popup-calendar.png %}){: .zoom}
+![Example - storefront popup calendar]({% link stores/assets/storefront-popup-calendar.png %}){: .zoom}
 _Pop-up Calendar_
 
 ## Format date/time fields

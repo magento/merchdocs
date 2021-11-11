@@ -53,7 +53,7 @@ There are two methods you can use to verify the results.
 
         If necessary, refresh the page to see the results. The change will appear within the minute or according to your [Cron]({% link system/cron.md %}) schedule.
 
-        ![]({% link images/images/storefront-flat-catalog-enabled.png %}){: .zoom}
+        ![]({% link catalog/assets/storefront-flat-catalog-enabled.png %}){: .zoom}
         _Storefront with Flat Catalog_
 
 ### Method 2: Verify the results for a category

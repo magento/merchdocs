@@ -4,7 +4,7 @@ title: Up-sells
 
 Up-sell products are items that your customer might prefer instead of the product currently considered. An item offered as an up-sell might be of a higher quality, more popular, or have better profit margin. Up-sell products appear on the product page under a heading such as _You may also be interested in the following product(s)_.
 
-![]({% link images/images/storefront-product-upsell.png %}){: .zoom}
+![]({% link catalog/assets/storefront-product-upsell.png %}){: .zoom}
 _Up-Sell_
 
 ## Select up-sell products

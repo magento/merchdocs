@@ -13,7 +13,7 @@ The attribute properties, combined with the product input type, determine which 
 ![]({% link catalog/assets/storefront-layered-navigation-filtered.png %}){: .zoom}
 _Filterable Attributes In Layered Navigation_
 
-![]({% link images/images/storefront-product-attribute-filter-no-results.png %}){: .zoom}
+![]({% link catalog/assets/storefront-product-attribute-filter-no-results.png %}){: .zoom}
 _Filterable Swatch Value with No Results_
 
 The following instructions show how to set up basic layered navigation with filterable attributes. For advanced layered navigation with price steps, see [Price Navigation]({% link catalog/navigation-layered-price.md %}).
@@ -78,7 +78,7 @@ You can use the following steps to remove filterable attribute values with 0 Pro
 
 1. Under _Attribute Information_ , click **Storefront Properties**.
 
-   ![]({% link images/images/storefront-properties-tab.png %}){: .zoom}
+   ![]({% link catalog/assets/storefront-properties-tab.png %}){: .zoom}
    _Attribute Information section_
 
 1. For **Layered Navigation**, choose `Filterable (with results)`.

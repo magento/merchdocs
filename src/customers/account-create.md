@@ -11,7 +11,7 @@ The following instructions represent the default customer account configuration.
 
 As a store administrator, you can also set the [new account options]({% link customers/account-options-new.md %}) to send a confirmation email to new registered customers, which helps to ensure that registered accounts are valid.
 
-![]({% link images/images/storefront-create-an-account-link.png %}){: .zoom}
+![]({% link customers/assets/storefront-create-an-account-link.png %}){: .zoom}
 _Create an Account_
 
 ## Create account from storefront
@@ -24,7 +24,7 @@ A store customer creates a new account on the storefront.
 
 1. Under **Personal Information**, enter your **First Name** and **Last Name**.
 
-    ![]({% link images/images/storefront-create-account-personal-information.png %}){: .zoom}
+    ![]({% link customers/assets/storefront-create-account-personal-information.png %}){: .zoom}
     _Personal Information_
 
 1. If you want to add your name and email address to the list of newsletter subscribers, select the **Sign Up for Newsletter** checkbox.
@@ -37,7 +37,7 @@ A store customer creates a new account on the storefront.
 
     This email address will become part of your sign-in credentials, and cannot be associated with any other customer account.
 
-    ![]({% link images/images/storefront-create-account-signin-information.png %}){: .zoom}
+    ![]({% link customers/assets/storefront-create-account-signin-information.png %}){: .zoom}
     _Sign-in Information_
 
 1. Enter a **Password** that includes three of the following types of information:
@@ -49,7 +49,7 @@ A store customer creates a new account on the storefront.
 
     After you press **Enter**, the strength of the password is evaluated and appears below the field. If the password is considered to be _Weak_, try another until it evaluated as _Strong_.
 
-    ![]({% link images/images/storefront-customer-account-create-password-strong.png %}){: .zoom}
+    ![]({% link customers/assets/storefront-customer-account-create-password-strong.png %}){: .zoom}
 
     Then, enter it again to **Confirm Password**.
 
