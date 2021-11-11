@@ -89,7 +89,7 @@ You can issue any needed refunds via [credit memo]({% link sales/credit-memo-cre
 
 1. Update the order as needed.
 
-    ![]({% link images/images/sales-order-edit.png %}){: .zoom}
+    ![]({% link sales/assets/order-edit.png %}){: .zoom}
     _Edit Order_
 
 1. Apply your changes:
@@ -106,7 +106,7 @@ If the customer’s preferred method of payment is not available or if the item 
 
 1. Click **Hold** to place the order on hold.
 
-    ![]({% link images/images/sales-order-hold.png %}){: .zoom}
+    ![]({% link sales/assets/order-hold.png %}){: .zoom}
     _Hold Order_
 
 To remove the hold on an order, edit the order again and click **Unhold**.
@@ -121,7 +121,7 @@ Canceling an order changes its status from `Pending` to `Canceled`.
 
 1. Click **Cancel** to cancel the order.
 
-    ![]({% link images/images/sales-order-cancel.png %}){: .zoom}
+    ![]({% link sales/assets/order-cancel.png %}){: .zoom}
     _Cancel Order_
 
 The status of the order is now `Canceled`.

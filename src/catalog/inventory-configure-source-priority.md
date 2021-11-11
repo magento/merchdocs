@@ -35,4 +35,4 @@ _Source order after prioritization_
 | Icon                                                        | Description                                                    |
 |-------------------------------------------------------------|----------------------------------------------------------------|
 | ![]({% link catalog/assets/drag-and-drop-action.png %})      | Allows to drag and drop sources according to priority.         |
-| ![]({% link images/images/delete-action.png %})             | Unassigning a source to a stock.                               |
+| ![]({% link catalog/assets/delete-action.png %})             | Unassigning a source to a stock.                               |

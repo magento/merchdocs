@@ -57,7 +57,7 @@ For a multistore installation, a different main menu can be assigned as the [roo
 
    Because the depth of the top navigation has a global [configuration scope]({% link configuration/scope.md %}), the setting applies to all websites, stores, and store views in the Commerce installation. The Category Top Navigation configuration section is available only when Store View in the upper-left corner is set to “Default Config”.
 
-   ![]({% link images/images/configuration-store-view-default-config.png %}){: .zoom}
+   ![]({% link catalog/assets/configuration-store-view-default-config.png %}){: .zoom}
    _Default Config_
 
 1. To limit the number of subcategories that appear in the top navigation, enter the number in the **Maximal Depth** field.
