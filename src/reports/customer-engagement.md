@@ -165,5 +165,5 @@ If you leave this field empty, a security check does not run. We do not recommen
    * 48 hours
    * 72 hours
 
-    ![System Alerts]({% link images/images/system.alerts.block.png %}){: .zoom}
+    ![System Alerts]({% link reports/assets/system.alerts.block.png %}){: .zoom}
     _System Alerts_

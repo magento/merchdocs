@@ -22,7 +22,7 @@ _Related Products_
 
 1. In the list, select the checkbox of any product you want to feature as a related product.
 
-    ![]({% link images/images/products-related-add.png %}){: .zoom}
+    ![]({% link catalog/assets/products-related-add.png %}){: .zoom}
     _Related Products_
 
 1. When complete, click <span class="btn">Add Selected Products</span>.

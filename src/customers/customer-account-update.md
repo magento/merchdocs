@@ -4,7 +4,7 @@ title: Updating a Customer Profile
 
 The left panel of the Customer Information page includes information about customer activity, such as when the customer last signed in or out of their account, addresses, order statistics, recent orders, shopping cart contents, product reviews, newsletter subscriptions, and so on.
 
-![]({% link images/images/cust-profile.png %}){: .zoom}
+![]({% link customers/assets/cust-profile.png %}){: .zoom}
 _Customer Profile_
 
 ## Update a customer profile

@@ -15,12 +15,12 @@ Use the _Update Attributes_ tool to change one or more attributes in your produc
 
 1. Click the **Actions** menu at the top and choose **Update Attributes**.
 
-    ![]({% link images/images/bulk-product-updating-action.png %}){: .zoom}
+    ![]({% link stores/assets/bulk-product-updating-action.png %}){: .zoom}
      _Select products to be updated_
 
 1. Update the attribute, advanced inventory, or website data for the selected products, according to your needs.
 
 1. When finished, click <span class="btn">Save</span>.
 
-    ![]({% link images/images/bulk-pproduct-attribute-update.png %}){: .zoom}
+    ![]({% link stores/assets/bulk-pproduct-attribute-update.png %}){: .zoom}
     _Bulk updating for attributes_
