@@ -6,7 +6,7 @@ The _Layout_ section of the Page Builder panel is used to add rows, columns, or 
 
 By default, the Page Builder stage is empty. As you drag layout content types from the panel to the [stage]({% link cms/page-builder-workspace.md %}#stage), you can place them above, below, or inside other layout containers on the page. Rows can only be added directly to the stage.
 
-![]({% link cms/assets/page-builder-stage-toolbox.png %}){: .zoom}
+![]({% link cms/assets/pb-stage-toolbox.png %}){: .zoom}
 _Page Builder panel with layout content types and stage_
 
 ## Layout content types

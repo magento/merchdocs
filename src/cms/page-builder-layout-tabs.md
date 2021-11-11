@@ -4,7 +4,7 @@ title: Layout - Tabs
 
 Use the _Tabs_ content type to add a set of tabs in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). When you drag the Tabs placeholder from the panel to the stage, a single default tab initially appears. You can add more tabs as needed to create a full set. The width of the tab set is determined by the width of its parent container and padding settings.
 
-![]({% link cms/assets/page-builder-layout-tab-example.png %}){: .zoom}
+![]({% link cms/assets/pb-layout-tab-example.png %}){: .zoom}
 _Set of tabs_
 
 {% include page-builder-save-timeout.md %}
@@ -15,7 +15,7 @@ When you are working with the _Tabs_ content type, you add and edit individual t
 
 ### Individual tab toolbox
 
-![]({% link cms/assets/page-builder-layout-tab1-toolbox.png %}){: .zoom}
+![]({% link cms/assets/pb-layout-tab1-toolbox.png %}){: .zoom}
 _Tab toolbox_
 
 |Tool|Icon|Description|
@@ -27,7 +27,7 @@ _Tab toolbox_
 
 ### Tabs container toolbox
 
-![]({% link cms/assets/page-builder-tabs-toolbox-settings.png %}){: .zoom}
+![]({% link cms/assets/pb-tabs-toolbox-settings.png %}){: .zoom}
 _Tab container toolbox_
 
 |Tool|Icon|Description|
@@ -45,14 +45,14 @@ _Tab container toolbox_
 
 1. In the Page Builder panel under _Layout_, drag the **Tabs** placeholder directly to the stage or to a row or column on the stage.
 
-   ![]({% link cms/assets/page-builder-layout-tabs-drag-row.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-tabs-drag-row.png %}){: .zoom}
    _Dragging tabs to a row_
 
 1. Click the **Tab 1** label to display the individual tab toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
 1. Enter the **Tab Name** that you want to use as a label.
 
-   ![]({% link cms/assets/page-builder-layout-tab1-toolbox-settings-general-tab-name.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-tab1-toolbox-settings-general-tab-name.png %}){: .zoom}
    _Entering the tab name_
 
 1. If needed, enter the **Minimum Height** for the tab.
@@ -80,7 +80,7 @@ The following steps start with an individual tab and create a set of three tabs 
 
 1. Click in the YourName **Copy** label to display the cursor and enter you own label for the third tab.
 
-![]({% link cms/assets/page-builder-layout-tabs3-toolbox-main.png %}){: .zoom}
+![]({% link cms/assets/pb-layout-tabs3-toolbox-main.png %}){: .zoom}
 _Matching set of tabs with toolbox_
 
 ## Move a tab within the set
@@ -101,7 +101,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    See [Elements - Text]({% link cms/page-builder-elements-text.md %}) for more information about working with the tex content type.
 
-   ![]({% link cms/assets/page-builder-layout-tab-text.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-tab-text.png %}){: .zoom}
    _Editing text content added on the tab_
 
 1. In the upper-right corner, click <span class="btn">Save</span>.
@@ -234,7 +234,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 1. Choose the **Tab Navigation Alignment** to position the navigation tabs along the top of the tab set (Left, Center, or Right).
 
-   ![]({% link cms/assets/page-builder-layout-tabs-navigation-alignment-right.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-tabs-navigation-alignment-right.png %}){: .zoom}
    _Right-aligned navigation tabs_
 
 1. Set the Advanced options for the tab set:

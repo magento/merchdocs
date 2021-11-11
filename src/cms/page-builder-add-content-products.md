@@ -16,12 +16,12 @@ The product carousel provides a powerful and engaging way to show off your produ
 
 - Set the **Carousel Mode** to `Continuous` in order to highlight, center, and scroll one product at a time within the carousel. The other products will be visible in the list, but transparent in order to highlight the centered product.
 
-   ![]({% link cms/assets/page-builder-products-settings_carousel-continuous.png %}){: .zoom}
+   ![]({% link cms/assets/pb-products-settings_carousel-continuous.png %}){: .zoom}
    _Product list in continuous carousel mode_
 
 - Keep the **Carousel Mode** set to `Default` to show and scroll up to five products at a time within the carousel.
 
-   ![]({% link cms/assets/page-builder-products-settings_carousel-default.png %}){: .zoom}
+   ![]({% link cms/assets/pb-products-settings_carousel-default.png %}){: .zoom}
    _Product list in default carousel mode_
 
 The following instructions show how to add a Products list to a block. You can then use a [widget]({% link cms/widgets.md %}) to place the block at a specific location on any page in your store.
@@ -72,7 +72,7 @@ Complete the _Settings_ according to the following sections:
    | Product Grid     | Displays the products within a grid that shows five products per row (by default), with as many rows as needed to display the number entered in the **Number of Products to Display** setting.  |
    | Product Carousel | Displays the products within a carousel (also known as a slider). The carousel shows up to five products per slide. <br/><br/>**Responsiveness Alert**: When you select this appearance, it is best to add the Products content type directly to a row, tab, or one-column layout where it is responsive, showing fewer products per side on smaller screens. If you add it to content types that are narrower than the width of the page (such as a narrow column), the carousel will display more products per slide than the container allows, regardless of the screen size. |
 
-   ![Product appearance]({% link cms/assets/page-builder-products-appearances.png %}){: .zoom}
+   ![Product appearance]({% link cms/assets/pb-products-appearances.png %}){: .zoom}
    _Setting the product appearance_
 
    If you choose the product carousel, you must also configure the [Carousel Settings](#carousel-settings).
@@ -83,26 +83,26 @@ Complete the _Settings_ according to the following sections:
 
    - **Category** - Choose this option to display products using a selected category.
 
-      ![Product selection by category]({% link cms/assets/page-builder-products-settings_category.png %}){: .zoom}
+      ![Product selection by category]({% link cms/assets/pb-products-settings_category.png %}){: .zoom}
       _Selecting products by category_
 
       When selected, this option provides a **Category** selector. Click the arrow and drill down to choose the category of products to display. For example, in the Commerce sample data, drilling in and selecting the _Women > Tops > Tees_ displays all products for that category.
 
-      ![Selecting a catalog category]({% link cms/assets/page-builder-select-products-by-category.png %}){: .zoom}
+      ![Selecting a catalog category]({% link cms/assets/pb-select-products-by-category.png %}){: .zoom}
       _Selecting the women's tees category_
 
    - **SKU** - Choose this option to display products using one or more SKUs
 
       When selected, this option provides a **Product SKUs** text box where you must enter a comma-separated list of SKUs to display.
 
-      ![Product selection by SKU]({% link cms/assets/page-builder-products-settings_sku.png %}){: .zoom}
+      ![Product selection by SKU]({% link cms/assets/pb-products-settings_sku.png %}){: .zoom}
       _Selecting products by SKU_
 
    - **Condition** - Choose this option to display products according to one or more conditions that you define.
 
       When selected, there are tools available to add conditions to your products selection. For example, you could select only products with a Gender set to Unisex.
 
-      ![Product selection by condition]({% link cms/assets/page-builder-products-settings_condition.png %}){: .zoom}
+      ![Product selection by condition]({% link cms/assets/pb-products-settings_condition.png %}){: .zoom}
       _Selecting products by condition_
 
    <div class="bs-callout bs-callout-info" markdown="1">
@@ -125,7 +125,7 @@ Complete the _Settings_ according to the following sections:
    |Price: high to low|Sorts products from highest to lowest price.
    |Price: low to high|Sorts products from lowest to highest price.
 
-   ![Product sorting options]({% link cms/assets/page-builder-products-sortby.png %}){: .zoom}
+   ![Product sorting options]({% link cms/assets/pb-products-sortby.png %}){: .zoom}
    _Choosing the product sorting option_
 
 1. Enter the **Number of Products to Display** in the carousel or grid.
@@ -147,7 +147,7 @@ Complete the _Settings_ according to the following sections:
 
    If you switch between these two modes, the other carousel settings are retained, with the exception of the **Infinite Loop** setting, which is always set to `Yes` in Continuous mode and the field is disabled.
 
-   ![Carousel Settings]({% link cms/assets/page-builder-products-carousel-settings.png %}){: .zoom}
+   ![Carousel Settings]({% link cms/assets/pb-products-carousel-settings.png %}){: .zoom}
    _Carousel Settings_
 
 1. If needed, set the **Autoplay** option to `Yes`.
@@ -218,7 +218,7 @@ In the upper-right corner, click <span class="btn">Save</span> to apply the sett
 
 If you configured a product carousel, it should look similar to the following example:
 
-![Product carousel on the stage]({% link cms/assets/page-builder-products-admin-carousel.png %}){: .zoom}
+![Product carousel on the stage]({% link cms/assets/pb-products-admin-carousel.png %}){: .zoom}
 _Products carousel on the stage_
 
 You can now use a [widget]({% link cms/widgets.md %}) to place this block wherever you want it to appear in the store. Or, you can use [Add Content - Block]({% link cms/page-builder-add-content-block.md %}) to add the block to an existing page, tab, or block.

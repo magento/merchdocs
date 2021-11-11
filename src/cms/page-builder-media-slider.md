@@ -4,7 +4,7 @@ title: Media - Slider
 
 Use the _Slider_ content type to add a slideshow of images to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). You can upload new images or choose existing images from the gallery or product catalog. A slider can be set to play automatically or be controlled manually with navigation buttons. To associate the slider with a specific promotion, see [Dynamic Block]({% link cms/page-builder-add-dynamic-block.md %}).
 
-![]({% link cms/assets/page-builder-media-slider-buy3-get1free-storefront.png %}){: .zoom}
+![]({% link cms/assets/pb-media-slider-buy3-get1free-storefront.png %}){: .zoom}
 _Media slider on the storefront_
 
 {% include page-builder-save-timeout.md %}
@@ -15,7 +15,7 @@ When you are working with the Slider content type, you add and edit individual s
 
 ## Individual slide toolbox
 
-![]({% link cms/assets/page-builder-media-slider-toolbox-slide-row.png %}){: .zoom}
+![]({% link cms/assets/pb-media-slider-toolbox-slide-row.png %}){: .zoom}
 _Individual slide toolbox_
 
 |Tool|Icon|Description|
@@ -46,7 +46,7 @@ _Individual slide toolbox_
 
    In the following example, the background color of the row is yellow (`#fffd16`).
 
-   ![]({% link cms/assets/page-builder-media-slider-drag-row.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-drag-row.png %}){: .zoom}
    _Dragging the slider to the stage_
 
    The slider container is displayed on the stage with a single, empty slide.
@@ -80,7 +80,7 @@ You can save time by duplicating a slide that has already been configured with t
 
 1. Click the navigation dot below the slide to display the toolbox and choose the Duplicate ( ![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
 
-   ![]({% link cms/assets/page-builder-media-slider-duplicate-slide.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-duplicate-slide.png %}){: .zoom}
    _Duplicating a slide_
 
 1. Click the navigation dot for the new slide and to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
@@ -98,12 +98,12 @@ You can save time by duplicating a slide that has already been configured with t
 
 1. Hover over the slider container at the top to display the toolbox and choose the _Add_ (![]({% link images/images-ee/icon-pb-add.png %})) icon.
 
-   ![]({% link cms/assets/page-builder-media-slider-toolbox-add.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-toolbox-add.png %}){: .zoom}
    _Adding a blank slide_
 
    A new blank slide with its own navigation dot and toolbox is added to the slider and displayed on the stage.
 
-   ![]({% link cms/assets/page-builder-media-slider-slide2-toolbox.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-slide2-toolbox.png %}){: .zoom}
    _New slide with toolbox_
 
 1. Click the navigation dot for the new slide and to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
@@ -149,7 +149,7 @@ You can add any [widgets type]({% link cms/widget-types.md %}) to your slide in 
 
 To display each slide on the stage, click the next dot below the currently displayed slide.
 
-![]({% link cms/assets/page-builder-media-slider-slide2.png %}){: .zoom}
+![]({% link cms/assets/pb-media-slider-slide2.png %}){: .zoom}
 _Completed slider_
 
 The slide in the preceding example has a background image, a transparent mobile image, and an inline image that was added from the text editor. This technique works well on mobile devices by turning off the background image, and displaying only the smaller inline image. The product slide in this example has the following additional settings:
@@ -194,7 +194,7 @@ The slide in the preceding example has a background image, a transparent mobile 
 
    When you are working in edit mode, the slide name appears as a tooltip above the navigation dot. The slide name is not visible from the storefront.
 
-   ![]({% link cms/assets/page-builder-media-slider-name-buy3-get1free.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-name-buy3-get1free.png %}){: .zoom}
    _Slide name in the navigation_
 
 1. Enter the **Minimum Height** for the slide.
@@ -348,7 +348,7 @@ You can modify the slide content directly on the stage or when you are changing 
 
    - **Category** - Identifies the destination page as a specific category or subcategory in the category tree. Search for the category based on either a partial or full name. Choose the category from the expanded section of the displayed tree.
 
-      ![]({% link cms/assets/page-builder-settings-link-category-womens-tees.png %}){: .zoom}
+      ![]({% link cms/assets/pb-settings-link-category-womens-tees.png %}){: .zoom}
       _Choosing a category to link_
 
    - **Page** - Identifies the destination page as a specific content page. Search for the page based on either a partial or full name. Choose the page from the search results list.
@@ -398,7 +398,7 @@ You can modify the slide content directly on the stage or when you are changing 
 
    You can use an overlay to apply a background color to the active content area that is defined by the Appearance setting. The slide background image continues to be visible for the full width of the slide.
 
-   ![]({% link cms/assets/page-builder-media-slider-overlay-settings.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-overlay-settings.png %}){: .zoom}
    _Slide overlay settings_
 
    If you choose to show an overlay, set the **Overlay Color**:
@@ -461,19 +461,19 @@ If you want a title above the slider, simply add a [Text content type] above the
 
    As you do this, a red guideline marks the insertion point above the slider.
 
-   ![]({% link cms/assets/page-builder-media-slider-elements-text-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-elements-text-drag.png %}){: .zoom}
    _Dragging a text placeholder above a slider_
 
 1. Use the editor to format the text as needed.
 
-   ![]({% link cms/assets/page-builder-media-slider-elements-text-editor.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-elements-text-editor.png %}){: .zoom}
    _Editing the slider title text_
 
 ## Change slider settings
 
 1. Hover over the slider container to show the main toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-   ![]({% link cms/assets/page-builder-media-slider-tee-shirts-main-toolbox.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-tee-shirts-main-toolbox.png %}){: .zoom}
    _Slider toolbox_
 
 1. Enter the **Minimum Height** for the slide.
@@ -482,21 +482,21 @@ If you want a title above the slider, simply add a [Text content type] above the
 
    For example, you can set the minimum height of a slider to stretch the full-height of the page, giving you compelling options for full-page background images and videos.
 
-   ![]({% link cms/assets/page-builder-media-slider-settings-minimum-height.png %}){: width="400px"}{: .zoom}
+   ![]({% link cms/assets/pb-media-slider-settings-minimum-height.png %}){: width="400px"}{: .zoom}
    _Slider minimum height_
 
 1. If you want the slider to begin as soon as the page loads, set **Autoplay** to `Yes` and set **Autoplay Speed** to the number of milliseconds in the delay between slides.
 
    By default, the speed is set to 4000 ms, which is four seconds. If you set autoplay to `No`, the first slide appears by default and the customer must click the slide navigation (dots or arrows) to display the next slide in sequence.
 
-   ![]({% link cms/assets/page-builder-media-slider-settings-autoplay.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-settings-autoplay.png %}){: .zoom}
    _Slider autoplay settings_
 
 1. To smooth the transition from one slide to the next, set **Fade** to `Yes`.
 
    With fade, the slides seem to stay in place, but the content changes smoothy from one to the next. Without fade, you see the horizontal movement from one slide to the next.
 
-   ![]({% link cms/assets/page-builder-media-slider-settings-fade-infinite-loop.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-settings-fade-infinite-loop.png %}){: .zoom}
    _Slider fade and infinite loop settings_
 
 1. To make the slideshow repeat indefinitely while the page is open, set **Infinite Loop** to `Yes`.
@@ -507,7 +507,7 @@ If you want a title above the slider, simply add a [Text content type] above the
 
    - To include a set of navigation dots below the slider, set **Show Dots** to `Yes`.
 
-   ![]({% link cms/assets/page-builder-media-slider-settings-show-arrows-dots.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-settings-show-arrows-dots.png %}){: .zoom}
    _Slider show arrows and dots_
 
 1. Complete the [Advanced](#slider-advanced) slider settings as needed.
@@ -564,10 +564,10 @@ If you want a title above the slider, simply add a [Text content type] above the
 
 1. Find the page in the _Pages_ grid and select **View** in the _Action_ column.
 
-   ![]({% link cms/assets/page-builder-media-slider-desktop-view.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-desktop-view.png %}){: .zoom}
    _Slider preview - standard view_
 
    When you preview the slider, resize the window so you can see how it appears on a mobile device.
 
-   ![]({% link cms/assets/page-builder-media-slider-mobile-view.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-slider-mobile-view.png %}){: .zoom}
    _Slider preview - mobile view_

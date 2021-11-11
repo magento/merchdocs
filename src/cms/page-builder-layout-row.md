@@ -31,7 +31,7 @@ _Row toolbox_
 
    Use the following sections for detailed information about completing the available settings.
 
-   ![]({% link cms/assets/page-builder-layout-row-add.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-row-add.png %}){: .zoom}
    _Adding a row_
 
 ## Change row settings
@@ -49,7 +49,7 @@ _Row toolbox_
 
 Use the _Appearance_ settings to determine how content is displayed in the row.
 
-![]({% link cms/assets/page-builder-row-layout.png %}){: .zoom}
+![]({% link cms/assets/pb-row-layout.png %}){: .zoom}
 _Appearance settings_
 
 - Choose the alignment to determine how the background color and/or background image appears in relation to the container and width of the content area.
@@ -168,7 +168,7 @@ Use these options to control the speed of a scrolling background image or video 
 - Set **Enable Parallax Background** to `Yes`.
 - Enter the **Parallax Speed** as a decimal value between `-1.0` and `2.0`.
 
-![]({% link cms/assets/page-builder-settings-parallax-background.png %}){: .zoom}
+![]({% link cms/assets/pb-settings-parallax-background.png %}){: .zoom}
 _Parallax Background settings_
 
 ## Advanced
@@ -220,5 +220,5 @@ _Parallax Background settings_
    |Margins|The amount of blank space that is applied to the outside edge of all sides of the container. Options: Top / Right / Bottom / Left
    |Padding|The amount of blank space that is applied to the inside edge of all sides of the container. Options: Top / Right / Bottom / Left
 
-   ![]({% link cms/assets/page-builder-layout-row-settings-margin-padding-default.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-row-settings-margin-padding-default.png %}){: .zoom}
    _Margins and Padding_
