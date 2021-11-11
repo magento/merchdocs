@@ -16,7 +16,7 @@ To print or view the completed credit memo, you must have a PDF reader installe
 
 1. Click **Print**.
 
-   ![]({% link images/images/sales-credit-memo-view-print.png %}){: .zoom}
+   ![]({% link sales/assets/credit-memo-print.png %}){: .zoom}
    _Print the credit memo_
 
 ### Method 2: Print multiple credit memos**
@@ -25,7 +25,7 @@ To print or view the completed credit memo, you must have a PDF reader installe
 
 1. Set the **Actions** control to `PDF Credit Memos` and click **Submit**.
 
-   ![]({% link images/images/sales-credit-memos-print.png %}){: .zoom}
+   ![]({% link sales/assets/credit-memos-print.png %}){: .zoom}
    _Print selected credit memos_
 
 1. When prompted, do one of the following:
