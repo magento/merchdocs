@@ -30,7 +30,7 @@ _Blocks page_
 
    - If [Page Builder]({% link cms/page-builder.md %}) is enabled, the content [workspace]({% link cms/page-builder-workspace.md %}) includes the Page Builder tools.
 
-      ![]({% link images/images-ee/page-builder-workspace-block.png %}){: .zoom}
+      ![]({% link cms/assets/pb-workspace-block.png %}){: .zoom}
       _Page Builder workspace_
 
       {:.bs-callout-info}

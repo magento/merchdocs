@@ -4,7 +4,7 @@ title: Page Builder - Elements
 
 Use the _Elements_ section of the Page Builder panel to add text, headings, buttons, dividers, and HTML code to any layout container on the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). When you drag a content type from the panel to either a row or column, or to a tab set on the stage, a container appears. Use the content type toolbox to access the settings that are specific to the type.
 
-![]({% link images/images-ee/page-builder-elements.png %}){: .zoom}
+![]({% link cms/assets/pb-elements.png %}){: .zoom}
 _Page Builder panel with Element content types_
 
 ## Element content types

@@ -4,12 +4,12 @@ title: Elements - Divider
 
 Use the _Divider_ content type to add a rule as a visual break between sections of content in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). You can specify the line color, thickness, and width of the divider. You can also control the alignment, set the margins and padding, and format of the container border. By default, the divider is a hairline rule that extends the full width of the container, with allowance for padding.
 
-![]({% link images/images-ee/page-builder-elements-divider-default.png %}){: .zoom}
+![]({% link cms/assets/pb-elements-divider-default.png %}){: .zoom}
 _Default divider in a container without a border_
 
 Although most divider containers are invisible, the following example displays the container with a red dashed border so you can see the relationship between the divider, the padding, and the container. You can adjust the padding at the top and bottom of the divider to control the spacing between elements.
 
-![]({% link images/images-ee/page-builder-elements-divider-default-border-dashed.png %}){: .zoom}
+![]({% link cms/assets/pb-elements-divider-default-border-dashed.png %}){: .zoom}
 _Divider with padding in container with dashed border_
 
 {% include page-builder-save-timeout.md %}
@@ -32,12 +32,12 @@ _Divider with padding in container with dashed border_
 
    Use the red guideline for reference as you position the divider either before or after another content container on the stage.
 
-   ![]({% link images/images-ee/page-builder-elements-divider-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-divider-drag.png %}){: .zoom}
    _Dragging a divider to the stage_
 
    In the following example, the divider marks the beginning of a new section of text.
 
-   ![]({% link images/images-ee/page-builder-elements-dividers-multiple-text-row.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-dividers-multiple-text-row.png %}){: .zoom}
    _Divider separating sections of text_
 
 1. Follow the next procedure to specify the settings of the new divider.
@@ -46,7 +46,7 @@ _Divider with padding in container with dashed border_
 
 1. Hover over the divider container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-elements-divider-toolbox.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-divider-toolbox.png %}){: .zoom}
    _Divider toolbox_
 
 1. Change the divider **Line Color** using one of the following methods:
@@ -56,14 +56,14 @@ _Divider with padding in container with dashed border_
 
    When complete, click <span class="btn">Apply</span>.
 
-   ![]({% link images/images-ee/page-builder-elements-divider-settings-line-color.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-divider-settings-line-color.png %}){: .zoom}
    _Setting the line color_
 
 1. Enter the **Line Thickness** in pixels.
 
 1. Enter the **Line Width** followed by either `px` or `%` to indicate the unit of measurement.
 
-   ![]({% link images/images-ee/page-builder-elements-divider-settings-line-color-thickness-width.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-divider-settings-line-color-thickness-width.png %}){: .zoom}
    _Setting line color, thickness, and width_
 
 1. Update the _Advanced_ settings as needed.
@@ -114,7 +114,7 @@ _Divider with padding in container with dashed border_
 
 1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
-   ![]({% link images/images-ee/page-builder-elements-divider-settings-2px-centered.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-divider-settings-2px-centered.png %}){: .zoom}
    _Divider centered in a row_
 
 ## Duplicate a divider
@@ -125,19 +125,19 @@ For a formatted divider with specific settings, it is more efficient to make a d
 
    The duplicate divider container appears just below the original.
 
-   ![]({% link images/images-ee/page-builder-elements-divider-duplicate.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-divider-duplicate.png %}){: .zoom}
    _Duplicated divider_
 
 1. Hover over the new divider container to display the toolbox and choose the _Move_ (![]({% link images/images-ee/icon-pb-move.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-elements-divider-move.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-divider-move.png %}){: .zoom}
    _Moving a divider_
 
 1. Select and drag the divider until the red guideline marks the new position.
 
    The top and bottom borders of each container appear as dashed lines while the divider is moved.
 
-   ![]({% link images/images-ee/page-builder-elements-divider-move-guideline.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-divider-move-guideline.png %}){: .zoom}
    _Moving the duplicated divider into position_
 
 [1]: https://en.wikipedia.org/wiki/Web_colors

@@ -34,24 +34,24 @@ The _Product Recommendations_ content type in Page Builder is supported in Adobe
 
 1. In the Page Builder panel under **Add Content**, drag a **Product Recommendation** placeholder to the stage.
 
-   ![]({% link images/images-ee/page-builder-add-prex-drag.png %}){: .zoom}
+   ![]({% link marketing/assets/page-builder-add-prex-drag.png %}){: .zoom}
    _Adding the Product Recommendation content type_
 
 1. Hover over the empty _Product recommendation_ container to display the toolbox and click the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
 1. Click <span class="btn">Select</span>.
 
-   ![]({% link images/images-ee/page-builder-add-prex-select.png %}){: width="300px"}<br/>
+   ![]({% link marketing/assets/page-builder-add-prex-select.png %}){: width="300px"}<br/>
    _Select Product Recommendation_
 
 1. In the list of active product recommendations, find the row with the recommendation unit that you want to add and click <span class="btn">Select</span> in the last column.
 
-   ![]({% link images/images-ee/page-builder-add-prex-selected.png %}){: .zoom}
+   ![]({% link marketing/assets/page-builder-add-prex-selected.png %}){: .zoom}
    _Selected Product Recommendation_
 
    The name of the selected product recommendation appears in the **Edit Product Recommendation** form.
 
-   ![]({% link images/images-ee/page-builder-add-prex-name.png %}){: width="300px"}<br/>
+   ![]({% link marketing/assets/page-builder-add-prex-name.png %}){: width="300px"}<br/>
    _Product Recommendation name_
 
 1. Complete the [Advanced settings](#advanced-settings) as needed.
@@ -62,7 +62,7 @@ The _Product Recommendations_ content type in Page Builder is supported in Adobe
 
 1. Hover over the recommendation unit container to display the toolbox and click the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-add-prex-toolbox.png %}){: .zoom}
+   ![]({% link marketing/assets/page-builder-add-prex-toolbox.png %}){: .zoom}
    _Block Toolbox_
 
 1. In the _Edit Product Recommendation_ page, click <span class="btn">Select</span>.
