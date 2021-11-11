@@ -12,7 +12,7 @@ Normally, a SKU includes a set of abbreviations indicating the distinguishing ch
 
 [Order by SKU]({% link sales/order-by-sku.md %}) gives you the ability to add individual products to your cart by SKU and quantity, or import a list of products from a file.
 
-![]({% link images/images-ee/account-dashboard-order-by-sku.png %}){: .zoom}
+![]({% link customers/assets/account-dashboard-order-by-sku.png %}){: .zoom}
 _Order by SKU_
 
 Use either or both of the following methods to add products by SKU:
@@ -35,7 +35,7 @@ Use either or both of the following methods to add products by SKU:
 
     - Save it as a [CSV]({% link system/data-csv.md %}) (Comma Separated Value) file.
 
-      ![]({% link images/images-ee/account-dashboard-order-by-sku-import.png %}){: .zoom}
+      ![]({% link customers/assets/account-dashboard-order-by-sku-import.png %}){: .zoom}
       _SKUs to Import_
 
       {:.bs-callout-info}
@@ -47,7 +47,7 @@ Use either or both of the following methods to add products by SKU:
 
     If any of the products have additional options, you will be prompted from the shopping cart that the product requires your attention.
 
-    ![]({% link images/images-ee/account-dashboard-order-by-sku-cart-product-requires-attention.png %}){: .zoom}
+    ![]({% link customers/assets/account-dashboard-order-by-sku-cart-product-requires-attention.png %}){: .zoom}
     _Product Requires Attention_
 
     {:.bs-callout-info}
