@@ -297,7 +297,7 @@ The _Summary Report_ validates the campaign, lists any errors that are found, an
 
 1. On the _Campaigns_ menu, choose **My Campaigns**.
 
-    ![dotdigital - my campaigns]({% link marketing/assets/eec-my-campaigns.png %}){: .zoom}
+    ![dotdigital - my campaigns]({% link marketing/assets/ec-my-campaigns.png %}){: .zoom}
     _My campaigns_
 
 1. In the record for your test campaign, click **Summary** (![Summary icon]({% link marketing/assets/engagement-cloud-btn-summary.png %})) to view the summary report.
