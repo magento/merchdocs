@@ -60,7 +60,7 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
 
 1. Make any changes necessary to the [Advanced settings](#advanced-settings).
 
-   ![]({% link images/images-ee/page-builder-prex-edit.png %})<br/>
+   ![]({% link images/images-ee/page-builder-prex-edit.png %}){: .zoom}<br/>
    _Edit Product Recommendation_
 
 1. When complete, do the following: 
