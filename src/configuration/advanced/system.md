@@ -178,7 +178,7 @@ The database media storage method has been deprecated as of Adobe Commerce and M
 {:.ee-only}
 ## Scheduled Import/Export File History Cleaning
 
-![]({% link images/images-ee/config-advanced-system-scheduled-import-export-file-history-cleaning.png %}){: .zoom}
+![]({% link configuration/assets/schedule-history-cleaning.png %}){: .zoom}
 [_Scheduled Import/Export File History Cleaning_]({% link system/data-scheduled-import-export.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
