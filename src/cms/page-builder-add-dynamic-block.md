@@ -41,12 +41,12 @@ _Dynamic block on the storefront_
 
    In the list, find the dynamic block that you want to insert, and click <span class="btn">Select</span>. Then, click <span class="btn">Add Selected</span>.
 
-   ![]({% link images/images-ee/page-builder-add-content-dynamic-block-select-list.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-add-content-dynamic-block-select-list.png %}){: .zoom}
    _Selecting a dynamic block in the list_
 
    A summary of the dynamic block information appears below.
 
-   ![]({% link images/images-ee/page-builder-add-content-dynamic-block-summary.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-add-content-dynamic-block-summary.png %}){: .zoom}
    _Dynamic Block Summary_
 
 1. Set **Template** to one of the following:
@@ -54,7 +54,7 @@ _Dynamic block on the storefront_
    | Dynamic Block Block Template | Choose this template to add a standalone block. |
    | Dynamic Block Inline Template | Choose this template to insert the block content into text. |
 
-   ![]({% link images/images-ee/page-builder-add-content-dynamic-block-template.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-add-content-dynamic-block-template.png %}){: .zoom}
    _Dynamic block template_
 
 1. Complete the Advanced settings as needed.
@@ -106,14 +106,14 @@ _Dynamic block on the storefront_
 
 1. Hover over the dynamic block container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-add-content-dynamic-block-toolbox.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-add-content-dynamic-block-toolbox.png %}){: .zoom}
    _Dynamic Block toolbox_
 
 1. If needed, change the dynamic block:
 
    - Click <span class="btn">Select Dynamic Block</span>.
 
-      ![]({% link images/images-ee/page-builder-add-content-dynamic-block-select.png %}){: .zoom}
+      ![]({% link cms/assets/page-builder-add-content-dynamic-block-select.png %}){: .zoom}
       _Selecting another dynamic block_
 
    - In the list of active dynamic blocks, click <span class="btn">Select</span> for the block that you want to add.
@@ -128,7 +128,7 @@ _Dynamic block on the storefront_
 
    The duplicate appears just below the original.
 
-   ![]({% link images/images-ee/page-builder-add-content-dynamic-block-duplicate.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-add-content-dynamic-block-duplicate.png %}){: .zoom}
    _Duplicating a dynamic block_
 
 1. To move the new dynamic block to a different position, hover over its container. Then, choose **Move** (![]({% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.

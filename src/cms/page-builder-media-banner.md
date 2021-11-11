@@ -7,7 +7,7 @@ Use the _Banner_ content type to add an illustrated, interactive component that 
 {:.bs-callout-info}
 What was previously the _Banner_ option in the Content menu is now [Dynamic Block]({% link cms/dynamic-blocks.md %}).
 
-![]({% link images/images-ee/page-builder-banner-homepage.png %}){: .zoom}
+![]({% link cms/assets/page-builder-banner-homepage.png %}){: .zoom}
 _Banner on a storefront home page_
 
 {% include page-builder-save-timeout.md %}

@@ -13,12 +13,12 @@ _Formatted text on a banner_
 
 You can access the text editor directly from the stage or from a settings page. Changes made directly to the stage are saved automatically. For more information, see [Using the Editor]({% link cms/editor.md %}).
 
-![]({% link images/images-ee/page-builder-elements-text-editor-tools.png %}){: .zoom}
+![]({% link cms/assets/page-builder-elements-text-editor-tools.png %}){: .zoom}
 _Text editor tool - TinyMCE 4_
 
 ## Text container toolbox
 
-![]({% link images/images-ee/page-builder-elements-text-toolbox.png %}){: .zoom}
+![]({% link cms/assets/page-builder-elements-text-toolbox.png %}){: .zoom}
 _Text container toolbox_
 
 | Tool      | [Icon]({% link configuration/scope.md %}) | Description    |
@@ -35,14 +35,14 @@ _Text container toolbox_
 
 1. In the Page Builder panel, expand **Elements** and drag a **Text** placeholder to a row, column, or tab set on the stage.
 
-   ![]({% link images/images-ee/page-builder-elements-text-drag.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-elements-text-drag.png %}){: .zoom}
    _Dragging a text placeholder to the stage_
 
 1. Use the editor to enter and format text, as needed.
 
    For more information, see [Using the Editor]({% link cms/editor.md %}).
 
-   ![]({% link images/images-ee/page-builder-elements-text-editor.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-elements-text-editor.png %}){: .zoom}
    _Text editor with content_
 
 ## Create a link

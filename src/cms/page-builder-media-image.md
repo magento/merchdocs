@@ -13,7 +13,7 @@ You can use the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find
 
 The image toolbox appears when you hover over the image container.
 
-![]({% link images/images-ee/page-builder-media-image-giftcard-column-toolbox.png %}){: .zoom}
+![]({% link cms/assets/page-builder-media-image-giftcard-column-toolbox.png %}){: .zoom}
 _Image toolbox_
 
 |Tool|Icon|Description|
@@ -39,7 +39,7 @@ _Image toolbox_
 
 1. Use one of the following methods to add the image asset:
 
-   ![]({% link images/images-ee/page-builder-media-image-upload-select.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-media-image-upload-select.png %}){: .zoom}
    _Upload Image or Select from Gallery tools on the stage_
 
    {:.bs-callout-info}
@@ -82,7 +82,7 @@ _Image toolbox_
    {:.bs-callout-info}
    The [Banner]({% link cms/page-builder-media-banner.md %}) and [Slider]({% link cms/page-builder-media-slider.md %}) content types also include _Upload Image_ and _Select from Gallery_ options for adding images.
 
-   ![]({% link images/images-ee/page-builder-media-image-column1-giftcard.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-media-image-column1-giftcard.png %}){: .zoom}
    _Image in a column_
 
 ## Change image settings
@@ -90,7 +90,7 @@ _Image toolbox_
 1. Hover over the image container to display the tool box and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
    The file name, dimensions, and file size appear below the current image.
 
-   ![]({% link images/images-ee/page-builder-media-image-settings-image.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-media-image-settings-image.png %}){: .zoom}
    _Current image_
 
 1. To change the current **Image**, do one of the following:
@@ -127,7 +127,7 @@ _Image toolbox_
 
 1. To add a **Mobile Image**, use the same methods described in the previous step to select an image to be used for display on mobile devices.
 
-   ![]({% link images/images-ee/page-builder-media-image-settings-mobile-image.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-media-image-settings-mobile-image.png %}){: .zoom}
    _Mobile image_
 
 1. If needed, specify a **Link** for the image.
@@ -146,7 +146,7 @@ _Image toolbox_
 
    - **Category** - Identifies the destination page as a specific category or subcategory in the category tree. Search for the category based on either a partial or full name. Choose the category from the expanded section of the displayed tree.
 
-      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-category-tree.png %}){: .zoom}
+      ![]({% link cms/assets/page-builder-media-image-settings-image-link-category-tree.png %}){: .zoom}
       _Choosing a category to link_
 
    - **Page** - Identifies the destination page as a specific content page. Search for the page based on either a partial or full name. Choose the page from the search results list.
@@ -160,7 +160,7 @@ _Image toolbox_
 
    The format of the caption is determined by the stylesheet that is associated with the current theme.  T
 
-   ![]({% link images/images-ee/page-builder-media-image-settings-caption.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-media-image-settings-caption.png %}){: .zoom}
    _Image caption_
 
    The caption typically appears below the image, and provides information about the image for visitors and search engines. If your site is available in multiple languages, you might use the same image, but  translate the caption. In HTML, the `<figcaption>` tag is a subset of the `<figure>` tag. `<figcaption>This is the image caption</figcaption>`
@@ -176,12 +176,12 @@ _Image toolbox_
 
 1. Hover over the image container to display the toolbox and choose the _Move_ (![]({% link images/images-ee/icon-pb-move.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-media-image-column1-move-giftcard.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-media-image-column1-move-giftcard.png %}){: .zoom}
    _Moving an image_
 
 1. Select and drag the image to the new position, just below the red guideline.
 
-   ![]({% link images/images-ee/page-builder-media-image-column2-move-giftcard-red-guideline.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-media-image-column2-move-giftcard-red-guideline.png %}){: .zoom}
    _Using the red guideline to position the image_
 
 ## Remove an image

@@ -4,7 +4,7 @@ title: Page Builder - Media
 
 Use the _Media_ section of the Page Builder panel to add images, video, banners, sliders, and Google Maps to any layout container on the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). When a media content type is dragged from the panel to the stage, a container appears with a toolbox of options that are specific to the content type.
 
-![]({% link images/images-ee/page-builder-media-content-types.png %}){: .zoom}
+![]({% link cms/assets/page-builder-media-content-types.png %}){: .zoom}
 _Page Builder panel with media content types_
 
 ## Media content types

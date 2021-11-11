@@ -4,7 +4,7 @@ title: Add Content - Block
 
 Use the _Block_ content type to add an existing, active [block]({% link cms/blocks.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). In the following example, the first column contains the block with a side menu for the page. The second column contains an image.
 
-![]({% link images/images-ee/page-builder-add-content-block-example.png %}){: .zoom}
+![]({% link cms/assets/page-builder-add-content-block-example.png %}){: .zoom}
 _Block with a side menu_
 
 {% include page-builder-save-timeout.md %}
@@ -26,24 +26,24 @@ _Block with a side menu_
 
 1. In the Page Builder panel, expand **Add Content** and drag a **Block** placeholder to the stage.
 
-   ![]({% link images/images-ee/page-builder-add-content-block-drag.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-add-content-block-drag.png %}){: .zoom}
    _Dragging a block onto the stage_
 
 1. Hover over the empty block container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
 1. Click <span class="btn">Select Block</span>.
 
-   ![]({% link images/images-ee/page-builder-add-content-block-select.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-add-content-block-select.png %}){: .zoom}
    _Selecting a block_
 
 1. In the row of the block that you want to add, click <span class="btn">Select</span> in the last column.
 
-   ![]({% link images/images-ee/page-builder-add-content-block-selected.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-add-content-block-selected.png %}){: .zoom}
    _Selected block_
 
    The name of the selected block appears on the page.
 
-   ![]({% link images/images-ee/page-builder-add-content-block-name.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-add-content-block-name.png %}){: .zoom}
    _Block name_
 
 1. Complete the remaining settings as needed, using the field descriptions at the end of this page for reference.

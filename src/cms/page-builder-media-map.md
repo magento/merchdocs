@@ -16,7 +16,7 @@ To get the most from Google Maps Platform, you can customize the map, highlight 
 
 1. If you have a chain of physical stores, adding a Google Map on your site helps to increase your brand awareness and credibility in the form of highlighted items.
 
-![]({% link images/images-ee/page-builder-media-maps-storefront.png %}){: .zoom}
+![]({% link cms/assets/page-builder-media-maps-storefront.png %}){: .zoom}
 _Example storefront - map with location_
 
 {% include page-builder-save-timeout.md %}
@@ -107,7 +107,7 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
    If necessary, go to [Google Maps][5] in a new browser window and use one of the following methods to get the coordinates:
 
-   ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-coordinates.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-media-maps-settings-add-location-coordinates.png %}){: .zoom}
    _Map Coordinates_
 
    **Method 1:** Copy from URL
@@ -116,19 +116,19 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
    - Copy the coordinates in the URL and paste them into a notepad.
 
-   ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-coordinates-url.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-media-maps-settings-add-location-coordinates-url.png %}){: .zoom}
    _Google Maps - copy coordinates from URL_
 
    **Method 2:** Copy from “What’s here?”
 
    - Right-click the red pin that marks the location on the map and choose **What’s here?** in the menu.
 
-      ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-pin-menu.png %}){: .zoom}
+      ![]({% link cms/assets/page-builder-media-maps-settings-add-location-pin-menu.png %}){: .zoom}
       _Google Maps - What’s here?_
 
    - In the displayed label, copy the text, including the coordinates and paste the text into a notepad.
 
-      ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-label-coordinates.png %}){: .zoom}
+      ![]({% link cms/assets/page-builder-media-maps-settings-add-location-label-coordinates.png %}){: .zoom}
       _Google Maps - copying the coordinates_
 
 1. Enter the numbers, without the comma, in each of the **Coordinates** boxes.
@@ -149,7 +149,7 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
    The new location appears in the map and in the map location grid on the _Edit Map_ page.
 
-   ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-grid.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-media-maps-settings-add-location-grid.png %}){: .zoom}
    _Page Builder - maps location grid_
 
 ## Style the map {#styling}
@@ -166,21 +166,21 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
 1. Under the **Google Maps Style** text box, click [Create Map Style][6].
 
-   ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-media-maps-google-platform-maps-styling-wizard.png %}){: .zoom}
    [_Google Platform Maps Styling Wizard_][6]
 
    This opens the Google Maps Platform Styling Wizard in a separate tab, where you can define a style for your Google Maps Platform project.
 
 1. Click <span class="btn">Create a Style</span> and follow the provided instructions.
 
-   ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-select-theme.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-media-maps-google-platform-maps-styling-wizard-select-theme.png %}){: .zoom}
    _Selecting a predefined Google Maps theme_
 
    When complete, click <span class="btn">Finish</span>.
 
 1. Export the completed style as JSON code or as a URL so that you can add it to the Commerce configuration.
 
-   ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-export-style.png %}){: .zoom}
+   ![]({% link cms/assets/page-builder-media-maps-google-platform-maps-styling-wizard-export-style.png %}){: .zoom}
    _Export Style_
 
    - **JSON**: Below the box with the generated JSON code, click **Copy JSON**.
