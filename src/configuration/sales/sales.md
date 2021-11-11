@@ -122,7 +122,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
 _[Order by SKU Settings]({% link customers/account-dashboard-order-by-sku.md %})_
 
-![]({% link images/images-ee/config-sales-sales-order-by-sku-settings-customer-group.png %}){: .zoom}
+![]({% link configuration/assets/order-by-sku-settings.png %}){: .zoom}
 _Order by SKU Settings for Customer Group_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
