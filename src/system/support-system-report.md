@@ -11,7 +11,7 @@ From the System Reports grid, you can view and download existing reports, delete
 
 On the _Admin_ sidebar, go to **System** > _Support_ > **System Report**.
 
-![Admin - system reports]({% link system/assets/system-reports.png %}){: .zoom}
+![Admin - system reports]({% link system/assets/reports.png %}){: .zoom}
 _Manage System Reports_
 
 ## Create a new report
@@ -39,7 +39,7 @@ To view report info for each installed module:
 1. After the report generates, click **Select** and then **View** to see all module versions.
 1. Click <span class="btn">Download</span> to download the report.
 
-    ![System report of installed modules]({% link system/assets/system-report-new.png %}){: .zoom}
+    ![System report of installed modules]({% link system/assets/report-new.png %}){: .zoom}
    _System report of installed modules_
 
 See what changes were released in each version of the Connector in the [changelog](https://magento-mcom.github.io/mcom-connector-sr/CHANGELOG.html) in [**MCOM**](https://docs.magento.com/user-guide/mcom.html) > **Change log**.
