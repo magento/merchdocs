@@ -13,7 +13,7 @@ _Event carousel in the left sidebar_
 
 Before you begin, follow the [instructions]({% link marketing/event-configure.md %}) to configure the _Catalog Event_ widget so that it is enabled for the storefront.
 
-![]({% link images/images-ee/config-catalog-catalog-events-1.png %}){: .zoom}
+![]({% link cms/assets/config-catalog-catalog-events-1.png %}){: .zoom}
 _Catalog event configuration_
 
 ## Step 2: Create the widget

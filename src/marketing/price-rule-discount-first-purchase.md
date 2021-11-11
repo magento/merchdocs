@@ -142,7 +142,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
    - When complete, click <span class="btn">Save</span>.
 
-   ![Cart price rule actions]({% link images/images-ee/actions-first-time.png %}){: .zoom}
+   ![Cart price rule actions]({% link marketing/assets/actions-first-time.png %}){: .zoom}
    _Price Rule Actions_
 
 The new rule is normally available within the hour. You should test the rule to ensure that it works as you defined it.
