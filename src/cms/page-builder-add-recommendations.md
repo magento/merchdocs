@@ -1,6 +1,8 @@
 ---
 title: Add Content - Product Recommendation
 ee_only: true
+redirect from:
+marketing/page-builder-add-product-recs.html
 ---
 
 Use the _Product Recommendations_ content type to add an existing, active [recommendation unit]({% link marketing/create-new-rec.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage) for a CMS page, block, or dynamic block. To learn more, refer to Page Builder [Workspace]({% link cms/page-builder-workspace.md %}) and [tutorials]({% link cms/page-builder-learn.md %}).
