@@ -63,9 +63,9 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
    ![]({% link images/images-ee/page-builder-prex-edit.png %}){: .zoom}<br/>
    _Edit Product Recommendation_
 
-1. When complete, do the following: 
+1. When complete, do the following:
 
-   - If working with a fully maximized browser window, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon in the upper-right corner of the workspace. 
+   - If working with a fully maximized browser window, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon in the upper-right corner of the workspace.
 
    - Click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace
 
