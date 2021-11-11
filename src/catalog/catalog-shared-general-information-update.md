@@ -5,7 +5,7 @@ title: Updating the General Information
 
 The detail information of any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are reflected in any associated company accounts.
 
-![]({% link images/images-b2b/catalogs-shared-grid-general-settings.png %}){: .zoom}
+![]({% link catalog/assets/shared-catalog-grid-general-settings.png %}){: .zoom}
 _General Settings_
 
 ## Update the catalog details
@@ -14,7 +14,7 @@ _General Settings_
 
 1. For the shared catalog in the [grid]({% link stores/admin-grid-controls.md %}) that you want to update, go to the **Action** column and select **General Settings**.
 
-   ![]({% link images/images-b2b/catalog-shared-update-details.png %}){: .zoom}
+   ![]({% link catalog/assets/shared-catalog-update-details.png %}){: .zoom}
    _Catalog Details_
 
 1. Update the catalog detail information as needed.

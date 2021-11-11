@@ -5,7 +5,7 @@ title: Updating a Company Profile
 
 The company profile can be maintained from the storefront by the company administrator, and also from the Admin by the store administrator.
 
-![]({% link images/images-b2b/company-update.png %}){: .zoom}
+![]({% link customers/assets/company-update.png %}){: .zoom}
 _Company Profile_
 
 ## Company role resources

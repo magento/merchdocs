@@ -5,7 +5,7 @@ title: Set Pricing and Structure
 
 Setting up the pricing and structure of a shared catalog is a two-step process. Your current place in the process is highlighted with a number in the progress bar at the top of the page. You can view the other step in the process at any time by clicking the progress bar. For example, if you’re working on custom pricing, you might want to return to the product selection page for reference. Simply click **Products** in the progress bar at the top of the page. Then click **Pricing** to return to the custom pricing page. You will not lose any of your work.
 
-![]({% link images/images-b2b/catalog-shared-products-in-catalog-workspace.png %}){: .zoom}
+![]({% link catalog/assets/shared-catalog-products-workspace.png %}){: .zoom}
 _Products in Catalog_
 
 In the standard category tree, the root category is the topmost container and is referred to as _Default Category_ in the sample data. However, when shared catalogs are enabled, the category tree has an additional outer container called _Root Catalog_. The root catalog encompasses all other category structures that exist in the system. For more information, see [Catalog Scope]({% link catalog/catalog-scope.md %}).
@@ -28,7 +28,7 @@ Only categories with selected products appear in the [top navigation]({% link ca
 
     The scope of the configuration can be set only before the shared catalog is saved for the first time. If you later edit the product selection, the Store chooser is not available.
 
-    ![]({% link images/images-b2b/catalog-shared-products-step1-scope.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-products-scope.png %}){: .zoom}
     _Choose Store_
 
 1. In the category tree, do any of the following:
@@ -55,7 +55,7 @@ Only categories with selected products appear in the [top navigation]({% link ca
 
 1. Click <span class="btn">Next</span>.
 
-    ![]({% link images/images-b2b/catalog-shared-choose-products-step1.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-select-products-step-1.png %}){: .zoom}
     _Step 1: Select Products for Catalog_
 
 ## Step 3: Set custom prices
@@ -80,7 +80,7 @@ The selection of products in the grid cannot be changed from the _Custom Prices_
 
 1. For a multi-site installation, set **Website** to the website where the custom prices apply.
 
-    ![]({% link images/images-b2b/catalog-shared-scope-pricing-step2.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-scope-pricing.png %}){: .zoom}
     _Choose Website_
 
 1. Use one of the following methods to select the products where the custom pricing is to apply.
@@ -91,7 +91,7 @@ The selection of products in the grid cannot be changed from the _Custom Prices_
 
     The grid displays the products in the currently selected categories, and you can use the [standard controls]({% link stores/admin-grid-controls.md %}) to find products and filter the list.
 
-    ![]({% link images/images-b2b/catalog-shared-custom-pricing-mass-actions.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-custom-pricing-mass-actions.png %}){: .zoom}
     _Select All_
 
 1. Set **Actions** to one of the following:
@@ -99,17 +99,17 @@ The selection of products in the grid cannot be changed from the _Custom Prices_
     | Set Discount | Applies a discount percent to all selected products. |
     | Adjust Fixed Price | Applies a fixed price to all selected products. |
 
-    ![]({% link images/images-b2b/catalog-shared-set-custom-prices-discount.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-set-custom-prices-discount-action.png %}){: .zoom}
     _Actions Control - Set Discount_
 
 1. When prompted, enter the discount and click **Apply**.
 
-    ![]({% link images/images-b2b/catalog-shared-set-custom-prices-actions-set-discount.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-set-custom-prices-discount.png %}){: .zoom}
     _Set Discount_
 
     The discount is applied to all selected products, and the _Custom Price_ column reflects the type of discount and amount applied.
 
-    ![]({% link images/images-b2b/catalog-shared-set-custom-prices-actions-set-discount-applied.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-set-custom-prices-discount-applied.png %}){: .zoom}
     _Custom Price Column with Discount_
 
 1. When the custom pricing is complete, click <span class="btn">Generate Catalog</span> then <span class="btn">Save</span>.
@@ -122,12 +122,12 @@ The following instructions show how to apply tier pricing to a single product. T
 
 1. For the product in the grid, go to the _Tier Price_ column and click **Configure**.
 
-    ![]({% link images/images-b2b/catalog-shared-tier-price-configure.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-tier-price-configure.png %}){: .zoom}
     _Configure Tier Price_
 
 1. On the _Advanced Pricing_ page, click <span class="btn">Add Price</span> and do the following:
 
-    ![]({% link images/images-b2b/catalog-shared-tier-price-configure-add-price.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-tier-price-configure-add-price.png %}){: .zoom}
     _Catalog and Tier Price_
 
    - Set **Website** to the website where the tier price applies.
@@ -138,14 +138,14 @@ The following instructions show how to apply tier pricing to a single product. T
    - Enter the amount of the discount.
    - To enter another tier, click <span class="btn">Add Price</span> and repeat the process.
 
-    ![]({% link images/images-b2b/catalog-shared-tier-price-configure-multiple-tiers.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-tier-price-configure-multiple-tiers.png %}){: .zoom}
     _Multiple Tier Prices_
 
 1. When complete, click <span class="btn">Done</span>.
 
     In the grid, the number of tiers is shown in parentheses in the _Tier Price_ column.
 
-    ![]({% link images/images-b2b/catalog-shared-tier-price-configure-parentheses.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-tier-price-configure-parentheses.png %}){: .zoom}
     _Multiple Tiers_
 
 The shared catalog is now saved to the database. Its name appears in the _Shared Catalog_ column of the _Products_ grid. The next step is to assign the shared catalog to a company.
