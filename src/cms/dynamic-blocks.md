@@ -53,7 +53,7 @@ _Page Builder - dynamic block with price rule and customer segment_
 
 Use the Page Builder [workspace]({% link cms/page-builder-workspace.md %}) to complete the content.
 
-![]({% link images/images-ee/page-builder-dynamic-block-workspace.png %}){: .zoom}
+![]({% link cms/assets/pb-dynamic-block-workspace.png %}){: .zoom}
 _Page Builder - dynamic block workspace_
 
 ## Step 3: Choose a related promotion

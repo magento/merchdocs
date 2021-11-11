@@ -46,7 +46,7 @@ Any [dynamic block]({% link cms/dynamic-blocks.md %}) that you create can be ass
 
    - To associate a product-related promotion, click <span class="btn">Add Catalog Price Rules</span>.
 
-      ![]({% link images/images-ee/page-builder-dynamic-block-related-promotions.png %}){: .zoom}
+      ![]({% link cms/assets/pb-dynamic-block-related-promotions.png %}){: .zoom}
       _Related promotions for a dynamic block_
 
 1. In the grid, select the checkbox of each rule that you want to associate with the dynamic block.
