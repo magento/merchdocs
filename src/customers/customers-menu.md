@@ -4,7 +4,7 @@ title: Customers Menu
 
 The Customers menu provides access to customer account management tools, and gives you the ability to see who is currently online in your store.
 
-![]({% link images/images-b2b/admin-menu-customers-b2b.png %}){: .zoom}
+![]({% link customers/assets/admin-menu-customers.png %}){: .zoom}
 _Customers Menu_
 
 ## Display the Customers menu

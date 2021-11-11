@@ -76,7 +76,7 @@ _List of Company Users_
 
 1. Clicks **Delete Selected**.
 
-   ![]({% link images/images-b2b/company-structure-delete-user.png %}){: .zoom}
+   ![]({% link customers/assets/company-structure-delete-user.png %}){: .zoom}
    _Delete User_
 
 1. When prompted to confirm, clicks <span class="btn">Delete</span>.

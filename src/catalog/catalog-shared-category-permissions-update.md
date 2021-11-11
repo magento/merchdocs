@@ -17,7 +17,7 @@ title: Updating Category Permissions
 
 1. Click <span class="btn">New Permission</span> and do the following:
 
-    ![]({% link images/images-b2b/category-permissions-new.png %}){: .zoom}
+    ![]({% link catalog/assets/category-permissions-new.png %}){: .zoom}
     _New Permission_
 
     - Choose the **Customer Group** that corresponds to the shared catalog and change the permission settings as needed.
