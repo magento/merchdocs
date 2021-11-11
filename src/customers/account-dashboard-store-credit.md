@@ -5,7 +5,7 @@ title: Store Credit
 
 The Store Credit section of the customer account dashboard lists amounts from returns and refunds that can be applied to future purchases. Customers can also redeem the value from a gift card.
 
-![]({% link images/images-ee/account-dashboard-store-credit.png %}){: .zoom}
+![]({% link customers/assets/account-dashboard-store-credit.png %}){: .zoom}
 _Store Credit_
 
 ## Apply store credit during checkout

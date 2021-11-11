@@ -47,7 +47,7 @@ _Products in Category_
 
    To discard the changes, click <span class="btn">Remove</span>.
 
-    ![]({% link images/images-ee/add-product-by-sku.png %}){: .zoom}
+    ![]({% link catalog/assets/add-product-by-sku.png %}){: .zoom}
     _Add Products by SKU tab_
 
 1. To apply your changes, click <span class="btn">Save and Close</span>.

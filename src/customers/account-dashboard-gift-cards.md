@@ -17,7 +17,7 @@ How gift cards work on the storefront:
 
 The Gift Card section of your account dashboard can be used to check the balance of your [gift card account]({% link catalog/product-gift-card-accounts.md %}) and redeem gift cards for [store credit]({% link customers/store-credit-using.md %}).
 
-![]({% link images/images-ee/account-dashboard-gift-card.png %}){: .zoom}
+![]({% link customers/assets/account-dashboard-gift-card.png %}){: .zoom}
 _Gift Card_
 
 ## Check status and balance of the gift card
