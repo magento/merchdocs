@@ -36,7 +36,7 @@ To enable and configure Klarna for your store, you need the following informatio
 
    You can return to your Klarna account later to complete the remaining settings.
 
-   ![Generate Klarna API Credentials]({% link payment/assets/klanrna-playground-settings.png %}){: .zoom}
+   ![Generate Klarna API Credentials]({% link payment/assets/klarna-playground-settings.png %}){: .zoom}
    _Generate Klarna API Credentials_
 
 ### Step 2: Enable Klarna On-site Messaging (optional)
