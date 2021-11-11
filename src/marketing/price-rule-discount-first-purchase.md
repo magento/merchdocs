@@ -33,7 +33,7 @@ Ensure that the Customer Segments feature is enabled. Refer to [Creating a Custo
 
        Additional options become available in the panel on the left.
 
-    ![Customer segment properties]({% link images/images-ee/customer-segment-first-time.png %}){: .zoom}
+    ![Customer segment properties]({% link marketing/assets/customer-segment-first-time.png %}){: .zoom}
     _General Properties after Save_
 
 1. Define the **Conditions**.
@@ -54,12 +54,12 @@ Ensure that the Customer Segments feature is enabled. Refer to [Creating a Custo
 
    - Click <span class="btn">Save</span>.
 
-   ![Customer segment condition]({% link images/images-ee/customer-segment-first-time-condition.png %}){: .zoom}
+   ![Customer segment condition]({% link marketing/assets/customer-segment-first-time-condition.png %}){: .zoom}
    _Defined Segment Condition_
 
 Your customer segment is created and displayed in the Customer Segment list.
 
-![Customer segments list]({% link images/images-ee/customer-segment-list-first-time.png %}){: .zoom}
+![Customer segments list]({% link marketing/assets/customer-segment-list-first-time.png %}){: .zoom}
 _Customer Segments List_
 
 {:.bs-callout-info}
@@ -125,7 +125,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
        This line of the rule applies to all customers who match customer segment ID 2.
 
-   ![Customer segment condition]({% link images/images-ee/customer-segment-matches.png %}){: .zoom}
+   ![Customer segment condition]({% link marketing/assets/customer-segment-matches.png %}){: .zoom}
    _Defining the Customer Segment_
 
 1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %})the **Actions** section and define the actions for the rule.
@@ -142,7 +142,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
    - When complete, click <span class="btn">Save</span>.
 
-   ![Cart price rule actions]({% link images/images-ee/actions-first-time.png %}){: .zoom}
+   ![Cart price rule actions]({% link marketing/assets/actions-first-time.png %}){: .zoom}
    _Price Rule Actions_
 
 The new rule is normally available within the hour. You should test the rule to ensure that it works as you defined it.
