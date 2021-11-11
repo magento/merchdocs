@@ -21,9 +21,9 @@ _Company Structure with Users and Teams_
 
 1. In the left panel, choose **Company Structure**.
 
-1. To assign a user to an existing team, simply drag (![]({% link images/images-b2b/btn-drag.png %})) the user under the appropriate team.
+1. To assign a user to an existing team, simply drag (![Move icon]({% link assets/icon-move.png %})) the user under the appropriate team.
 
-   ![]({% link images/images-b2b/company-structure-teams-users-assigned.png %}){: .zoom}
+   ![]({% link customers/assets/company-structure-teams-users-assigned.png %}){: .zoom}
    _Team Assignments_
 
 ## Company structure icons

@@ -11,7 +11,7 @@ The following requirements must be met for a complex product (such as bundle, gr
 - For [configurable]({% link catalog/product-create-configurable.md %}) and [grouped]({% link catalog/product-create-grouped.md %}) products, only the enabled associated products are visible.
 - For a [bundle]({% link catalog/product-create-bundle.md %}) product, all options must be included in the shared catalog.
 
-    ![]({% link images/images-b2b/catalog-shared-choose-products-step1.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-select-products-step-1.png %}){: .zoom}
     _Select Products for Catalog_
 
 ## Method 1: Add a single product
