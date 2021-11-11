@@ -4,7 +4,7 @@ title: Name and Address Options
 
 The _Name and Address Options_ determine which fields are included in the name and address forms when customers create an [account]({% link customers/account-create.md %}) with your store.
 
-![]({% link images/images-ee/storefront-customer-account-address-book.png %}){: .zoom}
+![]({% link customers/assets/storefront-customer-account-address-book.png %}){: .zoom}
 _[Customer Account sign up form]({% link configuration/customers/customer-configuration.md %})_
 
 The steps for configuring the name and address options are different for Adobe Commerce and Magento Open Source.

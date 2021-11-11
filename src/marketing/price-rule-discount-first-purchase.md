@@ -99,7 +99,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
        Additional options become available in the panel on the left.
 
-   ![Cart price rule information]({% link images/images-ee/rule-information-first-time.png %}){: .zoom}
+   ![Cart price rule information]({% link marketing/assets/rule-information-first-time.png %}){: .zoom}
    _Rule Information_
 
 1. Define the **Conditions**.

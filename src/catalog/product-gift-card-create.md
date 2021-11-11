@@ -5,7 +5,7 @@ title: Creating a Gift Card
 
 The following instructions demonstrate the process of creating a gift card using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}), as needed.
 
-![]({% link images/images-ee/storefront-giftcard-product-page.png %}){: .zoom}
+![]({% link catalog/assets/storefront-giftcard-product-page.png %}){: .zoom}
 _Gift Card Product Page_
 
 ## Step 1: Choose the product type
