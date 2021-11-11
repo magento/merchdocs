@@ -20,7 +20,7 @@ When invitations are enabled, customers can send and view [invitations]({% link 
 
 1. On the next screen, enter email addresses to invite new customers, add a custom message, choose a sender, and select an invitee group.
 
-    ![Invitations Information]({% link images/images-ee/create-invitation-page.png %}){: .zoom}
+    ![Invitations Information]({% link marketing/assets/create-invitation-page.png %}){: .zoom}
     _Create Invitation_
 
 1. When complete, click **Save**.
