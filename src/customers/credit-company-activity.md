@@ -7,7 +7,7 @@ redirect_from:
 
 The [Company Credit]({% link customers/account-dashboard-company-credit.md %}) section of the company profile displays a summary of the customer credit activity, with a grid of the company credit history.
 
-![]({% link images/images-b2b/company-credit-reimbursements-grid.png %}){: .zoom}
+![]({% link customers/assets/company-credit-reimbursements-grid.png %}){: .zoom}
 _Company Credit activity_
 
 ## Update the credit information

@@ -9,7 +9,7 @@ Customers can manage and monitor their own information and activities from their
 ![]({% link images/images-ee/customer-account-dashboard.png %}){: .zoom}
 _Account Dashboard_
 
-![]({% link images/images-b2b/company-admin-account-dashboard.png %}){: .zoom}
+![]({% link customers/assets/company-admin-account-dashboard.png %}){: .zoom}
 _Company Account Dashboard_{:.b2b-only}
 
 {: .sections-table }
