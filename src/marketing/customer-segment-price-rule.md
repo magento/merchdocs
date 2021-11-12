@@ -6,7 +6,7 @@ group: customers
 
 A customer segment can be targeted by associating it with a [cart price rule]({% link marketing/price-rules-cart.md %}).
 
-![Cart price rule - targeted customer segment]({% link images/images-ee/price-rule-cart-condition-segments.png %}){: .zoom}
+![Cart price rule - targeted customer segment]({% link marketing/assets/price-rule-cart-condition-segments.png %}){: .zoom}
 _Targeted Customer Segment_
 
 ## Target a Segment with a Cart Price Rule
@@ -33,10 +33,10 @@ _Targeted Customer Segment_
       - `is one of`
       - `is not one of`
 
-        ![Condition operator]({% link images/images-ee/price-rule-condition-customer-segment-operator.png %}){: .zoom}
+        ![Condition operator]({% link marketing/assets/price-rule-condition-customer-segment-operator.png %}){: .zoom}
         _Condition Operators_
 
-   - To target a specific segment, click the More ( **…** ) link to display additional options. Then, click the **Chooser** ( ![Chooser icon]({% link images/images/icon-chooser.png %}) ) to display the list of customer segments.
+   - To target a specific segment, click the More ( **…** ) link to display additional options. Then, click the **Chooser** ( ![Chooser icon]({% link marketing/assets/icon-chooser.png %}) ) to display the list of customer segments.
 
       ![Cart price rule - condition chooser]({% link marketing/assets/condition-chooser.png %}){: .zoom}
       _Chooser_

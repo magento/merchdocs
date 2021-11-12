@@ -44,5 +44,5 @@ _Scheduled design changes_
 
 1. To confirm the action, click <span class="btn">OK</span>.
 
-   ![]({% link images/images/delete-store-design-change.png %}){: .zoom}
+   ![]({% link design/assets/delete-store-design-change.png %}){: .zoom}
    _Delete Scheduled Design Change_

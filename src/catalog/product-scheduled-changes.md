@@ -42,7 +42,7 @@ _Scheduled Changes_
 
 1. In the list, select the campaign to be modified.
 
-   ![]({% link images/images-ee/scheduled-changes-assign-to-existing-campaign.png %}){: .zoom}
+   ![]({% link catalog/assets/scheduled-changes-assign-to-existing-campaign.png %}){: .zoom}
    _Assigning to an existing campaign_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Content**.
@@ -53,7 +53,7 @@ _Scheduled Changes_
 
 The scheduled change appears at the top of the product page, with the start and end dates of the campaign.
 
-![]({% link images/images-ee/view-product-scheduled-changes.png %}){: .zoom}
+![]({% link catalog/assets/view-product-scheduled-changes.png %}){: .zoom}
 _Scheduled change_
 
 ## Edit the scheduled change
@@ -75,5 +75,5 @@ _Scheduled change_
    {:.bs-callout-info}
    The product is removed from the update and all scheduled changes are lost.
 
-   ![]({% link images/images-ee/remove-product-scheduled-changes.png %}){: .zoom}
+   ![]({% link catalog/assets/remove-product-scheduled-changes.png %}){: .zoom}
    _Remove Scheduled Change_

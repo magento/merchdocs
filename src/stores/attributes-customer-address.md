@@ -12,7 +12,7 @@ Customer address attributes are used in the following forms:
 - [Customer Address Registration]({% link customers/account-create.md %})
 - [Customer Account Address]({% link customers/account-dashboard-address-book.md %})
 
-![Admin - Customer address attributes]({% link images/images-ee/attributes-customer-address.png %}){: .zoom}
+![Admin - Customer address attributes]({% link stores/assets/attributes-customer-address.png %}){: .zoom}
 _Customer Address Attributes_
 
 ## Step 1: Complete the Attribute Properties
@@ -21,7 +21,7 @@ _Customer Address Attributes_
 
 1. In the upper-right corner, click <span class="btn">Add New Attribute</span>.
 
-   ![Customer attribute properties]({% link images/images-ee/attribute-customer-address-new.png %}){: .zoom}
+   ![Customer attribute properties]({% link stores/assets/attribute-customer-address-new.png %}){: .zoom}
    _Customer Attribute Properties_
 
 1. In the **Attribute Properties** section, do the following:
@@ -91,7 +91,7 @@ _Customer Address Attributes_
    - [Customer Address Registration]({% link customers/account-create.md %})
    - [Customer Account Address]({% link customers/account-dashboard-address-book.md %})
 
-   ![Customer address attributes - Storefront properties]({% link images/images-ee/attribute-customer-address-storefront-properties.png %}){: .zoom}
+   ![Customer address attributes - Storefront properties]({% link stores/assets/attribute-customer-address-storefront-properties.png %}){: .zoom}
    _Storefront Properties_
 
 ## Step 3: Complete the Labels/Options
@@ -102,7 +102,7 @@ _Customer Address Attributes_
 
 1. When complete, click <span class="btn">Save Attribute</span>.
 
-   ![Customer address attributes - labels/options]({% link images/images-ee/attribute-customer-address-new-manage-label-options.png %}){: .zoom}
+   ![Customer address attributes - labels/options]({% link stores/assets/attribute-customer-address-new-manage-label-options.png %}){: .zoom}
    _Manage Labels/Options_
 
 ## Field Descriptions

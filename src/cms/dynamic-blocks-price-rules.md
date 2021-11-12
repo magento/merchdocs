@@ -25,7 +25,7 @@ Any [dynamic block]({% link cms/dynamic-blocks.md %}) that you create can be ass
 
 1. Select the checkbox of each dynamic block that you want to associate with the rule.
 
-   ![]({% link images/images-ee/price-rule-cart-related-dynamic-blocks-any.png %}){: .zoom}
+   ![]({% link cms/assets/price-rule-cart-related-dynamic-blocks-any.png %}){: .zoom}
    _Adding selected dynamic blocks_
 
 1. When complete, click <span class="btn">Save</span>.

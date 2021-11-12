@@ -34,7 +34,7 @@ After you create and activate the recommendation unit, Adobe Commerce will begin
    - **Product Detail**
    - **Cart**
    - **Confirmation**
-   - **[Page Builder]({% link marketing/page-builder-add-product-recs.md %})**
+   - **[Page Builder]({% link cms/page-builder-add-recommendations.md %})**
 
 1. In the **Select Recommendation type** section, specify the [type of recommendation]({% link marketing/prex-types.md %}) you want to appear on the selected page type. Note that certain page types [restrict what type of recommendation]({% link marketing/product-recommendations.md %}#supportedrecs) you can select.
 
@@ -71,7 +71,7 @@ After you create and activate the recommendation unit, Adobe Commerce will begin
 
 Use the **Recommended products preview** panel to preview what products will be displayed in a recommendation unit when deployed to your storefront.
 
-![Recommendation preview]({% link images/images-ee/prex-preview.png %}){: .zoom}
+![Recommendation preview]({% link marketing/assets/prex-preview.png %}){: .zoom}
 
 The preview panel supports [fetching recommendations from a different environment]({% link marketing/recommendation-change-source.md %}). This allows merchants who are testing in a non-production environment to experiment with rules and preview the recommendations before deploying to production.
 

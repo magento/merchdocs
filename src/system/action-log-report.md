@@ -25,12 +25,12 @@ The Action Logs Report includes the following information:
 
 1. On the _Admin_ sidebar, go to **System** > _Actions Logs_ > **Report**.
 
-    ![Action logs]({% link images/images-ee/system-action-log-report.png %}){: .zoom}
+    ![Action logs]({% link system/assets/action-log-report.png %}){: .zoom}
     _Action Logs Report_
 
 1. To view the full details of a listed admin action, click **View**.
 
-    ![Action log entry details]({% link images/images-ee/system-action-log-report-view.png %}){: .zoom}
+    ![Action log entry details]({% link system/assets/action-log-report-view.png %}){: .zoom}
     _Log Entry Details_
 
 ## Filter the Action Logs Report
@@ -39,7 +39,7 @@ You can define the filter options fields and then click **Search** to narrow the
 
 To clear the filter options and return to the full report, click **Reset Filter**.
 
-![Action log report filters]({% link images/images-ee/system-action-log-report-filters.png %}){: .zoom}
+![Action log report filters]({% link system/assets/action-log-report-filters.png %}){: .zoom}
 _Action Logs Report Filters_
 
 ### Filter by Field
@@ -66,5 +66,5 @@ _Action Logs Report Filters_
 
    The generated file is automatically saved to your designated folder for downloads.
 
-    ![Action logs report export]({% link images/images-ee/system-action-log-report-export.png %}){: .zoom}
+    ![Action logs report export]({% link system/assets/action-log-report-export.png %}){: .zoom}
     _Action Logs Report Export_

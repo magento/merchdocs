@@ -5,7 +5,7 @@ title: Manage Stock Aggregates
 
 Manage Stock Aggregates provides information about existing stock aggregates, and allows you to add new stock aggregates or edit or delete existing ones.
 
-![Manage Stock Aggregates]({% link images/images-ee/mcom-manage-stock-aggregates.png %}){: .zoom}
+![Manage Stock Aggregates]({% link mcom/assets/manage-stock-aggregates.png %}){: .zoom}
 _Manage Stock Aggregates_
 
 You [create sources](https://omsdocs.magento.com/en/features-processes/stock-sourcing/inventory/#configure-sources) and [aggregates](https://omsdocs.magento.com/en/features-processes/stock-sourcing/inventory/#configure-stock-aggregates) in the Order Management System (OMS) Admin. Then you assign which website(s) are associated with each aggregate via Manage Stock Aggregates in the Adobe Commerce Admin.
@@ -22,7 +22,7 @@ You [create sources](https://omsdocs.magento.com/en/features-processes/stock-sou
 1. Choose a **Website** from the populated list.
 1. When complete, click <span class="btn">Save Stock Aggregate</span>.
 
-   ![Create new stock aggregate]({% link images/images-ee/mcom-manage-stock-aggregates-new.png %}){: .zoom}
+   ![Create new stock aggregate]({% link mcom/assets/manage-stock-aggregates-new.png %}){: .zoom}
    _Create new stock aggregate_
 
 ## Edit or delete a stock aggregate

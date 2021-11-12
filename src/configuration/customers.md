@@ -4,7 +4,7 @@ title: Customers
 
 The Customers configuration settings can be found in **Stores** > _Settings_ > **Configuration** > **Customers**.
 
-![Customers configuration settings]({% link images/images-ee/config-customers-ee.png %}){: .zoom}
+![Customers configuration settings]({% link configuration/assets/config-customers-ee.png %}){: .zoom}
 _Customers configuration settings_
 
 See the Customers child pages for more information on each section.

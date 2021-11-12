@@ -5,7 +5,7 @@ title: Creating a Gift Card
 
 The following instructions demonstrate the process of creating a gift card using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}), as needed.
 
-![]({% link images/images-ee/storefront-giftcard-product-page.png %}){: .zoom}
+![]({% link catalog/assets/storefront-giftcard-product-page.png %}){: .zoom}
 _Gift Card Product Page_
 
 ## Step 1: Choose the product type
@@ -14,7 +14,7 @@ _Gift Card Product Page_
 
 1. In the upper-right corner on the _Add Product_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Gift Card**.
 
-    ![]({% link images/images-ee/product-add-gift-card.png %}){: .zoom}
+    ![]({% link catalog/assets/product-add-gift-card.png %}){: .zoom}
     _Add Gift Card_
 
 ## Step 2: Choose the attribute set
@@ -43,14 +43,14 @@ _Choose Attribute Set_
     |Physical|Physical gift cards can be mass produced in advance and embossed with unique codes. |
     |Combined|A combined gift card has the characteristics of both a virtual and physical gift card. |
 
-    ![]({% link images/images-ee/product-create-gift-card-type.png %}){: .zoom}
+    ![]({% link catalog/assets/product-create-gift-card-type.png %}){: .zoom}
     _Gift Card Type_
 
 1. To offer the customer a choice of fixed amounts, click <span class="btn">Add Amount</span> and enter the first fixed value of the card as a decimal.
 
    Repeat this step to enter the selection of fixed amounts.
 
-    ![]({% link images/images-ee/product-create-gift-card-amounts.png %}){: .zoom}
+    ![]({% link catalog/assets/product-create-gift-card-amounts.png %}){: .zoom}
     _Gift Card Amounts_
 
 1. To give customers the ability to set the value of the gift card, do the following:

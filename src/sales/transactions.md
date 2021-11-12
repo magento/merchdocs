@@ -8,7 +8,7 @@ The _Transactions_ grid lists all payment activity that has taken place between 
 
 On the _Admin_ sidebar, go to **Sales** > _Operations_ > **Transactions**.
 
-![]({% link images/images/sales-transactions.png %}){: .zoom}
+![]({% link sales/assets/transactions.png %}){: .zoom}
 _Transactions grid_
 
 ### Column descriptions

@@ -102,8 +102,6 @@ pages:
       url: "/marketing/edit-existing-rec.html"
     - label: Inclusion and Exclusion Filters
       url: "/marketing/recommendation-incl-excl.html"
-    - label: Add Recommendation to Page Builder
-      url: "/marketing/page-builder-add-product-recs.html"
     - label: Recommendation Types
       url: "/marketing/prex-types.html"
       children:

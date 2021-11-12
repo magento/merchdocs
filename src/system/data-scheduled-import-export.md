@@ -9,7 +9,7 @@ Scheduled imports and exports can be run on a daily, weekly or monthly basis. Th
 
 1. On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Scheduled Imports/Exports**.
 
-    ![Scheduled data import/export]({% link images/images-ee/data-scheduled-import-export.png %}){: .zoom}
+    ![Scheduled data import/export]({% link system/assets/data-scheduled-import-export.png %}){: .zoom}
     _Scheduled Import/Export_
 
 1. To create a new scheduled import or export job, click the appropriate button and follow the instructions for the type of scheduled job.
