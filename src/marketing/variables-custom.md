@@ -89,7 +89,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
    The variable identifier appears as a placeholder in the editor.
 
-   ![Page Builder stage]({% link images/images-ee/pagebuilder-variable-inserted.png %}){: .zoom}
+   ![Page Builder stage]({% link marketing/assets/pagebuilder-variable-inserted.png %}){: .zoom}
    _Variable Placeholder_
 
 1. When complete, click <span class="btn">Save</span>.

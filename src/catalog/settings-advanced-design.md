@@ -4,7 +4,7 @@ title: Design
 
 The Design settings allows a different theme to be applied to the product page, change the column layout, determine where product options appear, and enter custom XML code.
 
-![]({% link images/images-ee/product-design-ee.png %}){: .zoom}
+![]({% link catalog/assets/product-design-ee.png %}){: .zoom}
 _Design_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
