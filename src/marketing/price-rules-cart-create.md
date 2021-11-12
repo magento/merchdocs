@@ -14,7 +14,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
    - If you do not want the rule to go into effect immediately, set **Active** to `No`.
 
-    ![Cart price rule - rule information]({% link images/images-ee/price-rule-cart-new.png %}){: .zoom}
+    ![Cart price rule - rule information]({% link marketing/assets/price-rule-cart-new.png %}){: .zoom}
     _Rule Information_
 
 1. To establish the [scope]({% link configuration/scope.md %}) of the rule, do the following:
@@ -40,7 +40,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
         To learn more, see [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}).
 
-        ![Cart price rule  - coupon settings]({% link images/images-ee/price-rule-cart-coupon-settings-ee.png %}){: .zoom}
+        ![Cart price rule  - coupon settings]({% link marketing/assets/price-rule-cart-coupon-settings-ee.png %}){: .zoom}
         _Coupon settings_
 
    - {:.ce-only}Use the **Calendar** (![Calendar icon]({% link assets/icon-calendar.png %})) to choose the **From** and **To** date range for the promotion.
@@ -58,7 +58,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
 
    - {:.ee-only}After the rule is saved, the name of the cart price rule and the Scheduled Changes box appears at the top of the page.
 
-      ![Cart price rule - scheduled changes]({% link images/images-ee/price-rule-cart-scheduled-changes.png %}){: .zoom}
+      ![Cart price rule - scheduled changes]({% link marketing/assets/price-rule-cart-scheduled-changes.png %}){: .zoom}
       _[Scheduled Changes]({% link marketing/price-rule-cart-scheduled-changes.md %})_
 
 ## Step 2: Describe the Conditions
@@ -86,7 +86,7 @@ In this step, the conditions are described that must be met for an order to qual
 
    - When prompted to **Choose the condition to add**, choose `Products Subselection`.
 
-   ![Cart price rule condition - products subselection]({% link images/images-ee/price-rule-cart-condition-products-subselection.png %}){: .zoom}
+   ![Cart price rule condition - products subselection]({% link marketing/assets/price-rule-cart-condition-products-subselection.png %}){: .zoom}
    _Products Subselection_
 
    - In the condition statement, click **total quantity** and select `total quantity` or `total amount`.
@@ -173,7 +173,7 @@ The shopping cart price rule actions describe how prices are updated when the co
 
 1. Scroll down to **Actions**, and expand ![Expansion selector]({% link assets/icon-display-expand.png %})the section. Then, do the following:
 
-   ![Cart price rule - actions ]({% link images/images-ee/price-rule-cart-actions.png %}){: .zoom}
+   ![Cart price rule - actions ]({% link marketing/assets/price-rule-cart-actions.png %}){: .zoom}
    _Cart Price Rule Actions_
 
 1. Set **Apply** to one of the following discount options:

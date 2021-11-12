@@ -19,7 +19,7 @@ _Products in Category_
 
 1. Use _Search by keyword_ or filters to find the products you want to add.
 
-    ![]({% link images/images-ee/search-all-product.png %}){: .zoom}
+    ![]({% link catalog/assets/search-all-product.png %}){: .zoom}
     _Search All Products tab_
 
 1. In the _Assign_ column, toggle the option to **Yes** for each product that you want to add.

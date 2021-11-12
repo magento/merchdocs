@@ -25,7 +25,7 @@ The rewards points balance can be updated from the Admin.
 
 1. Enter **Comments** related to the reward points adjustment, if needed.
 
-    ![]({% link images/images-ee/reward-points-balance.png %}){: .zoom}
+    ![]({% link customers/assets/reward-points-balance.png %}){: .zoom}
     _Reward Points Balance_
 
 1. Optionally, subscribe the customer to _Reward Points Notifications_:

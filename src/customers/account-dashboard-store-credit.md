@@ -16,12 +16,12 @@ _Store Credit_
 
 1. To apply the amount to the order, the customer clicks <span class="btn">Use Store Credit</span>.
 
-   ![]({% link images/images-ee/storefront-checkout-use-store-credit.png %}){: .zoom}
+   ![]({% link customers/assets/storefront-checkout-use-store-credit.png %}){: .zoom}
    _Use Store Credit_
 
    The order total is recalculated and the amount of store credit that is applied appears in the Order Summary.
 
-   ![]({% link images/images-ee/storefront-checkout-use-store-credit-order-summary.png %}){: .zoom}
+   ![]({% link customers/assets/storefront-checkout-use-store-credit-order-summary.png %}){: .zoom}
    _Order Summary with Store Credit_
 
 1. When ready, clicks <span class="btn">Place Order</span>.

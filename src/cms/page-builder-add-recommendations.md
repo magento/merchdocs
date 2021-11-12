@@ -1,12 +1,14 @@
 ---
+title: Add Content - Product Recommendations
 ee_only: true
-title: Add Recommendations to Page Builder
+redirect from:
+marketing/page-builder-add-product-recs.html
 ---
 
-Use the _Product Recommendations_ content type to add an existing, active [recommendation unit]({% link marketing/create-new-rec.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage) for a CMS page, block, or dynamic block.
+Use the _Product Recommendations_ content type to add an existing, active [recommendation unit]({% link marketing/create-new-rec.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage) for a CMS page, block, or dynamic block. To learn more, refer to Page Builder [Workspace]({% link cms/page-builder-workspace.md %}) and [tutorials]({% link cms/page-builder-learn.md %}).
 
 {:.bs-callout-info}
-The _Product Recommendations_ content type in Page Builder is supported in Adobe Commerce 2.3.1 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add Page Builder support, [see the developer documentation]({{ site.devdocs_url }}/recommendations/install-configure.html#pbsupport).
+The Page Builder _Product Recommendations_ content type is supported in Adobe Commerce 2.3.1 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add Page Builder support to Product Recommendations, [see the developer documentation]({{ site.devdocs_url }}/recommendations/install-configure.html#pbsupport).
 
 {% include page-builder-save-timeout.md %}
 
@@ -32,54 +34,63 @@ The _Product Recommendations_ content type in Page Builder is supported in Adobe
 
 1. Expand the _Content_ section and click <span class="btn">Edit with Page Builder</span> or inside the content preview area to open the Page Builder workspace.
 
-1. In the Page Builder panel under **Add Content**, drag a **Product Recommendation** placeholder to the stage.
+1. In the Page Builder panel under _Layout_, drag a **Row** placeholder to the stage.
 
-   ![]({% link marketing/assets/page-builder-add-prex-drag.png %}){: .zoom}
+1. In the Page Builder panel under _Add Content_, drag a **Product Recommendation** placeholder to the row.
+
+   ![]({% link images/images-ee/page-builder-add-prex-drag.png %}){: .zoom}
    _Adding the Product Recommendation content type_
 
-1. Hover over the empty _Product recommendation_ container to display the toolbox and click the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Do one of the following:
 
-1. Click <span class="btn">Select</span>.
+   - Click <span class="btn">Edit Product Recommendation</span>.
+   - Hover over the empty container to display the toolbox and click the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-   ![]({% link marketing/assets/page-builder-add-prex-select.png %}){: width="300px"}<br/>
-   _Select Product Recommendation_
+   ![]({% link images/images-ee/page-builder-prex-toolbox.png %}){: .zoom}
+   _Edit Product Recommendation_
+
+1. In the _Selection_ section, click <span class="btn">Select</span>.
 
 1. In the list of active product recommendations, find the row with the recommendation unit that you want to add and click <span class="btn">Select</span> in the last column.
 
-   ![]({% link marketing/assets/page-builder-add-prex-selected.png %}){: .zoom}
+   ![]({% link images/images-ee/page-builder-prex-select.png %}){: .zoom}
    _Selected Product Recommendation_
 
-   The name of the selected product recommendation appears in the **Edit Product Recommendation** form.
+1. In the upper-right corner, click <span class="btn">Add Selected</span>.
 
-   ![]({% link marketing/assets/page-builder-add-prex-name.png %}){: width="300px"}<br/>
-   _Product Recommendation name_
+   The name of the selected product recommendation appears in the _Selection_ section of the _Edit Product Recommendation_ page.
 
-1. Complete the [Advanced settings](#advanced-settings) as needed.
+1. Make any changes necessary to the [Advanced settings](#advanced-settings).
 
-1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
+   ![]({% link images/images-ee/page-builder-prex-edit.png %}){: .zoom}<br/>
+   _Edit Product Recommendation_
+
+1. When complete, do the following:
+
+   - If working with a fully maximized browser window, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon in the upper-right corner of the workspace.
+
+   - Click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace
+
+   When you return to the stage, product placeholder images appear in the container.
 
 ## Edit recommendation unit settings
 
-1. Hover over the recommendation unit container to display the toolbox and click the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the recommendation unit container to display the toolbox and click the **Settings** (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-   ![]({% link marketing/assets/page-builder-add-prex-toolbox.png %}){: .zoom}
-   _Block Toolbox_
+   ![]({% link images/images-ee/page-builder-prex-placeholders-toolbox.png %}){: .zoom}
+   _Recommendation Toolbox_
 
-1. In the _Edit Product Recommendation_ page, click <span class="btn">Select</span>.
-
-1. Find the row with the recommendation unit that you want to add and click <span class="btn">Select</span> in the last column.
-
-1. Complete the [Advanced settings](#advanced-settings) as needed.
+1. Make any changes necessary to the [Advanced settings](#advanced-settings).
 
 1. When complete, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
 ## Duplicate a recommendation unit
 
-1. Hover over the recommendation unit container to display the toolbox and click the _Duplicate_ (![]({% link images/images-ee/icon-pb-duplicate.png %}) icon in the toolbox.
+1. Hover over the recommendation unit container to display the toolbox and click the **Duplicate** (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon in the toolbox.
 
    The duplicate appears just below the original.
 
-1. To move the duplicated recommendation unit to a new position, hover over the container and click the _Move_ (![]({% link images/images-ee/icon-pb-move.png %}) icon in the toolbox.
+1. To move the duplicated recommendation unit to a new position, hover over the container and click the **Move** (![]({% link images/images-ee/icon-pb-move.png %})) icon in the toolbox.
 
 1. Select and drag the recommendation unit until the red guideline appears at the new position.
 
@@ -87,9 +98,9 @@ The _Product Recommendations_ content type in Page Builder is supported in Adobe
 
 ## Remove a recommendation unit from the stage
 
-1. Hover over the recommendation unit container and click the _Remove_ (![]({% link images/images-ee/icon-pb-remove.png %}) icon in the toolbox.
+1. Hover over the recommendation unit container and click the **Remove** (![]({% link images/images-ee/icon-pb-remove.png %})) icon in the toolbox.
 
-1. When prompted to confirm, click **OK**.
+1. When prompted to confirm, click <span class="btn">OK</span>.
 
 ## Advanced settings
 
@@ -105,7 +116,7 @@ The _Product Recommendations_ content type in Page Builder is supported in Adobe
    |Default|Applies the default border style that is specified by the associated style sheet.
    |None|Does not provide any visible indication of the unit borders.
    |Dotted|The unit border appears as a dotted line.
-   |Dashed|The unit  border appears as a dashed line.
+   |Dashed|The unit border appears as a dashed line.
    |Solid|The unit border appears as a solid line.
    |Double|The unit border appears as a double line.
    |Groove|The unit border appears as a grooved line.
@@ -115,11 +126,11 @@ The _Product Recommendations_ content type in Page Builder is supported in Adobe
 
 1. If you set a border style other than `None`, complete the border display options:
 
-   - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
+   - Border Color - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-   - **Border Width** - Enter the number of pixels for the border line width.
+   - Border Width - Enter the number of pixels for the border line width.
 
-   - **Border Radius** - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
+   - Border Radius - Enter the number of pixels to define the size of the radius that is used to round each corner of the border.
 
 1. (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the unit.
 

@@ -5,7 +5,7 @@ title: Gift Registry Search
 
 The [Widget]({% link cms/widgets.md %}) tool can be used to place a gift registry search box most anywhere in your store. You can specify the search options to be available to customers, including: name, email address, and gift registry ID. When the customer clicks the Search button, the results appear on the Gift Registry Search page. If the search returns no results, the customer can try again with other parameters.
 
-![Example storefront - gift registry search]({% link images/images-ee/storefront-gift-registry-search.png %}){: .zoom}
+![Example storefront - gift registry search]({% link marketing/assets/storefront-gift-registry-search.png %}){: .zoom}
 _Gift Registry Search_
 
 ## Add Gift Registry Search
@@ -22,7 +22,7 @@ _Gift Registry Search_
 
     - Click <span class="btn">Continue</span>.
 
-    ![Gift registry - search settings]({% link images/images-ee/widget-gift-registry-search-settings.png %}){: .zoom}
+    ![Gift registry - search settings]({% link marketing/assets/widget-gift-registry-search-settings.png %}){: .zoom}
     _Gift Registry Search Settings_
 
 1. In the _Storefront Properties_ section, do the following:
@@ -33,7 +33,7 @@ _Gift Registry Search_
 
     - Set **Sort Order** to determine the order that the Gift Registry Search block appears if there are other blocks assigned to the same location on the page.
 
-    ![Gift registry - storefront properties]({% link images/images-ee/widget-gift-registry-search-storefront-properties.png %}){: .zoom}
+    ![Gift registry - storefront properties]({% link marketing/assets/widget-gift-registry-search-storefront-properties.png %}){: .zoom}
     _Storefront Properties_
 
 1. In the **Layout Updates** section, click <span class="btn">Add Layout Update</span>.
@@ -46,7 +46,7 @@ _Gift Registry Search_
 
     - Set **Container** to the location on the page where you the Gift Registry Search block to be placed.
 
-    ![Gift registry - layout updates]({% link images/images-ee/widget-gift-registry-search-layout-updates.png %}){: .zoom}
+    ![Gift registry - layout updates]({% link marketing/assets/widget-gift-registry-search-layout-updates.png %}){: .zoom}
     _Layout Update_
 
 1. In the left panel, choose **Widget Options**.
@@ -58,7 +58,7 @@ _Gift Registry Search_
     - Registrant Email Search
     - Gift Registry ID Search
 
-    ![Gift registry - widget options]({% link images/images-ee/widget-gift-registry-search-widget-options.png %}){: .zoom}
+    ![Gift registry - widget options]({% link marketing/assets/widget-gift-registry-search-widget-options.png %}){: .zoom}
     _Widget Options_
 
 1. When complete, click <span class="btn">Save</span>.

@@ -28,7 +28,7 @@ Adobe Commerce includes support for [Scheduled Updates]({% link cms/content-stag
 
    You can use the **Hour** and **Minute** sliders to choose the start and end time, as well. Click <span class="btn">Close</span> when the start and end are set.
 
-    ![]({% link images/images-ee/product-price-special-scheduled-update.png %}){: .zoom}
+    ![]({% link catalog/assets/product-price-special-scheduled-update.png %}){: .zoom}
     _Save as New Update_
 
 1. Scroll down to the _Price_ field, click **Advanced Pricing**, and enter the amount of the **Special Price**.
@@ -42,7 +42,7 @@ Adobe Commerce includes support for [Scheduled Updates]({% link cms/content-stag
 
     The Scheduled Change appears at the top of the page.
 
-    ![]({% link images/images-ee/product-price-special-scheduled-change.png %}){: .zoom}
+    ![]({% link catalog/assets/product-price-special-scheduled-change.png %}){: .zoom}
     _Scheduled Change_
 
 {:.ce-only}

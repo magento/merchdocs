@@ -15,7 +15,7 @@ When requested, these outgoing messages will be exported to a .csv file in chunk
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 1. Click <span class="btn">Export Full Catalog</span>.
 
-   ![Export Full Catalog]({% link images/images-ee/products-export-full.png %}){: .zoom}
+   ![Export Full Catalog]({% link catalog/assets/products-export-full.png %}){: .zoom}
    _Export Full Catalog_
 
 1. Click <span class="btn">OK</span> in the confirmation dialog.

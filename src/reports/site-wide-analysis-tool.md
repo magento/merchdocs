@@ -4,7 +4,7 @@ title: Site-Wide Analysis Tool
 
 The Site-Wide Analysis Tool provides 24/7 real-time performance monitoring, reports, and recommendations to ensure the security and operability for installations of Adobe Commerce on cloud infrastructure. The Site-Wide Analysis Tool provides a dashboard and reports with system insights and recommendations based on best practices that you can use to address detected issues. The service is available in [production mode]({% link magento/installation-modes.md %}) for Admin users with permission to access user [role resources]({% link system/permissions-user-roles.md %}).
 
-![Site-Wide Analysis Tool Dashboard]({% link images/images-ee/reports-swat-dashboard.png %}){: .zoom}
+![Site-Wide Analysis Tool Dashboard]({% link reports/assets/swat-dashboard.png %}){: .zoom}
 _Site-Wide Analysis Tool Dashboard_
 
 ## Step 1: Verify permissions
@@ -18,7 +18,7 @@ For the custom role needing Site-Wide Analysis Tool access, do the following:
 
 1. Select the **Reports** > _System Insights_ > **Site-Wide Analysis Tool** role resource.
 
-   ![Select the Site-Wide Analysis Tool permission]({% link images/images-ee/reports-swat-role-access.png %}){: width="330px"}<br/>
+   ![Select the Site-Wide Analysis Tool permission]({% link reports/assets/swat-role-access.png %}){: width="330px"}<br/>
    _Site-Wide Analysis Tool permission selected for the role_
 
 1. Click <span class="btn">Save Role</span>.
@@ -36,12 +36,12 @@ If you have verified that the user account has permission to access the Site-Wid
 
    Each user is required to accept the Terms of Use for the session. This step is repeated for each logged-in session.
 
-   ![Terms of Use]({% link images/images-ee/reports-swat-tos.png %}){: .zoom}
+   ![Terms of Use]({% link reports/assets/swat-tos.png %}){: .zoom}
    _Terms of Use_
 
 1. At the top of the dashboard, click the tab that you want to see.
 
-   ![Information tab]({% link images/images-ee/reports-swat-information-tab.png %}){: .zoom}
+   ![Information tab]({% link reports/assets/swat-information-tab.png %}){: .zoom}
    _Site-Wide Analysis Tool information_
 
 ## Step 3: Generate report
@@ -52,7 +52,7 @@ If you have verified that the user account has permission to access the Site-Wid
 
 1. Click <span class="btn">Generate Report</span>.
 
-   ![Report Settings]({% link images/images-ee/reports-swat-report-settings.png %}){: .zoom}
+   ![Report Settings]({% link reports/assets/swat-report-settings.png %}){: .zoom}
    _Report Settings_
 
 |Tab|Description|

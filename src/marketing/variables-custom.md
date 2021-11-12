@@ -79,7 +79,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
 1. At the far right of the editor toolbar, click (![]({% link cms/assets/editor-btn-insert-variable.png %})) to insert a variable.
 
-   ![Page Builder stage]({% link images/images-ee/variable-custom-pagebuilder-stage.png %}){: .zoom}
+   ![Page Builder stage]({% link marketing/assets/variable-custom-pagebuilder-stage.png %}){: .zoom}
    _PageBuilder Stage and Panel_
 
 1. In the list, select the custom variable that you want to insert and click <span class="btn">Insert Variable</span>.
@@ -89,7 +89,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
    The variable identifier appears as a placeholder in the editor.
 
-   ![Page Builder stage]({% link images/images-ee/pagebuilder-variable-inserted.png %}){: .zoom}
+   ![Page Builder stage]({% link marketing/assets/pagebuilder-variable-inserted.png %}){: .zoom}
    _Variable Placeholder_
 
 1. When complete, click <span class="btn">Save</span>.
