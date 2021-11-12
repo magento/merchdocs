@@ -59,8 +59,8 @@ The _Configuration_ settings in the _Data Mapping_ section of your Commerce inst
 
 1. Wait an hour to ensure that all contact data is imported into your dotdigital account.
 
-![]({% link images/images-b2b/config-engagement-cloud-sync-settings-sync.png %}){: .zoom}
-[_Sync_]({% link configuration/dotdigital/sync-settings.md %}){:.b2b-only}
+![]({% link configuration/dotdigital/assets/ec-sync-settings-sync.png %}){: .zoom}
+[_Sync_]({% link configuration/dotdigital/sync-settings.md %})
 
 {:.b2b-only}
 ### Sync B2B Company Details
@@ -89,7 +89,7 @@ The _Configuration_ settings in the _Data Mapping_ section of your Commerce inst
 
 1. Set **Shared Catalog Enabled** to `Yes`.
 
-   ![]({% link images/images-b2b/config-dotdigital-sync-settings-sync.png %}){: .zoom}
+   ![]({% link marketing/assets/dotdigital-config-b2b-sync-settings.png %}){: .zoom}
    [_Sync Settings - Admin Task_]({% link configuration/dotdigital/developer.md %})
 
 1. Click <span class="btn">Save Config</span>.

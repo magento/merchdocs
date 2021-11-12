@@ -21,7 +21,7 @@ _[Checkout Options]({% link sales/checkout-options.md %})_
 
 ## Shopping Cart
 
-![]({% link images/images-b2b/config-sales-checkout-shopping-cart.png %}){: .zoom}
+![]({% link images/images/config-sales-checkout-shopping-cart.png %}){: .zoom}
 _[Shopping Cart]({% link sales/cart-configuration.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

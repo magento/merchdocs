@@ -31,7 +31,7 @@ To grant access to quote functions in the Admin, go to **System** > _Permissions
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General** section and do the following:
 
-   ![Sales quotes configuration - general]({% link images/images-b2b/config-sales-quotes-general.png %}){: .zoom}
+   ![Sales quotes configuration - general]({% link configuration/sales/assets/quotes-general.png %}){: .zoom}
    [_General_]({% link configuration/sales/quotes.md %})
 
    - Enter the **Minimum Amount** in the shopping cart that must be met before a request for a quote can be submitted.
@@ -52,7 +52,7 @@ To grant access to quote functions in the Admin, go to **System** > _Permissions
 
       The value you enter might be overridden by the server setting.
 
-      ![Sales quotes configuration - attached files]({% link images/images-b2b/config-sales-quotes-attached-files.png %}){: .zoom}
+      ![Sales quotes configuration - attached files]({% link configuration/sales/assets/quotes-attached-files.png %}){: .zoom}
       [_Attached Files_]({% link configuration/sales/quotes.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

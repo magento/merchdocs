@@ -56,7 +56,7 @@ The following payment methods are built into Commerce and do not use a third-par
 {:.b2b-only}
 ### Payment on Account
 
-![]({% link images/images-b2b/config-sales-payment-methods-payment-on-account.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-payment-on-account.png %}){: .zoom}
 [_Payment on Account_]({% link payment/payment-on-account.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

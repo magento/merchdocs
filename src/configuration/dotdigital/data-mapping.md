@@ -116,7 +116,7 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 {:.b2b-only}
 ## B2B Data
 
-![]({% link images/images-b2b/config-engagement-data-fields-mapping-b2b-data.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/ec-data-fields-mapping-b2b-data.png %}){: .zoom}
 [_B2B Data_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

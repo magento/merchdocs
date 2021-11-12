@@ -10,20 +10,18 @@ _Quick Order Link_
 
 ## Step 1: Enable Quick Orders
 
-1. On the _Admin_ sidebar, choose **Stores**.
-
-1. In the _Settings_ section, choose **Configuration**.
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the _General_ section on the left panel, choose **B2B Features**.
 
 1. Set **Enable Quick Order** to `Yes`.
 
-    ![]({% link images/images-b2b/config-general-b2b-features-quick-order.png %}){: .zoom}
+    ![]({% link sales/assets/quick-orders-config.png %}){: .zoom}
     _Enable Quick Order_
 
 1. Click **Save Config**.
 
-1. When prompted, click [Cache Management]({% link system/cache-management.md %}). Then, refresh any invalid caches.
+1. When prompted, click [Cache Management]({% link system/cache-management.md %}) and refresh any invalid caches.
 
 ## Step 2: Specify Products for Quick Order
 

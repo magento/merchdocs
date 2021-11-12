@@ -142,7 +142,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 {:.b2b-only}
 ## Purchase Order Approval
 
-![]({% link images/images-b2b/config-sales-sales-emails-purchase-order-approval.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-emails-purchase-order-approval.png %}){: .zoom}
 _Purchase Order Approval_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -159,7 +159,7 @@ _Purchase Order Approval_
 {:.b2b-only}
 ## Quote
 
-![]({% link images/images-b2b/config-sales-sales-emails-quote.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-emails-quote.png %}){: .zoom}
 _[Quotes]({% link customers/account-dashboard-quotes.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
