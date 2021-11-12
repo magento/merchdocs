@@ -53,7 +53,7 @@ _Scheduled Changes_
 
 The scheduled change appears at the top of the product page, with the start and end dates of the campaign.
 
-![]({% link images/images-ee/view-product-scheduled-changes.png %}){: .zoom}
+![]({% link catalog/assets/view-product-scheduled-changes.png %}){: .zoom}
 _Scheduled change_
 
 ## Edit the scheduled change
