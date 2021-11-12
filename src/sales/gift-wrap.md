@@ -14,12 +14,12 @@ _Gift options in cart_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Other Settings_ > **Gift Wrapping**.
 
-   ![]({% link images/images-ee/gift-wrapping.png %}){: .zoom}
+   ![]({% link sales/assets/gift-wrapping.png %}){: .zoom}
    _Gift Wrapping grid_
 
 1. In the upper-right corner, click <span class="btn">Add Gift Wrapping</span>.
 
-   ![]({% link images/images-ee/gift-wrapping-new.png %}){: .zoom}
+   ![]({% link sales/assets/gift-wrapping-new.png %}){: .zoom}
    _New Gift Wrapping_
 
 1. Enter the name for the **Gift Wrapping Design** to appear during checkout.
@@ -50,7 +50,7 @@ _Gift options in cart_
 
 1. In the _Action_ column, click **Edit**.
 
-   ![]({% link images/images-ee/gift-wrapping-edit.png %}){: .zoom}
+   ![]({% link sales/assets/gift-wrapping-edit.png %}){: .zoom}
    _Edit gift wrapping information_
 
 1. Make the necessary changes.
