@@ -78,12 +78,12 @@ If your store has multiple views in different languages, the same products are a
 
 1. Choose **Manage Label** on the left and set the **Managed Titles** options to define the attribute title translations.
 
-    ![]({% link images/images/manage-label-tab.png %}){: .zoom}
+    ![]({% link catalog/assets/manage-label-tab.png %}){: .zoom}
     _Manage Titles_
 
 1. Choose **Properties** on the left and enter the translated attribute options in the **Manage Options** section.
 
-    ![]({% link images/images/manage-option-tab.png %}){: .zoom}
+    ![]({% link catalog/assets/manage-option-tab.png %}){: .zoom}
     _Manage Options_
 
 1. When complete, click <span class="btn">Save Attribute</span>.

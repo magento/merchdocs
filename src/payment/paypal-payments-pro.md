@@ -315,7 +315,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
-   ![PayPal Payments Pro Advanced Settings]({% link images/images/paypal-payments-pro-advanced-settings.png %}){: .zoom}
+   ![PayPal Payments Pro Advanced Settings]({% link payment/assets/paypal-payments-pro-advanced-settings.png %}){: .zoom}
    _Advanced Settings - PayPal Payments Pro_
 
 1. Set **Payment Applicable From** to one of the following:
@@ -344,7 +344,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
    - To reject a transaction based on a mismatched CVV code, set **Card Security Code Does Not Match** to `Yes`.
 
-   ![PayPal Payments Pro Required Settings]({% link images/images/paypal-payments-pro-cvv-avs-settings.png %}){: .zoom}
+   ![PayPal Payments Pro Required Settings]({% link payment/assets/paypal-payments-pro-cvv-avs-settings.png %}){: .zoom}
    _CVV and AVS Settings - PayPal Payments Pro_
 
 1. Complete the following sections, as needed for your store:

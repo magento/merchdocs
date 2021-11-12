@@ -6,7 +6,7 @@ RSS (Really Simple Syndication) is an XML-based data format that is used to dist
 
 When RSS feeds are enabled, any additions to products, specials, categories, and coupons are automatically sent to the subscribers of each feed. A link to all RSS feeds that you publish is in the footer of your store.
 
-![RSS feed icon]({% link images/images/icon-rss.png %})<br/>
+![RSS feed icon]({% link marketing/assets/icon-rss.png %})<br/>
 _Orange RSS symbol identifying an RSS feed_
 
 The software that is required to read an RSS feed is called a feed reader, and allows people to subscribe to headlines, blogs, podcasts, and much more. Google Reader is one of the many feed readers that are available online for free.
