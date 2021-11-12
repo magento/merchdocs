@@ -5,7 +5,7 @@ title: Rotating Dynamic Blocks
 
 Multiple [dynamic blocks]({% link cms/dynamic-blocks.md %}) can be added to a rotator to present a slide show of interactive content. The [Widget]({% link cms/widgets.md %}) tool is used to place the rotator at a specific place on a either a single page, or on multiple pages throughout your store.
 
-![]({% link images/images-ee/widget-dynamic-block-rotator.png %}){: .zoom}
+![]({% link cms/assets/widget-dynamic-block-rotator.png %}){: .zoom}
 _Dynamic block rotator_
 
 ## Step 1: Create individual dynamic blocks
@@ -26,7 +26,7 @@ Follow the instructions to [create the dynamic blocks]({% link cms/dynamic-block
 
 1. Click <span class="btn">Continue</span>.
 
-   ![]({% link images/images-ee/widget-dynamic-block-rotator-settings.png %}){: .zoom}
+   ![]({% link cms/assets/widget-dynamic-block-rotator-settings.png %}){: .zoom}
    _Dynamic block rotator settings_
 
 ## Step 3: Complete the options
@@ -39,7 +39,7 @@ Follow the instructions to [create the dynamic blocks]({% link cms/dynamic-block
 
    - (Optional) Enter a **Sort Order** number to determine the position of the rotator in the target container. This is relative to other widgets that might be assigned to the same container.
 
-   ![]({% link images/images-ee/widget-dynamic-block-rotator-storefront-properties.png %}){: .zoom}
+   ![]({% link cms/assets/widget-dynamic-block-rotator-storefront-properties.png %}){: .zoom}
    _Rotator storefront properties_
 
 1. Under _Layout Options_, click <span class="btn">Add Layout Update</span> and do the following:
@@ -62,7 +62,7 @@ Follow the instructions to [create the dynamic blocks]({% link cms/dynamic-block
 
       This determines the template that is used to format the rotator, based on whether the rotator is to stand alone, or be placed inside existing text.
 
-      ![]({% link images/images-ee/widget-dynamic-block-rotator-layout-updates.png %}){: .zoom}
+      ![]({% link cms/assets/widget-dynamic-block-rotator-layout-updates.png %}){: .zoom}
       _Rotator layout updates_
 
    - Click <span class="btn">Save and Continue Edit</span>.
@@ -94,7 +94,7 @@ Follow the instructions to [create the dynamic blocks]({% link cms/dynamic-block
    One at the time, Series|Displays the specified dynamic blocks in the sequence they were added. When the page is refreshed, the next dynamic block in the sequence appears.|
    One at the time, Shuffle|Displays one dynamic block at a time in a shuffled order. This option is similar to the `One at a time, Random` option, except that the same dynamic block is not repeated.|
 
-   ![]({% link images/images-ee/widget-dynamic-block-rotator-widget-options.png %}){: .zoom}
+   ![]({% link cms/assets/widget-dynamic-block-rotator-widget-options.png %}){: .zoom}
    _Rotator widget options_
 
 1. In the **Specify Dynamic Blocks** grid, select the checkbox of each dynamic block that you want to include in the rotator.

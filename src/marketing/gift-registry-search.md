@@ -22,7 +22,7 @@ _Gift Registry Search_
 
     - Click <span class="btn">Continue</span>.
 
-    ![Gift registry - search settings]({% link images/images-ee/widget-gift-registry-search-settings.png %}){: .zoom}
+    ![Gift registry - search settings]({% link marketing/assets/widget-gift-registry-search-settings.png %}){: .zoom}
     _Gift Registry Search Settings_
 
 1. In the _Storefront Properties_ section, do the following:
@@ -33,7 +33,7 @@ _Gift Registry Search_
 
     - Set **Sort Order** to determine the order that the Gift Registry Search block appears if there are other blocks assigned to the same location on the page.
 
-    ![Gift registry - storefront properties]({% link images/images-ee/widget-gift-registry-search-storefront-properties.png %}){: .zoom}
+    ![Gift registry - storefront properties]({% link marketing/assets/widget-gift-registry-search-storefront-properties.png %}){: .zoom}
     _Storefront Properties_
 
 1. In the **Layout Updates** section, click <span class="btn">Add Layout Update</span>.
@@ -46,7 +46,7 @@ _Gift Registry Search_
 
     - Set **Container** to the location on the page where you the Gift Registry Search block to be placed.
 
-    ![Gift registry - layout updates]({% link images/images-ee/widget-gift-registry-search-layout-updates.png %}){: .zoom}
+    ![Gift registry - layout updates]({% link marketing/assets/widget-gift-registry-search-layout-updates.png %}){: .zoom}
     _Layout Update_
 
 1. In the left panel, choose **Widget Options**.
@@ -58,7 +58,7 @@ _Gift Registry Search_
     - Registrant Email Search
     - Gift Registry ID Search
 
-    ![Gift registry - widget options]({% link images/images-ee/widget-gift-registry-search-widget-options.png %}){: .zoom}
+    ![Gift registry - widget options]({% link marketing/assets/widget-gift-registry-search-widget-options.png %}){: .zoom}
     _Widget Options_
 
 1. When complete, click <span class="btn">Save</span>.

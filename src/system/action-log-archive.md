@@ -28,5 +28,5 @@ Log archiving requires a [cron job]({% link system/cron.md %}) to be set up.
 
 On the _Admin_ sidebar, go to **System** > _Actions Logs_ > **Archive**.
 
-![Action log archive]({% link images/images-ee/system-action-log-archive.png %}){: .zoom}
+![Action log archive]({% link system/assets/action-log-archive.png %}){: .zoom}
 _Admin Actions Archive_
