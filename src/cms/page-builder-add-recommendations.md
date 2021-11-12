@@ -1,5 +1,5 @@
 ---
-title: Add Content - Product Recommendation
+title: Add Content - Product Recommendations
 ee_only: true
 redirect from:
 marketing/page-builder-add-product-recs.html
