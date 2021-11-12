@@ -19,12 +19,12 @@ _Templates grid with thumbnail preview_
 
 1. Above the stage, click <span class="btn">Save as Template</span> at the top-right.
 
-   ![Page Builder stage with Save as Template button]({% link images/images-ee/pagebuilder-templates-saveastemplate-button.png %}){: .zoom}
+   ![Page Builder stage with Save as Template button]({% link cms/assets/pb-templates-saveastemplate-button.png %}){: .zoom}
    _Page Builder - Save as Template button_
 
    This displays the _Save Content as Template_ dialog.
 
-   ![Page Builder Save as Template dialog]({% link images/images-ee/pagebuilder-templates-save-dialog.png %}){: .zoom}
+   ![Page Builder Save as Template dialog]({% link cms/assets/pb-templates-save-dialog.png %}){: .zoom}
    _Page Builder - Save as Template dialog_
 
 1. For **Template Name**, enter a unique name for the template.
@@ -47,14 +47,14 @@ You can apply a template to a Page Builder content area (page, block, dynamic bl
 
 1. In the content area, click <span class="btn">Apply Template</span> at the top-right.
 
-   ![Page Builder Apply Template button]({% link images/images-ee/pagebuilder-templates-applytemplate-button.png %}){: .zoom}
+   ![Page Builder Apply Template button]({% link cms/assets/pb-templates-applytemplate-button.png %}){: .zoom}
    _Page Builder - Apply Template button_
 
 1. From the _Apply Template_ grid, choose a template and click <span class="btn">Apply</span> at the end of the row.
 
    To see the entire template, you can click the template thumbnail image. This expands the image so you can view the entire template as needed.
 
-   ![Page Builder Apply Template grid]({% link images/images-ee/pagebuilder-templates-apply-slideout-nofilters.png %}){: .zoom}
+   ![Page Builder Apply Template grid]({% link cms/assets/pb-templates-apply-slideout-nofilters.png %}){: .zoom}
    _Page Builder - Apply Template grid_
 
 ## Delete a template
@@ -80,5 +80,5 @@ The _Apply Template_ grid and the _Templates_ page grid provide two ways to filt
    - The template name (**Template Name**)
    - The designated content area (**Created For**)
 
-![Page Builder Apply Template grid]({% link images/images-ee/pagebuilder-templates-apply-slideout-withfilters.png %}){: .zoom}
+![Page Builder Apply Template grid]({% link cms/assets/pb-templates-apply-slideout-withfilters.png %}){: .zoom}
 _Apply Template grid with filter options_

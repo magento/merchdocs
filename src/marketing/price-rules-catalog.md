@@ -10,7 +10,7 @@ For example, you can define and set the conditions for a price rule that when me
 
 - {:.ce-only}For recurring promotions in Magento Open Source, you can manually set a saved rule to Active or Inactive status each time you want to run the promotion.
 
-![Catalog price rules]({% link images/images-ee/price-rule-catalog-grid-ee.png %}){: .zoom}
+![Catalog price rules]({% link marketing/assets/price-rule-catalog-grid-ee.png %}){: .zoom}
 _Catalog Rules_
 
 If you have many rules created, you can filter the list by using the filter options at the top of each column. Complete your filter options and click <span class="btn">Search</span> to narrow your list. To clear all filter options and display the complete list, click **Reset Filter**.

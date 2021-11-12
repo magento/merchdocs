@@ -15,7 +15,7 @@ _Pages Grid_
 
 1. Click <span class="btn">Add New Page</span>.
 
-   ![]({% link images/images-ee/pages-new-page.png %}){: .zoom}
+   ![]({% link cms/assets/pages-new-page.png %}){: .zoom}
    _New Page_
 
 1. If you do not want to publish the page immediately, set **Enable Page** to `No`.
