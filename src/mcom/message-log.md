@@ -5,7 +5,7 @@ title: Message Log
 
 Message Log enables you to view message processing logs, message history, and full error traces for the Connector.
 
-![Message Log]({% link images/images-ee/mcom-message-log.png %}){: .zoom}
+![Message Log]({% link mcom/assets/message-log.png %}){: .zoom}
 _Message Log_
 
 ## Enable message performance logs
@@ -24,7 +24,7 @@ See the [Message performance section](https://omsdocs.magento.com/integration/co
 1. Click **Filters** and add any search criteria you want to employ, such as Topic (message) and direction (ingoing or outgoing).
 1. Click **Apply Filters** to see your query results.
 
-   ![Apply filters for your search query]({% link images/images-ee/mcom-message-log-filters.png %}){: .zoom}
+   ![Apply filters for your search query]({% link mcom/assets/message-log-filters.png %}){: .zoom}
    _Apply filters for your search query_
 
 1. Click **View** for the message you want to view.
@@ -33,7 +33,7 @@ See the [Message performance section](https://omsdocs.magento.com/integration/co
 
 1. If the message was processed with an error, you can click within the _History_ section to see a full error trace.
 
-   ![Click the History section to see a full error trace]({% link images/images-ee/mcom-message-log-trace.png %}){: .zoom}
+   ![Click the History section to see a full error trace]({% link mcom/assets/message-log-trace.png %}){: .zoom}
    _See full error trace in History_
 
 Information about fatal errors is located in the `apache/nginx` error log (the [same place logs are located]({{ site.devdocs_url }}/cloud/project/log-locations.html#application-logs) for the Connector-less Adobe Commerce installation).
@@ -54,5 +54,5 @@ You can retry a failed topic (message) in Message Log.
 
    The topic (message) is resubmitted.
 
-   ![Retry a topic (message)]({% link images/images-ee/mcom-message-log-retry.png %}){: .zoom}
+   ![Retry a topic (message)]({% link mcom/assets/message-log-retry.png %}){: .zoom}
    _Retry a topic (message)_

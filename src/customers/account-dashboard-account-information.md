@@ -29,7 +29,7 @@ In the sidebar of your account, choose **Account Information** and do any of the
 
 1. Click <span class="btn">Save</span>.
 
-    ![]({% link images/images-ee/account-dashboard-account-information-change-email-address.png %}){: .zoom}
+    ![]({% link customers/assets/account-dashboard-account-information-change-email-address.png %}){: .zoom}
     _Change Email Address_
 
 ### Change your password
@@ -42,5 +42,5 @@ In the sidebar of your account, choose **Account Information** and do any of the
 
 1. When you are ready, enter it again to confirm.
 
-    ![]({% link images/images-ee/account-dashboard-account-information-change-password.png %}){: .zoom}
+    ![]({% link customers/assets/account-dashboard-account-information-change-password.png %}){: .zoom}
     _Change Password_

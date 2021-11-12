@@ -5,7 +5,7 @@ title: Reward Points
 
 The [Reward Points]({% link marketing/rewards-loyalty.md %}) section of the customer account shows the current balance of reward points earned by the customer, and a history of their reward point balance.
 
-![]({% link images/images-ee/account-dashboard-reward-points.png %}){: .zoom}
+![]({% link customers/assets/account-dashboard-reward-points.png %}){: .zoom}
 [_Reward Points_]({% link marketing/rewards-loyalty.md %})
 
 ## Update the reward points balance
@@ -25,7 +25,7 @@ The rewards points balance can be updated from the Admin.
 
 1. Enter **Comments** related to the reward points adjustment, if needed.
 
-    ![]({% link images/images-ee/reward-points-balance.png %}){: .zoom}
+    ![]({% link customers/assets/reward-points-balance.png %}){: .zoom}
     _Reward Points Balance_
 
 1. Optionally, subscribe the customer to _Reward Points Notifications_:

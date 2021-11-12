@@ -10,12 +10,12 @@ Address search is not enabled by default. You must configure this feature to inc
 
 When this feature is enabled and the customer's number of saved addresses meets or exceeds the configured limit, only one address is displayed (the default address, if the customer has one) for the _Shipping_ and _Review & Payments_ steps. The customer can change the selected address by clicking **Change Address** and then searching for the correct address by city, state, street, or zip. This feature also supports address selection for gift registry checkout.
 
-![Luma storefront checkout with saved shipping addresses displayed]({% link images/images-ee/storefront-checkout-address-search.png %}){: .zoom}
+![Luma storefront checkout with saved shipping addresses displayed]({% link sales/assets/storefront-checkout-address-search.png %}){: .zoom}
 _Selecting a shipping address during checkout_
 
 If the customer does not have a default shipping address, the _Shipping_ page displays _No address selected_, and the customer must click **Change Address** to select a saved address or click <span class="btn">New Address</span> to add and select an address before proceeding with the checkout. If the customer does not have a default billing address, the _Review & Payments_ page displays the address selected for shipping along with the _Change Address_ option.
 
-![Luma storefront checkout with No address selected message]({% link images/images-ee/storefront-checkout-address-search-no-default.png %}){: .zoom}
+![Luma storefront checkout with No address selected message]({% link sales/assets/storefront-checkout-address-search-no-default.png %}){: .zoom}
 _No address selected_
 
 {:.b2b-only}

@@ -11,7 +11,7 @@ If you have a Google AdWords account, you can create a tag that tracks conversio
 
 1. In the **New Tag** box, click <span class="btn">Add a new tag</span>.
 
-    ![Google Tag Manager - new workspace]({% link images/images-ee/google-tag-manager-workspace-new.png %}){: .zoom}
+    ![Google Tag Manager - new workspace]({% link marketing/assets/gtm-workspace-new.png %}){: .zoom}
     _Google Tag Manager_
 
 1. Get the following information from your AdWords account:
@@ -27,17 +27,17 @@ If you have a Google AdWords account, you can create a tag that tracks conversio
 
     - Under **Choose Product**, select **Google Adwords**.
 
-        ![Google Tag Manager - choose Google Adwords]({% link images/images-ee/google-tag-manager-create-adwords-tag1.png %}){: .zoom}
+        ![Google Tag Manager - choose Google Adwords]({% link marketing/assets/gtm-create-adwords-tag1.png %}){: .zoom}
         _Choose Product_
 
     - Under **Choose a Tag Type**, select **AdWords Conversion Tracking**. Then, click <span class="btn">Continue</span>.
 
-        ![Google Tag Manager - Adwords conversion tracking]({% link images/images-ee/google-tag-manager-create-adwords-tag2.png %}){: .zoom}
+        ![Google Tag Manager - Adwords conversion tracking]({% link marketing/assets/gtm-create-adwords-tag2.png %}){: .zoom}
         _Adwords Conversion Tracking_
 
 1. Enter the **Conversion ID** and **Conversion Label** from your AdWords account. Then, click <span class="btn">Continue</span>.
 
-    ![Google Tag Manager - conversion ID and label]({% link images/images-ee/google-tag-manager-create-adwords-tag3.png %}){: .zoom}
+    ![Google Tag Manager - conversion ID and label]({% link marketing/assets/gtm-create-adwords-tag3.png %}){: .zoom}
     _Configure Tag_
 
 ## Step 2. Create a Rule
@@ -46,7 +46,7 @@ Continuing from the Google Tag Manager dashboard, the next step is to create a r
 
 1. Under **Fire On**, click <span class="btn">Some Pages</span>.
 
-    ![Google Tag Manager - fire on]({% link images/images-ee/google-tag-manager-create-adwords-tag4.png %}){: .zoom}
+    ![Google Tag Manager - fire on]({% link marketing/assets/gtm-create-adwords-tag4.png %}){: .zoom}
     _Fire On Triggers_
 
 1. In the Choose Pages section, complete the following settings:
@@ -56,7 +56,7 @@ Continuing from the Google Tag Manager dashboard, the next step is to create a r
     |Operation:|matches RegEx <br/>To learn more, see [What is “matches regex” for?][3] in Tag Manager Help.|
     |Value:|`checkout/success.*`|
 
-    ![Google Tag Manager - conversion page location]({% link images/images-ee/google-tag-manager-create-adwords-tag6.png %}){: .zoom}
+    ![Google Tag Manager - conversion page location]({% link marketing/assets/gtm-create-adwords-tag6.png %}){: .zoom}
     _Conversion Page Location_
 
 1. Select the green checkbox and click <span class="btn">Save</span>.
@@ -65,7 +65,7 @@ Continuing from the Google Tag Manager dashboard, the next step is to create a r
 
 1. When complete, click <span class="btn">Save Tag</span>.
 
-    ![Google Tag Manager - trigger setup success]({% link images/images-ee/google-tag-manager-create-adwords-tag7.png %}){: .zoom}
+    ![Google Tag Manager - trigger setup success]({% link marketing/assets/gtm-create-adwords-tag7.png %}){: .zoom}
     _Success_
 
 ## Step 3. Preview and Publish
