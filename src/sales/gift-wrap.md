@@ -7,7 +7,7 @@ Gift wrapping is available for any product that can be shipped, and can be offer
 
 The gift wrap image should be a swatch that shows the repeating pattern, and can also include a sample of the ribbon that is to be used. You can either scan the paper, or take a photograph of a wrapped package. The uploaded image can be a GIF, JPG, or PNG image, and should be square. In the following example, the uploaded gift wrap image is 230 x 230 pixels.
 
-![]({% link images/images-ee/storefront-cart-gift-options-gift-wrap.png %}){: .zoom}
+![]({% link sales/assets/storefront-cart-gift-options-gift-wrap.png %}){: .zoom}
 _Gift options in cart_
 
 ## Add a new gift wrap design

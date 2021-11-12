@@ -7,7 +7,7 @@ Related product rules give you the ability to target the selection of products t
 
 Since several active rules can be triggered at the same time, you can set a priority for each rule. It defines the order in which rules are applied and products are displayed on the page.
 
-![Related product rules]({% link images/images-ee/related-products-rules.png %}){: .zoom}
+![Related product rules]({% link marketing/assets/related-products-rules.png %}){: .zoom}
 _Related Products Rules_
 
 ### Column descriptions

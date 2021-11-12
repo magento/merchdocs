@@ -6,7 +6,7 @@ group: customers
 
 The Customer Segment Report provides information about the number of customers in each segment.
 
-![]({% link images/images-ee/reports-customer-segments.png %}){: .zoom}
+![]({% link reports/assets/customer-segments.png %}){: .zoom}
 _Customer Segment Report_
 
 |Column|Description|
@@ -20,7 +20,7 @@ _Customer Segment Report_
 
 You can drill down to a list of customers in the segment, and export the data.
 
-![]({% link images/images-ee/reports-customer-segment-drilldown.png %}){: .zoom}
+![]({% link reports/assets/customer-segment-drilldown.png %}){: .zoom}
 _Drill Down to Customer Data_
 
 To ensure you have the most recent data, the segment data must be refreshed. If the segment data is not available or is outdated, click **Refresh Segment Data** in the button bar to update.

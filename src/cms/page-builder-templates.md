@@ -8,7 +8,7 @@ Templates are containers that save [Page Builder]({% link cms/page-builder.md %}
 
 On the _Admin_ sidebar, go to **Content** > _Elements_ > **Templates**.
 
-![Templates grid]({% link images/images-ee/templates-list.png %}){: .zoom}
+![Templates grid]({% link cms/assets/templates-list.png %}){: .zoom}
 _Templates grid with thumbnail preview_
 
 ## Save Page Builder content as a template

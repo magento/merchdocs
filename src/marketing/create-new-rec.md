@@ -34,7 +34,7 @@ After you create and activate the recommendation unit, Adobe Commerce will begin
    - **Product Detail**
    - **Cart**
    - **Confirmation**
-   - **[Page Builder]({% link marketing/page-builder-add-product-recs.md %})**
+   - **[Page Builder]({% link cms/page-builder-add-recommendations.md %})**
 
 1. In the **Select Recommendation type** section, specify the [type of recommendation]({% link marketing/prex-types.md %}) you want to appear on the selected page type. Note that certain page types [restrict what type of recommendation]({% link marketing/product-recommendations.md %}#supportedrecs) you can select.
 

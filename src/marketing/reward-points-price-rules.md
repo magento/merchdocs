@@ -16,7 +16,7 @@ Reward points can be awarded to customers on the basis of a [cart price rule]({%
 
 1. Scroll down, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Actions** section, set the conditions, and enter the amount of points in the **Add Reward Points** field.
 
-    ![Cart price rule - reward points]({% link images/images-ee/reward-points-price-rule-actions.png %}){: .zoom}
+    ![Cart price rule - reward points]({% link marketing/assets/reward-points-price-rule-actions.png %}){: .zoom}
     _Adding Reward Points to Price Rule_
 
 1. Follow the standard instructions to complete the [cart price rule]({% link marketing/price-rules-cart-create.md %}).

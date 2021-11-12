@@ -6,7 +6,7 @@ group: marketing
 
 The Catalog Events Carousel widget displays a slider of upcoming events with a countdown ticker for each event. You can choose the page(s) and area of the page layout where you want the carousel to appear, and control the width and number of events that appear at one time. The result you get depends on your theme, where it is positioned to appear on the page, and the options that you choose.
 
-![]({% link images/images-ee/storefront-event-carousel-sidebar-gear.png %}){: .zoom}
+![]({% link cms/assets/storefront-event-carousel-sidebar-gear.png %}){: .zoom}
 _Event carousel in the left sidebar_
 
 ## Step 1: Enable the catalog carousel widget
@@ -30,7 +30,7 @@ _Catalog event configuration_
 
 1. Click <span class="btn">Continue</span>.
 
-   ![]({% link images/images-ee/widget-event-carousel-settings.png %}){: .zoom}
+   ![]({% link cms/assets/widget-event-carousel-settings.png %}){: .zoom}
    _Widget settings for an event carousel_
 
 1. In the _Storefront Properties_ section, do the following:
@@ -45,7 +45,7 @@ _Catalog event configuration_
 
    - (Optional) For **Sort Order**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
-   ![]({% link images/images-ee/widget-event-carousel-storefront-properties.png %}){: .zoom}
+   ![]({% link cms/assets/widget-event-carousel-storefront-properties.png %}){: .zoom}
    _Widget storefront properties_
 
 ## Step 3: Choose the location
@@ -67,7 +67,7 @@ _Catalog event configuration_
 
 1. If you want the events carousel to appear in an additional location in the storefront, click <span class="btn">Add Layout Update</span> and repeat the these steps for another location.
 
-   ![]({% link images/images-ee/widget-event-carousel-layout-updates-catalog-category-sidebar.png %}){: .zoom}
+   ![]({% link cms/assets/widget-event-carousel-layout-updates-catalog-category-sidebar.png %}){: .zoom}
    _Layout updates_
 
 1. Click <span class="btn">Save and Continue Edit</span>.
@@ -90,7 +90,7 @@ _Catalog event configuration_
 
    The custom width for the example on this page is set to 250 pixels.
 
-   ![]({% link images/images-ee/widget-options-custom-width.png %}){: .zoom}
+   ![]({% link cms/assets/widget-options-custom-width.png %}){: .zoom}
    _Custom width widget options_
 
 1. When complete, click <span class="btn">Save</span>.
