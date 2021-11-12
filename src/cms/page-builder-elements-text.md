@@ -83,7 +83,7 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 
 1. Place the cursor in the text where you want to insert the image.
 
-1. Click Insert/edit image (![]({% link images/images-ee/icon-pb-add-image.png %})) on the editor toolbar.
+1. Click Insert/edit image (![]({% link cms/assets/icon-pb-add-image.png %})) on the editor toolbar.
 
 1. For **Source**, click the search icon to use the media storage for locating and selecting an image.
 

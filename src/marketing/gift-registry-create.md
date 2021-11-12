@@ -13,7 +13,7 @@ When you create a new registry, it becomes an option in the list of gift registr
 
 You can use one of the three prepared gift registries, or create your own custom registry. Each gift registry type includes a number of attributes, which are the data entry fields that a customer completes to create a gift registry. The attributes provide additional information about the event, time and location, or any other information that is needed. Depending on the input type, some attributes have multiple options. For example, the `Wedding` gift registry type has the attribute `Role`, with the `Bride`, `Groom`, and `Partner` options. To learn more about attributes and input types, see [Attributes]({% link stores/attributes.md %}).
 
-![Gift registry types]({% link images/images-ee/gift-registry-types.png %}){: .zoom}
+![Gift registry types]({% link marketing/assets/gift-registry-types.png %}){: .zoom}
 _Gift Registry Types_
 
 ## Use a Prepared Gift Registry
@@ -44,14 +44,14 @@ _Gift Registry Types_
 
    - To activate the gift registry, set **Is Listed** to `Yes`.
 
-        ![Gift registry - general information]({% link images/images-ee/gift-registry-new-general-information.png %}){: .zoom}
+        ![Gift registry - general information]({% link marketing/assets/gift-registry-new-general-information.png %}){: .zoom}
         _General Information_
 
 1. Examine each section of the Gift Registry to determine the type of information you want to include.
 
 1. In the left panel, choose **Attributes**. Then, click <span class="btn">Add Attribute</span>.
 
-    ![Gift registry - new attribute]({% link images/images-ee/gift-registry-type-new-attribute.png %}){: .zoom}
+    ![Gift registry - new attribute]({% link marketing/assets/gift-registry-type-new-attribute.png %}){: .zoom}
     _New Gift Registry Attribute_
 
 1. For each attribute, do the following:
@@ -76,7 +76,7 @@ _Gift Registry Types_
 
    Each new option added appears in a new section at the top. Then, repeat this process for the new attribute.
 
-    ![]({% link images/images-ee/gift-registry-new-attribute-event-location.png %}){: .zoom}
+    ![]({% link marketing/assets/gift-registry-new-attribute-event-location.png %}){: .zoom}
     _Attribute with Multiple Options_
 
 1. When complete, click <span class="btn">Save</span>.
