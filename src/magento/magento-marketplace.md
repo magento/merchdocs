@@ -30,7 +30,7 @@ You can create multiple access keys for different purposes and enable or disable
 
 1. In the upper-right corner next to your name, click the down arrow and choose **My Profile**.
 
-    ![]({% link images/images/magento-marketplace-profile.png %}){: .zoom}
+    ![]({% link magento/assets/marketplace-profile.png %}){: .zoom}
     _Your Marketplace profile_
 
 1. On the _Marketplace_ tab under _My Products_, click **Access Keys**, and then do one of the following:
@@ -45,7 +45,7 @@ You can create multiple access keys for different purposes and enable or disable
 
     Notice the _Copy_ link after each public and private key. In the next step, you will copy and paste these values to synchronize your store with Commerce Marketplace.
 
-    ![]({% link images/images/magento-marketplace-access-keys.png %}){: .zoom}
+    ![]({% link magento/assets/access-keys.png %}){: .zoom}
     _Access Keys_
 
 ## Installation Process
@@ -53,7 +53,7 @@ You can create multiple access keys for different purposes and enable or disable
 {% include web-setup-deprecate.md %}
 The installation process for Marketplace purchases is different for _on premise_ installations of Commerce than for installations hosted on [the Adobe Cloud Architecture][4].
 
-![]({% link images/images/magento-marketplace.png %}){: .zoom}
+![]({% link magento/assets/marketplace.png %}){: .zoom}
 _[Commerce Marketplace][1]_
 
 ## Support

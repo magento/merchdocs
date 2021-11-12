@@ -25,5 +25,5 @@ To set these fields to `No` and disable Commerce Product Reviews, you must clear
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-![Catalog configuration - Commerce product reviews]({% link images/images/magento-product-reviews-config.png %}){: .zoom}
+![Catalog configuration - Commerce product reviews]({% link marketing/assets/magento-product-reviews-config.png %}){: .zoom}
 _Product Reviews settings_
