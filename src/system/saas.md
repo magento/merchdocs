@@ -19,8 +19,8 @@ Channel Manager | Adobe Commerce and Magento Open Source
 
 At a high level, the Commerce Services Connector is made up of the following core elements:
 
-   ![]({% link system/assets/saas-config-sync-workflow.svg %}){: .zoom}
-   _Commerce Services Connector Architecture_
+![]({% link system/assets/saas-config-sync-workflow.png %}){: .zoom}
+_Commerce Services Connector Architecture_
 
 The following sections discuss each of these elements in more detail.
 
