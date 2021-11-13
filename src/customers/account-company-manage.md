@@ -7,7 +7,7 @@ The Companies page lists all current company accounts, regardless of status. Any
 
 The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an action to multiple company records. For example, rather than approving each individual company request, you can select multiple requests and activate the accounts in a single action. The actions that are available depend on the [permissions]({% link system/permissions.md %}) of the user.
 
-![]({% link images/images-b2b/customer-companies-grid.png %}){: .zoom}
+![]({% link customers/assets/companies-grid.png %}){: .zoom}
 _Companies Grid_
 
 ## Apply an action

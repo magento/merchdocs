@@ -23,7 +23,7 @@ Company users can be added, edited, or removed only by the company administrator
 
 1. In the left panel, chooses **Company Users**.
 
-   ![]({% link images/images-b2b/customer-account-company-users.png %}){: .zoom}
+   ![]({% link customers/assets/company-users-list-storefront.png %}){: .zoom}
    _Company Users_
 
 1. Clicks <span class="btn">Add New User</span> and does the following:
@@ -32,7 +32,7 @@ Company users can be added, edited, or removed only by the company administrator
 
    - If the roles and permissions are defined, chooses the appropriate **User Role**. Otherwise, they can return later to assign the role.
 
-      ![]({% link images/images-b2b/customer-company-structure-users-add.png %}){: .zoom}
+      ![]({% link customers/assets/company-structure-users-add.png %}){: .zoom}
       _Add new user_
 
    - Completes the remaining fields as needed for the user:
@@ -51,7 +51,7 @@ Company users can be added, edited, or removed only by the company administrator
 
 To save time during their first order, the company administrator can remind each company user to add the default company billing and shipping address to their [address book]({% link customers/account-dashboard-address-book.md %}).
 
-![]({% link images/images-b2b/customer-account-company-users-list.png %}){: .zoom}
+![]({% link customers/assets/company-users-list-storefront.png %}){: .zoom}
 _List of Company Users_
 
 ## Edit company users

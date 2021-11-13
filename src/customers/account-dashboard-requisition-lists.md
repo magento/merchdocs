@@ -12,8 +12,8 @@ Requisition list functionality is similar to wish lists, with the following diff
 
 To enable requisition lists for your store, see [Configuring B2B Features]({% link stores/b2b-features.md %}). It can allow up to 999 requisition lists to be maintained for each customer account, depending on the [configuration]({% link configuration/customers/requisition-lists.md %}).
 
-![]({% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
-_Requisition Lists on the storefront_
+![]({% link customers/assets/account-dashboard-my-requisition-lists.png %}){: .zoom}
+_Requisition Lists displayed on the storefront_
 
 ## Create a requisition list
 
@@ -33,10 +33,10 @@ _Requisition Lists on the storefront_
 
 1. Enter the **Requisition List Name** and **Description**.
 
-1. When complete, click <span class="btn">Save</span>.
-
-   ![]({% link images/images-b2b/customer-account-requisition-list-create.png %}){: .zoom}
+   ![]({% link customers/assets/requisition-list-create.png %}){: .zoom}
    _Create Requisition List_
+
+1. When complete, click <span class="btn">Save</span>.
 
 ## Add products to a requisition list
 
@@ -56,7 +56,7 @@ Products may be added to a requisition list from:
    - Choose an existing requisition list.
    - Create a new requisition list.
 
-   ![]({% link images/images-b2b/customer-account-requisition-list-product-detail.png %}){: .zoom}
+   ![]({% link customers/assets/requisition-list-product-detail.png %}){: .zoom}
    _Add to Requisition List_
 
 ### Method 2: From the Catalog page
@@ -104,9 +104,6 @@ Log in to your customer account and use either of the following methods to view 
 1. In the sidebar of your account dashboard, choose **My Requisition Lists**.
 
 1. In the list of requisition lists, click **View** in the _Actions_ column.
-
-   ![]({% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
-   _Actions View_
 
 ### Method 2: From the storefront
 

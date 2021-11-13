@@ -25,9 +25,9 @@ The full company structure is reflected in the Companies and Customers grids. Th
 ![]({% link customers/assets/companies-grid.png %}){: .zoom}
 _Companies Grid_
 
-The following example shows the Customers grid with the initial company administrator accounts for the “ABC Company” and the “XYZ Company”.
+The following example shows the Customers grid with the initial company administrator account for the “XYZ Company”.
 
-![]({% link images/images-b2b/customers-grid-company-admin-user.png %}){: .zoom}
-_Customers Grid_
+![]({% link customers/assets/company-admin-user-account.png %}){: .zoom}
+_Customers grid with company administrator account_
 
 After creating the account, the company administrator must define the company structure of [teams]({% link customers/account-company-teams.md %}), set up the [company users]({% link customers/account-company-users.md %}), and establish [roles and permissions]({% link customers/account-company-roles-permissions.md %}) for each.
