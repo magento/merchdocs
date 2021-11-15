@@ -33,7 +33,7 @@ In the [Private Sales Reports]({% link reports/private-sales-reports.md %}) sect
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Private Sales_ > **Invitations**.
 
-1. Find the needed invitation using filters and open it en edit mode.
+1. Find the needed invitation using filters and open it in edit mode.
 
 1. In the upper-right corner, click <span class="btn">Discard Invitation</span>.
 
