@@ -10,7 +10,7 @@ Scheduled Export is similar to manual [Export]({% link system/data-export.md %})
 
 The advantage of using Scheduled Export is that you can export data multiple times automatically, after specifying the export parameters, and schedule only once.
 
-![Data transfer scheduled export]({% link images/images-ee/data-transfer-scheduled-export-add.png %}){: .zoom}
+![Data transfer scheduled export]({% link system/assets/data-transfer-scheduled-export-add.png %}){: .zoom}
 _Add Scheduled Export_
 
 The details of each export are not written to a log, but in case of failure you will receive an Export Failed email, which contains the error description. The result of the last export job appears in the Last Outcome column on the Scheduled Import/Export page.
@@ -43,7 +43,7 @@ After each export, the export file is placed in the user-defined location, and a
 
 1. Accept `CSV` as the default **File Format**.
 
-    ![Scheduled export settings]({% link images/images-ee/data-transfer-scheduled-export-settings.png %}){: .zoom}
+    ![Scheduled export settings]({% link system/assets/data-transfer-scheduled-export-settings.png %}){: .zoom}
     _Export Settings_
 
 ## Step 2: Complete the Export File Information
@@ -53,7 +53,7 @@ After each export, the export file is placed in the user-defined location, and a
    - `Local Server` - To save the export file on the same server where Commerce is installed.
    - `Remote FTP` — To save the export file on a remote server.
 
-    ![Scheduled export file information]({% link images/images-ee/data-transfer-scheduled-export-file-information.png %}){: .zoom}
+    ![Scheduled export file information]({% link system/assets/data-transfer-scheduled-export-file-information.png %}){: .zoom}
     _Export File Information_
 
     {:.bs-callout-info}
@@ -81,7 +81,7 @@ After each export, the export file is placed in the user-defined location, and a
    - `Bcc` - Sends a blind courtesy copy. The name and address of the recipient is included in the original email distribution, but is hidden from view.
    - `Separate Email` — Sends the copy as a separate email.
 
-    ![Scheduled export failed email]({% link images/images-ee/data-transfer-scheduled-export-email-fail.png %}){: .zoom}
+    ![Scheduled export failed email]({% link system/assets/data-transfer-scheduled-export-email-fail.png %}){: .zoom}
     _Export Failed Emails_
 
 ## Step 4: Choose the Entity Attributes

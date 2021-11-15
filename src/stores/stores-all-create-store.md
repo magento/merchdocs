@@ -85,7 +85,7 @@ The first step is to choose how you want to position the store. Will the stores 
 
     If needed, clear the **Use system value** checkbox to change the setting.
 
-    ![General configuration - web base URLs]({% link images/images/config-general-web-base-urls-clear-checkbox.png %})
+    ![General configuration - web base URLs]({% link stores/assets/config-general-web-base-urls-clear-checkbox.png %})
     [Base URLs]({% link configuration/general/web.md %})
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the **Secure Base URLs** section and repeat the previous step as needed to configure the store’s [secure URL]({% link stores/store-urls.md %}).

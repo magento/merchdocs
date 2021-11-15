@@ -18,7 +18,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Product Reviews
 
-![]({% link images/images/config-catalog-catalog-product-reviews.png %}){: .zoom}
+![]({% link configuration/assets/product-reviews.png %}){: .zoom}
 [_Product Reviews_]({% link marketing/product-reviews.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -115,7 +115,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 ## Price
 
 ![]({% link images/images-ee/config-catalog-catalog-price.png %}){: .zoom}
-_[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
+_[Price]({% link catalog/catalog-price-scope.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -127,10 +127,10 @@ _[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 {:.bs-callout-info}
 The standard search configuration described in this section differs for [Live Search]({% link live-search/overview.md %}).
 
-![]({% link images/images/config-catalog-catalog-layered-navigation-automatic-equalize-price-ranges.png %}){: .zoom}
+![]({% link configuration/assets/automatic-equalize-price-range.png %}){: .zoom}
 [_Layered Navigation - Automatic (equalize price ranges)_]({% link catalog/navigation-layered-configuration.md %})
 
-![]({% link images/images/config-catalog-catalog-layered-navigation-equalize-product-counts.png %}){: .zoom}
+![]({% link configuration/assets/equalize-product-counts.png %}){: .zoom}
 [_Layered Navigation - Automatic (equalize product counts)_]({% link catalog/navigation-layered-configuration.md %})
 
 ![]({% link images/images/config-catalog-catalog-layered-navigation-manual.png %}){: .zoom}
@@ -190,7 +190,7 @@ The standard search configuration described in this section differs for [Live Se
 
 Adobe Commerce and Magento Open Source support several versions of Elasticsearch.
 
-![]({% link images/images/config-catalog-catalog-search-elasticsearch.png %}){: .zoom}
+![]({% link configuration/assets/search-elasticsearch.png %}){: .zoom}
 [Catalog Search]({% link catalog/search-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

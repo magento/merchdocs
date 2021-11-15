@@ -39,7 +39,7 @@ In the United States, PayPal offers the following PCI-compliant solutions to mee
 - [PayPal Payments Pro]({% link payment/paypal-payments-pro.md %})
 - [PayPal Payments Standard]({% link payment/paypal-payments-standard.md %})
 
-![PayPal all-in-one payment Solutions]({% link images/images/config-sales-payment-methods-paypal-all-in-one-payment-solutions.png %}){: .zoom}
+![PayPal all-in-one payment Solutions]({% link payment/assets/paypal-all-in-one.png %}){: .zoom}
 _Configuration - PayPal all-in-one payment solutions_
 
 ## PayPal payment gateways
@@ -60,7 +60,7 @@ PayPal offers a choice of two payment gateway solutions for your business. You c
 - [PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %})
 - [PayPal Payflow Link]({% link payment/paypal-payflow-link.md %})
 
-![PayPal Payment Gateways]({% link images/images/config-sales-payment-methods-paypal-payment-gateways.png %}){: .zoom}
+![PayPal Payment Gateways]({% link payment/assets/paypal-payment-gateway.png %}){: .zoom}
 _Configuration - PayPal payment gateways_
 
 [1]: https://manager.paypal.com/0

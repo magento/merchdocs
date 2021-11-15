@@ -5,7 +5,7 @@ title: Configuring Returns
 
 When enabled, RMA requests can be submitted by customers from the storefront. An RMA can be generated only if there is an item in the order that is available for return. Requests to return individual items are managed by the _Enable RMA_ attribute in each product record. By default, the configuration settings are applied to the product (_Use Config Settings_ is selected). If _Enable RMA_ is set to `No`, the product does not appear in the list of items that are available for return. If you change the _Enable RMA_ setting, it applies to both new and existing orders.
 
-![]({% link images/images/product-advanced-autosettings-enablerma.png %}){: .zoom}
+![]({% link sales/assets/product-advanced-autosettings-enable-rma.png %}){: .zoom}
 _Enable RMA for a product_
 
 ## Enable RMAs for your store
@@ -32,7 +32,7 @@ _Enable RMA for a product_
    - `Yes` – Send returned products to the store address.
    - `No` – Enter an alternate address for product returns.
 
-   ![]({% link images/images/config-sales-sales-rma-settings-address-info.png %}){: .zoom}
+   ![]({% link sales/assets/rma-address-info.png %}){: .zoom}
    [_RMA Settings with alternate address_]({% link configuration/sales/sales.md %})
 
 1. Click <span class="btn">Save Config</span>.

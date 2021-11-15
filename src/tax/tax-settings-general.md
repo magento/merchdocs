@@ -23,7 +23,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Tax Classes** section.
 
    ![]({% link images/images-ee/config-sales-tax-tax-classes.png %}){: .zoom}
-   _[Tax Classes]({% link configuration/sales/tax.md %})_{:.ee-only}
+   _[Tax Classes]({% link configuration/sales/tax.md %})_
 
    - **Tax Class for Shipping** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
    - {:.ee-only}**Tax Class for Gift Options** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
@@ -164,7 +164,7 @@ Some combinations of settings related to a price display that both include and e
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Fixed Product Taxes** section.
 
-    ![Fixed Product Taxes]({% link images/images/config-sales-tax-orders-fixed-product-taxes.png %} "Fixed Product Taxes"){: .zoom}
+    ![Fixed Product Taxes]({% link tax/assets/fixed-product-taxes.png %} "Fixed Product Taxes"){: .zoom}
     [_Fixed Product Taxes_]({% link configuration/sales/tax.md %})
 
 1. Set **Enable FPT** to either to `Yes` or `No`, according to your requirements.

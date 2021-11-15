@@ -5,7 +5,7 @@ title: Order by SKU
 
 Order by SKU is a [widget]({% link cms/widgets.md %}) that can be displayed in the store as a convenience for all shoppers, or made available to only those in specific customer groups. Shoppers can either enter the SKU and quantity information directly into the Order by SKU block, or upload a csv file from their customer account. Regardless of the configuration, Order by SKU is always available to store administrators.
 
-![]({% link images/images/storefront-order-by-sku.png %}){: .zoom}
+![]({% link sales/assets/storefront-order-by-sku.png %}){: .zoom}
 _Order by SKU in the Storefront_
 
 ## Order by SKU from the storefront

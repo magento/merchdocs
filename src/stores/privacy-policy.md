@@ -29,7 +29,7 @@ The Luma sample data includes a sample privacy policy that you can modify for yo
 
    To learn more, see [Using the Editor]({% link cms/editor.md %}).
 
-    ![Privacy Policy page - edit content]({% link images/images/page-privacy-content-edit.png %}){: .zoom}
+    ![Privacy Policy page - edit content]({% link stores/assets/page-privacy-content-edit.png %}){: .zoom}
     _Content_
 
     {:.bs-callout-info}

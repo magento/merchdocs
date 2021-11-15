@@ -5,7 +5,7 @@ title: Reports Menu
 Adobe Commerce and Magento Open Source provide a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity. The Reports menu provides easy access to current information about your sales, products, customers, and promotions.
 
 ![Reports Menu]({% link reports/assets/overview.png %}){: .zoom}
-_Reports Menu_{:.ee-only}
+_Reports Menu_
 
 ## Display the Reports menu
 
@@ -42,7 +42,7 @@ The selection of [product reports]({% link reports/product-reports.md %}) includ
 {:.ee-only}
 ### Private Sales
 
-The selection of reports for [private sales and events]({% link reports/statistics.md %}) includes Invitation, Invited Customers, and Conversions.
+The selection of reports for [private sales and events]({% link reports/private-sales-reports.md %}) includes Invitation, Invited Customers, and Conversions.
 
 ### Statistics
 

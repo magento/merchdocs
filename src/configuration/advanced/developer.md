@@ -84,7 +84,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 ## Image Processing Settings
 
-![]({% link images/images/config-advanced-developer-image-processing-settings.png %}){: .zoom}
+![]({% link configuration/assets/image-processing-settings.png %}){: .zoom}
 _Image Processing Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -93,7 +93,7 @@ _Image Processing Settings_
 
 ## Caching Settings
 
-![]({% link images/images/config-advanced-developer-caching-settings.png %}){: .zoom}
+![]({% link configuration/assets/developer-cache-settings.png %}){: .zoom}
 _Caching Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

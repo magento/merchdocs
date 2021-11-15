@@ -4,7 +4,7 @@ title: Email a Friend
 
 The Email link makes it easy for your customers to share links to products with their friends. In the demo Luma store, the Email link appears as an envelope icon. The message template can be customized for your voice and brand. To prevent spamming, you can limit the number of recipients for each email, and the number of products that can be shared over a one-hour period.
 
-![Example storefront - email a friend]({% link images/images/storefront-email-a-friend.png %}){: .zoom}
+![Example storefront - email a friend]({% link marketing/assets/storefront-email-a-friend.png %}){: .zoom}
 _Email a Friend_
 
 ## Configure Email to a Friend

@@ -25,7 +25,7 @@ _Pagination Controls_
 
 1. Under **Other Settings**, expand ![]({% link assets/icon-display-expand.png %}) the **Pagination** section.
 
-   ![]({% link images/images/config-design-pagination.png %}){: .zoom}
+   ![]({% link catalog/assets/config-design-pagination.png %}){: .zoom}
    [_Pagination_]({% link design/configuration.md %})
 
 1. For **Pagination Frame**, enter the number of links that you want to appear in the pagination control.

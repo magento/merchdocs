@@ -112,7 +112,7 @@ Complete the following General tax settings:
 
         This setting ensures that tax is calculated correctly when product prices include tax.
 
-        ![]({% link images/images/config-sales-tax-default-tax-destination-calculation-french.png %}){: .zoom}
+        ![]({% link tax/assets/destination-calc-french.png %}){: .zoom}
         _Default Tax Destination Calculation_
 
 1. When complete, click <span class="btn">Save Config</span>.

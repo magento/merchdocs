@@ -17,7 +17,7 @@ title: Updating Category Permissions
 
 1. Click <span class="btn">New Permission</span> and do the following:
 
-    ![]({% link images/images-b2b/category-permissions-new.png %}){: .zoom}
+    ![]({% link catalog/assets/category-permissions-new.png %}){: .zoom}
     _New Permission_
 
     - Choose the **Customer Group** that corresponds to the shared catalog and change the permission settings as needed.
@@ -26,6 +26,6 @@ title: Updating Category Permissions
       _Category Permissions Rule_
 
     - To create a new permissions rule for another customer group, click <span class="btn">New Permissions</span> and repeat the process.
-    - To delete a permission rule, click the ![Trash can]({% link images/images/btn-trashcan2.png %}) icon.
+    - To delete a permission rule, click the ![Trash can]({% link assets/icon-delete-trashcan-solid.png %}) icon.
 
 1. When complete, click <span class="btn">Save</span>.

@@ -58,7 +58,7 @@ Use one of the following methods to configure the MAP settings:
 
 1. In the left panel, expand **Advanced Settings** and choose **Advanced Pricing**.
 
-    ![]({% link images/images/product-price-msrp.png %}){: .zoom}
+    ![]({% link catalog/assets/product-price-msrp.png %}){: .zoom}
     _Manufacturer’s Suggested Retail Price_
 
 1. Enter the **Manufacturer’s Suggested Retail Price** (MSRP).

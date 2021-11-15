@@ -4,7 +4,8 @@ title: UPS
 
 United Parcel Service offers domestic and international shipping services by land and air to more than 220 countries.
 
-UPS uses [dimensional weight]({% link shipping/weight-dimensional.md %}) to determine some shipping rates.
+{:.bs-callout-info}
+UPS can use [dimensional weight]({% link shipping/weight-dimensional.md %}) to determine some shipping rates. However, Adobe Commerce and Magento Open Source support only weight-based shipping cost calculation.
 
 ## Step 1: Open a UPS Shipping Account
 
@@ -100,7 +101,7 @@ To offer this shipping method to your customers, you must first open an account 
 
 1. Enter the **Minimum Package Weight** allowed by the carrier.
 
-   ![]({% link images/images/config-sales-shipping-methods-ups2.png %}){: .zoom}
+   ![]({% link shipping/assets/ups2.png %}){: .zoom}
    [_Container Description_]({% link configuration/sales/delivery-methods.md %})
 
 ## Step 4: Set up handling fees
@@ -121,7 +122,7 @@ The handling fee is optional and appears as an additional charge that is added t
 
    To enter a percentage, use the decimal format. For example, enter `0.25` for 25%.
 
-   ![]({% link images/images/config-sales-shipping-methods-ups3.png %}){: .zoom}
+   ![]({% link shipping/assets/ups3.png %}){: .zoom}
    [_Handling Fee_]({% link configuration/sales/delivery-methods.md %})
 
 ## Step 5: Specify allowed methods and applicable countries
@@ -140,7 +141,7 @@ The handling fee is optional and appears as an additional charge that is added t
 
    This text box is preset with a default message, but you can enter a different message that you want to appear if UPS becomes unavailable.
 
-   ![]({% link images/images/config-sales-shipping-methods-ups4.png %}){: .zoom}
+   ![]({% link shipping/assets/ups4.png %}){: .zoom}
    _[Allowed Methods]({% link configuration/sales/delivery-methods.md %})_
 
 1. Set **Ship to Applicable Countries**:
@@ -153,7 +154,7 @@ The handling fee is optional and appears as an additional charge that is added t
    |Yes|Lists all available UPS shipping methods during checkout, including those that don’t apply to the shipment.|
    |No |Lists only the UPS shipping methods that are applicable to the shipment.|
 
-   ![]({% link images/images/config-sales-shipping-methods-ups5.png %}){: .zoom}
+   ![]({% link shipping/assets/ups5.png %}){: .zoom}
    _[Applicable Countries]({% link configuration/sales/delivery-methods.md %})_
 
 1. To create a log file with the details of UPS shipments made from your store, set **Debug** to `Yes`.

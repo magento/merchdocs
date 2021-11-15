@@ -36,7 +36,7 @@ For complete instructions, see [Admin Sign In]({% link stores/admin-signin.md %}
 
 1. Enter your account credentials and sign in to the Commerce _Admin_.
 
-    ![Google Authenticator - signin]({% link images/images/storefront-2fa-google-code.png %}){: .zoom}
+    ![Google Authenticator - signin]({% link stores/assets/storefront-2fa-google-code.png %}){: .zoom}
     _Google Authenticator_
 
 1. Open **Google Authenticator** on your mobile device.
@@ -57,29 +57,29 @@ Duo offers a free trial, and charges according to the number of users that are a
 
 1. When the Duo Setup page appears. Click **Start setup** and do the following:
 
-    ![Example storefront - Duo setup]({% link images/images/storefront-2fa-duo-user1.png %}){: .zoom}
+    ![Example storefront - Duo setup]({% link stores/assets/storefront-2fa-duo-user1.png %}){: .zoom}
     _Duo Setup_
 
    - Select your device.
 
-        ![Duo authentication - select device ]({% link images/images/storefront-2fa-duo-user2.png %}){: .zoom}
+        ![Duo authentication - select device ]({% link stores/assets/storefront-2fa-duo-user2.png %}){: .zoom}
         _Device Type_
 
    - When prompted, enter your **phone number**, and click <span class="btn">Continue</span>.
 
         This example requests your phone number, because we are using a mobile device.
 
-        ![Duo authentication - enter phone number]({% link images/images/storefront-2fa-duo-user3.png %}){: .zoom}
+        ![Duo authentication - enter phone number]({% link stores/assets/storefront-2fa-duo-user3.png %}){: .zoom}
         _Enter Your Phone Number_
 
    - When prompted to install Duo Mobile for your phone type, click <span class="btn">I have Duo Mobile</span>.
 
-        ![Duo authentication - verify app installation]({% link images/images/storefront-2fa-duo-user5.png %}){: .zoom}
+        ![Duo authentication - verify app installation]({% link stores/assets/storefront-2fa-duo-user5.png %}){: .zoom}
         _Verify App Installation_
 
 1. Open Duo Mobile and scan the **QR code** to sync the authenticator with Adobe Commerce. A checkmark appears when the activation is complete.
 
-    ![Duo authentication - verification code]({% link images/images/storefront-2fa-duo-user6.png %}){: .zoom}
+    ![Duo authentication - verification code]({% link stores/assets/storefront-2fa-duo-user6.png %}){: .zoom}
     _Duo Verification Code_
 
 1. To configure your settings for the device, choose the action that you want to take place when you sign in.
@@ -88,7 +88,7 @@ Duo offers a free trial, and charges according to the number of users that are a
    - `Automatically send this device a Duo Push` — Sends a message to your device to accept or deny for access.
    - `Automatically call this device` — Calls and provides a passcode to enter for access.
 
-    ![Duo verification actions]({% link images/images/storefront-2fa-duo-user7.png %}){: .zoom}
+    ![Duo verification actions]({% link stores/assets/storefront-2fa-duo-user7.png %}){: .zoom}
     _Duo verification code_
 
 ### Step 2: Sign in with Duo Security
@@ -97,7 +97,7 @@ The following example shows the options for `Ask me to choose an authenticator m
 
 1. When prompted, enter your _Admin_ credentials to sign in.
 
-    ![Duo - signin]({% link images/images/storefront-2fa-duo-auth.png %}){: .zoom}
+    ![Duo - signin]({% link stores/assets/storefront-2fa-duo-auth.png %}){: .zoom}
     _Duo access_
 
 1. Choose the method that you want to use to authenticate:
@@ -116,7 +116,7 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
 1. Enter your account credentials and sign in to the _Admin_.
 
-    ![Authy registration]({% link images/images/storefront-2fa-authy-auth.png %}){: .zoom}
+    ![Authy registration]({% link stores/assets/storefront-2fa-authy-auth.png %}){: .zoom}
     _Authy registration_
 
 1. When prompted to register yourself with Authy, do the following:
@@ -138,7 +138,7 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
 1. When complete, click <span class="btn">Confirm</span>.
 
-    ![Authy verification code]({% link images/images/storefront-2fa-authy-verify.png %}){: .zoom}
+    ![Authy verification code]({% link stores/assets/storefront-2fa-authy-verify.png %}){: .zoom}
     _Authy verification code_
 
 ### Step 2: Sign in with Authy
@@ -169,7 +169,7 @@ Follow the instructions from the solution provider to configure your U2F device.
 
 1. Enter your account credentials and sign in to the _Admin_.
 
-    ![U2F key access]({% link images/images/storefront-2fa-u2f.png %}){: .zoom}
+    ![U2F key access]({% link stores/assets/storefront-2fa-u2f.png %}){: .zoom}
     _U2F Key Access_
 
 1. Press the button on the key.

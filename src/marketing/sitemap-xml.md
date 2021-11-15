@@ -10,7 +10,7 @@ While your site is in development, you might include instructions in the `robots
 
 For technical information, see [Add sitemap and robots.txt][1]{:target="_blank"} in the developer documentation.
 
-![Sitemap grid]({% link images/images/marketing-sitemap-grid-generated.png %}){: .zoom}
+![Sitemap grid]({% link marketing/assets/marketing-sitemap-grid-generated.png %}){: .zoom}
 _Site Map in Grid_
 
 ## Step 1. Configure the site map
@@ -23,7 +23,7 @@ Complete the [XML Sitemap configuration]({% link marketing/sitemap-xml-configur
 
 1. Click <span class="btn">Add Site Map</span> and do the following:
 
-    ![Site map grid]({% link images/images/marketing-sitemap.png %}){: .zoom}
+    ![Site map grid]({% link marketing/assets/marketing-sitemap.png %}){: .zoom}
     _Site Map_
 
     - Enter the site map **Filename**. For example: `sitemap.xml`
@@ -33,7 +33,7 @@ Complete the [XML Sitemap configuration]({% link marketing/sitemap-xml-configur
         | /sitemap/ | Places the site map file in a directory called _sitemap_. |
         | / | Places the site map file at the base path, or root of your Commerce installation. |
 
-    ![New site map]({% link images/images/marketing-sitemap-new.png %}){: .zoom}
+    ![New site map]({% link marketing/assets/marketing-sitemap-new.png %}){: .zoom}
     _New Site Map_
 
 1. When complete, click <span class="btn">Save & Generate</span>.

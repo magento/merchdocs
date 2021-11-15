@@ -9,19 +9,19 @@ For [configurable products]({% link catalog/product-create-configurable.md %}), 
 {:.bs-callout-info}
 Swatch attributes can be configured to not display corresponding simple product images when the swatch is selected by setting the "Update Product Preview Image" option value to "No" on the Attribute Edit page in the Admin.
 
-![]({% link images/images/storefront-color-swatches.png %}){: .zoom}
+![]({% link catalog/assets/storefront-color-swatches.png %}){: .zoom}
 _Swatches on Product Page_
 
 ## Text-based swatches
 
 If an image isn’t available for a swatch, the attribute value appears as text. A text-based swatch is like a button with a text label, and behaves in the same way as a swatch with an image. When text-based swatches are used to show the available sizes, any size that is not available is crossed out.
 
-![]({% link images/images/storefront-swatch-size-out-of-stock.png %}){: .zoom}
+![]({% link catalog/assets/storefront-swatch-size-out-of-stock.png %}){: .zoom}
 _Text-Based Swatches for Size_
 
 ## Swatches in layered navigation
 
 Swatches can also be used in layered navigation, provided that the Use in **Layered Navigation** property of the color attribute is set to `Yes`. The following example shows both text-based and color image swatches in layered navigation.
 
-![]({% link images/images/storefront-swatches-layered-navigation.png %}){: .zoom}
+![]({% link catalog/assets/storefront-swatches-layered-navigation.png %}){: .zoom}
 _Swatches in Layered Navigation_

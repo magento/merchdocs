@@ -5,7 +5,7 @@ title: Company Profile
 
 The information in your company profile was entered when the company account was created. You can access your company profile from the dashboard of your company account to complete any missing information, and to keep it current. To learn more, see [Creating a Company Account]({% link customers/account-company-create.md %}).
 
-![]({% link images/images-b2b/company-profile.png %}){: .zoom}
+![]({% link customers/assets/company-profile.png %}){: .zoom}
 _Company Profile_
 
 ## Edit your company profile

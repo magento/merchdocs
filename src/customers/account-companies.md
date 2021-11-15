@@ -23,5 +23,5 @@ Customers can create a new company accounts from the storefront, or a merchant c
 
 In the _Admin_ sidebar, go to **Customers** > **Companies**.
 
-   ![]({% link images/images-b2b/companies-grid.png %}){: .zoom}
+   ![]({% link customers/assets/companies-grid.png %}){: .zoom}
    _Companies_

@@ -4,7 +4,7 @@ title: Cache Management
 
 The Adobe Commerce and Magento Open Source cache management system provides an easy way to improve the performance of your site. Whenever a cache needs to be refreshed, a notice appears at the top of the workspace to guide you through the process. Follow the link to Cache Management, and refresh the invalid caches.
 
-![Save product attribute - update cache message]({% link images/images/product-attribute-save-msg-update-cache.png %}){: .zoom}
+![Save product attribute - update cache message]({% link system/assets/product-attribute-save-msg-update-cache.png %}){: .zoom}
 _Update Cache Message_
 
 The Cache Management page shows the status of each primary cache and its associated tag. The large buttons in the upper-right corner can be used to flush the cache, or the all-inclusive Cache Storage. At the bottom of the page there are additional buttons to flush the catalog product images cache and JavaScript/CSS cache.

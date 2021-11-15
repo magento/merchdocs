@@ -89,14 +89,14 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Under **Recommended Solutions**, click <span class="btn">Configure</span> for **PayPal Express Checkout**.
 
-   ![]({% link images/images/config-sales-payment-methods-paypal-express-checkout.png %}){: .zoom}
+   ![]({% link payment/assets/paypal-express-checkout.png %}){: .zoom}
    _Configure_
 
 ### Step 2: Enable and connect your PayPal account
 
 1. If needed, expand ![]({% link assets/icon-display-expand.png %}) the **Required PayPal Settings** section.
 
-   ![Connect your PayPal account]({% link images/images/config-sales-payment-methods-paypal-express-required.png %}){: .zoom}
+   ![Connect your PayPal account]({% link payment/assets/paypal-express-required.png %}){: .zoom}
    _Required PayPal Settings - PayPal account connection_
 
 1. Connect your account for test or production:
@@ -123,7 +123,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. If needed, expand ![]({% link assets/icon-display-expand.png %}) the **Express Checkout** section.
 
-   ![Required Settings]({% link images/images/config-sales-payment-methods-paypal-express-checkout-settings.png %}){: .zoom}
+   ![Required Settings]({% link payment/assets/paypal-express-settings.png %}){: .zoom}
    _PayPal Express Checkout settings_
 
 1. (Optional) Enter the **Email Associated with PayPal Merchant Account**.

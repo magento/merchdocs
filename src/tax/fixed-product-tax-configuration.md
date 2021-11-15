@@ -63,7 +63,7 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. (Optional) In the left panel, choose **Manage Labels** and enter a label to use instead of the default label for each store view.
 
-   ![]({% link images/images/attribute-new-manage-labels.png %}){: .zoom}
+   ![]({% link tax/assets/attribute-new-manage-labels.png %}){: .zoom}
    _Manage Labels_
 
 1. When complete, click <span class="btn">Save Attribute</span>.
@@ -76,7 +76,7 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. In the list, click the attribute set to open the record in edit mode.
 
-   ![]({% link images/images/attribute-sets-list.png %}){: .zoom}
+   ![]({% link tax/assets/attribute-sets-list.png %}){: .zoom}
 
 1. Drag the FPT attribute from the list of **Unassigned Attributes** on the right to the **Groups** list in the center column.
 

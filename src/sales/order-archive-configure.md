@@ -15,7 +15,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
 1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the _Orders, Invoices, Shipments, Credit Memos Archiving_ section.
 
-    ![Orders, Invoices, Shipments, Credit Memos Archiving]({% link images/images/config-sales-sales-orders-invoices-shipments-credit-memos-archiving.png %} "Orders, Invoices, Shipments, Credit Memos Archiving"){: .zoom}
+    ![Orders, Invoices, Shipments, Credit Memos Archiving]({% link sales/assets/credit-memo-archiving.png %} "Orders, Invoices, Shipments, Credit Memos Archiving"){: .zoom}
     _[Orders, Invoices, Shipments, Credit Memos Archiving]({% link configuration/sales/sales.md %})_
 
 1. Configure the archive:

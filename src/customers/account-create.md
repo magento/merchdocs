@@ -9,7 +9,9 @@ Visitors to your store can open an account to manage their purchases and activit
 
 The following instructions represent the default customer account configuration. To change the selection and behavior of some of the fields in the form, see [Configuring Customer Accounts]({% link customers/customer-account-configuration.md %}).
 
-![]({% link images/images/storefront-create-an-account-link.png %}){: .zoom}
+As a store administrator, you can also set the [new account options]({% link customers/account-options-new.md %}) to send a confirmation email to new registered customers, which helps to ensure that registered accounts are valid.
+
+![]({% link customers/assets/storefront-create-an-account-link.png %}){: .zoom}
 _Create an Account_
 
 ## Create account from storefront
@@ -22,7 +24,7 @@ A store customer creates a new account on the storefront.
 
 1. Under **Personal Information**, enter your **First Name** and **Last Name**.
 
-    ![]({% link images/images/storefront-create-account-personal-information.png %}){: .zoom}
+    ![]({% link customers/assets/storefront-create-account-personal-information.png %}){: .zoom}
     _Personal Information_
 
 1. If you want to add your name and email address to the list of newsletter subscribers, select the **Sign Up for Newsletter** checkbox.
@@ -35,7 +37,7 @@ A store customer creates a new account on the storefront.
 
     This email address will become part of your sign-in credentials, and cannot be associated with any other customer account.
 
-    ![]({% link images/images/storefront-create-account-signin-information.png %}){: .zoom}
+    ![]({% link customers/assets/storefront-create-account-signin-information.png %}){: .zoom}
     _Sign-in Information_
 
 1. Enter a **Password** that includes three of the following types of information:
@@ -47,7 +49,7 @@ A store customer creates a new account on the storefront.
 
     After you press **Enter**, the strength of the password is evaluated and appears below the field. If the password is considered to be _Weak_, try another until it evaluated as _Strong_.
 
-    ![]({% link images/images/storefront-customer-account-create-password-strong.png %}){: .zoom}
+    ![]({% link customers/assets/storefront-customer-account-create-password-strong.png %}){: .zoom}
 
     Then, enter it again to **Confirm Password**.
 
@@ -105,8 +107,8 @@ _Customer Information_
 
    After the customer account is saved, the full set of options appears in the left panel and in the menu at the top of the page. The _Customer View_ tab displays a summary of the account.
 
-   ![]({% link images/images-ee/customer-account-create-saved.png %}){: .zoom}
-   _Customer View_{:.ee-only}
+   ![]({% link customers/assets/customer-account-create-saved.png %}){: .zoom}
+   _Customer View_
 
 ### Step 2: Complete the address information
 

@@ -39,7 +39,7 @@ For more information, see [Using the Editor]({% link cms/editor.md %}).
 
 1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
-   ![]({% link images/images/category-content-ce.png %}){: .zoom}
+   ![]({% link catalog/assets/category-content-ce.png %}){: .zoom}
    _Category content_
 
 1. Enter the category **Description** and use the [editor toolbar]({% link cms/editor.md %}) to format as needed.

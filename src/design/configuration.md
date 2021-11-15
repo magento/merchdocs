@@ -23,7 +23,7 @@ _Design Configuration page_
 
 1. If the theme is to be used for only a specific device, set the **User Agent Rules**.
 
-   ![]({% link images/images/design-configuration-user-agent-rules.png %}){: .zoom}
+   ![]({% link design/assets/design-configuration-user-agent-rules.png %}){: .zoom}
    _User-Agent Rules_
 
    For each device type where you want to specify a theme:
@@ -51,7 +51,7 @@ _Design Configuration page_
    - [Product Image Watermarks]({% link catalog/product-image-watermarks.md %})
    - [Transactional Emails]({% link marketing/email-template-configuration.md %})
 
-   ![]({% link images/images/design-configuration-other-settings.png %}){: .zoom}
+   ![]({% link design/assets/design-configuration-other-settings.png %}){: .zoom}
    _Other settings to affect design_
 
 1. When complete, click <span class="btn">Save Configuration</span>.

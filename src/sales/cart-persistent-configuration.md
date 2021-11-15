@@ -15,7 +15,7 @@ If the session cookie expires while the customer is logged in, the persistent co
 
 1. To enable the persistent shopping cart and display additional options, set **Enable Persistence** to `Yes`.
 
-   ![]({% link images/images/config-customers-persistent-shopping-cart-general-options.png %}){: .zoom}
+   ![]({% link sales/assets/persistent-cart-options.png %}){: .zoom}
    _[Enabling and configuring the cart persistence]({% link configuration/customers/persistent-shopping-cart.md %})_
 
    {:.bs-callout-info}

@@ -4,7 +4,7 @@ title: Catalog Menu
 
 The Catalog menu provides easy access to product creation, category, and inventory management tools, as well as shared catalogs for custom pricing in B2B stores.
 
-![]({% link images/images-b2b/admin-menu-catalog.png %}){: .zoom}
+![]({% link catalog/assets/admin-menu-catalog.png %}){: .zoom}
 _Catalog menu_
 
 On the _Admin_ sidebar, click **Catalog**.
@@ -32,5 +32,5 @@ See [Categories]({% link catalog/categories.md %}).
 
 [Shared catalogs]({% link catalog/catalog-shared.md %}) give you the ability to make custom pricing available to different companies.
 
-![]({% link images/images-b2b/catalog-shared-choose-products-step1.png %}){: .zoom}
+![]({% link catalog/assets/shared-catalog-select-products-step-1.png %}){: .zoom}
 _Shared catalog products_

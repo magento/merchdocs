@@ -10,7 +10,7 @@ Logos can be saved as any of the following file types. Logos with transparent ba
 
 To ensure that your logo renders well on high-resolution devices, the uploaded image should be three times the size of the dimensions that are specified in the header template. Typically, original logo artwork is created as a vector image, so it can be scaled up without losing resolution. The image can then be saved in one of the supported bitmap image formats.
 
-![Logo 3X display]({% link images/images/email-logo-third-size.png %}){: .zoom}
+![Logo 3X display]({% link marketing/assets/email-logo-third-size.png %}){: .zoom}
 _Logo Three Times Display Size_
 
 To take advantage of the limited vertical space in the header, make sure to crop the image to eliminate any wasted space at the top or bottom. When editing the image, be careful to preserve the aspect ratio of the logo, so the height and width resize proportionally.

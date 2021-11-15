@@ -105,7 +105,7 @@ _Category tree_
    - Meta Keywords
    - Meta Description
 
-   ![]({% link images/images/catalog-categories-search-engine-optimization.png %}){: .zoom}
+   ![]({% link catalog/assets/catalog-categories-search-engine-optimization.png %}){: .zoom}
    [_Search engine optimization_]({% link catalog/categories-search-engine-optimization.md %})
 
 1. Click <span class="btn">Save</span> and continue.
@@ -144,7 +144,7 @@ _Category tree_
 
 1. To add another permission rule, click <span class="btn">New Permission</span> and repeat the process.
 
-   ![]({% link images/images-b2b/catalog-category-create-permissions.png %}){: .zoom}
+   ![]({% link catalog/assets/category-create-permissions.png %}){: .zoom}
    _[Category permissions]({% link catalog/category-permissions.md %})_
 
 ## Step 8: Complete the design settings
@@ -163,7 +163,7 @@ _Category tree_
 
    - To use the same design for product pages, set **Apply Design to Products** to `Yes`.
 
-   ![]({% link images/images-b2b/catalog-category-design.png %}){: .zoom}
+   ![]({% link catalog/assets/category-design.png %}){: .zoom}
    _[Design settings]({% link catalog/categories-custom-design.md %})_
 
 1. {:.ce-only}To schedule the design update for a specific time period, do the following:

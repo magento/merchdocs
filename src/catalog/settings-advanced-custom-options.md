@@ -11,7 +11,7 @@ _Product Detail with Customizable Option_
 
 If a cart price rule is triggered by the purchase, the initial calculation applies first to the product price and secondarily to the line item price with any adjustment for applicable customizable options. In the following example, the customer purchases a duffle bag for $74.00, plus a customizable option for a monogram. A markup of $14.80 is applied to the base product price, and the adjusted price is shown as $88.80. In this case, the purchase of the duffle bag triggers a cart price rule based on the product SKU and applies a discount to the purchase, plus free shipping. Although the cart price rule is not triggered by the customizable option, it applies the discount to the cart contents, which includes the markup for the customizable option.
 
-![]({% link images/images/storefront-customizable-option-cart-price-rule.png %}){: .zoom}
+![]({% link catalog/assets/storefront-customizable-option-cart-price-rule.png %}){: .zoom}
 _Cart with Customizable Option and Price Rule_
 
 ## Create customizable options
@@ -35,12 +35,12 @@ _Cart with Customizable Option and Price Rule_
 
    - If the option is not required to purchase the product, deselect the **Required** checkbox.
 
-   ![]({% link images/images/product-customizable-options-new-option.png %}){: .zoom}
+   ![]({% link catalog/assets/product-customizable-options-new-option.png %}){: .zoom}
    _New Option_
 
 1. Click <span class="btn">Add New Row</span> and complete the following:
 
-   ![]({% link images/images/product-customizable-options-add-values.png %}){: .zoom}
+   ![]({% link catalog/assets/product-customizable-options-add-values.png %}){: .zoom}
    _Add Value_
 
    - For **Title**, enter a name for this option.
@@ -54,9 +54,9 @@ _Cart with Customizable Option and Price Rule_
 
    - Enter a **SKU** for the option. The option SKU is a suffix that is added to the product SKU.
 
-   - To change the order of the options, click the **Change Order** ![]({% link images/images/btn-sort-order-inline.png %}) icon and drag the option to a new position in the list.
+   - To change the order of the options, click the **Change Order** ![]({% link assets/icon-sort-order.png %}) icon and drag the option to a new position in the list.
 
-   ![]({% link images/images/product-customizable-options-move.png %}){: .zoom}
+   ![]({% link catalog/assets/product-customizable-options-move.png %}){: .zoom}
    _Change Order of Options_
 
     Repeat this step for each option to be added.

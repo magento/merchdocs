@@ -7,7 +7,7 @@ Gift cards are redeemed in the shopping cart similar to the way a coupon is appl
 
 The gift card code(s) applied to an order can be viewed by opening the order in the _Admin_, which makes it possible for you to retrieve the code to place it on a physical gift card, if necessary. If a gift card order is canceled or refunded, you must manually cancel the associated gift card account. You can either delete the account entirely or deactivate it.
 
-![]({% link images/images-ee/storefront-gift-card-order-customer-account.png %}){: .zoom}
+![]({% link catalog/assets/storefront-gift-card-order-customer-account.png %}){: .zoom}
 _Gift Card Detail in Cart_
 
 For example, a customer shopping in the demo Luma store can purchase either a virtual or physical gift card.

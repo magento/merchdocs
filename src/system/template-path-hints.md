@@ -9,7 +9,7 @@ Template Path Hints can be edited in [Developer Mode]({% link magento/installati
 
 See [Locate templates, layouts, and styles][1]{:target="_blank"} in the Commerce Developer Guide.
 
-![Example storefront - template path hints]({% link images/images/storefront-template-path-hints.png %}){: .zoom}
+![Example storefront - template path hints]({% link system/assets/storefront-template-path-hints.png %}){: .zoom}
 _Template Path Hints in Storefront_
 
 ## Step 1: Add your IP address to the allow list

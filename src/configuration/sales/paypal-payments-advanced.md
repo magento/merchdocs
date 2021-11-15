@@ -52,7 +52,7 @@ _Basic Settings_
 
 ## Advanced Settings
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advanced-settings2.png %}){: .zoom}
+![]({% link configuration/assets/paypal-advanced-settings2.png %}){: .zoom}
 _Advanced Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
