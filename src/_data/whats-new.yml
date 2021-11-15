@@ -6,7 +6,7 @@ link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
 updated: Mon Nov 15 15:24:03 2021
 entries:
-- description: Updated the [B2B Feature Configuration]9https://docs.magento.com/user-guide/stores/b2b-features.html)
+- description: Updated the [B2B Feature Configuration](https://docs.magento.com/user-guide/stores/b2b-features.html)
     topic to include procedures for enabling order approval and purchase orders for
     companies.
   versions: 2.4.x
