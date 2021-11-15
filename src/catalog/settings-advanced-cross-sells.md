@@ -7,7 +7,7 @@ Cross-sell items are similar to impulse purchases positioned next to the cash re
 {:.bs-callout-info}
 To show or hide cross-sell items per store view, see the [Checkout > Shopping Cart]({% link configuration/sales/checkout.md %}) option called _Show Cross-sell Items_ in the Shopping Cart. You may want to hide cross-sells during specific sales or for A/B testing in a store view.
 
-![]({% link images/images/storefront-cart-cross-sells.png %}){: .zoom}
+![]({% link catalog/assets/storefront-cart-cross-sells.png %}){: .zoom}
 _Cross-sells in Shopping Cart_
 
 ## Select cross-sell products
@@ -25,7 +25,7 @@ _Cross-sells in Shopping Cart_
 
 1. In the list, select the checkbox of any product you want to feature as a cross-sell product.
 
-    ![]({% link images/images/product-cross-sell-add.png %}){: .zoom}
+    ![]({% link catalog/assets/product-cross-sell-add.png %}){: .zoom}
     _Cross-sell Products_
 
 1. When complete, click <span class="btn">Add Selected Products</span>.

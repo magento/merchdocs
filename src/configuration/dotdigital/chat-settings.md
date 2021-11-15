@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdi
 
 ## Chat Settings
 
-![]({% link images/images/config-engagement-cloud-chat-settings.png %}){: .zoom}
+![]({% link configuration/assets/chat-settings.png %}){: .zoom}
 _[Chat Settings - not enabled]({% link marketing/dotdigital/setup.md %})_
 
 ![]({% link images/images/config-engagement-cloud-chat-settings-enabled.png %}){: .zoom}

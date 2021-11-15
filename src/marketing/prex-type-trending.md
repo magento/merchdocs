@@ -32,4 +32,4 @@ The _Trending_ recommendation type can be used on all page types. When used on t
 
 The following image shows the _Trending_ recommendation type on the home page.
 
-   ![Trending on Home Page]({% link images/images-ee/trending-homepage.png %}){: .zoom}
+   ![Trending on Home Page]({% link marketing/assets/trending-homepage.png %}){: .zoom}

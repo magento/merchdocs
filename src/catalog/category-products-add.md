@@ -19,7 +19,7 @@ _Products in Category_
 
 1. Use _Search by keyword_ or filters to find the products you want to add.
 
-    ![]({% link images/images-ee/search-all-product.png %}){: .zoom}
+    ![]({% link catalog/assets/search-all-product.png %}){: .zoom}
     _Search All Products tab_
 
 1. In the _Assign_ column, toggle the option to **Yes** for each product that you want to add.
@@ -47,7 +47,7 @@ _Products in Category_
 
    To discard the changes, click <span class="btn">Remove</span>.
 
-    ![]({% link images/images-ee/add-product-by-sku.png %}){: .zoom}
+    ![]({% link catalog/assets/add-product-by-sku.png %}){: .zoom}
     _Add Products by SKU tab_
 
 1. To apply your changes, click <span class="btn">Save and Close</span>.

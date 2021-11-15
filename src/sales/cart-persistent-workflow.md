@@ -20,7 +20,7 @@ Customers can select the _Remember Me_ checkbox on the Login page to save the co
 
 {: .cookie-table }
 |![Remember Me -  Yes]({% link images/images/retain-persistence-logout-a.png %})|**Yes**|Creates a persistent cookie and saves the contents of the shopping cart for the customer’s next logged-in session.|
-|![Remember Me -  No]({% link images/images/no-remember.png %})|**No**|Does not create a persistent cookie and does not save the cart information for the customer’s next logged-in session.|
+|![Remember Me -  No]({% link sales/assets/no-remember.png %})|**No**|Does not create a persistent cookie and does not save the cart information for the customer’s next logged-in session.|
 
 ## Continue Persistence on Logout (No)
 

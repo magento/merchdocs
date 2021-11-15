@@ -81,4 +81,4 @@ _Amazon Sales Channel home with new store card_
 
 Your new Amazon Sales Channel store is now connected to your Amazon Seller Central account.
 
-![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Create a Listing Rule**]({% link sales-channels/asc/ob-create-listing-rule.md %})
+![]({% link assets/icon-next-arrow.png %}){: .Inline} [**Continue to Create a Listing Rule**]({% link sales-channels/asc/ob-create-listing-rule.md %})

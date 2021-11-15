@@ -33,7 +33,7 @@ _Tiled Watermark_
 
    - Set **Image Position** to determine where the watermark appears.
 
-    ![]({% link images/images/config-design-product-image-watermarks-base.png %}){: .zoom}
+    ![]({% link catalog/assets/config-design-product-image-watermarks-base.png %}){: .zoom}
     [_Product Image Watermarks - Base_]({% link design/configuration.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.
@@ -44,13 +44,13 @@ _Tiled Watermark_
     _Refresh Cache_
 
 {:.bs-callout-info}
-You can click **Use Default Value** (![]({% link images/images/btn-use-default.png %})) to restore the default value.
+You can click **Use Default Value** (![]({% link assets/icon-arrow-return.png %})) to restore the default value.
 
 ## Delete a watermark
 
-1. In the lower-left corner of the image, click the **Delete** ( ![]({% link images/images/btn-trashcan2.png %}) ) icon.
+1. In the lower-left corner of the image, click the **Delete** ( ![]({% link assets/icon-delete-trashcan-solid.png %}) ) icon.
 
-    ![]({% link images/images/product-image-watermark-delete.png %}){: .zoom}
+    ![]({% link catalog/assets/product-image-watermark-delete.png %}){: .zoom}
     _Delete Watermark_
 
 1. Click <span class="btn">Save Config</span>.

@@ -9,14 +9,14 @@ Aside from the absence of the Weight field, the process of creating a virtual pr
 {:.bs-callout-info}
 PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout and recommends that you use either [PayPal Payments Standard]({% link payment/paypal-payments-standard.md %}) or any other PayPal payment gateway to process any order that includes virtual products.
 
-![]({% link images/images/product-virtual-membership.png %}){: .zoom}
+![]({% link catalog/assets/product-virtual-membership.png %}){: .zoom}
 _Virtual Product_
 
 ## Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose **Virtual Product**.
+1. On the _Add Product_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu at the upper-right corner, choose **Virtual Product**.
 
     ![]({% link catalog/assets/product-add-virtual.png %}){: .zoom}
     _Add Virtual Product_
@@ -127,7 +127,7 @@ Complete the information in the following sections as needed:
 
    - **Method 2:** Save and Close
 
-      On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}) ) menu, choose **Save & Close**.
+      On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Save & Close**.
 
       ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
       _Save & Close_

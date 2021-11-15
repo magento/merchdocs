@@ -16,7 +16,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## General Options
 
-![]({% link images/images/config-general-reports-genoptions.png %}){: .zoom}
+![]({% link configuration/assets/reports-genooptions.png %}){: .zoom}
 [_Dashboard_]({% link stores/admin-dashboard.md %})
 
 {:.bs-callout-info}

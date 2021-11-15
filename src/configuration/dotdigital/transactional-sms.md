@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdi
 
 ## Transactional SMS Settings
 
-![]({% link images/images/config-engagement-cloud-transactional-sms.png %}){: .zoom}
+![]({% link configuration/assets/ec-transactional-sms.png %}){: .zoom}
 _Transactional SMS Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -19,7 +19,7 @@ _Transactional SMS Settings_
 
 ## SMS Templates
 
-![]({% link images/images/config-engagement-cloud-sms-templates.png %}){: .zoom}
+![]({% link configuration/assets/ec-sms-templates.png %}){: .zoom}
 _SMS Templates_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

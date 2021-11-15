@@ -4,7 +4,7 @@ title: 'Tutorial 1: Simple Page'
 
 In this three-part tutorial, you will become familiar with the Page Builder workspace, while creating a simple page that illustrates how easy it is to create content-rich pages of your own design.
 
-![]({% link images/images-ee/page-builder-tutorial1-simple-layout.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial1-simple-layout.png %}){: .zoom}
 _Simple Page example_
 
 {:.bs-callout-info}
@@ -41,7 +41,7 @@ Follow parts 1, 2, and 3 of this tutorial in order.
 
 In this part of the Simple Page tutorial, you will create a new page that has a full-bleed row and banner. The row has different background images for desktop and mobile devices.
 
-![]({% link images/images-ee/page-builder-tutorial1-full-bleed-with-banner.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial1-full-bleed-with-banner.png %}){: .zoom}
 _Page Builder full bleed row with banner_
 
 ### Step 1: Create a new page
@@ -54,7 +54,7 @@ _Page Builder full bleed row with banner_
 
    - For **Page Title**, enter `Simple Page`.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-currently-active.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-currently-active.png %}){: .zoom}
    _Basic page settings_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Design** section.
@@ -68,7 +68,7 @@ _Page Builder full bleed row with banner_
    {:.bs-callout-info}
    The Full Width layout can be used only with a compatible [theme]({% link design/themes.md %}).
 
-   ![]({% link images/images-ee/page-builder-tutorial1-design-section.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-design-section.png %}){: .zoom}
    _Page design settings_
 
 1. In the upper-right corner, click <span class="btn">Save</span>.
@@ -84,7 +84,7 @@ _Page Builder full bleed row with banner_
    {:.bs-callout-info}
    The [Content Heading]({% link cms/page-builder-workspace.md %}) field is optional. It is by default, formatted as a heading level 1 (H1) according to the theme. For the purpose of this tutorial, the _Content Heading_ is left blank.
 
-   ![]({% link images/images-ee/page-builder-content-preview-empty.png %}){: .zoom}
+   ![]({% link cms/assets/pb-content-preview-empty.png %}){: .zoom}
    _Page content preview with empty row_
 
 1. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
@@ -104,7 +104,7 @@ _Page Builder full bleed row with banner_
 
    The Full Bleed appearance setting extends the left and right borders of the content area of the row and background to the full width of the page.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-settings-appearance-full-bleed.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-settings-appearance-full-bleed.png %}){: .zoom}
    _Row settings - full bleed_
 
 1. Scroll down to the _Advanced_ section and set all **Margins and Padding** settings to `0`.
@@ -149,7 +149,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
    - For **Background Image**, click <span class="btn">Upload</span>.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-row-background-image-upload.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-row-background-image-upload.png %}){: .zoom}
       _Banner background - upload image_
 
       Navigate to the directory where you saved the extracted simple page assets and choose the `wide-banner-background.jpg` file.
@@ -168,7 +168,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
       The mobile background image is used for mobile devices, and also whenever a desktop browser window is resized to the width of a mobile device.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-mobile-image-selected.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-row-settings-background-mobile-image-selected.png %}){: .zoom}
       _Selecting the sample banner image file for mobile_
 
    - Scroll back to the top of the page and click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
@@ -195,7 +195,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
    - Select the first line of text. Then, on the editor toolbar under **Formats**, choose `Heading 2`.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text-format-line1.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-banner-stage-text-format-line1.png %}){: .zoom}
       _Applying the Heading 2 format_
 
    - Select the second line of text. Then, on the editor toolbar under **Formats**, choose `Paragraph`.
@@ -218,7 +218,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
    - Choose `What’s New` as the linked category.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-link-category-tree.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-banner-settings-link-category-tree.png %}){: .zoom}
       _Banner content - link to category_
 
    - Set **Show Button** to `Always`.
@@ -271,7 +271,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
 In this part of the tutorial, you will add a new row to the page, and divide the row into two equal columns. Then, you will add a linked image to each column. In the instructions, each new row is added before the first row to make the Page Builder panel line up with the stage. At the end of the tutorial, you will rearrange the rows so they match the Simple Page example.
 
-![]({% link images/images-ee/page-builder-tutorial1-contained-row-with-two-equal-columns.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial1-contained-row-with-two-equal-columns.png %}){: .zoom}
 _Example page using contained row with two equal columns_
 
 ### Step 1: Add a new row
@@ -286,19 +286,19 @@ _Example page using contained row with two equal columns_
 
    The red guideline marks the boundary between the two rows.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-drag-to-stage.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-drag-to-stage.png %}){: .zoom}
    _Adding a new row above the banner_
 
 1. Hover over the new row to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %}){: width="20px"}) icon.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-settings.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-settings.png %}){: .zoom}
    _Row toolbox_
 
 1. Under _Appearance_, accept the **Contained** default setting.
 
    This setting limits the content area of the row to the width of the page as defined by the theme.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-settings-appearance.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-settings-appearance.png %}){: .zoom}
    _Keeping the default Contained appearance setting_
 
 1. In the upper-right corner, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
@@ -307,12 +307,12 @@ _Example page using contained row with two equal columns_
 
 1. In the Page Builder panel under _Layout_, drag a **Column** placeholder to the new row.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-column-drag-to-stage.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-column-drag-to-stage.png %}){: .zoom}
    _Dragging a column content type to the stage_
 
    The row is now divided into two columns of equal width. Each column is a separate container for content with its own dedicated toolbox of options.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-columns-equal-width.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-columns-equal-width.png %}){: .zoom}
    _Row with two columns of equal width_
 
 1. In the upper-left corner of the first column, click the circular _Grid_ control (![]({% link images/images-ee/icon-pb-grid-control.png %})) to show the grid guidelines.
@@ -321,7 +321,7 @@ _Example page using contained row with two equal columns_
 
    The numbers in parentheses (6/12) in the top border of each column container indicate the number of grid divisions in each column, and the total number of divisions in the row.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-columns-grid-size.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-columns-grid-size.png %}){: .zoom}
    _Displaying grid size details for the column_
 
 ### Step 3: Add images with links
@@ -330,26 +330,26 @@ In this step, you will learn how to upload an image to the banner.
 
 1. In the Page Builder panel, expand the **Media** section and drag an **Image** placeholder to the first column.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-column1-media-image-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-column1-media-image-drag.png %}){: .zoom}
    _Dragging the image content type to first column_
 
 1. Insert the sample image into the placeholder.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-column-image-upload.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-column-image-upload.png %}){: .zoom}
    _Image placeholder_
 
    For am image that is located on your system, you can choose either of these methods:
 
    - **Upload the image file**: In the first column, click <span class="btn">Upload Image</span>. Then, navigate to the directory where you saved the extracted simple page assets and choose the `small-banner-1.jpg` file.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-column1-image.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-column1-image.png %}){: .zoom}
       _Uploaded image added to the first column_
 
       Repeat this action to add the `small-banner-2.jpg` file to the second column.
 
    - **Drag the image file**: On your desktop, open the simple page assets folder and position it alongside the Admin browser window where you are working with the Page Builder stage. Then, drag the file `small-banner-1.jpg` from the simple page assets folder, and drop it in the first column.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-column-image-drag.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-column-image-drag.png %}){: .zoom}
       _Dragging the image onto the second column_
 
       Repeat this action to add the `small-banner-2.jpg` file to the second column.
@@ -358,7 +358,7 @@ In this step, you will learn how to upload an image to the banner.
 
 1. Hover over the image in the first column to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-column1-image-settings.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-column1-image-settings.png %}){: .zoom}
    _Image toolbox_
 
 1. Link the image to a category:
@@ -388,7 +388,7 @@ In this step, you will learn how to upload an image to the banner.
 
 The final row on this page features content from a product review. You will add a full-width row and divide it into two columns of different widths. A background image is added to the first column, with a matching background color that is applied to the row for a unified effect.
 
-![]({% link images/images-ee/page-builder-tutorial1-full-width-row-two-unequal-columns.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial1-full-width-row-two-unequal-columns.png %}){: .zoom}
 _Example full width row with columns of different widths_
 
 ### Step 1: Add a new row
@@ -403,7 +403,7 @@ _Example full width row with columns of different widths_
 
    A red guideline marks the boundary between the two rows.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-add-new-row.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-add-new-row.png %}){: .zoom}
    _Adding a new row_
 
 1. Hover over the new row to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
@@ -415,12 +415,12 @@ _Example full width row with columns of different widths_
 
    This setting limits the content area to the maximum page width that is defined by the theme. The background color and/or image are not limited, and extend the full width of the row.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-settings-appearance-full-width.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-settings-appearance-full-width.png %}){: .zoom}
    _Selecting the Full Width appearance_
 
 1. In the _Background_ section, enter `#f1f1f1` as the **Background Color**.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-color.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-settings-background-color.png %}){: .zoom}
    _Setting the background color_
 
 1. Scroll down to the _Advanced_ section and set all **Margins & Padding** values to `0`.
@@ -432,21 +432,21 @@ _Example full width row with columns of different widths_
 
    The background color of the row is now a pale beige.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-background-beige.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-background-beige.png %}){: .zoom}
    _Row with the background color in the stage_
 
 ### Step 2: Add columns of different widths
 
 1. In the Page Builder panel under _Layout_, drag a **Column** placeholder to the top row on the stage.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-column-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-column-drag.png %}){: .zoom}
    _Dragging a column to the stage_
 
 1. Drag the right border of the first column to the "four of twelve” (`4/12`) position on the grid.
 
    The size of the second column adjusts to "eight of twelve” (`8/12`).
 
-   ![]({% link images/images-ee/page-builder-tutorial1-column-first-4.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-column-first-4.png %}){: .zoom}
    _Resizing the first column_
 
 1. Hover over the first column container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
@@ -462,19 +462,19 @@ _Example full width row with columns of different widths_
 
 1. In the Page Builder panel, expand **Media** and drag an **Image** content type to the first column.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-column1-image-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-column1-image-drag.png %}){: .zoom}
    _Dragging an image content type to the first column_
 
 1. In the image placeholder, click <span class="btn">Upload Image</span>.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-column1-image-upload.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-column1-image-upload.png %}){: .zoom}
    _Upload Image_
 
 1. Navigate to the directory where you saved the extracted simple page assets and choose the `review-image.jpg` file.
 
    The uploaded image appears in the first column, and blends seamlessly with the background color of the row.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-column1-image-uploaded.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-column1-image-uploaded.png %}){: .zoom}
    _Uploaded image added to the column_
 
 ### Step 4: Add review content to the second column
@@ -483,19 +483,19 @@ The second column of the row will contain content from a customer review, includ
 
 1. In the Page Builder panel, expand the **Elements** section and drag the **Text** content type to the second column.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-column2-text-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-column2-text-drag.png %}){: .zoom}
    _Dragging the text content type to the stage_
 
 1. Click in the text element to display the editor toolbar.
 
 1. In the toolbar, click the _Insert Image_ (![]({% link cms/assets/editor-btn-insert-edit-image.png %})) icon and do the following:
 
-   ![]({% link images/images-ee/page-builder-tutorial1-column2-editor-toolbar-insert-image.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-column2-editor-toolbar-insert-image.png %}){: .zoom}
    _Inserting an image in the text_
 
    - In the _Insert/edit image_ dialog, click the Find ( ![]({% link cms/assets/editor-btn-find-source.png %}) ) icon next to the _Source_ field.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-column2-text-insert-edit-image.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-column2-text-insert-edit-image.png %}){: .zoom}
       _Insert/edit image dialog_
 
    - On the _Select Images_ page, click <span class="btn">Choose Files</span>.
@@ -504,14 +504,14 @@ The second column of the row will contain content from a customer review, includ
 
    - Back on the page, double-click the image tile to select it and insert its URL into the Source field.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-column2-editor-gallery-select-image.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-column2-editor-gallery-select-image.png %}){: .zoom}
       _Choosing the image on the page_
 
    - For **Image Description**, enter `5-Star Rating` and click <span class="btn">OK</span> to insert the image into the column.
 
    - In the editor toolbar, click **Align Center** (![]({% link cms/assets/editor-btn-align-center.png %})) to center the image in the column.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-column2-5stars-centered.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-column2-5stars-centered.png %}){: .zoom}
       _Centered rating image_
 
 1. Position the insertion point just after the five-star image, press the Enter/Return key to start a new line, and enter the following text:
@@ -524,7 +524,7 @@ The second column of the row will contain content from a customer review, includ
 
    The text is centered as you type.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-column2-text-unformatted.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-column2-text-unformatted.png %}){: .zoom}
    _Review text centered in the column_
 
 1. Format the text:
@@ -541,7 +541,7 @@ The second column of the row will contain content from a customer review, includ
 
    - Below the thumbnail of the image, take note of the dimensions of the image.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-column1-image-dimensions.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-column1-image-dimensions.png %}){: .zoom}
       _Image dimensions displayed below the thumbnail_
 
    - In the upper-right corner, click **Close**.
@@ -557,7 +557,7 @@ The second column of the row will contain content from a customer review, includ
 
    - Set **Vertical Alignment** to `Center`.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-column2-layout-vertical-alignment.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-column2-layout-vertical-alignment.png %}){: .zoom}
    _Setting the minimum height and vertical alignment_
 
 1. Scroll down to the _Advanced_ section and set all **Margins and Padding** values to zero ( `0` ).
@@ -567,7 +567,7 @@ The second column of the row will contain content from a customer review, includ
 
 1. Scroll back to the top of the page and in in the upper-right corner, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-reviw-content.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-reviw-content.png %}){: .zoom}
    _Row with review content on the stage_
 
 ### Step 5: Insert a catalog product link
@@ -586,14 +586,14 @@ The second column of the row will contain content from a customer review, includ
 
       The Title link attribute is used by some browsers as a tooltip.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-text-link-insert.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-text-link-insert.png %}){: .zoom}
       _Inserting a link in the text_
 
    - When complete, click <span class="btn">OK</span> to save the link.
 
       The linked text is now highlighted in the banner.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-text-link-highlight.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-text-link-highlight.png %}){: .zoom}
       _Banner with linked text_
 
 1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
@@ -612,7 +612,7 @@ With all three rows complete, the final step is to rearrange the rows to match t
 
 1. Hover over the first row on the stage to display the toolbox and choose the _Move_ ( ![]({% link images/images-ee/icon-pb-move.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-toolbox-move.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-toolbox-move.png %}){: .zoom}
    _Move_
 
 1. Hold down the mouse button as you verify that all content in the row is selected and drag the row into position below the red guideline at the bottom of the page.
@@ -620,7 +620,7 @@ With all three rows complete, the final step is to rearrange the rows to match t
    {:.bs-callout-info}
    If you accidentally move only part of the content — such as the image — simply move the content back where it belongs, and try again.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-toolbox-move-to-position.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-toolbox-move-to-position.png %}){: .zoom}
    _Moving a row on the stage_
 
 1. Repeat this process to move the first row to the second position.

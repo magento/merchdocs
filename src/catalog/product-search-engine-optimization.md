@@ -6,7 +6,7 @@ The _Search Engine Optimization_ section specifies the [URL Key]({% link catalo
 
 The default value for each meta data field can be auto-generated based on values specified in the configuration. Each field contains a placeholder that is replaced by an actual value. For more information, see [Default Field Values]({% link configuration/catalog/catalog.md %}).
 
-![]({% link images/images/product-search-engine-optimization.png %}){: .zoom}
+![]({% link catalog/assets/product-search-engine-optimization.png %}){: .zoom}
 _Search Engine Optimization_
 
 ## Complete the SEO fields

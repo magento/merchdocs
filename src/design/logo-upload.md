@@ -5,7 +5,7 @@ group: getting-started
 
 The size and location of the logo in the header is determined by the store theme. Your logo can be saved as either a GIF, PNG, or JPG (JPEG) file type and uploaded from the Admin of your store.
 
-![]({% link images/images/storefront-header-logo.png %}){: .zoom}
+![]({% link design/assets/storefront-header-logo.png %}){: .zoom}
 _Logo in Header_
 
 The logo image resides in the following location on the server. Any image file with the name `logo.svg` is used as the default theme logo.

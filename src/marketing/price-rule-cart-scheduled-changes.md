@@ -13,5 +13,5 @@ Keep in mind the following caveats:
 
 If there are multiple price rules running in the same campaign, the Priority setting of the price rule determines which rule takes precedence. To learn more, see [Content Staging]({% link cms/content-staging.md -%}).
 
-![Cart price rules - scheduled changes]({% link images/images-ee/content-staging-price-rules-cart-scheduled-changes.png %}){: .zoom}
+![Cart price rules - scheduled changes]({% link marketing/assets/content-staging-price-rules-cart-scheduled-changes.png %}){: .zoom}
 _Scheduled Changes_

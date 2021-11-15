@@ -6,7 +6,7 @@ redirect_from:
 
 The mini cart displays a summary of items in the cart. It is enabled by default, and appears when you click the Cart link at the top of the page.
 
-![The shopper displays the shopping cart sidebar from a product page]({% link images/images/storefront-mini-cart-watch.png %}){: .zoom}
+![The shopper displays the shopping cart sidebar from a product page]({% link sales/assets/storefront-mini-cart-watch.png %}){: .zoom}
 _Mini Cart_
 
 ## Configure the mini cart

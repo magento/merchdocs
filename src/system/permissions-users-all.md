@@ -8,7 +8,7 @@ If there are others on your team or service providers who need access, you can c
 
 For users or roles that are temporary, you can also set an expiration date for the user account.
 
-![User types for your Admin]({% link images/images/merchant-admin-users.png %}){: .zoom}
+![User types for your Admin]({% link system/assets/merchant-admin-users.png %}){: .zoom}
 _Example Admin Users_
 
 ## Create a new user
@@ -62,7 +62,7 @@ _Example Admin Users_
 
    The grid lists all the existing user roles. For a new store, _Administrators_ is the only role available.
 
-   ![Admin - add new user role]({% link images/images/permissions-user-roles.png %}){: .zoom}
+   ![Admin - add new user role]({% link system/assets/permissions-user-roles.png %}){: .zoom}
    _Add New User Role_
 
 1. In the _Assigned_ column, select a user role.
@@ -73,7 +73,7 @@ _Example Admin Users_
 
 1. In the left panel, click **2FA**.
 
-   ![Admin - add new user role]({% link images/images/permissions-user-2fa.png %}){: .zoom}
+   ![Admin - add new user role]({% link system/assets/permissions-user-2fa.png %}){: .zoom}
    _2FA_
 
 1. Verify the 2FA solution(s) that are available to _Admin_ users. Then, advise each user to install the solution(s) they want to use before they sign in. Authentication by only one 2FA solution is required to sign in to the _Admin_.

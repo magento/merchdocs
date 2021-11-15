@@ -55,7 +55,7 @@ Configure the quantities and additional settings per [added source]({% link cata
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Sources** section and click **Advanced Inventory**.
 
-   ![]({% link images/images/product-inventory-manage-stock-yes.png %}){: .zoom}
+   ![]({% link catalog/assets/product-inventory-manage-stock-yes.png %}){: .zoom}
    _Advanced Inventory for a Product_
 
 1. To enable [inventory control]({% link catalog/inventory.md %}) for your catalog, set **Manage Stock** to `Yes`.

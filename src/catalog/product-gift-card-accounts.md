@@ -5,7 +5,7 @@ title: Gift Card Accounts
 
 A gift card account is automatically created for each Gift Card that is purchased. The value of the gift card can then be applied toward the purchase of a product in your store. You can also create gift card accounts from the Admin as a promotion or service for customers. The gift card account number corresponds to the gift card code.
 
-![]({% link images/images-ee/marketing-gift-card-accounts-grid.png %}){: .zoom}
+![]({% link catalog/assets/marketing-gift-card-accounts-grid.png %}){: .zoom}
 _Gift Card Accounts_
 
 ## Examine an existing gift card account
@@ -26,7 +26,7 @@ _Gift Card Accounts_
 
     The Gift Card Code appears at the top of the _Information_ section.
 
-    ![]({% link images/images-ee/gift-card-account-information.png %}){: .zoom}
+    ![]({% link catalog/assets/gift-card-account-information.png %}){: .zoom}
     _Gift Card Account Information_
 
 ## Create a gift card account
@@ -35,7 +35,7 @@ _Gift Card Accounts_
 
 1. At the upper-right corner, click <span class="btn">Add Gift Card Account</span>.
 
-    ![]({% link images/images-ee/gift-card-account-add-new.png %}){: .zoom}
+    ![]({% link catalog/assets/gift-card-account-add-new.png %}){: .zoom}
     _New Account_
 
 1. In the _Information_ section, set **Active** to `Yes` and do the following:
@@ -50,7 +50,7 @@ _Gift Card Accounts_
 
       If left blank, the gift card account will not expire.
 
-    ![]({% link images/images-ee/marketing-gift-card-accounts-new-information.png %}){: .zoom}
+    ![]({% link catalog/assets/marketing-gift-card-accounts-new-information.png %}){: .zoom}
     _Gift Card Information_
 
 1. In the left panel, choose **Send Gift Card** and do the following:
@@ -61,7 +61,7 @@ _Gift Card Accounts_
 
     - Set **Send Email from the Following Store View** to the store view that appears as the sender of the gift card notification.
 
-    ![]({% link images/images-ee/marketing-gift-card-accounts-new-send.png %}){: .zoom}
+    ![]({% link catalog/assets/marketing-gift-card-accounts-new-send.png %}){: .zoom}
     _Send Gift Card Settings_
 
 1. Do one of the following to save the new account:
@@ -80,7 +80,7 @@ To see a gift card history:
 
 1. The **History** of the gift card is displayed.
 
-    ![]({% link images/images-ee/gift-card-history.png %}){: .zoom}
+    ![]({% link catalog/assets/gift-card-history.png %}){: .zoom}
     _Gift Card History_
 
 ## Delete a gift card account

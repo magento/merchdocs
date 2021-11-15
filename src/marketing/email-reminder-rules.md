@@ -7,5 +7,5 @@ The purpose of an email reminder is encourage people who have visited your store
 
 Email reminders can be triggered after a certain number of days have passed since a cart was abandoned, or for any other condition you want to define, such as total cart value, quantity, items in cart, and so on.
 
-![Email reminders]({% link images/images-ee/email-reminders.png %}){: .zoom}
+![Email reminders]({% link marketing/assets/email-reminders.png %}){: .zoom}
 _Email Reminders_

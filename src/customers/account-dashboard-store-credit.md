@@ -5,7 +5,7 @@ title: Store Credit
 
 The Store Credit section of the customer account dashboard lists amounts from returns and refunds that can be applied to future purchases. Customers can also redeem the value from a gift card.
 
-![]({% link images/images-ee/account-dashboard-store-credit.png %}){: .zoom}
+![]({% link customers/assets/account-dashboard-store-credit.png %}){: .zoom}
 _Store Credit_
 
 ## Apply store credit during checkout
@@ -16,13 +16,13 @@ _Store Credit_
 
 1. To apply the amount to the order, the customer clicks <span class="btn">Use Store Credit</span>.
 
-   ![]({% link images/images-ee/storefront-checkout-use-store-credit.png %}){: .zoom}
-   _Use Store Credit_{:.ee-only}
+   ![]({% link customers/assets/storefront-checkout-use-store-credit.png %}){: .zoom}
+   _Use Store Credit_
 
    The order total is recalculated and the amount of store credit that is applied appears in the Order Summary.
 
-   ![]({% link images/images-ee/storefront-checkout-use-store-credit-order-summary.png %}){: .zoom}
-   _Order Summary with Store Credit_{:.ee-only}
+   ![]({% link customers/assets/storefront-checkout-use-store-credit-order-summary.png %}){: .zoom}
+   _Order Summary with Store Credit_
 
 1. When ready, clicks <span class="btn">Place Order</span>.
 

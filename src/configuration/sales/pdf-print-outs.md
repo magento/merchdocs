@@ -15,7 +15,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Shipment
 
-![]({% link images/images/config-sales-pdf-print-out-shipment.png %}){: .zoom}
+![]({% link configuration/assets/pdf-print-shipment.png %}){: .zoom}
 [_Shipment_]({% link marketing/sales-documents-ref-id.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -24,7 +24,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Credit Memo
 
-![]({% link images/images/config-sales-pdf-print-out-credit-memo.png %}){: .zoom}
+![]({% link configuration/assets/pdf-print-credit-memo.png %}){: .zoom}
 [_Credit Memo_]({% link sales/credit-memos.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

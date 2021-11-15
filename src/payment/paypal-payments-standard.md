@@ -51,12 +51,12 @@ This setup method assumes you have an existing PayPal account.
 
 1. Expand **PayPal All-in-One Payment Solutions** and click <span class="btn">Configure</span> for **Payments Standard**.
 
-   ![PayPal Payments Standard]({% link images/images/config-sales-payment-methods-paypal-payments-standard.png %}){: .zoom}
+   ![PayPal Payments Standard]({% link payment/assets/paypal-payments-standard.png %}){: .zoom}
    _Payments Standard_
 
 ### Step 2: Enable and connect your PayPal account
 
-![PayPal Payments Standard configuration]({% link images/images/config-sales-payment-methods-paypal-payments-standard-display.png %}){: .zoom}
+![PayPal Payments Standard configuration]({% link payment/assets/paypal-payments-display.png %}){: .zoom}
 _Payments Standard - configuration_
 
 1. Connect your account for test or production:
@@ -232,7 +232,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Basic Settings - PayPal Website Payments Standard** section.
 
-   ![Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payments-standard-basic.png %}){: .zoom}
+   ![Basic Settings]({% link payment/assets/paypal-payments-basic.png %}){: .zoom}
    _Basic Settings - PayPal Website Payments Standard_
 
 1. Enter a **Title** to identify this payment method during checkout.

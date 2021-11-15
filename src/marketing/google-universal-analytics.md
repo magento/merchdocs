@@ -7,7 +7,7 @@ Google Universal Analytics gives you the ability to define additional custom dim
 {: .bs-callout .bs-callout-info}
 If your business is subject to privacy regulations such as the [General Data Protection Regulation]({% link stores/compliance-gdpr.md %}) and/or the [California Consumer Privacy Act]({% link stores/compliance-ccpa.md %}), see [Google Privacy Settings]({% link stores/compliance-privacy-google.md %}).
 
-![Sales configuration - Google API]({% link images/images/config-sales-google-api-google-analytics.png %}){: .zoom}
+![Sales configuration - Google API]({% link marketing/assets/google-analytics.png %}){: .zoom}
 [_Google Analytics_]({% link configuration/sales/google-api.md %})
 
 ## Step 1. Sign up for Google Universal Analytics

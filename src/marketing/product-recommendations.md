@@ -8,7 +8,7 @@ redirect_from:
 
 Product recommendations are a powerful marketing tool you can use to increase conversions, boost revenue, and stimulate shopper engagement. Product recommendations are surfaced on the storefront in the form of units such as “Customers who viewed this product also viewed”. Adobe Commerce product recommendations are powered by [Adobe Sensei](https://www.adobe.com/sensei.html), which uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Adobe Commerce catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
 
-You can create, manage, and deploy recommendations across your store views directly from the Adobe Commerce Admin. If you have implemented your storefront using PWA Studio, see the [PWA documentation](https://magento.github.io/pwa-studio/product-recs).
+You can create, manage, and deploy recommendations across your store views directly from the Adobe Commerce Admin. If your storefront is implemented using PWA Studio, refer to the [PWA documentation](https://magento.github.io/pwa-studio/product-recs). If you use a custom frontend technology such as React or Vue JS, learn how to [integrate]({{ site.devdocs_url }}/recommendations/headless.html) Product Recommendations into your headless storefront.
 
 {:.bs-callout-info}
 For information about installing product recommendations modules, refer to the [developer documentation]({{ site.devdocs_url }}/recommendations/install-configure.html).
@@ -98,7 +98,7 @@ The following table lists the storefront pages, where you can place the recommen
 |**Product Detail**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending<br>Visual similarity|
 |**Cart**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
 |**Confirmation**|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
-|**Page Builder**|You can [drag and drop]({% link marketing/page-builder-add-product-recs.md %}#add-an-existing-recommendation-unit) the Product Recommendation content type for positioning|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
+|**Page Builder**|You can [drag and drop]({% link cms/page-builder-add-recommendations.md %}#add-an-existing-recommendation-unit) the Product Recommendation content type for positioning|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
 
 {:.b2b-only}
 ## B2B support in Product Recommendations {#b2bsupport}

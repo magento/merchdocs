@@ -58,8 +58,8 @@ After you enable visual recommendations, Adobe Sensei initiates the image proces
 
 The following image shows the product detail page for the _Clamber Watch_:
 
-   ![Clamber Watch]({% link images/images-ee/visual-sim-pdp.png %}){: .zoom}
+   ![Clamber Watch]({% link marketing/assets/visual-sim-pdp.png %}){: .zoom}
 
 The following shows the _Visual similarity_ recommendation unit for _Clamber Watch_:
 
-   ![Visual similarity unit]({% link images/images-ee/visual-sim-unit.png %}){: .zoom}
+   ![Visual similarity unit]({% link marketing/assets/visual-sim-unit.png %}){: .zoom}

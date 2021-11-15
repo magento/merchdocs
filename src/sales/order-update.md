@@ -8,7 +8,7 @@ When helping a customer who has placed an order, you need to determine the statu
 
 After a customer places an order, but before the payment is received, the order is in `Pending` status. You can edit the order, place it on hold, or cancel it entirely. The button bar of a pending order lists the available actions for an order.
 
-![]({% link images/images/order-button-bar-pending.png %}){: .zoom}
+![]({% link sales/assets/order-button-bar-pending.png %}){: .zoom}
 _Pending Order Options_
 
 If you modify the substance of an order, the original order is canceled and a new order is generated. You can, however, change the billing or shipping address without generating a new order.
@@ -39,7 +39,7 @@ The [payment action configuration]({% link configuration/sales/payment-methods.m
 You cannot change the substance of a `Processing` order, but you can edit the billing and shipping address.
 
 ![]({% link images/images-ee/order-button-bar-processing.png %}){: .zoom}
-_Processing Order Options_{:.ee-only}
+_Processing Order Options_
 
 {:.bs-callout-info}
 When the payment action of the payment method is set to `Authorize and Capture`, an invoice is automatically created when the customer places an order. In this circumstance, you can refund funds using a [credit memo]({% link sales/credit-memo-create.md %}), but cannot [cancel](#cancel-a-pending-order) or [void](#void-a-processing-order) the order.
@@ -89,7 +89,7 @@ You can issue any needed refunds via [credit memo]({% link sales/credit-memo-cre
 
 1. Update the order as needed.
 
-    ![]({% link images/images/sales-order-edit.png %}){: .zoom}
+    ![]({% link sales/assets/order-edit.png %}){: .zoom}
     _Edit Order_
 
 1. Apply your changes:
@@ -106,7 +106,7 @@ If the customer’s preferred method of payment is not available or if the item 
 
 1. Click **Hold** to place the order on hold.
 
-    ![]({% link images/images/sales-order-hold.png %}){: .zoom}
+    ![]({% link sales/assets/order-hold.png %}){: .zoom}
     _Hold Order_
 
 To remove the hold on an order, edit the order again and click **Unhold**.
@@ -121,7 +121,7 @@ Canceling an order changes its status from `Pending` to `Canceled`.
 
 1. Click **Cancel** to cancel the order.
 
-    ![]({% link images/images/sales-order-cancel.png %}){: .zoom}
+    ![]({% link sales/assets/order-cancel.png %}){: .zoom}
     _Cancel Order_
 
 The status of the order is now `Canceled`.

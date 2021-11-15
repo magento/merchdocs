@@ -36,7 +36,7 @@ To enable and configure Klarna for your store, you need the following informatio
 
    You can return to your Klarna account later to complete the remaining settings.
 
-   ![Generate Klarna API Credentials]({% link images/images/payments-klarna-dashboard-playground-settings.png %}){: .zoom}
+   ![Generate Klarna API Credentials]({% link payment/assets/klarna-playground-settings.png %}){: .zoom}
    _Generate Klarna API Credentials_
 
 ### Step 2: Enable Klarna On-site Messaging (optional)
@@ -47,7 +47,7 @@ To enable the display of Klarna promotional messages in your storefront:
 
    The _Installation_ page contains two blocks of code that are needed to complete the Commerce configuration. The first block of code is required to enable On-site Messaging. The second block of code refreshes the message placement if the order changes. We recommend that you copy each block of code and paste it to a text editor. You will need this code to complete the Commerce configuration.
 
-   ![Klarna Portal - Installation scripts]({% link images/images/payments-klarna-portal-install-scripts.png %}){: .zoom}
+   ![Klarna Portal - Installation scripts]({% link payment/assets/klarna-portal-install.png %}){: .zoom}
    _Klarna portal - installation scripts_
 
 1. For the first block of code, click <span class="btn">Copy to clipboard</span> and paste it into a text editor.
@@ -83,7 +83,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. For _Klarna_, click <span class="btn">Configure</span>.
 
-   ![Klarna]({% link images/images/config-sales-payment-methods-recommended-solutions-klarna.png %}){: .zoom}
+   ![Klarna]({% link payment/assets/payment-methods-klarna.png %}){: .zoom}
    [_Klarna configuration_]({% link configuration/sales/klarna.md %})
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **API Configuration** section.

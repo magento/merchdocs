@@ -15,7 +15,7 @@ _Email Templates_
 
 1. In the **Load default template** section, click the **Template** selector and choose `Magento_Email` > `Header`.
 
-    ![Email template header - load default template]({% link images/images/email-template-magento-email-header.png %}){: .zoom}
+    ![Email template header - load default template]({% link marketing/assets/email-template-magento-email-header.png %}){: .zoom}
     _Default Header Template_
 
 1. Click <span class="btn">Load Template</span>.
@@ -30,7 +30,7 @@ _Email Templates_
 
    In the grid, the list of templates can be sorted and filtered by the _Subject_ column.
 
-    ![Email template header - information]({% link images/images/email-template-information.png %}){: .zoom}
+    ![Email template header - information]({% link marketing/assets/email-template-information.png %}){: .zoom}
     _Header Template Information_
 
 1. In the **Template Content** box, modify the HTML as needed.

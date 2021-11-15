@@ -12,7 +12,7 @@ The **Sources** section lists the sources from which the product can be distribu
 
 1. Click <span class="btn">Done</span>.
 
-![]({% link images/images/catalog-sources-list.png %}){: .zoom}
+![]({% link catalog/assets/catalog-sources-list.png %}){: .zoom}
 _Sources View_
 
 ## Field reference

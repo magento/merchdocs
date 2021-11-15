@@ -87,12 +87,12 @@ This setup method assumes you have an existing PayPal account.
 
 1. Expand **PayPal Payment Gateways** (if needed) and click <span class="btn">Configure</span> for **Payflow Link**.
 
-   ![Configure]({% link images/images/config-sales-payment-methods-paypal-payflow-link.png %}){: .zoom}
+   ![Configure]({% link payment/assets/payflow-link.png %}){: .zoom}
    _Payflow Link - Configure_
 
 ### Step 2: Complete the required PayPal settings
 
-![Required Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-link-required-a.png %}){: .zoom}
+![Required Settings]({% link payment/assets/payflow-required-link.png %}){: .zoom}
 _Required PayPal Settings - PayPal Payflow Link_
 
 1. (Optional) Enter the **Email Associated with your PayPal Merchant Account**.
