@@ -173,7 +173,7 @@ _Create Credit Memo_
 
       The status of a credit memo notification appears in the completed credit memo next to the credit memo number.
 
-      ![]({% link images/images-b2b/credit-memo-order-totals.png %}){: .zoom}
+      ![]({% link sales/assets/credit-memo-order-totals.png %}){: .zoom}
       _Refund Totals_
 
 1. To complete the process and issue the refund, click <span class="btn">Refund Offline</span>.

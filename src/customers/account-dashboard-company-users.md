@@ -5,7 +5,7 @@ title: Company Users
 
 Lists the users who are associated with the company. To learn more, see [Company Users]({% link customers/account-company-users.md %}).
 
-![]({% link images/images-b2b/customer-account-dashboard-company-users.png %}){: .zoom}
+![]({% link customers/assets/company-users-list-storefront.png %}){: .zoom}
 [_Company Users_]({% link customers/account-company-users.md %})
 
 ## Column descriptions

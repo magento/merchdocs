@@ -4,8 +4,8 @@ title: My Orders
 
 Customers have access to all of their orders from their account. Orders can be viewed, filtered, tracked, and resubmitted as new orders. Depending on the status of the order, customers can print their orders, invoices, shipments, and refund records.
 
-![]({% link images/images-b2b/customer-account-dashboard-my-orders.png %}){: .zoom}
-_My Orders_{:.b2b-only}
+![]({% link customers/assets/account-dashboard-my-orders-b2b.png %}){: .zoom}
+_My Orders_
 
 {:.b2b-only}
 ## Filter orders

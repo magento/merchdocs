@@ -5,8 +5,8 @@ title: Assigning Users to Teams
 
 When teams and users are first added to the [company structure]({% link customers/account-company-structure.md %}), they are placed at the same level under the company administrator.
 
-![]({% link images/images-b2b/customer-company-users-added.png %}){: .zoom}
-_Company Structure with Users and Teams_
+![]({% link customers/assets/company-users-added.png %}){: .zoom}
+_Company structure with users and teams_
 
 |Control|Description|
 |--- |--- |
