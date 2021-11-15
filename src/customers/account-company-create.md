@@ -7,6 +7,8 @@ Company accounts can be set up from the storefront by the customer, or from the 
 
 The person who sets up a company account from the storefront is usually assigned a role as the [company administrator]({% link customers/account-company-admin.md %}). After the request to create a company account is approved, the company administrator can set an account password and log in to the account.
 
+To allow customers to register a company from the storefront, make sure that the [B2B Features]({% link stores/b2b-features.md %}) are configured so that **Allow Company Registration from the Storefront** is set to `Yes`.
+
 ## Method 1: Create company from the storefront
 
 {:.bs-callout-info}
@@ -33,7 +35,14 @@ Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %
    ![]({% link images/images-b2b/customer-account-company-information.png %}){: .zoom}
    _Company Information_
 
-1. Complete the settings in the _Legal Address_ section.
+1. Complete the required fields in the _Legal Address_ section.
+
+   - **Street Address**
+   - **City**
+   - **Country**
+   - **State/Province**
+   - **ZIP/Postal Code**
+   - **Phone Number**
 
    ![]({% link images/images-b2b/customer-account-company-legal-address.png %}){: .zoom}
    _Legal Address_
@@ -121,8 +130,10 @@ _New Company_
 
    - If the information is available, complete the remaining fields to describe the company administrator:
 
+      - **Website**
       - **Job Title**
       - **Gender**
+      - **Send Welcome Email From**
 
     ![]({% link images/images-b2b/customers-company-create-company-admin.png %}){: .zoom}
     _Company Admin_
@@ -214,6 +225,7 @@ _New Company_
 ### Company Admin
 
 {: .options-table }
+|Website|Determines which website the company admin belongs to.|
 |Job Title|The title of the company administrator who manages the company account.|
 |Email|The email address of the company administrator can be the same as the company email address. If a different email address is entered, a separate individual account is created for the company administrator, in addition to the company account.|
 |Prefix|If applicable, the prefix that is associated with the name of the company administrator (such as Mr., Ms., Mrs., or Dr.). Depending on the configuration, the input field might be a text field or list.|
@@ -222,6 +234,7 @@ _New Company_
 |Last Name|The last name of the company administrator.|
 |Suffix|If applicable, the suffix that is associated with the name of the company administrator (such as Jr., Sr., or III.). Depending on the configuration, the input field might be a text field or list.|
 |Gender|The gender of the company administrator. Options: Male / Female / Not Specified|
+|Send Welcome Email From|The store view from which the Welcome email is to be sent.|
 
 ### Company Credit
 

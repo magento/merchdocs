@@ -17,7 +17,7 @@ Minimum Advertised Price (MAP) is not available for Bundle products that use dyn
 
 If [Instant Purchase]({% link sales/checkout-instant-purchase.md %}) is available, the _Instant Purchase_ button appears below the _Add to Cart_ button for each item in the bundle.
 
-![]({% link images/images/product-bundle-customize.png %}){: .zoom}
+![]({% link catalog/assets/product-bundle-customize.png %}){: .zoom}
 _Customize Bundle_
 
 The following instructions take you through the process of creating a bundle product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
@@ -26,7 +26,7 @@ The following instructions take you through the process of creating a bundle pro
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. In the upper-right corner on the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu, choose **Bundle Product**.
+1. In the upper-right corner on the _Add Product_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Bundle Product**.
 
     ![]({% link catalog/assets/product-add-bundle.png %}){: .zoom}
     _Add Bundle Product_
@@ -55,7 +55,7 @@ _Choose Template_
 
    - If you prefer to assign a unique SKU for each bundle item, set **Dynamic SKU** to `No`.
 
-    ![]({% link images/images/product-bundle-dynamic-sku-price.png %}){: .zoom}
+    ![]({% link catalog/assets/product-bundle-dynamic-sku-price.png %}){: .zoom}
     _Dynamic SKU and Price_
 
 1. To determine the price of the bundle, do one of the following:
@@ -96,7 +96,7 @@ _Choose Template_
 
    - To assign a fixed weight to the bundle, set **Dynamic Weight** to `No` and enter the **Weight** of the bundle.
 
-    ![]({% link images/images/product-bundle-dynamic-weight.png %}){: .zoom}
+    ![]({% link catalog/assets/product-bundle-dynamic-weight.png %}){: .zoom}
     _Dynamic Weight_
 
 1. To feature the product in the list of [new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
@@ -121,7 +121,7 @@ _Choose Template_
 
 1. Choose the **Country of Manufacture**.
 
-    ![]({% link images/images/product-bundle-details.png %}){: .zoom}
+    ![]({% link catalog/assets/product-bundle-details.png %}){: .zoom}
     _Bundle Details_
 
     There might be additional attributes that describe the product. The selection varies attribute set, and you can complete them later.
@@ -141,7 +141,7 @@ _Choose Template_
 
 1. Click <span class="btn">Add Option</span> and do the following:
 
-    ![]({% link images/images/product-bundle-new-option.png %}){: .zoom}
+    ![]({% link catalog/assets/product-bundle-new-option.png %}){: .zoom}
     _Add Bundle Options_
 
    - Enter an **Option Title** to be used as the field label.
@@ -161,7 +161,7 @@ _Choose Template_
 
    - Click <span class="btn">Add Selected Products</span>.
 
-      ![]({% link images/images/product-bundle-add-products-to-option.png %}){: .zoom}
+      ![]({% link catalog/assets/product-bundle-add-products-to-option.png %}){: .zoom}
       _Add Selected Products_
 
    - After the items appear in the _Options_ section, choose an item to be the **Default** selection.
@@ -177,26 +177,26 @@ _Choose Template_
 
       For example, if the Default Quantity of the Sprite Status Ball is set to `2` and the customer orders `4` of that bundle option, the total number of total balls purchased is `8`.
 
-      ![]({% link images/images/product-bundle-item-detail.png %}){: .zoom}
+      ![]({% link catalog/assets/product-bundle-item-detail.png %}){: .zoom}
       _Item Detail_
 
 1. Repeat these steps for each item you want to add to the bundle.
 
-1. To change the order of items in a bundle section, click the **Move** ( ![Move icon]({% link images/images/btn-drag.png %}) ) icon at the beginning of the row and drag the item into position.
+1. To change the order of items in a bundle section, click the **Move** ( ![Move icon]({% link assets/icon-move.png %}) ) icon at the beginning of the row and drag the item into position.
 
     ![]({% link images/images/product-bundle-items-move.png %}){: .zoom}
     _Change the Order of Bundle Items_
 
     The order of items can also be changed in the data of an exported bundle product and then reimported into the catalog. For more information, see [Importing Bundle Products]({% link system/data-transfer-bundle-products.md %}).
 
-1. To change the order of sections in a bundle product, click the **Move** ( ![Move icon]({% link images/images/btn-drag.png %}) ) icon in the header of the section and drag the section to the new position.
+1. To change the order of sections in a bundle product, click the **Move** ( ![Move icon]({% link assets/icon-move.png %}) ) icon in the header of the section and drag the section to the new position.
 
    To have a better view of the workspace, collapse each section first and then drag them into position.
 
-    ![]({% link images/images/product-bundle-section-move.png %}){: .zoom}
+    ![]({% link catalog/assets/product-bundle-section-move.png %}){: .zoom}
     _Change the Order of Bundle Sections_
 
-1. To remove any item from the bundle, click the **Delete** ( ![]({% link images/images/btn-delete.png %}) ) icon.
+1. To remove any item from the bundle, click the **Delete** ( ![]({% link assets/icon-delete-trashcan.png %}) ) icon.
 
 1. When complete, click <span class="btn">Save</span>.
 
@@ -215,7 +215,7 @@ Scroll down and complete the information in the following sections as needed:
 
 ## Step 7: Publish the product
 
-1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link images/images/btn-switch-yes.png %}) ).
+1. If you are ready to publish the product in the catalog, set **Enable Product** to `Yes` ( ![]({% link assets/toggle-yes.png %}) ).
 
 1. Do one of the following:
 
@@ -223,7 +223,7 @@ Scroll down and complete the information in the following sections as needed:
 
    - In the upper-right corner, click <span class="btn">Save</span>.
 
-   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+   - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link assets/icon-menu-down-arrow-black.png %}) ) menu.
 
       The store opens in a new browser tab.
 
@@ -232,7 +232,7 @@ Scroll down and complete the information in the following sections as needed:
 
    **Method 2:** Save and close
 
-    On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+    On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Save & Close**.
 
     ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
     _Save & Close_
@@ -242,10 +242,10 @@ Scroll down and complete the information in the following sections as needed:
 {: .controls-table }
 |Control|Description|Example|
 |--- |--- |--- |
-|Drop-down|Displays a drop-down list of options with the product name and price. Only one item can be selected.|![]({% link images/images/product-bundle-input-type-drop-down.png %}){: .zoom}|
-|Radio Buttons|Displays a radio button for each option, followed by the product name and price.  Only one item can be selected.|![]({% link images/images/product-bundle-input-type-radio-buttons.png %}){: .zoom}|
-|Checkbox|Displays a checkbox for each option, followed by the product name and price.  Multiple items can be selected.|![]({% link images/images/product-bundle-input-type-checkbox.png %}){: .zoom}|
-|Multiple Select|Displays a list of options with the product name and price. To select multiple items, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.|![]({% link images/images/product-bundle-input-type-multiple-select.png %}){: .zoom}|
+|Drop-down|Displays a drop-down list of options with the product name and price. Only one item can be selected.|![]({% link catalog/assets/product-bundle-input-type-drop-down.png %}){: .zoom}|
+|Radio Buttons|Displays a radio button for each option, followed by the product name and price.  Only one item can be selected.|![]({% link catalog/assets/product-bundle-input-type-radio-buttons.png %}){: .zoom}|
+|Checkbox|Displays a checkbox for each option, followed by the product name and price.  Multiple items can be selected.|![]({% link catalog/assets/product-bundle-input-type-checkbox.png %}){: .zoom}|
+|Multiple Select|Displays a list of options with the product name and price. To select multiple items, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.|![]({% link catalog/assets/product-bundle-input-type-multiple-select.png %}){: .zoom}|
 
 ## Field descriptions
 
@@ -258,9 +258,9 @@ Scroll down and complete the information in the following sections as needed:
 
 ## Things to remember
 
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Customers can _build their own_ bundle product. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Bundle items can be simple or virtual products without custom options. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | The Price View can be set to either `Price Range` or `As Low As`. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | SKU and Weight can be either `Fixed` or `Dynamic`. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | The quantity can be a preset or user-defined value. However, do not assign the _User Defined_ property to checkbox or multiple-select input types. |
-| ![]({% link images/images/assets/checkbox.png %}){: .checkbox} | Bundle items can be shipped together or separately. |
+| ![]({% link assets/checkbox.png %})| Customers can _build their own_ bundle product. |
+| ![]({% link assets/checkbox.png %})| Bundle items can be simple or virtual products without custom options. |
+| ![]({% link assets/checkbox.png %})| The Price View can be set to either `Price Range` or `As Low As`. |
+| ![]({% link assets/checkbox.png %})| SKU and Weight can be either `Fixed` or `Dynamic`. |
+| ![]({% link assets/checkbox.png %})| The quantity can be a preset or user-defined value. However, do not assign the _User Defined_ property to checkbox or multiple-select input types. |
+| ![]({% link assets/checkbox.png %})| Bundle items can be shipped together or separately. |

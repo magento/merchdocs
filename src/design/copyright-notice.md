@@ -5,7 +5,7 @@ group: getting-started
 
 Your store displays a copyright notice in the footer of each page. As a best practice, the copyright notice should include the current year, and identify your company as the legal owner of the content on the site.
 
-![]({% link images/images/storefront-footer-copyright.png %}){: .zoom}
+![]({% link design/assets/storefront-footer-copyright.png %}){: .zoom}
 _Copyright notice example_
 
 The `&copy;` character code is used to insert the copyright symbol, as shown in the following examples:
@@ -27,7 +27,7 @@ The `&copy;` character code is used to insert the copyright symbol, as shown in 
    ![]({% link images/images/design-configuration.png %}){: .zoom}
    [_Design Configuration_]({% link design/configuration.md %})
 
-1. Under _Other Settings_, expand ![]({% link images/images/btn-expand.png %})the **Footer** section.
+1. Under _Other Settings_, expand ![]({% link assets/icon-display-expand.png %})the **Footer** section.
 
       ![]({% link images/images/design-configuration-footer.png %}){: .zoom}
       _Footer design settings_

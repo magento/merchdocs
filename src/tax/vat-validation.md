@@ -2,7 +2,7 @@
 title: VAT ID Validation
 ---
 
-_VAT ID Validation_ automatically calculates the required tax for B2B transactions that take place within the European Union (EU), based on the merchant and customer locale. Magento performs VAT ID validation using the web services of the [European Commission][1] server.
+_VAT ID Validation_ automatically calculates the required tax for B2B transactions that take place within the European Union (EU), based on the merchant and customer locale. Commerce performs VAT ID validation using the web services of the [European Commission][1] server.
 
 {:.bs-callout-info}
 VAT-related tax rules do not influence other tax rules, and do not prevent the application of other tax rules. Only one tax rule can be applied at a given time.
@@ -32,7 +32,7 @@ The system behavior concerned with the VAT ID validation and the customer group 
 
 In case a customer uses Google Express Checkout, PayPal Express Checkout or another external checkout method, when the checkout is performed completely on the side of the external payment gateway, the Validate on Each Transaction setting cannot be applied. Thus the customer group cannot change during checkout.
 
-![]({% link images/images/vat-id-validation2.png %}){: width="650px"}
+![]({% link tax/assets/vat-id-validation2.png %}){: width="650px"}
 <br/>_VAT Validation Checkout Workflow_
 
 [1]: http://ec.europa.eu/taxation_customs/vies/

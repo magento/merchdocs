@@ -16,7 +16,7 @@ _Vertex - Connection Settings (Enabled and Validated)_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Vertex Tax Links|Website|Enables the connector to Vertex Cloud and allows you to enter configuration settings. The connector provides enhanced performance for Vertex integrations with Magento. When enabled, additional Vertex settings and sections are displayed. Options: Enable / Disable|
+|Vertex Tax Links|Website|Enables the connector to Vertex Cloud and allows you to enter configuration settings. The connector provides enhanced performance for Vertex integrations with Commerce. When enabled, additional Vertex settings and sections are displayed. Options: Enable / Disable|
 |API Status|Website|Displays information about validation of the API Credentials for Vertex Cloud. This information is updated when you save changes to the configuration settings.|
 |Calculation API URL|Website|The URL that connects Commerce to Vertex Cloud services. This value should match the URL displayed in your Vertex Connectors page for the Commerce connector in the _ERP Connector URL_ field. Default value: `https://mgcsconnect.vertexsmb.com/vertex-ws/services/CalculateTax70`|
 |Address Validation API URL|Website|The URL that is used to validate the connection between Commerce and Vertex Cloud services. This value should match the URL displayed in your Vertex Connectors page for the Commerce connector in the Address Lookup URL field. Default value: `https://mgcsconnect.vertexsmb.com/vertex-ws/services/LookupTaxAreas70`|
@@ -30,7 +30,7 @@ _Vertex - Integration Settings_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Vertex Tax Calculation|Website|Enables Vertex Cloud for the website that is indicated by the current scope setting. Options: Enable / Disable|
-|Commit to Tax Journal When|Website|Determines when the information about each invoice is sent to Vertex Cloud. Options: <br/>**Invoice Created** - Commerce sends the information when a sales order is [invoiced]({% link sales/invoice-create.md %}), according to the [workflow]({% link sales/order-status-workflow.md %}). <br/>**Order Status Is Changed** - Commerce sends the information when the [status]({% link sales/order-status.md %}) of a sales order changes. When selected, the _Invoice When Order Status_ options appear. <br/>**Invoice When Order Status** - Determines the sales [order status]({% link sales/order-status.md %}) when Vertex Cloud generates the invoice, according to the [workflow]({% link sales/order-workflow.md %}). Status options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold <br/><br/>**_Note:_**  If you choose the `Suspected Fraud` status, it causes tax to appear as a negative amount in Vertex Cloud when an offline refund is issued for a credit memo. If you choose the _Canceled_ status, it does not allow invoice refunds to be issued from Magento. For either of these status options, you must check your Vertex Cloud account to verify that the invoice has been sent.|
+|Commit to Tax Journal When|Website|Determines when the information about each invoice is sent to Vertex Cloud. Options: <br/>**Invoice Created** - Commerce sends the information when a sales order is [invoiced]({% link sales/invoice-create.md %}), according to the [workflow]({% link sales/order-status-workflow.md %}). <br/>**Order Status Is Changed** - Commerce sends the information when the [status]({% link sales/order-status.md %}) of a sales order changes. When selected, the _Invoice When Order Status_ options appear. <br/>**Invoice When Order Status** - Determines the sales [order status]({% link sales/order-status.md %}) when Vertex Cloud generates the invoice, according to the [workflow]({% link sales/order-workflow.md %}). Status options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold <br/><br/>**_Note:_**  If you choose the `Suspected Fraud` status, it causes tax to appear as a negative amount in Vertex Cloud when an offline refund is issued for a credit memo. If you choose the _Canceled_ status, it does not allow invoice refunds to be issued from Commerce. For either of these status options, you must check your Vertex Cloud account to verify that the invoice has been sent.|
 |Allowed Countries|Website|Determines the countries and nations for assessing tax on order destination addresses. The billing address will be used when a shipping address is absent. Default values: Canada, United States|
 |Summarize Tax By|Website|Determines how tax is summarized for orders. Product and Shipping breaks down taxes by actions, such as Sales and Use and Shipping. Jurisdiction breaks down costs by country shipping through. Options: Product and Shipping (default) / Jurisdiction
 
@@ -157,7 +157,7 @@ _Vertex - Developer & Support Information_
 ## Orders, Invoices, Credit Memos Display Settings
 
 ![]({% link images/images-ee/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
-_[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.md %})_{:.ee-only}
+_[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

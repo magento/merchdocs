@@ -1,9 +1,8 @@
 ---
-title: Price Rule Conditions
-redirect_from:
-  - /sales-channels/asc/ob-pricing-rules-conditions.html
+title: Amazon Sales Channel - Price Rule Conditions
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/pricing-rule-conditions.html
 ---
-
 
 Conditions determine which products will be eligible for the price rule. Defining the conditions for your Amazon pricing rules follow the same logic and process as defining the conditions for [Cart Price Rules]({% link marketing/price-rules-cart.md %}) in Commerce.
 
@@ -35,7 +34,7 @@ You can create different conditions by changing the combination of these values.
 
    `If ALL of these conditions are TRUE:`
 
-1. Click the **Add** (![]({% link images/images/btn-add-grn.png %}){: .Inline}) icon at the beginning of the condition line to show available attributes for which the condition applies. Select an attribute on which to base the condition.
+1. Click the **Add** (![]({% link assets/icon-add-green-circle.png %})) icon at the beginning of the condition line to show available attributes for which the condition applies. Select an attribute on which to base the condition.
 
    **Conditions Combination** -  Choose to create an additional set of `All/Any` and `True/False` conditions inside the existing condition.
 
@@ -51,7 +50,7 @@ You can create different conditions by changing the combination of these values.
 
       The selected condition appears in the statement, followed by two more bold links. The options differ depending on the product attribute you select.
 
-      After you set the attribute, it cannot be edited. To change the attribute, you must delete the line and add the new attribute. You can delete a condition line by clicking the **Delete** (![]({% link images/images/btn-del-red.png %}){: .Inline}) icon at the end of the line.
+      After you set the attribute, it cannot be edited. To change the attribute, you must delete the line and add the new attribute. You can delete a condition line by clicking the **Delete** (![]({% link assets/icon-delete-red-circle.png %}){: .Inline}) icon at the end of the line.
 
    - Click **is** and choose the comparison operator that describes the condition for products to meet.
 
@@ -59,7 +58,7 @@ You can create different conditions by changing the combination of these values.
 
    - Click **...** and choose the attribute value upon which the condition is based. The options depend on the attribute's setup.
 
-      You might be prompted to select an option or enter a value for the condition. For this example, the field appears blank. To select your category(ies) for the rule, click the chooser icon (![]({% link images/images/btn-chooser.png %}){: .Inline}) to show your selection options. This rule is for Books, select the **Books** checkbox. The category number populates. Click the green checkmark icon (![]({% link images/images/btn-checkmark-green.png %}){: .Inline}) to accept your category selection(s).
+      You might be prompted to select an option or enter a value for the condition. For this example, the field appears blank. To select your category(ies) for the rule, click the chooser icon (![]({% link assets/icon-list-chooser.png %}){: .Inline}) to show your selection options. This rule is for Books, select the **Books** checkbox. The category number populates. Click the green checkmark icon (![]({% link assets/icon-checkmark-green-circle.png %}){: .Inline}) to accept your category selection(s).
 
       ![]({% link sales-channels/asc/assets/ob-price-rule-condition-3.png %}){: .zoom}
       _Condition Line 2, Part 3_
@@ -73,4 +72,4 @@ You can create different conditions by changing the combination of these values.
 
 1. To add another condition line to the statement, return to Step 1 and repeat the process until all desired conditions are complete.
 
-    You can delete a line of the condition statement at any time by clicking the **Delete** (![]({% link images/images/btn-del-red.png %})) icon at the end of the line.
+    You can delete a line of the condition statement at any time by clicking the **Delete** (![]({% link assets/icon-delete-red-circle.png %})) icon at the end of the line.

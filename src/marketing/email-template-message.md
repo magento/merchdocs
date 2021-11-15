@@ -10,7 +10,7 @@ The process of customizing the body of each message is the same as for customizi
 
 1. Click <span class="btn">Add New Template</span>.
 
-   ![Email templates - load default template]({% link images/images/email-templates-message-load-default.png %}){: .zoom}
+   ![Email templates - load default template]({% link marketing/assets/email-templates-message-load-default.png %}){: .zoom}
    _Template Information_
 
 1. Do the following:
@@ -29,7 +29,7 @@ The process of customizing the body of each message is the same as for customizi
 
 1. Take note of the **Currently Used For** path to the template. You will later follow this path to update the configuration.
 
-    ![Email templates - template information]({% link images/images/email-template-message-information.png %}){: .zoom}
+    ![Email templates - template information]({% link marketing/assets/email-template-message-information.png %}){: .zoom}
     _Message Template Information_
 
 1. In the **Template Content** box, modify the HTML as needed.
@@ -54,7 +54,7 @@ The process of customizing the body of each message is the same as for customizi
 
 1. To make CSS declarations, enter the styles in **Template Styles**.
 
-   ![Email templates - add custom styles]({% link images/images/email-template-add-custom-styles-min.png %}){: .zoom}
+   ![Email templates - add custom styles]({% link marketing/assets/email-template-add-custom-styles-min.png %}){: .zoom}
    _Add Custom Styles_
 
    {:.bs-callout-info}
@@ -70,14 +70,14 @@ The Currently Used For breadcrumb trail at the top of the Template Information s
 
 1. In the **Currently Used For** breadcrumb trail, click the link to open the template configuration page.
 
-    ![]({% link images/images/email-template-new-currently-used-for.png %}){: .zoom}
+    ![]({% link marketing/assets/email-template-new-currently-used-for.png %}){: .zoom}
     _Current email template_
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the section, and find the field for the email template that you customized.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the section, and find the field for the email template that you customized.
 
 1. Clear the **Use system value** checkbox and click the name of your custom template.
 
-   ![Customers configuration - default welcome email template]({% link images/images/email-template-message-configuration-default-template.png %}){: .zoom}
+   ![Customers configuration - default welcome email template]({% link marketing/assets/email-template-message-configuration-default-template.png %}){: .zoom}
    _Welcome Email Configuration_
 
 1. When complete, click <span class="btn">Save Config</span>.
@@ -94,7 +94,7 @@ The Currently Used For breadcrumb trail at the top of the Template Information s
 
    Your custom template is now available in the list of Email templates.
 
-   ![]({% link images/images/email-templates-grid-new-account-template.png %}){: .zoom}
+   ![]({% link marketing/assets/email-templates-grid-new-account-template.png %}){: .zoom}
 
 ## Field Descriptions
 

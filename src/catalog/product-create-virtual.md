@@ -2,21 +2,21 @@
 title: Virtual Product
 ---
 
-Virtual products, or digital goods, represent non-tangible items such as memberships, services, warranties, or subscriptions and digital downloads of books, music, videos, or other products. Virtual products can be sold individually or included as part of the [Grouped Product]({% link catalog/product-create-grouped.md %}) or [Bundle Product]({% link catalog/product-create-bundle.md %}) product types.
+Virtual products, or digital goods, represent non-tangible items such as memberships, services, warranties, or subscriptions and digital downloads of books, music, videos, or other products. Virtual products can be sold individually or included as part of the [Grouped Product]({% link catalog/product-create-grouped.md %}), [Configurable Product]({% link catalog/product-create-configurable.md %}) or [Bundle Product]({% link catalog/product-create-bundle.md %}) product types.
 
 Aside from the absence of the Weight field, the process of creating a virtual product and a simple product is the same. The following instructions demonstrate the process of creating a virtual product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}), as needed.
 
 {:.bs-callout-info}
 PayPal has deprecated support for the sale of digital goods through PayPal Express Checkout and recommends that you use either [PayPal Payments Standard]({% link payment/paypal-payments-standard.md %}) or any other PayPal payment gateway to process any order that includes virtual products.
 
-![]({% link images/images/product-virtual-membership.png %}){: .zoom}
+![]({% link catalog/assets/product-virtual-membership.png %}){: .zoom}
 _Virtual Product_
 
 ## Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose **Virtual Product**.
+1. On the _Add Product_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu at the upper-right corner, choose **Virtual Product**.
 
     ![]({% link catalog/assets/product-add-virtual.png %}){: .zoom}
     _Add Virtual Product_
@@ -103,6 +103,10 @@ Complete the information in the following sections as needed:
 - [Products in Websites]({% link catalog/settings-basic-websites.md %})
 - [Design]({% link catalog/settings-advanced-design.md %})
 - [Gift Options]({% link catalog/product-gift-options.md %})
+- [Downloadable Information ]({% link catalog/product-downloadable-information.md %})
+
+    {:.bs-callout-info}
+    The _Is this downloadable product_ option is disabled by default. Enabling this feature for a virtual product makes the product **Downloadable**.
 
 ## Step 6: Publish the product
 
@@ -114,7 +118,7 @@ Complete the information in the following sections as needed:
 
       - At the upper-right corner, click <span class="btn">Save</span>.
 
-      - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+      - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link assets/icon-menu-down-arrow-black.png %}) ) menu.
 
       The store opens in a new browser tab.
 
@@ -123,7 +127,7 @@ Complete the information in the following sections as needed:
 
    - **Method 2:** Save and Close
 
-      On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
+      On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Save & Close**.
 
       ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
       _Save & Close_

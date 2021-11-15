@@ -6,7 +6,7 @@ The _Shipments_ grid lists the shipment record of all invoices that have been pr
 
 Adobe Commerce and Magento Open Source support partial and complete order shipment, with additional options available from [Inventory Management]({% link catalog/inventory.md %}) and third-party extensions.
 
-![]({% link images/images/sales-shipments.png %}){: .zoom}
+![]({% link sales/assets/shipments.png %}){: .zoom}
 _Shipments grid_
 
 ## Column descriptions

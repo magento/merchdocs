@@ -4,8 +4,8 @@ title: Name and Address Options
 
 The _Name and Address Options_ determine which fields are included in the name and address forms when customers create an [account]({% link customers/account-create.md %}) with your store.
 
-![]({% link images/images-ee/storefront-customer-account-address-book.png %}){: .zoom}
-_[Customer Account sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ee-only}
+![]({% link customers/assets/storefront-customer-account-address-book.png %}){: .zoom}
+_[Customer Account sign up form]({% link configuration/customers/customer-configuration.md %})_
 
 The steps for configuring the name and address options are different for Adobe Commerce and Magento Open Source.
 
@@ -17,7 +17,7 @@ The steps for configuring the name and address options are different for Adobe C
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Name and Address Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Name and Address Options** section.
 
    Notice that the scope of the name and address options applies at the `website` level.
 
@@ -29,7 +29,7 @@ The steps for configuring the name and address options are different for Adobe C
    The Name and Address Options section doesn't appear when the scope is set to `Default Store View`.
 
    ![]({% link images/images-ee/config-customer-configuration-scope.png %}){: .zoom}
-   _[Configuration Scope]({% link configuration/scope.md %})_{:.ee-only}
+   _[Configuration Scope]({% link configuration/scope.md %})_
 
 ### Step 2: Configure the name and address options
 
@@ -38,7 +38,7 @@ The steps for configuring the name and address options are different for Adobe C
    If you are not using the `Default config` scope setting, you must clear the `Use Default` checkbox for each field before changing the value.
 
    ![]({% link images/images-ee/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
-   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %}#commerce-options)_{:.ee-only}
+   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %}#commerce-options)_
 
 1. For **Prefix Dropdown Options**, enter each prefix that you want to appear in the list, separated by a semicolon.
 
@@ -62,7 +62,7 @@ The steps for configuring the name and address options are different for Adobe C
 
 ## Configure name and address options for Magento Open Source
 
-![]({% link images/images/storefront-customer-account-signup.png %}){: .zoom}
+![]({% link customers/assets/storefront-customer-account-signup.png %}){: .zoom}
 _[Customer Account sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
 ### Step 1: Set the scope of the configuration
@@ -71,7 +71,7 @@ _[Customer Account sign up form]({% link configuration/customers/customer-config
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Name and Address Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Name and Address Options** section.
 
    Notice that the scope of the name and address options applies at the `website` level.
 
@@ -101,7 +101,7 @@ _[Customer Account sign up form]({% link configuration/customers/customer-config
 
 1. To include a prefix (such as Mr. or Mrs.) as part of the name, set **Show Prefix** to `Yes`.
 
-   ![]({% link images/images/storefront-customer-account-prefix.png %}){: .zoom}
+   ![]({% link customers/assets/storefront-customer-account-prefix.png %}){: .zoom}
    _[Prefix in customer sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
    For **Prefix Dropdown Options**, enter each prefix that you want to appear in the list, separated by a semicolon.
@@ -129,7 +129,7 @@ _[Customer Account sign up form]({% link configuration/customers/customer-config
 
    Customers can use the Calendar icon after the field to choose the birth date from a pop-up calendar.
 
-   ![]({% link images/images/storefront-customer-account-date-of-birth.png %}){: .zoom}
+   ![]({% link customers/assets/storefront-customer-account-date-of-birth.png %}){: .zoom}
    _[Date of Birth in customer sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
 1. To allow customers to enter their tax or [VAT]({% link tax/vat.md %}) number, set **Show Tax/VAT Number** to one of the following:
@@ -142,7 +142,7 @@ _[Customer Account sign up form]({% link configuration/customers/customer-config
    - Optional
    - Required
 
-   ![]({% link images/images/storefront-customer-account-gender.png %}){: .zoom}
+   ![]({% link customers/assets/storefront-customer-account-gender.png %}){: .zoom}
    _[Gender Options in customer sign up form]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
 1. To include the following fields in customer forms, set the value of each to `Optional` or `Required`, as needed.

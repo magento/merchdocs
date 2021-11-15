@@ -53,13 +53,13 @@ Create the following tax rules:
 
    - In the upper-left corner, set **Default Config** to the French store.
 
-   - On the General page, expand ![]({% link images/images/btn-expand.png %}) the **Countries Options** section, and set the default country to “France.”
+   - On the General page, expand ![]({% link assets/icon-display-expand.png %}) the **Countries Options** section, and set the default country to “France.”
 
    - Complete the locale options as needed.
 
 1. In the upper-left corner, choose the German **Store View**.
 
-1. On the _General_ page, expand ![]({% link images/images/btn-expand.png %}) **Countries Options**, and set the default country to “Germany.”
+1. On the _General_ page, expand ![]({% link assets/icon-display-expand.png %}) **Countries Options**, and set the default country to “Germany.”
 
 1. Complete the locale options as needed.
 
@@ -112,7 +112,7 @@ Complete the following General tax settings:
 
         This setting ensures that tax is calculated correctly when product prices include tax.
 
-        ![]({% link images/images/config-sales-tax-default-tax-destination-calculation-french.png %}){: .zoom}
+        ![]({% link tax/assets/destination-calc-french.png %}){: .zoom}
         _Default Tax Destination Calculation_
 
 1. When complete, click <span class="btn">Save Config</span>.

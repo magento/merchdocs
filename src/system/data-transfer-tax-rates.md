@@ -29,7 +29,7 @@ If you are interested in automating your sales and use tax compliance and report
     - Range To
     - A column for each store view
 
-    ![Exported data - tax rates]({% link images/images/data-exported-tax-rates.png %}){: .zoom}
+    ![Exported data - tax rates]({% link system/assets/data-exported-tax-rates.png %}){: .zoom}
     _Exported Tax Rate Data_
 
 1. Open the new tax rate data in a second instance of the spreadsheet, so you can see them side by side.
@@ -81,7 +81,7 @@ You have two spreadsheets open, side by side. One contains the Commerce export f
 
 1. Use the [page controls]({% link catalog/navigation-pagination.md %}) to view the new tax rates.
 
-    ![Data import tax rates]({% link images/images/data-imported-tax-zones-rates.png %}){: .zoom}
+    ![Data import tax rates]({% link system/assets/data-imported-tax-zones-rates.png %}){: .zoom}
     _Imported Tax Rates_
 
 1. Run some test transactions in your store with customers from different ZIP codes to make sure that the new tax rates work correctly.

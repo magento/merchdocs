@@ -39,7 +39,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Title|Store View|The name that is used for this  shipping method during checkout.|
 |Method Name|Store View|A name that describes the method of calculation that is used to produce a shipping estimate. The method name appears next to the calculated estimated rate in the shopping cart. The default value is `Free`.|
 |Minimum Order Amount|Website|The minimum purchase that is required to apply Free Shipping to an order.|
-|Include Tax to Amount|Determines if tax is included in the Minimum Order Amount calculation. Options: <br/>**Yes** – Tax is included when calculating the Minimum Order amount (Subtotal + Tax - Discount).<br/>**No** – Tax is not included tax when calculating the Minimum Order amount (Subtotal - Discount).|
+|Include Tax to Amount|Website|Determines if tax is included in the Minimum Order Amount calculation. Options: <br/>**Yes** – Tax is included when calculating the Minimum Order amount (Subtotal + Tax - Discount).<br/>**No** – Tax is not included tax when calculating the Minimum Order amount (Subtotal - Discount).|
 |Displayed Error Message|Store View|A message that appears if a customer chooses Free Shipping, but for some reason the method is not available.|
 |Ship to Applicable Countries|Website|Identifies the countries where you offer Free Shipping. Options: <br/>**All Allowed Countries** - Customers from any country specified in the store configuration can use Free Shipping. <br/>**Specific Countries** - Customers from only specific countries can use Free Shipping.|
 |Ship to Specific Countries|Website|Identifies each country where customers can use Free Shipping.|
@@ -91,7 +91,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |--- |--- |--- |
 |Enabled for Checkout|Website|Determines if UPS is available to customers as a shipping method during checkout. Options: Yes / No.|
 |Enabled for RMA|Website|Determines if UPS is available to customers as a shipping method for an RMA. Options: Yes / No.|
-|UPS Type|Store View|Specifies the  method used to connect to the UPS shipping system. Options: <br/>**United Parcel Service XML** - (Default) Your store sends an XML file with data to UPS as a request. <br/>**United Parcel Service** - Your store sends key-value pairs to UPS as a request. <br/><br/>**_Note:_** The standard United Parcel Service type is scheduled for deprecation in Magento. For new configurations, you should use the United Parcel Service XML type.|
+|UPS Type|Store View|Specifies the  method used to connect to the UPS shipping system. Options: <br/>**United Parcel Service XML** - (Default) Your store sends an XML file with data to UPS as a request. <br/>**United Parcel Service** - Your store sends key-value pairs to UPS as a request. <br/><br/>**_Note:_** The standard United Parcel Service type is scheduled for deprecation in Commerce. For new configurations, you should use the United Parcel Service XML type.|
 |_UPS Account Settings_|||
 |Live Account|Store View|Specifies that the United Parcel Service account is live. Options: Yes / No|
 |Gateway URL|Website|The URL that connects to the UPS system to retrieve dynamic shipping rates. UPS is discontinuing support of HTTP. Default value: `https://www.ups.com/using/services/rave/qcostcgi.cgi`|
@@ -104,7 +104,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Origin of the Shipment|Website|(UPS XML  Only) The country or region where the product shipment originates.|
 |Password|Store View|Your UPS shipper account password.|
 
-![]({% link images/images/config-sales-shipping-methods-ups-packaging-settings.png %}){: .zoom}
+![]({% link configuration/assets/ups-packaging-settings.png %}){: .zoom}
 [_UPS Package Information_]({% link shipping/ups.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -124,7 +124,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Handling Applied|Website|Specifies whether handling fee is applied to each order or to each package within an order.|
 |Handling Fee|Website|Sets the handling that is included with the shipping rate price. Handling fee can be set as a fixed amount or a percentage. <br/><br/>**_Note:_** If typing a percentage amount, use the decimal format 0.25 for 25%.|
 
-![]({% link images/images/config-sales-shipping-methods-ups-allowed-methods.png %}){: .zoom}
+![]({% link configuration/assets/ups-allowed-methods.png %}){: .zoom}
 [_UPS Allowed Methods_]({% link shipping/ups.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -136,7 +136,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Free Shipping Amount Threshold|Website|Sets the minimum total amount that an order must reach to qualify for free shipping.|
 |Displayed Error Message|Store View|The error message that is displayed when this shipping method is unavailable for any reason.|
 
-![]({% link images/images/config-sales-shipping-methods-ups-ship-to.png %}){: .zoom}
+![]({% link configuration/assets/ups-ship-to.png %}){: .zoom}
 [_UPS Applicable Countries and Other Settings_]({% link shipping/ups.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

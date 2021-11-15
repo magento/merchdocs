@@ -37,7 +37,7 @@ Iterative splitting provides the best distribution of products among price range
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Layered Navigation_ section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Layered Navigation_ section.
 
    By default, **Display Product Count** is set to `Yes`. If necessary, deselect the **Use system value** checkbox to change this setting.
 
@@ -65,7 +65,7 @@ If necessary, first deselect the **Use system value** checkbox to change these s
 
    The range cannot be further split beyond this limit. The default value is `9`.
 
-    ![]({% link images/images/config-catalog-catalog-layered-navigation-automatic-equalize-product-counts.png %}){: .zoom}
+    ![]({% link catalog/assets/equalize-product-counts.png %}){: .zoom}
     [_Automatic (equalize product counts)_]({% link configuration/catalog/catalog.md %})
 
 ### Method 3: Manual

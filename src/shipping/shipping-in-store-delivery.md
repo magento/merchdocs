@@ -4,7 +4,7 @@ title: In-store Delivery
 
 With the in-store delivery method, the customer can select a source to be used as a pickup location during the checkout.
 
-![]({% link images/images/luma-in-store-example.png %}){: .zoom}
+![]({% link shipping/assets/luma-in-store-example.png %}){: .zoom}
 [_In-store Delivery Method at Checkout_]({% link sales/checkout-process.md %})
 
 <div class="bs-callout-warning" markdown="1">
@@ -23,9 +23,9 @@ First, check that In-store Delivery is enabled.
 
 1. In the left panel, expand **Sales** and choose **Delivery Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **In-Store Delivery** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **In-Store Delivery** section.
 
-   ![]({% link images/images/config-sales-shipping-methods-in-store.png %}){: .zoom}
+   ![]({% link shipping/assets/in-store-shipping.png %}){: .zoom}
    _[In-store Delivery]({% link configuration/sales/delivery-methods.md %})_
 
 1. Set **Enabled** to `Yes`.

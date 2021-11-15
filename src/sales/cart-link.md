@@ -4,7 +4,7 @@ title: My Cart Link
 
 The cart link in the upper-right corner of the header gives a quick summary of the contents of the cart. The link can be configured to display the number of different products (or SKUs) in the cart, or the total quantity of all items. If the [mini cart]({% link sales/mini-cart.md %}) is enabled, you can click the link to display more detail.
 
-![The store page displays a linked cart icon at the upper right corner of the page]({% link images/images/storefront-my-cart-link.png %}){: .zoom}
+![The store page displays a linked cart icon at the upper right corner of the page]({% link sales/assets/storefront-my-cart-link.png %}){: .zoom}
 _Example storefront - cart link at the top of the page_
 
 ## Configure the cart link
@@ -13,7 +13,7 @@ _Example storefront - cart link at the top of the page_
 
 1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **My Cart Link** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **My Cart Link** section.
 
 1. Set **Display Cart Summary** to one of the following settings:
 

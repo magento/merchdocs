@@ -23,12 +23,12 @@ When converting currency to points, the amount of points cannot be divided. Any 
 
 1. In the upper-right corner, click <span class="btn">Add New Rate</span>.
 
-    ![Reward exchange rates]({% link images/images-ee/reward-exchange-rates.png %}){: .zoom}
+    ![Reward exchange rates]({% link marketing/assets/reward-exchange-rates.png %}){: .zoom}
     _Reward Exchange Rates_
 
 1. In the **Reward Exchange Rate Information** section, do the following:
 
-    ![Reward exchange rates - information]({% link images/images-ee/reward-exchange-rate-new.png %}){: .zoom}
+    ![Reward exchange rates - information]({% link marketing/assets/reward-exchange-rate-new.png %}){: .zoom}
     _Reward Exchange Rate Information_
 
    - Set **Website** to the sites where the reward exchange rate applies.
@@ -50,6 +50,16 @@ When converting currency to points, the amount of points cannot be divided. Any 
     When converting points to currency, the amount of points cannot be divided. For example, if 10 points converts to $2.00, points must be redeemed in groups of ten. Therefore, 25 points would redeem for $4.00, with 5 points remaining in the customer’s balance.
 
 1. When complete, click <span class="btn">Save</span>.
+
+## Delete Reward Exchange Rate
+
+1. On the _Admin_ sidebar, go to **Stores** > _Other Settings_ > **Reward Exchange Rates**.
+
+1. Find the reward exchange rate to be deleted and open it in edit mode.
+
+1. In the menu bar, click **Delete**.
+
+1. To confirm the action, click <span class="btn">OK</span>.
 
 ## Field Descriptions
 

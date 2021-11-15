@@ -10,12 +10,12 @@ The CSV file has separate columns for `downloadable_links` and `downloadable_sam
 
 - **Downloadable link images**—In the following example, downloadable link images (`red.jpg` and `black.jpg`) are located in the `<Magento-root-folder>/pub/media/import/test` folder. If remote storage is enabled, these images are located in the `<remote-storage-root-folder>/media/import/test` folder.
 
-  ![Example data - downloadable product with downloadable links]({% link images/images/data-import-downloadable-links.png %}){: .zoom}
+  ![Example data - downloadable product with downloadable links]({% link system/assets/data-import-downloadable-links.png %}){: .zoom}
    _Downloadable Links_
 
 - **Downloadable sample images**—In the following example, the downloadable sample image (`white.jpg`) is located in the `<Magento-root-folder>/pub/media/import/test` folder. If remote storage is enabled, this image is located in the `<remote-storage-root-folder>/media/import/test` folder.
 
-  ![Example data - downloadable product with downloadable samples]({% link images/images/data-import-downloadable-samples.png %}){: .zoom}
+  ![Example data - downloadable product with downloadable samples]({% link system/assets/data-import-downloadable-samples.png %}){: .zoom}
    _Downloadable Samples_
 
 For more information about enabling and managing the Remote storage module, see [Configure remote storage][1] in the _Configuration guide_.

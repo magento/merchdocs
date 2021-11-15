@@ -4,7 +4,7 @@ title: Product Workspace
 
 The product workspace is basically the same for all product types, although the selection of fields changes depending on the attribute set that is used. The product attributes are at the top of the form, followed by expandable sections of product information. When a new product is saved for the first time, the Store View chooser appears at the upper-left of the form.
 
-![]({% link images/images-ee/product-workspace-ee.png %}){: .zoom}
+![]({% link catalog/assets/product-workspace-ee.png %}){: .zoom}
 _Product Workspace_
 
 ## Enable Product setting
@@ -13,8 +13,8 @@ The online status of the product is indicated by the switch at the top of the fo
 
 | Control | Description |
 |----------
-| ![]({% link images/images/btn-switch-yes.png %}) | Indicates that the product is currently online. |
-| ![]({% link images/images/btn-switch-no.png %}) | Indicates that the product is currently offline. |
+| ![]({% link assets/toggle-yes.png %}) | Indicates that the product is currently online. |
+| ![]({% link assets/toggle-no.png %}) | Indicates that the product is currently offline. |
 
 ## Attribute set
 
@@ -25,13 +25,13 @@ _Attribute Set_
 
 ## Expand/collapse
 
-To expand or collapse a section, click either the expand ![]({% link images/images/btn-expand.png %}) or collapse ![]({% link images/images/btn-collapse.png %}) icon.
+To expand or collapse a section, click either the expand ![]({% link assets/icon-display-expand.png %}) or collapse ![]({% link assets/icon-display-collapse.png %}) icon.
 
 ## Save menu
 
 The _Save_ menu includes several options that let you save and continue, save and create a new product, save and duplicate the product, or save and close.
 
-![]({% link images/images/product-save-menu.png %}){: .zoom}
+![]({% link catalog/assets/product-save-menu.png %}){: .zoom}
 _Save Menu_
 
 |Command|Description|

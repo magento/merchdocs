@@ -8,7 +8,7 @@ The term _content marketing_ refers to the art of promoting your products or ser
 
 Your content should reflect the branding of your store, and be delivered with your distinctive visual presentation and voice to convey your message. Use pictures to tell a story. Educate, inspire, and entertain. Keep in mind that with quality content, sometimes less is more.
 
-![The Content menu displayed in the Commerce Admin]({% link images/images-ee/admin-menu-content-ee.png %}){: .zoom}
+![The Content menu displayed in the Commerce Admin]({% link cms/assets/admin-menu-content-ee.png %}){: .zoom}
 _Content menu_
 
 {:.bs-callout-info}

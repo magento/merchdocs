@@ -4,7 +4,7 @@ title: CMS Page Rewrites
 
 Before you begin, make sure that you understand exactly what the redirect is to accomplish. Think in terms of _target_ / _source_ or _redirect to_ / _redirect from_. Although people might still navigate to the former page from search engines or outdated links, the redirect causes your store to switch to the new target.
 
-![URL rewrites - CMS page]({% link images/images/url-rewrite-cms-page.png %}){: .zoom}
+![URL rewrites - CMS page]({% link marketing/assets/url-rewrite-cms-page.png %}){: .zoom}
 _Add URL Rewrite_
 
 ## Step 1. Plan the Rewrite
@@ -36,7 +36,7 @@ If you are not sure, open each page in your store, and copy the path from the ad
 
 1. Find your new target page in the grid, and open in edit mode.
 
-    ![Add URL rewrite - for CMS page]({% link images/images/url-rewrite-cms-page-add.png %}){: .zoom}
+    ![Add URL rewrite - for CMS page]({% link marketing/assets/url-rewrite-cms-page-add.png %}){: .zoom}
     _Custom URL Rewrite_
 
 1. Under URL Rewrite Information, do the following:
@@ -55,7 +55,7 @@ If you are not sure, open each page in your store, and copy the path from the ad
 
    - For your reference, enter a brief description of the rewrite.
 
-    ![URL rewrite information]({% link images/images/url-rewrite-cms-page-information.png %}){: .zoom}
+    ![URL rewrite information]({% link marketing/assets/url-rewrite-cms-page-information.png %}){: .zoom}
     _Custom URL Rewrite_
 
 1. Before saving the redirect, review the following:

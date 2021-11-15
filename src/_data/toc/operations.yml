@@ -195,7 +195,6 @@ pages:
     children:
     - label: Integration with ERP Systems
       url: "/system/erp-systems.html"
-      edition: b2b-only
     - label: Commerce Services
       url: "/system/saas.html"
   - label: Permissions

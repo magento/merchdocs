@@ -17,7 +17,7 @@ The following example shows how to create a customer segment that targets female
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Customer Segments** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Customer Segments** section.
 
 1. Verify that **Enable Customer Segment Functionality** is set to `Yes`.
 
@@ -47,7 +47,7 @@ The following example shows how to create a customer segment that targets female
    {:.bs-callout-info}
    If you are creating a segment based on customer attributes stored in a customer account, it is a best practice to apply the segment to registered customers only.
 
-   ![Segment - general properties]({% link images/images-ee/customer-segment-saved.png %}){: .zoom}
+   ![Segment - general properties]({% link marketing/assets/customer-segment-saved.png %}){: .zoom}
    _Segment properties_
 
 1. Click <span class="btn">Save and Continue Edit</span>.
@@ -70,39 +70,39 @@ The following example shows how to create a customer segment that targets female
 
    The default condition begins, “If ALL of these conditions are TRUE:”.
 
-   ![Customer segment conditions]({% link images/images-ee/customer-segment-conditions.png %}){: .zoom}
+   ![Customer segment conditions]({% link marketing/assets/customer-segment-conditions.png %}){: .zoom}
    _Conditions_
 
 1. Create a condition to target female customers:
 
-   - Click the Add (![Plus sign]({% link images/images/btn-add-grn.png %})) icon to display the list of conditions and select `Gender`.
+   - Click the Add (![Plus sign]({% link assets/icon-add-green-circle.png %})) icon to display the list of conditions and select `Gender`.
 
    - Leave the default **is** condition control option.
 
    - Click **...** and select `female`.
 
-   ![Customer segment condition]({% link images/images-ee/customer-segment-condition-line1.png %}){: .zoom}
+   ![Customer segment condition]({% link marketing/assets/customer-segment-condition-line1.png %}){: .zoom}
    _Condition line 1_
 
 1. Create another condition that targets residents of Los Angeles:
 
-   - On the next line, click the Add (![Plus sign]({% link images/images/btn-add-grn.png %})) icon and select `Customer Address`.
+   - On the next line, click the Add (![Plus sign]({% link assets/icon-add-green-circle.png %})) icon and select `Customer Address`.
 
       This creates a parent condition where you can define one or more address fields to match.
 
-   - Click the Add (![Plus sign]({% link images/images/btn-add-grn.png %})) icon to display the list of address fields and select `City`.
+   - Click the Add (![Plus sign]({% link assets/icon-add-green-circle.png %})) icon to display the list of address fields and select `City`.
 
    - Click **is** to display the condition control options and select `contains`.
 
    - Click **...** and enter `Los Angeles`.
 
-   - On the next line, click the Add (![Plus sign]({% link images/images/btn-add-grn.png %})) icon and select `State/Province`.
+   - On the next line, click the Add (![Plus sign]({% link assets/icon-add-green-circle.png %})) icon and select `State/Province`.
 
    - Leave the default **is** condition control option.
 
    - Click **...** and select `United States > California`.
 
-   ![Conditions for females in Los Angeles, California]({% link images/images-ee/customer-segment-conditions-la-ladies.png %}){: .zoom}
+   ![Conditions for females in Los Angeles, California]({% link marketing/assets/customer-segment-conditions-la-ladies.png %}){: .zoom}
    _Condition for females in Los Angeles_
 
 1. Click <span class="btn">Save and Continue Edit</span>.
@@ -111,7 +111,7 @@ The following example shows how to create a customer segment that targets female
 
 1. In the left pane, click **Matched Customers** to display all customers who match the condition.
 
-   ![Matched customers]({% link images/images-ee/customer-segment-matched-customers.png %}){: .zoom}
+   ![Matched customers]({% link marketing/assets/customer-segment-matched-customers.png %}){: .zoom}
    _Matched Customers_
 
 1. If the list of customers meets your goal, click <span class="btn">Save</span> to complete the customer segment.
@@ -127,6 +127,18 @@ The customer segment can now be used for targeting promotions, content, and mail
 1. In the menu bar click **Delete** button.
 
 1. To confirm the action, click <span class="btn">OK</span>.
+
+## Button bar
+
+{: .buttons-table }
+|Button|Description|
+|--- |--- |
+|<span class="btn">Back</span>|Returns to the Customer Segments page without saving changes.|
+|<span class="btn">Delete</span>|Deletes the current customer segment. Customers or completed orders associated with the customer in the segment are not removed.|
+|<span class="btn">Reset</span>|Resets any unsaved changes in the customer segment form to their previous values.|
+|<span class="btn">Refresh Segment Data</span>|Refreshes the segment data to the most recently saved values. Relevant if any segment data is unavailable or out of date.|
+|<span class="btn">Save and Continue Edit</span>|Saves changes and keeps the customer segment open.|
+|<span class="btn">Save </span>|Saves changes and closes the customer segment.|
 
 |Column|Description|
 |--- |--- |

@@ -12,14 +12,14 @@ Customer have easy access to their accounts from every page in your store. Depen
 
 When customers forget their passwords, a reset link is sent to the email address that is associated with the account. The number of times a customer can try to enter a password, the number of minutes between attempts, the number of total attempts before the account is locked, and the length of the lockout is set in the [Password Options]({% link customers/password-options.md %}) configuration.
 
-![]({% link images/images/storefront-sign-in-create-account.png %}){: .zoom}
+![]({% link customers/assets/storefront-sign-in-create-account.png %}){: .zoom}
 _Sign In_
 
 ## Sign in to your customer account
 
 1. In the header of the store, click **Sign in**.
 
-   ![]({% link images/images/customer-login.png %}){: .zoom}
+   ![]({% link customers/assets/login.png %}){: .zoom}
    _Customer Login_
 
 1. Enter your **Email** address and **Password**.
@@ -36,7 +36,7 @@ You can configure the store to redirect customers to their account dashboard aft
 
 1. In the left panel, expand **Customers** and choose **Customer Configuration**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Login Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Login Options** section.
 
 1. Set **Redirect Customer to Account Dashboard after Logging in** to one of the following:
 
@@ -51,12 +51,12 @@ You can configure the store to redirect customers to their account dashboard aft
 
 1. Click <span class="btn">Login with Amazon</span>.
 
-   ![]({% link images/images/customer-login-amazon-pay.png %}){: .zoom}
+   ![]({% link customers/assets/amazon-pay.png %}){: .zoom}
    _Login with Amazon_
 
 1. When prompted to sign in, enter the **email address** and **password** for your Amazon buyer account.
 
-   ![]({% link images/images/customer-login-amazon-pay-popup1.png %}){: .zoom}
+   ![]({% link customers/assets/amazon-popup1.png %}){: .zoom}
    _Enter Your Amazon Credentials_
 
 1. To grant Amazon permission to share the following information from your account with the store when processing your purchases, click <span class="btn">Okay</span>.
@@ -65,7 +65,7 @@ You can configure the store to redirect customers to their account dashboard aft
    - Your Email Address
    - Shipping Addresses
 
-   ![]({% link images/images/customer-login-amazon-pay-popup2.png %}){: .zoom}
+   ![]({% link customers/assets/amazon-popup2.png %}){: .zoom}
    _Grant Permission to Share Data_
 
 {:.b2b-only}

@@ -9,5 +9,5 @@ If you accept payment in multiple currencies, make sure to monitor the currency 
 
 Currency symbols appear in product prices and sales documents such as orders and invoices. You can customize the currency symbols as needed, and also set the display of the price separately for each store or view.
 
-![Example storefront - Currency chooser]({% link images/images/storefront-currency-chooser.png %}){: .zoom}
+![Example storefront - Currency chooser]({% link stores/assets/storefront-currency-chooser.png %}){: .zoom}
 _Currency Chooser_

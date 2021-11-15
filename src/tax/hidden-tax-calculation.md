@@ -10,7 +10,7 @@ _Hidden Tax_ is the amount of VAT that a discount amount has. It will be non-zer
 - The VAT rate is not zero
 - There is a discount present
 
-Thus, when there is a discount that has tax embedded in it, Magento computes a _hidden tax_ that is added back in order to compute the discounted price.
+Thus, when there is a discount that has tax embedded in it, Commerce computes a _hidden tax_ that is added back in order to compute the discounted price.
 
 ```mathematica
 discountedItemPrice = fullPriceWithOutTax - discountAmountOnFullPriceWithoutTax + vatAmountOnDiscountedPrice + hiddenTax
@@ -33,7 +33,7 @@ discountedItemPrice = fullPriceWithOutTax - discountAmountOnFullPriceWithoutTax 
 
 ### Valid Actual Result in Cart
 
-![Image]({% link images/images/hidden-tax.png %}){: .zoom}
+![Image]({% link tax/assets/hidden-tax.png %}){: .zoom}
 _Hidden Tax Tax Calculation in Cart_
 
 ### Valid Calculations
@@ -65,6 +65,6 @@ _Hidden Tax Tax Calculation in Cart_
 
    _Full price of item including taxes **less** the discount amount: $100 - $8.33 = $91.67_
 
-1. **How Magento calculates the discounted price** (see earlier for formula):
+1. **How Commerce calculates the discounted price** (see earlier for formula):
 
    _$83.33 - $8.33 + 15.28 + 1.39 = **$91.67***_

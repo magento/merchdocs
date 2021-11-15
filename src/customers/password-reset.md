@@ -13,7 +13,7 @@ Customers usually reset their passwords from the storefront by clicking the “F
 
 1. When prompted, enter the **Email Address** that is associated with your account and click <span class="btn">Reset My Password</span>.
 
-   ![]({% link images/images/customer-account-sign-in-forgot-password.png %}){: .zoom}
+   ![]({% link customers/assets/forgot-password.png %}){: .zoom}
    _Forgot Your Password_
 
    If the email address you entered matches the one that is associated with the account, you will receive a Password Reset Confirmation email with a link to reset your password.
@@ -21,11 +21,12 @@ Customers usually reset their passwords from the storefront by clicking the “F
 1. When the email arrives, click the _reset password_ link and enter your **New Password** when prompted.
 
 1. Enter it again to confirm and click <span class="btn">Reset Password</span>.
-
-   {:.bs-callout-info}
    Your new password must be six or more characters in length without spaces.
 
    When you receive confirmation that the password is updated, you can use the new password to sign in to your account.
+
+   {:.bs-callout-info}
+   By default, the _reset password_ link is valid for 24 hours.
 
 ## Reset a password from the Admin
 

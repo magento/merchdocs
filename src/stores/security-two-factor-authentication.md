@@ -9,7 +9,7 @@ This implementation of two-factor authentication (2FA) applies to the _Admin_ on
 
 Two-factor authentication is widely used, and it is common to generate access codes for different websites on the same app. For example, you might use Google Authenticator to generate codes for the _Admin_ of your store, your _magento.com_ account, Google account, and so on.
 
-![Security configuration - 2FA]({% link images/images/google-authenticator-iphone.png %}){: .zoom}
+![Security configuration - 2FA]({% link stores/assets/google-authenticator-iphone.png %}){: .zoom}
 _2FA Codes on Phone_
 
 Adobe Commerce supports 2FA methods from multiple providers. Some require the installation of an app that generates a one-time password (OTP) that users enter at sign-in to verify their identity. Universal 2nd Factor (U2F) devices resemble a key fob and generate a unique key to verify identity. Other devices verify identity when they are inserted into a USB port. As the store administrator, you can require one or more of the available 2FA methods to verify user identity. Your 2FA configuration applies to all websites and stores that are associated with the Adobe Commerce installation.
@@ -28,7 +28,7 @@ The first time a user signs in to the _Admin_, they must set up each [2FA]({% li
 
 1. Complete the settings for each required 2FA method.
 
-   ![Security configuration - 2FA]({% link images/images/config-2fa-general.png %}){: .zoom}
+   ![Security configuration - 2FA]({% link stores/assets/config-2fa-general.png %}){: .zoom}
    _Providers to use_
 
 1. When complete, click <span class="btn">Save Config</span>.

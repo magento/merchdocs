@@ -8,7 +8,7 @@ Existing campaign objects can be edited from the [staging dashboard]({% link cms
 {:.bs-callout-info}
 If a campaign that includes a price rule is initially created without an end date, the campaign cannot be edited later to include an end date. In such a case, it is necessary to create a duplicate campaign and enter the end date that is needed.
 
-![]({% link images/images-ee/content-staging-dashboard-view-edit.png %}){: .zoom}
+![]({% link cms/assets/content-staging-dashboard-view-edit.png %}){: .zoom}
 _Campaign detail_
 
 The campaign in this example includes two categories and three individual products.
@@ -24,9 +24,9 @@ Follow the steps below to edit any of the objects in this campaign.
 
 1. Update any of the settings in the _General_ section as needed.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) any section that contains an item to be edited.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) any section that contains an item to be edited.
 
-   ![]({% link images/images-ee/content-staging-campaign-edit-products.png %}){: .zoom}
+   ![]({% link cms/assets/content-staging-campaign-edit-products.png %}){: .zoom}
    _Updating the assigned products for a campaign item_
 
 1. Click <span class="btn">Save</span>.

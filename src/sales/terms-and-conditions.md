@@ -6,7 +6,7 @@ redirect_from:
 
 When manual _Terms and Conditions_ is enabled, customers are required to agree to the terms and conditions of the sale before the purchase is finalized. The Terms and Conditions of the sale typically includes disclosure information that might be required by law for B2C or B2B sites, and outlines the rights of the buyer and seller. The Terms and Conditions message appears after the payment information, just before the _Place Order_ button.
 
-![]({% link images/images/storefront-checkout-step2-terms-conditions.png %}){: .zoom}
+![]({% link sales/assets/storefront-checkout-step2-terms-conditions.png %}){: .zoom}
 _Terms and Conditions at checkout_
 
 ## Step 1: Enable terms and conditions for checkout
@@ -15,9 +15,9 @@ _Terms and Conditions at checkout_
 
 1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Checkout Options** section.
 
-   ![]({% link images/images/config-sales-checkout-options-terms-conditions-yes.png %}){: .zoom}
+   ![]({% link sales/assets/checkout-terms-options.png %}){: .zoom}
    [_Checkout Options_]({% link configuration/sales/checkout.md %})
 
 1. Verify that **Enable Onepage Checkout** is set to `Yes`.
@@ -35,7 +35,7 @@ _Terms and Conditions at checkout_
 
 1. In the upper-right corner, click **Add New Condition**.
 
-   ![]({% link images/images/terms-conditions-new.png %}){: .zoom}
+   ![]({% link sales/assets/terms-conditions-new.png %}){: .zoom}
    _New Condition_
 
 1. Enter the **Condition Name** for internal reference.

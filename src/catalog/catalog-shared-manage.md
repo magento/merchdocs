@@ -5,7 +5,7 @@ title: Managing a Shared Catalog
 
 The Shared Catalogs page provides access to the tools you need to manage your shared catalogs. The page is similar to the standard [Admin workspace]({% link stores/admin-workspace.md %}), with filters and action controls. The grid lists all shared catalogs, including the default public shared catalog, and any custom catalogs that you have set up.
 
-![]({% link images/images-b2b/catalogs-shared-grid-action-column-controls.png %}){: .zoom}
+![]({% link catalog/assets/shared-catalog-grid-action-column-controls.png %}){: .zoom}
 *Shared Catalog Actions*
 
 The [Actions controls]({% link stores/admin-actions-control.md %}) in the upper-left corner can be used with the mass actions control to delete selected shared catalogs that are no longer needed. In the grid, the Actions column contains the full selection of tools to manage your shared catalogs.

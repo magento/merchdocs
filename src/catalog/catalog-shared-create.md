@@ -16,7 +16,7 @@ The following aspects of a shared catalog must be set up before it can be used:
 - Custom Prices
 - Company Assignment(s)
 
-    ![]({% link images/images-b2b/catalogs-shared-grid.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalogs-grid.png %}){: .zoom}
     _Shared Catalogs_
 
 ## Step 1: Create the shared catalog
@@ -37,14 +37,14 @@ The following aspects of a shared catalog must be set up before it can be used:
 
       The following example shows a new custom catalog for a specific wholesale customer.
 
-      ![]({% link images/images-b2b/catalog-shared-new.png %}){: .zoom}
+      ![]({% link catalog/assets/shared-catalog-new.png %}){: .zoom}
       *New Shared Catalog*
 
 1. When complete, click <span class="btn">Save</span>.
 
     The new catalog appears in the Shared Catalogs grid.
 
-    ![]({% link images/images-b2b/catalog-shared-grid-new.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-grid-new.png %}){: .zoom}
     _New Shared Custom Catalog_
 
 ### Method 2: Duplicate an existing shared catalog
@@ -64,17 +64,14 @@ If a public shared catalog is duplicated, the type of the duplicate catalog chan
    - **Customer Tax Class**
    - **Description**
 
-    ![]({% link images/images-b2b/catalog-shared-duplicate.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-duplicate.png %}){: .zoom}
     _Duplicate Shared Catalog_
 
 1. When complete, click <span class="btn">Save</span>.
 
-    ![]({% link images/images-b2b/catalog-shared-duplicate.png %}){: .zoom}
-    _Duplicate Shared Catalog_
-
     The duplicate appears in the Shared Catalogs grid, with a unique ID.
 
-    ![]({% link images/images-b2b/catalog-shared-grid-duplicate.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-grid-duplicate.png %}){: .zoom}
     _New Shared Catalog_
 
 ## Step 2: Complete the setup

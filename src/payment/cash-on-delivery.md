@@ -15,7 +15,7 @@ _Cash On Delivery Payment_
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. Under _Other Payment Methods_, expand ![]({% link images/images/btn-expand.png %}) the **Cash On Delivery Payment** section.
+1. Under _Other Payment Methods_, expand ![]({% link assets/icon-display-expand.png %}) the **Cash On Delivery Payment** section.
 
    ![Cash on Delivery Payment]({% link images/images/config-sales-payment-methods-cash-on-delivery-payment.png %}){: .zoom}
    [_Cash On Delivery configuration_]({% link configuration/sales/payment-methods.md %}#cash-on-delivery-payment)

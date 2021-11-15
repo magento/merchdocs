@@ -15,7 +15,7 @@ _Pages Grid_
 
 1. Click <span class="btn">Add New Page</span>.
 
-   ![]({% link images/images-ee/pages-new-page.png %}){: .zoom}
+   ![]({% link cms/assets/pages-new-page.png %}){: .zoom}
    _New Page_
 
 1. If you do not want to publish the page immediately, set **Enable Page** to `No`.
@@ -30,10 +30,10 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 ### Use the Page Builder content tools
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Content**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Content**.
 
    ![]({% link images/images-ee/page-content.png %}){: .zoom}
-   _Content with Page Builder_{:.ee-only}
+   _Content with Page Builder_
 
 1. In the **Content Heading** box, enter the heading that you want to appear at the top of the page.
 
@@ -45,7 +45,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 ### Use the editor toolbar
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Content**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Content**.
 
    ![]({% link images/images/page-content.png %}){: .zoom}
    _Content_
@@ -58,9 +58,9 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 ## Step 3: Complete the SEO information
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Search Engine Optimization**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Search Engine Optimization**.
 
-   ![]({% link images/images/page-search-engine-optimization.png %}){: .zoom}
+   ![]({% link cms/assets/page-search-engine-optimization.png %}){: .zoom}
    _Search Engine Optimization_
 
 1. Either accept the default or enter another **URL Key** that consists of all lowercase characters, with hyphens instead of spaces.
@@ -83,9 +83,9 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 ## Step 4: Specify the scope of the page
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Page in Websites**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Page in Websites**.
 
-   ![]({% link images/images/page-in-websites.png %}){: .zoom}
+   ![]({% link cms/assets/page-in-websites.png %}){: .zoom}
    _Pages in Websites_
 
 1. In the **Store View** list, select each view where the page is to be available.
@@ -95,7 +95,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 {:.ee-only}
 ## Step 5: Identify the parent page (if applicable)
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Hierarchy**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Hierarchy**.
 
    ![]({% link images/images-ee/page-hierarchy.png %}){: .zoom}
    _Hierarchy_
@@ -104,9 +104,9 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 ## Step 6: Enter design changes (optional)
 
-1. To change the layout of the page, expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Design**.
+1. To change the layout of the page, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Design**.
 
-   ![]({% link images/images/page-design.png %}){: .zoom}
+   ![]({% link cms/assets/page-design.png %}){: .zoom}
    _Design_
 
 1. To change the column layout of the page, set **Layout** to one of the following:
@@ -116,9 +116,9 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
    - `2 columns with left bar`
    - `2 columns with right bar`
    - `3 columns`
-   - {: .ee-only}`Page -- Full Width` (Requires [Page Builder]({% link cms/page-builder.md %}))
-   - {: .ee-only}`Category -- Full Width` (Requires Page Builder)
-   - {: .ee-only}`Product -- Full Width` (Requires Page Builder)
+   - `Page -- Full Width` (Requires [Page Builder]({% link cms/page-builder.md %}))
+   - `Category -- Full Width` (Requires Page Builder)
+   - `Product -- Full Width` (Requires Page Builder)
 
 1. To apply a **Custom Layout Update**, choose the name of the file from the list.
 
@@ -129,12 +129,12 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
    - `Magento Black`
    - `Magento Luma`
 
-1. {:.ce-only}To schedule a design change, expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Custom Design Update** and do the following:
+1. {:.ce-only}To schedule a design change, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Custom Design Update** and do the following:
 
-   ![]({% link images/images/page-custom-design-update.png %}){: .zoom}
+   ![]({% link cms/assets/page-custom-design-update.png %}){: .zoom}
    _Custom Design Update_
 
-   - Use the calendar (![]({% link images/images/btn-calendar.png %})) to choose the **From** and **To** dates for the change to take effect.
+   - Use the calendar (![]({% link assets/icon-calendar.png %})) to choose the **From** and **To** dates for the change to take effect.
 
    - To apply a different theme to the page, select the name of the **New Theme**.
 
@@ -156,7 +156,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 1. Click the **Save** arrow and choose **Save & Close**.
 
-   ![]({% link images/images/cms-pages-save-and-close.png %}){: .zoom}
+   ![]({% link cms/assets/cms-pages-save-and-close.png %}){: .zoom}
    _Save & Close_
 
 ### Save menu

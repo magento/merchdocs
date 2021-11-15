@@ -9,7 +9,7 @@ The _Content_ section is used to enter and edit the main product description tha
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
    ![]({% link images/images-ee/catalog-product-content.png %}){: .zoom}
    _Product content_
@@ -37,9 +37,9 @@ Enter only plain ASCII characters into the text box. If pasting text from a word
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
-   ![]({% link images/images/product-simple-content.png %}){: .zoom}
+   ![]({% link catalog/assets/product-simple-content.png %}){: .zoom}
    _Product content_
 
 1. Enter a **Short Description** of the product and format as needed.

@@ -13,7 +13,7 @@ When automatic redirects are enabled and you save a category, all product and ca
 
 1. In left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Search Engine Optimization** section.
 
 1. Set **Create Permanent Redirect for URLs if URL Key Changed** to `Yes`.
 
@@ -28,7 +28,7 @@ When automatic redirects are enabled and you save a category, all product and ca
 
 1. Find the product in the list and click to open the record.
 
-1. Expand ![Expansion selector ]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section and for the **URL Key** field, do the following:
+1. Expand ![Expansion selector ]({% link assets/icon-display-expand.png %}) the **Search Engine Optimization** section and for the **URL Key** field, do the following:
 
     - Make sure that the **Create Permanent Redirect for old URL** checkbox is selected. If not, follow the instructions to [enable automatic redirects]({% link marketing/url-rewrite-configuration.md %}).
 
@@ -49,7 +49,7 @@ When automatic redirects are enabled and you save a category, all product and ca
 
 1. Find the category in the tree and click to open the record.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Search Engine Optimization** section.
 
 1. For **URL Key**, do the following:
 
@@ -72,16 +72,16 @@ Turning off automatic generation of category/products URL rewrites results in pe
 
 1. In left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Search Engine Optimization** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Search Engine Optimization** section.
 
 1. For the  **Generate "category/product" URL Rewrites** field, clear the **Use system value** checkbox and set the value to `No`.
 
-    ![Catalog configuration - no automatic URL rewrites]({% link images/images/config-catalog-catalog-seo-rewrite-no.png %}){: .zoom}
+    ![Catalog configuration - no automatic URL rewrites]({% link marketing/assets/seo-rewrite-no.png %}){: .zoom}
     _Generate "category/product" URL Rewrites - No_
 
 1. In the confirmation dialog, click <span class="btn">OK</span> to confirm the change and the removal of existing URL rewrites.
 
-    ![Turn off category/product URL rewrites - confirm]({% link images/images/config-catalog-catalog-seo-rewrite-off.png %}){:width="350px"}<br/>
+    ![Turn off category/product URL rewrites - confirm]({% link marketing/assets/seo-rewrite-off.png %}){:width="350px"}<br/>
     _Turn off "category/product" URL rewrites_
 
 1. When complete, click <span class="btn">Save Config</span>.

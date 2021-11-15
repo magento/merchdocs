@@ -11,7 +11,7 @@ The following requirements must be met for a complex product (such as bundle, gr
 - For [configurable]({% link catalog/product-create-configurable.md %}) and [grouped]({% link catalog/product-create-grouped.md %}) products, only the enabled associated products are visible.
 - For a [bundle]({% link catalog/product-create-bundle.md %}) product, all options must be included in the shared catalog.
 
-    ![]({% link images/images-b2b/catalog-shared-choose-products-step1.png %}){: .zoom}
+    ![]({% link catalog/assets/shared-catalog-select-products-step-1.png %}){: .zoom}
     _Select Products for Catalog_
 
 ## Method 1: Add a single product
@@ -20,7 +20,7 @@ The following requirements must be met for a complex product (such as bundle, gr
 
 1. For the product in the [grid]({% link stores/admin-grid-controls.md %}) that you want to add, go to the _Action_ column and click **Edit**.
 
-1. Scroll down, expand ![]({% link images/images/btn-expand.png %}) the _Product in Shared Catalogs_ section, and do the following:
+1. Scroll down, expand ![]({% link assets/icon-display-expand.png %}) the _Product in Shared Catalogs_ section, and do the following:
 
    - Select the checkbox of each shared catalog where the product should appear. To choose all catalogs, click **Select all**.
 

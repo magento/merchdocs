@@ -1,7 +1,8 @@
 ---
-title: Learning and Preparation
+title: Amazon Sales Channel - Learning and Preparation
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/learning-preparation.html
 ---
-
 
 The _Learning and Preparation_ view shows the list of pre-setup tasks that are recommended prior to integrating your Amazon stores. It also provides links to learning materials, such as:
 

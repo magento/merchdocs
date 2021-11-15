@@ -6,16 +6,16 @@ redirect_from:
 
 Your Vertex Cloud dashboard initially appears in [Test Mode][1]. When you are ready to Go Live with Vertex Cloud, you can change the status of your account with the click of a button.
 
-To enter the information that is needed to calculate tax and file returns, you must complete the configuration for each company that is associated with your account. After you finish the basic Vertex Cloud configuration, there are a few additional settings that must be completed from the Admin of your Magento installation.
+To enter the information that is needed to calculate tax and file returns, you must complete the configuration for each company that is associated with your account. After you finish the basic Vertex Cloud configuration, there are a few additional settings that must be completed from the Admin.
 
 {:.bs-callout-info}
-Some Vertex field names differ from those used by Magento. See [Vertex Field Mapping]({% link tax/vertex-field-mapping.md %}) for the differences between the two.
+Some Vertex field names differ from those used by Commerce. See [Vertex Field Mapping]({% link tax/vertex-field-mapping.md %}) for the differences between the two.
 
 1. Log in to your **Vertex Cloud** account.
 
 1. In the sidebar, choose **Configure**.
 
-   ![]({% link images/images/tax-vertex-configure-add-company-information.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-configure-add-company-information.png %}){: .zoom}
    _Configure Vertex_
 
 1. Continue with the following sections.
@@ -26,9 +26,9 @@ Some Vertex field names differ from those used by Magento. See [Vertex Field Map
 
    - Choose the **Country** where the business is located.
 
-   - Enter a **Company Code** that will be used to establish the connect between Vertex and your Magento installation.
+   - Enter a **Company Code** that will be used to establish the connect between Vertex and your Commerce instance.
 
-      Take note of this Company Code, because you will need it later for the Magento configuration.
+      Take note of this Company Code, because you will need it later for the Commerce configuration.
 
    - Verify the **Company Name/Filing Entity** that was initially entered during the Vertex registration. If necessary, update the value.
 
@@ -52,7 +52,7 @@ Some Vertex field names differ from those used by Magento. See [Vertex Field Map
       - State
       - Zip/Postal Code
 
-1. You can skip the _Discount Codes_ section, because they are not used by Magento.
+1. You can skip the _Discount Codes_ section, because they are not used by Commerce.
 
 1. When complete, click **Add Company**.
 
@@ -66,7 +66,7 @@ Some Vertex field names differ from those used by Magento. See [Vertex Field Map
     If you later want to edit the company information, click the **Edit Company (Filing Entity) Information**
     link in the lower-left corner of the summary.
 
-    ![]({% link images/images/tax-vertex-cloud-configure-company-filing-entity.png %}){: .zoom}
+    ![]({% link tax/assets/tax-vertex-cloud-configure-company-filing-entity.png %}){: .zoom}
     _Filing Entity Information_
 
 ## Configure the jurisdictions
@@ -79,7 +79,7 @@ This enables each jurisdiction where your company calculates and reports sales a
    - Canada
    - International
 
-   ![]({% link images/images/tax-vertex-cloud-configure-registration-country.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-cloud-configure-registration-country.png %}){: .zoom}
    _Registration_
 
 1. Scroll down the list and enable each state or province where you have sales tax requirements and complete the following for each applicable state or province.
@@ -95,7 +95,7 @@ The configuration settings for each company are organized into three columns on 
 
 1. Click the **Registration(s)** link to display the returns for the state.
 
-    ![]({% link images/images/tax-vertex-cloud-configure-registration-country-states.png %}){: .zoom}
+    ![]({% link tax/assets/tax-vertex-cloud-configure-registration-country-states.png %}){: .zoom}
     _States_
 
 1. Under _Common Forms_, complete at least one of the forms listed.
@@ -104,7 +104,7 @@ The configuration settings for each company are organized into three columns on 
 
    - Click the name of the form.
 
-        ![]({% link images/images/tax-vertex-configure-jurisdictions-texas-registrations-returns.png %}){: .zoom}
+        ![]({% link tax/assets/tax-vertex-configure-jurisdictions-texas-registrations-returns.png %}){: .zoom}
         _Texas Returns_
 
    - If applicable, select the checkbox of each schedule that is needed in addition to the required form. Then, complete the **Registration Details**.
@@ -118,7 +118,7 @@ The configuration settings for each company are organized into three columns on 
 
 1. When complete, click **Save** and then **Return to Company Overview**.
 
-   ![]({% link images/images/tax-vertex-configure-jurisdictions-texas-registrations-return-01-114.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-configure-jurisdictions-texas-registrations-return-01-114.png %}){: .zoom}
    _Registration Details_
 
 ### Locations
@@ -132,7 +132,7 @@ _Enabled State_
 
 1. Click **Add a New Location**.
 
-   ![]({% link images/images/tax-vertex-cloud-configure-registration-country-states-locations.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-cloud-configure-registration-country-states-locations.png %}){: .zoom}
    _Locations_
 
 1. Under _Location Information_, do the following:
@@ -141,7 +141,7 @@ _Enabled State_
 
       The Location Code is an identifier that is used in batch uploads of adjustment files. If you do not have a preassigned Location Code, you can create one. The Location Code cannot be changed after the company configuration is saved.
 
-      Take note of the Location Code that you enter, because you need it later for the Magento configuration.
+      Take note of the Location Code that you enter, because you need it later for the Commerce configuration.
 
    - Enter the **Location Name**.
 
@@ -159,14 +159,14 @@ _Enabled State_
 
 1. When complete, click **Add Location**.
 
-   ![]({% link images/images/tax-vertex-configure-jurisdictions-texas-add-location-form.png %}){: .zoom}
+   ![]({% link tax/assets/tax-vertex-configure-jurisdictions-texas-add-location-form.png %}){: .zoom}
    _Location Form_
 
 ### Advanced Settings
 
 Use the Advanced Settings column to turn individual jurisdictions on or off for cities, countries, and districts. By default, all jurisdictions are selected.
 
-![]({% link images/images/tax-vertex-configure-jurisdictions-texas-advanced-settings.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-configure-jurisdictions-texas-advanced-settings.png %}){: .zoom}
 _Advanced Settings_
 
 1. Do the following for the applicable **Cities**, **Counties**, and **Districts/Other** options:
@@ -188,17 +188,17 @@ _Advanced Settings_
 
 When the configuration is complete, click **Ready to Save**.
 
-![]({% link images/images/tax-vertex-configure-jurisdictions-red.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-configure-jurisdictions-red.png %}){: .zoom}
 _Ready to Save_
 
 The configuration settings for each company are organized into three columns on the Configure Overview page. The Registrations column is highlighted in red until the forms for all registered locations are complete.
 
-![]({% link images/images/tax-vertex-cloud-configure-overview-registrations-red.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-cloud-configure-overview-registrations-red.png %}){: .zoom}
    _Registrations Column_
 
-The basic Vertex configuration is now complete. At this point, you can either skip ahead to the Magento configuration, or continue the Vertex configuration:
+The basic Vertex configuration is now complete. At this point, you can either skip ahead to the Commerce configuration, or continue the Vertex configuration:
 
-- Complete the [Magento Configuration]({% link tax/vertex-configure-magento.md %})
+- Complete the [Commerce Configuration]({% link tax/vertex-configure-magento.md %})
 
 - Continue with the following sections of the Vertex configuration:
 

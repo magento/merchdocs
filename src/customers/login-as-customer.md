@@ -14,7 +14,7 @@ When it is enabled for an _Admin_ user, the Login as Customer button will appear
 * [Shipment View page]({% link sales/shipments-create.md %})
 * [Credit Memo View page]({% link sales/credit-memo-create.md %})
 
-![]({% link images/images/customers-login-as-customer-use.png %}){: .zoom}
+![]({% link customers/assets/login-as-customer.png %}){: .zoom}
 _Login As Customer_
 
 ## Enable Login as Customer
@@ -57,7 +57,7 @@ Enabling Login as Customer requires that you enable the feature in your commerce
    * **Allow Login as Customer** - This allows the Admin user to use the _Login as Customer_ feature.
    * **View Login as Customer Log** - Allows the Admin user to see the _Login as Customer_ Log.
 
-   ![]({% link images/images-ee/customers-login-as-customer-role-resources.png %}){: .zoom}
+   ![]({% link customers/assets/customers-login-as-customer-role-resources.png %}){: .zoom}
    [_Role Resources - Login as Customer_]({% link system/permissions-role-resources.md %})
 
 1. Click <span class="btn">Save Role</span>.
@@ -81,7 +81,7 @@ Adobe Commerce provides a logging for the _Login as Customer_ actions. It lists 
 
 You can filter the report setting **Action Group** to `Login As Customer` at the top of the page and clicking <span class="btn">Search</span>.
 
-![]({% link images/images-ee/customers-login-as-customer-log-filter.png %}){: .zoom}
+![]({% link customers/assets/customers-login-as-customer-log-filter.png %}){: .zoom}
 _Filter the Actions Report_
 
 ## Customer account permission for remote shopping assistance
@@ -94,7 +94,7 @@ To allow the ability for the merchant to log in as the customer from the Admin, 
 
 1. Click the <span class="btn">Save</span> button.
 
-![]({% link images/images/permission.png %}){: .zoom}
+![]({% link customers/assets/permission.png %}){: .zoom}
 _Account Information Page_
 
 Without this permission, an Admin user cannot login as this customer to provide assistance.

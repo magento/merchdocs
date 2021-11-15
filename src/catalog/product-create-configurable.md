@@ -8,7 +8,7 @@ A configurable product looks like a single product with drop-down lists of optio
 
 The following instructions demonstrate the process of creating a configurable product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}) as needed.
 
-![]({% link images/images/product-configurable.png %}){: .zoom}
+![]({% link catalog/assets/product-configurable.png %}){: .zoom}
 _Configurable product_
 
 ## Part 1: Creating a configurable product
@@ -31,7 +31,7 @@ The properties of each attribute that is used for a configurable product variati
 
 1. On the _Admin_ sidebar, go to  **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose **Configurable Product**.
+1. On the _Add Product_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu at the upper-right corner, choose **Configurable Product**.
 
     ![]({% link catalog/assets/product-add-configurable.png %}){: .zoom}
     _Add configurable product_
@@ -86,6 +86,9 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. Enter the product **Weight**.
 
+{:.bs-callout-info}
+A configurable product must always have a weight. If you select **This item has no weight** from the drop-down list, it is automatically changed to **This item has weight** after saving the product.
+
 1. Accept the default **Visibility** setting of `Catalog, Search`.
 
 1. To feature the product in the list of[ new products]({% link cms/widget-new-products-list.md %}), select the **Set Product as New** checkbox.
@@ -108,7 +111,7 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. Choose the **Country of Manufacture**.
 
-    ![]({% link images/images/product-details-configurable.png %}){: .zoom}
+    ![]({% link catalog/assets/product-details-configurable.png %}){: .zoom}
     _Product Details_
 
     There might be additional attributes that are used to describe the product. The selection varies by attribute set, and you can complete them later.
@@ -123,7 +126,7 @@ The following example shows how to add configurations for three colors and three
 
 The progress bar at the top of the page shows where you are in the process and guides you through each step.
 
-![]({% link images/images/product-configurable-progress-bar-step1.png %}){: .zoom}
+![]({% link catalog/assets/product-configurable-progress-bar-step1.png %}){: .zoom}
 _Progress bar_
 
 ### Step 1: Choose the attributes
@@ -139,7 +142,7 @@ _Progress bar_
 
 1. The list includes all attributes from the attribute set that can be used in a configurable product.
 
-    ![]({% link images/images/product-create-configurable-step1.png %}){: .zoom}
+    ![]({% link catalog/assets/product-create-configurable-step1.png %}){: .zoom}
     _Select Attributes_
 
 1. If you need to add a new attribute, click <span class="btn">Create New Attribute</span> and do the following:
@@ -156,9 +159,9 @@ _Progress bar_
 
 1. For each attribute, select the checkbox of the values that apply to the product.
 
-    ![]({% link images/images/product-create-configurable-step2.png %}){: .zoom}
+    ![]({% link catalog/assets/product-create-configurable-step2.png %}){: .zoom}
 
-1. To rearrange the attributes, grab the **Change Order** ( ![]({% link images/images/btn-sort-order-inline.png %}) ) icon and move the section to a new position.
+1. To rearrange the attributes, grab the **Change Order** ( ![]({% link assets/icon-sort-order.png %}) ) icon and move the section to a new position.
 
    The order determines the position of the drop-down lists on the product page.
 
@@ -178,7 +181,7 @@ Use one of the following methods to configure the **images**:
 
    1. Browse to each image that you want to include in the product gallery, or drag them to the box.
 
-   ![]({% link images/images/product-configurations-images-apply-single-set.png %}){: .zoom}
+   ![]({% link catalog/assets/product-configurations-images-apply-single-set.png %}){: .zoom}
    _Use same images for all SKUs_
 
 - **Method 2:** Apply unique images for each SKU
@@ -191,9 +194,9 @@ Use one of the following methods to configure the **images**:
 
    1. For each attribute value, either browse to the images that you want to use for that configuration or drag them to the box.
 
-      If you drag the an image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the **trashcan** (![]({% link images/images/btn-trashcan2.png %}){: .Inline}) icon.
+      If you drag the an image to a value box, it also appears in the sections for the other values. If you want to delete an image, click the **trashcan** (![]({% link assets/icon-delete-trashcan-solid.png %})) icon.
 
-      ![]({% link images/images/product-configurable-create-configurations-add-images-unique.png %}){: .zoom}
+      ![]({% link catalog/assets/product-configurable-create-configurations-add-images-unique.png %}){: .zoom}
       _Unique images per SKU_
 
 Use one of the following methods to configure the **prices**:
@@ -204,7 +207,7 @@ Use one of the following methods to configure the **prices**:
 
 1. Enter the **Price**.
 
-   ![]({% link images/images/product-configurable-create-configurations-price-all-skus.png %}){: .zoom}
+   ![]({% link catalog/assets/product-configurable-create-configurations-price-all-skus.png %}){: .zoom}
    _Same price per SKU_
 
 - **Method 2:** Apply a different price for each SKU
@@ -217,18 +220,18 @@ Use one of the following methods to configure the **prices**:
 
    In this example, the XL size costs more.
 
-   ![]({% link images/images/product-configurable-create-configurations-price-unique.png %}){: .zoom}
+   ![]({% link catalog/assets/product-configurable-create-configurations-price-unique.png %}){: .zoom}
    _Unique price per SKU_
 
 Use one of the following methods to configure the **quantity**:
 
-- **_Method 1:** Apply the same quantity to all SKUs
+- **Method 1:** Apply the same quantity to all SKUs
 
 1. If the quantity is the same for all SKUs, select **Apply single quantity to each SKU**.
 
 1. Enter the **Quantity**.
 
-   ![]({% link images/images/product-configurations-quantity-same-all-skus.png %}){: .zoom}
+   ![]({% link catalog/assets/product-configurations-quantity-same-all-skus.png %}){: .zoom}
     _Same Quantity for All SKUs_
 
 1. If needed, apply the Same Quantity to All SKUs (Inventory Management).
@@ -243,7 +246,7 @@ Use one of the following methods to configure the **quantity**:
 
    - Enter an on-hand inventory amount per source.
 
-   ![]({% link images/images/inventory/inventory-configure-product-quantity.png %}){: .zoom}
+   ![]({% link catalog/assets/inventory-configure-product-quantity.png %}){: .zoom}
    _Same Quantity for All SKUs_
 
 - **Method 2:** Apply Different Quantity by Attribute
@@ -252,7 +255,7 @@ Use one of the following methods to configure the **quantity**:
 
 1. Enter the **Quantity** for each.
 
-   ![]({% link images/images/product-configurations-quantity-different.png %}){: .zoom}
+   ![]({% link catalog/assets/product-configurations-quantity-different.png %}){: .zoom}
    _Different quantities per attribute_
 
 When configuration for images, price, and quantity are complete, click <span class="btn">Next</span> in the upper-right corner.
@@ -275,7 +278,7 @@ _Current Configurations_
 
 ### Step 5: Add a product image
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the _Images and Videos_ section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the _Images and Videos_ section.
 
 1. Click the **Camera** tile and browse to the main image that you want to use for the configurable product.
 
@@ -307,7 +310,7 @@ Scroll down and complete the information in the following sections as needed:
 
       - In the upper-right corner, click <span class="btn">Save</span>.
 
-      - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link images/images/btn-dropdown-blk.png %}) ) menu.
+      - To view the product in your store, choose **Customer View** on the _Admin_ ( ![]({% link assets/icon-menu-down-arrow-black.png %}) ) menu.
 
       The store opens in a new browser tab.
 
@@ -316,7 +319,7 @@ Scroll down and complete the information in the following sections as needed:
 
    - **Method 2:** Save and close
 
-      On the _Save_ (![]({% link images/images/btn-dropdown.png %})) menu, choose **Save & Close**.
+      On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"}) menu, choose **Save & Close**.
 
       ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
       _Save & Close_
@@ -329,18 +332,20 @@ If you have a different image for each variation you can set the configuration t
 
 1. In the left panel, expand **Sales** and choose **Checkout** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Shopping Cart_ section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Shopping Cart_ section.
 
 1. Set **Configurable Product Image** to `Product Thumbnail Itself`.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-    ![]({% link images/images/config-sales-checkout-shopping-cart-configurable-product.png %}){: .zoom}
+    ![]({% link catalog/assets/configurable-product.png %}){: .zoom}
     _Shopping cart - configurable product image_
 
 ## Things to remember
 
 - A configurable product allows the shopper to choose options from drop-down, multiple select, visual swatch and text swatch input types. Each option is a separate, simple product.
+
+- Configurable child products can be simple or virtual products **without custom options**. To make custom child products virtual, you must select _Тhis item has no weight_ in the _Weight_ setting for each of them.
 
 - The attributes that are used for product variations must have a global scope and the customer must be required to choose a value. The product variation attributes must be included in the attribute set that is used as a template for the configurable product.
 

@@ -18,7 +18,7 @@ The first step of the checkout process is for the customer to complete the shipp
 
 The progress bar at the top of the page follows each step of the checkout process, and the Order Summary shows the information entered so far.
 
-![The shipping page during the checkout process]({% link images/images/storefront-checkout-step1-shipping.png %}){: .zoom}
+![The shipping page during the checkout process]({% link sales/assets/storefront-checkout-step1-shipping.png %}){: .zoom}
 _Checkout step 1: shipping_
 
 ### Ship to a different address
@@ -35,7 +35,7 @@ _Checkout step 1: shipping_
 
    By default, the customer’s first and last name initially appear in the form.
 
-   ![The Shipping Address form includes name and address information]({% link images/images/storefront-checkout-step1-shipping-add-new-address.png %}){: .zoom}
+   ![The Shipping Address form includes name and address information]({% link sales/assets/storefront-checkout-step1-shipping-add-new-address.png %}){: .zoom}
    _Shipping Address form_
 
 1. To save the new address in the address book, select the checkbox at the bottom of the form.
@@ -44,14 +44,14 @@ _Checkout step 1: shipping_
 
    The new address is now selected as the shipping address.
 
-   ![The saved address is automatically selected in the Shipping page]({% link images/images/storefront-checkout-step1-shipping-new-address-selected.png %}){: .zoom}
+   ![The saved address is automatically selected in the Shipping page]({% link sales/assets/storefront-checkout-step1-shipping-new-address-selected.png %}){: .zoom}
    _New shipping address selected_
 
 ### Choose the shipping method
 
 1. In the list of [shipping]({% link shipping/delivery.md %}) methods, choose the option that you want to use.
 
-   ![The Shipping page displays shipping method options]({% link images/images/storefront-checkout-step1-shipping-methods.png %}){: .zoom}
+   ![The Shipping page displays shipping method options]({% link sales/assets/storefront-checkout-step1-shipping-methods.png %}){: .zoom}
    _[Shipping methods]({% link configuration/sales/delivery-methods.md %})_
 
 1. Click <span class="btn">Next</span> to continue.
@@ -60,7 +60,10 @@ _Checkout step 1: shipping_
 
 During the second step of the checkout process, the customer chooses the [payment method]({% link payment/payments.md %}), and applies any coupons with promotional codes to the purchase. All information can be reviewed, and edited if needed. If enabled, the customer must to agree to the terms and conditions of the sale before placing the order.
 
-![]({% link images/images/storefront-checkout-step2-payment-review.png %}){: .zoom}
+{:.bs-callout-info}
+Although Commerce allows configuring multiple coupon codes, a customer may apply only one coupon code to the cart. (See the [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}) for more information.)
+
+![]({% link sales/assets/storefront-checkout-step2-payment-review.png %}){: .zoom}
 _Review and payment page during checkout_
 
 {:.b2b-only}
@@ -90,7 +93,7 @@ Admin users can change the maximum number of items displayed in the order summar
 
 1. In the left panel, expand **Sales** and choose **Checkout**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Checkout Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Checkout Options** section.
 
 1. For **Maximum Number of Items to Display in Order Summary**, enter the maximum number of items to be displayed.
 
@@ -107,5 +110,5 @@ The order confirmation appears after the order is placed. For registered custome
 
 The order confirmation page is also called the _Success_ page, and is used by analytics programs to track conversions.
 
-![The Order Confirmation page displays a success message and the order number]({% link images/images/storefront-checkout-confirmation-customer.png %}){: .zoom}
+![The Order Confirmation page displays a success message and the order number]({% link sales/assets/storefront-checkout-confirmation-customer.png %}){: .zoom}
 _Example storefront Order Confirmation page_

@@ -1,5 +1,7 @@
 ---
-title: Cancel an Unshipped Order
+title: Amazon Sales Channel - Cancel an Unshipped Order
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-orders/cancel-unshipped-order.html
 ---
 
 Amazon orders can only be canceled if they are in an `Unshipped` status. If the order is pending or partially shipped (unshipped), the order can only be canceled through your Amazon Seller Central account. If the item has been shipped, returns and exchanges must also be handled in your Amazon Seller Central Account.

@@ -22,7 +22,7 @@ When invitations are enabled, customers can send and view [invitations]({% link 
 
    If you have multiple store views, use the **Send From** option to specify the store view from which an invitation is sent.
 
-    ![Invitations Information]({% link images/images-ee/create-invitation-page.png %}){: .zoom}
+    ![Invitations Information]({% link marketing/assets/create-invitation-page.png %}){: .zoom}
     _Create Invitation_
 
 1. When complete, click **Save**.

@@ -6,7 +6,7 @@ Currency rates can be set manually, or imported into the store. To ensure that y
 
 Before importing currency rates, complete the [Currency Rate Setup]({% link stores/currency-configuration.md %}) to specify the currencies that you accept, and to establish the import connection and schedule.
 
-![Currency rates]({% link images/images/stores-currency-rate-update.png %}){: .zoom}
+![Currency rates]({% link stores/assets/stores-currency-rate-update.png %}){: .zoom}
 _Updating Currency Rates_
 
 ## Update a currency rate manually
@@ -33,7 +33,7 @@ _Updating Currency Rates_
 
 1. When prompted to update the cache, click the **Cache Management** link. Then, refresh the invalid cache.
 
-   ![System message - refresh the invalid cache]({% link images/images/stores-currency-rate-update-cache-refresh.png %}){: .zoom}
+   ![System message - refresh the invalid cache]({% link stores/assets/currency-cache-update.png %}){: .zoom}
    _Refresh Invalid Caches_
 
 ## Import currency rates on schedule

@@ -4,7 +4,7 @@ title: The New Media Gallery
 
 With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhanced_ Media Gallery to organize and manage their media files on the server. This new Media Gallery contains the same functionalities as the existing Media Storage, but includes an improved user interface and a closer integration with [Adobe Stock][adobe-stock].
 
-![Images displayed in the Media Gallery grid]({% link images/images/enhanced-media-gallery/gallery-grid.png %}){: .zoom}
+![Images displayed in the Media Gallery grid]({% link cms/assets/media-gallery-grid.png %}){: .zoom}
 _Media Gallery grid_
 
 ## Enable the new Media Gallery
@@ -13,9 +13,9 @@ _Media Gallery grid_
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) **Media Gallery**.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Media Gallery**.
 
-   ![Advanced configuration - Media Gallery]({% link images/images/enhanced-media-gallery/system-enhanced-media-gallery.png %}){: .zoom}
+   ![Advanced configuration - Media Gallery]({% link configuration/advanced/assets/system-media-gallery.png %}){: .zoom}
    _Media Gallery_
 
 1. Set **Enable Old Media Gallery** to `No`.
@@ -47,7 +47,7 @@ To access the new Media Gallery when you are adding or editing a page:
 
    If you want to edit an existing page, you can use the _Action_ column to click **Select** and choose **Edit**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Content** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section and do the following:
 
    - If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>.
 

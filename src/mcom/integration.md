@@ -5,7 +5,7 @@ title: Integration
 
 Integration enables you to add or disable the Order Management System (OMS) integration for Adobe Commerce and view details of the integration.
 
-![Integration]({% link images/images-ee/mcom-integration.png %}){: .zoom}
+![Integration]({% link mcom/assets/integration.png %}){: .zoom}
 _Integration_
 
 ## Register the integration
@@ -20,5 +20,5 @@ _Integration_
    * To enable a disabled integration, click <span class="btn">Enable</span>. A confirmation message appears to inform you the integration has been enabled.
    * To disable an enabled integration, click <span class="btn">Disable</span>. A confirmation message appears to inform you the integration has been disabled.
 
-      ![Disable or enable integration]({% link images/images-ee/mcom-integration-enable-disable.png %}){: .zoom}
+      ![Disable or enable integration]({% link mcom/assets/integration-enable-disable.png %}){: .zoom}
       _Disable or enable integration_

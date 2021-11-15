@@ -29,7 +29,7 @@ pages:
     - label: Adding a New Page
       url: "/cms/page-add.html"
       children:
-      - label: Duplicating a Page
+      - label: Duplicating and Deleting a Page
         url: "/cms/page-duplicate.html"
       - label: Switching Home Pages
         url: "/cms/page-home-new.html"
@@ -154,7 +154,7 @@ pages:
     - label: Products
       url: "/cms/page-builder-add-content-products.html"
     - label: Product Recommendations
-      url: "/marketing/page-builder-add-product-recs.html"
+      url: "/cms/page-builder-add-recommendations.html"
 - label: Media Storage
   url: "/cms/media-storage.html"
   children:

@@ -19,7 +19,7 @@ For technical information, see [Security overview][3]{:target="_blank"} in the d
 
 1. In the left panel under _Advanced_, choose **Admin**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Security** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Security** section.
 
 1. To prevent Admin users from logging in from the same account on different devices, set **Admin Account Sharing** to `No`.
 

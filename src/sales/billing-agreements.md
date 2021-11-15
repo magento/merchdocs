@@ -27,16 +27,16 @@ This tab includes the general information about the billing agreement:
 - Customer: Customer's account assigned to current billing agreement.
 - Status: Payment agreement status.
 - Created At: Creation date.
-- Updated At: Update dae.
+- Updated At: Update date.
 
-![Billing Agreement View]({% link images/images/sales-billing-agreement-view.png %}){: .zoom}
+![Billing Agreement View]({% link sales/assets/billing-agreements.png %}){: .zoom}
 _Billing agreement general information_
 
 ### Related Orders
 
 This tab displays the list of the orders placed using the current billing agreement.
 
-![Billing Agreement View]({% link images/images/sales-billing-agreement-related-orders-tab.png %}){: .zoom}
+![Billing Agreement View]({% link sales/assets/billing-agreement-related-orders.png %}){: .zoom}
 _Billing agreement related orders tab_
 
 ## Cancel a billing agreement

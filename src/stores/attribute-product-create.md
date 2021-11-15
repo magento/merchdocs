@@ -14,7 +14,7 @@ _New Attribute Properties_
 
 1. Click <span class="btn">Add New Attribute</span>.
 
-   ![Add new product attribute]({% link images/images/product-attribute-add-attribute-properties-flavor.png %}){: .zoom}
+   ![Add new product attribute]({% link stores/assets/product-attribute-add-attribute-properties-flavor.png %}){: .zoom}
    _Attribute Properties_
 
 1. Under Attribute Properties, enter a **Default Label** to identify the attribute.
@@ -26,7 +26,7 @@ _New Attribute Properties_
    |Text Field|A single line input field for text.|
    |Text Area|A multiple-line input field for entering paragraphs of text, such as a product description. You can use the WYSIWYG Editor to format the text with HTML tags, or enter the tags directly into the text.|
    |Text Editor|A fully-functioning text editor at the attribute location.|
-   |Date|Displays a date value in the [preferred format]({% link stores/attribute-date-time-options.md %}) and [time zone]({% link stores/locale-options.md %}). Date values can be selected from a list or a calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). <br/><br/>**_Note:_** Depending on your system configuration, _Admin_ users can enter dates directly into a field or select a date from the calendar or list. For information about specifying date and time values, see [Date and Time Custom Options]({% link stores/attribute-date-time-options.md %}).|
+   |Date|Displays a date value in the [preferred format]({% link stores/attribute-date-time-options.md %}) and [time zone]({% link stores/locale-options.md %}). Date values can be selected from a list or a calendar ( ![Calendar icon]({% link assets/icon-calendar.png %}) ). <br/><br/>**_Note:_** Depending on your system configuration, _Admin_ users can enter dates directly into a field or select a date from the calendar or list. For information about specifying date and time values, see [Date and Time Custom Options]({% link stores/attribute-date-time-options.md %}).|
    |Yes/No|Displays a drop-down list with pre-defined options of `Yes` and `No`.|
    |Dropdown|Displays a drop-down list of values that accepts only a single selection. The Dropdown input type is a key component of [configurable products]({% link catalog/product-create-configurable.md %}).|
    |Multiple Select|Displays a drop-down list of values that accepts multiple selections.|
@@ -35,7 +35,7 @@ _New Attribute Properties_
    |Fixed Product Tax|Lets you define [FPT rates]({% link tax/fixed-product-tax.md %}) based on the requirements of your locale.|
    |Visual Swatch|Displays a swatch that depicts the color, texture, or pattern of a configurable product. A [visual swatch]({% link catalog/swatches.md %}) can be filled with a hexadecimal color value, or display an uploaded image that represents the color, material, texture, or pattern of the option.|
    |Text Swatch|A text-based representation of a configurable product option that is frequently used for size. [Text swatches]({% link catalog/swatches.md %}) can also include hexadecimal color values.|
-   |<span class="ee-only">Page Builder</span>|A fully-functioning [Page Builder]({% link cms/page-builder.md %}) workspace at the attribute location that makes it easy to add engaging content to the product page.|
+   |Page Builder|A fully-functioning [Page Builder]({% link cms/page-builder.md %}) workspace at the attribute location that makes it easy to add engaging content to the product page.|
 
 1. If you want to require an option selection before the customer can purchase the product, set **Values Required** to `Yes`.
 
@@ -86,7 +86,7 @@ _New Attribute Properties_
 
 ## Step 3: Enter the field label
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Manage titles** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the **Manage titles** section.
 
 1. Enter a **Title** to be used as a label for the field.
 
@@ -129,6 +129,18 @@ _New Attribute Properties_
 
    ![Product attributes - storefront properties]({% link images/images/product-attribute-add-storefront-properties.png %}){: .zoom}
    _Storefront Properties_
+
+## Step 5: Assign the created attribute to the attribute set
+
+For an attribute to be visible on the product creation page, add it to a specific attribute set.
+
+1. After completing previous steps, go to **Stores** > _Attributes_ > **Attribute Set**.
+
+1. Select the attribute set you need in the list, and open it in edit mode.
+
+1. Drag the created attribute from the **Unassigned Attributes** list to the appropriate folder in the **Groups** column.
+
+1. When complete, click <span class="btn">Save</span>.
 
 ## Attributes for configurable products
 

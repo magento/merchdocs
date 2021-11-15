@@ -21,7 +21,7 @@ sections:
     url: /marketing/product-reviews.html
 
   - title: dotdigital Engagement Cloud
-    content: Use dotdigital Engagement Cloud to automate professional, personalized communications and generate reports using data from your Magento store.
+    content: Use dotdigital Engagement Cloud to automate professional, personalized communications and generate reports using data from your store.
     url: /marketing/dotdigital/engagement-cloud.html
 
   - title: Image zoom
@@ -35,7 +35,7 @@ sections:
 
 Your store includes a set of shopping tools that create opportunities for customers to interact with your store and share the experience with friends.
 
-![Example storefront - product page]({% link images/images/storefront-product-shopping-tools.png %}){: .zoom}
+![Example storefront - product page]({% link marketing/assets/storefront-product-shopping-tools.png %}){: .zoom}
 _Product Page_
 
 {% include grid.html sections=page.sections %}

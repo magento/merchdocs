@@ -7,8 +7,24 @@ redirect_from:
 
 The [Company Credit]({% link customers/account-dashboard-company-credit.md %}) section of the company profile displays a summary of the customer credit activity, with a grid of the company credit history.
 
-![]({% link images/images-b2b/company-credit-reimbursements-grid.png %}){: .zoom}
+![]({% link customers/assets/company-credit-reimbursements-grid.png %}){: .zoom}
 _Company Credit activity_
+
+## Update the credit information
+
+When the customer makes the payment for their outstanding credit to the merchant, a store administrator must then update the customer credit information in the Admin.
+
+1. On the _Admin_ sidebar, go to **Customers > Companies**.
+
+1. Find the company in the grid and open in _Edit_ mode.
+
+1. Expand the **Company Credit** section.
+
+1. For **Credit Limit**, enter the new value.
+
+1. Change the other values as needed.
+
+1. When updates are complete, click <span class="btn">Save</span>.
 
 ## Company Credit grid
 

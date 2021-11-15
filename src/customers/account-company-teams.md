@@ -18,28 +18,28 @@ _Company Structure with Teams_
 
 1. Under **Business Structure**, click **Add Team** and do the following:
 
-   ![]({% link images/images-b2b/company-structure-tree-admin.png %}){: .zoom}
+   ![]({% link customers/assets/company-structure-tree-admin.png %}){: .zoom}
    _Add Team_
 
    - Enter the **Team Title** and **Description**.
 
       The Team Title can be anything that represents the structure of the company, such as a team, office, or division within the company
 
-      ![]({% link images/images-b2b/company-structure-add-team.png %}){: .zoom}
+      ![]({% link customers/assets/company-structure-add-team.png %}){: .zoom}
       _Add Team_
 
    - When complete, click <span class="btn">Save</span>.
 
    - Repeat these steps to create as many teams as you need.
 
-      ![]({% link images/images-b2b/company-structure-teams.png %}){: .zoom}
+      ![]({% link customers/assets/company-structure-teams.png %}){: .zoom}
       _Company Structure with Teams_
 
 1. To create a hierarchy of teams, do the following:
 
    - Select the parent team, and click **Add Team**.
 
-      ![]({% link images/images-b2b/company-structure-northwest-division.png %}){: .zoom}
+      ![]({% link customers/assets/company-structure-northwest-division.png %}){: .zoom}
       _Company Structure with Divisions_
 
    - Enter the **Team Title** and **Description**.
@@ -48,7 +48,7 @@ _Company Structure with Teams_
 
 1. Repeat these steps to create as many teams, or divisions and subdivisions, as you need.
 
-   ![]({% link images/images-b2b/company-structure-divisions.png %}){: .zoom}
+   ![]({% link customers/assets/company-structure-divisions.png %}){: .zoom}
    _Company Structure with Divisions and Subdivisions_
 
 ## Move a team
@@ -76,7 +76,7 @@ As you work on the company structure, you can collapse or expand the tree:
 
 - Click **Collapse All** or **Expand All**.
 
-- Click ![]({% link images/images/btn-collapse.png %}) to collapse a team or ![]({% link images/images/btn-expand.png %}) to expand a team.
+- Click ![]({% link assets/icon-display-collapse.png %}) to collapse a team or ![]({% link assets/icon-display-expand.png %}) to expand a team.
 
 ## Company structure icons
 

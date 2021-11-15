@@ -47,7 +47,7 @@ While a staging update is active for an entity, editing the entity is editing th
 
 The Content Staging [dashboard]({% link cms/content-staging-dashboard.md %}) provides visibility into all planned site changes and updates. Any day, range of dates, or time period of a campaign can be previewed, and shared with others.
 
-![]({% link images/images-ee/content-staging-dashboard-grid.png %}){: .zoom}
+![]({% link cms/assets/content-staging-dashboard-grid.png %}){: .zoom}
 _Staging dashboard_
 
 ## Troubleshooting resources

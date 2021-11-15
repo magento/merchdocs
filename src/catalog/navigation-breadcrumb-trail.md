@@ -7,7 +7,7 @@ A breadcrumb trail is a set of links that shows where you are in relation to oth
 
 The breadcrumb trail can be configured to appear on content pages and on catalog pages. The format and position of the breadcrumb trail varies by theme, but it is usually located just below the header. By default, the breadcrumb trail appears on CMS pages.
 
-![]({% link images/images/storefront-breadcrumb-trail.png %}){: .zoom}
+![]({% link catalog/assets/storefront-breadcrumb-trail.png %}){: .zoom}
 _Breadcrumb Trail_
 
 ## Remove the breadcrumbs from CMS pages

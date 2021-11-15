@@ -8,13 +8,13 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## Import Settings
 
-![]({% link images/images/config-engagement-cloud-developer-import-settings.png %}){: .zoom}
+![]({% link configuration/assets/ec-import-settings.png %}){: .zoom}
 _Import Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Contact Sync Size|Website|Sets the batch size limit for the amount of contacts that can be loaded for every data synchronization.|
-|Transactional Data Sync Size|Website|Sets the batch size limit for the amount of transactions that can be loaded for every data synchronization.|
+|Transactional Data Sync Size|Global|Sets the batch size limit for the amount of transactions that can be loaded for every data synchronization.|
 |Enable Subscribers Sales Data Sync|Website|Indicates if subscriber sales data is synchronized. This option is disabled by default due to the increased server load and synchronization times.|
 |Remove `/pub` directory from URLs|Global|Determines if the `/pub` path is included or removed from URLs. Options:<br /> Yes - Removes the `/pub` path from URLs.<br /> No - Leaves the `/pub` path in URLs.|
 
@@ -23,7 +23,7 @@ _Import Settings_
 ![Admin Tasks]({% link images/images/dotdigital-dash-admin.png %}){: .zoom}
 _Sync Settings - Admin Task_
 
-![Manually Run Syncs]({% link images/images/config-engagement-cloud-sync-settings-manually-run-sync.png %}){: .zoom}
+![Manually Run Syncs]({% link configuration/assets/ec-sync-manual-sync.png %}){: .zoom}
 _Manually Run Syncs_
 
 ![Reset Syncs]({% link images/images/dotdigital-dash-resetsync.png %}){: .zoom}
@@ -51,10 +51,11 @@ _Reset Sync Options_
 |Reset Review Data|Website|Force marks all product review data for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets review data.|
 |Reset Wishlist Data|Website|Force marks all wish list data for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets wish list data.|
 |Reset Catalog Data|Website|Force marks all catalog data for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets catalog data.|
+|Reset B2B Quotes|Website|Force marks all quotes for import, optionally by date range. At the next sync, all data is imported, not just new or changed content.<br/><span class="btn">Run Now</span> Resets B2B Quotes.|
 
 ## Debug
 
-![Debug]({% link images/images/dotdigital-dash-debug.png %}){: .zoom}
+![Debug]({% link configuration/assets/dotdigital-dash-debug.png %}){: .zoom}
 _Debug_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -101,7 +102,7 @@ _Cron Timings_
 
 ## System Alerts
 
-![System Alerts]({% link images/images/dotdigital-dash-systemalerts.png %}){: .zoom}
+![System Alerts]({% link configuration/assets/dotdigital-dash-systemalerts.png %}){: .zoom}
 _System Alerts_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -113,7 +114,7 @@ _System Alerts_
 
 ## PWA Settings
 
-![PWA Settings]({% link images/images/dotdigital-dash-pwa-settings.png %}){: .zoom}
+![PWA Settings]({% link configuration/assets/dotdigital-dash-pwa-settings.png %}){: .zoom}
 _PWA Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

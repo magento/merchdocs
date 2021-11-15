@@ -36,7 +36,7 @@ To enable and configure Klarna for your store, you need the following informatio
 
    You can return to your Klarna account later to complete the remaining settings.
 
-   ![Generate Klarna API Credentials]({% link images/images/payments-klarna-dashboard-playground-settings.png %}){: .zoom}
+   ![Generate Klarna API Credentials]({% link payment/assets/klarna-playground-settings.png %}){: .zoom}
    _Generate Klarna API Credentials_
 
 ### Step 2: Enable Klarna On-site Messaging (optional)
@@ -47,7 +47,7 @@ To enable the display of Klarna promotional messages in your storefront:
 
    The _Installation_ page contains two blocks of code that are needed to complete the Commerce configuration. The first block of code is required to enable On-site Messaging. The second block of code refreshes the message placement if the order changes. We recommend that you copy each block of code and paste it to a text editor. You will need this code to complete the Commerce configuration.
 
-   ![Klarna Portal - Installation scripts]({% link images/images/payments-klarna-portal-install-scripts.png %}){: .zoom}
+   ![Klarna Portal - Installation scripts]({% link payment/assets/klarna-portal-install.png %}){: .zoom}
    _Klarna portal - installation scripts_
 
 1. For the first block of code, click <span class="btn">Copy to clipboard</span> and paste it into a text editor.
@@ -79,14 +79,14 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. If your Commerce installation has multiple websites, stores, or views, set **Store View** to the store view where you want to apply this configuration.
 
-1. If needed, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Other Payment Methods** section.
+1. If needed, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Other Payment Methods** section.
 
 1. For _Klarna_, click <span class="btn">Configure</span>.
 
-   ![Klarna]({% link images/images/config-sales-payment-methods-recommended-solutions-klarna.png %}){: .zoom}
+   ![Klarna]({% link payment/assets/payment-methods-klarna.png %}){: .zoom}
    [_Klarna configuration_]({% link configuration/sales/klarna.md %})
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **API Configuration** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **API Configuration** section.
 
    ![API Configuration]({% link images/images/config-sales-payment-methods-klarna-api.png %}){: .zoom}
    [_API Configuration_]({% link configuration/sales/klarna.md %})
@@ -115,7 +115,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 ### Step 2: Configure payment settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Klarna Payments** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Klarna Payments** section.
 
    ![Klarna Payments]({% link images/images/config-sales-payment-methods-klarna-payments.png %}){: .zoom}
    [_Klarna Payments_]({% link configuration/sales/klarna.md %})
@@ -140,7 +140,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 ### Step 3: Configure design settings (optional)
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Design** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Design** section.
 
    ![Klarna Payments Design]({% link images/images/config-sales-payment-methods-klarna-payments-design.png %}){: .zoom}
    [_Design_]({% link configuration/sales/klarna.md %})
@@ -159,7 +159,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 If you want to enable the display of Klarna promotional messages in your storefront, do the following:
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Klarna On-Site Messaging** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Klarna On-Site Messaging** section.
 
    ![Klarna On-site Messaging]({% link images/images/config-sales-payment-methods-klarna-payments-on-site-messaging.png %}){: .zoom}
    [_Klarna On-site messaging_]({% link configuration/sales/klarna.md %})
@@ -196,7 +196,7 @@ If Klarna _On-site messaging_ is enabled, do the following to paste the scripts 
 
 1. In the list, find the store configuration that is to be updated and click **Edit**.
 
-1. Under _Other Settings_, expand ![]({% link images/images/btn-expand.png %}) the **HTML Head** section.
+1. Under _Other Settings_, expand ![]({% link assets/icon-display-expand.png %}) the **HTML Head** section.
 
 1. In the **Scripts and Style Sheets** box, paste each script that you copied from the Klarna merchant portal.
 

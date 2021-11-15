@@ -9,7 +9,7 @@ Before Google reCAPTCHA can be configured, you must ensure that yourÂ `PHP.ini`Â
 
 ## reCAPTCHA v2 ("I am not a robot")
 
-![]({% link images/images/config-security-google-recaptcha-storefront-v2-not-robot.png %}){: .zoom}
+![]({% link configuration/assets/recaptcha-v2-not-robot.png %}){: .zoom}
 [_reCAPTCHA v2 ("I am not a robot")_]({% link stores/security-google-recaptcha.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -23,7 +23,7 @@ Before Google reCAPTCHA can be configured, you must ensure that yourÂ `PHP.ini`Â
 
 ## reCAPTCHA v2 Invisible
 
-![]({% link images/images/config-security-google-recaptcha-storefront-v2-invisible.png %}){: .zoom}
+![]({% link configuration/assets/recaptcha-v2-invisible.png %}){: .zoom}
 [_reCAPTCHA v2 Invisible_]({% link stores/security-google-recaptcha.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -37,7 +37,7 @@ Before Google reCAPTCHA can be configured, you must ensure that yourÂ `PHP.ini`Â
 
 ## reCAPTCHA v3 Invisible
 
-![]({% link images/images/config-security-google-recaptcha-storefront-v3-invisible.png %}){: .zoom}
+![]({% link configuration/assets/recaptcha-v3-invisible.png %}){: .zoom}
 [_reCAPTCHA v3 Invisible_]({% link stores/security-google-recaptcha.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -52,11 +52,14 @@ Before Google reCAPTCHA can be configured, you must ensure that yourÂ `PHP.ini`Â
 
 ## Storefront
 
-![]({% link images/images/config-security-google-recaptcha-storefront.png %}){: .zoom}
+![]({% link configuration/assets/recaptcha-storefront.png %}){: .zoom}
 [_Storefront_]({% link stores/security-google-recaptcha.md %})
 
 {: .bs-callout-info}
 The reCAPTCHA type you choose must match the type that is associated with the API key from your Google reCAPTCHA account.
+
+{:.bs-callout-warning}
+When using reCAPTCHA version 3, a genuine user with low score cannot proceed. For version 2, a genuine user with a low score receives a challenge. Consider carefully if genuine users with a low score should have an opportunity to solve a challenge (version 2) or be completely blocked (version 3).
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--|--|--|

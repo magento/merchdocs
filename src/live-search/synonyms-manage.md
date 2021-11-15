@@ -7,6 +7,18 @@ group: marketing
 
 Follow these instructions to manage existing synonyms.
 
+## Find synonym
+
+To make it easy to find a synonym, you can filter the list by type and search by keyword or expansion term.  These methods can be used individually or together.
+
+1. To filter the list, set **Type** to one of the following:
+
+   - All
+   - One-way
+   - Two-way
+
+1. To search for a keyword or expansion term, enter at least 3 characters into **Search by** box.
+
 ## Edit synonym
 
 1. Find the synonym that you want to edit and click **More** (...) options.

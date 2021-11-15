@@ -7,7 +7,7 @@ redirect_from:
 
 If your business is required to comply with privacy regulations such as the [GDPR]({% link stores/compliance-gdpr.md %}) or [CCPA]({% link stores/compliance-ccpa.md %}), the default settings of [Google Analytics]({% link marketing/google-universal-analytics.md %}), or [Google Universal Analytics]({% link marketing/google-universal-analytics.md %}) and [Google Tag Manager]({% link marketing/google-tag-manager.md %}) (<span class="ee-only"></span>), can be changed to meet privacy requirements. Follow these steps to ensure that your use of customer data remains in compliance.
 
-![Google Analytics - data sharing settings]({% link images/images/google-data-sharing-settings.png %}){: .zoom}
+![Google Analytics - data sharing settings]({% link stores/assets/google-data-sharing-settings.png %}){: .zoom}
 _Google Data Sharing Settings_
 
 ## Step 1: Update Google settings
@@ -40,9 +40,9 @@ _Google Data Sharing Settings_
 
    - Click **Manage DPA Details** to open a DPA administration page where you can edit contacts and your organization's legal entities.
 
-   - In the **Legal Entities** section, click the **Edit** ( ![]({% link images/images/btn-ga-edit.png %}) ) icon and add one or more registered name(s) for your organization. When complete, click <span class="btn">Save</span>.
+   - In the **Legal Entities** section, click the **Edit** ( ![]({% link stores/assets/google-icon-edit.png %}) ) icon and add one or more registered name(s) for your organization. When complete, click <span class="btn">Save</span>.
 
-   - In the **Contacts** section, click the **Add** ( ![]({% link images/images/btn-ga-add.png %}) ) icon and enter the information for the first contact. Then, select the checkbox of each applicable role and click <span class="btn">Add</span>.
+   - In the **Contacts** section, click the **Add** ( ![]({% link stores/assets/google-icon-add.png %}) ) icon and enter the information for the first contact. Then, select the checkbox of each applicable role and click <span class="btn">Add</span>.
 
         | Primary Contact | (Notification Email Address) The contact to whom notices are sent. |
         | Data Protection Officer | (If applicable) The person who is designated to facilitate privacy regulation compliance. |

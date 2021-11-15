@@ -6,7 +6,7 @@ A shipping policy should explain your company's business rules and guidelines fo
 
 To display your shipping policy during checkout, complete the Shipping Policy Parameters in the configuration. The text appears when customers click **See our shipping policy** during checkout.
 
-![]({% link images/images/storefront-checkout-shipping-policy.png %}){: .zoom}
+![]({% link shipping/assets/storefront-checkout-shipping-policy.png %}){: .zoom}
 _Shipping Policy During Checkout_
 
 ## Configure your shipping policy
@@ -15,7 +15,7 @@ _Shipping Policy During Checkout_
 
 1. In the left panel, expand **Sales** and choose **Shipping Settings**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Shipping Policy Parameters** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Shipping Policy Parameters** section.
 
 1. Set **Apply Custom Shipping Policy** to `Yes`.
 

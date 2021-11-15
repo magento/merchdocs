@@ -17,7 +17,7 @@ If needed, clear the **Use system value** checkbox for each setting you want to 
 
 1. In the left panel under **General**, choose **General**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Country Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Country Options** section.
 
 1. Choose the **Default Country** where your business is located.
 
@@ -51,7 +51,7 @@ You can also configure shipping to specific countries for each available [delive
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-![]({% link images/images/country-options-for-specific-delivery-method.png %}){: .zoom}
+![]({% link stores/assets/country-options-for-specific-delivery-method.png %}){: .zoom}
 _Example of setting the country options for DHL delivery method_
 
 ## Troubleshooting resources

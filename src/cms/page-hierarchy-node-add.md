@@ -9,14 +9,14 @@ For example, you might create a node called _Press Releases_ that has navigation
 
 To link to a node, use the [Widget]({% link cms/widgets.md %}) tool to create a CMS Hierarchy Node link and place the widget in a content block or page.
 
-![]({% link images/images-ee/page-navigation-storefront.png %}){: .zoom}
+![]({% link cms/assets/page-navigation-storefront.png %}){: .zoom}
 _Example navigation menu on the About Us page_
 
 ## Step 1: Create a node
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Hierarchy**.
 
-   ![]({% link images/images-ee/page-hierarchy-cms-pages.png %}){: .zoom}
+   ![]({% link cms/assets/page-hierarchy-cms-pages.png %}){: .zoom}
    _CMS Pages grid_
 
 1. Above the grid, click <span class="btn">Add Node...</span>.
@@ -25,14 +25,14 @@ _Example navigation menu on the About Us page_
 
    The URL key provides a unique web address for the node. It must be all lowercase characters, using hyphens to separate words, instead of spaces.
 
-   ![]({% link images/images-ee/page-hierarchy-add-node-page-properties.png %}){: .zoom}
+   ![]({% link cms/assets/page-hierarchy-add-node-page-properties.png %}){: .zoom}
    _Page properties_
 
 1. Click <span class="btn">Save</span>.
 
    The node appears as a folder in the tree on the left of the page.
 
-   ![]({% link images/images-ee/page-hierarchy-node-in-tree.png %}){: .zoom}
+   ![]({% link cms/assets/page-hierarchy-node-in-tree.png %}){: .zoom}
    _Node added to page hierarchy tree_
 
 ## Step 2: Add pages to the node
@@ -45,14 +45,14 @@ _Example navigation menu on the About Us page_
 
    You can scroll up to see that each selected page appears in the tree below the node folder.
 
-   ![]({% link images/images-ee/page-hierarchy-add-pages-to-tree.png %}){: .zoom}
+   ![]({% link cms/assets/page-hierarchy-add-pages-to-tree.png %}){: .zoom}
    _Pages added to the tree_
 
 ## Step 3: Define the structure
 
 1. If necessary, drag the pages into position to reflect the order that they are to appear in the menu.
 
-   ![]({% link images/images-ee/page-hierarchy-drag-to-position.png %}){: .zoom}
+   ![]({% link cms/assets/page-hierarchy-drag-to-position.png %}){: .zoom}
    _Dragging pages into position_
 
 1. Click the node at the top of the hierarchy.
@@ -61,7 +61,7 @@ _Example navigation menu on the About Us page_
 
 1. Under **Render Metadata in HTML Head**, do the following:
 
-   ![]({% link images/images-ee/page-hierarchy-render-metadata.png %}){: .zoom}
+   ![]({% link cms/assets/page-hierarchy-render-metadata.png %}){: .zoom}
    _Render meta data settings_
 
    - To identify the node as the top of the hierarchy, set **First** to `Yes`.
@@ -83,7 +83,7 @@ _Example navigation menu on the About Us page_
 
 1. Under _Pagination Options for Nested Pages_, set **Enable Pagination** to `Yes`.
 
-   ![]({% link images/images-ee/page-hiearchy-pagination-options.png %}){: .zoom}
+   ![]({% link cms/assets/page-hiearchy-pagination-options.png %}){: .zoom}
    _Pagination options_
 
 1. For **Frame**, enter the number of page links that you want to include in the pagination control.
@@ -100,7 +100,7 @@ If you want the node to appear in the menu, do the following:
 
    This setting determines if a navigational menu is generated for the page hierarchy.
 
-   ![]({% link images/images-ee/page-hierarchy-page-navigation-menu-options.png %}){: .zoom}
+   ![]({% link cms/assets/page-hierarchy-page-navigation-menu-options.png %}){: .zoom}
    _Page navigation menu options_
 
 1. To specify the location of the menu in relation to the content, set the **Menu Layout**:
@@ -130,7 +130,7 @@ If you want the node to appear in the menu, do the following:
 
 1. If you also want the node to be visible in the navigation menu, scroll to _Main Navigation Menu Options_ and set **Show in Navigation menu** to `Yes`.
 
-   ![]({% link images/images-ee/page-hierarchy-main-navigation-menu-options.png %}){: .zoom}
+   ![]({% link cms/assets/page-hierarchy-main-navigation-menu-options.png %}){: .zoom}
    _Main navigation menu options_
 
 1. Click <span class="btn">Save</span>.

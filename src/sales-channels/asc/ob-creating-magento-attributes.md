@@ -1,5 +1,7 @@
 ---
-title: Create Commerce Attributes for Amazon
+title: Amazon Sales Channel - Create Commerce Attributes
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/onboarding/ob-creating-magento-attributes.html
 ---
 
 Prior to onboarding your Amazon Seller Central accounts, we recommend adding Commerce [product attributes]({% link stores/attributes-product.md %}) to map your product listings. After you complete onboarding, you can manage your product attributes through the [Attributes]({% link sales-channels/asc/managing-attributes.md %}) tab of the [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page.
@@ -106,4 +108,4 @@ _Amazon ASIN Attribute_
 ![]({% link sales-channels/asc/assets/creating-amazon-condition-attribute.png %}){: .zoom}
 _Amazon Condition Attribute_
 
-![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Add or Verify API Key**]({% link sales-channels/asc/amazon-verify-api-key.md %})
+![]({% link assets/icon-next-arrow.png %}){: .Inline} [**Continue to Add or Verify API Key**]({% link sales-channels/asc/amazon-verify-api-key.md %})

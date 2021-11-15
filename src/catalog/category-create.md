@@ -38,7 +38,7 @@ _Category tree_
 
 ## Step 3: Complete the category content
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Content** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
    ![]({% link images/images-ee/category-content.png %}){: .zoom}
    _Category content_
@@ -62,7 +62,7 @@ _Category tree_
 
 ## Step 4: Complete the display settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Display Setting** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Display Setting** section.
 
 1. Set **Display Mode** to one of the following:
 
@@ -97,7 +97,7 @@ _Category tree_
 
 ## Step 5: Complete the search engine optimization settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Search Engine Optimization Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Search Engine Optimization Settings** section.
 
 1. Complete the following [meta data]({% link marketing/meta-data.md %}) for the category:
 
@@ -105,14 +105,14 @@ _Category tree_
    - Meta Keywords
    - Meta Description
 
-   ![]({% link images/images/catalog-categories-search-engine-optimization.png %}){: .zoom}
+   ![]({% link catalog/assets/catalog-categories-search-engine-optimization.png %}){: .zoom}
    [_Search engine optimization_]({% link catalog/categories-search-engine-optimization.md %})
 
 1. Click <span class="btn">Save</span> and continue.
 
 ## Step 6: Choose the products in category
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Products in Category** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Products in Category** section.
 
 1. Use the [filters]({% link stores/admin-grid-controls.md %}) as needed to find the products.
 
@@ -128,7 +128,7 @@ _Category tree_
 {:.ee-only}
 ## Step 7: Set the category permissions
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **Category Permissions** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the **Category Permissions** section.
 
 1. For a multi-site installation, choose the **Website** where the category permissions apply.
 
@@ -144,12 +144,12 @@ _Category tree_
 
 1. To add another permission rule, click <span class="btn">New Permission</span> and repeat the process.
 
-   ![]({% link images/images-b2b/catalog-category-create-permissions.png %}){: .zoom}
+   ![]({% link catalog/assets/category-create-permissions.png %}){: .zoom}
    _[Category permissions]({% link catalog/category-permissions.md %})_
 
 ## Step 8: Complete the design settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Design** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Design** section.
 
 1. Set the design settings as needed:
 
@@ -163,14 +163,14 @@ _Category tree_
 
    - To use the same design for product pages, set **Apply Design to Products** to `Yes`.
 
-   ![]({% link images/images-b2b/catalog-category-design.png %}){: .zoom}
+   ![]({% link catalog/assets/category-design.png %}){: .zoom}
    _[Design settings]({% link catalog/categories-custom-design.md %})_
 
 1. {:.ce-only}To schedule the design update for a specific time period, do the following:
 
    - Expand the _Schedule Design Update_ section.
 
-   - Use the calendar (![]({% link images/images/btn-calendar.png %})) to choose the Schedule Update **From** and **To** dates.
+   - Use the calendar (![]({% link assets/icon-calendar.png %})) to choose the Schedule Update **From** and **To** dates.
 
    ![]({% link images/images/category-scheduled-design-update.png %}){: .zoom}
    [_Scheduled design update_]({% link catalog/categories-custom-design.md %})

@@ -7,12 +7,12 @@ The dashboard is usually the first page that appears when you log in to the _Adm
 
 If you have a lot of data to process, the chart can be turned off to improve performance. The dashboard in the following example is configured to use real-time data and shows completed orders by the hour for the last twenty-four hours. The chart is updated for each completed order.
 
-![]({% link images/images/dashboard-full.png %}){: .zoom}
+![]({% link stores/assets/dashboard-full.png %}){: .zoom}
 _Dashboard_
 
 Advanced Reporting displays a personalized dashboard based on your product, order, and customer data. For more extensive analysis, see [Magento Business Intelligence][1].
 
-![]({% link images/images/dashboard-advanced-reporting.png %}){: .zoom}
+![]({% link stores/assets/dashboard-advanced-reporting.png %}){: .zoom}
 [_Advanced Reporting_]({% link reports/advanced-reporting.md %})
 
 ## Configure the dashboard
@@ -73,7 +73,7 @@ The dashboard chart can be generated in real-time or by using historical, aggreg
    - For historical, aggregated data, choose `Yes`.
    - For real-time data, choose `No`.
 
-   ![Admin dashboard - data source setting]({% link images/images/config-sales-dashboard.png %}){: .zoom}
+   ![Admin dashboard - data source setting]({% link stores/assets/config-sales-dashboard.png %}){: .zoom}
    [_Dashboard Data Source_]({% link configuration/advanced/admin.md %})
 
 ## Chart sections

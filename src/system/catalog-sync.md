@@ -2,13 +2,13 @@
 title: Catalog Sync
 ---
 
-Adobe Commerce and Magento Open Source compile catalog data into tables using indexers. This process is automatically [triggered by several events]({% link system/index-management-events.md %}), such as changes to a product's price or inventory levels. To allow some Commerce services to use that catalog data, a catalog sync process runs hourly. The catalog sync process exports product data from the Commerce server to SaaS services on an ongoing basis. For example, the [Product Recommendations]({% link marketing/product-recommendations.md %}) feature needs up-to-date catalog information so that it can accurately return recommendations with correct names, pricing, and availability. The **Catalog Sync** dashboard allows you to observe and manage the Commerce to SaaS syncing process.
+Adobe Commerce and Magento Open Source use indexers to compile catalog data into tables. The process is automatically triggered by [events]({% link system/index-management-events.md %}) such as a change to a product price or inventory level. The catalog sync process runs hourly to allow Commerce services to use catalog data. Catalog sync exports product data from the Commerce server to Commerce Services on an ongoing basis to keep the services up-to-date. For example, [Product Recommendations]({% link marketing/product-recommendations.md %}) needs current catalog information to accurately return recommendations with correct names, pricing, and availability. The _Catalog Sync_ dashboard allows you to observe and manage the synchronization process.
 
 {:.bs-callout-info}
-To use the Catalog Sync dashboard, you must have an [API key and a SaaS environment configured]({% link system/saas.md %}).
+To use the _Catalog Sync_ dashboard, you must have an [API key and a SaaS data space configured]({% link system/saas.md %}).
 
 {:.bs-callout-info}
-See the [Commerce Developer Guide]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-catalog-sync.html) to learn how to use the command-line interface to trigger the catalog sync and reindex product data for consumption by SaaS services.
+See the [Commerce Developer Guide]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-catalog-sync.html) to learn how to use the command-line interface to trigger catalog sync and reindex product data for consumption by Commerce services.
 
 With the **Catalog Sync** dashboard you can:
 

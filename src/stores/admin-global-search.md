@@ -10,7 +10,7 @@ _Search_
 
 ## Find a match
 
-1. In the header, click the **magnifying glass** (![magnifying glass]({% link images/images/btn-search.png %})) to open the search box.
+1. In the header, click the **magnifying glass** (![magnifying glass]({% link assets/icon-magnify-search.png %})) to open the search box.
 
 1. Do one of the following:
 
