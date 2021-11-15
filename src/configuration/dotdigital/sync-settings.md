@@ -20,7 +20,7 @@ _Address Book Mapping_
 
 ## Sync
 
-![]({% link images/images-b2b/config-engagement-cloud-sync-settings-sync.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/ec-sync-settings-sync.png %}){: .zoom}
 _Sync_
 
 Choose 'Yes' for each sync type that you want to enable. When first enabled, an hour delay ensures that all contact data is included in the import.
