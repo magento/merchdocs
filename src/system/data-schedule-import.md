@@ -10,7 +10,7 @@ The Scheduled Import process is similar to the manual Import process, with respe
 
 The advantage of using Scheduled Import is that you can automatically import a data file multiple times after specifying the import parameters and schedule only once.
 
-![Scheduled data import]({% link images/images-ee/data-transfer-scheduled-import-add.png %}){: .zoom}
+![Scheduled data import]({% link system/assets/data-transfer-scheduled-import-add.png %}){: .zoom}
 _Add Scheduled Import_
 
 The details of each import operation are not written to a log, but in case of failure you will receive an Import Failed email, with a description of the error. The result of the last scheduled import job is shown in the Last Outcome column on the Scheduled Import/Export page.
@@ -53,7 +53,7 @@ After each scheduled import job, a reindex operation is performed automatically.
 
    - **Status** — To activate the scheduled import, set to `Enabled`.
 
-    ![Data import - scheduled import settings]({% link images/images-ee/data-transfer-scheduled-import-settings.png %}){: .zoom}
+    ![Data import - scheduled import settings]({% link system/assets/data-transfer-scheduled-import-settings.png %}){: .zoom}
     _Import Settings_
 
 ## Step 2: Complete the Import File Information
@@ -63,7 +63,7 @@ After each scheduled import job, a reindex operation is performed automatically.
    - `Local Server` - Imports the data from the same server where Adobe Commerce is installed.
    - `Remote FTP` - Imports the data from a remote server.
 
-    ![Data import - scheduled import file information]({% link images/images-ee/data-transfer-scheduled-import-file-information.png %}){: .zoom}
+    ![Data import - scheduled import file information]({% link system/assets/data-transfer-scheduled-import-file-information.png %}){: .zoom}
     _Import File Information_
 
     {:.bs-callout-info}
@@ -95,7 +95,7 @@ After each scheduled import job, a reindex operation is performed automatically.
    - `Bcc` - Sends a blind courtesy copy of the failed import notification. The name and address of the recipient is included in the original email distribution, but hidden from view.
    - `Separate Email` - Sends a copy of the failed import notification as a separate email.
 
-    ![Data import - failed import email copy method]({% link images/images-ee/data-transfer-scheduled-import-email-fail.png %}){: .zoom}
+    ![Data import - failed import email copy method]({% link system/assets/data-transfer-scheduled-import-email-fail.png %}){: .zoom}
     _Import Failed Emails_
 
 1. When complete, click **Save**.

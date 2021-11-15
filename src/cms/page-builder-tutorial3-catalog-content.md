@@ -110,7 +110,7 @@ In this part of the tutorial, you will learn how easy it is to customize a produ
 
 1. In the Page Builder panel, expand **Media** and drag a **Video** placeholder to the new row.
 
-   ![]({% link images/images-ee/tutorial3-product-drag-video.png %}){: .zoom}
+   ![]({% link cms/assets/tutorial3-product-drag-video.png %}){: .zoom}
    _Video placeholder in the row_
 
 1. Hover over the empty video container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.

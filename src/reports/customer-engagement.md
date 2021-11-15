@@ -12,7 +12,7 @@ These options include:
 * Dashboard to customize synchronization, account access, etc.
 * Various reports to help you track Engagement Cloud syncs, activity, and performance
 
-![]({% link images/images-ee/admin-menu-reports-ee.png %}){: .zoom}
+![]({% link reports/assets/admin-menu-reports-ee.png %}){: .zoom}
 *Customer Engagement Reports*
 
 ## Dashboard Options and Configurations
@@ -165,5 +165,5 @@ If you leave this field empty, a security check does not run. We do not recommen
    * 48 hours
    * 72 hours
 
-    ![System Alerts]({% link images/images/system.alerts.block.png %}){: .zoom}
+    ![System Alerts]({% link reports/assets/system.alerts.block.png %}){: .zoom}
     _System Alerts_

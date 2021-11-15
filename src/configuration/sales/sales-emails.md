@@ -178,7 +178,7 @@ _[Quotes]({% link customers/account-dashboard-quotes.md %})_
 {:.ee-only}
 ## RMA
 
-![]({% link images/images-ee/config-sales-sales-emails-rma.png %}){: .zoom}
+![]({% link configuration/assets/config-sales-sales-emails-rma.png %}){: .zoom}
 _[RMA]({% link sales/returns.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -193,7 +193,7 @@ _[RMA]({% link sales/returns.md %})_
 {:.ee-only}
 ## RMA Authorization
 
-![]({% link images/images-ee/config-sales-sales-emails-rma-authorization.png %}){: .zoom}
+![]({% link configuration/assets/emails-rma-auth.png %}){: .zoom}
 _[RMA Authorization]({% link sales/rma-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -208,7 +208,7 @@ _[RMA Authorization]({% link sales/rma-configure.md %})_
 {:.ee-only}
 ## RMA Admin Comments
 
-![]({% link images/images-ee/config-sales-sales-emails-rma-admin-comments.png %}){: .zoom}
+![]({% link configuration/assets/emails-rma-comments.png %}){: .zoom}
 _RMA Admin Comments_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -223,7 +223,7 @@ _RMA Admin Comments_
 {:.ee-only}
 ## RMA Customer Comments
 
-![]({% link images/images-ee/config-sales-sales-emails-rma-customer-comments.png %}){: .zoom}
+![]({% link configuration/assets/emails-rma-customer-comments.png %}){: .zoom}
 _[RMA Customer Comments]({% link sales/returns.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

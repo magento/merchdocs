@@ -133,7 +133,7 @@ You can add any [widgets type]({% link cms/widget-types.md %}) to your slide in 
 
 1. Specify the settings, which are different depending on the type of widget
 
-   ![]({% link images/images-ee/insert-widget-to-slide-page.png %}){: .zoom}
+   ![]({% link cms/assets/insert-widget-to-slide-page.png %}){: .zoom}
    _Example of inserting widget on the slide_
 
 1. When complete, click <span class="btn">Insert Widget</span> in the upper-right corner.
@@ -142,7 +142,7 @@ You can add any [widgets type]({% link cms/widget-types.md %}) to your slide in 
 
 1. When complete, click <span class="btn">Save</span> in the upper-right corner.
 
-   ![]({% link images/images-ee/inserting-widget-on-slide.png %}){: .zoom}
+   ![]({% link cms/assets/inserting-widget-on-slide.png %}){: .zoom}
    _Example of inserted widget on the slide_
 
 ### View each slide

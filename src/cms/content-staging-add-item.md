@@ -17,14 +17,14 @@ The following example adds a promotional image to the category page for the dura
 
 1. In the list, select the campaign to be modified.
 
-   ![]({% link images/images-ee/content-staging-assign-to-existing-campaign.png %}){: .zoom}
+   ![]({% link cms/assets/content-staging-assign-to-existing-campaign.png %}){: .zoom}
    _Assigning to an existing campaign_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Content**.
 
 1. For **Category Image**, click <span class="btn">Upload</span> and select the image to be displayed on the category page during the campaign.
 
-   ![]({% link images/images-ee/content-staging-existing-category-image.png %}){: .zoom}
+   ![]({% link cms/assets/content-staging-existing-category-image.png %}){: .zoom}
    _Adding a category image_
 
 1. When complete, click <span class="btn">Save</span>.
@@ -38,12 +38,12 @@ The following example adds a promotional image to the category page for the dura
    - For a list display, click **Select** and then **View/Edit** in the _Action_ column.
    - For a timeline display, click once to display the summary and then click <span class="btn">View/Edit</span>.
 
-   ![]({% link images/images-ee/content-staging-dashboard-summary.png %}){: .zoom}
+   ![]({% link cms/assets/content-staging-dashboard-summary.png %}){: .zoom}
    _Campaign detail_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Categories** to view the list of assigned categories.
 
 1. Return to the dashboard, click the campaign again, and then click <span class="btn">Preview</span> to review the pages for the category when the campaign is active.
 
-   ![]({% link images/images-ee/content-staging-category-image-preview.png %}){: .zoom}
+   ![]({% link cms/assets/content-staging-category-image-preview.png %}){: .zoom}
    _Preview of category image during campaign_

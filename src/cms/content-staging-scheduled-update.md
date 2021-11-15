@@ -11,7 +11,7 @@ The following example shows how to schedule a temporary price change for a produ
 
 1. In the _Scheduled Changes_ box at the top of the page, click <span class="btn">Schedule New Update</span>.
 
-   ![]({% link images/images-ee/content-staging-product-schedule-new-update.png %}){: .zoom}
+   ![]({% link cms/assets/content-staging-product-schedule-new-update.png %}){: .zoom}
 
 1. With the **Save as a New Update** option selected, Set the basic parameters for the update:
 
@@ -26,7 +26,7 @@ The following example shows how to schedule a temporary price change for a produ
       {:.bs-callout-info}
       An end date cannot later be added to a price rule campaign that was originally created without an end date. In such a case it is necessary to create a duplicate campaign that includes the end date that is needed
 
-      ![]({% link images/images-ee/content-staging-campaign-schedule-update.png %}){: .zoom}
+      ![]({% link cms/assets/content-staging-campaign-schedule-update.png %}){: .zoom}
       _Scheduling a product update_
 
       {:.bs-callout-info}
@@ -40,7 +40,7 @@ The following example shows how to schedule a temporary price change for a produ
 
    The scheduled change appears at the top of the product page, with the start and end dates of the campaign.
 
-   ![]({% link images/images-ee/content-staging-scheduled-changes.png %}){: .zoom}
+   ![]({% link cms/assets/content-staging-scheduled-changes.png %}){: .zoom}
    _Scheduled change_
 
 ## Edit the scheduled change
@@ -57,7 +57,7 @@ In the _Scheduled Changes_ box at the top of the page, click **Preview**.
 
 The preview opens a new browser tab, and shows how the product will appear during the scheduled campaign.
 
-![]({% link images/images-ee/content-staging-product-scheduled-update-preview-rope.png %}){: .zoom}
+![]({% link cms/assets/content-staging-product-scheduled-update-preview-rope.png %}){: .zoom}
 _Preview scheduled changes_
 
 For more information about using the preview content tools to change the date and scope of the preview, see [Previewing a Campaign]({% link cms/content-staging-preview.md %}). You can also share a link to the store preview with your colleagues.

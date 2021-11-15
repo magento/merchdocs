@@ -6,7 +6,7 @@ In this section of the guide, you learn how to manage _Admin_ sessions and crede
 
 Make sure to set up a [Security Scan]({% link magento/security-scan.md %}) for each domain in your Adobe Commerce or Magento Open Source installation. Also, visit the [Security Center][1]{:target="_blank"} and join the Security Alert Registry for the latest news about potential vulnerabilities and [best practices][2].
 
-![Security Center]({% link images/images/magento-resources-security-center.png %}){: .zoom}
+![Security Center]({% link stores/assets/magento-resources-security-center.png %}){: .zoom}
 [_Security Center_][1]{:target="_blank"}
 
 [1]: http://magento.com/security

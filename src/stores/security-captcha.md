@@ -65,7 +65,7 @@ _Admin Sign In with CAPTCHA_
 
 Customers can be required to enter a CAPTCHA each time they log in to their accounts, or after several unsuccessful attempts to log in. In addition, numerous forms used throughout the storefront can be configured to require verification by CAPTCHA.
 
-![]({% link images/images-ee/storefront-checkout-payment-captcha.png %}){: .zoom}
+![]({% link stores/assets/storefront-checkout-payment-captcha.png %}){: .zoom}
 _CAPTCHA during checkout_
 
 ### Configure CAPTCHA for the storefront

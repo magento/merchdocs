@@ -15,7 +15,7 @@ _Admin Account Disabled_
 
 1. In the grid, select the checkbox of the locked account.
 
-    ![Permissions - locked user accounts]({% link images/images/permissions-locked-users-grid.png %}){: .zoom}
+    ![Permissions - locked user accounts]({% link system/assets/permissions-locked-users-grid.png %}){: .zoom}
     _Locked Users_
 
 1. In the upper-left corner, set **Actions** to `Unlock`.
