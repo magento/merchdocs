@@ -37,7 +37,7 @@ _Tax Zones and Rates_
 1. If you have multiple stores, you can set Tax Titles for each store view.
 
 {:.bs-callout-info}
-Leave this field empty if you wish to use the tax identifier.
+Leave this field empty if you want to use the tax identifier.
 
 1. When complete, click <span class="btn">Save Rate</span>.
 
