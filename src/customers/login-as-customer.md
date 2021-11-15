@@ -27,7 +27,7 @@ Enabling Login as Customer requires that you enable the feature in your commerce
 
 1. In the left panel, expand **Customers** and choose  **Login as Customer**.
 
-   ![]({% link images/images-b2b/config-customers-login-as-customer.png %}){: .zoom}
+   ![]({% link configuration/customers/assets/login-as-customer.png %}){: .zoom}
    [_Configuration options - Login as Customer_]({% link configuration/customers/login-as-customer.md %})
 
 1. Set **Enable Login as Customer** to `Yes`.

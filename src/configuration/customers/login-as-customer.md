@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## General Options
 
-![]({% link images/images-b2b/config-customers-login-as-customer.png %}){: .zoom}
+![]({% link configuration/customers/assets/login-as-customer.png %}){: .zoom}
 [_Login As Customer - General Options_]({% link customers/login-as-customer.md %}#enable-the-feature)
 
 | Option | [Scope]({% link configuration/scope.md %}) | Description |
