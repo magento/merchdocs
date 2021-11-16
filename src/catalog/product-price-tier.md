@@ -49,8 +49,8 @@ The prices in the storefront take precedence from the highest to the lowest quan
       {:.bs-callout-info}
       To get the discounted price, the defined percentage is calculated against the value defined in the _Price_ field, not the _Special Price_ field.
 
-   ![]({% link images/images-b2b/product-price-tier-discount.png %}){: .zoom}
-   _Tier Price as a Percentage_{:.b2b-only}
+   ![]({% link catalog/assets/product-price-tier-discount.png %}){: .zoom}
+   _Tier Price as a Percentage_
 
 ## Complete the price configuration
 
