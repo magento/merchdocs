@@ -73,7 +73,7 @@ You can configure the store to redirect customers to their account dashboard aft
 
 1. Look for a Welcome email to arrive from the store.
 
-   ![]({% link images/images-b2b/welcome-email-company-admin.png %}){: .zoom}
+   ![]({% link customers/assets/company-admin-welcome-email.png %}){: .zoom}
    _Example Welcome Email_
 
 1. Follow the instructions and click **link** to set your password.

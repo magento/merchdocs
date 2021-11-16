@@ -23,7 +23,7 @@ _No address selected_
 
 Enabling address search also affects the checkout for negotiated quotes where customer's number of saved addresses meets or exceeds the configured limit. When the quote is complete and the customer proceeds to the checkout, only the selected shipping address is displayed. The page also displays a message that the shipping address is locked and can only be changed in the quote.
 
-![]({% link images/images-b2b/storefront-checkout-quote-address-limit.png %}){: .zoom}
+![]({% link sales/assets/quote-checkout-shipping-address-locked.png %}){: .zoom}
 _Shipping address locked for a quote_
 
 ## Enable address search
