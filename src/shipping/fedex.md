@@ -147,4 +147,7 @@ Make sure to copy or write down the authentication key. You will need it to set 
    ![]({% link images/images/config-sales-shipping-methods-fedex-applicable-countries.png %}){: .zoom}
    _[FedEx Applicable Countries]({% link configuration/sales/delivery-methods.md %})_
 
+{:.bs-callout-info}
+Commerce always declares the full order price to FedEx when calculating shipping charges. This behavior cannot be changed.
+
 [1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

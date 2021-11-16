@@ -21,3 +21,5 @@ After a category is established, it can be edited, moved to another position in 
 1. Click <span class="btn">Delete Category</span>.
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
+
+You can also [update the events]({% link marketing/event-update.md %}) associated with a category from either the **Events** page or the **Category** page.
