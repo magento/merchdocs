@@ -70,7 +70,7 @@ Products may be added to a requisition list from:
    - Choose an existing requisition list.
    - Create a new requisition list.
 
-   ![]({% link images/images-b2b/requisition-list-plp.png %}){: .zoom}
+   ![]({% link customers/assets/requisition-list-add-product.png %}){: .zoom}
    _Add to Requisition List_
 
 ### Method 3: From an existing order
@@ -82,7 +82,7 @@ Products may be added to a requisition list from:
    - Choose an existing requisition list.
    - Create a new requisition list.
 
-   ![]({% link images/images-b2b/requisition-list-add-from-order.png %}){: .zoom}
+   ![]({% link customers/assets/requisition-list-add-from-order.png %}){: .zoom}
    _Add to Requisition List_
 
 ### Method 4: From the cart
@@ -92,7 +92,7 @@ Products may be added to a requisition list from:
    - Choose an existing requisition list.
    - Create a new requisition list.
 
-   ![]({% link images/images-b2b/requisition-list-add-from-cart.png %}){: .zoom}
+   ![]({% link customers/assets/requisition-list-add-from-cart.png %}){: .zoom}
    _Add from Cart_
 
 ## View the updated requisition list

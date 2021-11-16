@@ -31,7 +31,7 @@ _My Requisition Lists_
 
 1. Click <span class="btn">Add to Cart</span>.
 
-   ![]({% link images/images-b2b/requisition-list-view.png %}){: .zoom}
+   ![]({% link customers/assets/requisition-list-view.png %}){: .zoom}
    _Requisition List Detail_
 
 ### Copy items to a different list
@@ -66,7 +66,7 @@ Adobe Commerce will generate and download a CSV list with `sku` and `qty` values
 
 1. Verify the output device, and click <span class="btn">Print</span>.
 
-   ![]({% link images/images-b2b/requisition-list-print.png %}){: .zoom}
+   ![]({% link customers/assets/requisition-list-print.png %}){: .zoom}
    _Print Requisition List_
 
 ### Edit product options
