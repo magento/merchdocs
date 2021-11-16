@@ -133,8 +133,8 @@ _Create Credit Memo_
 
 1. In the button bar at the top of the invoice, click **Credit Memo**.
 
-   ![]({% link images/images-b2b/order-account-info-credit-memo.png %}){: .zoom}
-   _Create Credit Memo_{:.b2b-only}
+   ![]({% link sales/assets/order-invoice-info-company.png %}){: .zoom}
+   _Create Credit Memo_
 
 1. Verify the information in the **Items to Refund** section and do the following, if applicable:
 

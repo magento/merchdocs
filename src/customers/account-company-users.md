@@ -5,7 +5,7 @@ title: Company Users
 
 The individuals who are associated with a company are represented in the Customers grid by the customer type, _Company User_, and are typically buyers with varying levels of permission to access store services and resources.
 
-![]({% link images/images-b2b/diagram-company-structure-teams.png %}){: .zoom}
+![]({% link customers/assets/company-structure-teams-diagram.png %}){: .zoom}
 _Company Structure with Teams of Users_
 
 Company users are assigned by the company administrator, and are visible from the Admin in the Customers grid. For each user, the company administrator first sets up the [company structure]({% link customers/account-company-structure.md %}), and then completes the following tasks, as needed:
