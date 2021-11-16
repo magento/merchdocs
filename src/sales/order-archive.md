@@ -72,7 +72,7 @@ To specify a list of order statuses that can be archived, see [Configuring the A
 
 1. In the _Action_ column, click **View**.
 
-    ![]({% link images/images-ee/order-archived-view.png %}){: .zoom}
+    ![]({% link sales/assets/order-archived-view.png %}){: .zoom}
     _View Archived Order_
 
 ## Restore an archived order
@@ -83,7 +83,7 @@ To specify a list of order statuses that can be archived, see [Configuring the A
 
 1. Find the record to restore, and click the checkbox to select it.
 
-    ![]({% link images/images-ee/order-archived-select-to-restore.png %}){: .zoom}
+    ![]({% link sales/assets/order-archived-select-to-restore.png %}){: .zoom}
     _Select Order to be Restored_
 
 1. Set the **Actions** control value to **Move to Order Management**.

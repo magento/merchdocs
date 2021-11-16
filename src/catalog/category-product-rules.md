@@ -70,7 +70,7 @@ Use caution when applying a category product rule, because any products that do 
 
 1. To apply a sort order automatically to the dynamically generated product list, set **Automatic Sorting**.
 
-    ![]({% link images/images-ee/automatic_sorting_field.png %}){: .zoom}
+    ![]({% link catalog/assets/automatic_sorting_field.png %}){: .zoom}
     _Automatic Sorting_
 
     Sorting is based on current conditions:
