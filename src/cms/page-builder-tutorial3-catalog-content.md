@@ -105,7 +105,7 @@ In this part of the tutorial, you will learn how easy it is to customize a produ
 
    Look for the red guideline to appear when the row is in the correct position.
 
-   ![]({% link images/images-ee/catalog-product-content-stage-row-drag.png %}){: .zoom}
+   ![]({% link cms/assets/catalog-product-content-stage-row-drag.png %}){: .zoom}
    _Dragging a row to the stage_
 
 1. In the Page Builder panel, expand **Media** and drag a **Video** placeholder to the new row.

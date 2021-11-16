@@ -11,7 +11,7 @@ Each condition consists of an attribute, value, and logical operator. Only attri
 {:.bs-callout-info}
 Make sure to configure each attribute that is used in the rule as a [“smart” attribute]({% link marketing/visual-merchandiser-configuration.md %}).
 
-![]({% link images/images-ee/category-product-rule-with-stock.png %}){: .zoom}
+![]({% link catalog/assets/category-product-rule-with-stock.png %}){: .zoom}
 _Category Product Rule_
 
 Category product rules can speed up the process of assigning specific products to categories, based on conditions that determine which products appear in the category. The “smart” attributes that can be used with category product rules are specified in the [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}) configuration.
