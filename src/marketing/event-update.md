@@ -5,7 +5,7 @@ title: Updating Events
 
 Events can be edited from either the Events page or from the category that is associated with the event. When a category has an associated event, an Edit Event button appears in the upper-right corner.
 
-![Event information]({% link images/images-ee/catalog-event-updating.png %}){: .zoom}
+![Event information]({% link marketing/assets/catalog-event-updating.png %}){: .zoom}
 _Edit Event_
 
 ## Method 1: Edit Event from the Events Page

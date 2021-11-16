@@ -24,26 +24,26 @@ While the quote is open for review, its status in the buyer’s account is set t
 
 1. In the _Actions_ column, click **View**.
 
-   ![]({% link images/images-b2b/quote-grid-new.png %}){: .zoom}
+   ![]({% link sales/assets/quote-grid-new.png %}){: .zoom}
    _New Quote_
 
 ## Step 2: Modify the quote
 
 1. Under _Quote & Account Information_, click the **Calendar** (![]({% link assets/icon-calendar.png %})).
 
-   ![]({% link images/images-b2b/quote-details-quote-account-information.png %}){: .zoom}
+   ![]({% link sales/assets/quote-details-account-information.png %}){: .zoom}
    _Quote & Account Information_
 
 1. Choose an _Expiration Date_ for the quote.
 
    If the buyer changes the quantity of any items in the quote, a notice appears at the top of the quote, indicating that list of items has changed, and the negotiated price needs to be updated.
 
-   ![]({% link images/images-b2b/quote-change-notice.png %}){: .zoom}
+   ![]({% link sales/assets/quote-change-notice.png %}){: .zoom}
    _Quote Change Notice_
 
 1. Scroll down to the _Quote Totals_ section and update the **Negotiated Price** as needed.
 
-    ![]({% link images/images-b2b/quote-change-update-negotiated-price.png %}){: .zoom}
+    ![]({% link sales/assets/quote-change-update-negotiated-price.png %}){: .zoom}
     _Update Negotiated Price_
 
 ### Add new products to the quote
@@ -52,7 +52,7 @@ While the quote is open for review, its status in the buyer’s account is set t
 
 1. Enter the **SKU** and **Qty** to be added.
 
-   ![]({% link images/images-b2b/quote-details-add-to-quote-by-sku.png %}){: .zoom}
+   ![]({% link sales/assets/quote-details-add-by-sku.png %}){: .zoom}
    _Add to Quote by SKU_
 
 ### Apply a line item discount
@@ -71,14 +71,14 @@ In the _Items Quoted_ section, make the following changes, if needed:
 
 - To apply the changes and update the quote to the shared catalog and price rules, click **Update Prices** and then click **Proceed** to confirm the update.
 
-   ![]({% link images/images-b2b/quote-detail-items-quoted.png %}){: .zoom}
+   ![]({% link sales/assets/quote-detail-items-quoted.png %}){: .zoom}
    _Items Quoted_
 
 ### Update shipping information
 
 1. If the buyer includes a _Ship To_ address in the quote, click **Get shipping methods and rates**.
 
-   ![]({% link images/images-b2b/quote-shipping-information.png %}){: .zoom}
+   ![]({% link sales/assets/quote-shipping-information.png %}){: .zoom}
    _Shipping Information_
 
 1. Choose a shipping method from the available options.
@@ -87,8 +87,8 @@ In the _Items Quoted_ section, make the following changes, if needed:
 
    The _Quote Totals_ are updated to reflect the proposed shipping price.
 
-   ![]({% link images/images-b2b/quote-shipping-information-shipping-method-price-png.png %}){: .zoom}
-   _Shipping Method &amp; Price_
+   ![]({% link sales/assets/quote-shipping-information-method-price.png %}){: .zoom}
+   _Shipping Method & Price_
 
 ### Attach a supporting document
 
@@ -116,7 +116,7 @@ In the _Items Quoted_ section, make the following changes, if needed:
 
    - Enter the amount as a percentage or flat price.
 
-      ![]({% link images/images-b2b/quote-detail-negotiation-comments.png %}){: .zoom}
+      ![]({% link sales/assets/quote-detail-negotiation-comments.png %}){: .zoom}
       _Negotiation Comments_
 
 1. Send or save the quote:
@@ -135,7 +135,7 @@ When you send a quote, the system notifies both the buyer and the sales rep who 
 
 Check your email and the status of the quote in the grid to monitor its position in the workflow. You can continue the negotiation process as long as needed.
 
-![]({% link images/images-b2b/quote-negotiation-reply.png %}){: .zoom}
+![]({% link sales/assets/quote-negotiation-reply.png %}){: .zoom}
 _Negotiation Comments and Quote Totals_
 
 ## Button bar

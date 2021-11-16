@@ -25,12 +25,12 @@ _Orders_
 
 The left panel for an open order provides access to different types of information that is related to the order.
 
-![]({% link images/images-ee/order-view.png %}){: .zoom}
+![]({% link sales/assets/order-view.png %}){: .zoom}
 _View Order_
 
 Example of an order with an in-store delivery method.
 
-![]({% link images/images-ee/order-view-in-store-delivery.png %}){: .zoom}
+![]({% link sales/assets/order-view-in-store-delivery.png %}){: .zoom}
 _View Order In-store Delivery_
 
 ### Order view descriptions
@@ -110,7 +110,7 @@ _Order and Account Information_{:.b2b-only}
 
 ## Address Information
 
-![]({% link images/images-ee/order-address-information.png %}){: .zoom}
+![]({% link sales/assets/order-address-information.png %}){: .zoom}
 _Address Information_
 
 {: .format-table }

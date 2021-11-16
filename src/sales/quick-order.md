@@ -41,7 +41,7 @@ You can specify products for Quick Order using either of the following methods.
 
          The SKU appears in the input line, with the product detail below.
 
-         ![]({% link images/images-b2b/quick-order-product-detail.png %}){: .zoom}
+         ![]({% link sales/assets/quick-order-product-detail.png %}){: .zoom}
          _Quick Order Detail_
 
    - To place a quick order by **Product Name**, do the following:
@@ -53,7 +53,7 @@ You can specify products for Quick Order using either of the following methods.
 
       - When the list of possible matches appears, click the product that you want to order.
 
-          ![]({% link images/images-b2b/quick-order-product-name.png %}){: .zoom}
+          ![]({% link sales/assets/quick-order-product-name.png %}){: .zoom}
           _Click to Choose Product Name_
 
 1. Enter the **Qty**.

@@ -22,7 +22,7 @@ title: Updating Category Permissions
 
     - Choose the **Customer Group** that corresponds to the shared catalog and change the permission settings as needed.
 
-      ![]({% link images/images-b2b/shared-catalog-category-permissions.png %}){: .zoom}
+      ![]({% link catalog/assets/shared-catalog-category-permissions.png %}){: .zoom}
       _Category Permissions Rule_
 
     - To create a new permissions rule for another customer group, click <span class="btn">New Permissions</span> and repeat the process.
