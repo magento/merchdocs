@@ -12,7 +12,7 @@ By default, there are three tabs that provide different purchase order lists:
 * **Company Purchase Orders**: POs made by subordinate users within your Company (depends on ACL settings).
 * **Requires My Approval**: POs that are waiting for your approval. The counter shows how many orders are awaiting approval.
 
-![]({% link images/images-b2b/storefront-my-purchase-orders.png %}){: .zoom}
+![]({% link customers/assets/account-dashboard-my-purchase-orders.png %}){: .zoom}
 _My Purchase Orders_
 
 From the _View Purchase Order_ page, you can manage the PO, depending on your [role permissions]({% link customers/account-company-roles-permissions.md %}).

@@ -79,7 +79,7 @@ To edit a product options in the list, do the following:
 
 1. Click **Update Requisition List**.
 
-   ![]({% link images/images-b2b/update-requisition-list.png %}){: .zoom}
+   ![]({% link customers/assets/requisition-list-update.png %}){: .zoom}
    _Update Requisition List_
 
 A product in the Requisition List may be edited if:

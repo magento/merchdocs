@@ -82,7 +82,7 @@ Available payment methods are determined by the company account.
 
 If the company has set up [Approval Rules]({% link customers/account-dashboard-approval-rules.md %}), the purchase order will go through the approval process. Otherwise, it will be processed immediately.
 
-![]({% link images/images-b2b/storefront-checkout-step2-b2b.png %}){: .zoom}
+![]({% link sales/assets/checkout-storefront-step2-b2b.png %}){: .zoom}
 _Purchase Order Review & Payment_
 
 ## Number of items displayed in the order summary

@@ -111,5 +111,5 @@ Log in to your customer account and use either of the following methods to view 
 
 1. On the menu, choose **My Requisition Lists**.
 
-    ![]({% link images/images-b2b/storefront-my-requisition-lists.png %}){: .zoom}
+    ![]({% link customers/assets/requisition-lists-menu-select-storefront.png %}){: .zoom}
     _My Requisition Lists_

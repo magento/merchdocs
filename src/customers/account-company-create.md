@@ -16,7 +16,7 @@ Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %
 
 1. In the upper-right corner of the storefront header, click **Create an Account** and choose **Create New Company Account**.
 
-   ![]({% link images/images-b2b/storefront-create-an-account-options.png %}){: .zoom}
+   ![]({% link customers/assets/company-account-create-storefront-options.png %}){: .zoom}
    _Create New Company Account_
 
 1. In the _Company Information_ section, do the following:
@@ -67,11 +67,11 @@ Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %
 
 1. When complete, click <span class="btn">Submit</span>.
 
-   When the request to create a company account is approved by the merchant, an email notification is sent to the company administrator with instructions to set the account password.
+   When the request to create a company account is approved by the merchant, an email notification is sent to the company administrator.
+
+   ![]({% link customers/assets/company-admin-welcome-email.png %}){: .zoom}
 
    When the password is set, the company administrator can [sign in]({% link customers/customer-sign-in.md %}) to the account.
-
-   ![]({% link images/images-b2b/welcome-email-company.png %}){: .zoom}
 
 ## Method 2: Create company from the Admin
 
@@ -179,9 +179,7 @@ _New Company_
 
 1. When complete, click <span class="btn">Save</span>.
 
-   When the request to create a company account is approved by the merchant, an email notification is sent to the email address of the company administrator with instructions to set the account password.
-
-   ![]({% link images/images-b2b/welcome-email-company.png %}){: .zoom}
+   When the request to create a company account is approved by the merchant, an email notification is sent to the email address of the company administrator.
 
    When the password is set, the company administrator can [sign in]({% link customers/customer-sign-in.md %}) to the account.
 

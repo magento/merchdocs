@@ -21,7 +21,7 @@ When a quote is opened, the prices are verified to reflect the current shared ca
 
 1. Find the updated quote in the list, and click **View**.
 
-    ![]({% link images/images-b2b/storefront-account-my-quotes-list.png %}){: .zoom}
+    ![]({% link customers/assets/account-dashboard-my-quotes-list.png %}){: .zoom}
     _My Quotes_
 
 ## Step 2: Review the quote
@@ -51,7 +51,7 @@ Make any of the following changes to the quote:
 
     Any previously negotiated items in the totals section are crossed out.
 
-    ![]({% link images/images-b2b/storefront-quote-totals-crossed-out.png %}){: .zoom}
+    ![]({% link customers/assets/quote-totals-crossed-out.png %}){: .zoom}
     _Totals after Update_
 
 ### Change the shipping address
