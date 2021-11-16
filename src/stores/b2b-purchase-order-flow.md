@@ -80,7 +80,7 @@ All these factors can have an influence on the exact checkout process.
 
 Depending on their role, and the order, company users may be subjected to a number of approval rules. And depending on whether using online or offline payment methods, the flow is slightly different. Company administrators can create orders automatically, bypassing the approval rules.
 
-![]({% link images/images-b2b/purchase-order-flow.png %}){: .zoom}
+![]({% link stores/assets/purchase-order-flow.png %}){: .zoom}
 _Purchase order flow_
 
 Because storing online payment details during the approval process is a security risk, these details are added after approval and then the purchase order is converted to a real order.

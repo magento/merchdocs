@@ -7,7 +7,7 @@ The structure of a company account should reflect the purchasing organization, w
 
 If your installation is [configured]({% link stores/b2b-features.md %}) to allow companies to manage their own accounts, setting up the company structure is one of the first tasks for a company administrator to complete after the account is approved. In the company account, the structure of the company is represented as a tree with the company administrator at the top.
 
-![]({% link images/images-b2b/diagram-company-structure-teams.png %}){: .zoom}
+![]({% link customers/assets/company-structure-teams-diagram.png %}){: .zoom}
 _Company Structure with Teams_
 
 ## Set up company teams
@@ -82,9 +82,9 @@ As you work on the company structure, you can collapse or expand the tree:
 
 | Icon                                                        | Description                                                    |
 |-------------------------------------------------------------|----------------------------------------------------------------|
-| ![]({% link images/images-b2b/icon-company-admin.png %})    | Represents the company administrator in the company structure. |
-| ![]({% link images/images-b2b/icon-company-team.png %})     | Represents a team in the company structure.                    |
-| ![]({% link images/images-b2b/icon-company-user.png %})     | Represents a user in the company structure.                 |
-| ![]({% link images/images-b2b/icon-company-move.png %})     | Moves a team to another position in the company structure.     |
-| ![]({% link images/images-b2b/icon-company-expand.png %})   | Expands a team in the company structure.                       |
-| ![]({% link images/images-b2b/icon-company-collapse.png %}) | Collapses a team in the company structure.                     |
+| ![]({% link customers/assets/company-icon-admin.png %})     | Represents the company administrator in the company structure. |
+| ![]({% link customers/assets/company-icon-team.png %})      | Represents a team in the company structure.                    |
+| ![]({% link customers/assets/company-icon-user.png %})      | Represents a user in the company structure.                    |
+| ![]({% link customers/assets/company-icon-move.png %})      | Moves a team to another position in the company structure.     |
+| ![]({% link customers/assets/company-icon-expand.png %})    | Expands a team in the company structure.                       |
+| ![]({% link customers/assets/company-icon-collapse.png %})  | Collapses a team in the company structure.                     |

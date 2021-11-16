@@ -6,8 +6,8 @@ The _Orders_ grid lists all current orders and tracks their progress and [order 
 
 Orders are usually created when customers complete the checkout process from the storefront. However, if a customer needs [assistance]({% link sales/shopping-assistance.md %}), you can also access their [shopping cart]({% link sales/shopping-assisted-cart-manage.md %}) or [create an order]({% link customers/customer-account-create-order.md %}) either from the _Orders_ grid or directly from their customer account.
 
-![]({% link images/images-b2b/orders.png %}){: .zoom}
-_Orders_
+![]({% link sales/assets/orders-grid.png %}){: .zoom}
+_Orders grid_
 
 ## Troubleshooting resources
 

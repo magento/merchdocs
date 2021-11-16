@@ -86,8 +86,8 @@ Only sales orders that are not invoiced, have a status of `Processing`, and a [p
 
 ## Order and Account Information
 
-![]({% link images/images-b2b/order-and-account-information.png %}){: .zoom}
-_Order and Account Information_{:.b2b-only}
+![]({% link sales/assets/order-account-information.png %}){: .zoom}
+_Order and Account Information_
 
 ### Order information
 
@@ -143,8 +143,8 @@ In the **Order Total** section, do the following:
 
 1. If you want the comment to be visible in the customer account, select the **Visible on Storefront** checkbox.
 
-    ![]({% link images/images-b2b/order-total.png %}){: .zoom}
-    _Order Total_{:.b2b-only}
+    ![]({% link sales/assets/order-total.png %}){: .zoom}
+    _Order Total_
 
 1. If you are ready to invoice the order, click **Invoice**. Then follow the instructions to [Create an Invoice]({% link sales/invoice-create.md %}).
 

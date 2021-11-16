@@ -5,7 +5,7 @@ title: Company Structure
 
 A company account can be set up to reflect the structure of the business. Initially, the company structure includes only the company administrator, but can be expanded to include teams of users. The users can be associated with teams or organized within a hierarchy of divisions and subdivisions within the company.
 
-![]({% link images/images-b2b/diagram-company-structure.png %}){: .zoom}
+![]({% link customers/assets/company-structure-diagram.png %}){: .zoom}
 _Company Structure with Divisions_
 
 In the customer’s account dashboard, the company structure is represented as a tree and initially consists of only the company administrator.
