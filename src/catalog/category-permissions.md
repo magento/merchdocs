@@ -46,7 +46,7 @@ To allow members of a **_specific customer group_** to browse through category p
 
    To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.
 
-   ![]({% link images/images-ee/category-permissions-allow-browsing-customer-groups.png %}){: .zoom}
+   ![]({% link catalog/assets/category-permissions-allow-browsing-customer-groups.png %}){: .zoom}
    _Allow Browsing by Wholesale Customer Group_
 
 To **_restrict access and redirect to a landing page_**, do the following:
@@ -55,7 +55,7 @@ To **_restrict access and redirect to a landing page_**, do the following:
 
 1. Choose the **Landing Page** where visitors are redirected.
 
-   ![]({% link images/images-ee/category-permissions-browse-category-landing-page.png %}){: .zoom}
+   ![]({% link catalog/assets/category-permissions-browse-category-landing-page.png %}){: .zoom}
    _Redirect to Home Page_
 
    {:.bs-callout-info}
@@ -73,7 +73,7 @@ To allow only members of **_specific customer groups_** to see the price of prod
 
    To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.)
 
-   ![]({% link images/images-ee/category-permissions-price-customer-groups.png %}){: .zoom}
+   ![]({% link catalog/assets/category-permissions-price-customer-groups.png %}){: .zoom}
    _Only Wholesale customer group can see prices_
 
 ### Allow Adding to Cart
@@ -88,7 +88,7 @@ To allow only members of **_specific customer groups_** to put category products
 
    To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.
 
-   ![]({% link images/images-ee/category-permissions-cart-customer-groups.png %}){: .zoom}
+   ![]({% link catalog/assets/category-permissions-cart-customer-groups.png %}){: .zoom}
    _Only Wholesale customer group can put product in cart_
 
 ### Disallow Catalog Search
@@ -101,7 +101,7 @@ Set this option to prevent members of a specific customer group from using Catal
 
    To select multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) as you click each group.
 
-   ![]({% link images/images-ee/category-permissions-disallow-category-search.png %}){: .zoom}
+   ![]({% link catalog/assets/category-permissions-disallow-category-search.png %}){: .zoom}
    _Catalog search not allowed for General customer group_
 
 ## Step 2: Apply category permissions
@@ -114,7 +114,7 @@ Set this option to prevent members of a specific customer group from using Catal
 
    - To create a permissions rule, click <span class="btn">New Permission</span>.
 
-      ![]({% link images/images-ee/category-permissions-section-admin.png %}){: .zoom}
+      ![]({% link catalog/assets/category-permissions-section-admin.png %}){: .zoom}
       _Category Permissions Section_
 
    - Choose the applicable **Website** and **Customer Group**.

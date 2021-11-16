@@ -6,7 +6,7 @@ ee_only: true
 
 When you create a recommendation, you are creating what is called a *recommendation unit*:
 
-   ![Recommendation unit]({% link images/images-ee/p-rex-unit.png %}){: .zoom}
+   ![Recommendation unit]({% link marketing/assets/p-rex-unit.png %}){: .zoom}
 
 The products inside the recommendation unit are called *recommended items*.
 

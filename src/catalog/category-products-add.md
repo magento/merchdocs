@@ -4,7 +4,7 @@ title: Adding and Removing Category Products
 
 From the [Products in Category]({% link catalog/categories-category-products.md %}) section , a store administrator can add products to the category. This section lists all the products that are actually assigned to the category and displays <span class="btn">Add Product</span> when **Match products by rule** is set to `No`.
 
-![]({% link images/images-ee/category-product.png %}){: .zoom}
+![]({% link catalog/assets/category-product.png %}){: .zoom}
 _Products in Category_
 
 ## Search for products to add

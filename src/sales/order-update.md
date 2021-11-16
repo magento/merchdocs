@@ -38,7 +38,7 @@ The [payment action configuration]({% link configuration/sales/payment-methods.m
 
 You cannot change the substance of a `Processing` order, but you can edit the billing and shipping address.
 
-![]({% link images/images-ee/order-button-bar-processing.png %}){: .zoom}
+![]({% link sales/assets/order-button-bar-processing.png %}){: .zoom}
 _Processing Order Options_
 
 {:.bs-callout-info}
