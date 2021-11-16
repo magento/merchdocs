@@ -31,7 +31,7 @@ _Category tree_
 
 1. Enter the **Category Name**.
 
-   ![]({% link images/images-ee/catalog-categories-currently-active.png %}){: .zoom}
+   ![]({% link catalog/assets/catalog-categories-currently-active.png %}){: .zoom}
    _Basic category information_
 
 1. Click <span class="btn">Save</span> and continue.
@@ -120,7 +120,7 @@ _Category tree_
 
 1. In the first column, select the checkbox for each product to include in the category.
 
-   ![]({% link images/images-ee/catalog-categories-products-in-category.png %}){: .zoom}
+   ![]({% link catalog/assets/catalog-categories-products-in-category.png %}){: .zoom}
    _[Products in category]({% link catalog/categories-category-products.md %})_
 
 1. Click <span class="btn">Save</span> and continue.

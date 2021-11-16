@@ -48,7 +48,7 @@ _Create Credit Memo_
 
 1. Find the order in the grid, and click **View**.
 
-   ![]({% link images/images-ee/orders-grid.png %}){: .zoom}
+   ![]({% link sales/assets/orders-grid.png %}){: .zoom}
    _Orders Grid_
 
 1. If the Credit Memo button is visible in the button bar, do one of the following:

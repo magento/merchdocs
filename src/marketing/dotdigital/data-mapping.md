@@ -118,7 +118,7 @@ The _Configuration_ settings in the _Data Mapping_ section of your Commerce inst
 
 1. Before continuing, verify that you have [Quote]({% link sales/quotes.md %}) data available to sync with dotdigital. If not, wait until there are quotes available.
 
-   ![]({% link images/images-b2b/quote-grid-new.png %}){: .zoom}
+   ![]({% link sales/assets/quote-grid-new.png %}){: .zoom}
    [_Quotes_]({% link configuration/dotdigital/developer.md %})
 
 1. In your Commerce _Configuration_, go to **DOTDIGITAL** > **Sync Settings**.

@@ -14,7 +14,7 @@ For an attribute to be used in a targeted rule, the [Use for Promo Rule Conditio
 
 1. In the upper-right corner, click <span class="btn">Add Rule</span>.
 
-    ![Related products rule - information]({% link images/images-ee/catalog-related-products-rule-information.png %}){: .zoom}
+    ![Related products rule - information]({% link marketing/assets/catalog-related-products-rule-information.png %}){: .zoom}
     _Rule Information_
 
 1. Complete the **Rule Information** as follows:

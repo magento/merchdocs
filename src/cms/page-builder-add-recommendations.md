@@ -38,7 +38,7 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
 
 1. In the Page Builder panel under _Add Content_, drag a **Product Recommendation** placeholder to the row.
 
-   ![]({% link images/images-ee/page-builder-add-prex-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-add-prex-drag.png %}){: .zoom}
    _Adding the Product Recommendation content type_
 
 1. Do one of the following:
@@ -46,14 +46,14 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
    - Click <span class="btn">Edit Product Recommendation</span>.
    - Hover over the empty container to display the toolbox and click the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-prex-toolbox.png %}){: .zoom}
+   ![]({% link cms/assets/pb-prex-toolbox.png %}){: .zoom}
    _Edit Product Recommendation_
 
 1. In the _Selection_ section, click <span class="btn">Select</span>.
 
 1. In the list of active product recommendations, find the row with the recommendation unit that you want to add and click <span class="btn">Select</span> in the last column.
 
-   ![]({% link images/images-ee/page-builder-prex-select.png %}){: .zoom}
+   ![]({% link cms/assets/pb-prex-select.png %}){: .zoom}
    _Selected Product Recommendation_
 
 1. In the upper-right corner, click <span class="btn">Add Selected</span>.
@@ -62,7 +62,7 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
 
 1. Make any changes necessary to the [Advanced settings](#advanced-settings).
 
-   ![]({% link images/images-ee/page-builder-prex-edit.png %}){: .zoom}<br/>
+   ![]({% link cms/assets/pb-prex-edit.png %}){: .zoom}<br/>
    _Edit Product Recommendation_
 
 1. When complete, do the following:
@@ -77,7 +77,7 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
 
 1. Hover over the recommendation unit container to display the toolbox and click the **Settings** (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-prex-placeholders-toolbox.png %}){: .zoom}
+   ![]({% link cms/assets/pb-placeholder-toolbox.png %}){: .zoom}
    _Recommendation Toolbox_
 
 1. Make any changes necessary to the [Advanced settings](#advanced-settings).
