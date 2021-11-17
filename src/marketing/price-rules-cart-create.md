@@ -211,7 +211,7 @@ The shopping cart price rule actions describe how prices are updated when the co
    |For matching items only |Free shipping is available only for items that match the conditions of the rule. |
    |For shipment with matching items |Free shipping is available for any shipment that includes matching item(s). |
 
-1. {:.ee-only}In the **Add Rewards Points** field, enter the number of points the customer earns whenever the cart price rule is applied. (If reward points are not enabled, leave this field blank.)
+1. {:.ee-only}In the **Add Rewards Points** field, enter the fixed number of points the customer earns **_once_** per each order whenever the cart price rule is applied. (If reward points are not enabled, leave this field blank.)
 
 1. When complete, click <span class="btn">Save and Continue Edit</span>.
 
