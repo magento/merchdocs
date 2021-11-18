@@ -17,7 +17,7 @@ You can set up the category options separately for each [store]({% link stores/s
 
 1. In the category tree on the left, choose the category that you want to edit.
 
-    ![]({% link images/images-ee/category-workspace.png %}){: .zoom}
+    ![]({% link catalog/assets/category-selected.png %}){: .zoom}
     _Category Tree_
 
 ## Step 2: Sort the products

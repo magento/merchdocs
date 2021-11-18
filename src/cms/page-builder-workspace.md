@@ -23,7 +23,7 @@ _Content Heading and other headings_
 
 When you expand the _Content_ section and there is existing content created with Page Builder, it displays a preview of the content as it would appear in a page. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area to open the Page Builder workspace, where you can make any needed updates.
 
-![]({% link images/images-ee/product-category-content-preview.png %}){: .zoom}
+![]({% link cms/assets/pb-product-category-content-preview.png %}){: .zoom}
 _Product description preview_
 
 {:.bs-callout-info}

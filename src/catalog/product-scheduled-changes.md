@@ -5,7 +5,7 @@ title: Scheduled Changes
 
 Product updates can be applied on schedule and grouped with other content changes. You can use [content staging]({% link cms/content-staging.md %}) to create a new campaign based on scheduled changes to the product, or apply the changes to an existing campaign.
 
-![]({% link images/images-ee/product-scheduled-changes.png %}){: .zoom}
+![]({% link catalog/assets/product-scheduled-changes.png %}){: .zoom}
 _Scheduled Changes_
 
 ## Create a new schedule update

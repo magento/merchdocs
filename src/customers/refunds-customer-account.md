@@ -18,7 +18,7 @@ If a refund has been issued for an order, customers can view the refund informat
 
 1. Clicks the **Refunds** tab to view the details of the refund.
 
-   ![]({% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
+   ![]({% link customers/assets/customer-account-order-refunds.png %}){: .zoom}
    _Refund detail on the storefront_
 
 ## View store credit balance and history on the storefront

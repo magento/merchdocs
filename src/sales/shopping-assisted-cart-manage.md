@@ -114,15 +114,12 @@ There are three types of products that need to be configured before adding to th
 
 1. To order another product, click **Add another**.
 
-   ![]({% link images/images-ee/customer-account-manage-cart-order-product-by-sku.png %}){: .zoom}
+   ![]({% link sales/assets/customer-account-manage-cart-order-product-by-sku.png %}){: .zoom}
    _Add Products by SKU_
 
 1. Click **Add selections to my cart**.
 
 1. If the item is a configurable product, choose the product options when prompted, and then click **Add to Shopping Cart**.
-
-   ![]({% link images/images-ee/customer-account-manage-cart-order-product-by-sku.png %}){: .zoom}
-   _Add Products by SKU_
 
 ### Add products by uploading a CSV file
 

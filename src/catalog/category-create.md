@@ -6,7 +6,7 @@ The category structure of your catalog is like an upside-down tree, with the roo
 
 For a website with multiple [stores]({% link stores/stores-all-create-store.md %}), you can create a different root category for each store that defines the set of categories that is used for the [top navigation]({% link catalog/navigation-top.md %}).
 
-![]({% link images/images-ee/catalog-categories.png %}){: .zoom}
+![]({% link catalog/assets/category-selected.png %}){: .zoom}
 _Category tree_
 
 ## Step 1: Create a category
@@ -40,7 +40,7 @@ _Category tree_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
-   ![]({% link images/images-ee/category-content.png %}){: .zoom}
+   ![]({% link catalog/assets/category-content.png %}){: .zoom}
    _Category content_
 
 1. To display a **Category Image** at the top of the page, you can either upload your own image or use an image that already exists in the [Media Storage]({% link cms/media-storage.md %}).

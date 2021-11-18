@@ -33,7 +33,7 @@ Adobe Commerce includes support for [Scheduled Updates]({% link cms/content-stag
 
 1. Scroll down to the _Price_ field, click **Advanced Pricing**, and enter the amount of the **Special Price**.
 
-    ![]({% link images/images-ee/product-price-special.png %}){: .zoom}
+    ![]({% link catalog/assets/product-price-special.png %}){: .zoom}
     _Special Pricing Settings_
 
 1. When complete, click <span class="btn">Done</span> and then <span class="btn">Save</span>.

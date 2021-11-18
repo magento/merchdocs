@@ -42,17 +42,14 @@ _[Move Order to Archive]({% link configuration/sales/sales.md %})_
 
 1. In the _Operations_ section, choose **Orders**.
 
-1. To select the order on the grid, mark the checkbox in the first column.
+1. To select the order on the grid, select the checkbox in the first column.
 
-    ![]({% link images/images-ee/order-select-in-grid.png %}){: .zoom}
-    _Mark the Order(s) to Archive_
+    ![]({% link sales/assets/order-select-in-grid.png %}){: .zoom}
+    _Select the order(s) to archive_
 
 1. Set the **Actions** control to `Move to Archive`.
 
     Then, look for the message that order has been archived.
-
-    ![]({% link images/images-ee/order-select-in-grid.png %}){: .zoom}
-    _Mark Checkbox_
 
 {:.bs-callout-tip}
 To specify a list of order statuses that can be archived, see [Configuring the Archive]({% link sales/order-archive-configure.md %}).
