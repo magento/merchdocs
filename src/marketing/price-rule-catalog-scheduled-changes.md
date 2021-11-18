@@ -29,7 +29,7 @@ _Scheduled Changes_
 
     - Use the Calendar (![]({% link assets/icon-calendar.png %}){: .Inline}) to choose the **Start Date** and **End Date** for the scheduled change to be in effect. To create an open-ended change, leave the end date blank.
 
-    ![Catalog price rules - new scheduled changes]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
+    ![Catalog price rules - new scheduled changes]({% link marketing/assets/price-rule-catalog-schedule-update.png %}){: .zoom}
     _Add Scheduled Changes_
 
     {:.bs-callout-info}

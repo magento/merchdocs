@@ -52,7 +52,7 @@ Use caution when applying a category product rule, because any products that do 
 
 1. Enter the **Value** that is to be matched.
 
-    ![]({% link images/images-ee/category-rule-create.png %}){: .zoom}
+    ![]({% link catalog/assets/category-rule-create.png %}){: .zoom}
     _Add Condition to Category Rule_
 
 1. Repeat this process for each attribute that is needed to describe the condition(s) to be met.

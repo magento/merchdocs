@@ -77,7 +77,7 @@ There might be additional individual attributes that describe the product. The s
 
     The default settings in this section are determined by the system configuration.
 
-    ![]({% link images/images-ee/product-gift-card-information.png %}){: .zoom}
+    ![]({% link catalog/assets/product-gift-card-information.png %}){: .zoom}
     _Gift Card Information_
 
 1. Deselect the **Use Config Settings** checkbox for any of the following fields that you want to change:

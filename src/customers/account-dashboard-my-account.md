@@ -11,5 +11,5 @@ The My Account page consist of following sections:
 - [My Recent Reviews]({% link customers/account-dashboard-my-product-reviews.md %})
 - [Recent Orders]({% link customers/account-dashboard-my-orders.md %})
 
-![]({% link images/images-ee/customer-account-dashboard-my-account.png %}){: .zoom}
+![]({% link customers/assets/account-dashboard-my-account.png %}){: .zoom}
 _My Account_

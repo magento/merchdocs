@@ -7,5 +7,5 @@ You can use [Cron]({% link system/cron.md %}) jobs to schedule the following ord
 - [Pending Payment Order Lifetime]({% link sales/order-pending-payment-lifetime.md %})
 - [Scheduled Grid Updates]({% link sales/order-grid-updates-schedule.md %})
 
-![]({% link images/images-ee/orders.png %}){: .zoom}
+![]({% link sales/assets/orders-grid.png %}){: .zoom}
 _Orders Grid_

@@ -154,7 +154,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 
     You can either enter the dates or choose the dates from the **Calendar** (![Calendar icon]({% link assets/icon-calendar.png %})).
 
-    ![Catalog price rule - update schedule]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
+    ![Catalog price rule - update schedule]({% link marketing/assets/price-rule-catalog-schedule-update.png %}){: .zoom}
     _Update Schedule_
 
 1. Scroll to the _Rule Information_ section and set the **Status** to `active`.
