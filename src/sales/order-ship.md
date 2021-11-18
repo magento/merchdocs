@@ -42,6 +42,10 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
 
    The status of the order changes from `Processing` to `Complete`.
 
+{:.bs-callout-info}
+If an order is placed as an in-store delivery, shipping action is not available. Click <span class="btn">Notify Order is Ready
+for Pickup</span> to trigger an email to the customer. The status of the order should be changed to `Complete` status.
+
 ## To view the shipment detail:
 
 1. On the Admin menu, select **Sales** > **Shipments**.
@@ -70,7 +74,7 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
 
 1. When ready, click <span class="btn">Close Window</span>.
 
-**Method 2:** From order shippment tab
+**Method 2:** From order shipment tab
 
 1. On the _Admin_ sidebar, go to **Sales** > **Shipments**.
 
