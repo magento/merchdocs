@@ -21,7 +21,7 @@ The following example shows how to create a customer segment that targets female
 
 1. Verify that **Enable Customer Segment Functionality** is set to `Yes`.
 
-   ![Customers configuration - customer segments]({% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
+   ![Customers configuration - customer segments]({% link configuration/customers/assets/customer-configuration-customer-segments.png %}){: .zoom}
    [_Customer Segments enabled_]({% link configuration/customers/customer-configuration.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

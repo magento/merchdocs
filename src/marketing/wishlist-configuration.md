@@ -12,7 +12,7 @@ The wish list configuration enables wish lists and determines the email template
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General Options** section and do the following:
 
-    ![Customers configuration - wish list general settings]({% link images/images-ee/config-customers-wishlist-general-options-ee.png %}){: .zoom}
+    ![Customers configuration - wish list general settings]({% link configuration/customers/assets/wishlist-general-options.png %}){: .zoom}
     [_General Settings_]({% link configuration/customers/wishlist.md %})
 
     - Set the **Enabled** field to `Yes`. This activates the wish list module for the store.

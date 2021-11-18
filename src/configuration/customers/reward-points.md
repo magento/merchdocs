@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## Reward Points
 
-![]({% link images/images-ee/config-customers-reward-points-reward-points.png %}){: .zoom}
+![]({% link configuration/customers/assets/reward-points-reward-points.png %}){: .zoom}
 [_Reward Points_]({% link marketing/reward-point-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -25,7 +25,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## Actions for Acquiring Reward Points by Customers
 
-![]({% link images/images-ee/config-customers-reward-points-actions-for-acquiring.png %}){: .zoom}
+![]({% link configuration/customers/assets/reward-points-actions-for-acquiring.png %}){: .zoom}
 [_Actions for Acquiring Reward Points by Customers_]({% link marketing/reward-point-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -43,7 +43,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## Email Notification Settings
 
-![]({% link images/images-ee/config-customers-reward-points-email-notification-settings.png %}){: .zoom}
+![]({% link configuration/customers/assets/reward-points-email-notification-settings.png %}){: .zoom}
 [_Email Notification Settings_]({% link marketing/reward-point-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

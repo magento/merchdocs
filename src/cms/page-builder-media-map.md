@@ -270,7 +270,7 @@ The grid size determines the size of the map related to a [column]({% link cms/p
 
    - For **Maximum Column Grid Size**, enter a new value for the default maximum grid size.
 
-   ![]({% link images/images-ee/config-general-content-management-advanced-content-tools-grid-size.png %}){: .zoom}
+   ![]({% link cms/assets/pb-configure-advanced-content-tools-grid-size.png %}){: .zoom}
    _Column grid size settings_
 
 1. When complete, click <span class="btn">Save Config</span>.

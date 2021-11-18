@@ -29,7 +29,7 @@ _[Move Order to Archive]({% link configuration/sales/sales.md %})_
 
     - In the **Order Statuses to be Archived** list, select each order status to use for identifying orders to archive. To select multiple items, hold down the Ctrl (Windows) or Command (Mac) key as you click each item.
 
-        ![]({% link images/images-ee/config-sales-sales-orders-invoices-shipments-credit-memos-archving.png %}){: .zoom}
+        ![]({% link configuration/sales/assets/sales-orders-invoices-shipments-credit-memos-archiving.png %}){: .zoom}
         [_Orders, Invoices, Shipments, Credit Memos Archiving_]({% link configuration/sales/sales.md %})
 
 1. Click **Save Config**.
