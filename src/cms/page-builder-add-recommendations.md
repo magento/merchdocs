@@ -62,14 +62,14 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
 
 1. Make any changes necessary to the [Advanced settings](#advanced-settings).
 
-   ![]({% link cms/assets/pb-prex-edit.png %}){: .zoom}<br/>
+   ![]({% link cms/assets/pb-prex-edit.png %}){: .zoom}
    _Edit Product Recommendation_
 
 1. When complete, do the following:
 
    - If working with a fully maximized browser window, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon in the upper-right corner of the workspace.
 
-   - Click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace
+   - Click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
    When you return to the stage, product placeholder images appear in the container.
 
@@ -140,5 +140,5 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
 
    Enter the corresponding values in the diagram.
 
-   |Margins|The amount of blank space that is applied to the outside edge of all sides of the unit. Options: Top / Right / Bottom / Left
-   |Padding|The amount of blank space that is applied to the inside edge of all sides of the unit. Options: Top / Right / Bottom / Left
+   |Margins|The amount of blank space that is applied to the outside edge of all sides of the unit. Options: Top / Right / Bottom / Left|
+   |Padding|The amount of blank space that is applied to the inside edge of all sides of the unit. Options: Top / Right / Bottom / Left|
