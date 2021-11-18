@@ -14,7 +14,7 @@ As a best practice, it is recommended that you create one API user per supporte
 
 1. On the _Access_ page, choose the **API users** tab.
 
-    ![dotdigital - API users]({% link images/images/engagement-cloud-access-api-users.png %}){: .zoom}
+    ![dotdigital - API users]({% link marketing/assets/engagement-cloud-access-api-users.png %}){: .zoom}
     _dotdigital API users_
 
 1. Click <span class="btn">New user</span>. Then, do the following:
@@ -31,12 +31,12 @@ As a best practice, it is recommended that you create one API user per supporte
 
 1. When complete, click <span class="btn">Save</span>.
 
-    ![dotdigital - manage users]({% link images/images/engagement-cloud-access-api-users-add.png %}){: .zoom}
+    ![dotdigital - manage users]({% link marketing/assets/engagement-cloud-access-api-users-add.png %}){: .zoom}
     _Manage users_
 
     The new API user is added to the _Access_ list.
 
-   ![dotdigital - API users list]({% link images/images/engagement-cloud-access-api-users-list.png %}){: .zoom}
+   ![dotdigital - API users list]({% link marketing/assets/engagement-cloud-access-api-users-list.png %}){: .zoom}
    _Access list_
 
 [1]: https://developer.dotdigital.com/docs/getting-started-with-the-api

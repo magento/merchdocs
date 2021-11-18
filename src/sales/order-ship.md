@@ -4,7 +4,7 @@ title: Shipping an Order
 
 An order that has been paid, but is awaiting shipment has the `Processing` status. The shipment record contains a detailed history of the fulfillment process associated with the order. Partial shipments can be made until the order is fulfilled.
 
-## To ship an order:
+## Ship an order
 
 1. On the _Admin_ menu, select **Sales** > **Orders**.
 

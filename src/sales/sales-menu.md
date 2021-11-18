@@ -4,7 +4,7 @@ title: Sales Menu
 
 The Sales menu lists transactions according to where they are in the order workflow. You might think of each of option as a different stage in the lifetime of an order.
 
-![]({% link images/images-b2b/admin-menu-sales-b2b.png %}){: .zoom}
+![]({% link sales/assets/admin-menu-sales.png %}){: .zoom}
 _Sales Menu_
 
 ## Display the Sales menu

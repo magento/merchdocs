@@ -13,7 +13,7 @@ _Search Terms_
 
 1. Click <span class="btn">Add New Search Term</span> and do the following:
 
-    ![Search terms general information]({% link images/images/search-terms-information.png %}){: .zoom}
+    ![Search terms general information]({% link marketing/assets/search-terms-information.png %}){: .zoom}
     _General Information_
 
     - Under _General Information_ in the **Search Query** box, enter the word or phrase that you want to add as a new search term.
@@ -34,10 +34,36 @@ _Search Terms_
 
 1. When complete, click <span class="btn">Save Search</span>.
 
-## Delete a Search Term
+## Delete a search term
+
+There are two methods for deleting a search term -- from the grid and on the edit page.
+
+**Method 1:** In the _Search Terms_ grid
 
 1. In the list, select the checkbox of the term to be deleted.
 
 1. In the upper-left corner of the list, set **Actions** to `Delete`.
 
 1. When complete, click <span class="btn">Submit</span>.
+
+**Method 2:** On the _Edit a Search Term_ page
+
+1. On the _Admin_ sidebar, go to **Marketing** > _SEO & Search_ > **Search Terms**.
+
+1. Find the search term to be deleted and open it in edit mode.
+
+1. Click <span class="btn">Delete Search</span>.
+
+1. To confirm the action, click <span class="btn">OK</span>.
+
+## Grid columns
+
+|Column|Description|
+|--- |--- |
+|Search Query|The query used to perform the search.|
+|Store|The store where the search query was applied.|
+|Results|Number of results found by query.|
+|Uses|Number of uses.|
+|Redirect URL|URL of the target page where user was redirected after performing the search.|
+|Suggested Terms|Determines if the query result displays suggested terms.|
+|Actions|Opens the product in edit mode.|

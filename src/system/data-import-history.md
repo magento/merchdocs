@@ -9,7 +9,7 @@ The _Execution Time_ is the duration of the import process.
 
 On the _Admin_ sidebar, go to **System** > _Data Transfer_ > **Import History**.
 
-![Data import history]({% link images/images/data-import-history.png %}){: .zoom}
+![Data import history]({% link system/assets/data-import-history.png %}){: .zoom}
 _Import History_
 
 {:.bs-callout-info}

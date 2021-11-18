@@ -5,7 +5,7 @@ title: Creating Events
 
 Each event is associated with a category from your catalog, and only one event can be associated with any given category at a time. To display a list of upcoming events in your store, you must also set up a [Catalog Events Carousel]({% link cms/widget-event-carousel.md -%}) widget.
 
-![Events list]({% link images/images-ee/category-events.png %}){: .zoom}
+![Events list]({% link marketing/assets/category-events.png %}){: .zoom}
 _Manage Catalog Events_
 
 ## Create an Event
@@ -18,17 +18,17 @@ _Manage Catalog Events_
 
     Because each category can have only one event at a time, any categories that already have an event are disabled.
 
-    ![New event - category tree]({% link images/images-ee/catalog-events-category-tree.png %}){: .zoom}
+    ![New event - category tree]({% link marketing/assets/catalog-events-category-tree.png %}){: .zoom}
     _Select Category_
 
 1. In the **Catalog Event Information** section, do the following:
 
-    ![Catalog event information]({% link images/images-ee/catalog-event-information.png %}){: .zoom}
+    ![Catalog event information]({% link marketing/assets/catalog-event-information.png %}){: .zoom}
     _Catalog Event Information_
 
-   - For the **Start Date** of the event, use the calendar (![Calendar icon]({% link images/images/btn-calendar.png %})) to choose the date. Then, use the **Hour** and **Minute** sliders to set the time the event begins.
+   - For the **Start Date** of the event, use the calendar (![Calendar icon]({% link assets/icon-calendar.png %})) to choose the date. Then, use the **Hour** and **Minute** sliders to set the time the event begins.
 
-   - For the **End Date** of the event, use the calendar (![]({% link images/images/btn-calendar.png %})) to choose the date. Then, use the **Hour** and **Minute** sliders to set the time the event ends.
+   - For the **End Date** of the event, use the calendar (![]({% link assets/icon-calendar.png %})) to choose the date. Then, use the **Hour** and **Minute** sliders to set the time the event ends.
 
    - To upload an **Image** for the event widget, click <span class="btn">Choose File</span>. Then, select the image file from your directory.
 

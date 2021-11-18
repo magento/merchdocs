@@ -1,7 +1,8 @@
 ---
-title: Add or Verify the Amazon API Key
+title: Amazon Sales Channel - Add or Verify the API Key
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/onboarding/amazon-verify-api-key.html
 ---
-
 
 When accessing Amazon Sales Channel, Commerce automatically checks and validates the Amazon API key you have added in your store configuration. If validated, then you can move on to the next step, [Store Integration]({% link sales-channels/asc/store-integration.md %}).
 
@@ -56,7 +57,7 @@ The API key is validated each time you access your Amazon Sales Channel.
 
    If prompted to verify the key again, repeat this _Add and Verify_ process.
 
-![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Store Integration**]({% link sales-channels/asc/store-integration.md %})
+![]({% link assets/icon-next-arrow.png %}){: .Inline} [**Continue to Store Integration**]({% link sales-channels/asc/store-integration.md %})
 
 [1]: https://account.magento.com/apiportal/index/index/
 [2]: https://account.magento.com/customer/account/login?_ga=2.148719543.106278199.1554930092-1646992284.1551820871

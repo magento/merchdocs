@@ -15,12 +15,12 @@ The first two steps are the same as if you are inserting an image.
 
 1. On the [editor]({% link cms/editor.md %}) toolbar, click the _Insert Image_ icon.
 
-   ![]({% link images/images/editor-toolbar/editor-menu-image-button.png %}){: .zoom}
+   ![]({% link cms/assets/editor-toolbar-image-button.png %}){: .zoom}
    _Insert Image icon_
 
    This opens the _Insert/edit image_ dialog.
 
-1. After _Source_, click the _Search_ icon (![]({% link images/images/btn-browse.png %}){: width="20px"}).
+1. After _Source_, click the _Search_ icon (![]({% link cms/assets/media-gallery-icon-browse.png %}){: width="20px"}).
 
 1. In the directory tree on the left, do one of the following:
 
@@ -59,14 +59,14 @@ Open the page or block to be edited. Then, use one of the following methods to i
 
 1. On the [editor]({% link cms/editor.md %}) toolbar, click the _Insert Image_ icon.
 
-1. After _Source_, click the _Search_ icon (![]({% link images/images/btn-browse.png %}){: width="20px"}).
+1. After _Source_, click the _Search_ icon (![]({% link cms/assets/media-gallery-icon-browse.png %}){: width="20px"}).
 
-   ![]({% link images/images/editor-toolbar/editor-dialog-insert-image.png %}){: .zoom}
+   ![]({% link cms/assets/editor-dialog-insert-image.png %}){: .zoom}
    _Selecting the search icon_
 
 1. In the directory tree on the left, navigate to the folder where the image is stored.
 
-   ![]({% link images/images/media-storage-insert-file.png %}){: .zoom}
+   ![]({% link cms/assets/media-storage-insert-file.png %}){: .zoom}
    _Navigating to the image file_
 
 1. Select the tile of the image and click <span class="btn">Add Selected</span>.
@@ -77,5 +77,5 @@ Open the page or block to be edited. Then, use one of the following methods to i
 
 1. Click <span class="btn">Insert Image</span>.
 
-   ![]({% link images/images/editor-html-mode-insert-image.png %}){: .zoom}
+   ![]({% link cms/assets/editor-html-mode-insert-image.png %}){: .zoom}
    _Insert Image (HTML Mode)_

@@ -2,7 +2,7 @@
 title: General Tax Settings
 ---
 
-The following instructions take you through the basic tax configuration for your Magento installation. Before setting up your taxes, make sure that you are familiar with the tax requirements of your [locale]({% link stores/locale-options.md %}). Then, complete the tax configuration according to your requirements.
+The following instructions take you through the basic tax configuration for your Commerce instance. Before setting up your taxes, make sure that you are familiar with the tax requirements of your [locale]({% link stores/locale-options.md %}). Then, complete the tax configuration according to your requirements.
 
 Admin [permissions]({% link system/permissions.md %}) can be set to restrict access to [tax resources]({% link system/permissions-role-resources.md %}), based on the business “need to know.” To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default shipping point of origin, you must also allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
 
@@ -20,10 +20,10 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 
 ### Tax Classes
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Tax Classes** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Tax Classes** section.
 
    ![]({% link images/images-ee/config-sales-tax-tax-classes.png %}){: .zoom}
-   _[Tax Classes]({% link configuration/sales/tax.md %})_{:.ee-only}
+   _[Tax Classes]({% link configuration/sales/tax.md %})_
 
    - **Tax Class for Shipping** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
    - {:.ee-only}**Tax Class for Gift Options** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
@@ -70,9 +70,9 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
     **Important**:
     If [cross-border trade]({% link tax/tax-cross-border-price.md %}) is enabled, the profit margin changes by tax rate. Profit is determined by the formula (`Revenue - CustomerVAT - CostOfGoodsSold`). To enable cross-border trade, prices must be set to include tax.
 
-### Default Tax Destination Calculation*
+### Default Tax Destination Calculation
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Default Tax Destination Calculation** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Default Tax Destination Calculation** section.
 
    ![]({% link images/images/config-sales-tax-default-tax-destination-calculation.png %}){: .zoom}
    [_Default Tax Destination Calculation_]({% link configuration/sales/tax.md %})
@@ -91,7 +91,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 **Important!**
 Some combinations of settings related to a price display that both include and exclude tax can be confusing to the customer. To avoid triggering a warning message, see the [recommended settings]({% link tax/warning-messages.md %}).
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Price Display Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Price Display Settings** section.
 
    ![Price Display Settings]({% link images/images/config-sales-tax-price-display-settings.png %} "Price Display Settings"){: .zoom}
    [_Price Display Settings_]({% link configuration/sales/tax.md %})
@@ -108,7 +108,7 @@ Some combinations of settings related to a price display that both include and e
 
 ### Shopping Cart Display Settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Shopping Cart Display Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Shopping Cart Display Settings** section.
 
    ![]({% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
    [_Shopping Cart Display Settings_]({% link configuration/sales/tax.md %})
@@ -135,7 +135,7 @@ Some combinations of settings related to a price display that both include and e
 
 ### Orders, Invoices, Credit Memos Display Settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
 
    ![Orders, Invoices, Credit Memos Display Settings]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %} "Orders, Invoices, Credit Memos Display Settings"){: .zoom}
    [_Orders, Invoices, Credit Memos Display Settings_]({% link configuration/sales/tax.md %})
@@ -162,9 +162,9 @@ Some combinations of settings related to a price display that both include and e
 
 ### Fixed Product Taxes
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Fixed Product Taxes** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Fixed Product Taxes** section.
 
-    ![Fixed Product Taxes]({% link images/images/config-sales-tax-orders-fixed-product-taxes.png %} "Fixed Product Taxes"){: .zoom}
+    ![Fixed Product Taxes]({% link tax/assets/fixed-product-taxes.png %} "Fixed Product Taxes"){: .zoom}
     [_Fixed Product Taxes_]({% link configuration/sales/tax.md %})
 
 1. Set **Enable FPT** to either to `Yes` or `No`, according to your requirements.

@@ -33,7 +33,7 @@ Ensure that the Customer Segments feature is enabled. Refer to [Creating a Custo
 
        Additional options become available in the panel on the left.
 
-    ![Customer segment properties]({% link images/images-ee/customer-segment-first-time.png %}){: .zoom}
+    ![Customer segment properties]({% link marketing/assets/customer-segment-first-time.png %}){: .zoom}
     _General Properties after Save_
 
 1. Define the **Conditions**.
@@ -44,7 +44,7 @@ Ensure that the Customer Segments feature is enabled. Refer to [Creating a Custo
 
        The default condition begins, “If ALL of these conditions are TRUE:”
 
-   - Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) and select `Number of Orders`.
+   - Click **Add** (![Add icon]({% link assets/icon-add-green-circle.png %})) and select `Number of Orders`.
 
    - Click **is** and select `less than`.
 
@@ -54,12 +54,12 @@ Ensure that the Customer Segments feature is enabled. Refer to [Creating a Custo
 
    - Click <span class="btn">Save</span>.
 
-   ![Customer segment condition]({% link images/images-ee/customer-segment-first-time-condition.png %}){: .zoom}
+   ![Customer segment condition]({% link marketing/assets/customer-segment-first-time-condition.png %}){: .zoom}
    _Defined Segment Condition_
 
 Your customer segment is created and displayed in the Customer Segment list.
 
-![Customer segments list]({% link images/images-ee/customer-segment-list-first-time.png %}){: .zoom}
+![Customer segments list]({% link marketing/assets/customer-segment-list-first-time.png %}){: .zoom}
 _Customer Segments List_
 
 {:.bs-callout-info}
@@ -99,16 +99,16 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
        Additional options become available in the panel on the left.
 
-   ![Cart price rule information]({% link images/images-ee/rule-information-first-time.png %}){: .zoom}
+   ![Cart price rule information]({% link marketing/assets/rule-information-first-time.png %}){: .zoom}
    _Rule Information_
 
 1. Define the **Conditions**.
 
-   - Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Conditions** section.
+   - Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Conditions** section.
 
       The default rule begins, "If ALL of these conditions are TRUE:".
 
-   - Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) and select `Customer Segment`.
+   - Click **Add** (![Add icon]({% link assets/icon-add-green-circle.png %})) and select `Customer Segment`.
 
        The qualifier field defaults to `matches`.
 
@@ -117,7 +117,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
       For this example, the segment ID for the new segment created in Step 1 is `2`.
 
       {:.bs-callout-info}
-      If you don't know the segment ID, click the chooser icon ( ![List icon]({% link images/images/btn-chooser.png %}) ) to display the Customer Segment list. You can manually enter the ID in the field or select the checkbox for the desired segment to auto-populate the field.
+      If you don't know the segment ID, click the chooser icon ( ![List icon]({% link assets/icon-list-chooser.png %}) ) to display the Customer Segment list. You can manually enter the ID in the field or select the checkbox for the desired segment to auto-populate the field.
 
    - Click the green checkmark ( ![Green checkmark]({% link images/images/icon-green-check.png %}) ) to save the condition setting.
 
@@ -125,10 +125,10 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
        This line of the rule applies to all customers who match customer segment ID 2.
 
-   ![Customer segment condition]({% link images/images-ee/customer-segment-matches.png %}){: .zoom}
+   ![Customer segment condition]({% link marketing/assets/customer-segment-matches.png %}){: .zoom}
    _Defining the Customer Segment_
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %})the **Actions** section and define the actions for the rule.
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %})the **Actions** section and define the actions for the rule.
 
    In this section, you define the type of discount and value/amount of the discount you want to apply for first-time customers. This example defines a 10% discount for all customers who meet the defined condition. For information on other available options, see [Creating a Cart Price Rule]({% link marketing/price-rules-cart-create.md %}).
 
@@ -142,7 +142,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
 
    - When complete, click <span class="btn">Save</span>.
 
-   ![Cart price rule actions]({% link images/images-ee/actions-first-time.png %}){: .zoom}
+   ![Cart price rule actions]({% link marketing/assets/actions-first-time.png %}){: .zoom}
    _Price Rule Actions_
 
 The new rule is normally available within the hour. You should test the rule to ensure that it works as you defined it.

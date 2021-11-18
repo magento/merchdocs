@@ -25,7 +25,7 @@ See [Creating an invoice]({% link sales/invoice-create.md %}) for more informati
 
 The refund workflow for orders paid by credit card is determined by the [Payment Action setting]({% link configuration/sales/payment-methods.md %}) in the configuration for each available payment method. Refunds cannot be issued until the transaction is settled.
 
-![]({% link images/images/config-payment-methods-braintree-payment-action-authorize-capture.png %}){: .zoom}
+![]({% link sales/assets/braintree-authorize-capture.png %}){: .zoom}
 _Payment Action Setting_
 
 - If the Payment Action for your configured payment method is set to `Authorize`, you must first generate the invoice from the Admin before a credit memo can be created.
@@ -39,7 +39,7 @@ If you are using [Vertex Cloud]({% link tax/vertex.md %}), see the [Vertex Setti
 
 Determine the type of refund that you want to issue---for a [credit purchase](#issue-a-refund-for-a-credit-purchase) or for [check or money order](#issue-an-offline-refund-for-check-or-money-order)---and generate the credit memo and issue a refund.
 
-![]({% link images/images/order-credit-memo.png %}){: .zoom}
+![]({% link sales/assets/order-credit-memo.png %}){: .zoom}
 _Create Credit Memo_
 
 ### Issue a refund for a credit purchase
@@ -48,7 +48,7 @@ _Create Credit Memo_
 
 1. Find the order in the grid, and click **View**.
 
-   ![]({% link images/images-ee/orders-grid.png %}){: .zoom}
+   ![]({% link sales/assets/orders-grid.png %}){: .zoom}
    _Orders Grid_
 
 1. If the Credit Memo button is visible in the button bar, do one of the following:
@@ -62,12 +62,12 @@ _Create Credit Memo_
 
 1. Find the invoice in the grid and click **View**.
 
-   ![]({% link images/images/order-invoices-grid.png %}){: .zoom}
+   ![]({% link sales/assets/order-invoices-grid.png %}){: .zoom}
    _Invoices Grid_
 
 1. Scroll down to the **Invoice Totals** section of the invoice, and verify that the invoice is set to `Capture Online`. Then, click <span class="btn">Submit Invoice</span>.
 
-   ![]({% link images/images/order-invoice-capture-online.png %}){: .zoom}
+   ![]({% link sales/assets/order-invoice-capture-online.png %}){: .zoom}
    _Capture Online_
 
    If that option isn't available, the invoice has already been created. Proceed to the next step.
@@ -82,7 +82,7 @@ _Create Credit Memo_
 
    - Update the **Qty to Refund**, and click <span class="btn">Update Qty's</span>.
 
-      ![]({% link images/images/invoice-credit-memo-items-to-refund.png %}){: .zoom}
+      ![]({% link sales/assets/invoice-credit-memo-items-to-refund.png %}){: .zoom}
       _Items to Refund_
 
 1. Update the **Refunds Totals** section as follows:
@@ -118,7 +118,7 @@ _Create Credit Memo_
 
       See [Credit Memos]({% link sales/credit-memos.md %}) for more information about offline and online refunds.
 
-   ![]({% link images/images/credit-memo-order-total-refund.png %}){: .zoom}
+   ![]({% link sales/assets/credit-memo-order-total-refund.png %}){: .zoom}
    _Items to Refund_
 
 ### Issue an offline refund for check or money order
@@ -133,8 +133,8 @@ _Create Credit Memo_
 
 1. In the button bar at the top of the invoice, click **Credit Memo**.
 
-   ![]({% link images/images-b2b/order-account-info-credit-memo.png %}){: .zoom}
-   _Create Credit Memo_{:.b2b-only}
+   ![]({% link sales/assets/order-invoice-info-company.png %}){: .zoom}
+   _Create Credit Memo_
 
 1. Verify the information in the **Items to Refund** section and do the following, if applicable:
 
@@ -173,7 +173,7 @@ _Create Credit Memo_
 
       The status of a credit memo notification appears in the completed credit memo next to the credit memo number.
 
-      ![]({% link images/images-b2b/credit-memo-order-totals.png %}){: .zoom}
+      ![]({% link sales/assets/credit-memo-order-totals.png %}){: .zoom}
       _Refund Totals_
 
 1. To complete the process and issue the refund, click <span class="btn">Refund Offline</span>.

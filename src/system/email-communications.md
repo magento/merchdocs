@@ -17,7 +17,7 @@ The Mail Sending Settings give you the ability to route returned email or replie
 
 1. In the left panel, expand **Advanced** and choose **System**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Mail Sending Settings** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Mail Sending Settings** section and do the following:
 
     - If necessary, set **Disable Email Communications** to `No`.
 
@@ -34,7 +34,7 @@ The Mail Sending Settings give you the ability to route returned email or replie
 
 1. In the left panel, expand **Sales** and choose **Sales Emails**. Then, do the following:
 
-    - Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Settings** section.
+    - Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General Settings** section.
 
     - Set **Asynchronous sending** to `Enable`.
 

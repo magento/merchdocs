@@ -14,7 +14,7 @@ Sales Channels represent entities selling your inventory. By default, Commerce p
 
 The following diagram helps define how a Stock works in relation to Sources and Sales Channels for a Bicycle Shop merchant.
 
-![]({% link images/images/inventory/inventory-diagram-stock.png %})
+![Diagram for example stocks for a store]({% link catalog/assets/inventory-diagram-stock.png %})
 
 ## Example stocks for a mountain bike and store
 
@@ -28,7 +28,7 @@ For Multi Source merchants, create and configure stocks as needed to best fit yo
 
 For a multi-store installation, the Default Stock is initially assigned to the [Main Website]({% link stores/stores-all-create-website.md %}) and default store. Correct stock and quantities are displayed for enabled and disabled products in the **Products** grid view.
 
-![]({% link images/images/stores-inventory-stock.png %}){: .zoom}
+![]({% link catalog/assets/inventory-stock.png %}){: .zoom}
 _Manage Stock_
 
 ## Button bar

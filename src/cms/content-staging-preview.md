@@ -5,7 +5,7 @@ title: Previewing a Campaign
 
 Any day or period of time during a campaign can be previewed and shared with others.
 
-![]({% link images/images-ee/content-staging-preview.png %}){: .zoom}
+![]({% link cms/assets/content-staging-preview.png %}){: .zoom}
 _Preview page controls_
 
 1. Use one of these methods to open a preview window:
@@ -22,19 +22,19 @@ _Preview page controls_
 
    The preview opens in a new browser tab and shows how the product will appear during the scheduled campaign.
 
-   ![]({% link images/images-ee/content-staging-product-scheduled-update-preview.png %}){: .zoom}
+   ![]({% link cms/assets/content-staging-product-scheduled-update-preview.png %}){: .zoom}
    _Preview scheduled changes_
 
 1. In the upper-left corner of the preview window, click **Calendar**.
 
    The calendar detail shows other campaigns that are scheduled for the same day. Each record in the list is a separate campaign.
 
-   ![]({% link images/images-ee/content-staging-product-preview-calendar.png %}){: .zoom}
+   ![]({% link cms/assets/content-staging-product-preview-calendar.png %}){: .zoom}
    _Campaigns scheduled for a specific date_
 
 1. Preview a specific day or time:
 
-   - Click the **Date & Time** calendar (![Calendar icon]({% link images/images/btn-calendar.png %})).
+   - Click the **Date & Time** calendar (![Calendar icon]({% link assets/icon-calendar.png %})).
 
    - Choose a different date and/or time.
 

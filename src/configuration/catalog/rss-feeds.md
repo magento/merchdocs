@@ -15,7 +15,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Wish List
 
-![]({% link images/images/config-catalog-rss-feeds-wishlist.png %}){: .zoom}
+![]({% link configuration/assets/rss-feeds-wishlist.png %}){: .zoom}
 [_Wish List_]({% link marketing/wishlists.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

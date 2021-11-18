@@ -40,7 +40,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Allow Zero Grand Total for Credit Memo|Website|Determines the possibility of creating a Credit Memo with a Zero Grand Total. Options: Yes / No|
+|Allow Zero Grand Total for Credit Memo|Store View|Determines the possibility of creating a Credit Memo with a Zero Grand Total. Options: Yes / No|
 
 ## Invoice and Packing Slip Design
 
@@ -62,7 +62,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |--- |--- |--- |
 |Enable|Website|Determines if a minimum order amount is set for the site. Options: Yes / No|
 |Minimum Amount|Website|Specifies the minimum subtotal, order after discounts are applied.|
-|Include Discount Amount|Determines if the minimum order amount includes applied discounts.  Options: Yes / No|
+|Include Discount Amount|Website|Determines if the minimum order amount includes applied discounts.  Options: Yes / No|
 |Include Tax to Amount|Website|Determines if the minimum order amount includes tax. Options: Yes / No|
 |Description Message|Store View|Determines the message that appears at the top of the shopping cart when the cart total is less than the minimum order amount. If left blank, the following default message appears:Minimum order amount is $[minimum_amount]|
 |Error to Show in Shopping Cart|Store View|Determines the message that appears from the mini shopping cart or checkout link when the order amount is less than the minimum order amount required. If left blank, a default message appears.|
@@ -72,7 +72,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Dashboard
 
-![]({% link images/images/config-sales-sales-dashboard.png %}){: .zoom}
+![]({% link configuration/assets/sales-dashboard.png %}){: .zoom}
 [_Dashboard_]({% link stores/admin-dashboard.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -122,7 +122,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ![]({% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
 _[Order by SKU Settings]({% link customers/account-dashboard-order-by-sku.md %})_
 
-![]({% link images/images-ee/config-sales-sales-order-by-sku-settings-customer-group.png %}){: .zoom}
+![]({% link configuration/assets/order-by-sku-settings.png %}){: .zoom}
 _Order by SKU Settings for Customer Group_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

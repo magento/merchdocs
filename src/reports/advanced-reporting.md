@@ -6,9 +6,12 @@ redirect_from:
 
 Advanced Reporting, which is included with Adobe Commerce and Magento Open Source, gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. While Advanced Reporting uses Magento Business Intelligence for analytics, you do not need to have a Magento Business Intelligence account to use Advanced Reporting.
 
+{:.bs-callout-info}
+Magento Business Intelligence accounts will use built-in reporting, rather than the Advanced Reporting feature.
+
 For technical information, see [Advanced Reporting][2]{:target="_blank"} in our developer documentation.
 
-![]({% link images/images/reporting-advanced.png %}){: .zoom}
+![]({% link reports/assets/reporting-advanced.png %}){: .zoom}
 _Advanced Reporting dashboard_
 
 ## Requirements
@@ -65,14 +68,14 @@ In the Commerce configuration, [Advanced Reporting]({% link configuration/genera
    * Hover over any data point for more information.
    * Click each tab to see all dashboard reports.
 
-   ![]({% link images/images/reporting-advanced-data-point.png %}){: .zoom}
+   ![]({% link reports/assets/reporting-advanced-data-point.png %}){: .zoom}
    *Data Point*
 
 ## To access your data resources:
 
 In the upper-right corner of the Advanced Reporting dashboard, click **Additional Resources**.
 
-![]({% link images/images/advanced-reporting-your-data-resources.png %}){: .zoom}
+![]({% link reports/assets/advanced-reporting-your-data-resources.png %}){: .zoom}
 
 ## Troubleshooting
 
@@ -86,17 +89,17 @@ If you get a 404 “Page Not Found” message, verify that your store meets the 
 
 1. To reestablish the user, click **Reauthorize** and do the following:
 
-   ![]({% link images/images/advanced-reporting-integration-reauthorize.png %}){: .zoom}
+   ![]({% link reports/assets/advanced-reporting-integration-reauthorize.png %}){: .zoom}
    *Reauthorize*
 
    * When prompted, click <span class="btn">Reauthorize</span> to approve access to the API resources.
 
-      ![]({% link images/images/advanced-reporting-integration-api.png %}){: .zoom}
+      ![]({% link reports/assets/advanced-reporting-integration-api.png %}){: .zoom}
       *Reauthorize Access to API Resources*
 
    * Verify that the list of Integration Tokens for Extensions is complete. Then, click <span class="btn">Done</span>.
 
-      ![]({% link images/images/advanced-reporting-integration-tokens-for-extensions.png %}){: .zoom}
+      ![]({% link reports/assets/advanced-reporting-integration-tokens-for-extensions.png %}){: .zoom}
       *Integration Tokens*
 
 1. Look for the message that indicates the integration “Magento Analytics user” is reauthorized.
@@ -112,6 +115,10 @@ To determine if your store has multiple base currencies, you can query your Comm
 ```sql
 select distinct base_currency_code from sales_order;
 ```
+
+### Data discrepancy
+
+If you notice that the `Data last updated...` caption displays yesterday's date and not today's, there might be a delay of up to a day in the Advanced Reporting updates due to a larger than expected queue size.
 
 ## Dashboard Reports
 

@@ -15,7 +15,7 @@ _Email Templates_
 
 1. In the **Load default template** section, click the **Template** selector and choose `Magento_Email` > `Footer`.
 
-    ![Email template footer - load default template]({% link images/images/email-templates-footer-load-default.png %}){: .zoom}
+    ![Email template footer - load default template]({% link marketing/assets/email-templates-footer-load-default.png %}){: .zoom}
     _Default Footer Template_
 
 1. Click <span class="btn">Load Template</span>.
@@ -30,7 +30,7 @@ _Email Templates_
 
    In the grid, the templates can be sorted and filtered by the _Subject_ column.
 
-    ![Email template footer - information]({% link images/images/email-template-footer-information.png %}){: .zoom}
+    ![Email template footer - information]({% link marketing/assets/email-template-footer-information.png %}){: .zoom}
     _Footer Template Information_
 
 1. In the **Template Content** box, modify the HTML as needed.
@@ -44,7 +44,7 @@ _Email Templates_
 
     When a variable is selected, a [markup tag]({% link marketing/markup-tags.md %}) for the variable is inserted in the code.
 
-    ![Email template footer - insert variable]({% link images/images/email-template-insert-variable-footer.png %}){: .zoom}
+    ![Email template footer - insert variable]({% link marketing/assets/email-template-insert-variable-footer.png %}){: .zoom}
     _Insert Variable_
 
     Although the Store Contact variables are the ones most often included in the footer, you can enter the code for any system or [custom variable]({% link marketing/variables-custom.md %}) directly into the template.
@@ -57,7 +57,7 @@ _Email Templates_
 
 1. In the grid, find the store view that you want to configure and click **Edit** in the _Action_ column.
 
-1. Scroll down and expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Transactional Emails** section.
+1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Transactional Emails** section.
 
 1. Choose the **Footer Template** that is used as the default for email notifications.
 

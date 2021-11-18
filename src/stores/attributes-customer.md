@@ -7,7 +7,7 @@ redirect_from:
 
 Customer attributes provide the information that is required to support the order, fulfillment, and customer management processes. Because your business is unique, you might need fields in addition to those provided by the system. You can add custom attributes to the Account Information, Address Book, and Billing Information sections of the customer’s account. Customer [address attributes]({% link stores/attributes-customer-address.md %}) can also be used in the Billing Information section during checkout, or when guests register for an account.
 
-![]({% link images/images-ee/attributes-customer.png %}){: .zoom}
+![]({% link stores/assets/attributes-customer.png %}){: .zoom}
 _Customer Attributes_
 
 ## Step 1: Complete the Attribute Properties
@@ -16,7 +16,7 @@ _Customer Attributes_
 
 1. In the upper-right corner, click **Add New Attribute**.
 
-    ![Customer attribute properties]({% link images/images-ee/attribute-customer-new.png %}){: .zoom}
+    ![Customer attribute properties]({% link stores/assets/attribute-customer-new.png %}){: .zoom}
     _Customer Attribute Properties_
 
 1. In the **Attribute Properties** section, do the following:
@@ -37,7 +37,7 @@ _Customer Attributes_
       |Text Field|A single-line text field.|
       |Text Area|A multiple-line input field for entering paragraphs of text, such as a product description. You can use the WYSIWYG Editor to format the text with HTML tags, or enter the tags directly into the text.|
       |Multiple Line|Creates multiple text lines for the attribute, similar to a multi-line street address. The number of separate data entry lines can be from 2 to 20. Use the `Default Value` to specify the initial value of the field.|
-      |Date|Displays a date value in the [preferred format]({% link stores/attribute-date-time-options.md %}) and [time zone]({% link stores/locale-options.md %}). Date values can be selected from a list or a calendar ( ![Calendar icon]({% link images/images/btn-calendar.png %}) ). <br/><br/>**_Note:_** Depending on your system configuration, _Admin_ users can enter dates directly into a field or select a date from the calendar or list. For information about specifying date and time values, see [Date and Time Custom Options]({% link stores/attribute-date-time-options.md %}).|
+      |Date|Displays a date value in the [preferred format]({% link stores/attribute-date-time-options.md %}) and [time zone]({% link stores/locale-options.md %}). Date values can be selected from a list or a calendar ( ![Calendar icon]({% link assets/icon-calendar.png %}) ). <br/><br/>**_Note:_** Depending on your system configuration, _Admin_ users can enter dates directly into a field or select a date from the calendar or list. For information about specifying date and time values, see [Date and Time Custom Options]({% link stores/attribute-date-time-options.md %}).|
       |Yes/No|Displays a drop-down list with pre-defined options of `Yes` and `No`.|
       |Dropdown|Displays a drop-down list of values that accepts only a single selection. The Dropdown input type is a key component of [configurable products]({% link catalog/product-create-configurable.md %}).|
       |Multiple Select|A drop-down list that accepts multiple values to be selected.|
@@ -67,7 +67,7 @@ _Customer Attributes_
       | Strip HTML Tags | Removes HTML tags from the text. This filter can help clean up data that is pasted into a field from another source that includes HTML tags. |
       | Escape  HTML Entities | Converts special characters found in the text to a valid HTML escape sequence, such as `&amp;`. Escape sequences are enclosed between an ampersand and a semi-colon, and are frequently used for typographer’s smart quotes, copyright and trademark symbols. Escape sequences are also used to identify characters such as the less than (`<`) and greater than (`>`) symbols, and the ampersand character which are also used in the code. This filter can help clean up special characters that are sometimes pasted into database fields from word processors. |
 
-      ![Customer attributes - data entry properties]({% link images/images-ee/attribute-customer-data-entry-properties.png %}){: .zoom}
+      ![Customer attributes - data entry properties]({% link stores/assets/attribute-customer-data-entry-properties.png %}){: .zoom}
       _Data Entry Properties_
 
 1. Complete the **Customers Grid and Segment Properties**.
@@ -80,7 +80,7 @@ _Customer Attributes_
 
     - To make this attribute available to [customer segments]({% link marketing/customer-segments.md %}), set **Use in Customer Segment** to `Yes`.
 
-    ![Customer attributes - grid and segment properties]({% link images/images-ee/attribute-customer-grid-segment.png %}){: .zoom}
+    ![Customer attributes - grid and segment properties]({% link stores/assets/attribute-customer-grid-segment.png %}){: .zoom}
     _Customer Grid and Segment Properties_
 
 ## Step 2: Complete the storefront properties
@@ -95,7 +95,7 @@ _Customer Attributes_
     - [Customer Account Edit]({% link customers/account-create.md %})
     - [Admin Checkout]({% link sales/checkout-process.md %})
 
-    ![Customer attributes - storefront properties]({% link images/images-ee/attribute-customer-storefront-properties.png %}){: .zoom}
+    ![Customer attributes - storefront properties]({% link stores/assets/attribute-customer-storefront-properties.png %}){: .zoom}
     _Storefront Properties_
 
 ## Step 3: Complete the labels/options
@@ -106,7 +106,7 @@ _Customer Attributes_
 
 1. When complete, click <span class="btn">Save Attribute</span>.
 
-    ![Customer attributes - labels/options]({% link images/images-ee/attribute-customer-manage-label-options.png %}){: .zoom}
+    ![Customer attributes - labels/options]({% link stores/assets/attribute-customer-manage-label-options.png %}){: .zoom}
     _Manage Labels/Options_
 
 ## Field Descriptions
@@ -116,7 +116,7 @@ _Customer Attributes_
 |Field|Description|
 |--- |--- |
 |Default Label|The default label that identifies the attribute in the Admin and storefront.|
-|Attribute Code|A unique code that identifies the attribute within the system. The code can be up to 21 characters in length, and cannot include spaces or special characters. The underscore symbol can be used instead of a space.|
+|Attribute Code|A unique code that identifies the attribute within the system. The code can be up to 60 characters in length, and cannot include spaces or special characters. The underscore symbol can be used instead of a space.|
 |Input Type|Determines the [input control]({% link stores/attributes-input-types.md %}) that is used for data entry. Options: <br/>**Text Field** - A single-line text field. <br/>**Text Area** - A multi-line text area. <br/>**Multiple Line** - Creates multiple text lines for the attribute, similar to a multi-line street address. The number of separate data entry lines can be from 2 to 20. <br/>**Date** - Displays a date field with a pop-up calendar.<br/>**Dropdown** - A drop-down list that accepts only one value to be selected. <br/>**Multiple Select** - A drop-down list that accepts multiple values to be selected. <br/>**Yes/No** - A  field that offers only a choice of `Yes` or `No` values. <br/>**File (attachment)** - A field that allows a file to be uploaded and associated with the customer attribute as an attachment. <br/>**Image File** - A field that allows an image to be uploaded to the gallery and associated with the customer attribute.|
 |Values Required|Determines if a value must be entered into the field. Options: Yes / No|
 |Default Value|Specifies the initial value of the attribute.|

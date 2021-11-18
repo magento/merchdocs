@@ -1,6 +1,7 @@
 ---
-ee_only: true
 title: Trending
+tag: product-recommendations
+ee_only: true
 ---
 
 The _Trending_ recommendation type recommends items based on recent momentum of a product’s popularity across your site. Trending products are those often referred to as _Trending now_, _Hot items_, and so on.
@@ -31,4 +32,4 @@ The _Trending_ recommendation type can be used on all page types. When used on t
 
 The following image shows the _Trending_ recommendation type on the home page.
 
-   ![Trending on Home Page]({% link images/images-ee/trending-homepage.png %}){: .zoom}
+   ![Trending on Home Page]({% link marketing/assets/trending-homepage.png %}){: .zoom}

@@ -6,7 +6,7 @@ ee_only: true
 
 When you create a recommendation, you are creating what is called a *recommendation unit*:
 
-   ![Recommendation unit]({% link images/images-ee/p-rex-unit.png %}){: .zoom}
+   ![Recommendation unit]({% link marketing/assets/p-rex-unit.png %}){: .zoom}
 
 The products inside the recommendation unit are called *recommended items*.
 
@@ -34,9 +34,9 @@ After you create and activate the recommendation unit, Adobe Commerce will begin
    - **Product Detail**
    - **Cart**
    - **Confirmation**
-   - **[Page Builder]({% link marketing/page-builder-add-product-recs.md %})**
+   - **[Page Builder]({% link cms/page-builder-add-recommendations.md %})**
 
-1. In the **Select Recommendation type** section, specify the type of recommendation you want to appear on the selected page type. Note that certain page types [restrict what type of recommendation]({% link marketing/product-recommendations.md %}#supportedrecs) you can select.
+1. In the **Select Recommendation type** section, specify the [type of recommendation]({% link marketing/prex-types.md %}) you want to appear on the selected page type. Note that certain page types [restrict what type of recommendation]({% link marketing/product-recommendations.md %}#supportedrecs) you can select.
 
 1. In the **Storefront display label** section, enter an externally-facing name your shoppers will see, such as "Top sellers".
 
@@ -71,7 +71,7 @@ After you create and activate the recommendation unit, Adobe Commerce will begin
 
 Use the **Recommended products preview** panel to preview what products will be displayed in a recommendation unit when deployed to your storefront.
 
-![Recommendation preview]({% link images/images-ee/prex-preview.png %}){: .zoom}
+![Recommendation preview]({% link marketing/assets/prex-preview.png %}){: .zoom}
 
 The preview panel supports [fetching recommendations from a different environment]({% link marketing/recommendation-change-source.md %}). This allows merchants who are testing in a non-production environment to experiment with rules and preview the recommendations before deploying to production.
 
@@ -85,3 +85,6 @@ The preview panel supports [fetching recommendations from a different environmen
 As you create your recommendation unit, experiment with the page type, recommendation type, and filters to get immediate real-time feedback about the products that will be included. As you begin to understand what products will be displayed, you can configure the recommendation unit to best meet your business needs.
 
 What appears in the preview panel and on the storefront can occasionally vary. This is because Adobe Commerce [filters recommendations]({% link marketing/recommendation-incl-excl.md %}#default) to avoid displaying duplicate products when multiple recommendation units are deployed on a single page.
+
+{:.bs-callout-info}
+You cannot preview the [_Recently viewed_]({% link marketing/prex-type-recentview.md %}) recommendation type as the data used is not available in the Admin UI.

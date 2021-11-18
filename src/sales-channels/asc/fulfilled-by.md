@@ -1,7 +1,7 @@
 ---
-title: Fulfilled By
-redirect_from:
-  - /sales-channels/asc/ob-fulfilled-by.html
+title: Amazon Sales Channel - Fulfilled By
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/fulfilled-by.html
 ---
 
 Fulfilled By settings are part of your store listing settings. Listing settings are accessed from the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).

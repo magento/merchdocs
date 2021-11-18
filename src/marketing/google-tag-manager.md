@@ -106,7 +106,7 @@ For additional information, see Google's [Container export and import][5]. These
 
 1. In the left panel, expand **Sales** and choose **Google API**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Google Analytics** section and configure the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Google Analytics** section and configure the following:
 
     ![Sales configuration - Google Analytics]({% link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png %}){: .zoom}
     [_Google API - Google Tag Manager_]({% link configuration/sales/google-api.md -%})
@@ -131,18 +131,18 @@ For additional information, see Google's [Container export and import][5]. These
 
    There are two GTM code snippets to be added to your Commerce site: the first one for the <head> tag and the and the second for the <body> tag.
 
-    ![Install Google Tag Manager]({% link images/images-ee/install-google-tag-manager.png %}){: .zoom}
+    ![Install Google Tag Manager]({% link marketing/assets/install-google-tag-manager.png %}){: .zoom}
     _Google Tag Manager code_
 
 1. In the Commerce Admin, go to **Content** > _Design_ > **Configuration** and open the store view in edit mode.
 
 1. Under _Other Settings_, expand **HTML Head** and paste the code you copied from GTM for the <head> tag in the **Scripts and Style Sheets** field.
 
-    ![Install Google Tag Manager]({% link images/images-ee/head-tag.png %}){: .zoom}
+    ![Install Google Tag Manager]({% link marketing/assets/head-tag.png %}){: .zoom}
     _Inserting code in the HTML Head_
 
 1. Expand **Footer** and paste the GTM code for <body> in the **Miscellaneous HTML** field.
-    ![Install Google Tag Manager]({% link images/images-ee/footer-tag-section.png %}){: .zoom}
+    ![Install Google Tag Manager]({% link marketing/assets/footer-tag-section.png %}){: .zoom}
     _Inserting code in the Footer_
 
 1. When complete, click <span class="btn">Save Configuration</span>.

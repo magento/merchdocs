@@ -35,13 +35,13 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |--- |--- |--- |
 |Enable Amazon Pay|Store View|Determines if Amazon Pay is enabled for the current store view. Options: Yes / No|
 |Enable Login with Amazon|Store View|Determines if Login with Amazon is enabled for the current store view. Options: Yes / No|
-|Payment Action|Store View|Determines when Amazon Pay processes the transaction and charges the customer. Options: <br/>**Charge on Shipment** - Amazon receives a capture request and charges the customer when an invoice is created in Magento. <br/>**Charge on Order** - Amazon creates the invoice and charges the customer when the order is placed.|
+|Payment Action|Store View|Determines when Amazon Pay processes the transaction and charges the customer. Options: <br/>**Charge on Shipment** - Amazon receives a capture request and charges the customer when an invoice is created in Commerce. <br/>**Charge on Order** - Amazon creates the invoice and charges the customer when the order is placed.|
 |Authorization Mode|Store View|Determines the method that is used to transmit authorization data. Options: <br/>**Immediate** - (Default) The disposition of an authorization is available within a couple of seconds. <br/>**Automatic** - (Recommended) Uses synchronous authorization if possible, and switches to asynchronous processing as needed, for some declines. The change in processing modes is transparent to the user. The status of sales order is “Pending” while the disposition of authorization is outstanding.|
 |Update Mechanism|Global|Determines the update method that is used to send notification about changes to the order status. Options: <br/>**Data Polling via Cron Job** - Uses the standard Commerce notification process that is scheduled by [Cron]({% link system/cron.md %}) job. <br/>**Instant Payment Notifications** - (IPN) Sends notifications to the Instant Payment Notification URL.|
 
 ## Advanced
 
-![]({% link images/images/config-sales-payment-methods-amazon-pay-advanced.png %}){: .zoom}
+![]({% link configuration/assets/amazon-pay-advanced.png %}){: .zoom}
 [_Advanced_]({% link payment/amazon-pay-setup.md %})
 
 ### Frontend
@@ -54,7 +54,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Button Display Language|Store View|(Optional) Determines the language of the Amazon Pay button text. If left blank, the default store language is used. To display the button text in a different language, enter one of the following parameters: <br/>`en-GB` - English (Great Britain)<br/>`de-DE` - German (Germany)<br/>`fr-FR` - French (France)<br/>`it-IT` - Italian (Italy)<br/>`sp-SP` - Spanish (Spain)<br/><br/>To learn more, see [Language](https://pay.amazon.com/uk/developer/documentation/lpwa/201953980#ENTER_LANGUAGE_PARAMETER) in the Amazon Pay Integration Guide.|
 |Button Color|Website|Determines the color of the Amazon Pay button. Options: Gold / Light Gray / Dark Gray|
 |Button Size|Website|Determines the size of the Amazon Pay button. Options: Small / Medium / Large / Extra Large|
-|Login with Amazon available in authentication popup|Store View|Determines if the Login with Amazon button appears in the default Magento authentication popup when customers sign in to their account. Options: Yes / No|
+|Login with Amazon available in authentication popup|Store View|Determines if the Login with Amazon button appears in the default Commerce authentication popup when customers sign in to their account. Options: Yes / No|
 |Amazon Pay button on Product Page|Store View|Determines if the Amazon Pay button appears on the product page. Options: Yes / No|
 |Amazon Pay button in minicart|Store View|Determines if the Amazon Pay button appears in the mini cart. Options: Yes / No|
 |Display Amazon Pay Method|Store View|Determines if the Amazon Pay button appears in the final step of checkout. Options: Yes / No|

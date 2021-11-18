@@ -18,9 +18,9 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for mana
 
 1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
 
-1. Click the three dots below the asset (![]({% link images/images/enhanced-media-gallery/three-dots-btn.png %})), then click <span class="btn">View Details</span>.
+1. Click the three dots below the asset (![]({% link cms/assets/media-gallery-asset-menu-icon.png %})), then click <span class="btn">View Details</span>.
 
-    ![]({% link images/images/enhanced-media-gallery/asset-actions.png %}){: .zoom}
+    ![]({% link cms/assets/media-gallery-asset-actions.png %}){: .zoom}
     _Asset Actions_
 
     The asset details will be displayed on a slide panel. They include the information where the asset is being used:
@@ -30,12 +30,12 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for mana
    - **Pages**
    - **Blocks**
 
-    ![]({% link images/images/enhanced-media-gallery/asset-details.png %}){: .zoom}
+    ![]({% link cms/assets/media-gallery-asset-details.png %}){: .zoom}
     _Asset Details_
 
     Click the **Used In** links to see the details. The grid in the following example shows all categories where a specific asset is used.
 
-    ![]({% link images/images/enhanced-media-gallery/asset-category-grid.png %}){: .zoom}
+    ![]({% link cms/assets/media-gallery-asset-categories.png %}){: .zoom}
     _Category Grid_
 
     It is also possible to delete the asset from the _View Details_ section.
@@ -44,9 +44,9 @@ The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for mana
 
 1. On the _Admin_ sidebar, go to **Content** > _Media_ > **Media Gallery**.
 
-1. Click the three dots below the asset (![]({% link images/images/enhanced-media-gallery/three-dots-btn.png %})), then click <span class="btn">Edit</span>.
+1. Click the three dots below the asset (![]({% link cms/assets/media-gallery-asset-menu-icon.png %})), then click <span class="btn">Edit</span>.
 
-    ![]({% link images/images/enhanced-media-gallery/edit-asset.png %}){: .zoom}
+    ![]({% link cms/assets/media-gallery-edit-asset.png %}){: .zoom}
     _Edit Asset_
 
 1. If needed, change one of the following metadata values:
@@ -65,9 +65,9 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 1. Access the new Media Gallery from an area that allows you to use media assets.
 
-1. Select the asset, then click <span class="btn">Add Selected</span>.
+1. Select the asset and click <span class="btn">Add Selected</span>.
 
-    ![]({% link images/images/enhanced-media-gallery/selected-asset.png %}){: .zoom}
+    ![]({% link cms/assets/media-gallery-selected-assets.png %}){: .zoom}
     _Add Selected_
 
 ## Delete assets
@@ -76,12 +76,9 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
 1. Click <span class="btn">Delete Images...</span> and select the checkbox for each asset that you want to delete.
 
-    ![]({% link images/images/enhanced-media-gallery/selected-asset.png %}){: .zoom}
-    _Delete Selected_
-
 1. In the confirmation dialog, click <span class="btn">Delete Image</span>.
 
-    ![]({% link images/images/enhanced-media-gallery/bulk-delete-asset-confirmation.png %}){: .zoom}
+    ![]({% link cms/assets/media-gallery-bulk-delete-confirm.png %}){: .zoom}
     _Delete Confirmation_
 
 ## Search for assets
@@ -92,7 +89,7 @@ Assets can be used extensively throughout the Admin, such as [add or edit a page
 
     The search in the following example finds assets that contain a specific tag (`mountain`).
 
-    ![]({% link images/images/enhanced-media-gallery/asset-search.png %}){: .zoom}
+    ![]({% link cms/assets/media-gallery-asset-search.png %}){: .zoom}
     _Asset Search_
 
 {:.bs-callout-info}
@@ -104,7 +101,7 @@ See the [Edit an asset][edit-asset] section to learn how you can update image ta
 
 1. Click the **Filters** tab.
 
-    ![]({% link images/images/enhanced-media-gallery/filters.png %}){: .zoom}
+    ![]({% link cms/assets/media-gallery-filters.png %}){: .zoom}
     _Filters_
 
 1. Set the filtering options.
@@ -122,7 +119,7 @@ See the [Edit an asset][edit-asset] section to learn how you can update image ta
 
    The filtering in the following example finds assets that are used in a specific category (`cars`) and are enabled.
 
-    ![]({% link images/images/enhanced-media-gallery/filtered-by-category.png %}){: .zoom}
+    ![]({% link cms/assets/media-gallery-filter-by-category.png %}){: .zoom}
     _Filter for Enabled Assets by Category_
 
 ## Finding image duplicates
@@ -131,7 +128,7 @@ See the [Edit an asset][edit-asset] section to learn how you can update image ta
 
 1. Click <span class="btn">Apply Filters</span> to see the results.
 
-    ![]({% link images/images/enhanced-media-gallery/filter-duplicates.png %}){: .zoom}
+    ![]({% link cms/assets/media-gallery-filter-duplicates.png %}){: .zoom}
     _Show Duplicates_
 
 [adobe-stock-integration]: {% link cms/adobe-stock.md %}

@@ -14,9 +14,9 @@ Payment on Account is not supported for orders with [multiple shipping addresses
 
 1. In the left panel, choose **Payment Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Payment on Account** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Payment on Account** section.
 
-   ![Payment on Account]({% link images/images-b2b/config-sales-payment-methods-payment-on-account.png %}){: .zoom}
+   ![Payment on Account]({% link configuration/sales/assets/payment-methods-payment-on-account.png %}){: .zoom}
    [_Payment on Account_]({% link configuration/sales/payment-methods.md %}#payment-on-account)
 
    {:.bs-callout-info}

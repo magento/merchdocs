@@ -8,7 +8,7 @@ redirect_from:
 
 A returned merchandise authorization (RMA) can be granted to customers who request to return an item for replacement or refund. Typically, the customer contacts the merchant to request a refund. If approved, a unique RMA number is assigned to identify the returned product. In the configuration, you can either enable RMA for all products or allow RMA for only certain products. The _Returns_ grid lists the current returned merchandise requests (RMAs) and is used to enter new return requests.
 
-![]({% link images/images/sales-return.png %}){: .zoom}
+![]({% link sales/assets/return.png %}){: .zoom}
 _Returns grid_
 
 RMAs can be issued for simple, grouped, configurable, and bundle product types. However, RMAs are not available for virtual products, downloadable products, and gift cards.
@@ -65,7 +65,7 @@ RMAs can be issued for simple, grouped, configurable, and bundle product types. 
 
 1. To create a return, click <span class="btn">Submit Returns</span>.
 
-    ![]({% link images/images/return-item-request.png %}){: .zoom}
+    ![]({% link sales/assets/return-item-request.png %}){: .zoom}
     _RMA Items Requested_
 
     The newly submitted RMA request appears on the **Returns** page with a `Pending` status.
@@ -80,4 +80,4 @@ RMAs can be issued for simple, grouped, configurable, and bundle product types. 
 
 3: Merchandise received and return processed
    The following flow chart describes the operational order to complete the return process:<br/><br/>
-   ![Product Return Workflow]({% link images/images/workflow-customer-returns.png %} "Product Return Workflow"){:width="500px"}
+   ![Product Return Workflow]({% link sales/assets/workflow-customer-returns.png %} "Product Return Workflow"){:width="500px"}

@@ -1,7 +1,8 @@
 ---
-title: Store Integration
+title: Amazon Sales Channel - Store Integration
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/onboarding/store-integration.html
 ---
-
 
 To get started with Amazon Sales Channel, you must create (add) an Amazon Sales Channel store and connect it to your Amazon Seller Account. These two steps integrate your Commerce and Amazon accounts to share data, sync products, and more.
 
@@ -80,4 +81,4 @@ _Amazon Sales Channel home with new store card_
 
 Your new Amazon Sales Channel store is now connected to your Amazon Seller Central account.
 
-![]({% link images/images/btn-next.png %}){: .Inline} [**Continue to Create a Listing Rule**]({% link sales-channels/asc/ob-create-listing-rule.md %})
+![]({% link assets/icon-next-arrow.png %}){: .Inline} [**Continue to Create a Listing Rule**]({% link sales-channels/asc/ob-create-listing-rule.md %})

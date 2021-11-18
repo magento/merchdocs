@@ -7,10 +7,10 @@ In addition to the preset order status settings, you can create custom order sta
 {:.bs-callout-info}
 Only default custom order status values are used in the order workflow. Custom status values that are not set as default can be used only in the comments section of the order.
 
-![]({% link images/images/order-status.png %}){: .zoom}
+![]({% link sales/assets/order-status.png %}){: .zoom}
 _Order Status Settings_
 
-## To create a custom order status:
+## Create a custom order status
 
 1. On the _Admin_ sidebar, click **Stores**.
 
@@ -18,7 +18,7 @@ _Order Status Settings_
 
 1. In the upper-right corner, click **Create New Status**.
 
-   ![]({% link images/images/order-status-new.png %}){: .zoom}
+   ![]({% link sales/assets/order-status-new.png %}){: .zoom}
    _Create New Order Status_
 
 1. Update the _Order Status Information_ section:
@@ -31,11 +31,11 @@ _Order Status Settings_
 
 1. Click **Save Status**.
 
-## To assign an order status to a state:
+## Assign an order status to a state
 
 1. On the _Order Status_ page, click **Assign Status to State**.
 
-   ![]({% link images/images/store-status-assign-status.png %}){: .zoom}
+   ![]({% link sales/assets/store-status-assign-status.png %}){: .zoom}
    _Assign Status_
 
 1. Update the **Assignment Information** section, do the following:
@@ -48,12 +48,12 @@ _Order Status Settings_
 
    - To make this status visible from the storefront, select the **Visible On Storefront** checkbox.
 
-   ![Assign Status to State]({% link images/images/order-status-assign-state.png %} "Assign Status to State"){: .zoom}
+   ![Assign Status to State]({% link sales/assets/order-status-assign-state.png %} "Assign Status to State"){: .zoom}
    _Assign Status to State_
 
 1. Click **Save Status Assignment**.
 
-## To edit an existing order status:
+## Edit an existing order status
 
 1. In the _Order Status_ grid, open the status record in edit mode.
 
@@ -61,7 +61,7 @@ _Order Status Settings_
 
 1. Click **Save Status**.
 
-## To remove an order status from an assigned state:
+## Remove an order status from an assigned state
 
 {:.bs-callout-info}
 A status setting cannot be unassigned from a state if the status is currently in use.
@@ -72,7 +72,7 @@ A status setting cannot be unassigned from a state if the status is currently in
 
    A message appears at the top of the workspace that the order status has been unassigned. Although the order status label still appears in the list, it is no longer assigned to a state. Order status settings cannot be deleted.
 
-### Order Status and State
+## Order status and state
 
 |Order Status|Order State||
 |--- |--- |--- |

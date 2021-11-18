@@ -9,7 +9,7 @@ The Translate Inline tool is available only when working in [developer mode]({% 
 
 See [Translations overview][1]{:target="_blank"} in the Commerce Developer Guide.
 
-![Example storefront - translatable text]({% link images/images/storefront-translate-inline.png %}){: .zoom}
+![Example storefront - translatable text]({% link system/assets/storefront-translate-inline.png %}){: .zoom}
 _Translatable Text_
 
 If your store is available in multiple languages, you can make fine adjustments to the translated text for the locale. On the server, interface text is maintained in a separate CSV file for each output block, and is organized by locale. As an alternate approach, rather than use the _Translate Inline_ tool, you can also edit the CSV files directly on the server.
@@ -29,7 +29,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
 1. Set the **Actions** control to `Disable` and click <span class="btn">Submit</span>.
 
-    ![Disable output caches]({% link images/images/output-cache-disable.png %}){: .zoom}
+    ![Disable output caches]({% link system/assets/output-cache-disable.png %}){: .zoom}
     _Disable Output Caches_
 
 ## Step 2: Enable the Translate Inline tool
@@ -40,7 +40,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
 1. In the left panel, expand **Advanced** and choose **Developer**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Translate Inline** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Translate Inline** section.
 
     Clear the **Use Website** checkbox as needed to modify these settings.
 
@@ -59,7 +59,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
 1. Open your storefront in a browser and go to the page that you want to edit.
 
-   If necessary, use the language chooser to change the store view. Each string of text that can be translated is outlined in red. When you hover over any text box, a book icon (![Book icon]({% link images/images/btn-book.png %})) appears.
+   If necessary, use the language chooser to change the store view. Each string of text that can be translated is outlined in red. When you hover over any text box, a book icon (![Book icon]({% link assets/icon-book.png %})) appears.
 
 1. Click the book icon to open the _Translate_ window and do the following:
 
@@ -69,7 +69,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
 1. When complete, click <span class="btn">Submit</span>.
 
-    ![]({% link images/images/storefront-translate-inline-detail.png %}){: .zoom}
+    ![]({% link system/assets/storefront-translate-inline-detail.png %}){: .zoom}
     _Enter Custom Text_
 
 1. To see your changes in the store, press the **F5** key to refresh the browser.
@@ -86,7 +86,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
 1. In the left panel, expand **Advanced** and choose **Developer**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Translate Inline** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Translate Inline** section.
 
 1. Set **Enabled for Frontend** to `No`.
 
@@ -108,7 +108,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
 Go to your storefront and examine each page that was updated to make sure the changes are correct. In this example, _Customer Login_ was changed to _Customer Sign In_. If changes were made to a specific view, use the Language Chooser to switch to the correct view.
 
-![Example storefront - translated customer sign in]({% link images/images/storefront-translate-inline-customer-sign-in.png %}){: .zoom}
+![Example storefront - translated customer sign in]({% link system/assets/storefront-translate-inline-customer-sign-in.png %}){: .zoom}
 _Customer Sign In_
 
 [1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/frontend-dev-guide/translations/xlate.html

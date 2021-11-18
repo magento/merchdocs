@@ -4,8 +4,8 @@ title: My Orders
 
 Customers have access to all of their orders from their account. Orders can be viewed, filtered, tracked, and resubmitted as new orders. Depending on the status of the order, customers can print their orders, invoices, shipments, and refund records.
 
-![]({% link images/images-b2b/customer-account-dashboard-my-orders.png %}){: .zoom}
-_My Orders_{:.b2b-only}
+![]({% link customers/assets/account-dashboard-my-orders-b2b.png %}){: .zoom}
+_My Orders_
 
 {:.b2b-only}
 ## Filter orders
@@ -26,7 +26,7 @@ Your initial _My Orders_ results also contain matching orders from subordinate u
 
 Find the order in the list and click **View Order**. From the open order, do any of the following:
 
-![]({% link images/images-ee/customer-account-order-items-ordered.png %}){: .zoom}
+![]({% link customers/assets/customer-account-order-items-ordered.png %}){: .zoom}
 _View Order_
 
 ### Reorder
@@ -55,7 +55,7 @@ The customer can re-add products to the cart by selecting the products and click
 
    - **Print Invoice**
 
-   ![]({% link images/images-ee/customer-account-order-invoices.png %}){: .zoom}
+   ![]({% link customers/assets/customer-account-order-invoices.png %}){: .zoom}
    _Invoices_
 
 1. Use the Print dialog to complete the printing.
@@ -68,7 +68,7 @@ The customer can re-add products to the cart by selecting the products and click
 
    - **Print Shipment**
 
-   ![]({% link images/images-ee/customer-account-order-shipments.png %}){: .zoom}
+   ![]({% link customers/assets/customer-account-order-shipments.png %}){: .zoom}
    _Print All Shipments_
 
 1. Use the Print dialog to complete the printing.

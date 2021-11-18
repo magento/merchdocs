@@ -17,7 +17,7 @@ You can drag a heading from the _Elements_ section of the Page Builder panel to 
 
 ## Heading editor
 
-![]({% link images/images-ee/page-builder-elements-heading-toolbar.png %}){: .zoom}
+![]({% link cms/assets/pb-elements-heading-toolbar.png %}){: .zoom}
 _Heading editor with toolbar_
 
 ## Heading container toolbox
@@ -41,14 +41,14 @@ _Heading container toolbox_
 
 1. In the Page Builder panel, expand **Elements** and drag a **Heading** placeholder to a row, column, or tab set on the stage.
 
-   ![]({% link images/images-ee/page-builder-elements-heading-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-heading-drag.png %}){: .zoom}
    _Dragging a heading to the stage_
 
 1. In the editor, enter the heading text over the `Edit Heading Text` placeholder.
 
    By default, the heading text is assigned a level two (H2) heading type.
 
-   ![]({% link images/images-ee/page-builder-elements-header-editor-placeholder.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-header-editor-placeholder.png %}){: .zoom}
    _Placeholder in the heading editor_
 
 1. In the toolbar, choose the appropriate heading type between H1 and H6.
@@ -117,22 +117,22 @@ For a formatted heading with specific settings, it is more efficient to duplicat
 
    The duplicate appears just below the original.
 
-   ![]({% link images/images-ee/page-builder-elements-heading-duplicate.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-heading-duplicate.png %}){: .zoom}
    _Duplicating a heading container_
 
 1. Hover over the new heading container to display the toolbox and choose the _Move_ (![]({% link images/images-ee/icon-pb-move.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-elements-heading-move.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-heading-move.png %}){: .zoom}
    _Moving a heading_
 
 1. Select and drag the heading until the red guideline marks the new position.
 
    The top and bottom borders of each container appear as dashed lines while the heading is moved.
 
-   ![]({% link images/images-ee/page-builder-elements-heading-move-guideline.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-heading-move-guideline.png %}){: .zoom}
    _Moving the duplicated heading into position_
 
 1. If you need to change the heading level, click the heading text and choose the new level in the editor toolbar.
 
-   ![]({% link images/images-ee/page-builder-elements-heading-change-heading-level.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-heading-change-heading-level.png %}){: .zoom}
    _Choosing a new heading Level_

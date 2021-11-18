@@ -44,7 +44,7 @@ The label you give a recommendation affects how a shopper interprets the content
 
 |Recommendation Type|Recommended Storefront Labels|
 |---|---|
-|Most viewed<br> Most added to cart<br>Most purchased|Most popular<br>Trending<br>Popular right now<br>Recently popular<br>Popular items inspired by this item (PDP)<br>Top sellers|
+|Most viewed<br> Most added to cart<br>Most purchased<br>Conversion (view to cart)<br>Conversion (view to purchase)|Most popular<br>Popular items<br>Trending<br>Popular right now<br>Recently popular<br>Popular items inspired by this item (PDP)<br>Top sellers<br>You might be interested in|
 |Recommended for you|Just for you<br>Recommended for you<br>Inspired by your shopping trends|
 |Viewed This, Viewed That|Customers who viewed this item also viewed<br>Customers also viewed<br>Related items|
 |Viewed This, Bought That|Customers who viewed this ultimately bought<br>Customers ultimately purchased<br>What do others buy after viewing this item?|
@@ -52,3 +52,4 @@ The label you give a recommendation affects how a shopper interprets the content
 |More Like This|More items like this<br>Similar to this|
 |Generic|You may also like<br>Shoppers also liked<br>Similar options<br>Related items|
 |Trending|Trending<br>Trending now<br>Recently trending<br>Hot items<br>Trending related products (PDP)|
+|Recently viewed|Recently viewed<br>Take another look|

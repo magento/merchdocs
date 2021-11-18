@@ -21,7 +21,7 @@ You must have the following resources available to complete the Amazon Pay setup
 
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 
-1. If needed, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Other Payment Methods** section.
+1. If needed, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Other Payment Methods** section.
 
 1. For _Amazon Pay_, click <span class="btn">Configure</span>.
 
@@ -43,7 +43,7 @@ Your credentials are transferred automatically from your Amazon Pay account to t
 
 1. Get your test credentials for the Amazon Pay Sandbox.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Credentials** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Credentials** section.
 
    ![Sales configuration - Amazon Pay credentials]({% link images/images/config-sales-payment-methods-amazon-pay-credentials.png %}){: .zoom}
    _Amazon Pay credentials_
@@ -84,7 +84,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
 
 ## Options
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Options** section.
 
 1. Set **Enable Amazon Pay** to `Yes`.
 
@@ -92,7 +92,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
 
 1. Set **Payment Action** to one of the following:
 
-   | Charge on Shipment | (Default) Amazon receives a capture request and charges the customer when an invoice is created in Magento. |
+   | Charge on Shipment | (Default) Amazon receives a capture request and charges the customer when an invoice is created in Commerce. |
    | Charge on Order | Amazon creates the invoice and charges the customer when the order is placed. |
 
 1. Set **Authorization Mode** to determine the method that is used to transmit authorization data.
@@ -102,7 +102,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
 
 1. Set **Update Mechanism** to one of the following:
 
-   | Data Polling via Cron job | (Default) Uses the standard Magento notification process that is scheduled by [Cron]({% link system/cron.md %}) job. |
+   | Data Polling via Cron job | (Default) Uses the standard Commerce notification process that is scheduled by [Cron]({% link system/cron.md %}) job. |
    | Instant Payment Notifications | (IPN) Sends notifications to the Instant Payment Notification URL. |
 
    ![Sales configuration - Amazon Pay options]({% link images/images/config-sales-payment-methods-amazon-pay-options.png %}){: .zoom}
@@ -114,7 +114,7 @@ The following are advanced setup and configuration options for Amazon Pay.
 
 ### Frontend
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Frontend** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Frontend** section.
 
 1. (Optional) If your store is available in multiple languages, you can display the text on the Amazon Pay button in a different language for each [store view]({% link stores/websites-stores-views.md %}).
 
@@ -155,7 +155,7 @@ The following are advanced setup and configuration options for Amazon Pay.
 
 ### Sales Options
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Sales Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Sales Options** section.
 
 1. Enter the **Store Name**.
 
@@ -182,12 +182,12 @@ The following are advanced setup and configuration options for Amazon Pay.
    - Swiss Franc (CHF)
    - United States Dollar (USD)
 
-   ![Sales configuration - Amazon Pay multi-currency]({% link images/images/amazon-pay-multi-currency.png %}){: .zoom}
+   ![Sales configuration - Amazon Pay multi-currency]({% link payment/assets/amazon-pay-multi-currency.png %}){: .zoom}
    [_Amazon Pay configuration - Sales Options with multi-currency_]({% link configuration/sales/amazon-pay.md %})
 
 ### Developer Options
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Developer Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Developer Options** section.
 
 1. Make sure that **Logging** is set to `Yes`.
 

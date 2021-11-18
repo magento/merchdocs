@@ -32,7 +32,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Email Template||Determines the template used for the Gift Registry Sharing email that is sent when a gift registry is created. When the owner clicks the Share Gift Registry button, the email is sent to each recipient. Default template: Gift Registry Sharing|
+|Email Template|Store View|Determines the template used for the Gift Registry Sharing email that is sent when a gift registry is created. When the owner clicks the Share Gift Registry button, the email is sent to each recipient. Default template: Gift Registry Sharing|
 |Email Sender|Store View|Identifies the [store contact]({% link stores/store-email-addresses.md %}) that appears as the sender of the Gift Registry Sharing email. Default value: General Contact|
 |Maximum Sent Emails Threshold|Store View|The maximum number of Gift Registry Sharing email notification messages that can be sent at one time.|
 

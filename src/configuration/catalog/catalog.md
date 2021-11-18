@@ -18,7 +18,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Product Reviews
 
-![]({% link images/images/config-catalog-catalog-product-reviews.png %}){: .zoom}
+![]({% link configuration/assets/product-reviews.png %}){: .zoom}
 [_Product Reviews_]({% link marketing/product-reviews.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -50,7 +50,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 ## Product Alerts
 
 ![]({% link images/images/config-catalog-catalog-product-alerts.png %}){: .zoom}
-[_Product Alerts_]({% link configuration/scope.md %})
+[_Product Alerts_]({% link catalog/inventory-product-alerts.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -115,7 +115,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 ## Price
 
 ![]({% link images/images-ee/config-catalog-catalog-price.png %}){: .zoom}
-_[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
+_[Price]({% link catalog/catalog-price-scope.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -127,10 +127,10 @@ _[Price]({% link catalog/catalog-price-scope.md %})_{:.ee-only}
 {:.bs-callout-info}
 The standard search configuration described in this section differs for [Live Search]({% link live-search/overview.md %}).
 
-![]({% link images/images/config-catalog-catalog-layered-navigation-automatic-equalize-price-ranges.png %}){: .zoom}
+![]({% link configuration/assets/automatic-equalize-price-range.png %}){: .zoom}
 [_Layered Navigation - Automatic (equalize price ranges)_]({% link catalog/navigation-layered-configuration.md %})
 
-![]({% link images/images/config-catalog-catalog-layered-navigation-equalize-product-counts.png %}){: .zoom}
+![]({% link configuration/assets/equalize-product-counts.png %}){: .zoom}
 [_Layered Navigation - Automatic (equalize product counts)_]({% link catalog/navigation-layered-configuration.md %})
 
 ![]({% link images/images/config-catalog-catalog-layered-navigation-manual.png %}){: .zoom}
@@ -164,7 +164,7 @@ The standard search configuration described in this section differs for [Live Se
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Popular Search Terms|Store View|Determines if Popular Search Terms is implemented in the store. Options: Enable / Disable|
+|Popular Search Terms|Store View|Determines if _Popular Search Terms_ is implemented in the store. This setting does not apply to stores that use [Live Search]({% link live-search/overview.md %}). Options: Enable / Disable|
 |Product URL Suffix|Store View|Determines if a suffix, such as html or htm, is applied to product URLs. If used, do not include a period before the suffix, because it is applied automatically.|
 |Category URL Suffix|Store View|Determines if a suffix, such as html or htm, is applied to category URLs. If used, do not include a period before the suffix, because it is applied automatically.|
 |Use Categories Path for Product URLs|Store View|Determines if category paths are included in product URLs. Doing so can cause multiple URLs to point to the same page, which might impact search rank. To learn more, see: [Canonical Meta Tag]({% link marketing/meta-canonical.md %}).|
@@ -188,9 +188,9 @@ The standard search configuration described in this section differs for [Live Se
 {:.bs-callout-info}
 The standard search configuration described in this section differs for [Live Search]({% link live-search/overview.md %}).
 
-Adobe Commerce supports several versions of Elasticsearch.
+Adobe Commerce and Magento Open Source support several versions of Elasticsearch.
 
-![]({% link images/images/config-catalog-catalog-search-elasticsearch.png %}){: .zoom}
+![]({% link configuration/assets/search-elasticsearch.png %}){: .zoom}
 [Catalog Search]({% link catalog/search-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -205,6 +205,8 @@ Adobe Commerce supports several versions of Elasticsearch.
 |Elasticsearch Server Port|Global|Specifies the number of the server port used by Elasticsearch. Default value: `9200`|
 |Elasticsearch Index Prefix|Global|Assigns a prefix to identify the Elasticsearch index. Default value: `magento2`|
 |Enable Elasticsearch HTTP Auth|Global|If enabled, uses HTTP authentication to prompt for a username and password before accessing Elasticsearch Server. Options: Yes / No|
+|Elasticsearch HTTP Username|Global|When _Enable Elasticsearch HTTP Auth_ is set to `Yes`, specifies the username for Elasticsearch HTTP authentication.|
+|Elasticsearch HTTP Password|Global|When _Enable Elasticsearch HTTP Auth_ is set to `Yes`, specifies the password for Elasticsearch HTTP authentication.|
 |Elasticsearch Server Timeout|Global|Determines the number of seconds before the server times out. Default value: `15`|
 |Test Connection||Validates the Elasticsearch connection.|
 |Enable Search Recommendations|Store View|Determines if search recommendations are offered when a search returns no results and appear under the `Related search terms` section on the **Search results** page. Options: Yes / No <br/>When set to Yes, additional options display for Search Recommendations Count and Shows Results Count for Each Recommendation.|

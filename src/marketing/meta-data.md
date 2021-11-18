@@ -4,14 +4,14 @@ title: Meta Data
 
 Your store is loaded with places where you can enter keyword-rich meta data to improve the way search engines index your site. While setting up your store, you might enter preliminary meta data, with the intention of finishing it later. Over time, you can fine-tune the meta data to target the buying patterns and preferences of your customers.
 
-![Example storefront - meta title]({% link images/images/storefront-home-page-meta-title.png %}){: .zoom}
+![Example storefront - meta title]({% link marketing/assets/storefront-home-page-meta-title.png %}){: .zoom}
 _Web Browser - Meta Title_
 
 ## Meta Title
 
 The meta title appears in the title bar and tab of your browser and search results listings. The meta title should be unique to the page, and less than seventy characters in length.
 
-![Product settings - search engine optimization]({% link images/images/product-basic-settings-search-engine-optimization-yoga-strap.png %}){: .zoom}
+![Product settings - search engine optimization]({% link marketing/assets/product-basic-settings-search-engine-optimization-yoga-strap.png %}){: .zoom}
 
 ## Meta Keywords
 

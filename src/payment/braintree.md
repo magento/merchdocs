@@ -58,7 +58,7 @@ Go to [Braintree Payments][1] and sign up for an account.
       - Public Key
       - Private Key
 
-     ![Basic Settings]({% link images/images/config-sales-payment-methods-braintree-basic-settings-part1.png %}){: .zoom}
+     ![Basic Settings]({% link payment/assets/braintree-settings1.png %}){: .zoom}
      Basic Settings
 
    - Set **Enable this Solution** to `Yes`.
@@ -67,12 +67,12 @@ Go to [Braintree Payments][1] and sign up for an account.
 
    - If you want the ability to store customer information securely, so customers don't have to reenter it each time they make a purchase, set **Vault Enabled** to `Yes`.
 
-     ![Basic Settings]({% link images/images/config-sales-payment-methods-braintree-basic-settings-part2.png %}){: .zoom}
+     ![Basic Settings]({% link payment/assets/braintree-settings2.png %}){: .zoom}
      _Basic Settings_
 
 ## Step 3: Complete the advanced settings
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Advanced Braintree Settings** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Braintree Settings** section.
 
 1. For **Vault Title**, enter a descriptive title for your reference that identifies the vault where your customer card information is stored.
 
@@ -94,7 +94,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. For **Sort Order**, enter a number to determine the sequence in which Braintree appears when listed with other payment methods during checkout.
 
-   ![Advanced Settings]({% link images/images/config-sales-payment-methods-braintree-advanced.png %}){: .zoom}
+   ![Advanced Settings]({% link payment/assets/braintree-advanced.png %}){: .zoom}
    _Advanced Settings_
 
 ## Step 4: Complete the country specific settings
@@ -104,7 +104,7 @@ Go to [Braintree Payments][1] and sign up for an account.
    |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
    |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.|
 
-   ![Country-Specific Settings]({% link images/images/config-sales-payment-methods-braintree-country-specific-settings.png %}){: .zoom}
+   ![Country-Specific Settings]({% link payment/assets/braintree-country-settings.png %}){: .zoom}
    _Country-Specific Settings_
 
 1. To set up **Country Specific Credit Card Types**:
@@ -152,7 +152,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. To display the PayPal button on both the mini shopping cart and shopping cart page, set **Display on Shopping Cart** to `Yes`.
 
-   ![PayPal through Braintree Settings]({% link images/images/config-sales-payment-methods-braintree-paypal.png %}){: .zoom}
+   ![PayPal through Braintree Settings]({% link payment/assets/braintree-paypal.png %}){: .zoom}
    _PayPal through Braintree Settings_
 
 ## Step 6: Complete the 3D verification settings
@@ -168,7 +168,7 @@ Go to [Braintree Payments][1] and sign up for an account.
    |**All Allowed Countries** |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method.|
    |**Specific Countries** |After choosing this option, the Payment from Specific Countries list appears. Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.|
 
-   ![3D verification settings]({% link images/images/config-sales-payment-methods-braintree-3d-verification-settings.png %}){: .zoom}
+   ![3D verification settings]({% link payment/assets/braintree-3d-settings.png %}){: .zoom}
    _3D verification settings_
 
 ## **Step 7:** Dynamic descriptors

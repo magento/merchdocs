@@ -6,14 +6,14 @@ redirect_from:
 
 The media browser on the product page displays multiple images, video, or swatches related to the product. Each thumbnail can show a different view or variation of the product. Click a thumbnail to browse through the media assets. Although the position of the media browser varies by theme, the default position is just below the main image on the product page. For accessibility controls, see [Keyboard Navigation]({% link catalog/navigation-accessibility.md %}).
 
-![]({% link images/images/storefront-thumbnail-gallery.png %}){: .zoom}
+![]({% link catalog/assets/storefront-thumbnail-gallery.png %}){: .zoom}
 _Media Browser_
 
 ## Image zoom
 
 If the [base image]({% link catalog/product-image-upload.md %}) is large enough to create the zoom effect, customers can view a magnified portion of the image on mouseover. When zoom is activated, customers can click the main image and move the cursor around to magnify different parts of the image. The magnified selection appears to the right of the image.
 
-![]({% link images/images/storefront-image-zoom.png %}){: .zoom}
+![]({% link catalog/assets/storefront-image-zoom.png %}){: .zoom}
 _Image Zoom_
 
 ## Light boxes and sliders

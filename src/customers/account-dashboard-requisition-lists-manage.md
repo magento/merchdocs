@@ -5,7 +5,7 @@ title: Managing Requisition Lists
 
 The primary reason to maintain a requisition list is to make it easy to reorder products. Items from a requisition list can be easily added to the shopping cart, moved, or copied from one list to another.
 
-![]({% link images/images-b2b/customer-account-my-requisition-lists.png %}){: .zoom}
+![]({% link customers/assets/account-dashboard-my-requisition-lists.png %}){: .zoom}
 _My Requisition Lists_
 
 ## View a requisition list
@@ -25,13 +25,13 @@ _My Requisition Lists_
 
 1. To change any product options, do the following:
 
-   - In the line item, click **Edit** (![]({% link images/images/btn-edit.png %})).
+   - In the line item, click **Edit** (![]({% link assets/icon-edit-pencil.png %})).
    - Change any options that are necessary.
    - Click **Update Requisition List**.
 
 1. Click <span class="btn">Add to Cart</span>.
 
-   ![]({% link images/images-b2b/requisition-list-view.png %}){: .zoom}
+   ![]({% link customers/assets/requisition-list-view.png %}){: .zoom}
    _Requisition List Detail_
 
 ### Copy items to a different list
@@ -66,20 +66,20 @@ Adobe Commerce will generate and download a CSV list with `sku` and `qty` values
 
 1. Verify the output device, and click <span class="btn">Print</span>.
 
-   ![]({% link images/images-b2b/requisition-list-print.png %}){: .zoom}
+   ![]({% link customers/assets/requisition-list-print.png %}){: .zoom}
    _Print Requisition List_
 
 ### Edit product options
 
 To edit a product options in the list, do the following:
 
-1. Click the _Pencil_  (![]({% link images/images/btn-edit.png %})) icon to open the product page.
+1. Click the _Pencil_  (![]({% link assets/icon-edit-pencil.png %})) icon to open the product page.
 
 1. Change any options that are necessary.
 
 1. Click **Update Requisition List**.
 
-   ![]({% link images/images-b2b/update-requisition-list.png %}){: .zoom}
+   ![]({% link customers/assets/requisition-list-update.png %}){: .zoom}
    _Update Requisition List_
 
 A product in the Requisition List may be edited if:
@@ -108,7 +108,7 @@ A product in the Requisition List may be edited if:
 
 1. Click <span class="btn">Save</span>.
 
-   ![]({% link images/images-b2b/customer-company-requisition-list-rename.png %}){: .zoom}
+   ![]({% link customers/assets/requisition-list-rename.png %}){: .zoom}
    _Rename Requisition List_
 
 ### Remove a requisition list

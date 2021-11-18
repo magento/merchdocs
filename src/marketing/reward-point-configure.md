@@ -14,7 +14,7 @@ The Reward Points configuration determines how reward points are presented in th
 
 1. In the left panel, expand **Customers** and choose **Reward Points**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Reward Points** section. Then, do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Reward Points** section. Then, do the following:
 
     - To activate reward points, set **Enable Reward Points Functionality** to `Yes`.
 
@@ -47,7 +47,7 @@ The Reward Points configuration determines how reward points are presented in th
 
 In this step, the number of reward points that can be earned for various customer activities is specified. When customers complete an action that has points assigned, a message appears to the customer that indicates how many points they have earned.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Actions for Acquiring Reward Points by Customer** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Actions for Acquiring Reward Points by Customer** section and do the following:
 
     ![Customers configuration - actions for acquiring reward points by customer]({% link images/images-ee/config-customers-reward-points-actions-for-acquiring.png %}){: .zoom}
     [_Actions for Acquiring Reward Points by Customer_]({% link configuration/customers/reward-points.md -%})
@@ -62,7 +62,11 @@ In this step, the number of reward points that can be earned for various custome
 
     - Enter a number in the **Invitation to Customer Conversions Quantity Limit** field to limit the number of invitation conversions that can be used to earn points for the customer who sends the invitation (blank for no limit).
 
-    - In the **Invitation Conversion to Order Reward** field, enter the number of points earned by a customer sending an invitation when the recipient places an initial order.
+1. For **Converting Invitation to Order**, enter the number of points earned by a customer who sends an invitation to the recipient who then places an order. Then, do the following:
+
+    - In the **Invitation to Order Conversions Quantity Limit** field, enter the number of points earned by the customer sending the invitation when the recipient places an initial order (blank for no limit).
+
+    - In the **Invitation Conversion to Order Reward** dropdown select the `Each` option to earn points for each placed by recipient order, or select the `First` option to earn points only for the first placed order by the recipient.
 
 1. For **Review Submission**, enter the number of points earned by a customer who submits a review that is approved for publication.
 
@@ -72,7 +76,7 @@ In this step, the number of reward points that can be earned for various custome
 
 ## Step 3. Complete the Email Notification Settings
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Email Notification Settings** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Email Notification Settings** section and do the following:
 
     ![Customers configuration - reward points email notifications]({% link images/images-ee/config-customers-reward-points-email-notification-settings.png %}){: .zoom}
     [Email Notification Settings]({% link configuration/customers/reward-points.md -%})

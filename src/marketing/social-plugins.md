@@ -3,9 +3,9 @@ title: Adding Social Plugins
 group: content
 ---
 
-Social networking sites have a numerous plugins that can easily be added to your store. In addition, there are many extensions on the Magento Marketplace that can be used to integrate your store with social media. The following example shows how to add a Facebook “Like” button to your store.
+Social networking sites have a numerous plugins that can easily be added to your store. In addition, there are many extensions on the Commerce Marketplace that can be used to integrate your store with social media. The following example shows how to add a Facebook “Like” button to your store.
 
-![Facebook social plugins]({% link images/images/facebook-plugins.png %}){: .zoom}
+![Facebook social plugins]({% link marketing/assets/facebook-plugins.png %}){: .zoom}
 _Facebook Plugins_
 
 ## Step 1. Get the Button Code
@@ -25,7 +25,7 @@ _Facebook Plugins_
 
 1. Click <span class="btn">Get Code</span> to copy the generated code to the clipboard.
 
-   ![Facebook - Like button setup]({% link images/images/facebook-like-button-setup.png %}){: .zoom}
+   ![Facebook - Like button setup]({% link marketing/assets/facebook-like-button-setup.png %}){: .zoom}
    _Like Button Setup_
 
 ## Step 2. Create a Content Block
@@ -40,7 +40,7 @@ _Facebook Plugins_
 
 1. Assign a unique **Identifier** to the block, using all lowercase characters, and underscores instead of spaces. For example: `facebook_like_button`.
 
-1. If your Magento installation has multiple store views, choose each **Store View** where the block is to be available.
+1. If your Commerce instance has multiple store views, choose each **Store View** where the block is to be available.
 
 1. Add the code snippet to the block content, depending on your content tool:
 

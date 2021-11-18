@@ -8,14 +8,17 @@ Checkout consists of two steps:
 
    The first step of the checkout process is for the customer to complete the shipping address information, and to choose the shipping method. If the customer has an account, the shipping address is entered automatically, but can be changed if needed.
 
-   ![Example storefront checkout page]({% link images/images/storefront-checkout-shipping-full.png %}){: .zoom}
+   ![Example storefront checkout page]({% link quick-tour/assets/storefront-checkout-shipping-full.png %}){: .zoom}
    _Checkout page (Shipping)_
 
 1. Review and Payment Information
 
    The second step of the checkout process is for the customer to choose the payment method and optionally apply a  discount code.
 
-   ![Example storefront checkout page]({% link images/images/storefront-checkout-payment-full.png %}){: .zoom}
+   {:.bs-callout-info}
+   Although Commerce allows configuring multiple coupon codes, a customer may apply only one coupon code to the cart. (See the [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}) for more information.)
+
+   ![Example storefront checkout page]({% link quick-tour/assets/storefront-checkout-payment-full.png %}){: .zoom}
    _Checkout page (Review & Payments)_
 
 The progress bar at the top of the page follows each step of the checkout process, and the Order Summary shows the information entered up to this point.

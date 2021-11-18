@@ -24,8 +24,8 @@ sections:
     content: Review the information available for many of the extensions developed and released by Adobe. Understand the functionality for each of these extensions and link to installation instructions and detailed configuration information.
     url: /magento/magento-extensions.html
 
-  - title: Magento Marketplace
-    content: Learn about the Magento Marketplace, our next generation application store that offers merchants a curated selection of eCommerce solutions. It offers a selection of extensions that are available for free, as well as those that are for sale.
+  - title: Commerce Marketplace
+    content: Learn about the Commerce Marketplace, our next generation application store that offers merchants a curated selection of eCommerce solutions. It offers a selection of extensions that are available for free, as well as those that are for sale.
     url: /magento/magento-extensions.html
 ---
 

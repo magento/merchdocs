@@ -4,7 +4,7 @@ title: Image Placeholders
 
 Adobe Commerce and Magento Open Source use temporary images as placeholders until the permanent product images become available. A different placeholder can be uploaded for each role. The initial placeholder image is a sample logo, which you can replace with the image of your choice.
 
-![]({% link images/images/storefront-image-placeholder.png %}){: .zoom}
+![]({% link catalog/assets/storefront-image-placeholder.png %}){: .zoom}
 _Image Placeholder_
 
 ## Upload placeholder images
@@ -13,7 +13,7 @@ _Image Placeholder_
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![Expansion icon]({% link images/images/btn-expand.png %}) the _Product Image Placeholders_ section.
+1. Expand ![Expansion icon]({% link assets/icon-display-expand.png %}) the _Product Image Placeholders_ section.
 
 1. For each image role, click <span class="btn">Choose File</span>, find the image on your computer, and upload the file.
 

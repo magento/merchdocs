@@ -11,7 +11,7 @@ _Tier Pricing_
 
 The following example exports tier pricing data for a single product. Then, you can use the exported data as a template for bulk imports of tier price data. To learn more about exporting advanced pricing data, see [Advanced Pricing Data]({% link system/data-advanced-price.md %}).
 
-![Product tiered pricing]({% link images/images/price-tier-customer-group-discount.png %}){: .zoom}
+![Product tiered pricing]({% link system/assets/price-tier-customer-group-discount.png %}){: .zoom}
 _Tiered Pricing_
 
 ### Tier pricing
@@ -24,7 +24,7 @@ _Tiered Pricing_
 
     - For tier prices that are based on a discount percentage, enter the SKU of each product to be exported, separated by a comma.
 
-        ![Data export - product SKUs]({% link images/images/price-tier-export-sku.png %}){: .zoom}
+        ![Data export - product SKUs]({% link system/assets/price-tier-export-sku.png %}){: .zoom}
         _SKU(s) to Export_
 
     - For tier prices that are based on a fixed amount, enter the SKU of each product.
@@ -33,7 +33,7 @@ _Tiered Pricing_
 
 1. Locate the export file at the downloads location for your web browser and open the file.
 
-    ![Example - exported customer group discount tier price data]({% link images/images/price-tier-customer-group-discount-export.png %}){: .zoom}
+    ![Example - exported customer group discount tier price data]({% link system/assets/price-tier-customer-group-discount-export.png %}){: .zoom}
     _Exported Customer Group Tier Price Data_
 
 ### Exported tier price data

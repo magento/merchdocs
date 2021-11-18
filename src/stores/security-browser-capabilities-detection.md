@@ -7,7 +7,7 @@ Like most websites and applications on the Internet, Adobe Commerce and Magento 
 - If the browser’s privacy settings disallow cookies, you can configure the system to automatically redirect them to the [Enable Cookies]({% link cms/pages-core.md %}) page, which explains how to make the recommended settings with most browsers.
 - If the browser’s privacy settings disallow JavaScript, you can configure the system to display the following message above the header of every page.
 
-For technical information, see [Supported browsers][1]{:target="_blank"} in the developer documentation.
+For technical information, refer to [Supported browsers]({{ site.devdocs_url }}/guides/v{{ site.version }}/install-gde/system-requirements.html#supported-browsers) in the developer documentation.
 
 ## Configure browser capabilities detection
 
@@ -15,7 +15,7 @@ For technical information, see [Supported browsers][1]{:target="_blank"} in the 
 
 1. In the panel on the left under _General_, choose **Web**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Browser Capabilities Detection** section and do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Browser Capabilities Detection** section and do the following:
 
    - To display instructions that explain how to configure the browser to allow cookies, set **Redirect to CMS-page if Cookies are Disabled** to `Yes`.
 
@@ -25,5 +25,3 @@ For technical information, see [Supported browsers][1]{:target="_blank"} in the 
     _Browser Capabilities Detection_
 
 1. When complete, click <span class="btn">Save Config</span>.
-
-[1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/install-gde/system-requirements_browsers.html

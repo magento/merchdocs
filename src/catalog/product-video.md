@@ -34,7 +34,7 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Product Video_ section and paste your **YouTube API key**.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Product Video_ section and paste your **YouTube API key**.
 
     ![]({% link images/images/config-catalog-catalog-product-video.png %}){: .zoom}
     _Product Video_
@@ -51,7 +51,7 @@ To add product video, you must first obtain an API Key from your Google account 
 
     If you haven’t yet configured your YouTube API key, click <span class="btn">OK</span> to continue. You won’t be able to link to a YouTube video, but you can go through the process.
 
-    ![]({% link images/images/product-video-add.png %}){: .zoom}
+    ![]({% link catalog/assets/product-video-add.png %}){: .zoom}
     _Add Video_
 
 1. Enter the **URL** of the YouTube or Vimeo video.
@@ -76,7 +76,7 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. When complete, click <span class="btn">Save</span>.
 
-    ![]({% link images/images/product-video-new-with-data.png %}){: .zoom}
+    ![]({% link catalog/assets/product-video-new-with-data.png %}){: .zoom}
     _New Video_
 
 ## Field reference

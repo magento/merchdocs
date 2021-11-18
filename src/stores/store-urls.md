@@ -28,7 +28,7 @@ Adobe Commerce and Magento Open Source can be configured to deliver all pages ov
 
 1. Under _General_ in the left panel, choose **Web**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Base URL** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the **Base URL** section.
 
    - **Base URL** — Enter the fully qualified base URL for your store. Make sure to end the URL with a forward slash, so it can be extended with additional URL Keys from your store. For example: `http://yourdomain.com/`
 
@@ -57,7 +57,7 @@ Adobe Commerce and Magento Open Source can be configured to deliver all pages ov
 
 If your domain has a valid security certificate, you can configure the URLs of both the storefront and Admin to transmit data over a secure (https) channel. Without a valid security certificate, your store cannot operate with secure (SSL/TLS) protocol.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the _Base URLs (Secure)_ section. Then, do the following:
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the _Base URLs (Secure)_ section. Then, do the following:
 
     ![General configuration - secure base URLs]({% link images/images/config-general-web-base-urls-secure.png %}){: .zoom}
     [_Base URLs (Secure)_]({% link configuration/general/web.md %})
@@ -81,7 +81,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 1. For _Enhanced Security Settings_, do the following:
 
-    ![General configuration - URL enhanced security]({% link images/images/config-general-web-base-urls-secure-hsts.png %}){: .zoom}
+    ![General configuration - URL enhanced security]({% link stores/assets/config-general-web-base-urls-secure-hsts.png %}){: .zoom}
     _Enhanced Security_
 
    - **Enable HTTP Strict Transport Security (HSTS)** — If you want your store to display only secure HTTPS page requests, set to `Yes`.
@@ -98,7 +98,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 1. Under _General_ in the left panel, choose **Web**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **URL Options** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the **URL Options** section.
 
 1. Set **Add Store Code** to your preference:
 

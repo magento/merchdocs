@@ -14,7 +14,7 @@ The enhanced security scan allows you to monitor each of your Adobe Commerce and
 
 The Security scan tool is available for free from the dashboard of your [Commerce account]({% link magento/magento-account.md %}). For technical information, see [Go live and launch][1] in our developer documentation.
 
-![]({% link images/images/magento-security-scan.png %}){: .zoom}
+![]({% link magento/assets/magento-security-scan.png %}){: .zoom}
 _Security scan tool_
 
 ## Run a security scan
@@ -30,7 +30,7 @@ _Security scan tool_
 
     If you have multiple sites with different domains, you must configure a separate scan for each domain.
 
-    ![]({% link images/images/magento-security-scan-monitored-websites.png %}){: .zoom}
+    ![]({% link magento/assets/monitored-website.png %}){: .zoom}
     _Monitored Sites_
 
 1. To verify your ownership of the site domain by adding a confirmation code, do one of the following:
@@ -41,17 +41,17 @@ _Security scan tool_
    - Click **Generate Confirmation Code**.
    - Click **Copy** to copy your confirmation code to the clipboard.
 
-      ![]({% link images/images/magento-security-scan-add-site1.png %}){: .zoom}
+      ![]({% link magento/assets/scan-site1.png %}){: .zoom}
       _Generate Confirmation Code_
 
    - Log in to the Admin of your store as a user with full Administrator privileges and do the following:
 
       - In the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
       - Find your site in the list, and click **Edit**.
-      - Expand ![]({% link images/images/btn-expand.png %}) the **HTML Head** section.
+      - Expand ![]({% link assets/icon-display-expand.png %}) the **HTML Head** section.
       - Scroll down to **Scripts and Style Sheets** and click in the text box at the end of any existing code and paste the confirmation code into the text box.
 
-         ![]({% link images/images/magento-security-scan-paste-confirmation-code.png %}){: .zoom}
+         ![]({% link magento/assets/scan-paste-code.png %}){: .zoom}
          _Scripts and Style Sheets_
 
       - When complete, click **Save Configuration**.
@@ -64,7 +64,7 @@ _Security scan tool_
 
    - Click **Copy** to copy the generated confirmation code META Tag to the clipboard.
 
-      ![]({% link images/images/magento-security-scan-add-site2.png %}){: .zoom}
+      ![]({% link magento/assets/scan-site2.png %}){: .zoom}
       _Generate Confirmation Code_
 
    - Go to the PWA studio storefront project directory and do the following:
@@ -72,7 +72,7 @@ _Security scan tool_
       - Under the PWA studio project directory, go to packages > venia-concept > template.html.
       - Add the copied confirmation code (the generated META Tag) to the HTML head and save the changes.
 
-         ![]({% link images/images/magento-security-scan-code-PWA.png %}){: .zoom}
+         ![]({% link magento/assets/code-pwa.png %}){: .zoom}
          _Copy Confirmation Code_
 
       - Go back to the PWA studio CLI, and use yarn to install project dependencies and run the project build command.
@@ -104,7 +104,7 @@ _Security scan tool_
    - Choose the **Week Day**, **Time**, and **Time Zone** that the scan is to take place each week.
    - By default, the scan is scheduled to begin each week at midnight Saturday, UTC, and continue to early Sunday.
 
-        ![]({% link images/images/magento-security-scan-weekly.png %})
+        ![]({% link magento/assets/scan-weekly.png %})
         _Scan Weekly_
 
    **Scan Daily**:
@@ -112,12 +112,12 @@ _Security scan tool_
    - Choose the **Time**, and **Time Zone** that the scan is to take place each day.
    - By default, the scan is scheduled to begin each day at midnight, UTC.
 
-        ![]({% link images/images/magento-security-scan-daily.png %})
+        ![]({% link magento/assets/scan-daily.png %})
         _Scan Daily_
 
 1. Enter the **Email Address** where you want to receive notifications of completed scans and security updates.
 
-    ![]({% link images/images/magento-security-scan-notifications-email.png %})
+    ![]({% link magento/assets/scan-notification-email.png %})
     _Email Address_
 
 1. When complete, click **Submit**.

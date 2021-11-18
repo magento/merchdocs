@@ -4,7 +4,7 @@ title: All Customers
 
 The Customers grid lists all customers who have registered for an account with your store or were added by the administrator. Use the standard [grid controls]({% link stores/admin-grid-controls.md %}) to filter the list and adjust the column layout. To learn more, see [Managing Customer Accounts]({% link customers/customer-account-manage.md %}).
 
-![]({% link images/images-b2b/customers-all-grid.png %}){: .zoom}
+![]({% link customers/assets/customer-accounts-all-grid.png %}){: .zoom}
 _All Customers_
 
 ## View customer information
@@ -57,7 +57,7 @@ _All Customers_
 These columns are available by changing the [column layout]({% link stores/admin-grid-controls.md %}) of the grid.
 
 {: .fields-table }
-|Company|The company name of the customer.|
+|<span class="b2b-only">Company</span>|The company name of the customer.|
 |Street Address|The street address of the customer.|
 |City|The city where the customer is located.|
 |Fax|The fax number of the customer, if applicable.|

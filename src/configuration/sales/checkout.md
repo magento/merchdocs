@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## Checkout Options
 
 ![]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
-_[Checkout Options]({% link sales/checkout-options.md %})_{:.ee-only}
+_[Checkout Options]({% link sales/checkout-options.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -21,7 +21,7 @@ _[Checkout Options]({% link sales/checkout-options.md %})_{:.ee-only}
 
 ## Shopping Cart
 
-![]({% link images/images-b2b/config-sales-checkout-shopping-cart.png %}){: .zoom}
+![]({% link images/images/config-sales-checkout-shopping-cart.png %}){: .zoom}
 _[Shopping Cart]({% link sales/cart-configuration.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

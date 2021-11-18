@@ -4,7 +4,7 @@ title: Live Search Settings
 tag: live-search
 group: marketing
 ---
-Use the _Settings_ tab to configure the price facet ranges and intervals that appear as search filters in the storefront. Price facet settings are static rather than dynamic, and are not based on search results.
+Use the _Settings_ tab to configure the price facet ranges and intervals that are available as search filters in the storefront. Price facet settings are static rather than dynamic, and are not based on search results.
 
 You can specify the number of price range groups and how price values are distributed among them. Each price range overlaps the previous group by one. For example, five groups with an interval of twenty creates the following price ranges: 0-20, 20-40, 40-60, 60-80, and >80. If there aren't enough products in the catalog to fill all defined ranges, the display of the available groups is adjusted accordingly.  For example: 0-20, 60-80, >80.
 

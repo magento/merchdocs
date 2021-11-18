@@ -8,16 +8,16 @@ From the _Images and Videos_ section, you can perform basic image management tas
 
 1. Open the product in edit mode.
 
-1. Scroll down and expand ![]({% link images/images/btn-expand.png %}) the _Images and Videos_ section.
+1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the _Images and Videos_ section.
 
-    ![]({% link images/images/product-simple-images-videos.png %}){: .zoom}
+    ![]({% link catalog/assets/product-simple-images-videos.png %}){: .zoom}
     _Images and Videos_
 
 1. If you are ready to add a product image, do one of the following:
 
-    - Drag an image from your desktop and drop it on the **camera** (![]({% link images/images/btn-camera.png %})) tile.
+    - Drag an image from your desktop and drop it on the **camera** (![]({% link assets/icon-camera.png %})) tile.
 
-    - Click the **camera** (![]({% link images/images/btn-camera.png %})) tile, select the image file, and click <span class="btn">Open</span>.
+    - Click the **camera** (![]({% link assets/icon-camera.png %})) tile, select the image file, and click <span class="btn">Open</span>.
 
 A [placeholder]({% link catalog/product-image-placeholders.md %}) image appears in the catalog until a product image is available.
 
@@ -25,7 +25,7 @@ A [placeholder]({% link catalog/product-image-placeholders.md %}) image appears 
 
 As you add product images, you can customize the display in the  customize the display in the _Image Detail_ window.
 
- ![]({% link images/images/image-video.png %}){: .zoom}
+ ![]({% link catalog/assets/image-video.png %}){: .zoom}
     _Product images_
 
 To set image displaying options for a product:

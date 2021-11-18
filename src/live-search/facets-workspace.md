@@ -35,9 +35,9 @@ If your Adobe Commerce installation includes multiple store views, set **Scope**
 
 |Column |Description |
 |--- |--- |
-|Name |The label of the facet that is visible in the storefront. |
-|Select type | The selection method that is used to choose a facet value from the storefront. Options: Multi-select (and), Multi-select (or), Single-select |
-|Sort type |The sorting order of facet values. Options: Alphabetical, Count |
+|Lists pinned and dynamic facets by the [label]({% link live-search/facets-type.md %}) that is visible to the shopper. |
+|Select type | The [selection method]({% link live-search/facets-type.md %}) that is assigned to the corresponding product attribute. The `single select` type is used for all Commerce storefronts. For headless implementations, `multi-select` type can be assigned with a logical operator (`or` or `and`) to determine the set of products returned.|
+|Sort type |The [sorting order]({% link live-search/facets-type.md %}) of facet values. Facets are sorted alphabetically for all Commerce storefronts. For [headless] implementations, facets can be sorted either alphabetically or by count. Options: Alphabetical, Count (headless only)|
 |Max value |The number of facet values that are available in the storefront as filters, with a maximum of 10. |
 
 ## Controls
@@ -46,6 +46,3 @@ If your Adobe Commerce installation includes multiple store views, set **Scope**
 |--- |--- |
 |Add facets| Opens the [facet]({% link live-search/facets-add.md %}) editor.|
 |Filter by |Determines the [type of facets]({% link live-search/facets-type.md %}) that appear in the list. Options: All, Pinned, Dynamic |
-|![Move selector]({% link live-search/assets/btn-move.png %})|Changes the order of pinned facets at the top of the Filters list. |
-|![Pin selector]({% link live-search/assets/btn-pin-blue.png %}) |Pins or unpins a facet to the top of the filters list. The pin is blue for a pinned facet and gray for an unpinned facet. Options: Blue (pinned), gray (unpinned)|
-|![More selector]({% link live-search/assets/btn-more.png %})|Displays a menu of more actions that can be applied to the selected facet. Options: Edit, Delete |

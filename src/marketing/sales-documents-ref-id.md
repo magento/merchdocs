@@ -4,7 +4,7 @@ title: Adding Reference IDs to Header
 
 The Order ID and customer IP address can be included in the header of sales documents that accompany an order. By default, both the Order ID and customer IP address appear in the header of invoices, shipment packing slips, and credit memos.
 
-![Sales configuration - PDF print-outs]({% link images/images/config-sales-pdf-print-outs.png %}){: .zoom}
+![Sales configuration - PDF print-outs]({% link marketing/assets/config-sales-pdf-print-outs.png %}){: .zoom}
  [_PDF Print-outs_]({% link configuration/sales/pdf-print-outs.md -%})
 
 ## Change the Order ID Setting
@@ -13,7 +13,7 @@ The Order ID and customer IP address can be included in the header of sales docu
 
 1. In the left panel, expand **Sales** and choose **PDF Print-outs**.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Invoice** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Invoice** section.
 
     ![Sales configuration - PDF print-outs invoice]({% link images/images/config-sales-pdf-print-outs-invoce.png %}){: .zoom}
     [_Invoice_]({% link configuration/sales/pdf-print-outs.md -%})
@@ -30,7 +30,7 @@ The Order ID and customer IP address can be included in the header of sales docu
 
 1. In the left panel, expand **Sales** and choose **Sales** underneath.
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General** section.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General** section.
 
     ![Sales configuration - general sales settings]({% link images/images/config-sales-sales-general.png %}){: .zoom}
     [_General_]({% link configuration/sales/sales.md -%})

@@ -6,7 +6,7 @@ Before you begin, make sure that you understand exactly what the redirect should
 
 If [automatic redirects]({% link marketing/url-redirect-product-automatic.md %}) are enabled for your store, there is no need to create a rewrite when a product [URL Key]({% link catalog/catalog-urls.md %}) is changed.
 
-![URL rewrites - product]({% link images/images/url-rewrite-product.png %}){: .zoom}
+![URL rewrites - product]({% link marketing/assets/url-rewrite-product.png %}){: .zoom}
 _Add URL Rewrite for Product_
 
 {% include url-rewrite-skip.md %}
@@ -41,18 +41,16 @@ If you are not sure, open each product page in your store, and copy the path fro
 
 1. In the upper-right corner of the URL Rewrites page, click <span class="btn">Add URL Rewrite</span>.
 
-1. When you return to the URL Rewrites page, click <span class="btn">Add URL Rewrite</span>.
-
 1. Set **Create URL Rewrite** to `For product`.
 
 1. In the grid, find the product that is the target (destination) of the redirect and click the row.
 
-    ![Product URL rewrite]({% link images/images/url-rewrite-product-grid.png %}){: .zoom}
+    ![Product URL rewrite]({% link marketing/assets/url-rewrite-product-grid.png %}){: .zoom}
     _Add URL Rewrite for a Product_
 
 1. Below the category tree, click <span class="btn">Skip Category Selection</span>. For this example, the redirect does not include a category.
 
-    ![Product URL rewrite - skip category selection]({% link images/images/url-rewrite-skip-category-selection.png %}){: .zoom}
+    ![Product URL rewrite - skip category selection]({% link marketing/assets/url-rewrite-skip-category-selection.png %}){: .zoom}
     _Skip Category Selection_
 
     The Add URL Rewrite for a Product page displays a link to the target in the upper-left corner, and the Target Path field displays the system version of the path, which cannot be changed. Initially, the Redirect Path field also displays the target path.
@@ -71,7 +69,7 @@ If you are not sure, open each product page in your store, and copy the path fro
 
    - For your own reference, enter a brief **Description** of the rewrite.
 
-    ![Product URL rewrite - information]({% link images/images/url-rewrite-product-permanent-301.png %}){: .zoom}
+    ![Product URL rewrite - information]({% link marketing/assets/url-rewrite-product-permanent-301.png %}){: .zoom}
     _URL Rewrite Information_
 
 1. Before saving the redirect, review the following:
@@ -83,7 +81,7 @@ If you are not sure, open each product page in your store, and copy the path fro
 
     The new product rewrite now appears at the top of the URL Rewrites grid.
 
-    ![Product URL rewrite - saved]({% link images/images/url-rewrite-product-saved.png %}){: .zoom}
+    ![Product URL rewrite - saved]({% link marketing/assets/url-rewrite-product-saved.png %}){: .zoom}
     _URL Rewrite Saved_
 
 ## Step 3. Test the Result

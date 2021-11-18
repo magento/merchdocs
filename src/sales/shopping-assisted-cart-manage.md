@@ -5,7 +5,7 @@ title: Managing a Shopping Cart
 
 To begin an assisted shopping session, the customer must be logged into their account from the storefront to make the information available. If the customer does not have an account, you can [create one]({% link customers/account-create.md %}).
 
-![]({% link images/images-ee/customer-account-manage-cart-items.png %}){: .zoom}
+![]({% link sales/assets/customer-account-manage-cart-items.png %}){: .zoom}
 _Shopping Cart in in the customer account_
 
 ### Actions control
@@ -42,17 +42,17 @@ _Shopping Cart in in the customer account_
 
    In the customer profile under _Personal Information_, the _Last Logged In_ date and time shows that the customer is currently online.
 
-   ![]({% link images/images-ee/customer-account-manage-cart.png %}){: .zoom}
+   ![]({% link sales/assets/customer-account-manage-cart.png %}){: .zoom}
    _Customer profile of an online customer_
 
 1. To enter assisted shopping mode, click **Manage Shopping Cart** in the top button bar.
 
-   ![]({% link images/images-ee/customer-manage-shopping-cart.png %}){: .zoom}
+   ![]({% link sales/assets/customer-manage-shopping-cart.png %}){: .zoom}
    _Assisted shopping mode_
 
 ## Add products to cart by attribute
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Products** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Products** section.
 
 1. Find a product to add using any of the filters at the top of each column.
 
@@ -70,12 +70,12 @@ _Shopping Cart in in the customer account_
 
 1. On the left above the grid, click **Add selections to my cart**.
 
-   ![]({% link images/images-ee/customer-account-manage-cart-order-products.png %}){: .zoom}
+   ![]({% link sales/assets/customer-account-manage-cart-order-products.png %}){: .zoom}
    _Add Product to Cart_
 
    The line item is added to the Shopping Cart at the top of the page.
 
-   ![]({% link images/images-ee/customer-account-manage-cart-update-cart.png %}){: .zoom}
+   ![]({% link sales/assets/customer-account-manage-cart-update-cart.png %}){: .zoom}
    _Cart Updated_
 
 ### Add a product with configuration
@@ -84,7 +84,7 @@ There are three types of products that need to be configured before adding to th
 
 1. In the grid, click **Configure** next to the product name.
 
-   ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product.png %}){: .zoom}
+   ![]({% link sales/assets/customer-account-manage-cart-order-configurable-product.png %}){: .zoom}
    _Configure_
 
 1. In the _Associated Products_ dialog, choose each product option to describe the item to be ordered, enter the **Quantity**, and click <span class="btn">OK</span>.
@@ -93,7 +93,7 @@ There are three types of products that need to be configured before adding to th
 
 1. To add the product to the cart, click **Add selections to my cart**.
 
-   ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product-cart.png %}){: .zoom}
+   ![]({% link sales/assets/customer-account-manage-cart-order-configurable-product-cart.png %}){: .zoom}
    _Configurable product in the cart_
 
 1. Update product options in the cart if needed:
@@ -104,7 +104,7 @@ There are three types of products that need to be configured before adding to th
 
 ## Add product by SKU
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Add to Shopping Cart by SKU** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Add to Shopping Cart by SKU** section.
 
 1. Add products individually by **SKU** or add products by uploading a CSV file.
 
@@ -140,7 +140,7 @@ There are three types of products that need to be configured before adding to th
 
 You can transfer items to the cart from a customer's wish list, as well as recently viewed, compared, or ordered items. The number of items in each section appears in parentheses after the section header.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) one of the following sections:
+1. Expand ![]({% link assets/icon-display-expand.png %}) one of the following sections:
 
    - Wish List
    - Products in the Comparison List
@@ -158,7 +158,7 @@ You can transfer items to the cart from a customer's wish list, as well as recen
 
    - For **Apply Coupon Code**, enter a valid coupon code.
 
-   - Click the _Apply_ (![]({% link images/images/btn-apply.png %})) arrow.
+   - Click the _Apply_ (![]({% link assets/icon-apply-arrow.png %})) arrow.
 
 1. Adjust the quantity ordered as needed:
 

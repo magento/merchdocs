@@ -1,6 +1,7 @@
 ---
-ee_only: true
 title: Most viewed
+tag: product-recommendations
+ee_only: true
 ---
 
 The _Most viewed_ recommendation type recommends items most viewed within the last seven days.

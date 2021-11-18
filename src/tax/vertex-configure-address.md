@@ -2,9 +2,9 @@
 title: Configuring Storefront Address Cleansing
 ---
 
-Your [Vertex Cloud account]({% link tax/vertex-account.md %}) also includes the Vertex Address Cleansing module. When this functionality is enabled for your Magento store, the storefront prompts the customer to correct the address information on both the shipping and billing steps of the one-page checkout and when the customer adds an address to their account.
+Your [Vertex Cloud account]({% link tax/vertex-account.md %}) also includes the Vertex Address Cleansing module. When this functionality is enabled for your store, the storefront prompts the customer to correct the address information on both the shipping and billing steps of the one-page checkout and when the customer adds an address to their account.
 
-![]({% link images/images/tax-vertex-cloud-address-verify-store.png %}){: .zoom}
+![]({% link tax/assets/tax-vertex-cloud-address-verify-store.png %}){: .zoom}
 _Address message for correction_
 
 {:.bs-callout-info}
@@ -28,7 +28,7 @@ To enable Vertex address cleansing for the storefront:
 
 1. Verify and accept the default value for **Address Validation API URL**.
 
-   This connects the integration with Vertex Cloud. The value should match the URL displayed in your _Vertex Connectors_ page for the Magento connector in the _Address Lookup URL_ field.
+   This connects the integration with Vertex Cloud. The value should match the URL displayed in your _Vertex Connectors_ page for the Commerce connector in the _Address Lookup URL_ field.
 
 1. Leave the **Trusted ID**, which is populated from your Vertex Tax configuration.
 

@@ -4,14 +4,14 @@ title: Video
 
 Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [Vimeo][2] to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). It’s easy to embed video in a page or block, as well as in product and category descriptions.
 
-![]({% link images/images-ee/page-builder-storefront-video.png %}){: .zoom}
+![]({% link cms/assets/pb-storefront-video.png %}){: .zoom}
 _Video on the storefront home page_
 
 {% include page-builder-save-timeout.md %}
 
 ## Video toolbox
 
-![]({% link images/images-ee/page-builder-media-video-toolbox.png %}){: .zoom}
+![]({% link cms/assets/pb-media-video-toolbox.png %}){: .zoom}
 _Video toolbox_
 
 |Tool|Icon|Description|
@@ -34,7 +34,7 @@ _Video toolbox_
 
 1. In the Page Builder panel, expand **Media** and drag a **Video** placeholder to the stage.
 
-   ![]({% link images/images-ee/page-builder-media-video-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-video-drag.png %}){: .zoom}
    _Dragging a video placeholder to the stage_
 
 1. Hover over the video container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
@@ -132,12 +132,12 @@ _Video toolbox_
 
 1. Hover over the video container to display the toolbox and choose the _Move_ (![]({% link images/images-ee/icon-pb-move.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-media-video-toolbox-move-col1.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-video-toolbox-move-col1.png %}){: .zoom}
    _Moving a video_
 
 1. Select and drag the video to the new position, just below the red guideline.
 
-   ![]({% link images/images-ee/page-builder-media-video-toolbox-move-col2.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-video-toolbox-move-col2.png %}){: .zoom}
    _Using the red guideline to place the video_
 
 ## Remove a video from the stage

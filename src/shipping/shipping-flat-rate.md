@@ -13,7 +13,7 @@ Flat rate is a fixed, predefined charge that can be applied per item, or per shi
 
 1. In the left panel, expand **Sales** and choose **Delivery Methods**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **Flat Rate** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **Flat Rate** section.
 
 1. Set **Enabled** to `Yes`.
 
@@ -54,6 +54,11 @@ Flat rate is a fixed, predefined charge that can be applied per item, or per shi
 
    | All Allowed Countries | Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this delivery method. |
    | Specific Countries | When you choose this option, the _Ship to Specific Countries_ list appears. Select each country in the list where this delivery method can be used. |
+
+1. Set **Show Method if Not Applicable**:
+
+   - `Yes` – Always shows the Flat Rate method, even when not applicable.
+   - `No` – Shows the Flat Rate method only when applicable.
 
 1. For **Sort Order**, enter a number to determine the sequence in which Flat Rate Shipping appears when listed with other delivery methods during checkout.
 

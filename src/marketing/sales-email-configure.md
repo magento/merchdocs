@@ -4,7 +4,7 @@ title: Sales Email
 
 A number of email messages are triggered by the events related to an order, and the configuration is similar. You must identify the store contact that appears as the sender of the message, the email template to be used, and anyone else who is to receive a copy of the message. Sales emails can be sent when triggered by an event, or by predetermined interval.
 
-![Sales configuration - sales emails]({% link images/images/config-sales-sales-email-full.png %}){: .zoom}
+![Sales configuration - sales emails]({% link marketing/assets/config-sales-sales-email-full.png %}){: .zoom}
 [_Sales Emails_]({% link configuration/sales/sales-emails.md -%})
 
 ## Step 1. Update the Email Templates
@@ -17,7 +17,7 @@ Make sure to update the [email header]({% link marketing/email-template-header.m
 
 1. In the left panel, expand **Sales** and choose **Sales Emails**.
 
-1. If necessary, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **General Settings** section.
+1. If necessary, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General Settings** section.
 
     ![Sales configuration - sales email general settings]({% link images/images/config-sales-sales-emails-general-settings.png %}){: .zoom}
     [_General Settings_]({% link configuration/sales/sales.md -%})
@@ -31,7 +31,7 @@ Make sure to update the [email header]({% link marketing/email-template-header.m
 
 ## Step 3. Complete the Details for Each Sales Email Message
 
-1. If necessary, expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order** section and do the following:
+1. If necessary, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Order** section and do the following:
 
     ![Sales configuration - sales emails order]({% link images/images/config-sales-sales-emails-order.png %}){: .zoom}
     [_Order_]({% link configuration/sales/sales-emails.md -%})
@@ -51,7 +51,7 @@ Make sure to update the [email header]({% link marketing/email-template-header.m
         | `Bcc` | Sends a _blind courtesy copy_ by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer.|
         | `Separate Email` | Sends the copy as a separate email.|
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}) the **Order Comments** section and repeat these steps.
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Order Comments** section and repeat these steps.
 
     ![Sales configuration - Sales emails order comments]({% link images/images/config-sales-sales-emails-order-comments.png %}){: .zoom}
     [_Order Comments_]({% link configuration/sales/sales-emails.md -%})

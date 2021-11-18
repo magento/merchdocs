@@ -4,7 +4,7 @@ title: User Roles
 
 To give someone restricted access to the Admin, the first step is to create a role that has the appropriate level of permissions. After the role is saved, you can add new users and assign the restricted role to grant them limited access to the Admin.
 
-![Admin - user roles]({% link images/images/permissions-role-grid.png %})
+![Admin - user roles]({% link system/assets/permissions-role-grid.png %})
 
 ## Define a role
 
@@ -18,7 +18,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
 1. Under _Current User Identity Verification_, enter **Your Password**.
 
-    ![System permissions - role information]({% link images/images/system-permissions-role-info.png %}){: .zoom}
+    ![System permissions - role information]({% link system/assets/permissions-role-info.png %}){: .zoom}
     _Role Name_
 
 ### Step 2: Assign resources
@@ -33,7 +33,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
    <span class="ee-only"></span>If set to `Custom` for a multisite installation, select the checkbox of the website and store where the role is to be used.
 
-    ![User role resources - custom scope]({% link images/images/permissions-role-scope-custom.png %}){: .zoom}
+    ![User role resources - custom scope]({% link system/assets/permissions-role-scope-custom.png %}){: .zoom}
     _Custom Role Scope_
 
 1. Under _Roles Resources_, set **Resource Access** to `Custom`.
@@ -42,7 +42,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
     To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default [shipping point of origin]({% link shipping/point-of-origin.md %}), you must allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
 
-    ![Assigned user role resources]({% link images/images/system-permissions-role-resources-product.png %}){: .zoom}
+    ![Assigned user role resources]({% link system/assets/permissions-role-resources-product.png %}){: .zoom}
     _Role Resources Assigned_
 
     {:.bs-callout-info}
@@ -72,7 +72,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
 1. Click <span class="btn">Save Role</span>.
 
-    ![User accounts assigned to the role]({% link images/images/permissions-role-users.png %}){: .zoom}
+    ![User accounts assigned to the role]({% link system/assets/permissions-role-users.png %}){: .zoom}
     _Role Users_
 
 ## Edit a role

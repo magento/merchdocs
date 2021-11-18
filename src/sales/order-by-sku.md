@@ -5,10 +5,10 @@ title: Order by SKU
 
 Order by SKU is a [widget]({% link cms/widgets.md %}) that can be displayed in the store as a convenience for all shoppers, or made available to only those in specific customer groups. Shoppers can either enter the SKU and quantity information directly into the Order by SKU block, or upload a csv file from their customer account. Regardless of the configuration, Order by SKU is always available to store administrators.
 
-![]({% link images/images/storefront-order-by-sku.png %}){: .zoom}
+![]({% link sales/assets/storefront-order-by-sku.png %}){: .zoom}
 _Order by SKU in the Storefront_
 
-## To order by SKU from the storefront:
+## Order by SKU from the storefront
 
 1. In the _Order by SKU_ block, enter the **SKU** and **Qty** of the item to be ordered.
 
@@ -16,7 +16,7 @@ _Order by SKU in the Storefront_
 
 1. Click **Add to Cart**.
 
-## To order by SKU from a customer account:
+## Order by SKU from a customer account
 
 1. From the storefront, log in to your customer account.
 
@@ -28,7 +28,7 @@ _Order by SKU in the Storefront_
 
        - Enter the **SKU** and **Qty** of the item to be ordered.
 
-       - To add additional items as needed, click **Add Row** ![]({% link images/images/btn-add-row.png %}){: .Inline} and repeat for as many items as necessary.
+       - To add additional items as needed, click **Add Row** ![]({% link assets/button-add-item.png %}) and repeat for as many items as necessary.
 
     - Upload a CSV file of multiple items to be ordered, do the following:
 
@@ -38,15 +38,15 @@ _Order by SKU in the Storefront_
 
        - Click **Add to Cart**.
 
-## To configure Order by SKU:
+## Configure order by SKU
 
 1. On the _Admin_ sidebar, click **Stores**.
 
-1. In the _Settings_ section, choose **Configure**.
+1. In the _Settings_ section, choose **Configuration**.
 
 1. In the _Sales_ section in the left panel, choose **Sales**.
 
-1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the _Order by SKU Settings_ section.
+1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the _Order by SKU Settings_ section.
 
 1. Set **Enable Order by SKU on my Account in Storefront** to one of the following:
 
@@ -59,14 +59,14 @@ _Order by SKU in the Storefront_
 
 1. Click **Save Config**.
 
-   {:.bs-callout-info}
-   To enable the **Order by SKU** function, disable the **Quick Order** function.
+{:.bs-callout-info}
+To enable the **Order by SKU** function, disable the **Quick Order** function.
 
 1. Go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel under _General_, choose **B2B Features**
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the **B2B Features** section.
+1. Expand ![]({% link assets/icon-display-expand.png %}) the **B2B Features** section.
 
 1. Set **Enable Quick Order** to `No`.
 

@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## External Dynamic Url
 
-![]({% link images/images/config-engagement-cloud-dynamic-content-external-dynamic-urls.png %}){: .zoom}
+![]({% link configuration/assets/ec-external-dynamic-urls.png %}){: .zoom}
 _External Dynamic Url_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -42,7 +42,7 @@ _External Dynamic Url_
 
 ## Dynamic Products
 
-![]({% link images/images/config-engagement-cloud-dynamic-content-dynamic-products.png %}){: .zoom}
+![]({% link configuration/assets/ec-dynamic-products.png %}){: .zoom}
 _Dynamic Products_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -74,7 +74,7 @@ _Dynamic Products_
 
 ## Manual Product Push
 
-![]({% link images/images/config-engagement-cloud-dynamic-content-manual-product-push.png %}){: .zoom}
+![]({% link configuration/assets/ec-manual-product-push.png %}){: .zoom}
 _Manual Product Push_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -87,7 +87,7 @@ _Manual Product Push_
 
 ## Fallback Products
 
-![]({% link images/images/config-engagement-cloud-dynamic-content-fallback-products.png %}){: .zoom}
+![]({% link configuration/assets/ec-fallback-products.png %}){: .zoom}
 _Fallback Products_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

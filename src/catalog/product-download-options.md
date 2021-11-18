@@ -8,7 +8,7 @@ The downloadable configuration settings determine the default values and deliver
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
 
-1. Expand ![]({% link images/images/btn-expand.png %}) the _Downloadable Product Options_ section and do the following:
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Downloadable Product Options_ section and do the following:
 
     ![]({% link images/images/config-catalog-catalog-downloadable-product-options.png %}){: .zoom}
     [_Downloadable Product Options_]({% link configuration/catalog/catalog.md %})
@@ -27,7 +27,7 @@ The downloadable configuration settings determine the default values and deliver
 
    - For **Default Sample Title**, enter the heading that you want to appear above the selection of samples.
 
-      ![]({% link images/images/product-downloadable-config-sample-title.png %}){: .zoom}
+      ![]({% link catalog/assets/product-downloadable-config-sample-title.png %}){: .zoom}
       _Sample Title_
 
    - For **Default Link Title**, enter the default text that you want to use for download links.
