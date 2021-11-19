@@ -10,7 +10,7 @@ In addition to the security settings in this section, [Two-factor authentication
 
 For technical information, see [Security overview][3]{:target="_blank"} in the developer documentation.
 
-![]({% link images/images/config-advanced-admin-security.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-security.png %}){: .zoom}
 [_Security_]({% link configuration/advanced/admin.md %})
 
 ## Configure Admin security

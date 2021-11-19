@@ -25,7 +25,7 @@ Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store ar
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Cron** section.
 
-    ![Advanced configuration - cron tasks]({% link images/images/config-advanced-system-cron.png %}){: .zoom}
+    ![Advanced configuration - cron tasks]({% link configuration/advanced/assets/system-cron.png %}){: .zoom}
     _Cron (Scheduled Tasks)_
 
 1. Complete the following settings for the **Index** and **Default** groups.
@@ -40,7 +40,7 @@ Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store ar
     |**Failure History Lifetime**|Defines the time (in minutes) for which the history of cron jobs with an `Error` status remain in the database.|
     |**Use Separate Process**|Defines whether all cron jobs from the group are run in a separate system process. Options: Yes / No|
 
-    ![Advanced configuration - cron group index]({% link images/images/config-advanced-system-cron-group-index.png %}){: .zoom}
+    ![Advanced configuration - cron group index]({% link configuration/advanced/assets/system-cron-group-index.png %}){: .zoom}
     _Cron Group Index_
 
 1. When complete, click <span class="btn">Save Config</span>.
