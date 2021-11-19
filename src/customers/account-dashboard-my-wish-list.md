@@ -22,6 +22,9 @@ In the storefront, a customer can create a wish list from their account dashboar
 
 1. To allow others to see their wish list, selects the **Public Wish List** checkbox.
 
+    {:.bs-callout-info}
+    The main difference between `Public` and `Private` wishlists is that private wishlists are not searchable through [wishlists]({% link marketing/wishlist-search.md %}#how-to-find-a-customers-wishlist).
+
 1. When complete, click <span class="btn">Save</span>.
 
     ![]({% link customers/assets/account-dashboard-wishlist-create-new.png %}){: .zoom}
