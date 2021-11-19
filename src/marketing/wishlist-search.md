@@ -87,7 +87,7 @@ _Wish list search_
    The **Wish List Search** page will opens, found wishlists are displayed in the search results section.
 
    {:.bs-callout-info}
-    Only public wishlists can be displayed in search results, customer`s privat wishlists are not publicly viewable.
+   Only public wishlists can be displayed in search results, customer`s privat wishlists are not publicly viewable.
 
 1. To view the list of customer wishes, click <span class="btn">View</span>.
 
@@ -96,4 +96,3 @@ _Wish list search_
 1. To add a product to your cart, check the box below the product and click <span class="btn">Add to Cart</span>.
 
    In addition, you can add items you like from another customer's wishlist to your own.
-   
