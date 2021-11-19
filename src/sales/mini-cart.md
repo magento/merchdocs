@@ -10,7 +10,7 @@ The mini cart displays a summary of items in the cart. It is enabled by default,
 _Mini Cart_
 
 {:.bs-callout-info}
-In some cases _registered_ customer Mini Cart may be not synchronized across the multiple devices and browsers automatically. To synchronize your Mini Cart in such cases, just open the [Shopping Cart]({% link sales/cart.md %}) page on that another device or browser.
+For a _registered_ customer, there are cases when the Mini Cart may not be synchronized across the multiple devices and browsers automatically. To synchronize the Mini Cart in such cases, the customer can simply open the [Shopping Cart]({% link sales/cart.md %}) page on that device or browser.
 
 ## Configure the mini cart
 
