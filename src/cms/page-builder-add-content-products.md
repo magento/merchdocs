@@ -32,12 +32,12 @@ The following instructions show how to add a Products list to a block. You can t
 
 | Tool      | Icon          | Description       |
 | --------- | ------------- | ----------------- |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the products container and its content to another position on the stage.  |
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the _Edit Products_ page, where you can choose the products list and change the properties of the container. |
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})| Hides the current products container and its content.  |
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the  hidden products container and its content.  |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the products container and its content.  |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})| Deletes the products container and its content from the stage. |
+| Move      | ![]({% link cms/assets/pb-icon-move.png %}) | Moves the products container and its content to another position on the stage.  |
+| Settings  | ![]({% link cms/assets/pb-icon-settings.png %}) | Opens the _Edit Products_ page, where you can choose the products list and change the properties of the container. |
+| Hide      | ![]({% link cms/assets/pb-icon-hide.png %})| Hides the current products container and its content.  |
+| Show      | ![]({% link cms/assets/pb-icon-show.png %}) | Shows the  hidden products container and its content.  |
+| Duplicate | ![]({% link cms/assets/pb-icon-duplicate.png %}) | Makes a copy of the products container and its content.  |
+| Remove    | ![]({% link cms/assets/pb-icon-remove.png %})| Deletes the products container and its content from the stage. |
 
 ## Create a products list block
 
@@ -53,14 +53,14 @@ The following instructions show how to add a Products list to a block. You can t
 
 1. In the Page Builder panel, expand **Add Content** and drag a **Products** placeholder to the stage.
 
-   ![Add Products content type]({% link images/images-ee/page-builder-add-content-products-drag.png %}){: .zoom}
+   ![Add Products content type]({% link cms/assets/pb-add-content-products-drag.png %}){: .zoom}
    _Adding the Products content type_
 
 ## Configure the products list container
 
-Hover over the empty _Products_ container to display the toolbox and click the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+Hover over the empty _Products_ container to display the toolbox and click the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
-![Products Toolbox]({% link images/images-ee/page-builder-add-content-products-toolbox.png %}){: .zoom}
+![Products Toolbox]({% link cms/assets/pb-add-content-products-toolbox.png %}){: .zoom}
 _Products toolbox_
 
 Complete the _Settings_ according to the following sections:
