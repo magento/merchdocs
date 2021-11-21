@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## General
 
-![]({% link images/images-b2b/config-sales-quotes-general.png %}){: .zoom}
+![]({% link configuration/sales/assets/quotes-general.png %}){: .zoom}
 [_Quotes_]({% link sales/quotes.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -18,7 +18,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Attached Files
 
-![]({% link images/images-b2b/config-sales-quotes-attached-files.png %}){: .zoom}
+![]({% link configuration/sales/assets/quotes-attached-files.png %}){: .zoom}
 [_Attached Files_]({% link sales/quotes.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

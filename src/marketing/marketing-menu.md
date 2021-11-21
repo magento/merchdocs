@@ -4,7 +4,7 @@ title: Marketing Menu
 
 The Marketing menu provides access tools for managing promotions, communications, SEO, and user-generated content.
 
-![Commerce Admin - Marketing menu]({% link images/images-ee/admin-menu-marketing-ee.png %}){: .zoom}
+![Commerce Admin - Marketing menu]({% link marketing/assets/admin-menu-marketing-ee.png %}){: .zoom}
 _Marketing menu_
 
 ## Display the Marketing menu

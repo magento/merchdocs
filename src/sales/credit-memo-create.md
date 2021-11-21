@@ -48,7 +48,7 @@ _Create Credit Memo_
 
 1. Find the order in the grid, and click **View**.
 
-   ![]({% link images/images-ee/orders-grid.png %}){: .zoom}
+   ![]({% link sales/assets/orders-grid.png %}){: .zoom}
    _Orders Grid_
 
 1. If the Credit Memo button is visible in the button bar, do one of the following:
@@ -133,8 +133,8 @@ _Create Credit Memo_
 
 1. In the button bar at the top of the invoice, click **Credit Memo**.
 
-   ![]({% link images/images-b2b/order-account-info-credit-memo.png %}){: .zoom}
-   _Create Credit Memo_{:.b2b-only}
+   ![]({% link sales/assets/order-invoice-info-company.png %}){: .zoom}
+   _Create Credit Memo_
 
 1. Verify the information in the **Items to Refund** section and do the following, if applicable:
 
@@ -173,7 +173,7 @@ _Create Credit Memo_
 
       The status of a credit memo notification appears in the completed credit memo next to the credit memo number.
 
-      ![]({% link images/images-b2b/credit-memo-order-totals.png %}){: .zoom}
+      ![]({% link sales/assets/credit-memo-order-totals.png %}){: .zoom}
       _Refund Totals_
 
 1. To complete the process and issue the refund, click <span class="btn">Refund Offline</span>.

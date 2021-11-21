@@ -47,7 +47,7 @@ This is the actual cost of the item.
 
 ### Customer Group Price
 
-![]({% link images/images-ee/product-pricing-advanced.png %}){: .zoom}
+![]({% link catalog/assets/product-pricing-advanced.png %}){: .zoom}
 _Advanced Pricing_
 
 Sets up promotional and tier prices for specific customer groups.
@@ -64,8 +64,8 @@ Sets up promotional and tier prices for specific customer groups.
 
 Sets up promotional and tier prices for specific shared catalogs and customer groups.
 
-![]({% link images/images-b2b/product-pricing-advanced.png %}){: .zoom}
-_Advanced Pricing_{:.b2b-only}
+![]({% link catalog/assets/product-pricing-promotional-tiered-b2b.png %}){: .zoom}
+_Advanced Pricing_
 
 |Website|Identifies the website where the group price rule applies. This option appears only if the installation has multiple websites.
 **_Important:_** The _Website_ value should also be selected in the [Catalog Price Scope]({% link catalog/catalog-price-scope.md %}) configuration, otherwise the set advanced prices will be displayed for **all** websites.|

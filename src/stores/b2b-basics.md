@@ -8,7 +8,7 @@ redirect_from:
 
 Unlike the standard business-to-consumer model, B2B for Adobe Commerce is designed to meet the needs of merchants whose customers are primarily companies—possibly with complex organizational structures and multiple users with various roles and levels of permission. A typical B2B customer might be the merchant of a retail store, or a buyer making purchases on behalf of a company. In both cases, the transaction takes place between your business and theirs. In addition, you might also sell direct to the consumer. B2B for Adobe Commerce supports both B2B and B2C models.
 
-![Example of company structure]({% link images/images-b2b/diagram-company-structure.png %}){: .zoom}
+![Example of company structure]({% link customers/assets/company-structure-diagram.png %}){: .zoom}
 
 B2B merchants often require capabilities such as:
 

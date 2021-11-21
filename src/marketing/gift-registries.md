@@ -5,7 +5,7 @@ title: Gift Registries
 
 Adobe Commerce gives your customers the ability to create gift registries for special occasions, and to invite their friends and family to purchase their gifts from the gift registry. Adobe Commerce keeps track of all items purchased and the quantities remaining.
 
-![Example storefront - gift registry]({% link images/images-ee/storefront-gift-registry-create-baby-info.png %}){: .zoom}
+![Example storefront - gift registry]({% link marketing/assets/storefront-gift-registry-create-baby-info.png %}){: .zoom}
 _Creating a Baby Gift Registry_
 
 The gift registry owner can add products to the registry from their [customer dashboard]({% link marketing/gift-registry-information.md %}). In addition, products can be transferred from the wish list or cart. The store administrator can view and share customer gift registries, and perform maintenance such as adding items from the customer’s cart, updating quantities, or deleting a gift registry.

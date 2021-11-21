@@ -4,7 +4,7 @@ title: Products in Category
 
 The Products in Category section lists the products that are currently assigned to the category. The search filters at the top of each column are used to add and remove products from the category. You can also use [category rules]({% link catalog/category-product-rules.md %}) (<span class="ee-only"></span>) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}).
 
-![]({% link images/images-ee/category-products-in-category.png %}){: .zoom}
+![]({% link catalog/assets/category-products-in-category.png %}){: .zoom}
 _Category Products_
 
 {:.ee-only}
@@ -14,7 +14,7 @@ _Category Products_
 
    The automatic sorting and condition options appear.
 
-   ![]({% link images/images-ee/category-match-products-by-rule.png %}){: .zoom}
+   ![]({% link catalog/assets/category-match-products-by-rule.png %}){: .zoom}
    _To Match Products by Rule_
 
 1. Set the **Automatic Sorting** order.
@@ -35,7 +35,7 @@ _Category Products_
       - Choose the **Operator** that is needed to form the expression.
       - Enter the **Value** that is to be matched.
 
-      ![]({% link images/images-ee/category-rule-create.png %}){: .zoom}
+      ![]({% link catalog/assets/category-rule-create.png %}){: .zoom}
       _Add Condition to Category Rule_
 
     Repeat this process for each attribute that is needed to describe the condition(s) to be met. For example, to match products that were created between 7 and 30 days ago, do the following:

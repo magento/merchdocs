@@ -4,7 +4,7 @@ title: Processing an Order
 
 When a customer places an order, a sales order is created as a temporary record of the transaction. The sales order has a status of `Pending` until payment is received. While in `Pending` status, orders can be edited or canceled up until the time that payment is received and an invoice is generated. An easy way to think of it is that orders become invoices, and invoices become shipments. The Orders grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}). To learn how to help customers with an order, see [Updating an Order]({% link sales/order-update.md %}).
 
-![]({% link images/images-ee/orders.png %}){: .zoom}
+![]({% link sales/assets/orders-grid.png %}){: .zoom}
 _Orders_
 
 ## View an order
@@ -25,12 +25,12 @@ _Orders_
 
 The left panel for an open order provides access to different types of information that is related to the order.
 
-![]({% link images/images-ee/order-view.png %}){: .zoom}
+![]({% link sales/assets/order-view.png %}){: .zoom}
 _View Order_
 
 Example of an order with an in-store delivery method.
 
-![]({% link images/images-ee/order-view-in-store-delivery.png %}){: .zoom}
+![]({% link sales/assets/order-view-in-store-delivery.png %}){: .zoom}
 _View Order In-store Delivery_
 
 ### Order view descriptions
@@ -86,8 +86,8 @@ Only sales orders that are not invoiced, have a status of `Processing`, and a [p
 
 ## Order and Account Information
 
-![]({% link images/images-b2b/order-and-account-information.png %}){: .zoom}
-_Order and Account Information_{:.b2b-only}
+![]({% link sales/assets/order-account-information.png %}){: .zoom}
+_Order and Account Information_
 
 ### Order information
 
@@ -110,7 +110,7 @@ _Order and Account Information_{:.b2b-only}
 
 ## Address Information
 
-![]({% link images/images-ee/order-address-information.png %}){: .zoom}
+![]({% link sales/assets/order-address-information.png %}){: .zoom}
 _Address Information_
 
 {: .format-table }
@@ -143,8 +143,8 @@ In the **Order Total** section, do the following:
 
 1. If you want the comment to be visible in the customer account, select the **Visible on Storefront** checkbox.
 
-    ![]({% link images/images-b2b/order-total.png %}){: .zoom}
-    _Order Total_{:.b2b-only}
+    ![]({% link sales/assets/order-total.png %}){: .zoom}
+    _Order Total_
 
 1. If you are ready to invoice the order, click **Invoice**. Then follow the instructions to [Create an Invoice]({% link sales/invoice-create.md %}).
 

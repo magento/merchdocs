@@ -16,14 +16,14 @@ A request for a quote cannot include discount codes or gift cards.
 
 1. Clicks **Request a Quote**.
 
-   ![]({% link images/images-b2b/storefront-cart-quote-request.png %}){: .zoom}
+   ![]({% link sales/assets/quote-request-from-cart.png %}){: .zoom}
    _Requesting a quote from the shopping cart_
 
 1. In the **Add your comment** box, enters a brief note that describes the request.
 
 1. Enters a **Quote Name**.
 
-   ![]({% link images/images-b2b/storefront-cart-request-quote-send-request.png %}){: .zoom}
+   ![]({% link sales/assets/quote-request-from-cart-name-comments.png %}){: .zoom}
    _Entering the quote comments and name_
 
 1. If needed, attaches a supporting document or image to the quote:

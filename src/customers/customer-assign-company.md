@@ -20,7 +20,7 @@ If an individual already has a personal account with the store, and later goes t
 
    The system generates a list of all possible matches.
 
-   ![]({% link images/images-b2b/customer-associated-to-company.png %}){: .zoom}
+   ![]({% link customers/assets/company-assign-customer-account.png %}){: .zoom}
    _Associate to Company_
 
 1. In the list, select the company where you want to assign the customer and click <span class="btn">Done</span>.

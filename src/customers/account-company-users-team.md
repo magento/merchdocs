@@ -5,8 +5,8 @@ title: Assigning Users to Teams
 
 When teams and users are first added to the [company structure]({% link customers/account-company-structure.md %}), they are placed at the same level under the company administrator.
 
-![]({% link images/images-b2b/customer-company-users-added.png %}){: .zoom}
-_Company Structure with Users and Teams_
+![]({% link customers/assets/company-users-added.png %}){: .zoom}
+_Company structure with users and teams_
 
 |Control|Description|
 |--- |--- |
@@ -30,9 +30,9 @@ _Company Structure with Users and Teams_
 
 | Icon                                                        | Description                                                    |
 |-------------------------------------------------------------|----------------------------------------------------------------|
-| ![]({% link images/images-b2b/icon-company-admin.png %})    | Represents the company administrator in the company structure. |
-| ![]({% link images/images-b2b/icon-company-team.png %})     | Represents a team in the company structure.                    |
-| ![]({% link images/images-b2b/icon-company-user.png %})     | Represents a user in the company structure.                    |
-| ![]({% link images/images-b2b/icon-company-move.png %})     | Moves a team to another position in the company structure.     |
-| ![]({% link images/images-b2b/icon-company-expand.png %})   | Expands a team in the company structure.                       |
-| ![]({% link images/images-b2b/icon-company-collapse.png %}) | Collapses a team in the company structure.                     |
+| ![]({% link customers/assets/company-icon-admin.png %})     | Represents the company administrator in the company structure. |
+| ![]({% link customers/assets/company-icon-team.png %})      | Represents a team in the company structure.                    |
+| ![]({% link customers/assets/company-icon-user.png %})      | Represents a user in the company structure.                    |
+| ![]({% link customers/assets/company-icon-move.png %})      | Moves a team to another position in the company structure.     |
+| ![]({% link customers/assets/company-icon-expand.png %})    | Expands a team in the company structure.                       |
+| ![]({% link customers/assets/company-icon-collapse.png %})  | Collapses a team in the company structure.                     |

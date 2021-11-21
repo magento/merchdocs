@@ -17,14 +17,14 @@ You can set up the category options separately for each [store]({% link stores/s
 
 1. In the category tree on the left, choose the category that you want to edit.
 
-    ![]({% link images/images-ee/category-workspace.png %}){: .zoom}
+    ![]({% link catalog/assets/category-selected.png %}){: .zoom}
     _Category Tree_
 
 ## Step 2: Sort the products
 
 In the _Products in Category_ section, click the tiles (![]({% link assets/icon-view-tiles.png %})) icon to show the product tiles in a grid. Use either the **Manual** or **Automatic** method to sort the products.
 
-![]({% link images/images-ee/category-products-tiles.png %}){: .zoom}
+![]({% link catalog/assets/category-products-tiles.png %}){: .zoom}
 _Product Tiles_
 
 ### Method 1: Manual sort
@@ -33,7 +33,7 @@ _Product Tiles_
 
 1. Click <span class="btn">Sort</span> to apply the new sort order.
 
-    ![]({% link images/images-ee/category-edit-sort-order.png %}){: .zoom}
+    ![]({% link catalog/assets/category-edit-sort-order.png %}){: .zoom}
     _Sort Order_
 
 1. To save the sort order, click <span class="btn">Save Category</span>.
@@ -44,7 +44,7 @@ _Product Tiles_
 
 1. Set **Match products by rule** (![]({% link assets/toggle-yes.png %})) to `Yes`.
 
-    ![]({% link images/images-ee/category-edit-automatic-sorting.png %}){: .zoom}
+    ![]({% link catalog/assets/category-edit-automatic-sorting.png %}){: .zoom}
     _Match Products by Rule_
 
 1. Set **Automatic Sorting** to your preference.
@@ -57,7 +57,7 @@ _Product Tiles_
 
 1. Click <span class="btn">Add Condition</span> and do the following:
 
-    ![]({% link images/images-ee/category-edit-condition.png %}){: .zoom}
+    ![]({% link catalog/assets/category-edit-condition.png %}){: .zoom}
     _Category Condition_
 
    - Choose the **Attribute** that is the basis of the condition.

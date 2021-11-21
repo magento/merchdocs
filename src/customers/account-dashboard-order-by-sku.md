@@ -21,7 +21,7 @@ Use either or both of the following methods to add products by SKU:
 
 1. Enter the **SKU** and **Qty** of the product.
 
-1. For each additional product that you want to order, click the Add (![]({% link images/images-ee/btn-add-sku.png %}){: width="25px"}) icon. Then enter the **SKU** and **Qty**.
+1. For each additional product that you want to order, click the Add (![]({% link assets/button-add-item.png %}){: width="25px"}) icon. Then enter the **SKU** and **Qty**.
 
 1. When ready, click <span class="btn">Add to Cart</span>.
 

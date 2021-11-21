@@ -14,7 +14,7 @@ With the required [permissions for their role]({% link customers/account-company
 
 To access the approval rules for your company, click **Approval Rules** in the left panel for your customer account.
 
-![]({% link images/images-b2b/storefront-approval-rules.png %}){: .zoom}
+![]({% link customers/assets/approval-rules.png %}){: .zoom}
 _Company Approval Rules_
 
 Depending on the company role and permissions, users may have the option to edit, delete, or view approval rules.
@@ -38,7 +38,7 @@ Using gift cards, store credit, or reward points with online payment methods for
 
 ## Create an approval rule
 
-![]({% link images/images-b2b/storefront-create-approval-rule.png %}){: .zoom}
+![]({% link customers/assets/approval-rules-create.png %}){: .zoom}
 _Creating a new approval rule_
 
 1. Click <span class="btn">Add New Rule<span> to create a new rule.
@@ -79,7 +79,7 @@ Use this rule type to require a PO approval based on the order total, including 
 
 1. Select the currency type and enter the amount.
 
-![]({% link images/images-b2b/storefront-approval-rule-order-total.png %}){: .zoom}
+![]({% link customers/assets/approval-rules-order-total.png %}){: .zoom}
 _Order Total Approval Rule_
 
 ### Shipping cost
@@ -95,7 +95,7 @@ Use this rule type to require a PO approval based on shipping cost, which many c
 
 1. Set the desired shipping amount.
 
-![]({% link images/images-b2b/storefront-approval-rule-shipping-cost.png %}){: .zoom}
+![]({% link customers/assets/approval-rules-shipping-cost.png %}){: .zoom}
 _Shipping Cost Approval Rule_
 
 ### Number of SKUs
@@ -116,7 +116,7 @@ This is five items, but two distinct SKUs.
 
 1. Set the quantity of SKUs.
 
-![]({% link images/images-b2b/storefront-approval-rule-number-skus.png %}){: .zoom}
+![]({% link customers/assets/approval-rules-number-skus.png %}){: .zoom}
 _Number of SKUs Approval Rule_
 
 ### Edit approval rules
