@@ -37,7 +37,7 @@ _Braintree Advanced Settings_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Vault Title|Website|A descriptive title for your reference that identifies the vault where your customer card information is stored.|
-|Merchant Account ID|Store View|The Merchant ID that is to be associated with Braintree transactions from this website. If left blank, the default merchant account from your Braintree account is used.|
+|Merchant Account ID|Website|The Merchant ID that is to be associated with Braintree transactions from this website. If left blank, the default merchant account from your Braintree account is used.|
 |Advanced Fraud Protection|Website|Determines if Braintree’s Advanced Fraud Protection is applied to transactions. Options: Yes / No |
 |Debug|Website|Determines if communications between the Braintree system and your store are recorded in a log file. Options: Yes / No|
 |CVV Verification|Website|Determines if customers are required to provide the three-digit security code from the back of a credit card. Options: Yes / No|
