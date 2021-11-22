@@ -71,7 +71,7 @@ After each export, the export file is placed in the user-defined location, and a
    - For **Local Server**, enter a relative path within the Commerce installation, such as `var/export`. If the Remote storage module is configured, use `import_export/export`.
    - For **Remote FTP server**, enter the full URL and path to the target folder on the destination server.
 
-1. If the **Remote FTP ** server is selected, enter connection credentials to the server and select additional settings:
+1. If the **Remote FTP** server is selected, enter connection credentials to the server and select additional settings:
 
    - For **FTP Host[:Port]**, enter remote FTP host address.
    - For **User Name**, enter the username used to access the remote server.
