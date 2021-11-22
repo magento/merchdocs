@@ -78,21 +78,21 @@ _Wish list search_
 
 1. When prompted, refresh all invalid caches.
 
-## How to find a customer's wishlist
+## Find a customer's wishlist
 
-1. From the Wish List Search widget select a search option.
+1. From the Wish List Search widget, select a search option.
 
 1. Enter the customer's name or email address and click <span class="btn">Search</span>.
 
-   The **Wish List Search** page will opens, found wishlists are displayed in the search results section.
+   The **Wish List Search** page opens and any matching wishlists are displayed in the search results section.
 
    {:.bs-callout-info}
-   Only public wishlists can be displayed in search results, customer`s privat wishlists are not publicly viewable.
+   Only public wishlists are displayed in search results---customers' private wishlists are not publicly viewable.
 
 1. To view the list of customer wishes, click <span class="btn">View</span>.
 
-   For each customer's wishlist displays the owner name and the date of the last wishlist update.
+   The owner name and the date of the last update is displayed for each wishlist.
 
-1. To add a product to your cart, check the box below the product and click <span class="btn">Add to Cart</span>.
+1. To add a product to your cart, select the checkbox below the product and click <span class="btn">Add to Cart</span>.
 
-   In addition, you can add items you like from another customer's wishlist to your own.
+   You can also add items you like from another customer's wishlist to your own.
