@@ -26,7 +26,7 @@ _Popular Search Terms_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-![Catalog configuration - search engine optimization]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
+![Catalog configuration - search engine optimization]({% link configuration/catalog/assets/catalog-search-engine-optimization.png %}){: .zoom}
 [_Search Engine Optimization_]({% link configuration/catalog/catalog.md %})
 
 {:.bs-callout-info}

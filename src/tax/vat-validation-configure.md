@@ -68,7 +68,7 @@ Create the [tax rules]({% link tax/tax-rules.md %}) that you need to use VAT IDÂ
 
    In the following example, the general customer settings that are not related to VAT Validation are dimmed.
 
-   ![]({% link images/images/config-customers-customer-configuration-create-new-account-options-vat.png %}){: .zoom}
+   ![]({% link configuration/customers/assets/customer-configuration-create-new-account-options-vat.png %}){: .zoom}
    [_Create New Account Options_]({% link configuration/customers/customer-configuration.md %})
 
 1. Set **Enable Automatic Assignment to Customer Group** to `Yes` and complete the following fields as needed.

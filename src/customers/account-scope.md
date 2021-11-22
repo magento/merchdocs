@@ -13,7 +13,7 @@ The scope of customer accounts can be limited to the website where the account w
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Account Sharing Options** section.
 
-   ![]({% link images/images/config-customers-customer-configuration-account-sharing-options.png %}){: .zoom}
+   ![]({% link configuration/customers/assets/customer-configuration-account-sharing-options.png %}){: .zoom}
    [_Account Sharing Options_]({% link configuration/customers/customer-configuration.md %})
 
 1. Set **Share Customer Accounts** to one of the following:

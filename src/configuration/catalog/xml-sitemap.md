@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Categories Options
 
-![]({% link images/images/config-catalog-xml-sitemap-categories-options.png %}){: .zoom}
+![]({% link configuration/catalog/assets/xml-sitemap-categories-options.png %}){: .zoom}
 [_Categories Options_]({% link marketing/sitemap-xml-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -16,7 +16,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Products Options
 
-![]({% link images/images/config-catalog-xml-sitemap-products-options.png %}){: .zoom}
+![]({% link configuration/catalog/assets/xml-sitemap-products-options.png %}){: .zoom}
 [_Products Options_]({% link marketing/sitemap-xml-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -27,7 +27,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## CMS Pages Options
 
-![]({% link images/images/config-catalog-xml-sitemap-cms-pages-options.png %}){: .zoom}
+![]({% link configuration/catalog/assets/xml-sitemap-cms-pages-options.png %}){: .zoom}
 [_CMS Pages Options_]({% link marketing/sitemap-xml-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -44,7 +44,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Generation Settings
 
-![]({% link images/images/config-catalog-xml-sitemap-generation-settings.png %}){: .zoom}
+![]({% link configuration/catalog/assets/xml-sitemap-generation-settings.png %}){: .zoom}
 [_Generation Settings_]({% link marketing/sitemap-xml-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -58,7 +58,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Sitemap File Limits
 
-![]({% link images/images/config-catalog-xml-sitemap-sitemap-file-limits.png %}){: .zoom}
+![]({% link configuration/catalog/assets/xml-sitemap-sitemap-file-limits.png %}){: .zoom}
 [_Sitemap File Limits_]({% link marketing/sitemap-xml-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -68,7 +68,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Search Engine Submission Settings
 
-![]({% link images/images/config-catalog-xml-sitemap-search-engine-submission-settings.png %}){: .zoom}
+![]({% link configuration/catalog/assets/xml-sitemap-search-engine-submission-settings.png %}){: .zoom}
 [_Search Engine Submission Settings_]({% link marketing/sitemap-xml-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

@@ -13,7 +13,7 @@ The behavior and display of product relationship rules is determined by the conf
 
 1. Expand ![Expansion]({% link assets/icon-display-expand.png %}) the **Rules-Based Product Relations** section and do the following:
 
-    ![Catalog configuration - rule-based product relations]({% link images/images/config-catalog-catalog-rule-based-product-relations.png %}){: .zoom}
+    ![Catalog configuration - rule-based product relations]({% link configuration/catalog/assets/catalog-rule-based-product-relations.png %}){: .zoom}
     [_Rule-Based Product Relations_]({% link configuration/catalog/catalog.md -%})
 
    - Enter the **Maximum Number of Products in the Related Products List**.

@@ -66,5 +66,5 @@ For a multistore installation, a different main menu can be assigned as the [roo
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-   ![]({% link images/images/config-catalog-catalog-category-top-navigation.png %}){: .zoom}
+   ![]({% link configuration/catalog/assets/catalog-category-top-navigation.png %}){: .zoom}
    [_Category Top Navigation_]({% link configuration/catalog/catalog.md %})

@@ -25,7 +25,7 @@ For Text, HTML, and PDF Address Templates:
 ```
 {% endraw %}
 
-![Customer address templates]({% link images/images/config-customers-customer-configuration-address-templates.png %}){: .zoom}
+![Customer address templates]({% link configuration/customers/assets/customer-configuration-address-templates.png %}){: .zoom}
 [_Address Templates_]({% link configuration/customers/customer-configuration.md %})
 
 ## Change the order of address fields

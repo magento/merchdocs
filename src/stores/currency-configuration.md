@@ -42,7 +42,7 @@ _Scope of Base Currency_
 
    - Set **Catalog Price Scope** to either `Global` or `Website`.
 
-   ![Catalog configuration - price options]({% link images/images/config-catalog-catalog-price.png %}){: .zoom}
+   ![Catalog configuration - price options]({% link configuration/catalog/assets/catalog-price.png %}){: .zoom}
    _Price_
 
 ## Step 2: Configure the Import Connection

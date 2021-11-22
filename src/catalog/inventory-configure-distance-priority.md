@@ -70,7 +70,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the _Distance Provider for Distance Based SSA_ section and set **Provider** to `Google MAP`.
 
-    ![]({% link images/images/config-catalog-catalog-inventory-distance-provider.png %}){: .zoom}
+    ![]({% link configuration/catalog/assets/catalog-inventory-distance-provider.png %}){: .zoom}
     _Distance Providers for Distance Based SSA_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the _Google Distance Provider_ section and configure the settings:
@@ -91,7 +91,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
       | Distance | (Default) Returns the distance between points in metrics (kilometers and meters) or imperial (miles and feet). |
       | Time to Destination | Returns the time required to travel from the source locations to the shipping address in hours and minutes. |
 
-    ![]({% link images/images/config-catalog-catalog-inventory-distance-provider-settings.png %}){: .zoom}
+    ![]({% link configuration/catalog/assets/catalog-inventory-distance-provider-settings.png %}){: .zoom}
     _Google Distance Provider_
 
 1. When complete, click <span class="btn">Save Config</span>.

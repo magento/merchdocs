@@ -19,7 +19,7 @@ _Image Placeholder_
 
    You can use the same image for all three roles, or you can upload a different placeholder image for each role.
 
-    ![]({% link images/images/config-catalog-catalog-product-image-placeholders.png %}){: .zoom}
+    ![]({% link configuration/catalog/assets/catalog-product-image-placeholders.png %}){: .zoom}
     [_Product Image Placeholders_]({% link configuration/catalog/catalog.md %})
 
 1. When complete, click <span class="btn">Save</span>.
