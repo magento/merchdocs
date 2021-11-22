@@ -54,8 +54,8 @@ _Basic Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Title|Website|A name that identifies the PayPal Express Checkout payment method during checkout.|
-|Sort Order|Website|A number that determines the order that PayPal Express Checkout appears when listed with other payment methods during checkout. Enter 0 for the top of the list.|
+|Title|Store View|A name that identifies the PayPal Express Checkout payment method during checkout.|
+|Sort Order|Store View|A number that determines the order that PayPal Express Checkout appears when listed with other payment methods during checkout. Enter 0 for the top of the list.|
 |Payment Action|Website|Determines the action taken by PayPal  when it receives an order. Options: <br/>**Authorization** - Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is “captured” by the merchant. <br/>**Sale** - The amount of the purchase is authorized and immediately withdrawn from the customer’s account. <br/>**Order** - Represents an agreement with PayPal that allows the merchant to capture one or more amounts up to the “ordered” total from the customer’s buyer account, within a defined period of time, which can be up to 29 days. One or more invoices must be generated from the Commerce Admin to capture the funds.|
 |Display on Product Details Page|Store View|Determines if the “Checkout with PayPal” button appears on product pages. Options include: Yes / No|
 
@@ -122,13 +122,13 @@ _Frontend Experience Settings - PayPal Merchant Pages Style_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|PayPal Product Logo|Website|Determines the PayPal logo that appears in your store. There are four basic style in two sizes. Options: No Logo / We prefer PayPal (150 x 60) / We prefer PayPal (150 x 40, ) / Now accepting PayPal (150 x 60) / Now accepting PayPal (150 x 40) / Payments by PayPal (150 x 60) / Payments by PayPal (150 x 40) / Shop now using (150 x 60) / Shop now using (150 x 40)|
+|PayPal Product Logo|Store View|Determines the PayPal logo that appears in your store. There are four basic styles in two sizes. Options: No Logo / We prefer PayPal (150 x 60) / We prefer PayPal (150 x 40, ) / Now accepting PayPal (150 x 60) / Now accepting PayPal (150 x 40) / Payments by PayPal (150 x 60) / Payments by PayPal (150 x 40) / Shop now using (150 x 60) / Shop now using (150 x 40)|
 |**PayPal Merchant Pages Style**|||
-|Page Style|Website|Determines the appearance of your PayPal merchant page. Permitted values: **paypal** - Uses the PayPal page style. <br/>**primary** - Uses the page style that you identified as the “primary” style in your account profile. <br/>**your_custom_value** - Uses a custom payment page style, which is specified in your account profile.|
-|Header Image URL|Website|The URL of the image that appears in the upper-left corner of the checkout page. The maximum size is 750 x 90 pixels. <br/><br/>**_Note:_** PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”|
-|Header Image Background Color|Website|The six-character [hexadecimal color](https://en.wikipedia.org/wiki/Web_colors) code for the background color of the header on the checkout page. You can enter the code in either upper- and lowercase characters.|
-|Header Image Border Color|Website|The six-character [hexadecimal color](https://en.wikipedia.org/wiki/Web_colors) code for the two-pixel border around the header.|
-|Page Background Color|Website|The six-character [hexadecimal color](https://en.wikipedia.org/wiki/Web_colors) code for the background color of the checkout page that appears behind the header and payment form.|
+|Page Style|Store View|Determines the appearance of your PayPal merchant page. Permitted values: **paypal** - Uses the PayPal page style. <br/>**primary** - Uses the page style that you identified as the “primary” style in your account profile. <br/>**your_custom_value** - Uses a custom payment page style, which is specified in your account profile.|
+|Header Image URL|Store View|The URL of the image that appears in the upper-left corner of the checkout page. The maximum size is 750 x 90 pixels. <br/><br/>**_Note:_** PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”|
+|Header Image Background Color|Store View|The six-character [hexadecimal color](https://en.wikipedia.org/wiki/Web_colors) code for the background color of the header on the checkout page. You can enter the code in either upper- and lowercase characters.|
+|Header Image Border Color|Store View|The six-character [hexadecimal color](https://en.wikipedia.org/wiki/Web_colors) code for the two-pixel border around the header.|
+|Page Background Color|Store View|The six-character [hexadecimal color](https://en.wikipedia.org/wiki/Web_colors) code for the background color of the checkout page that appears behind the header and payment form.|
 
 #### Customize Smart Buttons (Basic)
 
