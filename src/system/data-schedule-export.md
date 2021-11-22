@@ -27,7 +27,14 @@ After each export, the export file is placed in the user-defined location, and a
 
    - Enter a brief **Description** that explains the purpose of the export, and how it is to be used.
 
-   - Set **Entity Type** to one of the following: `Products` or `Customers`
+   - Set **Entity Type** to one of the following:
+
+      - `Advanced Pricing`
+      - `Products`
+      - `Customer Financing`
+      - `Customers Main File`
+      - `Customer Addresses`
+      - `Stock Sources`
 
         The _Entity Attributes_ section at the bottom of the page is updated to reflect the selected Entity Type.
 
@@ -63,6 +70,14 @@ After each export, the export file is placed in the user-defined location, and a
 
    - For **Local Server**, enter a relative path within the Commerce installation, such as `var/export`. If the Remote storage module is configured, use `import_export/export`.
    - For **Remote FTP server**, enter the full URL and path to the target folder on the destination server.
+
+1. If the **Remote FTP ** server is selected, enter connection credentials to the server and select additional settings:
+
+   - For **FTP Host[:Port]**, enter remote FTP host address.
+   - For **User Name**, enter the username used to access the remote server.
+   - For **Password**, enter the password of the provided username account.
+   - For **File Mode**, choose `Binary` or `ASCII`.
+   - For **Passive Mode**, choose `No` or `Yes`.
 
 ## Step 3: Configure the Export Failed Emails
 
@@ -106,7 +121,7 @@ Field | Description
 ----- | -----------
 Name | The name of the export. Helps you to distinguish it if many different scheduled exports are created.
 Description | (Optional) A description of the scheduled export.
-Entity Type | Identifies the data to be exported. After the selection is made, the Entity Attributes appear below. Options: Products /Customers.
+Entity Type | Identifies the data to be exported. After the selection is made, the Entity Attributes appear below. Options: Advanced Pricing / Products / Customer Finances/ Customers Main File / Customer Addresses / Stock Sources.
 Start Time | Set the start hour, minutes, and seconds of the export.
 Frequency | Define how often the export job will be executed. Options: Daily / Weekly / Monthly.
 Status | A new scheduled export is enabled by default. You can suspend it by setting Status to Disabled. Options: Enabled / Disabled.
