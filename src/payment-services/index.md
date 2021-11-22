@@ -30,7 +30,7 @@ Payment Services is your one-stop-shop for online checkout (from settlement and 
 
 Payment Services is available for Adobe Commerce and Magento Open Source. Payment Services is now compatible with Adobe Commerce versions 2.4.0 to 2.4.3-p1.
 
-See [Lifecycle policy]({{ site.devdocs_url }}/release/lifecycle-policy.html) and [Payment Services release notes]({{ site.devdocs_url }}/payment-services/release-notes.html) pages for more release and version-specific information.
+See [Lifecycle policy]({{site.devdocs_url}}/release/lifecycle-policy.html) and [Payment Services release notes]({{site.devdocs_url}}/payment-services/release-notes.html) pages for more release and version-specific information.
 
 ## Accepted credit cards and currencies
 
