@@ -16,7 +16,7 @@ _Template Path Hints in Storefront_
 
 Before using template path hints, add your IP address to the [allow list]({% link system/developer-client-restrictions.md %}) to avoid interference with customers who are shopping in the store. When you are finished, make sure to clear the Commerce cache to remove all hints from the store.
 
-![Advanced configuration - developer client restrictions]({% link images/images/config-advanced-developer-developer-client-restrictions.png %}){: .zoom}
+![Advanced configuration - developer client restrictions]({% link configuration/advanced/assets/developer-developer-client-restrictions.png %}){: .zoom}
 [_Developer Client Restrictions_]({% link configuration/advanced/developer.md %})
 
 ## Step 2: Enable template path hints
@@ -27,7 +27,7 @@ Before using template path hints, add your IP address to the [allow list]({% li
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Debug** section and do the following:
 
-    ![Advanced configuration - debug]({% link images/images/config-advanced-developer-debug.png %}){: .zoom}
+    ![Advanced configuration - debug]({% link configuration/advanced/assets/developer-debug.png %}){: .zoom}
     [_Debug_]({% link configuration/advanced/developer.md %})
 
     - To activate template path hints for the store, set **Enabled Template Path Hints for Storefront** to `Yes`.

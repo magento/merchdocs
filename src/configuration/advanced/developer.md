@@ -9,7 +9,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 ## Frontend Development Workflow
 
-![]({% link images/images/config-advanced-developer-frontend-development-workflow.png %}){: .zoom}
+![]({% link configuration/advanced/assets/developer-frontend-development-workflow.png %}){: .zoom}
 [_Frontend Development Workflow_]({% link system/frontend-development-workflow.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -18,7 +18,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 ## Developer Client Restrictions
 
-![]({% link images/images/config-advanced-developer-developer-client-restrictions.png %}){: .zoom}
+![]({% link configuration/advanced/assets/developer-developer-client-restrictions.png %}){: .zoom}
 [_Developer Client Restrictions_]({% link system/developer-client-restrictions.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -27,7 +27,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 ## Template Settings
 
-![]({% link images/images/config-advanced-developer-template-settings.png %}){: .zoom}
+![]({% link configuration/advanced/assets/developer-template-settings.png %}){: .zoom}
 [_Template Settings_]({% link system/file-optimization.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -37,7 +37,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 ## Debug
 
-![]({% link images/images/config-advanced-developer-debug.png %}){: .zoom}
+![]({% link configuration/advanced/assets/developer-debug.png %}){: .zoom}
 [_Debug_]({% link system/template-path-hints.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -48,7 +48,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 ## Translate Inline
 
-![]({% link images/images/config-advanced-developer-translate-inline.png %}){: .zoom}
+![]({% link configuration/advanced/assets/developer-translate-inline.png %}){: .zoom}
 [*Translate Inline*]({% link system/translate-inline.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -58,7 +58,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 ## JavaScript Settings
 
-![]({% link images/images/config-advanced-developer-javascript-settings.png %}){: .zoom}
+![]({% link configuration/advanced/assets/developer-javascript-settings.png %}){: .zoom}
 [_JavaScript Settings_]({% link system/file-optimization.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -73,7 +73,7 @@ Available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
 ## CSS Settings
 
-![]({% link images/images/config-advanced-developer-css-settings.png %}){: .zoom}
+![]({% link configuration/advanced/assets/developer-css-settings.png %}){: .zoom}
 [_CSS Settings_]({% link system/file-optimization.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -102,7 +102,7 @@ Cache User Defined Attributes | Global | When enabled, caches user-defined and s
 
 ## Static Files Settings
 
-![]({% link images/images/config-advanced-developer-static-files-settings.png %}){: .zoom}
+![]({% link configuration/advanced/assets/developer-static-files-settings.png %}){: .zoom}
 _Static Files Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -111,7 +111,7 @@ _Static Files Settings_
 
 ## Grid Settings
 
-![]({% link images/images/config-advanced-developer-grid-settings.png %}){: .zoom}
+![]({% link configuration/advanced/assets/developer-grid-settings.png %}){: .zoom}
 [_Grid Settings_]({% link sales/order-grid-layout.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

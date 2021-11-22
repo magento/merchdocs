@@ -5,7 +5,7 @@ group: marketing
 
 The Admin email template configuration determines the email templates that are sent when users forget and reset their passwords, the store contact that appears as the sender of the message, and how long the password recovery link remains valid.
 
-![Advanced configuration - Admin email template settings]({% link images/images/config-advanced-admin-admin-user-emails.png %}){: .zoom}
+![Advanced configuration - Admin email template settings]({% link configuration/advanced/assets/admin-admin-user-emails.png %}){: .zoom}
 [_Admin User Emails_]({% link configuration/advanced/admin.md %})
 
 ## Configure the Admin email templates

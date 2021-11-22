@@ -18,7 +18,7 @@ _Admin Workspace_
 
 1. Set **Startup Page** to the page that you want to appear first after you log in to the Admin.
 
-   ![Advanced configuration - Admin startup page setting]({% link images/images/config-advanced-admin-startup-page.png %}){: .zoom}
+   ![Advanced configuration - Admin startup page setting]({% link configuration/advanced/assets/admin-startup-page.png %}){: .zoom}
    [_Startup Page_]({% link configuration/advanced/admin.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

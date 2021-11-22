@@ -23,7 +23,7 @@ The benefits of scheduling these tasks is to avoid the locks that occur when dat
 
 1. Set **Asynchronous Indexing** to `Enable`.
 
-    ![]({% link images/images/config-advanced-developer-grid-settings.png %}){: .zoom}
+    ![]({% link configuration/advanced/assets/developer-grid-settings.png %}){: .zoom}
     _[Grid Settings]({% link configuration/advanced/developer.md %})_
 
 1. Click **Save Config**.

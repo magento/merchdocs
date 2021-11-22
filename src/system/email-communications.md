@@ -8,7 +8,7 @@ The Mail Sending Settings give you the ability to route returned email or replie
 {:.bs-callout-info}
 **Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1] for email communications. In the Mail Sending Settings, make sure that Set Return Path is set to `No`. To learn more, see the [Commerce Security Center posting][2]{:target="_blank"}.
 
-![Advanced configuration - mail sending settings]({% link images/images/config-advanced-system-mail-sending-settings.png %}){: .zoom}
+![Advanced configuration - mail sending settings]({% link configuration/advanced/assets/system-mail-sending-settings.png %}){: .zoom}
 [_Mail Sending Settings_]({% link configuration/advanced/system.md %})
 
 ## Configure email communications

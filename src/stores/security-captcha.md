@@ -30,7 +30,7 @@ _Admin Sign In with CAPTCHA_
 
 1. Set **Enable CAPTCHA in Admin** to `Yes`. Then complete the remaining options as follows:
 
-    ![Admin - CAPTCHA configuration]({% link images/images/config-advanced-admin-captcha.png %}){: .zoom}
+    ![Admin - CAPTCHA configuration]({% link configuration/advanced/assets/admin-captcha.png %}){: .zoom}
     [_Admin CAPTCHA Configuration_]({% link configuration/advanced/admin.md %})
 
    - Enter the name of the **Font** to be used for CAPTCHA symbols (default: `LinLibertine`).

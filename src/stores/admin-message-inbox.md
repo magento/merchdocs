@@ -81,7 +81,7 @@ For a message of critical importance, do one of the following:
 
       The interval can be from one to twenty-four hours.
 
-   ![]({% link images/images/config-advanced-system-notifications.png %}){: .zoom}
+   ![]({% link configuration/advanced/assets/system-notifications.png %}){: .zoom}
    [_Notifications_]({% link configuration/advanced/system.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.
