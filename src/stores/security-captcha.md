@@ -76,7 +76,7 @@ _CAPTCHA during checkout_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **CAPTCHA** section.
 
-![]({% link images/images-ee/config-customer-configuration-captcha.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-captcha.png %}){: .zoom}
 _[Customer CAPTCHA configuration]({% link configuration/customers/customer-configuration.md %})_
 
 1. Set **Enable CAPTCHA on Storefront** to `Yes`. Then complete the remaining options as follows:

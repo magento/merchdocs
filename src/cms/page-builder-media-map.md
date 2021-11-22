@@ -27,13 +27,13 @@ The map toolbox appears when you hover over the map container.
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|Moves the map to another position on the stage.|
+|Move|![Move icon]({% link cms/assets/pb-icon-move.png %}){: width="25px"}|Moves the map to another position on the stage.|
 |(label)|Map|Identifies the current content container as an map. Hover over the map container to see the toolbox.|
-|Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Map page, where you can change the properties of the map and container.|
-|Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current map.|
-|Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the  hidden map.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the map.|
-|Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the map from the stage.|
+|Settings|![Settings icon]({% link cms/assets/pb-icon-settings.png %}){: width="25px"}|Opens the Edit Map page, where you can change the properties of the map and container.|
+|Hide|![Hide icon]({% link cms/assets/pb-icon-hide.png %}){: width="25px"}|Hides the current map.|
+|Show|![Show icon]({% link cms/assets/pb-icon-show.png %}){: width="25px"}|Shows the  hidden map.|
+|Duplicate|![Duplicate icon]({% link cms/assets/pb-icon-duplicate.png %}){: width="25px"}|Makes a copy of the map.|
+|Remove|![Remove icon]({% link cms/assets/pb-icon-remove.png %}){: width="25px"}|Deletes the map from the stage.|
 
 ## Configure Google Maps for your Admin
 
@@ -76,22 +76,22 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
 1. In the Page Builder panel, expand **Media** and drag a **Map** placeholder to the stage.
 
-   ![]({% link images/images-ee/page-builder-media-map-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-map-drag.png %}){: .zoom}
    _Dragging a map to the stage_
 
    If Google Maps Platform is configured for your store, a map appears for your store location.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-google-map.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-google-map.png %}){: .zoom}
    _Google Maps_
 
    If Google Maps Platform is not yet configured for your store, a placeholder map appears instead.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-media-map-not-configured.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-media-map-not-configured.png %}){: .zoom}
    _Google Maps Placeholder_
 
 ## Add a custom map location
 
-1. Hover over the map container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the map container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. In the upper-right corner of the _Edit Map_ page, click <span class="btn">Add Location</span>.
 
@@ -195,7 +195,7 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
 ### Change the map settings
 
-1. Hover over the map container to display the tool box and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the map container to display the tool box and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. Change the basic settings as needed:
 
@@ -228,7 +228,7 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
       - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-      ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
+      ![]({% link cms/assets/pb-settings-border-color.png %}){: .zoom}
       _Border Color_
 
       - **Border Width** - Enter the number of pixels for the border line width.
@@ -270,7 +270,7 @@ The grid size determines the size of the map related to a [column]({% link cms/p
 
    - For **Maximum Column Grid Size**, enter a new value for the default maximum grid size.
 
-   ![]({% link images/images-ee/config-general-content-management-advanced-content-tools-grid-size.png %}){: .zoom}
+   ![]({% link cms/assets/pb-configure-advanced-content-tools-grid-size.png %}){: .zoom}
    _Column grid size settings_
 
 1. When complete, click <span class="btn">Save Config</span>.

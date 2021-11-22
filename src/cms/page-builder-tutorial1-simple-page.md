@@ -32,7 +32,7 @@ Verify the required Content Management configuration settings:
 
    The folder contains the following image files:
 
-   ![]({% link images/images-ee/page-builder-tutorial-simple-page-assets.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial-simple-page-assets.png %}){: .zoom}
    _Page Builder tutorial files - simple page assets_
 
 Follow parts 1, 2, and 3 of this tutorial in order.
@@ -95,10 +95,10 @@ _Page Builder full bleed row with banner_
 
    Each content container has a toolbox with a similar set of options.
 
-   ![]({% link images/images-ee/page-builder-layout-page-add-content-row-tools.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-page-add-content-row-tools.png %}){: .zoom}
    _Page Builder row toolbox_
 
-1. In the Row toolbox, choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %}){: width="20px"} ) icon.
+1. In the Row toolbox, choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %}){: width="20px"} ) icon.
 
 1. Under _Appearance_, choose **Full Bleed**.
 
@@ -111,7 +111,7 @@ _Page Builder full bleed row with banner_
 
    This setting ensures that the banner extends the full width of the row.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
    _Row settings - margins and padding_
 
 1. Scroll up to the top of the page and click <span class="btn">Save</span> in the upper-right corner to save the settings and return to the Page Builder workspace.
@@ -123,7 +123,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
 1. In the Page Builder panel, expand **Media** and drag a **Banner** placeholder to the stage.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-drag-to-stage.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-banner-drag-to-stage.png %}){: .zoom}
    _Dragging a banner content type to the stage_
 
 1. Hover over the banner container to display the toolbox.
@@ -133,16 +133,16 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
    In addition to the toolbox, the _Upload Image_ and _Select from Gallery_ buttons are included so you can make quick changes to the banner directly from the stage.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-toolbox.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-banner-toolbox.png %}){: .zoom}
    _Banner toolbox_
 
-1. In the Banner toolbox, choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %}){: width="20px"} ) icon.
+1. In the Banner toolbox, choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %}){: width="20px"} ) icon.
 
 1. Under _Appearance_, choose **Collage Right**.
 
    The Collage Right setting positions content on the right side of the banner.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
    _Banner appearance - collage right_
 
 1. Scroll down to the _Background_ section and set the background image for the banner:
@@ -154,12 +154,12 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
       Navigate to the directory where you saved the extracted simple page assets and choose the `wide-banner-background.jpg` file.
 
-      ![]({% link images/images-ee/page-builder-tutorial-simple-page-assets.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial-simple-page-assets.png %}){: .zoom}
       _Selecting the sample banner image file_
 
       The image is uploaded and a thumbnail of the uploaded image appears. The file name, image dimensions, and file size are noted below.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-row-settings-background-image-selected.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-row-settings-background-image-selected.png %}){: .zoom}
       _Uploaded background image in the media gallery_
 
    - For **Background Mobile Image**, click <span class="btn">Upload</span>.
@@ -175,7 +175,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
       The background appears on the stage and extends the full width of the row.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-banner-background.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-banner-background.png %}){: .zoom}
       _Banner with background image_
 
    Notice the placeholder text that appears on the right side of the row. The position of this text reflects the _Collage Right_ appearance setting.
@@ -188,7 +188,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
    The editor toolbar appears above the text box. Text can be entered and formatted either directly from the stage, or by choosing _Settings_ in the banner toolbox.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-banner-stage-text.png %}){: .zoom}
    _Editing banner content from the stage_
 
 1. Apply formatting to the text:
@@ -202,14 +202,14 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
    The format settings apply the styles from the style sheet that is associated with the current theme.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text-format-line2.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-banner-stage-text-format-line2.png %}){: .zoom}
    _Banner in the content stage with formatted text_
 
-1. Hover to display the Banner toolbox, choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %}){: width="20px"} ) icon again, then scroll to the _Content_ section.
+1. Hover to display the Banner toolbox, choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %}){: width="20px"} ) icon again, then scroll to the _Content_ section.
 
    Notice that your text is displayed in the _Message Text_ box. Text can be entered and edited either from the stage or from the _Content_ section of the banner settings.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-content-message-text.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-banner-settings-content-message-text.png %}){: .zoom}
    _Banner settings - message text_
 
 1. Continuing in the _Content_ section, set the banner link and button:
@@ -242,17 +242,17 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
       Then, click <span class="btn">Apply</span>.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
       _Banner settings - button overlay color_
 
    - Scroll back to the top of the page and click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
       The button appears below the banner message on the stage.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-background-color.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-banner-stage-background-color.png %}){: .zoom}
       _Banner in the content stage with text message and button_
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon.
 
    This returns you to the _Content_ section for the page with the preview displayed.
 
@@ -260,7 +260,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
 1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-save-and-close.png %}){: .zoom}
    _Choosing the Save & Close option_
 
 1. If prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the page and refresh any invalid cache.
@@ -289,7 +289,7 @@ _Example page using contained row with two equal columns_
    ![]({% link cms/assets/pb-tutorial1-row-drag-to-stage.png %}){: .zoom}
    _Adding a new row above the banner_
 
-1. Hover over the new row to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %}){: width="20px"}) icon.
+1. Hover over the new row to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %}){: width="20px"}) icon.
 
    ![]({% link cms/assets/pb-tutorial1-row-settings.png %}){: .zoom}
    _Row toolbox_
@@ -315,7 +315,7 @@ _Example page using contained row with two equal columns_
    ![]({% link cms/assets/pb-tutorial1-columns-equal-width.png %}){: .zoom}
    _Row with two columns of equal width_
 
-1. In the upper-left corner of the first column, click the circular _Grid_ control (![]({% link images/images-ee/icon-pb-grid-control.png %})) to show the grid guidelines.
+1. In the upper-left corner of the first column, click the circular _Grid_ control (![]({% link cms/assets/pb-icon-grid-control.png %})) to show the grid guidelines.
 
    The grid ensures that content is aligned consistently, and will render correctly on both desktop and mobile devices. For information about configuring the grid size, see the [Configure Page Builder]({% link cms/page-builder-setup.md %}#configure-page-builder) section in the Page Builder Setup topic.
 
@@ -356,7 +356,7 @@ In this step, you will learn how to upload an image to the banner.
 
 1. Determine which page from your catalog you want to link to each image.
 
-1. Hover over the image in the first column to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the image in the first column to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
    ![]({% link cms/assets/pb-tutorial1-column1-image-settings.png %}){: .zoom}
    _Image toolbox_
@@ -371,13 +371,13 @@ In this step, you will learn how to upload an image to the banner.
 
 1. Repeat the previous step to link the image in the second column to the _Gear_ category.
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon.
 
    This returns you to the _Content_ section for the page with the preview displayed.
 
 1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-save-and-close.png %}){: .zoom}
    _Choosing the Save & Close option_
 
 1. When prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the page and refresh any invalid cache.
@@ -406,9 +406,9 @@ _Example full width row with columns of different widths_
    ![]({% link cms/assets/pb-tutorial1-add-new-row.png %}){: .zoom}
    _Adding a new row_
 
-1. Hover over the new row to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the new row to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-toolbox.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-toolbox.png %}){: .zoom}
    _Row toolbox_
 
 1. On the Edit Row page under _Appearance_, choose **Full Width**.
@@ -425,7 +425,7 @@ _Example full width row with columns of different widths_
 
 1. Scroll down to the _Advanced_ section and set all **Margins & Padding** values to `0`.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
    _Setting the margins and padding_
 
 1. Scroll back to the top of the page and click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
@@ -449,11 +449,11 @@ _Example full width row with columns of different widths_
    ![]({% link cms/assets/pb-tutorial1-column-first-4.png %}){: .zoom}
    _Resizing the first column_
 
-1. Hover over the first column container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the first column container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. Scroll down to the _Advanced_ section and set all **Margins & Padding** values to `0`.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
    _Setting the margins and padding_
 
 1. Scroll back to the top of the page and click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
@@ -537,7 +537,7 @@ The second column of the row will contain content from a customer review, includ
 
 1. Get the dimensions of the image so that you can center the content vertically in the column:
 
-   - Hover over the image in the first column to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %}) ) icon.
+   - Hover over the image in the first column to display the toolbox and choose the _Settings_ ( ![]({% link cms/assets/pb-icon-settings.png %}) ) icon.
 
    - Below the thumbnail of the image, take note of the dimensions of the image.
 
@@ -548,7 +548,7 @@ The second column of the row will contain content from a customer review, includ
 
 1. Center the content vertically in the second column:
 
-   - Hover over the second column to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %}) ) icon.
+   - Hover over the second column to display the toolbox and choose the _Settings_ ( ![]({% link cms/assets/pb-icon-settings.png %}) ) icon.
 
       {:.bs-callout-info}
       Make sure to select the column container rather than the Text container to display the correct toolbox.
@@ -562,7 +562,7 @@ The second column of the row will contain content from a customer review, includ
 
 1. Scroll down to the _Advanced_ section and set all **Margins and Padding** values to zero ( `0` ).
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
    _Setting the margins and padding_
 
 1. Scroll back to the top of the page and in in the upper-right corner, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
@@ -596,7 +596,7 @@ The second column of the row will contain content from a customer review, includ
       ![]({% link cms/assets/pb-tutorial1-text-link-highlight.png %}){: .zoom}
       _Banner with linked text_
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon.
 
    This returns you to the _Content_ section for the page with the preview displayed.
 
@@ -610,7 +610,7 @@ With all three rows complete, the final step is to rearrange the rows to match t
 
 1. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area.
 
-1. Hover over the first row on the stage to display the toolbox and choose the _Move_ ( ![]({% link images/images-ee/icon-pb-move.png %})) icon.
+1. Hover over the first row on the stage to display the toolbox and choose the _Move_ ( ![]({% link cms/assets/pb-icon-move.png %})) icon.
 
    ![]({% link cms/assets/pb-tutorial1-row-toolbox-move.png %}){: .zoom}
    _Move_
@@ -627,13 +627,13 @@ With all three rows complete, the final step is to rearrange the rows to match t
 
    The order of the rows on your page now matches the Simple Page example.
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon.
 
    This returns you to the _Content_ section for the page with the preview displayed.
 
 1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-save-and-close.png %}){: .zoom}
    _Choosing the Save & Close option_
 
 1. If prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the page and refresh any invalid cache.

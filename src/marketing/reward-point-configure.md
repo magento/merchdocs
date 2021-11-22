@@ -5,7 +5,7 @@ title: Configuring Reward Points
 
 The Reward Points configuration determines how reward points are presented in the store and defines the basic operating parameters.
 
-![Customers configuration - reward points]({% link images/images-ee/config-customers-reward-points-reward-points.png %}){: .zoom}
+![Customers configuration - reward points]({% link configuration/customers/assets/reward-points-reward-points.png %}){: .zoom}
  [_Reward Points_]({% link configuration/customers/reward-points.md -%})
 
 ## Step 1. Configure the Reward Points
@@ -49,7 +49,7 @@ In this step, the number of reward points that can be earned for various custome
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Actions for Acquiring Reward Points by Customer** section and do the following:
 
-    ![Customers configuration - actions for acquiring reward points by customer]({% link images/images-ee/config-customers-reward-points-actions-for-acquiring.png %}){: .zoom}
+    ![Customers configuration - actions for acquiring reward points by customer]({% link configuration/customers/assets/reward-points-actions-for-acquiring.png %}){: .zoom}
     [_Actions for Acquiring Reward Points by Customer_]({% link configuration/customers/reward-points.md -%})
 
     - To display a message in the shopping cart that includes the rewards points earned for the purchase and the customer’s current reward point balance, set **Purchase** to `Yes`.
@@ -78,7 +78,7 @@ In this step, the number of reward points that can be earned for various custome
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Email Notification Settings** section and do the following:
 
-    ![Customers configuration - reward points email notifications]({% link images/images-ee/config-customers-reward-points-email-notification-settings.png %}){: .zoom}
+    ![Customers configuration - reward points email notifications]({% link configuration/customers/assets/reward-points-email-notification-settings.png %}){: .zoom}
     [Email Notification Settings]({% link configuration/customers/reward-points.md -%})
 
     - Set **Email Sender** to the store contact that appears as the sender of balance updates and expiration notifications.

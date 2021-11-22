@@ -168,7 +168,7 @@ The database media storage method has been deprecated as of Adobe Commerce and M
 {:.ee-only}
 ## Bulk Actions
 
-![]({% link images/images-ee/config-advanced-system-bulk-actions.png %}){: .zoom}
+![]({% link configuration/advanced/assets/system-bulk-actions.png %}){: .zoom}
 [_Bulk Actions_]({% link system/action-log-bulk-actions.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

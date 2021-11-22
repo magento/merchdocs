@@ -90,7 +90,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Gift Options
 
-![]({% link images/images/config-sales-sales-gift-options.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-gift-options.png %}){: .zoom}
 [_Gift Options_]({% link sales/gift-options.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -119,7 +119,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 {:.ee-only}
 ## Order by SKU Settings
 
-![]({% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-order-by-sku-settings.png %}){: .zoom}
 _[Order by SKU Settings]({% link customers/account-dashboard-order-by-sku.md %})_
 
 ![]({% link configuration/assets/order-by-sku-settings.png %}){: .zoom}
@@ -132,7 +132,7 @@ _Order by SKU Settings for Customer Group_
 
 ## Instant Purchase
 
-![]({% link images/images-ee/config-sales-sales-instant-purchase.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-instant-purchase.png %}){: .zoom}
 [_Instant Purchase_]({% link sales/checkout-instant-purchase.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -143,7 +143,7 @@ _Order by SKU Settings for Customer Group_
 {:.ee-only}
 ## Orders, Invoices, Shipments, Credit Memos Archiving
 
-![]({% link images/images-ee/config-sales-sales-orders-invoices-shipments-credit-memos-archving.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-orders-invoices-shipments-credit-memos-archiving.png %}){: .zoom}
 _[Orders, Invoices, Shipments, Credit Memos Archiving]({% link sales/order-archive.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -155,7 +155,7 @@ _[Orders, Invoices, Shipments, Credit Memos Archiving]({% link sales/order-archi
 {:.ee-only}
 ## RMA Settings
 
-![]({% link images/images-ee/config-sales-sales-rma-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-rma-settings.png %}){: .zoom}
 _[RMA Settings]({% link sales/rma-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

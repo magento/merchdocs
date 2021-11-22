@@ -94,12 +94,13 @@ _Vertex - Developer & Support Information_
 
 ## Tax Classes
 
-![]({% link images/images/config-sales-tax-tax-classes.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-tax-classes.png %}){: .zoom}
 [_Tax Classes_]({% link tax/tax-class.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Tax Class for Shipping|Website|Identifies the tax class that is used for shipping. Options include all available product tax classes: None / Taxable Goods / Shipping / Tax Exempt|
+|<span class="ee-only">Tax Class for Gift Options</span>|Identifies the default tax class that is used for gift options.|
 |Default Tax Class for Product|Global|Identifies the default tax class that is used for products.|
 |Default Tax Class for Customer|Global|Identifies the default tax class that is used for customers.|
 
@@ -156,7 +157,7 @@ _Vertex - Developer & Support Information_
 
 ## Orders, Invoices, Credit Memos Display Settings
 
-![]({% link images/images-ee/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
 _[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

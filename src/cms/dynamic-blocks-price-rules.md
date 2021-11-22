@@ -53,7 +53,7 @@ Any [dynamic block]({% link cms/dynamic-blocks.md %}) that you create can be ass
 
 1. Click <span class="btn">Add Selected</span>.
 
-   ![]({% link images/images-ee/page-builder-dynamic-block-add-related-cart-price-rules.png %}){: .zoom}
+   ![]({% link cms/assets/pb-dynamic-block-add-related-cart-price-rules.png %}){: .zoom}
    _Adding selected price rules to a dynamic block_
 
 1. When complete, click <span class="btn">Save</span>.

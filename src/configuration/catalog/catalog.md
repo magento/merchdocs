@@ -114,7 +114,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Price
 
-![]({% link images/images-ee/config-catalog-catalog-price.png %}){: .zoom}
+![]({% link configuration/catalog/assets/catalog-price.png %}){: .zoom}
 _[Price]({% link catalog/catalog-price-scope.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -146,7 +146,7 @@ The standard search configuration described in this section differs for [Live Se
 {:.ee-only}
 ## Category Permissions
 
-![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom}
+![]({% link configuration/catalog/assets/catalog-category-permissions.png %}){: .zoom}
 [_Category Permissions_]({% link catalog/category-permissions.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -248,7 +248,7 @@ Adobe Commerce and Magento Open Source support several versions of Elasticsearch
 {:.ee-only}
 ## Catalog Events
 
-![]({% link images/images-ee/config-catalog-catalog-events.png %}){: .zoom}
+![]({% link configuration/catalog/assets/catalog-events.png %}){: .zoom}
 [_Catalog Events_]({% link marketing/events-private-sales.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

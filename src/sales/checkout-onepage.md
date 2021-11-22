@@ -14,7 +14,7 @@ Onepage Checkout is enabled by default. If you are implementing a custom integra
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Checkout Options** section.
 
-   ![The checkout options expanded on the configuration page]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
+   ![The checkout options expanded on the configuration page]({% link configuration/sales/assets/checkout-checkout-options.png %}){: .zoom}
    _[Checkout options configuration settings]({% link configuration/sales/checkout.md %})_
 
 1. If the setting is for a specific store view, [choose the store view]({% link configuration/scope-change.md %}) where the configuration applies.
