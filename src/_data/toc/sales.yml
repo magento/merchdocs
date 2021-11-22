@@ -251,6 +251,8 @@ pages:
     children:
     - label: Install Payment Services
       url: "/payment-services/install-payments.html"
+  - label: Test and validate
+    url: "/payment-services/test-validate.html"
   - label: Configure Payment Services
     url: "/payment-services/configure-payments.html"
   - label: Create an order with Payment Services
@@ -274,8 +276,6 @@ pages:
     children:
     - label: PCI compliance
       url: "/payment-services/pci.html"
-  - label: Test and validate
-    url: "/payment-services/test-validate.html"
 - label: Delivery
   url: "/shipping/delivery.html"
   children:
