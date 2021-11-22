@@ -4,6 +4,9 @@ title: Products in Category
 
 The Products in Category section lists the products that are currently assigned to the category. The search filters at the top of each column are used to add and remove products from the category. You can also use [category rules]({% link catalog/category-product-rules.md %}) (<span class="ee-only"></span>) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}).
 
+{:.bs-callout-tip}
+During category rule setup, the products are _sorted_, _matched_, _assigned_, and _unassigned_ according to that rule **_only_** when this category is saved. For example, if you add a new product to the catalog and want to assign it according to the rule, you **must re-save each category** that is set to match products by rule to ensure that the new product is assigned. Also, if any product stock status is changed to `In Stock` or `Out of Stock` and products in the category should be _sorted_ according to the **Automatic Sorting** rule, you must click <span class="btn">Save Category</span> as well.
+
 ![]({% link catalog/assets/category-products-in-category.png %}){: .zoom}
 _Category Products_
 
@@ -45,9 +48,6 @@ _Category Products_
       - Set **Date Modified** to `Greater than 7`.
 
 1. When complete, click <span class="btn">Save Category</span>.
-
-{:.bs-callout-tip}
-When setting up a category rule, the products are matched and assigned to the rule when the category is saved. Therefore, if you add a new product to the catalog and want to include it in the rule, you must re-save each category that is set to match products by rule to ensure that the new product is included.
 
 {:.ee-only}
 ## Page options
