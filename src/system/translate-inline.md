@@ -46,7 +46,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
     The _Enabled for Admin_ option is not available when editing a specific store view.
 
-    ![Advanced configuration - translate inline]({% link images/images/config-advanced-developer-translate-inline.png %}){: .zoom}
+    ![Advanced configuration - translate inline]({% link configuration/advanced/assets/developer-translate-inline.png %}){: .zoom}
     [_Translate Inline_]({% link configuration/advanced/developer.md %})
 
 1. Set **Enabled for Storefront** to `Yes`.

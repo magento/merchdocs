@@ -17,7 +17,7 @@ As a security measure, the _Admin_ is initially set to time out after 900 second
 
 1. For **Admin Session Lifetime (seconds)**, enter the number of seconds that a session remains active before it times out.
 
-    ![Advanced configuration - Admin security settings]({% link images/images/config-advanced-admin-security.png %}){: .zoom}
+    ![Advanced configuration - Admin security settings]({% link configuration/advanced/assets/admin-security.png %}){: .zoom}
     [_Security_]({% link configuration/advanced/admin.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

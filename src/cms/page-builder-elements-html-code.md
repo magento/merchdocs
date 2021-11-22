@@ -11,12 +11,12 @@ _HTML Code toolbox_
 
 | Tool      | Icon       | Description       |
 | --------- | ---------- | ----------------- |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the HTML Code container to another valid place on the page. |
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit HTML Code page, where you can change the properties of the container. |
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the HTML Code container. |
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the hidden HTML Code container. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the HTML Code container. |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})  | Deletes the HTML Code container and its content from the stage. |
+| Move      | ![]({% link cms/assets/pb-icon-move.png %}) | Moves the HTML Code container to another valid place on the page. |
+| Settings  | ![]({% link cms/assets/pb-icon-settings.png %}) | Opens the Edit HTML Code page, where you can change the properties of the container. |
+| Hide      | ![]({% link cms/assets/pb-icon-hide.png %}) | Hides the HTML Code container. |
+| Show      | ![]({% link cms/assets/pb-icon-show.png %}) | Shows the hidden HTML Code container. |
+| Duplicate | ![]({% link cms/assets/pb-icon-duplicate.png %}) | Makes a copy of the HTML Code container. |
+| Remove    | ![]({% link cms/assets/pb-icon-remove.png %})  | Deletes the HTML Code container and its content from the stage. |
 
 ## Add HTML code
 
@@ -61,7 +61,7 @@ The following example demonstrates how to embed [Google Font][1] code and declar
    ![]({% link cms/assets/pb-elements-html-code-drag.png %}){: .zoom}
    _Dragging a HTML Code placeholder to the stage_
 
-1. Hover over the HTML container to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})), icon.
+1. Hover over the HTML container to display the toolbox and choose the _Settings_ ( ![]({% link cms/assets/pb-icon-settings.png %})), icon.
 
 1. In the text box, paste the embed Google Fonts code and style declarations that you prepared.
 
@@ -92,7 +92,7 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
 ## Change HTML code settings {#html-settings}
 
-1. Hover over the HTML container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the HTML container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. In the text box, edit the code as needed.
 
@@ -115,7 +115,7 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
       In the following example, the options are set to use a center alignment for the rendered code block.
 
-      ![]({% link images/images-ee/page-builder-elements-divider-settings-advanced-alignment-center.png %}){: .zoom}
+      ![]({% link cms/assets/pb-elements-divider-settings-advanced-alignment-center.png %}){: .zoom}
       _Divider with a center alignment_
 
    - Set the **Border** style applied to all four sides of the code container:

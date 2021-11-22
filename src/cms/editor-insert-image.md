@@ -41,7 +41,7 @@ _Media Storage_
 
       - Click the thumbnail and click <span class="btn">Add Selected</span>.
 
-         ![]({% link images/images-ee/page-builder-media-image-gallery-add-selected.png %}){: .zoom}
+         ![]({% link cms/assets/pb-media-image-gallery-add-selected.png %}){: .zoom}
          _Adding a selected image_
 
    - **Search and select an Adobe Stock image**: Use this method to find an image from Adobe Stock.

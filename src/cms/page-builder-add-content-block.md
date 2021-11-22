@@ -13,12 +13,12 @@ _Block with a side menu_
 
 | Tool      | Icon     | Description   |
 | --------- | -------- | ------------- |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the block container and its content to another position on the stage. |
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Block page, where you can choose the block, and change the properties of the container. |
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})  | Hides the current block container and its content. |
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the  hidden block container and its content. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the block container and its content. |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the block container and its content from the stage. |
+| Move      | ![]({% link cms/assets/pb-icon-move.png %}) | Moves the block container and its content to another position on the stage. |
+| Settings  | ![]({% link cms/assets/pb-icon-settings.png %}) | Opens the Edit Block page, where you can choose the block, and change the properties of the container. |
+| Hide      | ![]({% link cms/assets/pb-icon-hide.png %})  | Hides the current block container and its content. |
+| Show      | ![]({% link cms/assets/pb-icon-show.png %}) | Shows the  hidden block container and its content. |
+| Duplicate | ![]({% link cms/assets/pb-icon-duplicate.png %}) | Makes a copy of the block container and its content. |
+| Remove    | ![]({% link cms/assets/pb-icon-remove.png %}) | Deletes the block container and its content from the stage. |
 
 ## Add an existing block
 
@@ -29,7 +29,7 @@ _Block with a side menu_
    ![]({% link cms/assets/pb-add-content-block-drag.png %}){: .zoom}
    _Dragging a block onto the stage_
 
-1. Hover over the empty block container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the empty block container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. Click <span class="btn">Select Block</span>.
 
@@ -93,9 +93,9 @@ _Block with a side menu_
 
 ## Edit block settings
 
-1. Hover over the block container and choose **Settings** (![]({% link images/images-ee/icon-pb-settings.png %})) in the toolbox.
+1. Hover over the block container and choose **Settings** (![]({% link cms/assets/pb-icon-settings.png %})) in the toolbox.
 
-   ![]({% link images/images-ee/page-builder-add-content-block-toolbox.png %}){: .zoom}
+   ![]({% link cms/assets/pb-add-content-block-toolbox.png %}){: .zoom}
    _Block Toolbox_
 
 1. To choose a different block, click <span class="btn">Select Block</span>.
@@ -109,11 +109,11 @@ _Block with a side menu_
 
 ## Duplicate a block
 
-1. Hover over the block container to display the toolbox and choose the _Duplicate_ (![]({% link images/images-ee/icon-pb-duplicate.png %}){: .Inline}) icon.
+1. Hover over the block container to display the toolbox and choose the _Duplicate_ (![]({% link cms/assets/pb-icon-duplicate.png %})) icon.
 
     The duplicate appears just below the original.
 
-1. To move the new block to a new position, hover over the container. Then, choose **Move** (![]({% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
+1. To move the new block to a new position, hover over the container. Then, choose **Move** (![]({% link cms/assets/pb-icon-move.png %})) in the toolbox.
 
 1. Select and drag the block until the red guideline appears at the new position.
 
@@ -121,6 +121,6 @@ _Block with a side menu_
 
 ## Remove a block from the stage
 
-1. Hover over the block container to display the toolbox and choose the _Remove_ (![]({% link images/images-ee/icon-pb-remove.png %}){: .Inline}) icon.
+1. Hover over the block container to display the toolbox and choose the _Remove_ (![]({% link cms/assets/pb-icon-remove.png %}){: .Inline}) icon.
 
 1. When prompted to confirm, click **OK**.

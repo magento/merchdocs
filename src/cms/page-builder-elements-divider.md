@@ -18,13 +18,13 @@ _Divider with padding in container with dashed border_
 
 | Tool | Icon                | Description |
 | ---- | --------------------| ------------|
-| Move | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the divider container to another valid place on the page. |
+| Move | ![]({% link cms/assets/pb-icon-move.png %}) | Moves the divider container to another valid place on the page. |
 | (label) | DIVIDER | Identifies the current container as a divider element. |
-| Settings | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Divider page, where you can change the properties of the divider and its container. |
-| Hide | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the divider container. |
-| Show | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the hidden divider container. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the divider container. |
-| Remove | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the divider container and its content from the stage. |
+| Settings | ![]({% link cms/assets/pb-icon-settings.png %}) | Opens the Edit Divider page, where you can change the properties of the divider and its container. |
+| Hide | ![]({% link cms/assets/pb-icon-hide.png %}) | Hides the divider container. |
+| Show | ![]({% link cms/assets/pb-icon-show.png %}) | Shows the hidden divider container. |
+| Duplicate | ![]({% link cms/assets/pb-icon-duplicate.png %}) | Makes a copy of the divider container. |
+| Remove | ![]({% link cms/assets/pb-icon-remove.png %}) | Deletes the divider container and its content from the stage. |
 
 ## Add a divider
 
@@ -44,7 +44,7 @@ _Divider with padding in container with dashed border_
 
 ## Change the divider settings
 
-1. Hover over the divider container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the divider container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
    ![]({% link cms/assets/pb-elements-divider-toolbox.png %}){: .zoom}
    _Divider toolbox_
@@ -77,7 +77,7 @@ _Divider with padding in container with dashed border_
 
       In the following example, the options are set to use a center alignment for the divider.
 
-      ![]({% link images/images-ee/page-builder-elements-divider-settings-advanced-alignment-center.png %}){: .zoom}
+      ![]({% link cms/assets/pb-elements-divider-settings-advanced-alignment-center.png %}){: .zoom}
       _Divider with a center alignment_
 
    - Set the **Border** style applied to all four sides of the divider container:
@@ -121,14 +121,14 @@ _Divider with padding in container with dashed border_
 
 For a formatted divider with specific settings, it is more efficient to make a duplicate, rather than start over with a new placeholder.
 
-1. Hover over the divider container to display the toolbox and choose the  Duplicate (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
+1. Hover over the divider container to display the toolbox and choose the  Duplicate (![]({% link cms/assets/pb-icon-duplicate.png %})) icon.
 
    The duplicate divider container appears just below the original.
 
    ![]({% link cms/assets/pb-elements-divider-duplicate.png %}){: .zoom}
    _Duplicated divider_
 
-1. Hover over the new divider container to display the toolbox and choose the _Move_ (![]({% link images/images-ee/icon-pb-move.png %})) icon.
+1. Hover over the new divider container to display the toolbox and choose the _Move_ (![]({% link cms/assets/pb-icon-move.png %})) icon.
 
    ![]({% link cms/assets/pb-elements-divider-move.png %}){: .zoom}
    _Moving a divider_
