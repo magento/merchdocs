@@ -17,7 +17,7 @@ Payment Services is:
 ## Features
 
 {:.bs-callout-info}
-Some of the features mentioned here may not yet be available for the Early Adopter Program (EAP).
+Some of the features mentioned here may not yet be available for the GA (General Availability) release.
 
 Payment Services is your one-stop-shop for online checkout (from settlement and refunds to getting paid). We provide powerful tools to give you the insight and control you need to create the best experience for your buyers.
 
@@ -28,9 +28,9 @@ Payment Services is your one-stop-shop for online checkout (from settlement and 
 
 ## Availability
 
-Payment Services is available for some supported Magento versions.
+Payment Services is available for Adobe Commerce and Magento Open Source. Payment Services is now compatible with Adobe Commerce versions 2.4.0 to 2.4.3-p1.
 
-See [Lifecycle policy]({{ site.devdocs_url }}/release/lifecycle-policy.html) and [Upcoming releases]({{ site.devdocs_url }}/release/) for more release and version-specific information.
+See [Lifecycle policy]({{ site.devdocs_url }}/release/lifecycle-policy.html) and [Payment Services release notes]({{ site.devdocs_url }}/payment-services/release-notes.html) pages for more release and version-specific information.
 
 ## Accepted credit cards and currencies
 
