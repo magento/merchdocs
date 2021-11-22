@@ -13,19 +13,19 @@ Create rich, interactive content that is driven by logic from [price rules]({% l
 {:.bs-callout-info}
 The _Banner_ option in the [Content menu]({% link cms/content-menu.md %}) was deprecated in 2.3.1 and removed in 2.4.0. Its functionality is replaced by Dynamic Blocks.
 
-![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial2-dynamic-block-storefront.png %}){: .zoom}
 _Page Builder - dynamic block with price rule and customer segment_
 
 ## Step 1: Create a dynamic block
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Dynamic Blocks**.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-block-dynamic-add.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-block-dynamic-add.png %}){: .zoom}
    _Dynamic blocks list_
 
 1. In the upper-right corner, click <span class="btn">Add Dynamic Block</span>.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-block-dynamic-new.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-block-dynamic-new.png %}){: .zoom}
    _New dynamic block_
 
 1. If applicable, set **Store View** to a specific store view where the dynamic block is to appear.
@@ -36,12 +36,12 @@ _Page Builder - dynamic block with price rule and customer segment_
 
 1. Set **Dynamic Block Type** to the area of the page where you want the dynamic block to appear and click <span class="btn">Done</span>.
 
-   ![]({% link images/images-ee/page-builder-dynamic-block-type.png %}){: .zoom}
+   ![]({% link cms/assets/pb-dynamic-block-type.png %}){: .zoom}
    _Setting the dynamic block type_
 
 1. In the **Customer Segment** list, select the checkbox of each segment that you want to see the dynamic block and click <span class="btn">Done</span> to save the setting.
 
-   ![]({% link images/images-ee/page-builder-dynamic-block-customer-segment.png %}){: .zoom}
+   ![]({% link cms/assets/pb-dynamic-block-customer-segment.png %}){: .zoom}
    _Choosing a customer segment_
 
    {:.bs-callout-info}
