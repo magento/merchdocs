@@ -35,7 +35,7 @@ _Category Products_
       - Choose the **Operator** that is needed to form the expression.
       - Enter the **Value** that is to be matched.
 
-      ![]({% link images/images-ee/category-rule-create.png %}){: .zoom}
+      ![]({% link catalog/assets/category-rule-create.png %}){: .zoom}
       _Add Condition to Category Rule_
 
     Repeat this process for each attribute that is needed to describe the condition(s) to be met. For example, to match products that were created between 7 and 30 days ago, do the following:

@@ -11,7 +11,7 @@ The _Content_ settings determine any additional content appears on the category 
 
 1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
-   ![]({% link images/images-ee/category-content.png %}){: .zoom}
+   ![]({% link catalog/assets/category-content.png %}){: .zoom}
    _Category content_
 
 1. At the top-right of the **Description** area, click <span class="btn">Edit with Page Builder</span>.
@@ -23,7 +23,7 @@ The _Content_ settings determine any additional content appears on the category 
 
 When you expand the _Content_ section for an existing category where there is content created with Page Builder, it displays a preview of the **Description** content as it would appear in the category page. Click the content area to open the Page Builder workspace, where you can make any needed updates.
 
-![]({% link images/images-ee/product-category-content-preview.png %}){: .zoom}
+![]({% link cms/assets/pb-product-category-content-preview.png %}){: .zoom}
 _Description preview_
 
 This content preview is enabled for the product and category forms by default. If performance suffers due to loading the preview, you can disable the preview in the [Content Management configuration]({% link configuration/general/content-management.md %}#advanced-content-tools) settings.

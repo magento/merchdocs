@@ -6,7 +6,7 @@ group: customers
 
 Creating a customer segment is similar to building a [cart price rule]({% link marketing/price-rules-cart.md %}), except that the options include customer segment-specific [attributes]({% link marketing/customer-segment-attributes.md %}).
 
-![Customer segments list]({% link images/images-ee/customer-segments.png %}){: .zoom}
+![Customer segments list]({% link marketing/assets/customer-segments.png %}){: .zoom}
 _Customer Segments list_
 
 The following example shows how to create a customer segment that targets female customers in Los Angeles.

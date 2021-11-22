@@ -6,7 +6,7 @@ The process of adding a new content page to your store is essentially the same f
 
 The following instructions walk you through each step to create a basic page. Some advanced features are skipped over, but are covered in other topics.
 
-![]({% link images/images-ee/pages.png %}){: .zoom}
+![]({% link cms/assets/pages-grid.png %}){: .zoom}
 _Pages Grid_
 
 ## Step 1: Add a new page
@@ -97,7 +97,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Hierarchy**.
 
-   ![]({% link images/images-ee/page-hierarchy.png %}){: .zoom}
+   ![]({% link cms/assets/page-hierarchy.png %}){: .zoom}
    _Hierarchy_
 
 1. If this page is a child of another page, select the checkbox of the **Parent page**.

@@ -84,7 +84,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
 1. In the list, select the custom variable that you want to insert and click <span class="btn">Insert Variable</span>.
 
-   ![New custom variable]({% link images/images-ee/variable-custom-insert-select.png %}){: .zoom}
+   ![New custom variable]({% link marketing/assets/variable-custom-insert-select.png %}){: .zoom}
    _Select Custom Variable_
 
    The variable identifier appears as a placeholder in the editor.

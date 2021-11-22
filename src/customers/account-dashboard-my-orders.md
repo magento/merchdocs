@@ -89,7 +89,7 @@ The customer can re-add products to the cart by selecting the products and click
 
    - **Print Refund**
 
-   ![]({% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
+   ![]({% link customers/assets/customer-account-order-refunds.png %}){: .zoom}
    _Refunds_
 
 1. Use the Print dialog to complete the printing.
