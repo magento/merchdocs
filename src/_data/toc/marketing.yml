@@ -329,6 +329,11 @@ pages:
     children:
     - label: Onboarding
       url: "/live-search/onboarding.html"
+      children:
+      - label: Install
+        url: "/live-search/install.html"
+      - label: Release Notes
+        url: "/live-search/release-notes.html"
     - label: Quick Tour
       url: "/live-search/quick-tour.html"
     - label: Workspace
