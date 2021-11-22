@@ -4,7 +4,7 @@ title: Design Settings
 
 The Design section gives you control over the look and feel of a category, all associated product pages, and page layout. You can customize a category page and its associated products for a promotion, or to differentiate the category. For example, you might develop a distinctive design for a brand or special line of products, or apply an update for a specific period of time.
 
-![]({% link images/images/category-design.png %}){: .zoom}
+![]({% link catalog/assets/category-design.png %}){: .zoom}
 _Design_
 
 |Field|Description|
@@ -24,5 +24,5 @@ The Scheduled Design Update section determines the range of dates when a custom 
 |--- |--- |
 |Schedule Update From/To|Determines the range of dates when a custom layout is applied to the category.|
 
-![]({% link images/images/category-scheduled-design-update.png %}){: .zoom}
+![]({% link catalog/assets/category-scheduled-design-update.png %}){: .zoom}
 _Scheduled Design Update_

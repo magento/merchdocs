@@ -14,5 +14,5 @@ By default, [automatic URL redirects]({% link marketing/url-redirect-product-au
 
 {% include url-rewrite-get-params.md %}
 
-![Search engine optimization - create permanent URL redirect]({% link images/images/product-search-engine-optimization-create-permanent-redirect.png %}){: .zoom}
+![Search engine optimization - create permanent URL redirect]({% link marketing/assets/product-search-engine-optimization-create-permanent-redirect.png %}){: .zoom}
 _Create Permanent Redirect for Old URL_
