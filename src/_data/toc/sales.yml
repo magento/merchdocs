@@ -251,10 +251,10 @@ pages:
     children:
     - label: Install Payment Services
       url: "/payment-services/install-payments.html"
-  - label: Test and validate
-    url: "/payment-services/test-validate.html"
   - label: Configure Payment Services
     url: "/payment-services/configure-payments.html"
+  - label: Test and validate
+    url: "/payment-services/test-validate.html"
   - label: Create an order with Payment Services
     url: "/payment-services/order-admin-payments.html"
   - label: Financial reporting
