@@ -18,7 +18,7 @@ _Bulk Actions Log_
 
     **Days Saved in Log** — Enter the number of days that bulk actions are saved in a log.
 
-    ![Advanced configuration - bulk actions]({% link images/images-ee/config-advanced-system-bulk-actions.png %}){: .zoom}
+    ![Advanced configuration - bulk actions]({% link configuration/advanced/assets/system-bulk-actions.png %}){: .zoom}
     [_Bulk Actions_]({% link configuration/advanced/system.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

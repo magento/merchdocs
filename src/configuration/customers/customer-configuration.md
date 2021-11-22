@@ -103,7 +103,7 @@ _[Name and Address Options - Open Source]({% link customers/name-address-options
 {:.ee-only}
 ### Commerce Options
 
-![]({% link images/images-ee/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-name-address-options.png %}){: .zoom}
 _[Name and Address Options - Commerce]({% link customers/name-address-options.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -117,7 +117,7 @@ _[Name and Address Options - Commerce]({% link customers/name-address-options.md
 {:.ee-only}
 ## Store Credit Options
 
-![]({% link images/images-ee/config-customers-customer-configuration-store-credit-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-store-credit-options.png %}){: .zoom}
 _[Store Credit Options]({% link customers/credit-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -152,7 +152,7 @@ _[Store Credit Options]({% link customers/credit-configure.md %})_
 {:.ee-only}
 ## Customer Segments
 
-![]({% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-customer-segments.png %}){: .zoom}
 _[Customer Segments]({% link marketing/customer-segments.md %})_
 
 |Template|[Scope]({% link configuration/scope.md %})|Description|
@@ -161,7 +161,7 @@ _[Customer Segments]({% link marketing/customer-segments.md %})_
 
 ## CAPTCHA
 
-![]({% link images/images-ee/config-customer-configuration-captcha.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-captcha.png %}){: .zoom}
 _[CAPTCHA]({% link stores/security-captcha.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

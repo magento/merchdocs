@@ -13,7 +13,7 @@ Email reminder rules can be sent at regular intervals by the minute, hour, or da
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Automated Email Reminder Rules** section. Then, do the following:
 
-    ![Customers configuration - automated email reminder rules]({% link images/images-ee/config-customers-promotions-automated-email-reminder-rules.png %}){: .zoom}
+    ![Customers configuration - automated email reminder rules]({% link configuration/customers/assets/promotions-automated-email-reminder-rules.png %}){: .zoom}
     [_Automated Email Reminder Rules_]({% link configuration/customers/promotions.md %})
 
    - Set **Enable Reminder Emails** to `Yes`.

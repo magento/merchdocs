@@ -13,7 +13,7 @@ Before you can create an event, you must complete the basic configuration to ena
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Catalog Events** section. Then, do the following:
 
-    ![Catalog configuration - catalog events]({% link images/images-ee/config-catalog-catalog-events.png %}){: .zoom}
+    ![Catalog configuration - catalog events]({% link configuration/catalog/assets/catalog-events.png %}){: .zoom}
     _Catalog Events_
 
     - Set **Enable Catalog Events Functionality** to `Yes`.

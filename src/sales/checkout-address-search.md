@@ -34,7 +34,7 @@ _Shipping address locked for a quote_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Checkout Options** section.
 
-   ![The Configuration page displays the Checkout Options]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
+   ![The Configuration page displays the Checkout Options]({% link configuration/sales/assets/checkout-checkout-options.png %}){: .zoom}
    [_Sales configuration - checkout options_]({% link configuration/sales/checkout.md %})
 
 1. Set **Enable Address Search** to `Yes`.
