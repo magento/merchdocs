@@ -25,4 +25,4 @@ _Product Settings_
 |[Design]({% link catalog/settings-advanced-design.md %})|Used to apply a different theme to the product page, change the column layout, determine where product options appear, and enter custom XML code.|
 |[Gift options]({% link catalog/product-gift-options.md %})|Used to enable or disable a gift message option during checkout at the product level.|
 |<span class="b2b-only">[Product In Shared Catalogs]({% link catalog/catalog-shared.md %})</span>| Enables the ability to maintain shared catalogs with custom pricing for different companies, with access to two types of shared catalogs using different pricing structures.|
-|[Downloadable Information]({% link catalog/product-downloadable-information.md %})|Used to generate the links to downloadable products and samples.This setting is only available for Simple, Virtual, and Downloadable product types.|
+|[Downloadable Information]({% link catalog/product-downloadable-information.md %})|Used to generate the links to downloadable products and samples. This setting is only available for Simple, Virtual, and Downloadable product types.|
