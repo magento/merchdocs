@@ -18,7 +18,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 {:.ee-only}
 ## CMS Page Hierarchy
 
-![]({% link images/images-ee/config-general-content-management-cms-page-hierarchy.png %}){: .zoom}
+![]({% link configuration/general/assets/content-management-cms-page-hierarchy.png %}){: .zoom}
 _[CMS Page Hierarchy]({% link cms/page-hierarchy.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

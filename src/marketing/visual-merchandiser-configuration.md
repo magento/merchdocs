@@ -5,7 +5,7 @@ title: Configuring Smart Attributes for Visual Merchandiser
 
 The Visual Merchandiser configuration determines the attributes that can be used in the merchandising window and the minimum stock threshold. The configuration also identifies the attribute used for color and the order of color values.
 
-![Catalog configuration - visual merchandiser]({% link images/images-ee/config-catalog-visual-merchandiser-general-options.png %}){: .zoom}
+![Catalog configuration - visual merchandiser]({% link configuration/catalog/assets/catalog-visual-merchandiser-general-options.png %}){: .zoom}
 _General Options_
 
 ## Configure Visual Merchandiser
