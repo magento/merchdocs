@@ -20,7 +20,7 @@ For a _registered_ customer, there are cases when the Mini Cart may not be synch
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the _Mini Cart_ section.
 
-   ![]({% link images/images/config-sales-mini-cart.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/checkout-mini-cart.png %}){: .zoom}
    [_Configuring the mini cart_]({% link configuration/sales/checkout.md %})
 
 1. If the setting is for a specific store view, [choose the store view]({% link configuration/scope-change.md %}) where the configuration applies.

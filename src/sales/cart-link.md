@@ -20,7 +20,7 @@ _Example storefront - cart link at the top of the page_
    Display item quantities|This setting displays the total number of products in the cart, adding the quantities for each product.|
    Display number of items in cart|This setting displays the number of product items in the cart, regardless of quantity.|
 
-   ![Configuration options for My Cart Link]({% link images/images/config-sales-checkout-my-cart-link.png %}){: .zoom}
+   ![Configuration options for My Cart Link]({% link configuration/sales/assets/checkout-my-cart-link.png %}){: .zoom}
    [_Setting the cart link display_]({% link configuration/sales/checkout.md %})
 
 1. Click <span class="btn">Save Config</span>.

@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## General
 
-![]({% link images/images/config-sales-sales-general.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-general.png %}){: .zoom}
 [_General_]({% link marketing/sales-documents-ref-id.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -15,7 +15,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Checkout Totals Sort Order
 
-![]({% link images/images/config-sales-sales-checkout-totals-sort-order.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-checkout-totals-sort-order.png %}){: .zoom}
 [_Checkout Totals Sort Order_]({% link sales/checkout-totals-sort-order.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -29,7 +29,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Reorder
 
-![]({% link images/images/config-sales-sales-reorder.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-reorder.png %}){: .zoom}
 [_Reorder_]({% link sales/reorders-allow.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -44,7 +44,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Invoice and Packing Slip Design
 
-![]({% link images/images/config-sales-sales-invoice-packing-slip-design.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-invoice-packing-slip-design.png %}){: .zoom}
 [_Invoice and Packing Slip Design_]({% link marketing/sales-document-pdf-logo.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -55,7 +55,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Minimum Order Amount
 
-![]({% link images/images/config-sales-sales-minimum-order-amount.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-minimum-order-amount.png %}){: .zoom}
 [_Minimum Order Amount_]({% link sales/cart-minimum-order-amount.md %})
 
 ||Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -81,7 +81,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Orders Cron Settings
 
-![]({% link images/images/config-sales-sales-orders-cron-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-orders-cron-settings.png %}){: .zoom}
 [_Orders Cron Settings_]({% link system/cron.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -105,7 +105,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Minimum Advertised Price
 
-![]({% link images/images/config-sales-sales-minimum-advertised-price.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-minimum-advertised-price.png %}){: .zoom}
 [_Minimum Advertised Price_]({% link catalog/product-price-minimum-advertised.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

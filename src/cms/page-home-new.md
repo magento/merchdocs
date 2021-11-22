@@ -20,7 +20,7 @@ You can maintain a selection of different home pages, and activate the page that
    - Privacy Policy
    - Company: Access Denied
 
-   ![]({% link images/images/config-general-web-default-pages.png %}){: .zoom}
+   ![]({% link configuration/general/assets/web-default-pages.png %}){: .zoom}
    _Web default pages configuration_
 
 1. Click <span class="btn">Save Config</span>.

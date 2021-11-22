@@ -45,7 +45,7 @@ In the Commerce configuration, [Advanced Reporting]({% link configuration/genera
 
    * Under **Industry Data**, choose the **Industry** that best describes your business.
 
-   ![]({% link images/images/config-general-advanced-reporting.png %}){: .zoom}
+   ![]({% link configuration/general/assets/advanced-reporting.png %}){: .zoom}
    _Advanced Reporting_
 
 1. When complete, click <span class="btn">Save Config</span>.

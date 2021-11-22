@@ -69,7 +69,7 @@ _Magento Ad in Google Search Results_
 
    - Enter the **Conversion ID** from your Google AdWords script.
 
-    ![Sales configuration - Google Ads API]({% link images/images/config-sales-google-api-google-adwords.png %}){: .zoom}
+    ![Sales configuration - Google Ads API]({% link configuration/sales/assets/google-api-google-adwords.png %}){: .zoom}
     [_Google AdWords_]({% link configuration/sales/google-api.md %})
 
 1. To format the Google Sites Stat notification, do the following:

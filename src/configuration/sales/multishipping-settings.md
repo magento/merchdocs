@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Options
 
-![]({% link images/images/config-sales-multishipping-settings-options.png %}){: .zoom}
+![]({% link configuration/sales/assets/multishipping-settings-options.png %}){: .zoom}
 [_Options_]({% link shipping/shipping-multiaddress.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
