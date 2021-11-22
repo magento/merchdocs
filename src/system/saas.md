@@ -62,8 +62,6 @@ In the case of Product Recommendations, the SaaS data space contains catalog and
 {:.bs-callout-warning}
 You should use your production SaaS data space only on your production Commerce installation to avoid data collisions. Otherwise, you risk polluting your production site data with testing data, which will cause deployment delays. For example, your production product data could be mistakenly overwritten from staging data, such as staging URLs.
 
-SaaS data spaces are designed to support multiple different websites, identified by their website codes. Data from the same website gets compiled together and separated from data from other websites. This allows you to reuse one SaaS data space by multiple Commerce installations, as long as all websites have unique codes specified. Otherwise, you risk overwriting your data for the same website.
-
 ### Select or create a SaaS project {#createsaasenv}
 
 {:.bs-callout-info}
