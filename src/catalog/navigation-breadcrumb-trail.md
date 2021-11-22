@@ -24,7 +24,7 @@ The advantage of this type is that users can easily see which category level the
 
 ### History-based breadcrumbs
 
-History (or path) -based navigation is similar to the back button in a browser. This allows users to quickly return to the previous pages they have visited without changes.
+History- (or path-) based navigation is similar to the back button in a browser. This allows users to quickly return to the previous pages they have visited without changes.
 
 The advantage of this type is that it is most helpful when customers want to return to a previous page after selecting multiple filters on a category page.
 
@@ -32,7 +32,7 @@ Example: `Home > What's New > Gear > Bags`
 
 ### Attribute-based breadcrumbs
 
-This type of breadcrumb displays the attributes selected on the category page. The main difference from the other types is that the attribute-based breadcrumbs represent the filters and options you have selected in the navigation layer for certain products (such as price, quality, and color).
+This type of breadcrumb displays the attributes selected on the category page. The main difference from the other types is that the attribute-based breadcrumbs represent the filters and options the customer has selected in the navigation layer for certain products (such as price, quality, and color).
 
 Example: `Home > Suits > All Suits > Refined by > Slim Fit`
 
