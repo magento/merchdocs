@@ -11,7 +11,7 @@ Before Google reCAPTCHA can be configured, you must ensure that yourÂ `PHP.ini`Â
 
 ## reCAPTCHA v2 ("I am not a robot")
 
-![]({% link images/images/config-security-google-recaptcha-admin-v2-not-robot.png %}){: .zoom}
+![]({% link configuration/security/assets/google-recaptcha-admin-v2-not-robot.png %}){: .zoom}
 [_reCAPTCHA v2 ("I am not a robot")_]({% link stores/security-google-recaptcha.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -25,7 +25,7 @@ Before Google reCAPTCHA can be configured, you must ensure that yourÂ `PHP.ini`Â
 
 ## reCAPTCHA v2 Invisible
 
-![]({% link images/images/config-security-google-recaptcha-admin-v2-invisible.png %}){: .zoom}
+![]({% link configuration/security/assets/google-recaptcha-admin-v2-invisible.png %}){: .zoom}
 [_reCAPTCHA v2 Invisible_]({% link stores/security-google-recaptcha.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -39,7 +39,7 @@ Before Google reCAPTCHA can be configured, you must ensure that yourÂ `PHP.ini`Â
 
 ## reCAPTCHA v3 Invisible
 
-![]({% link images/images/config-security-google-recaptcha-admin-v3-invisible.png %}){: .zoom}
+![]({% link configuration/security/assets/google-recaptcha-admin-v3-invisible.png %}){: .zoom}
 [_reCAPTCHA v3 Invisible_]({% link stores/security-google-recaptcha.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -54,7 +54,7 @@ Before Google reCAPTCHA can be configured, you must ensure that yourÂ `PHP.ini`Â
 
 ## Admin Panel
 
-![]({% link images/images/config-security-google-recaptcha-admin.png %}){: .zoom}
+![]({% link configuration/security/assets/google-recaptcha-admin.png %}){: .zoom}
 [_Admin Panel_]({% link stores/security-google-recaptcha.md %})
 
 {: .bs-callout-info}

@@ -6,7 +6,7 @@ To simplify the checkout process, customers can enter into a billing agreement w
 
 The Billing Agreements grid lists all billing agreements between your store and its customers. The store administrator can filter the records by the customer or billing agreement information including billing agreement reference ID, status, and creation date. Each record includes general information about the billing agreement, and all sales orders that have used it as a payment method. The store administrator can view, cancel, or delete customer billing agreements. A canceled billing agreement can be deleted only by the store administrator.
 
-![Billing agreements]({% link images/images/sales-billing-agreements.png %}){: .zoom}
+![Billing agreements]({% link sales/assets/billing-agreements.png %}){: .zoom}
 _Billing agreements_
 
 ## Billing agreement workflow

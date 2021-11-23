@@ -50,7 +50,7 @@ To directly link your Engagement Cloud and Commerce accounts without requiring a
 1. Click <span class="btn">Connect</span> to test the credentials. If sauccessful, the button displays as "Disconnect". It must be connected to authorize.
 1. Click <span class="btn">Save Config</span>.
 
-    ![OAUTH Credentials]({% link images/images/dotdigital-dash-oauth.png %}){: .zoom}
+    ![OAUTH Credentials]({% link configuration/dotdigital/assets/developer-dash-oauth.png %}){: .zoom}
     _OAUTH Credentials_
 
 ## Configure reporting
@@ -73,7 +73,7 @@ To directly link your Engagement Cloud and Commerce accounts without requiring a
 
 1. To delete all current Contact Ids and add new ones with new syncs, expand *Sync Settings* > *Admin Task* and click **Run Now** for **Delete All Contact Ids**. You may use this option when connecting and using different Engagement Cloud account.
 
-    ![Engagement Cloud Admin Tasks]({% link images/images/dotdigital-dash-admin.png %}){: .zoom}
+    ![Engagement Cloud Admin Tasks]({% link configuration/dotdigital/assets/developer-dash-admin.png %}){: .zoom}
     _Engagement Cloud Admin Tasks_
 
 1. Click <span class="btn">Save Config</span>.
@@ -96,7 +96,7 @@ Between automated syncs (run by cron job), you may need to manually run sync job
 1. Expand *Sync Settings*, then expand *Manually Run Sync*.
 1. Click <span class="btn">Run Now</span> for the different sync options: Contact, Subscriber, Order, Wishlist, Review, Catalog, Importer, and Template.
 
-    ![Manually Run Syncs]({% link images/images/dotdigital-dash-admin.png %}){: .zoom}
+    ![Manually Run Syncs]({% link configuration/dotdigital/assets/developer-dash-admin.png %}){: .zoom}
     _Manually Run Syncs_
 
 ### Reset data syncs
@@ -111,7 +111,7 @@ The reset options for data syncs force marks all entries for import. At the next
    1. Enter a **Date Range** with a start (**From**) and end (**To**) date.
    1. Click <span class="btn">Run Now</span> for a data sync: Order, FReview, Wishlist, and Catalog. All data is cleared and then reset.
 
-    ![Reset Syncs]({% link images/images/dotdigital-dash-resetsync.png %}){: .zoom}
+    ![Reset Syncs]({% link configuration/dotdigital/assets/developer-dash-resetsync.png %}){: .zoom}
     _Reset Syncs_
 
 ## Configure Cron Settings
@@ -123,7 +123,7 @@ Cron jobs are the heart of data synchronization between dotdigital Engagement Cl
 1. To change a setting, select a value from the drop-down menu per data sync.
 1. Click <span class="btn">Save Config</span>.
 
-    ![Cron Timings]({% link images/images/dotdigital-dash-cron.png %}){: .zoom}
+    ![Cron Timings]({% link configuration/dotdigital/assets/developer-dash-cron.png %}){: .zoom}
     _Cron Timings_
 
 ## Restrict IP Access
@@ -139,7 +139,7 @@ If you leave this field empty, a security check does not run. We do not recommen
 1. Enter IP addresses in a comma (`,`) separated list.
 1. Click <span class="btn">Save Config</span>.
 
-    ![Dynamic Pages IP Restriction]({% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
+    ![Dynamic Pages IP Restriction]({% link configuration/dotdigital/assets/developer-dash-iprestrict.png %}){: .zoom}
     _Dynamic Pages IP Restriction_
 
 ## Configure Debugging
@@ -150,7 +150,7 @@ If you leave this field empty, a security check does not run. We do not recommen
 1. For longer API calls, set the amount in seconds for the **Debug Api Calls Time** (default 60s).
 1. Click <span class="btn">Save Config</span>.
 
-    ![Debug]({% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
+    ![Debug]({% link configuration/dotdigital/assets/developer-dash-iprestrict.png %}){: .zoom}
     _Debug_
 
 ## Configure system alerts

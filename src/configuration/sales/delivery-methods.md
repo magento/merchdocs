@@ -68,7 +68,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ### In-Store Delivery
 
-![]({% link images/images/in-store-delivery.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-in-store-delivery.png %}){: .zoom}
 [_In-Store Delivery_]({% link shipping/shipping-in-store-delivery.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

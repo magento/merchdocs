@@ -101,7 +101,7 @@ Admin users can change the maximum number of items displayed in the order summar
 
    With this update, the order summary displayed during checkout is limited to the specified quantity of items.
 
-   ![]({% link images/images/order-summary.png %}){: .zoom}
+   ![]({% link sales/assets/order-summary.png %}){: .zoom}
    _Number of items displayed in Order Summary_
 
 ## Order confirmation

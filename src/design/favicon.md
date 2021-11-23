@@ -24,7 +24,7 @@ _Favicon in the browser tab_
 
 1. Under _Other Settings_, expand ![]({% link assets/icon-display-expand.png %}) the **HTML Head** section.
 
-   ![]({% link images/images/design-configuration-html-head.png %}){: .zoom}
+   ![]({% link design/assets/configuration-html-head.png %}){: .zoom}
    _[HTML Head settings]({% link design/html-head.md %})_
 
 1. If you want to remove the current favicon, click the _Delete_ (![]({% link assets/icon-delete-trashcan.png %})) icon in the lower-left corner of the image.

@@ -4,7 +4,7 @@ title: Header
 
 The Header configuration identifies the path to your store logo and specifies the logo alt text and welcome message.
 
-![]({% link images/images/design-configuration-header.png %}){: .zoom}
+![]({% link design/assets/configuration-header.png %}){: .zoom}
 _Header configuration settings_
 
 ## Configure the header

@@ -4,7 +4,7 @@ title: Inserting an Image
 
 From the editor, you can insert an image that has been uploaded to [Media Storage]({% link cms/media-storage.md %}), link to an image that resides on another server, or use the Adobe Stock Integration to search for and use Adobe Stock assets.
 
-![]({% link images/images/media-storage.png %}){: .zoom}
+![]({% link cms/assets/media-storage.png %}){: .zoom}
 _Media Storage_
 
 1. Open a page, block, or dynamic block in edit mode.

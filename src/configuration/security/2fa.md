@@ -16,7 +16,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 
 ## Google
 
-![]({% link images/images/config-security-2fa-google.png %}){: .zoom}
+![]({% link configuration/security/assets/2fa-google.png %}){: .zoom}
 [_Google_]({% link stores/security-two-factor-authentication.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -25,7 +25,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 
 ## Duo Security
 
-![]({% link images/images/config-security-2fa-duo-security.png %}){: .zoom}
+![]({% link configuration/security/assets/2fa-duo-security.png %}){: .zoom}
 [_Duo Security_]({% link stores/security-two-factor-authentication.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -36,7 +36,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 
 ## Authy
 
-![]({% link images/images/config-security-2fa-authy.png %}){: .zoom}
+![]({% link configuration/security/assets/2fa-authy.png %}){: .zoom}
 [_Authy_]({% link stores/security-two-factor-authentication.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -46,7 +46,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 
 ## U2F Key
 
-![]({% link images/images/config-security-2fa-u2f-key.png %}){: .zoom}
+![]({% link configuration/security/assets/2fa-u2f-key.png %}){: .zoom}
 [_U2F Key_]({% link stores/security-two-factor-authentication.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

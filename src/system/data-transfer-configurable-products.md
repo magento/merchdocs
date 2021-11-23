@@ -104,14 +104,14 @@ In the following example, the set of XL sizes is copied and pasted into the work
 
 1. Copy the set of product variations that you want to use as a template for the new products.
 
-    ![Exported data - copy product variations]({% link images/images/data-transfer-export-configurable-copy-rows.png %}){: .zoom}
+    ![Exported data - copy product variations]({% link system/assets/data-transfer-export-configurable-copy-rows.png %}){: .zoom}
     _Copy Product Variations_
 
 1. Insert the copied rows records into the worksheet.
 
    You now have two identical sets of the simple product variations.
 
-    ![CSV data - add product variations]({% link images/images/data-transfer-export-configurable-copy-rows.png %}){: .zoom}
+    ![CSV data - add product variations]({% link system/assets/data-transfer-export-configurable-copy-rows.png %}){: .zoom}
     _Paste New Product Variations into CSV File_
 
 1. Update the data in the following columns of the new variations, as needed.

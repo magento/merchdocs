@@ -4,7 +4,7 @@ title: Adding Search Terms
 
 As you learn new words that people use to search for products in your catalog, you can add them to your search terms list to direct people to the most closely matching products in your catalog.
 
-![Search terms grid]({% link images/images/search-terms.png %}){: .zoom}
+![Search terms grid]({% link marketing/assets/search-terms.png %}){: .zoom}
 _Search Terms_
 
 ## Add a New Search Term

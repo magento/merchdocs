@@ -10,7 +10,7 @@ As a best practice, it is recommended that you create one API user per supporte
 
 ## Add an API User
 
-1. Click the **Settings** (![Settings icon]({% link images/images/engagement-cloud-btn-settings.png %})) icon at the bottom of the sidebar. Then on the menu, choose **Access**.
+1. Click the **Settings** (![Settings icon]({% link marketing/dotdigital/assets/icon-settings.png %})) icon at the bottom of the sidebar. Then on the menu, choose **Access**.
 
 1. On the _Access_ page, choose the **API users** tab.
 

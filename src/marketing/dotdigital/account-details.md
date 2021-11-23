@@ -8,7 +8,7 @@ Use the _Account_ option on the _Settings_ menu to update your information and s
 
 ## Edit your Account Details
 
-1. In the lower-left corner, click the **Settings** (![]({% link images/images/engagement-cloud-btn-settings.png %}){: .Inline}) icon at the bottom of the sidebar.
+1. In the lower-left corner, click the **Settings** (![]({% link marketing/dotdigital/assets/icon-settings.png %}){: .Inline}) icon at the bottom of the sidebar.
 
 1. In the menu, choose **Account**.
 
