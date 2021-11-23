@@ -21,7 +21,7 @@ _Cookie Restriction Notice In Footer_
 
 1. Expand the **Default Cookie Settings** section and do the following:
 
-    ![Web configuration - default cookie settings]({% link images/images/config-general-web-default-cookie-settings.png %}){: .zoom}
+    ![Web configuration - default cookie settings]({% link configuration/general/assets/web-default-cookie-settings.png %}){: .zoom}
     [_Default Cookie Settings_]({% link configuration/general/web.md %})
 
     - Enter the **Cookie Lifetime** in seconds.

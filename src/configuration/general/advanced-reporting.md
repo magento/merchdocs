@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 Advanced Reporting is a cloud-based service that is powered by [Magento Business Intelligence][1]{:target="_blank"}. For technical information, see [Advanced Reporting][2]{:target="_blank"} in our developer documentation.
 
-![]({% link images/images/config-general-advanced-reporting.png %}){: .zoom}
+![]({% link configuration/general/assets/advanced-reporting.png %}){: .zoom}
 [_Advanced Reporting_]({% link reports/advanced-reporting.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

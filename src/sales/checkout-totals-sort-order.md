@@ -15,7 +15,7 @@ During Order Review, the total appears at the bottom of the order, with any adju
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Checkout Totals Sort Order** section.
 
-   ![The checkout totals options ae numbered to determine the sort order]({% link images/images/config-sales-sales-checkout-totals-sort-order.png %}){: .zoom}
+   ![The checkout totals options ae numbered to determine the sort order]({% link configuration/sales/assets/sales-checkout-totals-sort-order.png %}){: .zoom}
    [_Configuring the checkout totals sort order_]({% link configuration/sales/sales.md %})
 
 1. If the setting is for a specific store view, [choose the store view]({% link configuration/scope-change.md %}) where the configuration applies.

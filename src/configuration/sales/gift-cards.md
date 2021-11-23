@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Gift Card Email Settings
 
-![]({% link images/images/config-sales-gift-cards-gift-card-email-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/gift-cards-gift-card-email-settings.png %}){: .zoom}
 [_Gift Card Email Settings_]({% link catalog/product-gift-card-account-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -17,7 +17,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Gift Card General Settings
 
-![]({% link images/images/config-sales-gift-cards-gift-card-general-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/gift-cards-gift-card-general-settings.png %}){: .zoom}
 [_Gift Card General Settings_]({% link catalog/product-gift-card-account-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -40,7 +40,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Gift Card Account General Settings
 
-![]({% link images/images/config-sales-gift-cards-gift-card-account-general-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/gift-cards-gift-card-account-general-settings.png %}){: .zoom}
 [_Gift Card Account General Settings_]({% link catalog/product-gift-card-account-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

@@ -85,7 +85,7 @@ Create the [tax rules]({% link tax/tax-rules.md %}) that you need to use VAT IDÂ
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Store Information** section.
 
-   ![]({% link images/images/config-general-general-store-information.png %}){: .zoom}
+   ![]({% link configuration/general/assets/general-store-information.png %}){: .zoom}
    [_Store Information_]({% link configuration/general/general.md %})
 
 1. Select your **Country**.
@@ -106,5 +106,5 @@ Create the [tax rules]({% link tax/tax-rules.md %}) that you need to use VAT IDÂ
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-   ![]({% link images/images/config-general-general-country-options.png %}){: .zoom}
+   ![]({% link configuration/general/assets/general-country-options.png %}){: .zoom}
    [_Countries Options_]({% link configuration/general/general.md %})

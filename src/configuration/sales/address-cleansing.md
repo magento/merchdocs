@@ -4,7 +4,7 @@ title: Address Cleansing
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Address Cleansing
 
-![]({% link images/images/config-sales-address-validation.png %}){: .zoom}
+![]({% link configuration/sales/assets/address-cleansing-vertex.png %}){: .zoom}
 [_Vertex Address Cleansing settings - enabled_]({% link tax/vertex-configure-address.md %})
 
 {:.bs-callout-info}

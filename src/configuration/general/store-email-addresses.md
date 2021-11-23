@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 See [Store Email Addresses]({% link stores/store-email-addresses.md %}) for specific configuration fields and options.
 
-![Store Email Addresses > General Contact]({% link images/images/config-general-store-email-addresses-general-contact.png %}){: .zoom}
+![Store Email Addresses > General Contact]({% link configuration/general/assets/store-email-addresses-general-contact.png %}){: .zoom}
 _General Contact configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -44,7 +44,7 @@ _Customer Support configuration settings_
 
 See [Store Email Addresses]({% link stores/store-email-addresses.md %}) for specific configuration fields and options.
 
-![Store Email Addresses > Custom Email 1]({% link images/images/config-general-store-email-addresses-custom-email1.png %}){: .zoom}
+![Store Email Addresses > Custom Email 1]({% link configuration/general/assets/store-email-addresses-custom-email1.png %}){: .zoom}
 _Custom Email 1 configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -56,7 +56,7 @@ _Custom Email 1 configuration settings_
 
 See [Store Email Addresses]({% link stores/store-email-addresses.md %}) for specific configuration fields and options.
 
-![Store Email Addresses > Custom Email 2]({% link images/images/config-general-store-email-addresses-custom-email1.png %}){: .zoom}
+![Store Email Addresses > Custom Email 2]({% link configuration/general/assets/store-email-addresses-custom-email1.png %}){: .zoom}
 _Custom Email 2 configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

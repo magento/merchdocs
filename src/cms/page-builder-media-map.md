@@ -59,7 +59,7 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Advanced Content Tools**.
 
-   ![]({% link images/images/config-general-content-management-advanced-content-tools.png %}){: .zoom}
+   ![]({% link configuration/general/assets/content-management-advanced-content-tools.png %}){: .zoom}
    [_Advanced Content Tools_]({% link configuration/general/content-management.md %})
 
 1. For **Google Maps API Key**, paste the key you copied in step 1.

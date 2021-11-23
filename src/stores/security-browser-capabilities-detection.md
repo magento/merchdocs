@@ -21,7 +21,7 @@ For technical information, refer to [Supported browsers]({{ site.devdocs_url }}/
 
    - To display a banner above the header when JavaScript is disabled in the user’s browser, set **Show Notice if JavaScript is Disabled** to `Yes`.
 
-    ![General configuration - web browser capabilities detection]({% link images/images/config-general-web-browser-capabilities-detection.png %}){: .zoom}
+    ![General configuration - web browser capabilities detection]({% link configuration/general/assets/web-browser-capabilities-detection.png %}){: .zoom}
     _Browser Capabilities Detection_
 
 1. When complete, click <span class="btn">Save Config</span>.

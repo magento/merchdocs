@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## General
 
-![]({% link images/images/config-general-new-relic-reporting-general.png %}){: .zoom}
+![]({% link configuration/general/assets/new-relic-reporting-general.png %}){: .zoom}
 [_General_]({% link reports/new-relic-reporting.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -23,7 +23,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## Cron
 
-![]({% link images/images/config-general-new-relic-reporting-cron.png %}){: .zoom}
+![]({% link configuration/general/assets/new-relic-reporting-cron.png %}){: .zoom}
 [_Cron_]({% link system/cron.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

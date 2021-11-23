@@ -17,7 +17,7 @@ The Gift Card configuration establishes the default settings for all gift cards 
 
    - Set **Gift Card Notification Email Template** to the template that is used for the notification.
 
-    ![]({% link images/images/config-sales-gift-cards-gift-card-email-settings.png %}){: .zoom}
+    ![]({% link configuration/sales/assets/gift-cards-gift-card-email-settings.png %}){: .zoom}
     [_Gift Card Email Settings_]({% link configuration/sales/gift-cards.md %})
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the _Email Sent from Gift Card Account Management_ section and do the following:
@@ -48,14 +48,14 @@ See [Store Email Addresses]({% link configuration/general/store-email-addresses.
     |Ordered|The gift card account is created when the order is placed. |
     |Invoiced|The gift card account is created after payment is captured and the order is invoiced. |
 
-    ![]({% link images/images/config-sales-gift-cards-gift-card-general-settings.png %}){: .zoom}
+    ![]({% link configuration/sales/assets/gift-cards-gift-card-general-settings.png %}){: .zoom}
     [_Gift Card General Settings_]({% link configuration/sales/gift-cards.md %})
 
 ## Step 3: Establish the gift card code pool
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the _Gift Card Account General Settings_ section and do the following:
 
-   ![]({% link images/images/config-sales-gift-cards-gift-card-account-general-settings.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/gift-cards-gift-card-account-general-settings.png %}){: .zoom}
    [_Gift Card Account General Settings_]({% link configuration/sales/gift-cards.md %})
 
    - To customize the code, complete the following according to your preference:

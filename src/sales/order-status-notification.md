@@ -27,7 +27,7 @@ Customers can track the status of their orders by [RSS feed]({% link marketing/r
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Order** section.
 
-   ![]({% link images/images/config-sales-sales-emails-order.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/sales-emails-order.png %}){: .zoom}
    [_Order_]({% link sales/orders.md %})
 
 1. Set **New Order Confirmation Email Sender** to one of the following:
