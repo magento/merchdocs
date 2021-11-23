@@ -56,7 +56,7 @@ _Choose Attribute Set_
 
 1. Choose the **Store View** where the product is to be available.
 
-    ![]({% link images/images/product-create-store-view-choose.png %}){: .zoom}
+    ![]({% link catalog/assets/product-create-store-view-choose.png %}){: .zoom}
     _Choose Store View_
 
 ## Step 4: Complete the basic settings
@@ -117,7 +117,7 @@ Scroll down, expand ![]({% link assets/icon-display-expand.png %}) the _Download
 
 The _Downloadable Information_ section has two parts. The first part describes each download link, and the second part describes each sample file. The default value for many of these options can be set in the [configuration]({% link catalog/product-download-options.md %}).
 
-![]({% link images/images/product-downloadable-information.png %}){: .zoom}
+![]({% link catalog/assets/product-downloadable-information.png %}){: .zoom}
 _Downloadable Information_
 
 ### Complete the links
@@ -208,7 +208,7 @@ If you are ready to publish the product in the catalog, set **Enable Product** t
 
    On the _Save_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Save & Close**.
 
-   ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
+   ![]({% link catalog/assets/product-edit-save-close.png %}){: .zoom}
    _Save & Close_
 
 ## Things to remember

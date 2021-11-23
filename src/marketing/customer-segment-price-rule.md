@@ -43,7 +43,7 @@ _Targeted Customer Segment_
 
    - In the list, select the checkbox of each segment that you want to target with the condition.
 
-1. Click **Select** ( ![Select icon]({% link images/images/icon-green-check.png %}) ) to place the selected customer segments into the condition.
+1. Click **Select** ( ![Select icon]({% link assets/icon-checkmark-green-circle.png %}) ) to place the selected customer segments into the condition.
 
 1. Complete the rest of the price rule as needed.
 

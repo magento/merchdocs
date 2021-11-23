@@ -39,7 +39,7 @@ If the needed attributes do not exist, you can add new attributes while creating
 - In the upper-right corner, click <span class="btn">Add Attribute</span>.
 - Define a new attribute (see [Adding an Attribute to a Product]({% link catalog/product-attributes-add.md %})).
 
-   ![]({% link images/images/product-attribute-add-select.png %}){: .zoom}
+   ![]({% link catalog/assets/product-attribute-add-select.png %}){: .zoom}
    _New Attribute_
 
 To add an existing attribute to the product, use the [filter controls]({% link stores/admin-grid-controls.md %}) to find the attribute in the grid and do the following:
@@ -156,14 +156,14 @@ Complete the information in the following sections as needed:
 
       The store opens in a new browser tab.
 
-      ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
+      ![]({% link catalog/assets/product-admin-customer-view.png %}){: .zoom}
       _Customer View_
 
    **Method 2:** Save and Close
 
    - On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Save & Close**.
 
-   ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
+   ![]({% link catalog/assets/product-edit-save-close.png %}){: .zoom}
    _Save & Close_
 
 ## Step 7: Configure the cart thumbnails (optional)

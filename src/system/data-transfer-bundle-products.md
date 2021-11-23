@@ -4,7 +4,7 @@ title: Importing Bundle Products
 
 A bundle product presents a selection of items and allows customers to choose the ones they want to purchase. All items that make up a bundle already exist in the catalog as either [Simple Products]({% link catalog/product-create-simple.md %}) or [Virtual Products]({% link catalog/product-create-virtual.md %}). Bundle products are usually created and updated from the Admin. However, you can also import data to create a new bundle product or you can export existing bundle products, edit the data, and import them back into the catalog. The Sprite Yoga Companion Kit is a bundle product in the sample data that is used in the following examples.
 
-![]({% link images/images/product-bundle.png %}){: .zoom}
+![]({% link catalog/assets/product-bundle.png %}){: .zoom}
 _Bundle Product_
 
 ## Change the order of bundle items
@@ -15,7 +15,7 @@ There are two ways to change the order of items in a bundle product.
 
 When working with a [Bundle]({% link catalog/product-create-bundle.md %}) product from the Admin, you can drag and drop items and sections into position.
 
-![]({% link images/images/product-bundle-items-move.png %}){: .zoom}
+![]({% link catalog/assets/product-bundle-items-move.png %}){: .zoom}
 _Bundle Items_
 
 ### Method 2: Edit the product data

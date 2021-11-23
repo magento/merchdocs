@@ -58,7 +58,7 @@ Magento Open Source includes simple start and end date options in the Advanced P
 
     The special price goes into effect immediately after midnight at the beginning of the start date (00:01) and continues until just before midnight (23:59) on the day before the end date.
 
-    ![]({% link images/images/product-price-special.png %}){: .zoom}
+    ![]({% link catalog/assets/product-price-special.png %}){: .zoom}
     _Special Pricing Settings_
 
 1. When complete, click <span class="btn">Done</span> and then <span class="btn">Save</span>.
