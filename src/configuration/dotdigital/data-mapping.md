@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## Customer Information
 
-![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-customer-information.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/data-mapping-customer-information.png %}){: .zoom}
 [_Customer Information_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

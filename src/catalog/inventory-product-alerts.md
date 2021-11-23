@@ -26,7 +26,7 @@ _List of Product and Price Alert Subscriptions_
 
 1. Click to expand the _Product Alerts_ section and do the following:
 
-    ![]({% link images/images/config-catalog-catalog-product-alerts.png %}){: .zoom}
+    ![]({% link configuration/catalog/assets/catalog-product-alerts.png %}){: .zoom}
     [_Product Alerts_]({% link configuration/catalog/catalog.md %})
 
     - To offer price change alerts to your customers, set **Allow Alert When Product Price Changes** to `Yes`.

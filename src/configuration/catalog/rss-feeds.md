@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Rss Config
 
-![]({% link images/images/config-catalog-rss-feeds-rss-config.png %}){: .zoom}
+![]({% link configuration/catalog/assets/rss-feeds-rss-config.png %}){: .zoom}
 [_Rss Config_]({% link marketing/rss-feed.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -24,7 +24,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Catalog
 
-![]({% link images/images/config-catalog-rss-feeds-catalog.png %}){: .zoom}
+![]({% link configuration/catalog/assets/rss-feeds-catalog.png %}){: .zoom}
 [_Catalog_]({% link catalog/catalog-menu.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -36,7 +36,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Order
 
-![]({% link images/images/config-catalog-rss-feeds-order.png %}){: .zoom}
+![]({% link configuration/catalog/assets/rss-feeds-order.png %}){: .zoom}
 [_Order_]({% link sales/order-status-notification.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
