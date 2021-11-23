@@ -34,7 +34,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
 1. Under Recommended Solutions, in the **Braintree** section, click <span class="btn">Configure</span> and do the following:
 
-   ![Configure Braintree]({% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
+   ![Configure Braintree]({% link configuration/sales/assets/payment-methods-braintree.png %}){: .zoom}
    _Configure Braintree_
 
    - Enter a **Title** to identify Braintree as a payment option during checkout.

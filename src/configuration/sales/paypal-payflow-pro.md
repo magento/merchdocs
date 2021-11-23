@@ -27,7 +27,7 @@ _Required Settings_
 
 ## Advertise PayPal Credit
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
 _Advertise PayPal Credit_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -41,7 +41,7 @@ _Advertise PayPal Credit_
 
 ## Basic Settings - PayPal Payflow Pro
 
-![]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-basic-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-payflow-pro-basic-settings.png %}){: .zoom}
 _Basic Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -54,7 +54,7 @@ _Basic Settings_
 
 ## Advanced Settings
 
-![]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-advanced-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-payflow-pro-advanced-settings.png %}){: .zoom}
 _Advanced Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

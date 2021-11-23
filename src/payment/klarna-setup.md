@@ -88,7 +88,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **API Configuration** section.
 
-   ![API Configuration]({% link images/images/config-sales-payment-methods-klarna-api.png %}){: .zoom}
+   ![API Configuration]({% link configuration/sales/assets/payment-methods-klarna-api.png %}){: .zoom}
    [_API Configuration_]({% link configuration/sales/klarna.md %})
 
 1. Set **Endpoint** to one of the following:
@@ -117,7 +117,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Klarna Payments** section.
 
-   ![Klarna Payments]({% link images/images/config-sales-payment-methods-klarna-payments.png %}){: .zoom}
+   ![Klarna Payments]({% link configuration/sales/assets/payment-methods-klarna-payments.png %}){: .zoom}
    [_Klarna Payments_]({% link configuration/sales/klarna.md %})
 
 1. Set **Enable** to `Yes`.
@@ -142,7 +142,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Design** section.
 
-   ![Klarna Payments Design]({% link images/images/config-sales-payment-methods-klarna-payments-design.png %}){: .zoom}
+   ![Klarna Payments Design]({% link configuration/sales/assets/payment-methods-klarna-payments-design.png %}){: .zoom}
    [_Design_]({% link configuration/sales/klarna.md %})
 
 1. Enter the hexadecimal value of the color that you want to use for the following elements.
@@ -161,7 +161,7 @@ If you want to enable the display of Klarna promotional messages in your storefr
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Klarna On-Site Messaging** section.
 
-   ![Klarna On-site Messaging]({% link images/images/config-sales-payment-methods-klarna-payments-on-site-messaging.png %}){: .zoom}
+   ![Klarna On-site Messaging]({% link configuration/sales/assets/payment-methods-klarna-payments-on-site-messaging.png %}){: .zoom}
    [_Klarna On-site messaging_]({% link configuration/sales/klarna.md %})
 
 1. Set **Enable** to `Yes`.

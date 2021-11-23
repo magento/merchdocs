@@ -57,7 +57,7 @@ You can also open a [USPS Web Tools][1] account. After you complete the registra
 
 1. Enter the **Maximum Package Weight** according to carrier requirements.
 
-   ![]({% link images/images/config-sales-shipping-methods-usps-packaging.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/delivery-methods-usps-packaging.png %}){: .zoom}
    _[USPS Packaging Settings]({% link configuration/sales/delivery-methods.md %})_
 
 ## Step 4: Set up handling fees
@@ -78,7 +78,7 @@ The handling fee is optional, and appears as an additional charge that is added 
 
    To enter a percentage, use the decimal format. For example, enter `0.25` for 25%.
 
-   ![]({% link images/images/config-sales-shipping-methods-usps-handling-fee.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/delivery-methods-usps-handling-fee.png %}){: .zoom}
    _[USPS Handling Fee]({% link configuration/sales/delivery-methods.md %})_
 
 ## Step 5: Specify allowed methods and applicable countries
@@ -97,7 +97,7 @@ The handling fee is optional, and appears as an additional charge that is added 
 
    This text box is preset with a default message, but you can enter a different message that you want to appear if USPS becomes unavailable.
 
-   ![]({% link images/images/config-sales-shipping-methods-usps-allowed-methods.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/delivery-methods-usps-allowed-methods.png %}){: .zoom}
    _[USPS Allowed Methods*]({% link configuration/sales/delivery-methods.md %})_
 
 1. Set **Ship to Applicable Countries**:
@@ -118,7 +118,7 @@ The handling fee is optional, and appears as an additional charge that is added 
 
 1. Click <span class="btn">Save Config</span>.
 
-![]({% link images/images/config-sales-shipping-methods-usps-countries.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-usps-countries.png %}){: .zoom}
 [*USPS Applicable Countries*]({% link configuration/sales/delivery-methods.md %})
 
 [1]: https://secure.shippingapis.com/registration/

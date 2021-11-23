@@ -6,7 +6,7 @@ Adobe Commerce and Magento Open Source allow you to accept cash on delivery (COD
 
 The shipping carrier receives payment from the customer at the time of delivery, which is then transferred to you. You can make an adjustment for any fee charged by the carrier service in your shipping and handling charges.
 
-![Cash on Delivery Payment]({% link images/images/config-sales-payment-methods-cash-on-delivery-payment.png %}){: .zoom}
+![Cash on Delivery Payment]({% link configuration/sales/assets/payment-methods-cash-on-delivery-payment.png %}){: .zoom}
 _Cash On Delivery Payment_
 
 ## Set up cash on delivery payments
@@ -17,7 +17,7 @@ _Cash On Delivery Payment_
 
 1. Under _Other Payment Methods_, expand ![]({% link assets/icon-display-expand.png %}) the **Cash On Delivery Payment** section.
 
-   ![Cash on Delivery Payment]({% link images/images/config-sales-payment-methods-cash-on-delivery-payment.png %}){: .zoom}
+   ![Cash on Delivery Payment]({% link configuration/sales/assets/payment-methods-cash-on-delivery-payment.png %}){: .zoom}
    [_Cash On Delivery configuration_]({% link configuration/sales/payment-methods.md %}#cash-on-delivery-payment)
 
    {:.bs-callout-info}

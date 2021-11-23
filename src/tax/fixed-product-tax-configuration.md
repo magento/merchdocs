@@ -34,7 +34,7 @@ The following instructions show how to set up a fixed product tax for your store
 
 1. Set **Include FPT in Subtotal** as needed.
 
-   ![]({% link images/images/config-sales-tax-fixed-product-taxes.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/tax-fixed-product-taxes.png %}){: .zoom}
    [_Fixed Product Taxes_]({% link configuration/sales/tax.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

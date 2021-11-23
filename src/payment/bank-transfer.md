@@ -12,7 +12,7 @@ Adobe Commerce and Magento Open Source allow you to accept payment that is trans
 
 1. Under _Other Payment Methods_, expand ![]({% link assets/icon-display-expand.png %}) the **Bank Transfer Payment** section.
 
-   ![Bank Transfer Payment]({% link images/images/config-sales-payment-methods-bank-transfer-payment.png %}){: .zoom}
+   ![Bank Transfer Payment]({% link configuration/sales/assets/payment-methods-bank-transfer-payment.png %}){: .zoom}
    [_Bank Transfer Payment configuration_]({% link configuration/sales/payment-methods.md %}#bank-transfer-payment)
 
    {:.bs-callout-info}

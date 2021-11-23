@@ -48,7 +48,7 @@ The country of manufacture is required for all products that are shipped interna
    - **Street Address** – The street address of the place from which shipments are sent. For example, the location of your company or warehouse. This field is required for shipping labels.
    - **Street Address Line 2** – Any additional address information, such as the floor, entrance and so on. We strongly recommend that you use this field.
 
-   ![]({% link images/images/config-sales-shipping-settings-origin.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/shipping-settings-origin.png %}){: .zoom}
    _[Origin]({% link configuration/sales/shipping-settings.md %})_
 
 1. In the _Sales_ section in the left panel, choose **Delivery Methods**.
