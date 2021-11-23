@@ -334,19 +334,21 @@ pages:
         url: "/live-search/install.html"
       - label: Release Notes
         url: "/live-search/release-notes.html"
+      - label: Feedback
+        url: "/live-search/feedback.html"
     - label: Quick Tour
       url: "/live-search/quick-tour.html"
-    - label: Workspace
-      url: "/live-search/workspace.html"
+  - label: Workspace
+    url: "/live-search/workspace.html"
   - label: Performance
     url: "/live-search/performance.html"  
   - label: Facets
     url: "/live-search/facets.html"
     children:
-    - label: Types of Facets
-      url: "/live-search/facets-type.html"
     - label: Faceting Workspace
       url: "/live-search/facets-workspace.html"
+    - label: Types of Facets
+      url: "/live-search/facets-type.html"
     - label: Add Facets
       url: "/live-search/facets-add.html"
     - label: Manage Facets
@@ -371,8 +373,6 @@ pages:
       url: "/live-search/rules-add.html"
     - label: Manage Rules
       url: "/live-search/rules-manage.html"
-  - label: Feedback
-    url: "/live-search/feedback.html"
   - label: Settings
     url: "/live-search/settings.html"
 - label: SEO and Search
