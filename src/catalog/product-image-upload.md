@@ -12,8 +12,8 @@ If you plan to upload large images for viewing on the _Product Details_ page, yo
 
 1. To work with a specific store view, set the **Store View** chooser in the upper-left corner to the applicable view.
 
-{:.bs-callout-tip}
-New product images are **_always_** uploaded and visible in **_all_** Store Views. Even if they are uploaded not in the `All Store Views` scope. <br/>To hide any chosen product image from some specific `Store View`, you must switch to this `Store View`, click on the `Hide from Product Page` checkbox for this image, and click <span class="btn">Save</span>.
+   {:.bs-callout-info}
+   New product images are **_always_** uploaded and visible in **_all_** store views, even if the `All Store Views` scope is not used for upload. <br/><br/>To hide any product image from a specific store view, you must switch to that Store View , select the **Hide from Product Page** checkbox for the image, and click <span class="btn">Save</span>.
 
 1. Scroll down and expand the _Images and Videos_ section.
 
