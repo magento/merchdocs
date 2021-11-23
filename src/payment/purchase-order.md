@@ -14,7 +14,7 @@ Before accepting payment by purchase order, always establish the credit worthine
 
 1. Under _Other Payment Methods_, expand ![]({% link assets/icon-display-expand.png %}) the **Purchase Order** section.
 
-   ![Purchase Order]({% link images/images/config-sales-payment-methods-purchase-order.png %}){: .zoom}
+   ![Purchase Order]({% link configuration/sales/assets/payment-methods-purchase-order.png %}){: .zoom}
    [_Purchase Order configuration_]({% link configuration/sales/payment-methods.md %}#purchase-order)
 
    {:.bs-callout-info}

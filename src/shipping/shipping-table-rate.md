@@ -80,7 +80,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. Click <span class="btn">Save Config</span>.
 
-   ![]({% link images/images/config-sales-shipping-methods-table-rates.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/delivery-methods-table-rates.png %}){: .zoom}
    _[Table Rates]({% link configuration/sales/delivery-methods.md %})_
 
 ## Step 2: Prepare the table rate data
