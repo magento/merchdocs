@@ -7,13 +7,16 @@ redirect_from:
   - https://devdocs.magento.com/live-search/install.html
 ---
 
-Live Search is a set of standalone meta [packages](#live-search-packages) that replaces standard {{site.data.var.ce}} and {{site.data.var.ee}} search capabilities. Part of the installation takes place from the command line of the server. If you do not have experience working from the command line, ask your system integrator or developer for assistance.
+Live Search is a set of standalone [packages](#live-search-packages) that replaces standard {{site.data.var.ce}} and {{site.data.var.ee}} search capabilities.
 
 This topic provides instructions to do the following:
 
 -  [Installing Live Search](#before-you-begin) (Methods 1 and 2)
 -  [Updating Live Search](#updating-live-search)
 -  [Uninstalling Live Search](#uninstalling-live-search)
+
+{:.bs-callout-tip}
+The installation takes place from the command line of the server. Rather than retyping each command, hover over the far right of the code box, click the **Copy** link, and paste it into the command line. If you do not have experience working from the command line, ask your system integrator or developer for assistance.
 
 ## Requirements
 
@@ -27,13 +30,13 @@ This topic provides instructions to do the following:
 -  {{site.data.var.ee}} on Cloud (ECE) : 2.4.x
 
   {:.bs-callout-warning}
-   At this time, {{site.data.var.ee}} [for B2B](https://magento.com/solutions/b2b) is not supported.
+   At this time, [{{site.data.var.ee}} for B2B](https://magento.com/solutions/b2b) is not supported.
 
 ## Before you begin
 
 Do the following:
 
-1. Confirm that [cron jobs](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html) and indexers]({% link system/index-management.md %}) are running.
+1. Confirm that [cron jobs](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html) and [indexers]({% link system/index-management.md %}) are running.
 
 1. Choose the onboarding method that meets your requirements, and follow the instructions.
 
@@ -96,6 +99,8 @@ This onboarding method is recommended when installing Live Search to:
 
 In this scenario, Elasticsearch temporarily manages search requests from the storefront while the Live Search service indexes all products in the background, without any interruption to normal storefront operations. Elasticsearch is disabled and Live Search enabled after all catalog data is indexed and synchronized.
 
+To avoid typing errors, hover over the far right of each box of code, click the **Copy** link, and paste it into the command line.
+
 1. To download the `live-search` package, run the following from the command line:
 
    ```bash
@@ -133,7 +138,7 @@ In this scenario, Elasticsearch temporarily manages search requests from the sto
    -  The product count returned is close to what you expect for the store view
    -  Facet(s) are returned
 
-1. Run the following commands to disable Elasticsearch modules, enable Live Search modules, and run setup.
+1. Run the following commands to disable Elasticsearch modules, enable Live Search modules, and run setup:
 
    ```bash
    bin/magento module:enable Magento_LiveSearchAdapter Magento_LiveSearchStorefrontPopover
