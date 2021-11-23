@@ -64,8 +64,8 @@ Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %
    ![]({% link images/images-b2b/welcome-email-company.png %}){: .zoom}
 
 {:.bs-callout-info}
-If the visitors already have a registered user account, they can create a company account by navigating to _Customer's Profile_ > **Company Structure** > **Create a Company Account**.
-This customer's account will be assigned as the primary contact. Otherwise, Magento will create a new customer, who will receive email to set a password.
+If a visitor is logged in to a registered user account, they can create a company account by navigating to _Customer Profile_ > **Company Structure** > **Create a Company Account**.
+Upon creation of the company account, the customer's account is assigned as the primary contact. Otherwise, the system creates a new customer, who receives an email to set a password.
 
 ## Method 2: Create company from the Admin
 
