@@ -3,34 +3,34 @@ title: Install Live Search
 tag: live-search
 group: marketing
 ee_only: True
-redirect_from: 
-  - https://devdocs.magento.com/live-search/install.html
+redirect_from:
+- https://devdocs.magento.com/live-search/install.html
 ---
 
 Live Search is a set of standalone [packages](#live-search-packages) that replaces standard {{site.data.var.ce}} and {{site.data.var.ee}} search capabilities.
 
 This topic provides instructions to do the following:
 
--  [Installing Live Search](#before-you-begin) (Methods 1 and 2)
--  [Updating Live Search](#updating-live-search)
--  [Uninstalling Live Search](#uninstalling-live-search)
+- [Installing Live Search](#before-you-begin) (Methods 1 and 2)
+- [Updating Live Search](#updating-live-search)
+- [Uninstalling Live Search](#uninstalling-live-search)
 
 {:.bs-callout-tip}
 The installation takes place from the command line of the server. Rather than retyping each command, hover over the far right of the code box, click the **Copy** link, and paste it into the command line. If you do not have experience working from the command line, ask your system integrator or developer for assistance.
 
 ## Requirements
 
--  [{{site.data.var.ee}}](https://magento.com/products/magento-commerce) 2.4.x
--  PHP 7.3 / 7.4
--  Composer
+- [{{site.data.var.ee}}](https://magento.com/products/magento-commerce) 2.4.x
+- PHP 7.3 / 7.4
+- Composer
 
 ### Supported Platforms
 
--  {{site.data.var.ee}} on prem (EE) : 2.4.x
--  {{site.data.var.ee}} on Cloud (ECE) : 2.4.x
+- {{site.data.var.ee}} on prem (EE) : 2.4.x
+- {{site.data.var.ee}} on Cloud (ECE) : 2.4.x
 
-  {:.bs-callout-warning}
-   At this time, [{{site.data.var.ee}} for B2B](https://magento.com/solutions/b2b) is not supported.
+{:.bs-callout-warning}
+At this time, [{{site.data.var.ee}} for B2B](https://magento.com/solutions/b2b) is not supported.
 
 ## Before you begin
 
@@ -40,15 +40,15 @@ Do the following:
 
 1. Choose the onboarding method that meets your requirements, and follow the instructions.
 
-   -  [Method 1](#method-1): Install without Elasticsearch
-   -  [Method 2](#method-2): Install with Elasticsearch (No downtime)
+   - [Method 1](#method-1): Install without Elasticsearch
+   - [Method 2](#method-2): Install with Elasticsearch (No downtime)
 
 ## Method 1: Install without Elasticsearch {#method-1}
 
 This onboarding method is recommended when installing Live Search to a:
 
--  New Commerce installation
--  Staging environment
+- New Commerce installation
+- Staging environment
 
 In this scenario, storefront operations are interrupted while the Live Search service indexes all products in the catalog. During the installation, Live Search modules are enabled and Elasticsearch modules are disabled.
 
@@ -77,14 +77,14 @@ In this scenario, storefront operations are interrupted while the Live Search se
 
 1. Verify that the following [indexers]({% link system/index-management.md %}) are set to `Update by Schedule`:
 
-   -  Product Feed
-   -  Product Variant Feed
-   -  Catalog Attributes Feed
+   - Product Feed
+   - Product Variant Feed
+   - Catalog Attributes Feed
 
 1. Configure your [API keys](#configure-api-keys) to [synchronize](#synchronize-catalog-data) your catalog data to Live Search services.
 
 1. To make facets available as filters in the storefront, add the [facets]({% link live-search/facets-add.md %}) you need, according to the [requirements]({% link live-search/facets.md %}).
-   
+
    You should be able to add facets after `cron` runs the attribute feeds and exports attribute metadata.
 
 1. Wait at least an hour after `cron` runs to synchronize data. Then, [verify](#verify-export) that the data was exported.
@@ -95,7 +95,7 @@ In this scenario, storefront operations are interrupted while the Live Search se
 
 This onboarding method is recommended when installing Live Search to:
 
--  An existing production Commerce installation
+- An existing production Commerce installation
 
 In this scenario, Elasticsearch temporarily manages search requests from the storefront while the Live Search service indexes all products in the background, without any interruption to normal storefront operations. Elasticsearch is disabled and Live Search enabled after all catalog data is indexed and synchronized.
 
@@ -123,9 +123,9 @@ To avoid typing errors, hover over the far right of each box of code, click the 
 
 1. Verify that the following [indexers]({% link system/index-management.md %}) are set to `Update by Schedule`:
 
-   -  Product Feed
-   -  Product Variant Feed
-   -  Catalog Attributes Feed
+   - Product Feed
+   - Product Variant Feed
+   - Catalog Attributes Feed
 
 1. Configure your [API keys](#configure-api-keys) to [synchronize](#synchronize-catalog-data) your catalog data to Live Search services.
 
@@ -135,8 +135,8 @@ To avoid typing errors, hover over the far right of each box of code, click the 
 
 1. Wait at least an hour for the data to be indexed and synchronized. Then, use the [GraphQL playground](https://devdocs.magento.com/live-search/graphql-support.html) with the default query to verify the following:
 
-   -  The product count returned is close to what you expect for the store view
-   -  Facet(s) are returned
+   - The product count returned is close to what you expect for the store view
+   - Facet(s) are returned
 
 1. Run the following commands to disable Elasticsearch modules, enable Live Search modules, and run setup:
 
@@ -176,8 +176,8 @@ Live Search requires synchronized product data for search operations, and synchr
 
 To verify that the catalog data has been exported from your {{site.data.var.ee}} instance and is synchronized for Live Search, look for entries in the following tables:
 
--  `catalog_data_exporter_products`
--  `catalog_data_exporter_product_attributes`
+- `catalog_data_exporter_products`
+- `catalog_data_exporter_product_attributes`
 
 For additional help, refer to [Live search catalog not synchronized](https://support.magento.com/hc/en-us/articles/4405637804301-Live-search-catalog-not-synchronized) in the Support Knowledge Base.
 
@@ -188,9 +188,9 @@ After the initial synchronization, it can take up to fifteen minutes for increme
 
 In the storefront, verify the following:
 
--  The _Search_ box returns results correctly
--  Category browse returns results correctly
--  Facet(s) are available as filters on search results pages
+- The _Search_ box returns results correctly
+- Category browse returns results correctly
+- Facet(s) are available as filters on search results pages
 
 If everything works correctly, congratulations! Live Search is installed, connected, and ready to use.
 
