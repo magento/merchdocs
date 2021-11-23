@@ -19,7 +19,7 @@ Log archiving requires a [cron job]({% link system/cron.md %}) to be set up.
     - **Log Entry Lifetime, Days** — Enter the number of days that you want to keep the log entries in the database before they are removed.
     - **Log Archiving Frequency** — Set to `Daily`, `Weekly`, or `Monthly`.
 
-    ![Advanced configuration - admin actions log archiving]({% link images/images/config-advanced-system-admin-actions-log-archiving.png %}){: .zoom}
+    ![Advanced configuration - admin actions log archiving]({% link configuration/advanced/assets/system-admin-actions-log-archiving.png %}){: .zoom}
     [_Admin Actions Log Archiving_]({% link configuration/advanced/system.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

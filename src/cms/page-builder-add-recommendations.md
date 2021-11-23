@@ -16,12 +16,12 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
 
 | Tool  | Icon | Description |
 | --- | --| --- |
-| Move | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the product recommendation container and its content to another position on the stage.|
-| Settings | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Product Recommendation page, where you can choose the recommendation unit and change the properties of the container. |
-| Hide | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the current product recommendation container and its content. |
-| Show | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the hidden product recommendation container and its content. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a duplicate copy of the product recommendation container and its content. |
-| Remove | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the product recommendation container and its content from the stage. |
+| Move | ![]({% link cms/assets/pb-icon-move.png %}) | Moves the product recommendation container and its content to another position on the stage.|
+| Settings | ![]({% link cms/assets/pb-icon-settings.png %}) | Opens the Edit Product Recommendation page, where you can choose the recommendation unit and change the properties of the container. |
+| Hide | ![]({% link cms/assets/pb-icon-hide.png %}) | Hides the current product recommendation container and its content. |
+| Show | ![]({% link cms/assets/pb-icon-show.png %}) | Shows the hidden product recommendation container and its content. |
+| Duplicate | ![]({% link cms/assets/pb-icon-duplicate.png %}) | Makes a duplicate copy of the product recommendation container and its content. |
+| Remove | ![]({% link cms/assets/pb-icon-remove.png %}) | Deletes the product recommendation container and its content from the stage. |
 
 ## Add an existing recommendation unit
 
@@ -44,7 +44,7 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
 1. Do one of the following:
 
    - Click <span class="btn">Edit Product Recommendation</span>.
-   - Hover over the empty container to display the toolbox and click the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+   - Hover over the empty container to display the toolbox and click the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
    ![]({% link cms/assets/pb-prex-toolbox.png %}){: .zoom}
    _Edit Product Recommendation_
@@ -67,7 +67,7 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
 
 1. When complete, do the following:
 
-   - If working with a fully maximized browser window, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon in the upper-right corner of the workspace.
+   - If working with a fully maximized browser window, click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon in the upper-right corner of the workspace.
 
    - Click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
@@ -75,7 +75,7 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
 
 ## Edit recommendation unit settings
 
-1. Hover over the recommendation unit container to display the toolbox and click the **Settings** (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the recommendation unit container to display the toolbox and click the **Settings** (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
    ![]({% link cms/assets/pb-placeholder-toolbox.png %}){: .zoom}
    _Recommendation Toolbox_
@@ -86,11 +86,11 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
 
 ## Duplicate a recommendation unit
 
-1. Hover over the recommendation unit container to display the toolbox and click the **Duplicate** (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon in the toolbox.
+1. Hover over the recommendation unit container to display the toolbox and click the **Duplicate** (![]({% link cms/assets/pb-icon-duplicate.png %})) icon in the toolbox.
 
    The duplicate appears just below the original.
 
-1. To move the duplicated recommendation unit to a new position, hover over the container and click the **Move** (![]({% link images/images-ee/icon-pb-move.png %})) icon in the toolbox.
+1. To move the duplicated recommendation unit to a new position, hover over the container and click the **Move** (![]({% link cms/assets/pb-icon-move.png %})) icon in the toolbox.
 
 1. Select and drag the recommendation unit until the red guideline appears at the new position.
 
@@ -98,7 +98,7 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
 
 ## Remove a recommendation unit from the stage
 
-1. Hover over the recommendation unit container and click the **Remove** (![]({% link images/images-ee/icon-pb-remove.png %})) icon in the toolbox.
+1. Hover over the recommendation unit container and click the **Remove** (![]({% link cms/assets/pb-icon-remove.png %})) icon in the toolbox.
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 

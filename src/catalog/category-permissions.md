@@ -23,7 +23,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Category Permissions** section.
 
-    ![]({% link images/images-ee/config-catalog-catalog-category-permissions.png %}){: .zoom}
+    ![]({% link configuration/catalog/assets/catalog-category-permissions.png %}){: .zoom}
     _[Category Permissions]({% link configuration/catalog/catalog.md %})_
 
 1. Set **Enable** to `Yes`.

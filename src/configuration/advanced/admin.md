@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 ## Admin User Emails
 
-![]({% link images/images/config-advanced-admin-admin-user-emails.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-admin-user-emails.png %}){: .zoom}
 [_Admin User Emails_]({% link stores/admin-email-templates-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -17,7 +17,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 ## Startup Page
 
-![]({% link images/images/config-advanced-admin-startup-page.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-startup-page.png %}){: .zoom}
 [_Startup Page_]({% link stores/admin-dashboard.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -68,7 +68,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 ## Admin Base URL
 
-![]({% link images/images/config-advanced-admin-admin-base-url.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-admin-base-url.png %}){: .zoom}
 [_Admin Base URL_]({% link stores/store-urls.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -80,7 +80,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 ## Security
 
-![]({% link images/images/config-advanced-admin-security.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-security.png %}){: .zoom}
 [_Security_]({% link stores/security-admin.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -100,7 +100,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 ## Dashboard
 
-![]({% link images/images/config-advanced-admin-dashboard.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-dashboard.png %}){: .zoom}
 [_Dashboard_]({% link stores/admin-dashboard.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -109,7 +109,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 ## CAPTCHA
 
-![]({% link images/images/config-advanced-admin-captcha.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-captcha.png %}){: .zoom}
 [_CAPTCHA_]({% link stores/security-captcha.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -127,7 +127,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 {:.ee-only}
 ## Admin Actions Logging
 
-![]({% link images/images/config-advanced-admin-actions-logging.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-actions-logging.png %}){: .zoom}
 [_Admin Actions Logging_]({% link system/action-log-archive.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

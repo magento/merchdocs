@@ -8,7 +8,7 @@ See [Client-side LESS compilation vs. server-side][1]{:target="_blank"} in the 
 {:.bs-callout-info}
 The Frontend Development Workflow configuration is available in [Developer Mode]({% link magento/installation-modes.md %}) only.
 
-![Advanced configuration - frontend development workflow]({% link images/images/config-advanced-developer-frontend-development-workflow.png %})<br/>
+![Advanced configuration - frontend development workflow]({% link configuration/advanced/assets/developer-frontend-development-workflow.png %})<br/>
 [_Front-end Development Workflow_]({% link configuration/advanced/developer.md %})
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
