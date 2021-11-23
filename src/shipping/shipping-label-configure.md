@@ -81,7 +81,7 @@ The country of manufacture is required for all products that are shipped interna
 
    If the information is missing, an error will appear when you try to print the labels.
 
-   ![]({% link images/images/config-general-general-store-information.png %}){: .zoom}
+   ![]({% link configuration/general/assets/general-store-information.png %}){: .zoom}
    _[Store Information]({% link configuration/general/general.md %})_
 
 1. Click <span class="btn">Save Config</span>.

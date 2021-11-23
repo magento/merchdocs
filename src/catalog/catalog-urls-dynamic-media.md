@@ -23,7 +23,7 @@ By default, images inserted into the catalog from the WYSIWYG editor have relati
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **WYSIWYG Options** section.
 
-   ![]({% link images/images/config-general-content-management-wysiwyg-options.png %}){: .zoom}
+   ![]({% link configuration/general/assets/content-management-wysiwyg-options.png %}){: .zoom}
    _[WYSIWYG Options]({% link configuration/general/content-management.md %})_
 
 1. Set **Use Static URLs for Media Content in WYSIWYG** to one of the following:

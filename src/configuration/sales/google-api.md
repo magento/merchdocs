@@ -40,7 +40,7 @@ _Google Analytics - Google Tag Manager_
 
 ## Google Adwords
 
-![]({% link images/images/config-sales-google-api-google-adwords.png %}){: .zoom}
+![]({% link configuration/sales/assets/google-api-google-adwords.png %}){: .zoom}
 [_Google Adwords_]({% link marketing/google-adwords.md %})
 
 | Field                 | [Scope]({% link configuration/scope.md %}) | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |

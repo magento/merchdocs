@@ -6,7 +6,7 @@ Adobe Commerce and Magento Open Source allow you to validate session variables a
 
 For technical information, see [Use Redis for session storage][1]{:target="_blank"} in the developer documentation.
 
-![General configuration - Web session validation]({% link images/images/config-general-web-session-validation-settings.png %})
+![General configuration - Web session validation]({% link configuration/general/assets/web-session-validation-settings.png %})
 _Session Validation Settings_
 
 The validation checks to see that visitors are who they say they are by comparing the value in the validation variables against the session data that is already stored in `$_SESSION` data for the user. Validation fails if the information is not transmitted as expected, and the corresponding variable is empty. Depending on the session validation settings, if a session variable fails the validation process, the client session immediately terminates.

@@ -26,7 +26,7 @@ After configuring the CDN, you must complete the configuration from the Admin. T
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Base URLs** section and do the following:
 
-    ![General configuration - web base URLs]({% link images/images/config-general-web-base-urls.png %}){: .zoom}
+    ![General configuration - web base URLs]({% link configuration/general/assets/web-base-urls.png %}){: .zoom}
     [_Base URLs_]({% link configuration/general/web.md %})
 
     - Update the **Base URL for Static View Files** with the URL of the location on the CDN where static view files are stored.
@@ -37,7 +37,7 @@ After configuring the CDN, you must complete the configuration from the Admin. T
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Base URLs (Secure)** section and do the following:
 
-    ![General configuration - web base URLs (secure)]({% link images/images/config-general-web-base-urls-secure.png %}){: .zoom}
+    ![General configuration - web base URLs (secure)]({% link configuration/general/assets/web-base-urls-secure.png %}){: .zoom}
     [_Base URLs (Secure)_]({% link configuration/general/web.md %})
 
     - Update the **Secure Base URL for Static View Files** with the URL of the location on the CDN where static view files are stored.

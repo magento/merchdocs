@@ -22,7 +22,7 @@ _Cart with Customizable Option and Price Rule_
 
 1. Click <span class="btn">Add Option</span>.
 
-   ![]({% link images/images/product-customizable-options.png %}){: .zoom}
+   ![]({% link catalog/assets/product-customizable-options.png %}){: .zoom}
    _Customizable Options_
 
 1. In the upper-left corner, click <span class="btn">New Option</span>.
@@ -67,7 +67,7 @@ _Cart with Customizable Option and Price Rule_
 
 1. In the _Customizable Options_ section, click <span class="btn">Import Options</span>.
 
-   ![]({% link images/images/product-customizable-options.png %}){: .zoom}
+   ![]({% link catalog/assets/product-customizable-options.png %}){: .zoom}
    _Customizable Options_
 
 1. All products with customizable options appear in the grid.

@@ -12,7 +12,7 @@ The _Default Pages_ configuration determines the landing page that is associated
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Default Pages** section.
 
-   ![]({% link images/images/config-general-web-default-pages.png %}){: .zoom}
+   ![]({% link configuration/general/assets/web-default-pages.png %}){: .zoom}
    [_Default pages_]({% link configuration/general/web.md %})
 
    {: .field-table }

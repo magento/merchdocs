@@ -23,7 +23,7 @@ To enable Vertex address cleansing for the storefront:
 
    This setting allows you to configure the address cleansing settings.
 
-   ![]({% link images/images/config-sales-address-validation.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/address-cleansing-vertex.png %}){: .zoom}
    [_Address Cleansing settings - Enabled_]({% link configuration/sales/address-cleansing.md %})
 
 1. Verify and accept the default value for **Address Validation API URL**.

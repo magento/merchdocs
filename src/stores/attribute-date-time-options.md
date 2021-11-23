@@ -41,7 +41,7 @@ _Pop-up Calendar_
 
     If blank, the field defaults to the current year.
 
-    ![Catalog configuration - date and time options]({% link images/images/config-catalog-catalog-date-time-custom-options.png %}){: .zoom}
+    ![Catalog configuration - date and time options]({% link configuration/catalog/assets/catalog-date-time-custom-options.png %}){: .zoom}
     [_Date & Time Custom Options_]({% link configuration/catalog/catalog.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

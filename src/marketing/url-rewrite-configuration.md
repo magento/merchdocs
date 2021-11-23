@@ -20,7 +20,7 @@ URL with Web Server Rewrite
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Search Engine Optimization** section.
 
-    ![General configuration - web search engine optimization]({% link images/images/config-general-web-search-engine-optimization.png %}){: .zoom}
+    ![General configuration - web search engine optimization]({% link configuration/general/assets/web-search-engine-optimization.png %}){: .zoom}
     [_Search Engine Optimization_]({% link configuration/general/web.md -%})
 
 1. Set **Use Web Server Rewrites** to your preference.

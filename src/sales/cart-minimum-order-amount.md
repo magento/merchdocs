@@ -15,7 +15,7 @@ _Minimum Order Message in Cart_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Minimum Order Amount** section.
 
-   ![The minimum order configuration options expanded on the page]({% link images/images/config-sales-sales-minimum-order-amount.png %}){: .zoom}
+   ![The minimum order configuration options expanded on the page]({% link configuration/sales/assets/sales-minimum-order-amount.png %}){: .zoom}
    _[Minimum order amount options]({% link configuration/sales/sales.md %})_
 
 1. To require a minimum order amount, set **Enable** to `Yes`.

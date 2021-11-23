@@ -63,7 +63,7 @@ _Email Templates_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-![Transactional email design configuration - footer template]({% link images/images/config-design-transactional-emails.png %}){: .zoom}
+![Transactional email design configuration - footer template]({% link marketing/assets/design-configuration-transactional-emails.png %}){: .zoom}
 [_Transactional Emails_]({%- link design/configuration.md -%})
 
 ## Field Descriptions

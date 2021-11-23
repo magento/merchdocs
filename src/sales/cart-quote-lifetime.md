@@ -12,7 +12,7 @@ You can determine how long a price is valid by setting the cart quote lifetime i
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Shopping Cart** section.
 
-   ![The shopping cart configuration settings expanded on the page]({% link images/images/config-sales-checkout-shopping-cart.png %}){: .zoom}
+   ![The shopping cart configuration settings expanded on the page]({% link configuration/sales/assets/checkout-shopping-cart.png %}){: .zoom}
    [_Shopping cart configuration settings_]({% link configuration/sales/checkout.md %})
 
 1. If the setting is for a specific store view, [choose the store view]({% link configuration/scope-change.md %}) where the configuration applies.

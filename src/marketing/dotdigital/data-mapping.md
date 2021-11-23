@@ -34,7 +34,7 @@ The _Configuration_ settings in the _Data Mapping_ section of your Commerce inst
    - {:.b2b-only}B2B Data
    - {:.ee-only}Enterprise Data
 
-   ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-customer-information.png %}){: .zoom}
+   ![]({% link configuration/dotdigital/assets/data-mapping-customer-information.png %}){: .zoom}
    [_Data Mapping_]({% link configuration/dotdigital/data-mapping.md %})
 
 ## Sync data mappings

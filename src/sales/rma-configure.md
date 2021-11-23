@@ -16,7 +16,7 @@ _Enable RMA for a product_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **RMA Settings** section.
 
-   ![]({% link images/images/config-sales-sales-rma-settings.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/sales-rma-settings.png %}){: .zoom}
    [_RMA Settings_]({% link configuration/sales/sales.md %})
 
 1. Set **Enable RMA on Storefront** to `Yes`.

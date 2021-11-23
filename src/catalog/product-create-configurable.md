@@ -49,7 +49,7 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. If you need to add an additional attribute to the attribute set, click <span class="btn">Add Attribute</span> and follow the instructions in [Adding an Attribute]({% link catalog/product-attributes-add.md %}).
 
-    ![]({% link images/images/product-create-choose-attribute-set.png %}){: .zoom}
+    ![]({% link catalog/assets/product-create-choose-attribute-set.png %}){: .zoom}
     _Choose template_
 
 ### Step 3: Complete the required settings
@@ -68,7 +68,7 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 1. Choose the **Store View** where the product is to be available.
 
-    ![]({% link images/images/product-create-store-view-choose.png %}){: .zoom}
+    ![]({% link catalog/assets/product-create-store-view-choose.png %}){: .zoom}
     _Choose the store view_
 
 ### Step 4: Complete the basic settings
@@ -133,7 +133,7 @@ _Progress bar_
 
 1. Continuing from above, scroll down to the _Configurations_ section and click <span class="btn">Create Configurations</span>.
 
-    ![]({% link images/images/product-configurable-create-configurations.png %}){: .zoom}
+    ![]({% link catalog/assets/product-configurable-create-configurations.png %}){: .zoom}
     _Configurations_
 
 1. Select the checkbox of each attribute that you want to include as a configuration.
@@ -268,12 +268,9 @@ Wait a moment for the list of products to appear and do one of the following:
 
 - To make corrections, click **Back**.
 
-   ![]({% link images/images/product-create-configurable-summary.png %}){: .zoom}
-   _Summary_
-
 The current product variations appear at the bottom of the _Configuration_ section.
 
-![]({% link images/images/product-create-configurable-summary.png %}){: .zoom}
+![]({% link catalog/assets/product-create-configurable-summary.png %}){: .zoom}
 _Current Configurations_
 
 ### Step 5: Add a product image
@@ -314,14 +311,14 @@ Scroll down and complete the information in the following sections as needed:
 
       The store opens in a new browser tab.
 
-      ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
+      ![]({% link catalog/assets/product-admin-customer-view.png %}){: .zoom}
       _Customer View_
 
    - **Method 2:** Save and close
 
       On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"}) menu, choose **Save & Close**.
 
-      ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
+      ![]({% link catalog/assets/product-edit-save-close.png %}){: .zoom}
       _Save & Close_
 
 ### Step 8: Configure the cart thumbnails

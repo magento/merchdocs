@@ -50,7 +50,7 @@ Ensure that the Customer Segments feature is enabled. Refer to [Creating a Custo
 
    - Click **...** and enter `1` in the field.
 
-   - Click the green checkmark ( ![Green checkmark]({% link images/images/icon-green-check.png %}) ) to save the condition setting.
+   - Click the green checkmark ( ![Green checkmark]({% link assets/icon-checkmark-green-circle.png %}) ) to save the condition setting.
 
    - Click <span class="btn">Save</span>.
 
@@ -119,7 +119,7 @@ Make note of the segment ID. You'll use the ID number to create the cart price r
       {:.bs-callout-info}
       If you don't know the segment ID, click the chooser icon ( ![List icon]({% link assets/icon-list-chooser.png %}) ) to display the Customer Segment list. You can manually enter the ID in the field or select the checkbox for the desired segment to auto-populate the field.
 
-   - Click the green checkmark ( ![Green checkmark]({% link images/images/icon-green-check.png %}) ) to save the condition setting.
+   - Click the green checkmark ( ![Green checkmark]({% link assets/icon-checkmark-green-circle.png %}) ) to save the condition setting.
 
    - When complete, click <span class="btn">Save and Continue Edit</span>.
 

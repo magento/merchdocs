@@ -19,7 +19,7 @@ Make sure to update the [email header]({% link marketing/email-template-header.m
 
 1. If necessary, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General Settings** section.
 
-    ![Sales configuration - sales email general settings]({% link images/images/config-sales-sales-emails-general-settings.png %}){: .zoom}
+    ![Sales configuration - sales email general settings]({% link configuration/sales/assets/sales-emails-general-settings.png %}){: .zoom}
     [_General Settings_]({% link configuration/sales/sales.md -%})
 
     By default, Asynchronous sending is set to `Disable`. To change the system setting, clear the **Use system value** checkbox and set **Asynchronous sending** to one of the following:
@@ -33,7 +33,7 @@ Make sure to update the [email header]({% link marketing/email-template-header.m
 
 1. If necessary, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Order** section and do the following:
 
-    ![Sales configuration - sales emails order]({% link images/images/config-sales-sales-emails-order.png %}){: .zoom}
+    ![Sales configuration - sales emails order]({% link configuration/sales/assets/sales-emails-order.png %}){: .zoom}
     [_Order_]({% link configuration/sales/sales-emails.md -%})
 
     - Verify that **Enabled** is set to `Yes` (default).
@@ -53,7 +53,7 @@ Make sure to update the [email header]({% link marketing/email-template-header.m
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Order Comments** section and repeat these steps.
 
-    ![Sales configuration - Sales emails order comments]({% link images/images/config-sales-sales-emails-order-comments.png %}){: .zoom}
+    ![Sales configuration - Sales emails order comments]({% link configuration/sales/assets/sales-emails-order-comments.png %}){: .zoom}
     [_Order Comments_]({% link configuration/sales/sales-emails.md -%})
 
 1. Complete the configuration for the remaining sales email types:

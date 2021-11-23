@@ -5,7 +5,7 @@ group: getting-started
 
 The Country Options identify the country where your business is located and the countries from which you accept payment.
 
-![General configuration - country settings]({% link images/images/config-general-general-country-options.png %}){: .zoom}
+![General configuration - country settings]({% link configuration/general/assets/general-country-options.png %}){: .zoom}
 [_Country Options_]({% link configuration/general/general.md %})
 
 ## Set the country options for your store

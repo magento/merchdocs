@@ -85,7 +85,7 @@ The following example shows how to configure the Braintree vault.
 
    The button text can be changed for each store view, or language. By default, the button text is `Instant Purchase`.
 
-   ![The configuration page with the instant purchase options displayed]({% link images/images/config-sales-sales-instant-purchase.png %}){: .zoom}
+   ![The configuration page with the instant purchase options displayed]({% link configuration/sales/assets/sales-instant-purchase.png %}){: .zoom}
    [_Instant Purchase configuration options_]({% link configuration/sales/sales.md %})
 
 1. Click <span class="btn">Save Config</span>.

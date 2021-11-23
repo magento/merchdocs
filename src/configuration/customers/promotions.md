@@ -22,7 +22,7 @@ _[Automated Email Reminder Rules]({% link marketing/email-reminder-rules-configu
 
 ## Auto Generated Specific Coupon Codes
 
-![]({% link images/images/config-customers-promotions-auto-generated-specific-coupon-codes.png %}){: .zoom}
+![]({% link configuration/customers/assets/promotions-auto-generated-specific-coupon-codes.png %}){: .zoom}
 [_Auto Generated Specific Coupon Codes_]({% link marketing/price-rules-cart-coupon-code-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
