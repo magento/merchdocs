@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Email Templates
 
-![]({% link images/images/config-catalog-email-to-a-friend-email-templates.png %}){: .zoom}
+![]({% link configuration/catalog/assets/email-to-a-friend-email-templates.png %}){: .zoom}
 [_Email Templates_]({% link marketing/email-template-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

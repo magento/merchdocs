@@ -26,7 +26,7 @@ _Click for Price_
 
 1. If necessary, set **Enable MAP** to `Yes`.
 
-    ![]({% link images/images/config-sales-sales-minimum-advertised-price.png %}){: .zoom}
+    ![]({% link configuration/sales/assets/sales-minimum-advertised-price.png %}){: .zoom}
     [_Minimum Advertised Price_]({% link configuration/sales/sales.md %})
 
 ## Step 2: Configure the MAP settings

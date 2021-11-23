@@ -54,7 +54,7 @@ _Order by SKU in the Storefront_
     - **Yes, for Specified Customer Groups** – Order by SKU is available only to members of a specific customer group, such as `Wholesale`.
     - **No** – The Order by SKU block does not appear in the storefront, and the Order by SKU page is not available in the  customer account.
 
-      ![]({% link images/images/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
+      ![]({% link configuration/sales/assets/sales-order-by-sku-settings.png %}){: .zoom}
       _Order by SKU Settings_
 
 1. Click **Save Config**.

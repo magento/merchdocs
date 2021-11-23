@@ -20,7 +20,7 @@ The online status of the product is indicated by the switch at the top of the fo
 
 The name of the [attribute set]({% link stores/attribute-sets.md %}) appears in the upper-left corner and determines the fields that appear in the product record. To choose a different attribute set, click the down arrow next to the default attribute set name.
 
-![]({% link images/images/product-attribute-set.png %}){: .zoom}
+![]({% link catalog/assets/product-attribute-set.png %}){: .zoom}
 _Attribute Set_
 
 ## Expand/collapse

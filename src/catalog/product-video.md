@@ -36,7 +36,7 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the _Product Video_ section and paste your **YouTube API key**.
 
-    ![]({% link images/images/config-catalog-catalog-product-video.png %}){: .zoom}
+    ![]({% link configuration/catalog/assets/catalog-product-video.png %}){: .zoom}
     _Product Video_
 
 1. When complete, click <span class="btn">Save Config</span>.

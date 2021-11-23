@@ -50,5 +50,5 @@ Example: `Home > Suits > All Suits > Refined by > Slim Fit`
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-    ![]({% link images/images/config-general-web-default-pages.png %}){: .zoom}
+    ![]({% link configuration/general/assets/web-default-pages.png %}){: .zoom}
     _Show Breadcrumbs for CMS Pages_

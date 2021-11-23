@@ -28,12 +28,12 @@ _Contact Us page_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Contact Us** section and set **Enable Contact Us** to `Yes`.
 
-   ![General configuration - contact us]({% link images/images/config-general-contacts-contact-us.png %}){: .zoom}
+   ![General configuration - contact us]({% link configuration/general/assets/contacts-contact-us.png %}){: .zoom}
    _Contact Us_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Email Options** section and set the email contact options:
 
-    ![General configuration - email options]({% link images/images/config-general-contacts-email-options.png %}){: .zoom}
+    ![General configuration - email options]({% link configuration/general/assets/contacts-email-options.png %}){: .zoom}
     _Email Options_
 
     - For **Send Emails to**, enter the email address where messages from the Contact Us form are sent.

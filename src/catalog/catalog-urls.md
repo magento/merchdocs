@@ -70,7 +70,7 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
    - Set **Use Categories Path for Product URLs** to your preference.
 
-   ![]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
+   ![]({% link configuration/catalog/assets/catalog-search-engine-optimization.png %}){: .zoom}
    [_Search Engine Optimization_]({% link configuration/catalog/catalog.md %})
 
 1. When complete, click <span class="btn"> Save Config </span>.
@@ -88,7 +88,7 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Url Options** section and set the options:
 
-![Web > General Options]({% link images/images/config-general-web-url-options.png %}){: .zoom}
+![Web > General Options]({% link configuration/general/assets/web-url-options.png %}){: .zoom}
 [_URL Options configuration settings_]({% link stores/store-urls.md %})
 
 {: .field-table }

@@ -18,7 +18,7 @@ The Multiaddress Shipping options enable customers to ship an order to multiple 
 
 1. Click <span class="btn">Save Config</span>.
 
-   ![]({% link images/images/config-sales-multishipping-settings-options.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/multishipping-settings-options.png %}){: .zoom}
    _[Multiaddress Shipping Options]({% link configuration/sales/multishipping-settings.md %})_
 
 {:.bs-callout-info}

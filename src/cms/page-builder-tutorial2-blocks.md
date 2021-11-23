@@ -79,7 +79,7 @@ If Google Maps is already configured for your store, you can skip this step and 
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Advanced Content Tools**.
 
-   ![]({% link images/images/config-general-content-management-advanced-content-tools.png %}){: .zoom}
+   ![]({% link configuration/general/assets/content-management-advanced-content-tools.png %}){: .zoom}
    [_Advanced Content Tools_]({% link configuration/general/content-management.md %})
 
 1. For **Google Maps API Key**, paste the key you copied.

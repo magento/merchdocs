@@ -26,7 +26,7 @@ After enabling the newsletter function the **Subscription Options** section appe
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Subscription Options** section and do the following:
 
-   ![Customers configuration - newsletter subscriptions]({% link images/images/config-customers-newsletter-subscription-options.png %}){: .zoom}
+   ![Customers configuration - newsletter subscriptions]({% link configuration/customers/assets/newsletter-subscription-options.png %}){: .zoom}
    [_Subscription Options_]({% link configuration/customers.md -%})
 
    - Confirm the email template and sender of the each of the following email messages that are sent to subscribers:

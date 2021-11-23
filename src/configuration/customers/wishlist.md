@@ -21,7 +21,7 @@ _[General Options]({% link marketing/wishlist-configuration.md %})_
 
 ## Share Options
 
-![]({% link images/images/config-customers-wishlist-share-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/wishlist-share-options.png %}){: .zoom}
 [_Share Options_]({% link marketing/wishlist-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

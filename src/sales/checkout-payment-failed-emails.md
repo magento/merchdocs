@@ -4,7 +4,7 @@ title: Payment Failed Email
 
 A notification is sent to the store contact or a designated Admin user if the payment method selected during checkout fails to complete the transaction.
 
-![]({% link images/images/config-sales-checkout-payment-failed-emails.png %}){: .zoom}
+![]({% link configuration/sales/assets/checkout-payment-failed-emails.png %}){: .zoom}
 [_Payment Failed Emails_]({% link configuration/sales/checkout.md %})
 
 ## Step 1: Update the email template

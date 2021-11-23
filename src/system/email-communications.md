@@ -38,7 +38,7 @@ The Mail Sending Settings give you the ability to route returned email or replie
 
     - Set **Asynchronous sending** to `Enable`.
 
-        ![Sales configuration - email general settings]({% link images/images/config-sales-sales-emails-general-settings.png %}){: .zoom}
+        ![Sales configuration - email general settings]({% link configuration/sales/assets/sales-emails-general-settings.png %}){: .zoom}
         [_General Settings_]({% link configuration/sales/sales-emails.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

@@ -16,7 +16,7 @@ _Single website, store, and view_
 
 1. Set **Enable Single-Store Mode** to `Yes`.
 
-    ![General configuration - single store mode]({% link images/images/config-general-general-single-store-mode.png %}){: .zoom}
+    ![General configuration - single store mode]({% link configuration/general/assets/general-single-store-mode.png %}){: .zoom}
     [_Enable Single-Store Mode_]({% link configuration/general/general.md %})
 
 1. Click <span class="btn">Save Config</span>.

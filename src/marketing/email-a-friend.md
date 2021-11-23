@@ -15,7 +15,7 @@ _Email a Friend_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Email Templates** section and set the options:
 
-    ![Catalog configuration - email templates]({% link images/images/config-catalog-email-to-a-friend-email-templates.png %}){: .zoom}
+    ![Catalog configuration - email templates]({% link configuration/catalog/assets/email-to-a-friend-email-templates.png %}){: .zoom}
     [_Email Templates_]({% link configuration/catalog/email-to-a-friend.md %})
 
     To change the default setting of any field, clear the **Use system value** checkbox to make the field editable.

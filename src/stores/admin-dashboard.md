@@ -59,7 +59,7 @@ The dashboard is the default [startup page]({% link configuration/advanced/admin
 
    - Set **Current Month Starts** to the **Day**.
 
-   ![Admin Dashboard - date settings]({% link images/images/config-general-reports-dashboard.png %}){: .zoom}
+   ![Admin Dashboard - date settings]({% link configuration/general/assets/reports-dashboard.png %}){: .zoom}
    [_Starting Dates_]({% link configuration/advanced/admin.md %})
 
 ### Configure the data source

@@ -13,7 +13,7 @@ On the _Admin_ sidebar, click **Catalog**.
 
 Create new [products]({% link catalog/products.md %}) of every type and manage your inventory.
 
-![]({% link images/images/products-grid.png %}){: .zoom}
+![]({% link catalog/assets/products-grid.png %}){: .zoom}
 _Products grid_
 
 See [Products Grid]({% link catalog/products.md %}).
@@ -22,7 +22,7 @@ See [Products Grid]({% link catalog/products.md %}).
 
 Create the [category]({% link catalog/categories.md %}) structure that is the foundation of your store’s navigation.
 
-![]({% link images/images/category-workspace.png %}){: .zoom}
+![]({% link catalog/assets/category-workspace.png %}){: .zoom}
 _Category workspace_
 
 See [Categories]({% link catalog/categories.md %}).
