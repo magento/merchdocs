@@ -112,7 +112,8 @@ Most of the available conditions are based on existing attribute values. To appl
    |Adjust final price to discount value|Sets the final price to a fixed, discounted amount. For example: Enter 20 in Discount Amount for a final price of $20.00.|
 
     {:.bs-callout-info}
-    _Regular price_ refers to the base product price without any advanced pricing (special/tier/group) or promotional discounts. _Final price_ refers to the discounted price that appears in the shopping cart.
+    _Regular price_ refers to the base product price without any advanced pricing (special/tier/group) or promotional discounts. _Final price_ refers to the discounted price that appears in the shopping cart. <br/>The **_final_** product price is calculated as the **_minimum_** relevant price, by the formula: <br/>Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)
+    
 
 1. Enter the **Discount Amount**.
 
@@ -204,7 +205,7 @@ Specifies the conditions that must be met before the catalog price rule goes int
 
 ### Actions
 
-|Apply|Determines the type of calculation that is applied to the purchase. Options: <br/>**Apply as percentage of original** - Discounts item by subtracting a percentage of the regular price. <br/>**Apply as fixed amount** - Discounts item by subtracting a fixed amount from the regular price. <br/>**Adjust final price to this percentage** - Adjusts the final price by a percentage of the regular price. <br/>**Adjust final price to discount value** - Sets the final price to a fixed, discounted amount. <br/><br/>**_Note:_** Regular price refers to the base product price without any advanced pricing (special/tier/group) or promotional discounts. Final price refers to the discounted price that appears in the shopping cart.|
+|Apply|Determines the type of calculation that is applied to the purchase. Options: <br/>**Apply as percentage of original** - Discounts item by subtracting a percentage of the regular price. <br/>**Apply as fixed amount** - Discounts item by subtracting a fixed amount from the regular price. <br/>**Adjust final price to this percentage** - Adjusts the final price by a percentage of the regular price. <br/>**Adjust final price to discount value** - Sets the final price to a fixed, discounted amount. <br/><br/>**_Note:_** Regular price refers to the base product price without any advanced pricing (special/tier/group) or promotional discounts. Final price refers to the discounted price that appears in the shopping cart. <br/>The **_final_** product price is calculated as the **_minimum_** relevant price, by the formula: <br/>Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)|
 |Discount Amount|(Required) The amount of discount that is offered.|
 |Discard Subsequent Rules|Determines if additional rules can be applied to this purchase. To prevent multiple discounts from being applied to the same purchase, select `Yes`. Options: Yes / No|
 
