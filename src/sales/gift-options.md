@@ -21,7 +21,7 @@ The Gift Options configuration applies to the entire website, but can be overrid
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) **Gift Options** on the page.
 
-    ![]({% link images/images-ee/config-sales-sales-gift-options.png %}){: .zoom}
+    ![]({% link configuration/sales/assets/sales-gift-options.png %}){: .zoom}
     _[Sales configuration - Gift Options settings]({% link configuration/sales/sales.md %}#gift-options)_
 
 1. Set the gift message options according to your preference:

@@ -31,7 +31,7 @@ By default, all images, compiled CSS files, and compiled JavaScript files of the
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Storage Configuration for Media** section and do the following:
 
-    ![Advanced configuration - storage configuration for media]({% link images/images/config-advanced-database-storage-deprecated.png %}){: .zoom}
+    ![Advanced configuration - storage configuration for media]({% link configuration/advanced/assets/database-storage-deprecated.png %}){: .zoom}
     [_Storage Configuration for Media (Database)_]({% link configuration/advanced/system.md %})
 
     - Set **Media Storage** to `Database`.

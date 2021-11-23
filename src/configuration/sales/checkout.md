@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Checkout Options
 
-![]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
+![]({% link configuration/sales/assets/checkout-checkout-options.png %}){: .zoom}
 _[Checkout Options]({% link sales/checkout-options.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

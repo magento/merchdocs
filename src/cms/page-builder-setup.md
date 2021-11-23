@@ -30,7 +30,7 @@ When enabled in the configuration, Page Builder is the default content creation 
 
    - For **Maximum Column Grid Size**, enter the largest number of columns that you want to be available in the grid.
 
-   ![]({% link images/images-ee/config-general-content-management-advanced-content-tools-grid-size.png %}){: .zoom}
+   ![]({% link cms/assets/pb-configure-advanced-content-tools-grid-size.png %}){: .zoom}
    _Column grid size_
 
    {:.bs-callout-info}
@@ -46,7 +46,7 @@ When enabled in the configuration, Page Builder is the default content creation 
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Default Layouts** and and do the following:
 
-   ![]({% link images/images-ee/config-general-web-default-layouts.png %}){: .zoom}
+   ![]({% link configuration/general/assets/web-default-layouts.png %}){: .zoom}
    [_Default Layouts_]({% link configuration/general/web.md %})
 
    - Choose the **Default Product Layout** that you want to use for product pages.

@@ -27,7 +27,7 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
 
 1. Set the configuration options for the custom URL:
 
-    ![Advanced configuration - Admin base URL]({% link images/images/config-advanced-admin-admin-base-url.png %}){: .zoom}
+    ![Advanced configuration - Admin base URL]({% link configuration/advanced/assets/admin-admin-base-url.png %}){: .zoom}
     [_Admin Base URL_]({% link configuration/advanced/admin.md %})
 
     If needed, clear the **Use system value** checkbox to change the setting.

@@ -74,7 +74,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## Default Layouts
 
-![]({% link images/images-ee/config-general-web-default-layouts.png %}){: .zoom}
+![]({% link configuration/general/assets/web-default-layouts.png %}){: .zoom}
 _[Default Layouts]({% link design/page-layout.md %})_
 
 {: .field-table }

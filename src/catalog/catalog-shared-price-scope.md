@@ -18,7 +18,7 @@ _Website Chooser_
 
 1. Set **Catalog Price Scope** to `Website`.
 
-    ![]({% link images/images-ee/config-catalog-catalog-price-website.png %}){: .zoom}
+    ![]({% link catalog/assets/catalog-price-scope-website.png %}){: .zoom}
     _Catalog Price Scope_
 
 1. Click <span class="btn">Save Config</span>.

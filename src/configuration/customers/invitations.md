@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## General
 
-![]({% link images/images-ee/config-customers-invitations-general.png %}){: .zoom}
+![]({% link configuration/customers/assets/invitations-general.png %}){: .zoom}
 [_General_]({% link marketing/invitations-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -21,7 +21,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## Email
 
-![]({% link images/images-ee/config-customers-invitations-email.png %}){: .zoom}
+![]({% link configuration/customers/assets/invitations-email.png %}){: .zoom}
 [_Email_]({% link marketing/invitations-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

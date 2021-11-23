@@ -9,7 +9,7 @@ A Wish list allows registered customers to create their own collections of produ
 
 ## General Options
 
-![]({% link images/images-ee/config-customers-wishlist-general-options-ee.png %}){: .zoom}
+![]({% link configuration/customers/assets/wishlist-general-options.png %}){: .zoom}
 _[General Options]({% link marketing/wishlist-configuration.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -33,7 +33,7 @@ _[General Options]({% link marketing/wishlist-configuration.md %})_
 
 ## My Wish List Link
 
-![]({% link images/images-ee/config-customers-wishlist-my-wishlist-link.png %}){: .zoom}
+![]({% link configuration/customers/assets/wishlist-my-wishlist-link.png %}){: .zoom}
 _[My Wish List Link]({% link marketing/wishlist-configuration.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

@@ -28,7 +28,7 @@ The steps for configuring the name and address options are different for Adobe C
 
    The Name and Address Options section doesn't appear when the scope is set to `Default Store View`.
 
-   ![]({% link images/images-ee/config-customer-configuration-scope.png %}){: .zoom}
+   ![]({% link customers/assets/customer-configuration-scope-ee.png %}){: .zoom}
    _[Configuration Scope]({% link configuration/scope.md %})_
 
 ### Step 2: Configure the name and address options
@@ -37,7 +37,7 @@ The steps for configuring the name and address options are different for Adobe C
 
    If you are not using the `Default config` scope setting, you must clear the `Use Default` checkbox for each field before changing the value.
 
-   ![]({% link images/images-ee/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
+   ![]({% link configuration/customers/assets/customer-configuration-name-address-options.png %}){: .zoom}
    _[Name and Address Options]({% link configuration/customers/customer-configuration.md %}#commerce-options)_
 
 1. For **Prefix Dropdown Options**, enter each prefix that you want to appear in the list, separated by a semicolon.

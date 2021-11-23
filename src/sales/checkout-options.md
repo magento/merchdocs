@@ -6,7 +6,7 @@ redirect_from:
 
 The checkout options control a number of attributes for the checkout page, including the layout. There are options you can configure to place constraints on checkout, including allowing guest checkout and enforcing a terms and conditions agreement. There are also options for controlling the display of information during the checkout process.
 
-![The checkout options expanded on the configuration page]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
+![The checkout options expanded on the configuration page]({% link configuration/sales/assets/checkout-checkout-options.png %}){: .zoom}
 _[Checkout options configuration settings]({% link configuration/sales/checkout.md %})_
 
 ## Change the checkout options

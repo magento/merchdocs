@@ -4,7 +4,7 @@ title: Elements - Buttons
 
 Use the _Buttons_ content type to add either an individual button or a set of buttons in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). You can arrange buttons horizontally or vertically, and add them directly to rows, columns, tabs, and banners on the stage.
 
-![]({% link images/images-ee/page-builder-storefont-banner-with-button.png %}){: .zoom}
+![]({% link cms/assets/pb-storefont-banner-with-button.png %}){: .zoom}
 _Banner with a button on the storefront_
 
 {% include page-builder-save-timeout.md %}
@@ -20,25 +20,25 @@ _Button toolbox_
 
 | Tool      | Icon     | Description    |
 | --------- | -------- | -------------- |
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})  | Opens the Edit Button page, where you can change the properties of the button. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the button. |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the button from the stage. |
+| Settings  | ![]({% link cms/assets/pb-icon-settings.png %})  | Opens the Edit Button page, where you can change the properties of the button. |
+| Duplicate | ![]({% link cms/assets/pb-icon-duplicate.png %}) | Makes a copy of the button. |
+| Remove    | ![]({% link cms/assets/pb-icon-remove.png %})    | Deletes the button from the stage. |
 
 ### Buttons container toolbox
 
-![]({% link images/images-ee/page-builder-elements-buttons-toolbox-settings.png %}){: .zoom}
+![]({% link cms/assets/pb-elements-buttons-toolbox-settings.png %}){: .zoom}
 _Buttons container toolbox_
 
 | Tool      | Icon              | Description |
 | --------- | ----------------- | ----------- |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the button container to another valid place on the page. |
-| Add       | ![]({% link images/images-ee/icon-pb-add-button.png %}) | Adds a new button to the container. |
+| Move      | ![]({% link cms/assets/pb-icon-move.png %}) | Moves the button container to another valid place on the page. |
+| Add       | ![]({% link cms/assets/pb-icon-add-button.png %}) | Adds a new button to the container. |
 | (label)   | Button  | Identifies the current container as a button element. |
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit Buttons page, where you can change the properties of the container. |
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the button container. |
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the hidden button container. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the button container. |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the button container and its content from the stage. |
+| Settings  | ![]({% link cms/assets/pb-icon-settings.png %}) | Opens the Edit Buttons page, where you can change the properties of the container. |
+| Hide      | ![]({% link cms/assets/pb-icon-hide.png %}) | Hides the button container. |
+| Show      | ![]({% link cms/assets/pb-icon-show.png %}) | Shows the hidden button container. |
+| Duplicate | ![]({% link cms/assets/pb-icon-duplicate.png %}) | Makes a copy of the button container. |
+| Remove    | ![]({% link cms/assets/pb-icon-remove.png %}) | Deletes the button container and its content from the stage. |
 
 ## Add an individual button
 
@@ -47,7 +47,7 @@ _Buttons container toolbox_
    ![]({% link cms/assets/pb-elements-button-drag.png %}){: .zoom}
    _Dragging a button to the stage_
 
-1. Hover over the button to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the button to display the toolbox and choose the _Settings_ ( ![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. Enter the **Button Text** to be displayed on the button.
 
@@ -105,14 +105,14 @@ The following sections describe a series of steps to start with an individual bu
 
 ### Step 1: Create the second button
 
-1. Hover over the button container to display the toolbox and choose the Add (![]({% link images/images-ee/icon-pb-add-button.png %})) icon.
+1. Hover over the button container to display the toolbox and choose the Add (![]({% link cms/assets/pb-icon-add-button.png %})) icon.
 
    ![]({% link cms/assets/pb-elements-buttons-toolbox-add.png %}){: .zoom}
    _Adding another button_
 
 1. Enter the text that you want to appear on the second button.
 
-1. Click the new button to display its toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Click the new button to display its toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
    ![]({% link cms/assets/pb-elements-button-set-edit-button2-toolbox.png %}){: .zoom}
    _Editing the button_
@@ -132,14 +132,14 @@ The following sections describe a series of steps to start with an individual bu
 
 ### Step 2: Create the third button
 
-1. Click the second button again on the stage and choose the _Duplicate_ (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
+1. Click the second button again on the stage and choose the _Duplicate_ (![]({% link cms/assets/pb-icon-duplicate.png %})) icon.
 
    ![]({% link cms/assets/pb-elements-button-set-contact-us-toolbox-duplicate.png %}){: .zoom}
    _Duplicating a button_
 
 1. Enter the text that you want to appear on the third button.
 
-1. Click the third button to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Click the third button to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
    ![]({% link cms/assets/pb-elements-button-set-find-us-toolbox-settings.png %}){: .zoom}
    _Toolbox for the third button_
@@ -150,9 +150,9 @@ The following sections describe a series of steps to start with an individual bu
 
 ### Step 3: Update the button container
 
-1. Hover over the button container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the button container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-elements-buttons-toolbox-settings.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-buttons-toolbox-settings.png %}){: .zoom}
    _Buttons container toolbox_
 
 1. Under _Appearance_, choose **Stacked**.
@@ -175,14 +175,14 @@ The following sections describe a series of steps to start with an individual bu
 
 1. Click the button that you want to move.
 
-1. Select and drag the Move (![]({% link images/images-ee/icon-pb-move.png %})) icon, which appears just before the button text, to a new position for the button within the button container.
+1. Select and drag the Move (![]({% link cms/assets/pb-icon-move.png %})) icon, which appears just before the button text, to a new position for the button within the button container.
 
    ![]({% link cms/assets/pb-elements-button-set-move-button.png %}){: .zoom}
    _Moving a button_
 
 ## Change settings for a button
 
-1. Click the button on the stage to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Click the button on the stage to display the toolbox and choose the _Settings_ ( ![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
    ![]({% link cms/assets/pb-elements-button-toolboxes.png %}){: .zoom}
    _Button toolboxes_
@@ -210,7 +210,7 @@ The following sections describe a series of steps to start with an individual bu
 
 ## Change settings for a button container
 
-1. Hover over the button container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the button container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. Update the **Appearance** settings as needed.
 

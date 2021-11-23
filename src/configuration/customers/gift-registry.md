@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## General Options
 
-![]({% link images/images-ee/config-customers-gift-registry-general-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/gift-registry-general-options.png %}){: .zoom}
 [_General Options_]({% link marketing/gift-registry-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -17,7 +17,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## Owner Notification
 
-![]({% link images/images-ee/config-customers-gift-registry-owner-notification.png %}){: .zoom}
+![]({% link configuration/customers/assets/gift-registry-owner-notification.png %}){: .zoom}
 [_Owner Notification_]({% link marketing/gift-registry-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -27,7 +27,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## Gift Registry Sharing
 
-![]({% link images/images-ee/config-customers-gift-registry-gift-registry-sharing.png %}){: .zoom}
+![]({% link configuration/customers/assets/gift-registry-gift-registry-sharing.png %}){: .zoom}
 [_Gift Registry Sharing_]({% link marketing/gift-registry-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -38,7 +38,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## Gift Registry Update
 
-![]({% link images/images-ee/config-customers-gift-registry-gift-registry-update.png %}){: .zoom}
+![]({% link configuration/customers/assets/gift-registry-gift-registry-update.png %}){: .zoom}
 [_Gift Registry Update_]({% link marketing/gift-registry-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

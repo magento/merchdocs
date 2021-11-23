@@ -23,7 +23,7 @@ For technical information, see [Configure and Use Varnish][1]{:target="_blank"} 
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Full Page Cache** section.
 
-    ![Advanced configuration - full page cache]({% link images/images/config-advanced-system-full-page-cache.png %}){: .zoom}
+    ![Advanced configuration - full page cache]({% link configuration/advanced/assets/system-full-page-cache.png %}){: .zoom}
     [_Full Page Cache_]({% link configuration/advanced/system.md %})
 
 1. Set **Caching Application** to one of the following:
@@ -45,7 +45,7 @@ For technical information, see [Configure and Use Varnish][1]{:target="_blank"} 
 
    - To export the configuration as a `varnish.vcl` file, click the button for the version of Varnish that you use.
 
-   ![Advance configuration - full page cache varnish]({% link images/images/config-advanced-system-full-page-cache-varnish.png %}){: .zoom}
+   ![Advance configuration - full page cache varnish]({% link configuration/advanced/assets/system-full-page-cache-varnish.png %}){: .zoom}
    [_Varnish Configuration_]({% link configuration/advanced/system.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

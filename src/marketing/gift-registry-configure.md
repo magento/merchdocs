@@ -19,7 +19,7 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General Options** section and do the following:
 
-    ![Customers configuration - gift registry general]({% link images/images-ee/config-customers-gift-registry-general-options.png %}){: .zoom}
+    ![Customers configuration - gift registry general]({% link configuration/customers/assets/gift-registry-general-options.png %}){: .zoom}
     _General Options_
 
    - The Gift Registry is enabled by default. If necessary, set **Enable Gift Registry** to `Yes`.
@@ -30,7 +30,7 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Owner Notification** section and do the following:
 
-    ![Customers configuration - gift registry owner notification]({% link images/images-ee/config-customers-gift-registry-owner-notification.png %}){: .zoom}
+    ![Customers configuration - gift registry owner notification]({% link configuration/customers/assets/gift-registry-owner-notification.png %}){: .zoom}
     _Owner Notification_
 
    - Choose the **Email Template** that notifies gift registry owners when their registries are created.
@@ -39,7 +39,7 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Gift Registry Sharing** section and do the following:
 
-    ![Customers configuration - gift registry sharing]({% link images/images-ee/config-customers-gift-registry-gift-registry-sharing.png %}){: .zoom}
+    ![Customers configuration - gift registry sharing]({% link configuration/customers/assets/gift-registry-gift-registry-sharing.png %}){: .zoom}
     _Gift Registry Sharing_
 
    - Choose the **Email Template** that notifies gift registry recipients when a registry is shared with them.
@@ -50,7 +50,7 @@ Adobe Commerce has predefined templates for each of these email messages that ca
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Gift Registry Update** section and do the following:
 
-    ![Customers configuration - gift registry update]({% link images/images-ee/config-customers-gift-registry-gift-registry-update.png %}){: .zoom}
+    ![Customers configuration - gift registry update]({% link configuration/customers/assets/gift-registry-gift-registry-update.png %}){: .zoom}
     _Gift Registry Update_
 
    - Choose the **Email Template** that notifies gift registry owners of changes to the registry.
