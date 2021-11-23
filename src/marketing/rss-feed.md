@@ -34,7 +34,7 @@ _RSS Feeds_
 
     If necessary, clear the **Use Default** checkbox to change the default value.
 
-    ![Catalog configuration - RSS feeds]({% link images/images/config-catalog-rss-feeds-rss-config.png %}){: .zoom}
+    ![Catalog configuration - RSS feeds]({% link configuration/catalog/assets/rss-feeds-rss-config.png %}){: .zoom}
     _RSS Feeds_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Wish List** section and set **Enable RSS** to `Enable`.
@@ -50,7 +50,7 @@ _RSS Feeds_
    - **Coupons/Discounts**
    - **Top Level Category**
 
-    ![]({% link images/images/config-catalog-rss-feeds-catalog.png %}){: .zoom}
+    ![]({% link configuration/catalog/assets/rss-feeds-catalog.png %}){: .zoom}
     _Catalog_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Order** section and set **Customer Order Status Notification** to `Enable`.

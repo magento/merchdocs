@@ -12,7 +12,7 @@ You can configure your store to redirect customers to their account dashboard af
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Login Options** section.
 
-   ![Customer Configuration - Login Options]({% link images/images/config-customers-customer-configuration-login-options.png %}){: .zoom}
+   ![Customer Configuration - Login Options]({% link configuration/customers/assets/customer-configuration-login-options.png %}){: .zoom}
    _Login Options_
 
 1. Set **Redirect Customer to Account Dashboard after Logging in** to one of the following:

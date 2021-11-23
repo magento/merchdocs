@@ -37,7 +37,7 @@ You can avoid being penalized by search engines by omitting the category from th
 
     To change any field values, you must first clear the **Use system value** checkbox after each field.
 
-    ![Catalog configuration - search engine optimization]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
+    ![Catalog configuration - search engine optimization]({% link configuration/catalog/assets/catalog-search-engine-optimization.png %}){: .zoom}
     [_Search Engine Optimization_]({% link configuration/catalog/catalog.md -%})
 
 1. If you want search engines to index only category pages using the full category path, do the following:

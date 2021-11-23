@@ -18,7 +18,7 @@ _General Options_
 
 ## Subscription Options
 
-![]({% link images/images/config-customers-newsletter-subscription-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/newsletter-subscription-options.png %}){: .zoom}
 [_Subscription Options_]({% link marketing/newsletter-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

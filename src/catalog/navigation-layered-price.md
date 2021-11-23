@@ -41,7 +41,7 @@ Iterative splitting provides the best distribution of products among price range
 
    By default, **Display Product Count** is set to `Yes`. If necessary, deselect the **Use system value** checkbox to change this setting.
 
-    ![]({% link images/images/config-catalog-catalog-layered-navigation.png %}){: .zoom}
+    ![]({% link configuration/catalog/assets/catalog-layered-navigation.png %}){: .zoom}
     [_Layered Navigation_]({% link configuration/catalog/catalog.md %})
 
 1. Set **Price Navigation Steps Calculation** for one of the methods in the following sections.
@@ -79,5 +79,5 @@ If necessary, first deselect the **Use system value** checkbox to change these s
 
 1. Enter the **Maximum Number of Price Intervals** allowed, up to `100`.
 
-    ![]({% link images/images/config-catalog-catalog-layered-navigation-manual.png %}){: .zoom}
+    ![]({% link configuration/catalog/assets/catalog-layered-navigation-manual.png %}){: .zoom}
     [_Manual_]({% link configuration/catalog/catalog.md %})

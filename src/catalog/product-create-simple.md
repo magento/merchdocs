@@ -28,7 +28,7 @@ To choose the [attribute set]({% link stores/attribute-sets.md %}) that is used 
 
 The form is updated to reflect the change.
 
-![]({% link images/images/product-create-choose-attribute-set.png %}){: .zoom}
+![]({% link catalog/assets/product-create-choose-attribute-set.png %}){: .zoom}
 _Choose attribute set_
 
 ## Step 3: Complete the required settings
@@ -47,7 +47,7 @@ _Choose attribute set_
 
 1. Choose the **Store View** where the product is to be available.
 
-    ![]({% link images/images/product-create-store-view-choose.png %}){: .zoom}
+    ![]({% link catalog/assets/product-create-store-view-choose.png %}){: .zoom}
     _Choose the store view_
 
 ## Step 4: Complete the basic settings
@@ -96,7 +96,7 @@ _Choose attribute set_
 
 1. Choose the **Country of Manufacture**.
 
-    ![]({% link images/images/product-details-simple.png %}){: .zoom}
+    ![]({% link catalog/assets/product-details-simple.png %}){: .zoom}
     _Product Details_
 
 There might be additional individual attributes that describe the product. The selection varies attribute set, and you can complete them later.
@@ -130,14 +130,14 @@ Scroll down and complete the information in the following sections as needed:
 
       The store opens in a new browser tab.
 
-      ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
+      ![]({% link catalog/assets/product-admin-customer-view.png %}){: .zoom}
       _Customer View_
 
    - **Method 2:** Save and Close
 
       On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"}) menu, choose **Save & Close**.
 
-      ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
+      ![]({% link catalog/assets/product-edit-save-close.png %}){: .zoom}
       _Save & Close_
 
 ## Things to remember

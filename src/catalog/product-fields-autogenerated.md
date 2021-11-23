@@ -11,7 +11,7 @@ To save time when creating products, the default value of several product fields
 
 The placeholders that represent the value of another field are enclosed in double-curly braces. Any attribute code that is included in the product [attribute set]({% link stores/attribute-sets.md %}) can be used as a placeholder.
 
-![]({% link images/images/config-catalog-catalog-product-fields-auto-generation.png %}){: .zoom}
+![]({% link configuration/catalog/assets/catalog-product-fields-auto-generation.png %}){: .zoom}
 [_Product Fields Auto-Generation_]({% link configuration/catalog/catalog.md %})
 
 ## Edit the placeholder value

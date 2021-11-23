@@ -41,7 +41,7 @@ With Inventory Management enabled, see the following to configure all settings:
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-   ![]({% link images/images/config-catalog-catalog-inventory-product-stock-options.png %}){: .zoom}
+   ![]({% link configuration/catalog/assets/catalog-inventory-product-stock-options.png %}){: .zoom}
    _[Product Stock Options]({% link configuration/catalog/inventory.md %})_
 
 ## Manage stock for a store

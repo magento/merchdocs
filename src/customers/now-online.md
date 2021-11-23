@@ -25,7 +25,7 @@ Page visits alone will not update the customer's online status. To collect such 
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Online Customers Options** section and do the following:
 
-      ![]({% link images/images/config-customers-customer-configuration-online-customers-options.png %}){: .zoom}
+      ![]({% link configuration/customers/assets/customer-configuration-online-customers-options.png %}){: .zoom}
       [_Online Customers Options_]({% link configuration/customers/customer-configuration.md %})
 
       - For **Online Minutes Interval**, enter the number of minutes for the customer session to be visible from the Admin. Leave the field empty to accept the default interval of fifteen minutes.
