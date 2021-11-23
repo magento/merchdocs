@@ -156,4 +156,4 @@ If the special price does not appear correctly in the storefront on both the cat
 1. Click <span class="btn">Flush Magento Cache</span>.
 
 {:.bs-callout-tip}
-The **_final_** product price is calculated as the **_minimum_** relevant price, by the formula: <br/>Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)
+The **_final_** product price is calculated as the **_minimum_** relevant price, using the following formula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`

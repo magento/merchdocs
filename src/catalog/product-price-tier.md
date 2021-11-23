@@ -59,4 +59,4 @@ The prices in the storefront take precedence from the highest to the lowest quan
 1. When complete, click <span class="btn">Done</span> and then <span class="btn">Save</span>.
 
 {:.bs-callout-tip}
-The **_final_** product price is calculated as the **_minimum_** relevant price, by the formula: <br/>Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)
+The **_final_** product price is calculated as the **_minimum_** relevant price, using the following formula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
