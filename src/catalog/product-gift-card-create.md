@@ -119,7 +119,7 @@ Complete the information in the following sections as needed:
 
    On the _Save_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Save & Close**.
 
-    ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
+    ![]({% link catalog/assets/product-edit-save-close.png %}){: .zoom}
     _Save & Close_
 
 ## Things to remember

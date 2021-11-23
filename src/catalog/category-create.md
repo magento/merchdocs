@@ -92,7 +92,7 @@ _Category tree_
 
 1. Click <span class="btn">Save</span> and continue.
 
-   ![]({% link images/images/category-display-settings.png %}){: .zoom}
+   ![]({% link catalog/assets/category-display-settings.png %}){: .zoom}
    [_Display settings_]({% link catalog/categories-display-settings.md %})
 
 ## Step 5: Complete the search engine optimization settings
@@ -172,7 +172,7 @@ _Category tree_
 
    - Use the calendar (![]({% link assets/icon-calendar.png %})) to choose the Schedule Update **From** and **To** dates.
 
-   ![]({% link images/images/category-scheduled-design-update.png %}){: .zoom}
+   ![]({% link catalog/assets/category-scheduled-design-update.png %}){: .zoom}
    [_Scheduled design update_]({% link catalog/categories-custom-design.md %})
 
 1. When complete, click <span class="btn">Save</span>.

@@ -10,7 +10,7 @@ The Products grid lists all products in the catalog, indicates the website(s) wh
 
 You can browse through the list page by page, or search for specific products. Use the standard [controls]({% link stores/admin-grid-controls.md %}) to sort and filter the list, and apply [actions]({% link stores/admin-actions-control.md %}) to selected products.
 
-![]({% link images/images/products-grid.png %}){: .zoom}
+![]({% link catalog/assets/products-grid.png %}){: .zoom}
 _Products Grid_
 
 ## Workspace controls

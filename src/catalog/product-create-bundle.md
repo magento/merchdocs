@@ -7,7 +7,7 @@ A bundle is a _build your own_, customizable product. Each item in a bundle can 
 - [Simple Product]({% link catalog/product-create-simple.md %})
 - [Virtual Product]({% link catalog/product-create-virtual.md %})
 
-    ![]({% link images/images/product-bundle.png %}){: .zoom}
+    ![]({% link catalog/assets/product-bundle.png %}){: .zoom}
     _Bundle Product_
 
 The options appear when the customer clicks either **Customize** or **Add to Cart**. Because the products that are included in the bundle vary, the SKU, Price, and Weight can be set to either a dynamic or fixed value.
@@ -40,7 +40,7 @@ To choose the [attribute set]({% link stores/attribute-sets.md %}) that is used 
 
 The form is updated to reflect the change.
 
-![]({% link images/images/product-create-choose-attribute-set.png %}){: .zoom}
+![]({% link catalog/assets/product-create-choose-attribute-set.png %}){: .zoom}
 _Choose Template_
 
 ## Step 3: Complete the required settings
@@ -72,7 +72,7 @@ _Choose Template_
 
 1. Choose the **Store View** where the product is to be available.
 
-    ![]({% link images/images/product-create-store-view-choose.png %}){: .zoom}
+    ![]({% link catalog/assets/product-create-store-view-choose.png %}){: .zoom}
     _Choose Store View_
 
 ## Step 4: Complete the basic settings
@@ -133,7 +133,7 @@ _Choose Template_
    - `Separately`
    - `Together`
 
-    ![]({% link images/images/product-bundle-items.png %}){: .zoom}
+    ![]({% link catalog/assets/product-bundle-items.png %}){: .zoom}
     _Bundle Items_
 
     If you select `Together`, all bundle items must be assigned the same [source]({% link catalog/inventory-sources.md %}).
@@ -184,7 +184,7 @@ _Choose Template_
 
 1. To change the order of items in a bundle section, click the **Move** ( ![Move icon]({% link assets/icon-move.png %}) ) icon at the beginning of the row and drag the item into position.
 
-    ![]({% link images/images/product-bundle-items-move.png %}){: .zoom}
+    ![]({% link catalog/assets/product-bundle-items-move.png %}){: .zoom}
     _Change the Order of Bundle Items_
 
     The order of items can also be changed in the data of an exported bundle product and then reimported into the catalog. For more information, see [Importing Bundle Products]({% link system/data-transfer-bundle-products.md %}).
@@ -227,14 +227,14 @@ Scroll down and complete the information in the following sections as needed:
 
       The store opens in a new browser tab.
 
-    ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
+    ![]({% link catalog/assets/product-admin-customer-view.png %}){: .zoom}
     _Customer View_
 
    **Method 2:** Save and close
 
     On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Save & Close**.
 
-    ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
+    ![]({% link catalog/assets/product-edit-save-close.png %}){: .zoom}
     _Save & Close_
 
 ## Input controls

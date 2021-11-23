@@ -6,5 +6,5 @@ After using [Google Content Experiments]({% link marketing/google-content-experi
 
 This section appears only if **Google Content Experiments** is enabled in the [Google Analytics]({% link marketing/google-universal-analytics.md %}) Google API configuration.
 
-![]({% link images/images/product-view-optimization.png %}){: .zoom}
+![]({% link catalog/assets/product-view-optimization.png %}){: .zoom}
 _Product View Optimization_

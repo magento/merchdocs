@@ -15,7 +15,7 @@ When price change alerts are enabled, a _Notify me when the price drops_ link ap
 
 The in-stock alert creates a link called _Notify me when this product is in stock_ for every product that is out of stock. Customers can click the link to subscribe to the alert. When the product is back in stock, customers receive email notification that the product is available. Products with alerts have a _Product Alerts_ tab in the Product Information panel that lists the customers who have subscribed to an alert.
 
-![]({% link images/images/catalog-product-alerts.png %}){: .zoom}
+![]({% link catalog/assets/inventory-product-alerts.png %}){: .zoom}
 _List of Product and Price Alert Subscriptions_
 
 ## Set up product alerts
