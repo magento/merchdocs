@@ -76,7 +76,7 @@ You must have the appropriate permissions to the Google account to create an exp
     {:.bs-callout-info}
     Do not paste the code snippet into any of the variations.
 
-    ![Product view optimization]({% link images/images/product-view-optimization.png %}){: .zoom}
+    ![Product view optimization]({% link catalog/assets/product-view-optimization.png %}){: .zoom}
     _Product View Optimization_
 
 1. When complete, click <span class="btn">Save</span>.
