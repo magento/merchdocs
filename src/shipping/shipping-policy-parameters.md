@@ -24,7 +24,7 @@ _Shipping Policy During Checkout_
    {:.bs-callout-info}
    If you use a word processor to compose the text, make sure to save the document as a .txt file to remove any control characters from the text. Then, copy and paste the text into the Shipping Policy text box.
 
-   ![]({% link images/images/config-sales-shipping-settings-shipping-policy-parameters.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/shipping-settings-shipping-policy-parameters.png %}){: .zoom}
    [_Shipping Policy Parameters_]({% link configuration/sales/shipping-settings.md %})
 
 1. Click <span class="btn">Save Config</span>.

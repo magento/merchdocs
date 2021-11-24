@@ -4,7 +4,7 @@ title: Configuring Tax Classes
 
 The tax class that is used for shipping, and the default tax classes for [products and customers]({% link tax/tax-class-new.md %}) are set in the Sales configuration.
 
-![]({% link images/images/config-sales-tax-tax-classes.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-tax-classes.png %}){: .zoom}
 [_Tax Classes_]({% link tax/tax-class.md %})
 
 ## Configure tax classes

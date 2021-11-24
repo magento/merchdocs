@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## API Configuration
 
-![]({% link images/images/config-sales-payment-methods-klarna-api.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-klarna-api.png %}){: .zoom}
 [_API Configuration_]({% link payment/klarna-setup.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -19,7 +19,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Klarna Payments
 
-![]({% link images/images/config-sales-payment-methods-klarna-payments.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-klarna-payments.png %}){: .zoom}
 [_Klarna Payments_]({% link payment/klarna-setup.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -33,7 +33,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Design
 
-![]({% link images/images/config-sales-payment-methods-klarna-payments-design.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-klarna-payments-design.png %}){: .zoom}
 [_Design_]({% link payment/klarna-setup.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -46,7 +46,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Klarna On-Site Messaging
 
-![]({% link images/images/config-sales-payment-methods-klarna-payments-on-site-messaging.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-klarna-payments-on-site-messaging.png %}){: .zoom}
 [_Klarna On-Site Messaging_]({% link payment/klarna-setup.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

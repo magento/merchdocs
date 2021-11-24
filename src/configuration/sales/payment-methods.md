@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ### Merchant Location
 
-![]({% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-merchant-location.png %}){: .zoom}
 [_Merchant Location_]({% link payment/merchant-location.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -21,7 +21,7 @@ The following payment methods are built into Commerce and do not use a third-par
 
 ### Check / Money Order
 
-![]({% link images/images/config-sales-payment-methods-check-money-order.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-check-money-order.png %}){: .zoom}
 [_Check / Money Order_]({% link payment/check-money-order.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -39,7 +39,7 @@ The following payment methods are built into Commerce and do not use a third-par
 
 ### Bank Transfer Payment
 
-![]({% link images/images/config-sales-payment-methods-bank-transfer-payment.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-bank-transfer-payment.png %}){: .zoom}
 [_Bank Transfer Payment_]({% link payment/bank-transfer.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -75,7 +75,7 @@ Payment on Account is not supported for orders with [multiple shipping addresses
 
 ### Cash On Delivery Payment
 
-![]({% link images/images/config-sales-payment-methods-cash-on-delivery-payment.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-cash-on-delivery-payment.png %}){: .zoom}
 [_Cash On Delivery Payment_]({% link payment/cash-on-delivery.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -91,7 +91,7 @@ Payment on Account is not supported for orders with [multiple shipping addresses
 
 ### Zero Subtotal Checkout
 
-![]({% link images/images/config-sales-payment-methods-zero-subtotal-checkout.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-zero-subtotal-checkout.png %}){: .zoom}
 [_Zero Subtotal Checkout_]({% link payment/zero-subtotal-checkout.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -125,7 +125,7 @@ Do not select the _Not Capture_ option unless you are certain that you are going
 
 ## Purchase Order
 
-![]({% link images/images/config-sales-payment-methods-purchase-order.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-purchase-order.png %}){: .zoom}
 [_Purchase Order_]({% link payment/purchase-order.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

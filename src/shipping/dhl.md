@@ -27,7 +27,7 @@ DHL offers integrated international services and tailored, customer-focused solu
    - **Password**
    - **Account Number**
 
-![]({% link images/images/config-sales-shipping-methods-dhl-account-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-dhl-account-settings.png %}){: .zoom}
 _[DHL Account Settings]({% link configuration/sales/delivery-methods.md %})_
 
 ## Step 2; Enter package description and handling fee
@@ -69,7 +69,7 @@ _[DHL Account Settings]({% link configuration/sales/delivery-methods.md %})_
 
       If you choose **Specific**, enter the **Height**, **Depth**, and **Width** of the package in centimeters.
 
-   ![]({% link images/images/config-sales-shipping-methods-dhl-package-settings.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/delivery-methods-dhl-package-settings.png %}){: .zoom}
    _[DHL Package Settings]({% link configuration/sales/delivery-methods.md %})_
 
 ## Step 3: Specify allowed delivery methods
@@ -99,7 +99,7 @@ _[DHL Account Settings]({% link configuration/sales/delivery-methods.md %})_
 
    - For **Free Shipping Amount Threshold**, enter the minimum amount for an order to qualify for free shipping.
 
-      ![]({% link images/images/config-sales-shipping-methods-dhl-allowed-methods.png %}){: .zoom}
+      ![]({% link configuration/sales/assets/delivery-methods-dhl-allowed-methods.png %}){: .zoom}
       _[DHL Allowed Methods]({% link configuration/sales/delivery-methods.md %})_
 
 ## Step 4: Specify the applicable countries
@@ -124,5 +124,5 @@ _[DHL Account Settings]({% link configuration/sales/delivery-methods.md %})_
 
 1. Click <span class="btn">Save Config</span>.
 
-   ![]({% link images/images/config-sales-shipping-methods-dhl-applicable-countries.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/delivery-methods-dhl-applicable-countries.png %}){: .zoom}
    _[DHL Applicable Countries]({% link configuration/sales/delivery-methods.md %})_
