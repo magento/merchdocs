@@ -12,7 +12,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
 1. Click <span class="btn">Add New Source</span>.
 
-   ![]({% link images/images/stores-inventory-sources.png %}){: .zoom}
+   ![]({% link catalog/assets/inventory-sources.png %}){: .zoom}
    _Manage Sources_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **General** section and do the following:

@@ -4,7 +4,7 @@ title: Creating and Managing Widgets
 
 Widgets are reusable components and you can easily create new widgets, as well as modify existing ones to automatically update content across your store. You can also delete widgets that are no longer in use.
 
-![]({% link images/images/widgets.png %}){: .zoom}
+![]({% link cms/assets/widgets.png %}){: .zoom}
 _Widgets_
 
 ## Create a widget
@@ -23,7 +23,7 @@ The process of creating a widget is nearly the same for each [widget type]({% li
 
    - Verify that **Design Theme** is set to the current theme.
 
-   ![]({% link images/images/widget-settings.png %}){: .zoom}
+   ![]({% link cms/assets/widget-settings.png %}){: .zoom}
    _Widget settings_
 
 1. Click <span class="btn">Continue</span>.
@@ -42,7 +42,7 @@ The process of creating a widget is nearly the same for each [widget type]({% li
 
    - (Optional) For **Sort Order**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
-   ![]({% link images/images/widget-storefront-properties.png %}){: .zoom}
+   ![]({% link cms/assets/widget-storefront-properties.png %}){: .zoom}
    _Storefront properties_
 
 1. In the _Layout Updates_ section, click <span class="btn">Add Layout Update</span>.
@@ -51,7 +51,7 @@ The process of creating a widget is nearly the same for each [widget type]({% li
 
 1. In the **Container** list, choose the area of the page layout where it is to be placed.
 
-   ![]({% link images/images/widget-layout-update-home-page.png %}){: .zoom}
+   ![]({% link cms/assets/widget-layout-update-home-page.png %}){: .zoom}
    _Layout updates_
 
 1. If the widget is a link, set **Template** to one of the following:
@@ -79,7 +79,7 @@ The options for each widget type vary slightly, but the process is essentially t
 
       The process is the same as setting a condition for a [price rule]({% link marketing/price-rules-catalog.md %}).
 
-   ![]({% link images/images/widget-options-new-product-list.png %}){: .zoom}
+   ![]({% link cms/assets/widget-options-new-product-list.png %}){: .zoom}
    _Widget options_
 
 ### Step 4: Save and check the result

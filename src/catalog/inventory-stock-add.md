@@ -52,7 +52,7 @@ _New Stock_
 
    This order is important when shipping orders.
 
-   ![]({% link images/images/stores-inventory-stock-priorityafter.png %}){: .zoom}
+   ![]({% link catalog/assets/inventory-stock-priority-after.png %}){: .zoom}
    _Assigned Sources Example_
 
 1. On the **Save** (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"}) menu, choose **Save & Close**.

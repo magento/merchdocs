@@ -15,5 +15,5 @@ The merchant prefers to have shipments prioritized from the larger Berlin wareho
 
 Use ![]({% link catalog/assets/inventory-icon-sort.png %}) to drag and drop the sources into a priority from top (first) to bottom (last). This order is important when shipping orders. SSA recommends shipments based on the order of sources
 
-![]({% link images/images/stores-inventory-stock-priorityafter.png %}){: .zoom}
+![]({% link catalog/assets/inventory-stock-priority-after.png %}){: .zoom}
 _Source order after prioritization_

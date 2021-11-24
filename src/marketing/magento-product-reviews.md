@@ -17,7 +17,7 @@ _Add Your Review_
 
 The number of stars indicates the product's satisfaction rating. Visitors can click the link to read the reviews and write their own. As an incentive, customers can receive reward points for submitting a review. When a review is submitted, it is sent to the Admin for moderation. When approved, the review is published in your store.
 
-![Example storefront - Reviews tab]({% link images/images/storefront-reviews-tab.png %}){: .zoom}
+![Example storefront - Reviews tab]({% link marketing/assets/storefront-reviews-tab.png %}){: .zoom}
 _Reviews tab_
 
 ## View product reviews in the Admin
@@ -31,6 +31,3 @@ To view all reviews for a specific product in the Admin, do the following:
 1. On the product page, scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Product Reviews** section.
 
    In this grid, you can also [change]({% link marketing/magento-product-reviews-moderate.md %}) the specific review by clicking the **Edit** link in the _Action_ column.
-
-    ![Example Commerce Admin - Reviews grid]({% link images/images/storefront-reviews-tab.png %}){: .zoom}
-    _Reviews grid_
