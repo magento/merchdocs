@@ -82,6 +82,8 @@ Go to [Braintree Payments][1] and sign up for an account.
 
    Ensure the Advanced Fraud Protection is enabled in the Settings/Protection section of your account.
 
+1. Set the `Bypass Fraud Protection Threshold` so that the `Advanced Fraud Protection` checks are bypassed, if the threshold is met or exceeded. Leaving this field blank will disable this option.
+
 1. If you want the system to save a log file of interactions between your store and Braintree, set **Debug** to `Yes`.
 
 1. To require customers to provide the three-digit security code from the back of a credit card, set **CVV Verification** to `Yes`.
@@ -121,7 +123,7 @@ Go to [Braintree Payments][1] and sign up for an account.
 
    - Enter a **Title** to identify Braintree’s payment by PayPal option during checkout.
 
-   - For **Vault Title**, enter a descriptive title to identify the vault where your customer card information is to be stored.
+   - Set **Vault Title** to `Yes` to store customers’ credit card information.
 
    - For **Sort Order**, enter a number to determine the sequence in which Braintree’s PayPal payment option appears when listed with other payment options during checkout.
 
