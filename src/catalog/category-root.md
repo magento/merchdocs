@@ -6,7 +6,7 @@ redirect_from:
 
 The products in the main menu are determined by the root category that is assigned to the [store]({% link stores/stores-all-create-store.md %}). The root category is basically a container for the main menu in the category tree. You can create a root category with an entirely new set of products or copy products from an existing root category. The root category can be assigned to the current store or to any other store in the same website.
 
-![]({% link images/images/scope-catalog.png %}){: .zoom}
+![]({% link catalog/assets/catalog-hierarchy-scope-diagram.png %}){: .zoom}
 [_Scope of Main Menu_]({% link catalog/category-root.md %})
 
 From the Admin, the category structure is like an upside-down tree, with the root on top. The root has a name, but no URL key, and does not appear in the [top navigation]({% link catalog/navigation-top.md %}) of the store. All other categories in the menu are nested below the root. Because the root category is the highest level of the catalog, your store can have only one root category active at a time. You can, however, create additional root categories for alternate catalog structures and different stores.

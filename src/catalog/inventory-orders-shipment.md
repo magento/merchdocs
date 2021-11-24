@@ -22,7 +22,7 @@ Commerce manages inventory for these multiaddress orders exactly like single ord
 
 When entering a [credit memo]({% link sales/credit-memo-create.md %}) to issue a refund, you have an option to return the product quantity to the deducted source. The order information includes the inventory source that shipped the product. We recommend awarding the returned product quantity through a credit memo when you receive the returned product.
 
-![]({% link images/images/credit-memo-items-to-refund.png %}){: .zoom}
+![]({% link sales/assets/credit-memo-items-to-refund.png %}){: .zoom}
 _Items to Refund with Return to Stock Selected_
 
 ### Cancel unshipped orders

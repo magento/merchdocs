@@ -16,7 +16,7 @@ After you create your account, it is strongly recommended that you use Two-facto
 
 1. Click **Create an account**.
 
-   ![]({% link images/images/magento-account-login.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-login.png %}){: .zoom}
    _Account log in page_
 
 1. Under _Personal Information_, do the following:

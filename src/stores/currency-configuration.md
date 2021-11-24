@@ -110,7 +110,7 @@ _Scope of Base Currency_
 
 1. When prompted to update the cache, click the **Cache Management** link and refresh the invalid cache.
 
-   ![System message - refresh the invalid cache]({% link images/images/msg-cache-management.png %}){: .zoom}
+   ![System message - refresh the invalid cache]({% link stores/assets/msg-cache-management.png %}){: .zoom}
    _Refresh Cache_
 
 ## Step 4: Update the Currency Rates

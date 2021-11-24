@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 
 ## General
 
-![]({% link images/images/config-security-txt-general.png %}){: .zoom}
+![]({% link configuration/security/assets/txt-general.png %}){: .zoom}
 [_General_]({% link stores/security-issue-reporting.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -15,7 +15,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 
 ## Contact information
 
-![]({% link images/images/config-security-txt-contact-info.png %}){: .zoom}
+![]({% link configuration/security/assets/txt-contact-info.png %}){: .zoom}
 [_Contact information_]({% link stores/security-issue-reporting.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -26,7 +26,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 
 ## Other information
 
-![]({% link images/images/config-security-txt-other-info.png %}){: .zoom}
+![]({% link configuration/security/assets/txt-other-info.png %}){: .zoom}
 [_Other information_]({% link stores/security-issue-reporting.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

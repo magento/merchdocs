@@ -44,7 +44,7 @@ _Message about successful activation of the gift card_
 
 The gift card amount is activated and added to the total _Store Credit_ balance.
 
-![]({% link images/images/store-credit.png %}){: .zoom}
+![]({% link customers/assets/store-credit.png %}){: .zoom}
 _Store Credit balance_
 
 All operations for the gift card balance are available on the **Store Credit** page.

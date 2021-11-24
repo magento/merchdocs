@@ -24,12 +24,12 @@ The `&copy;` character code is used to insert the copyright symbol, as shown in 
 
 1. In the grid, find the store view that you want to configure and click **Edit** in the _Action_ column.
 
-   ![]({% link images/images/design-configuration.png %}){: .zoom}
+   ![]({% link design/assets/configuration.png %}){: .zoom}
    [_Design Configuration_]({% link design/configuration.md %})
 
 1. Under _Other Settings_, expand ![]({% link assets/icon-display-expand.png %})the **Footer** section.
 
-      ![]({% link images/images/design-configuration-footer.png %}){: .zoom}
+      ![]({% link design/assets/configuration-footer.png %}){: .zoom}
       _Footer design settings_
 
 1. For **Copyright**, enter the copyright notice that you want to appear in the footer of each page.

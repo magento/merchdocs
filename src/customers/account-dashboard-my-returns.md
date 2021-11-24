@@ -50,7 +50,7 @@ Only shipped and invoiced orders, with `Complete` status, can be returned.
 
 1. If returning more than one item, clicks <span class="btn">Add item to return</span> and repeats the previous steps.
 
-    ![]({% link images/images/create-new-return.png %}){: .zoom}
+    ![]({% link customers/assets/account-dashboard-my-orders-create-return.png %}){: .zoom}
    _Create New Return_
 
 1. (Optional) Enters an additional comment for the store administrator in the **Comment** field.
