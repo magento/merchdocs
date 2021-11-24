@@ -5,6 +5,7 @@ title: Onboard Payment Services
 To get started using Payment Services for Adobe Commerce and Magento Open Source you must complete a few onboarding steps to connect your instance with our payments functionality.
 
 1. [Get Payment Services](#get-payment-services).
+1. [Obtain API credentials](#obtain-api-credentials).
 1. [Connect your Magento instance](#configure-commerce-services) to Commerce Services. This only needs to be completed once per Magento instance.
 1. [Onboard and set up the sandbox service](#enable-sandbox-testing) (or, alternatively, proceed to [enabling live payments](#enable-live-payments) if you've tested functionality in another environment) to set up a test PayPal payment processing account.
 1. [Enable Payment Services as your payment method](#set-payment-services-as-payment-method), in sandbox mode, to start processing test payments.
