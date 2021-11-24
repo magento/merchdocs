@@ -105,8 +105,8 @@ To select or create a SaaS project, request the Commerce API key from the Commer
 1. If no SaaS projects exist, click **Create Project**. Then in the **Project Name** field, enter a name for your SaaS project.
 
    When you create a SaaS project, Commerce generates one or more SaaS data spaces depending on your Commerce license:
-   - Adobe Commerce - One production data space; two testing data spaces
-   - Magento Open Source - One production data space; no testing data spaces
+   * Adobe Commerce - One production data space; two testing data spaces
+   * Magento Open Source - One production data space; no testing data spaces
 
 1. Select the **SaaS Data Space** to use for the current configuration of your Commerce store.
 
