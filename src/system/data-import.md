@@ -100,7 +100,7 @@ _Import_
 
    To learn more about importing product images, see [Importing Product Images]({% link system/data-import-product-images.md %}).
 
-    ![Data import file]({% link images/images/data-import-file-to-import.png %}){: .zoom}
+    ![Data import file]({% link system/assets/data-import-file-to-import.png %}){: .zoom}
     _File to Import_
 
 ## Step 4: Check the Import Data
@@ -111,7 +111,7 @@ _Import_
 
    If the import data is valid, the following message appears:
 
-    ![Success message - file is valid]({% link images/images/data-import-validation-message.png %}){: .zoom}
+    ![Success message - file is valid]({% link system/assets/data-import-validation-message.png %}){: .zoom}
     _File is Valid_
 
 1. If the file is valid, click **Import**.

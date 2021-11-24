@@ -146,7 +146,7 @@ _Create Credit Memo_
 
       The amount to be credited cannot exceed the maximum amount that is available for refund.
 
-   ![]({% link images/images/credit-memo-items-to-refund.png %}){: .zoom}
+   ![]({% link sales/assets/credit-memo-items-to-refund.png %}){: .zoom}
    _Items to Refund_
 
 1. Update the **Refunds Totals** section as applicable:

@@ -6,7 +6,7 @@ Media Storage helps you organize and gain access to media files that are stored 
 
 Alternatively, media files can be managed in a [database]({% link system/media-storage-database.md %}), or located on a separate server or [content delivery network]({% link system/media-storage-content-delivery-network.md %}). The editor can be configured to use either static or [dynamic media URLs]({% link catalog/catalog-urls-dynamic-media.md %}) for catalog content in category or product descriptions.
 
-![Commerce Media Storage]({% link images/images/media-storage.png %}){: .zoom}
+![Commerce Media Storage]({% link cms/assets/media-storage.png %}){: .zoom}
 _Media Storage_
 
 ## Add files to the Media Storage
@@ -48,7 +48,7 @@ The first two steps are the same as if you are inserting an image.
 
 The images are uploaded to the current Media Storage folder on the server.
 
-![]({% link images/images/media-storage.png %}){: .zoom}
+![]({% link cms/assets/media-storage.png %}){: .zoom}
 _Media Storage_
 
 ## Insert an image from Media Storage

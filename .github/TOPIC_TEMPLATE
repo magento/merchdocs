@@ -81,19 +81,19 @@ Add any images you may need to the [`src/images`](https://github.com/magento/mer
 
 When the image is added, you can use it in your documentation:
 
-Example: `![Image example]({% link images/images/magento-account-login.png %})`
+Example: `![Image example]({% link magento/assets/commerce-account-login.png %})`
 
 Output:
 
-![Image example]({{ site.baseurl }}/src/images/images/magento-account-login.png)
+![Image example]({{ site.baseurl }}/src/magento/assets/commerce-account-login.png)
 
 You can even scale the image if it is too large:
 
-Example: `![Scaled Image]({{ site.baseurl }}/src/images/images/magento-account-login.png){:width="446"}`
+Example: `![Scaled Image]({{ site.baseurl }}/src/magento/assets/commerce-account-login.png){:width="446"}`
 
 Output:
 
-![Scaled Image Example]({{ site.baseurl }}/src/images/images/magento-account-login.png){:width="446"}
+![Scaled Image Example]({{ site.baseurl }}/src/magento/assets/commerce-account-login.png){:width="446"}
 
 ### Tables {#tables}
 

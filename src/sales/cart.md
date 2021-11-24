@@ -6,5 +6,5 @@ The cart is positioned at the end of the path to purchase, at the intersection o
 
 [Configure the shopping cart]({% link sales/cart-configuration.md %}) options to determine which tools are available to shoppers, as well as modify the display. You can also configure the [cart persistence]({% link sales/checkout-options.md %}) behavior to help shoppers retain the contents of their cart.
 
-![The shopping cart page displays tools the shopper can use to manage the products for their order ]({% link images/images/storefront-cart-full.png %}){: .zoom}
+![The shopping cart page displays tools the shopper can use to manage the products for their order ]({% link sales/assets/storefront-cart-full.png %}){: .zoom}
 _Example storefront - shopping cart_

@@ -6,7 +6,7 @@ The _Billing Agreements_ page lists all PayPal [billing agreements]({% link paym
 
 When a customer places an order using a billing agreement, Adobe Commerce and Magento Open Source send the billing agreement reference ID and sales order billing information to PayPal. After PayPal authorizes the payment, it sends the billing agreement reference ID to both the customer and the store.
 
-![Billing agreements list displayed in the Admin]({% link images/images/sales-billing-agreements.png %}){: .zoom}
+![Billing agreements list displayed in the Admin]({% link sales/assets/billing-agreements.png %}){: .zoom}
 _Billing agreements_
 
 ## View a billing agreement
@@ -29,7 +29,7 @@ This tab includes the general information about the billing agreement:
 - Created At: Creation date.
 - Updated At: Update date.
 
-![Billing Agreement View]({% link sales/assets/billing-agreements.png %}){: .zoom}
+![Billing Agreement View]({% link sales/assets/billing-agreement-view.png %}){: .zoom}
 _Billing agreement general information_
 
 ### Related Orders

@@ -32,7 +32,7 @@ Before you try to import a large amount of images, review the steps in the impor
 
     The CSV file must include only the `sku` column and the related image columns.
 
-    ![Example - CSV image data import]({% link images/images/data-import-csv-image-files-default-local.png %}){: .zoom}
+    ![Example - CSV image data import]({% link system/assets/data-import-csv-image-files-default-local.png %}){: .zoom}
     _CSV Import Image from Default Location_
 
 1. Follow the instructions to [import]({% link system/data-import.md %}) the data.
@@ -43,7 +43,7 @@ Before you try to import a large amount of images, review the steps in the impor
     var/import/images
     ```
 
-    ![Data import images file directory]({% link images/images/data-import-file-to-import.png %}){: .zoom}
+    ![Data import images file directory]({% link system/assets/data-import-file-to-import.png %}){: .zoom}
     _Images File Directory_
 
     {:.bs-callout-tip}
@@ -82,7 +82,7 @@ Before you try to import a large amount of images, review the steps in the impor
 
     The CSV file must include only the `sku` column and the related image columns.
 
-    ![Example - CSV image data import]({% link images/images/data-import-csv-image-files-default-local.png %}){: .zoom}
+    ![Example - CSV image data import]({% link system/assets/data-import-csv-image-files-default-local.png %}){: .zoom}
     _CSV Import Image from Default Location_
 
 1. Follow the instructions to [import]({% link system/data-import.md %}) the data.
@@ -93,7 +93,7 @@ Before you try to import a large amount of images, review the steps in the impor
     var/import/images/product_images
     ```
 
-    ![Data import images file directory]({% link images/images/data-import-file-to-import.png %}){: .zoom}
+    ![Data import images file directory]({% link system/assets/data-import-file-to-import.png %}){: .zoom}
     _Images File Directory_
 
     {:.bs-callout-tip}

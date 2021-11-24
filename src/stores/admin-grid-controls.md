@@ -24,7 +24,7 @@ _Orders Grid_
 
 1. Click **Next** and **Previous** to page through the list, or enter a specific **Page Number**.
 
-    ![Grid display - page controls]({% link images/images/pagination-controls.png %}){: .zoom}
+    ![Grid display - page controls]({% link stores/assets/pagination-controls.png %}){: .zoom}
     _Next and previous_
 
 ## Filter the list

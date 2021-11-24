@@ -19,7 +19,7 @@ To get started with dotdigital Engagement Cloud, you must first sign up for a fr
 
 1. Complete the form and click <span class="btn">Create an Account</span>.
 
-1. Wait a few moments while your account is created. When the congratulations message appears, click **Close** (![Close icon]({% link images/images/engagement-cloud-btn-close.png %})).
+1. Wait a few moments while your account is created. When the congratulations message appears, click **Close** (![Close icon]({% link marketing/dotdigital/assets/icon-close.png %})).
 
     dotdigital is now enabled, and your **API Username** and **API Password** appear in the _Settings_ section of your store's dotdigital Accounts configuration.
 

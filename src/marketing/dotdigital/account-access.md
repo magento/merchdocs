@@ -13,7 +13,7 @@ _dotdigital account access_
 
 ## Add a New Account User
 
-1. Click the **Settings** (![Settings icon]({% link images/images/engagement-cloud-btn-settings.png %}){: .Inline}) icon at the bottom of the sidebar.
+1. Click the **Settings** (![Settings icon]({% link marketing/dotdigital/assets/icon-settings.png %}){: .Inline}) icon at the bottom of the sidebar.
 
     The Access tab is selected by default.
 
