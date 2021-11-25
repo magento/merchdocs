@@ -87,7 +87,7 @@ When you create a SaaS project, Commerce generates one or more SaaS data spaces 
 * Adobe Commerce - One production data space; two testing data spaces
 * Magento Open Source - One production data space; no testing data spaces
 
-### Select or create SaaS project
+### Configure SaaS project
 
 {:.bs-callout-info}
 If you do not see the **Commerce Services Connector** section in the Commerce configuration, you need to install the Commerce modules for your desired Commerce Service, such as [Payment Services]({% link payment-services/install-payments.md %}).
