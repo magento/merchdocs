@@ -71,9 +71,9 @@ The first step in onboarding Payment Services is to configure your Commerce Serv
 
 1. Follow the steps described in [Commerce Services]({% link system/saas.md%}#createsaasenv) to configure your Commerce Services.
 
-## Setup sandbox for testing
+## Set up sandbox for testing
 
-Before starting sandbox onboarding, you will need to sign up for a free PayPal Developer's account, and create both merchant (to use for onboarding) and shopper accounts (to use for testing your checkout). You can create multiple Developer accounts, if desired.
+Before starting sandbox onboarding, you must sign up for a free PayPal Developer's account, and create both merchant (to use for onboarding) and shopper accounts (to use for testing your checkout). You can create multiple Developer accounts, if desired.
 
 A PayPal sandbox account allows you to use Payment Services in test mode. You must use a PayPal Developer Portal-generated Business sandbox test account, email, and password for sandbox onboarding. Do not create a new account during the sandbox onboarding process.
 
