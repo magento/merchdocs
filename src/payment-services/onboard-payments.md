@@ -57,35 +57,35 @@ See [Commerce Services]({% link system/saas.md%}) to learn how to generate an AP
 {:.bs-callout-warning}
 If you re-generate an API key pair and change the SaaS Identifier, all Commerce Services used by this instance will connect to a different data store and you will lose access to previously stored data. It is recommended that you do not re-generate an API key pair and change the SaaS Identifier on an active production instance.
 
-Some Adobe Commerce and Magento Open Source features are deployed as SaaS (software as a service)---known as Commerce Services. To use these services, you must connect your Commerce instance to these services using an API key and a private key, and specify the desired data space in the [configuration]({% link configuration/services/saas.md %}).
-
 ### Commerce API key and private key
+
+Some Adobe Commerce and Magento Open Source features are deployed as SaaS (software as a service)---known as Commerce Services. To use these services, you must connect your Commerce instance to these services using an API key and a private key, and specify the desired data space in the [configuration]({% link configuration/services/saas.md %}).
 
 When you create a Commerce account, identified by a MageID, you can generate a Commerce API key and private key. To use Commerce Services, such as Payment Services, Product Recommendations or Live Search, the license-holder must generate these keys in order to pass entitlement validation. These keys can then be passed to the systems integrator or development team that manages the projects and environments on behalf of the license-holder. If you are a solution integrator, you are also entitled to use these services for your own needs. In that case, the signer of the Commerce partner contract should generate the keys.
 
 ### Generate an API key and private key
 
 1. Log in to your Commerce account at [https://account.magento.com](https://account.magento.com/).
-
 1. Under the **Magento** tab, select **API Portal** on the sidebar.
+1. From the _Environment_ menu, select **Sandbox**, then **Production**.
 
-1. From the _Environment_ menu, select **Production** or **Sandbox**.
+   {:.bs-callout-warning}
+   You must create API keys for both environments.
 
-1. Enter a name in the _API Keys_ section and click **Add New**.
-
-   This opens a dialog for downloading the new key.
-
-   ![]({% link images/images/download-api-private-key.png %}){: .zoom}
-   _Download private key_
+1. Enter a name in the _API Keys_ section and click **Add New**. This opens a dialog for downloading the new key.
 
    {:.bs-callout-warning}
    This is the only opportunity you will have to copy or download your key.
 
 1. Click **Download** then click **Cancel**.
-
 1. The **API Keys** section now displays your API key. You will need both the API key and private key when you select or create a SaaS project. See [SaaS]({% link system/saas.md %}) for more detailed information.
 
-The same API key can be used across instances, but each instance needs to use its own SaaS project.
+The same API key can be used across instances, but each instance must have its own SaaS Data Space.
+
+When you create a SaaS project, Commerce generates one or more SaaS data spaces depending on your Commerce license:
+
+* Adobe Commerce - One production data space; two testing data spaces
+* Magento Open Source - One production data space; no testing data spaces
 
 ### Select or create SaaS project
 
@@ -95,26 +95,23 @@ If you do not see the **Commerce Services Connector** section in the Commerce co
 To select or create a SaaS project, request the Commerce API key from the Commerce license holder for your store.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
-
 1. In the left panel, expand **Services** and choose **Commerce Services Connector**.
-
 1. In the _API Keys_ section, paste your key values.
+
+   {:.bs-callout-warning}
+   Add key values for both **sandbox** and **production** environments.
+
 1. Click **Save Config**.
 
    When you save, if there are any SaaS projects associated with your API key, those projects will appear in the **SaaS Project** field located in the **SaaS Identifier** section.
 
 1. If no SaaS projects exist, click **Create Project**. Then in the **Project Name** field, enter a name for your SaaS project.
-
-   When you create a SaaS project, Commerce generates one or more SaaS data spaces depending on your Commerce license:
-   * Adobe Commerce - One production data space; two testing data spaces
-   * Magento Open Source - One production data space; no testing data spaces
-
 1. Select the **SaaS Data Space** to use for the current configuration of your Commerce store.
 
 {:.bs-callout-warning}
-If you generate new keys in the API Portal section of My Account, immediately update the API keys in the Admin configuration. If you generate new keys and do not update them in the Admin, your SaaS extensions will no longer work and you will lose valuable data.
+If you re-generate your keys in the API Portal section of My Account, immediately update the API keys in the Admin configuration. If you generate new keys and do not update them in the Admin, your SaaS extensions will no longer work and you will lose valuable data.
 
-To change the SaaS project or data space names, click the **Rename this Project** or **Rename Data Space** respectively.
+You can change the names by clicking the **Rename this Project** or **Rename Data Space** buttons respectively.
 
 ## Configure Commerce Services
 
