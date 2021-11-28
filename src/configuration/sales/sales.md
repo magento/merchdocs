@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## General
 
-![]({% link images/images/config-sales-sales-general.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-general.png %}){: .zoom}
 [_General_]({% link marketing/sales-documents-ref-id.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -15,7 +15,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Checkout Totals Sort Order
 
-![]({% link images/images/config-sales-sales-checkout-totals-sort-order.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-checkout-totals-sort-order.png %}){: .zoom}
 [_Checkout Totals Sort Order_]({% link sales/checkout-totals-sort-order.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -29,7 +29,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Reorder
 
-![]({% link images/images/config-sales-sales-reorder.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-reorder.png %}){: .zoom}
 [_Reorder_]({% link sales/reorders-allow.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -44,7 +44,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Invoice and Packing Slip Design
 
-![]({% link images/images/config-sales-sales-invoice-packing-slip-design.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-invoice-packing-slip-design.png %}){: .zoom}
 [_Invoice and Packing Slip Design_]({% link marketing/sales-document-pdf-logo.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -55,7 +55,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Minimum Order Amount
 
-![]({% link images/images/config-sales-sales-minimum-order-amount.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-minimum-order-amount.png %}){: .zoom}
 [_Minimum Order Amount_]({% link sales/cart-minimum-order-amount.md %})
 
 ||Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -81,7 +81,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Orders Cron Settings
 
-![]({% link images/images/config-sales-sales-orders-cron-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-orders-cron-settings.png %}){: .zoom}
 [_Orders Cron Settings_]({% link system/cron.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -90,7 +90,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Gift Options
 
-![]({% link images/images/config-sales-sales-gift-options.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-gift-options.png %}){: .zoom}
 [_Gift Options_]({% link sales/gift-options.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -105,7 +105,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Minimum Advertised Price
 
-![]({% link images/images/config-sales-sales-minimum-advertised-price.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-minimum-advertised-price.png %}){: .zoom}
 [_Minimum Advertised Price_]({% link catalog/product-price-minimum-advertised.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -119,7 +119,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 {:.ee-only}
 ## Order by SKU Settings
 
-![]({% link images/images-ee/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-order-by-sku-settings.png %}){: .zoom}
 _[Order by SKU Settings]({% link customers/account-dashboard-order-by-sku.md %})_
 
 ![]({% link configuration/assets/order-by-sku-settings.png %}){: .zoom}
@@ -132,7 +132,7 @@ _Order by SKU Settings for Customer Group_
 
 ## Instant Purchase
 
-![]({% link images/images-ee/config-sales-sales-instant-purchase.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-instant-purchase.png %}){: .zoom}
 [_Instant Purchase_]({% link sales/checkout-instant-purchase.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -143,7 +143,7 @@ _Order by SKU Settings for Customer Group_
 {:.ee-only}
 ## Orders, Invoices, Shipments, Credit Memos Archiving
 
-![]({% link images/images-ee/config-sales-sales-orders-invoices-shipments-credit-memos-archving.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-orders-invoices-shipments-credit-memos-archiving.png %}){: .zoom}
 _[Orders, Invoices, Shipments, Credit Memos Archiving]({% link sales/order-archive.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -155,7 +155,7 @@ _[Orders, Invoices, Shipments, Credit Memos Archiving]({% link sales/order-archi
 {:.ee-only}
 ## RMA Settings
 
-![]({% link images/images-ee/config-sales-sales-rma-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-rma-settings.png %}){: .zoom}
 _[RMA Settings]({% link sales/rma-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

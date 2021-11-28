@@ -52,5 +52,5 @@ _Customer Group Discount_
 
 1. When complete, click <span class="btn">Done</span> and then <span class="btn">Save</span>.
 
-    ![]({% link images/images/storefront-cart-price-group-discount.png %}){: .zoom}
+    ![]({% link catalog/assets/storefront-cart-price-group-discount.png %}){: .zoom}
     _Group Price in Shopping Cart_

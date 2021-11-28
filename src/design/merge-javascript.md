@@ -15,7 +15,7 @@ JavaScript files can be merged from the _Admin_ panel only when working in [Deve
 
 1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the **JavaScript Settings** section.
 
-   ![]({% link images/images/config-advanced-developer-javascript-settings.png %}){: .zoom}
+   ![]({% link configuration/advanced/assets/developer-javascript-settings.png %}){: .zoom}
    [*JavaScript Settings*]({% link configuration/advanced/developer.md %}#javascript-settings)
 
 1. Set **Merge JavaScript Files** to `Yes`.

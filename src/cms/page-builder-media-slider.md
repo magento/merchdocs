@@ -20,23 +20,23 @@ _Individual slide toolbox_
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|Moves the slide to another position on the slider.|
+|Move|![Move icon]({% link cms/assets/pb-icon-move.png %}){: width="25px"}|Moves the slide to another position on the slider.|
 |(label)|Slide #|Identifies the number of the current slide.|
-|Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Slide page, where you can change the properties of the current slide.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the current slide.|
-|Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the current slide from the slider.|
+|Settings|![Settings icon]({% link cms/assets/pb-icon-settings.png %}){: width="25px"}|Opens the Edit Slide page, where you can change the properties of the current slide.|
+|Duplicate|![Duplicate icon]({% link cms/assets/pb-icon-duplicate.png %}){: width="25px"}|Makes a copy of the current slide.|
+|Remove|![Remove icon]({% link cms/assets/pb-icon-remove.png %}){: width="25px"}|Deletes the current slide from the slider.|
 
 ## Slider toolbox
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|Moves the slider to another position on the stage.|
+|Move|![Move icon]({% link cms/assets/pb-icon-move.png %}){: width="25px"}|Moves the slider to another position on the stage.|
 |(label)|Slider|Identifies the slider container.|
-|Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Slider page, where you can change the properties of the video and container.|
-|Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current slider.|
-|Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the  hidden slider.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the slider.|
-|Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the slider from the stage.|
+|Settings|![Settings icon]({% link cms/assets/pb-icon-settings.png %}){: width="25px"}|Opens the Edit Slider page, where you can change the properties of the video and container.|
+|Hide|![Hide icon]({% link cms/assets/pb-icon-hide.png %}){: width="25px"}|Hides the current slider.|
+|Show|![Show icon]({% link cms/assets/pb-icon-show.png %}){: width="25px"}|Shows the  hidden slider.|
+|Duplicate|![Duplicate icon]({% link cms/assets/pb-icon-duplicate.png %}){: width="25px"}|Makes a copy of the slider.|
+|Remove|![Remove icon]({% link cms/assets/pb-icon-remove.png %}){: width="25px"}|Deletes the slider from the stage.|
 
 ## Add an individual slide
 
@@ -55,7 +55,7 @@ _Individual slide toolbox_
 
    You can also include more complex banner content using the [Content](#content) settings.
 
-1. Click the navigation dot at the bottom of the slider to display the toolbox for the individual slide and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Click the navigation dot at the bottom of the slider to display the toolbox for the individual slide and choose the _Settings_ ( ![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
    Sliders have two toolboxes. Be sure that you are using the slide toolbox at the bottom.
 
@@ -78,12 +78,12 @@ Use one or a combination of the following methods to add slides.
 
 You can save time by duplicating a slide that has already been configured with the needed settings.
 
-1. Click the navigation dot below the slide to display the toolbox and choose the Duplicate ( ![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
+1. Click the navigation dot below the slide to display the toolbox and choose the Duplicate ( ![]({% link cms/assets/pb-icon-duplicate.png %})) icon.
 
    ![]({% link cms/assets/pb-media-slider-duplicate-slide.png %}){: .zoom}
    _Duplicating a slide_
 
-1. Click the navigation dot for the new slide and to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Click the navigation dot for the new slide and to display the toolbox and choose the _Settings_ ( ![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. Modify the settings, as needed, according to following sections:
 
@@ -96,7 +96,7 @@ You can save time by duplicating a slide that has already been configured with t
 
 ### Method 2: Add a New Blank Slide
 
-1. Hover over the slider container at the top to display the toolbox and choose the _Add_ (![]({% link images/images-ee/icon-pb-add.png %})) icon.
+1. Hover over the slider container at the top to display the toolbox and choose the _Add_ (![]({% link cms/assets/pb-icon-add.png %})) icon.
 
    ![]({% link cms/assets/pb-media-slider-toolbox-add.png %}){: .zoom}
    _Adding a blank slide_
@@ -106,7 +106,7 @@ You can save time by duplicating a slide that has already been configured with t
    ![]({% link cms/assets/pb-media-slider-slide2-toolbox.png %}){: .zoom}
    _New slide with toolbox_
 
-1. Click the navigation dot for the new slide and to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Click the navigation dot for the new slide and to display the toolbox and choose the _Settings_ ( ![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. Modify the settings, as needed, according to following sections:
 
@@ -174,7 +174,7 @@ The slide in the preceding example has a background image, a transparent mobile 
 
 1. Change the slider display on the stage to view the slide you want to change.
 
-1. On the individual slide toolbox, choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %}) icon and complete the settings, as needed, according to following sections.
+1. On the individual slide toolbox, choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %}) icon and complete the settings, as needed, according to following sections.
 
 1. In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
@@ -187,7 +187,7 @@ The slide in the preceding example has a background image, a transparent mobile 
    |Collage Center|Places slide content in a defined area that is centered on the slider container. The overlay, if used, covers only the defined area.
    |Collage Right|Places slide content in a defined area on the right side of the slider container. The overlay, if used, covers only the defined area.
 
-   ![]({% link images/images-ee/page-builder-slide-appearance-collage-right.png %}){: .zoom}
+   ![]({% link cms/assets/pb-slide-appearance-collage-right.png %}){: .zoom}
    _Slide positioning_
 
 1. Enter the **Slide Name**.
@@ -214,7 +214,7 @@ There are many options for defining the background display of a slide. You can a
 
 Specify the background color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. This determines the background color of the row. You can also adjust the opacity of the color.
 
-![]({% link images/images-ee/page-builder-settings-background-color-no-color.png %}){: .zoom}
+![]({% link cms/assets/pb-settings-background-color-no-color.png %}){: .zoom}
 _No color (default)_
 
 You can set the value in one of three ways:
@@ -225,12 +225,12 @@ You can set the value in one of three ways:
 
 If you want to choose a color, click the swatch to the left of the _No Color_ box.
 
-![]({% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
+![]({% link cms/assets/pb-settings-background-color-picker-swatch.png %}){: .zoom}
 _Choosing a color swatch_
 
 If you click the color box to open the color picker again, the box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal. You can use the slider to adjust the opacity, or enter the desired decimal value.
 
-![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
+![]({% link cms/assets/pb-settings-background-color.png %}){: .zoom}
 _Setting background color opacity_
 
 {:.bs-callout-info}
@@ -240,21 +240,21 @@ Page Builder also supports a transparency layer, or _alpha channel_, in backgrou
 
 A background type can be an image or a video. Page Builder defaults to `Image` and shows various image settings. If you select `Video`, Page Builder swaps the image settings with video settings. Both background type settings are described in the following sections.
 
-![]({% link images/images-ee/page-builder-background-type.png %}){: .zoom}
+![]({% link cms/assets/pb-background-type.png %}){: .zoom}
 _Background type_
 
 ### Image type settings
 
 If you set the _Background Type_ to `Image`, use the following settings to define the background image display.
 
-![]({% link images/images-ee/page-builder-tutorial1-banner-background.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial1-banner-background.png %}){: .zoom}
 _Banner with background image_
 
 - **Background Image** - If needed, use the provided tools to choose a background image to apply to the banner:
 
    |Upload|Uploads an image file from your local computer to the gallery and then applies it as the background image for the banner.
    |Select from Gallery|Prompts you to choose an existing image from the gallery as the background image for the banner.
-   |![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"}|Allows you to either drag the image to the camera tile or browse to the image in your local file system.
+   |![Camera icon]({% link cms/assets/pb-icon-camera.png %}){: width="25px"}|Allows you to either drag the image to the camera tile or browse to the image in your local file system.
 
 - **Background Mobile Image** - If needed, use the same tools to choose a different background image to be used for display on mobile devices.
 
@@ -264,7 +264,7 @@ _Banner with background image_
    | Contain | The background image is limited to the width of the content area. |
    | Auto | Applies the size from the current style sheet. |
 
-   ![]({% link images/images-ee/page-builder-layout-row-settings-background-size-cover.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-row-settings-background-size-cover.png %}){: .zoom}
    _Background size_
 
 - **Background Position** - Set this option to determine how the background image is anchored in relation to the banner:
@@ -290,7 +290,7 @@ If you set the _Background Type_ to `Video`, use the following settings to defin
    - Vimeo videos: `https://vimeo.com/190156113`
    - Valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
 
-   ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
+   ![]({% link cms/assets/pb-video-url.png %}){: .zoom}
    _Background video URL_
 
 - **Overlay Color** - Select a color to apply a transparent tint to the video.
@@ -315,12 +315,12 @@ You can modify the slide content directly on the stage or when you are changing 
 
 1. Use the editor toolbar to enter and format text, as well as insert elements, such as links, images, and widgets.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text-format-line2.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-banner-stage-text-format-line2.png %}){: .zoom}
    _Stage with formatted text_
 
 ### Complex content in the settings
 
-1. Click the navigation dot at the bottom of the slider to display the toolbox for the individual slide and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Click the navigation dot at the bottom of the slider to display the toolbox for the individual slide and choose the _Settings_ ( ![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. In the _Content_ section, enter the **Message Text** that you want to appear with the slide.
 
@@ -338,12 +338,12 @@ You can modify the slide content directly on the stage or when you are changing 
 
    - **URL** - Links to either a relative or fully-qualified URL.
 
-      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
+      ![]({% link cms/assets/pb-media-image-settings-image-link-url-newtab.png %}){: .zoom}
       _Link to a URL_
 
    - **Product** - Identifies the destination page based on the product name or SKU. Search for the product by name based on either a partial or full name. Choose the product from the search results list.
 
-      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-product-results.png %}){: .zoom}
+      ![]({% link cms/assets/pb-media-image-settings-image-link-product-results.png %}){: .zoom}
        _Choosing a product to link_
 
    - **Category** - Identifies the destination page as a specific category or subcategory in the category tree. Search for the category based on either a partial or full name. Choose the category from the expanded section of the displayed tree.
@@ -353,13 +353,13 @@ You can modify the slide content directly on the stage or when you are changing 
 
    - **Page** - Identifies the destination page as a specific content page. Search for the page based on either a partial or full name. Choose the page from the search results list.
 
-      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-page-results.png %}){: .zoom}
+      ![]({% link cms/assets/pb-media-image-settings-image-link-page-results.png %}){: .zoom}
       _Choosing a page to link_
 
     <div class="bs-callout-info" markdown="1">
    Starting with the 2.4.1 release, Page Builder no longer supports linking the slide and links within the nested text due to issues with display on the storefront. If you are using a link in the _Message Text_, you cannot configure the _Link_ option. If you prefer to use a single link for the whole slide, you can remove all links from the text.
 
-   ![Link configuration is blocked]({% link images/images-ee/page-builder-nested-link-blocked.png %}){: .zoom}
+   ![Link configuration is blocked]({% link cms/assets/pb-nested-link-blocked.png %}){: .zoom}
    </div>
 
    If you want to prevent the visitor from navigating away from your store, select the **Open in new tab** checkbox. When the checkbox is cleared, the linked destination opens in the same browser tab, which could effectively navigate the visitor away from your store.
@@ -368,7 +368,7 @@ You can modify the slide content directly on the stage or when you are changing 
 
    The slide _Appearance_ position places a single link or button below the text. Complete the properties of the link or button that you want to add.
 
-   ![]({% link images/images-ee/page-builder-slide-appearance-collage-right.png %}){: .zoom}
+   ![]({% link cms/assets/pb-slide-appearance-collage-right.png %}){: .zoom}
    _Slide appearance - collage right_
 
    {:.bs-callout-info}
@@ -406,7 +406,7 @@ You can modify the slide content directly on the stage or when you are changing 
    - Click the **No Color** swatch, and choose a swatch.
    - In the **No Color** field, either enter a valid color name, or hexadecimal value.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
    _Slide overlay color_
 
 ## Advanced
@@ -435,7 +435,7 @@ You can modify the slide content directly on the stage or when you are changing 
 
    - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-      ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
+      ![]({% link cms/assets/pb-settings-border-color.png %}){: .zoom}
       _Border Color_
 
    - **Border Width** - Enter the number of pixels for the border line width.
@@ -471,7 +471,7 @@ If you want a title above the slider, simply add a [Text content type] above the
 
 ## Change slider settings
 
-1. Hover over the slider container to show the main toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the slider container to show the main toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
    ![]({% link cms/assets/pb-media-slider-tee-shirts-main-toolbox.png %}){: .zoom}
    _Slider toolbox_

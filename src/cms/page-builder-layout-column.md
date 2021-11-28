@@ -4,7 +4,7 @@ title: Layout - Column
 
 Use the _Column_ content type to divide a page into multiple columns in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). When you add a column to a row or tab or directly to the stage, the column group is initially divided into two columns of equal width. You can add or remove columns, as needed. A column can be resized by dragging the border between two columns. The width of the next column is adjusted to fill the available space within the row, tab, or stage. A single column extends the full width of the stage or its container.
 
-![]({% link images/images-ee/page-builder-layout-column-add-drag-placeholder.png %}){: .zoom}
+![]({% link cms/assets/pb-layout-column-add-drag-placeholder.png %}){: .zoom}
 _Adding a column_
 
 {% include page-builder-save-timeout.md %}
@@ -15,11 +15,11 @@ Each column has a toolbox of options that appears when you hover over the contai
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![]({% link images/images-ee/icon-pb-move.png %})|Moves the column and its content to another position in relation to other columns.|
+|Move|![]({% link cms/assets/pb-icon-move.png %})|Moves the column and its content to another position in relation to other columns.|
 |(label)|Column|Identifies the current container as a column. Hover over the column container to show the toolbox.|
-|Settings|![]({% link images/images-ee/icon-pb-settings.png %})|Opens the Edit Column page, where you can change the properties of the container.|
-|Duplicate|![]({% link images/images-ee/icon-pb-duplicate.png %})|Makes a copy of the current column.|
-|Remove|![]({% link images/images-ee/icon-pb-remove.png %})|Deletes the current column and its content.|
+|Settings|![]({% link cms/assets/pb-icon-settings.png %})|Opens the Edit Column page, where you can change the properties of the container.|
+|Duplicate|![]({% link cms/assets/pb-icon-duplicate.png %})|Makes a copy of the current column.|
+|Remove|![]({% link cms/assets/pb-icon-remove.png %})|Deletes the current column and its content.|
 
 ## Column grid
 
@@ -30,14 +30,14 @@ _Grid divisions on a row with one column_
 
 In the following two-column example, the numbers in parentheses (6 /12) in the top border of each column container indicate the number of grid divisions in each column and the total number of divisions. This indicates that the column is the width of six grid units out of a total of twelve.
 
-![]({% link images/images-ee/page-builder-layout-column-two-grid.png %}){: .zoom}
+![]({% link cms/assets/pb-layout-column-two-grid.png %}){: .zoom}
 _Grid divisions on row with two columns_
 
 ## Add a column
 
 1. In the Page Builder panel under _Layout_, drag a **Column** to the stage.
 
-   ![]({% link images/images-ee/page-builder-layout-column-add-drag-placeholder.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-column-add-drag-placeholder.png %}){: .zoom}
    _Dragging a column to the stage_
 
    The column group is now divided into two columns of equal width. Each column is a separate container for content and has its own set of toolbox options.
@@ -45,11 +45,11 @@ _Grid divisions on row with two columns_
    ![]({% link cms/assets/pb-layout-columns-two-empty.png %}){: .zoom}
    _Two equal columns_
 
-1. In the upper-left corner of the column group, click the Grid tool (![]({% link images/images-ee/icon-pb-grid-control.png %})) and adjust the grid size as needed.
+1. In the upper-left corner of the column group, click the Grid tool (![]({% link cms/assets/pb-icon-grid-control.png %})) and adjust the grid size as needed.
 
    Positioning content on the grid helps to align content consistently and renders the page correctly on both desktop and mobile devices. For more information, see the [Advanced Content Tools]({% link configuration/general/content-management.md %}) section of the Page Builder configuration.
 
-   ![]({% link images/images-ee/page-builder-layout-column-two-grid.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-column-two-grid.png %}){: .zoom}
    _Grid divisions on two columns_
 
 ## Resize a column
@@ -70,7 +70,7 @@ _Grid divisions on row with two columns_
 
 ## Remove a column
 
-1. Hover over the column that you want to remove to display the toolbox and choose the _Remove_ ( ![]({% link images/images-ee/icon-pb-remove.png %})) icon.
+1. Hover over the column that you want to remove to display the toolbox and choose the _Remove_ ( ![]({% link cms/assets/pb-icon-remove.png %})) icon.
 
    ![]({% link cms/assets/pb-column-toolbox-remove.png %}){: .zoom}
    _Column toolbox_
@@ -86,20 +86,20 @@ _Grid divisions on row with two columns_
 
 1. If you want the column group to extend the remaining column to the full width of the row or stage:
 
-   - Hover over the column to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+   - Hover over the column to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
    - Scroll down to the _Advanced_ section and set all four **Padding** values to `0`.
 
-      ![]({% link images/images-ee/page-builder-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png %}){: .zoom}
       _Using zero padding_
 
    - In the upper-right corner, click <span class="btn">Save</span> to close the _Edit Column_ page.
 
-1. Click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon in the upper-right corner of the workspace, and then click <span class="btn">Save</span> in the upper-right corner.
+1. Click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon in the upper-right corner of the workspace, and then click <span class="btn">Save</span> in the upper-right corner.
 
 ## Change column settings
 
-1. Hover over the column to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the column to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
    ![]({% link cms/assets/pb-column-toolbox-settings.png %}){: .zoom}
    _Column toolbox_
@@ -125,7 +125,7 @@ _Grid divisions on row with two columns_
 
       |Upload|Uploads an image file from your local computer to the gallery and then applies it as the background image for the column.
       |Select from Gallery|Prompts you to choose an existing image from the gallery as the background image for the column.
-      |![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"}|Allows you to either drag the image to the camera tile or browse to the image in your local file system.
+      |![Camera icon]({% link cms/assets/pb-icon-camera.png %}){: width="25px"}|Allows you to either drag the image to the camera tile or browse to the image in your local file system.
 
    - **Background Mobile Image** - If needed, use the same tools to choose a different background image to be used for display on mobile devices.
 

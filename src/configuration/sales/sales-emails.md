@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## General Settings
 
-![]({% link images/images/config-sales-sales-emails-general-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-emails-general-settings.png %}){: .zoom}
 [_General Settings_]({% link system/email-communications.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -15,7 +15,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Order
 
-![]({% link images/images/config-sales-sales-emails-order.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-emails-order.png %}){: .zoom}
 [_Order_]({% link sales/orders.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -29,7 +29,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Order Comments
 
-![]({% link images/images/config-sales-sales-emails-order-comments.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-emails-order-comments.png %}){: .zoom}
 [_Order Comments_]({% link sales/order-processing.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

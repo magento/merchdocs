@@ -56,7 +56,7 @@ By default, a saved integration appears on the grid with an _Inactive_ status. T
 
    This displays the Integration Tokens for Extensions. Copy this information to a secure, encrypted location for use with your integration.
 
-   ![Integration Tokens for Extensions]({% link images/images/integration-tokens-for-extensions.png %}){: .zoom}
+   ![Integration Tokens for Extensions]({% link system/assets/integration-tokens-for-extensions.png %}){: .zoom}
    _Integration Tokens for Extensions_
 
 1. In the upper-right corner, click <span class="btn">Done</span>.

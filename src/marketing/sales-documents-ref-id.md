@@ -15,7 +15,7 @@ The Order ID and customer IP address can be included in the header of sales docu
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Invoice** section.
 
-    ![Sales configuration - PDF print-outs invoice]({% link images/images/config-sales-pdf-print-outs-invoce.png %}){: .zoom}
+    ![Sales configuration - PDF print-outs invoice]({% link configuration/sales/assets/pdf-print-invoice.png %}){: .zoom}
     [_Invoice_]({% link configuration/sales/pdf-print-outs.md -%})
 
 1. Set **Display Order ID in Header** according to your preference.
@@ -32,7 +32,7 @@ The Order ID and customer IP address can be included in the header of sales docu
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General** section.
 
-    ![Sales configuration - general sales settings]({% link images/images/config-sales-sales-general.png %}){: .zoom}
+    ![Sales configuration - general sales settings]({% link configuration/sales/assets/sales-general.png %}){: .zoom}
     [_General_]({% link configuration/sales/sales.md -%})
 
 1. Set **Hide Customer IP** to your preference.

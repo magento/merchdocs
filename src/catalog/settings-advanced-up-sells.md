@@ -15,7 +15,7 @@ _Up-Sell_
 
 1. Click <span class="btn">Add Up-Sell Products</span>.
 
-    ![]({% link images/images/product-related-up-sell-cross-sell.png %}){: .zoom}
+    ![]({% link catalog/assets/product-related-up-sell-cross-sell.png %}){: .zoom}
     _Add Up-Sell Products_
 
 1. Use the [filter controls]({% link stores/admin-grid-controls.md %}) to find the products that you want.

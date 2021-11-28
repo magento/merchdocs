@@ -12,7 +12,7 @@ The wish list configuration enables wish lists and determines the email template
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General Options** section and do the following:
 
-    ![Customers configuration - wish list general settings]({% link images/images-ee/config-customers-wishlist-general-options-ee.png %}){: .zoom}
+    ![Customers configuration - wish list general settings]({% link configuration/customers/assets/wishlist-general-options.png %}){: .zoom}
     [_General Settings_]({% link configuration/customers/wishlist.md %})
 
     - Set the **Enabled** field to `Yes`. This activates the wish list module for the store.
@@ -25,7 +25,7 @@ The wish list configuration enables wish lists and determines the email template
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Share Options** section. Then, do the following:
 
-    ![Customers configuration - wish list share options]({% link images/images/config-customers-wishlist-share-options.png %}){: .zoom}
+    ![Customers configuration - wish list share options]({% link configuration/customers/assets/wishlist-share-options.png %}){: .zoom}
     [_Share Options_]({% link configuration/customers/wishlist.md %})
 
     - Set the **Email Sender** to the store contact that should appear as the sender of the message. Options: General Contact, Sales Representative, Customer Support, Custom Email.
@@ -41,7 +41,7 @@ The wish list configuration enables wish lists and determines the email template
     - `Display number of items in wish list`
     - `Display item quantities`
 
-    ![Customers configuration - wish list display]({% link images/images/config-customers-wishlist-my-wishlist-link.png %}){: .zoom}
+    ![Customers configuration - wish list display]({% link configuration/customers/assets/wishlist-my-wishlist-link.png %}){: .zoom}
     [_My Wish List Link_]({% link configuration/customers/wishlist.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

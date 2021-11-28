@@ -16,7 +16,7 @@ _Products Displayed as a Grid_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Storefront** section.
 
-   ![]({% link images/images/config-catalog-catalog-storefront.png %}){: .zoom}
+   ![]({% link configuration/catalog/assets/catalog-storefront.png %}){: .zoom}
    [_Storefront_]({% link configuration/catalog/catalog.md %})
 
 1. Set the default **List Mode** to one of the following:

@@ -28,14 +28,14 @@ Page Builder makes it easy to add a product list to the stage. In this example, 
 
 1. In the Page Builder panel, expand **Add Content** and drag a **Products** placeholder to the new row.
 
-   ![]({% link images/images-ee/page-builder-add-content-products-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-add-content-products-drag.png %}){: .zoom}
    _Dragging a products placeholder onto the row_
 
 ### Step 2: Compose the condition
 
-1. Hover over the empty products container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the empty products container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-add-content-products-toolbox.png %}){: .zoom}
+   ![]({% link cms/assets/pb-add-content-products-toolbox.png %}){: .zoom}
    _Products toolbox_
 
 1. For **Select Products By**, choose **Condition**.
@@ -78,7 +78,7 @@ Page Builder makes it easy to add a product list to the stage. In this example, 
    ![]({% link cms/assets/pb-add-content-products-list-stage.png %}){: .zoom}
    _Products list in the stage_
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon.
 
    This returns you to the _Content_ section for the page with the preview displayed.
 
@@ -113,7 +113,7 @@ In this part of the tutorial, you will learn how easy it is to customize a produ
    ![]({% link cms/assets/tutorial3-product-drag-video.png %}){: .zoom}
    _Video placeholder in the row_
 
-1. Hover over the empty video container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the empty video container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
    ![]({% link cms/assets/pb-tutorial3-product-video-toolbox.png %}){: .zoom}
    _Video toolbox_
@@ -136,7 +136,7 @@ In this part of the tutorial, you will learn how easy it is to customize a produ
    ![]({% link cms/assets/pb-tutorial3-product-video.png %}){: .zoom}
    _Video in the content stage_
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon.
 
    This returns you to the _Content_ section for the page with the preview displayed.
 
@@ -153,7 +153,7 @@ _Video displayed on the product page_
 
 Use the Page Builder custom attribute to add a fully-functioning Page Builder workspace to a product page, which you can use to create engaging content. In this tutorial, you will learn how to create a custom attribute using the Page Builder input type and apply it to product pages in your catalog. For more information about these attributes, see [Product Attributes]({% link stores/attributes-product.md %}).
 
-![]({% link images/images-ee/page-builder-storefront-product-attribute.png %}){: .zoom}
+![]({% link cms/assets/pb-storefront-product-attribute.png %}){: .zoom}
 _Page Builder and text editor attributes in the storefront_
 
 ### Step 1: Create a new product
@@ -275,7 +275,7 @@ In this step, you create two new custom attributes to show how the Page Builder 
 
    - Enter `Page Builder attribute placeholder text`.
 
-   - In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+   - In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon.
 
       ![]({% link cms/assets/pb-product-content-attributes.png %}){: .zoom}
    _Custom attributes with placeholder text_
@@ -296,7 +296,7 @@ In this step, you create two new custom attributes to show how the Page Builder 
 
    The position of the attributes on the product page is determined by the theme. In the Luma theme, the new attributes are located just after the product description.
 
-   ![]({% link images/images-ee/page-builder-storefront-product-attribute.png %}){: .zoom}
+   ![]({% link cms/assets/pb-storefront-product-attribute.png %}){: .zoom}
    _Page Builder and Text Editor attributes in the storefront_
 
 **Congratulations!** You have completed the Page Builder Catalog Content tutorial. Keep the work that you created, so you can refer to it later.

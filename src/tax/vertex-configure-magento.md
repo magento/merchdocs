@@ -28,7 +28,7 @@ These steps outline the configurations required for a valid Vertex connection.
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Vertex** on the page to enable Vertex and configure initial settings.
 
-   ![]({% link images/images/config-sales-tax-vertex-settings.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/tax-vertex-settings.png %}){: .zoom}
    _Vertex Connection Disabled_
 
    - Set **Vertex Tax Links** to `Enable`.
@@ -45,7 +45,7 @@ These steps outline the configurations required for a valid Vertex connection.
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Integrations Settings** section and activate the tax calculations:
 
-   ![]({% link images/images/config-sales-tax-vertex-integration.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/tax-vertex-integration.png %}){: .zoom}
    _Vertex - Integration Settings_
 
    - Set **Vertex Tax Calculation** to `Enable`.
@@ -63,7 +63,7 @@ These steps outline the configurations required for a valid Vertex connection.
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Seller Details** section and do the following:
 
-   ![]({% link images/images/config-sales-tax-vertex-seller-details.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/tax-vertex-seller-details.png %}){: .zoom}
    _Vertex - Seller Details_
 
    - Enter the **Company Code** from the heading of the _Configure Company_ page of your [Vertex Cloud account]({% link tax/vertex-account.md %}).
@@ -95,7 +95,7 @@ If you need to identify taxability based on information in your store beyond the
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Flexible Fields** section.
 
-   ![]({% link images/images/config-sales-tax-vertex-flexible-fields.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/tax-vertex-flexible-fields.png %}){: .zoom}
    [_Flexible Fields_]({% link configuration/sales/tax.md %})
 
 1. Expand the area for the category you want to use to map a Commerce field.
@@ -135,7 +135,7 @@ Set the delivery terms (shipping terms) that determines the vendor or customer j
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Delivery Terms** section.
 
-   ![]({% link images/images/config-sales-tax-vertex-delivery-terms.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/tax-vertex-delivery-terms.png %}){: .zoom}
    [_Vertex Delivery Terms_]({% link configuration/sales/tax.md %})
 
 1. To change the default **Global Delivery Term**, select an option (`SUP - Supplier Ships` is the default).
@@ -168,7 +168,7 @@ To track and review Vertex actions and taxes, enable the logging options. This e
 
    - For **Rotation Time**, set the hours, minutes, and seconds in the day to complete the rotation action.
 
-   ![]({% link images/images/config-sales-tax-vertex-logging.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/tax-vertex-logging.png %}){: .zoom}
    _Vertex Logging_
 
 1. Click <span class="btn">Save Config</span>.
@@ -177,7 +177,7 @@ To track and review Vertex actions and taxes, enable the logging options. This e
 
 This section provides connector version information and lists all shipping methods and rates that are currently mapped to product SKUs in Vertex Cloud.
 
-![]({% link images/images/config-sales-tax-vertex-dev-support.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-vertex-dev-support.png %}){: .zoom}
 _Vertex - Developer & Support Information_
 
 ## Refresh the cache

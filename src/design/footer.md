@@ -4,7 +4,7 @@ title: Footer
 
 The Footer configuration section is where you can update the [copyright notice]({% link design/copyright-notice.md %}) that appears at the bottom of the page, and enter miscellaneous scripts that must be positioned before the closing `<body>` tag.
 
-![]({% link images/images/design-configuration-footer.png %}){: .zoom}
+![]({% link design/assets/configuration-footer.png %}){: .zoom}
 _Footer configuration settings_
 
 ## Configure the footer

@@ -23,7 +23,7 @@ Although some search engines ignore meta keywords, others continue to use them. 
 
 Meta descriptions provide a brief overview of the page for search results listings. Ideally, a meta description should be between 150-160 characters in length, although the field will accept up to 255 characters.
 
-![Catalog configuration - search engine optimization]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
+![Catalog configuration - search engine optimization]({% link configuration/catalog/assets/catalog-search-engine-optimization.png %}){: .zoom}
 
 ## Canonical Meta Tag
 

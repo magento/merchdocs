@@ -4,8 +4,8 @@ title: Now Online
 
 The **Now Online** option on the Customers menu lists all customers and visitors who are currently online in your store. The interval of time that customers are shown as currently online is set in the configuration, and determines how long the customer’s activity is visible from the Admin. By default, the interval is fifteen minutes. The session ends if the keyboard is not used during this time and customers must sign into their accounts again to continue shopping. It is important to note that the contents of the carts are saved for later access.
 
-![]({% link images/images/customers-now-online.png %}){: .zoom}
-[_Online Customers_]({% link configuration/customers/customer-configuration.md %})
+![]({% link customers/assets/customers-now-online.png %}){: .zoom}
+_Online Customers_
 
 The online status of customers is updated only upon customer login, registration, or any other state-changing event, i.e. cart-related events such as adding, removing, modifying products, etc.
 
@@ -25,7 +25,7 @@ Page visits alone will not update the customer's online status. To collect such 
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Online Customers Options** section and do the following:
 
-      ![]({% link images/images/config-customers-customer-configuration-online-customers-options.png %}){: .zoom}
+      ![]({% link configuration/customers/assets/customer-configuration-online-customers-options.png %}){: .zoom}
       [_Online Customers Options_]({% link configuration/customers/customer-configuration.md %})
 
       - For **Online Minutes Interval**, enter the number of minutes for the customer session to be visible from the Admin. Leave the field empty to accept the default interval of fifteen minutes.

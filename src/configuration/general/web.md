@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## URL Options
 
-![Web > General Options]({% link images/images/config-general-web-url-options.png %}){: .zoom}
+![Web > General Options]({% link configuration/general/assets/web-url-options.png %}){: .zoom}
 [_URL Options configuration settings_]({% link stores/store-urls.md %})
 
 {: .field-table }
@@ -18,7 +18,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## Search Engine Optimization
 
-![Web > Search Engine Optimization]({% link images/images/config-general-web-search-engine-optimization.png %}){: .zoom}
+![Web > Search Engine Optimization]({% link configuration/general/assets/web-search-engine-optimization.png %}){: .zoom}
 [_Search Engine Optimization configuration settings_]({% link marketing/url-rewrite.md %})
 
 {: .field-table }
@@ -28,7 +28,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## Base URLs
 
-![Web > Base URLS]({% link images/images/config-general-web-base-urls.png %}){: .zoom}
+![Web > Base URLS]({% link configuration/general/assets/web-base-urls.png %}){: .zoom}
 [_Base URLS configuration settings_]({% link stores/store-urls.md %})
 
 {: .field-table }
@@ -41,7 +41,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## Base URLs (Secure)
 
-![Web > Base URLs (Secure)]({% link images/images/config-general-web-base-urls-secure.png %}){: .zoom}
+![Web > Base URLs (Secure)]({% link configuration/general/assets/web-base-urls-secure.png %}){: .zoom}
 [_Base URLs (Secure) configuration settings_]({% link stores/store-urls.md %})
 
 {: .field-table }
@@ -59,7 +59,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## Default Pages
 
-![Web > Default Pages]({% link images/images/config-general-web-default-pages.png %}){: .zoom}
+![Web > Default Pages]({% link configuration/general/assets/web-default-pages.png %}){: .zoom}
 [_Default Pages configuration settings_]({% link cms/pages-default.md %})
 
 {: .field-table }
@@ -74,7 +74,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## Default Layouts
 
-![]({% link images/images-ee/config-general-web-default-layouts.png %}){: .zoom}
+![]({% link configuration/general/assets/web-default-layouts.png %}){: .zoom}
 _[Default Layouts]({% link design/page-layout.md %})_
 
 {: .field-table }
@@ -86,7 +86,7 @@ _[Default Layouts]({% link design/page-layout.md %})_
 
 ## Default Cookie Settings
 
-![Web > Default Cookie Settings]({% link images/images/config-general-web-default-cookie-settings.png %}){: .zoom}
+![Web > Default Cookie Settings]({% link configuration/general/assets/web-default-cookie-settings.png %}){: .zoom}
 [_Default Cookie configuration settings_]({% link stores/compliance-cookie-law.md %})
 
 {: .field-table }
@@ -100,7 +100,7 @@ _[Default Layouts]({% link design/page-layout.md %})_
 
 ## Session Validation Settings
 
-![Web > Session Validation]({% link images/images/config-general-web-session-validation-settings.png %}){: .zoom}
+![Web > Session Validation]({% link configuration/general/assets/web-session-validation-settings.png %}){: .zoom}
 [_Session Validation configuration settings_]({% link stores/security-session-validation.md %})
 
 {: .field-table }
@@ -113,7 +113,7 @@ _[Default Layouts]({% link design/page-layout.md %})_
 
 ## Browser Capabilities Detection
 
-![Web > Browser Capabilities Detection]({% link images/images/config-general-web-browser-capabilities-detection.png %}){: .zoom}
+![Web > Browser Capabilities Detection]({% link configuration/general/assets/web-browser-capabilities-detection.png %}){: .zoom}
 [_Browser Capabilities Detection configuration settings_]({% link stores/security-browser-capabilities-detection.md %})
 
 {: .field-table }

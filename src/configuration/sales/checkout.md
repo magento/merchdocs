@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Checkout Options
 
-![]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
+![]({% link configuration/sales/assets/checkout-checkout-options.png %}){: .zoom}
 _[Checkout Options]({% link sales/checkout-options.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -21,7 +21,7 @@ _[Checkout Options]({% link sales/checkout-options.md %})_
 
 ## Shopping Cart
 
-![]({% link images/images/config-sales-checkout-shopping-cart.png %}){: .zoom}
+![]({% link configuration/sales/assets/checkout-shopping-cart.png %}){: .zoom}
 _[Shopping Cart]({% link sales/cart-configuration.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -37,7 +37,7 @@ _[Shopping Cart]({% link sales/cart-configuration.md %})_
 
 ## My Cart Link
 
-![]({% link images/images/config-sales-checkout-my-cart-link.png %}){: .zoom}
+![]({% link configuration/sales/assets/checkout-my-cart-link.png %}){: .zoom}
 [*My Cart Link*]({% link sales/cart-link.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -46,7 +46,7 @@ _[Shopping Cart]({% link sales/cart-configuration.md %})_
 
 ## Mini Cart
 
-![]({% link images/images/config-sales-mini-cart.png %}){: .zoom}
+![]({% link configuration/sales/assets/checkout-mini-cart.png %}){: .zoom}
 [*Mini Cart*]({% link sales/mini-cart.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -57,7 +57,7 @@ _[Shopping Cart]({% link sales/cart-configuration.md %})_
 
 ## Payment Failed Emails
 
-![]({% link images/images/config-sales-checkout-payment-failed-emails.png %}){: .zoom}
+![]({% link configuration/sales/assets/checkout-payment-failed-emails.png %}){: .zoom}
 [*Payment Failed Emails*]({% link sales/checkout-payment-failed-emails.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

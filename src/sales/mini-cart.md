@@ -9,6 +9,9 @@ The mini cart displays a summary of items in the cart. It is enabled by default,
 ![The shopper displays the shopping cart sidebar from a product page]({% link sales/assets/storefront-mini-cart-watch.png %}){: .zoom}
 _Mini Cart_
 
+{:.bs-callout-info}
+For a _registered_ customer, there are cases when the Mini Cart may not be synchronized across the multiple devices and browsers automatically. To synchronize the Mini Cart in such cases, the customer can simply open the [Shopping Cart]({% link sales/cart.md %}) page on that device or browser.
+
 ## Configure the mini cart
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
@@ -17,7 +20,7 @@ _Mini Cart_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the _Mini Cart_ section.
 
-   ![]({% link images/images/config-sales-mini-cart.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/checkout-mini-cart.png %}){: .zoom}
    [_Configuring the mini cart_]({% link configuration/sales/checkout.md %})
 
 1. If the setting is for a specific store view, [choose the store view]({% link configuration/scope-change.md %}) where the configuration applies.

@@ -16,7 +16,7 @@ _Storefront demo notice_
 
 1. Under _Other Settings_, expand ![]({% link assets/icon-display-expand.png %}) the **HTML Head** section.
 
-   ![]({% link images/images/design-configuration-html-head.png %}){: .zoom}
+   ![]({% link design/assets/configuration-html-head.png %}){: .zoom}
    _[HTML Head]({% link design/configuration.md %})_
 
 1. Scroll down to the bottom and set the **Display Demo Store Notice** to your preference.

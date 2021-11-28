@@ -23,7 +23,7 @@ _Customer reorder link in the Admin_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Reorder** section.
 
-   ![]({% link images/images/config-sales-sales-reorder.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/sales-reorder.png %}){: .zoom}
    [_Reorder options_]({% link configuration/sales/sales.md %})
 
 1. Set **Allow Reorder** to one of the following:

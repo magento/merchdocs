@@ -35,7 +35,7 @@ If you have a large amount of data to process, you can turn off the display of t
 
 1. Set **Enable Charts** to `Yes`.
 
-   ![Advanced configuration - Dashboard settings]({% link images/images/config-advanced-admin-dashboard.png %}){: .zoom}
+   ![Advanced configuration - Dashboard settings]({% link configuration/advanced/assets/admin-dashboard.png %}){: .zoom}
    [_Enable Charts_]({% link configuration/advanced/admin.md %})
 
 ### Change the startup page
@@ -46,7 +46,7 @@ The dashboard is the default [startup page]({% link configuration/advanced/admin
 
 1. Clear the **Use system value** checkbox and choose the **Startup Page** that you want to appear when you log in to the Admin.
 
-   ![Admin dashboard - startup page setting]({% link images/images/config-advanced-admin-startup-page.png %}){: .zoom}
+   ![Admin dashboard - startup page setting]({% link configuration/advanced/assets/admin-startup-page.png %}){: .zoom}
    [_Startup Page_]({% link configuration/advanced/admin.md %})
 
 ### Choose the starting dates
@@ -59,7 +59,7 @@ The dashboard is the default [startup page]({% link configuration/advanced/admin
 
    - Set **Current Month Starts** to the **Day**.
 
-   ![Admin Dashboard - date settings]({% link images/images/config-general-reports-dashboard.png %}){: .zoom}
+   ![Admin Dashboard - date settings]({% link configuration/general/assets/reports-dashboard.png %}){: .zoom}
    [_Starting Dates_]({% link configuration/advanced/admin.md %})
 
 ### Configure the data source

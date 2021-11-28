@@ -13,8 +13,8 @@ The invitation configuration enables invitations for the store and determines ho
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General** section and do the following:
 
-    ![Customers configuration - invitations general options]({% link images/images-ee/config-customers-invitations-general.png %}){: .zoom}
-    [_General_]({% link configuration/customers/invitations.md -%})
+    ![Customers configuration - invitations general options]({% link configuration/customers/assets/invitations-general.png %}){: .zoom}
+    [_General_]({% link configuration/customers/invitations.md %})
 
    - Set **Enable Invitations Functionality** to `Yes`.
 
@@ -36,8 +36,8 @@ The invitation configuration enables invitations for the store and determines ho
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Email** section and do the following:
 
-    ![Customers configuration - invitations email options]({% link images/images-ee/config-customers-invitations-email.png %}){: .zoom}
-    [_Email_]({% link configuration/customers/invitations.md -%})
+    ![Customers configuration - invitations email options]({% link configuration/customers/assets/invitations-email.png %}){: .zoom}
+    [_Email_]({% link configuration/customers/invitations.md %})
 
    - Select the store identity to be used as the **Customer Invitation Email Sender**.
 

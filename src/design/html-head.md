@@ -12,7 +12,7 @@ The settings in the HTML Head section correspond to the `<head>` tag of an HTML
 
 1. Under _Other Settings_, expand ![]({% link assets/icon-display-expand.png %}) the **HTML Head** section.
 
-   ![]({% link images/images/design-configuration-html-head.png %}){: .zoom}
+   ![]({% link design/assets/configuration-html-head.png %}){: .zoom}
    _HTML Head configuration settings_
 
 1. Update the [favicon]({% link design/favicon.md %}) if needed.

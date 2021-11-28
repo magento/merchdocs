@@ -18,7 +18,7 @@ The results of the validation appear in the Validation Results section, and incl
 
 If the data is valid, an _Import Success_ message appears.
 
-![System message - file is valid]({% link images/images/data-import-validation-message.png %}){: .zoom}
+![System message - file is valid]({% link system/assets/data-import-validation-message.png %}){: .zoom}
 _File is Valid_
 
 If validation fails, read the description of each error, and correct the problem in the CSV file. For example, if a row contains an invalid SKU, the import process stops, and that row, and all subsequent rows are not imported. After correctly the problem, import the data again. If many errors are encountered, it might take several attempts to pass validation.

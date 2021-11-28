@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Stock Options
 
-![]({% link images/images/config-catalog-catalog-inventory-stock-options.png %}){: .zoom}
+![]({% link configuration/catalog/assets/catalog-inventory-stock-options.png %}){: .zoom}
 [_Stock Options_]({% link catalog/inventory-options-global.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -21,7 +21,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Product Stock Options
 
-![]({% link images/images/config-catalog-catalog-inventory-product-stock-options.png %}){: .zoom}
+![]({% link configuration/catalog/assets/catalog-inventory-product-stock-options.png %}){: .zoom}
 [_Product Stock Options_]({% link catalog/inventory-options-global.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -39,7 +39,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Admin Bulk Operations
 
-![]({% link images/images/config-catalog-catalog-inventory-admin-bulk-operations.png %}){: .zoom}
+![]({% link configuration/catalog/assets/catalog-inventory-admin-bulk-operations.png %}){: .zoom}
 [_Admin Bulk Operations_]({% link catalog/inventory-options-global.md %})
 
 {% include inventory-async-queues.md %}
@@ -57,7 +57,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Distance Provider for Distance Based SSA
 
-![]({% link images/images/config-catalog-catalog-inventory-distance-provider.png %}){: .zoom}
+![]({% link configuration/catalog/assets/catalog-inventory-distance-provider.png %}){: .zoom}
 [_Distance Providers for Distance Based SSA_]({% link catalog/inventory-configure-distance-priority.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -66,7 +66,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Google Distance Provider
 
-![]({% link images/images/config-catalog-catalog-inventory-distance-provider-settings.png %}){: .zoom}
+![]({% link configuration/catalog/assets/catalog-inventory-distance-provider-settings.png %}){: .zoom}
 [_Google Distance Provider_]({% link catalog/inventory-configure-distance-priority.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

@@ -14,7 +14,7 @@ The lifetime of orders with pending payments is determined by the Orders Cron Se
 
 1. Expand ![]({% link assets/icon-display-expand.png %}){: .Inline} the **Orders Cron Settings** section.
 
-    ![]({% link images/images/config-sales-sales-orders-cron-settings.png %}){: .zoom}
+    ![]({% link configuration/sales/assets/sales-orders-cron-settings.png %}){: .zoom}
     [_Orders Cron Settings_]({% link configuration/sales/sales.md %})
 
 1. In the **Pending Payment Order Lifetime (minutes)** field, enter the number of minutes before a pending payment expires.

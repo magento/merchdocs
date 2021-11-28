@@ -40,7 +40,7 @@ _Tiled Watermark_
 
 1. When prompted to refresh the cache, click **Cache Management** in the system message and refresh the invalid cache.
 
-    ![]({% link images/images/msg-cache-management.png %}){: .zoom}
+    ![]({% link stores/assets/msg-cache-management.png %}){: .zoom}
     _Refresh Cache_
 
 {:.bs-callout-info}

@@ -10,7 +10,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ### Flat Rate
 
-![]({% link images/images/config-sales-shipping-methods-flat-rate.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-flat-rate.png %}){: .zoom}
 [_Flat Rate_]({% link shipping/shipping-flat-rate.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -30,7 +30,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ### Free Shipping
 
-![]({% link images/images/config-sales-shipping-methods-free-shipping.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-free-shipping.png %}){: .zoom}
 [_Free Shipping_]({% link shipping/shipping-free.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -48,7 +48,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ### Table Rates
 
-![]({% link images/images/config-sales-shipping-methods-table-rates.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-table-rates.png %}){: .zoom}
 [_Table Rates_]({% link shipping/shipping-table-rate.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -68,7 +68,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ### In-Store Delivery
 
-![]({% link images/images/in-store-delivery.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-in-store-delivery.png %}){: .zoom}
 [_In-Store Delivery_]({% link shipping/shipping-in-store-delivery.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -84,7 +84,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ### UPS
 
-![]({% link images/images/config-sales-shipping-methods-ups1.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-ups1.png %}){: .zoom}
 [_UPS XML Account Settings_]({% link shipping/ups.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -160,7 +160,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Password|Website|Your USPS shipper account password.|
 |Mode|Website|Determines the mode of transmission used for data sent to the USPS system. Options include: <br/>**Development** - USPS does not verify that data received from the Commerce server is sent over SSL. <br/>**Live** - USPS verifies that data received from the Commerce server is sent over a secure socket layer (SSL).|
 
-![]({% link images/images/config-sales-shipping-methods-usps-packaging.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-usps-packaging.png %}){: .zoom}
 [_USPS Packaging Settings_]({% link shipping/usps.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -172,7 +172,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Machinable|Website|Specifies whether the package can be processed by machine. This option affects the calculation of the shipping rate.|
 |Maximum Package Weight|Website|Sets the maximum weight that a package can be as specified by USPS. If the products ordered exceeds the maximum package weight, this shipping option will not be available.|
 
-![]({% link images/images/config-sales-shipping-methods-usps-handling-fee.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-usps-handling-fee.png %}){: .zoom}
 [_USPS Handling Fee Settings_]({% link shipping/usps.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -182,7 +182,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Handling Applied|Website|Specifies whether handling fee is applied to each order or to each package within an order.|
 |Handling Fee|Website|Sets the handling that is included with the shipping rate price. Handling fee can be set as a fixed amount or a percentage. <br/><br/>**_Note:_** When typing a percentage amount, use the decimal format 0.25 for 25%.|
 
-![]({% link images/images/config-sales-shipping-methods-usps-allowed-methods.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-usps-allowed-methods.png %}){: .zoom}
 [_USPS Allowed Methods_]({% link shipping/usps.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -193,7 +193,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Minimum Order Amount for Free Shipping|Website|Sets the minimum order amount that must be met to qualify for free shipping.|
 |Displayed Error Message|Store View|The error message that appears when USPS is unavailable for any reason.|
 
-![]({% link images/images/config-sales-shipping-methods-usps-countries.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-usps-countries.png %}){: .zoom}
 [_USPS Applicable Countries_]({% link shipping/usps.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -206,7 +206,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ### FedEx
 
-![]({% link images/images/config-sales-shipping-methods-fedex-account-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-fedex-account-settings.png %}){: .zoom}
 [_FedEx Account Settings_]({% link shipping/fedex.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -221,7 +221,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Sandbox Mode|Website|To run FedEx transactions in a test environment, set Sandbox Mode to "Yes". Options: Yes / No.|
 |Web-Services URL|Website|The URL that is required depends on the Sandbox Mode setting. Options: <br/>**Production** - The URL to access FedEx web services when the store is live. <br/>**Sandbox** - The URL to access the  testing environment for FedEx web services.|
 
-![]({% link images/images/config-sales-shipping-methods-fedex-packaging.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-fedex-packaging.png %}){: .zoom}
 [_FedEx Packaging_]({% link shipping/fedex.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -232,7 +232,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Dropoff|Website|From the list, select the pick-up method: <br/>**Regular Pickup** - (Default) If you have a high volume of shipments, it can be cost effective to arrange regular pickups. <br/>**Request Courier** - You must call and request a FedEx courier to pick up shipments. <br/>**Drop Box** - You must drop off shipments at your local FedEx drop box. <br/>**Business Service Center** - You must drop off shipments at your local FedEx business service center. <br/>**Station** - You must drop off shipments at your local FedEx station.|
 |Maximum Package Weight|Website|The default for FedEx is 150 pounds. Consult your shipping carrier for maximum supported weight. Using the default value is recommended unless you have special arrangements with FedEx.|
 
-![]({% link images/images/config-sales-shipping-methods-fedex-handling-fee.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-fedex-handling-fee.png %}){: .zoom}
 [_FedEx Handling Fee_]({% link shipping/fedex.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -242,7 +242,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Handling Applied|Website|Determines how handling fees are applied.  Options: Per Order/ Per Package.|
 |Handling Fee|Website|Specifies the amount charged as a handling fee, based on the method used to calculate the amount. If the charge is based on a fixed fee, enter the amount as a decimal, such as 4.90. If the handling fee is based on a percentage of the order, enter the amount as a percentage. For example, to charge six percent of the order, enter the value as .06.|
 
-![]({% link images/images/config-sales-shipping-methods-fedex-delivery-methods.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-fedex-delivery-methods.png %}){: .zoom}
 [_FedEx Delivery Methods_]({% link shipping/fedex.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -256,7 +256,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Free Shipping  Amount Threshold|Website|Specifies the minimum order amount that is required for free shipping.|
 |Displayed Error Message|Store View|The message that appears when FedEx is unavailable for any reason. You can use the default message or enter another.|
 
-![]({% link images/images/config-sales-shipping-methods-fedex-applicable-countries.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-fedex-applicable-countries.png %}){: .zoom}
 [_FedEx Applicable Countries_]({% link shipping/fedex.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -270,7 +270,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ### DHL
 
-![]({% link images/images/config-sales-shipping-methods-dhl-account-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-dhl-account-settings.png %}){: .zoom}
 [_DHL Account Settings_]({% link shipping/dhl.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -283,7 +283,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Password|Website|Your DHL shipper account password.|
 |Account Number|Website|Your DHL shipper account number.|
 
-![]({% link images/images/config-sales-shipping-methods-dhl-package-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-dhl-package-settings.png %}){: .zoom}
 [_DHL Package Settings_]({% link shipping/dhl.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -296,7 +296,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Weight Unit|Store View|Determines the unit of measurement for weight that is used in shipping calculations. Options: Pounds / Kilograms|
 |Size|Store View|Determines the size of the package. Options: <br/>**Regular** - Packages shipped conform to of DHL standard packaging methods. In the Allowed Methods list, select each packaging method used to ship products from your store. <br/>**Specific** - If packages shipped have custom dimensions, complete the following: Height (cm) / Depth (cm) / Width (cm)|
 
-![]({% link images/images/config-sales-shipping-methods-dhl-allowed-methods.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-dhl-allowed-methods.png %}){: .zoom}
 [_DHL Allowed Methods_]({% link shipping/dhl.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -309,7 +309,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Free Shipping with Minimum Order Amount|Website|Set to one of the following: <br/>**Enable** - To allow free DHL shipping for orders that meet the minimum amount. <br/>**Disable** - To not offer free DHL shipping with minimum order.|
 |Minimum Order Amount for Free Shipping|Website|If you enable Free Shipping with Minimum Order, enter the minimum order amount value in the field.|
 
-![]({% link images/images/config-sales-shipping-methods-dhl-applicable-countries.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-dhl-applicable-countries.png %}){: .zoom}
 [_DHL Applicable Countries_]({% link shipping/dhl.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

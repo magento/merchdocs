@@ -84,7 +84,7 @@ _Preheader text_
 
 1. In the sidebar, click the parent folder that contains the logo that you uploaded. Then, drag the image to the new folder.
 
-1. Click **Close** (![Close icon]({% link images/images/engagement-cloud-btn-close.png %})) in the upper-right corner to return to the content editor.
+1. Click **Close** (![Close icon]({% link marketing/dotdigital/assets/icon-close.png %})) in the upper-right corner to return to the content editor.
 
     ![dotdigital - image manager new folder]({% link marketing/assets/engagement-cloud-campaign-image-manager-new-folder.png %}){: .zoom}
     _New folder_

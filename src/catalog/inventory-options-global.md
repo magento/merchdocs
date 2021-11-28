@@ -30,14 +30,14 @@ Configure the default configuration options for product and stock for your websi
 
     - To keep consistency between inventory and catalog, set **Synchronize with Catalog** to `Yes`. With this option enabled, inventory data will be adjusted according to the catalog changes (such as product removed, product SKU changed, and product type changed).
 
-       ![]({% link images/images/config-catalog-catalog-inventory-stock-options.png %}){: .zoom}
+       ![]({% link configuration/catalog/assets/catalog-inventory-stock-options.png %}){: .zoom}
        [_Stock Options_]({% link configuration/catalog/inventory.md %})
 
 1. Expand ![]({% link assets/icon-display-expand.png %})the **Product Stock Options** section and set the options:
 
     - To activate [inventory control]({% link catalog/inventory.md %}) for your catalog, set **Manage Stock** to `Yes`.
 
-       ![]({% link images/images/config-catalog-catalog-inventory-product-stock-options.png %}){: .zoom}
+       ![]({% link configuration/catalog/assets/catalog-inventory-product-stock-options.png %}){: .zoom}
        [_Product Stock Options_]({% link configuration/catalog/inventory.md %})
 
     - Set **[Backorders]({% link catalog/inventory-backorders.md %})** to one of the following:
@@ -74,7 +74,7 @@ Configure the default configuration options for product and stock for your websi
 
     - If enabled, set the **Asynchronous batch size**. The default batch size is 100. When bulk processes reach this amount, they perform them at that time.
 
-       ![]({% link images/images/config-catalog-catalog-inventory-admin-bulk-operations.png %}){: .zoom}
+       ![]({% link configuration/catalog/assets/catalog-inventory-admin-bulk-operations.png %}){: .zoom}
        [_Admin Bulk Operations_]({% link configuration/catalog/inventory.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

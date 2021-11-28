@@ -32,7 +32,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Content**.
 
-   ![]({% link images/images-ee/page-content.png %}){: .zoom}
+   ![]({% link cms/assets/pb-page-content.png %}){: .zoom}
    _Content with Page Builder_
 
 1. In the **Content Heading** box, enter the heading that you want to appear at the top of the page.
@@ -47,7 +47,7 @@ Depending on your [Advanced Content Tools configuration]({% link configuration/g
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Content**.
 
-   ![]({% link images/images/page-content.png %}){: .zoom}
+   ![]({% link cms/assets/page-content-editor.png %}){: .zoom}
    _Content_
 
 1. In the **Content Heading** box, enter the heading that you want to appear at the top of the page.

@@ -16,7 +16,7 @@ The _Content Heading_ field that appears at the top of the page is a legacy fiel
 
 For the best control over the positioning and format of headings of all levels, we recommend that you leave the _Content Heading_ field empty, and use the Page Builder [Heading]({% link cms/page-builder-elements-heading.md %}) content type.
 
-![]({% link images/images-ee/page-builder-storefront-heading-levels.png %}){: .zoom}
+![]({% link cms/assets/pb-storefront-heading-levels.png %}){: .zoom}
 _Content Heading and other headings_
 
 ## Preview
@@ -94,18 +94,18 @@ Each content container on the stage has a toolbox of options. The options vary b
 
 Hover over the container to display the toolbox and choose an option.
 
-![]({% link images/images-ee/page-builder-tutorial1-row-toolbox.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial1-row-toolbox.png %}){: .zoom}
 _Row toolbox options_
 
 ### Toolbox options
 
 | Option    | Icon                                     | Description  |
 | --------- | ---------------------------------------- | ------------ |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the current content container to another position on the stage. |
-| Add       | ![]({% link images/images-ee/icon-pb-add.png %}) | Adds children elements such as a button, slide, or tab. |
+| Move      | ![]({% link cms/assets/pb-icon-move.png %}) | Moves the current content container to another position on the stage. |
+| Add       | ![]({% link cms/assets/pb-icon-add.png %}) | Adds children elements such as a button, slide, or tab. |
 | (label)   |           | Identifies the container content type.|
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the content container properties in edit mode. |
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the current content container.|
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %})| Shows the current content container.|
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the current content container. |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the current content container from the stage. |
+| Settings  | ![]({% link cms/assets/pb-icon-settings.png %}) | Opens the content container properties in edit mode. |
+| Hide      | ![]({% link cms/assets/pb-icon-hide.png %}) | Hides the current content container.|
+| Show      | ![]({% link cms/assets/pb-icon-show.png %})| Shows the current content container.|
+| Duplicate | ![]({% link cms/assets/pb-icon-duplicate.png %}) | Makes a copy of the current content container. |
+| Remove    | ![]({% link cms/assets/pb-icon-remove.png %}) | Deletes the current content container from the stage. |
