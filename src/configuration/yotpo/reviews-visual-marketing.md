@@ -23,7 +23,7 @@ To find your App Key and API Sectret values in your Yotpo account settings, see 
 
 ## Widget Settings
 
-![]({% link images/images/yotpo-config-widget.png %}){: .zoom}
+![]({% link configuration/yotpo/assets/widget-settings.png %}){: .zoom}
 _Yotpo Default Widget Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -37,7 +37,7 @@ _Yotpo Default Widget Settings_
 
 ## Sync Settings
 
-![]({% link images/images/yotpo-config-sync.png %}){: .zoom}
+![]({% link configuration/yotpo/assets/sync-settings.png %}){: .zoom}
 _Yotpo Default Sync Settings_
 
 |Field|Default|Description|

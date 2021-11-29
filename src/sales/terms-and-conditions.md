@@ -30,7 +30,7 @@ _Terms and Conditions at checkout_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Terms and Conditions**.
 
-   ![]({% link images/images/terms-conditions.png %}){: .zoom}
+   ![]({% link sales/assets/terms-conditions.png %}){: .zoom}
    _Terms and Conditions grid_
 
 1. In the upper-right corner, click **Add New Condition**.

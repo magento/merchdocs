@@ -194,7 +194,7 @@ The database media storage method has been deprecated as of Adobe Commerce and M
 
 ## Image Upload Configuration
 
-![]({% link images/images/system-image-upload-configuration.png %}){: .zoom}
+![]({% link configuration/advanced/assets/system-image-upload-configuration.png %}){: .zoom}
 [_Image Upload Configuration_]({% link system/action-log-bulk-actions.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -206,7 +206,7 @@ The database media storage method has been deprecated as of Adobe Commerce and M
 
 ## Adobe Stock Integration
 
-![Advanced configuration - Adobe Stock integration]({% link images/images/system-adobe-stock-integration.png %}){: .zoom}
+![Advanced configuration - Adobe Stock integration]({% link configuration/advanced/assets/system-adobe-stock-integration.png %}){: .zoom}
 _Adobe Stock Integration_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

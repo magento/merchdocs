@@ -4,7 +4,7 @@ title: Using a Widget to Position a Block
 
 The _CMS Static Block_ [widget]({% link cms/widgets.md %}) gives you the ability to place an existing [content block]({% link cms/blocks.md %}) nearly anywhere in your store.
 
-![]({% link images/images/widgets.png %}){: .zoom}
+![]({% link cms/assets/widgets.png %}){: .zoom}
 _Widgets list_
 
 ## Step 1: Choose the widget type
@@ -17,7 +17,7 @@ _Widgets list_
 
 1. Verify that **Design Theme** is set to the current theme and click <span class="btn">Continue</span>.
 
-   ![]({% link images/images/widget-settings.png %}){: .zoom}
+   ![]({% link cms/assets/widget-settings.png %}){: .zoom}
    _Widget settings_
 
 1. In the _Storefront Properties_ section, do the following:
@@ -32,7 +32,7 @@ _Widgets list_
 
    - (Optional) For **Sort Order**, enter a number to determine the order this item appears with others in the same part of the page. (`0` = first, `1` = second, `3` = third, and so on.)
 
-   ![]({% link images/images/widget-storefront-properties.png %}){: .zoom}
+   ![]({% link cms/assets/widget-storefront-properties.png %}){: .zoom}
    _Widget storefront properties_
 
 ## Step 2: Complete the widget layout updates
@@ -49,7 +49,7 @@ _Widgets list_
 
    - Accept the default setting for **Template**, which is set to `CMS Static Block Default Template`.
 
-   ![]({% link images/images/widget-layout-update-home-page.png %}){: .zoom}
+   ![]({% link cms/assets/widget-layout-update-home-page.png %}){: .zoom}
    _Widget layout updates_
 
 ### Layout updates options

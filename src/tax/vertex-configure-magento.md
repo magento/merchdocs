@@ -82,7 +82,7 @@ These steps outline the configurations required for a valid Vertex connection.
 
    You need to save the configuration again if you modify any of the Vertex tax class or calculation settings.
 
-   ![]({% link images/images/tax-vertex-magento-config-valid.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/tax-vertex-magento-config-valid.png %}){: .zoom}
    _Vertex API Status - Valid_
 
 When you are ready to continue, you can complete the following sections for additional configuration as needed. You should also make sure that you [configure the tax classes]({% link tax/tax-class-configure.md %}).

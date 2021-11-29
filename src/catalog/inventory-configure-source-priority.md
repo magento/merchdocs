@@ -29,7 +29,7 @@ To configure, arrange those sources from top-to-bottom in priority for fulfillin
 {:.bs-callout-info}
 When using the [Distance Priority]({% link catalog/inventory-configure-distance-priority.md %}) algorithm for shipping, if routes and data do not return for the selected [Computation mode]({% link catalog/inventory-configure-distance-priority.md %}) (driving, bicycling, or walking) for a shipment, the SSA defaults to using the Source Priority.
 
-![]({% link images/images/stores-inventory-stock-priorityafter.png %}){: .zoom}
+![]({% link catalog/assets/inventory-stock-priority-after.png %}){: .zoom}
 _Source order after prioritization_
 
 | Icon                                                        | Description                                                    |

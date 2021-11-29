@@ -4,7 +4,7 @@ title: New Products List
 
 The list of new products is an example of dynamic content, and consists of live data that is pulled from your product catalog. By default, the _New Products_ list includes the first eight of the most recently added products. However, it can also be configured to include only products within a specified date range.
 
-![]({% link images/images/storefront-home-page-new-products.png %}){: .zoom}
+![]({% link cms/assets/storefront-home-page-new-products.png %}){: .zoom}
 _New products list on the storefront home page_
 
 {:.ce-only}
@@ -104,7 +104,7 @@ The code that determines the content of the New Products list and its placement 
 
    By default, the cache is set to 86,400 seconds (24 hours).
 
-   ![]({% link images/images/widget-options-new-product-list.png %}){: .zoom}
+   ![]({% link cms/assets/widget-options-new-product-list.png %}){: .zoom}
    _Widget Options_
 
 1. When complete, click <span class="btn">Save</span>.
