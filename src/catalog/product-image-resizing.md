@@ -35,7 +35,7 @@ For example, a 3000 x 2100 pixel JPG at 100% could be a 5mb+ image file. Resizin
 
       When the image is resized, it does not exceed this height and retains proportions.
 
-      ![]({% link images/images/system-image-upload-configuration.png %}){: .zoom}
+      ![]({% link configuration/advanced/assets/system-image-upload-configuration.png %}){: .zoom}
       [_Image Upload Configuration_]({% link configuration/advanced/system.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

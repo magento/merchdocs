@@ -6,7 +6,7 @@ Tax rates generally apply to transactions that take place within a specific geog
 
 Store tax is calculated based on the store’s address. The actual customer tax for an order is calculated after the customer completes the order information. Commerce then calculates the tax based upon the tax configuration of the store.
 
-![]({% link images/images/tax-zones-rates.png %}){: .zoom}
+![]({% link tax/assets/tax-zones-rates.png %}){: .zoom}
 _Tax Zones and Rates_
 
 ## Define a new tax rate

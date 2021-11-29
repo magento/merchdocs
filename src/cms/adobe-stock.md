@@ -75,7 +75,7 @@ Use the **API Key** and **Client secret** generated in the [previous section][cr
 
    - Click <span class="btn">Test Connection</span> to validate your keys.
 
-   ![Advanced configuration - Adobe Stock integration]({% link images/images/system-adobe-stock-integration.png %}){: .zoom}
+   ![Advanced configuration - Adobe Stock integration]({% link configuration/advanced/assets/system-adobe-stock-integration.png %}){: .zoom}
    _Adobe Stock Integration_
 
    Give the validation a few seconds. If your credentials are valid, you should see a green _Connection Successful!_ message.
