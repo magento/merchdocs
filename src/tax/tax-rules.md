@@ -7,7 +7,7 @@ Tax rules incorporate a combination of product class, customer class and tax rat
 {:.bs-callout-info}
 When numerous taxes must be defined, you can simplify the process by importing them.
 
-![]({% link images/images/tax-rules.png %}){: .zoom}
+![]({% link tax/assets/tax-rules.png %}){: .zoom}
 _Tax Rules_
 
 ## Step 1: Complete the tax rule information

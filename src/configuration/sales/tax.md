@@ -11,7 +11,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ### Connection Settings
 
-![]({% link images/images/tax-vertex-magento-config-valid.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-vertex-magento-config-valid.png %}){: .zoom}
 _Vertex - Connection Settings (Enabled and Validated)_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

@@ -12,7 +12,7 @@ See also [Yotpo documentation](https://support.yotpo.com/en/article/setting-up-y
 
 ## Widget Settings
 
-![Yotpo configuration - widget settings]({% link images/images/yotpo-config-widget.png %}){: .zoom}
+![Yotpo configuration - widget settings]({% link configuration/yotpo/assets/widget-settings.png %}){: .zoom}
 _Yotpo Default Widget Settings_
 
 {:.bs-callout-info}
@@ -34,7 +34,7 @@ Widget settings include the following:
 
 ## Sync Settings
 
-![Yotpo configuration - sync settings]({% link images/images/yotpo-config-sync.png %}){: .zoom}
+![Yotpo configuration - sync settings]({% link configuration/yotpo/assets/sync-settings.png %}){: .zoom}
 _Yotpo Default Sync Settings_
 
 {:.bs-callout-info}

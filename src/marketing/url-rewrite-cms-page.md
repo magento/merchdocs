@@ -67,7 +67,7 @@ If you are not sure, open each page in your store, and copy the path from the ad
 
     The new rewrite appears in the grid at the top of the list.
 
-    ![URL rewrite for CMS page - saved]({% link images/images/url-rewrite-cms-page-saved.png %}){: .zoom}
+    ![URL rewrite for CMS page - saved]({% link marketing/assets/url-rewrite-cms-page-saved.png %}){: .zoom}
     _Saved URL Rewrite_
 
 ## Step 3. Test the Result

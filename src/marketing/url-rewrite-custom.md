@@ -75,7 +75,7 @@ Redirect from:
 
     The new rewrite appears in the grid at the top of the list.
 
-    ![Custom URL rewrite - saved]({% link images/images/url-rewrite-cms-page-saved.png %}){: .zoom}
+    ![Custom URL rewrite - saved]({% link marketing/assets/url-rewrite-cms-page-saved.png %}){: .zoom}
     _Saved URL Rewrite_
 
 ## Step 3. Test the result
