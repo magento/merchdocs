@@ -14,7 +14,7 @@ The layered navigation configuration determines if a product count appears in pa
 
 1. Expand the _Layered Navigation_ section and do the following:
 
-    ![]({% link configuration/catalog/assets/catalog-layered-navigation.png %}){: .zoom}
+    ![]({% link configuration/catalog/assets/layered-navigation.png %}){: .zoom}
     [_Layered Navigation_]({% link configuration/catalog/catalog.md %})
 
     {:.bs-callout-info}

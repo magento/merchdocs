@@ -59,7 +59,7 @@ The _Configuration_ settings in the _Data Mapping_ section of your Commerce inst
 
 1. Wait an hour to ensure that all contact data is imported into your dotdigital account.
 
-![]({% link configuration/dotdigital/assets/ec-sync-settings-sync.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/sync-settings-sync.png %}){: .zoom}
 [_Sync_]({% link configuration/dotdigital/sync-settings.md %})
 
 {:.b2b-only}

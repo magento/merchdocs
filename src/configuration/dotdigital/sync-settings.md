@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## Address Book Mapping
 
-![]({% link configuration/assets/ec-sync-address-book.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/sync-address-book.png %}){: .zoom}
 _Address Book Mapping_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -20,7 +20,7 @@ _Address Book Mapping_
 
 ## Sync
 
-![]({% link configuration/dotdigital/assets/ec-sync-settings-sync.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/sync-settings-sync.png %}){: .zoom}
 _Sync_
 
 Choose 'Yes' for each sync type that you want to enable. When first enabled, an hour delay ensures that all contact data is included in the import.
@@ -39,7 +39,7 @@ Choose 'Yes' for each sync type that you want to enable. When first enabled, an 
 
 ## Create Address Book
 
-![]({% link configuration/assets/ec-sync-create-address-book.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/sync-create-address-book.png %}){: .zoom}
 _Create Address Book_
 
 Changing an address book with previously synchronized data resets all address book data from your Adobe Commerce or Magento Open Source website so it can be resynchronized with the new address book.

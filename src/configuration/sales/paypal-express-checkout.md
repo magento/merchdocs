@@ -10,7 +10,7 @@ As of September 14, 2019, European banks might decline payments that do not meet
 
 ## Required PayPal Settings
 
-![]({% link configuration/assets/paypal-express-required-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/paypal-express-required-settings.png %}){: .zoom}
 [_PayPal Express Checkout Required Settings_]({% link payment/paypal-express-checkout.md %})
 
 ### Express Checkout

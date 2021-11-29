@@ -69,7 +69,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## Account Information Options
 
-![]({% link configuration/assets/customer-account-info-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-account-info-options.png %}){: .zoom}
 _Account Information Options_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

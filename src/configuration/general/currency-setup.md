@@ -20,7 +20,7 @@ _Currency Options configuration settings_
 
 ## Fixer.io
 
-![Currency Setup > Fixer.io]({% link configuration/assets/currency-setup-fixer.png %}){: .zoom}
+![Currency Setup > Fixer.io]({% link configuration/general/assets/currency-setup-fixer.png %}){: .zoom}
 _Fixer.io configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
