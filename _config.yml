@@ -148,6 +148,11 @@ defaults:
       group: sales
   -
     scope:
+      path: magento-payments
+    values:
+      group: sales
+  -
+    scope:
       path: configuration
     values:
       group: config-ref
