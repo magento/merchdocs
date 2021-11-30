@@ -90,7 +90,7 @@ You can transfer items to the cart from a customer's wish list, as well as recen
    - Order Comments
 
 {: .bs-callout-info}
-See [Payment Services]({% link payment-services/index.md %}) for more information about this Early Adopter Program (EAP) functionality.
+See [Payment Services]({% link payment-services/index.md %}) for more information about this functionality.
 
 ## Step 3: Submit the order
 
