@@ -227,7 +227,7 @@ See [Configure Payment Services]({% link payment-services/configure-payments.md 
 To enable live onboarding you will need to request payments entitlement from Adobe [here](https://magento.com/resources/payment-services).
 
 {:.bs-callout .bs-callout-warning}
-<span class="btn">Live onboarding</span> will be not accessible until payments entitlement has been approved.
+<span class="btn">Live onboarding</span> will not be accessible until payments entitlement has been approved.
 
 ## Complete merchant onboarding
 
