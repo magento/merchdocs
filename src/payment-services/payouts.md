@@ -67,7 +67,7 @@ You can download a .csv file with all of the transactions visible in the Payouts
 
 1. On the _Admin_ sidebar, go to **Sales** > **Payment Services** > **Payouts**.
 1. [Customize the date range timeframe for your transactions](#customize-transactions-timeframe).
-1. Click the _Download_ (![]({% link images/images/btn-download.png %})) icon.
+1. Click the _Download_ (![]({% link assets/icon-download.png %})) icon.
 
 Your payout transactions are downloaded in a .csv format.
 
