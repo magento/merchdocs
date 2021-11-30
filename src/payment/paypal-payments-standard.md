@@ -46,17 +46,17 @@ This setup method assumes you have an existing PayPal account.
 
    This setting determines the selection of PayPal Solutions that appear in the configuration.
 
-   ![Merchant Country]({% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
+   ![Merchant Country]({% link configuration/sales/assets/payment-methods-merchant-location.png %}){: .zoom}
    _Merchant Country_
 
 1. Expand **PayPal All-in-One Payment Solutions** and click <span class="btn">Configure</span> for **Payments Standard**.
 
-   ![PayPal Payments Standard]({% link images/images/config-sales-payment-methods-paypal-payments-standard.png %}){: .zoom}
+   ![PayPal Payments Standard]({% link payment/assets/paypal-payments-standard.png %}){: .zoom}
    _Payments Standard_
 
 ### Step 2: Enable and connect your PayPal account
 
-![PayPal Payments Standard configuration]({% link images/images/config-sales-payment-methods-paypal-payments-standard-display.png %}){: .zoom}
+![PayPal Payments Standard configuration]({% link payment/assets/paypal-payments-display.png %}){: .zoom}
 _Payments Standard - configuration_
 
 1. Connect your account for test or production:
@@ -74,7 +74,7 @@ _Payments Standard - configuration_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Payments Standard** section.
 
-   ![Required Settings]({% link images/images/config-sales-payment-methods-paypal-payments-standard-required.png %}){: .zoom}
+   ![Required Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-standard-required.png %}){: .zoom}
    _Payments Standard settings_
 
 1. Enter the **Email Associated with your PayPal Merchant Account**.
@@ -117,14 +117,14 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advertise PayPal Credit** section.
 
-   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
+   ![Advertise PayPal Credit Home Page Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
    _Advertise PayPal Credit - Home Page_
 
 1. Click **Get Publisher ID from PayPal** and follow the instructions to get your account information.
 
 1. Enter your **Publisher ID**.
 
-   ![Advertise PayPal Credit]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
+   ![Advertise PayPal Credit]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
    _Advertise PayPal Credit_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Home Page** section.
@@ -159,7 +159,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Home Page** section.
 
-   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png %}){: .zoom}
+   ![Advertise PayPal Credit Home Page Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png %}){: .zoom}
    _Advertise PayPal PayLater - Home Page Settings_
 
 1. To place a banner on the page, set **Display** to `Yes`.
@@ -232,7 +232,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Basic Settings - PayPal Website Payments Standard** section.
 
-   ![Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payments-standard-basic.png %}){: .zoom}
+   ![Basic Settings]({% link payment/assets/paypal-payments-basic.png %}){: .zoom}
    _Basic Settings - PayPal Website Payments Standard_
 
 1. Enter a **Title** to identify this payment method during checkout.
@@ -254,7 +254,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
-   ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payment-standard-advanced.png %}){: .zoom}
+   ![Advanced Settings]({% link configuration/sales/assets/payment-methods-paypal-payment-standard-advanced.png %}){: .zoom}
    _Advanced Settings - PayPal Website Payments Standard_
 
 1. To make PayPal Payments Standard available from both the shopping cart and mini cart, set **Display on Shopping Cart** to `Yes`.
@@ -315,7 +315,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **PayPal Billing Agreement Settings** section.
 
-   ![Billing Agreement Settings]({% link images/images/config-sales-payment-methods-paypal-express-checkout-billing-agreement-settings.png %}){: .zoom}
+   ![Billing Agreement Settings]({% link configuration/sales/assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png %}){: .zoom}
    _Billing Agreement Settings - PayPal Payments Standard_
 
 1. Set **Enabled** to `Yes`.
@@ -349,7 +349,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Settlement Report Settings** section.
 
-   ![Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
+   ![Settlement Report Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
    _Settlement Report Settings - PayPal Payments Standard_
 
 1. For **SFTP Credentials**, do the following:
@@ -393,7 +393,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Frontend Experience Settings** section.
 
-   ![Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
+   ![Frontend Experience Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
    _Frontend Experience Settings - PayPal Payments Standard_
 
 1. Select the **PayPal Product Logo** that you want to appear in the PayPal block in your store.

@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 
 ## Access Token Expiration
 
-![]({% link images/images/config-services-oauth-access-token-expiration.png %}){: .zoom}
+![]({% link configuration/assets/oauth-token-expire.png %}){: .zoom}
 _Access Token Expiration_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -16,7 +16,7 @@ _Access Token Expiration_
 
 ## Cleanup Settings
 
-![]({% link images/images/config-services-oauth-cleanup-settings.png %}){: .zoom}
+![]({% link configuration/assets/oauth-cleanup.png %}){: .zoom}
 [_Cleanup Settings_]({% link system/integrations.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -26,7 +26,7 @@ _Access Token Expiration_
 
 ## Consumer Settings
 
-![]({% link images/images/config-services-oauth-consumer-settings.png %}){: .zoom}
+![]({% link configuration/assets/oauth-consumer-settings.png %}){: .zoom}
 [_Consumer Settings_]({% link system/integrations.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -37,7 +37,7 @@ _Access Token Expiration_
 
 ## Authentication Locks
 
-![]({% link images/images/config-services-oauth-authentication-locks.png %}){: .zoom}
+![]({% link configuration/assets/oauth-locks.png %}){: .zoom}
 [_Authentication Locks_]({% link system/integrations.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

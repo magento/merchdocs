@@ -10,5 +10,5 @@ The Search Results list includes all products that match the search criteria ent
 
 The results can be formatted as either a grid or list and sorted by a selection of attributes. [Pagination]({% link catalog/navigation-pagination.md %}) controls appear if there are more products than fit on the page. Use these controls to move from one page to the next. The number of records per page is determined by the Catalog Frontend configuration. For more information, see [Product Listings]({% link catalog/navigation-product-listings.md %}).
 
-![]({% link images/images/storefront-search-results-shorts.png %}){: .zoom}
+![]({% link catalog/assets/storefront-search-results-shorts.png %}){: .zoom}
 _Search Results with Pagination Controls_

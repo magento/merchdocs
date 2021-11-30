@@ -8,7 +8,7 @@ Archiving orders on a regular basis improves performance and keeps your workspac
 {:.bs-callout-info}
 The Archive option appears in the Sales menu only when archiving is [enabled]({% link configuration/sales/sales.md %}).
 
-![Orders, Invoices, Shipments, Credit Memos Archiving]({% link images/images/order-move-to-archive.png %} "Orders, Invoices, Shipments, Credit Memos Archiving"){: .zoom}
+![Orders, Invoices, Shipments, Credit Memos Archiving]({% link sales/assets/order-move-to-archive.png %} "Orders, Invoices, Shipments, Credit Memos Archiving"){: .zoom}
 _[Move Order to Archive]({% link configuration/sales/sales.md %})_
 
 ## Enable archiving
@@ -29,7 +29,7 @@ _[Move Order to Archive]({% link configuration/sales/sales.md %})_
 
     - In the **Order Statuses to be Archived** list, select each order status to use for identifying orders to archive. To select multiple items, hold down the Ctrl (Windows) or Command (Mac) key as you click each item.
 
-        ![]({% link images/images-ee/config-sales-sales-orders-invoices-shipments-credit-memos-archving.png %}){: .zoom}
+        ![]({% link configuration/sales/assets/sales-orders-invoices-shipments-credit-memos-archiving.png %}){: .zoom}
         [_Orders, Invoices, Shipments, Credit Memos Archiving_]({% link configuration/sales/sales.md %})
 
 1. Click **Save Config**.
@@ -42,17 +42,14 @@ _[Move Order to Archive]({% link configuration/sales/sales.md %})_
 
 1. In the _Operations_ section, choose **Orders**.
 
-1. To select the order on the grid, mark the checkbox in the first column.
+1. To select the order on the grid, select the checkbox in the first column.
 
-    ![]({% link images/images-ee/order-select-in-grid.png %}){: .zoom}
-    _Mark the Order(s) to Archive_
+    ![]({% link sales/assets/order-select-in-grid.png %}){: .zoom}
+    _Select the order(s) to archive_
 
 1. Set the **Actions** control to `Move to Archive`.
 
     Then, look for the message that order has been archived.
-
-    ![]({% link images/images-ee/order-select-in-grid.png %}){: .zoom}
-    _Mark Checkbox_
 
 {:.bs-callout-tip}
 To specify a list of order statuses that can be archived, see [Configuring the Archive]({% link sales/order-archive-configure.md %}).
@@ -72,7 +69,7 @@ To specify a list of order statuses that can be archived, see [Configuring the A
 
 1. In the _Action_ column, click **View**.
 
-    ![]({% link images/images-ee/order-archived-view.png %}){: .zoom}
+    ![]({% link sales/assets/order-archived-view.png %}){: .zoom}
     _View Archived Order_
 
 ## Restore an archived order
@@ -83,7 +80,7 @@ To specify a list of order statuses that can be archived, see [Configuring the A
 
 1. Find the record to restore, and click the checkbox to select it.
 
-    ![]({% link images/images-ee/order-archived-select-to-restore.png %}){: .zoom}
+    ![]({% link sales/assets/order-archived-select-to-restore.png %}){: .zoom}
     _Select Order to be Restored_
 
 1. Set the **Actions** control value to **Move to Order Management**.

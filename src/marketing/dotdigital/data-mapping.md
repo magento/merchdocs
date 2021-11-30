@@ -16,7 +16,7 @@ The _Configuration_ settings in the _Data Mapping_ section of your Commerce inst
 
 1. In the **Sync Settings** section under _Admin Task_, click **Automap Data Fields** <span class="btn">Run Now</span>.
 
-   ![]({% link images/images/config-engagement-cloud-developer-sync-settings.png %}){: .zoom}
+   ![]({% link marketing/assets/engagement-cloud-sync-settings.png %}){: .zoom}
    [_Sync settings - admin task_]({% link configuration/dotdigital/developer.md %})
 
 ## Map data fields manually
@@ -34,7 +34,7 @@ The _Configuration_ settings in the _Data Mapping_ section of your Commerce inst
    - {:.b2b-only}B2B Data
    - {:.ee-only}Enterprise Data
 
-   ![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-customer-information.png %}){: .zoom}
+   ![]({% link configuration/dotdigital/assets/data-mapping-customer-information.png %}){: .zoom}
    [_Data Mapping_]({% link configuration/dotdigital/data-mapping.md %})
 
 ## Sync data mappings
@@ -59,8 +59,8 @@ The _Configuration_ settings in the _Data Mapping_ section of your Commerce inst
 
 1. Wait an hour to ensure that all contact data is imported into your dotdigital account.
 
-![]({% link images/images-b2b/config-engagement-cloud-sync-settings-sync.png %}){: .zoom}
-[_Sync_]({% link configuration/dotdigital/sync-settings.md %}){:.b2b-only}
+![]({% link configuration/dotdigital/assets/ec-sync-settings-sync.png %}){: .zoom}
+[_Sync_]({% link configuration/dotdigital/sync-settings.md %})
 
 {:.b2b-only}
 ### Sync B2B Company Details
@@ -89,7 +89,7 @@ The _Configuration_ settings in the _Data Mapping_ section of your Commerce inst
 
 1. Set **Shared Catalog Enabled** to `Yes`.
 
-   ![]({% link images/images-b2b/config-dotdigital-sync-settings-sync.png %}){: .zoom}
+   ![]({% link marketing/assets/dotdigital-config-b2b-sync-settings.png %}){: .zoom}
    [_Sync Settings - Admin Task_]({% link configuration/dotdigital/developer.md %})
 
 1. Click <span class="btn">Save Config</span>.
@@ -102,7 +102,7 @@ The _Configuration_ settings in the _Data Mapping_ section of your Commerce inst
 
    - In your Commerce _Configuration_, go to **DOTDIGITAL** > **Developer** > **Sync Settings**. Under _Manually Run Sync_, click **Catalog Sync** <span class="btn">Run Now</span>.
 
-   ![]({% link images/images/config-dotdigital-developer-sync-settings-manually-run-sync.png %}){: .zoom}
+   ![]({% link marketing/assets/dotdigital-manually-run-sync.png %}){: .zoom}
    [_Manually Run Sync_]({% link configuration/dotdigital/developer.md %})
 
 1. In your dotdigital account, go to **Ecommerce** > **Catalogs**.
@@ -118,7 +118,7 @@ The _Configuration_ settings in the _Data Mapping_ section of your Commerce inst
 
 1. Before continuing, verify that you have [Quote]({% link sales/quotes.md %}) data available to sync with dotdigital. If not, wait until there are quotes available.
 
-   ![]({% link images/images-b2b/quote-grid-new.png %}){: .zoom}
+   ![]({% link sales/assets/quote-grid-new.png %}){: .zoom}
    [_Quotes_]({% link configuration/dotdigital/developer.md %})
 
 1. In your Commerce _Configuration_, go to **DOTDIGITAL** > **Sync Settings**.

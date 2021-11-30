@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## Import Settings
 
-![]({% link images/images/config-engagement-cloud-developer-import-settings.png %}){: .zoom}
+![]({% link configuration/assets/ec-import-settings.png %}){: .zoom}
 _Import Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -20,13 +20,13 @@ _Import Settings_
 
 ## Sync Settings
 
-![Admin Tasks]({% link images/images/dotdigital-dash-admin.png %}){: .zoom}
+![Admin Tasks]({% link configuration/dotdigital/assets/developer-dash-admin.png %}){: .zoom}
 _Sync Settings - Admin Task_
 
-![Manually Run Syncs]({% link images/images/config-engagement-cloud-sync-settings-manually-run-sync.png %}){: .zoom}
+![Manually Run Syncs]({% link configuration/assets/ec-sync-manual-sync.png %}){: .zoom}
 _Manually Run Syncs_
 
-![Reset Syncs]({% link images/images/dotdigital-dash-resetsync.png %}){: .zoom}
+![Reset Syncs]({% link configuration/dotdigital/assets/developer-dash-resetsync.png %}){: .zoom}
 _Reset Sync Options_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -55,7 +55,7 @@ _Reset Sync Options_
 
 ## Debug
 
-![Debug]({% link images/images/dotdigital-dash-debug.png %}){: .zoom}
+![Debug]({% link configuration/assets/dotdigital-dash-debug.png %}){: .zoom}
 _Debug_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -65,7 +65,7 @@ _Debug_
 
 ## OAUTH Credentials
 
-![OAUTH Credentials]({% link images/images/dotdigital-dash-oauth.png %}){: .zoom}
+![OAUTH Credentials]({% link configuration/dotdigital/assets/developer-dash-oauth.png %}){: .zoom}
 _OAUTH Credentials_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -78,7 +78,7 @@ _OAUTH Credentials_
 
 ## Dynamic Pages IP Restriction
 
-![Dynamic Pages IP Restriction]({% link images/images/dotdigital-dash-iprestrict.png %}){: .zoom}
+![Dynamic Pages IP Restriction]({% link configuration/dotdigital/assets/developer-dash-iprestrict.png %}){: .zoom}
 _Dynamic Pages IP Restriction_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -89,7 +89,7 @@ _Dynamic Pages IP Restriction_
 The security check does not run if this field is empty.
 ## Manage Cron Timings
 
-![Cron Timings]({% link images/images/dotdigital-dash-cron.png %}){: .zoom}
+![Cron Timings]({% link configuration/dotdigital/assets/developer-dash-cron.png %}){: .zoom}
 _Cron Timings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -102,7 +102,7 @@ _Cron Timings_
 
 ## System Alerts
 
-![System Alerts]({% link images/images/dotdigital-dash-systemalerts.png %}){: .zoom}
+![System Alerts]({% link configuration/assets/dotdigital-dash-systemalerts.png %}){: .zoom}
 _System Alerts_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -114,7 +114,7 @@ _System Alerts_
 
 ## PWA Settings
 
-![PWA Settings]({% link images/images/dotdigital-dash-pwa-settings.png %}){: .zoom}
+![PWA Settings]({% link configuration/assets/dotdigital-dash-pwa-settings.png %}){: .zoom}
 _PWA Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

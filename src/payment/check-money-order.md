@@ -12,7 +12,7 @@ Adobe Commerce and Magento Open Source allow you to accept payments by check or 
 
 1. Under _Other Payment Methods_, expand ![]({% link assets/icon-display-expand.png %}) the **Check / Money Order** section.
 
-   ![Check / Money Order]({% link images/images/config-sales-payment-methods-check-money-order.png %}){: .zoom}
+   ![Check / Money Order]({% link configuration/sales/assets/payment-methods-check-money-order.png %}){: .zoom}
    [_Check / Money Order configuration_]({% link configuration/sales/payment-methods.md %}#check--money-order)
 
    {:.bs-callout-info}

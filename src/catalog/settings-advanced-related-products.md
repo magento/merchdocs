@@ -15,14 +15,14 @@ _Related Products_
 
 1. Click <span class="btn">Add Related Products</span>.
 
-    ![]({% link images/images/product-related-up-sell-cross-sell.png %}){: .zoom}
+    ![]({% link catalog/assets/product-related-up-sell-cross-sell.png %}){: .zoom}
     _Related Products_
 
 1. Use the [filter controls]({% link stores/admin-grid-controls.md %}) to find the products that you want.
 
 1. In the list, select the checkbox of any product you want to feature as a related product.
 
-    ![]({% link images/images/products-related-add.png %}){: .zoom}
+    ![]({% link catalog/assets/products-related-add.png %}){: .zoom}
     _Related Products_
 
 1. When complete, click <span class="btn">Add Selected Products</span>.

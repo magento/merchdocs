@@ -44,14 +44,14 @@ _Checkout step 1: shipping_
 
    The new address is now selected as the shipping address.
 
-   ![The saved address is automatically selected in the Shipping page]({% link images/images/storefront-checkout-step1-shipping-new-address-selected.png %}){: .zoom}
+   ![The saved address is automatically selected in the Shipping page]({% link sales/assets/storefront-checkout-step1-shipping-new-address-selected.png %}){: .zoom}
    _New shipping address selected_
 
 ### Choose the shipping method
 
 1. In the list of [shipping]({% link shipping/delivery.md %}) methods, choose the option that you want to use.
 
-   ![The Shipping page displays shipping method options]({% link images/images/storefront-checkout-step1-shipping-methods.png %}){: .zoom}
+   ![The Shipping page displays shipping method options]({% link sales/assets/storefront-checkout-step1-shipping-methods.png %}){: .zoom}
    _[Shipping methods]({% link configuration/sales/delivery-methods.md %})_
 
 1. Click <span class="btn">Next</span> to continue.
@@ -63,7 +63,7 @@ During the second step of the checkout process, the customer chooses the [paymen
 {:.bs-callout-info}
 Although Commerce allows configuring multiple coupon codes, a customer may apply only one coupon code to the cart. (See the [Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}) for more information.)
 
-![]({% link images/images/storefront-checkout-step2-payment-review.png %}){: .zoom}
+![]({% link sales/assets/storefront-checkout-step2-payment-review.png %}){: .zoom}
 _Review and payment page during checkout_
 
 {:.b2b-only}
@@ -82,7 +82,7 @@ Available payment methods are determined by the company account.
 
 If the company has set up [Approval Rules]({% link customers/account-dashboard-approval-rules.md %}), the purchase order will go through the approval process. Otherwise, it will be processed immediately.
 
-![]({% link images/images-b2b/storefront-checkout-step2-b2b.png %}){: .zoom}
+![]({% link sales/assets/checkout-storefront-step2-b2b.png %}){: .zoom}
 _Purchase Order Review & Payment_
 
 ## Number of items displayed in the order summary
@@ -101,7 +101,7 @@ Admin users can change the maximum number of items displayed in the order summar
 
    With this update, the order summary displayed during checkout is limited to the specified quantity of items.
 
-   ![]({% link images/images/order-summary.png %}){: .zoom}
+   ![]({% link sales/assets/order-summary.png %}){: .zoom}
    _Number of items displayed in Order Summary_
 
 ## Order confirmation

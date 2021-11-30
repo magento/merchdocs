@@ -4,7 +4,7 @@ title: Point of Origin
 
 The point of origin is used to calculate the charge for shipments made from your store or warehouse, and also determines the tax rate for products sold. When calculating [EU taxes]({% link tax/guidelines-eu.md %}), make sure that the [Default Tax Destination Calculation]({% link configuration/sales/tax.md %}) for each store view corresponds to the Shipping Settings point of origin.
 
-![]({% link images/images/config-sales-shipping-settings-origin.png %}){: .zoom}
+![]({% link configuration/sales/assets/shipping-settings-origin.png %}){: .zoom}
 [*Origin*]({% link configuration/sales/shipping-settings.md %})
 
 ## Establish the point of origin

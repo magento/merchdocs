@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## Contact Us
 
-![]({% link images/images/config-general-contacts-contact-us.png %}){: .zoom}
+![]({% link configuration/general/assets/contacts-contact-us.png %}){: .zoom}
 [_Contact Us_]({% link stores/contact-us.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -15,7 +15,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## Email Options
 
-![]({% link images/images/config-general-contacts-email-options.png %}){: .zoom}
+![]({% link configuration/general/assets/contacts-email-options.png %}){: .zoom}
 [_Email Options_]({% link stores/contact-us.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

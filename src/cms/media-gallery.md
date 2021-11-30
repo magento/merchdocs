@@ -51,7 +51,7 @@ To access the new Media Gallery when you are adding or editing a page:
 
    - If you have [Page Builder enabled]({% link cms/page-builder-setup.md %}), expand the **Media** panel and drag an **Image** placeholder to the target container. Then click <span class="btn">Select from Gallery</span>.
 
-      ![]({% link images/images-ee/page-builder-media-image-drag.png %}){: .zoom}
+      ![]({% link cms/assets/pb-media-image-drag.png %}){: .zoom}
       _Drag image to stage_
 
    - If you have the [WYSIWYG editor enabled][editor-config], click **Show/Hide Editor** and then click **Insert Image**.

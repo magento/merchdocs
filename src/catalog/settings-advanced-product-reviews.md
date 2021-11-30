@@ -4,7 +4,7 @@ title: Product Reviews
 
 The _Product Reviews_ section lists all reviews that customers have submitted about the product. This section appears with the other product information only after a new product has been saved for the first time. For more information, see [Product Reviews]({% link marketing/product-reviews.md %}).
 
-![]({% link images/images/product-review.png %}){: .zoom}
+![]({% link catalog/assets/product-review.png %}){: .zoom}
 _Product Reviews_
 
 ## Field reference

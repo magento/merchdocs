@@ -12,7 +12,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
 1. Click <span class="btn">Add New Source</span>.
 
-   ![]({% link images/images/stores-inventory-sources.png %}){: .zoom}
+   ![]({% link catalog/assets/inventory-sources.png %}){: .zoom}
    _Manage Sources_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **General** section and do the following:
@@ -81,7 +81,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - To save your work and continue editing, click <span class="btn">Save & Continue</span>.
 
-    - To save your work and return to the Manage Sources page, click the down arrow ( ![]({% link assets/icon-menu-down-arrow-red.png %})) and choose **Save & Close**.
+    - To save your work and return to the Manage Sources page, click the down arrow ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"}) and choose **Save & Close**.
 
     - To save your work on the current source record and enter a new source, choose **Save & New**.
 

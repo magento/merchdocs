@@ -5,7 +5,7 @@ group: catalog
 
 You can create attributes while working on a product or from the Product Attributes page. The following steps show how to create attributes from the Stores menu.
 
-![]({% link images/images/attribute-properties.png %}){: .zoom}
+![]({% link catalog/assets/attribute-properties.png %}){: .zoom}
 _New Attribute Properties_
 
 ## Step 1: Describe the basic properties
@@ -14,7 +14,7 @@ _New Attribute Properties_
 
 1. Click <span class="btn">Add New Attribute</span>.
 
-   ![Add new product attribute]({% link images/images/product-attribute-add-attribute-properties-flavor.png %}){: .zoom}
+   ![Add new product attribute]({% link stores/assets/product-attribute-add-attribute-properties-flavor.png %}){: .zoom}
    _Attribute Properties_
 
 1. Under Attribute Properties, enter a **Default Label** to identify the attribute.
@@ -35,7 +35,7 @@ _New Attribute Properties_
    |Fixed Product Tax|Lets you define [FPT rates]({% link tax/fixed-product-tax.md %}) based on the requirements of your locale.|
    |Visual Swatch|Displays a swatch that depicts the color, texture, or pattern of a configurable product. A [visual swatch]({% link catalog/swatches.md %}) can be filled with a hexadecimal color value, or display an uploaded image that represents the color, material, texture, or pattern of the option.|
    |Text Swatch|A text-based representation of a configurable product option that is frequently used for size. [Text swatches]({% link catalog/swatches.md %}) can also include hexadecimal color values.|
-   |<span class="ee-only">Page Builder</span>|A fully-functioning [Page Builder]({% link cms/page-builder.md %}) workspace at the attribute location that makes it easy to add engaging content to the product page.|
+   |Page Builder|A fully-functioning [Page Builder]({% link cms/page-builder.md %}) workspace at the attribute location that makes it easy to add engaging content to the product page.|
 
 1. If you want to require an option selection before the customer can purchase the product, set **Values Required** to `Yes`.
 
@@ -51,14 +51,14 @@ _New Attribute Properties_
 
    - Select **Is Default** to use the option as the default value.
 
-   ![Product attribute - manage options]({% link images/images/product-attribute-add-values-flavors.png %}){: .zoom}
+   ![Product attribute - manage options]({% link catalog/assets/product-attribute-add-values-flavors.png %}){: .zoom}
    _Manage Options_
 
 ## Step 2: Describe the advanced properties (if needed)
 
 1. Enter a unique **Attribute Code** in lowercase characters and without spaces.
 
-   ![Product attribute - advanced properties]({% link images/images/product-attribute-advanced-attribute-properties.png %}){: .zoom}
+   ![Product attribute - advanced properties]({% link catalog/assets/product-attribute-advanced-attribute-properties.png %}){: .zoom}
    _Advanced Attribute Properties_
 
 1. Set **Scope** to indicate where in your store hierarchy the attribute can be used.
@@ -76,7 +76,7 @@ _New Attribute Properties_
    - Letters
    - Letters (a-z, A-Z) or Numbers (0-9)
 
-   ![]({% link images/images/product-attribute-input-validation.png %}){: .zoom}
+   ![]({% link catalog/assets/product-attribute-input-validation.png %}){: .zoom}
    _Input Validation_
 
 1. To add this attribute to the product grid, set the following options to `Yes`.
@@ -92,7 +92,7 @@ _New Attribute Properties_
 
    If your store is available in different languages, you can enter a translated title for each view.
 
-   ![Product attribute - manage titles]({% link images/images/product-attribute-add-manage-titles.png %}){: .zoom}
+   ![Product attribute - manage titles]({% link catalog/assets/product-attribute-add-manage-titles.png %}){: .zoom}
    _Manage Titles_
 
 ## Step 4: Describe the storefront properties
@@ -127,7 +127,7 @@ _New Attribute Properties_
 
 1. When complete, click <span class="btn">Save Attribute</span>.
 
-   ![Product attributes - storefront properties]({% link images/images/product-attribute-add-storefront-properties.png %}){: .zoom}
+   ![Product attributes - storefront properties]({% link catalog/assets/product-attribute-add-storefront-properties.png %}){: .zoom}
    _Storefront Properties_
 
 ## Step 5: Assign the created attribute to the attribute set

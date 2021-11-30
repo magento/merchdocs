@@ -7,17 +7,17 @@ The _Contact Us_ link in the footer of the store is an easy way for customers to
 
 It is important to understand that the default Contact Us form is rendered directly from code rather than from a CMS page.
 
-![]({% link images/images/page-contact-us-default.png %}){: .zoom}
+![]({% link stores/assets/page-contact-us-default.png %}){: .zoom}
 _Default Contact Us page_
 
 The store footer includes a link to the Contact Us page that is available throughout the store.
 
-![]({% link images/images/storefront-footer-contact-us.png %}){: .zoom}
+![]({% link stores/assets/storefront-footer-contact-us.png %}){: .zoom}
 _Contact Us link in footer_
 
 The Luma sample data includes additional information on the Contact Us page that shows how you might customize the page for your store.
 
-![]({% link images/images/storefront-contact-us.png %}){: .zoom}
+![]({% link stores/assets/storefront-contact-us.png %}){: .zoom}
 _Contact Us page_
 
 ## Configure the Contact Us form
@@ -28,12 +28,12 @@ _Contact Us page_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Contact Us** section and set **Enable Contact Us** to `Yes`.
 
-   ![General configuration - contact us]({% link images/images/config-general-contacts-contact-us.png %}){: .zoom}
+   ![General configuration - contact us]({% link configuration/general/assets/contacts-contact-us.png %}){: .zoom}
    _Contact Us_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Email Options** section and set the email contact options:
 
-    ![General configuration - email options]({% link images/images/config-general-contacts-email-options.png %}){: .zoom}
+    ![General configuration - email options]({% link configuration/general/assets/contacts-email-options.png %}){: .zoom}
     _Email Options_
 
     - For **Send Emails to**, enter the email address where messages from the Contact Us form are sent.

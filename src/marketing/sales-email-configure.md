@@ -4,7 +4,7 @@ title: Sales Email
 
 A number of email messages are triggered by the events related to an order, and the configuration is similar. You must identify the store contact that appears as the sender of the message, the email template to be used, and anyone else who is to receive a copy of the message. Sales emails can be sent when triggered by an event, or by predetermined interval.
 
-![Sales configuration - sales emails]({% link images/images/config-sales-sales-email-full.png %}){: .zoom}
+![Sales configuration - sales emails]({% link marketing/assets/config-sales-sales-email-full.png %}){: .zoom}
 [_Sales Emails_]({% link configuration/sales/sales-emails.md -%})
 
 ## Step 1. Update the Email Templates
@@ -19,7 +19,7 @@ Make sure to update the [email header]({% link marketing/email-template-header.m
 
 1. If necessary, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **General Settings** section.
 
-    ![Sales configuration - sales email general settings]({% link images/images/config-sales-sales-emails-general-settings.png %}){: .zoom}
+    ![Sales configuration - sales email general settings]({% link configuration/sales/assets/sales-emails-general-settings.png %}){: .zoom}
     [_General Settings_]({% link configuration/sales/sales.md -%})
 
     By default, Asynchronous sending is set to `Disable`. To change the system setting, clear the **Use system value** checkbox and set **Asynchronous sending** to one of the following:
@@ -33,7 +33,7 @@ Make sure to update the [email header]({% link marketing/email-template-header.m
 
 1. If necessary, expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Order** section and do the following:
 
-    ![Sales configuration - sales emails order]({% link images/images/config-sales-sales-emails-order.png %}){: .zoom}
+    ![Sales configuration - sales emails order]({% link configuration/sales/assets/sales-emails-order.png %}){: .zoom}
     [_Order_]({% link configuration/sales/sales-emails.md -%})
 
     - Verify that **Enabled** is set to `Yes` (default).
@@ -53,7 +53,7 @@ Make sure to update the [email header]({% link marketing/email-template-header.m
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Order Comments** section and repeat these steps.
 
-    ![Sales configuration - Sales emails order comments]({% link images/images/config-sales-sales-emails-order-comments.png %}){: .zoom}
+    ![Sales configuration - Sales emails order comments]({% link configuration/sales/assets/sales-emails-order-comments.png %}){: .zoom}
     [_Order Comments_]({% link configuration/sales/sales-emails.md -%})
 
 1. Complete the configuration for the remaining sales email types:

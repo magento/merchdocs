@@ -22,7 +22,7 @@ Additionally, Adobe Commerce filters out previously purchased products and those
 
 Adobe Commerce provides the following inclusion and exclusion filters you can use to control which products can be displayed in recommendations.
 
-![Filters]({% link images/images-ee/rec-conditions.png %}){: .zoom}
+![Filters]({% link marketing/assets/rec-conditions.png %}){: .zoom}
 
 - **Category** - Filters based on a product's category. Adobe Commerce uses direct category assignments and their subcategories. For example, enabling an exclusion condition for category `Gear` will exclude products assigned to `Gear` and all of its subcategories such as `Gear/Bags` or `Gear/Fitness Equipment`. For B2B merchants, the Category filter adheres to any [customer-specific product categories]({% link catalog/category-permissions.md %}) you have configured.
 - **Price** - Filters based on a product's price. Adobe Commerce uses a product's final price when performing the comparison. The final price includes any discounts or special pricing available to anonymous shoppers. For B2B merchants, the price displayed reflects the [customer-specific group pricing]({% link catalog/pricing-advanced.md %}#customer-group-price) you have configured.

@@ -6,9 +6,9 @@ Some combinations of tax-related options might be confusing to customers and tri
 
 If your tax calculation is based on a problematic configuration, the following warnings appear:
 
-![]({% link images/images/icon-warning.png %}) **Warning**. Tax discount configuration might result in different discounts than a customer might expect for store(s); Europe Website (French), Europe Website (German). Please see source for more details.
+![]({% link assets/icon-warning.png %}) **Warning**. Tax discount configuration might result in different discounts than a customer might expect for store(s); Europe Website (French), Europe Website (German). Please see source for more details.
 
-![]({% link images/images/icon-warning.png %}) **Warning**. Tax configuration can result in rounding errors for store(s): Europe Websites (French), Europe Websites (German).
+![]({% link assets/icon-warning.png %}) **Warning**. Tax configuration can result in rounding errors for store(s): Europe Websites (French), Europe Websites (German).
 
 ## Calculation settings
 
@@ -42,7 +42,7 @@ Excluding tax | OK | OK | OK
 Including tax | OK | OK | OK
 Including and Excluding tax | OK | Warning | Warning
 
-![]({% link images/images/config-sales-tax-calculation-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-calculation-settings.png %}){: .zoom}
 [_Calculation Settings_]({% link configuration/sales/tax.md %})
 
 ## Discount settings

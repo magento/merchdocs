@@ -10,7 +10,7 @@ From the _Images and Videos_ section, you can perform basic image management tas
 
 1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the _Images and Videos_ section.
 
-    ![]({% link images/images/product-simple-images-videos.png %}){: .zoom}
+    ![]({% link catalog/assets/product-simple-images-videos.png %}){: .zoom}
     _Images and Videos_
 
 1. If you are ready to add a product image, do one of the following:
@@ -43,7 +43,7 @@ To set image displaying options for a product:
 
    All of these roles are selected for the first added image by default.
 
-   ![]({% link images/images/details.png %}){: .zoom}
+   ![]({% link catalog/assets/product-image-details.png %}){: .zoom}
     _Image details_
 
 To hide the product image from the product page, select the **Hide from Product Page** checkbox.

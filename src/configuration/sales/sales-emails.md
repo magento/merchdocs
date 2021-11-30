@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## General Settings
 
-![]({% link images/images/config-sales-sales-emails-general-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-emails-general-settings.png %}){: .zoom}
 [_General Settings_]({% link system/email-communications.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -15,7 +15,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Order
 
-![]({% link images/images/config-sales-sales-emails-order.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-emails-order.png %}){: .zoom}
 [_Order_]({% link sales/orders.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -29,7 +29,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Order Comments
 
-![]({% link images/images/config-sales-sales-emails-order-comments.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-emails-order-comments.png %}){: .zoom}
 [_Order Comments_]({% link sales/order-processing.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -43,7 +43,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Invoice
 
-![]({% link images/images/config-sales-sales-emails-invoice.png %}){: .zoom}
+![]({% link configuration/assets/emails-invoice.png %}){: .zoom}
 [_Invoice_]({% link sales/invoices.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -57,7 +57,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Invoice Comments
 
-![]({% link images/images/config-sales-sales-emails-invoice-comments.png %}){: .zoom}
+![]({% link configuration/assets/emails-invoice-comments.png %}){: .zoom}
 [_Invoice Comments_]({% link sales/invoice-create.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -71,7 +71,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Shipment
 
-![]({% link images/images/config-sales-sales-emails-shipment.png %}){: .zoom}
+![]({% link configuration/assets/emails-shipment.png %}){: .zoom}
 [_Shipment_]({% link sales/shipments.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -85,7 +85,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Shipment Comments
 
-![]({% link images/images/config-sales-sales-emails-shipment-comments.png %}){: .zoom}
+![]({% link configuration/assets/emails-shipment-comments.png %}){: .zoom}
 [_Shipment Comments_]({% link sales/shipments.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -99,7 +99,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Credit Memo
 
-![]({% link images/images/config-sales-sales-emails-credit-memo.png %}){: .zoom}
+![]({% link configuration/assets/emails-credit-memo.png %}){: .zoom}
 [_Credit Memo_]({% link sales/credit-memos.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -113,7 +113,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Credit Memo Comments
 
-![]({% link images/images/config-sales-sales-emails-credit-memo-comments.png %}){: .zoom}
+![]({% link configuration/assets/emails-credit-memo-comments.png %}){: .zoom}
 [_Credit Memo Comments_]({% link sales/credit-memo-create.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -127,7 +127,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Order Ready For Pickup in Store
 
-![]({% link images/images/config-sales-emails-order-ready-pickup.png %}){: .zoom}
+![]({% link configuration/assets/emails-ready-pickup.png %}){: .zoom}
 [_Order Ready For Pickup in Store_]({% link shipping/shipping-in-store-delivery.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -142,7 +142,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 {:.b2b-only}
 ## Purchase Order Approval
 
-![]({% link images/images-b2b/config-sales-sales-emails-purchase-order-approval.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-emails-purchase-order-approval.png %}){: .zoom}
 _Purchase Order Approval_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -159,7 +159,7 @@ _Purchase Order Approval_
 {:.b2b-only}
 ## Quote
 
-![]({% link images/images-b2b/config-sales-sales-emails-quote.png %}){: .zoom}
+![]({% link configuration/sales/assets/sales-emails-quote.png %}){: .zoom}
 _[Quotes]({% link customers/account-dashboard-quotes.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -178,7 +178,7 @@ _[Quotes]({% link customers/account-dashboard-quotes.md %})_
 {:.ee-only}
 ## RMA
 
-![]({% link images/images-ee/config-sales-sales-emails-rma.png %}){: .zoom}
+![]({% link configuration/assets/config-sales-sales-emails-rma.png %}){: .zoom}
 _[RMA]({% link sales/returns.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -193,7 +193,7 @@ _[RMA]({% link sales/returns.md %})_
 {:.ee-only}
 ## RMA Authorization
 
-![]({% link images/images-ee/config-sales-sales-emails-rma-authorization.png %}){: .zoom}
+![]({% link configuration/assets/emails-rma-auth.png %}){: .zoom}
 _[RMA Authorization]({% link sales/rma-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -208,7 +208,7 @@ _[RMA Authorization]({% link sales/rma-configure.md %})_
 {:.ee-only}
 ## RMA Admin Comments
 
-![]({% link images/images-ee/config-sales-sales-emails-rma-admin-comments.png %}){: .zoom}
+![]({% link configuration/assets/emails-rma-comments.png %}){: .zoom}
 _RMA Admin Comments_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -223,7 +223,7 @@ _RMA Admin Comments_
 {:.ee-only}
 ## RMA Customer Comments
 
-![]({% link images/images-ee/config-sales-sales-emails-rma-customer-comments.png %}){: .zoom}
+![]({% link configuration/assets/emails-rma-customer-comments.png %}){: .zoom}
 _[RMA Customer Comments]({% link sales/returns.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

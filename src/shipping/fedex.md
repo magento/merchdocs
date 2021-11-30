@@ -4,11 +4,11 @@ title: FedEx
 
 FedEx is one of the world’s largest shipping service companies, providing air, freight, and ground shipping services with several levels of priorities.
 
-![]({% link images/images/storefront-checkout-shipping-fedex.png %}){: .zoom}
+![]({% link shipping/assets/storefront-checkout-shipping-fedex.png %}){: .zoom}
 *FedEx Shipping Options at Checkout*
 
 {:.bs-callout-info}
-FedEx now uses [dimensional weight]({% link shipping/weight-dimensional.md %}) to determine some shipping rates.
+FedEx can use [dimensional weight]({% link shipping/weight-dimensional.md %}) to determine some shipping rates. However, Adobe Commerce and Magento Open Source support only weight-based shipping cost calculation.
 
 ## Step 1: Register for FedEx Web Services Production
 
@@ -41,7 +41,7 @@ Make sure to copy or write down the authentication key. You will need it to set 
    {:.bs-callout-info}
    Remember to set Sandbox Mode to `No` when you are ready to offer FedEx as a shipping method to your customers.
 
-   ![]({% link images/images/config-sales-shipping-methods-fedex-account-settings.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/delivery-methods-fedex-account-settings.png %}){: .zoom}
    _[FedEx Account Settings]({% link configuration/sales/delivery-methods.md %})_
 
 ## Step 3: Package description and handling fee
@@ -70,7 +70,7 @@ Make sure to copy or write down the authentication key. You will need it to set 
 
    The default FedEx maximum weight is 150 lbs. Consult your shipping carrier for more information. We recommend using the default value, unless you have made special arrangements with FedEx. See also: [Dimensional Weight]({% link shipping/weight-dimensional.md %}).
 
-   ![]({% link images/images/config-sales-shipping-methods-fedex-packaging.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/delivery-methods-fedex-packaging.png %}){: .zoom}
    _[FedEx Package Settings]({% link configuration/sales/delivery-methods.md %})_
 
 1. Configure the handling fee options according to your requirements.
@@ -94,7 +94,7 @@ Make sure to copy or write down the authentication key. You will need it to set 
    |Yes|For B2C residential deliveries.|
    |No|For B2B residential deliveries.|
 
-   ![]({% link images/images/config-sales-shipping-methods-fedex-handling-fee.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/delivery-methods-fedex-handling-fee.png %}){: .zoom}
    _[FedEx Handling Fee Settings]({% link configuration/sales/delivery-methods.md %})_
 
 ## Step 4: Allowed methods and applicable countries
@@ -123,7 +123,7 @@ Make sure to copy or write down the authentication key. You will need it to set 
 
    This text box is preset with a default message, but you can enter a different message that you want to appear if FedEx becomes unavailable.
 
-   ![]({% link images/images/config-sales-shipping-methods-fedex-delivery-methods.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/delivery-methods-fedex-delivery-methods.png %}){: .zoom}
    _[FedEx Allowed Delivery Methods]({% link configuration/sales/delivery-methods.md %})_
 
 1. Set **Ship to Applicable Countries**:
@@ -144,7 +144,10 @@ Make sure to copy or write down the authentication key. You will need it to set 
 
 1. Click <span class="btn">Save Config</span>.
 
-   ![]({% link images/images/config-sales-shipping-methods-fedex-applicable-countries.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/delivery-methods-fedex-applicable-countries.png %}){: .zoom}
    _[FedEx Applicable Countries]({% link configuration/sales/delivery-methods.md %})_
+
+{:.bs-callout-info}
+Commerce always declares the full order price to FedEx when calculating shipping charges. This behavior cannot be changed.
 
 [1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

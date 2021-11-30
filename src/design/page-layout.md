@@ -6,7 +6,7 @@ The layout of each page in your store consists of distinct sections, or containe
 
 On the page, content blocks float to fill the available space, according to the section of the [page layout]({% link design/layout-updates.md %}) where they are assigned to appear. You will discover that if you change the layout from a three-column to a two-column layout, the content of the main area expands to fill the available space, and any blocks that are associated with the unused side bar seem to disappear. However, if you restore the three-column layout, the blocks reappear. This fluid approach, or _liquid layout_, makes it possible to change the page layout without having to rework the content. If you are used to working with individual HTML pages, you will discover that this modular, _building block_ approach requires a different way of thinking.
 
-![]({% link images/images-ee/storefront-2-column-ee.png %}){: .zoom}
+![]({% link design/assets/storefront-2-column-ee.png %}){: .zoom}
 _Standard two-column with left bar page layout_
 
 ## Configure default layouts
@@ -17,7 +17,7 @@ _Standard two-column with left bar page layout_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Default Layouts** section.
 
-   ![]({% link images/images-ee/config-general-web-default-layouts.png %}){: .zoom}
+   ![]({% link configuration/general/assets/web-default-layouts.png %}){: .zoom}
    [*Default Layouts*]({% link configuration/general/web.md %}#default-layouts)
 
 1. Choose the **Default Product Layout** that you want to use for product pages.
@@ -33,9 +33,9 @@ _Standard two-column with left bar page layout_
 
    When [Page Builder]({% link cms/page-builder.md %}) is enabled, there are additional full width options available. You can then use the Page Builder content tools to design the layout for your product pages.
 
-   |<span class="ee-only">Page -- Full Width</span> |Uses the _Page - Full Width_  layout for product pages.|
-   |<span class="ee-only">Category -- Full Width</span> |Uses the _Category - Full Width_ layout for product pages.|
-   |<span class="ee-only">Product -- Full Width</span> |(Recommended) Uses the _Product - Full Width_ layout for product pages.|
+   |Page -- Full Width |Uses the _Page - Full Width_  layout for product pages.|
+   |Category -- Full Width |Uses the _Category - Full Width_ layout for product pages.|
+   |Product -- Full Width |(Recommended) Uses the _Product - Full Width_ layout for product pages.|
 
 1. Choose the **Default Category Layout** that you want to use for category pages.
 
@@ -50,9 +50,9 @@ _Standard two-column with left bar page layout_
 
    When [Page Builder]({% link cms/page-builder.md %}) is enabled, there are additional full width options available. You can then use the Page Builder content tools to design the layout for your category pages.
 
-   |<span class="ee-only">Page -- Full Width</span> |Uses the _Page - Full Width_ layout for category pages.|
-   |<span class="ee-only">Category -- Full Width</span> |(Recommended) Uses the _Category - Full Width_ layout for category pages.|
-   |<span class="ee-only">Product -- Full Width </span>|Uses the _Product - Full Width_ layout for category pages.|
+   |Page -- Full Width |Uses the _Page - Full Width_ layout for category pages.|
+   |Category -- Full Width |(Recommended) Uses the _Category - Full Width_ layout for category pages.|
+   |Product -- Full Width |Uses the _Product - Full Width_ layout for category pages.|
 
 1. Choose the **Default Page Layout** that you want to use for CMS pages.
 
@@ -67,8 +67,8 @@ _Standard two-column with left bar page layout_
 
    When [Page Builder]({% link cms/page-builder.md %}) is enabled, there are additional full width options available. You can then use the Page Builder content tools to design the layout for your CMS pages.
 
-   |<span class="ee-only">Page -- Full Width</span> |(Recommended) Uses the _Page - Full Width_ layout for CMS pages.|
-   |<span class="ee-only">Category - Full Width</span> |Uses the _Category - Full Width_ layout for CMS pages.|
-   |<span class="ee-only">Product - Full Width</span> |Uses the _Product - Full Width_ layout for CMS pages.|
+   |Page -- Full Width |(Recommended) Uses the _Page - Full Width_ layout for CMS pages.|
+   |Category - Full Width |Uses the _Category - Full Width_ layout for CMS pages.|
+   |Product - Full Width |Uses the _Product - Full Width_ layout for CMS pages.|
 
 1. When complete, click <span class="btn">Save Config</span>.

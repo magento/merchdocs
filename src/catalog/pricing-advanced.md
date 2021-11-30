@@ -10,7 +10,7 @@ The Advanced Pricing settings define the conditions required for special pricing
 
 - {:.b2b-only}Advanced pricing data is synchronized with both product pages and shared catalogs. For example, if you update a tier price quantity, the system updates the value in the shared catalog and on the product page. Any custom pricing that is indicated in the shared catalog has priority over customer group pricing.
 
-![]({% link images/images/product-pricing-advanced-link.png %}){: .zoom}
+![]({% link catalog/assets/product-pricing-advanced-link.png %}){: .zoom}
 _Advanced Pricing_
 
 ## Access the Advanced Pricing options
@@ -47,8 +47,8 @@ This is the actual cost of the item.
 
 ### Customer Group Price
 
-![]({% link images/images-ee/product-pricing-advanced.png %}){: .zoom}
-_Advanced Pricing_{:.ee-only}
+![]({% link catalog/assets/product-pricing-advanced.png %}){: .zoom}
+_Advanced Pricing_
 
 Sets up promotional and tier prices for specific customer groups.
 
@@ -56,7 +56,7 @@ Sets up promotional and tier prices for specific customer groups.
 |Customer Group|(Required) Identifies the customer group that qualifies to receive the discount price. When a value in a group or catalog field is changed, the corresponding custom price row that matched the previous setting is deleted from the shared catalog. <br/>**ALL GROUPS** - Applies the rule to all customer groups. <br/>**NOT LOGGED IN** - Applies the rule guests and customers who are not logged in to their accounts.|
 |Quantity|Specifies the quantity that is required to receive a tier price.|
 |Price|(Required) Specifies a fixed or discount product price for members of the customer group, within the specific website. Options: <br/>**Fixed** - (Default) The discount price is entered as a fixed decimal value. For example, enter `9.99` as the discount price. <br/>**Discount** - The discount price is entered as a percentage (%) of the base product price. For example, enter `10` for a 10% discount.|
-|![]({% link images/images/btn-trashcan2.png %}) |Deletes the current rule.|
+|![]({% link assets/icon-delete-trashcan-solid.png %}) |Deletes the current rule.|
 |<span class="btn">Add</span>|Inserts an additional row for a new rule.|
 
 {:.b2b-only}
@@ -64,15 +64,15 @@ Sets up promotional and tier prices for specific customer groups.
 
 Sets up promotional and tier prices for specific shared catalogs and customer groups.
 
-![]({% link images/images-b2b/product-pricing-advanced.png %}){: .zoom}
-_Advanced Pricing_{:.b2b-only}
+![]({% link catalog/assets/product-pricing-promotional-tiered-b2b.png %}){: .zoom}
+_Advanced Pricing_
 
 |Website|Identifies the website where the group price rule applies. This option appears only if the installation has multiple websites.
 **_Important:_** The _Website_ value should also be selected in the [Catalog Price Scope]({% link catalog/catalog-price-scope.md %}) configuration, otherwise the set advanced prices will be displayed for **all** websites.|
 |Group or Catalog|(Required) Identifies the customer group or shared catalog that qualifies to receive the discount price. When a value in a group or catalog field is changed, the corresponding custom price row that matched the previous setting is deleted from the shared catalog. <br/>**ALL GROUPS** - Applies the rule to all customer groups. The value is not applied to the shared catalog and changes in advanced pricing data are not synchronized with the shared catalog.<br/>**NOT LOGGED IN** - Applies the rule guests and customers who are not logged in to their accounts.<br/>**Shared Catalogs** - Applies the rule to a specific shared catalog.|
 |Quantity|Specifies the quantity that is required to receive a tier price.|
 |Price|(Required) Specifies a fixed or discount product price for members of the customer group, within the specific website. Options: <br/>**Fixed** - (Default) The discount price is entered as a fixed decimal value. For example, enter `9.99` as the discount price. <br/>**Discount** - The discount price is entered as a percentage (%) of the base product price. For example, enter `10` for a 10% discount.|
-|![]({% link images/images/btn-trashcan2.png %}) |Deletes the current rule.|
+|![]({% link assets/icon-delete-trashcan-solid.png %}) |Deletes the current rule.|
 |<span class="btn">Add</span>|Inserts an additional row for a new rule.|
 
 ### Manufacturer's Suggested Retail Price

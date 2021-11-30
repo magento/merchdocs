@@ -16,12 +16,12 @@ When a quote is opened, the prices are verified to reflect the current shared ca
 
 1. In the account sidebar, choose **My Quotes**.
 
-    ![]({% link images/images-b2b/quote-email-update.png %}){: .zoom}
+    ![]({% link customers/assets/quote-email-update.png %}){: .zoom}
     _Email Notification Sent to Buyer_
 
 1. Find the updated quote in the list, and click **View**.
 
-    ![]({% link images/images-b2b/storefront-account-my-quotes-list.png %}){: .zoom}
+    ![]({% link customers/assets/account-dashboard-my-quotes-list.png %}){: .zoom}
     _My Quotes_
 
 ## Step 2: Review the quote
@@ -36,7 +36,7 @@ When a quote is opened, the prices are verified to reflect the current shared ca
 
 1. On the **Comments** tab, read the reply from the seller.
 
-    ![]({% link images/images-b2b/quote-comments-tab.png %}){: .zoom}
+    ![]({% link customers/assets/quote-comments-tab.png %}){: .zoom}
     _Comments from Quote Negotiation_
 
 ## Step 3: Reply to the seller
@@ -51,7 +51,7 @@ Make any of the following changes to the quote:
 
     Any previously negotiated items in the totals section are crossed out.
 
-    ![]({% link images/images-b2b/storefront-quote-totals-crossed-out.png %}){: .zoom}
+    ![]({% link customers/assets/quote-totals-crossed-out.png %}){: .zoom}
     _Totals after Update_
 
 ### Change the shipping address
@@ -104,7 +104,7 @@ Make any of the following changes to the quote:
 
     This order is within the company’s available credit limit and is being [charged to their account]({% link payment/payment-on-account.md %}). The _Order Summary_ section shows the quote subtotal, shipping and the total amount that is to be charged to their account. Because tax is not applicable to this order, it is not included in the Order Summary.
 
-    ![]({% link images/images-b2b/quote-checkout-order-summary.png %}){: .zoom}
+    ![]({% link customers/assets/quote-checkout-order-summary.png %}){: .zoom}
     _Order Summary with Negotiated Price_
 
 ## Step 4 (Purchase order): Place the order

@@ -16,7 +16,7 @@ After you create your account, it is strongly recommended that you use Two-facto
 
 1. Click **Create an account**.
 
-   ![]({% link images/images/magento-account-login.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-login.png %}){: .zoom}
    _Account log in page_
 
 1. Under _Personal Information_, do the following:
@@ -29,7 +29,7 @@ After you create your account, it is strongly recommended that you use Two-facto
 
    - Set **Country** to reflect your operational location.
 
-   ![]({% link images/images/magento-account-create.png %}){: .zoom}
+   ![]({% link magento/assets/account-create.png %}){: .zoom}
    _Create an account_
 
 1. Under _Login Information_, do the following:
@@ -85,7 +85,7 @@ After you create your account, it is strongly recommended that you use Two-facto
 
 1. When complete, click <span class="btn">Save</span>.
 
-   ![]({% link images/images/magento-account-change-password.png %}){: .zoom}
+   ![]({% link magento/assets/change-password.png %}){: .zoom}
    _Change your password_
 
 [1]: http://www.magento.com/

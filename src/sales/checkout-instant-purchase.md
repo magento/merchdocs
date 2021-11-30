@@ -4,7 +4,7 @@ title: Instant Purchase
 
 Instant Purchase allows customers to speed through the checkout process using information that is saved in their account. When enabled, the _Instant Purchase_ button appears below the _Add to Cart_ button on the product page for customers who meet the requirements.
 
-![Luma storefront product page with the Instant Purchase option displayed]({% link images/images/storefront-checkout-instant-purchase.png %}){: .zoom}
+![Luma storefront product page with the Instant Purchase option displayed]({% link sales/assets/storefront-checkout-instant-purchase.png %}){: .zoom}
 _Instant purchase option in the product page_
 
 ## Customer requirements
@@ -30,7 +30,7 @@ _Instant purchase option in the product page_
 
 1. Select the required options and click **Instant Purchase**.
 
-   ![The shopper sees a confirmation dialog to confirm the instant purchase]({% link images/images/storefront-checkout-instant-purchase-confirmation.png %}){: .zoom}
+   ![The shopper sees a confirmation dialog to confirm the instant purchase]({% link sales/assets/storefront-checkout-instant-purchase-confirmation.png %}){: .zoom}
    _Instant purchase confirmation dialog_
 
 1. Review the **Instant Purchase Confirmation** information and click <span class="btn">OK</span> to complete the transaction.
@@ -51,7 +51,7 @@ The following example shows how to configure the Braintree vault.
 
 1. Under _Recommended Solutions_, click **Configure** in the _Braintree_ section.
 
-   ![]({% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/payment-methods-braintree.png %}){: .zoom}
    [_Configure the Braintree payment service_]({% link payment/braintree.md %})
 
 1. In the _Basic Braintree Settings_ section, enter the following information from your Braintree seller account:
@@ -66,7 +66,7 @@ The following example shows how to configure the Braintree vault.
 
 1. Set **Vault Enabled** to `Yes`.
 
-   ![]({% link images/images/config-sales-payment-methods-braintree-basic-settings.png %}){: .zoom}
+   ![]({% link sales/assets/braintree-basic-settings.png %}){: .zoom}
    [_Basic Braintree Settings_]({% link payment/braintree.md %})
 
 ### Step 3: Enable instant purchase
@@ -85,7 +85,7 @@ The following example shows how to configure the Braintree vault.
 
    The button text can be changed for each store view, or language. By default, the button text is `Instant Purchase`.
 
-   ![The configuration page with the instant purchase options displayed]({% link images/images/config-sales-sales-instant-purchase.png %}){: .zoom}
+   ![The configuration page with the instant purchase options displayed]({% link configuration/sales/assets/sales-instant-purchase.png %}){: .zoom}
    [_Instant Purchase configuration options_]({% link configuration/sales/sales.md %})
 
 1. Click <span class="btn">Save Config</span>.

@@ -18,7 +18,7 @@ If a refund has been issued for an order, customers can view the refund informat
 
 1. Clicks the **Refunds** tab to view the details of the refund.
 
-   ![]({% link images/images-ee/customer-account-order-refunds.png %}){: .zoom}
+   ![]({% link customers/assets/customer-account-order-refunds.png %}){: .zoom}
    _Refund detail on the storefront_
 
 ## View store credit balance and history on the storefront
@@ -31,7 +31,7 @@ If a refund has been issued for an order, customers can view the refund informat
 
    The amount refunded to their store credit appears in the list with the date and time of the action.
 
-   ![]({% link images/images-ee/customer-account-store-credit.png %}){: .zoom}
+   ![]({% link customers/assets/customer-account-store-credit.png %}){: .zoom}
    _Amount refunded to store credit_
 
    - {:.ee-only}The _Store Credit_ page also provides a link for the customer to redeem a [gift card]({% link customers/account-dashboard-gift-cards.md %}).
@@ -46,7 +46,7 @@ If a refund has been issued for an order, customers can view the refund informat
 
 1. If store credit is available, the customer clicks <span class="btn">Use Store Credit</span>.
 
-   ![]({% link images/images-ee/customer-account-order-refund-from-checkout.png %}){: .zoom}
+   ![]({% link customers/assets/customer-account-order-refund-from-checkout.png %}){: .zoom}
    _Store Credit from Review & Payments page_
 
 1. If the customer changes their mind about using the store credit, clicks <span class="btn">Remove</span> in the _Order Summary_ section.

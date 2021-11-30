@@ -12,17 +12,17 @@ If you are upgrading to Commerce 2.4.0 and were not using the recommended Commer
 
 ## Basic Braintree Settings
 
-![]({% link images/images/config-sales-payment-methods-braintree-basic-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-basic-config.png %}){: .zoom}
 _Basic Braintree Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Title|Store View|Default value: Credit Card (Braintree)|
 |Environment|Store View|Options: Sandbox / Production|
-|Payment Action|Website|Determines the action taken by Braintree when a payment is processed. Options: <br/>**Authorize** - Funds on the customer’s card are authorized, but not transferred from the customer’s account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**Intent Sale** (previously "Authorize and Capture" in earlier releases) - Funds on the customer’s card are authorized and captured by Braintree, and an order and invoice are created in your store Admin.|
+|Payment Action|Store View|Determines the action taken by Braintree when a payment is processed. Options: <br/>**Authorize** - Funds on the customer’s credit card are authorized, but not transferred from the account. An order is created in your store Admin. You can later capture the sale and create an invoice. <br/>**Intent Sale** (previously "Authorize and Capture" in earlier releases) - Funds on the customer’s credit card are authorized and captured by Braintree, and an order and invoice are created in your store Admin.|
 |Merchant ID|Website|This is the unique identifier for your entire gateway account, including the multiple merchant accounts that may be in your gateway. As known as the _public ID_ or _production ID_, your merchant ID will be different for your production and sandbox gateways.|
-|Public Key|Website|This is your user-specific public identifier that restricts access to encrypted data. Each user associated with your Braintree gateway will have their own public key.|
-|Private Key|Website|This is your user-specific private identifier that restricts access to encrypted data. Each user associated with your Braintree gateway will have their own private key.|
+|Public Key|Store View|This is your user-specific, public identifier that restricts access to encrypted data. Each user associated with your Braintree gateway will have their own public key.|
+|Private Key|Store View|This is your user-specific, private identifier that restricts access to encrypted data. Each user associated with your Braintree gateway will have their own private key.|
 |Enable this Solution|Website|Determines if Braintree is available to your customers as a payment method. Options: Yes / No|
 |Enable PayPal through Braintree|Website|Determines if PayPal is included as a payment method through Braintree. Options: Yes / No|
 |Enable PayPal Credit through Braintree|Website|Determines if PayPal Credit is included as a payment method through Braintree. Options: Yes / No|
@@ -31,7 +31,7 @@ _Basic Braintree Settings_
 
 ## Advanced Braintree Settings
 
-![]({% link images/images/config-sales-payment-methods-braintree-advance-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-advanced-config.png %}){: .zoom}
 _Braintree Advanced Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -41,11 +41,11 @@ _Braintree Advanced Settings_
 |Advanced Fraud Protection|Website|Determines if Braintree’s Advanced Fraud Protection is applied to transactions. Options: Yes / No |
 |Debug|Website|Determines if communications between the Braintree system and your store are recorded in a log file. Options: Yes / No|
 |CVV Verification|Website|Determines if customers are required to provide the three-digit security code from the back of a credit card. Options: Yes / No|
-|Credit Card Types|Website|Specifies each credit card that you accept as payment through  Braintree. Press and hold `Ctrl` (or `Command` on Mac) to select a combination of cards.|
+|Credit Card Types|Website|Specifies each credit card that you accept as payment through  Braintree. Press and hold `Ctrl` (or `Command` on Mac) to select a combination of cards. Options: American Express / Visa / MasterCard / Discover / JCB / Diners / Maestro International|
 |Sort Order|Website|Determines the order that Braintree is listed with other payment methods during checkout.|
 
 ### Kount
-![]({% link images/images/config-sales-payment-methods-braintree-kount-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-kount-config.png %}){: .zoom}
 _Kount Configuration_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -59,7 +59,7 @@ _Kount Configuration_
 
 ## Country Specific Settings
 
-![]({% link images/images/config-sales-payment-methods-braintree-country-specific-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-country-specific-config.png %}){: .zoom}
 _Country Specific Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -70,7 +70,7 @@ _Country Specific Settings_
 
 ## ACH through Braintree
 
-![]({% link images/images/config-sales-payment-methods-braintree-ach-payment-method-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-ach-config.png %}){: .zoom}
 _ACH through Braintree_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -79,7 +79,7 @@ _ACH through Braintree_
 
 ## Apple Pay through Braintree
 
-![]({% link images/images/config-sales-payment-methods-braintree-applepay-payment-method-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-applepay-config.png %}){: .zoom}
 _Apple Pay through Braintree_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -90,18 +90,18 @@ _Apple Pay through Braintree_
 
 ## Local Payment Methods
 
-![]({% link images/images/config-sales-payment-methods-braintree-local-payment-method-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-local-payment-config.png %}){: .zoom}
 _Local Payment Methods_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled Local Payment Methods|Website|Determines if Local Payment Method is included as a payment method through Braintree. Options: Yes / No|
 |Title|Website|Label that will appear on the checkout Payment Method section. Default value: Local|
-|Allowed Payment Method|Website|Select the local Payment method that needs to be enabled.|
+|Allowed Payment Method|Website|Select the local Payment method that needs to be enabled. Options: Bancontact / EPS / giropay / iDeal / Klarna Pay Now / SOFORT / MyBank / P24 / SEPA/ELV Direct Debit|
 
 ## GooglePay through Braintree
 
-![]({% link images/images/config-sales-payment-methods-braintree-googlepay-payment-method-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-googlepay-config.png %}){: .zoom}
 _GooglePay through Braintree_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -114,7 +114,7 @@ _GooglePay through Braintree_
 
 ## Venmo through Braintree
 
-![]({% link images/images/config-sales-payment-methods-braintree-venmo-payment-method-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-venmo-config.png %}){: .zoom}
 _Venmo through Braintree_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -124,7 +124,7 @@ _Venmo through Braintree_
 
 ## PayPal through Braintree
 
-![]({% link images/images/config-sales-payment-methods-braintree-Paypal-payment-method-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-paypal-config.png %}){: .zoom}
 _PayPal through Braintree_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -142,7 +142,7 @@ _PayPal through Braintree_
 
 ### Mini-Cart and Cart Page
 
-![]({% link images/images/config-sales-payment-methods-braintree-Paypal-minicart-and-cart-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-paypal-minicart-config.png %}){: .zoom}
 _Mini cart and cart page_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -155,7 +155,7 @@ _Mini cart and cart page_
 
 ### Checkout Page
 
-![]({% link images/images/config-sales-payment-methods-braintree-Paypal-checkout-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-paypal-checkout-config.png %}){: .zoom}
 _Checkout Page_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -168,7 +168,7 @@ _Checkout Page_
 
 ### Product Page
 
-![]({% link images/images/config-sales-payment-methods-braintree-Paypal-product-page-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-paypal-product-page-config.png %}){: .zoom}
 _Product Page_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -182,7 +182,7 @@ _Product Page_
 
 ## 3d Secure Verification Settings
 
-![]({% link images/images/config-sales-payment-methods-braintree-3d-secure-verification-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-3d-secure-verify-config.png %}){: .zoom}
 _3D Secure Verification Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -194,7 +194,7 @@ _3D Secure Verification Settings_
 
 ## Dynamic Descriptors
 
-![]({% link images/images/config-sales-payment-methods-braintree-dynamic-description-configuration.png %}){: .zoom}
+![]({% link configuration/assets/braintree-dynamic-config.png %}){: .zoom}
 _Dynamic Descriptors_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

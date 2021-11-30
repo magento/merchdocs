@@ -26,7 +26,7 @@ _Click for Price_
 
 1. If necessary, set **Enable MAP** to `Yes`.
 
-    ![]({% link images/images/config-sales-sales-minimum-advertised-price.png %}){: .zoom}
+    ![]({% link configuration/sales/assets/sales-minimum-advertised-price.png %}){: .zoom}
     [_Minimum Advertised Price_]({% link configuration/sales/sales.md %})
 
 ## Step 2: Configure the MAP settings
@@ -58,7 +58,7 @@ Use one of the following methods to configure the MAP settings:
 
 1. In the left panel, expand **Advanced Settings** and choose **Advanced Pricing**.
 
-    ![]({% link images/images/product-price-msrp.png %}){: .zoom}
+    ![]({% link catalog/assets/product-price-msrp.png %}){: .zoom}
     _Manufacturer’s Suggested Retail Price_
 
 1. Enter the **Manufacturer’s Suggested Retail Price** (MSRP).

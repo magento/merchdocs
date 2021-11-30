@@ -4,7 +4,7 @@ title: Guest Checkout
 
 Your store can be configured to require shoppers to open an account before making a purchase. The default setting allows guests to make purchases, with an option to register for an account after they complete the checkout process.
 
-![The sample Luma store displays Check Out as Guest]({% link images/images/storefront-checkout-as-guest.png %}){: .zoom}
+![The sample Luma store displays Check Out as Guest]({% link sales/assets/storefront-checkout-as-guest.png %}){: .zoom}
 _Checkout method - Check out as guest_
 
 ## Disable guest checkout
@@ -15,7 +15,7 @@ _Checkout method - Check out as guest_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Checkout Options** section.
 
-   ![The checkout options expanded on the configuration page]({% link images/images-ee/config-sales-checkout-checkout-options.png %}){: .zoom}
+   ![The checkout options expanded on the configuration page]({% link configuration/sales/assets/checkout-checkout-options.png %}){: .zoom}
    _[Checkout options configuration settings]({% link configuration/sales/checkout.md %})_
 
 1. If the setting is for a specific store view, [choose the store view]({% link configuration/scope-change.md %}) where the configuration applies.

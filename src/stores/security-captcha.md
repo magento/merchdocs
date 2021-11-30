@@ -11,7 +11,7 @@ _Customer Login with CAPTCHA_
 
 ## Admin CAPTCHA
 
-For an extra level of security, you can add a CAPTCHA to the Admin Sign In and Forgot Password page. Admin users can reload the displayed CAPTCHA by clicking the Reload ![]({% link images/images/btn-reload.png %}) icon in the upper-right corner of the image. The number of reloads is unlimited.
+For an extra level of security, you can add a CAPTCHA to the Admin Sign In and Forgot Password page. Admin users can reload the displayed CAPTCHA by clicking the Reload ![]({% link stores/assets/CAPTCHA-icon-reload.png %}) icon in the upper-right corner of the image. The number of reloads is unlimited.
 
 ![Admin - Sign in with CAPTCHA]({% link stores/assets/security-captcha-admin.png %}){: .zoom}
 _Admin Sign In with CAPTCHA_
@@ -30,7 +30,7 @@ _Admin Sign In with CAPTCHA_
 
 1. Set **Enable CAPTCHA in Admin** to `Yes`. Then complete the remaining options as follows:
 
-    ![Admin - CAPTCHA configuration]({% link images/images/config-advanced-admin-captcha.png %}){: .zoom}
+    ![Admin - CAPTCHA configuration]({% link configuration/advanced/assets/admin-captcha.png %}){: .zoom}
     [_Admin CAPTCHA Configuration_]({% link configuration/advanced/admin.md %})
 
    - Enter the name of the **Font** to be used for CAPTCHA symbols (default: `LinLibertine`).
@@ -65,7 +65,7 @@ _Admin Sign In with CAPTCHA_
 
 Customers can be required to enter a CAPTCHA each time they log in to their accounts, or after several unsuccessful attempts to log in. In addition, numerous forms used throughout the storefront can be configured to require verification by CAPTCHA.
 
-![]({% link images/images-ee/storefront-checkout-payment-captcha.png %}){: .zoom}
+![]({% link stores/assets/storefront-checkout-payment-captcha.png %}){: .zoom}
 _CAPTCHA during checkout_
 
 ### Configure CAPTCHA for the storefront
@@ -76,7 +76,7 @@ _CAPTCHA during checkout_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **CAPTCHA** section.
 
-![]({% link images/images-ee/config-customer-configuration-captcha.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-captcha.png %}){: .zoom}
 _[Customer CAPTCHA configuration]({% link configuration/customers/customer-configuration.md %})_
 
 1. Set **Enable CAPTCHA on Storefront** to `Yes`. Then complete the remaining options as follows:

@@ -6,16 +6,16 @@ One of the keys to harnessing the power of product types is learning when to use
 
 The following instructions demonstrate the process of creating a simple product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}), as needed.
 
-![]({% link images/images/product-simple.png %}){: .zoom}
+![]({% link catalog/assets/product-simple.png %}){: .zoom}
 _Simple product_
 
 ## Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right, choose **Simple Product**.
+1. On the _Add Product_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu at the upper-right, choose **Simple Product**.
 
-    ![]({% link images/images/product-add-simple.png %}){: .zoom}
+    ![]({% link catalog/assets/product-add-simple.png %}){: .zoom}
     _Add Simple Product_
 
 ## Step 2: Choose the attribute set
@@ -28,7 +28,7 @@ To choose the [attribute set]({% link stores/attribute-sets.md %}) that is used 
 
 The form is updated to reflect the change.
 
-![]({% link images/images/product-create-choose-attribute-set.png %}){: .zoom}
+![]({% link catalog/assets/product-create-choose-attribute-set.png %}){: .zoom}
 _Choose attribute set_
 
 ## Step 3: Complete the required settings
@@ -47,7 +47,7 @@ _Choose attribute set_
 
 1. Choose the **Store View** where the product is to be available.
 
-    ![]({% link images/images/product-create-store-view-choose.png %}){: .zoom}
+    ![]({% link catalog/assets/product-create-store-view-choose.png %}){: .zoom}
     _Choose the store view_
 
 ## Step 4: Complete the basic settings
@@ -96,7 +96,7 @@ _Choose attribute set_
 
 1. Choose the **Country of Manufacture**.
 
-    ![]({% link images/images/product-details-simple.png %}){: .zoom}
+    ![]({% link catalog/assets/product-details-simple.png %}){: .zoom}
     _Product Details_
 
 There might be additional individual attributes that describe the product. The selection varies attribute set, and you can complete them later.
@@ -130,14 +130,14 @@ Scroll down and complete the information in the following sections as needed:
 
       The store opens in a new browser tab.
 
-      ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
+      ![]({% link catalog/assets/product-admin-customer-view.png %}){: .zoom}
       _Customer View_
 
    - **Method 2:** Save and Close
 
-      On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %})) menu, choose **Save & Close**.
+      On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"}) menu, choose **Save & Close**.
 
-      ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
+      ![]({% link catalog/assets/product-edit-save-close.png %}){: .zoom}
       _Save & Close_
 
 ## Things to remember

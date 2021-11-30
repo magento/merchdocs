@@ -12,8 +12,8 @@ Follow these instructions to apply a discount to specific products whenever a se
 
    The **Rule Information** section includes expandable sections for **Conditions** and **Actions**.
 
-   ![Catalog price rule - information]({% link images/images-ee/price-rule-catalog-new-ee.png %}){: .zoom}
-   _Rule Information_{:.ee-only}
+   ![Catalog price rule - information]({% link marketing/assets/price-rule-catalog-new-ee.png %}){: .zoom}
+   _Rule Information_
 
 1. In the **Rule Information** section, do the following:
 
@@ -132,7 +132,7 @@ Most of the available conditions are based on existing attribute values. To appl
 
 1. Select the checkbox in the first column to associate the dynamic block with the rule.
 
-   ![Catalog price rule - related dynamic blocks]({% link images/images-ee/price-rule-catalog-related-dynamic-blocks.png %}){: .zoom}
+   ![Catalog price rule - related dynamic blocks]({% link marketing/assets/price-rule-catalog-related-dynamic-blocks.png %}){: .zoom}
    _Related Dynamic Blocks_
 
 {:.ee-only}
@@ -143,7 +143,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 
 1. Click **Save and Continue Edit**.
 
-   ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-new.png %}){: .zoom}
+   ![Catalog price rules - scheduled changes]({% link marketing/assets/price-rule-scheduled-changes-new.png %}){: .zoom}
     _Scheduled Changes_
 
 1. In the _Scheduled Changes_ box, click **View/Edit** to the right of the listed change (or you can click <span class="btn">Schedule New Update</span> at the top of the box).
@@ -154,7 +154,7 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 
     You can either enter the dates or choose the dates from the **Calendar** (![Calendar icon]({% link assets/icon-calendar.png %})).
 
-    ![Catalog price rule - update schedule]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
+    ![Catalog price rule - update schedule]({% link marketing/assets/price-rule-catalog-schedule-update.png %}){: .zoom}
     _Update Schedule_
 
 1. Scroll to the _Rule Information_ section and set the **Status** to `active`.
@@ -172,8 +172,8 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 
       The Rule Information page displays an updated timeline in the Scheduled Changes for the rule.
 
-      ![Catalog price rules - scheduled changes]({% link images/images-ee/price-rule-scheduled-changes-updated.png %}){: .zoom}
-      _Scheduled Changes_{:.ee-only}
+      ![Catalog price rules - scheduled changes]({% link marketing/assets/price-rule-scheduled-changes-updated.png %}){: .zoom}
+      _Scheduled Changes_
 
 1. Update properties for a rule:
 

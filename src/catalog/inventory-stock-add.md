@@ -48,14 +48,14 @@ _New Stock_
       ![]({% link catalog/assets/inventory-assign-sources.png %}){: .zoom}
       _Assign Sources to Stock_
 
-1. Use ![]({% link images/images/btn-sort-3.png %}) to drag and drop the sources into a priority from top (first) to bottom (last).
+1. Use ![]({% link catalog/assets/inventory-icon-sort.png %}) to drag and drop the sources into a priority from top (first) to bottom (last).
 
    This order is important when shipping orders.
 
-   ![]({% link images/images/stores-inventory-stock-priorityafter.png %}){: .zoom}
+   ![]({% link catalog/assets/inventory-stock-priority-after.png %}){: .zoom}
    _Assigned Sources Example_
 
-1. On the **Save** (![]({% link assets/icon-menu-down-arrow-red.png %})) menu, choose **Save & Close**.
+1. On the **Save** (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"}) menu, choose **Save & Close**.
 
 ## Field descriptions
 
@@ -67,4 +67,4 @@ _New Stock_
 |Websites|Defines the [scope]({% link configuration/scope.md %}) of the stock by assigning the stock to specific website(s) as _sales channels_. Select one or more websites per stock. Each website can only be assigned to one stock.|
 |**Sources**| |
 |Assign Sources|Assigns inventory sources to this stock. Custom sources cannot be assigned to Default Stock.|
-|Assigned Sources|List of assigned sources. Drag and drop the sources using ![]({% link images/images/btn-sort-3.png %}) into a prioritized order for order fulfillment and shipping.<br/><br/>**Code** - Unique code ID for the source.<br/>**Name** - Name description for the source.<br/>**Unassign** - Remove the assigned source from the stock using ![]({% link images/images/btn-trashcan2.png %}).|
+|Assigned Sources|List of assigned sources. Drag and drop the sources using ![]({% link catalog/assets/inventory-icon-sort.png %}) into a prioritized order for order fulfillment and shipping.<br/><br/>**Code** - Unique code ID for the source.<br/>**Name** - Name description for the source.<br/>**Unassign** - Remove the assigned source from the stock using ![]({% link assets/icon-delete-trashcan-solid.png %}).|

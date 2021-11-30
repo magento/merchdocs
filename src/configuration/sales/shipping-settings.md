@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Origin
 
-![]({% link images/images/config-sales-shipping-settings-origin.png %}){: .zoom}
+![]({% link configuration/sales/assets/shipping-settings-origin.png %}){: .zoom}
 [_Origin_]({% link shipping/shipping-settings.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -20,7 +20,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Shipping Policy Parameters
 
-![]({% link images/images/config-sales-shipping-settings-shipping-policy-parameters.png %}){: .zoom}
+![]({% link configuration/sales/assets/shipping-settings-shipping-policy-parameters.png %}){: .zoom}
 [_Shipping Policy Parameters_]({% link shipping/shipping-policy-parameters.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

@@ -4,7 +4,7 @@ title: My Returns
 
 All customer return information is displayed on the **My Returns** page in the customer account.
 
-![]({% link images/images/my-returns-page.png %}){: .zoom}
+![]({% link customers/assets/my-returns-page.png %}){: .zoom}
 _My Returns_
 
 ## Create return request from customer account
@@ -20,7 +20,7 @@ Only shipped and invoiced orders, with `Complete` status, can be returned.
 
 1. To create a return request, clicks <span class="btn">Return</span>.
 
-   ![]({% link images/images/my-orders-returns.png %}){: .zoom}
+   ![]({% link customers/assets/my-orders-returns.png %}){: .zoom}
    _My Orders_
 
 1. Enters the **Contact Email Address** information.
@@ -50,7 +50,7 @@ Only shipped and invoiced orders, with `Complete` status, can be returned.
 
 1. If returning more than one item, clicks <span class="btn">Add item to return</span> and repeats the previous steps.
 
-    ![]({% link images/images/create-new-return.png %}){: .zoom}
+    ![]({% link customers/assets/account-dashboard-my-orders-create-return.png %}){: .zoom}
    _Create New Return_
 
 1. (Optional) Enters an additional comment for the store administrator in the **Comment** field.

@@ -7,7 +7,7 @@ If you use the Order Management System (OMS) with Adobe Commerce, an **MCOM** op
 
 With this MCOM option, you can manage stock aggregates and integrations, and access both the message log and changelog.
 
-![]({% link images/images-ee/admin-menu-mcom-ee.png %}){: .zoom}
+![]({% link mcom/assets/admin-menu-mcom-ee.png %}){: .zoom}
 _MCOM menu_
 
 ## Display the MCOM menu

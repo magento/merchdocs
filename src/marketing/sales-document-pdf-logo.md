@@ -17,7 +17,7 @@ One way to resize your logo to fit the required size is to create a new, blank i
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Invoice and Packing Slip Design** section and do the following:
 
-    ![Sales configuration - sales invoice and packing slip design]({% link images/images/config-sales-sales-invoice-packing-slip-design.png %}){: .zoom}
+    ![Sales configuration - sales invoice and packing slip design]({% link configuration/sales/assets/sales-invoice-packing-slip-design.png %}){: .zoom}
     [_Invoice and Packing Slip Design_]({% link configuration/sales/sales.md -%})
 
     - To upload the **Logo for PDF Print-outs**, click <span class="btn">Choose File</span>, find the logo that you have prepared, and click <span class="btn">Open</span>.

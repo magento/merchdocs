@@ -13,8 +13,8 @@ Google Content Experiments has been deprecated and will eventually be replaced b
 
 1. Follow the instructions to enable [Google Analytics]({% link marketing/google-universal-analytics.md %}) with Content Experiments in the Commerce configuration.
 
-    ![Sales configuration - Google Analytics]({% link images/images-ee/config-sales-google-api-google-analytics-content-experiments.png %}){: .zoom}
-    _[Enable Content Experiments]({% link marketing/google-universal-analytics.md %})_{:.ee-only}
+    ![Sales configuration - Google Analytics]({% link marketing/assets/google-analytics-experiments.png %}){: .zoom}
+    _[Enable content experiments]({% link marketing/google-universal-analytics.md %})_
 
 ## Step 2. Set up the variations (Commerce)
 
@@ -76,7 +76,7 @@ You must have the appropriate permissions to the Google account to create an exp
     {:.bs-callout-info}
     Do not paste the code snippet into any of the variations.
 
-    ![Product view optimization]({% link images/images/product-view-optimization.png %}){: .zoom}
+    ![Product view optimization]({% link catalog/assets/product-view-optimization.png %}){: .zoom}
     _Product View Optimization_
 
 1. When complete, click <span class="btn">Save</span>.

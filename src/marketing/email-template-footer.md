@@ -4,7 +4,7 @@ title: Footer Template
 
 The email template footer contains the closing and signature line of the email message. You can change the closing to fit your style, and add additional information, such as the company name and address below your name.
 
-![Email templates]({% link images/images/email-templates.png %}){: .zoom}
+![Email templates]({% link marketing/assets/email-templates.png %}){: .zoom}
 _Email Templates_
 
 ## Step 1. Load the Default Template
@@ -15,7 +15,7 @@ _Email Templates_
 
 1. In the **Load default template** section, click the **Template** selector and choose `Magento_Email` > `Footer`.
 
-    ![Email template footer - load default template]({% link images/images/email-templates-footer-load-default.png %}){: .zoom}
+    ![Email template footer - load default template]({% link marketing/assets/email-templates-footer-load-default.png %}){: .zoom}
     _Default Footer Template_
 
 1. Click <span class="btn">Load Template</span>.
@@ -30,7 +30,7 @@ _Email Templates_
 
    In the grid, the templates can be sorted and filtered by the _Subject_ column.
 
-    ![Email template footer - information]({% link images/images/email-template-footer-information.png %}){: .zoom}
+    ![Email template footer - information]({% link marketing/assets/email-template-footer-information.png %}){: .zoom}
     _Footer Template Information_
 
 1. In the **Template Content** box, modify the HTML as needed.
@@ -44,7 +44,7 @@ _Email Templates_
 
     When a variable is selected, a [markup tag]({% link marketing/markup-tags.md %}) for the variable is inserted in the code.
 
-    ![Email template footer - insert variable]({% link images/images/email-template-insert-variable-footer.png %}){: .zoom}
+    ![Email template footer - insert variable]({% link marketing/assets/email-template-insert-variable-footer.png %}){: .zoom}
     _Insert Variable_
 
     Although the Store Contact variables are the ones most often included in the footer, you can enter the code for any system or [custom variable]({% link marketing/variables-custom.md %}) directly into the template.
@@ -63,7 +63,7 @@ _Email Templates_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-![Transactional email design configuration - footer template]({% link images/images/config-design-transactional-emails.png %}){: .zoom}
+![Transactional email design configuration - footer template]({% link marketing/assets/design-configuration-transactional-emails.png %}){: .zoom}
 [_Transactional Emails_]({%- link design/configuration.md -%})
 
 ## Field Descriptions

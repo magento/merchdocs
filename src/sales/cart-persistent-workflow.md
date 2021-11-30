@@ -19,21 +19,21 @@ John sits down at the computer to do some quick shopping while Jane’s in the k
 Customers can select the _Remember Me_ checkbox on the Login page to save the contents of the their shopping carts.
 
 {: .cookie-table }
-|![Remember Me -  Yes]({% link images/images/retain-persistence-logout-a.png %})|**Yes**|Creates a persistent cookie and saves the contents of the shopping cart for the customer’s next logged-in session.|
-|![Remember Me -  No]({% link images/images/no-remember.png %})|**No**|Does not create a persistent cookie and does not save the cart information for the customer’s next logged-in session.|
+|![Remember Me -  Yes]({% link sales/assets/retain-persistence-logout-a.png %})|**Yes**|Creates a persistent cookie and saves the contents of the shopping cart for the customer’s next logged-in session.|
+|![Remember Me -  No]({% link sales/assets/no-remember.png %})|**No**|Does not create a persistent cookie and does not save the cart information for the customer’s next logged-in session.|
 
 ## Continue Persistence on Logout (No)
 
 {: .cookie-table }
-|![Continue Persistence After Logout - No]({% link images/images/retain-persistence-logout-a.png %})|**No**|When the customer logs in, invokes the persistent cookie in addition to the session cookie, which is already in use.|
-|![Continue Persistence After Logout - No]({% link images/images/retain-persistence-logout-b.png %})|**No**|When the customer logs out, deletes the session cookie but the persistent cookie remains in effect. The next time the customer logs in, restores the cart items or adds them to any new items placed in the cart.<br/><br/>If the customer does not log out and the session cookie expires, the persistent cookie remains in effect.|
+|![Continue Persistence After Logout - No]({% link sales/assets/retain-persistence-logout-a.png %})|**No**|When the customer logs in, invokes the persistent cookie in addition to the session cookie, which is already in use.|
+|![Continue Persistence After Logout - No]({% link sales/assets/retain-persistence-logout-b.png %})|**No**|When the customer logs out, deletes the session cookie but the persistent cookie remains in effect. The next time the customer logs in, restores the cart items or adds them to any new items placed in the cart.<br/><br/>If the customer does not log out and the session cookie expires, the persistent cookie remains in effect.|
 
 ## Clear Persistence on Logout (Yes)
 
 {: .cookie-table }
-|![Continue Persistence After Logout - Yes]({% link images/images/retain-persistence-logout-a.png %})|**Yes**|When the customer logs in, invokes the persistent cookie in addition to the session cookie, which is already in use.|
+|![Continue Persistence After Logout - Yes]({% link sales/assets/retain-persistence-logout-a.png %})|**Yes**|When the customer logs in, invokes the persistent cookie in addition to the session cookie, which is already in use.|
 |![Continue Persistence After Logout - Yes]({% link sales/assets/retain-persistence-logout-c.png %})|**Yes**|When the customer logs out, deletes both cookies.|
-|![Continue Persistence After Logout - Yes]({% link images/images/retain-persistence-logout-b.png %})|**Yes**|If the customer does not log out but the session cookie expires, the persistent cookie remains in effect.|
+|![Continue Persistence After Logout - Yes]({% link sales/assets/retain-persistence-logout-b.png %})|**Yes**|If the customer does not log out but the session cookie expires, the persistent cookie remains in effect.|
 
 ## Persistent cart settings and effects
 

@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdi
 
 ## Transactional Email Settings
 
-![]({% link images/images/config-engagement-cloud-transactional-emails.png %}){: .zoom}
+![]({% link configuration/assets/ec-transactional-emails.png %}){: .zoom}
 _Transactional Email Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -23,7 +23,7 @@ _Transactional Email Settings_
 
 ## Email Templates
 
-![]({% link images/images/config-engagement-cloud-email-templates.png %}){: .zoom}
+![]({% link configuration/assets/ec-email-templates.png %}){: .zoom}
 _Email Templates_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

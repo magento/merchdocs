@@ -6,7 +6,7 @@ group: customers
 
 Creating a customer segment is similar to building a [cart price rule]({% link marketing/price-rules-cart.md %}), except that the options include customer segment-specific [attributes]({% link marketing/customer-segment-attributes.md %}).
 
-![Customer segments list]({% link images/images-ee/customer-segments.png %}){: .zoom}
+![Customer segments list]({% link marketing/assets/customer-segments.png %}){: .zoom}
 _Customer Segments list_
 
 The following example shows how to create a customer segment that targets female customers in Los Angeles.
@@ -21,7 +21,7 @@ The following example shows how to create a customer segment that targets female
 
 1. Verify that **Enable Customer Segment Functionality** is set to `Yes`.
 
-   ![Customers configuration - customer segments]({% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
+   ![Customers configuration - customer segments]({% link configuration/customers/assets/customer-configuration-customer-segments.png %}){: .zoom}
    [_Customer Segments enabled_]({% link configuration/customers/customer-configuration.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.
@@ -47,7 +47,7 @@ The following example shows how to create a customer segment that targets female
    {:.bs-callout-info}
    If you are creating a segment based on customer attributes stored in a customer account, it is a best practice to apply the segment to registered customers only.
 
-   ![Segment - general properties]({% link images/images-ee/customer-segment-saved.png %}){: .zoom}
+   ![Segment - general properties]({% link marketing/assets/customer-segment-saved.png %}){: .zoom}
    _Segment properties_
 
 1. Click <span class="btn">Save and Continue Edit</span>.
@@ -70,7 +70,7 @@ The following example shows how to create a customer segment that targets female
 
    The default condition begins, “If ALL of these conditions are TRUE:”.
 
-   ![Customer segment conditions]({% link images/images-ee/customer-segment-conditions.png %}){: .zoom}
+   ![Customer segment conditions]({% link marketing/assets/customer-segment-conditions.png %}){: .zoom}
    _Conditions_
 
 1. Create a condition to target female customers:
@@ -81,7 +81,7 @@ The following example shows how to create a customer segment that targets female
 
    - Click **...** and select `female`.
 
-   ![Customer segment condition]({% link images/images-ee/customer-segment-condition-line1.png %}){: .zoom}
+   ![Customer segment condition]({% link marketing/assets/customer-segment-condition-line1.png %}){: .zoom}
    _Condition line 1_
 
 1. Create another condition that targets residents of Los Angeles:
@@ -102,7 +102,7 @@ The following example shows how to create a customer segment that targets female
 
    - Click **...** and select `United States > California`.
 
-   ![Conditions for females in Los Angeles, California]({% link images/images-ee/customer-segment-conditions-la-ladies.png %}){: .zoom}
+   ![Conditions for females in Los Angeles, California]({% link marketing/assets/customer-segment-conditions-la-ladies.png %}){: .zoom}
    _Condition for females in Los Angeles_
 
 1. Click <span class="btn">Save and Continue Edit</span>.
@@ -111,7 +111,7 @@ The following example shows how to create a customer segment that targets female
 
 1. In the left pane, click **Matched Customers** to display all customers who match the condition.
 
-   ![Matched customers]({% link images/images-ee/customer-segment-matched-customers.png %}){: .zoom}
+   ![Matched customers]({% link marketing/assets/customer-segment-matched-customers.png %}){: .zoom}
    _Matched Customers_
 
 1. If the list of customers meets your goal, click <span class="btn">Save</span> to complete the customer segment.

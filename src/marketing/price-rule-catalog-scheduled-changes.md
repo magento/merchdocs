@@ -10,7 +10,7 @@ If there are multiple price rules running in the same campaign, the Priority set
 {:.bs-callout-info}
 If a campaign that includes a price rule is initially created without an end date, the campaign cannot be edited later to include an end date. It is recommended that you either add an end date when you create the campaign, or create a duplicate version of the existing campaign and add the end date to the duplicate as needed.
 
-![Catalog price rule - scheduled changes]({% link images/images-ee/price-rule-catalog-scheduled.png %}){: .zoom}
+![Catalog price rule - scheduled changes]({% link marketing/assets/price-rule-catalog-scheduled.png %}){: .zoom}
 _Scheduled Changes_
 
 ## Schedule an update to a catalog price rule
@@ -29,7 +29,7 @@ _Scheduled Changes_
 
     - Use the Calendar (![]({% link assets/icon-calendar.png %}){: .Inline}) to choose the **Start Date** and **End Date** for the scheduled change to be in effect. To create an open-ended change, leave the end date blank.
 
-    ![Catalog price rules - new scheduled changes]({% link images/images-ee/price-rule-catalog-schedule-update.png %}){: .zoom}
+    ![Catalog price rules - new scheduled changes]({% link marketing/assets/price-rule-catalog-schedule-update.png %}){: .zoom}
     _Add Scheduled Changes_
 
     {:.bs-callout-info}
@@ -60,14 +60,14 @@ _Scheduled Changes_
 
     The Preview opens a new browser tab that loads your storefront with the applied scheduled change. Navigate to a product that will be affected by the change.
 
-    ![]({% link images/images-ee/price-rule-catalog-scheduled-update-preview.png %}){: .zoom}
+    ![]({% link marketing/assets/price-rule-catalog-scheduled-update-preview.png %}){: .zoom}
     _Preview Scheduled Change_
 
 1. In the upper-left corner of the Preview window, click **Calendar**.
 
     The calendar detail shows other campaigns that are scheduled for the same day. Each record in the list is a separate rule update.
 
-    ![]({% link images/images-ee/price-rule-catalog-scheduled-preview-calendar.png %}){: .zoom}
+    ![]({% link marketing/assets/price-rule-catalog-scheduled-preview-calendar.png %}){: .zoom}
     _List of Scheduled Updates for a Specific Date_
 
 1. To preview a different day or time, click the **Date & Time** calendar ![]({% link assets/icon-calendar.png %}){: .Inline} and do the following:

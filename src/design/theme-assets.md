@@ -19,7 +19,7 @@ _Theme assets_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Static Files Settings** section.
 
-   ![]({% link images/images/config-advanced-developer-static-files-settings.png %}){: .zoom}
+   ![]({% link configuration/advanced/assets/developer-static-files-settings.png %}){: .zoom}
    *Static Files Settings*
 
 1. Set **Sign Static Files** to `Yes`.

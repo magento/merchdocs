@@ -4,10 +4,10 @@ title: Orders Workspace
 
 The Orders workspace lists all current orders, and gives you the ability to edit existing orders and [create new]({% link customers/customer-account-create-order.md %}) orders. Each row in the grid represents a customer order, and each column represents an attribute, or data field. Use the standard [controls]({% link stores/admin-grid-controls.md %}) to sort and filter the list, find orders, and apply [actions]({% link stores/admin-actions-control.md %}) to selected orders. Use the tabs above the pagination controls to filter the list, change the default view, change and rearrange columns, and export data.
 
-![]({% link images/images-ee/orders.png %}){: .zoom}
+![]({% link sales/assets/orders-grid.png %}){: .zoom}
 _Orders_
 
-## Workspace Controls
+## Workspace controls
 
 |Control|Description|
 |--- |--- |
@@ -35,7 +35,7 @@ _Orders_
 |Action|View opens the order in edit mode.|
 |Allocated sources| The sources allocated to that specific order.|
 
-### Additional Columns Available
+### Additional columns available
 
 |Billing Address|The billing address of the customer who placed the order.|
 |Shipping Address|The address where the order is to be shipped.|

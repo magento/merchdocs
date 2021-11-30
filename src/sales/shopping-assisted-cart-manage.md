@@ -5,7 +5,7 @@ title: Managing a Shopping Cart
 
 To begin an assisted shopping session, the customer must be logged into their account from the storefront to make the information available. If the customer does not have an account, you can [create one]({% link customers/account-create.md %}).
 
-![]({% link images/images-ee/customer-account-manage-cart-items.png %}){: .zoom}
+![]({% link sales/assets/customer-account-manage-cart-items.png %}){: .zoom}
 _Shopping Cart in in the customer account_
 
 ### Actions control
@@ -29,7 +29,7 @@ _Shopping Cart in in the customer account_
 
    All visitors to the store and logged in customers appear in the list.
 
-   ![]({% link images/images/customers-now-online.png %}){: .zoom}
+   ![]({% link customers/assets/customers-now-online.png %}){: .zoom}
    _Customers Now Online_
 
 ## Offer assisted shopping
@@ -42,12 +42,12 @@ _Shopping Cart in in the customer account_
 
    In the customer profile under _Personal Information_, the _Last Logged In_ date and time shows that the customer is currently online.
 
-   ![]({% link images/images-ee/customer-account-manage-cart.png %}){: .zoom}
+   ![]({% link sales/assets/customer-account-manage-cart.png %}){: .zoom}
    _Customer profile of an online customer_
 
 1. To enter assisted shopping mode, click **Manage Shopping Cart** in the top button bar.
 
-   ![]({% link images/images-ee/customer-manage-shopping-cart.png %}){: .zoom}
+   ![]({% link sales/assets/customer-manage-shopping-cart.png %}){: .zoom}
    _Assisted shopping mode_
 
 ## Add products to cart by attribute
@@ -70,12 +70,12 @@ _Shopping Cart in in the customer account_
 
 1. On the left above the grid, click **Add selections to my cart**.
 
-   ![]({% link images/images-ee/customer-account-manage-cart-order-products.png %}){: .zoom}
+   ![]({% link sales/assets/customer-account-manage-cart-order-products.png %}){: .zoom}
    _Add Product to Cart_
 
    The line item is added to the Shopping Cart at the top of the page.
 
-   ![]({% link images/images-ee/customer-account-manage-cart-update-cart.png %}){: .zoom}
+   ![]({% link sales/assets/customer-account-manage-cart-update-cart.png %}){: .zoom}
    _Cart Updated_
 
 ### Add a product with configuration
@@ -84,7 +84,7 @@ There are three types of products that need to be configured before adding to th
 
 1. In the grid, click **Configure** next to the product name.
 
-   ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product.png %}){: .zoom}
+   ![]({% link sales/assets/customer-account-manage-cart-order-configurable-product.png %}){: .zoom}
    _Configure_
 
 1. In the _Associated Products_ dialog, choose each product option to describe the item to be ordered, enter the **Quantity**, and click <span class="btn">OK</span>.
@@ -93,7 +93,7 @@ There are three types of products that need to be configured before adding to th
 
 1. To add the product to the cart, click **Add selections to my cart**.
 
-   ![]({% link images/images-ee/customer-account-manage-cart-order-configurable-product-cart.png %}){: .zoom}
+   ![]({% link sales/assets/customer-account-manage-cart-order-configurable-product-cart.png %}){: .zoom}
    _Configurable product in the cart_
 
 1. Update product options in the cart if needed:
@@ -114,15 +114,12 @@ There are three types of products that need to be configured before adding to th
 
 1. To order another product, click **Add another**.
 
-   ![]({% link images/images-ee/customer-account-manage-cart-order-product-by-sku.png %}){: .zoom}
+   ![]({% link sales/assets/customer-account-manage-cart-order-product-by-sku.png %}){: .zoom}
    _Add Products by SKU_
 
 1. Click **Add selections to my cart**.
 
 1. If the item is a configurable product, choose the product options when prompted, and then click **Add to Shopping Cart**.
-
-   ![]({% link images/images-ee/customer-account-manage-cart-order-product-by-sku.png %}){: .zoom}
-   _Add Products by SKU_
 
 ### Add products by uploading a CSV file
 

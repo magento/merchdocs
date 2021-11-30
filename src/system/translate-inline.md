@@ -9,7 +9,7 @@ The Translate Inline tool is available only when working in [developer mode]({% 
 
 See [Translations overview][1]{:target="_blank"} in the Commerce Developer Guide.
 
-![Example storefront - translatable text]({% link images/images/storefront-translate-inline.png %}){: .zoom}
+![Example storefront - translatable text]({% link system/assets/storefront-translate-inline.png %}){: .zoom}
 _Translatable Text_
 
 If your store is available in multiple languages, you can make fine adjustments to the translated text for the locale. On the server, interface text is maintained in a separate CSV file for each output block, and is organized by locale. As an alternate approach, rather than use the _Translate Inline_ tool, you can also edit the CSV files directly on the server.
@@ -29,7 +29,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
 1. Set the **Actions** control to `Disable` and click <span class="btn">Submit</span>.
 
-    ![Disable output caches]({% link images/images/output-cache-disable.png %}){: .zoom}
+    ![Disable output caches]({% link system/assets/output-cache-disable.png %}){: .zoom}
     _Disable Output Caches_
 
 ## Step 2: Enable the Translate Inline tool
@@ -46,7 +46,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
     The _Enabled for Admin_ option is not available when editing a specific store view.
 
-    ![Advanced configuration - translate inline]({% link images/images/config-advanced-developer-translate-inline.png %}){: .zoom}
+    ![Advanced configuration - translate inline]({% link configuration/advanced/assets/developer-translate-inline.png %}){: .zoom}
     [_Translate Inline_]({% link configuration/advanced/developer.md %})
 
 1. Set **Enabled for Storefront** to `Yes`.
@@ -108,7 +108,7 @@ To use the Translate Inline tool, your browser must allow pop-ups.
 
 Go to your storefront and examine each page that was updated to make sure the changes are correct. In this example, _Customer Login_ was changed to _Customer Sign In_. If changes were made to a specific view, use the Language Chooser to switch to the correct view.
 
-![Example storefront - translated customer sign in]({% link images/images/storefront-translate-inline-customer-sign-in.png %}){: .zoom}
+![Example storefront - translated customer sign in]({% link system/assets/storefront-translate-inline-customer-sign-in.png %}){: .zoom}
 _Customer Sign In_
 
 [1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/frontend-dev-guide/translations/xlate.html

@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## Dashboard
 
-![]({% link images/images/config-general-reports-dashboard.png %}){: .zoom}
+![]({% link configuration/general/assets/reports-dashboard.png %}){: .zoom}
 [_Dashboard_]({% link stores/admin-dashboard.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -16,7 +16,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 ## General Options
 
-![]({% link images/images/config-general-reports-genoptions.png %}){: .zoom}
+![]({% link configuration/assets/reports-genooptions.png %}){: .zoom}
 [_Dashboard_]({% link stores/admin-dashboard.md %})
 
 {:.bs-callout-info}

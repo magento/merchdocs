@@ -13,7 +13,7 @@ _Multisite Installation_
 
 1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the _Product in Websites_ section.
 
-    ![]({% link images/images/catalog-product-in-websites-multisite-main-french.png %}){: .zoom}
+    ![]({% link catalog/assets/catalog-product-in-websites-multisite-main-french.png %}){: .zoom}
     _Product in Websites_
 
 1. Select the checkbox of the website where you want to place the copied product.
@@ -22,7 +22,7 @@ _Multisite Installation_
 
 1. Choose the **Store View** where you want to make a copy of the existing product.
 
-    ![]({% link images/images/product-in-websites-multisite-copy-data.png %}){: .zoom}
+    ![]({% link catalog/assets/product-in-websites-multisite-copy-data.png %}){: .zoom}
     _Product in Websites_
 
 1. Click <span class="btn">Save</span> and do the following:

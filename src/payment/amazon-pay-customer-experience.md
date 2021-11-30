@@ -6,27 +6,27 @@ Customers can speed through checkout by using the payment methods and shipping a
 
 International customers may also have an option to select their preferred currency if you list prices in more than one currency. This multi-currency support allows customers to complete purchases without worrying about currency conversions or rates.
 
-![Amazon Pay on Product Page]({% link images/images/storefront-product-amazon-pay.png %}){: .zoom}
+![Amazon Pay on Product Page]({% link payment/assets/storefront-product-amazon-pay.png %}){: .zoom}
 _Amazon Pay on a product page_
 
 The following information describes the customer experience using Amazon Pay when placing an order from the storefront.
 
 1. To begin the checkout process, click <span class="btn">Amazon Pay</span> and enter your Amazon credentials.
 
-   ![Shipping Addresses]({% link images/images/payments-amazon-pay-checkout-step1-addresses.png %}){: .zoom}
+   ![Shipping Addresses]({% link payment/assets/amazon-step1-addresses.png %}){: .zoom}
    _Shipping Addresses_
 
 1. Choose the **shipping address** from your Amazon Address Book.
 
    The pagination indicator shows how many addresses are available. However, only four can be displayed at a time.
 
-   - Click the arrow (![]({% link images/images/btn-next2.png %})) to view all available options.
+   - Click the arrow (![]({% link payment/assets/amazon-pay-icon-next.png %})) to view all available options.
 
    - To add a new address to the Address Book, click **Add new**.
 
    - If you prefer, click **Return to standard checkout**.
 
-   ![Amazon Pay Address Book]({% link images/images/payments-amazon-pay-checkout-widget-step1-addresses.png %}){: .zoom}
+   ![Amazon Pay Address Book]({% link payment/assets/amazon-step1-addresses.png %}){: .zoom}
    _Amazon Pay Address Book_
 
 1. Choose the **Shipping Method** that you want to use for the order and click <span class="btn">Next</span>.
@@ -35,14 +35,14 @@ The following information describes the customer experience using Amazon Pay whe
 
    The standard Admin Commerce and Magento Open Source payment methods are replaced with the payment methods that are available in the Amazon account. The pagination indicator shows how many payment methods are available. However, only four can be viewed at a time.
 
-   ![Review and Payments]({% link images/images/payments-amazon-pay-checkout-step2-review-payments.png %}){: .zoom}
+   ![Review and Payments]({% link payment/assets/amazon-step2-review.png %}){: .zoom}
    _Review & Payments_
 
-   - Click the arrow (![]({% link images/images/btn-next2.png %})) to view all available options.
+   - Click the arrow (![]({% link payment/assets/amazon-pay-icon-next.png %})) to view all available options.
 
    - Choose the **Payment Method** to use for the purchase.
 
-   ![Amazon Pay Payment Method]({% link images/images/payments-amazon-pay-checkout-widget-step2-review-payments.png %}){: .zoom}
+   ![Amazon Pay Payment Method]({% link payment/assets/amazon-review-payments.png %}){: .zoom}
    _Amazon Pay Payment Method_
 
 1. Enter a **Discount Code**, if applicable.

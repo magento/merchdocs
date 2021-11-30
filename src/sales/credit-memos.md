@@ -4,7 +4,7 @@ title: Credit Memos
 
 A credit memo is a document that shows the amount that is due the customer for a full or partial refund. The amount can be applied toward a purchase or refunded to the customer. You can print a credit memo for a single order, or for multiple orders as a batch. Before a credit memo can be printed, it must first be generated for the order. The Credit Memos view (Sales > Credit Memos) lists the credit memos that have been issued to customers.
 
-![]({% link images/images/sales-credit-memos.png %}){: .zoom}
+![]({% link sales/assets/credit-memos.png %}){: .zoom}
 _Credit Memos_
 
 ## Refund method

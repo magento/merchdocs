@@ -15,7 +15,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
 1. Click <span class="btn">Add New Variable</span>.
 
-   ![Custom variables]({% link images/images/variables-custom.png %}){: .zoom}
+   ![Custom variables]({% link system/assets/variables-custom.png %}){: .zoom}
    _Custom Variables_
 
 1. Enter an identifier for **Variable Code**, using all lowercase characters without spaces.
@@ -34,7 +34,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
    {:.bs-callout-info}
    If you need more room, drag the lower-right corner of the text box.
 
-   ![New custom variable]({% link images/images/variable-custom-add.png %}){: .zoom}
+   ![New custom variable]({% link system/assets/variable-custom-add.png %}){: .zoom}
    _New Custom Variable_
 
 1. When complete, click <span class="btn">Save</span>.
@@ -52,7 +52,7 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
 1. Select the option for the custom variable that you want to insert and click <span class="btn">Insert Variable</span>.
 
-   ![New custom variable]({% link images/images/variable-custom-insert-select.png %}){: .zoom}
+   ![New custom variable]({% link marketing/assets/variable-custom-insert-select.png %}){: .zoom}
    _Select Custom Variable_
 
    A command to insert the variable is enclosed in curly braces and added to the code at the cursor location. For example:
@@ -79,17 +79,17 @@ Only allowed [predefined]({% link marketing/variables-predefined.md %}) or custo
 
 1. At the far right of the editor toolbar, click (![]({% link cms/assets/editor-btn-insert-variable.png %})) to insert a variable.
 
-   ![Page Builder stage]({% link images/images-ee/variable-custom-pagebuilder-stage.png %}){: .zoom}
+   ![Page Builder stage]({% link marketing/assets/variable-custom-pagebuilder-stage.png %}){: .zoom}
    _PageBuilder Stage and Panel_
 
 1. In the list, select the custom variable that you want to insert and click <span class="btn">Insert Variable</span>.
 
-   ![New custom variable]({% link images/images-ee/variable-custom-insert-select.png %}){: .zoom}
+   ![New custom variable]({% link marketing/assets/variable-custom-insert-select.png %}){: .zoom}
    _Select Custom Variable_
 
    The variable identifier appears as a placeholder in the editor.
 
-   ![Page Builder stage]({% link images/images-ee/pagebuilder-variable-inserted.png %}){: .zoom}
+   ![Page Builder stage]({% link marketing/assets/pagebuilder-variable-inserted.png %}){: .zoom}
    _Variable Placeholder_
 
 1. When complete, click <span class="btn">Save</span>.

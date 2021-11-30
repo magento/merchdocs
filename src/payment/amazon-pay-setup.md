@@ -25,7 +25,7 @@ You must have the following resources available to complete the Amazon Pay setup
 
 1. For _Amazon Pay_, click <span class="btn">Configure</span>.
 
-   ![Sales configuration - Amazon Pay]({% link images/images/config-sales-payment-methods-amazon-pay.png %}){: .zoom}
+   ![Sales configuration - Amazon Pay]({% link configuration/sales/assets/payment-methods-amazon-pay.png %}){: .zoom}
    [_Amazon Pay_]({% link configuration/sales/amazon-pay.md %})
 
 1. If you do not have your registered Amazon Pay account information, click <span class="btn">Get started with account registration</span> to register a new account through Amazon Seller Central.
@@ -45,7 +45,7 @@ Your credentials are transferred automatically from your Amazon Pay account to t
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Credentials** section.
 
-   ![Sales configuration - Amazon Pay credentials]({% link images/images/config-sales-payment-methods-amazon-pay-credentials.png %}){: .zoom}
+   ![Sales configuration - Amazon Pay credentials]({% link configuration/sales/assets/payment-methods-amazon-pay-credentials.png %}){: .zoom}
    _Amazon Pay credentials_
 
 1. Select the **Test Credentials** checkbox.
@@ -105,7 +105,7 @@ When you are through testing and ready to go live with Amazon Pay, return to the
    | Data Polling via Cron job | (Default) Uses the standard Commerce notification process that is scheduled by [Cron]({% link system/cron.md %}) job. |
    | Instant Payment Notifications | (IPN) Sends notifications to the Instant Payment Notification URL. |
 
-   ![Sales configuration - Amazon Pay options]({% link images/images/config-sales-payment-methods-amazon-pay-options.png %}){: .zoom}
+   ![Sales configuration - Amazon Pay options]({% link configuration/sales/assets/payment-methods-amazon-pay-options.png %}){: .zoom}
    [_Amazon Pay options_]({% link configuration/sales/amazon-pay.md %})
 
 ## Advanced
@@ -150,7 +150,7 @@ The following are advanced setup and configuration options for Amazon Pay.
    - **Show Amazon Pay button in minicart**
    - **Show Amazon Pay in payment methods**
 
-   ![]({% link images/images/config-sales-payment-methods-amazon-pay-advanced-frontend.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/payment-methods-amazon-pay-advanced-frontend.png %}){: .zoom}
    [_Frontend_]({% link configuration/sales/amazon-pay.md %})
 
 ### Sales Options
@@ -159,7 +159,7 @@ The following are advanced setup and configuration options for Amazon Pay.
 
 1. Enter the **Store Name**.
 
-   ![Sales configuration - Amazon Pay sales options]({% link images/images/config-sales-payment-methods-amazon-pay-advanced-sales-options.png %}){: .zoom}
+   ![Sales configuration - Amazon Pay sales options]({% link configuration/sales/assets/payment-methods-amazon-pay-advanced-sales-options.png %}){: .zoom}
    [_Sales Options_]({% link configuration/sales/amazon-pay.md %})
 
 1. If you have a payment region in EU or UK, you may have an option for **Use Multi-currency**.
@@ -182,7 +182,7 @@ The following are advanced setup and configuration options for Amazon Pay.
    - Swiss Franc (CHF)
    - United States Dollar (USD)
 
-   ![Sales configuration - Amazon Pay multi-currency]({% link images/images/amazon-pay-multi-currency.png %}){: .zoom}
+   ![Sales configuration - Amazon Pay multi-currency]({% link payment/assets/amazon-pay-multi-currency.png %}){: .zoom}
    [_Amazon Pay configuration - Sales Options with multi-currency_]({% link configuration/sales/amazon-pay.md %})
 
 ### Developer Options
@@ -197,7 +197,7 @@ The following are advanced setup and configuration options for Amazon Pay.
 
    Enter the IP address of each, separated by a comma. The specified IP addresses are added to an allow list. When this field is blank, the buttons are available for all IP addresses.
 
-   ![Sales configuration - Amazon Pay developer options]({% link images/images/config-sales-payment-methods-amazon-pay-developer-options.png %}){: .zoom}
+   ![Sales configuration - Amazon Pay developer options]({% link configuration/sales/assets/payment-methods-amazon-pay-developer-options.png %}){: .zoom}
    _Amazon Pay configuration - Developer Options_
 
 ## Complete the configuration

@@ -33,7 +33,7 @@ If your store has multiple views in different languages, the same products are a
 
 1. In the _Manage Titles_ section, enter a translated label for each store view.
 
-    ![]({% link images/images/product-attribute-labels-translate.png %}){: .zoom}
+    ![]({% link catalog/assets/product-attribute-labels-translate.png %}){: .zoom}
     _Enter Translated Labels_
 
 1. When complete, click <span class="btn">Save Attribute</span>.
@@ -64,7 +64,7 @@ If your store has multiple views in different languages, the same products are a
 
     - Make sure that the **Create Permanent Redirect for old URL** checkbox is selected.
 
-    ![]({% link images/images/category-translate-url-key.png %})
+    ![]({% link catalog/assets/category-translate-url-key.png %})
 
 1. When complete, click <span class="btn">Save Category</span>.
 
@@ -78,12 +78,12 @@ If your store has multiple views in different languages, the same products are a
 
 1. Choose **Manage Label** on the left and set the **Managed Titles** options to define the attribute title translations.
 
-    ![]({% link images/images/manage-label-tab.png %}){: .zoom}
+    ![]({% link catalog/assets/manage-label-tab.png %}){: .zoom}
     _Manage Titles_
 
 1. Choose **Properties** on the left and enter the translated attribute options in the **Manage Options** section.
 
-    ![]({% link images/images/manage-option-tab.png %}){: .zoom}
+    ![]({% link catalog/assets/manage-option-tab.png %}){: .zoom}
     _Manage Options_
 
 1. When complete, click <span class="btn">Save Attribute</span>.

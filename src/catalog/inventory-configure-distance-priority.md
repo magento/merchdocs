@@ -29,7 +29,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 1. To enable the platform, select **Maps, Routes, and Places** and click **Continue**.
 
-    ![]({% link images/images/config-catalog-catalog-inventory-google-key1.png %}){: .zoom}
+    ![]({% link catalog/assets/inventory-google-key1.png %}){: .zoom}
     _Google Maps Platform for your Key_
 
 1. Sign in with a Google account or create a new account.
@@ -52,14 +52,14 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
    - Expand the menu and click **APIs & Services** > **Library**.
 
-      ![]({% link images/images/config-catalog-catalog-inventory-google-key2.png %})
+      ![]({% link catalog/assets/inventory-google-key2.png %})
       _Google API Services_
 
    - Search for [Geocoding API][2] and [Distance Matrix API][3]. Select and enable each service.
 
 1. Expand the menu, click **APIs & Services** > **Credentials**, and copy the Google API Key.
 
-    ![]({% link images/images/config-catalog-catalog-inventory-google-key3.png %}){: .zoom}
+    ![]({% link catalog/assets/inventory-google-key3.png %}){: .zoom}
     _Google API Key Copy_
 
 ### Step 2: Configure the Google MAP Provider
@@ -70,7 +70,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the _Distance Provider for Distance Based SSA_ section and set **Provider** to `Google MAP`.
 
-    ![]({% link images/images/config-catalog-catalog-inventory-distance-provider.png %}){: .zoom}
+    ![]({% link configuration/catalog/assets/catalog-inventory-distance-provider.png %}){: .zoom}
     _Distance Providers for Distance Based SSA_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the _Google Distance Provider_ section and configure the settings:
@@ -91,7 +91,7 @@ The key is from the [Google Maps Platform][1] and should have [Geocoding API][2]
       | Distance | (Default) Returns the distance between points in metrics (kilometers and meters) or imperial (miles and feet). |
       | Time to Destination | Returns the time required to travel from the source locations to the shipping address in hours and minutes. |
 
-    ![]({% link images/images/config-catalog-catalog-inventory-distance-provider-settings.png %}){: .zoom}
+    ![]({% link configuration/catalog/assets/catalog-inventory-distance-provider-settings.png %}){: .zoom}
     _Google Distance Provider_
 
 1. When complete, click <span class="btn">Save Config</span>.
@@ -119,7 +119,7 @@ Complete these commands anytime you need to add more geocodes.
 
 1. Deselect the **Use system value** checkbox and set **Provider** to `Offline Calculation`.
 
-    ![]({% link images/images/config-catalog-catalog-inventory-distance-offline.png %}){: .zoom}
+    ![]({% link catalog/assets/inventory-distance-offline.png %}){: .zoom}
     _Distance Providers for Distance Based SSA_
 
 1. When complete, click <span class="btn">Save Config</span>.

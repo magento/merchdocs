@@ -6,7 +6,7 @@ A downloadable product can be anything that you can deliver as a file, such as a
 
 Because the actual download is not available until after the purchase, you can provide samples, such as an excerpt from a book, a clip from an audio file, or a trailer from a video that the customer can try before purchasing the product. The files that you make available for download can be either uploaded to your server or from a different server.
 
-![]({% link images/images/storefront-product-downloadable.png %}){: .zoom}
+![]({% link catalog/assets/storefront-product-downloadable.png %}){: .zoom}
 _Downloadable Product_
 
 Downloadable products can be configured to require that the customer log in to an account to receive the link or can be sent by email and shared with others. The status of the order before the download becomes available, default values, and other delivery options are set in the configuration. Fore more information, see [Download Options]({% link catalog/product-download-options.md %}).
@@ -20,7 +20,7 @@ Downloadable file names can include letters and numbers. Either a dash or unders
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose `Downloadable Product`.
+1. On the _Add Product_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu at the upper-right corner, choose `Downloadable Product`.
 
     ![]({% link catalog/assets/product-add-downloadable.png %}){: .zoom}
     _Add Downloadable Product_
@@ -37,7 +37,7 @@ To choose the attribute set that is used as a template for the product, do one o
 
 The form is updated to reflect the change.
 
-![]({% link images/images/product-create-choose-attribute-set-downloadable.png %}){: .zoom}
+![]({% link catalog/assets/product-create-choose-attribute-set-downloadable.png %}){: .zoom}
 _Choose Attribute Set_
 
 ## Step 3: Complete the required settings
@@ -56,7 +56,7 @@ _Choose Attribute Set_
 
 1. Choose the **Store View** where the product is to be available.
 
-    ![]({% link images/images/product-create-store-view-choose.png %}){: .zoom}
+    ![]({% link catalog/assets/product-create-store-view-choose.png %}){: .zoom}
     _Choose Store View_
 
 ## Step 4: Complete the basic settings
@@ -72,7 +72,7 @@ _Choose Attribute Set_
 
    - By default, **Stock Status** is set to `Out of Stock`.
 
-   - Because downloadable products are not shipped, the **Weight** field is not used.
+   - Because downloadable products are not shipped, the **Weight** field is not used. If you enable this feature, it becomes a [Simple product]({% link catalog/product-create-simple.md %}) and the _Is this downloadable product?_ tab cannot be used.
 
     {:.bs-callout-info}
     **Inventory Management:** If you enable [Inventory Management]({% link catalog/inventory-management.md %}), Single Source merchants set the quantity in this section. Multi Source merchants add sources and quantities in the Sources section. See the following _Assign Sources and Quantities (Inventory Management)_ section.
@@ -104,7 +104,7 @@ _Choose Attribute Set_
 
    If necessary, you can edit the [attribute]({% link stores/attribute-product-create.md %}) to add more values.
 
-    ![]({% link images/images/product-details-downloadable.png %}){: .zoom}
+    ![]({% link catalog/assets/product-details-downloadable.png %}){: .zoom}
     _Product Details_
 
    There might be additional attributes that describe the product. The selection varies by attribute set and you can complete them later.
@@ -117,7 +117,7 @@ Scroll down, expand ![]({% link assets/icon-display-expand.png %}) the _Download
 
 The _Downloadable Information_ section has two parts. The first part describes each download link, and the second part describes each sample file. The default value for many of these options can be set in the [configuration]({% link catalog/product-download-options.md %}).
 
-![]({% link images/images/product-downloadable-information.png %}){: .zoom}
+![]({% link catalog/assets/product-downloadable-information.png %}){: .zoom}
 _Downloadable Information_
 
 ### Complete the links
@@ -135,6 +135,9 @@ _Downloadable Information_
       |Upload File|Choose this method to upload the distribution file to the server. Browse to the file and select it for upload.|
       |URL|Choose this method to access the distribution file from a URL. Enter the full URL to the download file.|
 
+   {:.bs-callout-info}
+   You cannot use links to external resources as downloadable products. Valid link domains are predefined programmatically in the `env.php` file (see [env.php reference](https://devdocs.magento.com/guides/v2.4/config-guide/prod/config-reference-envphp.html#downloadable_domains) in the developer documentation).
+
    - Set **Shareable** to one of the following:
 
       |No|Requires customers to log in to their accounts to access the download link.|
@@ -146,7 +149,7 @@ _Downloadable Information_
       - To limit downloads per customer, enter the number of **Max. Downloads**.
       - To allow unlimited downloads, select the **Unlimited** checkbox.
 
-    ![]({% link images/images/product-downloadable-link-detail.png %}){: .zoom}
+    ![]({% link catalog/assets/product-downloadable-link-detail.png %}){: .zoom}
     _Link Detail_
 
 1. To add another link, click <span class="btn">Add Link</span> and repeat these steps.
@@ -157,7 +160,7 @@ _Downloadable Information_
 
 1. To complete the information for each sample, click <span class="btn">Add Link</span>.
 
-    ![]({% link images/images/product-downloadable-samples.png %}){: .zoom}
+    ![]({% link catalog/assets/product-downloadable-samples.png %}){: .zoom}
     _Samples_
 
 1. Complete the link detail as follows:
@@ -171,7 +174,7 @@ _Downloadable Information_
 
    - To add another sample, click <span class="btn">Add Link</span> and repeat these steps.
 
-   - To change the order of the samples, grab the **Change Order** ( ![]({% link images/images/btn-sort-order-inline.png %}) ) icon and drag the sample to a new position.
+   - To change the order of the samples, grab the **Change Order** ( ![]({% link assets/icon-sort-order.png %}) ) icon and drag the sample to a new position.
 
 ## Step 6: Complete the product information
 
@@ -203,9 +206,9 @@ If you are ready to publish the product in the catalog, set **Enable Product** t
 
 - **Method 2:** Save and Close
 
-   On the _Save_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}) ) menu, choose **Save & Close**.
+   On the _Save_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Save & Close**.
 
-   ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
+   ![]({% link catalog/assets/product-edit-save-close.png %}){: .zoom}
    _Save & Close_
 
 ## Things to remember

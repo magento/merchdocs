@@ -4,7 +4,7 @@ title: Elements - Text
 
 Use the _Text_ content type to add a text container with a WYSIWYG (“What You See Is What You Get”) editor in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). In addition, you can add links, images, [variables]({% link marketing/variables.md %}), and widgets to the text from the editor toolbar.
 
-![]({% link images/images-ee/page-builder-storefont-banner-with-button.png %}){: .zoom}
+![]({% link cms/assets/pb-storefont-banner-with-button.png %}){: .zoom}
 _Formatted text on a banner_
 
 {% include page-builder-save-timeout.md %}
@@ -13,36 +13,36 @@ _Formatted text on a banner_
 
 You can access the text editor directly from the stage or from a settings page. Changes made directly to the stage are saved automatically. For more information, see [Using the Editor]({% link cms/editor.md %}).
 
-![]({% link images/images-ee/page-builder-elements-text-editor-tools.png %}){: .zoom}
+![]({% link cms/assets/pb-elements-text-editor-tools.png %}){: .zoom}
 _Text editor tool - TinyMCE 4_
 
 ## Text container toolbox
 
-![]({% link images/images-ee/page-builder-elements-text-toolbox.png %}){: .zoom}
+![]({% link cms/assets/pb-elements-text-toolbox.png %}){: .zoom}
 _Text container toolbox_
 
 | Tool      | [Icon]({% link configuration/scope.md %}) | Description    |
 | --------- | ----------------------------------------- | -------------- |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %})| Moves the text container to another valid place on the page. |
+| Move      | ![]({% link cms/assets/pb-icon-move.png %})| Moves the text container to another valid place on the page. |
 | (label)   | TEXT      | Identifies the current container as a text element.          |
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %})  | Opens the text container properties in edit mode.|
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})      | Hides the text container. |
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %})      | Shows the hidden text container. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the text container. |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})    | Deletes the text container and its content from the stage. |
+| Settings  | ![]({% link cms/assets/pb-icon-settings.png %})  | Opens the text container properties in edit mode.|
+| Hide      | ![]({% link cms/assets/pb-icon-hide.png %})      | Hides the text container. |
+| Show      | ![]({% link cms/assets/pb-icon-show.png %})      | Shows the hidden text container. |
+| Duplicate | ![]({% link cms/assets/pb-icon-duplicate.png %}) | Makes a copy of the text container. |
+| Remove    | ![]({% link cms/assets/pb-icon-remove.png %})    | Deletes the text container and its content from the stage. |
 
 ## Add text
 
 1. In the Page Builder panel, expand **Elements** and drag a **Text** placeholder to a row, column, or tab set on the stage.
 
-   ![]({% link images/images-ee/page-builder-elements-text-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-text-drag.png %}){: .zoom}
    _Dragging a text placeholder to the stage_
 
 1. Use the editor to enter and format text, as needed.
 
    For more information, see [Using the Editor]({% link cms/editor.md %}).
 
-   ![]({% link images/images-ee/page-builder-elements-text-editor.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-text-editor.png %}){: .zoom}
    _Text editor with content_
 
 ## Create a link
@@ -59,9 +59,9 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
    | Full URL     | https://mystore.com/women/tops-women/tees-women.html |
    | Relative URL | ../women/tops-women/tees-women.html                  |
 
-1. Select the text in the editor space and click Insert/edit link (![]({% link images/images-ee/icon-pb-add-link.png %})) on the editor toolbar.
+1. Select the text in the editor space and click Insert/edit link (![]({% link cms/assets/pb-icon-add-link.png %})) on the editor toolbar.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-column-text-editor-link-insert.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-column-text-editor-link-insert.png %}){: .zoom}
    _Adding a link to formatted text_
 
 1. For **Url**, enter the relative link that you prepared.
@@ -76,14 +76,14 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 
 1. Click <span class="btn">OK</span> to save the link and return to the Page Builder workspace.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-column-text-editor-link-insert-detail.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-column-text-editor-link-insert-detail.png %}){: .zoom}
    _Link detail_
 
 ## Insert an image
 
 1. Place the cursor in the text where you want to insert the image.
 
-1. Click Insert/edit image (![]({% link images/images-ee/icon-pb-add-image.png %})) on the editor toolbar.
+1. Click Insert/edit image (![]({% link cms/assets/icon-pb-add-image.png %})) on the editor toolbar.
 
 1. For **Source**, click the search icon to use the media storage for locating and selecting an image.
 
@@ -99,7 +99,7 @@ To create a link for a telephone number or email, see [Adding Custom Variables](
 
 ## Change text settings
 
-1. Hover over the text container to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the text container to display the toolbox and choose the _Settings_ ( ![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
    {:.bs-callout-info}
    Because the text container is tightly nested inside another container, make sure that you have the correct toolbox.

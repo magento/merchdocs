@@ -13,5 +13,5 @@ When the installation, synchronization, and configuration of [Commerce Services]
 
 For full instructions, see [Install Live Search]({{ site.devdocs_url }}/live-search/install.html) in the developer documentation.
 
-![Marketing menu - Live Search]({% link images/images-ee/admin-menu-marketing-ee.png %}){: .zoom}
+![Marketing menu - Live Search]({% link marketing/assets/admin-menu-marketing-ee.png %}){: .zoom}
 _Live Search_

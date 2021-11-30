@@ -84,19 +84,19 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    This setting determines the selection of PayPal Solutions that appear in the configuration.
 
-   ![Merchant country]({% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
+   ![Merchant country]({% link configuration/sales/assets/payment-methods-merchant-location.png %}){: .zoom}
    _Merchant country_
 
 1. Under **Recommended Solutions**, click <span class="btn">Configure</span> for **PayPal Express Checkout**.
 
-   ![]({% link images/images/config-sales-payment-methods-paypal-express-checkout.png %}){: .zoom}
+   ![]({% link payment/assets/paypal-express-checkout.png %}){: .zoom}
    _Configure_
 
 ### Step 2: Enable and connect your PayPal account
 
 1. If needed, expand ![]({% link assets/icon-display-expand.png %}) the **Required PayPal Settings** section.
 
-   ![Connect your PayPal account]({% link images/images/config-sales-payment-methods-paypal-express-required.png %}){: .zoom}
+   ![Connect your PayPal account]({% link payment/assets/paypal-express-required.png %}){: .zoom}
    _Required PayPal Settings - PayPal account connection_
 
 1. Connect your account for test or production:
@@ -123,7 +123,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. If needed, expand ![]({% link assets/icon-display-expand.png %}) the **Express Checkout** section.
 
-   ![Required Settings]({% link images/images/config-sales-payment-methods-paypal-express-checkout-settings.png %}){: .zoom}
+   ![Required Settings]({% link payment/assets/paypal-express-settings.png %}){: .zoom}
    _PayPal Express Checkout settings_
 
 1. (Optional) Enter the **Email Associated with PayPal Merchant Account**.
@@ -172,7 +172,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Enter your **Publisher ID**.
 
-     ![Advertise PayPal Credit]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
+     ![Advertise PayPal Credit]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
      _Advertise PayPal Credit_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Home Page** section.
@@ -193,7 +193,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
    - `728 x 90`
    - `800 x 66`
 
-   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
+   ![Advertise PayPal Credit Home Page Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
    _Advertise PayPal Credit - Home Page settings_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the remaining sections and repeat the previous steps:
@@ -269,7 +269,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
    - `Monochrome`
    - `Grayscale`
 
-   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png %}){: .zoom}
+   ![Advertise PayPal Credit Home Page Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png %}){: .zoom}
    _Advertise PayPal PayLater - Home Page settings_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the remaining sections and repeat the previous steps:
@@ -283,7 +283,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Basic Settings - PayPal Express Checkout** section.
 
-   ![Basic Settings]({% link images/images/config-sales-payment-methods-paypal-express-checkout-basic-settings.png %}){: .zoom}
+   ![Basic Settings]({% link configuration/sales/assets/payment-methods-paypal-express-checkout-basic-settings.png %}){: .zoom}
    _Basic Settings - PayPal Express Checkout_
 
 1. Enter a **Title** to identify this payment method during checkout.
@@ -312,7 +312,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
-   ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-express-checkout-advanced-settings.png %}){: .zoom}
+   ![Advanced Settings]({% link configuration/sales/assets/payment-methods-paypal-express-checkout-advanced-settings.png %}){: .zoom}
    _Advanced Settings - PayPal Express Checkout_
 
 1. Set **Display on Shopping Cart** to `Yes`.
@@ -378,7 +378,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **PayPal Billing Agreement Settings** section.
 
-   ![Billing Agreement Settings]({% link images/images/config-sales-payment-methods-paypal-express-checkout-billing-agreement-settings.png %}){: .zoom}
+   ![Billing Agreement Settings]({% link configuration/sales/assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png %}){: .zoom}
    _Billing Agreement Settings - PayPal Payments Standard_
 
 1. Set **Enabled** to `Yes`.
@@ -412,7 +412,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Settlement Report Settings** section.
 
-   ![Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
+   ![Settlement Report Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
    _Settlement Report Settings - PayPal Payments Standard_
 
 1. For **SFTP Credentials**, do the following:
@@ -456,7 +456,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Frontend Experience Settings** section.
 
-   ![Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
+   ![Frontend Experience Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
    _Frontend Experience Settings - PayPal Payments Standard_
 
 1. Select the **PayPal Product Logo** that you want to appear in the PayPal block in your store.
@@ -503,7 +503,7 @@ To customize buttons, expand ![]({% link assets/icon-display-expand.png %}) each
 - **Cart Page**
 - **Mini Cart**
 
-![Checkout Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings2.png %}){: .zoom}
+![Checkout Page Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png %}){: .zoom}
 _Customize Smart Buttons settings - Checkout Page_
 
 To configure the button display for each page type:
@@ -550,7 +550,7 @@ Features settings allow you to disable certain features related to this PayPal s
 
 1. Expand ![]({% link assets/icon-display-expand.png %})the **Features** section.
 
-   ![Checkout Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings3.png %}){: .zoom}
+   ![Checkout Page Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png %}){: .zoom}
    _Features - PayPal Express Checkout_
 
 1. Set the **Disable Funding Options** to determine which other PayPal funding options are displayed on the Checkout page.

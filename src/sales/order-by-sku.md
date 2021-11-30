@@ -5,7 +5,7 @@ title: Order by SKU
 
 Order by SKU is a [widget]({% link cms/widgets.md %}) that can be displayed in the store as a convenience for all shoppers, or made available to only those in specific customer groups. Shoppers can either enter the SKU and quantity information directly into the Order by SKU block, or upload a csv file from their customer account. Regardless of the configuration, Order by SKU is always available to store administrators.
 
-![]({% link images/images/storefront-order-by-sku.png %}){: .zoom}
+![]({% link sales/assets/storefront-order-by-sku.png %}){: .zoom}
 _Order by SKU in the Storefront_
 
 ## Order by SKU from the storefront
@@ -54,7 +54,7 @@ _Order by SKU in the Storefront_
     - **Yes, for Specified Customer Groups** – Order by SKU is available only to members of a specific customer group, such as `Wholesale`.
     - **No** – The Order by SKU block does not appear in the storefront, and the Order by SKU page is not available in the  customer account.
 
-      ![]({% link images/images/config-sales-sales-order-by-sku-settings.png %}){: .zoom}
+      ![]({% link configuration/sales/assets/sales-order-by-sku-settings.png %}){: .zoom}
       _Order by SKU Settings_
 
 1. Click **Save Config**.

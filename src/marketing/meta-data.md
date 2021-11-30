@@ -11,25 +11,23 @@ _Web Browser - Meta Title_
 
 The meta title appears in the title bar and tab of your browser and search results listings. The meta title should be unique to the page, and less than seventy characters in length.
 
-![Product settings - search engine optimization]({% link images/images/product-basic-settings-search-engine-optimization-yoga-strap.png %}){: .zoom}
+![Product settings - search engine optimization]({% link marketing/assets/product-basic-settings-search-engine-optimization-yoga-strap.png %}){: .zoom}
 
 ## Meta Keywords
 
 Although some search engines ignore meta keywords, others continue to use them. The current best practice is to incorporate high-value keywords in the meta title and meta description.
 
-![Web browser search - meta keywords]({% link images/images/storefront-meta-description.png %}){: .zoom}
+![Web browser search - meta keywords]({% link marketing/assets/storefront-meta-description.png %}){: .zoom}
 
 ## Meta Description
 
 Meta descriptions provide a brief overview of the page for search results listings. Ideally, a meta description should be between 150-160 characters in length, although the field will accept up to 255 characters.
 
-![Catalog configuration - search engine optimization]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
+![Catalog configuration - search engine optimization]({% link configuration/catalog/assets/catalog-search-engine-optimization.png %}){: .zoom}
 
 ## Canonical Meta Tag
 
 The [canonical meta tag]({% link marketing/meta-canonical.md %}) tells search engines which page to index when multiple URLs have identical or very similar content.
-
-![Web browser search - canonical URL search results]({% link images/images/storefront-meta-description.png %}){: .zoom}
 
 ## Rich Snippets
 

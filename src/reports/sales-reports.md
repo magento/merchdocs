@@ -48,7 +48,7 @@ The [Coupons Report]({% link marketing/price-rules-cart-coupon-report.md %}) can
 
 ## PayPal Settlement
 
-![]({% link images/images/reports-sales-paypal-settlement.png %}){: .zoom}
+![]({% link payment/assets/reports-sales-paypal-settlement.png %}){: .zoom}
 *PayPal Settlement Report*
 
 The [PayPal Settlement Report]({% link payment/paypal-settlement-reports.md %}) can be filtered by date, merchant account, transaction ID, invoice ID, or PayPal reference ID. The report includes the type of event, such as a debit card transaction, the start and finish dates, gross amount, and related fees. The report can be automatically updated with the most current data from PayPal.

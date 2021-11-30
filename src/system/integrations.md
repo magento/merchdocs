@@ -56,10 +56,24 @@ By default, a saved integration appears on the grid with an _Inactive_ status. T
 
    This displays the Integration Tokens for Extensions. Copy this information to a secure, encrypted location for use with your integration.
 
-   ![Integration Tokens for Extensions]({% link images/images/integration-tokens-for-extensions.png %}){: .zoom}
+   ![Integration Tokens for Extensions]({% link system/assets/integration-tokens-for-extensions.png %}){: .zoom}
    _Integration Tokens for Extensions_
 
 1. In the upper-right corner, click <span class="btn">Done</span>.
+
+## Reauthorize an integration
+
+To generate a new Integration Access Token and Access Token Secret, re-authorized the integration from the Admin Panel.
+
+1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
+
+1. Find the integration with the **Active** status.
+
+1. Click the __Reauthorize__ button in **Activate** column.
+
+1. Click <span class="btn">Reauthorize</span> to approve access to the API resources.
+
+1. Save the new integration tokens for extensions and click <span class="btn">Done</span>.
 
 ## Change the API guest access security setting
 
@@ -71,7 +85,7 @@ By default, the system does not permit anonymous guest access to CMS, catalog, a
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Web API Security Setting** section.
 
-    ![Services configuration - web API security settings]({% link images/images/config-services-magento-web-api-web-api-security.png %}){: .zoom}
+    ![Services configuration - web API security settings]({% link system/assets/web-api-security.png %}){: .zoom}
     _Web API Security_
 
 1. Set **Allow Anonymous Guest Access** to `Yes`.
@@ -84,7 +98,7 @@ See [Restricting access to anonymous web APIs][2]{:target="_blank"} in the Comme
 
 1. On the _Admin_ sidebar, go to **System** > _Extensions_ > **Integrations**.
 
-1. Find the existing integration and click the icon ( ![trashcan icon]({% link images/images/btn-trashcan2.png %}) ) in the **Delete** column.
+1. Find the existing integration and click the icon ( ![trashcan icon]({% link assets/icon-delete-trashcan-solid.png %}) ) in the **Delete** column.
 
 1. To confirm your action, click <span class="btn">OK</span>.
 

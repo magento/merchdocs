@@ -14,14 +14,14 @@ _Welcome message_
 
 1. In the grid, find the store view that you want to configure and click **Edit** in the _Action_ column.
 
-   ![]({% link images/images/design-configuration.png %}){: .zoom}
+   ![]({% link design/assets/configuration.png %}){: .zoom}
    _[Design Configuration page]({% link design/configuration.md %})_
 
 1. Under _Other Settings_, expand ![]({% link assets/icon-display-expand.png %}) the **Header** section.
 
 1. For **Welcome Text**, enter the welcome message text that you want to appear in the header of your store.
 
-   ![]({% link images/images/design-configuration-header.png %}){: .zoom}
+   ![]({% link design/assets/configuration-header.png %}){: .zoom}
    _[Header settings]({% link design/header.md %})_
 
 1. When complete, click <span class="btn">Save Configuration</span>.

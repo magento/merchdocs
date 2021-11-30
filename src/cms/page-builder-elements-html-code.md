@@ -6,17 +6,17 @@ Use the _HTML Code_ content type to add snippets of HTML, CSS, and JavaScript co
 
 ## HTML Code toolbox
 
-![]({% link images/images-ee/page-builder-elements-html-code-toolbox.png %}){: .zoom}
+![]({% link cms/assets/pb-elements-html-code-toolbox.png %}){: .zoom}
 _HTML Code toolbox_
 
 | Tool      | Icon       | Description       |
 | --------- | ---------- | ----------------- |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the HTML Code container to another valid place on the page. |
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the Edit HTML Code page, where you can change the properties of the container. |
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the HTML Code container. |
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the hidden HTML Code container. |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the HTML Code container. |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})  | Deletes the HTML Code container and its content from the stage. |
+| Move      | ![]({% link cms/assets/pb-icon-move.png %}) | Moves the HTML Code container to another valid place on the page. |
+| Settings  | ![]({% link cms/assets/pb-icon-settings.png %}) | Opens the Edit HTML Code page, where you can change the properties of the container. |
+| Hide      | ![]({% link cms/assets/pb-icon-hide.png %}) | Hides the HTML Code container. |
+| Show      | ![]({% link cms/assets/pb-icon-show.png %}) | Shows the hidden HTML Code container. |
+| Duplicate | ![]({% link cms/assets/pb-icon-duplicate.png %}) | Makes a copy of the HTML Code container. |
+| Remove    | ![]({% link cms/assets/pb-icon-remove.png %})  | Deletes the HTML Code container and its content from the stage. |
 
 ## Add HTML code
 
@@ -26,7 +26,7 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
 1. Visit the [Google Fonts][1] site and choose the font family that you want to use.
 
-   ![]({% link images/images-ee/page-builder-elements-html-code-google-fonts.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-html-code-google-fonts.png %}){: .zoom}
    _Google Fonts site_
 
 1. Copy the generated code that is to be embedded in the `<head>` section of the page and paste it temporarily into a text editor.
@@ -58,16 +58,16 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
    Use the red guideline to position the divider either before or after another content container in the row, column, or tab set.
 
-   ![]({% link images/images-ee/page-builder-elements-html-code-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-html-code-drag.png %}){: .zoom}
    _Dragging a HTML Code placeholder to the stage_
 
-1. Hover over the HTML container to display the toolbox and choose the _Settings_ ( ![]({% link images/images-ee/icon-pb-settings.png %})), icon.
+1. Hover over the HTML container to display the toolbox and choose the _Settings_ ( ![]({% link cms/assets/pb-icon-settings.png %})), icon.
 
 1. In the text box, paste the embed Google Fonts code and style declarations that you prepared.
 
    To make it easier to read, you can enter a few spaces to indent the code.
 
-   ![]({% link images/images-ee/page-builder-elements-html-code-example.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-html-code-example.png %}){: .zoom}
    _HTML code and styles_
 
 1. Update the remaining settings as needed (see [Change HTML code settings](#html-settings) for details).
@@ -80,19 +80,19 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
 1. In the _Currently Active_ section, set **Enable Page** to `Yes`.
 
-   ![]({% link images/images-ee/page-builder-elements-html-code-enable-page.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-html-code-enable-page.png %}){: .zoom}
    _Enabling the page_
 
 1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
 
 1. Find the page in the grid and select **View** in the _Actions_ column.
 
-   ![]({% link images/images-ee/page-builder-elements-html-code-preview.png %}){: .zoom}
+   ![]({% link cms/assets/pb-elements-html-code-preview.png %}){: .zoom}
    _Preview the page headings with the new font family_
 
 ## Change HTML code settings {#html-settings}
 
-1. Hover over the HTML container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the HTML container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. In the text box, edit the code as needed.
 
@@ -115,7 +115,7 @@ The following example demonstrates how to embed [Google Font][1] code and declar
 
       In the following example, the options are set to use a center alignment for the rendered code block.
 
-      ![]({% link images/images-ee/page-builder-elements-divider-settings-advanced-alignment-center.png %}){: .zoom}
+      ![]({% link cms/assets/pb-elements-divider-settings-advanced-alignment-center.png %}){: .zoom}
       _Divider with a center alignment_
 
    - Set the **Border** style applied to all four sides of the code container:

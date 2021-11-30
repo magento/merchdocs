@@ -5,7 +5,7 @@ group: getting-started
 
 The size and location of the logo in the header is determined by the store theme. Your logo can be saved as either a GIF, PNG, or JPG (JPEG) file type and uploaded from the Admin of your store.
 
-![]({% link images/images/storefront-header-logo.png %}){: .zoom}
+![]({% link design/assets/storefront-header-logo.png %}){: .zoom}
 _Logo in Header_
 
 The logo image resides in the following location on the server. Any image file with the name `logo.svg` is used as the default theme logo.
@@ -22,14 +22,14 @@ In addition to the logo in the header, your logo also appears on [email template
 
 1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
 
-   ![]({% link images/images/design-configuration.png %}){: .zoom}
+   ![]({% link design/assets/configuration.png %}){: .zoom}
    _Design Configuration page_
 
 1. Find the store view that you want to configure and click **Edit** in the _Action_ column.
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Header** section.
 
-   ![]({% link images/images/design-configuration-header.png %}){: .zoom}
+   ![]({% link design/assets/configuration-header.png %}){: .zoom}
    _[Header settings]({% link design/header.md %})_
 
 1. To upload a new logo, click <span class="btn">Upload</span> and choose the file from your system.

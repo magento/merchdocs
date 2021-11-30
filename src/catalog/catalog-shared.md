@@ -11,7 +11,7 @@ For the Default (General) public shared catalog, You must need to assign product
 
 The Shared Catalogs grid lists the shared catalogs that are currently in existence, and provides tools to create and maintain the catalogs.
 
-![]({% link images/images-b2b/catalogs-shared-grid.png %}){: .zoom}
+![]({% link catalog/assets/shared-catalogs-grid.png %}){: .zoom}
 _Shared Catalogs_
 
 ## Access the Shared Catalogs page

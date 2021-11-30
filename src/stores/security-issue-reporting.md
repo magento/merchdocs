@@ -12,7 +12,7 @@ The `security.txt` file contains contact information and security-related links 
 
 1. In the _General_ section, set **Enable** to `Yes`.
 
-   ![]({% link images/images/config-security-txt-general.png %}){: .zoom}
+   ![]({% link configuration/security/assets/txt-general.png %}){: .zoom}
 
 1. Under _Contact Information_, enter the following:
 
@@ -20,7 +20,7 @@ The `security.txt` file contains contact information and security-related links 
 
    - The URL of your store's **Contact Page**. This page could either be a list of store security contacts or your _Contact Us_ page.
 
-   ![]({% link images/images/config-security-txt-contact-info.png %}){: .zoom}
+   ![]({% link configuration/security/assets/txt-contact-info.png %}){: .zoom}
    [_Contact Information_]({% link configuration/security/security-txt.md %})
 
 1. Under _Other Information_, enter the following:
@@ -39,7 +39,7 @@ The `security.txt` file contains contact information and security-related links 
 
    The digital signature must be set up from the CLI (command line interface) of the server. To learn more, see [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) on GitHub.
 
-   ![]({% link images/images/config-security-txt-other-info.png %}){: .zoom}
+   ![]({% link configuration/security/assets/txt-other-info.png %}){: .zoom}
    [_Other Information_]({% link configuration/security/security-txt.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

@@ -4,25 +4,25 @@ title: Video
 
 Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [Vimeo][2] to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). It’s easy to embed video in a page or block, as well as in product and category descriptions.
 
-![]({% link images/images-ee/page-builder-storefront-video.png %}){: .zoom}
+![]({% link cms/assets/pb-storefront-video.png %}){: .zoom}
 _Video on the storefront home page_
 
 {% include page-builder-save-timeout.md %}
 
 ## Video toolbox
 
-![]({% link images/images-ee/page-builder-media-video-toolbox.png %}){: .zoom}
+![]({% link cms/assets/pb-media-video-toolbox.png %}){: .zoom}
 _Video toolbox_
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|Moves the video to another position on the stage.|
+|Move|![Move icon]({% link cms/assets/pb-icon-move.png %}){: width="25px"}|Moves the video to another position on the stage.|
 |(label)|Video|Identifies the current content container as a video. Hover over the image container to see the toolbox.|
-|Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the _Edit Video_ page, where you can change the properties of the video and container.|
-|Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current video.|
-|Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the  hidden video.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the video.|
-|Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the video from the stage.|
+|Settings|![Settings icon]({% link cms/assets/pb-icon-settings.png %}){: width="25px"}|Opens the _Edit Video_ page, where you can change the properties of the video and container.|
+|Hide|![Hide icon]({% link cms/assets/pb-icon-hide.png %}){: width="25px"}|Hides the current video.|
+|Show|![Show icon]({% link cms/assets/pb-icon-show.png %}){: width="25px"}|Shows the  hidden video.|
+|Duplicate|![Duplicate icon]({% link cms/assets/pb-icon-duplicate.png %}){: width="25px"}|Makes a copy of the video.|
+|Remove|![Remove icon]({% link cms/assets/pb-icon-remove.png %}){: width="25px"}|Deletes the video from the stage.|
 
 ## Add a video
 
@@ -34,10 +34,10 @@ _Video toolbox_
 
 1. In the Page Builder panel, expand **Media** and drag a **Video** placeholder to the stage.
 
-   ![]({% link images/images-ee/page-builder-media-video-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-video-drag.png %}){: .zoom}
    _Dragging a video placeholder to the stage_
 
-1. Hover over the video container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the video container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. For **Video URL**, paste the URL of the video that you copied.
 
@@ -51,7 +51,7 @@ _Video toolbox_
 
 ## Change video settings
 
-1. Hover over the video container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the video container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. Modify the settings according to the following sections:
 
@@ -110,7 +110,7 @@ _Video toolbox_
 
    - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or entering a valid color name or equivalent hexadecimal value.
 
-      ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
+      ![]({% link cms/assets/pb-settings-border-color.png %}){: .zoom}
       _Border Color_
 
    - **Border Width** - Enter the number of pixels for the border line width.
@@ -130,19 +130,19 @@ _Video toolbox_
 
 ## Move a video
 
-1. Hover over the video container to display the toolbox and choose the _Move_ (![]({% link images/images-ee/icon-pb-move.png %})) icon.
+1. Hover over the video container to display the toolbox and choose the _Move_ (![]({% link cms/assets/pb-icon-move.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-media-video-toolbox-move-col1.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-video-toolbox-move-col1.png %}){: .zoom}
    _Moving a video_
 
 1. Select and drag the video to the new position, just below the red guideline.
 
-   ![]({% link images/images-ee/page-builder-media-video-toolbox-move-col2.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-video-toolbox-move-col2.png %}){: .zoom}
    _Using the red guideline to place the video_
 
 ## Remove a video from the stage
 
-1. Hover over the video container to display the toolbox and choose the _Remove_ (![]({% link images/images-ee/icon-pb-remove.png %})) icon.
+1. Hover over the video container to display the toolbox and choose the _Remove_ (![]({% link cms/assets/pb-icon-remove.png %})) icon.
 
 1. When prompted to confirm, click <span class="btn">OK</span>.
 

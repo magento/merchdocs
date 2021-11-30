@@ -32,7 +32,7 @@ All updated quantities and sources display in the product grid.
 
    - Click <span class="btn">Save</span>.
 
-   - On the **Save** (![]({% link assets/icon-menu-down-arrow-red.png %})) menu, choose **Save & Close**.
+   - On the **Save** (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"}) menu, choose **Save & Close**.
 
 The Product Grid updates with a list of all sources and related quantities. For products with more than five assigned sources, hover over the _Quantity per Source_ column to see the full list.
 

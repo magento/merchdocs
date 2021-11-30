@@ -26,7 +26,7 @@ Your site map should be updated as frequently as the content on your site change
 
    - For **Priority**, enter a value between 0.0 and 1.0. Zero has the lowest priority.
 
-    ![]({% link images/images/config-catalog-xml-sitemap-categories-options.png %}){: .zoom}
+    ![]({% link configuration/catalog/assets/xml-sitemap-categories-options.png %}){: .zoom}
     [_Categories Options_]({% link configuration/catalog/xml-sitemap.md %})
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Products Options** section and complete the **Frequency** and **Priority** settings as needed.
@@ -37,17 +37,17 @@ Your site map should be updated as frequently as the content on your site change
    - `Base Only`
    - `All`
 
-    ![Catalog configuration - XML sitemap products]({% link images/images/config-catalog-xml-sitemap-products-options.png %}){: .zoom}
+    ![Catalog configuration - XML sitemap products]({% link configuration/catalog/assets/xml-sitemap-products-options.png %}){: .zoom}
     [_Products Options_]({% link configuration/catalog/xml-sitemap.md %})
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **CMS Pages Options** section and complete the **Frequency** and **Priority** settings as needed.
 
-    ![Catalog configuration - XML sitemap CMS pages]({% link images/images/config-catalog-xml-sitemap-cms-pages-options.png %}){: .zoom}
+    ![Catalog configuration - XML sitemap CMS pages]({% link configuration/catalog/assets/xml-sitemap-cms-pages-options.png %}){: .zoom}
     [_CMS Pages Options_]({% link configuration/catalog/xml-sitemap.md -%})
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Store Url Options** section and complete the **Frequency** and **Priority** settings as needed.
 
-   ![Catalog configuration - XML sitemap store url]({% link images/images/config-catalog-xml-sitemap-store-url-options.png %}){: .zoom}
+   ![Catalog configuration - XML sitemap store url]({% link marketing/assets/xml-sitemap.png %}){: .zoom}
    [_Store Url Options_]({% link configuration/catalog/xml-sitemap.md -%})
 
 1. When complete, click <span class="btn">Save Config</span>.
@@ -58,7 +58,7 @@ Your site map should be updated as frequently as the content on your site change
 
      If needed, clear the **Use system value** checkbox to change these settings.
 
-    ![Catalog configuration - XML sitemap generation settings]({% link images/images/config-catalog-xml-sitemap-generation-settings.png %}){: .zoom}
+    ![Catalog configuration - XML sitemap generation settings]({% link configuration/catalog/assets/xml-sitemap-generation-settings.png %}){: .zoom}
     [_Generation Settings_]({% link configuration/catalog/xml-sitemap.md %})
 
 1. To generate a sitemap, set **Enabled** to `Yes` and do the following:
@@ -87,7 +87,7 @@ Your site map should be updated as frequently as the content on your site change
 
 1. For **Maximum File Size**, enter the largest size in bytes that is allocated for the sitemap. The default size is 10,485,760 bytes.
 
-    ![Catalog configuration - XML sitemap file limits]({% link images/images/config-catalog-xml-sitemap-sitemap-file-limits.png %}){: .zoom}
+    ![Catalog configuration - XML sitemap file limits]({% link configuration/catalog/assets/xml-sitemap-sitemap-file-limits.png %}){: .zoom}
     [_Sitemap File Limits_]({% link configuration/catalog/xml-sitemap.md %})
 
 ## Step 4. Set the Search Engine Submission Settings
@@ -98,7 +98,7 @@ Your site map should be updated as frequently as the content on your site change
 
 1. If using a `robots.txt` file to provide instructions to search engines that crawl your site, set **Enable Submission to Robots.txt** to `Yes`.
 
-    ![Catalog configuration - XML sitemap search engine submission settings]({% link images/images/config-catalog-xml-sitemap-search-engine-submission-settings.png %}){: .zoom}
+    ![Catalog configuration - XML sitemap search engine submission settings]({% link configuration/catalog/assets/xml-sitemap-search-engine-submission-settings.png %}){: .zoom}
     [_Search Engine Submission Settings_]({% link configuration/catalog/xml-sitemap.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.

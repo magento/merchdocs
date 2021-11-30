@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## Account Sharing Options
 
-![]({% link images/images/config-customers-customer-configuration-account-sharing-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-account-sharing-options.png %}){: .zoom}
 [_Account Sharing Options_]({% link customers/account-scope.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -15,7 +15,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## Online Customers Options
 
-![]({% link images/images/config-customers-customer-configuration-online-customers-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-online-customers-options.png %}){: .zoom}
 [_Online Customers Options_]({% link customers/now-online.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -25,10 +25,10 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## Create New Account Options
 
-![]({% link images/images/config-customers-customer-configuration-create-new-account-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-create-new-account-options.png %}){: .zoom}
 [_Create New Account Options_]({% link customers/customer-account-configuration.md %})
 
-![]({% link images/images/config-customers-customer-configuration-create-new-account-options-vat.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-create-new-account-options-vat.png %}){: .zoom}
 [_Create New Account Options (VAT Fields)_]({% link customers/customer-account-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -48,7 +48,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## Password Options
 
-![]({% link images/images/config-customers-customer-configuration-password-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-password-options.png %}){: .zoom}
 [_Password Options_]({% link customers/password-options.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -69,7 +69,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## Account Information Options
 
-![]({% link images/images/config-customers-customer-configuration-account-information-options.png %}){: .zoom}
+![]({% link configuration/assets/customer-account-info-options.png %}){: .zoom}
 _Account Information Options_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -82,7 +82,7 @@ _Account Information Options_
 {:.ce-only}
 ### Open Source Options
 
-![]({% link images/images/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-name-address-options-ce.png %}){: .zoom}
 _[Name and Address Options - Open Source]({% link customers/name-address-options.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -103,7 +103,7 @@ _[Name and Address Options - Open Source]({% link customers/name-address-options
 {:.ee-only}
 ### Commerce Options
 
-![]({% link images/images-ee/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-name-address-options-ee.png %}){: .zoom}
 _[Name and Address Options - Commerce]({% link customers/name-address-options.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -117,7 +117,7 @@ _[Name and Address Options - Commerce]({% link customers/name-address-options.md
 {:.ee-only}
 ## Store Credit Options
 
-![]({% link images/images-ee/config-customers-customer-configuration-store-credit-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-store-credit-options.png %}){: .zoom}
 _[Store Credit Options]({% link customers/credit-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -130,7 +130,7 @@ _[Store Credit Options]({% link customers/credit-configure.md %})_
 
 ## Login Options
 
-![]({% link images/images/config-customers-customer-configuration-login-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-login-options.png %}){: .zoom}
 [_Login Options_]({% link customers/login-landing-page.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -139,7 +139,7 @@ _[Store Credit Options]({% link customers/credit-configure.md %})_
 
 ## Address Templates
 
-![]({% link images/images/config-customers-customer-configuration-address-templates.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-address-templates.png %}){: .zoom}
 [_Address Templates_]({% link customers/address-templates.md %})
 
 |Template|[Scope]({% link configuration/scope.md %})|Description|
@@ -152,7 +152,7 @@ _[Store Credit Options]({% link customers/credit-configure.md %})_
 {:.ee-only}
 ## Customer Segments
 
-![]({% link images/images-ee/config-customers-customer-configuration-customer-segments.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-customer-segments.png %}){: .zoom}
 _[Customer Segments]({% link marketing/customer-segments.md %})_
 
 |Template|[Scope]({% link configuration/scope.md %})|Description|
@@ -161,7 +161,7 @@ _[Customer Segments]({% link marketing/customer-segments.md %})_
 
 ## CAPTCHA
 
-![]({% link images/images-ee/config-customer-configuration-captcha.png %}){: .zoom}
+![]({% link configuration/customers/assets/customer-configuration-captcha.png %}){: .zoom}
 _[CAPTCHA]({% link stores/security-captcha.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## General Options
 
-![]({% link images/images-ee/config-catalog-visual-merchandiser-general-options.png %}){: .zoom}
+![]({% link configuration/catalog/assets/catalog-visual-merchandiser-general-options.png %}){: .zoom}
 [_General Options_]({% link marketing/visual-merchandiser-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

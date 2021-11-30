@@ -4,7 +4,7 @@ title: Header Template
 
 After completing the [configuration]({% link marketing/email-template-configuration.md -%}), the email header template includes your logo that is linked to your store. If you have a basic knowledge of HTML, you can easily use [predefined variables]({% link marketing/variables-predefined.md -%}) to add store contact information to the header.
 
-![Email templates]({% link images/images/email-templates.png %}){: .zoom}
+![Email templates]({% link marketing/assets/email-templates.png %}){: .zoom}
 _Email Templates_
 
 ## Step 1. Load the Default Template
@@ -15,7 +15,7 @@ _Email Templates_
 
 1. In the **Load default template** section, click the **Template** selector and choose `Magento_Email` > `Header`.
 
-    ![Email template header - load default template]({% link images/images/email-template-magento-email-header.png %}){: .zoom}
+    ![Email template header - load default template]({% link marketing/assets/email-template-magento-email-header.png %}){: .zoom}
     _Default Header Template_
 
 1. Click <span class="btn">Load Template</span>.
@@ -30,7 +30,7 @@ _Email Templates_
 
    In the grid, the list of templates can be sorted and filtered by the _Subject_ column.
 
-    ![Email template header - information]({% link images/images/email-template-information.png %}){: .zoom}
+    ![Email template header - information]({% link marketing/assets/email-template-information.png %}){: .zoom}
     _Header Template Information_
 
 1. In the **Template Content** box, modify the HTML as needed.
@@ -44,7 +44,7 @@ _Email Templates_
 
     When a variable is selected, a [markup tag]({% link marketing/markup-tags.md %}) for the variable is inserted in the code.
 
-    ![Header teamplate - Insert variable]({% link images/images/email-template-insert-variable.png %}){: .zoom}
+    ![Header teamplate - Insert variable]({% link marketing/assets/email-template-insert-variable.png %}){: .zoom}
     _Insert Variable_
 
     Although the Store Contact variables are the ones most often included in the header, you can enter the code for any system or [custom variable]({% link marketing/variables-custom.md %}) directly into the template.
@@ -69,7 +69,7 @@ _Email Templates_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-![Transactional email design configuration - header template]({% link images/images/config-design-transactional-emails.png %}){: .zoom}
+![Transactional email design configuration - header template]({% link marketing/assets/design-configuration-transactional-emails.png %}){: .zoom}
 [_Transactional Emails_]({% link design/configuration.md %})
 
 ## Field Descriptions

@@ -27,17 +27,17 @@ Use either of the following methods to create swatches for your products.
 
 1. Under _Manage Swatch_ (values of your attribute), click <span class="btn">Add Swatch</span> and do the following:
 
-    ![]({% link images/images/attribute-color-manage-swatch-values.png %}){: .zoom}
+    ![]({% link catalog/assets/attribute-color-manage-swatch-values.png %}){: .zoom}
     _Manage Swatch Values_
 
     - In the _Swatch_ column, click the new swatch and select **Choose a color** from the menu.
 
-        ![]({% link images/images/attribute-color-swatch-menu.png %}){: .zoom}
+        ![]({% link catalog/assets/attribute-color-swatch-menu.png %}){: .zoom}
         _Choose a Color_
 
     - In the color picker, place your cursor in the **#** field, press the **Backspace** key to delete the current value, and enter the six-character hexadecimal value of the new color.
 
-        ![]({% link images/images/attribute-swatch-color-picker-hex-value.png %}){: .zoom}
+        ![]({% link catalog/assets/attribute-swatch-color-picker-hex-value.png %}){: .zoom}
 
     - To save the swatch, click the **Color Wheel** ( ![]({% link assets/icon-color-wheel.png %})) icon in the lower-right corner of the color picker.
 
@@ -49,7 +49,7 @@ Use either of the following methods to create swatches for your products.
 
     - To change the order of the swatches, simply drag each swatch into position.
 
-        ![]({% link images/images/attribute-swatch-labels.png %}){: .zoom}
+        ![]({% link catalog/assets/attribute-swatch-labels.png %}){: .zoom}
         _Swatch Labels_
 
 1. When complete, click <span class="btn">Save Attribute</span> and refresh the cache when prompted.
@@ -81,7 +81,7 @@ Use either of the following methods to create swatches for your products.
 
     - In the _Swatch_ column, click the new swatch to display the menu and choose **Upload a file**.
 
-        ![]({% link images/images/attribute-swatch-add-upload-file.png %}){: .zoom}
+        ![]({% link catalog/assets/attribute-swatch-add-upload-file.png %}){: .zoom}
         _Upload a File_
 
     - Navigate to the swatch file that you prepared and choose the file to upload.

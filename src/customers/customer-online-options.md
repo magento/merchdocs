@@ -21,7 +21,7 @@ On the server, the length of the session is controlled by `php.ini`, and several
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Default Cookie Settings** section.
 
-   ![]({% link images/images/config-general-web-default-cookie-settings.png %}){: .zoom}
+   ![]({% link configuration/general/assets/web-default-cookie-settings.png %}){: .zoom}
    [_Default Cookie Settings_]({% link configuration/general/web.md %})
 
 1. To change the default, clear the **Use system value** checkbox and enter the new value in seconds.

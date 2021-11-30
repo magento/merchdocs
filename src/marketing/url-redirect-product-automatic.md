@@ -19,7 +19,7 @@ When automatic redirects are enabled and you save a category, all product and ca
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-    ![Catalog configuration - search engine optimization]({% link images/images/config-catalog-catalog-search-engine-optimization.png %}){: .zoom}
+    ![Catalog configuration - search engine optimization]({% link configuration/catalog/assets/catalog-search-engine-optimization.png %}){: .zoom}
     [_Search Engine Optimization_]({% link configuration/catalog/catalog.md %})
 
 ## Automatically Redirect Product URLs
@@ -34,7 +34,7 @@ When automatic redirects are enabled and you save a category, all product and ca
 
     - Update the **URL Key** as needed, using all lowercase characters and hyphens instead of spaces.
 
-    ![Product search engine optimization - permanent redirect]({% link images/images/product-search-engine-optimization-create-permanent-redirect.png %}){: .zoom}
+    ![Product search engine optimization - permanent redirect]({% link marketing/assets/product-search-engine-optimization-create-permanent-redirect.png %}){: .zoom}
     _Create Permanent Redirect for Old URL_
 
 1. When complete, click <span class="btn">Save</span>.
@@ -76,12 +76,12 @@ Turning off automatic generation of category/products URL rewrites results in pe
 
 1. For the  **Generate "category/product" URL Rewrites** field, clear the **Use system value** checkbox and set the value to `No`.
 
-    ![Catalog configuration - no automatic URL rewrites]({% link images/images/config-catalog-catalog-seo-rewrite-no.png %}){: .zoom}
+    ![Catalog configuration - no automatic URL rewrites]({% link marketing/assets/seo-rewrite-no.png %}){: .zoom}
     _Generate "category/product" URL Rewrites - No_
 
 1. In the confirmation dialog, click <span class="btn">OK</span> to confirm the change and the removal of existing URL rewrites.
 
-    ![Turn off category/product URL rewrites - confirm]({% link images/images/config-catalog-catalog-seo-rewrite-off.png %}){:width="350px"}<br/>
+    ![Turn off category/product URL rewrites - confirm]({% link marketing/assets/seo-rewrite-off.png %}){:width="350px"}<br/>
     _Turn off "category/product" URL rewrites_
 
 1. When complete, click <span class="btn">Save Config</span>.

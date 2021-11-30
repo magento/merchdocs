@@ -9,7 +9,7 @@ The newsletter is a part of marketing instruments that allow sending to customer
 
 ## General Options
 
-![]({% link images/images/config-customers-newsletter-general-options.png %}){: .zoom}
+![]({% link configuration/assets/newsletter-general-options.png %}){: .zoom}
 _General Options_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -18,7 +18,7 @@ _General Options_
 
 ## Subscription Options
 
-![]({% link images/images/config-customers-newsletter-subscription-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/newsletter-subscription-options.png %}){: .zoom}
 [_Subscription Options_]({% link marketing/newsletter-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

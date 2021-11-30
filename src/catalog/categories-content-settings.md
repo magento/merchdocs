@@ -11,7 +11,7 @@ The _Content_ settings determine any additional content appears on the category 
 
 1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
-   ![]({% link images/images-ee/category-content.png %}){: .zoom}
+   ![]({% link catalog/assets/category-content.png %}){: .zoom}
    _Category content_
 
 1. At the top-right of the **Description** area, click <span class="btn">Edit with Page Builder</span>.
@@ -23,7 +23,7 @@ The _Content_ settings determine any additional content appears on the category 
 
 When you expand the _Content_ section for an existing category where there is content created with Page Builder, it displays a preview of the **Description** content as it would appear in the category page. Click the content area to open the Page Builder workspace, where you can make any needed updates.
 
-![]({% link images/images-ee/product-category-content-preview.png %}){: .zoom}
+![]({% link cms/assets/pb-product-category-content-preview.png %}){: .zoom}
 _Description preview_
 
 This content preview is enabled for the product and category forms by default. If performance suffers due to loading the preview, you can disable the preview in the [Content Management configuration]({% link configuration/general/content-management.md %}#advanced-content-tools) settings.
@@ -39,7 +39,7 @@ For more information, see [Using the Editor]({% link cms/editor.md %}).
 
 1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
-   ![]({% link images/images/category-content-ce.png %}){: .zoom}
+   ![]({% link catalog/assets/category-content-ce.png %}){: .zoom}
    _Category content_
 
 1. Enter the category **Description** and use the [editor toolbar]({% link cms/editor.md %}) to format as needed.
@@ -69,6 +69,6 @@ For more information, see [Using the Editor]({% link cms/editor.md %}).
 
 |Setting|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Category Image|Store View|Specifies an image for the top of the category page. Methods: <br/><br/><span class="btn">Upload</span> - Uploads an image file from your local computer to the gallery and uses it as the category image.  <br/><br/><span class="btn">Select from Gallery</span> - Prompts you to choose an existing image from the gallery. <br/><br/>![]({% link images/images-ee/icon-pb-camera.png %}){: width="30px"}  - Either drag an image file to the camera tile or browse to the image and select it from your local file system.|
+|Category Image|Store View|Specifies an image for the top of the category page. Methods: <br/><br/><span class="btn">Upload</span> - Uploads an image file from your local computer to the gallery and uses it as the category image.  <br/><br/><span class="btn">Select from Gallery</span> - Prompts you to choose an existing image from the gallery. <br/><br/>![]({% link cms/assets/pb-icon-camera.png %}){: width="30px"}  - Either drag an image file to the camera tile or browse to the image and select it from your local file system.|
 |Description|Store View|Specifies a description that appears on the category page. <br/><br/><span class="ee-only"></span><span class="btn">Edit with Page Builder</span> - Opens the [Page Builder workspace]({% link cms/page-builder-workspace.md %}), where you can edit the description. <br/><br/><span class="btn">Show / Hide Editor</span> - Toggles the display between WYSIWYG editor and HTML modes.|
 |Add CMS Block|Store View|Adds an existing [CMS block]({% link cms/blocks.md %}) to the category page.|

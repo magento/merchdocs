@@ -24,12 +24,12 @@ In order to use the identity manager, you must have an active Adobe account for 
 
 1. Click **Create an account**.
 
-   ![]({% link images/images/id-manager-adobe-login.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-adobe-login.png %}){: .zoom}
    _Adobe log in_
 
 1. Complete the form and click <span class="btn">Create account</span>.
 
-   ![]({% link images/images/id-manager-adobe-create.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-adobe-create.png %}){: .zoom}
    _Create an Adobe account_
 
 ### Step 2: Link a user account to the Adobe ID
@@ -43,7 +43,7 @@ From the Commerce product login page:
 
 1. Click <span class="btn">Sign in with Adobe ID</span>
 
-   ![]({% link images/images/id-manager-mccom-mim-login.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mccom-mim-login.png %}){: .zoom}
    _Sign in with Adobe ID_
 
 1. If necessary, enter your Adobe ID email and click <span class="btn">Continue</span>, then enter your password and click <span class="btn">Continue</span> again.
@@ -52,19 +52,19 @@ From the Commerce product login page:
 
 1. Enter the username and password combination of the Commerce account you want to link and click <span class="btn">Continue</span>.
 
-   ![]({% link images/images/id-manager-mim-link.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mim-link.png %}){: .zoom}
    _Link account_
 
 1. If you have two-factor authentication (2FA) enabled on this Commerce account, enter the verification code displayed in your 2FA application and click <span class="btn">Submit</span>.
 
    If you are having trouble with authentication, see [Securing Your Account]({% link magento/magento-account-secure.md %}) for more information.
 
-   ![]({% link images/images/id-manager-2fa.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-2fa.png %}){: .zoom}
    _Two-factor authentication_
 
    A message will be displayed to confirm that the accounts have been successfully linked. You will also receive an email with this confirmation information. At this point, you are logged into your Commerce account. Click <span class="btn">Continue</span> to proceed to your Commerce account.
 
-   ![]({% link images/images/id-manager-mim-success.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mim-success.png %}){: .zoom}
    _Successful link_
 
    {:.bs-callout-warning}
@@ -81,12 +81,12 @@ From the Commerce product login page:
 
 1. Find the Commerce product from which you want to link an account and click <span class="btn">+ Add</span>.
 
-   ![]({% link images/images/id-manager-mim-zero.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mim-zero.png %}){: .zoom}
    _Add from the identity manager_
 
    A message appears to explain that you may be unable to proceed if you are currently logged into the product you are trying to link. If necessary, navigate to the product to logout or ensure you are no longer logged in.
 
-   ![]({% link images/images/id-manager-mim-add-message.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mim-add-message.png %}){: .zoom}
    _Warning message_
 
    <div class="bs-callout bs-callout-warning" markdown="1">
@@ -97,19 +97,19 @@ From the Commerce product login page:
 
 1. Enter the username and password combination of the Commerce account you want to link, and then click <span class="btn">Continue</span>.
 
-   ![]({% link images/images/id-manager-mim-link.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mim-link.png %}){: .zoom}
    _Link account_
 
 1. If you have two-factor authentication (2FA) enabled for the Commerce account, enter the verification code displayed in your 2FA application and click <span class="btn">Submit</span>.
 
    If you are having trouble with authentication, see [Securing Your Account]({% link magento/magento-account-secure.md %}) for more information.
 
-   ![]({% link images/images/id-manager-2fa.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-2fa.png %}){: .zoom}
    _Two-factor authentication_
 
    When the link is complete, you are returned to the identity manager dashboard and you can see the recently linked account in the list below the Commerce product. You will also receive an email to confirm the account linking.
 
-   ![]({% link images/images/id-manager-mim-one.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mim-one.png %}){: .zoom}
    _Linked account in the identity manager_
 
 ### Step 3: Log in with your linked account
@@ -118,7 +118,7 @@ From the Commerce product login page:
 
 1. Click <span class="btn">Sign in with Adobe ID</span>.
 
-   ![]({% link images/images/id-manager-mccom-mim-login.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mccom-mim-login.png %}){: .zoom}
    _Sign in with Adobe ID_
 
 1. If necessary, enter your Adobe ID email and click <span class="btn">Continue</span>, then enter your password and click <span class="btn">Continue</span> again.
@@ -142,7 +142,7 @@ While you can link as many Commerce accounts to your Adobe ID as you like, a Com
 
 1. Click <span class="btn">Sign in with Adobe ID</span>.
 
-   ![]({% link images/images/id-manager-mccom-mim-login.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mccom-mim-login.png %}){: .zoom}
    _Sign in with Adobe_
 
 1. If necessary, enter your Adobe ID email and click <span class="btn">Continue</span>, then enter your password and click <span class="btn">Continue</span> again.
@@ -151,14 +151,14 @@ While you can link as many Commerce accounts to your Adobe ID as you like, a Com
 
 1. Click the **Account to use** menu to display the linked accounts.
 
-   ![]({% link images/images/id-manager-mim-dropdown-closed.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mim-dropdown-closed.png %}){: .zoom}
    _Login with multiple linked accounts_
 
 1. Select the account you want to use for log in.
 
    There is also an option to add another account directly from the list.
 
-   ![]({% link images/images/id-manager-mim-dropdown-open.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mim-dropdown-open.png %}){: .zoom}
    _Select a linked account_
 
 1. Click <span class="btn">Continue</span>.
@@ -179,12 +179,12 @@ The order of the accounts displayed in the identity manager dashboard determines
 
 1. For each account name, click-and-drag it into position within the list.
 
-   ![]({% link images/images/id-manager-mim-reorder.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mim-reorder.png %}){: .zoom}
    _Reorder the accounts_
 
    The new order is automatically saved.
 
-   ![]({% link images/images/id-manager-mim-reorder2.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mim-reorder2.png %}){: .zoom}
    _Reordered list_
 
 ## Unlinking a user account from an Adobe ID
@@ -203,12 +203,12 @@ If you want to unlink a Commerce account from your Adobe ID, there are two metho
 
 1. Click the trash icon in the _ACTIONS_ column to remove the corresponding account.
 
-   ![]({% link images/images/id-manager-mim-remove.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mim-remove.png %}){: .zoom}
    _Remove link_
 
 1. Click <span class="btn">Yes - Delete</span> to complete unlinking the account.
 
-   ![]({% link images/images/id-manager-mim-remove-confirm.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mim-remove-confirm.png %}){: .zoom}
    _Remove link_
 
 This returns you to the identity manager dashboard, where the unlinked account is no longer displayed under the Commerce product.
@@ -221,7 +221,7 @@ This returns you to the identity manager dashboard, where the unlinked account i
 
 1. Click <span class="btn">Remove Link</span> near the bottom of the email body.
 
-   ![]({% link images/images/id-manager-email-link.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-email-link.png %}){: .zoom}
    _Remove link_
 
    When the Commerce account is successfully unlinked, it launches a confirmation page in your browser. You can close this window/tab. You will also receive an email confirming the account has been unlinked.
@@ -237,7 +237,7 @@ You are not forced to use the identity manager, and you can still log in to your
 
 1. Enter your username and password combination, and then click <span class="btn">Continue</span> to log into your account.
 
-   ![]({% link images/images/id-manager-mccom-login.png %}){: .zoom}
+   ![]({% link magento/assets/id-manager-mccom-login.png %}){: .zoom}
    _Account log in_
 
 {:.bs-callout-info}

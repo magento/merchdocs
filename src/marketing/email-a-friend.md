@@ -4,7 +4,7 @@ title: Email a Friend
 
 The Email link makes it easy for your customers to share links to products with their friends. In the demo Luma store, the Email link appears as an envelope icon. The message template can be customized for your voice and brand. To prevent spamming, you can limit the number of recipients for each email, and the number of products that can be shared over a one-hour period.
 
-![Example storefront - email a friend]({% link images/images/storefront-email-a-friend.png %}){: .zoom}
+![Example storefront - email a friend]({% link marketing/assets/storefront-email-a-friend.png %}){: .zoom}
 _Email a Friend_
 
 ## Configure Email to a Friend
@@ -15,7 +15,7 @@ _Email a Friend_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Email Templates** section and set the options:
 
-    ![Catalog configuration - email templates]({% link images/images/config-catalog-email-to-a-friend-email-templates.png %}){: .zoom}
+    ![Catalog configuration - email templates]({% link configuration/catalog/assets/email-to-a-friend-email-templates.png %}){: .zoom}
     [_Email Templates_]({% link configuration/catalog/email-to-a-friend.md %})
 
     To change the default setting of any field, clear the **Use system value** checkbox to make the field editable.

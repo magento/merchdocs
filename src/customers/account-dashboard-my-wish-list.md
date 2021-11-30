@@ -4,7 +4,7 @@ title: My Wish List
 
 A wish list is a convenient way for customers to keep track of products that they like, but are not ready to buy. Items from a wish list can be shared with others or added to the shopping cart. If the customer has multiple wish lists, the name of the current wish list appears at the top of the page.
 
-![]({% link images/images-ee/account-dashboard-wishlist.png %}){: .zoom}
+![]({% link customers/assets/account-dashboard-wishlist.png %}){: .zoom}
 _My Wish List_
 
 {:.ee-only}
@@ -22,9 +22,12 @@ In the storefront, a customer can create a wish list from their account dashboar
 
 1. To allow others to see their wish list, selects the **Public Wish List** checkbox.
 
+    {:.bs-callout-info}
+    The main difference between `Public` and `Private` wishlists is that private wishlists are not searchable through [wishlists]({% link marketing/wishlist-search.md %}#find-a-customers-wishlist).
+
 1. When complete, click <span class="btn">Save</span>.
 
-    ![]({% link images/images-ee/account-dashboard-wishlist-create-new.png %}){: .zoom}
+    ![]({% link customers/assets/account-dashboard-wishlist-create-new.png %}){: .zoom}
     _Create New Wish List_
 
 ### Method 2: From the catalog page
@@ -53,7 +56,7 @@ In the storefront, a customer can create a wish list from their account dashboar
 
 1. When complete, clicks <span class="btn">Save</span>.
 
-    ![]({% link images/images-ee/account-dashboard-wishlist-create-from-pdp.png %}){: .zoom}
+    ![]({% link customers/assets/account-dashboard-wishlist-create-from-pdp.png %}){: .zoom}
     _Create New Wish List from the Product Detail page_
 
 ### Method 4: From the shopping cart
@@ -68,7 +71,7 @@ In the storefront, a customer can create a wish list from their account dashboar
 
 1. When complete, clicks <span class="btn">Save</span>.
 
-![]({% link images/images-ee/account-dashboard-wishlist-create-from-cart.png %}){: .zoom}
+![]({% link customers/assets/account-dashboard-wishlist-create-from-cart.png %}){: .zoom}
     _Create New Wish List from the Shopping Cart page_
 
 ## Update the product listing
@@ -77,8 +80,8 @@ In the storefront, a customer can create a wish list from their account dashboar
 
 1. To add a **Comment** about the product, enter the text in the box below the price.
 
-    ![]({% link images/images-ee/account-dashboard-wishlist-edit-options.png %}){: .zoom}
-    _Edit Options_{:.ee-only}
+    ![]({% link customers/assets/account-dashboard-wishlist-edit-options.png %}){: .zoom}
+    _Edit Options_
 
 1. To change the selection of product options, click **Edit** and do the following:
 
@@ -103,7 +106,7 @@ In the storefront, a customer can create a wish list from their account dashboar
 
 1. Click <span class="btn">Share Wish List</span>.
 
-    ![]({% link images/images-ee/account-dashboard-wishlist-sharing.png %}){: .zoom}
+    ![]({% link customers/assets/account-dashboard-wishlist-sharing.png %}){: .zoom}
     _Share Your Wish List_
 
     The message is sent from your primary [store contact]({% link stores/store-email-addresses.md %}) and includes a thumbnail image of each product, with links to your store.

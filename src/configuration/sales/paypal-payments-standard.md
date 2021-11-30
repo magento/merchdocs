@@ -10,7 +10,7 @@ As of September 14, 2019, European banks might decline payments that do not meet
 
 ## Required Settings
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-standard-required.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-payments-standard-required.png %}){: .zoom}
 _Required Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -27,7 +27,7 @@ _Required Settings_
 
 ## Advertise PayPal Credit
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
 _Advertise PayPal Credit_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -41,7 +41,7 @@ _Advertise PayPal Credit_
 
 ## Basic Settings - PayPal Payments Standard
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-standard-basic-settings.png %}){: .zoom}
+![]({% link configuration/assets/paypal-standard-basic-settings.png %}){: .zoom}
 _Basic Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -55,7 +55,7 @@ _Basic Settings_
 
 ## Advanced Settings
 
-![]({% link images/images/config-sales-payment-methods-paypal-payment-standard-advanced.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-payment-standard-advanced.png %}){: .zoom}
 _Advanced Settings_
 
 |Field|Scope|Description|
@@ -75,7 +75,7 @@ _Advanced Settings_
 
 ## Billing Agreement Setting
 
-![]({% link images/images/config-sales-payment-methods-paypal-express-checkout-billing-agreement-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png %}){: .zoom}
 _Billing Agreement Settings_
 
 |Field|Scope|Description|
@@ -93,7 +93,7 @@ _Billing Agreement Settings_
 
 ## Settlement Report Settings
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
 _Settlement Report Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -110,7 +110,7 @@ _Settlement Report Settings_
 
 ## Frontend Experience Settings
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings.png %}){: .zoom}
 _Frontend Experience Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

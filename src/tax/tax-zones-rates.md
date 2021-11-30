@@ -6,7 +6,7 @@ Tax rates generally apply to transactions that take place within a specific geog
 
 Store tax is calculated based on the store’s address. The actual customer tax for an order is calculated after the customer completes the order information. Commerce then calculates the tax based upon the tax configuration of the store.
 
-![]({% link images/images/tax-zones-rates.png %}){: .zoom}
+![]({% link tax/assets/tax-zones-rates.png %}){: .zoom}
 _Tax Zones and Rates_
 
 ## Define a new tax rate
@@ -34,7 +34,12 @@ _Tax Zones and Rates_
 
    - Enter the **Rate Percent** that is used for the tax rate calculation.
 
-1. When complete, click <span class="btn">Save Rate</span>.
+1. If you have multiple stores, you can set Tax Titles for each store view.
+
+{:.bs-callout-info}
+Leave this field empty if you want to use the tax identifier.
+
+1. When complete, click <span class="btn">Save Rate</span>.
 
    ![]({% link tax/assets/tax-rate-new.png %}){: .zoom}
    _New Tax Rate_
@@ -52,3 +57,13 @@ _Tax Zones and Rates_
 1. Update the **Tax Titles** as needed.
 
 1. When complete, click <span class="btn">Save Rate</span>.
+
+## Delete tax rate
+
+1. On the _Admin_ sidebar, go to **Stores** > _Taxes_ > **Tax Zones and Rates**.
+
+1. Find the tax rate to be deleted and open it in edit mode.
+
+1. In the menu bar click **Delete Rate** button.
+
+1. To confirm the action, click <span class="btn">OK</span>.

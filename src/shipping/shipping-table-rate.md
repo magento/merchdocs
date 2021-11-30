@@ -15,7 +15,7 @@ The data that is used to calculate tables rates is prepared in a spreadsheet and
 {:.bs-callout-info}
 Only one set of table rate data can be active at a time.
 
-![]({% link images/images/storefront-cart-table-rate.png %}){: .zoom}
+![]({% link shipping/assets/storefront-cart-table-rate.png %}){: .zoom}
 _Table Rate in Shopping Cart_
 
 ## Step 1: Complete the default settings
@@ -80,7 +80,7 @@ The first step is to complete the default settings for table rates. You can comp
 
 1. Click <span class="btn">Save Config</span>.
 
-   ![]({% link images/images/config-sales-shipping-methods-table-rates.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/delivery-methods-table-rates.png %}){: .zoom}
    _[Table Rates]({% link configuration/sales/delivery-methods.md %})_
 
 ## Step 2: Prepare the table rate data

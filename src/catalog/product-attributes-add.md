@@ -4,7 +4,7 @@ title: Adding an Attribute to a Product
 
 Although attributes are managed primarily from the [Stores]({% link stores/stores-menu.md %}) menu, you can also add new attributes _on the fly_ while working on a product. You can choose from the list of existing attributes or create a new attribute. The new attribute is added to the [attribute set]({% link stores/attribute-sets.md %}) upon which the product is based.
 
-![]({% link images/images/product-attribute-add.png %}){: .zoom}
+![]({% link catalog/assets/product-attribute-add.png %}){: .zoom}
 _Add Attribute_
 
 ## Step 1: Add a product attribute
@@ -13,7 +13,7 @@ _Add Attribute_
 
 1. In the upper-right corner, click <span class="btn">Add Attribute</span>.
 
-   ![]({% link images/images/product-attribute-add-select.png %}){: .zoom}
+   ![]({% link catalog/assets/product-attribute-add-select.png %}){: .zoom}
    _New Attribute_
 
 1. To add an existing attribute to the product, use the [filter controls]({% link stores/admin-grid-controls.md %}) to find the attribute in the grid and do the following:
@@ -26,7 +26,7 @@ _Add Attribute_
 
 ## Step 2: Describe the basic properties
 
-![]({% link images/images/product-attribute-add-new.png %}){: .zoom}
+![]({% link catalog/assets/product-attribute-add-new.png %}){: .zoom}
 _Attribute Properties_
 
 1. Under **Attribute Properties**, enter an **Attribute Label** to identify the attribute.
@@ -47,14 +47,14 @@ _Attribute Properties_
 
    - Select **Is Default** to use the option as the default value.
 
-   ![]({% link images/images/product-attribute-add-values-flavors.png %}){: .zoom}
+   ![]({% link catalog/assets/product-attribute-add-values-flavors.png %}){: .zoom}
    _Values_
 
 1. If you want to require the customer to choose an option before the product can be purchased, set **Required** to `Yes`.
 
 ## Step 3: Describe the advanced properties (optional)
 
-![]({% link images/images/product-attribute-advanced-attribute-properties.png %}){: .zoom}
+![]({% link catalog/assets/product-attribute-advanced-attribute-properties.png %}){: .zoom}
 _Advanced Attribute Properties_
 
 1. Enter a unique **Attribute Code** in lowercase characters and without spaces.
@@ -76,7 +76,7 @@ _Advanced Attribute Properties_
    - Letters
    - Letters (a-z, A-Z) or Numbers (0-9)
 
-   ![]({% link images/images/product-attribute-input-validation.png %}){: .zoom}
+   ![]({% link catalog/assets/product-attribute-input-validation.png %}){: .zoom}
    _Input Validation_
 
 1. If you want to be able to include the attribute as a column in the Products grid, set **Add to Column Options** to `Yes`.
@@ -91,14 +91,14 @@ _Advanced Attribute Properties_
 
    If your store is available in different languages, you can enter a translated title for each view.
 
-   ![]({% link images/images/product-attribute-add-manage-titles.png %}){: .zoom}
+   ![]({% link catalog/assets/product-attribute-add-manage-titles.png %}){: .zoom}
    _Manage Titles_
 
 ## Step 5: Describe the storefront properties
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Storefront Properties** section.
 
-   ![]({% link images/images/product-attribute-add-storefront-properties.png %}){: .zoom}
+   ![]({% link catalog/assets/product-attribute-add-storefront-properties.png %}){: .zoom}
    _Storefront Properties_
 
 1. To make the attribute available for search, set **Use in Search** to `Yes`.

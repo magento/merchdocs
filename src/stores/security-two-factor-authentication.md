@@ -28,7 +28,7 @@ The first time a user signs in to the _Admin_, they must set up each [2FA]({% li
 
 1. Complete the settings for each required 2FA method.
 
-   ![Security configuration - 2FA]({% link images/images/config-2fa-general.png %}){: .zoom}
+   ![Security configuration - 2FA]({% link stores/assets/config-2fa-general.png %}){: .zoom}
    _Providers to use_
 
 1. When complete, click <span class="btn">Save Config</span>.
@@ -43,7 +43,7 @@ Complete the settings for each 2FA method that you require.
 
 To change how long the one-time password (OTP) is available during sign in, clear the **Use system value** checkbox. Then, enter the number of seconds that you want the **OTP Window** to be valid.
 
-![Security configuration - Google]({% link images/images/config-security-2fa-google.png %}){: .zoom}
+![Security configuration - Google]({% link configuration/security/assets/2fa-google.png %}){: .zoom}
 _Google_
 
 #### Duo Security
@@ -54,7 +54,7 @@ Enter the following credentials from your Duo Security account:
 - Secret key
 - API hostname
 
-![Security configuration - Duo]({% link images/images/config-security-2fa-duo-security.png %}){: .zoom}
+![Security configuration - Duo]({% link configuration/security/assets/2fa-duo-security.png %}){: .zoom}
 _Duo Security_
 
 #### Authy
@@ -63,12 +63,12 @@ _Duo Security_
 
 1. To change the default message that appears during authentication, clear the **Use system value** checkbox. Then, enter the **OneTouch Message** that you want to appear.
 
-   ![Security configuration - Authy]({% link images/images/config-security-2fa-authy.png %}){: .zoom}
+   ![Security configuration - Authy]({% link configuration/security/assets/2fa-authy.png %}){: .zoom}
    _Authy_
 
 #### U2F Devices (Yubikey and others)
 
 The store domain is used by default during the authentication process. To use a custom domain for authentication challenges, clear the **Use system value** checkbox. Then, enter the **WebAPi Challenge Domain**.
 
-![Security configuration - U2F Devices]({% link images/images/config-security-2fa-u2f-key.png %}){: .zoom}
+![Security configuration - U2F Devices]({% link configuration/security/assets/2fa-u2f-key.png %}){: .zoom}
 _U2F Devices_

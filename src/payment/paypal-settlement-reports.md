@@ -9,7 +9,7 @@ Before generating settlement reports, the store administrator must request PayPa
 
 After configuring and enabling settlement reports in the PayPal merchant account, Adobe Commerce and Magento Open Source will start generating reports during the following 24 hours. The list of available settlement reports can be viewed from the Admin.
 
-![PayPal Settlement Reports]({% link images/images/reports-sales-paypal-settlement.png %}){: .zoom}
+![PayPal Settlement Reports]({% link payment/assets/reports-sales-paypal-settlement.png %}){: .zoom}
 _PayPal settlement reports_
 
 ## View settlement reports

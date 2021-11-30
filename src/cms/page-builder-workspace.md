@@ -4,7 +4,7 @@ title: Page Builder Workspace
 
 When [Page Builder is enabled]({% link cms/page-builder-setup.md %}), the _Content_ section and content creation process are modified to take advantage of the advanced Page Builder tools for CMS [pages]({% link cms/page-add.md %}), [product]({% link catalog/product-content.md %}) and [category]({% link catalog/categories-content-settings.md %}) pages, [blocks]({% link cms/block-add.md %}), and [dynamic blocks]({% link cms/dynamic-blocks.md %}). This section includes a _Content Heading_ field, a preview of the content, and easy access to the full-screen Page Builder workspace.
 
-![]({% link images/images-ee/page-builder-content-preview.png %}){: .zoom}
+![]({% link cms/assets/pb-content-preview.png %}){: .zoom}
 _Content section with Page Builder preview_
 
 ## Content Heading
@@ -16,14 +16,14 @@ The _Content Heading_ field that appears at the top of the page is a legacy fiel
 
 For the best control over the positioning and format of headings of all levels, we recommend that you leave the _Content Heading_ field empty, and use the Page Builder [Heading]({% link cms/page-builder-elements-heading.md %}) content type.
 
-![]({% link images/images-ee/page-builder-storefront-heading-levels.png %}){: .zoom}
+![]({% link cms/assets/pb-storefront-heading-levels.png %}){: .zoom}
 _Content Heading and other headings_
 
 ## Preview
 
 When you expand the _Content_ section and there is existing content created with Page Builder, it displays a preview of the content as it would appear in a page. Click <span class="btn">Edit with Page Builder</span> or inside the content preview area to open the Page Builder workspace, where you can make any needed updates.
 
-![]({% link images/images-ee/product-category-content-preview.png %}){: .zoom}
+![]({% link cms/assets/pb-product-category-content-preview.png %}){: .zoom}
 _Product description preview_
 
 {:.bs-callout-info}
@@ -36,7 +36,7 @@ When you open the Page Builder workspace from the preview, the stage is the prim
 {:.bs-callout-info}
 Starting with the 2.4.1 release, content editing is now full-screen only for all areas controlled by Page Builder. This includes CMS pages, product and category pages, blocks, and dynamic blocks. Full-screen editing puts the focus on your content and provides a view that better matches the user experience on the storefront.
 
-![]({% link images/images-ee/page-builder-workspace-simple-page.png %}){: .zoom}
+![]({% link cms/assets/pb-workspace-simple-page.png %}){: .zoom}
 _Stage with page content_
 
 {% include page-builder-save-timeout.md %}
@@ -45,7 +45,7 @@ _Stage with page content_
 
 A _viewport_ is the visible area of a web page that a user sees. In full-screen design mode, the viewport buttons are displayed above the Page Builder stage to show you the content as the site user will see it on the storefront.
 
-![Viewport buttons]({% link images/images-ee/page-builder-workspace-viewport-buttons.png %}){: .zoom}
+![Viewport buttons]({% link cms/assets/pb-workspace-viewport-buttons.png %}){: .zoom}
 _Viewport buttons_
 
 Page Builder also defines breakpoints for viewports. Breakpoints define minimum and maximum widths within which certain styles are applied. The Page Builder viewports provide the following content breakpoints:
@@ -64,17 +64,17 @@ By default, Page Builder provides two viewport previews:
 
 The following examples show the Page Builder default responsive settings for product carousels displayed for these viewports:
 
-![Desktop viewport preview]({% link images/images-ee/page-builder-workspace-viewport-desktop.png %}){: .zoom}
+![Desktop viewport preview]({% link cms/assets/pb-workspace-viewport-desktop.png %}){: .zoom}
 _Desktop viewport preview, minimum width: 1024px_
 
-![Mobile viewport preview]({% link images/images-ee/page-builder-workspace-viewport-mobile.png %}){: .zoom}
+![Mobile viewport preview]({% link cms/assets/pb-workspace-viewport-mobile.png %}){: .zoom}
 _Mobile viewport preview, width: 768px_
 
 ### Breakpoint settings
 
 The viewport buttons also provide the option to apply different breakpoint styles to content types based on the selected viewport. By default, Page Builder provides breakpoint settings for the _Minimum Height_ fields of Rows, Columns, Tabs, Tab Items, Banners, Sliders, and Slides. When you select the Mobile viewport, then open the editor for one of those content types, you can enter field values specific to the Mobile viewport breakpoints. Content type fields that allow specific breakpoint settings display an icon to the right of the field, similar to the following example for a Row:
 
-![Icon indicator for breakpoint setting]({% link images/images-ee/page-builder-workspace-viewport-field-breakpoint.png %}){: .zoom}
+![Icon indicator for breakpoint setting]({% link cms/assets/pb-workspace-viewport-field-breakpoint.png %}){: .zoom}
 _Icon indicator for breakpoint setting, width: 768px_
 
 ## Panel
@@ -94,18 +94,18 @@ Each content container on the stage has a toolbox of options. The options vary b
 
 Hover over the container to display the toolbox and choose an option.
 
-![]({% link images/images-ee/page-builder-tutorial1-row-toolbox.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial1-row-toolbox.png %}){: .zoom}
 _Row toolbox options_
 
 ### Toolbox options
 
 | Option    | Icon                                     | Description  |
 | --------- | ---------------------------------------- | ------------ |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the current content container to another position on the stage. |
-| Add       | ![]({% link images/images-ee/icon-pb-add.png %}) | Adds children elements such as a button, slide, or tab. |
+| Move      | ![]({% link cms/assets/pb-icon-move.png %}) | Moves the current content container to another position on the stage. |
+| Add       | ![]({% link cms/assets/pb-icon-add.png %}) | Adds children elements such as a button, slide, or tab. |
 | (label)   |           | Identifies the container content type.|
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the content container properties in edit mode. |
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %}) | Hides the current content container.|
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %})| Shows the current content container.|
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the current content container. |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %}) | Deletes the current content container from the stage. |
+| Settings  | ![]({% link cms/assets/pb-icon-settings.png %}) | Opens the content container properties in edit mode. |
+| Hide      | ![]({% link cms/assets/pb-icon-hide.png %}) | Hides the current content container.|
+| Show      | ![]({% link cms/assets/pb-icon-show.png %})| Shows the current content container.|
+| Duplicate | ![]({% link cms/assets/pb-icon-duplicate.png %}) | Makes a copy of the current content container. |
+| Remove    | ![]({% link cms/assets/pb-icon-remove.png %}) | Deletes the current content container from the stage. |

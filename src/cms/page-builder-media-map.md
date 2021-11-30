@@ -16,7 +16,7 @@ To get the most from Google Maps Platform, you can customize the map, highlight 
 
 1. If you have a chain of physical stores, adding a Google Map on your site helps to increase your brand awareness and credibility in the form of highlighted items.
 
-![]({% link images/images-ee/page-builder-media-maps-storefront.png %}){: .zoom}
+![]({% link cms/assets/pb-media-maps-storefront.png %}){: .zoom}
 _Example storefront - map with location_
 
 {% include page-builder-save-timeout.md %}
@@ -27,13 +27,13 @@ The map toolbox appears when you hover over the map container.
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|Moves the map to another position on the stage.|
+|Move|![Move icon]({% link cms/assets/pb-icon-move.png %}){: width="25px"}|Moves the map to another position on the stage.|
 |(label)|Map|Identifies the current content container as an map. Hover over the map container to see the toolbox.|
-|Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Map page, where you can change the properties of the map and container.|
-|Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current map.|
-|Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the  hidden map.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the map.|
-|Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the map from the stage.|
+|Settings|![Settings icon]({% link cms/assets/pb-icon-settings.png %}){: width="25px"}|Opens the Edit Map page, where you can change the properties of the map and container.|
+|Hide|![Hide icon]({% link cms/assets/pb-icon-hide.png %}){: width="25px"}|Hides the current map.|
+|Show|![Show icon]({% link cms/assets/pb-icon-show.png %}){: width="25px"}|Shows the  hidden map.|
+|Duplicate|![Duplicate icon]({% link cms/assets/pb-icon-duplicate.png %}){: width="25px"}|Makes a copy of the map.|
+|Remove|![Remove icon]({% link cms/assets/pb-icon-remove.png %}){: width="25px"}|Deletes the map from the stage.|
 
 ## Configure Google Maps for your Admin
 
@@ -59,7 +59,7 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Advanced Content Tools**.
 
-   ![]({% link images/images/config-general-content-management-advanced-content-tools.png %}){: .zoom}
+   ![]({% link configuration/general/assets/content-management-advanced-content-tools.png %}){: .zoom}
    [_Advanced Content Tools_]({% link configuration/general/content-management.md %})
 
 1. For **Google Maps API Key**, paste the key you copied in step 1.
@@ -76,22 +76,22 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
 1. In the Page Builder panel, expand **Media** and drag a **Map** placeholder to the stage.
 
-   ![]({% link images/images-ee/page-builder-media-map-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-map-drag.png %}){: .zoom}
    _Dragging a map to the stage_
 
    If Google Maps Platform is configured for your store, a map appears for your store location.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-google-map.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-google-map.png %}){: .zoom}
    _Google Maps_
 
    If Google Maps Platform is not yet configured for your store, a placeholder map appears instead.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-media-map-not-configured.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-media-map-not-configured.png %}){: .zoom}
    _Google Maps Placeholder_
 
 ## Add a custom map location
 
-1. Hover over the map container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the map container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. In the upper-right corner of the _Edit Map_ page, click <span class="btn">Add Location</span>.
 
@@ -107,28 +107,28 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
    If necessary, go to [Google Maps][5] in a new browser window and use one of the following methods to get the coordinates:
 
-   ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-coordinates.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-maps-settings-add-location-coordinates.png %}){: .zoom}
    _Map Coordinates_
 
    **Method 1:** Copy from URL
 
-   - In the upper-left corner, enter the address in the **Search** box and click the Search (![]({% link images/images/btn-search.png %})) icon.
+   - In the upper-left corner, enter the address in the **Search** box and click the Search (![]({% link assets/icon-magnify-search.png %})) icon.
 
    - Copy the coordinates in the URL and paste them into a notepad.
 
-   ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-coordinates-url.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-maps-settings-add-location-coordinates-url.png %}){: .zoom}
    _Google Maps - copy coordinates from URL_
 
    **Method 2:** Copy from “What’s here?”
 
    - Right-click the red pin that marks the location on the map and choose **What’s here?** in the menu.
 
-      ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-pin-menu.png %}){: .zoom}
+      ![]({% link cms/assets/pb-media-maps-settings-add-location-pin-menu.png %}){: .zoom}
       _Google Maps - What’s here?_
 
    - In the displayed label, copy the text, including the coordinates and paste the text into a notepad.
 
-      ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-label-coordinates.png %}){: .zoom}
+      ![]({% link cms/assets/pb-media-maps-settings-add-location-label-coordinates.png %}){: .zoom}
       _Google Maps - copying the coordinates_
 
 1. Enter the numbers, without the comma, in each of the **Coordinates** boxes.
@@ -149,7 +149,7 @@ Depending on whether you already have a Google Maps key, use one of the followin
 
    The new location appears in the map and in the map location grid on the _Edit Map_ page.
 
-   ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-grid.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-maps-settings-add-location-grid.png %}){: .zoom}
    _Page Builder - maps location grid_
 
 ## Style the map {#styling}
@@ -166,21 +166,21 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
 1. Under the **Google Maps Style** text box, click [Create Map Style][6].
 
-   ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-maps-google-platform-maps-styling-wizard.png %}){: .zoom}
    [_Google Platform Maps Styling Wizard_][6]
 
    This opens the Google Maps Platform Styling Wizard in a separate tab, where you can define a style for your Google Maps Platform project.
 
 1. Click <span class="btn">Create a Style</span> and follow the provided instructions.
 
-   ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-select-theme.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-maps-google-platform-maps-styling-wizard-select-theme.png %}){: .zoom}
    _Selecting a predefined Google Maps theme_
 
    When complete, click <span class="btn">Finish</span>.
 
 1. Export the completed style as JSON code or as a URL so that you can add it to the Commerce configuration.
 
-   ![]({% link images/images-ee/page-builder-media-maps-google-platform-maps-styling-wizard-export-style.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-maps-google-platform-maps-styling-wizard-export-style.png %}){: .zoom}
    _Export Style_
 
    - **JSON**: Below the box with the generated JSON code, click **Copy JSON**.
@@ -195,7 +195,7 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
 ### Change the map settings
 
-1. Hover over the map container to display the tool box and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the map container to display the tool box and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. Change the basic settings as needed:
 
@@ -228,7 +228,7 @@ Use the Google Maps Platform Styling Wizard to apply a one of six predefined the
 
       - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-      ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
+      ![]({% link cms/assets/pb-settings-border-color.png %}){: .zoom}
       _Border Color_
 
       - **Border Width** - Enter the number of pixels for the border line width.
@@ -270,7 +270,7 @@ The grid size determines the size of the map related to a [column]({% link cms/p
 
    - For **Maximum Column Grid Size**, enter a new value for the default maximum grid size.
 
-   ![]({% link images/images-ee/config-general-content-management-advanced-content-tools-grid-size.png %}){: .zoom}
+   ![]({% link cms/assets/pb-configure-advanced-content-tools-grid-size.png %}){: .zoom}
    _Column grid size settings_
 
 1. When complete, click <span class="btn">Save Config</span>.

@@ -10,7 +10,7 @@ If the product price includes tax, the tax appears only if there is a tax rule t
 **Important!**
 Showing prices that include and exclude tax can be confusing to the customer. To avoid triggering a warning message, see the [guidelines]({% link tax/international-tax-guidelines.md %}) for your country and [recommended settings]({% link tax/warning-messages.md %}) to avoid warning messages.
 
-![]({% link images/images/config-sales-tax-price-display-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-price-display-settings.png %}){: .zoom}
 [_Price Display Settings_]({% link configuration/sales/tax.md %})
 
 ## Configure price display settings
@@ -46,14 +46,14 @@ If you choose to display both prices (with and without tax), the storefront will
 
 If you choose to display both prices (with and without tax), the storefront will look similar to the following:
 
-   ![]({% link images/images/catalog-prices-tax.png %}){: .zoom}
+   ![]({% link tax/assets/catalog-prices-tax.png %}){: .zoom}
    _Example of price display including taxes on the storefront_
 
 ### Step 2: Configure shopping cart display settings
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Shopping Cart Display Settings** section.
 
-   ![]({% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/tax-shopping-cart-display-settings.png %}){: .zoom}
    _Shopping Cart Display Settings_
 
 1. For **Display Prices**, choose one of the following:
@@ -96,7 +96,7 @@ If you choose to display both prices (with and without tax), the storefront will
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
 
-   ![]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
    _Orders, Invoices, Credit Memos Display Settings_
 
 1. For **Display Prices**, choose one of the following:

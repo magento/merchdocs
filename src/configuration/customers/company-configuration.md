@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## General
 
-![]({% link images/images-b2b/config-customers-company-configuration-general.png %}){: .zoom}
+![]({% link configuration/customers/assets/company-general.png %}){: .zoom}
 _General_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -16,7 +16,7 @@ _General_
 
 ## Email Options - Company Registration
 
-![]({% link images/images-b2b/config-customers-company-configuration-email-options-company-registration.png %}){: .zoom}
+![]({% link configuration/customers/assets/company-email-options-company-registration.png %}){: .zoom}
 [_Email Options - Company Registration_]({% link customers/customer-sign-in.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -28,7 +28,7 @@ _General_
 
 ## Customer-Related Emails
 
-![]({% link images/images-b2b/config-customers-company-configuration-email-options-customer-related-emails.png %}){: .zoom}
+![]({% link configuration/customers/assets/company-email-options-customer-related-emails.png %}){: .zoom}
 [_Customer-Related Emails_]({% link marketing/email-company-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -43,7 +43,7 @@ _General_
 
 ## Company Status Change
 
-![]({% link images/images-b2b/config-customers-company-configuration-email-options-company-status-change.png %}){: .zoom}
+![]({% link configuration/customers/assets/company-email-options-company-status-change.png %}){: .zoom}
 [_Company Status Change_]({% link customers/account-company-manage.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -59,7 +59,7 @@ _General_
 
 ## Company Credit
 
-![]({% link images/images-b2b/config-customers-company-configuration-email-options-company-credit.png %}){: .zoom}
+![]({% link configuration/customers/assets/company-email-options-company-credit.png %}){: .zoom}
 [_Company Credit_]({% link customers/account-dashboard-company-credit.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

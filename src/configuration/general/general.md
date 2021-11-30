@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 
 See [Country Options]({% link stores/country-options.md %}) for specific configuration fields and options.
 
-![General > Country Options]({% link images/images/config-general-general-country-options.png %}){: .zoom}
+![General > Country Options]({% link configuration/general/assets/general-country-options.png %}){: .zoom}
 _Country Options configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -23,7 +23,7 @@ _Country Options configuration settings_
 
 See [State Options]({% link stores/state-options.md %}) for specific configuration fields and options.
 
-![General > State Options]({% link images/images/config-general-general-state-options.png %}){: .zoom}
+![General > State Options]({% link configuration/general/assets/general-state-options.png %}){: .zoom}
 _State Options configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -35,7 +35,7 @@ _State Options configuration settings_
 
 See [Locale Options]({% link stores/locale-options.md %}) for specific configuration fields and options.
 
-![General > Locale Options]({% link images/images/config-general-general-locale-options.png %}){: .zoom}
+![General > Locale Options]({% link configuration/general/assets/general-locale-options.png %}){: .zoom}
 _Locale Options configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -52,7 +52,7 @@ _Locale Options configuration settings_
 
 See [Website Restrictions]({% link marketing/event-restrict-access.md %}) for specific configuration fields and options.
 
-![General > Website Restrictions]({% link images/images-ee/config-general-general-website-restrictions.png %}){: .zoom}
+![General > Website Restrictions]({% link configuration/general/assets/general-website-restrictions.png %}){: .zoom}
 *Website Restrictions configuration settings*
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -68,7 +68,7 @@ See [Website Restrictions]({% link marketing/event-restrict-access.md %}) for sp
 
 See [Store Information]({% link stores/store-information.md %}) for specific configuration fields and options.
 
-![General > Store Information]({% link images/images/config-general-general-store-information.png %}){: .zoom}
+![General > Store Information]({% link configuration/general/assets/general-store-information.png %}){: .zoom}
 _Store Information configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -89,7 +89,7 @@ _Store Information configuration settings_
 
 See [Single-Store Mode]({% link stores/store-mode-single.md %}) for specific configuration fields and options.
 
-![General > Single-Store Mode]({% link images/images/config-general-general-single-store-mode.png %}){: .zoom}
+![General > Single-Store Mode]({% link configuration/general/assets/general-single-store-mode.png %}){: .zoom}
 _Single-Store Mode configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

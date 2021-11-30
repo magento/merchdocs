@@ -11,7 +11,7 @@ The _Content_ section is used to enter and edit the main product description tha
 
 1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
-   ![]({% link images/images-ee/catalog-product-content.png %}){: .zoom}
+   ![]({% link catalog/assets/product-content.png %}){: .zoom}
    _Product content_
 
 1. Enter a **Short Description** of the product and use the [editor toolbar]({% link cms/editor.md %}) to format as needed.
@@ -25,7 +25,7 @@ The _Content_ section is used to enter and edit the main product description tha
 
 When you expand the _Content_ section for an existing product where there is content created with Page Builder, it displays a preview of the **Description** content as it would appear in the product page. Click the content area to open the Page Builder workspace, where you can make any needed updates.
 
-![]({% link images/images-ee/product-category-content-preview.png %}){: .zoom}
+![]({% link cms/assets/pb-product-category-content-preview.png %}){: .zoom}
 _Description preview_
 
 This content preview is enabled for the product and category forms by default. If performance suffers due to loading the preview, you can disable the preview in the [Content Management configuration]({% link configuration/general/content-management.md %}#advanced-content-tools) settings.
@@ -39,7 +39,7 @@ Enter only plain ASCII characters into the text box. If pasting text from a word
 
 1. Scroll down and expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
-   ![]({% link images/images/product-simple-content.png %}){: .zoom}
+   ![]({% link catalog/assets/product-simple-content.png %}){: .zoom}
    _Product content_
 
 1. Enter a **Short Description** of the product and format as needed.

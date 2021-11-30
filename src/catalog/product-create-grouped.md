@@ -10,14 +10,14 @@ Although they are presented as a group, each product in the group is purchased a
 
 The following instructions demonstrate the process of creating a grouped product using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}), as needed.
 
-![]({% link images/images/product-grouped.png %}){: .zoom}
+![]({% link catalog/assets/product-grouped.png %}){: .zoom}
 _Grouped Product_
 
 ## Step 1: Choose the product type
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
-1. On the _Add Product_ ( ![]({% link images/images/btn-save-menu.png %}){: width="25px"} ) menu at the upper-right corner, choose **Grouped Product**.
+1. On the _Add Product_ ( ![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu at the upper-right corner, choose **Grouped Product**.
 
     ![]({% link catalog/assets/product-add-grouped.png %}){: .zoom}
     _Add Grouped Product_
@@ -31,7 +31,7 @@ To choose the [attribute set]({% link stores/attribute-sets.md %}) that is used 
 
 The form is updated to reflect the change.
 
-![]({% link images/images/product-grouped-create-choose-attribute-set.png %}){: .zoom}
+![]({% link catalog/assets/product-grouped-create-choose-attribute-set.png %}){: .zoom}
 _Choose Template_
 
 If the needed attributes do not exist, you can add new attributes while creating a product:
@@ -39,7 +39,7 @@ If the needed attributes do not exist, you can add new attributes while creating
 - In the upper-right corner, click <span class="btn">Add Attribute</span>.
 - Define a new attribute (see [Adding an Attribute to a Product]({% link catalog/product-attributes-add.md %})).
 
-   ![]({% link images/images/product-attribute-add-select.png %}){: .zoom}
+   ![]({% link catalog/assets/product-attribute-add-select.png %}){: .zoom}
    _New Attribute_
 
 To add an existing attribute to the product, use the [filter controls]({% link stores/admin-grid-controls.md %}) to find the attribute in the grid and do the following:
@@ -55,7 +55,7 @@ To add an existing attribute to the product, use the [filter controls]({% link s
 
     Take note that the **Quantity** field is not available because the value is derived from the individual products that make up the group.
 
-1. Because the product is not yet ready to publish, set **Enable Product** to `No` ( ![]({% link images/images/btn-switch-no.png %}) ).
+1. Because the product is not yet ready to publish, set **Enable Product** to `No` ( ![]({% link assets/toggle-no.png %}) ).
 
 1. Click <span class="btn">Save</span> and continue.
 
@@ -63,7 +63,7 @@ To add an existing attribute to the product, use the [filter controls]({% link s
 
 1. Choose the **Store View** where the product is to be available.
 
-    ![]({% link images/images/product-grouped-create-store-view-choose.png %}){: .zoom}
+    ![]({% link catalog/assets/product-grouped-create-store-view-choose.png %}){: .zoom}
     _Choose Store View_
 
 ## Step 4: Complete the basic settings
@@ -94,14 +94,14 @@ To add an existing attribute to the product, use the [filter controls]({% link s
 
     There might be additional individual attributes that describe the product. The selection varies attribute set, and you can complete them later.
 
-    ![]({% link images/images/product-grouped-details.png %}){: .zoom}
+    ![]({% link catalog/assets/product-grouped-details.png %}){: .zoom}
     _Grouped Product Details_
 
 ## Step 5: Add products to the group
 
 1. Scroll down to the **Grouped Products** section and click <span class="btn">Add Products to Group</span>.
 
-    ![]({% link images/images/product-grouped-products.png %}){: .zoom}
+    ![]({% link catalog/assets/product-grouped-products.png %}){: .zoom}
     _Grouped Products_
 
 1. If necessary, use the [filters]({% link stores/admin-grid-controls.md %}) to find the products that you want to include in the group.
@@ -111,7 +111,7 @@ To add an existing attribute to the product, use the [filter controls]({% link s
     {:.bs-callout-info}
     Only simple, downloadable, and virtual products with no configurable options can be grouped child products. Other product types do not appear in the selection list.
 
-    ![]({% link images/images/product-grouped-add-products.png %}){: .zoom}
+    ![]({% link catalog/assets/product-grouped-add-products.png %}){: .zoom}
     _Add Selected Products_
 
 1. Click <span class="btn">Add Selected Products</span> to add them to the group.
@@ -120,12 +120,12 @@ To add an existing attribute to the product, use the [filter controls]({% link s
 
     For Multi Source merchants with Inventory Management, the grid includes a **Quantity per Source** column with each assigned source and inventory stock amount.
 
-    ![]({% link images/images/product-grouped-grouped-products-section.png %}){: .zoom}
+    ![]({% link catalog/assets/product-grouped-grouped-products-section.png %}){: .zoom}
     _Products in Group_
 
 1. Enter a **Default Quantity** for any of the items.
 
-1. To change the order of the products, grab the **Change Order** icon ( ![]({% link images/images/btn-sort-order-inline.png %}) ) in the first column and drag the product to the new position in the list.
+1. To change the order of the products, grab the **Change Order** icon ( ![]({% link assets/icon-sort-order.png %}) ) in the first column and drag the product to the new position in the list.
 
 1. To remove a product from the group, click **Remove**.
 
@@ -156,14 +156,14 @@ Complete the information in the following sections as needed:
 
       The store opens in a new browser tab.
 
-      ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
+      ![]({% link catalog/assets/product-admin-customer-view.png %}){: .zoom}
       _Customer View_
 
    **Method 2:** Save and Close
 
-   - On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}) ) menu, choose **Save & Close**.
+   - On the _Save_ (![]({% link assets/icon-menu-down-arrow-red.png %}){: width="25px"} ) menu, choose **Save & Close**.
 
-   ![]({% link images/images/product-edit-save-close.png %}){: .zoom}
+   ![]({% link catalog/assets/product-edit-save-close.png %}){: .zoom}
    _Save & Close_
 
 ## Step 7: Configure the cart thumbnails (optional)
@@ -182,7 +182,7 @@ If you have a different image for each product in the group, you can set the con
 
 1. Click <span class="btn">Save Config</span>.
 
-   ![]({% link images/images/config-sales-checkout-shopping-cart-grouped-product.png %}){: .zoom}
+   ![]({% link catalog/assets/cart-grouped-product.png %}){: .zoom}
    [_Shopping Cart_]({% link configuration/sales/checkout.md %})
 
 ## Things to remember

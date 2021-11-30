@@ -7,7 +7,7 @@ Enhanced Ecommerce is a plugin for Google Universal Analytics that gives you ins
 
 The following instructions show how to configure Google Tag Manager with Universal Analytics to produce Enhanced Ecommerce data and reports.
 
-![Example storefront in debug mode - Google tags fired in shopping cart]({% link images/images-ee/storefront-google-tags-fired-checkout.png %}){: .zoom}
+![Example storefront in debug mode - Google tags fired in shopping cart]({% link marketing/assets/storefront-google-tags-fired-checkout.png %}){: .zoom}
 _Tags Fired in Shopping Cart Shown in Debug Mode_
 
 ## Step 1. Sign Up for Google Accounts

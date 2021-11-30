@@ -7,7 +7,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 ## General
 
-![]({% link images/images-b2b/config-customers-requisition-lists-general.png %}){: .zoom}
+![]({% link configuration/customers/assets/requisition-lists-general.png %}){: .zoom}
 [_General_]({% link stores/b2b-configure-requisition-lists.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

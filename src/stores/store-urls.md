@@ -45,7 +45,7 @@ Adobe Commerce and Magento Open Source can be configured to deliver all pages ov
 
        For a typical installation, there is no need to update the paths for the static view files or media files because they are relative to the base URL.
 
-    ![General configuration - web base URLs]({% link images/images/config-general-web-base-urls.png %}){: .zoom}
+    ![General configuration - web base URLs]({% link configuration/general/assets/web-base-urls.png %}){: .zoom}
     [_Base URLs_]({% link configuration/general/web.md %})
 
     {:.bs-callout-info}
@@ -59,7 +59,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}){: .Inline} the _Base URLs (Secure)_ section. Then, do the following:
 
-    ![General configuration - secure base URLs]({% link images/images/config-general-web-base-urls-secure.png %}){: .zoom}
+    ![General configuration - secure base URLs]({% link configuration/general/assets/web-base-urls-secure.png %}){: .zoom}
     [_Base URLs (Secure)_]({% link configuration/general/web.md %})
 
    - **Secure Base URL** — Enter the full secure base URL, followed by a forward slash. For example: `https://yourdomain.com/`
@@ -81,7 +81,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 1. For _Enhanced Security Settings_, do the following:
 
-    ![General configuration - URL enhanced security]({% link images/images/config-general-web-base-urls-secure-hsts.png %}){: .zoom}
+    ![General configuration - URL enhanced security]({% link stores/assets/config-general-web-base-urls-secure-hsts.png %}){: .zoom}
     _Enhanced Security_
 
    - **Enable HTTP Strict Transport Security (HSTS)** — If you want your store to display only secure HTTPS page requests, set to `Yes`.
@@ -105,14 +105,14 @@ If your domain has a valid security certificate, you can configure the URLs of b
    - **URL with Store Code**: `http://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
    - **URL without Store Code**: `http://www.yourdomain.com/magento/index.php/url-identifier`
 
-    ![General configuration - web URL options]({% link images/images/config-general-web-url-options.png %}){: .zoom}
+    ![General configuration - web URL options]({% link configuration/general/assets/web-url-options.png %}){: .zoom}
     [_URL Options_]({% link configuration/general/web.md %})
 
 1. When complete, click <span class="btn">Save Config</span>.
 
 1. Click the **Cache Management** link in the message at the top of the workspace. Then, follow the instructions to refresh the cache.
 
-    ![Cache management message]({% link images/images/msg-cache-management.png %})
+    ![Cache management message]({% link stores/assets/msg-cache-management.png %})
 
 ## Troubleshooting
 

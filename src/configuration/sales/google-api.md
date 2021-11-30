@@ -6,8 +6,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Google Analytics
 
-![]({% link images/images-ee/config-sales-google-api-google-analytics-ee.png %}){: .zoom}
-_[Google Analytics]({% link marketing/google-universal-analytics.md %})_{:.ee-only}
+![]({% link configuration/assets/google-analytics-ee.png %}){: .zoom}
+_[Google Analytics]({% link marketing/google-universal-analytics.md %})_
 
 | Field                                     | [Scope]({% link configuration/scope.md %}) | Description                                                                                                                                                                                                     |
 | ----------------------------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -20,7 +20,7 @@ _[Google Analytics]({% link marketing/google-universal-analytics.md %})_{:.ee-on
 {:.ee-only}
 ### Google Analytics - Google Tag Manager
 
-![]({% link images/images-ee/config-sales-google-api-google-analytics-google-tag-manager.png %}){: .zoom}
+![]({% link configuration/sales/assets/google-api-analytics-tag-manager.png %}){: .zoom}
 _Google Analytics - Google Tag Manager_
 
 | Field                                              | [Scope]({% link configuration/scope.md %}) | Description                                                                                                                                                                                                                                                                         |
@@ -40,7 +40,7 @@ _Google Analytics - Google Tag Manager_
 
 ## Google Adwords
 
-![]({% link images/images/config-sales-google-api-google-adwords.png %}){: .zoom}
+![]({% link configuration/sales/assets/google-api-google-adwords.png %}){: .zoom}
 [_Google Adwords_]({% link marketing/google-adwords.md %})
 
 | Field                 | [Scope]({% link configuration/scope.md %}) | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |

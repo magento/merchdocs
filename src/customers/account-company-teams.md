@@ -7,7 +7,7 @@ The structure of a company account should reflect the purchasing organization, w
 
 If your installation is [configured]({% link stores/b2b-features.md %}) to allow companies to manage their own accounts, setting up the company structure is one of the first tasks for a company administrator to complete after the account is approved. In the company account, the structure of the company is represented as a tree with the company administrator at the top.
 
-![]({% link images/images-b2b/diagram-company-structure-teams.png %}){: .zoom}
+![]({% link customers/assets/company-structure-teams-diagram.png %}){: .zoom}
 _Company Structure with Teams_
 
 ## Set up company teams
@@ -18,28 +18,28 @@ _Company Structure with Teams_
 
 1. Under **Business Structure**, click **Add Team** and do the following:
 
-   ![]({% link images/images-b2b/company-structure-tree-admin.png %}){: .zoom}
+   ![]({% link customers/assets/company-structure-tree-admin.png %}){: .zoom}
    _Add Team_
 
    - Enter the **Team Title** and **Description**.
 
       The Team Title can be anything that represents the structure of the company, such as a team, office, or division within the company
 
-      ![]({% link images/images-b2b/company-structure-add-team.png %}){: .zoom}
+      ![]({% link customers/assets/company-structure-add-team.png %}){: .zoom}
       _Add Team_
 
    - When complete, click <span class="btn">Save</span>.
 
    - Repeat these steps to create as many teams as you need.
 
-      ![]({% link images/images-b2b/company-structure-teams.png %}){: .zoom}
+      ![]({% link customers/assets/company-structure-teams.png %}){: .zoom}
       _Company Structure with Teams_
 
 1. To create a hierarchy of teams, do the following:
 
    - Select the parent team, and click **Add Team**.
 
-      ![]({% link images/images-b2b/company-structure-northwest-division.png %}){: .zoom}
+      ![]({% link customers/assets/company-structure-northwest-division.png %}){: .zoom}
       _Company Structure with Divisions_
 
    - Enter the **Team Title** and **Description**.
@@ -48,7 +48,7 @@ _Company Structure with Teams_
 
 1. Repeat these steps to create as many teams, or divisions and subdivisions, as you need.
 
-   ![]({% link images/images-b2b/company-structure-divisions.png %}){: .zoom}
+   ![]({% link customers/assets/company-structure-divisions.png %}){: .zoom}
    _Company Structure with Divisions and Subdivisions_
 
 ## Move a team
@@ -82,9 +82,9 @@ As you work on the company structure, you can collapse or expand the tree:
 
 | Icon                                                        | Description                                                    |
 |-------------------------------------------------------------|----------------------------------------------------------------|
-| ![]({% link images/images-b2b/icon-company-admin.png %})    | Represents the company administrator in the company structure. |
-| ![]({% link images/images-b2b/icon-company-team.png %})     | Represents a team in the company structure.                    |
-| ![]({% link images/images-b2b/icon-company-user.png %})     | Represents a user in the company structure.                 |
-| ![]({% link images/images-b2b/icon-company-move.png %})     | Moves a team to another position in the company structure.     |
-| ![]({% link images/images-b2b/icon-company-expand.png %})   | Expands a team in the company structure.                       |
-| ![]({% link images/images-b2b/icon-company-collapse.png %}) | Collapses a team in the company structure.                     |
+| ![]({% link customers/assets/company-icon-admin.png %})     | Represents the company administrator in the company structure. |
+| ![]({% link customers/assets/company-icon-team.png %})      | Represents a team in the company structure.                    |
+| ![]({% link customers/assets/company-icon-user.png %})      | Represents a user in the company structure.                    |
+| ![]({% link customers/assets/company-icon-move.png %})      | Moves a team to another position in the company structure.     |
+| ![]({% link customers/assets/company-icon-expand.png %})    | Expands a team in the company structure.                       |
+| ![]({% link customers/assets/company-icon-collapse.png %})  | Collapses a team in the company structure.                     |

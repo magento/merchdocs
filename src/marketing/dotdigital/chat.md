@@ -6,12 +6,12 @@ redirect_from:
 
 dotdigital Chat is a smart, customizable widget that makes it easy for shoppers to communicate in real time with members of your team. You can use the Chat widget to answer product questions and reduce calls to customer support.
 
-![]({% link images/images/storefront-engagement-cloud-chat-home.png %}){: .zoom}
+![]({% link marketing/assets/storefront-engagement-cloud-chat-home.png %}){: .zoom}
 _Chat widget on home page_
 
 The _Chat_ widget is available on all pages of your store, although there is a delay of a few seconds before it appears to give the customer the opportunity to view the entire page. The _Chat_ widget can be hidden as needed, and restored by clicking the button in the lower-right corner.
 
-![]({% link images/images/storefront-engagement-cloud-chat-checkout.png %}){: .zoom}
+![]({% link marketing/assets/storefront-engagement-cloud-chat-checkout.png %}){: .zoom}
 _Live Chat during checkout_
 
 When _Chat_ is enabled in your Commerce configuration, the _Chat_ option appears in the left navigation of your dotdigital account. From the _Chats_ page of your account, you can access your personal chats, all chats related to your account, or those of a specific team. You can also manage your chats in real time from the [Chat Settings]({% link configuration/dotdigital/chat-settings.md %}) configuration in the Commerce _Admin_.
@@ -43,7 +43,7 @@ The following steps continue from the _Chat Settings_ section in the Commerce co
 
    Follow the instructions in the dotdigital knowledge base to [add multiple chat teams][2].
 
-   ![]({% link images/images/config-dotdigital-chat-enabled.png %}){: .zoom}
+   ![]({% link marketing/assets/dotdigital-chat-enabled.png %}){: .zoom}
    _Enable chat_
 
    To learn more, see [Getting Started with Chat][1] in the dotdigital knowledge base.

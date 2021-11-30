@@ -14,12 +14,12 @@ To get started with dotdigital Engagement Cloud, you must first sign up for a fr
 
 1. In the banner, click <span class="btn">Start free trial</span>.
 
-    ![dotdigital configuration - start free trial]({% link images/images/config-engagement-cloud-account-settings-banner.png %}){: .zoom}
+    ![dotdigital configuration - start free trial]({% link marketing/assets/engagement-cloud-settings-banner.png %}){: .zoom}
     _Start free trial_
 
 1. Complete the form and click <span class="btn">Create an Account</span>.
 
-1. Wait a few moments while your account is created. When the congratulations message appears, click **Close** (![Close icon]({% link images/images/engagement-cloud-btn-close.png %})).
+1. Wait a few moments while your account is created. When the congratulations message appears, click **Close** (![Close icon]({% link marketing/dotdigital/assets/icon-close.png %})).
 
     dotdigital is now enabled, and your **API Username** and **API Password** appear in the _Settings_ section of your store's dotdigital Accounts configuration.
 
@@ -27,7 +27,7 @@ To get started with dotdigital Engagement Cloud, you must first sign up for a fr
 
 1. When prompted, click the [Cache Management]({% link system/cache-management.md %}) link in the message at the top of the page. Then, refresh any invalid cache.
 
-    ![dotdigital configuration - account credentials]({% link images/images/config-engagement-cloud-accounts-api-credentials-valid.png %}){: .zoom}
+    ![dotdigital configuration - account credentials]({% link marketing/assets/engagement-cloud-valid-api.png %}){: .zoom}
     _Account credentials_
 
 ## Step 2: Set Up dotdigital Chat (Optional)
@@ -38,7 +38,7 @@ To get started with dotdigital Engagement Cloud, you must first sign up for a fr
 
 1. Return to the _Chat Settings_ section, and at **Configure Chat Widget**, click <span class="btn">Configure</span>.
 
-    ![dotdigital configuration - chat settings]({% link images/images/config-engagement-cloud-chat-settings-enabled.png %}){: .zoom}
+    ![dotdigital configuration - chat settings]({% link configuration/dotdigital/assets/chat-settings-enabled.png %}){: .zoom}
     _[Chat settings - enabled]({% link marketing/dotdigital/setup.md %})_
 
     If you set up the Chat widget later, you will need to log in to your dotdigital account.  When your account opens, click the **Chat** option in the sidebar on the left. Then at the top of the page, choose **Settings**.
@@ -51,7 +51,7 @@ To get started with dotdigital Engagement Cloud, you must first sign up for a fr
 
 1. When complete, click <span class="btn">Save and generate code</span>.
 
-    ![dotdigital configuration - chat widget]({% link images/images/config-engagement-cloud-accounts-chat-settings-widget.png %}){: .zoom}
+    ![dotdigital configuration - chat widget]({% link marketing/assets/engagement-cloud-chat-widget.png %}){: .zoom}
     _Chat widget settings_
 
 1. In your store, the name of the team appears in the heading of the _Chat_ window. To set up your _Chat Teams_, do one of the following:

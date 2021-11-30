@@ -4,7 +4,7 @@ title: Add Content - Dynamic Block
 
 Use the Dynamic Block content type to add an existing [dynamic block]({% link cms/dynamic-blocks.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage).
 
-![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial2-dynamic-block-storefront.png %}){: .zoom}
 _Dynamic block on the storefront_
 
 {% include page-builder-save-timeout.md %}
@@ -13,12 +13,12 @@ _Dynamic block on the storefront_
 
 | Tool      | Icon          | Description       |
 | --------- | ------------- | ----------------- |
-| Move      | ![]({% link images/images-ee/icon-pb-move.png %}) | Moves the block container and its content to another position on the stage.  |
-| Settings  | ![]({% link images/images-ee/icon-pb-settings.png %}) | Opens the _Edit Block_ page, where you can choose the block and change the properties of the container. |
-| Hide      | ![]({% link images/images-ee/icon-pb-hide.png %})| Hides the current block container and its content.  |
-| Show      | ![]({% link images/images-ee/icon-pb-show.png %}) | Shows the  hidden block container and its content.  |
-| Duplicate | ![]({% link images/images-ee/icon-pb-duplicate.png %}) | Makes a copy of the block container and its content.  |
-| Remove    | ![]({% link images/images-ee/icon-pb-remove.png %})| Deletes the block container and its content from the stage. |
+| Move      | ![]({% link cms/assets/pb-icon-move.png %}) | Moves the block container and its content to another position on the stage.  |
+| Settings  | ![]({% link cms/assets/pb-icon-settings.png %}) | Opens the _Edit Block_ page, where you can choose the block and change the properties of the container. |
+| Hide      | ![]({% link cms/assets/pb-icon-hide.png %})| Hides the current block container and its content.  |
+| Show      | ![]({% link cms/assets/pb-icon-show.png %}) | Shows the  hidden block container and its content.  |
+| Duplicate | ![]({% link cms/assets/pb-icon-duplicate.png %}) | Makes a copy of the block container and its content.  |
+| Remove    | ![]({% link cms/assets/pb-icon-remove.png %})| Deletes the block container and its content from the stage. |
 
 ## Add an existing dynamic block to the stage
 
@@ -26,27 +26,27 @@ _Dynamic block on the storefront_
 
 1. In the Page Builder panel, expand **Add Content** and drag a **Dynamic Block** placeholder to the stage.
 
-   ![]({% link images/images-ee/page-builder-dynamic-block-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-dynamic-block-drag.png %}){: .zoom}
    _Dragging a dynamic block placeholder to the stage_
 
-1. Hover over the empty dynamic block container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the empty dynamic block container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-dynamic-block-settings.png %}){: .zoom}
+   ![]({% link cms/assets/pb-dynamic-block-settings.png %}){: .zoom}
    _Dynamic Block toolbox_
 
 1. On the _Edit Dynamic Block_ page, click <span class="btn">Select Dynamic Block</span> and use the list to select the block.
 
-   ![]({% link images/images-ee/page-builder-dynamic-block-select.png %}){: .zoom}
+   ![]({% link cms/assets/pb-dynamic-block-select.png %}){: .zoom}
    _Selecting a dynamic block_
 
    In the list, find the dynamic block that you want to insert, and click <span class="btn">Select</span>. Then, click <span class="btn">Add Selected</span>.
 
-   ![]({% link images/images-ee/page-builder-add-content-dynamic-block-select-list.png %}){: .zoom}
+   ![]({% link cms/assets/pb-add-content-dynamic-block-select-list.png %}){: .zoom}
    _Selecting a dynamic block in the list_
 
    A summary of the dynamic block information appears below.
 
-   ![]({% link images/images-ee/page-builder-add-content-dynamic-block-summary.png %}){: .zoom}
+   ![]({% link cms/assets/pb-add-content-dynamic-block-summary.png %}){: .zoom}
    _Dynamic Block Summary_
 
 1. Set **Template** to one of the following:
@@ -54,7 +54,7 @@ _Dynamic block on the storefront_
    | Dynamic Block Block Template | Choose this template to add a standalone block. |
    | Dynamic Block Inline Template | Choose this template to insert the block content into text. |
 
-   ![]({% link images/images-ee/page-builder-add-content-dynamic-block-template.png %}){: .zoom}
+   ![]({% link cms/assets/pb-add-content-dynamic-block-template.png %}){: .zoom}
    _Dynamic block template_
 
 1. Complete the Advanced settings as needed.
@@ -104,16 +104,16 @@ _Dynamic block on the storefront_
 
 ## Edit dynamic block container settings
 
-1. Hover over the dynamic block container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the dynamic block container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-add-content-dynamic-block-toolbox.png %}){: .zoom}
+   ![]({% link cms/assets/pb-add-content-dynamic-block-toolbox.png %}){: .zoom}
    _Dynamic Block toolbox_
 
 1. If needed, change the dynamic block:
 
    - Click <span class="btn">Select Dynamic Block</span>.
 
-      ![]({% link images/images-ee/page-builder-add-content-dynamic-block-select.png %}){: .zoom}
+      ![]({% link cms/assets/pb-add-content-dynamic-block-select.png %}){: .zoom}
       _Selecting another dynamic block_
 
    - In the list of active dynamic blocks, click <span class="btn">Select</span> for the block that you want to add.
@@ -124,14 +124,14 @@ _Dynamic block on the storefront_
 
 ## Duplicate a dynamic block
 
-1. Hover over the dynamic block container to display the toolbox and choose the _Duplicate_ (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
+1. Hover over the dynamic block container to display the toolbox and choose the _Duplicate_ (![]({% link cms/assets/pb-icon-duplicate.png %})) icon.
 
    The duplicate appears just below the original.
 
-   ![]({% link images/images-ee/page-builder-add-content-dynamic-block-duplicate.png %}){: .zoom}
+   ![]({% link cms/assets/pb-add-content-dynamic-block-duplicate.png %}){: .zoom}
    _Duplicating a dynamic block_
 
-1. To move the new dynamic block to a different position, hover over its container. Then, choose **Move** (![]({% link images/images-ee/icon-pb-move.png %}){: .Inline}) in the toolbox.
+1. To move the new dynamic block to a different position, hover over its container. Then, choose **Move** (![]({% link cms/assets/pb-icon-move.png %}){: .Inline}) in the toolbox.
 
 1. Select and drag the dynamic block until the red guideline appears at the new position.
 
@@ -139,6 +139,6 @@ _Dynamic block on the storefront_
 
 ## Remove a dynamic block from the stage
 
-1. Hover over the dynamic block container to display the toolbox and choose the _Remove_ ( ![]({% link images/images-ee/icon-pb-remove.png %})) icon.
+1. Hover over the dynamic block container to display the toolbox and choose the _Remove_ ( ![]({% link cms/assets/pb-icon-remove.png %})) icon.
 
 1. When prompted to confirm, click **OK**.

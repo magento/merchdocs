@@ -7,7 +7,7 @@ Use the _Banner_ content type to add an illustrated, interactive component that 
 {:.bs-callout-info}
 What was previously the _Banner_ option in the Content menu is now [Dynamic Block]({% link cms/dynamic-blocks.md %}).
 
-![]({% link images/images-ee/page-builder-banner-homepage.png %}){: .zoom}
+![]({% link cms/assets/pb-banner-homepage.png %}){: .zoom}
 _Banner on a storefront home page_
 
 {% include page-builder-save-timeout.md %}
@@ -16,18 +16,18 @@ _Banner on a storefront home page_
 
 The banner toolbox appears when you hover over the banner container.
 
-![]({% link images/images-ee/page-builder-tutorial1-banner-toolbox.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial1-banner-toolbox.png %}){: .zoom}
 _Banner toolbox_
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|Moves the banner to another position on the stage.|
+|Move|![Move icon]({% link cms/assets/pb-icon-move.png %}){: width="25px"}|Moves the banner to another position on the stage.|
 |(label)|Banner|Identifies the current content container as a banner. Hover over the container to see the toolbox.|
-|Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Banner page, where you can change the properties of the banner and container.|
-|Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current banner.|
-|Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the  hidden banner.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the banner.|
-|Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the banner from the stage.|
+|Settings|![Settings icon]({% link cms/assets/pb-icon-settings.png %}){: width="25px"}|Opens the Edit Banner page, where you can change the properties of the banner and container.|
+|Hide|![Hide icon]({% link cms/assets/pb-icon-hide.png %}){: width="25px"}|Hides the current banner.|
+|Show|![Show icon]({% link cms/assets/pb-icon-show.png %}){: width="25px"}|Shows the  hidden banner.|
+|Duplicate|![Duplicate icon]({% link cms/assets/pb-icon-duplicate.png %}){: width="25px"}|Makes a copy of the banner.|
+|Remove|![Remove icon]({% link cms/assets/pb-icon-remove.png %}){: width="25px"}|Deletes the banner from the stage.|
 |Upload New Image||Uploads an image from your local file system to the gallery for the banner background.|
 |Select from Gallery||Uses an existing image from the gallery for the banner background.|
 
@@ -35,7 +35,7 @@ _Banner toolbox_
 
 1. In the Page Builder panel, expand **Media** and drag a **Banner** placeholder to the stage.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-drag-to-stage.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-banner-drag-to-stage.png %}){: .zoom}
    _Dragging a banner content type to the stage_
 
    The _Upload Image_ and _Select from Gallery_ buttons are included so you can make quick changes to the banner content directly from the stage. You can also change the content on the _Edit Banner_ page.
@@ -46,7 +46,7 @@ _Banner toolbox_
 
 ## Change banner settings
 
-1. Hover over the banner container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the banner container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. Use the following sections for detailed information about updating the available settings:
 
@@ -70,7 +70,7 @@ Banners are extremely easy to set up and maintain, because they are based on one
    |Collage Center|Places content and button in a defined area that is centered on the banner. The overlay, if used, covers only the defined area.
    |Collage Right|Places content and button in a defined area on the right side of the banner. The overlay, if used, covers only the defined area.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
    _Appearance - collage right_
 
 - (Optional) Enter the **Minimum Height** for the row.
@@ -87,7 +87,7 @@ There are many options for defining the background display of a banner. You can 
 
 Specify the background color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. This determines the background color of the row. You can also adjust the opacity of the color.
 
-![]({% link images/images-ee/page-builder-settings-background-color-no-color.png %}){: .zoom}
+![]({% link cms/assets/pb-settings-background-color-no-color.png %}){: .zoom}
 _No color (default)_
 
 You can set the value in one of three ways:
@@ -98,12 +98,12 @@ You can set the value in one of three ways:
 
 If you want to choose a color, click the swatch to the left of the _No Color_ box.
 
-![]({% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
+![]({% link cms/assets/pb-settings-background-color-picker-swatch.png %}){: .zoom}
 _Choosing a color swatch_
 
 If you click the color box to open the color picker again, the box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal. You can use the slider to adjust the opacity, or enter the desired decimal value.
 
-![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
+![]({% link cms/assets/pb-settings-background-color.png %}){: .zoom}
 _Setting opacity_
 
 {:.bs-callout-info}
@@ -113,21 +113,21 @@ Page Builder also supports a transparency layer, or _alpha channel_, in backgrou
 
 A background type can be an image or a video. Page Builder defaults to `Image` and shows various image settings. If you select `Video`, Page Builder swaps the image settings with video settings. Both background type settings are described in the following sections.
 
-![]({% link images/images-ee/page-builder-background-type.png %}){: .zoom}
+![]({% link cms/assets/pb-background-type.png %}){: .zoom}
 _Background type_
 
 ### Image type settings
 
 If you set the _Background Type_ to `Image`, use the following settings to define the background image display.
 
-![]({% link images/images-ee/page-builder-tutorial1-banner-background.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial1-banner-background.png %}){: .zoom}
 _Banner with background image_
 
 - **Background Image** - If needed, use the provided tools to choose a background image to apply to the banner:
 
    |Upload|Uploads an image file from your local computer to the gallery and then applies it as the background image for the banner.
    |Select from Gallery|Prompts you to choose an existing image from the gallery as the background image for the banner.
-   |![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"}|Allows you to either drag the image to the camera tile or browse to the image in your local file system.
+   |![Camera icon]({% link cms/assets/pb-icon-camera.png %}){: width="25px"}|Allows you to either drag the image to the camera tile or browse to the image in your local file system.
 
 - **Background Mobile Image** - If needed, use the same tools to choose a different background image to be used for display on mobile devices.
 
@@ -137,7 +137,7 @@ _Banner with background image_
    | Contain | The background image is limited to the width of the content area. |
    | Auto | Applies the size from the current style sheet. |
 
-   ![]({% link images/images-ee/page-builder-layout-row-settings-background-size-cover.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-row-settings-background-size-cover.png %}){: .zoom}
    _Background size_
 
 - **Background Position** - Set this option to determine how the background image is anchored in relation to the banner:
@@ -163,7 +163,7 @@ If you set the _Background Type_ to `Video`, use the following settings to defin
    - Vimeo videos: `https://vimeo.com/190156113`
    - Valid video files (we recommend `.mp4`): `https://myvideos.com/spiral.mp4`
 
-   ![]({% link images/images-ee/page-builder-video-url.png %}){: .zoom}
+   ![]({% link cms/assets/pb-video-url.png %}){: .zoom}
    _Background video URL_
 
 - **Overlay Color** - Select a color to apply a transparent tint to the video.
@@ -186,23 +186,23 @@ You can modify the banner content directly on the stage or when you are changing
 
    The editor toolbar appears above the text box.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-banner-stage-text.png %}){: .zoom}
    _Edit content on the stage_
 
 1. Use the editor toolbar to enter and format text, as well as insert elements, such as links, images, and widgets.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-text-format-line2.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-banner-stage-text-format-line2.png %}){: .zoom}
    _Stage with formatted text_
 
 ### Complex content in the settings
 
-1. Hover over the banner container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the banner container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. Scroll down to the _Content_ section and use the **Message Text** editor to enter and format banner text.
 
    You can also insert elements, such as text links, images, and widgets.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-content-message-text.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-banner-settings-content-message-text.png %}){: .zoom}
    _Message Text editor_
 
 1. If needed, specify a **Link** for the banner.
@@ -217,14 +217,14 @@ You can modify the banner content directly on the stage or when you are changing
    <div class="bs-callout-info" markdown="1">
    Starting with the 2.4.1 release, Page Builder no longer supports linking the banner and links within the nested text due to issues with display on the storefront. If you are using a link in the _Message Text_, you cannot configure the _Link_ option. If you prefer to use a single link for the whole banner, you can remove all links from the text.
 
-   ![Link configuration is blocked]({% link images/images-ee/page-builder-nested-link-blocked.png %}){: width="400px"}
+   ![Link configuration is blocked]({% link cms/assets/pb-nested-link-blocked.png %}){: width="400px"}
    </div>
 
 1. If needed, add a button to prompt customers to follow the link.
 
    The banner Appearance setting places a single link or button below the text. Complete the properties of the link or button that you want to add.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png %}){: .zoom}
    _Appearance with text and button (or link)_
 
    {:.bs-callout-info}
@@ -259,12 +259,12 @@ You can modify the banner content directly on the stage or when you are changing
    - Click the **No Color** swatch, and choose a swatch.
    - In the **No Color** field, either enter a valid color name, or hexadecimal value.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-banner-settings-overlay-color.png %}){: .zoom}
    _Overlay Color_
 
 1. In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-banner-stage-background-color.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-banner-stage-background-color.png %}){: .zoom}
    _Banner with text message and button_
 
 ## Advanced
@@ -293,7 +293,7 @@ You can modify the banner content directly on the stage or when you are changing
 
    - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-      ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
+      ![]({% link cms/assets/pb-settings-border-color.png %}){: .zoom}
       _Border Color_
 
    - **Border Width** - Enter the number of pixels for the border line width.

@@ -24,7 +24,7 @@ _Orders Grid_
 
 1. Click **Next** and **Previous** to page through the list, or enter a specific **Page Number**.
 
-    ![Grid display - page controls]({% link images/images/pagination-controls.png %}){: .zoom}
+    ![Grid display - page controls]({% link stores/assets/pagination-controls.png %}){: .zoom}
     _Next and previous_
 
 ## Filter the list
@@ -84,19 +84,19 @@ _Order Grid Columns_
 
 ### Save a grid view
 
-1. Click the **View** (![View control]({% link assets/icon-view-eye.png %}){: .Inline}) control.
+1. Click the **View** (![View control]({% link assets/icon-view-eye.png %})) control.
 
 1. Click **Save Current View**.
 
 1. Enter a **name** for the view.
 
-1. Click the **arrow** (![Save all changes]({% link images/images/btn-save-all-changes.png %}){: .Inline}) to save all changes.
+1. Click the **arrow** (![Save all changes]({% link assets/icon-arrow-save.png %})) to save all changes.
 
     The name of the view now appears as the current view.
 
 ### Change the grid view
 
-1. Click the **View** (![View icon]({% link assets/icon-view-eye.png %}){: .Inline}) control.
+1. Click the **View** (![View icon]({% link assets/icon-view-eye.png %})) control.
 
 1. Do one of the following:
 

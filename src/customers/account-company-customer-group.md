@@ -11,12 +11,12 @@ Assigning a customer group to a company is essentially the same as assigning a s
 
 1. Find the company in the grid and click **Edit** in the _Action_ column.
 
-   ![]({% link images/images-b2b/companies-grid-edit.png %}){: .zoom}
+   ![]({% link customers/assets/companies-grid-edit.png %}){: .zoom}
    _Edit Company_
 
 1. On the company page, scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
-   ![]({% link images/images-b2b/company-customer-group-shared-catalog.png %}){: .zoom}
+   ![]({% link customers/assets/company-customer-group-shared-catalog.png %}){: .zoom}
    _Customer Groups / Shared Catalogs_
 
 1. Set the appropriate **Customer Group**.

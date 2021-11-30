@@ -6,12 +6,12 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Vertex
 
-![]({% link images/images/config-sales-tax-vertex-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-vertex-settings.png %}){: .zoom}
 [_Vertex (Disabled)_]({% link tax/vertex-configure-magento.md %})
 
 ### Connection Settings
 
-![]({% link images/images/tax-vertex-magento-config-valid.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-vertex-magento-config-valid.png %}){: .zoom}
 _Vertex - Connection Settings (Enabled and Validated)_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -24,7 +24,7 @@ _Vertex - Connection Settings (Enabled and Validated)_
 
 ### Integration Settings
 
-![]({% link images/images/config-sales-tax-vertex-integration.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-vertex-integration.png %}){: .zoom}
 _Vertex - Integration Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -36,7 +36,7 @@ _Vertex - Integration Settings_
 
 ### Flexible Fields
 
-![]({% link images/images/config-sales-tax-vertex-flexible-fields.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-vertex-flexible-fields.png %}){: .zoom}
 [_Flexible Fields_]({% link tax/vertex-configure-magento.md %}#flex-fields)
 
 |Type|Description|
@@ -47,7 +47,7 @@ _Vertex - Integration Settings_
 
 ### Delivery Terms
 
-![]({% link images/images/config-sales-tax-vertex-delivery-terms.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-vertex-delivery-terms.png %}){: .zoom}
 _Vertex - Delivery Terms_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -57,7 +57,7 @@ _Vertex - Delivery Terms_
 
 ### Seller Details
 
-![]({% link images/images/config-sales-tax-vertex-seller-details.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-vertex-seller-details.png %}){: .zoom}
 _Vertex - Seller Details_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -68,7 +68,7 @@ _Vertex - Seller Details_
 
 ### Logging
 
-![]({% link images/images/config-sales-tax-vertex-logging.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-vertex-logging.png %}){: .zoom}
 _Vertex - Logging_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -82,7 +82,7 @@ _Vertex - Logging_
 
 ### Developer & Support Information
 
-![]({% link images/images/config-sales-tax-vertex-dev-support.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-vertex-dev-support.png %}){: .zoom}
 _Vertex - Developer & Support Information_
 
 |Column|Description|
@@ -94,18 +94,19 @@ _Vertex - Developer & Support Information_
 
 ## Tax Classes
 
-![]({% link images/images/config-sales-tax-tax-classes.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-tax-classes.png %}){: .zoom}
 [_Tax Classes_]({% link tax/tax-class.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Tax Class for Shipping|Website|Identifies the tax class that is used for shipping. Options include all available product tax classes: None / Taxable Goods / Shipping / Tax Exempt|
+|<span class="ee-only">Tax Class for Gift Options</span>|Identifies the default tax class that is used for gift options.|
 |Default Tax Class for Product|Global|Identifies the default tax class that is used for products.|
 |Default Tax Class for Customer|Global|Identifies the default tax class that is used for customers.|
 
 ## Calculation Settings
 
-![]({% link images/images/config-sales-tax-calculation-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-calculation-settings.png %}){: .zoom}
 [_Calculation Settings_]({% link tax/quick-reference.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -121,7 +122,7 @@ _Vertex - Developer & Support Information_
 
 ## Default Tax Destination Calculation
 
-![]({% link images/images/config-sales-tax-default-tax-destination-calculation.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-default-tax-destination-calculation.png %}){: .zoom}
 [_Default Tax Destination Calculation_]({% link tax/tax-destination-default.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -132,7 +133,7 @@ _Vertex - Developer & Support Information_
 
 ## Price Display Settings
 
-![]({% link images/images/config-sales-tax-price-display-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-price-display-settings.png %}){: .zoom}
 [_Price Display Settings_]({% link tax/display-settings.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -142,7 +143,7 @@ _Vertex - Developer & Support Information_
 
 ## Shopping Cart Display Settings
 
-![]({% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-shopping-cart-display-settings.png %}){: .zoom}
 [_Shopping Cart Display Settings_]({% link tax/display-settings.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -156,8 +157,8 @@ _Vertex - Developer & Support Information_
 
 ## Orders, Invoices, Credit Memos Display Settings
 
-![]({% link images/images-ee/config-sales-tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
-_[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.md %})_{:.ee-only}
+![]({% link configuration/sales/assets/tax-orders-invoices-credit-memos-display-settings.png %}){: .zoom}
+_[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
@@ -172,7 +173,7 @@ _[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.
 
 ## Fixed Product Taxes
 
-![]({% link images/images/config-sales-tax-fixed-product-taxes.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-fixed-product-taxes.png %}){: .zoom}
 [_Fixed Product Tax_]({% link tax/fixed-product-tax.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

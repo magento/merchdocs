@@ -8,5 +8,5 @@ Customers sometimes need assistance to complete a purchase. Some customers like 
 - [Create orders]({% link customers/customer-account-create-order.md %}) for registered customers
 - [Update orders]({% link sales/order-update.md %})
 
-![]({% link images/images/storefront-cart-price-group-discount.png %}){: .zoom}
+![]({% link catalog/assets/storefront-cart-price-group-discount.png %}){: .zoom}
 _Shopping cart_

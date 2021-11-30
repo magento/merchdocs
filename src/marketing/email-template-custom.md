@@ -10,5 +10,5 @@ The default templates include your logo and store information, and can be used w
 - [Footer Template]({% link marketing/email-template-footer.md -%})
 - [Message Templates]({% link marketing/email-template-message.md -%})
 
-![Example - welcome page]({% link images/images/email-template-preview.png %}){: .zoom}
+![Example - welcome page]({% link marketing/assets/email-template-preview.png %}){: .zoom}
 _Preview of Welcome Template_

@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## Customer Information
 
-![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-customer-information.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/data-mapping-customer-information.png %}){: .zoom}
 [_Customer Information_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -28,7 +28,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## Address
 
-![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-address.png %}){: .zoom}
+![]({% link configuration/assets/ec-fields-mapping-address.png %}){: .zoom}
 [_Address_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -51,7 +51,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## Sales
 
-![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-sales.png %}){: .zoom}
+![]({% link configuration/assets/ec-mapping-sales-fields.png %}){: .zoom}
 [_Sales_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -73,7 +73,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## System Values
 
-![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-system-values.png %}){: .zoom}
+![]({% link configuration/assets/ec-mapping-system-values.png %}){: .zoom}
 [_System Values_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -103,7 +103,7 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 - {:.ee-only}Reward Update Notification
 - {:.ee-only}Reward Warning Notification
 
-![]({% link images/images/config-engagement-cloud-data-mapping-data-fields-mapping-custom-attributes.png %}){: .zoom}
+![]({% link configuration/assets/ec-mapping-custom-atrributes.png %}){: .zoom}
 [_Custom Attributes_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -116,7 +116,7 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 {:.b2b-only}
 ## B2B Data
 
-![]({% link images/images-b2b/config-engagement-data-fields-mapping-b2b-data.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/ec-data-fields-mapping-b2b-data.png %}){: .zoom}
 [_B2B Data_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -132,7 +132,7 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 {:.ee-only}
 ## Enterprise Data
 
-![]({% link images/images/config-engagement-cloud-data-mapping-enterprise-data.png %}){: .zoom}
+![]({% link configuration/assets/ec-enterprise-data.png %}){: .zoom}
 [_Enterprise Data_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -147,7 +147,7 @@ Gives you the ability to create custom mappings to dotdigital, based on the foll
 
 ## Create Data Field
 
-![]({% link images/images/config-engagement-cloud-data-mapping-create-data-field.png %}){: .zoom}
+![]({% link configuration/assets/ec-data-create-data-field.png %}){: .zoom}
 [_Create Data Field_]({% link marketing/dotdigital/data-mapping.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

@@ -6,7 +6,7 @@ The thumbnail images displayed in the cart give customers a quick overview of th
 
 The thumbnail image for both grouped and configurable products can be set to display the image from either the “parent” product or from the product variation.
 
-![The shopping cart displays thumbnail images for each of the added products]({% link images/images/storefront-cart.png %}){: .zoom}
+![The shopping cart displays thumbnail images for each of the added products]({% link sales/assets/storefront-cart.png %}){: .zoom}
 _Thumbnail images displayed in the cart_
 
 ## Configure cart thumbnails
@@ -17,7 +17,7 @@ _Thumbnail images displayed in the cart_
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Shopping Cart** section.
 
-   ![The shopping cart configuration settings expanded on the page]({% link images/images/config-sales-checkout-shopping-cart.png %}){: .zoom}
+   ![The shopping cart configuration settings expanded on the page]({% link configuration/sales/assets/checkout-shopping-cart.png %}){: .zoom}
    [_Shopping cart configuration settings_]({% link configuration/sales/checkout.md %})
 
 1. Set **Grouped Product Image** to determine the thumbnail that is used in the cart for [grouped products]({% link catalog/product-create-grouped.md %}):

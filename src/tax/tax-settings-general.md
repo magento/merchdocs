@@ -22,8 +22,8 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Tax Classes** section.
 
-   ![]({% link images/images-ee/config-sales-tax-tax-classes.png %}){: .zoom}
-   _[Tax Classes]({% link configuration/sales/tax.md %})_{:.ee-only}
+   ![]({% link configuration/sales/assets/tax-tax-classes.png %}){: .zoom}
+   _[Tax Classes]({% link configuration/sales/tax.md %})_
 
    - **Tax Class for Shipping** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
    - {:.ee-only}**Tax Class for Gift Options** — Set to the appropriate class. The default classes are: `None` and `Taxable Goods`
@@ -36,7 +36,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 
 1. Expand the **Calculation Settings** section.
 
-    ![]({% link images/images/config-sales-tax-calculation-settings.png %}){: .zoom}
+    ![]({% link configuration/sales/assets/tax-calculation-settings.png %}){: .zoom}
     [_Calculation Settings_]({% link configuration/sales/tax.md %})
 
 1. Set **Tax Calculation Method Based On** to one of the following:
@@ -74,7 +74,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Default Tax Destination Calculation** section.
 
-   ![]({% link images/images/config-sales-tax-default-tax-destination-calculation.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/tax-default-tax-destination-calculation.png %}){: .zoom}
    [_Default Tax Destination Calculation_]({% link configuration/sales/tax.md %})
 
 1. Specify the **Default Country** for tax calculations.
@@ -93,7 +93,7 @@ Some combinations of settings related to a price display that both include and e
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Price Display Settings** section.
 
-   ![Price Display Settings]({% link images/images/config-sales-tax-price-display-settings.png %} "Price Display Settings"){: .zoom}
+   ![Price Display Settings]({% link configuration/sales/assets/tax-price-display-settings.png %} "Price Display Settings"){: .zoom}
    [_Price Display Settings_]({% link configuration/sales/tax.md %})
 
 1. Set **Display Product Prices in Catalog** to one of the following:
@@ -110,7 +110,7 @@ Some combinations of settings related to a price display that both include and e
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Shopping Cart Display Settings** section.
 
-   ![]({% link images/images/config-sales-tax-shopping-cart-display-settings.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/tax-shopping-cart-display-settings.png %}){: .zoom}
    [_Shopping Cart Display Settings_]({% link configuration/sales/tax.md %})
 
 1. For each of the following settings, choose how you want taxes and prices to appear in the cart, according to the requirements of your store and locale:
@@ -137,7 +137,7 @@ Some combinations of settings related to a price display that both include and e
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Orders, Invoices, Credit Memos Display Settings** section.
 
-   ![Orders, Invoices, Credit Memos Display Settings]({% link images/images/config-sales-tax-orders-invoices-credit-memos-display-settings.png %} "Orders, Invoices, Credit Memos Display Settings"){: .zoom}
+   ![Orders, Invoices, Credit Memos Display Settings]({% link configuration/sales/assets/tax-orders-invoices-credit-memos-display-settings.png %} "Orders, Invoices, Credit Memos Display Settings"){: .zoom}
    [_Orders, Invoices, Credit Memos Display Settings_]({% link configuration/sales/tax.md %})
 
 1. Specify how prices and taxes appear in orders, invoices, and credit memos:
@@ -164,7 +164,7 @@ Some combinations of settings related to a price display that both include and e
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Fixed Product Taxes** section.
 
-    ![Fixed Product Taxes]({% link images/images/config-sales-tax-orders-fixed-product-taxes.png %} "Fixed Product Taxes"){: .zoom}
+    ![Fixed Product Taxes]({% link tax/assets/fixed-product-taxes.png %} "Fixed Product Taxes"){: .zoom}
     [_Fixed Product Taxes_]({% link configuration/sales/tax.md %})
 
 1. Set **Enable FPT** to either to `Yes` or `No`, according to your requirements.

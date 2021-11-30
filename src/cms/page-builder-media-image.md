@@ -13,18 +13,18 @@ You can use the [Adobe Stock Integration]({% link cms/adobe-stock.md %}) to find
 
 The image toolbox appears when you hover over the image container.
 
-![]({% link images/images-ee/page-builder-media-image-giftcard-column-toolbox.png %}){: .zoom}
+![]({% link cms/assets/pb-media-image-giftcard-column-toolbox.png %}){: .zoom}
 _Image toolbox_
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|Moves the image to another position on the stage.|
+|Move|![Move icon]({% link cms/assets/pb-icon-move.png %}){: width="25px"}|Moves the image to another position on the stage.|
 |(label)|Image|Identifies the current content container as an image. Hover over the image container to see the toolbox.|
-|Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the _Edit Image_ page, where you can change the properties of the image and container.|
-|Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the current image.|
-|Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the hidden image.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the image.|
-|Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the image from the stage.|
+|Settings|![Settings icon]({% link cms/assets/pb-icon-settings.png %}){: width="25px"}|Opens the _Edit Image_ page, where you can change the properties of the image and container.|
+|Hide|![Hide icon]({% link cms/assets/pb-icon-hide.png %}){: width="25px"}|Hides the current image.|
+|Show|![Show icon]({% link cms/assets/pb-icon-show.png %}){: width="25px"}|Shows the hidden image.|
+|Duplicate|![Duplicate icon]({% link cms/assets/pb-icon-duplicate.png %}){: width="25px"}|Makes a copy of the image.|
+|Remove|![Remove icon]({% link cms/assets/pb-icon-remove.png %}){: width="25px"}|Deletes the image from the stage.|
 |Upload New Image||Uploads an image from your local file system to the gallery.|
 |Select from Gallery||Chooses an existing image from the gallery.|
 
@@ -34,12 +34,12 @@ _Image toolbox_
 
    You can add an image to a row, column, or tab. In the following example, the image is dragged to an empty column.
 
-   ![]({% link images/images-ee/page-builder-media-image-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-image-drag.png %}){: .zoom}
    _Dragging an image content type to the stage_
 
 1. Use one of the following methods to add the image asset:
 
-   ![]({% link images/images-ee/page-builder-media-image-upload-select.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-image-upload-select.png %}){: .zoom}
    _Upload Image or Select from Gallery tools on the stage_
 
    {:.bs-callout-info}
@@ -51,7 +51,7 @@ _Image toolbox_
 
       - Locate and choose the image to add it to the gallery and target container.
 
-      As an alternative, you can also drag an image file from your system and drop it on the _Camera_ (![Camera Icon]({% link /images/images-ee/icon-pb-camera.png %}){: width="25px"}) icon.
+      As an alternative, you can also drag an image file from your system and drop it on the _Camera_ (![Camera Icon]({% link cms/assets/pb-icon-camera.png %}){: width="25px"}) icon.
 
    - **Select an existing asset**: Use this method to select an existing image asset from the media storage/gallery.
 
@@ -61,7 +61,7 @@ _Image toolbox_
 
       - Click the thumbnail and click <span class="btn">Add Selected</span>.
 
-         ![]({% link images/images-ee/page-builder-media-image-gallery-add-selected.png %}){: .zoom}
+         ![]({% link cms/assets/pb-media-image-gallery-add-selected.png %}){: .zoom}
          _Adding a selected image_
 
    - **Search and select an Adobe Stock image**: Use this method to find an image from Adobe Stock.
@@ -82,15 +82,15 @@ _Image toolbox_
    {:.bs-callout-info}
    The [Banner]({% link cms/page-builder-media-banner.md %}) and [Slider]({% link cms/page-builder-media-slider.md %}) content types also include _Upload Image_ and _Select from Gallery_ options for adding images.
 
-   ![]({% link images/images-ee/page-builder-media-image-column1-giftcard.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-image-column1-giftcard.png %}){: .zoom}
    _Image in a column_
 
 ## Change image settings
 
-1. Hover over the image container to display the tool box and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the image container to display the tool box and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
    The file name, dimensions, and file size appear below the current image.
 
-   ![]({% link images/images-ee/page-builder-media-image-settings-image.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-image-settings-image.png %}){: .zoom}
    _Current image_
 
 1. To change the current **Image**, do one of the following:
@@ -109,7 +109,7 @@ _Image toolbox_
 
       - Click the thumbnail and click <span class="btn">Add Selected</span>.
 
-         ![]({% link images/images-ee/page-builder-media-image-gallery-add-selected.png %}){: .zoom}
+         ![]({% link cms/assets/pb-media-image-gallery-add-selected.png %}){: .zoom}
          _Adding a selected image_
 
    - **Search and select an Adobe Stock image**: Use this method to find an image from Adobe Stock.
@@ -127,7 +127,7 @@ _Image toolbox_
 
 1. To add a **Mobile Image**, use the same methods described in the previous step to select an image to be used for display on mobile devices.
 
-   ![]({% link images/images-ee/page-builder-media-image-settings-mobile-image.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-image-settings-mobile-image.png %}){: .zoom}
    _Mobile image_
 
 1. If needed, specify a **Link** for the image.
@@ -136,22 +136,22 @@ _Image toolbox_
 
    - **URL** - Links to either a relative or fully-qualified URL.
 
-      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-url-newtab.png %}){: .zoom}
+      ![]({% link cms/assets/pb-media-image-settings-image-link-url-newtab.png %}){: .zoom}
       _Link to a URL_
 
    - **Product** - Identifies the destination page based on the product name or SKU. Search for the product by name based on either a partial or full name. Choose the product from the search results list.
 
-      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-product-results.png %}){: .zoom}
+      ![]({% link cms/assets/pb-media-image-settings-image-link-product-results.png %}){: .zoom}
        _Choosing a product to link_
 
    - **Category** - Identifies the destination page as a specific category or subcategory in the category tree. Search for the category based on either a partial or full name. Choose the category from the expanded section of the displayed tree.
 
-      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-category-tree.png %}){: .zoom}
+      ![]({% link cms/assets/pb-media-image-settings-image-link-category-tree.png %}){: .zoom}
       _Choosing a category to link_
 
    - **Page** - Identifies the destination page as a specific content page. Search for the page based on either a partial or full name. Choose the page from the search results list.
 
-      ![]({% link images/images-ee/page-builder-media-image-settings-image-link-page-results.png %}){: .zoom}
+      ![]({% link cms/assets/pb-media-image-settings-image-link-page-results.png %}){: .zoom}
       _Choosing a page to link_
 
    If you want to prevent the visitor from navigating away from your store, select the **Open in new tab** checkbox. When the checkbox is cleared, the linked destination opens in the same browser tab, which could effectively navigate the visitor away from your store.
@@ -160,7 +160,7 @@ _Image toolbox_
 
    The format of the caption is determined by the stylesheet that is associated with the current theme.  T
 
-   ![]({% link images/images-ee/page-builder-media-image-settings-caption.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-image-settings-caption.png %}){: .zoom}
    _Image caption_
 
    The caption typically appears below the image, and provides information about the image for visitors and search engines. If your site is available in multiple languages, you might use the same image, but  translate the caption. In HTML, the `<figcaption>` tag is a subset of the `<figure>` tag. `<figcaption>This is the image caption</figcaption>`
@@ -174,19 +174,19 @@ _Image toolbox_
 
 ## Move an image
 
-1. Hover over the image container to display the toolbox and choose the _Move_ (![]({% link images/images-ee/icon-pb-move.png %})) icon.
+1. Hover over the image container to display the toolbox and choose the _Move_ (![]({% link cms/assets/pb-icon-move.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-media-image-column1-move-giftcard.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-image-column1-move-giftcard.png %}){: .zoom}
    _Moving an image_
 
 1. Select and drag the image to the new position, just below the red guideline.
 
-   ![]({% link images/images-ee/page-builder-media-image-column2-move-giftcard-red-guideline.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-image-column2-move-giftcard-red-guideline.png %}){: .zoom}
    _Using the red guideline to position the image_
 
 ## Remove an image
 
-1. Hover over the image container to display the toolbox and choose the _Remove_ (![]({% link images/images-ee/icon-pb-remove.png %})) icon.
+1. Hover over the image container to display the toolbox and choose the _Remove_ (![]({% link cms/assets/pb-icon-remove.png %})) icon.
 
 1. When prompted to confirm, click **OK**.
 
@@ -228,7 +228,7 @@ Text for these settings is visible to search engines and improves the way the pa
 
    - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-      ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
+      ![]({% link cms/assets/pb-settings-border-color.png %}){: .zoom}
       _Border Color_
 
    - **Border Width** - Enter the number of pixels for the border line width.

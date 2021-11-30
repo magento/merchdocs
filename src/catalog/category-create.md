@@ -6,7 +6,7 @@ The category structure of your catalog is like an upside-down tree, with the roo
 
 For a website with multiple [stores]({% link stores/stores-all-create-store.md %}), you can create a different root category for each store that defines the set of categories that is used for the [top navigation]({% link catalog/navigation-top.md %}).
 
-![]({% link images/images-ee/catalog-categories.png %}){: .zoom}
+![]({% link catalog/assets/category-selected.png %}){: .zoom}
 _Category tree_
 
 ## Step 1: Create a category
@@ -31,7 +31,7 @@ _Category tree_
 
 1. Enter the **Category Name**.
 
-   ![]({% link images/images-ee/catalog-categories-currently-active.png %}){: .zoom}
+   ![]({% link catalog/assets/catalog-categories-currently-active.png %}){: .zoom}
    _Basic category information_
 
 1. Click <span class="btn">Save</span> and continue.
@@ -40,7 +40,7 @@ _Category tree_
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Content** section.
 
-   ![]({% link images/images-ee/category-content.png %}){: .zoom}
+   ![]({% link catalog/assets/category-content.png %}){: .zoom}
    _Category content_
 
 1. To display a **Category Image** at the top of the page, you can either upload your own image or use an image that already exists in the [Media Storage]({% link cms/media-storage.md %}).
@@ -92,7 +92,7 @@ _Category tree_
 
 1. Click <span class="btn">Save</span> and continue.
 
-   ![]({% link images/images/category-display-settings.png %}){: .zoom}
+   ![]({% link catalog/assets/category-display-settings.png %}){: .zoom}
    [_Display settings_]({% link catalog/categories-display-settings.md %})
 
 ## Step 5: Complete the search engine optimization settings
@@ -105,7 +105,7 @@ _Category tree_
    - Meta Keywords
    - Meta Description
 
-   ![]({% link images/images/catalog-categories-search-engine-optimization.png %}){: .zoom}
+   ![]({% link catalog/assets/catalog-categories-search-engine-optimization.png %}){: .zoom}
    [_Search engine optimization_]({% link catalog/categories-search-engine-optimization.md %})
 
 1. Click <span class="btn">Save</span> and continue.
@@ -120,7 +120,7 @@ _Category tree_
 
 1. In the first column, select the checkbox for each product to include in the category.
 
-   ![]({% link images/images-ee/catalog-categories-products-in-category.png %}){: .zoom}
+   ![]({% link catalog/assets/catalog-categories-products-in-category.png %}){: .zoom}
    _[Products in category]({% link catalog/categories-category-products.md %})_
 
 1. Click <span class="btn">Save</span> and continue.
@@ -144,7 +144,7 @@ _Category tree_
 
 1. To add another permission rule, click <span class="btn">New Permission</span> and repeat the process.
 
-   ![]({% link images/images-b2b/catalog-category-create-permissions.png %}){: .zoom}
+   ![]({% link catalog/assets/category-create-permissions.png %}){: .zoom}
    _[Category permissions]({% link catalog/category-permissions.md %})_
 
 ## Step 8: Complete the design settings
@@ -163,7 +163,7 @@ _Category tree_
 
    - To use the same design for product pages, set **Apply Design to Products** to `Yes`.
 
-   ![]({% link images/images-b2b/catalog-category-design.png %}){: .zoom}
+   ![]({% link catalog/assets/category-design.png %}){: .zoom}
    _[Design settings]({% link catalog/categories-custom-design.md %})_
 
 1. {:.ce-only}To schedule the design update for a specific time period, do the following:
@@ -172,7 +172,7 @@ _Category tree_
 
    - Use the calendar (![]({% link assets/icon-calendar.png %})) to choose the Schedule Update **From** and **To** dates.
 
-   ![]({% link images/images/category-scheduled-design-update.png %}){: .zoom}
+   ![]({% link catalog/assets/category-scheduled-design-update.png %}){: .zoom}
    [_Scheduled design update_]({% link catalog/categories-custom-design.md %})
 
 1. When complete, click <span class="btn">Save</span>.

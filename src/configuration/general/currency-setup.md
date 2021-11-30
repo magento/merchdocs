@@ -9,7 +9,7 @@ See [Currency Configuration]({% link stores/currency-configuration.md %}) for co
 
 ## Currency Options
 
-![Currency Setup > Currency Options]({% link images/images/config-general-currency-setup-currency-options.png %}){: .zoom}
+![Currency Setup > Currency Options]({% link configuration/general/assets/currency-setup-currency-options.png %}){: .zoom}
 _Currency Options configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -20,7 +20,7 @@ _Currency Options configuration settings_
 
 ## Fixer.io
 
-![Currency Setup > Fixer.io]({% link images/images/config-general-currency-setup-fixer-io.png %}){: .zoom}
+![Currency Setup > Fixer.io]({% link configuration/assets/currency-setup-fixer.png %}){: .zoom}
 _Fixer.io configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -30,7 +30,7 @@ _Fixer.io configuration settings_
 
 ## Currency Converter API
 
-![Currency Setup > Currency Converter API]({% link images/images/config-general-currency-setup-converter.png %}){: .zoom}
+![Currency Setup > Currency Converter API]({% link configuration/general/assets/currency-setup-converter.png %}){: .zoom}
 _Currency Converter API configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -40,7 +40,7 @@ _Currency Converter API configuration settings_
 
 ## Scheduled Import Settings
 
-![Currency Setup > Scheduled Import Settings]({% link images/images/config-general-currency-setup-scheduled-import-settings.png %}){: .zoom}
+![Currency Setup > Scheduled Import Settings]({% link configuration/general/assets/currency-setup-scheduled-import-settings.png %}){: .zoom}
 _Scheduled Import configuration settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

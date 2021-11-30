@@ -4,7 +4,7 @@ title: Layout - Tabs
 
 Use the _Tabs_ content type to add a set of tabs in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). When you drag the Tabs placeholder from the panel to the stage, a single default tab initially appears. You can add more tabs as needed to create a full set. The width of the tab set is determined by the width of its parent container and padding settings.
 
-![]({% link images/images-ee/page-builder-layout-tab-example.png %}){: .zoom}
+![]({% link cms/assets/pb-layout-tab-example.png %}){: .zoom}
 _Set of tabs_
 
 {% include page-builder-save-timeout.md %}
@@ -15,44 +15,44 @@ When you are working with the _Tabs_ content type, you add and edit individual t
 
 ### Individual tab toolbox
 
-![]({% link images/images-ee/page-builder-layout-tab1-toolbox.png %}){: .zoom}
+![]({% link cms/assets/pb-layout-tab1-toolbox.png %}){: .zoom}
 _Tab toolbox_
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|This control next to the tab label is used to move the individual tab to another position in the tab set.|
-|Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Tabs page, where you can change the properties of the individual tab.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the tab.|
-|Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the tab from the tab set.|
+|Move|![Move icon]({% link cms/assets/pb-icon-move.png %}){: width="25px"}|This control next to the tab label is used to move the individual tab to another position in the tab set.|
+|Settings|![Settings icon]({% link cms/assets/pb-icon-settings.png %}){: width="25px"}|Opens the Edit Tabs page, where you can change the properties of the individual tab.|
+|Duplicate|![Duplicate icon]({% link cms/assets/pb-icon-duplicate.png %}){: width="25px"}|Makes a copy of the tab.|
+|Remove|![Remove icon]({% link cms/assets/pb-icon-remove.png %}){: width="25px"}|Deletes the tab from the tab set.|
 
 ### Tabs container toolbox
 
-![]({% link images/images-ee/page-builder-tabs-toolbox-settings.png %}){: .zoom}
+![]({% link cms/assets/pb-tabs-toolbox-settings.png %}){: .zoom}
 _Tab container toolbox_
 
 |Tool|Icon|Description|
 |--- |--- |--- |
-|Move|![Move icon]({{site.baseurl}}/images/images-ee/icon-pb-move.png){: width="25px"}|Moves the set of tabs to another position on the grid in the parent container.|
-|Add|![Add icon]({{site.baseurl}}/images/images-ee/icon-pb-add.png){: width="25px"}|Adds a new tab to the tab set.|
+|Move|![Move icon]({% link cms/assets/pb-icon-move.png %}){: width="25px"}|Moves the set of tabs to another position on the grid in the parent container.|
+|Add|![Add icon]({% link cms/assets/pb-icon-add.png %}){: width="25px"}|Adds a new tab to the tab set.|
 |(label)|Tabs|Identifies the current container as a tab set. Hover over the top border of the container to see the toolbox.|
-|Settings|![Settings icon]({{site.baseurl}}/images/images-ee/icon-pb-settings.png){: width="25px"}|Opens the Edit Tab page, where you can change the properties of the container.|
-|Hide|![Hide icon]({{site.baseurl}}/images/images-ee/icon-pb-hide.png){: width="25px"}|Hides the tab container.|
-|Show|![Show icon]({{site.baseurl}}/images/images-ee/icon-pb-show.png){: width="25px"}|Shows the hidden tab container.|
-|Duplicate|![Duplicate icon]({{site.baseurl}}/images/images-ee/icon-pb-duplicate.png){: width="25px"}|Makes a copy of the current tab.|
-|Remove|![Remove icon]({{site.baseurl}}/images/images-ee/icon-pb-remove.png){: width="25px"}|Deletes the current tab set from the stage.|
+|Settings|![Settings icon]({% link cms/assets/pb-icon-settings.png %}){: width="25px"}|Opens the Edit Tab page, where you can change the properties of the container.|
+|Hide|![Hide icon]({% link cms/assets/pb-icon-hide.png %}){: width="25px"}|Hides the tab container.|
+|Show|![Show icon]({% link cms/assets/pb-icon-show.png %}){: width="25px"}|Shows the hidden tab container.|
+|Duplicate|![Duplicate icon]({% link cms/assets/pb-icon-duplicate.png %}){: width="25px"}|Makes a copy of the current tab.|
+|Remove|![Remove icon]({% link cms/assets/pb-icon-remove.png %}){: width="25px"}|Deletes the current tab set from the stage.|
 
 ## Add an individual tab
 
 1. In the Page Builder panel under _Layout_, drag the **Tabs** placeholder directly to the stage or to a row or column on the stage.
 
-   ![]({% link images/images-ee/page-builder-layout-tabs-drag-row.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-tabs-drag-row.png %}){: .zoom}
    _Dragging tabs to a row_
 
-1. Click the **Tab 1** label to display the individual tab toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Click the **Tab 1** label to display the individual tab toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. Enter the **Tab Name** that you want to use as a label.
 
-   ![]({% link images/images-ee/page-builder-layout-tab1-toolbox-settings-general-tab-name.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-tab1-toolbox-settings-general-tab-name.png %}){: .zoom}
    _Entering the tab name_
 
 1. If needed, enter the **Minimum Height** for the tab.
@@ -72,22 +72,22 @@ _Tab container toolbox_
 
 The following steps start with an individual tab and create a set of three tabs within a tabs container. If you do not already have an individual tab, follow the previous instructions to add a single tab to the stage.
 
-1. Hover over the tabs container to display the toolbox and choose the _Add_ (![]({% link images/images-ee/icon-pb-add.png %})) icon.
+1. Hover over the tabs container to display the toolbox and choose the _Add_ (![]({% link cms/assets/pb-icon-add.png %})) icon.
 
 1. Click in the **Tab 2** label to display the cursor and enter you own label for the tab.
 
-1. Click the second tab again on the stage and choose the _Duplicate_ (![]({% link images/images-ee/icon-pb-duplicate.png %})) icon.
+1. Click the second tab again on the stage and choose the _Duplicate_ (![]({% link cms/assets/pb-icon-duplicate.png %})) icon.
 
 1. Click in the YourName **Copy** label to display the cursor and enter you own label for the third tab.
 
-![]({% link images/images-ee/page-builder-layout-tabs3-toolbox-main.png %}){: .zoom}
+![]({% link cms/assets/pb-layout-tabs3-toolbox-main.png %}){: .zoom}
 _Matching set of tabs with toolbox_
 
 ## Move a tab within the set
 
 1. Click the tab that you want to move.
 
-1. Select and drag the Move (![]({% link images/images-ee/icon-pb-move.png %})) icon, which appears just before the tab label text, to a new position within the tab set.
+1. Select and drag the Move (![]({% link cms/assets/pb-icon-move.png %})) icon, which appears just before the tab label text, to a new position within the tab set.
 
 ## Add content to a tab
 
@@ -101,14 +101,14 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    See [Elements - Text]({% link cms/page-builder-elements-text.md %}) for more information about working with the tex content type.
 
-   ![]({% link images/images-ee/page-builder-layout-tab-text.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-tab-text.png %}){: .zoom}
    _Editing text content added on the tab_
 
 1. In the upper-right corner, click <span class="btn">Save</span>.
 
 ## Change individual tab settings
 
-1. Hover over an individual tab to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over an individual tab to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. If needed, change any of the basic settings for the tab:
 
@@ -126,7 +126,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 - **Background Color** - Specify the background color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value. This determines the background color of the row. You can also adjust the opacity of the color.
 
-   ![]({% link images/images-ee/page-builder-settings-background-color-no-color.png %}){: .zoom}
+   ![]({% link cms/assets/pb-settings-background-color-no-color.png %}){: .zoom}
    _No color (default)_
 
    You can enter a value in three ways:
@@ -139,12 +139,12 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    If you want to choose a color, click the swatch to the left of the _No Color_ box.
 
-   ![]({% link images/images-ee/page-builder-settings-background-color-picker-swatch.png %}){: .zoom}
+   ![]({% link cms/assets/pb-settings-background-color-picker-swatch.png %}){: .zoom}
    _Choosing a color swatch_
 
    If you click the color box to open the color picker again, the box below the slider shows the current red, green, blue, and alpha values (rgba). The last number indicates the current opacity percentage as a decimal. You can use the slider to adjust the opacity, or enter the desired decimal value.
 
-   ![]({% link images/images-ee/page-builder-settings-background-color.png %}){: .zoom}
+   ![]({% link cms/assets/pb-settings-background-color.png %}){: .zoom}
    _Setting opacity_
 
    {:.bs-callout-info}
@@ -154,7 +154,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    |Upload|Uploads an image file from your local computer to the gallery and then applies it as the background image for the tab.
    |Select from Gallery|Prompts you to choose an existing image from the gallery as the background image for the tab.
-   |![Camera icon]({{site.baseurl}}/images/images-ee/icon-pb-camera.png){: width="25px"}|Allows you to either drag the image to the camera tile or browse to the image in your local file system.
+   |![Camera icon]({% link cms/assets/pb-icon-camera.png %}){: width="25px"}|Allows you to either drag the image to the camera tile or browse to the image in your local file system.
 
 - **Background Mobile Image** - If needed, use the same tools to choose a different background image to be used for display on mobile devices.
 
@@ -199,7 +199,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
    - **Border Color** - Specify the color by choosing a swatch, clicking the color picker, or by entering a valid color name or equivalent hexadecimal value.
 
-      ![]({% link images/images-ee/page-builder-settings-border-color.png %}){: .zoom}
+      ![]({% link cms/assets/pb-settings-border-color.png %}){: .zoom}
       _Border Color_
 
    - **Border Width** - Enter the number of pixels for the border line width.
@@ -208,7 +208,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
       The row in the following example has a border radius of 15.
 
-      ![]({% link images/images-ee/page-builder-settings-border-radius-15.png %}){: .zoom}
+      ![]({% link cms/assets/pb-settings-border-radius-15.png %}){: .zoom}
       _Row with border radius of 15_
 
 - (Optional) Specify the names of **CSS classes** from the current style sheet to apply to the column container.
@@ -224,7 +224,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 ## Change tab set settings
 
-1. Hover over the top border of the tab set container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the top border of the tab set container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. If needed, change the **Default Active Tab**.
 
@@ -234,7 +234,7 @@ You can any content type to a tab just as you can to a row. Use the following st
 
 1. Choose the **Tab Navigation Alignment** to position the navigation tabs along the top of the tab set (Left, Center, or Right).
 
-   ![]({% link images/images-ee/page-builder-layout-tabs-navigation-alignment-right.png %}){: .zoom}
+   ![]({% link cms/assets/pb-layout-tabs-navigation-alignment-right.png %}){: .zoom}
    _Right-aligned navigation tabs_
 
 1. Set the Advanced options for the tab set:

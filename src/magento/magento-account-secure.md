@@ -24,19 +24,19 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. Enter your username and password combination, and then click <span class="btn">Login</span> to log into My Account.
 
-   ![]({% link images/images/magento-account-login.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-login.png %}){: .zoom}
    _Account log in_
 
 1. In the left navigation pane, click **Account Settings** and click **Two-factor Authentication** underneath.
 
-   ![]({% link images/images/magento-account-2fa-enable.png %}){: .zoom}
+   ![]({% link magento/assets/2fa-enable.png %}){: .zoom}
    _Enable TFA_
 
 1. Click <span class="btn">Enable</span> to begin the two-factor authentication setup process.
 
 1. Re-enter your **Password** and click <span class="btn">Verify Password</span> to continue.
 
-   ![]({% link images/images/magento-account-2fa-enable-verify-password.png %}){: .zoom}
+   ![]({% link magento/assets/2fa-verify.png %}){: .zoom}
    _Verify password_
 
 1. Open the two-factor authentication application you downloaded and installed on your personal device.
@@ -50,7 +50,7 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. With your two-factor authentication application now synced to your Commerce account, enter the **Verification Code** displayed in your two-factor authentication application and click <span class="btn">Verify Code</span> to continue.
 
-   ![]({% link images/images/magento-account-2fa-setup-app.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-setup-app.png %}){: .zoom}
    _Setup 2FA app_
 
 1. Save the **Recovery Codes** presented in a safe and accessible place.
@@ -61,7 +61,7 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. Select the confirmation checkbox and click <span class="btn">Submit</span> to continue.
 
-   ![]({% link images/images/magento-account-2fa-store-recovery-codes.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-store-recovery-codes.png %}){: .zoom}
    _Store recovery codes_
 
 1. Enter a **Recovery Email** to help ensure that you can recover access to your account.
@@ -73,7 +73,7 @@ In order to use TFA, you must have a TFA application installed on your personal 
    {:.bs-callout-warning}
    It is imperative that you maintain access to the email account of your Recovery Email; otherwise, you will not be able to access any temporary Recovery Codes sent to that account.
 
-   ![]({% link images/images/magento-account-2fa-set-recovery-email.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-set-recovery-email.png %}){: .zoom}
    _Set recovery email_
 
 1. Select the confirmation checkbox and click <span class="btn">Submit</span> to complete the two-factor authentication setup process.
@@ -90,7 +90,7 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. Enter the **Verification Code** displayed in your two-factor authentication application when prompted.
 
-   ![]({% link images/images/magento-account-2fa-login-verification-code.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-login-verification-code.png %}){: .zoom}
    _Enter verification code_
 
 1. Click <span class="btn">Submit</span> to complete the login process.
@@ -105,7 +105,7 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. Enter an unused **Recovery Code** when prompted.
 
-   ![]({% link images/images/magento-account-2fa-login-recovery-code.png %}){: .zoom}
+   ![]({% link magento/assets/2fa-recovery-code.png %}){: .zoom}
    _Enter recovery code_
 
 1. Click <span class="btn">Submit</span> to complete the login process.
@@ -118,12 +118,12 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. Click <span class="btn">Use recovery code</span> to bypass the verification code prompt.
 
-   ![]({% link images/images/magento-account-2fa-login-verification-code.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-login-verification-code.png %}){: .zoom}
    _Use recovery code_
 
 1. Click the **recovery email** link to have a temporary Recovery Code sent to the Recovery Email address on file for your Commerce account.
 
-   ![]({% link images/images/magento-account-2fa-login-recovery-email.png %}){: .zoom}
+   ![]({% link magento/assets/2fa-recovery-email.png %}){: .zoom}
    _Use recovery email_
 
 1. Access the email account of your Recovery Email to retrieve the temporary Recovery Code and enter it into the designated fields.
@@ -144,14 +144,14 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. In the left navigation pane, click **Account Settings** and click **Two-factor Authentication** underneath.
 
-   ![]({% link images/images/magento-account-2fa-manage.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-manage.png %}){: .zoom}
    _2FA settings_
 
 1. Click <span class="btn">View Recovery Codes</span> to view your pre-generated Recovery Codes.
 
 1. Re-enter your **Password** and click <span class="btn">Verify Password</span> to continue.
 
-   ![]({% link images/images/magento-account-2fa-manage-verify-password.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-manage-verify-password.png %}){: .zoom}
    _Verify password_
 
 1. Save the **Recovery Codes** presented in a safe and accessible place.
@@ -160,7 +160,7 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
    Each Recovery Code is one-time use only, so do not try to re-use a Recovery Code you have already used previously (but you can always generate more---see the following for details). Recovery Codes are case-sensitive.
 
-   ![]({% link images/images/magento-account-2fa-view-recovery-codes.png %}){: .zoom}
+   ![]({% link magento/assets/2fa-view-recovery.png %}){: .zoom}
    _View recovery codes_
 
 1. Select the confirmation checkbox and click <span class="btn">Submit</span> to close the dialog.
@@ -175,14 +175,14 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. In the left navigation pane, click **Account Settings** and click **Two-factor Authentication** underneath.
 
-   ![]({% link images/images/magento-account-2fa-manage.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-manage.png %}){: .zoom}
    _TFA settings_
 
 1. Click <span class="btn">Generate New Recovery Codes</span> to generate new pre-generated Recovery Codes.
 
 1. Re-enter your **Password** and click <span class="btn">Verify Password</span> to continue.
 
-   ![]({% link images/images/magento-account-2fa-manage-verify-password.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-manage-verify-password.png %}){: .zoom}
    _Verify password_
 
 1. Save the **Recovery Codes** presented in a safe and accessible place.
@@ -191,7 +191,7 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
    All previously generated Recovery Codes are now rendered invalid and should be discarded (only the current set of generated Recovery Codes will work). Recovery Codes are case-sensitive.
 
-   ![]({% link images/images/magento-account-2fa-generate-recovery-codes.png %}){: .zoom}
+   ![]({% link magento/assets/2fa-generate-recovery.png %}){: .zoom}
    _Generate recovery codes_
 
 1. Select the confirmation checkbox and click <span class="btn">Submit</span> to close the dialog.
@@ -206,14 +206,14 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. In the left navigation pane, click **Account Settings** and click **Two-factor Authentication** underneath.
 
-   ![]({% link images/images/magento-account-2fa-manage.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-manage.png %}){: .zoom}
    _TFA settings_
 
 1. Click <span class="btn">Change Recovery Email</span> to change the Recovery Email on file for your account.
 
 1. Re-enter your **Password** and click <span class="btn">Verify Password</span> to continue.
 
-   ![]({% link images/images/magento-account-2fa-manage-verify-password.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-manage-verify-password.png %}){: .zoom}
    _Verify password_
 
 1. Enter a **Recovery Email** to help ensure that you can recover access to your account.
@@ -225,7 +225,7 @@ In order to use TFA, you must have a TFA application installed on your personal 
    {:.bs-callout-warning}
    It is imperative that you maintain access to the email account of your Recovery Email; otherwise, you will not be able to access any temporary Recovery Codes sent to that account.
 
-   ![]({% link images/images/magento-account-2fa-set-recovery-email.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-set-recovery-email.png %}){: .zoom}
    _Set recovery email_
 
 1. Select the confirmation checkbox and click <span class="btn">Submit</span> to close the dialog.
@@ -242,14 +242,14 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. In the left navigation pane, click **Account Settings** and click **Two-factor Authentication** underneath.
 
-   ![]({% link images/images/magento-account-2fa-manage.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-manage.png %}){: .zoom}
    _TFA settings_
 
 1. Click <span class="btn">Change TFA Application</span> to use a different TFA application with your magento.com account.
 
 1. Re-enter your **Password** and click <span class="btn">Verify Password</span> to continue.
 
-   ![]({% link images/images/magento-account-2fa-manage-verify-password.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-manage-verify-password.png %}){: .zoom}
    _Verify password_
 
 1. Open the two-factor authentication application you downloaded and installed on your personal device.
@@ -263,7 +263,7 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. With your TFA application now synced to your Commerce account, enter the **Verification Code** displayed in your TFA application and click <span class="btn">Verify Code</span> to continue.
 
-   ![]({% link images/images/magento-account-2fa-setup-app.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-setup-app.png %}){: .zoom}
    _Setup TFA app_
 
 1. Save the **Recovery Codes** presented in a safe and accessible place.
@@ -274,7 +274,7 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. Select the checkbox to confirm and click <span class="btn">Submit</span> to continue.
 
-   ![]({% link images/images/magento-account-2fa-store-recovery-codes.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-store-recovery-codes.png %}){: .zoom}
    _Store recovery codes_
 
 1. Enter a **Recovery Email** to help ensure that you can recover access to your account.
@@ -286,7 +286,7 @@ In order to use TFA, you must have a TFA application installed on your personal 
    {:.bs-callout-warning}
    It is imperative that you maintain access to the email account of your Recovery Email; otherwise, you will not be able to access any temporary Recovery Codes sent to that account.
 
-   ![]({% link images/images/magento-account-2fa-set-recovery-email.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-set-recovery-email.png %}){: .zoom}
    _Set recovery email_
 
 1. Select the confirmation checkbox and click <span class="btn">Submit</span> to complete the two-factor authentication setup process.
@@ -303,21 +303,21 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 1. In the left navigation pane, click **Account Settings** and click **Two-factor Authentication** underneath.
 
-   ![]({% link images/images/magento-account-2fa-manage.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-manage.png %}){: .zoom}
    _TFA settings_
 
 1. Click <span class="btn">Disable</span> to begin the TFA deactivation process.
 
 1. Re-enter your password and click <span class="btn">Verify Password</span> to continue.
 
-   ![]({% link images/images/magento-account-2fa-manage-verify-password.png %}){: .zoom}
+   ![]({% link magento/assets/commerce-account-2fa-manage-verify-password.png %}){: .zoom}
    _Verify password_
 
 1. Select the confirmation checkbox and click <span class="btn">Submit</span> to complete the deactivation for two-factor authentication.
 
    You will also receive an email confirmation indicating that TFA has been disabled on your Commerce account.
 
-   ![]({% link images/images/magento-account-2fa-disable-confirmation.png %}){: .zoom}
+   ![]({% link magento/assets/2fa-disable.png %}){: .zoom}
    _Disable TFA_
 
 [1]: https://account.magento.com/customer/account/login

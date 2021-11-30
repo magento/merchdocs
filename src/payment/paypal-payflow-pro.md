@@ -4,7 +4,7 @@ title: PayPal Payflow Pro
 
 PayPal Payflow Pro gateway, formerly known as _Verisign_, is available for customers of the United States, Canada, Australia, and New Zealand. Unlike other PayPal payment methods, merchants are charged a fixed monthly fee, plus a fixed fee for each transaction, regardless of the number.
 
-![Checkout with PayPal]({% link images/images/storefront-cart-paypal.png %}){: .zoom}
+![Checkout with PayPal]({% link payment/assets/storefront-cart-paypal.png %}){: .zoom}
 _Checkout with PayPal_
 
 {:.bs-callout-warning}
@@ -104,17 +104,17 @@ This setup method assumes you have an existing PayPal account.
 
    This setting determines the selection of PayPal Solutions that appear in the configuration.
 
-   ![Merchant Country]({% link images/images/config-sales-payment-methods-merchant-location.png %}){: .zoom}
+   ![Merchant Country]({% link configuration/sales/assets/payment-methods-merchant-location.png %}){: .zoom}
    _Merchant Country_
 
 1. Expand **PayPal Payment Gateways** (if needed) and click <span class="btn">Configure</span> for **Payflow Pro**.
 
-   ![Configure]({% link images/images/config-sales-payment-methods-paypal-payflow-pro.png %}){: .zoom}
+   ![Configure]({% link payment/assets/payflow-pro.png %}){: .zoom}
    _Payflow Pro - Configure_
 
 ### Step 2: Complete the required PayPal settings
 
-   ![Required Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-required-a.png %}){: .zoom}
+   ![Required Settings]({% link payment/assets/payflow-pro-required-a.png %}){: .zoom}
    _Required PayPal Settings - PayPal Payflow Pro_
 
 1. (Optional) Enter the **Email Associated with your PayPal Merchant Account**.
@@ -161,7 +161,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advertise PayPal Credit** section.
 
-   ![Advertise PayPal Credit]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
+   ![Advertise PayPal Credit]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
    _Advertise PayPal Credit_
 
 1. Click **Get Publisher ID from PayPal** and follow the instructions to get your account information.
@@ -170,7 +170,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Home Page** section.
 
-   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
+   ![Advertise PayPal Credit Home Page Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png %}){: .zoom}
    _Advertise PayPal Credit - Home Page settings_
 
 1. To place a banner on the page, set **Display** to `Yes`.
@@ -203,7 +203,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Home Page** section.
 
-   ![Advertise PayPal Credit Home Page Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png %}){: .zoom}
+   ![Advertise PayPal Credit Home Page Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png %}){: .zoom}
    _Advertise PayPal PayLater - Home Page Settings_
 
 1. To place a banner on the page, set **Display** to `Yes`.
@@ -276,7 +276,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Basic Settings - PayPal Payflow Pro** section.
 
-   ![Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-basic-settings.png %}){: .zoom}
+   ![Basic Settings]({% link configuration/sales/assets/payment-methods-paypal-payflow-pro-basic-settings.png %}){: .zoom}
    _Basic Settings - PayPal Payflow Pro_
 
 1. Enter a **Title** to identify PayPal Payflow Pro during checkout.
@@ -303,7 +303,7 @@ Set **Enable PayPal PayLater Experience** to one of the following:
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
-   ![Advanced Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-advanced-settings.png %}){: .zoom}
+   ![Advanced Settings]({% link configuration/sales/assets/payment-methods-paypal-payflow-pro-advanced-settings.png %}){: .zoom}
    _Advanced Settings - PayPal Payflow Pro_
 
 1. Set **Payment Applicable From** to one of the following:
@@ -332,7 +332,7 @@ To determine when a transaction should be rejected when the Address Verification
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **CVV and AVS Settings** section.
 
-   ![CVV and AVS Settings]({% link images/images/config-sales-payment-methods-paypal-payflow-pro-advanced-settings-cvv-avs.png %}){: .zoom}
+   ![CVV and AVS Settings]({% link payment/assets/payflow-pro-cvv-avs.png %}){: .zoom}
    _CVV and AVS Settings - PayPal Payflow Pro_
 
 1. To reject a transaction based on a mismatched street mismatch, set **AVS Street Does Not Match** to `Yes`.
@@ -347,7 +347,7 @@ To determine when a transaction should be rejected when the Address Verification
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Settlement Report Settings** section.
 
-   ![Settlement Report Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
+   ![Settlement Report Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
    _Settlement Report Settings - PayPal Payflow Pro_
 
 1. For **SFTP Credentials**, do the following:
@@ -391,7 +391,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Frontend Experience Settings** section.
 
-   ![Frontend Experience Settings]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
+   ![Frontend Experience Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
    _Frontend Experience Settings - PayPal Payflow Pro_
 
 1. Select the **PayPal Product Logo** that you want to appear in the PayPal block in your store.
@@ -427,7 +427,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Basic Settings - PayPal Express Checkout** section.
 
-   ![Express Checkout Basic Settings]({% link images/images/config-sales-payment-methods-paypal-payments-pro-express-checkout-basic-settings.png %}){: .zoom}
+   ![Express Checkout Basic Settings]({% link configuration/sales/assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png %}){: .zoom}
    _Basic Settings - PayPal Express Checkout_
 
 1. Enter a **Title** to identify this payment method during checkout.
@@ -449,7 +449,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Advanced Settings** section.
 
-   ![Express Checkout Advanced Setting]({% link images/images/config-sales-payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png %}){: .zoom}
+   ![Express Checkout Advanced Setting]({% link configuration/sales/assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png %}){: .zoom}
    _Advanced Settings - PayPal Express Checkout_
 
 1. Set **Display on Shopping Cart** to `Yes`.

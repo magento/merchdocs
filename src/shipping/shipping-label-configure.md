@@ -22,7 +22,7 @@ The country of manufacture is required for all products that are shipped interna
 
 1. Click <span class="btn">Save</span>.
 
-   ![]({% link images/images/product-country-of-manufacture.png %}){: .zoom}
+   ![]({% link shipping/assets/product-country-of-manufacture.png %}){: .zoom}
    _Country of Manufacture_
 
 ### Method 2: Update multiple records
@@ -48,7 +48,7 @@ The country of manufacture is required for all products that are shipped interna
    - **Street Address** – The street address of the place from which shipments are sent. For example, the location of your company or warehouse. This field is required for shipping labels.
    - **Street Address Line 2** – Any additional address information, such as the floor, entrance and so on. We strongly recommend that you use this field.
 
-   ![]({% link images/images/config-sales-shipping-settings-origin.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/shipping-settings-origin.png %}){: .zoom}
    _[Origin]({% link configuration/sales/shipping-settings.md %})_
 
 1. In the _Sales_ section in the left panel, choose **Delivery Methods**.
@@ -81,7 +81,7 @@ The country of manufacture is required for all products that are shipped interna
 
    If the information is missing, an error will appear when you try to print the labels.
 
-   ![]({% link images/images/config-general-general-store-information.png %}){: .zoom}
+   ![]({% link configuration/general/assets/general-store-information.png %}){: .zoom}
    _[Store Information]({% link configuration/general/general.md %})_
 
 1. Click <span class="btn">Save Config</span>.

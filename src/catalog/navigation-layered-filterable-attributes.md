@@ -13,7 +13,7 @@ The attribute properties, combined with the product input type, determine which 
 ![]({% link catalog/assets/storefront-layered-navigation-filtered.png %}){: .zoom}
 _Filterable Attributes In Layered Navigation_
 
-![]({% link images/images/storefront-product-attribute-filter-no-results.png %}){: .zoom}
+![]({% link catalog/assets/storefront-product-attribute-filter-no-results.png %}){: .zoom}
 _Filterable Swatch Value with No Results_
 
 The following instructions show how to set up basic layered navigation with filterable attributes. For advanced layered navigation with price steps, see [Price Navigation]({% link catalog/navigation-layered-price.md %}).
@@ -24,7 +24,7 @@ The following instructions show how to set up basic layered navigation with filt
 
 1. Browse or use filtered search to find an attribute in the list and open it in edit mode.
 
-   ![]({% link images/images/attribute-search.png %}){: .zoom}
+   ![]({% link catalog/assets/attribute-search.png %}){: .zoom}
    _Enter search terms per column to use Filtered Search_
 
 1. In the left panel, choose **Storefront Properties** and set **Use In Layered Navigation** to one of the following:
@@ -34,7 +34,7 @@ The following instructions show how to set up basic layered navigation with filt
 
 1. Set **Use In Search Results Layered Navigation** to `Yes`.
 
-    ![]({% link images/images/attribute-storefront-properties.png %}){: .zoom}
+    ![]({% link catalog/assets/attribute-storefront-properties.png %}){: .zoom}
     _Storefront Properties_
 
 1. Repeat these steps for each attribute that you want to include in layered navigation.
@@ -52,7 +52,7 @@ The [Position field]({% link stores/attributes-product.md %}) will be grayed out
 
 1. Click <span class="btn">Save</span>.
 
-   ![]({% link images/images/category-layered-navigation-anchor.png %}){: .zoom}
+   ![]({% link catalog/assets/category-layered-navigation-anchor.png %}){: .zoom}
    _Category Display Settings_
 
 ## Step 3: Test the results
@@ -78,7 +78,7 @@ You can use the following steps to remove filterable attribute values with 0 Pro
 
 1. Under _Attribute Information_ , click **Storefront Properties**.
 
-   ![]({% link images/images/storefront-properties-tab.png %}){: .zoom}
+   ![]({% link catalog/assets/storefront-properties-tab.png %}){: .zoom}
    _Attribute Information section_
 
 1. For **Layered Navigation**, choose `Filterable (with results)`.

@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 ## Admin User Emails
 
-![]({% link images/images/config-advanced-admin-admin-user-emails.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-admin-user-emails.png %}){: .zoom}
 [_Admin User Emails_]({% link stores/admin-email-templates-configure.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -17,7 +17,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 ## Startup Page
 
-![]({% link images/images/config-advanced-admin-startup-page.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-startup-page.png %}){: .zoom}
 [_Startup Page_]({% link stores/admin-dashboard.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -68,7 +68,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 ## Admin Base URL
 
-![]({% link images/images/config-advanced-admin-admin-base-url.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-admin-base-url.png %}){: .zoom}
 [_Admin Base URL_]({% link stores/store-urls.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -80,7 +80,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 ## Security
 
-![]({% link images/images/config-advanced-admin-security.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-security.png %}){: .zoom}
 [_Security_]({% link stores/security-admin.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -100,7 +100,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 ## Dashboard
 
-![]({% link images/images/config-advanced-admin-dashboard.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-dashboard.png %}){: .zoom}
 [_Dashboard_]({% link stores/admin-dashboard.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -109,7 +109,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 ## CAPTCHA
 
-![]({% link images/images/config-advanced-admin-captcha.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-captcha.png %}){: .zoom}
 [_CAPTCHA_]({% link stores/security-captcha.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -127,16 +127,16 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 {:.ee-only}
 ## Admin Actions Logging
 
-![]({% link images/images/config-advanced-admin-actions-logging.png %}){: .zoom}
+![]({% link configuration/advanced/assets/admin-actions-logging.png %}){: .zoom}
 [_Admin Actions Logging_]({% link system/action-log-archive.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable Actions|Global|Enables action logging for each of the selected actions: <br/>Admin My Account <br/>Admin Permission Roles <br/>Admin Permission Users <br/>Admin Sign In <br/>CMS Blocks <br/>CMS Hierarchy <br/>CMS Pages <br/>Cache Management <br/>Catalog Attributes <br/>Catalog Categories <br/>Catalog Events <br/>Catalog Price Rules <br/>Catalog Product Tax Classes <br/>Catalog Product Templates <br/>Catalog Products <br/>Catalog Ratings <br/>Catalog Reviews <br/>Catalog Search <br/>Checkout Terms and Conditions <br/>Custom Variables <br/>Customer Groups <br/>Customer Invitations <br/>Customer Tax Classes <br/>Customers <br/>Gift Card Accounts <br/>Gift Registry Entity <br/>Gift Registry Type <br/>Index Management <br/>Manage Currency Rates <br/>Manage Customer Address Attributes <br/>Manage Customer Attributes <br/>Manage Design <br/>Manage Dynamic Blocks <br/>Manage Segments <br/>Manage Store Views <br/>Manage Stores <br/>Manage Websites <br/>Newsletter Queue <br/>Newsletter Subscribers <br/>Newsletter Templates <br/>PayPal Settlement Reports <br/>Reports <br/> Reward Points Rates <br/>Rule-Based Product Relations <br/>Sales Archive <br/>Sales Credit Memos <br/>Sales Invoices <br/>Sales Order Status <br/>Sales Orders <br/>Sales Shipments <br/>Shopping Cart Management <br/>Store Credit <br/>System Backups <br/>System Configuration <br/>Tax Rates <br/>Tax Rules <br/>Transactional Emails <br/>URL Rewrites <br/>Widget <br/>XML Sitemap|
+|Enable Actions|Global|Enables action logging for each of the selected actions: <br/>Admin My Account <br/>Admin Permission Roles <br/>Admin Permission Users <br/>Admin Sign In <br/>CMS Blocks <br/>CMS Hierarchy <br/>CMS Pages <br/>Cache Management <br/>Cart Price Rules <br/>Catalog Attributes <br/>Catalog Categories <br/>Catalog Events <br/>Catalog Price Rules <br/>Catalog Product Tax Classes <br/>Catalog Product Templates <br/>Catalog Products <br/>Catalog Ratings <br/>Catalog Reviews <br/>Catalog Search <br/>Checkout Terms and Conditions <br/>Companies <br/>Company Credit <br/>Custom Variables <br/>Customer Groups <br/>Customer Invitations <br/>Customer Tax Classes <br/>Customers <br/>Design Configuration <br/>Gift Card Accounts <br/>Gift Registry Entity <br/>Gift Registry Type <br/>Index Management <br/>Login as a Customer <br/>Manage Currency Rates <br/>Manage Customer Address Attributes <br/>Manage Customer Attributes <br/>Manage Design <br/>Manage Dynamic Blocks <br/>Manage Segments <br/>Manage Store Views <br/>Manage Stores <br/>Manage Websites <br/>Negotiable Quotes <br/>Newsletter Queue <br/>Newsletter Subscribers <br/>Newsletter Templates <br/>PayPal Settlement Reports <br/>Reports <br/> Reward Points Rates <br/>Rule-Based Product Relations <br/>Sales Archive <br/>Sales Credit Memos <br/>Sales Invoices <br/>Sales Order Status <br/>Sales Orders <br/>Sales Shipments <br/>Shared Catalog <br/>Shopping Cart Management <br/>Store Credit <br/>System Backups <br/>System Configuration <br/>Tax Rates <br/>Tax Rules <br/>Transactional Emails <br/>URL Rewrites <br/>Widget <br/>XML Sitemap|
 
 ## Admin Usage
 
-![Admin Usage]({% link images/images/config-advanced-admin-usage.png %}){: .zoom}
+![Admin Usage]({% link configuration/assets/advanced-admin-usage.png %}){: .zoom}
 _Admin Usage_
 
 Field | Scope | Description

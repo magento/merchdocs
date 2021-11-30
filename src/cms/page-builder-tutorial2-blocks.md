@@ -7,7 +7,7 @@ The following tutorial illustrates the difference between [simple blocks]({% lin
 {:.bs-callout-info}
 Page Builder has a new content type called _Banner_, which is featured in the first tutorial and is unrelated to the previous banner functionality. What was previously the Banner option in the [Content menu]({% link cms/content-menu.md %}) is now _Dynamic Block_.
 
-![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial2-dynamic-block-storefront.png %}){: .zoom}
 _Dynamic block in the storefront_
 
 This tutorial assumes that you have completed [Tutorial 1: Simple Page]({% link cms/page-builder-tutorial1-simple-page.md %}), including the prerequisites and downloaded sample files. Follow parts 1, 2, 3, and 4 of this tutorial in order.
@@ -31,7 +31,7 @@ In this tutorial, you will create a simple block with content from Google Maps. 
 
 1. Choose the **Store View** where the block is to be available.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-block-new-google-map.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-block-new-google-map.png %}){: .zoom}
    _Block Information_
 
 1. In the upper-right corner, click <span class="btn">Save</span>.
@@ -42,20 +42,20 @@ In this tutorial, you will create a simple block with content from Google Maps. 
 
 1. In the Page Builder panel, expand **Media** and drag a **Map** placeholder to the stage.
 
-   ![]({% link images/images-ee/page-builder-media-map-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-media-map-drag.png %}){: .zoom}
    _Dragging a map to the stage_
 
    A map to your store location appears if Google Maps is configured for your store.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-google-map.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-google-map.png %}){: .zoom}
    _Configured Google Map for your store_
 
    A placeholder map appears if Google Maps isn’t yet configured for your store.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-media-map-not-configured.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-media-map-not-configured.png %}){: .zoom}
    _Google Maps placeholder_
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon.
 
    This returns you to the _Content_ section for the block with the preview displayed.
 
@@ -79,7 +79,7 @@ If Google Maps is already configured for your store, you can skip this step and 
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) **Advanced Content Tools**.
 
-   ![]({% link images/images/config-general-content-management-advanced-content-tools.png %}){: .zoom}
+   ![]({% link configuration/general/assets/content-management-advanced-content-tools.png %}){: .zoom}
    [_Advanced Content Tools_]({% link configuration/general/content-management.md %})
 
 1. For **Google Maps API Key**, paste the key you copied.
@@ -100,37 +100,37 @@ If Google Maps is already configured for your store, you can skip this step and 
 
 1. In the Page Builder panel under _Layout_, drag a **Row** placeholder to the top of the stage.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-elements-row-drag-top.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-elements-row-drag-top.png %}){: .zoom}
    _Adding the row to the top of the stage_
 
 1. In the Page Builder panel, expand **Add Content** and drag a **Block** placeholder to the new row.
 
-1. Hover over the empty block container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the empty block container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-add-content-block-toolbox.png %}){: .zoom}
+   ![]({% link cms/assets/pb-add-content-block-toolbox.png %}){: .zoom}
    _Block toolbox_
 
 1. On the Edit Block page, click <span class="btn">Select Block</span>.
 
-   ![]({% link images/images-ee/page-builder-add-content-block-settings-block-select.png %}){: .zoom}
+   ![]({% link cms/assets/pb-add-content-block-settings-block-select.png %}){: .zoom}
    _Select Block_
 
 1. In the search box, enter `map` and press the Enter/Return key to find the block that you created.
 
-   ![]({% link images/images-ee/page-builder-add-content-block-settings-block-find.png %}){: .zoom}
+   ![]({% link cms/assets/pb-add-content-block-settings-block-find.png %}){: .zoom}
    _Find Block in List_
 
 1. In the grid, click <span class="btn">Select</span> to choose the Google Maps block.
 
 1. In the upper-right corner, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon.
 
    This returns you to the _Content_ section for the page with the preview displayed.
 
 1. In the upper-right corner, click the **Save** arrow and choose **Save & Close**.
 
-   ![]({% link images/images-ee/page-builder-tutorial1-save-and-close.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial1-save-and-close.png %}){: .zoom}
    _Choosing the Save & Close option_
 
 **Congratulations!** You have completed the Part 1 of the Block tutorial. Make sure to keep your work for reference.
@@ -139,19 +139,19 @@ If Google Maps is already configured for your store, you can skip this step and 
 
 A dynamic block includes logic that determines where, when, and to whom it appears. In this tutorial, you will create a dynamic block for a promotion that is triggered when price rule conditions are met, and that appears only to a specific customer segment. The end result of this example is similar to the banner that was created in the first tutorial, but with logic that controls when it appears in the storefront.
 
-![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-row-page.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial2-dynamic-block-row-page.png %}){: .zoom}
 _Sample Luma tee promotion_
 
 ### Step 1: Create a new dynamic block
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Dynamic Blocks**.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-block-dynamic-add.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-block-dynamic-add.png %}){: .zoom}
    _Dynamic Blocks list_
 
 1. In the upper-right corner, click <span class="btn">Add Dynamic Block</span>.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-block-dynamic-new.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-block-dynamic-new.png %}){: .zoom}
    _New Dynamic Block page_
 
 1. Complete the basic settings for the new dynamic block:
@@ -164,14 +164,14 @@ _Sample Luma tee promotion_
 
       The Dynamic Block Type determines where in the [page layout]({% link design/page-layout-standard.md %}) the block is to be placed. When setting up a dynamic block for your store, take into consideration both the [page layout]({% link design/page-layout.md %}) and the [theme]({% link design/themes.md %}), so you can put the available space to good use. Some stores have an active content area that is limited to a fixed width, while others extend the full width of the screen.
 
-      ![]({% link images/images-ee/page-builder-dynamic-block-type.png %}){: .zoom}
+      ![]({% link cms/assets/pb-dynamic-block-type.png %}){: .zoom}
       _Dynamic Block Type setting_
 
    - For **Customer Segment**, select the checkbox of each segment that you want to apply to the dynamic block and click <span class="btn">Done</span> to save the list of segments.
 
       For this example, we created two [customer segments]({% link marketing/customer-segments.md %}) that identify registered customers by gender. This dynamic block appears only to registered female customers who are logged in to their accounts while they shop in your store.
 
-      ![]({% link images/images-ee/page-builder-dynamic-block-customer-segment.png %}){: .zoom}
+      ![]({% link cms/assets/pb-dynamic-block-customer-segment.png %}){: .zoom}
       _Choosing the customer segments_
 
 ### Step 2: Complete the settings
@@ -180,7 +180,7 @@ Scroll down to the _Content_ section, which displays an empty Page Builder conte
 
 **Task 1:** Add a background image
 
-1. Hover over the row container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the row container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
 1. Under _Appearance_, choose **Full Bleed**.
 
@@ -190,14 +190,14 @@ Scroll down to the _Content_ section, which displays an empty Page Builder conte
 
 1. In the upper-right corner, click <span class="btn">Save</span> to apply the settings and return to the Page Builder workspace.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-row-image.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-row-image.png %}){: .zoom}
    _Row with the image_
 
 **Task 2:** Add columns
 
 In the Page Builder panel under _Layout_, drag a **Column** placeholder onto the row.
 
-![]({% link images/images-ee/page-builder-tutorial2-column-drag.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial2-column-drag.png %}){: .zoom}
 _Dragging the column type into the row_
 
 The row is now divided into two columns of equal width.
@@ -206,7 +206,7 @@ The row is now divided into two columns of equal width.
 
 1. In the Page Builder panel, expand **Elements** and drag a **Text** placeholder to the second column.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-column-text-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-column-text-drag.png %}){: .zoom}
    _Dragging a text box to the second column_
 
 1. Enter the following three lines of text into the editor:
@@ -217,12 +217,12 @@ The row is now divided into two columns of equal width.
 
    `Shop Tees >`
 
-   ![]({% link images/images-ee/page-builder-tutorial2-column-text-editor.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-column-text-editor.png %}){: .zoom}
    _Entering text for the column_
 
 1. Select all three lines of text and use the toolbar to set the **Line Height** to `40px`.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-column-text-editor-line-height.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-column-text-editor-line-height.png %}){: .zoom}
    _Setting the line height_
 
 1. Set the **Font Size** for each line as follows:
@@ -233,7 +233,7 @@ The row is now divided into two columns of equal width.
 
    Because this block could be placed anywhere on the page, we use the default paragraph style, rather than heading levels. Also, don't worry that the text does not yet wrap correctly in the column.  
 
-   ![]({% link images/images-ee/page-builder-tutorial2-column-text-editor-text-formatted.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-column-text-editor-text-formatted.png %}){: .zoom}
    _Formatted text_
 
 **Task 4:** Add a Link
@@ -252,9 +252,9 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
 
 1. Return to the Page Builder workspace tab and text editor, select the `Shop Tees >` text in the third line, and choose **Bold** (![]({% link cms/assets/editor-btn-bold.png %})) in the editor toolbar.
 
-1. With the `Shop Tees >` text in the third line still selected, choose **Insert/edit link** (![]({% link images/images-ee/icon-pb-add-link.png %})) in the editor toolbar.
+1. With the `Shop Tees >` text in the third line still selected, choose **Insert/edit link** (![]({% link cms/assets/pb-icon-add-link.png %})) in the editor toolbar.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-column-text-editor-link-insert.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-column-text-editor-link-insert.png %}){: .zoom}
    _Inserting a link_
 
 1. For **Url**, enter the relative link that you prepared.
@@ -269,10 +269,10 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
 
 1. Click <span class="btn">OK</span> to save the link and return to the Page Builder workspace.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-column-text-editor-link-insert-detail.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-column-text-editor-link-insert-detail.png %}){: .zoom}
    _Link details_
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon.
 
    This returns you to the _Content_ section for the dynamic block with the preview displayed.
 
@@ -284,17 +284,17 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Related Promotions** section and click <span class="btn">Add Cart Price Rules</span>.
 
-   ![]({% link images/images-ee/page-builder-dynamic-blocks-related-promotions.png %}){: .zoom}
+   ![]({% link cms/assets/pb-dynamic-blocks-related-promotions.png %}){: .zoom}
    _Related promotions_
 
 1. On the _Add Related Cart Price Rules_ page, select the checkbox for the _Buy 3 tee shirts and get the 4th free_ price rule and click <span class="btn">Add Selected</span>.
 
-   ![]({% link images/images-ee/page-builder-dynamic-block-add-related-cart-price-rules.png %}){: .zoom}
+   ![]({% link cms/assets/pb-dynamic-block-add-related-cart-price-rules.png %}){: .zoom}
    _Adding a related cart price rule_
 
    The price rule appears in the _Related Promotions_ section, under _Related Cart Price Rule_. You can associate multiple price rules with a dynamic block. However, for this simple example, we'll use just one.
 
-   ![]({% link images/images-ee/page-builder-dynamic-block-related-cart-price-rule-list.png %}){: .zoom}
+   ![]({% link cms/assets/pb-dynamic-block-related-cart-price-rule-list.png %}){: .zoom}
    _Selected cart price rule_
 
 1. In the upper-right corner, click <span class="btn">Save</span>.
@@ -307,7 +307,7 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Content** section and click <span class="btn">Edit with Page Builder</span>.
 
-1. Hover over the top row with the same image as the dynamic block to display the toolbox and the _Remove_ (![]({% link images/images-ee/icon-pb-remove.png %}){: width="20px"}) icon.
+1. Hover over the top row with the same image as the dynamic block to display the toolbox and the _Remove_ (![]({% link cms/assets/pb-icon-remove.png %}){: width="20px"}) icon.
 
    Click  <span class="btn">OK</span> to confirm removal of the row from the page.
 
@@ -315,34 +315,34 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
 
 1. In the Page Builder panel, expand **Add Content** and drag a **Dynamic Block** placeholder to the new row.
 
-   ![]({% link images/images-ee/page-builder-dynamic-block-drag.png %}){: .zoom}
+   ![]({% link cms/assets/pb-dynamic-block-drag.png %}){: .zoom}
    _Dragging a dynamic block onto the row_
 
-1. Hover over the dynamic block container to display the toolbox and choose the _Settings_ (![]({% link images/images-ee/icon-pb-settings.png %})) icon.
+1. Hover over the dynamic block container to display the toolbox and choose the _Settings_ (![]({% link cms/assets/pb-icon-settings.png %})) icon.
 
-   ![]({% link images/images-ee/page-builder-dynamic-block-settings.png %}){: .zoom}
+   ![]({% link cms/assets/pb-dynamic-block-settings.png %}){: .zoom}
    _Dynamic block toolbox_
 
 1. On the _Edit Dynamic Block_ page, click <span class="btn">Select Dynamic Block</span>.
 
-   ![]({% link images/images-ee/page-builder-dynamic-block-select.png %}){: .zoom}
+   ![]({% link cms/assets/pb-dynamic-block-select.png %}){: .zoom}
    _Select Dynamic Block_
 
 1. Find the _Tee Shirt Promo_ dynamic block that you created and click <span class="btn">Select</span>.
 
    A summary of the dynamic block information appears below.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-edit.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-dynamic-block-edit.png %}){: .zoom}
    _Dynamic block information_
 
 1. Accept the default **Template**, `Dynamic Block Block Template`.
 
 1. When complete, click <span class="btn">Save</span> to save the settings and return to the Page Builder workspace.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-on-page.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-dynamic-block-on-page.png %}){: .zoom}
    _Dynamic Block in the page preview_
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon.
 
    This returns you to the _Content_ section for the page with the preview displayed.
 
@@ -354,7 +354,7 @@ In the first tutorial, you learned how to use the [Button]({% link cms/page-buil
 
 In this final part of the tutorial, you will edit a dynamic block while the page is live in your store. Then, log in to the store as a member of the customer segment to make the block appear.
 
-![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
+![]({% link cms/assets/pb-tutorial2-dynamic-block-storefront.png %}){: .zoom}
 _Sample dynamic block in the storefront_
 
 ### Step 1: Edit the dynamic block
@@ -371,12 +371,12 @@ _Sample dynamic block in the storefront_
 
    - Hold down the mouse button and drag the border two divisions to the left.
 
-      ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-edit-column-width.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial2-dynamic-block-edit-column-width.png %}){: .zoom}
       _Grid divisions_
 
       The first column is now four of twelve (4/12) grid divisions wide, and the second column is eight of twelve (8/12) divisions wide.
 
-      ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-edit-column-width-changed.png %}){: .zoom}
+      ![]({% link cms/assets/pb-tutorial2-dynamic-block-edit-column-width-changed.png %}){: .zoom}
       _Two unequal columns_
 
 1. Change the text color:
@@ -385,10 +385,10 @@ _Sample dynamic block in the storefront_
 
    - On the editor toolbar, choose **Text Color** and click the **White** swatch.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-edit-text-color.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-dynamic-block-edit-text-color.png %}){: .zoom}
    _Text color_
 
-1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link images/images-ee/icon-pb-reduce.png %})) icon.
+1. In the upper-right corner of the stage, click the _Close Full Screen_ (![]({% link cms/assets/pb-icon-reduce.png %})) icon.
 
    This returns you to the _Content_ section for the dynamic block with the preview displayed.
 
@@ -421,7 +421,7 @@ Because this dynamic block is visible only to members of a specific customer seg
 
    - Return to the sample page to see the dynamic block that you created with the Tee Shirt Promo.
 
-   ![]({% link images/images-ee/page-builder-tutorial2-dynamic-block-storefront.png %}){: .zoom}
+   ![]({% link cms/assets/pb-tutorial2-dynamic-block-storefront.png %}){: .zoom}
    _Dynamic block displayed for a customer segment_
 
 **Congratulations!** You have completed the Part 3 of the Block tutorial. Make sure to keep your work for reference.

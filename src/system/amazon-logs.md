@@ -23,5 +23,5 @@ Amazon Pay logs the following information:
 
    - If logs are not available or have not been generated, a message displays `No logs are currently available.`
 
-    ![Sales configuration - Amazon Pay developer options]({% link images/images/config-sales-payment-methods-amazon-pay-developer-options.png %}){: .zoom}
+    ![Sales configuration - Amazon Pay developer options]({% link configuration/sales/assets/payment-methods-amazon-pay-developer-options.png %}){: .zoom}
     _Amazon Pay Developer Options_
