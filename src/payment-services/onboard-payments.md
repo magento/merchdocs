@@ -10,6 +10,7 @@ To get started using Payment Services for Adobe Commerce and Magento Open Source
 1. [Onboard and set up the sandbox service](#enable-sandbox-testing) (or, alternatively, proceed to [enabling live payments](#enable-live-payments) if you've tested functionality in another environment) to set up a test PayPal payment processing account.
 1. [Enable Payment Services as your payment method](#set-payment-services-as-payment-method), in sandbox mode, to start processing test payments.
 1. [Complete merchant onboarding](#complete-merchant-onboarding) to enable live payments for your Magento website(s).
+1. [Request payments entitlement](#request-payments-entitlement-from-adobe) to enable live onboarding.
 1. [Enable Payment Services in live mode](#enable-live-payments) to begin processing live payments.
 1. Test Payments, in both [sandbox](#test-in-sandbox-environment) and [production](#test-in-production) environments.
 
@@ -220,6 +221,13 @@ After you [configure your Commerce Services](#configure-commerce-services) and e
    This should be done after every configuration change.
 
 See [Configure Payment Services]({% link payment-services/configure-payments.md %}) for more information about configuring Credit Card Fields and PayPal Smart Buttons.
+
+## Request payments entitlement from Adobe
+
+To enable live onboarding you will need to request payments entitlement from Adobe [here](https://magento.com/resources/payment-services).
+
+{:.bs-callout .bs-callout-warning}
+<span class="btn">Live onboarding</span> will not be accessible until payments entitlement has been approved.
 
 ## Complete merchant onboarding
 
