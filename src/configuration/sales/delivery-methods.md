@@ -104,7 +104,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Origin of the Shipment|Website|(UPS XML  Only) The country or region where the product shipment originates.|
 |Password|Store View|Your UPS shipper account password.|
 
-![]({% link configuration/assets/ups-packaging-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-ups-packaging-settings.png %}){: .zoom}
 [_UPS Package Information_]({% link shipping/ups.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -124,7 +124,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Handling Applied|Website|Specifies whether handling fee is applied to each order or to each package within an order.|
 |Handling Fee|Website|Sets the handling that is included with the shipping rate price. Handling fee can be set as a fixed amount or a percentage. <br/><br/>**_Note:_** If typing a percentage amount, use the decimal format 0.25 for 25%.|
 
-![]({% link configuration/assets/ups-allowed-methods.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-ups-allowed-methods.png %}){: .zoom}
 [_UPS Allowed Methods_]({% link shipping/ups.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -136,7 +136,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Free Shipping Amount Threshold|Website|Sets the minimum total amount that an order must reach to qualify for free shipping.|
 |Displayed Error Message|Store View|The error message that is displayed when this shipping method is unavailable for any reason.|
 
-![]({% link configuration/assets/ups-ship-to.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-ups-ship-to.png %}){: .zoom}
 [_UPS Applicable Countries and Other Settings_]({% link shipping/ups.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

@@ -73,6 +73,10 @@ Before you begin, make sure that [B2B Features]({% link stores/b2b-features.md %
 
    When the password is set, the company administrator can [sign in]({% link customers/customer-sign-in.md %}) to the account.
 
+{:.bs-callout-info}
+If a visitor is logged in to a registered user account, they can create a company account by navigating to _Customer Profile_ > **Company Structure** > **Create a Company Account**.
+Upon creation of the company account, the customer's account is assigned as the primary contact. Otherwise, the system creates a new customer, who receives an email to set a password.
+
 ## Method 2: Create company from the Admin
 
 The process of creating a company from the Admin is essentially the same as from the storefront, but with additional fields.

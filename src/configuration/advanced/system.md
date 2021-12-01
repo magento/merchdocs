@@ -22,7 +22,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
 |Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
 
-![]({% link configuration/assets/cron-group-default.png %}){: .zoom}
+![]({% link configuration/advanced/assets/system-cron-group-default.png %}){: .zoom}
 [_Cron Group: Default_]({% link system/cron.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -38,7 +38,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 {:.ee-only}
 ## MySQL Message Queue Cleanup
 
-![]({% link configuration/assets/mysql-message-queue-cleanup.png %}){: .zoom}
+![]({% link configuration/advanced/assets/system-mysql-message-queue-cleanup.png %}){: .zoom}
 _MySQL Message Queue Cleanup_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -66,7 +66,7 @@ _MySQL Message Queue Cleanup_
 
 ## Currency
 
-![]({% link configuration/assets/system-currency.png %}){: .zoom}
+![]({% link configuration/advanced/assets/system-currency.png %}){: .zoom}
 [_Currency_]({% link stores/currency.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -96,7 +96,7 @@ _MySQL Message Queue Cleanup_
 
 ## Scheduled Backup Settings
 
-![]({% link configuration/assets/scheduled-backup-settings.png %}){: .zoom}
+![]({% link configuration/advanced/assets/system-scheduled-backup-settings.png %}){: .zoom}
 [_Scheduled Backup Settings_]({% link system/backups.md %})
 
 {% include backup-deprecated.md %}
@@ -144,7 +144,7 @@ _MySQL Message Queue Cleanup_
 
 ## Storage Configuration for Media
 
-![]({% link configuration/assets/media-file-system-config.png %}){: .zoom}
+![]({% link configuration/advanced/assets/system-storage-config-media.png %}){: .zoom}
 [_Storage Configuration for Media - File System_]({% link cms/media-storage.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -178,7 +178,7 @@ The database media storage method has been deprecated as of Adobe Commerce and M
 {:.ee-only}
 ## Scheduled Import/Export File History Cleaning
 
-![]({% link configuration/assets/schedule-history-cleaning.png %}){: .zoom}
+![]({% link configuration/advanced/assets/system-schedule-history-cleaning.png %}){: .zoom}
 [_Scheduled Import/Export File History Cleaning_]({% link system/data-scheduled-import-export.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -194,7 +194,7 @@ The database media storage method has been deprecated as of Adobe Commerce and M
 
 ## Image Upload Configuration
 
-![]({% link images/images/system-image-upload-configuration.png %}){: .zoom}
+![]({% link configuration/advanced/assets/system-image-upload-configuration.png %}){: .zoom}
 [_Image Upload Configuration_]({% link system/action-log-bulk-actions.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -206,7 +206,7 @@ The database media storage method has been deprecated as of Adobe Commerce and M
 
 ## Adobe Stock Integration
 
-![Advanced configuration - Adobe Stock integration]({% link images/images/system-adobe-stock-integration.png %}){: .zoom}
+![Advanced configuration - Adobe Stock integration]({% link configuration/advanced/assets/system-adobe-stock-integration.png %}){: .zoom}
 _Adobe Stock Integration_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

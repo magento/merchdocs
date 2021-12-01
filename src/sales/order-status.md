@@ -9,6 +9,9 @@ All orders have an order status that is associated with a stage in the order pro
 ![]({% link sales/assets/stores-order-status-column.png %}){: .zoom}
 _Order Status_
 
+{:.bs-callout-tip}
+A partially refunded order remains in `Processing` status until **_all_** ordered items (including refunded items) are shipped. The order status does not change to `Complete` when even one order item is not yet shipped.
+
 ## Predefined Order Status
 
 |Order Status|Status Code||

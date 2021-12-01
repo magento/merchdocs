@@ -12,7 +12,7 @@ If you are upgrading to Commerce 2.4.0 and were not using the recommended Commer
 
 ## Basic Braintree Settings
 
-![]({% link configuration/assets/braintree-basic-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-basic-config.png %}){: .zoom}
 _Basic Braintree Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -31,7 +31,7 @@ _Basic Braintree Settings_
 
 ## Advanced Braintree Settings
 
-![]({% link configuration/assets/braintree-advanced-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-advanced-config.png %}){: .zoom}
 _Braintree Advanced Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -45,7 +45,7 @@ _Braintree Advanced Settings_
 |Sort Order|Website|Determines the order that Braintree is listed with other payment methods during checkout.|
 
 ### Kount
-![]({% link configuration/assets/braintree-kount-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-kount-config.png %}){: .zoom}
 _Kount Configuration_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -59,7 +59,7 @@ _Kount Configuration_
 
 ## Country Specific Settings
 
-![]({% link configuration/assets/braintree-country-specific-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-country-specific-config.png %}){: .zoom}
 _Country Specific Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -70,7 +70,7 @@ _Country Specific Settings_
 
 ## ACH through Braintree
 
-![]({% link configuration/assets/braintree-ach-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-ach-config.png %}){: .zoom}
 _ACH through Braintree_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -79,7 +79,7 @@ _ACH through Braintree_
 
 ## Apple Pay through Braintree
 
-![]({% link configuration/assets/braintree-applepay-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-applepay-config.png %}){: .zoom}
 _Apple Pay through Braintree_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -90,7 +90,7 @@ _Apple Pay through Braintree_
 
 ## Local Payment Methods
 
-![]({% link configuration/assets/braintree-local-payment-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-local-payment-config.png %}){: .zoom}
 _Local Payment Methods_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -101,7 +101,7 @@ _Local Payment Methods_
 
 ## GooglePay through Braintree
 
-![]({% link configuration/assets/braintree-googlepay-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-googlepay-config.png %}){: .zoom}
 _GooglePay through Braintree_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -114,7 +114,7 @@ _GooglePay through Braintree_
 
 ## Venmo through Braintree
 
-![]({% link configuration/assets/braintree-venmo-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-venmo-config.png %}){: .zoom}
 _Venmo through Braintree_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -124,7 +124,7 @@ _Venmo through Braintree_
 
 ## PayPal through Braintree
 
-![]({% link configuration/assets/braintree-paypal-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-paypal-config.png %}){: .zoom}
 _PayPal through Braintree_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -142,7 +142,7 @@ _PayPal through Braintree_
 
 ### Mini-Cart and Cart Page
 
-![]({% link configuration/assets/braintree-paypal-minicart-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-paypal-minicart-config.png %}){: .zoom}
 _Mini cart and cart page_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -155,7 +155,7 @@ _Mini cart and cart page_
 
 ### Checkout Page
 
-![]({% link configuration/assets/braintree-paypal-checkout-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-paypal-checkout-config.png %}){: .zoom}
 _Checkout Page_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -168,7 +168,7 @@ _Checkout Page_
 
 ### Product Page
 
-![]({% link configuration/assets/braintree-paypal-product-page-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-paypal-product-page-config.png %}){: .zoom}
 _Product Page_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -182,7 +182,7 @@ _Product Page_
 
 ## 3d Secure Verification Settings
 
-![]({% link configuration/assets/braintree-3d-secure-verify-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-3d-secure-verify-config.png %}){: .zoom}
 _3D Secure Verification Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -194,7 +194,7 @@ _3D Secure Verification Settings_
 
 ## Dynamic Descriptors
 
-![]({% link configuration/assets/braintree-dynamic-config.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-braintree-dynamic-config.png %}){: .zoom}
 _Dynamic Descriptors_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

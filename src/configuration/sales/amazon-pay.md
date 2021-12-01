@@ -41,7 +41,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Advanced
 
-![]({% link configuration/assets/amazon-pay-advanced.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-amazon-pay-advanced.png %}){: .zoom}
 [_Advanced_]({% link payment/amazon-pay-setup.md %})
 
 ### Frontend

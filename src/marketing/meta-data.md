@@ -17,7 +17,7 @@ The meta title appears in the title bar and tab of your browser and search resul
 
 Although some search engines ignore meta keywords, others continue to use them. The current best practice is to incorporate high-value keywords in the meta title and meta description.
 
-![Web browser search - meta keywords]({% link images/images/storefront-meta-description.png %}){: .zoom}
+![Web browser search - meta keywords]({% link marketing/assets/storefront-meta-description.png %}){: .zoom}
 
 ## Meta Description
 
@@ -28,8 +28,6 @@ Meta descriptions provide a brief overview of the page for search results listin
 ## Canonical Meta Tag
 
 The [canonical meta tag]({% link marketing/meta-canonical.md %}) tells search engines which page to index when multiple URLs have identical or very similar content.
-
-![Web browser search - canonical URL search results]({% link images/images/storefront-meta-description.png %}){: .zoom}
 
 ## Rich Snippets
 

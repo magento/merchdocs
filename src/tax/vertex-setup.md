@@ -86,7 +86,7 @@ This enables each jurisdiction where your company calculates and reports sales a
 
    When you enable a state or province, all related cities, counties, and districts are enabled, as well.
 
-   ![]({% link images/images/tax-vertex-configure-jurisdictions-texas.png %}){: .zoom}
+   ![]({% link tax/assets/vertex-configure-jurisdictions-texas.png %}){: .zoom}
    _Enabled State_
 
 ### Registration(s)
@@ -124,9 +124,6 @@ The configuration settings for each company are organized into three columns on 
 ### Locations
 
 The **Registered Location(s)** column of each enabled state or province is used to record the locations where the company has a physical presence in each jurisdiction. To learn more, see [Add a Location][2] in the Vertex Cloud Help Center.
-
-![]({% link images/images/tax-vertex-configure-jurisdictions-texas.png %}){: .zoom}
-_Enabled State_
 
 1. Click the **Registered Location(s)** link for the state.
 

@@ -9,7 +9,7 @@ A [Persistent Shopping Cart]({% link sales/cart-persistent.md %}) allows retenti
 
 ## General Options
 
-![]({% link configuration/assets/persistent-cart-options.png %}){: .zoom}
+![]({% link configuration/customers/assets/persistent-shopping-cart-general.png %}){: .zoom}
 _[General Options]({% link sales/cart-persistent-configuration.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

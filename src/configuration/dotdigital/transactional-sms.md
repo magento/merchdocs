@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdi
 
 ## Transactional SMS Settings
 
-![]({% link configuration/assets/ec-transactional-sms.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/transactional-sms.png %}){: .zoom}
 _Transactional SMS Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -19,7 +19,7 @@ _Transactional SMS Settings_
 
 ## SMS Templates
 
-![]({% link configuration/assets/ec-sms-templates.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/sms-templates.png %}){: .zoom}
 _SMS Templates_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
