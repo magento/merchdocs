@@ -89,6 +89,9 @@ You can transfer items to the cart from a customer's wish list, as well as recen
    - Shipping Method
    - Order Comments
 
+{: .bs-callout-info}
+See [Payment Services]({% link payment-services/index.md %}) for more information about this functionality.
+
 ## Step 3: Submit the order
 
 Click <span class="btn">Submit Order</span>.
