@@ -2,7 +2,7 @@
 title: Custom Order Status
 ---
 
-In addition to the preset order status settings, you can create custom order status settings of your own, assign them to order states, and set a default order status for order states. The order state indicates the position of the order in the order processing workflow and the order status defines the state of the order. For example, you might need a custom order status such as `packaging”`, `backordered`, or a status that is specific to your needs. You can create a descriptive name for the custom status and assign it to the associated order state in the workflow.
+In addition to the preset order status settings, you can create your own custom order status settings, assign them to order states, and set a default order status for order states. The order state indicates the position of the order within the order processing workflow and the order status defines the state of the order. For example, you might need a custom order status such as `packaging”`, `backordered`, or a status that is specific to your needs. You can create a descriptive name for the custom status and assign it to the associated order state in the workflow.
 
 {:.bs-callout-info}
 Only default custom order status values are used in the order workflow. Custom status values that are not set as default can be used only in the comments section of the order.
@@ -47,7 +47,7 @@ _Order Status Settings_
    - To make this status the default for the order state, select the **Use Order Status as Default** checkbox.
 
    {:.bs-callout-info}
-   Only the default order statuses are used in the order workflow. Non-default statuses can be set only in the order comments section in the admin panel.
+   Only the default order statuses are used in the order workflow. Non-default statuses can be set only in the order comments section from the Admin.
 
    - To make this status visible from the storefront, select the **Visible On Storefront** checkbox.
 
