@@ -105,7 +105,7 @@ You can download a .csv file with all of the statuses visible in the Order payme
 
 1. On the _Admin_ sidebar, go to **Sales** > **Payment Services** > **Order payment status**.
 1. If you want to see statuses for a timeframe other than the last 30 days, [customize the date range timeframe for your statuses](#customize-dates-timeframe).
-1. Click the _Download_ (![]({% link images/images/btn-download.png %})) icon.
+1. Click the _Download_ (![]({% link assets/icon-download.png %})) icon.
 
 Your order payment statuses are downloaded in a .csv format.
 
