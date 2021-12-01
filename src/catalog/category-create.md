@@ -54,7 +54,7 @@ _Category tree_
 
 1. For **Description**, enter the text or other content that you want to appear on the category landing page.
 
-   For more information, see [Category Content]({% link cms/adobe-stock.md %}).
+   For more information, see [Category Content]({% link catalog/categories-content-settings.md %}).
 
 1. To include a content block on the category landing page, choose the **CMS Block** that you want to appear.
 
