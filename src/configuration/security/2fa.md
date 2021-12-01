@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Secu
 
 ## General
 
-![]({% link configuration/assets/2fa-general.png %}){: .zoom}
+![]({% link configuration/security/assets/2fa-general.png %}){: .zoom}
 [_General_]({% link stores/security-two-factor-authentication.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

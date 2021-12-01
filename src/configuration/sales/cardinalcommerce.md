@@ -2,9 +2,9 @@
 title: CardinalCommerce
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [3D Secure]({% link configuration/sales/3d-secure.md %}) > [CardinalCommerce]({% link configuration/sales/cardinalcommerce.md %})
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > Sales > [3D Secure]({% link configuration/sales/3d-secure.md %}) > [CardinalCommerce]({% link configuration/sales/cardinalcommerce.md %})
 
-![]({% link configuration/assets/3dsecure-cardinalcommerce.png %}){: .zoom}
+![]({% link configuration/sales/assets/3d-secure-cardinalcommerce.png %}){: .zoom}
 _CardinalCommerce_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

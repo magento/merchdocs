@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotd
 
 ## Import Settings
 
-![]({% link configuration/assets/ec-import-settings.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/import-settings.png %}){: .zoom}
 _Import Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -23,7 +23,7 @@ _Import Settings_
 ![Admin Tasks]({% link configuration/dotdigital/assets/developer-dash-admin.png %}){: .zoom}
 _Sync Settings - Admin Task_
 
-![Manually Run Syncs]({% link configuration/assets/ec-sync-manual-sync.png %}){: .zoom}
+![Manually Run Syncs]({% link configuration/dotdigital/assets/sync-manual-sync.png %}){: .zoom}
 _Manually Run Syncs_
 
 ![Reset Syncs]({% link configuration/dotdigital/assets/developer-dash-resetsync.png %}){: .zoom}
@@ -55,7 +55,7 @@ _Reset Sync Options_
 
 ## Debug
 
-![Debug]({% link configuration/assets/dotdigital-dash-debug.png %}){: .zoom}
+![Debug]({% link configuration/dotdigital/assets/developer-dash-debug.png %}){: .zoom}
 _Debug_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -102,7 +102,7 @@ _Cron Timings_
 
 ## System Alerts
 
-![System Alerts]({% link configuration/assets/dotdigital-dash-systemalerts.png %}){: .zoom}
+![System Alerts]({% link configuration/dotdigital/assets/developer-dash-systemalerts.png %}){: .zoom}
 _System Alerts_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -114,7 +114,7 @@ _System Alerts_
 
 ## PWA Settings
 
-![PWA Settings]({% link configuration/assets/dotdigital-dash-pwa-settings.png %}){: .zoom}
+![PWA Settings]({% link configuration/dotdigital/assets/developer-dash-pwa-settings.png %}){: .zoom}
 _PWA Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

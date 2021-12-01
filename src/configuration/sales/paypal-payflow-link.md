@@ -10,7 +10,7 @@ As of September 14, 2019, European banks might decline payments that do not meet
 
 ## Required Settings
 
-![]({% link configuration/assets/payflow-link-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/paypal-payflow-link-settings.png %}){: .zoom}
 _Required Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

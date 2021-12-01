@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdi
 
 ## Chat Settings
 
-![]({% link configuration/assets/chat-settings.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/chat-settings.png %}){: .zoom}
 _[Chat Settings - not enabled]({% link marketing/dotdigital/setup.md %})_
 
 ![]({% link configuration/dotdigital/assets/chat-settings-enabled.png %}){: .zoom}
