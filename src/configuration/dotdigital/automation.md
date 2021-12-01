@@ -8,7 +8,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdi
 
 ## Visitor Action Automation Enrolment
 
-![]({% link configuration/assets/ec-visitor-enrollment.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/visitor-enrollment.png %}){: .zoom}
 _Visitor action automation enrolment_
 
 For each type of contact that you want to automate enrollment, select the appropriate [dotdigital program](https://support.dotmailer.com/hc/en-gb/articles/212213878-Getting-started-with-the-program-builder){:target="_blank"}. To learn more, see [Automated and triggered campaigns - an overview](https://support.dotdigital.com/hc/en-gb/articles/212213998-Automated-and-triggered-campaigns-an-overview).
@@ -25,7 +25,7 @@ For each type of contact that you want to automate enrollment, select the approp
 
 ## Order Status Automation Enrolment
 
-![]({% link configuration/assets/order-status-auto-enrollment.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/automation-order-status-auto-enrollment.png %}){: .zoom}
 _Order Status Automation Enrolment_
 
 For each automated enrollment based on order status that you want to configure, add a new enrollment, select the order status, and assign an [dotdigital program](https://support.dotmailer.com/hc/en-gb/articles/212213878-Getting-started-with-the-program-builder).
@@ -40,7 +40,7 @@ For each automated enrollment based on order status that you want to configure, 
 
 ## Review Settings
 
-![]({% link configuration/assets/automation-review-settings.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/automation-review-settings.png %}){: .zoom}
 _Review Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -55,7 +55,7 @@ _Review Settings_
 
 ## Feefo Feedback Engine
 
-![]({% link configuration/assets/feefo-feedback-engine.png %}){: .zoom}
+![]({% link configuration/dotdigital/assets/automation-feefo-feedback-engine.png %}){: .zoom}
 _Feefo Feedback Engine_
 
 If you have a [Feefo account](https://www.feefo.com/en-gb/business/all-industries/retail) to manage feedback and product reviews, it can be integrated with your store through dotdigital.

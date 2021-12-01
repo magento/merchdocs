@@ -54,3 +54,6 @@ _Customer Group Discount_
 
     ![]({% link catalog/assets/storefront-cart-price-group-discount.png %}){: .zoom}
     _Group Price in Shopping Cart_
+
+{:.bs-callout-tip}
+The **_final_** product price is calculated as the **_minimum_** relevant price, using the following formula: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`

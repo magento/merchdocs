@@ -18,7 +18,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 
 ## Product Reviews
 
-![]({% link configuration/assets/product-reviews.png %}){: .zoom}
+![]({% link configuration/catalog/assets/catalog-product-reviews.png %}){: .zoom}
 [_Product Reviews_]({% link marketing/product-reviews.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -127,13 +127,13 @@ _[Price]({% link catalog/catalog-price-scope.md %})_
 {:.bs-callout-info}
 The standard search configuration described in this section differs for [Live Search]({% link live-search/overview.md %}).
 
-![]({% link configuration/assets/automatic-equalize-price-range.png %}){: .zoom}
+![]({% link configuration/catalog/assets/layered-navigation-equalize-price-range.png %}){: .zoom}
 [_Layered Navigation - Automatic (equalize price ranges)_]({% link catalog/navigation-layered-configuration.md %})
 
-![]({% link configuration/assets/equalize-product-counts.png %}){: .zoom}
+![]({% link configuration/catalog/assets/layered-navigation-equalize-product-counts.png %}){: .zoom}
 [_Layered Navigation - Automatic (equalize product counts)_]({% link catalog/navigation-layered-configuration.md %})
 
-![]({% link configuration/catalog/assets/catalog-layered-navigation-manual.png %}){: .zoom}
+![]({% link configuration/catalog/assets/layered-navigation-manual.png %}){: .zoom}
 [_Layered Navigation - Manual_]({% link catalog/navigation-layered-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -190,7 +190,7 @@ The standard search configuration described in this section differs for [Live Se
 
 Adobe Commerce and Magento Open Source support several versions of Elasticsearch.
 
-![]({% link configuration/assets/search-elasticsearch.png %}){: .zoom}
+![]({% link configuration/catalog/assets/catalog-search-elasticsearch.png %}){: .zoom}
 [Catalog Search]({% link catalog/search-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

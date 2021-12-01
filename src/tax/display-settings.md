@@ -21,7 +21,7 @@ It is a best practice to display prices with the associated taxes (either includ
 
 If you choose to display both prices (with and without tax), the storefront will look similar to the following:
 
-### Step 1: Configur Catalog prices display settings
+### Step 1: Configure Catalog prices display settings
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 

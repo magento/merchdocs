@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 
 ## API keys
 
-![]({% link configuration/assets/api-key-saas-configuration.png %}){: .zoom}
+![]({% link configuration/services/assets/api-key-saas-configuration.png %}){: .zoom}
 [_API Key_]({% link system/saas.md %}#apikey)
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -18,7 +18,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 
 ## SaaS Identifier
 
-![]({% link configuration/assets/saas-env-saasidentifier.png %}){: .zoom}
+![]({% link configuration/services/assets/saas-identifier.png %}){: .zoom}
 [_SaaS Identifier_]({% link system/saas.md %}#saasenv)
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
