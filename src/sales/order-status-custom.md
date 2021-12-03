@@ -47,7 +47,7 @@ _Order Status Settings_
    - To make this status the default for the order state, select the **Use Order Status as Default** checkbox.
 
    {:.bs-callout-info}
-   Only the default order statuses are used in the order workflow. Non-default statuses can only be set in the "Order Comments" section in the Admin.
+   Only the default order statuses are used in the order workflow. Non-default statuses can only be set in the **Order Comments** section in the Admin.
 
    - To make this status visible from the storefront, select the **Visible On Storefront** checkbox.
 
