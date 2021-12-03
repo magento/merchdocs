@@ -3,8 +3,6 @@ title: Live Search Release Notes
 ee_only: True
 tag: live-search
 group: marketing
-redirect_from: 
- - https://devdocs.magento.com/live-search/release-notes.html
 ---
 
 These release notes describe the latest versions of Live Search and include:
@@ -20,8 +18,8 @@ These release notes describe the latest versions of Live Search and include:
 - Stability: Stable
 
 - {:.new} [Performance]({% link live-search/performance.md %}) reporting dashboard provides insight into search terms that shoppers use.
-- {:.new} Live Search [event](https://devdocs.magento.com/shared-services/storefront-events-sdk.html) SDK provides access to a common data layer with event publishing and subscription services, and metrics.
-- {:.fix} The storefront [popover](https://devdocs.magento.com/live-search/storefront-popover.html) has a new `active` class for the `.search-autocomplete` container that controls visibility.
+- {:.new} Live Search [event]({{ site.devdocs_url }}/shared-services/storefront-events-sdk.html) SDK provides access to a common data layer with event publishing and subscription services, and metrics.
+- {:.fix} The storefront [popover]({{ site.devdocs_url }}/live-search/storefront-popover.html) has a new `active` class for the `.search-autocomplete` container that controls visibility.
 - {:.fix} In the storefront, the [_Search Terms_]({% link marketing/search-terms-popular.md %}) footer link is removed and its cache disabled for Live Search installations.
 - {:.bug} Patch for Search adapter handles duplicate products.
 - {:.bug} Live Search supports [single-source]({% link catalog/inventory-sources.md %}) (physical) inventory locations with multiple (virtual) [stocks]({% link catalog/inventory-stock.md %}). Multiple inventory sources are not supported at this time.
@@ -56,7 +54,6 @@ These release notes describe the latest versions of Live Search and include:
 
 To learn more:
 
-- [{{site.data.var.ee}} Developer Documentation](https://devdocs.magento.com/live-search/overview.html)
+- [{{site.data.var.ee}} Developer Documentation]({{ site.devdocs_url }}/live-search/overview.html)
 - [{{site.data.var.ee}} User Guide]({% link live-search/overview.md %})
-- [Support Knowledge Base](https://support.magento.com/hc/en-us)
 - [Live Search on Marketplace](https://marketplace.magento.com/magento-live-search.html)

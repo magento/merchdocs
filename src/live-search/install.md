@@ -3,8 +3,6 @@ title: Install Live Search
 tag: live-search
 group: marketing
 ee_only: True
-redirect_from:
-- https://devdocs.magento.com/live-search/install.html
 ---
 
 Live Search is a set of standalone [packages](#live-search-packages) that replaces standard {{site.data.var.ce}} and {{site.data.var.ee}} search capabilities.
@@ -30,13 +28,13 @@ The installation takes place from the command line of the server. Rather than re
 - {{site.data.var.ee}} on Cloud (ECE) : 2.4.x
 
 {:.bs-callout-warning}
-At this time, [{{site.data.var.ee}} for B2B](https://magento.com/solutions/b2b) is not supported.
+At this time, [{{site.data.var.b2b}}](https://magento.com/solutions/b2b) is not supported.
 
 ## Before you begin
 
 Do the following:
 
-1. Confirm that [cron jobs](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html) and [indexers]({% link system/index-management.md %}) are running.
+1. Confirm that [cron jobs]({{ site.devdocs_url }}/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html) and [indexers]({% link system/index-management.md %}) are running.
 
 1. Choose the onboarding method that meets your requirements, and follow the instructions.
 
@@ -133,7 +131,7 @@ To avoid typing errors, hover over the far right of each box of code, click the 
 
    You should be able to add facets after `cron` runs the product and attribute feeds and exports attribute metadata to Live Search services.
 
-1. Wait at least an hour for the data to be indexed and synchronized. Then, use the [GraphQL playground](https://devdocs.magento.com/live-search/graphql-support.html) with the default query to verify the following:
+1. Wait at least an hour for the data to be indexed and synchronized. Then, use the [GraphQL playground]({{ site.devdocs_url }}/live-search/graphql-support.html) with the default query to verify the following:
 
    - The product count returned is close to what you expect for the store view
    - Facet(s) are returned
@@ -182,7 +180,7 @@ To verify that the catalog data has been exported from your {{site.data.var.ee}}
 For additional help, refer to [Live search catalog not synchronized](https://support.magento.com/hc/en-us/articles/4405637804301-Live-search-catalog-not-synchronized) in the Support Knowledge Base.
 
 ### Future product updates
-After the initial synchronization, it can take up to fifteen minutes for incremental product updates to become available to storefront search. To learn more, go to [Streaming Product Updates](https://devdocs.magento.com/live-search/indexing.html#streaming-product-updates).
+After the initial synchronization, it can take up to fifteen minutes for incremental product updates to become available to storefront search. To learn more, go to [Streaming Product Updates]({{ site.devdocs_url }}/live-search/indexing.html#streaming-product-updates).
 
 ## Test the connection
 
@@ -226,7 +224,7 @@ To update to a major version such as from 1.0 to 2.0, edit the project’s root 
 
 ## Uninstalling Live Search
 
-To uninstall Live Search, go to [Uninstall modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall-mods.html).
+To uninstall Live Search, go to [Uninstall modules]({{ site.devdocs_url }}/guides/v2.4/install-gde/install/cli/install-cli-uninstall-mods.html).
 
 ## Live Search packages
 
