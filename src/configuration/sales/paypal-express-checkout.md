@@ -10,7 +10,7 @@ As of September 14, 2019, European banks might decline payments that do not meet
 
 ## Required PayPal Settings
 
-![]({% link configuration/assets/paypal-express-required-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/paypal-express-required-settings.png %}){: .zoom}
 [_PayPal Express Checkout Required Settings_]({% link payment/paypal-express-checkout.md %})
 
 ### Express Checkout
@@ -35,7 +35,7 @@ As of September 14, 2019, European banks might decline payments that do not meet
 
 ### Advertise PayPal Credit
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png %}){: .zoom}
 _Advertise PayPal Credit_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -49,7 +49,7 @@ _Advertise PayPal Credit_
 
 ## Basic Settings
 
-![]({% link images/images/config-sales-payment-methods-paypal-express-checkout-basic-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-express-checkout-basic-settings.png %}){: .zoom}
 _Basic Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -61,7 +61,7 @@ _Basic Settings_
 
 ## Advanced Settings
 
-![]({% link images/images/config-sales-payment-methods-paypal-express-checkout-advanced-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-express-checkout-advanced-settings.png %}){: .zoom}
 _Advanced Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -81,7 +81,7 @@ _Advanced Settings_
 
 ### Billing Agreement Settings
 
-![]({% link images/images/config-sales-payment-methods-paypal-express-checkout-billing-agreement-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png %}){: .zoom}
 _Billing Agreement Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -99,7 +99,7 @@ _Billing Agreement Settings_
 
 ### Settlement Report Settings
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png %}){: .zoom}
 _Settlement Report Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -117,7 +117,7 @@ _Settlement Report Settings_
 
 ### Frontend Experience Settings
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png %}){: .zoom}
 _Frontend Experience Settings - PayPal Merchant Pages Style_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -132,7 +132,7 @@ _Frontend Experience Settings - PayPal Merchant Pages Style_
 
 #### Customize Smart Buttons (Basic)
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings2.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png %}){: .zoom}
 _Frontend Experience Settings - Customize Smart Buttons_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -146,7 +146,7 @@ _Frontend Experience Settings - Customize Smart Buttons_
 
 #### Customize Smart Buttons (Features)
 
-![]({% link images/images/config-sales-payment-methods-paypal-payments-advanced-frontend-experience-settings3.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png %}){: .zoom}
 _Frontend Experience Settings - Customize Smart Buttons (Features)_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

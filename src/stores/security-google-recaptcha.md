@@ -86,7 +86,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - For **reCAPTCHA Validation Failure Message**, enter the message to appear if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.
 
-   ![]({% link images/images/config-security-google-recaptcha-admin-v2-not-robot.png %}){: .zoom}
+   ![]({% link configuration/security/assets/google-recaptcha-admin-v2-not-robot.png %}){: .zoom}
    [_reCAPTCHA v2 ("I am not a robot")_]({% link configuration/security/google-recaptcha-admin.md %})
 
 1. To use _reCAPTCHA v2 Invisible_, expand the **reCAPTCHA v2 Invisible** section and do the following:
@@ -103,7 +103,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - For **reCAPTCHA Validation Failure Message**, enter the message to appear if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.
 
-   ![]({% link images/images/config-security-google-recaptcha-admin-v2-invisible.png %}){: .zoom}
+   ![]({% link configuration/security/assets/google-recaptcha-admin-v2-invisible.png %}){: .zoom}
    [_reCAPTCHA v2 Invisible_]({% link configuration/security/google-recaptcha-admin.md %})
 
 1. To use _reCAPTCHA v3 Invisible_, expand the **reCAPTCHA v3 Invisible** section and do the following:
@@ -122,7 +122,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - For **reCAPTCHA Validation Failure Message**, enter the message to appear if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.
 
-   ![]({% link images/images/config-security-google-recaptcha-admin-v3-invisible.png %}){: .zoom}
+   ![]({% link configuration/security/assets/google-recaptcha-admin-v3-invisible.png %}){: .zoom}
    [_reCAPTCHA v3 Invisible_]({% link configuration/security/google-recaptcha-admin.md %})
 
 1. Expand the **Admin Panel** section.
@@ -133,7 +133,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - Set **Enable for Forgot Password** to the reCAPTCHA type that you want to use for password reset requests.
 
-![]({% link images/images/config-security-google-recaptcha-admin.png %}){: .zoom}
+![]({% link configuration/security/assets/google-recaptcha-admin.png %}){: .zoom}
 [_Admin Panel_]({% link configuration/security/google-recaptcha-admin.md %})
 
 ## Step 3: Configure Google reCAPTCHA Storefront

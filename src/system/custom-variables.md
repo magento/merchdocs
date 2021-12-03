@@ -10,7 +10,7 @@ To meet the specific needs of your business, you can create custom variables and
 
 1. Click <span class="btn">Add New Variable</span>.
 
-   ![Custom variables]({% link images/images/variables-custom.png %}){: .zoom}
+   ![Custom variables]({% link system/assets/variables-custom.png %}){: .zoom}
    _Custom Variables_
 
 1. Enter an identifier for **Variable Code**, using all lowercase characters without spaces.
@@ -32,7 +32,7 @@ To meet the specific needs of your business, you can create custom variables and
    {:.bs-callout-tip}
    If you need more space, drag the lower-right corner of the text box.
 
-   ![New custom variable]({% link images/images/variable-custom-add.png %}){: .zoom}
+   ![New custom variable]({% link system/assets/variable-custom-add.png %}){: .zoom}
    _New Custom Variable_
 
 1. When complete, click <span class="btn">Save</span>.

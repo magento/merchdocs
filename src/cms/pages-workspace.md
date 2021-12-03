@@ -4,7 +4,7 @@ title: Workspace Controls
 
 The page workspace includes tools to help you quickly find the pages you need, and commands to perform routine maintenance on individual or multiple pages. You can also quickly update page properties from the grid.
 
-![]({% link images/images/pages.png %}){: .zoom}
+![]({% link cms/assets/pages-grid.png %}){: .zoom}
 _Pages grid_
 
 ## Quickly update page properties

@@ -4,12 +4,12 @@ title: Amazon Pay
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Amazon Pay
 
-![]({% link images/images/config-sales-payment-methods-amazon-pay.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-amazon-pay.png %}){: .zoom}
 [_Amazon Pay_]({% link payment/amazon-pay.md %})
 
 ## Credentials
 
-![]({% link images/images/config-sales-payment-methods-amazon-pay-credentials.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-amazon-pay-credentials.png %}){: .zoom}
 [_Credentials_]({% link payment/amazon-pay-setup.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -28,7 +28,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Options
 
-![]({% link images/images/config-sales-payment-methods-amazon-pay-options.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-amazon-pay-options.png %}){: .zoom}
 [_Options_]({% link payment/amazon-pay-setup.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -41,12 +41,12 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Advanced
 
-![]({% link configuration/assets/amazon-pay-advanced.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-amazon-pay-advanced.png %}){: .zoom}
 [_Advanced_]({% link payment/amazon-pay-setup.md %})
 
 ### Frontend
 
-![]({% link images/images/config-sales-payment-methods-amazon-pay-advanced-frontend.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-amazon-pay-advanced-frontend.png %}){: .zoom}
 [_Frontend_]({% link payment/amazon-pay-setup.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -61,7 +61,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ### Sales Options
 
-![]({% link images/images/config-sales-payment-methods-amazon-pay-advanced-sales-options.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-amazon-pay-advanced-sales-options.png %}){: .zoom}
 [_Sales Options_]({% link payment/amazon-pay-setup.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -71,7 +71,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ### Developer Options
 
-![]({% link images/images/config-sales-payment-methods-amazon-pay-developer-options.png %}){: .zoom}
+![]({% link configuration/sales/assets/payment-methods-amazon-pay-developer-options.png %}){: .zoom}
 [_Developer Options_]({% link system/amazon-logs.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

@@ -62,7 +62,7 @@ Only categories with selected products appear in the [top navigation]({% link ca
 
 You can set custom pricing for each product individually or use the Action control to set custom pricing as a fixed amount or percentage for multiple product records.
 
-| Fixed | Specifies the final product price. For example, if you enter a fixed price of $10.00, the price in the storefront for the corresponding company is $10.00. |
+| Fixed | Specifies the final product price. For example, if you enter a fixed price of $10.00, the price in the storefront for the corresponding company is $10.00. **_Note:_** The minimum value between the Base Price and the entered Fixed value is used as the final product price. |
 | Percentage | Determines the custom price based on the discount percent. For example, to offer a 10 percent discount, set the custom price type to `Percentage` and enter `10`. The discounted custom price is 90 percent of the original product price. |
 
 Use the _Custom Price_ column of the grid to set the discount to a fixed amount or a percentage for the following product types:

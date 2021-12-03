@@ -112,7 +112,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 1. Click the **Cache Management** link in the message at the top of the workspace. Then, follow the instructions to refresh the cache.
 
-    ![Cache management message]({% link images/images/msg-cache-management.png %})
+    ![Cache management message]({% link stores/assets/msg-cache-management.png %})
 
 ## Troubleshooting
 

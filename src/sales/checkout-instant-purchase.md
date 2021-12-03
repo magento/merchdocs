@@ -51,7 +51,7 @@ The following example shows how to configure the Braintree vault.
 
 1. Under _Recommended Solutions_, click **Configure** in the _Braintree_ section.
 
-   ![]({% link images/images/config-sales-payment-methods-braintree.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/payment-methods-braintree.png %}){: .zoom}
    [_Configure the Braintree payment service_]({% link payment/braintree.md %})
 
 1. In the _Basic Braintree Settings_ section, enter the following information from your Braintree seller account:

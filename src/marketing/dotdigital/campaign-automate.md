@@ -48,7 +48,7 @@ _Choose a template_
 
     The text in the _Start_ node is updated with the schedule.
 
-      ![dotdigital - enrolment scheduling]({% link images/images/engagement-cloud-automation-welcome-program-trigger-from-date-field.png %}){: .zoom}
+      ![dotdigital - enrolment scheduling]({% link marketing/dotdigital/assets/automation-welcome-program-trigger-from-date-field.png %}){: .zoom}
       _Enrolment scheduling_
 
 1. Under _2. Enrollment rule_, click <span class="btn">Set rule</span>.
@@ -57,7 +57,7 @@ _Choose a template_
 
 1. Complete the trigger description as follows:
 
-    ![dotdigital - program trigger]({% link images/images/engagement-cloud-automation-welcome-program-trigger-from-date-field.png %}){: .zoom}
+    ![dotdigital - program trigger]({% link marketing/dotdigital/assets/automation-welcome-program-trigger-from-date-field.png %}){: .zoom}
     _Trigger from date_
 
     - Under _Select start rule type_, accept **Trigger from contact date field**, click <span class="btn">Select date field</span>, and choose **Contact date** as the field that triggers the rule.

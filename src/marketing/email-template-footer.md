@@ -4,7 +4,7 @@ title: Footer Template
 
 The email template footer contains the closing and signature line of the email message. You can change the closing to fit your style, and add additional information, such as the company name and address below your name.
 
-![Email templates]({% link images/images/email-templates.png %}){: .zoom}
+![Email templates]({% link marketing/assets/email-templates.png %}){: .zoom}
 _Email Templates_
 
 ## Step 1. Load the Default Template

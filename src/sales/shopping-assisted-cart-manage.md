@@ -29,7 +29,7 @@ _Shopping Cart in in the customer account_
 
    All visitors to the store and logged in customers appear in the list.
 
-   ![]({% link images/images/customers-now-online.png %}){: .zoom}
+   ![]({% link customers/assets/customers-now-online.png %}){: .zoom}
    _Customers Now Online_
 
 ## Offer assisted shopping

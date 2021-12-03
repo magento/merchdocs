@@ -37,7 +37,7 @@ The Manage Sources page lists all available inventory locations and fulfillment 
 
 1. Update the information and save the changes.
 
-   ![Manage Sources]({% link images/images/stores-inventory-sources.png %}){: .zoom}
+   ![Manage Sources]({% link catalog/assets/inventory-sources.png %}){: .zoom}
    _Manage Sources_
 
 ## Button bar

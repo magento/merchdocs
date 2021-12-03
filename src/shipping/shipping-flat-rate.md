@@ -4,7 +4,7 @@ title: Flat Rate
 
 Flat rate is a fixed, predefined charge that can be applied per item, or per shipment. Flat rate is a simple shipping solution, especially when used with the flat-rate packaging that is available from some carriers. When enabled, Flat Rate appears as an option during checkout. Because no specific carrier is specified, you can use a carrier of your choice.
 
-![]({% link images/images/config-sales-shipping-methods-flat-rate.png %}){: .zoom}
+![]({% link configuration/sales/assets/delivery-methods-flat-rate.png %}){: .zoom}
  [_Flat Rate_]({% link configuration/sales/delivery-methods.md %})
 
 ## Set up flat rate shipping

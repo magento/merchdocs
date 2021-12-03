@@ -4,7 +4,7 @@ title: Default Tax Destination
 
 The default tax destination settings determine the country, state, and ZIP or postal code that are used as the basis of tax calculations.
 
-![]({% link images/images/config-sales-tax-default-tax-destination-calculation.png %}){: .zoom}
+![]({% link configuration/sales/assets/tax-default-tax-destination-calculation.png %}){: .zoom}
 _Default Tax Destination Calculation_
 
 ## Configure the default tax destination for calculations

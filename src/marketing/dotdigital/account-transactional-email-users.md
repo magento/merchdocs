@@ -13,7 +13,7 @@ _Transactional email users_
 
 ## Add a Transactional Email User
 
-1. Click the **Settings** (![]({% link images/images/engagement-cloud-btn-settings.png %}){: .Inline}) icon at the bottom of the sidebar and choose **Access**.
+1. Click the **Settings** (![]({% link marketing/dotdigital/assets/icon-settings.png %}){: .Inline}) icon at the bottom of the sidebar and choose **Access**.
 
 1. On the _Access_ page, choose the **Transactional email users** tab.
 

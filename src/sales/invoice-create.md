@@ -13,7 +13,7 @@ Invoices are not created automatically for orders placed by using `Gift Card`, `
 
 You must generate an invoice for an order before you can print it. To view or print the PDF, first download and install a PDF reader such as [Adobe Acrobat Reader][1].
 
-![]({% link images/images/sales-invoices.png %}){: .zoom}
+![]({% link sales/assets/invoices.png %}){: .zoom}
 _Invoices_
 
 ## Invoice an order

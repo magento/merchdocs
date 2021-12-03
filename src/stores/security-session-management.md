@@ -22,7 +22,7 @@ Both settings are measured in bytes and default to `256000` bytes (or 256KB).
 
 1. Expand ![Expansion selector]({% link /assets/icon-display-expand.png %}) the **Security** section to access the session settings.
 
-   ![Session settings]({% link /images/images/session-size-settings.png %}){: .zoom}
+   ![Session settings]({% link /configuration/advanced/assets/system-security.png %}){: .zoom}
 
 1. Enter new session size(s) in bytes.
 

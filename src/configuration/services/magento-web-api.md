@@ -6,7 +6,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 
 ## SOAP Settings
 
-![]({% link configuration/assets/web-api-soap-settings.png %}){: .zoom}
+![]({% link configuration/services/assets/web-api-soap-settings.png %}){: .zoom}
 [_SOAP Settings_]({% link system/integrations.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -15,7 +15,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 
 ## Web API Security
 
-![]({% link configuration/assets/web-api-security.png %}){: .zoom}
+![]({% link configuration/services/assets/web-api-security.png %}){: .zoom}
 [_Web API Security_]({% link system/integrations.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|

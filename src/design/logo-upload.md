@@ -22,14 +22,14 @@ In addition to the logo in the header, your logo also appears on [email template
 
 1. On the _Admin_ sidebar, go to **Content** > _Design_ > **Configuration**.
 
-   ![]({% link images/images/design-configuration.png %}){: .zoom}
+   ![]({% link design/assets/configuration.png %}){: .zoom}
    _Design Configuration page_
 
 1. Find the store view that you want to configure and click **Edit** in the _Action_ column.
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **Header** section.
 
-   ![]({% link images/images/design-configuration-header.png %}){: .zoom}
+   ![]({% link design/assets/configuration-header.png %}){: .zoom}
    _[Header settings]({% link design/header.md %})_
 
 1. To upload a new logo, click <span class="btn">Upload</span> and choose the file from your system.

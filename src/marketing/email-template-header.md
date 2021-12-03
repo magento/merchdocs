@@ -4,7 +4,7 @@ title: Header Template
 
 After completing the [configuration]({% link marketing/email-template-configuration.md -%}), the email header template includes your logo that is linked to your store. If you have a basic knowledge of HTML, you can easily use [predefined variables]({% link marketing/variables-predefined.md -%}) to add store contact information to the header.
 
-![Email templates]({% link images/images/email-templates.png %}){: .zoom}
+![Email templates]({% link marketing/assets/email-templates.png %}){: .zoom}
 _Email Templates_
 
 ## Step 1. Load the Default Template
@@ -44,7 +44,7 @@ _Email Templates_
 
     When a variable is selected, a [markup tag]({% link marketing/markup-tags.md %}) for the variable is inserted in the code.
 
-    ![Header teamplate - Insert variable]({% link images/images/email-template-insert-variable.png %}){: .zoom}
+    ![Header teamplate - Insert variable]({% link marketing/assets/email-template-insert-variable.png %}){: .zoom}
     _Insert Variable_
 
     Although the Store Contact variables are the ones most often included in the header, you can enter the code for any system or [custom variable]({% link marketing/variables-custom.md %}) directly into the template.

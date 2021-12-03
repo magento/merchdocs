@@ -52,7 +52,7 @@ To offer this shipping method to your customers, you must first open an account 
 
    By default, this field is set to `United Parcel Service`.
 
-   ![]({% link images/images/config-sales-shipping-methods-ups1.png %}){: .zoom}
+   ![]({% link configuration/sales/assets/delivery-methods-ups1.png %}){: .zoom}
    [_Enable UPS_]({% link configuration/sales/delivery-methods.md %})
 
 ## Step 3: Complete the container description

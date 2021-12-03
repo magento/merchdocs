@@ -45,7 +45,7 @@ The process of customizing the body of each message is the same as for customizi
 
 1. Click <span class="btn">Insert Variable</span> and choose the variable that you want to insert.
 
-   ![Email templates - insert variable]({% link images/images/email-template-insert-variable.png %}){: .zoom}
+   ![Email templates - insert variable]({% link marketing/assets/email-template-insert-variable.png %}){: .zoom}
    _Insert Variable_
 
    A command to insert the variable is enclosed in curly braces and added to the code at the cursor location. For example:

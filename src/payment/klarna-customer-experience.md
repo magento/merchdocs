@@ -4,7 +4,7 @@ title: Klarna Storefront Experience
 
 Klarna appears as a payment method during checkout, if it is enabled in the configuration. When data sharing is used, Klarna can instantly pre-qualify the customer and present the available solutions.
 
-![Pay later with Klarna]({% link images/images/storefront-cart-payment-method-klarna_ot.png %}){: .zoom}
+![Pay later with Klarna]({% link payment/assets/storefront-cart-payment-method-klarna_ot.png %}){: .zoom}
 _Storefront - Pay later with Klarna_
 
 ## Pay with Klarna
@@ -17,9 +17,6 @@ The payment solution presented to the customer might be one of the following:
 ### Pay later
 
 1. The customer selects **Buy now, pay later**.
-
-   ![Pay later with Klarna]({% link images/images/storefront-cart-payment-method-klarna_ot.png %}){: .zoom}
-   _Pay later with Klarna_
 
 1. The customer does one of the following:
 

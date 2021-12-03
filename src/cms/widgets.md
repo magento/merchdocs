@@ -8,5 +8,5 @@ You can use widgets to create landing pages for marketing campaigns, and to disp
 
 {% include directives-caution.md %}
 
-![]({% link images/images/storefront-home-page-new-products.png %}){: .zoom}
+![]({% link cms/assets/storefront-home-page-new-products.png %}){: .zoom}
 _New Product List widget_

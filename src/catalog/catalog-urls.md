@@ -77,7 +77,7 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 
 1. When prompted, click the **Cache Management** link in the system message and refresh the invalid cache.
 
-   ![]({% link images/images/msg-cache-management.png %}){: .zoom}
+   ![]({% link stores/assets/msg-cache-management.png %}){: .zoom}
    [_Refresh Cache_]({% link system/cache-management.md %})
 
 ## Configure catalog media URL format

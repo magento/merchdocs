@@ -25,7 +25,7 @@ _Single website, store, and view_
 
     - Click the **Cache Management** link in the system message at the top of the page.
 
-        ![System message - cache management]({% link images/images/msg-cache-management.png %}){: .zoom}
+        ![System message - cache management]({% link stores/assets/msg-cache-management.png %}){: .zoom}
         _System Message for cache_
 
     - Select the **Page Cache** checkbox.

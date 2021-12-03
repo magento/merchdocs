@@ -4,7 +4,7 @@ title: Importing Tier Prices
 
 Rather than entering [tier prices]({% link catalog/product-price-tier.md %}) manually for each product, it can be more efficient to [import]({% link system/data-import.md %}) the pricing data. Before you begin, create a sample file of [exported tier price data]({% link system/data-import-price-tier.md %}) that you can use as a template.
 
-![Example storefront - tiered pricing]({% link images/images/storefront-tier-pricing-water-bottle.png %}){: .zoom}
+![Example storefront - tiered pricing]({% link system/assets/storefront-tier-pricing-water-bottle.png %}){: .zoom}
 _Tier Pricing_
 
 ## Step 1: Export the tier price data

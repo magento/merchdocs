@@ -30,7 +30,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 ## Email Sent from Gift Card Account Management
 
-![]({% link configuration/assets/email-from-gift-card.png %}){: .zoom}
+![]({% link configuration/sales/assets/gift-cards-email-sent-from-account.png %}){: .zoom}
 [_Email Sent from Gift Card Account Management_]({% link catalog/product-gift-card-account-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
