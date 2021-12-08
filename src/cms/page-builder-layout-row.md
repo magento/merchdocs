@@ -138,6 +138,8 @@ _Background image_
    | Scroll|The attached background image is synchronized to move down as the page scrolls. Use Parallax Background to control the scrolling speed.|
    | Fixed|(Not available for mobile) The background image does not move as the container scrolls over the image and is fixed at the specified background position.|
 
+- **Background Repeat** - Set this to `Yes` to repeat the background image to fill the available space in the row.
+
 ### Video type settings
 
 If you set the _Background Type_ to `Video`, use the following settings to define the background image display.
