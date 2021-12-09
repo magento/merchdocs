@@ -30,4 +30,4 @@ _Settings_
 |Field |Description |
 |--- |--- |
 |Number of selections|Specifies the number of price range groupings that can be used as search filters in the storefront. Default value: 8, Maximum value: 50|
-|Internal value|Specifies the price range interval for each group. For example, five selections with an interval value of twenty creates five groupings of 0-20, 20-40, 40-60, 60-80, and >80. Default value: 5, Maximum value: 10,000 |
+|Interval value|Specifies the price range interval for each group. For example, five selections with an interval value of twenty creates five groupings of 0-20, 20-40, 40-60, 60-80, and >80. Default value: 5, Maximum value: 10,000 |
