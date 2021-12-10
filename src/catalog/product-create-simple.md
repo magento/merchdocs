@@ -99,7 +99,7 @@ _Choose attribute set_
     ![]({% link catalog/assets/product-details-simple.png %}){: .zoom}
     _Product Details_
 
-There might be additional individual attributes that describe the product. The selection varies attribute set, and you can complete them later.
+There might be additional individual attributes that describe the product. The selection varies by attribute set, and you can complete them later.
 
 {% include inventory-assign-sources-quantities.md %}
 
