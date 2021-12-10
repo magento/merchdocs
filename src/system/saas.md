@@ -12,7 +12,7 @@ Service | Availability
 ---|---
 [Product Recommendations powered by Adobe Sensei]({% link marketing/product-recommendations.md %}) | Adobe Commerce
 [Live Search powered by Adobe Sensei]({% link live-search/overview.md %}) | Adobe Commerce
-Payment Services | Adobe Commerce and Magento Open Source
+[Payment Services]({% link marketing/payment-services %}) | Adobe Commerce and Magento Open Source
 Channel Manager | Adobe Commerce and Magento Open Source
 
 ## Architecture
