@@ -6,7 +6,7 @@ link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
 updated: Mon Dec 13 20:39:22 2021
 entries:
-- description: "<br/>Live Search [installation](https://docs.magento.com/user-guide/live-search/install.html)
+- description: "Live Search [installation](https://docs.magento.com/user-guide/live-search/install.html)
     instructions and [release notes](https://docs.magento.com/user-guide/live-search/release-notes.html)
     have been moved from the developer documentation to the user guide."
   versions: 2.4.x
