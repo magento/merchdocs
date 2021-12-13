@@ -4,8 +4,21 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Dec 6 15:28:50 2021
+updated: Mon Dec 13 20:39:22 2021
 entries:
+- description: "Live Search [installation](https://docs.magento.com/user-guide/live-search/install.html)
+    instructions and [release notes](https://docs.magento.com/user-guide/live-search/release-notes.html)
+    have been moved from the developer documentation to the user guide."
+  versions: 2.4.x
+  type: New topic
+  date: December 6, 2021
+  link: https://github.com/magento-commerce/merchdocs/pull/328
+  merge_commit: 559aa5ca939074706726728b19b63da7b8b5bca2
+  contributor: ccondra
+  membership: true
+  labels:
+  - 2.4.x
+  - New topic
 - description: Added [Payment Services](https://docs.magento.com/user-guide/payment-services/index.html)
     topics with the latest information of the new marketplace extension.
   versions: 2.4.x
