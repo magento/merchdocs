@@ -20,7 +20,7 @@ If your storefront is implemented using PWA Studio, refer to the [PWA documentat
 
 1. **Deploy data collection to production**
 
-   Deploying Product Recommendations requires two main [data sources]({% link recommendations/type.md %}): catalog and behavioral. Because production is the only environment where your shoppers' actions are captured and analyzed, it is in your best interest to start data collection on production as early as possible. [Learn]({% link recommendations/behavioral-data.md %}) how Adobe Sensei trains machine learning models that results in higher quality recommendations. As an added benefit, when you start collecting behavioral data on production, you can [fetch recommendations based on this production data while operating in non-production environments]({% link recommendations/verify.md %}). This allows you to test and experiment with different recommendations that are computed based on real shopper data collected in production.
+   Deploying Product Recommendations requires two main [data sources]({% link recommendations/type.md %}): catalog and behavioral. Because production is the only environment where your shoppers' actions are captured and analyzed, it is in your best interest to start data collection on production as early as possible. [Learn]({% link recommendations/behavioral-data.md %}) how Adobe Sensei trains machine learning models that results in higher quality recommendations. As an added benefit, when you start collecting behavioral data on production, you can [fetch recommendations]({% link recommendations/verify.md %}) based on this production data while operating in non-production environments. This allows you to test and experiment with different recommendations that are computed based on real shopper data collected in production.
 
    To deploy data collection to production, you need to [install and configure]({% link recommendations/install-configure.md %}) the Product Recommendations module by providing an [API key](https://docs.magento.com/user-guide/system/saas.html#apikey).
 
@@ -34,7 +34,7 @@ If your storefront is implemented using PWA Studio, refer to the [PWA documentat
    {:.bs-callout-tip}
    By customizing the template, you can specify your stylesheet, overwrite where a recommendation unit will appear on a page, and so on.
 
-   See [Customize]({{ site.devdocs_url }}/recommendations/customize.md %}) in the developer documentation to learn how to complete this step.
+   See [Customize]({{ site.devdocs_url }}/recommendations/customize.html) in the developer documentation to learn how to complete this step.
 
 1. **Test recommendations on your non-production environment**
 

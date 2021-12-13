@@ -50,7 +50,7 @@ composer require magento/module-visual-product-recommendations
 ```
 ## Configure Product Recommendations {#configure}
 
-After you install the `magento/product-recommendations` module, you must configure the [Commerce Services Connector](https://docs.magento.com/user-guide/configuration/services/saas.md %}) by specifying the API Key and selecting a SaaS Data Space.
+After you install the `magento/product-recommendations` module, you must configure the [Commerce Services Connector]({% link configuration/services/saas.md %}) by specifying the API Key and selecting a SaaS Data Space.
 
 To ensure catalog export is running correctly, confirm that the [cron]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-cron.html) jobs and the [indexers]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-index.html) are running and the `Product Feed` indexer is set to `Update by Schedule`.
 

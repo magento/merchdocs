@@ -17,7 +17,7 @@ To integrate Product Recommendations in a headless storefront you must:
 
 You can perform both of these actions using the available SDKs as described in the following workflow.
 
-1. [Install the Product Recommendations]({% link recommendations/install-configure.md %}) module.
+1. [Install]({% link recommendations/install-configure.md %}) the Product Recommendations module.
 
 1. Install and use the [Storefront Events SDK]({{ site.devdocs_url }}/shared-services/storefront-events-sdk.html) to fire the [behavioral events]({{ site.devdocs_url }}/recommendations/events.html).
 
@@ -40,6 +40,6 @@ You can perform both of these actions using the available SDKs as described in t
 
 1. When the events are fired, use the [Storefront Events Collector]({{ site.devdocs_url }}/shared-services/storefront-event-collector.html) to handle the events and send them to Adobe Sensei.
 
-1. After the behavioral data is collected, you can [create Product Recommendations]({% link recommendations/create.md %}) in the Admin.
+1. After the behavioral data is collected, you can [create]({% link recommendations/create.md %}) Product Recommendations in the Admin.
 
 1. Use the [Recommendations SDK]({{ site.devdocs_url }}/recommendations/recs-api.html) to fetch the recommendation units on the storefront. The SDK returns necessary product data to render recommendation units on a page.

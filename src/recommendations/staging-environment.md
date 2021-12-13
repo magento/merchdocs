@@ -17,7 +17,7 @@ The following recommendation types require behavioral data:
 
 How can you test your recommendations in a non-production environment using behavioral data? There are a couple of options.
 
-## Fetch recommendations from your production environment (recommended)
+## Fetch recommendations from production environment (recommended)
 
 Adobe Commerce allows you to fetch recommendations from your production environment and preview them in your non-production environment by switching the SaaS data space.
 
@@ -28,7 +28,7 @@ To fetch recommendations from your production environment, you must make sure th
 
 See the [user guide]({% link recommendations/settings.md %}) for more information.
 
-## Generate behavioral data on your non-production environment
+## Generate behavioral data on non-production environment
 
 1. Deploy the `magento/product-recommendations` module to a non-production environment where the catalog data is similar to your production catalog.
 

@@ -51,7 +51,7 @@ The following table lists the storefront pages where you can place recommendatio
 |Product Detail|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending<br>Visual similarity|
 |Cart|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
 |Confirmation|At the bottom of main content (default)|Most viewed<br>Most purchased<br>Most added to cart<br>Viewed this, viewed that<br>Viewed this, bought that<br>Bought this, bought that<br>More like this<br>Trending|
-|Page Builder|You can [drag and drop]({% link cms/page-builder-add-recommendations.md %}#add-an-existing-recommendation-unit) the Product Recommendation content type for positioning|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
+|Page Builder|[Drag and drop]({% link cms/page-builder-add-recommendations.md %}#add-an-existing-recommendation-unit) to position content type|Most viewed<br>Most purchased<br>Most added to cart<br>Recommended for you<br>Trending|
 
 <style>
 .fields-table td:first-of-type {

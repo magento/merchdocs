@@ -12,7 +12,7 @@ The Edit Recommendation page gives you the ability to adjust the individual sett
 - [Recommendation name](#name)
 - [Storefront label](#label)
 - [Number of products](#number)
-- [Placement](#placement)
+- [Placement and Position](#placement)
 - [Product filters](#filters)
 
 The preview on the right side of the page shows how the recommendation with the current settings might appear in the storefront. The _Recommended products preview_ remains visible for reference as you scroll down the page. The preview displays a thumbnail product image, the product name, SKU, price, and result type for each product returned. The result type indicates if there is enough primary behavioral data to generate the recommendation, or if it is using backup behavioral data.

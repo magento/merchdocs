@@ -104,7 +104,7 @@ Because this recommendation type is not applicable to most catalogs, it is not e
 ### Enable Visual similarity recommendation type
 
 {:.bs-callout-info}
-The _Visual similarity_ recommendation type is available when you [install an optional module]({% link recommendations/install-configure.md %}).
+The _Visual similarity_ recommendation type is available when you [install]({% link recommendations/install-configure.md %}) it as an optional module.
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Product Recommendations** to display the _Product Recommendations_ dashboard.
 
@@ -114,7 +114,7 @@ The _Visual similarity_ recommendation type is available when you [install an op
 
 1. Click <span class="btn">Save changes</span> when you are finished.
 
-   The [Create New Recommendations]({% link recommendations/create.md %}) page now displays **Visual similarity** as a selectable recommendation type when the page type is **Product Detail**.
+   The [Create New Recommendation]({% link recommendations/create.md %}) page now displays **Visual similarity** as a selectable recommendation type when the page type is **Product Detail**.
 
 After you enable visual recommendations, Adobe Sensei initiates the image processing. How long it takes depends on the size of your catalog.
 

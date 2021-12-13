@@ -19,7 +19,7 @@ When you activate the recommendation unit, Adobe Commerce starts to [collect dat
 1. Specify the [Store View]({% link configuration/scope-change.md %}) where you want the recommendations to display.
 
    {:.bs-callout-info}
-   Page Builder recommendation units can be created only for the default store view. To learn more about creating product recommendations with Page Builder, see [Add Content - Product Recommendation]({% link cms/page-builder-add-recommendations.md %}).
+   Page Builder recommendation units can be created only for the default store view. To learn more about creating product recommendations with Page Builder, see [Add Content - Product Recommendations]({% link cms/page-builder-add-recommendations.md %}).
 
 1. Click <span class="btn">Create Recommendation</span>.
 
@@ -77,7 +77,7 @@ When you activate the recommendation unit, Adobe Commerce starts to [collect dat
 
 The _Recommended products preview_ panel is always available with an sample selection of products that might appear in the recommendation unit when it is deployed to the storefront.
 
-To test a recommendation when working in a non-production environment, you can fetch recommendation data from a [different source]({% link recommendations/install-configure.md %}). This allows merchants to experiment with rules and preview the recommendations before deploying to production.
+To test a recommendation when working in a non-production environment, you can fetch recommendation data from a [different source]({% link recommendations/settings.md %}). This allows merchants to experiment with rules and preview the recommendations before deploying to production.
 
 |Field|Description|
 |---|---|
@@ -88,7 +88,7 @@ To test a recommendation when working in a non-production environment, you can f
 
 As you create your recommendation unit, experiment with the page type, recommendation type, and filters to get immediate real-time feedback about the products that will be included. As you begin to understand which products appear, you can configure the recommendation unit to meet your business needs.
 
-Adobe Commerce [filters]({% link recommendations/install-configure.md %}#default) recommendations to avoid displaying duplicate products when multiple recommendation units are deployed on a single page. As a result, the products that appear in the preview panel might differ from those that appear in the storefront.
+Adobe Commerce [filters]({% link recommendations/filters.md %}) recommendations to avoid displaying duplicate products when multiple recommendation units are deployed on a single page. As a result, the products that appear in the preview panel might differ from those that appear in the storefront.
 
 {:.bs-callout-info}
 You cannot preview the `Recently viewed` recommendation type because the data is not available in the Admin.

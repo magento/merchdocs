@@ -29,7 +29,7 @@ Other variables that can impact the time needed to train:
 - Some recommendation types train faster than others
 - Adobe Commerce recomputes behavioral data every four hours. While you can technically deploy your recommendation units at that time, know that the recommendations will become more accurate the longer they are used on your site.
 
-While data is collected on production and machine learning models are trained, you can implement the [remaining tasks necessary]({% link recommendations/implementation-workflow.md %}) to deploy recommendations to your storefront. By the time you have finished testing and configuring recommendations, the machine learning models will have collected and computed enough data to build relevant recommendations thus allowing you to deploy the recommendations to your storefront.
+While data is collected on production and machine learning models are trained, you can implement the [remaining tasks]({% link recommendations/implementation-workflow.md %}) necessary to deploy recommendations to your storefront. By the time you have finished testing and configuring recommendations, the machine learning models will have collected and computed enough data to build relevant recommendations thus allowing you to deploy the recommendations to your storefront.
 
 ## Backup recommendations
 
