@@ -11,11 +11,12 @@ If you have trouble signing in with 2FA, consider the following:
 - Clearing web cache and cookies for the Adobe Commerce or Magento Open Source installation can also help. Authenticators, like Google, use generated cookies to save access and duration. Clear the cookies for your specific browser and store domain.
 - Blocking cookies prevents some authenticators, such as Google Authenticator, from completing the verification process. Add a rule to your browser that allows cookies for your Adobe Commerce installation.
 
-To reset authenticators from the command line and more advanced troubleshooting information, see [Two-Factor Authentication][1] in the Adobe Commerce developer documentation.
+To reset authenticators from the command line and more advanced troubleshooting information, see [Two-Factor Authentication][1] in the developer documentation.
 
-## Reset authenticators per user account
+## Reset authenticators for a user account
 
-To reset 2FA providers for other users, you must be an `administrator` or have custom permission under _Stores_ > _Settings_ > _Configuration_ > _Two Factor Auth_. To learn more, see [User Roles]({% link system/permissions-user-roles.md %}).
+{:.bs-callout-info}
+To reset 2FA providers for other users, you must be an _administrator_ with `All` permissions, or have `Custom` permissions for your role with System > Permissions > Two Factor Auth and System > Permissions > All Users selected. To learn more, see [User Roles]({% link system/permissions-user-roles.md %}).
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Users**.
 
@@ -25,12 +26,12 @@ To reset 2FA providers for other users, you must be an `administrator` or have c
 
 1. In the left panel, click **2FA**.
 
-1. In the _Configuration reset_ section, click <span class="btn">Reset</span>. When prompted, click **OK** to confirm.
+1. In the _Configuration reset_ section, click <span class="btn">Reset</span> and **OK** to confirm.
 
    ![User account - 2FA]({% link stores/assets/admin-2fa-config-reset-providers.png %}){: .zoom}
-   _Enable 2FA for User_
+   _Enable 2FA for user_
 
-   If the user wants to restore the required 2FA method(s) to their account, each must be reconfigured from the _Sign On_ page.
+   If the user wants to restore the required 2FA method(s) to their account, they must reconfigure each from the _Sign On_ page.
 
 1. When complete, click <span class="btn">Save User</span>.
 
