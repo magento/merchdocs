@@ -10,7 +10,7 @@ The following lists the Commerce features you can access through the Commerce Se
 
 Service | Availability
 ---|---
-[Product Recommendations powered by Adobe Sensei]({% link marketing/product-recommendations.md %}) | Adobe Commerce
+[Product Recommendations powered by Adobe Sensei]({% link recommendations/overview.md %}) | Adobe Commerce
 [Live Search powered by Adobe Sensei]({% link live-search/overview.md %}) | Adobe Commerce
 Payment Services | Adobe Commerce and Magento Open Source
 Channel Manager | Adobe Commerce and Magento Open Source
@@ -65,7 +65,7 @@ You should use your production SaaS data space only on your production Commerce 
 ### Select or create a SaaS project {#createsaasenv}
 
 {:.bs-callout-info}
-If you do not see the **Commerce Services Connector** section in the Commerce configuration, you need to install the Commerce modules for your desired Commerce Service, such as [Product Recommendations]({{ site.devdocs_url }}/recommendations/install-configure.html).
+If you do not see the **Commerce Services Connector** section in the Commerce configuration, you need to install the Commerce modules for your desired Commerce Service, such as [Product Recommendations]({% link recommendations/install-configure.md %}).
 
 To select or create a SaaS project, request the Commerce API key from the Commerce license holder for your store.
 

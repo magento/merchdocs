@@ -3,6 +3,8 @@ title: SaaS Settings
 tag: product-recommendations
 group: marketing
 ee_only: true
+redirect_from:
+  - /marketing/recommendation-change-source.html
 ---
 
 When you [configure a SaaS environment]({% link configuration/services/saas.md %}) for Recommendations, the SaaS environment collects catalog data and storefront behavioral data. [Adobe Sensei](https://www.adobe.com/sensei.html) analyzes that data and computes product associations used to serve Product Recommendations.

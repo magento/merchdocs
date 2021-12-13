@@ -3,6 +3,8 @@ title: Create New Recommendation
 tag: product-recommendations
 group: marketing
 ee_only: true
+redirect_from:
+  - /marketing/create-new-rec.html
 ---
 
 When you create a recommendation, you create a _recommendation unit_ that contains the recommended product _items_.

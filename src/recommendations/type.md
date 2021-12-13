@@ -5,6 +5,21 @@ group: marketing
 ee_only: true
 redirect_from:
   - /recommendations/type-visual-similarity.html
+  - /marketing/edit-existing-rec.html
+  - /marketing/prex-type-boughtbought.html
+  - /marketing/prex-type-convcart.html
+  - /marketing/prex-type-convpurchase.html
+  - /marketing/prex-type-morelikethis.html
+  - /marketing/prex-type-mostaddcart.html
+  - /marketing/prex-type-mostpurchase.html
+  - /marketing/prex-type-mostviewed.html
+  - /marketing/prex-type-recentview.html
+  - /marketing/prex-type-rcmdforyou.html
+  - /marketing/prex-type-trending.html
+  - /marketing/prex-type-viewbought.html
+  - /marketing/prex-type-viewview.html
+  - /marketing/prex-types.html
+  - /marketing/recommendations-best-practices.html
 ---
 
 Adobe Commerce provides a large set of recommendations that you can deploy to various pages on your site. For easy reference, recommendation types are grouped as follows:

@@ -3,6 +3,8 @@ ee_only: true
 title: Recommendations Overview
 tag: product-recommendations
 group: marketing
+redirect_from:
+  - /marketing/product-recommendations.html
 sections:
   - title: Getting Started
     content: Complete the recommendations onboarding process.

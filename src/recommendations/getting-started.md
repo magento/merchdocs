@@ -3,6 +3,8 @@ title: Getting Started
 tag: product-recommendations
 group: marketing
 ee_only: true
+redirect_from:
+  - /marketing/product-recs-vs-crossupsells.html
 ---
 
 Given the ever-changing complexities of online shopping, what works best for your storefront is often a combination of multiple key technologies. Using both Product Recommendations and [Product Relationships]({% link marketing/product-relationships.md %}) gives you more flexibility when it comes to promoting products. You can leverage Product Recommendations powered by Adobe Sensei to intelligently automate your recommendations at scale. Then, you can leverage [Related Product Rules]({% link marketing/product-related-rules.md %}) when you need to manually intervene and ensure a specific recommendation is being made to a target shopper segment, or when certain business goals need to be met.

@@ -22,7 +22,7 @@ The release notes include:
 ### 3.3.5 of magento/product-recommendations
 
 - {:.new}Added [B2B support]({% link recommendations/onboarding.md %}#b2bsupport) in Product Recommendations
-- {:.new}Added new feeds to [sync catalog data to Commerce services via the command line]({{ site.devdocs_url }}/guides/v2.4/config-guide/cli/config-cli-subcommands-catalog-sync.html)
+- {:.new}Added new feeds to [sync catalog data to Commerce services via the command line]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-catalog-sync.html)
 
 ### 3.3.3 of magento/product-recommendations
 
@@ -75,7 +75,7 @@ The release notes include:
 
 ### 3.1.0 of magento/product-recommendations
 
-- {:.new}Added the ability to [resync]({{ site.devdocs_url }}/guides/v2.4/config-guide/cli/config-cli-subcommands-catalog-sync.html) your catalog to SaaS services via command line.
+- {:.new}Added the ability to [resync]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-catalog-sync.html) your catalog to SaaS services via command line.
 - {:.new}Added support for database table prefixes
 - {:.fix}Removed PHP 7.1 support
 
@@ -117,7 +117,7 @@ The release notes include:
 
 ### 3.0.1 of magento/product-recommendations
 
-This is a major version release. You must [edit your project's root composer.json file]({{ page.baseurl }}/recommendations/install-configure.html#update-your-product-recommendations-installation).
+This is a major version release. You must [edit your project's root composer.json file]({% link recommendations/install-configure.md %}#update).
 
 - {:.new}Fetch Product Recommendations from alternate SaaS Data Spaces. This allows you to use product recommendations computed in your product environment on other, non-production environments. [Switching SaaS Data Spaces]({% link recommendations/settings.md %}) further describes this feature.
 

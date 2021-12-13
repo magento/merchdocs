@@ -52,7 +52,7 @@ composer require magento/module-visual-product-recommendations
 
 After you install the `magento/product-recommendations` module, you must configure the [Commerce Services Connector](https://docs.magento.com/user-guide/configuration/services/saas.md %}) by specifying the API Key and selecting a SaaS Data Space.
 
-To ensure catalog export is running correctly, confirm that the [cron]({{ site.devdocs_url }}/config-guide/cli/config-cli-subcommands-cron.html) jobs and the [indexers]({{ site.devdocs_url }}/config-guide/cli/config-cli-subcommands-index.html) are running and the `Product Feed` indexer is set to `Update by Schedule`.
+To ensure catalog export is running correctly, confirm that the [cron]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-cron.html) jobs and the [indexers]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-index.html) are running and the `Product Feed` indexer is set to `Update by Schedule`.
 
 When you successfully link to Commerce Services through the API key and specify the SaaS Data Space, the catalog sync initiates and [verifies]({% link recommendations/verify.md %}) that behavioral data is being sent to your storefront.
 
@@ -90,6 +90,6 @@ Save the `composer.json` file and run:
 composer update magento/product-recommendations --with-dependencies
 ```
 
-## Uninstall Product Recommendations
+## Uninstall Product Recommendations {#uninstall}
 
-If necessary, you can [uninstall]({{ site.devdocs_url }}/install-gde/install/cli/install-cli-uninstall-mods.html) the product-recommendations module.
+If necessary, you can [uninstall]({{ site.devdocs_url }}/guides/v{{ site.version }}/install-gde/install/cli/install-cli-uninstall-mods.html) the product-recommendations module.
