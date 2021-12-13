@@ -83,6 +83,15 @@ To see a gift card history:
     ![]({% link catalog/assets/gift-card-history.png %}){: .zoom}
     _Gift Card History_
 
+|Column|Description|
+|--- |--- |
+|ID|A unique numeric of action with gift card.|
+|Date|Date of action.|
+|Action|Determines all possible actions with a gift card. Options: Created / Updated / Sent / Used / Redeemed / Expired|
+|Balance Change|Displays the amount by which the balance of the gift card has changed.|
+|Balance|Indicates the available balance.|
+|More Information|Displays information about who changed the balance of the gift card.|
+
 ## Delete a gift card account
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Gift Card Accounts**.
@@ -103,5 +112,5 @@ To see a gift card history:
 |Created|Creation date.|
 |End|Gift card expiration date, if scheduled.|
 |Active|Determines if the gift card is active.|
-|Status|Determines if the gift card is redeemed in customer's account or available.|
+|Status|Determines if the gift card is redeemed in customer's account or available. Options: Used / Redeemed / Expired|
 |Balance|Indicates the available balance.|
