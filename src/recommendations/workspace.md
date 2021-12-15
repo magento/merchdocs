@@ -96,7 +96,7 @@ From the recommendation details page, click <span class="btn">Create</span>.  To
 |Impressions|The number of times a recommendation unit is loaded and rendered on a page. Note that a  recommendation unit that is below the fold of the browser's viewport is rendered on the page, but not viewed by the shopper. In this case, the rendered unit is counted as an impression, but a view is counted only if the user scrolls the unit into view.|
 |vImpressions|(Viewable Impressions) The number of recommendation units that register at least one view.|
 |Views|The number of recommendation units that appear in the viewport of the shopper's browser. This event can fire multiple times on a page.|
-|Clicks|The number of times a shopper clicks an item in the recommendation unit.|
+|Clicks|The SUM of the number of times a shopper clicks an item in the recommendation unit and the number of times the shopper clicks the add to cart button in the recommendation unit|
 |Revenue|The revenue driven by the recommendation for the current time range.|
 |Lt Revenue|(Lifetime Revenue) The lifetime revenue driven by a recommendation.|
 |Viewability|The percentage of recommendation units that register for the view.|
