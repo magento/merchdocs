@@ -153,6 +153,8 @@ _Banner with background image_
    | Scroll|The attached background image is synchronized to move down as the page scrolls.|
    | Fixed|(Not available for mobile) The background image does not move as the container scrolls over the image and is fixed at the specified background position.|
 
+- **Background Repeat** - If you want to repeat the background image to fill the space, change this setting `Yes`.
+
 ### Video type settings
 
 If you set the _Background Type_ to `Video`, use the following settings to define the background image display.
