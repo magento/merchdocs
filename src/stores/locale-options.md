@@ -3,7 +3,16 @@ title: Locale Options
 group: getting-started
 ---
 
-The locale determines the language, country, tax rate, and other settings, such as currency, price and numbers displaying format, that are used throughout the store. The Locale Options determine the time zone and language used for each store, and identify the days of the work week in your area.
+The locale determines the many of the settings that are used throughout the store. Some of them are:
+
+-  Language
+-  Country
+-  Tax rate
+-  Currency
+-  Price
+-  Number format
+
+The locale setting determines the time zone and language used for each store, and identifies the days of the work week in the area.
 
 ![General configuration - locale options]({% link configuration/general/assets/general-locale-options.png %}){: .zoom}
 [_Locale Options_]({% link configuration/general/general.md %})
