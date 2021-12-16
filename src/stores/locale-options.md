@@ -5,12 +5,12 @@ group: getting-started
 
 The locale determines the many of the settings that are used throughout the store. Some of them are:
 
--  Language
--  Country
--  Tax rate
--  Currency
--  Price
--  Number format
+- Language
+- Country
+- Tax rate
+- Currency
+- Price
+- Number format
 
 The locale setting determines the time zone and language used for each store, and identifies the days of the work week in the area.
 
