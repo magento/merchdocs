@@ -31,6 +31,6 @@ sections:
     url: /marketing/google-tools.html
 ---
 
-In this section of the guide, you’ll learn how to leverage the available  shopping tools to create opportunities for customer engagement, and how to set up targeted promotions with price rules. All of these tools are available from the [Marketing menu]({% link marketing/marketing-menu.md %}).
+In this section of the guide, you’ll learn how to leverage the available shopping tools to create opportunities for customer engagement, and how to set up targeted promotions with price rules. All of these tools are available from the [Marketing menu]({% link marketing/marketing-menu.md %}).
 
 {% include grid.html sections=page.sections%}

@@ -12,13 +12,6 @@ The list of email templates is organized alphabetically by module.
 |Hard-declined Authorization| n/a |
 |Soft-declined Authorization| n/a |
 
-## Dotdigitalgroup_Email
-
-{: .template-table }
-|Template|Configuration path|
-|--- |--- |
-|dotdigital System Alert| n/a |
-
 ## Magento_Checkout
 
 {: .template-table }

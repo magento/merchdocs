@@ -494,9 +494,7 @@ entries:
   labels:
   - New topic
   - 2.4.3
-- description: 'Updates for dotdigital configuration fields: [Automation](https://docs.magento.com/user-guide/configuration/dotdigital/automation.html),
-    [Transactional SMS](https://docs.magento.com/user-guide/configuration/dotdigital/transactional-sms.html),
-    and [Developer](https://docs.magento.com/user-guide/configuration/dotdigital/developer.html)'
+- description: 'Updates for dotdigital configuration fields'
   versions: 2.4.3
   type: Minor update
   date: August 10, 2021
@@ -1125,13 +1123,7 @@ entries:
   type: New topic
   date: February 9, 2021
   link: https://github.com/magento/merchdocs/pull/900
-- description: Updates for the latest release of the dotdigital bundled extension:<br/>-
-    A new page for [Transactional SMS](https://docs.magento.com/user-guide/configuration/dotdigital/transactional-sms.html)
-    (dependent on the new `Dotdigitalgroup_Sms` module being installed)<br/>- New
-    sections for [Image Types](https://docs.magento.com/user-guide/configuration/dotdigital/configuration.html#image-types)
-    and [System Alerts](https://docs.magento.com/user-guide/configuration/dotdigital/developer.html#system-alerts)<br/>-
-    A new [Transactional Emails](https://docs.magento.com/user-guide/configuration/dotdigital/transactional-emails.html)
-    section that replaces the old _Email Templates_ section
+- description: Updates for the latest release of the dotdigital bundled extension.
   versions: 2.4.2
   type: Major update
   date: February 9, 2021
@@ -1459,9 +1451,7 @@ entries:
   type: Major update
   date: July 28, 2020
   link: https://github.com/magento/merchdocs/pull/528
-- description: Updates the dotdigital [Data Mapping](https://docs.magento.com/user-guide/configuration/dotdigital/data-mapping.html)
-    and [Transactional Emails](https://docs.magento.com/user-guide/configuration/dotdigital/transactional-emails.html)
-    configuration.
+- description: Updates the dotdigital Data Mapping and Transactional Emails configuration.
   versions: 2.4.0
   type: Major update
   date: July 28, 2020

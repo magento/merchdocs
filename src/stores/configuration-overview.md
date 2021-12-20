@@ -37,10 +37,6 @@ _Configuration_
 
 [Sales Chanel]({% link configuration/sales-channels.md %}) settings configure the clear log history, background tasks source, debug login, and read-only mode settings. This feature is only available if your Adobe Commerce instance has Amazon Sales Channel installed and enabled.
 
-### Dotdigital
-
-[Dotdigital]({% link configuration/dotdigital.md %}) settings configure the Dotdigital marketing feature. It configures the build segments and triggers, data mapping, and lets you create a relevant account and marketing campaigns.
-
 ### Services
 
 [Services configuration]({% link configuration/services.md %}) determines Commerce API settings, including SOAP and OAuth.
