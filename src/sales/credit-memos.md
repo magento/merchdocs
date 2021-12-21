@@ -41,4 +41,24 @@ An order that was paid by Cash on Delivery ([COD]({% link payment/cash-on-delive
 |Order Date|The date and time the buyer placed an order.|
 |Bill-to Name|The name of the person who is responsible to pay for the order.|
 |Status|Indicates the current state of a Credit Memo request.|
+|Refunded|The total amount refunded from the order.|
 |Actions|**View** - Opens the request for a Credit Memo and maintains a record of the negotiation between buyer and seller.|
+
+## Additional columns
+
+|Column|Description|
+|--- |--- |
+|Order Status|Indicates the order status.|
+|Purchased From|Indicates the website, store, and store view where the order was placed.|
+|Billing Address|he billing address of the customer who placed the order.|
+|Shipping Address|The address where the order is to be shipped.|
+|Customer Name|The first and last name of the customer who placed the order.|
+|Email|The email address of the person who placed the order.|
+|Customer Group|The customer group to which the customer is assigned.|
+|Payment Method|The method of payment to be used for the payment.|
+|Shipping Information|The method to be used to ship the order.|
+|Subtotal|The order subtotal, without shipping and handling, and tax.|
+|Shipping & Handling|The amount charged for shipping and handling.|
+|Adjustment Refund|The amount that is added to the total amount refunded as an additional refund.|
+|Adjustment Fee|The amount that is subtracted from the total amount refunded.|
+|Grand Total|The order total.|
