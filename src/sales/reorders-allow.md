@@ -56,7 +56,7 @@ User will be redirected to the cart, and all products are added to the cart
 **Case 2.** Some/all products from the order are **not available** for reorder
 
 {:.bs-callout-info}
-It is possible to reorder `Not Visible Individually` products
+It is possible to reorder `Not Visible Individually` products.
 
 The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
 
@@ -71,7 +71,7 @@ User will be redirected to the cart, and all products are added to the cart
 **Case 2.** Some/all products from the order are **not available** for reorder
 
 {:.bs-callout-info}
-It is possible to reorder `Not Visible Individually` products
+It is possible to reorder `Not Visible Individually` products.
 
 The _Reorder_ button will not appear on the _My Orders_ and _View Order_ pages.
 
