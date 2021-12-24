@@ -43,14 +43,9 @@ An order that was paid by Cash on Delivery ([COD]({% link payment/cash-on-delive
 |Status|Indicates the current state of a Credit Memo request.|
 |Refunded|The total amount refunded from the order.|
 |Actions|**View** - Opens the request for a Credit Memo and maintains a record of the negotiation between buyer and seller.|
-
-## Additional columns
-
-|Column|Description|
-|--- |--- |
 |Order Status|Indicates the order status.|
 |Purchased From|Indicates the website, store, and store view where the order was placed.|
-|Billing Address|he billing address of the customer who placed the order.|
+|Billing Address|The billing address of the customer who placed the order.|
 |Shipping Address|The address where the order is to be shipped.|
 |Customer Name|The first and last name of the customer who placed the order.|
 |Email|The email address of the person who placed the order.|
