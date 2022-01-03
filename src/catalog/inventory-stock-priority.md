@@ -13,7 +13,15 @@ _Source order before prioritization_
 
 The merchant prefers to have shipments prioritized from the larger Berlin warehouse, then the London warehouse, the London overflow location, and finally the storefront in London. To reorder, the entries are dragged and dropped in order.
 
-Use ![]({% link catalog/assets/inventory-icon-sort.png %}) to drag and drop the sources into a priority from top (first) to bottom (last). This order is important when shipping orders. SSA recommends shipments based on the order of sources
+1. On the _Admin_ sidebar, go to **Stores** > _Inventory_ > **Stocks**.
+
+1. Open the needed stock in the edit mode.
+
+1. Expand _Sources_ tab if needed.
+
+1. Use ![]({% link catalog/assets/inventory-icon-sort.png %}) to drag and drop the sources into a priority from top (first) to bottom (last). This order is important when shipping orders. SSA recommends shipments based on the order of sources
+
+1. Click <span class="btn">Save & Continue</span> to save the changes.
 
 ![]({% link catalog/assets/inventory-stock-priority-after.png %}){: .zoom}
 _Source order after prioritization_
