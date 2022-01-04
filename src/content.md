@@ -12,7 +12,7 @@ sections:
 
   - title: Media Storage
     content: Use Media Storage to organize and gain access to media files that you can use in your content, including stock images from Adobe Stock.
-    url: /cms/page-builder.html   
+    url: /cms/media-storage.html   
 
   - title: Design and Theme
     content: Your store's theme can be changed for a season or promotion. Learn about page layouts, how to apply a new theme to your store, and simple design changes that you can make from the Admin.
