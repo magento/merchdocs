@@ -46,8 +46,8 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 
 **Method 2:** Using the shipment page
 
-   This method is allowed only if the shipment for the order was already created from the order page.
-   You can modify shipping and tracking information as needed using the direct shipment page. For doing it, do the following:
+This method is only allowed if the order shipment has already been created from the order page.
+You can modify shipping and tracking information as needed using the direct shipment page:
 
 1. On the _Admin_ sidebar, go to **Sales** > **Shipments**.
 
