@@ -19,7 +19,7 @@ To print or view the completed credit memo, you must have a PDF reader installe
    ![]({% link sales/assets/credit-memo-print.png %}){: .zoom}
    _Print the credit memo_
 
-### Method 2: Print multiple credit memos**
+### Method 2: Print multiple credit memos
 
 1. In the list, select the checkbox of each credit memo that you want to print.
 
