@@ -64,10 +64,10 @@ On the _Admin_ menu, go to **Reports** > _Marketing_ > **Newsletter Problem Repo
 |Column|Description|
 |--- |--- |
 |ID|A unique numeric identifier that is assigned to each newsletter template.|
-|Queue Start|The date when the sending of newsletter template entity was started.|
-|Queue End|The date when the sending of template entity was ended.|
+|Queue Start|The date when the newsletter was sent out.|
+|Queue End|The date when the newsletter finished sending.|
 |Subject|Subject of newsletter template.|
-|Status|Indicates a current status of newsletter mailing. Possible values: Sent, Canceled, Not Sent, Sending, Paused.|
-|Processed|Indicated how much mails were sent.|
-|Recipients|Indicated how much mails were received by subscribers.|
+|Status|Indicates a current status of the newsletter mailing. Possible values: Sent, Canceled, Not Sent, Sending, Paused.|
+|Processed|Indicates how many newsletters were sent.|
+|Recipients|Indicates how many newsletters were received by subscribers.|
 |Actions|**Preview**: opens a separate window to preview the template.|
