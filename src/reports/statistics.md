@@ -18,4 +18,8 @@ To reduce the performance impact of generating sales reports, Commerce calculate
    - `Refresh Lifetime Statistics`
    - `Refresh Statistics for the Last Day`
 
+   Please note: refreshing lifetime statistic of each report entity, may slow down your customer's shopping experience.
+
 1. Click <span class="btn">Submit</span>.
+
+1. When prompted to confirm, click <span class="btn">OK</span>.
