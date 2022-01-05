@@ -640,6 +640,6 @@ With all three rows complete, the final step is to rearrange the rows to match t
 
 **Congratulations!** You have completed Part 3 of the Simple Page tutorial. Keep the work that you created, so you can refer to it later.
 
-When you are ready, proceed to [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %})
+When you are ready, proceed to [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}).
 
 [1]: https://docs.magento.com/m2/downloads/simple-page-assets.zip
