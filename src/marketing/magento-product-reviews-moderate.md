@@ -8,6 +8,8 @@ For Commerce Product Reviews, a submitted product review must be approved before
 
 1. In the list, click a pending review to view the details and edit if necessary.
 
+1. Change the value of `Detailed Rating` attributes if needed. This setting is directly influences on `Summary Rating`. All [Rating Attributes]({% link stores/attributes-rating.md %}) with enabled status are displayed in this section.
+
 1. Change the **Status** according to your assessment:
 
    - To approve a pending review, select `Approved`.
@@ -17,12 +19,29 @@ For Commerce Product Reviews, a submitted product review must be approved before
    {:.bs-callout-info}
    Reviews with the `Pending` and `Not Approved` statuses are not displayed on the storefront.
 
+1. If applicable, set the **Visibility** of a product review for appearing in different store views.
+
 1. If needed, change the values for **Detailed Rating**, **Nickname**, and **Summary of Review**. To change the store view where a review will be available, choose the needed store view in the **Visibility** column.
 
    ![Edit review page]({% link marketing/assets/edit-review-page.png %}){: .zoom}
    _Edit review page_
 
 1. When complete, click <span class="btn">Save Review</span>.
+
+## Mass Update
+
+You can update a status or delete a few created product reviews at the same time. For doing this:
+
+1. On the _Admin_ sidebar, go to **Marketing** > _User Content_ > **All Reviews**.
+
+1. Select checkboxes for all sources that you want to update.
+
+1. Use the _Action_ selector at the top-left corner to apply any of the following actions:
+
+- Delete - deletes the reviews (requires confirmation)
+- Update Status - updates reviews status (`Approved`, `Pending`, `Not Approved`)
+
+1. Click <span class="btn">Submit</span>
 
 ## Delete a product review
 
