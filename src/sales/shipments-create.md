@@ -46,9 +46,12 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 
 **Method 2:** Using the shipment page
 
+This method is only allowed if the order shipment has already been created from the order page.
+You can modify shipping and tracking information as needed using the direct shipment page:
+
 1. On the _Admin_ sidebar, go to **Sales** > **Shipments**.
 
-1. Open the shipment in edit mode.
+1. Find and open the shipment in edit mode.
 
 1. Scroll down to the _Payment & Shipping Method_ block.
 
@@ -57,6 +60,10 @@ For each line item in the order, modify the **Qty to Ship** as needed.
 1. Enter a **Title** for the package.
 
 1. Enter the tracking **Number**.
+
+1. Click **Add**.
+
+1. To send an email with tracking information to customer, click <span class="btn">Send Tracking Information</span>, and confirm the action.
 
    To track the location of any shipment, open the required shipment in edit mode and click **Track this shipment**.
 

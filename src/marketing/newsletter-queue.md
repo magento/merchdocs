@@ -58,3 +58,16 @@ On the _Admin_ menu, go to **Reports** > _Marketing_ > **Newsletter Problem Repo
 |<span class="btn">Preview Template</span>|Opens a preview page in a separate tab.|
 |<span class="btn">Save and Resume</span>|Saves all made changes. Puts the newsletter to queue.|
 |<span class="btn">Save Newsletter</span>|Saves all made changes. Puts the newsletter to queue.|
+
+## Grid columns
+
+|Column|Description|
+|--- |--- |
+|ID|A unique numeric identifier that is assigned to each newsletter template.|
+|Queue Start|The date when the newsletter was sent out.|
+|Queue End|The date when the newsletter finished sending.|
+|Subject|Subject of newsletter template.|
+|Status|Indicates a current status of the newsletter mailing. Possible values: Sent, Canceled, Not Sent, Sending, Paused.|
+|Processed|Indicates how many newsletters were sent.|
+|Recipients|Indicates how many newsletters were received by subscribers.|
+|Actions|**Preview**: opens a separate window to preview the template.|
