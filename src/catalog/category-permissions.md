@@ -122,3 +122,6 @@ Set this option to prevent members of a specific customer group from using Catal
    - Set the individual permissions as needed.
 
 1. When complete, click <span class="btn">Save</span>.
+
+{:.bs-callout-info}
+If any product is assigned to multiple categories, and it has any **_Allow_** permissions for at least one category, it will automatically have the same **_Allow_** permissions for all assigned categories.
