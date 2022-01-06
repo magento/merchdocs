@@ -63,11 +63,16 @@ namespace :test do
     puts 'No issues found'.green
   end
 
-  desc 'Find unused images'
+  desc 'Find unused images. To exclude by regex pattern, use the "exclude" argument. Example of excluding a "layout" directory: "rake test:unused_includes exclude=/layout/"'
   task :unused_images do
-    puts 'Running a task for finding unused images'.magenta
-    images = Dir['src/**/*.{png,svg,jpeg,jpg,ico}']
+    puts 'Running a task for finding unused images (png,svg,jpeg,jpg,ico)'.magenta
+    images = FileList['src/**/*.{png,svg,jpeg,jpg,ico}']
+
     puts "The project contains a total of #{images.size} images."
+
+    exclude = ENV['exclude']
+    images.exclude(/#{exclude}/) if exclude
+
     puts 'Checking for unlinked images...'
     Dir['src/**/*.{md,html,js,css}'].each do |file|
       # Exclude symmlinks
@@ -76,7 +81,7 @@ namespace :test do
       images.delete_if { |image| File.read(file).include?(File.basename(image)) }
     end
 
-    abort 'No unlinked images' if images.empty?
+    abort 'No unlinked images'.green if images.empty?
 
     images.each do |image|
       puts "No links for #{image}".yellow
@@ -84,21 +89,25 @@ namespace :test do
     puts "Found #{images.size} dangling images".red
   end
 
-  desc 'Find unused includes'
+  desc 'Find unused includes. To exclude by regex pattern, use the "exclude" argument. Example of excluding a "layout" directory: "rake test:unused_includes exclude=/layout/"'
   task :unused_includes do
     puts 'Running a task to find unused _includes'.magenta
-    includes = Dir['src/_includes/**/*']
+    includes = FileList['src/_includes/**/*']
+
     puts "The project contains a total of #{includes.size} includes"
-    puts 'The following includes are not linked:'
+
+    exclude = ENV['exclude']
+    includes.exclude(/#{exclude}/) if exclude
+
     Dir['src/**/*.{md,html}'].each do |file|
-      # Exclude symmlinks
       next if File.symlink? file
 
       includes.delete_if { |include| File.read(file).include?(File.basename(include)) }
     end
 
-    abort 'No unlinked includes' if includes.empty?
+    abort 'No unlinked includes'.green if includes.empty?
 
+    puts 'The following includes are not linked:'
     includes.each do |include|
       puts "No links for #{include}".yellow
     end
