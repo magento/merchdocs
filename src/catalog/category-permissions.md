@@ -124,7 +124,5 @@ Set this option to prevent members of a specific customer group from using Catal
 1. When complete, click <span class="btn">Save</span>.
 
 {:.bs-callout-info}
-If any product is assigned to multiple categories, and it has any **_Allow_** permissions for at least one category, it will automatically have the same **_Allow_** permissions for all assigned categories.
-
-{:.bs-callout-info}
 If any **_Allow_** permissions are set for the `Root Category`, then these permissions are automatically applied to all subcategories and all products within the `Catalog`.
+If any product is assigned to multiple categories, and it has any **_Allow_** permissions for at least one category, it will automatically have the same **_Allow_** permissions for all assigned categories.
