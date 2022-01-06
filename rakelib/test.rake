@@ -62,4 +62,47 @@ namespace :test do
     abort 'Fix the reported issues'.red unless output.empty?
     puts 'No issues found'.green
   end
+
+  desc 'Find unused images'
+  task :unused_images do
+    puts 'Running a task for finding unused images'.magenta
+    images = Dir['src/**/*.{png,svg,jpeg,jpg,ico}']
+    puts "The project contains a total of #{images.size} images."
+    puts 'Checking for unlinked images...'
+    Dir['src/**/*.{md,html,js,css}'].each do |file|
+      # Exclude symmlinks
+      next if File.symlink? file
+
+      images.delete_if { |image| File.read(file).include?(File.basename(image)) }
+    end
+
+    abort 'No unlinked images' if images.empty?
+
+    images.each do |image|
+      puts "No links for #{image}".yellow
+    end
+    puts "Found #{images.size} dangling images".red
+  end
+
+  desc 'Find unused includes'
+  task :unused_includes do
+    puts 'Running a task to find unused _includes'.magenta
+    includes = Dir['src/_includes/**/*']
+    puts "The project contains a total of #{includes.size} includes"
+    puts 'The following includes are not linked:'
+    Dir['src/**/*.{md,html}'].each do |file|
+      # Exclude symmlinks
+      next if File.symlink? file
+
+      includes.delete_if { |include| File.read(file).include?(File.basename(include)) }
+    end
+
+    abort 'No unlinked includes' if includes.empty?
+
+    includes.each do |include|
+      puts "No links for #{include}".yellow
+    end
+    puts "Found #{includes.size} unlinked includes".red
+    puts 'Be careful removing include files. Some include files, such as those in the layout/** directory, may not be linked in the project, but may be used implicitly by the doc theme.'.bold
+  end
 end
