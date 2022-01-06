@@ -29,7 +29,7 @@ _Tiled Watermark_
 
    - Enter the **Image Size** in pixels. For example: `200 x 200`
 
-   - Click <span class="btn">Upload</span> and choose the image file that you want to use.
+   - Click <span class="btn">Upload</span> and choose the image file that you want to use from your PC or <span class="btn">Select from Gallery</span> to use already uploaded images on the server.
 
    - Set **Image Position** to determine where the watermark appears.
 
