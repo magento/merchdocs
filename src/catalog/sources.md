@@ -8,9 +8,13 @@ The **Sources** section lists the sources from which the product can be distribu
 
 1. Click <span class="btn">Assign Source</span>.
 
-1. Select the checkbox for the required source.
+1. Select the checkbox for the required sources.
 
 1. Click <span class="btn">Done</span>.
+
+1. Select **Source Item Status** , fill in the **Qty** and **Notify Qty** fields as needed.
+
+1. Click <span class="btn">Save</span> to save the changes. 
 
 ![]({% link catalog/assets/catalog-sources-list.png %}){: .zoom}
 _Sources View_
