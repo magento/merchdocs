@@ -6,8 +6,7 @@ title: Updating Category Permissions
 [Category permissions]({% link catalog/category-permissions.md %}) are automatically set to `Allow` for products that are added from the category tree to a shared catalog. You can later adjust the permissions, or create additional rules, as needed.
 
 {:.bs-callout-info}
-When the [Shared Catalog]({% link stores/b2b-features.md %}) B2B feature is enabled in the Configuration, each category permission, within the whole Catalog, will be set to `Deny` for all Customer Groups automatically.
-Additionally, each new category will have the same `Deny`category permissions by default to prevent showing this category on the Storefront website, before assignment to the Shared Catalog.
+When the [shared catalog]({% link stores/b2b-features.md %}) B2B feature is enabled in the configuration, each category permission for the catalog is set to `Deny` for all customer groups automatically. Additionally, when a new category is created, it has the `Deny` category permissions by default to prevent showing that category on the storefront site before assignment to the shared catalog.
 
 ## Update category permissions
 
