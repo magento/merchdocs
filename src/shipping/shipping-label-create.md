@@ -15,7 +15,7 @@ Contact each carrier that you use to activate shipping labels for your store.
 Follow the instructions provided by each carrier to add shipping label support to your account.
 
 | FedEx | Contact [FedEx Web Services][1] regarding their label evaluation process. |
-| USPS | Contact [uspstechsupport@esecurecare.net](mailto:uspstechsupport@esecurecare.net) to request that API Signature Confirmation V3 be enabled for your live USPS API Access account. |
+| USPS | Refer to the [Web Tools API Portal][4] under Shipper Support Center to learn how to set up your label printing credentials.|
 | UPS | Contact [UPS][2] to confirm your account type supports shipping labels. To generate shipping labels, you must use the UPS XML option. |
 | DHL | Contact the [DHL Resource Center][3] to learn more about their services or send an inquiry through their [Contact Center][3]. |
 
@@ -190,3 +190,4 @@ A complete set of shipping labels is printed for each shipment that is related t
 [1]: http://www.fedex.com/us/web-services/index.html
 [2]: http://www.ups.com/?Site=Corporate&amp;cookie=us_en_home&amp;setCookie=yes
 [3]: http://www.dhl-usa.com/en/contact_center.html
+[4]: http://www.usps.com/business/web-tools-apis
