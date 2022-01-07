@@ -9,6 +9,9 @@ If the [Shared Catalog]({% link stores/b2b-features.md %}) feature is enabled in
 
 For the Default (General) public shared catalog, You must need to assign products to display catalog on the storefront. By default, it is empty and does not contain any products.
 
+{:.bs-callout-info}
+When the [shared catalog]({% link stores/b2b-features.md %}) B2B feature is enabled in the configuration, each category permission for the catalog is set to `Deny` for all customer groups automatically. Additionally, when a new category is created, it has the `Deny` category permissions by default to prevent showing that category on the storefront site before assignment to the shared catalog.
+
 The Shared Catalogs grid lists the shared catalogs that are currently in existence, and provides tools to create and maintain the catalogs.
 
 ![]({% link catalog/assets/shared-catalogs-grid.png %}){: .zoom}
