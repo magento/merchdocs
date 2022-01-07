@@ -11,13 +11,13 @@ In this example, the UK Stock has sources assigned out of order for a store and 
 ![]({% link catalog/assets/inventory-priority-before.png %}){: .zoom}
 _Source order before prioritization_
 
-The merchant prefers to have shipments prioritized from the larger Berlin warehouse, then the London warehouse, the London overflow location, and finally the storefront in London. To reorder, the entries are dragged and dropped in order.
+The merchant prefers to have shipments prioritized from the larger Berlin warehouse, then the London warehouse, the London overflow location, and finally the storefront in London. To change the order, entries are dragged and dropped into the desired order.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Inventory_ > **Stocks**.
 
-1. Open the needed stock in the edit mode.
+1. Open the stock in the edit mode.
 
-1. Expand _Sources_ tab if needed.
+1. Expand the _Sources_ tab, if needed.
 
 1. Use ![]({% link catalog/assets/inventory-icon-sort.png %}) to drag and drop the sources into a priority from top (first) to bottom (last). This order is important when shipping orders. SSA recommends shipments based on the order of sources
 
