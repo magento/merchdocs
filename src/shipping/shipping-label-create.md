@@ -14,10 +14,10 @@ Contact each carrier that you use to activate shipping labels for your store.
 
 Follow the instructions provided by each carrier to add shipping label support to your account.
 
-| FedEx | Contact [FedEx Web Services][1] regarding their label evaluation process. |
-| USPS | Contact [uspstechsupport@esecurecare.net](mailto:uspstechsupport@esecurecare.net) to request that API Signature Confirmation V3 be enabled for your live USPS API Access account. |
-| UPS | Contact [UPS][2] to confirm your account type supports shipping labels. To generate shipping labels, you must use the UPS XML option. |
-| DHL | Contact the [DHL Resource Center][3] to learn more about their services or send an inquiry through their [Contact Center][3]. |
+| FedEx | Contact [FedEx Web Integration Services][1] to learn about the label printing requirements for your account. |
+| USPS | Refer to the [Web Tools API Portal][4] under Shipper Support Center to learn how to set up your label printing credentials.|
+| UPS | Contact [UPS][2] to confirm that your account supports shipping labels. To generate shipping labels, you must use the UPS XML option. |
+| DHL | Contact [DHL eCommerce Solutions][3] to learn about the label printing requirements for your account. |
 
 ## Step 2 Update the configuration for each carrier
 
@@ -187,6 +187,7 @@ A complete set of shipping labels is printed for each shipment that is related t
 |Total Weight|The total weight of all products added to the package is calculated automatically. The value can also be changed manually, and entered as pounds or kilograms.|
 |Length, Width, Height|(Optional) The package dimensions are used for custom packages only. You can specify the measurements units as inches or centimeters.<br/><br/>**Not Required**: No confirmation of delivery is sent to the store by the shipping carrier.<br/><br/>**No Signature**: A delivery confirmation without the signature of the recipient is sent to the store by the shipping carrier.<br/><br/>**Signature Required**: The shipping carrier obtains the signature of the recipient and provides the store with a printed copy.<br/><br/>**Direct**: (FedEx Only) FedEx obtains a signature from someone at the delivery address. If no one is available to sign for the package, the carrier tries to deliver the package at another time.<br/><br/>**Indirect**: (FedEx Residential Deliveries Only) FedEx obtains the signature of someone, possibly a neighbor or building manager, at the delivery address. The recipient can leave a signed FedEx door tag to authorize the package to be left without anyone present to sign for it.<br/><br/>**Contents**: (USPS Only) Select one of the following descriptions of the package:<br/>- Gift<br/>- Documents<br/>- Commercial Sample<br/>- Returned Goods<br/>- Merchandise<br/>- Other<br/><br/>**Explanation**: (USPS Only) A detailed description of the package contents.<br/><br/>**Adult Required**: The shipping carrier obtains the signature of an adult recipient and provides the store with a printed copy.|
 
-[1]: http://www.fedex.com/us/web-services/index.html
-[2]: http://www.ups.com/?Site=Corporate&amp;cookie=us_en_home&amp;setCookie=yes
-[3]: http://www.dhl-usa.com/en/contact_center.html
+[1]: https://www.fedex.com/en-us/api/get-support.html
+[2]: https://www.ups.com/us/en/support/contact-us.page
+[3]: https://www.dhl.com/us-en/home/our-divisions/ecommerce-solutions.html
+[4]: https://www.usps.com/business/web-tools-apis/#ssc
