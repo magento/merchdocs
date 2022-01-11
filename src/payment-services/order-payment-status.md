@@ -61,14 +61,17 @@ In the Order payment status report view, you can filter by pay statuses to see r
 You can filter by:
 
 Pay Status | Description
-| ------------ | -------------------- |
-| Authorized | Orders that have been authorized. |
-| Capture requested | Orders that capture has been requested. |
-| Capture confirmed | Orders where capture has been confirmed. |
-| Partial capture | Orders with a partial capture. |
-| Capture failed | Orders where capture has failed. |
-| Voided | Orders where transaction has been voided. |
-| Min/Max Order Amount | Filters orders by a minimum or maximum grand total amount of the order. |
+------------ | --------------------
+Authorized | Orders that have been authorized.
+Capture requested | Orders that capture has been requested.
+Capture confirmed | Orders where capture has been confirmed.
+Partial capture | Orders with a partial capture.
+Capture failed | Orders where capture has failed.
+Voided | Orders where transaction has been voided.
+Min/Max Order Amount | Filter orders by the minimum or maximum grand total amount of the order.
+
+{:.bs-callout-info}
+Filter can be reset by clicking _Delete all_.
 
 ## Select data source
 
