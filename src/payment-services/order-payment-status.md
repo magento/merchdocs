@@ -48,7 +48,33 @@ On the _Admin_ sidebar, go to **Sales** > **Payment Services** > **Order payment
 ![Admin - Order payment status]({% link payment-services/assets/order-payment-status-report.png %}){: .zoom}
 _Order payment statuses in the Admin_
 
-## Select data source
+## Show filters
+
+In the Order payment status report view, you can filter by pay statuses to see report results:
+
+![Show filters selection]({% link payment-services/assets/filters.png %}){: .zoom}
+_Show filters selection_
+
+1. Click the _Show Filters_ (![]({% link assets/icon-showfilters.png %})) icon.
+1. Select
+
+Pay Status
+
+Authorized
+
+Capture requested
+
+Capture confirmed
+
+Partial capture
+
+Capture failed
+
+Voided
+Min Order Amount
+Max Order Amount
+
+##  Select data source
 
 In the Order payment status report view, you can select the data source---_Live_ or _Sandbox_---for which you want to see report results.
 
