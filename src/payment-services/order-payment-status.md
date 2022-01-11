@@ -52,33 +52,29 @@ _Order payment statuses in the Admin_
 
 In the Order payment status report view, you can filter by pay statuses to see report results:
 
-![Show filters selection]({% link payment-services/assets/filters.png %}){: .zoom}
-_Show filters selection_
-
 1. Click the _Show Filters_ (![]({% link assets/icon-showfilters.png %})) icon.
-1. Select
+1. Select the desired status to filter orders by:
 
-Pay Status
+  ![Show filters selection]({% link payment-services/assets/filters.png %}){: .zoom}
+  _Show filters selection_
 
-Authorized
+You can filter by:
 
-Capture requested
-
-Capture confirmed
-
-Partial capture
-
-Capture failed
-
-Voided
-Min Order Amount
-Max Order Amount
+Pay Status | Description
+| ------------ | -------------------- |
+| Authorized | Orders that have been authorized. |
+| Capture requested | Orders that capture has been requested. |
+| Capture confirmed | Orders where capture has been confirmed. |
+| Partial capture | Orders with a partial capture. |
+| Capture failed | Orders where capture has failed. |
+| Voided | Orders where transaction has been voided. |
+| Min/Max Order Amount | Filters orders by a minimum or maximum grand total amount of the order. |
 
 ## Select data source
 
 In the Order payment status report view, you can select the data source---_Live_ or _Sandbox_---for which you want to see report results.
 
-![Data sources selection]({% link payment-services/assets/datasource.png %}){: .zoom}
+![Data sources selection]({% link payment-services/assets/datasource.png %}){:height="60%" width="60%"}{: .zoom}
 _Data sources selection_
 
 If _Live_ is the selected data source, you will see report information for your store(s) that utilize Payment Services in _Live_ mode. If _Sandbox_ is the selected data source, you will see report information for your Sandbox environment.
