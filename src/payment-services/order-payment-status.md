@@ -52,7 +52,7 @@ _Order payment statuses in the Admin_
 
 In the Order payment status report view, you can filter by pay statuses to see report results:
 
-1. Click the _Show Filters_ (![]({% link assets/icon-showfilters.png %})) icon.
+1. Click the _Show filters_ (![]({% link assets/icon-showfilters.png %})) icon.
 1. Select the desired status to filter orders by:
 
   ![Show filters selection]({% link payment-services/assets/filters.png %}){: .zoom}
@@ -71,7 +71,7 @@ Voided | Orders where transaction has been voided.
 Min/Max Order Amount | Filter orders by the minimum or maximum grand total amount of the order.
 
 {:.bs-callout-info}
-Filter can be reset by clicking _Delete all_.
+Filters can be reset by clicking _Clear all_.
 
 ## Select data source
 
@@ -133,6 +133,9 @@ You can download a .csv file with all of the statuses visible in the Order payme
 1. Click the _Download_ (![]({% link assets/icon-download.png %})) icon.
 
 Your order payment statuses are downloaded in a .csv format.
+
+{:.bs-callout-warning}
+This .csv file contains all orders shown in the Order payment status view.
 
 <!-- ## Default order payment status timeframes
 
