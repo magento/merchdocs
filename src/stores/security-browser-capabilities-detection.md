@@ -20,7 +20,7 @@ For technical information, refer to [Supported browsers]({{ site.devdocs_url }}/
    - To display instructions that explain how to configure the browser to allow cookies, set **Redirect to CMS-page if Cookies are Disabled** to `Yes`.
 
    - To display a banner above the header when JavaScript is disabled in the user’s browser, set **Show Notice if JavaScript is Disabled** to `Yes`.
-   
+
    - To display a banner above the header when Local Storage is disabled in the user's browser, set **Show Notice if Local Storage is Disabled** to `Yes`.
    
     ![General configuration - web browser capabilities detection]({% link configuration/general/assets/web-browser-capabilities-detection.png %}){: .zoom}
