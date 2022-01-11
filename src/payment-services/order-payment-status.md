@@ -74,7 +74,7 @@ Voided
 Min Order Amount
 Max Order Amount
 
-##  Select data source
+## Select data source
 
 In the Order payment status report view, you can select the data source---_Live_ or _Sandbox_---for which you want to see report results.
 
