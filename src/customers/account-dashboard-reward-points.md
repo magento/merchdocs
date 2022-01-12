@@ -10,7 +10,7 @@ The [Reward Points]({% link marketing/rewards-loyalty.md %}) section of the cust
 
 ## Update the reward points balance
 
-The rewards points balance can be updated from the Admin.
+The reward points balance can be updated from the Admin.
 
 1. On the _Admin_ sidebar, go to **Customers** > **All Customers**.
 
@@ -36,6 +36,27 @@ The rewards points balance can be updated from the Admin.
 1. Click <span class="btn">Save Customer</span>.
 
 All actions related to reward points are displayed in the **Reward Points History** block.
+
+## Using the reward points during the checkout
+
+A customer can use reward points during the checkout, if [Reward Exchange Rate]({% link marketing/reward-exchange-rates.md %}) with `Points to Currency` direction is configured.
+To use reward points during order placement do the following:
+
+1. After adding all needed products into shopping cart, navigate to checkout.
+
+1. Fill in all required shipping information and navigate to `Review & Payments` step.
+
+1. In the **Reward points** section check the amount of available points and how much it is in currency.
+
+1. Click <span class="btn">Use reward points</span>.
+
+![]({% link customers/assets/reward-points-on-checkout.png %}){: .zoom}
+_Reward Points on checkout_
+
+The available points discount was applied to subtotal.
+
+{:.bs-callout-info}
+If the available balance is greater than the order grand total, no additional payment methods is required.
 
 |Field|Description|
 |--- |--- |

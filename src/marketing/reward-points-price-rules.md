@@ -21,4 +21,4 @@ Reward points can be awarded to customers on the basis of a [cart price rule]({%
 
 1. Follow the standard instructions to complete the [cart price rule]({% link marketing/price-rules-cart-create.md %}).
 
-   When the price rule is activated, a message appears in the cart to let customers know how many points they can earn by placing the order.
+   When the price rule is activated, a message appears in the cart to let customers know how many points they can earn by placing the order. This applies only to registered users and may vary when a user is logged in.
