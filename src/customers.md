@@ -19,6 +19,6 @@ sections:
    url: /customers/account-companies.html
 ---
 
-As you continue to maintain and expand your store, you wll manage customer accounts and customer groups in the Admin. You can access the customer management tools from the [Customers menu]({% link customers/customers-menu.md %}).
+As you continue to maintain and expand your store, you will manage customer accounts and customer groups in the Admin. You can access the customer management tools from the [Customers menu]({% link customers/customers-menu.md %}).
 
 {% include grid.html sections=page.sections %}
