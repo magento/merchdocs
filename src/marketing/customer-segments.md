@@ -8,17 +8,17 @@ redirect_from:
 
 Customer segments allow you to dynamically display content and promotions to specific customers, based on properties such as customer address, order history, shopping cart contents, and so on. You can optimize marketing initiatives based on targeted segments with shopping cart price rules. You can also generate reports and export the list of targeted customers. Because customer segment information is constantly refreshed, customers can become associated and disassociated from a segment as they shop in your store.
 
-To better understand the difference between customer groups and customer segments and where they are used, see:
+To better understand the difference between [customer groups]({% link customers/customer-groups.md %}) and customer segments, note where they are used:
 
-||Customer Segment|Customer Grop|
+||Customer segment|Customer grop|
 |--- |--- |--- |
-|Catalog Price Rule||✔️|
-|Cart Price Rule|✔️|✔️|
-|Tier Price||✔️|
-|Related Product Rule|✔️||
-|Dynamic Block|✔️||
-|Reward Exchange Rates||✔️|
-|Category Permissions||✔️|
+|Catalog price rule||✔️|
+|Cart price rule|✔️|✔️|
+|Tier price||✔️|
+|Related product rule|✔️||
+|Dynamic block|✔️||
+|Reward exchange rates||✔️|
+|Category permissions||✔️|
 |Invitations||✔️|
 
 ## eBooks
