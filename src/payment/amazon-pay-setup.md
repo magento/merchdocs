@@ -6,6 +6,9 @@ redirect_from:
 
 Amazon Pay and Login with Amazon work together to create a great buyer experience for Adobe Commerce and Magento Open Source customers. For more information, see the [Amazon Pay and Login with Amazon extension][1] documentation provided by Amazon.
 
+{:.bs-callout-info}
+**Important**: If you have a legacy version of the Amazon Pay extension (installed prior to 2.2.4 using composer or the Marketplace), you must uninstall it before you can use the bundled Amazon Pay extension. Refer to the [Amazon Pay and Login with Amazon extension for Magento 2 documentation][6] for more information.
+
 ## Prerequisites
 
 You must have the following resources available to complete the Amazon Pay setup in the Admin:
@@ -211,3 +214,4 @@ The following are advanced setup and configuration options for Amazon Pay.
 [3]: https://pay.amazon.com/us/merchant/tools
 [4]: https://pay.amazon.com/signup
 [5]: https://amzn.github.io/amazon-payments-magento-2-plugin/configuration.html#credentials
+[6]: https://amzn.github.io/amazon-payments-magento-2-plugin/legacy/installation.html#un-install-method

@@ -27,6 +27,9 @@ The URL key is the part of a static URL that describes the product or category. 
 
 The URL key should consist of lowercase characters with hyphens to separate words. A well-designed, “search engine friendly” URL key might include the product name and key words to improve the way it is indexed by search engines. The URL key can be configured to create an automatic redirect if the URL key changes.
 
+{:.bs-callout-info}
+To extend URL customizations, such as localized URLs, see [URL Rewrites]({% link marketing/url-rewrite.md %}) for more information.
+
 ### HTML suffix
 
 Your catalog can be configured to either include or exclude the suffix as part of category and product URLs. There are various reasons why people might choose to use or to omit the suffix. Some believe that the suffix no longer serves any useful purpose, and that pages without a suffix are indexed more effectively by search engines. However, your company might have a standardized format for URLs that requires a suffix.

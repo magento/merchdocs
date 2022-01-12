@@ -57,7 +57,7 @@ _Save & Duplicate_
 
 There are two ways to remove a created page. You can remove it from _Pages_ grid or from the _Edit_ page.
 
-### Method 1: Remove a block from the Blocks grid
+### Method 1: Remove a page from the Pages grid
 
 1. On the _Admin_ sidebar, go to **Content** > _Elements_ > **Pages**.
 
@@ -73,7 +73,7 @@ There are two ways to remove a created page. You can remove it from _Pages_ grid
 
 1. Find the page to be deleted.
 
-1. In the _Actions_ column for the block, click **Select** and choose **Edit**.
+1. In the _Actions_ column for the page entity, click **Select** and choose **Edit**.
 
 1. In the button bar, click <span class="btn">Delete Page</span>.
 

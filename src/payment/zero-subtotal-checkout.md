@@ -38,6 +38,8 @@ To save time, zero subtotal orders can be set to automatically invoice.
 
 1. Set **Automatically Invoice All Items** to `Yes` if you want to automatically invoice all items that have a zero balance.
 
+   This option is available only if the **New Order Status** option is set to `Processing`.
+
 1. Set **Payment from Applicable Countries** to one of the following:
 
    |All Allowed Countries |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |

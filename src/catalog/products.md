@@ -40,6 +40,7 @@ _Products Grid_
 |SKU|The unique Stock Keeping Unit that is assigned to the product.|
 |Price|The unit price of the product.|
 |Quantity|The quantity that is currently in stock.|
+|Salable Quantity|The sum of all available units of this product.|
 |Visibility|Indicates where the product is visible in the catalog. Options: Not Visible Individually / Catalog / Search / Catalog, Search|
 |Status|Indicates the current status of the product. Options: Enabled and Disabled|
 |Websites|Indicates the website(s) where the product is available.|
@@ -68,3 +69,7 @@ _Products Grid_
 |Meta Title|Meta title for the product.|
 |Meta Description|The product meta description.|
 |Country of Manufacture|The country of manufacture.|
+|New Theme|Applied custom theme to the product.|
+|URL Key|The URL Key of the product.|
+|Tax Class|The product tax class.|
+|Allow Gift Message|Displays the availability of the _include a gift message_ option for the product.|
