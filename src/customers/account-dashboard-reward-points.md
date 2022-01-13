@@ -39,24 +39,23 @@ All actions related to reward points are displayed in the **Reward Points Histor
 
 ## Using the reward points during the checkout
 
-A customer can use reward points during the checkout, if [Reward Exchange Rate]({% link marketing/reward-exchange-rates.md %}) with `Points to Currency` direction is configured.
-To use reward points during order placement do the following:
+If [Reward Exchange Rate]({% link marketing/reward-exchange-rates.md %}) with `Points to Currency` direction is configured, customers can use reward points during the checkout.
 
-1. After adding all needed products into shopping cart, navigate to checkout.
+1. After adding all needed products into their shopping cart, the customer navigates to checkout.
 
-1. Fill in all required shipping information and navigate to `Review & Payments` step.
+1. Enters all required shipping information and navigates to the _Review & Payments_ step.
 
-1. In the **Reward points** section check the amount of available points and how much it is in currency.
+1. In the __Reward points__ section, checks the amount of available points and their currency value.
 
-1. Click <span class="btn">Use reward points</span>.
+1. Clicks <span class="btn">Use reward points</span>.
 
 ![]({% link customers/assets/reward-points-on-checkout.png %}){: .zoom}
 _Reward Points on checkout_
 
-The available points discount was applied to subtotal.
+The available points discount is applied to the subtotal.
 
 {:.bs-callout-info}
-If the available balance is greater than the order grand total, no additional payment methods is required.
+If the available balance is greater than the order grand total, an additional payment methods is not required.
 
 |Field|Description|
 |--- |--- |
