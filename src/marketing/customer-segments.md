@@ -10,7 +10,7 @@ Customer segments allow you to dynamically display content and promotions to spe
 
 To better understand the difference between [customer groups]({% link customers/customer-groups.md %}) and customer segments, note where they are used:
 
-||Customer segment|Customer grop|
+||Customer segment|Customer group|
 |--- |--- |--- |
 |Catalog price rule||✔️|
 |Cart price rule|✔️|✔️|
