@@ -55,7 +55,7 @@ _Reward Points on checkout_
 The available points discount is applied to the subtotal.
 
 {:.bs-callout-info}
-If the available balance is greater than the order grand total, an additional payment methods is not required.
+If the available balance is greater than the order grand total, an additional payment method is not required.
 
 |Field|Description|
 |--- |--- |
