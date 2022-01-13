@@ -250,36 +250,6 @@ pages:
       url: "/marketing/email-template-list.html"
     - label: Configuring Email Communications
       url: "/system/email-communications.html"
-  - label: dotdigital Engagement Cloud
-    url: "/marketing/dotdigital/engagement-cloud.html"
-    children:
-    - label: Setting Up Engagement Cloud
-      url: "/marketing/dotdigital/setup.html"
-      children:
-      - label: Account Details
-        url: "/marketing/dotdigital/account-details.html"
-        children:
-        - label: Account Access
-          url: "/marketing/dotdigital/account-access.html"
-        - label: API Users
-          url: "/marketing/dotdigital/account-api-users.html"
-        - label: Transactional Email Users
-          url: "/marketing/dotdigital/account-transactional-email-users.html"
-        - label: Data Mapping
-          url: "/marketing/dotdigital/data-mapping.html"
-    - label: Create a Campaign
-      url: "/marketing/dotdigital/campaign-create.html"
-      children:
-      - label: Import Your Contacts
-        url: "/marketing/dotdigital/contacts.html"
-      - label: Schedule a Campaign
-        url: "/marketing/dotdigital/campaign-schedule.html"
-      - label: Automate a Campaign
-        url: "/marketing/dotdigital/campaign-automate.html"
-      - label: Exclusion Rules
-        url: "/marketing/dotdigital/exclusion-rules.html"
-    - label: dotdigital Chat
-      url: "/marketing/dotdigital/chat.html"
   - label: Sales Documents
     url: "/marketing/sales-communications.html"
     children:

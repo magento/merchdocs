@@ -26,10 +26,6 @@ sections:
     content: Sales Channels settings configure the clear log history, background tasks source, debug login, and read-only mode settings. This feature is only available if your Adobe Commerce or Magento Open Source instance has Amazon Sales Channel installed and enabled.
     url: /configuration/sales-channels.html
 
-  - title: dotdigital
-    content: Configure the Dotdigital marketing feature. It configures the build segments and triggers, data mapping, and lets you create a relevant account and marketing campaigns.
-    url: /configuration/dotdigital.html
-
   - title: Services
     content: Determines Magento API settings, including SOAP and OAuth.
     url: /configuration/services.html

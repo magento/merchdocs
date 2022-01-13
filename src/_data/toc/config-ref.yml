@@ -164,31 +164,6 @@ pages:
   children:
   - label: Reviews and Visual Marketing
     url: "/configuration/yotpo/reviews-visual-marketing.html"
-- label: dotdigital
-  url: "/configuration/dotdigital.html"
-  children:
-  - label: Accounts
-    url: "/configuration/dotdigital/accounts.html"
-  - label: Chat Settings
-    url: "/configuration/dotdigital/chat-settings.html"
-  - label: Data Mapping
-    url: "/configuration/dotdigital/data-mapping.html"
-  - label: Sync Settings
-    url: "/configuration/dotdigital/sync-settings.html"
-  - label: Abandoned Carts
-    url: "/configuration/dotdigital/abandoned-carts.html"
-  - label: Automation
-    url: "/configuration/dotdigital/automation.html"
-  - label: Dynamic Content
-    url: "/configuration/dotdigital/dynamic-content.html"
-  - label: Transactional Emails
-    url: "/configuration/dotdigital/transactional-emails.html"
-  - label: Transactional SMS
-    url: "/configuration/dotdigital/transactional-sms.html"
-  - label: Configuration
-    url: "/configuration/dotdigital/configuration.html"
-  - label: Developer
-    url: "/configuration/dotdigital/developer.html"
 - label: Services
   url: "/configuration/services.html"
   children:

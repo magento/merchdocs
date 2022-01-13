@@ -331,8 +331,6 @@ pages:
       url: "https://docs.magento.com/mbi/"
     - label: Yotpo
       url: "/marketing/yotpo-connect.html"
-  - label: Customer Engagement
-    url: "/reports/customer-engagement.html"
   - label: New Relic Reporting
     url: "/reports/new-relic-reporting.html"
     children:

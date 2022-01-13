@@ -107,13 +107,6 @@ The checkbox in the first column of the list identifies each record that is a ta
 ||Segments|View Combined Report|
 |*Statistics*|||
 ||Refresh Statistics|Refresh Lifetime Statistics<br/>Refresh Statistics for the Last Day|
-|*Customer Engagement*|||
-||Import Report|Delete|
-||Automation Report|Delete|
-||Campaign Report|Delete|
-||SMS Sends|Delete|
-||Cron Tasks|Delete|
-||Abandoned Carts|Delete|
 |**Stores**|||
 |*Settings*|||
 ||Order Status|Unassign|
