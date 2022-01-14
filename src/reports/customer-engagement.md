@@ -96,7 +96,7 @@ Between automated syncs (run by cron job), you may need to manually run sync job
 1. Expand *Sync Settings*, then expand *Manually Run Sync*.
 1. Click <span class="btn">Run Now</span> for the different sync options: Contact, Subscriber, Order, Wishlist, Review, Catalog, Importer, and Template.
 
-    ![Manually Run Syncs]({% link configuration/dotdigital/assets/developer-dash-admin.png %}){: .zoom}
+    ![Manually Run Syncs]({% link configuration/dotdigital/assets/developer-dash-manual-sync.png %}){: .zoom}
     _Manually Run Syncs_
 
 ### Reset data syncs
@@ -109,7 +109,7 @@ The reset options for data syncs force marks all entries for import. At the next
 1. To reset all other operations:
 
    1. Enter a **Date Range** with a start (**From**) and end (**To**) date.
-   1. Click <span class="btn">Run Now</span> for a data sync: Order, FReview, Wishlist, and Catalog. All data is cleared and then reset.
+   1. Click <span class="btn">Run Now</span> for a data sync: Order, Review, Wishlist, and Catalog. All data is cleared and then reset.
 
     ![Reset Syncs]({% link configuration/dotdigital/assets/developer-dash-resetsync.png %}){: .zoom}
     _Reset Syncs_
@@ -150,7 +150,7 @@ If you leave this field empty, a security check does not run. We do not recommen
 1. For longer API calls, set the amount in seconds for the **Debug Api Calls Time** (default 60s).
 1. Click <span class="btn">Save Config</span>.
 
-    ![Debug]({% link configuration/dotdigital/assets/developer-dash-iprestrict.png %}){: .zoom}
+    ![Debug]({% link configuration/dotdigital/assets/developer-dash-debug.png %}){: .zoom}
     _Debug_
 
 ## Configure system alerts
@@ -165,5 +165,12 @@ If you leave this field empty, a security check does not run. We do not recommen
    * 48 hours
    * 72 hours
 
-    ![System Alerts]({% link reports/assets/system.alerts.block.png %}){: .zoom}
-    _System Alerts_
+   ![System Alerts]({% link reports/assets/system.alerts.block.png %}){: .zoom}
+   _System Alerts_
+
+## PWA Settings
+
+Specify **PWA Storefront Base URL** field if you use a PWA storefront URL which is different from Magento's default frontend base URL. e.g. _https://pwa.yourdomain.com/_.
+
+   ![System Alerts]({% link configuration/dotdigital/assets/developer-dash-pwa-settings.png %}){: .zoom}
+   _PWA Base URL_
