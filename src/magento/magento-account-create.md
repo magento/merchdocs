@@ -10,14 +10,14 @@ After you create your account, it is strongly recommended that you use Two-facto
 
 ## Create a Commerce account
 
-1. Visit the Commerce site at [http://www.magento.com][1]{:target="_blank"}.
+1. Go to the [Commerce site][1]{:target="_blank"}.
 
-1. In the upper-right corner, click **Sign In**.
+1. In the upper-right corner, click **Sign In** and choose **Commerce (Magento)**.
 
 1. Click **Create an account**.
 
-   ![]({% link magento/assets/commerce-account-login.png %}){: .zoom}
-   _Account log in page_
+   ![]({% link magento/assets/account-create-link.png %}){: .zoom}
+   _Link for new account_
 
 1. Under _Personal Information_, do the following:
 
@@ -30,7 +30,7 @@ After you create your account, it is strongly recommended that you use Two-facto
    - Set **Country** to reflect your operational location.
 
    ![]({% link magento/assets/account-create.png %}){: .zoom}
-   _Create an account_
+   _Account information_
 
 1. Under _Login Information_, do the following:
 
@@ -48,9 +48,9 @@ After you create your account, it is strongly recommended that you use Two-facto
 
 ## Log in to your Commerce account
 
-1. Go to the Commerce site at [http://www.magento.com][1].
+1. Go to the [Commerce site][1]{:target="_blank"}.
 
-1. In the upper-right corner, click **Sign In**.
+In the upper-right corner, click **Sign In** and choose **Commerce (Magento)**.
 
 1. Enter the **Email** address that is associated with your account.
 
@@ -68,25 +68,25 @@ After you create your account, it is strongly recommended that you use Two-facto
 
 ## Reset your password
 
-1. Go to [http://www.magento.com][1] and log into your account.
+1. Go to the [Commerce site][1]{:target="_blank"} and log into your account.
 
-1. In the panel on the left, choose **Account Settings**.
+1. In the left panel, choose **Account Settings**.
 
-1. Click <span class="btn"> Change Password </span>
+1. Click <span class="btn">Change Password</span>.
+
+   ![]({% link magento/assets/change-password.png %}){: .zoom}
+   _Change your password_
 
 1. Enter your **Current Password**.
 
    If you forgot your password, enter the temporary password that was sent to you.
 
-1. Enter your **New Password** and again for **Confirm Password**.
+1. Enter your **New Password** and again for **Confirm New Password**.
 
    {:.bs-callout-info}
    Your password must be between 8-16 characters, and include at least one capital letter, one number, and one special character or lowercase letter.
 
 1. When complete, click <span class="btn">Save</span>.
 
-   ![]({% link magento/assets/change-password.png %}){: .zoom}
-   _Change your password_
-
-[1]: http://www.magento.com/
+[1]: https://business.adobe.com/products/magento/magento-commerce.html
 [2]: https://community.magento.com/
