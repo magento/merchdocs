@@ -84,7 +84,7 @@ _Scheduled Changes_
 
     {:.bs-callout-info}
     An Admin user account is required to see a shared preview. If you have access to [create a new Admin user account]({% link system/permissions-users-all.md %}), you must create the account for a new user before the sharing.
-    
+
     **Change the Scope of the Preview**
 
     To see scheduled changes for different store views, click **Scope** in the header of the Preview page. Then, choose the Website, Store, or Store View that you want to preview.
