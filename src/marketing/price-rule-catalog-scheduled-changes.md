@@ -83,7 +83,7 @@ _Scheduled Changes_
     To share a link to the store preview with your colleagues, click <span class="btn">Share</span>. Copy the link to the clipboard and paste it into the body of an email message.
 
     {:.bs-callout-info}
-    An Admin user account is required to see a shared preview. If you have access to [create a new Admin user account]({% link system/permissions-users-all.md %}), you must create the account for a new user before the sharing.
+    An Admin user account is required to see a shared preview. If you have access to [create a new Admin user account]({% link system/permissions-users-all.md %}), you must create the account for a new user before sharing.
 
     **Change the Scope of the Preview**
 
