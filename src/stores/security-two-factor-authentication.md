@@ -7,7 +7,7 @@ The Commerce _Admin_ for your Adobe Commerce or Magento Open Source installation
 {: .bs-callout-info}
 This implementation of two-factor authentication (2FA) applies to the _Admin_ only, and is not available for customer accounts. The two-factor authentication that protects your [magento.com account]({% link magento/magento-account.md %}) has a separate setup. To learn more, go to [Securing Your Account]({% link magento/magento-account-secure.md %}).
 
-Two-factor authentication is widely used, and it is common to generate access codes for different websites on the same app. For example, you might use Google Authenticator to generate codes for the _Admin_ of your store, your _magento.com_ account, Google account, and so on.
+Two-factor authentication is widely used, and it is common to generate access codes for different websites on the same app. This ensures that only you is able to log in. If you lose your password or a bot guesses it, two-factor authentication will be the last layer of protection. For example, you might use Google Authenticator to generate codes for the _Admin_ of your store, your _magento.com_ account, Google account, and so on.
 
 ![Security configuration - 2FA]({% link stores/assets/google-authenticator-iphone.png %}){: .zoom}
 _2FA Codes on Phone_
@@ -25,6 +25,12 @@ You can watch this [video demo](https://video.tv.adobe.com/v/339104?quality=12&l
 1. In the left panel, click **Security** and choose **2FA**.
 
 1. In the _General_ section, select each **Provider to use**.
+
+   |--- |--- |
+   |Google Authenticator|Generates a one-time password in the application for user authentication.|
+   |Duo Security|Provides SMS and push notification.|
+   |Authy|Generates a time-dependent six-digit code and delivers SMS or Voice Call 2FA protection or token.|
+   |U2F Devices (Yubikey and others)| Physical device to authenticate, like [YubiKey](https://www.yubico.com/).|
 
    To select multiple methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.
 
