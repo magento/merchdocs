@@ -152,8 +152,6 @@ pages:
   - label: Gift Cards
     url: "/configuration/sales/gift-cards.html"
     edition: ee-only
-  - label: Address Cleansing
-    url: "/configuration/sales/address-cleansing.html"
 - label: Sales Channels
   url: "/configuration/sales-channels.html"
   children:

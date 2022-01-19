@@ -111,7 +111,6 @@ Page Cache | Full page caching. | `FPC`
 Translations | Translation files. | `TRANSLATE`
 Web Services Configuration | REST and SOAP configurations, generated WSDL file. | `WEBSERVICE`
 Target Rule | Target Rule Index | `TARGET_RULE`
-Vertex | Vertex tax calculation data | `VERTEX`
 
 ## Cache Management Role Resources
 

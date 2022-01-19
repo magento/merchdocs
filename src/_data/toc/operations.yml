@@ -35,24 +35,6 @@ pages:
   - label: Taxes
     url: "/tax/taxes.html"
     children:
-    - label: Vertex Cloud
-      url: "/tax/vertex.html"
-      children:
-      - label: Your Account
-        url: "/tax/vertex-account.html"
-      - label: Setting Up Vertex
-        url: "/tax/vertex-setup.html"
-        children:
-        - label: Products
-          url: "/tax/vertex-setup-products.html"
-        - label: Customer Exceptions
-          url: "/tax/vertex-setup-customer-exceptions.html"
-        - label: Vertex Field Mapping
-          url: "/tax/vertex-field-mapping.html"
-      - label: Configuring Vertex Tax Calculations
-        url: "/tax/vertex-configure-magento.html"
-      - label: Configuring Storefront Address Cleansing
-        url: "/tax/vertex-configure-address.html"   
     - label: General Tax Settings
       url: "/tax/tax-settings-general.html"
       children:
