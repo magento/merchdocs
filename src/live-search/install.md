@@ -27,7 +27,7 @@ The installation takes place from the command line of the server. Rather than re
 - {{site.data.var.ee}} on prem (EE) : 2.4.x
 - {{site.data.var.ee}} on Cloud (ECE) : 2.4.x
 
-### Boundaries and thresholds
+## Boundaries and thresholds
 
 Support for the following features is scheduled for the first half of 2022:
 
