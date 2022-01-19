@@ -13,7 +13,7 @@ Unlike the [Recently Viewed / Compared Products ]({% link marketing/products-vie
 
 There are a few ways navigate to comparison list on the storefront.
 
-From the catalog pages:
+### From catalog pages
 
 1. The customer finds the products that they want to compare and clicks the **Add to Compare** link for each.
 
@@ -32,44 +32,40 @@ From the catalog pages:
     ![Example storefront - compare products]({% link marketing/assets/storefront-compare-products.png %}){: .zoom}
     _Compare Products_
 
-From the notification message after product was added to comparison list:
+## From a notification message
 
-1. The customer finds the products that they want to compare and clicks the **Add to Compare** link for each.
+1. After a customer adds a product to a comparison list, the page displays a notification message.
 
-1. In the appeared top message notification, clicks _comparison list_ link.
+1. In the displayed top message notification, clicks the _comparison list_ link.
 
    ![Compare Products Notification]({% link catalog/assets/notification-comparison-list.png %}){: .zoom}
-   _Compare Products Notification_
+   _Compare Products notification_
 
-Customer is redirected to comparison list and can do additional actions.
+This action redirects the customer to the comparison list where they can access additional actions.
 
-From the **Compare Products** block in the header:
+### From the Compare Products block
 
 1. The customer finds the products that they want to compare and clicks the **Add to Compare** link for each.
 
-1. In the header, near the search field clicks _Compare Products_ link.
+1. In the header near the search field, clicks the _Compare Products_ link.
 
    ![Compare Products Header]({% link catalog/assets/compare-products-header.png %}){: .zoom}
-   _Compare Products Header_
+   _Compare Products header_
 
-From the **My Account** dashboard:
+### From the My Account dashboard
 
-1. The customer adds needed products into comparison list.
+1. The customer adds needed products to the comparison list.
 
 1. Navigates to **My Account**.
 
-1. Finds **Compare Products** block and clicks <span class="btn">Compare</span>.
+1. In the _Compare Products_ block, clicks <span class="btn">Compare</span>.
 
-   ![Customer's Account Dashboard Compare Products Block]({% link customers/assets/my-account-compare-block.png %}){: .zoom}
-   _Customer's Account Dashboard Compare Products Block_
+   ![Compare Products block in customer account dashboard]({% link customers/assets/my-account-compare-block.png %}){: .zoom}
+   _Customer account dashboard - Compare Products block_
 
-## Additional actions in comparison list
+## Additional comparison list actions
 
-(![Delete icon]({% link assets/icon-delete-x.png %})) - deletes a single item from comparison list.
-
-<span class="btn">Add to Cart</span> - adds product into shopping cart.
-If the product has any configurations, customer redirects to product page, selects configurable options, and then clicks <span class="btn">Add to Cart</span>.
-
-_Wishlist icon_ - adds product into wishlist, in case the wishlist functionality is enabled in configurations.
-
-_Print This Page_ - prints comparison list page.
+(![Delete icon]({% link assets/icon-delete-x.png %})) | Deletes a single item from comparison list.
+<span class="btn">Add to Cart</span> | Adds product into shopping cart. If the product has any configurations, the page redirects the customer to the product page where they select the configurable options and then click <span class="btn">Add to Cart</span>.
+_Wishlist icon_ | Adds product into wishlist, in case the wishlist functionality is enabled in configurations.
+_Print This Page_ | Prints comparison list page.
