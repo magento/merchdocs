@@ -5,7 +5,7 @@ title: Site-Wide Analysis Tool
 The Site-Wide Analysis Tool provides 24/7 real-time performance monitoring, reports, and recommendations to ensure the security and operability for installations of Adobe Commerce. The Site-Wide Analysis Tool provides a dashboard and reports with system insights and recommendations based on best practices that you can use to address detected issues. The service is available in [production mode]({% link magento/installation-modes.md %}) for Admin users with permission to access user [role resources]({% link system/permissions-user-roles.md %}).
 
 {:.bs-callout-info}
-If you have an on-premises installation of {{ site.data.var.ee }}, you must install an [agent]({{ site.devdocs_url }}/tools/site-wide-analysis.html) on your infrastructure to use the tool.
+If you have an on-premises installation of Adobe Commerce, you must install an [agent]({{ site.devdocs_url }}/tools/site-wide-analysis.html) on your infrastructure to use the tool.
 
 ![Site-Wide Analysis Tool Dashboard]({% link reports/assets/swat-dashboard.png %}){: .zoom}
 _Site-Wide Analysis Tool Dashboard_
