@@ -96,7 +96,7 @@ Between automated syncs (run by cron job), you may need to manually run sync job
 1. Expand *Sync Settings*, then expand *Manually Run Sync*.
 1. Click <span class="btn">Run Now</span> for the different sync options: Contact, Subscriber, Order, Wishlist, Review, Catalog, Importer, and Template.
 
-    ![Manually Run Syncs]({% link configuration/dotdigital/assets/developer-dash-manual-sync.png %}){: .zoom}
+    ![Manually Run Syncs]({% link configuration/dotdigital/assets/developer-dash-admin.png %}){: .zoom}
     _Manually Run Syncs_
 
 ### Reset data syncs
@@ -168,9 +168,9 @@ If you leave this field empty, a security check does not run. We do not recommen
    ![System Alerts]({% link reports/assets/system.alerts.block.png %}){: .zoom}
    _System Alerts_
 
-## PWA Settings
+## PWA settings
 
-Specify **PWA Storefront Base URL** field if you use a PWA storefront URL which is different from Magento's default frontend base URL. e.g. _https://pwa.yourdomain.com/_.
+If you use a PWA storefront URL, specify the **PWA Storefront Base URL** (for example, `https://pwa.yourdomain.com/`). This is different from the default store frontend base URL.
 
    ![System Alerts]({% link configuration/dotdigital/assets/developer-dash-pwa-settings.png %}){: .zoom}
    _PWA Base URL_
