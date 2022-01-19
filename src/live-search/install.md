@@ -30,9 +30,26 @@ The installation takes place from the command line of the server. Rather than re
 {:.bs-callout-warning}
 At this time, [{{site.data.var.b2b}}](https://magento.com/solutions/b2b) is not supported.
 
-## Before you begin
+### Boundaries and Thresholds
+gation use cases beyond its reach.
+Support for the following features is scheduled for the first half of 2022:
 
-Do the following:
+- B2B for Adobe Commerce
+- Customer groups
+- Custom price groups
+
+  At this time, Live Search does not support the following:
+
+- GraphQL endpoint for catalog search / category.
+- PWA
+
+The Live Search catalog search / category API has the following recommended limits and static limitations that are inherent to the design of the software.
+
+- Indexes up to 300 product attributes per store view.
+- Indexes only products from the Adobe Commerce database.
+- Does not index CMS pages.
+- Does not support the storefront Advanced (Form) Search module.
+- Does not have access to the full taxonomy of the catalog tree, which makes some layered navi
 
 1. Confirm that [cron jobs]({{ site.devdocs_url }}/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html) and [indexers]({% link system/index-management.md %}) are running.
 
