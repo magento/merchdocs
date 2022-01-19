@@ -14,8 +14,8 @@ For example, you can define and set the conditions for a price rule that when me
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Catalog Price Rules**.
 
-![Catalog price rules]({% link marketing/assets/price-rule-catalog-grid-ee.png %}){: .zoom}
-_Catalog Rules_
+    ![Catalog price rules]({% link marketing/assets/price-rule-catalog-grid-ee.png %}){: .zoom}
+    _Catalog Rules_
 
 1. If you have many rules created, you can filter the list by using the filter options at the top of each column. Complete your filter options and click <span class="btn">Search</span> to narrow your list.
 
