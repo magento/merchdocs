@@ -72,9 +72,8 @@ The following recommendation types will fallback to **Most viewed** if there is 
 
 - **Trending**
 
-The following recommendation types will fallback to **Most popular** or **Most viewed** if there is not sufficient input data collected:
-
 - **Conversion (view to purchase)**
+
 - **Conversion (view to cart)**
 
 ## Product recommendations placement {#productrecplacement}
