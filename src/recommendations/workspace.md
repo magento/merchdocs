@@ -46,11 +46,11 @@ Initially the [scope]({% link stores/websites-stores-views.md %}) of all recomme
 
 ## Settings
 
-The settings determine the SaaS environment that provides the recommendation behavioral data.
+The settings determine the SaaS data space that provides the recommendation behavioral data.
 
-- To change where recommendation behavioral data originates, choose a different SaaS environment.
+- To change where recommendation behavioral data originates, choose a different SaaS data space.
 
-- To configure a new SaaS environment, click <span class="btn">Edit Configuration</span>. To learn more, refer to [SaaS Settings]({% link recommendations/settings.md %}).
+- To configure a new SaaS data space, click <span class="btn">Edit Configuration</span>. To learn more, see [Settings]({% link recommendations/settings.md %}).
 
 ![Recommendations settings]({% link recommendations/assets/settings.png %}){: .zoom}
 _Recommendations Settings_
@@ -79,7 +79,7 @@ From the recommendation details page, click <span class="btn">Create</span>.  To
 |---|---|
 |![Calendar selector]({% link recommendations/assets/icon-calendar.png %})|Determines the range of time that is used for metrics calculations. Options: 24 hours / 7 days / 30 days|
 |![Column selector]({% link recommendations/assets/icon-show-hide-columns.png %})|Determines the columns that appear in the Product Recommendations table.|
-|Settings|Determines the SaaS environment where recommendation behavioral data is fetched, and also enables visual similarity recommendation type.|
+|Settings|Determines the SaaS data space where recommendation behavioral data is fetched, and also enables visual similarity recommendation type.|
 |Create Recommendation|Opens the [Create New Recommendation]({% link recommendations/create.md %}) page.|
 
 ## Column Descriptions
@@ -96,9 +96,9 @@ From the recommendation details page, click <span class="btn">Create</span>.  To
 |Impressions|The number of times a recommendation unit is loaded and rendered on a page. Note that a  recommendation unit that is below the fold of the browser's viewport is rendered on the page, but not viewed by the shopper. In this case, the rendered unit is counted as an impression, but a view is counted only if the user scrolls the unit into view.|
 |vImpressions|(Viewable Impressions) The number of recommendation units that register at least one view.|
 |Views|The number of recommendation units that appear in the viewport of the shopper's browser. This event can fire multiple times on a page.|
-|Clicks|The SUM of the number of times a shopper clicks an item in the recommendation unit and the number of times the shopper clicks the add to cart button in the recommendation unit|
+|Clicks|The sum of the number of times a shopper clicks an item in the recommendation unit and the number of times the shopper clicks the add to cart button in the recommendation unit|
 |Revenue|The revenue driven by the recommendation for the current time range.|
 |Lt Revenue|(Lifetime Revenue) The lifetime revenue driven by a recommendation.|
 |Viewability|The percentage of recommendation units that register for the view.|
 |Ctr|(Registered Click Percent) The percentage of unit impressions for the recommendation that register a click.|
-|vCtr|(Viewable Registered Click Percent)The percentage of viewable impressions for the recommendation unit that register a click.|
+|vCtr|(Viewable Registered Click Percent) The percentage of viewable impressions for the recommendation unit that register a click.|

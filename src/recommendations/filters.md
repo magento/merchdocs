@@ -1,5 +1,5 @@
 ---
-title: Product Filters
+title: Filter Products
 tag: product-recommendations
 group: marketing
 ee_only: true

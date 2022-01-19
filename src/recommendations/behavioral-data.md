@@ -42,8 +42,5 @@ The following recommendation types fallback to `Most viewed` recommendation type
 - `Viewed this, bought that`
 - `Bought this, bought that`
 - `Trending`
-
-The following recommendation types fallback to `Most popular` or `Most viewed` if there is not sufficient input data collected:
-
 - `Conversion (view to purchase)`
 - `Conversion (view to cart)`

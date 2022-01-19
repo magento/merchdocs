@@ -17,7 +17,9 @@ The release notes include:
 - {:.new}New features
 - {:.fix}Fixes and improvements
 
-## {{site.data.var.ee}} 2.4.0
+See the developer documentation to [learn about product compatibility](https://devdocs.magento.com/release/availability.html).
+
+## {{site.data.var.ee}} 2.3.x and 2.4.x
 
 ### 3.3.5 of magento/product-recommendations
 
@@ -99,8 +101,6 @@ The release notes include:
 ### 3.0.4 of magento/product-recommendations
 
 - {:.fix}Added support for {{site.data.var.ee}} 2.4.0
-
-## {{site.data.var.ee}} 2.3.x
 
 ### 3.0.3 of magento/product-recommendations
 

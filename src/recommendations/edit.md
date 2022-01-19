@@ -13,7 +13,7 @@ The Edit Recommendation page gives you the ability to adjust the individual sett
 - [Storefront label](#label)
 - [Number of products](#number)
 - [Placement and Position](#placement)
-- [Product filters](#filters)
+- [Filter products](#filters)
 
 The preview on the right side of the page shows how the recommendation with the current settings might appear in the storefront. The _Recommended products preview_ remains visible for reference as you scroll down the page. The preview displays a thumbnail product image, the product name, SKU, price, and result type for each product returned. The result type indicates if there is enough primary behavioral data to generate the recommendation, or if it is using backup behavioral data.
 
@@ -66,9 +66,9 @@ _Edit number of products_
    ![Edit Recommendation]({% link recommendations/assets/edit-position.png %}){: .zoom}
    _Edit position_
 
-### Product filters {#filters}
+### Filter products {#filters}
 
-Any changes made to product filters are reflected in the _Recommended products preview_.
+Any changes made to product [filters]({% link recommendations/filters.md %}) are reflected in the _Recommended products preview_.
 
 - To list filters that include specific products, click the **Inclusions** tab.
 - To list filters that exclude specific products, click the **Exclusions** tab.
@@ -81,7 +81,7 @@ The _Inclusions_ and _Exclusions_ tabs list the available filters of each type. 
 ![Edit Recommendation]({% link recommendations/assets/edit-filters.png %}){: .zoom}
 _Edit filters_
 
-The filter settings describe the products to be included or excluded in the recommendation unit. For example, the _Category_ filter inclusion settings tell the system to include products only from the selected categories.
+The filter settings describe the products to be included or excluded in the recommendation unit. For example, the _Category_ filter inclusion settings tells the system to include products only from the selected categories.
 
 ![Edit Recommendation]({% link recommendations/assets/edit-filter-category.png %}){: .zoom}
 _Edit category filter_

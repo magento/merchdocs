@@ -5,7 +5,7 @@ group: marketing
 ee_only: True
 ---
 
-After you [install and configure]({% link recommendations/install-configure.md %}) the `magento/product-recommendations` module, you can verify that the behavioral data is being sent to Adobe Commerce. The file `DataServices.js` is used to collect and send behavioral data. You can use developer tools available in Chrome, or install the Snowplow Chrome extension. If you need additional help, refer to [Troubleshoot Product Recommendations module](https://support.magento.com/hc/en-us/articles/360042224851) in the Support Knowledge Base.
+After you [install and configure]({% link recommendations/install-configure.md %}) the `magento/product-recommendations` module, you can verify that the behavioral data is being sent to Adobe Commerce. You can use developer tools available in Chrome, or install the Snowplow Chrome extension. If you need additional help, refer to [Troubleshoot Product Recommendations module](https://support.magento.com/hc/en-us/articles/360042224851) in the Support Knowledge Base.
 
 ## Verify using developer tools in Chrome
 

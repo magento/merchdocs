@@ -96,27 +96,26 @@ pages:
     url: "/recommendations/overview.html"
     edition: ee-only
     children:
-    - label: Getting Started
-      url: "/recommendations/getting-started.html"
+    - label: Onboarding
+      url: "/recommendations/onboarding.html"
       children:
-      - label: Onboarding
-        url: "/recommendations/onboarding.html"
+      - label: Implementation Workflow
+        url: "/recommendations/implementation-workflow.html"
         children:
-        - label: Install and Configure
-          url: "/recommendations/install-configure.html"
-        - label: SaaS Settings
-          url: "/recommendations/settings.html"
-        - label: Verify
-          url: "/recommendations/verify.html"
-        - label: Implementation Workflow
-          url: "/recommendations/implementation-workflow.html"
-          children:
-          - label: Headless
-            url: "/recommendations/headless.html"
-        - label: Staging Environment
-          url: "/recommendations/staging-environment.html"
-        - label: Release Notes
-          url: "/recommendations/release-notes.html"
+        - label: Behavioral Data
+          url: "/recommendations/behavioral-data.html"
+        - label: Headless
+          url: "/recommendations/headless.html"
+      - label: Install and Configure
+        url: "/recommendations/install-configure.html"
+      - label: Settings
+        url: "/recommendations/settings.html"
+      - label: Verify
+        url: "/recommendations/verify.html"
+      - label: Staging Environment
+        url: "/recommendations/staging-environment.html"
+      - label: Release Notes
+        url: "/recommendations/release-notes.html"
     - label: Workspace
       url: "/recommendations/workspace.html"
       children:
@@ -126,12 +125,9 @@ pages:
         url: "/recommendations/edit.html"
     - label: Recommendation Types
       url: "/recommendations/type.html"
-      children:
-      - label: Behavioral Data
-        url: "/recommendations/behavioral-data.html"
     - label: Filters
       url: "/recommendations/filters.html"
-    - label: Placement on Page
+    - label: Placement and Labels
       url: "/recommendations/placement.html"
   - label: Related Product Rules
     url: "/marketing/product-related-rules.html"

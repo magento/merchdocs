@@ -19,14 +19,12 @@ How can you test your recommendations in a non-production environment using beha
 
 ## Fetch recommendations from production environment (recommended)
 
-Adobe Commerce allows you to fetch recommendations from your production environment and preview them in your non-production environment by switching the SaaS data space.
+Adobe Commerce allows you to fetch recommendations from your production environment and preview them in your non-production environment by [switching]({% link recommendations/settings.md %}) the SaaS data space.
 
 To fetch recommendations from your production environment, you must make sure that:
 
 - Storefront data collection is [configured and enabled]({% link recommendations/install-configure.md %}) on production.
 - Your non-production environment catalog is largely the same as the one that you have in production. Using similar catalogs ensures that the products returned in the recommendation units closely mimic those on production.
-
-See the [user guide]({% link recommendations/settings.md %}) for more information.
 
 ## Generate behavioral data on non-production environment
 

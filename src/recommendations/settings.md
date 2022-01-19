@@ -1,5 +1,5 @@
 ---
-title: SaaS Settings
+title: Settings
 tag: product-recommendations
 group: marketing
 ee_only: true
@@ -7,7 +7,7 @@ redirect_from:
   - /marketing/recommendation-change-source.html
 ---
 
-When you [configure a SaaS environment]({% link configuration/services/saas.md %}) for Recommendations, the SaaS environment collects catalog data and storefront behavioral data. [Adobe Sensei](https://www.adobe.com/sensei.html) analyzes that data and computes product associations used to serve Product Recommendations.
+When you [configure a SaaS data space]({% link configuration/services/saas.md %}) for Recommendations, the SaaS data space collects catalog data and storefront behavioral data. [Adobe Sensei](https://www.adobe.com/sensei.html) analyzes that data and computes product associations used to serve Product Recommendations.
 
 Non-production environments for testing or staging usually don't have the quantity or quality of storefront behavioral data to serve realistic product recommendations. Actual shopper behavior at scale can be captured only in a production environment. To solve this problem, Adobe Commerce allows you to use product recommendations from your production environment with other, non-production SaaS data spaces. Using actual storefront data in a non-production environment allows you to preview the recommendations your shoppers see and experiment with different recommendation types and placement locations Recommendations from a different SaaS data space can be previewed by shoppers, but not clicked.
 
@@ -29,16 +29,16 @@ To change the source of your product recommendations data, choose the SaaS data 
 
 1. In the _Recommendations source_ section, enable the **Fetch recommendations from a different SaaS data space** option. The _Recommendations source_ section only appears in a non-production environment.
 
-   A list of _Available SaaS Environments_ appears.
+   A list of _Available SaaS Data Spaces_ appears.
 
    ![product recommendation settings]({% link recommendations/assets/settings-select-saas.png %}){: .zoom}
    _Settings_
 
-1. Select the SaaS environment that has shopper data you want to use.
+1. Select the SaaS data spaces that has shopper data you want to use.
 
 1. Click <span class="btn">Save changes</span>.
 
-   Adobe Commerce now fetches recommendations from the selected environment.
+   Adobe Commerce now fetches recommendations from the selected data space.
 
    {:.bs-callout-info}
    While you can view recommendations fetched from another SaaS data space on the non-production storefront, you cannot click the recommendations.

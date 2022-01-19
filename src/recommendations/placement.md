@@ -1,5 +1,5 @@
 ---
-title: Placement on Page
+title: Placement and Labels
 tag: product-recommendations
 group: marketing
 ee_only: true
