@@ -27,26 +27,24 @@ The installation takes place from the command line of the server. Rather than re
 - {{site.data.var.ee}} on prem (EE) : 2.4.x
 - {{site.data.var.ee}} on Cloud (ECE) : 2.4.x
 
-## Boundaries and thresholds
+## Boundaries, thresholds, and supported limits
 
-Support for the following features is scheduled for the first half of 2022:
+At this time, Live Search does not support the following:
 
 - [{{site.data.var.b2b}}](https://magento.com/solutions/b2b)
 - [Customer groups]({% link customers/customer-groups.md %})
 - [Custom price groups]({% link catalog/product-price-group.md %})
+- Multiple inventory locations as used by [MCOM]({% link mcom/mcom-menu.md %}) or other OMS extensions
+- [GraphQL]({{ site.devdocs_url }}/live-search/graphql-support.html) endpoint for catalog search / category
+- [PWA](https://developer.adobe.com/commerce/pwa-studio/)
 
-At this time, Live Search does not support the following:
-
-- GraphQL endpoint for catalog search / category
-- PWA
-
-The Live Search catalog search / category API has the following recommended or static limitations that are inherent to the design of the software:
+The Live Search category search / category API has the following supported limits and static boundaries and that are inherent to the design of the software:
 
 - Indexes up to 300 product attributes per store view
 - Indexes only products from the Adobe Commerce database
 - Does not index CMS pages
 - Does not support the storefront [Advanced (Form) Search]({% link catalog/search-advanced.md %}) module
-- Does not have access to the full taxonomy of the catalog tree, which makes some layered navigation search scenarios beyond reach
+- Does not have access to the full taxonomy of the category tree, which makes some layered navigation search scenarios beyond reach
 
 ## Before you begin
 
