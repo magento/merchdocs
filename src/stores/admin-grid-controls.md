@@ -59,7 +59,7 @@ _Orders Grid_
 
 ## Grid Layout
 
-The selection of columns and their order in the grid can be changed according to your preference, and saved as a _view_. By default, only nine of twenty available columns are visible in the grid.
+The selection of columns and their order in the grid can be changed according to your preference, and saved as a _view_. You can control which attributes show in the grid under the individual attribute configuration. Having many attributes displayed in the product grid may affect admin load time and performance.
 
 ![]({% link stores/assets/admin-grid-columns.png %}){: .zoom}
 _Order Grid Columns_
@@ -102,3 +102,4 @@ _Order Grid Columns_
 
    - To use a different view, click the name of the view.
    - To change the name of a view, click the **Edit** (![Edit icon]({% link assets/icon-edit-pencil.png %})) icon and update the name.
+   - To delete a view, click the **Edit** (![Edit icon]({% link assets/icon-edit-pencil.png %})) icon and then click the **Delete** (![Delete icon]({% link assets/icon-delete-trashcan-solid.png %})) icon.

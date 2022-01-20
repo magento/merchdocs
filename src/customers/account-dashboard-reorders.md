@@ -22,6 +22,9 @@ Customer is redirected to the [shopping cart]({% link quick-tour/shopping-cart.m
 
 **Case 2.** Some/all products from the order are not available for reorder
 
+{:.bs-callout-info}
+It is possible to reorder `Not Visible Individually` products.
+
 The Reorder button will not appear on the _My Orders_ and _View Order_ pages.
 
 ![]({% link customers/assets/account-dashboard-reorder-grid.png %}){: .zoom}
@@ -34,6 +37,9 @@ _My Order page_
 Customer is redirected to the cart, and all products are added to the cart
 
 **Case 2.** Some/all products from the order are not available for reorder
+
+{:.bs-callout-info}
+It is possible to reorder `Not Visible Individually` products.
 
 The _Reorder_ button does not appear on the My Orders and View Order pages.
 
