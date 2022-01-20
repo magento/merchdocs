@@ -67,5 +67,5 @@ This action redirects the customer to the comparison list where they can access 
 
 (![Delete icon]({% link assets/icon-delete-x.png %})) | Deletes a single item from comparison list.
 <span class="btn">Add to Cart</span> | Adds product into shopping cart. If the product has any configurations, the page redirects the customer to the product page where they select the configurable options and then click <span class="btn">Add to Cart</span>.
-_Wishlist icon_ | Adds product into wishlist, in case the wishlist functionality is enabled in configurations.
+_Wishlist icon_ | Adds product into wishlist (requires wishlist functionality enabled in store configuration).
 _Print This Page_ | Prints comparison list page.
