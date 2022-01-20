@@ -23,7 +23,7 @@ _Orders_
 
    - A `Completed` order can be reordered.
 
-The customer's email can be edited at any point in the order workflow by editing the customer. The email cannot be edited if the order was placed by a guest.
+The customer's email may be edited at any point in the order workflow by editing the customer. The email cannot be edited if the order was placed by a guest.
 
 The left panel for an open order provides access to different types of information that is related to the order.
 
@@ -79,7 +79,7 @@ You can [cancel]({% link sales/order-update.md %}) orders that are not yet invoi
 
 If an order is `Pending` or `Processing` and the payment is not captured or not entirely captured, you can [void the order](#void-an-order) instead of canceling it.
 
-To restore a canceled order, click the `Reorder` button and a new order will be created with the status `Pending`.
+To restore a canceled order, click the `Reorder` button and a new order is created with the status `Pending`.
 
 {:.bs-callout-info}
 Canceling an order also produces a void, but voiding an order does not trigger a cancellation.
