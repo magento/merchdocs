@@ -8,8 +8,7 @@ With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhan
 _Media Gallery grid_
 
 {:.bs-callout-info}
-Product Gallery images from the `Images and Videos` product section are not managed by the New Media Gallery.
-Only images, which are used in the `Content` product section fields, are displayed and filtered in the New Media Gallery.
+Product Gallery images added to the [_Images and Videos_ product section]({% linkcatalog/product-image-upload.md %}) are not managed by the New Media Gallery. Only images used in the _Content_ product section fields are displayed and filtered in the New Media Gallery.
 
 ## Enable the new Media Gallery
 
