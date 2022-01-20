@@ -12,7 +12,7 @@ To analyze how well your recommendations are performing, Adobe Commerce collects
 
 - **Views** - Number of times a Recommendation unit appears in the viewport of the shopper's browser. This event can fire multiple times on a page.
 
-- **Clicks** - Number of times a shopper clicks an item in a Recommendation unit.
+- **Clicks** - The sum of the number of times a shopper clicks an item in the recommendation unit and the number of times the shopper clicks the _add to cart_ button in the recommendation unit.
 
 - **Viewability %** - Percentage of Recommendation unit impressions that register a view.
 
