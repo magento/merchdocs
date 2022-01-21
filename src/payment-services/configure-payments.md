@@ -12,6 +12,9 @@ See the [General Configuration section](#general-configuration) for more informa
 
 You can enable Payment Services for your store, and enable either sandbox testing or live payments in the General Configuration section.
 
+![Methods view]({% link payment-services/assets/methods-view.png %}){:height="50%" width="50%"}{: .zoom}
+_Payment methods view_
+
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 1. In the left panel, expand **Sales** and choose **Payment Methods**.
 1. Expand the _Recommended Solutions_ section.
