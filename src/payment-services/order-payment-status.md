@@ -53,7 +53,7 @@ _Order payment statuses in the Admin_
 In the Order payment status report view, you can filter by pay statuses and the min/max amount to see report results:
 
 1. Click the _Show filters_ (![]({% link assets/icon-showfilters.png %})) icon.
-1. Select the desired status to filter orders by:
+1. Select the desired status used to filter orders:
 
   ![Show filters selection]({% link payment-services/assets/filters.png %}){: .zoom}
   _Show filters selection_
@@ -68,9 +68,9 @@ Pay Status Capture confirmed | Orders where capture has been confirmed.
 Pay Status Partial capture | Orders with a partial capture.
 Pay Status Capture failed | Orders where capture has failed.
 Pay Status Voided | Orders where transaction has been voided.
-Min/Max Order Amount | Filter orders by the minimum or maximum grand total amount of the order.
+Min/Max Order Amount | Orders with a grand total amount that meets the set minimum and/or maximum.
 
-When you filter orders by any of these pay statuses or the Min/Max order amount, a filter list displays the selected filters which can be reset individually, or by clicking _Clear all_.
+When you filter orders by any of these pay statuses or the Min/Max order amount, a filter list displays the selected filters. These filters can be reset individually, or by clicking _Clear all_.
 
 ## Select data source
 
