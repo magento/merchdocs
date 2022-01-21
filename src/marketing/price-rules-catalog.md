@@ -17,10 +17,6 @@ For example, you can define and set the conditions for a price rule that when me
    ![Catalog price rules]({% link marketing/assets/price-rule-catalog-grid-ee.png %}){: .zoom}
    _Catalog Rules_
 
-1. If there are many existing rules, filter the displayed list by using the filter options at the top of each column and clicking <span class="btn">Search</span> to narrow the list.
-
-   To clear all filter options and display the complete list, click **Reset Filter**.
-
 1. Update properties for a rule:
 
    - {:.ee-only}Click **Edit** to display the Rule Information page.
