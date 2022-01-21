@@ -23,9 +23,9 @@ For example, you can define and set the conditions for a price rule that when me
 
 1. Update properties for a rule:
 
-    - {:.ee-only}Click **Edit** to display the Rule Information page.
+   - {:.ee-only}Click **Edit** to display the Rule Information page.
 
-    - {:.ce-only}Click the rule in the list to display the Rule Information page.
+   - {:.ce-only}Click the rule in the list to display the Rule Information page.
 
    There you can change the settings for the rule (similar to [creating new rule]({% link marketing/price-rules-catalog-create.md %})).
 
