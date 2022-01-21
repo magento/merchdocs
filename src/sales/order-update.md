@@ -19,6 +19,7 @@ If you modify the substance of an order, the original order is canceled and a ne
 |Button|Description|
 |--- |--- |
 |<span class="btn">Back</span>|Returns to the Orders page without saving changes.|
+|<span class="btn">Login as Customer</span>|Allows an admin user to assist customers with their orders.|
 |<span class="btn">Cancel</span>|Cancels the pending order.|
 |<span class="btn">Send Email</span>|Sends an email about the pending order to the customer.|
 |<span class="btn">Hold</span> / <span class="btn">Unhold</span>|Changes the status of the pending order to _On Hold_. To release the hold, choose `Unhold`.|
