@@ -16,16 +16,16 @@ You can enable Payment Services for your store, and enable either sandbox testin
 _Payment methods view_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
-2. In the left panel, expand **Sales** and choose **Payment Methods**.
-3. Expand the _Recommended Solutions_ section.
-4. In the _Payment Services_ section, expand the _General Configuration_ section.
-5. For **Enable**, set it to `Yes` to enable Payment Services for your store.
-6. For **Method**, set it to `Sandbox` if you are still testing Payment Services for your store or `Production` if you are ready to enable live payments.
+1. In the left panel, expand **Sales** and choose **Payment Methods**.
+1. Expand the _Recommended Solutions_ section.
+1. In the _Payment Services_ section, expand the _General Configuration_ section.
+1. For **Enable**, set it to `Yes` to enable Payment Services for your store.
+1. For **Method**, set it to `Sandbox` if you are still testing Payment Services for your store or `Production` if you are ready to enable live payments.
 
    {:.bs-callout .bs-callout-warning}
    Your Sandbox Merchant ID and Production Merchant ID will be auto-generated and present in their respectable fields once you have finished onboarding for the sandbox and/or production. Do not remove or change these IDs.
 
-7. Click <span class="btn">Save Config</span> to save your changes.
+1. Click <span class="btn">Save Config</span> to save your changes.
 
 ### Configuration options
 
