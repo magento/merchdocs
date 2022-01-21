@@ -12,6 +12,9 @@ sections:
 
 Payment Services for {{ site.data.var.ee }} and {{ site.data.var.ce }} offers you comprehensive reporting so that you can get a clear view of your store's orders and payments.
 
+![Reports view]({% link payment-services/assets/reports-view.png %}){: .zoom}
+_Financial reports view_
+
 Our cash flow management reports---Payouts and Order payment status---synchronize payment details with order info to give you full transparency of processed volume, payment balance, and detailed reporting on a transaction level for financial reconciliation.
 
 {% include grid.html sections=page.sections%}
