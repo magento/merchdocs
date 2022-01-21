@@ -4,6 +4,9 @@ title: Payments options
 
 With Adobe Commerce and Magento Open Source Payment Services, you have multiple payment options available to you---all configurable in the Admin (in **Stores** > _Settings_ > **Configuration** > **Sales** >  **Payment Methods** > _Recommended Solutions_).
 
+![Methods view]({% link payment-services/assets/methods-view.png %}){:height="40%" width="40%"}{: .zoom}
+_Payment methods view_
+
 There are different behaviors for each payment method depending on where you are in the checkout process:
 
 * Product page---The product page for an item
