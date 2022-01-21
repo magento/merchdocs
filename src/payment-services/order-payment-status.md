@@ -5,7 +5,7 @@ title: Order payment status report
 
 The Order payment status report helps you easily understand where a specific order is within the order to cash process flow. This report allows you to quickly view the payment status of your orders and identify any potential issues.
 
-![Admin view]({% link payment-services/assets/admin-view.png %}){:height="60%" width="60%"}{: .zoom}
+![Admin view]({% link payment-services/assets/admin-view.png %}){:height="50%" width="50%"}{: .zoom}
 _Payment Services extension Admin view_
 
 You don't have to open multiple views to manually cross-references orders and payments. Payment Services for Adobe Commerce and Magento Open Source enables you to get a bird's-eye-view of your orders and payments---all within the Order payment status report.
