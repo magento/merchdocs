@@ -19,7 +19,9 @@ For Commerce Product Reviews, a submitted product review must be approved before
 
 1. If applicable, set the **Visibility** of a product review for appearing in different store views.
 
-1. If needed, change the values for **Detailed Rating**, **Nickname**, and **Summary of Review**. To change the store view where a review will be available, choose the needed store view in the **Visibility** column.
+1. If needed, change the values for **Detailed Rating**, **Nickname**, and **Summary of Review**.
+
+   To change the store view where a review will be available, choose the needed store view in the _Visibility_ column.
 
    ![Edit review page]({% link marketing/assets/edit-review-page.png %}){: .zoom}
    _Edit review page_
