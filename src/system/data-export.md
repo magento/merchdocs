@@ -14,9 +14,11 @@ Data export is an asynchronous operation, which executes in the background so th
 
 1. In the _Export Settings_ section, set **Entity Type** to one of the following:
 
+    - `Advanced Pricing`
     - `Products`
     - `Customers Main File`
     - `Customer Addresses`
+    - `Stock Sources`
 
 1. Accept the default **Export File Format** of CSV.
 
