@@ -16,3 +16,12 @@ Every Adobe Commerce and Magento Open Source installation has a [hierarchy]({% l
 
 {:.bs-callout-info}
 To learn more, see [Multiple websites or stores ]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/multi-site/ms_over.html) in the Commerce developer documentation.
+
+When working with websites, stores, and store views, keep the following in mind:
+
+- Commerce instances have a cascading model: global → website → store → store view.
+- Every website has at least one default store and store view.
+- Each store view can have a different base URL.
+- The primary function of a website is top-level feature configuration.
+- The primary function of a store is root category configuration.
+- The primary function of a store view is translation information and currency symbol configuration.
