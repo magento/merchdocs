@@ -16,6 +16,7 @@ Data export is an asynchronous operation, which executes in the background so th
 
     - `Advanced Pricing`
     - `Products`
+    - `Customer Finances`
     - `Customers Main File`
     - `Customer Addresses`
     - `Stock Sources`
