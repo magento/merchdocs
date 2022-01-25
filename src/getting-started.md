@@ -45,7 +45,7 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 ### PWA Studio
 
-- {:.pwa-only}PWA Studio is an extension that allows you to build your store frontend as a ReactJS app that communicates with the Magento backend via GraphQL. Get more information at [PWA Studio](https://developer.adobe.com/commerce/pwa-studio/).
+- {:.pwa-only}PWA Studio is a toolkit to create PWA storefronts for your Commerce or Magento Open Source backends. The toolkit gives you React components to build your UI and GraphQL APIs to access your data. Get more information at [PWA Studio (https://developer.adobe.com/commerce/pwa-studio/).
 
 ## Learn the Basics
 
