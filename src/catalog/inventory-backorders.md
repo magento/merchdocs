@@ -37,6 +37,9 @@ _Example Salable Quantity after backorders enabled_
 
 When customers purchase more than 25 products, new orders enter as backorders. As the product's Salable Quantity reduces to 5 (70 items have been sold), the _Product_ page will display a message `Only 5 left` on the storefront. When the Salable Quantity reaches `0`, the product is displayed as `Out of Stock` in the storefront.
 
+{:.bs-callout-info}
+When a customer places an order using _backorder qty_, Inventory Management automatically subtracts the quantity from the salable quantity. If an order is not shipped and is canceled, the quantity returns to the aggregated virtual salable quantity. The **_canceled order quantity is not assigned to any of the sources_**, but is returned to the total number of products available for sale (_Salable Quantity_ column  on the products grid).
+
 <!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 
 The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. When it is enabled, the system sends an email notification when the product quantity reaches a level at or below the configured value. For this example, a notification is triggered when the product has a quantity of 10 or less. When backorders are enabled, _Notify for Quantity Below_ is determined by the Salable Quantity (`Salable Quantity = Quantity - (Out-of-Stock Threshold)`). -->
@@ -82,6 +85,8 @@ Product level configurations override global configurations. You may want to con
 1. On the _Admin_ sidebar, go to **Catalog** > **Products**.
 
 1. Open a product in **Edit** mode and scroll down the page to the _Sources_ area.
+
+    For products without configured Multi Source Inventory (MSI),  the Sources tab does not displays. The `Advanced Inventory` button displays under the `Quantity` field.
 
 1. Click **Advanced Inventory**.
 
