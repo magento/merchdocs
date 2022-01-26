@@ -22,13 +22,29 @@ The installation takes place from the command line of the server. Rather than re
 - PHP 7.3 / 7.4
 - Composer
 
-### Supported Platforms
+### Supported platforms
 
 - {{site.data.var.ee}} on prem (EE) : 2.4.x
 - {{site.data.var.ee}} on Cloud (ECE) : 2.4.x
 
-{:.bs-callout-warning}
-At this time, [{{site.data.var.b2b}}](https://magento.com/solutions/b2b) is not supported.
+## Boundaries and thresholds
+
+At this time, Live Search does not support the following:
+
+- [{{site.data.var.b2b}}](https://magento.com/solutions/b2b)
+- [Customer groups]({% link customers/customer-groups.md %})
+- [Custom price groups]({% link catalog/product-price-group.md %})
+- Multiple inventory locations as used by [MCOM]({% link mcom/mcom-menu.md %}) or other OMS extensions
+- [GraphQL]({{ site.devdocs_url }}/live-search/graphql-support.html) endpoint for catalog search / category
+- [PWA](https://developer.adobe.com/commerce/pwa-studio/)
+
+The Live Search category search / category API has the following supported limits and static boundaries and that are inherent to the design of the software:
+
+- Indexes up to 300 product attributes per store view
+- Indexes only products from the Adobe Commerce database
+- Does not index CMS pages
+- Does not support the storefront [Advanced (Form) Search]({% link catalog/search-advanced.md %}) module
+- Does not have access to the full taxonomy of the category tree, which makes some layered navigation search scenarios beyond reach
 
 ## Before you begin
 
