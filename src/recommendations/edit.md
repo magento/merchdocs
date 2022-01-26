@@ -68,10 +68,7 @@ _Edit number of products_
 
 ### Filter products {#filters}
 
-Any changes made to product [filters]({% link recommendations/filters.md %}) are reflected in the _Recommended products preview_.
-
-- To list filters that include specific products, click the **Inclusions** tab.
-- To list filters that exclude specific products, click the **Exclusions** tab.
+Any changes made to product [filters]({% link recommendations/filters.md %}) are reflected in the _Recommended products preview_. Only products that match inclusion filters are allowed to be recommended. Products that match any exclusion filters will not be recommended.
 
 The _Inclusions_ and _Exclusions_ tabs list the available filters of each type. In the list, each active filter is marked with a blue dot.
 

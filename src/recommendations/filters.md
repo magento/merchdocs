@@ -39,7 +39,7 @@ Inclusion and exclusion filters replace the legacy category exclusions in versio
 
 Filters based on a product's category use direct category assignments and their subcategories. For example, enabling an exclusion condition for category `Gear` excludes products assigned to `Gear` and all of its subcategories such as `Gear/Bags` or `Gear/Fitness Equipment`. For B2B merchants, the Category filter adheres to any [customer-specific product categories]({% link catalog/category-permissions.md %}) you have configured.
 
-When creating category filters, we recommend the following guidelines per page:
+Adobe Commerce recommends you use the following category filter configuration when you deploy recommendations to your page types:
 
 |Page|Filter by|
 |---|---|
