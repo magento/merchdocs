@@ -4,8 +4,50 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Jan 17 15:27:12 2022
+updated: Mon Jan 24 15:26:13 2022
 entries:
+- description: Updated the [Inventory Management - Configuring Backorders](https://docs.magento.com/user-guide/catalog/inventory-backorders.html)
+    topic to include a note to clarify how canceled orders affect the salable quantity.
+  versions: 2.4.x
+  type: Minor update
+  date: January 21, 2022
+  link: https://github.com/magento/merchdocs/pull/1671
+  merge_commit: 23f41acfac85a986f3ba4d305ef55cfd81505189
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Updated the [Customer Segments](https://docs.magento.com/user-guide/marketing/customer-segments.html)
+    topic to include comparison with customer segments based on where each are used.
+  versions: 2.4.x
+  type: Minor update
+  date: January 21, 2022
+  link: https://github.com/magento/merchdocs/pull/1673
+  merge_commit: 9da37772c01be173a5fc6dc9520a29e24481107a
+  contributor: ZhovnirMaria
+  membership: false
+  labels:
+  - Minor update
+  - partners-contribution
+  - 'Partner: Atwix'
+  - 2.4.x
+  - 'Progress: done'
+- description: Added a new section, "Boundaries and thresholds" to the [Install Live
+    Search](https://docs.magento.com/user-guide/live-search/install.html) topic.
+  versions: 2.4.x
+  type: Major update
+  date: January 20, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/373
+  merge_commit: 4267dc13469a89de741c44eb3cc31b471d9a1416
+  contributor: ccondra
+  membership: true
+  labels:
+  - 2.4.x
+  - Major update
 - description: Updated Page Builder [Slider](https://docs.magento.com/user-guide/cms/page-builder-media-slider.html),
     [Banner](https://docs.magento.com/user-guide/cms/page-builder-media-banner.html),
     and [Row](https://docs.magento.com/user-guide/cms/page-builder-layout-row.html)
