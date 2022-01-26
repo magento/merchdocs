@@ -209,9 +209,6 @@
   - label: Sales Channels
     url: "/configuration/sales-channels.html"
 
-  - label: Yotpo
-    url: "/configuration/yotpo.html"
-
   - label: Services
     url: "/configuration/services.html"
 

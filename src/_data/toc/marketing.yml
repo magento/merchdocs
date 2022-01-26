@@ -40,21 +40,6 @@ pages:
         url: "/marketing/magento-product-reviews-moderate.html"
       - label: Product Review Ratings
         url: "/stores/attributes-rating.html"
-    - label: Yotpo Product Reviews
-      url: "/marketing/yotpo-reviews-intro.html"
-      children:
-      - label: Basic Yotpo Features
-        url: "/marketing/yotpo-features.html"
-      - label: Yotpo Integration and Setup
-        url: "/marketing/yotpo-connect.html"
-      - label: Yotpo Settings in the Admin
-        url: "/marketing/yotpo-settings.html"
-      - label: Yotpo Review Management
-        url: "/marketing/yotpo-glance.html"
-      - label: Common Yotpo Tasks
-        url: "/marketing/yotpo-tasks.html"
-      - label: Yotpo Reporting and Analytics
-        url: "/marketing/yotpo-reporting.html"
 - label: Promotions
   url: "/marketing/promotions.html"
   children:
