@@ -62,7 +62,7 @@ One of the tasks to complete before launching your store is to review the email 
 <div class="bs-callout-info" markdown="1">
 Adobe Commerce and Magento Open Source releases 2.4.0 through 2.4.3 included the dotdigital vendor-developed extension used to integrate with the dotdigital Engagement Cloud. Starting with the 2.4.4 release, this extension is no longer bundled with the core release and must be installed and updated from the Commerce Marketplace. The Marketplace also provides access to current documentation provided by the extension developer.
 
-If you have the bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules]({{ site.devdocs_url }}/guides/v{{ site.version }}/comp-mgr/upgrade-module.html) in the developer documentation for more information.
+If you have the bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in the _Upgrade Guide_ for more information.
 </div>
 
 {% include grid.html sections=page.sections%}

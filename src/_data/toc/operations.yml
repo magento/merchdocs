@@ -249,8 +249,6 @@ pages:
     - label: Developer Tools
       url: "/system/developer-tools.html"
       children:
-      - label: Amazon Pay Logs
-        url: "/system/amazon-logs.html"
       - label: Frontend Development Workflow
         url: "/system/frontend-development-workflow.html"
       - label: Using Static File Signatures
