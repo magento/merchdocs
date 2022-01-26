@@ -4,7 +4,7 @@ title: Export
 
 The best way to become familiar with the structure of your database is to export the data and open it in a spreadsheet. Once you become familiar with the process, you’ll find that it is an efficient way to manage large amounts of information.
 
-Special characters—such as the equal sign, greater and less than symbols, single and double quotes, backslash, pipe, and ampersand symbols—can cause problems during data transfer. To ensure that such special characters are correctly interpreted, they can be marked as an _escape sequence_. For example, if the data includes a string of text such as `code="str"`, `code="str2"`, choosing to enclose the text in double quotes ensures that the original double quotes are understood to be part of the data. When the system encounters a double set of double quotes, it understands that the outer set of double quotes is enclosing the actual data.
+Special characters—such as the equal sign, greater and less than symbols, single and double quotes, backslash, pipe, and ampersand symbols—can cause problems during data transfer. To ensure that such special characters are correctly interpreted, they can be marked as an _escape sequence_. For example, if the data includes a string of text such as `code="str"`, `code="str2"`, enclosing the text in double quotes ensures that the original double quotes are understood to be part of the data: `"code="str""`. When the system encounters a double set of double quotes, it understands that the outer set of double quotes is enclosing the actual data.
 
 Data export is an asynchronous operation, which executes in the background so that you can continue working in the Admin without waiting for the operation to finish. The system displays a message when the task is complete.
 
