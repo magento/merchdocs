@@ -150,11 +150,6 @@ pages:
   children:
   - label: Global Settings
     url: "/configuration/sales-channels/global-settings.html"
-- label: Yotpo
-  url: "/configuration/yotpo.html"
-  children:
-  - label: Reviews and Visual Marketing
-    url: "/configuration/yotpo/reviews-visual-marketing.html"
 - label: Services
   url: "/configuration/services.html"
   children:
