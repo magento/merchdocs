@@ -1312,8 +1312,7 @@ entries:
   type: Minor update
   date: October 15, 2020
   link: https://github.com/magento/merchdocs/pull/745
-- description: The [Yotpo Reviews](https://docs.magento.com/user-guide/marketing/yotpo-reviews-intro.html#changes-in-the-latest-release)
-    module includes an enhancement to programmatically adjust when Magento orders
+- description: The Yotpo Reviews module includes an enhancement to programmatically adjust when Magento orders
     are synced to Yotpo.
   versions: 2.4.1
   type: Minor update
