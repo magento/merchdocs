@@ -929,8 +929,7 @@ entries:
   - 'Partner: Atwix'
   - 'Progress: done'
   - partners-contribution
-- description: Changes to [Klarna Storefront Experience](https://docs.magento.com/user-guide/payment/klarna-customer-experience.html)
-    to capture updates for the Klarna logo, iframe, and labeling.
+- description: Changes to Klarna Storefront Experience to capture updates for the Klarna logo, iframe, and labeling.
   versions: 2.4.x
   type: Minor update
   date: April 27, 2021

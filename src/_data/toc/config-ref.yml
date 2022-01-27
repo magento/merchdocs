@@ -137,13 +137,6 @@ pages:
           url: "/configuration/sales/paypal-payflow-pro.html"
         - label: PayPal Payflow Link
           url: "/configuration/sales/paypal-payflow-link.html"
-    - label: Other Payment Methods
-      url: "/configuration/sales/payment-methods-other.html"
-      children:
-      - label: Klarna
-        url: "/configuration/sales/klarna.html"
-      - label: Amazon Pay
-        url: "/configuration/sales/amazon-pay.html"
   - label: 3D Secure
     url: "/configuration/sales/3d-secure.html"
     children:

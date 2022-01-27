@@ -17,7 +17,7 @@ You can refund orders in three ways:
    - {:.ee-only}[Store Credit]({% link customers/store-credit.md %})
    - {:.b2b-only}[Payment on Account]({% link payment/payment-on-account.md %}) (offline method)
    - {:.b2b-only}[Company Credit]({% link customers/account-dashboard-company-credit.md %})
-- [Online refund]({% link payment/online-payment-methods.md %})---Orders paid by credit card through a payment gateway, such as PayPal or Klarna, are refunded online via the payment processor.
+- [Online refund]({% link payment/online-payment-methods.md %})---Orders paid by credit card through a payment gateway, such as PayPal or Braintree, are refunded online via the payment processor.
 - [Offline refund]({% link payment/offline-payment-methods.md %})---Orders that are paid by Cash on Delivery ([COD]({% link payment/cash-on-delivery.md %})) or by [check or money order]({% link payment/check-money-order.md %}) are refunded offline.
 
 You can issue an offline refund or account credit (if enabled) for any payment method.
