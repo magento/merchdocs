@@ -11,7 +11,7 @@ Unlike the [Recently Viewed / Compared Products ]({% link marketing/products-vie
 
 ## Compare products on the storefront
 
-There are a few ways navigate to comparison list on the storefront.
+There are a few ways to use comparison list on the storefront.
 
 ### From catalog pages
 
@@ -36,7 +36,7 @@ There are a few ways navigate to comparison list on the storefront.
 
 1. After a customer adds a product to a comparison list, the page displays a notification message.
 
-1. In the displayed top message notification, clicks the _comparison list_ link.
+1. In the displayed top message notification, click the _comparison list_ link.
 
    ![Compare Products Notification]({% link catalog/assets/notification-comparison-list.png %}){: .zoom}
    _Compare Products notification_
