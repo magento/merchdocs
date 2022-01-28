@@ -125,9 +125,12 @@ For additional information, see Google's [Container export and import][5]. These
 
 1. Test your Google Tag Manager settings to verify that everything works correctly.
 
+{:.bs-callout-info}
+Each container is associated with one website and you only need one container per account. If you have a multi-site Commerce instance, you need separate containers.
+
 ## Step 4. Add the GTM code to your Adobe Commerce store
 
-1. Copy the GTM code:
+1. To copy the GTM code, go to **Admin** > **Install Google Tag Manager**.
 
    There are two GTM code snippets to be added to your Commerce site: the first one for the <head> tag and the and the second for the <body> tag.
 
