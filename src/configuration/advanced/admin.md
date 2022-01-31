@@ -84,11 +84,11 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Admin Account Sharing|Global|Determines if an Admin user(s) can be logged in to the same account simultaneously from different devices. Options: <br/>**Yes** - Allows multiple active sessions from the same Admin account. <br/>**No** - Allows only one active session per Admin account.|
-|Password Reset Protection Type|Global|Determines the method that is used to manage password reset requests. Options: <br/>**By IP and Email** - The password can be reset online after a response is received from the notification is sent to the email address associated with the Admin account. <br/>**By IP** - The password can be reset online without additional confirmation. <br/>**By Email** - The password can be reset only by responding by email to the notification that is sent to the email address associated with the Admin account. <br/>**None** - The password can be reset only by the store administrator.|
+|Admin Account Sharing|Store View|Determines if an Admin user(s) can be logged in to the same account simultaneously from different devices. Options: <br/>**Yes** - Allows multiple active sessions from the same Admin account. <br/>**No** - Allows only one active session per Admin account.|
+|Password Reset Protection Type|Store View|Determines the method that is used to manage password reset requests. Options: <br/>**By IP and Email** - The password can be reset online after a response is received from the notification is sent to the email address associated with the Admin account. <br/>**By IP** - The password can be reset online without additional confirmation. <br/>**By Email** - The password can be reset only by responding by email to the notification that is sent to the email address associated with the Admin account. <br/>**None** - The password can be reset only by the store administrator.|
 |Recovery Link Expiration Period (hours)|Global|Determines the number of hours a password recovery link remains valid.|
-|Max Number of Password Reset Requests|Global|Determines the maximum number of password requests that can be submitted per hour.|
-|Min Time Between Password Reset Requests|Global|Determines the minimum number of minutes between password reset requests.|
+|Max Number of Password Reset Requests|Store View|Determines the maximum number of password requests that can be submitted per hour.|
+|Min Time Between Password Reset Requests|Store View|Determines the minimum number of minutes between password reset requests.|
 |Add Secret Key to URLs|Global|When enabled, appends a secret key to the Admin URL as a precaution against exploits. Options: Yes / No|
 |Login Is Case Sensitive|Global|Determines if login credentials entered by a user must match the case of the ones stored. Options: Yes / No|
 |Admin Session Lifetime (seconds)|Global|Determines the length of an Admin session in seconds.|
@@ -113,15 +113,15 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable CAPTCHA in Admin|Website|Enables CAPTCHA for the Admin login. Options: Yes / No|
-|Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Commerce instance, and add the declaration to the config.xml file at `app/code/Magento/Captcha/etc` Default font: LinLibertine|
-|Forms|Website|Determines the form(s) where CAPTCHA is used. Options: Admin Login / Admin Forgot Password|
-|Displaying Mode|Website|Determines when the CAPTCHA appears. Options: <br/>**Always** - CAPTCHA is always required to log in. <br/>**After number of attempts to login** - Displays the Number of Unsuccessful Attempts to Login field. Enter the number of login attempts allowed. A value of 0 (zero) is similar to setting Displaying Mode to Always. This option does not cover the Forgot Password and Create User forms. If CAPTCHA is enabled and set to appear, it is always included on the form.<br />**Note**: To track the number of unsuccessful login attempts, each attempt to log in under one email address and from one IP-address is counted. The maximum number of login attempts allowed from the same IP-address is 1,000. This limitation applies only when CAPTCHA is enabled.|
+|Enable CAPTCHA in Admin|Global|Enables CAPTCHA for the Admin login. Options: Yes / No|
+|Font|Global|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Commerce instance, and add the declaration to the config.xml file at `app/code/Magento/Captcha/etc` Default font: LinLibertine|
+|Forms|Global|Determines the form(s) where CAPTCHA is used. Options: Admin Login / Admin Forgot Password|
+|Displaying Mode|Global|Determines when the CAPTCHA appears. Options: <br/>**Always** - CAPTCHA is always required to log in. <br/>**After number of attempts to login** - Displays the Number of Unsuccessful Attempts to Login field. Enter the number of login attempts allowed. A value of 0 (zero) is similar to setting Displaying Mode to Always. This option does not cover the Forgot Password and Create User forms. If CAPTCHA is enabled and set to appear, it is always included on the form.<br />**Note**: To track the number of unsuccessful login attempts, each attempt to log in under one email address and from one IP-address is counted. The maximum number of login attempts allowed from the same IP-address is 1,000. This limitation applies only when CAPTCHA is enabled.|
 |Number of Unsuccessful Attempts to Login|Global|Determines the number of times a person can try to login before the account is locked. To track the number of unsuccessful attempts to log in, the system tracks the login attempts from one email address from a single IP-address. The maximum number of attempts allowed from the same IP address is 1,000. This limitation applies only if CAPTCHA is enabled.|
-|CAPTCHA Timeout (minutes)|Website|Determines the lifetime of the current CAPTCHA. When the CAPTCHA expires, the user must reload the page.|
-|Number of Symbols|Website|Determines the number of symbols that are used in the CAPTCHA. The maximum allowed value is 8. You can also specify a range, for example, 5-8.|
-|Symbols Used in CAPTCHA|Website|Determines which symbols are used in the CAPTCHA. Only letters (a-z and A-Z) and numbers (0-9) are allowed. The default set of symbols suggested in the field excludes similar-looking symbols like i, l, or 1. Displaying these symbols in CAPTCHA decreases the chances that a user will recognize CAPTCHA correctly.|
-|Case Sensitive|Website|Determines if the characters used in the CAPTCHA are case sensitive. Options: Yes / No|
+|CAPTCHA Timeout (minutes)|Global|Determines the lifetime of the current CAPTCHA. When the CAPTCHA expires, the user must reload the page.|
+|Number of Symbols|Global|Determines the number of symbols that are used in the CAPTCHA. The maximum allowed value is 8. You can also specify a range, for example, 5-8.|
+|Symbols Used in CAPTCHA|Global|Determines which symbols are used in the CAPTCHA. Only letters (a-z and A-Z) and numbers (0-9) are allowed. The default set of symbols suggested in the field excludes similar-looking symbols like i, l, or 1. Displaying these symbols in CAPTCHA decreases the chances that a user will recognize CAPTCHA correctly.|
+|Case Sensitive|Global|Determines if the characters used in the CAPTCHA are case sensitive. Options: Yes / No|
 
 {:.ee-only}
 ## Admin Actions Logging

@@ -61,8 +61,12 @@ _Creating a new approval rule_
 
 1. For **Requires approval from** choose the required approver(s) according to the type of approval you want for the rule.
 
-   {:.bs-callout-info}
-   When assigning a role as an approver, ensure that there is at least one user in that role.
+   <div class="bs-callout-info" markdown="1">
+   * When assigning a role as an approver, ensure that there is at least one user in that role.
+   * If there are two or more users with the same approver role, the creator of the purchase order cannot approve it. In this case, manual approval is required by any other user with this approver role. However, if `Auto-approve POs created within this role` option is set in the [Role Permissions]({% link customers/account-company-roles-permissions.md %}), the purchase order is approved automatically.
+   * If there is only one user with the approver role and that user is the creator, the purchase order is always approved automatically -- the `Auto-approve POs created within this role` permission setting is ignored.
+
+   </div>
 
 1. Click <span class="btn">Save</span>.
 
