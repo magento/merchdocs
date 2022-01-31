@@ -9,7 +9,7 @@ entries:
 - description: Updated the [Comparison List](https://docs.magento.com/user-guide/marketing/product-compare.html)
     topic to include different methods that customers can use to access the comparison
     list on the storefront.
-  versions: ''
+  versions: '2.4.x'
   type: Minor update
   date: January 28, 2022
   link: https://github.com/magento/merchdocs/pull/1691
