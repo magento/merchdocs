@@ -10,6 +10,16 @@ These release notes describe the latest versions of Live Search and include:
 - {:.new} New features
 - {:.fix} Fixes and improvements
 - {:.bug} Known issues
+}
+## Live Search 1.3.1
+
+- Compatible with {{site.data.var.ee}} (EE): 2.4.x
+- Compatible with {{site.data.var.ece}} (ECE): 2.4.x
+- Stability: Stable
+
+- {:.fix} Fixed issue where custom [price attribute]({% link stores/attributes-input-types.md %}) returns an error when configured as a [facet]({% link live-search/facets-add.md %}).
+- {:.fix} Fixed issue where an error occurs if no [currency symbol]({% link stores/currency-symbols.md %}) (`data-currency-symbol`) is available.
+- {:.fix} [Storefront popover]({{ site.devdocs_url }}/live-search/storefront-popover.html) now shows the [Special Price]{% link catalog/product-price-special.html %} (minimum final price) when available.
 
 ## Live Search 1.3.0
 
