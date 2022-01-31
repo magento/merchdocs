@@ -7,6 +7,9 @@ With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhan
 ![Images displayed in the Media Gallery grid]({% link cms/assets/media-gallery-grid.png %}){: .zoom}
 _Media Gallery grid_
 
+{:.bs-callout-info}
+Product Gallery images added to the [_Images and Videos_ product section]({% link catalog/product-image-upload.md %}) are not managed by the new Media Gallery. Only images used in the _Content_ product section fields are displayed and filtered in the new Media Gallery.
+
 ## Enable the new Media Gallery
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
