@@ -37,7 +37,7 @@ At this time, the Live Search category search / category API has the following s
 - Indexes only products from the Adobe Commerce database
 - Does not index CMS pages
 
-### Functionality not supported
+### Functionality
 
 - Storefront [Advanced (Form) Search]({% link catalog/search-advanced.md %}) module
 - [Customer groups]({% link customers/customer-groups.md %})
@@ -45,14 +45,14 @@ At this time, the Live Search category search / category API has the following s
 - Multiple inventory locations as used by [MCOM]({% link mcom/mcom-menu.md %}) or other OMS extensions
 - [{{site.data.var.b2b}}](https://magento.com/solutions/b2b)
 
-### Live Search query differences
+### Queries
 
 - Live Search does not have access to the full taxonomy of the category tree, which makes some layered navigation search scenarios beyond its reach.
 - Live Search uses a unique GraphQL endpoint for queries to support features such as intelligent faceting and search-as-you-type. Although similar to the [Magento GraphQL API](https://devdocs.magento.com/guides/v2.4/graphql), there are a few differences and some fields may not be fully compatible at this time.
 
-### Progressive Web Applications
+### Progressive Web Applications (PWA)
 
-- Live Search does not support [Progressive Web Applications (PWA)](https://developer.adobe.com/commerce/pwa-studio/) at this time.
+- Live Search does not support [PWA](https://developer.adobe.com/commerce/pwa-studio/) at this time.
 
 ## Before you begin
 
