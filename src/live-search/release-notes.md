@@ -10,7 +10,6 @@ These release notes describe the latest versions of Live Search and include:
 - {:.new} New features
 - {:.fix} Fixes and improvements
 - {:.bug} Known issues
-}
 
 ## Live Search 1.3.1
 
