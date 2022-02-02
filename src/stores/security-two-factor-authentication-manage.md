@@ -18,7 +18,7 @@ To reset authenticators from the command line and more advanced troubleshooting 
 {:.bs-callout-info}
 To reset 2FA providers for other users, you must be an _administrator_ with `All` permissions, or have `Custom` permissions for your role with System > Permissions > Two Factor Auth and System > Permissions > All Users selected. To learn more, see [User Roles]({% link system/permissions-user-roles.md %}).
 
-1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **All Users**.
+1. On the _Admin_ sidebar, go to **System** > _Permissions_ > **All Users**.
 
 1. Select the user and open the account in edit mode.
 
