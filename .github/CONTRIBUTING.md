@@ -85,7 +85,7 @@ You must complete the issue template. We will close your issue if you fail to co
 Have a question? Need help? Magento Documentation and other Contributors are available through:
 
 - [Slack](https://magentocommeng.slack.com/messages/CJP33CEKY) ([Join us](http://tinyurl.com/engcom-slack))
-- [Twitter @MagentoDevDocs](https://twitter.com/MagentoDevDocs)
+- [Twitter @AdobeCommrcDocs](https://twitter.com/AdobeCommrcDocs)
 - [E-mail](mailto:magento-docs@adobe.com)
 
 Thank you for contributing your brilliance to Magento Documentation!
