@@ -20,6 +20,7 @@ These release notes describe the latest versions of Live Search and include:
 - {:.fix} [Custom price attribute]({% link stores/attributes-input-types.md %}) no longer returns an error when configured as a [facet]({% link live-search/facets-add.md %}).
 - {:.fix} Fixed issue that caused an error to occur when no [currency symbol]({% link stores/currency-symbols.md %}) (`data-currency-symbol`) is available.
 - {:.fix} [Storefront popover]({{ site.devdocs_url }}/live-search/storefront-popover.html) now shows the [Special Price]({% link catalog/product-price-special.md %}) (minimum final price) when available.
+- {:.bug} Live Search does not display [out-of-stock products]({% link catalog/inventory-options-global.md %}) according to the [Stock Options]({% link configuration/catalog/inventory.md %}) configuration. The storefront popover always displays out-of-stock products and the product listing item count includes any out-of-stock products, although they might be filtered out when the page is rendered.
 
 ## Live Search 1.3.0
 
