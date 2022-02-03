@@ -17,16 +17,16 @@ By default, import history files are located in the `<Magento-root-directory>/va
 
 |Field|Description|
 |--- |--- |
-|ID| An nternal number used to designate a transfer.|
+|ID| An internal number used to designate a transfer.|
 |Start Date & Time| A specific date and time when the transfer took place.|
 |User| The customer who made the transfer.|
 |Imported file| Link for downloading the imported file.|
 |Error file| The corresponding error file.|
 |Execution Time| Time interval of the import process.|
-|Summary| The number of items created, updated and deleted, or the error message.|
+|Summary| The number of items created, updated, and deleted, or the error message.|
 
-## Download Imported/Error file
+## Download the Imported/Error file
 
-1. To download _Imported/Error_ file, click the **Download** link
+1. To download the _Imported/Error_ file, click **Download**.
 
-1. Locate the export file at the downloads location for your web browser and open the file.
+1. Locate the export file at the downloads location for your web browser and open it.
