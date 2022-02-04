@@ -9,8 +9,9 @@ To get started using Payment Services for Adobe Commerce and Magento Open Source
 1. [Connect your Magento instance](#configure-commerce-services) to Commerce Services. This only needs to be completed once per Magento instance.
 1. [Onboard and set up the sandbox service](#enable-sandbox-testing) (or, alternatively, proceed to [enabling live payments](#enable-live-payments) if you've tested functionality in another environment) to set up a test PayPal payment processing account.
 1. [Enable Payment Services as your payment method](#set-payment-services-as-payment-method), in sandbox mode, to start processing test payments.
-1. [Complete merchant onboarding](#complete-merchant-onboarding) to enable live payments for your Magento website(s).
 1. [Request payments entitlement](#request-payments-entitlement-from-adobe) to enable live onboarding.
+1. [Complete merchant onboarding](#complete-merchant-onboarding) to enable live payments for your Magento website(s).
+1. [Get your Payment Services Merchant ID](#configure-pricing-tier) and hand it to Sales to configure the correct pricing tier.
 1. [Enable Payment Services in live mode](#enable-live-payments) to begin processing live payments.
 1. Test Payments, in both [sandbox](#test-in-sandbox-environment) and [production](#test-in-production) environments.
 
@@ -222,13 +223,6 @@ After you [configure your Commerce Services](#configure-commerce-services) and e
 
 See [Configure Payment Services]({% link payment-services/configure-payments.md %}) for more information about configuring Credit Card Fields and PayPal Smart Buttons.
 
-## Request payments entitlement from Adobe
-
-To enable live onboarding you will need to request payments entitlement from Adobe [here](https://magento.com/resources/payment-services).
-
-{:.bs-callout .bs-callout-warning}
-<span class="btn">Live onboarding</span> will not be accessible until payments entitlement has been approved.
-
 ## Complete merchant onboarding
 
 1. On the _Admin_ sidebar go to **Sales** > **Payment Services**.
@@ -254,9 +248,26 @@ To enable live onboarding you will need to request payments entitlement from Ado
    {:.bs-callout .bs-callout-warning}
    If you revoke consent to Payment Services for Adobe Commerce and Magento Open Source for processing your payments (in your PayPal account settings), orders in your store cannot be processed by Payment Services.
 
+## Request payments entitlement from Adobe
+
+To enable live onboarding you will need to request payments entitlement from Adobe [here](https://magento.com/resources/payment-services).
+
+{:.bs-callout .bs-callout-warning}
+<span class="btn">Live onboarding</span> will not be accessible until payments entitlement has been approved.
+
+## Configure pricing tier
+
+To get your Payment Services _Merchant ID_:
+
+1. On the _Admin_ sidebar, navigate to **Stores** > _Settings_ > **Configuration**.
+1. In the left panel, expand **Sales** and choose **Payment Methods**.
+1. Expand the _Recommended Solutions_ section.
+1. In the _Payment Services_ section, expand the _General Configuration_ section.
+1. Select the required _Merchant ID_ and hand it to Sales to configure the correct pricing tier.
+
 ## Enable live payments
 
-A production merchant ID will be auto-generated and populated into the [configuration]({% link payment-services/configure-payments.md %}). Do not change or alter this ID.
+A _production merchant ID_ will be auto-generated and populated into the [configuration]({% link payment-services/configure-payments.md %}). Do not change or alter this ID.
 
 To enable live payments:
 
