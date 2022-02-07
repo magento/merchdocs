@@ -6,8 +6,7 @@ link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
 updated: Mon Feb 7 15:22:11 2022
 entries:
-- description: s<br/>Live Search [release notes](https://docs.magento.com/user-guide/live-search/release-notes.html)
-    updated for 1.3.1 release.
+- description: Updated the Live Search [release notes](https://docs.magento.com/user-guide/live-search/release-notes.html) for the 1.3.1 release.
   versions: 2.4.x
   type: Major update
   date: January 31, 2022
