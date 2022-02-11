@@ -43,6 +43,10 @@ Adobe offers two Commerce editions to fit the requirements of your eCommerce bus
 
 - {:.b2b-only}The B2B module extends all of the features of Adobe Commerce to meet the needs of companies who sell directly to other companies, rather than to consumers. It combines the convenience of business-to-consumer commerce with advanced account management, robust inventory control, negotiated pricing, bulk order management, and more.
 
+### PWA Studio
+
+- {:.pwa-only}PWA Studio is a toolkit to create PWA storefronts for your Adobe Commerce or Magento Open Source backends. The toolkit gives you React components to build your UI and GraphQL APIs to access your data. Get more information at [PWA Studio](https://developer.adobe.com/commerce/pwa-studio/).
+
 ## Learn the Basics
 
 This section of the guide provides information for the “why, where, and how” questions that most merchants have when first learning to use Adobe Commerce, as well as resources and reference information. It also functions as a springboard to more advanced topics.

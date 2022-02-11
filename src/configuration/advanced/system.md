@@ -14,26 +14,26 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Generate Schedules Every|Store View|Determines the frequency in minutes, that schedules are generated.|
-|Schedule Ahead for|Store View|Determines the number of minutes in advance that schedules are generated.|
-|Missed if Not Run Within|Store View|Determines the number of minutes before a cron job that hasn’t yet executed is marked as missed.|
-|History Cleanup Every|Store View|Determines the number of minutes that pass before the cron history is cleaned.|
-|Success History Lifetime|Store View|Determines the number of minutes that the record of successfully completed cron jobs is kept in the database.|
-|Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
-|Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
+|Generate Schedules Every|Global|Determines the frequency in minutes, that schedules are generated.|
+|Schedule Ahead for|Global|Determines the number of minutes in advance that schedules are generated.|
+|Missed if Not Run Within|Global|Determines the number of minutes before a cron job that hasn’t yet executed is marked as missed.|
+|History Cleanup Every|Global|Determines the number of minutes that pass before the cron history is cleaned.|
+|Success History Lifetime|Global|Determines the number of minutes that the record of successfully completed cron jobs is kept in the database.|
+|Failure History Lifetime|Global|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
+|Use Separate Process|Global|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
 
 ![]({% link configuration/advanced/assets/system-cron-group-default.png %}){: .zoom}
 [_Cron Group: Default_]({% link system/cron.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Generate Schedules Every|Store View|Determines the frequency in minutes, that schedules are generated.|
-|Schedule Ahead for|Store View|Determines the number of minutes in advance that schedules are generated.|
-|Missed if Not Run Within|Store View|Determines the number of minutes before a cron job that hasn’t yet executed is marked as missed.|
-|History Cleanup Every|Store View|Determines the number of minutes that pass before the cron history is cleaned.|
-|Success History Lifetime|Store View|Determines the number of minutes that the record of successfully completed cron jobs is kept in the database.|
-|Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
-|Use Separate Process|Store View|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
+|Generate Schedules Every|Global|Determines the frequency in minutes, that schedules are generated.|
+|Schedule Ahead for|Global|Determines the number of minutes in advance that schedules are generated.|
+|Missed if Not Run Within|Global|Determines the number of minutes before a cron job that hasn’t yet executed is marked as missed.|
+|History Cleanup Every|Global|Determines the number of minutes that pass before the cron history is cleaned.|
+|Success History Lifetime|Global|Determines the number of minutes that the record of successfully completed cron jobs is kept in the database.|
+|Failure History Lifetime|Global|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
+|Use Separate Process|Global|Determines if cron jobs are executed in parallel as separate processes. Options: Yes / No|
 
 {:.ee-only}
 ## MySQL Message Queue Cleanup
@@ -61,7 +61,7 @@ _MySQL Message Queue Cleanup_
 |Disable Email Communications|Store View|Determines if email communications are activated for the store. Options: Yes / No|
 |Host|Store View|(For Windows server only) Determines the name that is used to refer to the host. Default value: localhost|
 |Port (25)|Store View|(For Windows server only) Identifies the port used for email communications. Default value: 25|
-|Set Return-Path|Global|Determines if a routing address is used for returned emails. Options: No ([Recommended Security Measure](https://magento.com/security/news/new-zend-framework-1-security-vulnerability){:target="_blank"}) / Yes / Specified|
+|Set Return-Path|Store View|Determines if a routing address is used for returned emails. Options: No ([Recommended Security Measure](https://magento.com/security/news/new-zend-framework-1-security-vulnerability){:target="_blank"}) / Yes / Specified|
 |Return-Path Email|Global|Specifies the routing email address for returned emails.|
 
 ## Currency
@@ -92,7 +92,7 @@ _MySQL Message Queue Cleanup_
 |--- |--- |--- |
 |Use HTTPS to Get Feed|Global|Determines if Admin notifications are delivered over a secure channel. Options: Yes / No|
 |Update Frequency|Global|Determines the frequency of Admin message updates. Options: 1 Hour, 2 Hours, 6 Hours, 12 Hours, 24 Hours|
-|Last Update|Store View|Indicates the date and time of the last message update.|
+|Last Update|Global|Indicates the date and time of the last message update.|
 
 ## Scheduled Backup Settings
 

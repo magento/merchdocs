@@ -5,6 +5,9 @@ title: Order payment status report
 
 The Order payment status report helps you easily understand where a specific order is within the order to cash process flow. This report allows you to quickly view the payment status of your orders and identify any potential issues.
 
+![Admin view]({% link payment-services/assets/admin-view.png %}){:height="40%" width="40%"}{: .zoom}
+_Payment Services extension Admin view_
+
 You don't have to open multiple views to manually cross-references orders and payments. Payment Services for Adobe Commerce and Magento Open Source enables you to get a bird's-eye-view of your orders and payments---all within the Order payment status report.
 
 See payment statuses, invoiced and shipped statuses, refund statuses, dispute statuses, and more, all within this report in the Admin.
@@ -48,11 +51,35 @@ On the _Admin_ sidebar, go to **Sales** > **Payment Services** > **Order payment
 ![Admin - Order payment status]({% link payment-services/assets/order-payment-status-report.png %}){: .zoom}
 _Order payment statuses in the Admin_
 
+## Show filters
+
+In the Order payment status report view, you can filter by pay statuses and the min/max amount to see report results:
+
+1. Click the _Show filters_ (![]({% link assets/icon-showfilters.png %})) icon.
+1. Select the desired status used to filter orders:
+
+  ![Show filters selection]({% link payment-services/assets/filters.png %}){: .zoom}
+  _Show filters selection_
+
+The Filter List shows the different _FILTERING BY_ options:
+
+Filter | Description
+------------ | --------------------
+Pay Status Authorized | Orders that have been authorized.
+Pay Status Capture requested | Orders that capture has been requested.
+Pay Status Capture confirmed | Orders where capture has been confirmed.
+Pay Status Partial capture | Orders with a partial capture.
+Pay Status Capture failed | Orders where capture has failed.
+Pay Status Voided | Orders where transaction has been voided.
+Min/Max Order Amount | Orders with a grand total amount that meets the set minimum and/or maximum.
+
+When you filter orders by any of these pay statuses or the Min/Max order amount, a filter list displays the selected filters. These filters can be reset individually, or by clicking _Clear all_.
+
 ## Select data source
 
 In the Order payment status report view, you can select the data source---_Live_ or _Sandbox_---for which you want to see report results.
 
-![Data sources selection]({% link payment-services/assets/datasource.png %}){: .zoom}
+![Data sources selection]({% link payment-services/assets/datasource.png %}){:height="60%" width="60%"}{: .zoom}
 _Data sources selection_
 
 If _Live_ is the selected data source, you will see report information for your store(s) that utilize Payment Services in _Live_ mode. If _Sandbox_ is the selected data source, you will see report information for your Sandbox environment.
@@ -108,6 +135,9 @@ You can download a .csv file with all of the statuses visible in the Order payme
 1. Click the _Download_ (![]({% link assets/icon-download.png %})) icon.
 
 Your order payment statuses are downloaded in a .csv format.
+
+{:.bs-callout-warning}
+This .csv file contains all orders shown in the Order payment status view.
 
 <!-- ## Default order payment status timeframes
 

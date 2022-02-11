@@ -4,6 +4,9 @@ title: Payment Services
 
 Payment Services for {{ site.data.var.ee }} and {{ site.data.var.ce }} is your turnkey self-service solution, including sandbox testing and a simple setup, for providing robust and secure payment processing for your Commerce websites.
 
+![Admin view]({% link payment-services/assets/admin-view.png %}){:height="40%" width="40%"}{: .zoom}
+_Payment Services extension Admin view_
+
 Whether you are a small business, mid-market contender, or large enterprise, our payments solution will help you reduce operational overhead, increase revenue, and give you useful tools to improve the entire shopper experience.
 
 Payment Services is:
