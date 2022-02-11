@@ -21,6 +21,10 @@ See the developer documentation to [learn about product compatibility](https://d
 
 ## {{site.data.var.ee}} 2.3.x and 2.4.x
 
+## 3.3.6 of magento/product-recommendations
+
+- {:.new}Optimized Product Recommendations metapackage by explicitly listing the dependencies
+
 ### 3.3.5 of magento/product-recommendations
 
 - {:.new}Added [B2B support]({% link recommendations/onboarding.md %}#b2bsupport) in Product Recommendations
