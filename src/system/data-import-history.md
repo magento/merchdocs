@@ -25,8 +25,4 @@ By default, import history files are located in the `<Magento-root-directory>/va
 |Execution Time| Time interval of the import process.|
 |Summary| The number of items created, updated, and deleted, or the error message.|
 
-## Download the Imported/Error file
-
-1. To download the _Imported/Error_ file, click **Download**.
-
-1. Locate the export file at the downloads location for your web browser and open it.
+To download the _Imported/Error_ file, click **Download**.
