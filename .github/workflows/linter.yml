@@ -63,3 +63,4 @@ jobs:
           VALIDATE_HTML: false
           VALIDATE_JSCPD: false
           VALIDATE_XML: false
+          VALIDATE_NATURAL_LANGUAGE: false
