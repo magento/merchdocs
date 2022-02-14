@@ -11,6 +11,17 @@ These release notes describe the latest versions of Live Search and include:
 - {:.fix} Fixes and improvements
 - {:.bug} Known issues
 
+## Live Search 1.3.1
+
+- Compatible with {{site.data.var.ee}} (EE): 2.4.x
+- Compatible with {{site.data.var.ece}} (ECE): 2.4.x
+- Stability: Stable
+
+- {:.fix} [Custom price attribute]({% link stores/attributes-input-types.md %}) no longer returns an error when configured as a [facet]({% link live-search/facets-add.md %}).
+- {:.fix} Fixed issue that caused an error to occur when no [currency symbol]({% link stores/currency-symbols.md %}) (`data-currency-symbol`) is available.
+- {:.fix} [Storefront popover]({{ site.devdocs_url }}/live-search/storefront-popover.html) now shows the [Special Price]({% link catalog/product-price-special.md %}) (minimum final price) when available.
+- {:.bug} The Live Search GraphQL API currently returns out-of-stock products regardless of the Stock Options - [Display Out of Stock Products]({% link configuration/catalog/inventory.md %}) configuration. As a result, the storefront [popover]({{ site.devdocs_url }}/live-search/storefront-popover.html) always displays out-of-stock products. However, they appear in product listings according to the Display Out of Stock configuration setting, and are filtered as needed when the page is rendered. As a result, product listings might show no products, or have a mismatched item count.
+
 ## Live Search 1.3.0
 
 - Compatible with {{site.data.var.ee}} (EE): 2.4.x
