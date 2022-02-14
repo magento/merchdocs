@@ -14,3 +14,15 @@ _Import History_
 
 {:.bs-callout-info}
 By default, import history files are located in the `<Magento-root-directory>/var/import_history` folder. If the Remote storage module is enabled, import history files are located in the `<remote-storage-root-directory>/import_export/import_history` folder.
+
+|Field|Description|
+|--- |--- |
+|ID| An internal number used to designate a transfer.|
+|Start Date & Time| A specific date and time when the transfer took place.|
+|User| The customer who made the transfer.|
+|Imported file| Link for downloading the imported file.|
+|Error file| The corresponding error file.|
+|Execution Time| Time interval of the import process.|
+|Summary| The number of items created, updated, and deleted, or the error message.|
+
+To download the _Imported/Error_ file, click **Download**.
