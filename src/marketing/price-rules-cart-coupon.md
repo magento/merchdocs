@@ -106,10 +106,23 @@ The generation of discount coupons is an asynchronous operation, which executes 
 
 1. When complete, click <span class="btn">Generate</span>.
 
-   The list of generated codes appears below.
+   `Message is added to queue, wait to get your coupons soon` message is appeared. Make sure that cron is running on your server.
+
+   After the cron job was processed, the list of generated codes appears below.
 
    ![Cart price rule - generated coupon codes]({% link marketing/assets/coupons-generated.png %}){: .zoom}
    _Generated Codes_
+
+|Field|Description|
+|--- |--- |
+|Coupon Code|A unique code of coupon that was created and can be used for receiving special conditions.|
+|Created|The date when the coupon code was created.|
+|Used|Indicates if the coupon was used.|
+|Times Used|Indicates how many times the coupon code was used.|
+
+Coupon codes can be exported to CSV or Excel XML files. For doing that select the needed file format and click <span class="btn">Export</span>.
+
+To delete coupon codes, select needed codes from the list, select `Delete` from the **Actions** drop-down and click <span class="btn">Submit</span>.
 
    {:.bs-callout-info}
    Although Commerce allows configuring multiple coupon codes, a customer can use only one coupon code in the cart. To allow the use of more than one coupon code in the cart simultaneously, you could consider using a corresponding extension from [Commerce Marketplace](https://marketplace.magento.com/).
