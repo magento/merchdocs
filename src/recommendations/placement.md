@@ -5,12 +5,14 @@ group: marketing
 ee_only: true
 ---
 
-With so many recommendation types to choose from, which should you use on each page? Remember that experimentation is key. For example, you might try the following, track the [metrics]({% link recommendations/workspace.md %}), and adjust if needed.
+With so many recommendation types to choose from, which should you use on each page? If you are not sure where to begin, try the following:
 
 {: .fields-table }
 |Home page|`Recommended for you`|
 |Product page|`Viewed this, viewed that`|
 |Cart|`Bought this, bought that`|
+
+You can track the [metrics]({% link recommendations/workspace.md %}) and adjust if needed. Remember that experimentation is key.
 
 Some storefront pages restrict where you can place the recommendations. You can place the recommendations in one of the following page locations. Refer to the table below for more information.
 
