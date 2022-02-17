@@ -20,10 +20,6 @@ sections:
     content: Product reviews help build a sense of community, and are considered to be more credible than any advertising money can buy.
     url: /marketing/product-reviews.html
 
-  - title: dotdigital Engagement Cloud
-    content: Use dotdigital Engagement Cloud to automate professional, personalized communications and generate reports using data from your store.
-    url: /marketing/dotdigital/engagement-cloud.html
-
   - title: Image zoom
     content: When zoom is activated, customers can click the main image and move the cursor around to magnify different parts of the image.
     url: /catalog/media-browser.html

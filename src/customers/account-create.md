@@ -101,8 +101,6 @@ _Customer Information_
 
     If the store has views for different [languages]({% link stores/store-language-add.md %}), this setting determines the language of the Welcome email.
 
-1. If [Vertex Cloud]({% link tax/vertex.md %}) is enabled, enter the **Vertex Customer Code** that you want to use for this customer.
-
 1. Click <span class="btn">Save and Continue Edit</span>.
 
    After the customer account is saved, the full set of options appears in the left panel and in the menu at the top of the page. The _Customer View_ tab displays a summary of the account.
@@ -194,7 +192,6 @@ Additional buttons become available when the profile is saved for the first time
 |Tax / VAT Number|The customer's Tax or Value Added Tax number, if applicable.|
 |Gender|Identifies the customer's gender. The gender is included if specified in the [configuration]({% link configuration/customers/customer-configuration.md %}). Options: Male / Female / Not Specified|
 |Send Welcome Email From|If you have multiple store views, identifies the store view from which the Welcome message is sent. If store views are used for different languages, this determines the language of the Welcome email.|
-|Vertex Customer Code|(Requires Vertex Cloud) A unique code that is referenced for [customer exceptions]({% link tax/vertex-setup-customer-exceptions.md %}). The code can be an abbreviation of the customer name, number, or alphanumeric string.|
 
 ### Addresses
 

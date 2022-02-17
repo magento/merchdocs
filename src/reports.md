@@ -34,9 +34,6 @@ sections:
     content: Access business intelligence tools and reporting to gain valuable insights.
     url: /reports/business-intelligence.html
 
-  - title: Customer Engagement
-    content: Reports for dotdigital Engagement Cloud features. Configure report settings, sync data, and review reports for performance, campaigns, and more.
-    url: /reports/customer-engagement.html
 ---
 
 Learn how to filter data and online generate reports. The report data can be opened in a spreadsheet or imported into other applications.

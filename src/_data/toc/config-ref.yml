@@ -137,13 +137,6 @@ pages:
           url: "/configuration/sales/paypal-payflow-pro.html"
         - label: PayPal Payflow Link
           url: "/configuration/sales/paypal-payflow-link.html"
-    - label: Other Payment Methods
-      url: "/configuration/sales/payment-methods-other.html"
-      children:
-      - label: Klarna
-        url: "/configuration/sales/klarna.html"
-      - label: Amazon Pay
-        url: "/configuration/sales/amazon-pay.html"
   - label: 3D Secure
     url: "/configuration/sales/3d-secure.html"
     children:
@@ -152,43 +145,11 @@ pages:
   - label: Gift Cards
     url: "/configuration/sales/gift-cards.html"
     edition: ee-only
-  - label: Address Cleansing
-    url: "/configuration/sales/address-cleansing.html"
 - label: Sales Channels
   url: "/configuration/sales-channels.html"
   children:
   - label: Global Settings
     url: "/configuration/sales-channels/global-settings.html"
-- label: Yotpo
-  url: "/configuration/yotpo.html"
-  children:
-  - label: Reviews and Visual Marketing
-    url: "/configuration/yotpo/reviews-visual-marketing.html"
-- label: dotdigital
-  url: "/configuration/dotdigital.html"
-  children:
-  - label: Accounts
-    url: "/configuration/dotdigital/accounts.html"
-  - label: Chat Settings
-    url: "/configuration/dotdigital/chat-settings.html"
-  - label: Data Mapping
-    url: "/configuration/dotdigital/data-mapping.html"
-  - label: Sync Settings
-    url: "/configuration/dotdigital/sync-settings.html"
-  - label: Abandoned Carts
-    url: "/configuration/dotdigital/abandoned-carts.html"
-  - label: Automation
-    url: "/configuration/dotdigital/automation.html"
-  - label: Dynamic Content
-    url: "/configuration/dotdigital/dynamic-content.html"
-  - label: Transactional Emails
-    url: "/configuration/dotdigital/transactional-emails.html"
-  - label: Transactional SMS
-    url: "/configuration/dotdigital/transactional-sms.html"
-  - label: Configuration
-    url: "/configuration/dotdigital/configuration.html"
-  - label: Developer
-    url: "/configuration/dotdigital/developer.html"
 - label: Services
   url: "/configuration/services.html"
   children:
