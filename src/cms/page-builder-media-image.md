@@ -196,11 +196,11 @@ Text for these settings is visible to search engines and improves the way the pa
 
 - For **Alternative Text**, enter the _alt_ text that you want to be available to improve accessibility.
 
-   The use of alt text is an accessibility best practice, and in some locales is required by law. The `alt` attribute is a subset of the image tag. `<image title="tooltip" alt="description" src="image.jpg">`
+   The use of alt text is an accessibility best practice, and is required by law in some locales. In HTML, the `alt` attribute is a subset of the `image` tag: `<image title="tooltip" alt="description" src="image.jpg">`.
 
 - For **Title Attribute**, enter the text that you want to appear as a tooltip on mouseover.
 
-   As a best practice, choose a descriptive, keyword-rich title to improve the way the image is indexed by search engines. In HTML, the `title` attribute is a subset of the image tag. `<image title="tooltip" alt="description" src="image.jpg">`|
+   As a best practice, choose a descriptive, keyword-rich title to improve the way the image is indexed by search engines. In HTML, the `title` attribute is a subset of the `image` tag: `<image title="tooltip" alt="description" src="image.jpg">`.
 
 ## Advanced
 
