@@ -47,7 +47,7 @@ By default, all B2B features are initially disabled. However, they are always av
 
    Enabling shared catalogs also enables category permissions for all stores.
 
-   When the Shared Catalog feature is enabled, the **Enable Shared Catalog direct products price assigning** configuration option becomes available. When enabled, only products which have been assigned to a shared catalog are stored in the price index.
+   When the Shared Catalog feature is enabled, the **Enable Shared Catalog direct products price assigning** option is available. When this option is set to `Yes`, only products that are assigned to a shared catalog are stored in the price index.
 
 1. To give company buyers the ability to negotiate prices, set **Enable B2B Quote** to `Yes`.
 
