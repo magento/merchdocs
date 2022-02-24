@@ -37,7 +37,7 @@ If your storefront is implemented using PWA Studio, refer to the [PWA documentat
 
 ## Privacy
 
-Data collection for the purposes of Product recommendations does not include any personally identifiable information (PII). Additionally, all user identifiers like cookie IDs and IP addresses are strictly anonymized. [Learn more](https://www.adobe.com/privacy/policy.html).
+Data collection for the purposes of Product recommendations does not include any personally identifiable information (PII). Additionally, all user identifiers like cookie IDs and IP addresses are strictly anonymized. To learn more, see the [Adobe Privacy Policy](https://www.adobe.com/privacy/policy.html).
 
 ## Product recommendations versus product relationships
 
