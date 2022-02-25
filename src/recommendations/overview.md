@@ -35,6 +35,10 @@ Product recommendations are surfaced on the storefront as units with labels, suc
 {:.bs-callout-info}
 If your storefront is implemented using PWA Studio, refer to the [PWA documentation](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/). If you use a custom frontend technology such as React or Vue JS, learn how to [integrate]({% link recommendations/headless.md %}) Product Recommendations into your headless storefront.
 
+## Privacy
+
+Data collection for the purposes of Product recommendations does not include any personally identifiable information (PII). Additionally, all user identifiers like cookie IDs and IP addresses are strictly anonymized. To learn more, see the [Adobe Privacy Policy](https://www.adobe.com/privacy/policy.html).
+
 ## Product recommendations versus product relationships
 
 Given the ever-changing complexities of online shopping, what works best for your storefront is often a combination of multiple key technologies. Using both Product Recommendations and [Product Relationships]({% link marketing/product-relationships.md %}) gives you more flexibility when it comes to promoting products. You can leverage Product Recommendations powered by Adobe Sensei to intelligently automate your recommendations at scale. Then, you can leverage [Related Product Rules]({% link marketing/product-related-rules.md %}) when you need to manually intervene and ensure a specific recommendation is being made to a target shopper segment, or when certain business goals need to be met.
