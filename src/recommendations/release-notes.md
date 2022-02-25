@@ -24,7 +24,7 @@ See the developer documentation to [learn about product compatibility](https://d
 ## 3.3.7 of magento/product-recommendations
 
 - {:.new}Added PHP 8.1 support
-- {:.new}Improved image resizing so that different sized images are handled more consistently in the reference display template for Product Recommendations
+- {:.new}Improved image resizing so that different sized images are handled more consistently in the reference display template
 
 ## 3.3.6 of magento/product-recommendations
 
