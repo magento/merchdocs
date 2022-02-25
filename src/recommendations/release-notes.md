@@ -21,6 +21,11 @@ See the developer documentation to [learn about product compatibility](https://d
 
 ## {{site.data.var.ee}} 2.3.x and 2.4.x
 
+## 3.3.7 of magento/product-recommendations
+
+- {:.new}Added PHP 8.1 support
+- {:.new}Improved image resizing so that different sized images are handled more consistently in the reference display template for Product Recommendations
+
 ## 3.3.6 of magento/product-recommendations
 
 - {:.new}Optimized Product Recommendations metapackage by explicitly listing the dependencies
