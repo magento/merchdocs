@@ -6,3 +6,16 @@ This section is used to set up simple promotional blocks that present a selectio
 
 ![]({% link catalog/assets/product-related-up-sell-cross-sell.png %}){: .zoom}
 _Related Products, Up-Sells, and Cross-Sells_
+
+Every block consists of a list of products which belongs a specific option.
+
+|Field|Description|
+|--- |--- |
+|ID|A unique numeric identifier that is assigned to product entity.|
+|Thumbnail|Product's thumbnail image.|
+|Name|The name of the product.|
+|Status|Indicates the product's status. Options: `Enabled` / `Disabled`. Disabled products are not displayed in the blocks on the frontend.|
+|Attribute Set|The name of the attribute set that is used as a template for the product.|
+|SKU|The unique Stock Keeping Unit that is assigned to the product.|
+|Price|The unit price of the product.|
+|Action|Options: `Remove`. Removes a product from the block.|
