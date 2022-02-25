@@ -12,7 +12,7 @@ Coupon codes can be sent by email, or included in newsletters, catalogs, and adv
 
 If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled, you can use the _dotdigital Coupon URL Builder_ to dynamically generate personalized URLs with coupon codes that can be used in your dotdigital email campaigns. You can also resend a previously generated coupon code to the same contact. To learn more, see [Dynamic content: Coupon codes][1] in the dotdigital Help Centre.
 
-{:.bs-callout-note}
+{:.bs-callout-info}
 Verify that cron is running on your server.
 
 ## Method 1: Create a specific coupon
