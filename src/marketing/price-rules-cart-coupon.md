@@ -10,10 +10,10 @@ Coupons codes are used with [cart price rules]({% link marketing/price-rules-car
 
 Coupon codes can be sent by email, or included in newsletters, catalogs, and advertisements. The list of coupon codes can be exported and sent to a commercial printer. You can also create in-store coupons with a quick response code that shoppers can scan with their smart phones. The QR code can link to a page on your site with more information about the promotion.
 
-If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled, you can use the _dotdigital Coupon URL Builder_ to dynamically generate personalized URLs with coupon codes that can be used in your dotdigital email campaigns. You can also resend a previously generated coupon code to the same contact. To learn more, see [Dynamic content: Coupon codes][1] in the dotdigital Help Centre.
+If [dotdigital]({% link marketing/dotdigital/engagement-cloud.md %}) is enabled, you can use the _dotdigital Coupon URL Builder_ to dynamically generate personalized URLs with coupon codes that can be used in your dotdigital email campaigns. You can also resend a previously generated coupon code to the same contact. To learn more, see [Dynamic content: Coupon codes][1] in the dotdigital Help Center.
 
 {:.bs-callout-info}
-Verify that cron is running on your server.
+Before you create coupons, use the [bin/magento cron:run]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/cli/config-cli-subcommands-cron.html#config-cli-cron-group-run) command to verify that cron is running.
 
 ## Method 1: Create a specific coupon
 
@@ -116,12 +116,12 @@ The generation of discount coupons is an asynchronous operation, which executes 
    ![Cart price rule - generated coupon codes]({% link marketing/assets/coupons-generated.png %}){: .zoom}
    _Generated Codes_
 
-|Field|Description|
-|--- |--- |
-|Coupon Code|A unique code of coupon that was created and can be used for receiving special conditions.|
-|Created|The date when the coupon code was created.|
-|Used|Indicates if the coupon was used.|
-|Times Used|Indicates how many times the coupon code was used.|
+| Field       | Description                                                                                |
+|-------------|--------------------------------------------------------------------------------------------|
+| Coupon Code | A unique code of coupon that was created and can be used for receiving special conditions. |
+| Created     | The date when the coupon code was created.                                                 |
+| Used        | Indicates if the coupon was used.                                                          |
+| Times Used  | Indicates how many times the coupon code was used.                                         |
 
 You can export coupon codes to a CSV or Excel XML file by selecting the file format and clicking <span class="btn">Export</span>.
 
