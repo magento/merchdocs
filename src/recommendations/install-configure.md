@@ -22,15 +22,6 @@ Install the `magento/product-recommendations` module with Composer:
    composer require magento/product-recommendations
    ```
 
-The `magento/product-recommendations` module requires the following dependencies:
-
-- data-services — This module enables behavioral data collection by tracking user [events]({{ site.devdocs_url }}/recommendations/events.html) on the page. This type of data is required by Adobe Sensei to compute product affinities based on production shopper behavior like product views, products added to a cart, and checkouts. Adobe Sensei then uses this information to create and train machine learning models for each website and store view. This unlocks recommendation types like "Customers who viewed this, also viewed...", which automatically adjusts with shopper behavior over time. Adobe Commerce and Adobe Sensei do not collect personally identifiable information.
-
-- saas-export — This module syncs catalog data. This type of data provides product information to the Product Recommendations service so it can accurately return product names, pricing, images, URLs, inventory and availability, and other attributes.
-
-   {:.bs-callout-info}
-   If you prefer, you can install the modules explicitly using Composer: `composer require magento/data-services` and `composer require magento/saas-export`
-
 ### Add Page Builder support {#pbsupport}
 
 Product Recommendations for [Page Builder]({% link cms/page-builder.md %}) is an optional module and is installed separately. To use Product Recommendations with Page Builder, install the module by running the following command:
