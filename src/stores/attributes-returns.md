@@ -65,9 +65,9 @@ _Returns Attributes_
 
 1. If the **Input Type** for the attribute is `Dropdown`, manage the options in the **Manage Options (Values of Your Attribute)** section.
 
-   - To add an option, click <span class="btn">Add Option</span> and enter the label for Admin and each store view.
-   - To make an option selected by default, choose **Is Default**.
-   - To remove an option, click **Delete**.
+    - To add an option, click <span class="btn">Add Option</span> and enter the label for Admin and each store view.
+    - To make an option selected by default, choose **Is Default**.
+    - To remove an option, click **Delete**.
 
 1. To save changes, click <span class="btn">Save Attribute</span>.
 
