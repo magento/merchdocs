@@ -26,13 +26,13 @@ The Gift Options configuration applies to the entire website, but can be overrid
 
 1. Set the gift message options according to your preference:
 
-   - **Allow Gift Messages on Order Level**
-   - **Allow Gift Messages for Order Items**
+   - For **Allow Gift Messages on Order Level**, select `Yes` to enable a single gift message for the whole order.
+   - For **Allow Gift Messages for Order Items**, select `Yes` to enable adding gift messages separately to individual items in the customer shopping cart.
 
 1. {:.ee-only}Set the gift wrapping options according to your preference:
 
-   - **Allow Gift Wrapping on Order Level**
-   - **Allow Gift Wrapping for Order Items**
+   - For **Allow Gift Wrapping on Order Level**, select `Yes`to enable a single gift wrapping for the entire order.
+   - For **Allow Gift Wrapping for Order Items** select `Yes` to enable adding gift wrapping individually to each item in the customer shopping cart.
 
    You can also define different [gift wrapping designs]({% link sales/gift-wrap.md %}) so that customers can choose the wrapping.
 
