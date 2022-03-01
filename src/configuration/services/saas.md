@@ -24,6 +24,6 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |SaaS Project|Global|Name of the SaaS project that groups all of your SaaS data spaces. A _Create Project_ button appears if no SaaS projects exist.|
-|SaaS Data Space|Global|Lists the SaaS data spaces in the specified SaaS project. The number of SaaS Data Spaces that appears depends on your [Commerce license]({% link system/saas.md}#apikey):<br />Adobe Commerce - One production data space; two testing data spaces;<br />Magento Open Source - One production data space; no testing data spaces|
+|SaaS Data Space|Global|Lists the SaaS data spaces in the specified SaaS project. The number of SaaS Data Spaces that appears depends on your [Commerce license]({% link system/saas.md %}#apikey):<br />Adobe Commerce - One production data space; two testing data spaces;<br />Magento Open Source - One production data space; no testing data spaces|
 
 To learn how to connect your store to Adobe Commerce services, see [Commerce Services]({% link system/saas.md %}).
