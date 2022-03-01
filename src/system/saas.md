@@ -25,7 +25,7 @@ The following sections discuss each of these elements in more detail.
 
 ## Credentials {#apikey}
 
-The API key and private key are generated from the Commerce account of the license holder, which is identified by a unique Commerce ID (MageID). To pass entitlement validation for services such as Product Recommendations or Live Search, only the license holder can generate the set of keys. The keys can be shared on a "need to know" basis with the systems integrator or development team that manages projects and environments on behalf of the license holder. If you are a solution integrator, the signer of the Commerce partner contract should generate the keys.
+The API key and private key are generated from the Commerce account of the license holder, which is identified by a unique Commerce ID (MageID). To pass entitlement validation for services such as Product Recommendations or Live Search, the license holder of the merchant's organization can generate the set of API keys. The keys can be shared on a "need to know" basis with the systems integrator or development team that manages projects and environments on behalf of the license holder. Additionally, solution integrators are also entitled to use Commerce services. If you are a solution integrator, the signer of the Commerce partner contract should generate the API keys.
 
 ### Generate an API key and private key {#genapikey}
 
