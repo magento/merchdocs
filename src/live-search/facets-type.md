@@ -44,6 +44,9 @@ For the Commerce storefront, the facet label is determined by the [_Attribute Pr
 
 All facets rendered for the storefront are sorted alphabetically. For headless implementations, facets can be sorted alphabetically or by count.
 
+{:.bs-callout-info}
+Live Search does not currently support sorting by date attributes.
+
 |**Sort type**|**Description**|
 |---|---|
 |Alphabetic|In the storefront _Filters_ list, facets are sorted alphabetically.|
