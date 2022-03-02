@@ -38,6 +38,8 @@ The following example shows how to create a customer segment that targets female
 
 1. Set **Assigned to Website** to the website where the customer segment can be used.
 
+1. Set the **Status** to make customer segment to be _Active_ or _Inactive_.
+
 1. To identify the customer types that you want to use for applying the segment, set **Apply to** to one of the following:
 
    Visitors and Registered Customers |Includes all shoppers, regardless of whether they are logged in to an account.
@@ -140,6 +142,8 @@ The customer segment can now be used for targeting promotions, content, and mail
 |<span class="btn">Save and Continue Edit</span>|Saves changes and keeps the customer segment open.|
 |<span class="btn">Save </span>|Saves changes and closes the customer segment.|
 
+## Matched Customers Grid
+
 |Column|Description|
 |--- |--- |
 |ID|The customer ID of a registered customer.|
@@ -151,3 +155,12 @@ The customer segment can now be used for targeting promotions, content, and mail
 |Country|The country where the customer is located.|
 |State / Province|The state or province where the customer is located.|
 |Customer Since|The date and time the customer account was created.|
+
+## Customer Segments Grid
+
+|Column|Description|
+|--- |--- |
+|ID|The unique ID of customer segment.|
+|Segment|The name of customer segment given while creating.|
+|Status|Indicates is the customer segment __Active__ or __Inactive__.|
+|Website|Indicates to what website customer segment is belongs.|
