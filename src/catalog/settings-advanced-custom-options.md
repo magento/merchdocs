@@ -54,7 +54,7 @@ _Cart with Customizable Option and Price Rule_
 
    - Enter a **SKU** for the option. The option SKU is a suffix that is added to the product SKU.
 
-   - If the `Option Type` is **File**, enter the separated extensions, like: `png`, `jpg`, `gif` into **Compatible File Extensions** field, and image size in px. into **Maximum Image Size** field.
+   - If the _Option Type_ is `File`, set the parameters for the file. For **Compatible File Extensions**, enter the valid extensions as comma-separated values (such as `png, jpg, gif`). For **Maximum Image Size**, enter the maximum image size in pixels.
 
    - To change the order of the options, click the **Change Order** ![]({% link assets/icon-sort-order.png %}) icon and drag the option to a new position in the list.
 
