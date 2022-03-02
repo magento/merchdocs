@@ -7,11 +7,11 @@ The Products in Category section lists the products that are currently assigned 
 {:.bs-callout-tip}
 During category rule setup, the products are _sorted_, _matched_, _assigned_, and _unassigned_ according to that rule **_only_** when this category is saved. For example, if you add a new product to the catalog and want to assign it according to the rule, you **must re-save each category** that is set to match products by rule to ensure that the new product is assigned. Also, if any product stock status is changed to `In Stock` or `Out of Stock` and products in the category should be _sorted_ according to the **Automatic Sorting** rule, you must click <span class="btn">Save Category</span> as well.
 
-![]({% link catalog/assets/category-products-in-category-new.png %}){: .zoom}
+![]({% link catalog/assets/category-products-in-category.png %}){: .zoom}
 _Category Products_
 
 {:.bs-callout-info}
-`Stock` column displays salable product quantity for _**selected category scope**_ only. In case when multiple stocks are managed for products, you should switch between the corresponding scopes to display another `Stock` column values on the `Category Products` grid.
+The _Stock_ column displays salable product quantity for _**selected category scope**_ only. When multiple stocks are managed for products, you should switch between the corresponding scopes to display other _Stock_ column values in the _Category Products_ grid.
 
 {:.ee-only}
 ## Apply a category rule
