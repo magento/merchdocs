@@ -163,4 +163,4 @@ The customer segment can now be used for targeting promotions, content, and mail
 |ID|The unique ID of customer segment.|
 |Segment|The name of customer segment.|
 |Status|Indicates whether the customer segment is __Active__ or __Inactive__.|
-|Website|Indicates to what website the customer segment belongs.|
+|Website|Indicates the website to which the customer segment belongs.|
