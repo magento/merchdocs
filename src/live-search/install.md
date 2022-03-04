@@ -42,7 +42,7 @@ At this time, the Live Search category search / category API has the following s
 - Live Search does not have access to the full taxonomy of the category tree, which makes some layered navigation search scenarios beyond its reach.
 - Live Search uses a unique GraphQL endpoint for queries to support features such as intelligent faceting and search-as-you-type. Although similar to the [Magento GraphQL API](https://devdocs.magento.com/guides/v2.4/graphql), there are a few differences and some fields may not be fully compatible at this time.
 
-### Functionality not supported at this time
+### Not supported at this time
 
 - The [Advanced Search]({% link catalog/search-advanced.md %}) module is disabled when Live Search is installed. The Advanced Search link in the storefront footer currently returns a blank page when Live Search is installed.
 - [Customer groups]({% link customers/customer-groups.md %})
