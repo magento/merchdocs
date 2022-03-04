@@ -13,7 +13,9 @@ _Customer reorder link in the Admin_
 
 - If order is in Hold or in Payment Review status, the reorder option is disabled.
 
-- If any of the items in the order is unavailable, out of stock, or disabled, the reorder option is disabled.
+- If any of the items in the order is unavailable, out of stock, or disabled, the reorder option is disabled on the _Storefront_.
+
+- Reorder option is enabled in the _Admin_ if any of the items in the order is out of stock, or disabled.
 
 ## Configure customer reorders
 
