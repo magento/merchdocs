@@ -47,6 +47,7 @@ At this time, the Live Search category search / category API has the following s
 - The [Advanced Search]({% link catalog/search-advanced.md %}) module is disabled when Live Search is installed. The Advanced Search link in the storefront footer currently returns a blank page when Live Search is installed.
 - [Customer groups]({% link customers/customer-groups.md %})
 - [Custom price groups]({% link catalog/product-price-group.md %})
+- [Category permissions]({% link catalog/category-permissions.md %})
 - Multiple inventory locations as used by [MCOM]({% link mcom/mcom-menu.md %}) or other OMS extensions
 - [{{site.data.var.b2b}}](https://magento.com/solutions/b2b)
 - [PWA](https://developer.adobe.com/commerce/pwa-studio/)
