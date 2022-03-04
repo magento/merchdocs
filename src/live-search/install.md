@@ -31,28 +31,25 @@ The installation takes place from the command line of the server. Rather than re
 
 At this time, the Live Search category search / category API has the following supported limits and static boundaries:
 
-### Indexing
+### Indexing boundaries
 
 - Indexes up to 300 product attributes per store view
 - Indexes only products from the Adobe Commerce database
 - Does not index CMS pages
 
-### Functionality
-
-- Storefront [Advanced (Form) Search]({% link catalog/search-advanced.md %}) module
-- [Customer groups]({% link customers/customer-groups.md %})
-- [Custom price groups]({% link catalog/product-price-group.md %})
-- Multiple inventory locations as used by [MCOM]({% link mcom/mcom-menu.md %}) or other OMS extensions
-- [{{site.data.var.b2b}}](https://magento.com/solutions/b2b)
-
-### Queries
+### Query limits
 
 - Live Search does not have access to the full taxonomy of the category tree, which makes some layered navigation search scenarios beyond its reach.
 - Live Search uses a unique GraphQL endpoint for queries to support features such as intelligent faceting and search-as-you-type. Although similar to the [Magento GraphQL API](https://devdocs.magento.com/guides/v2.4/graphql), there are a few differences and some fields may not be fully compatible at this time.
 
-### Progressive Web Applications (PWA)
+### Functionality not supported at this time
 
-- Live Search does not support [PWA](https://developer.adobe.com/commerce/pwa-studio/) at this time.
+- The [Advanced Search]({% link catalog/search-advanced.md %}) module is disabled when Live Search is installed. The Advanced Search link in the storefront footer currently returns a blank page when Live Search is installed.
+- [Customer groups]({% link customers/customer-groups.md %})
+- [Custom price groups]({% link catalog/product-price-group.md %})
+- Multiple inventory locations as used by [MCOM]({% link mcom/mcom-menu.md %}) or other OMS extensions
+- [{{site.data.var.b2b}}](https://magento.com/solutions/b2b)
+- [PWA](https://developer.adobe.com/commerce/pwa-studio/)
 
 ## Before you begin
 
