@@ -87,7 +87,7 @@ In this scenario, storefront operations are interrupted while the Live Search se
 1. Run the following commands to disable Elasticsearch and related modules and install Live Search:
 
    ```bash
-   bin/magento module:disable Magento_Elasticsearch Magento_Elasticsearch6 Magento_Elasticsearch7 Magento_ElasticsearchCatalogPermissions Magento_AdvancedSearch  Magento_InventoryElasticsearch
+   bin/magento module:disable Magento_Elasticsearch Magento_Elasticsearch6 Magento_Elasticsearch7 Magento_ElasticsearchCatalogPermissions Magento_InventoryElasticsearch
    ```
 
    ```bash
@@ -167,7 +167,7 @@ To avoid typing errors, hover over the far right of each box of code, click the 
    ```
 
    ```bash
-   bin/magento module:disable Magento_Elasticsearch Magento_Elasticsearch6 Magento_Elasticsearch7 Magento_ElasticsearchCatalogPermissions Magento_AdvancedSearch Magento_InventoryElasticsearch
+   bin/magento module:disable Magento_Elasticsearch Magento_Elasticsearch6 Magento_Elasticsearch7 Magento_ElasticsearchCatalogPermissions Magento_InventoryElasticsearch
    ```
 
    ```bash
@@ -226,11 +226,19 @@ To update Live Search, run the following from the command line:
 composer update magento/live-search --with-dependencies
 ```
 
-To update to a major version such as from 1.0 to 2.0, edit the project’s root Composer `.json` file as follows:
+To update to a major version such as from 1.0.0 to 2.0.0, edit the project’s root Composer `.json` file as follows:
 
-1. Open the root `composer.json` file and search for `magento/live-search`.
+1. If your currently installed `magento/live-search` version is `1.3.1` or below and you upgrading to version `2.0.0` and higher run the following command before upgrade:
+```bash 
+bin/magento module:enable Magento_AdvancedSearch
+```
+To get information about currently installed `magento/live-search` version run the following command:
+```bash
+composer show magento/live-search
+```
+2. Open the root `composer.json` file and search for `magento/live-search`.
 
-1. In the `require` section, update the version number as follows:
+3. In the `require` section, update the version number as follows:
 
    ```json
    "require": {
@@ -240,7 +248,7 @@ To update to a major version such as from 1.0 to 2.0, edit the project’s root 
     }
    ```
 
-1. **Save** `composer.json`. Then, run the following from the command line:
+4. **Save** `composer.json`. Then, run the following from the command line:
 
    ```bash
    composer update magento/live-search –-with-dependencies
