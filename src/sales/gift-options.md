@@ -31,7 +31,7 @@ The Gift Options configuration applies to the entire website, but can be overrid
 
 1. {:.ee-only}Set the gift wrapping options according to your preference:
 
-   - For **Allow Gift Wrapping on Order Level**, select `Yes`to enable a single gift wrapping for the entire order.
+   - For **Allow Gift Wrapping on Order Level**, select `Yes` to enable a single gift wrapping for the entire order.
    - For **Allow Gift Wrapping for Order Items**, select `Yes` to enable adding gift wrapping individually to each item in the customer shopping cart.
 
    You can also define different [gift wrapping designs]({% link sales/gift-wrap.md %}) so that customers can choose the wrapping.
