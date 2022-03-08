@@ -15,8 +15,9 @@ Live Search returns "search as you type" results for a query of two or more char
 
 To customize the popover, do the following:
 
--  To change the number of available lines in the popover, refer to [Configuring Catalog Search]({% link catalog/search-configuration.md %}) - Method 1, and change the `Autocomplete Limit` value.
--  To style the popover, refer to [Storefront Popover]({{ site.devdocs_url }}/live-search/storefront-popover.html) in the Live Search developer documentation.
+- To change the number of available lines for search results in the popover, refer to [Configuring Catalog Search]({% link catalog/search-configuration.md %}) - Method 1, and change the `Autocomplete Limit` value.
+
+- To style the popover, refer to [Storefront Popover]({{ site.devdocs_url }}/live-search/storefront-popover.html) in the Live Search developer documentation.
 
 ![Example storefront - search as you type]({% link live-search/assets/storefront-search-as-you-type.png %}){: .zoom}
 _Search as you type_

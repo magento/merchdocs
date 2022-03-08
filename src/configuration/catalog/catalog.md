@@ -189,7 +189,7 @@ There are two variations of the Catalog Search configuration: The settings that 
 
 ### Adobe Commerce with Live Search
 
-Catalog Search includes the following configuration settings when Live Search is installed:
+When Live Search is installed, Catalog Search includes the following configuration settings:
 
 ![]({% link configuration/catalog/assets/catalog-search-live-search.png %}){: .zoom}
 [Catalog Search for Live Search]({% link catalog/search-configuration.md %})
@@ -199,7 +199,7 @@ Catalog Search includes the following configuration settings when Live Search is
 |Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to `2` in Adobe Commerce, update the value in your search engine.|
 |Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to 300 in Adobe Commerce, update the value in your search engine.|
 |Number of top search results to cache|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of `0` caches all search terms and results when entered a second time. Default value: 100|
-|Autocomplete Limit|Store View|Determines the maximum number of lines available in the [storefront popover] page. The default value can be changed when Live Search is installed, and updated later by changing this configuration setting. Default value: 6|
+|Autocomplete Limit|Store View|Determines the maximum number of lines available in the [storefront popover] page. The default value can be changed when Live Search is installed, and updated later by changing this configuration setting. Default value: 8|
 
 ### Adobe Commerce with Elasticsearch
 
