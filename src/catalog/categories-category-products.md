@@ -10,6 +10,9 @@ During category rule setup, the products are _sorted_, _matched_, _assigned_, an
 ![]({% link catalog/assets/category-products-in-category.png %}){: .zoom}
 _Category Products_
 
+{:.bs-callout-info}
+The _Stock_ column displays salable product quantity for _**selected category scope**_ only. When multiple stocks are managed for products, you should switch between the corresponding scopes to display other _Stock_ column values in the _Category Products_ grid.
+
 {:.ee-only}
 ## Apply a category rule
 
