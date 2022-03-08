@@ -9,7 +9,7 @@ These release notes describe the latest versions of Live Search and include:
 
 - {:.new} New features
 - {:.fix} Fixes and improvements
-- {:.bug} Known issues
+- {:.bug} Known issue
 
 ## Live Search 2.0
 
