@@ -230,7 +230,7 @@ To update to a major version such as from 1.0.0 to 2.0.0, edit the project’s r
 
 1. If your currently installed `magento/live-search` version is `1.3.1` or below and you upgrading to version `2.0.0` and higher run the following command before upgrade:
 
-   ```bash 
+   ```bash
    bin/magento module:enable Magento_AdvancedSearch
    ```
    To get information about currently installed `magento/live-search` version run the following command:
