@@ -226,8 +226,7 @@ To update Live Search, run the following from the command line:
    composer update magento/live-search --with-dependencies
    ```
 
-   To update to a major version such as from 1.0.0 to 2.0.0, edit the project’s root Composer `.json` file as follows:
-
+To update to a major version such as from 1.0.0 to 2.0.0, edit the project’s root Composer `.json` file as follows:
 1. If your currently installed `magento/live-search` version is `1.3.1` or below and you upgrading to version `2.0.0` and higher run the following command before upgrade:
 
    ```bash 
