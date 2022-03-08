@@ -11,6 +11,18 @@ These release notes describe the latest versions of Live Search and include:
 - {:.fix} Fixes and improvements
 - {:.bug} Known issues
 
+## Live Search 2.0
+
+- Compatible with {{site.data.var.ee}} (EE): 2.4.x
+- Compatible with {{site.data.var.ece}} (ECE): 2.4.x
+- Stability: Stable
+
+- {:.new} The number of available lines in the [storefront popover]({% link live-search/quick-tour.md %}) can be configured from the Admin.
+- {:.new} Beta [PWA](https://developer.adobe.com/commerce/pwa-studio/) compatibility for Live Search.
+- {:.new} The Live Search installation process is updated with advanced process changes.
+- {:.fix} [Advanced Search]({% link catalog/search-advanced.md %}) link removed from the storefront footer.
+- {:.bug} The following product attributes are not supported by [GraphQL](https://devdocs.magento.com/live-search/graphql-support.html) when used in relation to the beta release of PWA: `description`, `name`, `short_description`
+
 ## Live Search 1.3.1
 
 - Compatible with {{site.data.var.ee}} (EE): 2.4.x
