@@ -233,7 +233,7 @@ To update to a major version such as from 1.0.0 to 2.0.0, edit the project’s r
    ```bash
    bin/magento module:enable Magento_AdvancedSearch
    ```
-   To get information about currently installed `magento/live-search` version run the following command:
+   For information about the currently installed `magento/live-search` version, run the following command:
 
    ```bash
    composer show magento/live-search
