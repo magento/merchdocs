@@ -32,7 +32,7 @@ _Vertex - Integration Settings_
 |Vertex Tax Calculation|Website|Enables Vertex Cloud for the website that is indicated by the current scope setting. Options: Enable / Disable|
 |Commit to Tax Journal When|Website|Determines when the information about each invoice is sent to Vertex Cloud. Options: <br/>**Invoice Created** - Commerce sends the information when a sales order is [invoiced]({% link sales/invoice-create.md %}), according to the [workflow]({% link sales/order-status-workflow.md %}). <br/>**Order Status Is Changed** - Commerce sends the information when the [status]({% link sales/order-status.md %}) of a sales order changes. When selected, the _Invoice When Order Status_ options appear. <br/>**Invoice When Order Status** - Determines the sales [order status]({% link sales/order-status.md %}) when Vertex Cloud generates the invoice, according to the [workflow]({% link sales/order-workflow.md %}). Status options: Pending / Processing / Suspected Fraud / Complete / Closed / Canceled / On Hold <br/><br/>**_Note:_**  If you choose the `Suspected Fraud` status, it causes tax to appear as a negative amount in Vertex Cloud when an offline refund is issued for a credit memo. If you choose the _Canceled_ status, it does not allow invoice refunds to be issued from Commerce. For either of these status options, you must check your Vertex Cloud account to verify that the invoice has been sent.|
 |Allowed Countries|Website|Determines the countries and nations for assessing tax on order destination addresses. The billing address will be used when a shipping address is absent. Default values: Canada, United States|
-|Summarize Tax By|Website|Determines how tax is summarized for orders. Product and Shipping breaks down taxes by actions, such as Sales and Use and Shipping. Jurisdiction breaks down costs by country shipping through. Options: Product and Shipping (default) / Jurisdiction
+|Summarize Tax By|Website|Determines how tax is summarized for orders. Product and Shipping breaks down taxes by actions, such as Sales and Use and Shipping. Jurisdiction breaks down costs by country shipping. Options: Product and Shipping (default) / Jurisdiction|
 
 ### Flexible Fields
 
@@ -151,7 +151,7 @@ _Vertex - Developer & Support Information_
 |Display Prices|Store View|Determines if shopping cart prices include or exclude tax, or show two versions of the price; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 |Display Subtotal|Store View|Determines if the shopping cart subtotal includes or excludes tax, or shows two versions of the subtotal; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 |Display Shipping Amount|Store View|Determines if the shopping cart shipping amount includes or excludes tax, or shows two versions of the shipping amount; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
-|Include Tax in Grand Total|Store View|Determines if tax is included in the shopping cart grand total. Options: Yes / No|
+|Additionally Show Order Total Without Tax|Store View|Determines if an additional line with the grand total amount without tax is displayed in the shopping cart. Options: Yes / No|
 |Display Full Tax Summary|Store View|Determines if the shopping cart includes a full tax summary. Options: Yes / No|
 |Display Zero Tax Subtotal|Store View|Determines if the shopping cart includes a tax subtotal when the tax is zero. Options: Yes / No|
 
@@ -165,7 +165,7 @@ _[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.
 |Display Prices|Store View|Determines if the prices on sales documents include or exclude tax, or if each document shows two versions of the price; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 |Display Subtotal|Store View|Determines if the subtotal on sales documents includes or excludes tax, or if each document shows two versions of the subtotal; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 |Display Shipping Amount|Store View|Determines if the shipping amount on sales documents includes or excludes tax, or if each document shows two versions of the subtotal; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
-|Include Tax in Order Total|Store View|Determines if the grand total on sales documents includes  tax. Options include: Yes / No|
+|Additionally Show Order Total Without Tax|Store View|Determines if an additional line with the grand total amount without tax is displayed on sales documents. Options include: Yes / No|
 |Display Full Tax Summary|Store View|Determines if the full tax summary appears on sales documents. Options: Yes / No|
 |Display Zero Tax Subtotal|Store View|Determines of the subtotal section on sales documents appears when no tax is charged. Options: Yes / No|
 |<span class="ee-only">Display Gift Wrapping Prices</span>|Store View|Determines if gift wrapping prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
