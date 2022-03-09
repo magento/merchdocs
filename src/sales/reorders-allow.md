@@ -7,13 +7,15 @@ When enabled, reorders can be made directly from the customer account or from th
 ![]({% link sales/assets/customer-reorder.png %}){: .zoom}
 _Customer reorder link in the Admin_
 
-## Criteria for reorder to be allowed for an order
+## Criteria for reorder to be enabled for an order
 
 - The _Allow Reorder_ configuration option must be enabled.
 
 - If order is in Hold or in Payment Review status, the reorder option is disabled.
 
-- If any of the items in the order is unavailable, out of stock, or disabled, the reorder option is disabled.
+- If any of the items in the order is unavailable, out of stock, or disabled, the reorder option is disabled on the _Storefront_.
+
+- An _Admin_ can reorder even if any of the items are out of stock or disabled.
 
 ## Configure customer reorders
 
