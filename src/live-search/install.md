@@ -42,6 +42,10 @@ At this time, the Live Search category search / category API has the following s
 - Live Search does not have access to the full taxonomy of the category tree, which makes some layered navigation search scenarios beyond its reach.
 - Live Search uses a unique GraphQL endpoint for queries to support features such as intelligent faceting and search-as-you-type. Although similar to the [Magento GraphQL API](https://devdocs.magento.com/guides/v2.4/graphql), there are a few differences and some fields may not be fully compatible at this time.
 
+### PWA beta release
+
+- The following product attributes are not supported by GraphQL when used in relation to the beta release of [PWA](https://developer.adobe.com/commerce/pwa-studio/): `description`, `name`, `short_description`
+
 ### Not supported at this time
 
 - The [Advanced Search]({% link catalog/search-advanced.md %}) module is disabled when Live Search is installed, and the Advanced Search link in the storefront footer is removed.
@@ -50,7 +54,6 @@ At this time, the Live Search category search / category API has the following s
 - [Category permissions]({% link catalog/category-permissions.md %})
 - Multiple inventory locations as used by [MCOM]({% link mcom/mcom-menu.md %}) or other OMS extensions
 - [{{site.data.var.b2b}}](https://magento.com/solutions/b2b)
-- The following product attributes are not supported by GraphQL when used in relation to the beta release of [PWA](https://developer.adobe.com/commerce/pwa-studio/): `description`, `name`, `short_description`
 
 ## Before you begin
 
@@ -226,12 +229,12 @@ To update Live Search, run the following from the command line:
 
 To update to a major version such as from 1.0.0 to 2.0.0, edit the project’s root Composer `.json` file as follows:
 
-1. If your currently installed `magento/live-search` version is `1.3.1` or below and you upgrading to version `2.0.0` and higher run the following command before upgrade:
+1. If your currently installed `magento/live-search` version is `1.3.1` or below, and you upgrading to version `2.0.0` or higher, run the following command before the update:
 
    ```bash
    bin/magento module:enable Magento_AdvancedSearch
    ```
-   To get information about currently installed `magento/live-search` version run the following command:
+   To get information about the currently installed `magento/live-search` version, run the following command:
 
    ```bash
    composer show magento/live-search
