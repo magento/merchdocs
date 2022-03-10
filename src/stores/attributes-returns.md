@@ -61,7 +61,13 @@ _Returns Attributes_
 
 1. In the left panel, choose **Manage Labels/Options**.
 
-1. Enter the **Default Store View**.
+1. In the **Manage Titles (Size, Color, etc.)** section, enter the label for each store view.
+
+1. If the **Input Type** for the attribute is `Dropdown`, manage the options in the **Manage Options (Values of Your Attribute)** section.
+
+    - To add an option, click <span class="btn">Add Option</span> and enter the label for Admin and each store view.
+    - To make an option selected by default, choose **Is Default**.
+    - To remove an option, click **Delete**.
 
 1. To save changes, click <span class="btn">Save Attribute</span>.
 
