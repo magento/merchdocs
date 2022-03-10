@@ -1,5 +1,7 @@
 ---
 title: PCI compliance
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security.html#pci-compliance
 ---
 
 The Payment Card Industry (PCI) established a set of requirements for businesses that accept payment by credit card over the Internet. In addition to maintaining a secure environment, merchants who handle customer credit card information are responsible for meeting some standard guidelines.
