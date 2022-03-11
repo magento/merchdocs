@@ -21,8 +21,8 @@ These release notes describe the latest versions of Live Search and include:
 - {:.new} Beta [PWA](https://developer.adobe.com/commerce/pwa-studio/) compatibility for Live Search.
 - {:.new} The Live Search installation process is updated with advanced process changes.
 - {:.fix} [Advanced Search]({% link catalog/search-advanced.md %}) link removed from the storefront footer.
-- {:.bug} The following product attributes are not supported by [GraphQL](https://devdocs.magento.com/live-search/graphql-support.html) when used in relation to the beta release of PWA: `description`, `name`, `short_description`
-- {:.bug} The beta release of PWA for Live Search does not support [eventing](https://devdocs.magento.com/shared-services/storefront-events-sdk.html).
+- {:.bug} The following product attributes are not supported by [Magento GraphQL API]({{ site.devdocs_url }}/guides/v2.4/graphql) when used in relation to the beta release of PWA: `description`, `name`, `short_description`
+- {:.bug} The beta release of PWA for Live Search does not support [eventing]({{ site.devdocs_url }}/shared-services/storefront-events-sdk.html).
 
 ## Live Search 1.3.1
 

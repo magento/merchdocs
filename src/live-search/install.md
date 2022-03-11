@@ -13,8 +13,7 @@ This topic provides instructions to do the following:
 - [Updating Live Search](#updating-live-search)
 - [Uninstalling Live Search](#uninstalling-live-search)
 
-{:.bs-callout-tip}
-The installation takes place from the command line of the server. Rather than retyping each command, hover over the far right of the code box, click the **Copy** link, and paste it into the command line. If you do not have experience working from the command line, ask your system integrator or developer for assistance.
+The installation takes place from the command line of the server. If you do not have experience working from the command line, ask your developer or system integrator (SI) for assistance.
 
 ## Requirements
 
@@ -29,7 +28,7 @@ The installation takes place from the command line of the server. Rather than re
 
 ## Boundaries and thresholds
 
-At this time, the Live Search category search / category API has the following supported limits and static boundaries:
+At this time the Live Search category search/category API has the following supported limits and static boundaries:
 
 ### Indexing boundaries
 
@@ -40,11 +39,11 @@ At this time, the Live Search category search / category API has the following s
 ### Query limits
 
 - Live Search does not have access to the full taxonomy of the category tree, which makes some layered navigation search scenarios beyond its reach.
-- Live Search uses a unique GraphQL endpoint for queries to support features such as intelligent faceting and search-as-you-type. Although similar to the [Magento GraphQL API](https://devdocs.magento.com/guides/v2.4/graphql), there are a few differences and some fields may not be fully compatible at this time.
+- Live Search uses a unique GraphQL endpoint for queries to support features such as intelligent faceting and search-as-you-type. Although similar to the [Magento GraphQL API]({{ site.devdocs_url }}/guides/v2.4/graphql), there are a few differences, and some fields may not be fully compatible at this time.
 
 ### PWA beta release
 
-- The beta release of PWA for Live Search does not support [eventing](https://devdocs.magento.com/shared-services/storefront-events-sdk.html).
+- The beta release of PWA for Live Search does not support [eventing]({{ site.devdocs_url }}/shared-services/storefront-events-sdk.html).
 - The following product attributes are not supported by GraphQL when used in relation to the beta release of [PWA](https://developer.adobe.com/commerce/pwa-studio/): `description`, `name`, `short_description`
 
 ### Not supported at this time
@@ -76,6 +75,9 @@ This onboarding method is recommended when installing Live Search to a:
 
 In this scenario, storefront operations are interrupted while the Live Search service indexes all products in the catalog. During the installation, Live Search modules are enabled and Elasticsearch modules are disabled.
 
+{:.bs-callout-tip}
+To avoid typing errors, hover over the far right of each box of code, click the **Copy** link, and paste it into the command line.
+
 1. Install {{site.data.var.ee}} 2.4.x without Live Search.
 
 1. To download the `live-search` package, run the following from the command line:
@@ -86,7 +88,7 @@ In this scenario, storefront operations are interrupted while the Live Search se
 
    For more information, see the list of Live Search [dependencies](#live-search-dependencies) that are captured by Composer.
 
-1. Run the following commands to disable Elasticsearch and related modules and install Live Search:
+1. Run the following commands to disable Elasticsearch and related modules, and install Live Search:
 
    ```bash
    bin/magento module:disable Magento_Elasticsearch Magento_Elasticsearch6 Magento_Elasticsearch7 Magento_ElasticsearchCatalogPermissions Magento_InventoryElasticsearch
@@ -123,6 +125,7 @@ This onboarding method is recommended when installing Live Search to:
 
 In this scenario, Elasticsearch temporarily manages search requests from the storefront while the Live Search service indexes all products in the background, without any interruption to normal storefront operations. Elasticsearch is disabled and Live Search enabled after all catalog data is indexed and synchronized.
 
+{:.bs-callout-tip}
 To avoid typing errors, hover over the far right of each box of code, click the **Copy** link, and paste it into the command line.
 
 1. To download the `live-search` package, run the following from the command line:
@@ -133,7 +136,7 @@ To avoid typing errors, hover over the far right of each box of code, click the 
 
    For more information, see the list of Live Search [dependencies](#live-search-dependencies) that are captured by Composer.
 
-1. Run the following command to temporarily disable the Live Search modules that serve storefront search results.
+1. Run the following commands to temporarily disable the Live Search modules that serve storefront search results.
 
    ```bash
    bin/magento module:disable Magento_LiveSearchAdapter Magento_LiveSearchStorefrontPopover
@@ -143,7 +146,7 @@ To avoid typing errors, hover over the far right of each box of code, click the 
    bin/magento setup:upgrade
    ```
 
-   Elasticsearch continues to manage search requests from the storefront while the Live Search service synchronizes the catalog data and indexes products in the background.
+   Elasticsearch continues to manage search requests from the storefront while the Live Search service synchronizes catalog data and indexes products in the background.
 
 1. Verify that the following [indexers]({% link system/index-management.md %}) are set to `Update by Schedule`:
 
@@ -155,14 +158,12 @@ To avoid typing errors, hover over the far right of each box of code, click the 
 
 1. To make facets available as filters in the storefront, add the [facets]({% link live-search/facets-add.md %}) you need, according to the [requirements]({% link live-search/facets.md %}).
 
-   You should be able to add facets after `cron` runs the product and attribute feeds and exports attribute metadata to Live Search services.
+   You should be able to add facets after `cron` runs the product and attribute feeds, and exports attribute metadata to Live Search services.
 
 1. Wait at least an hour for the data to be indexed and synchronized. Then, use the [GraphQL playground]({{ site.devdocs_url }}/live-search/graphql-support.html) with the default query to verify the following:
 
-   - The product count returned is close to what you expect for the store view
-   - Facet(s) are returned
-
-1. Run the following commands to disable Elasticsearch modules, enable Live Search modules, and run setup:
+   - The returned product count is close to what you expect for the store view.
+   - Facet(s) are returned.
 
    ```bash
    bin/magento module:enable Magento_LiveSearchAdapter Magento_LiveSearchStorefrontPopover
@@ -180,7 +181,7 @@ To avoid typing errors, hover over the far right of each box of code, click the 
 
 ## Configure API keys
 
-The {{site.data.var.ee}} API key and its associated private key are required to connect Live Search to an installation of {{site.data.var.ee}}. The API key is generated and maintained in the account of the {{site.data.var.ee}} license holder, who can share it with the developer or SI. The developer can then create and manage the SaaS Data Spaces on behalf of the license-holder.
+The {{site.data.var.ee}} API key and its associated private key are required to connect Live Search to an installation of {{site.data.var.ee}}. The API key is generated and maintained in the account of the {{site.data.var.ee}} license holder, who can share it with the developer or SI. The developer can then create and manage  SaaS data spaces on behalf of the license holder.
 
 ### {{site.data.var.ee}} license holder
 
@@ -188,11 +189,11 @@ To generate an API key and private key, refer to [Commerce Services]({% link sys
 
 ### {{site.data.var.ee}} developer or SI
 
-The developer or SI configures the SaaS Data Space as described in the Commerce Services section of the configuration. Commerce Services becomes available in the Admin Configuration sidebar when a SaaS module is installed.
+The developer or SI configures the SaaS data space as described in the Commerce Services section of the configuration. In the Admin, Commerce Services becomes available in the Configuration sidebar when a SaaS module is installed.
 
 ## Synchronize catalog data
 
-Live Search requires synchronized product data for search operations, and synchronized attribute data to configure facets. The initial synchronization between the product catalog and the catalog service begins when Live Search is first connected. Depending on the installation method and size of the catalog, it can take up to eight hours for the data to be exported and indexed by Live Search. The list of data that is synchronized and shared with the catalog service can be found in the schema, which is defined in:
+Live Search requires synchronized product data for search operations and synchronized attribute data to configure facets. The initial synchronization between the product catalog and the catalog service begins when Live Search is first connected. Depending on the installation method and size of the catalog, it can take up to eight hours for the data to be exported and indexed by Live Search. The list of data that is synchronized and shared with the catalog service can be found in the schema, which is defined in:
 
 `vendor/magento/module-catalog-data-exporter/etc/et_schema.xml`
 
@@ -206,15 +207,15 @@ To verify that the catalog data has been exported from your {{site.data.var.ee}}
 For additional help, refer to [Live search catalog not synchronized](https://support.magento.com/hc/en-us/articles/4405637804301-Live-search-catalog-not-synchronized) in the Support Knowledge Base.
 
 ### Future product updates
-After the initial synchronization, it can take up to fifteen minutes for incremental product updates to become available to storefront search. To learn more, go to [Streaming Product Updates]({{ site.devdocs_url }}/live-search/indexing.html#streaming-product-updates).
+After the initial synchronization, it can take up to fifteen minutes for incremental product updates to become available to storefront search. To learn more, refer to [Streaming Product Updates]({{ site.devdocs_url }}/live-search/indexing.html#streaming-product-updates).
 
 ## Test the connection
 
 In the storefront, verify the following:
 
-- The _Search_ box returns results correctly
-- Category browse returns results correctly
-- Facet(s) are available as filters on search results pages
+- The _Search_ box returns results correctly.
+- Category browse returns results correctly.
+- Facet(s) are available as filters on search results pages.
 
 If everything works correctly, congratulations! Live Search is installed, connected, and ready to use.
 
@@ -230,7 +231,7 @@ To update Live Search, run the following from the command line:
 
 To update to a major version such as from 1.0.0 to 2.0.0, edit the project’s root Composer `.json` file as follows:
 
-1. If your currently installed `magento/live-search` version is `1.3.1` or below, and you upgrading to version `2.0.0` or higher, run the following command before the update:
+1. If your currently installed `magento/live-search` version is `1.3.1` or below, and you are upgrading to version `2.0.0` or higher, run the following command before the update:
 
    ```bash
    bin/magento module:enable Magento_AdvancedSearch
