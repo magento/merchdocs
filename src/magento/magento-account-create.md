@@ -90,7 +90,7 @@ In the upper-right corner, click **Sign In** and choose **Commerce (Magento)**.
 
 ## Link your Commerce account
 
-You can link your Commerce account to your Adobe ID for single sign-on across all Adobe Commerce products and simpler user account management. When your Commerce accounts are linked to an Adobe ID in the Commerce Identity Manager and you are logged into that Adobe ID, you bypass the standard Commerce product login process and do not need to log in again. See [Setup Commerce Identity Manager]({% link magento/magento-identity-manager-secure.md %}).
+You can link your Commerce account to your Adobe ID for single sign-on across all Adobe Commerce products and simpler user account management. When your Commerce accounts are linked to an Adobe ID in the Commerce Identity Manager and you are logged into that Adobe ID, you bypass the standard Commerce product login process and do not need to log in again. See [Setup Commerce Identity Manager]({% link magento/magento-identity-manager.md %}).
 
 [1]: https://account.magento.com/customer/account/login/
 [2]: https://community.magento.com/
