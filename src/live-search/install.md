@@ -28,7 +28,7 @@ The installation takes place from the command line of the server. If you do not 
 
 ## Boundaries and thresholds
 
-At this time the Live Search category search/category API has the following supported limits and static boundaries:
+At this time the Live Search search/category API has the following supported limits and static boundaries:
 
 ### Indexing boundaries
 
