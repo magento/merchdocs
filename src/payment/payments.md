@@ -25,6 +25,9 @@ redirect_from:
 
 Adobe Commerce and Magento Open Source support a variety of payment methods and services that you can offer for easier checkout and customer convenience.
 
+{:.bs-callout-tip}
+Payment Services for Adobe Commerce and Magento Open Source provides a turnkey self-service solution, including sandbox testing and a simple setup, for providing robust and secure payment processing. To learn more about this powerful tool set and how it can give you the insight and control you need to create the best experience for your buyers, see the [Payment Services User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+
 {% include grid.html sections=page.sections %}
 
 <div class="bs-callout-info" markdown="1">

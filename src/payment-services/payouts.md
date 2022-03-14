@@ -1,6 +1,8 @@
 ---
 ee_only: false
 title: Payouts
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/reporting/payouts.html
 ---
 
 The Payouts report shows comprehensive payout information at-a-glance, allowing you full transparency into the payment amount, processed volume, and detailed reporting on the transaction level for financial reconciliation.
