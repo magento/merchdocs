@@ -1,5 +1,7 @@
 ---
 title: Configure Payment Services
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html
 ---
 
 You can customize Payment Services to your needs with helpful configuration options in the Admin.

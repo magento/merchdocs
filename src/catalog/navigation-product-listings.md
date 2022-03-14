@@ -19,6 +19,9 @@ _Products Displayed as a Grid_
    ![]({% link configuration/catalog/assets/catalog-storefront.png %}){: .zoom}
    [_Storefront_]({% link configuration/catalog/catalog.md %})
 
+{:.bs-callout-info}
+To correctly display products and their prices according to _product sorting by price_, make sure that the settings for the price display in the [Sales Tax configuration]({% link configuration/sales/tax.md %}) have the same value (`Excluding Tax` **or** `Including Tax`). For the _Calculation Settings_, check the **Catalog Prices** value. And for _Price Display Settings_, check the **Display Product Prices in Catalog** value. If these have different values, price filters in the layered navigation may not properly filter and sort products by price.
+
 1. Set the default **List Mode** to one of the following:
 
     - `Grid Only`
