@@ -10,7 +10,7 @@ For merchants outside the US, this is called _PayPal Website Payments Standard_.
 With PayPal Payments Standard, you can swipe credit cards on mobile devices. There is no monthly fee and you can get paid through eBay. Supported credit cards include Visa, MasterCard, Discover, and American Express. In addition, customers can pay directly from their personal PayPal accounts. PayPal Payments Standard is available in all countries on the PayPal worldwide reference list.
 
 {:.bs-callout-warning}
-**Payment Services Directive Requirements:** <br/>
+**PSD2 Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. No action is needed for PayPal Payments Standard to comply with PSD2 because all requirements are handled by PayPal.
 
 ## Merchant requirements

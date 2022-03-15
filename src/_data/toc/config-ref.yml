@@ -118,8 +118,6 @@ pages:
         url: "/configuration/sales/paypal-express-checkout.html"
       - label: Braintree
         url: "/configuration/sales/braintree.html"
-      - label: Payment Services
-        url: "/payment-services/index.html"
     - label: Other PayPal Methods
       url: "/configuration/sales/paypal-methods-other.html"
       children:
