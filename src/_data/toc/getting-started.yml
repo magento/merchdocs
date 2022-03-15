@@ -170,7 +170,7 @@ pages:
     children:
     - label: PCI Compliance Guidelines
       url: "/stores/compliance-pci.html"
-    - label: Payment Services Directive
+    - label: PSD2 Compliance
       versionless: true
       url: "/stores/compliance-payment-services-directive.html"
   - label: Privacy

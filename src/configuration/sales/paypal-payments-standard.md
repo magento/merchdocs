@@ -5,7 +5,7 @@ title: PayPal Payments Standard
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > PayPal Payments Standard
 
 {:.bs-callout-warning}
-**Payment Services Directive Requirements:** <br/>
+**PSD2 Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. No action is needed for PayPal Payments Standard to comply with PSD2 because all requirements are handled by PayPal.
 
 ## Required Settings

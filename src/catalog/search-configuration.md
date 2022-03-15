@@ -6,12 +6,31 @@ redirect_from:
   - /catalog/search-elasticsearch.html
 ---
 
-{:.bs-callout-info}
-The standard search configuration described in this topic does not apply to [Live Search]({% link live-search/overview.md %}).
+There are two variations of the Catalog Search configuration: The first method describes the available settings when [Live Search]({% link live-search/overview.md %}) is installed, and the second method describes the configuration settings for native Adobe Commerce with [Elasticsearch][1]{:target="_blank"}.
 
-Elasticsearch is a powerful and highly scalable distributed search engine that is used by many industry leaders with high-volume sites. The implementation of Elasticsearch includes both search suggestions and recommendations. As of Adobe Commerce and Magento Open Source 2.4.0, Elasticsearch 7.6.x is required for all installations. For installation instructions, see [Set up Elasticsearch service][1]{:target="_blank"} in our developer documentation.
+## Method 1: Adobe Commerce with Live Search
 
-## Step 1: Configure general search options
+1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **Catalog** and choose **Catalog** underneath.
+
+1. Expand ![]({% link assets/icon-display-expand.png %}) the _Catalog Search_ section.
+
+   ![]({% link configuration/catalog/assets/catalog-search-live-search.png %}){: .zoom}
+   [Catalog Search for Live Search]({% link catalog/search-configuration.md %})
+
+1. To limit the length and word count of search query text, set a value for **Minimal Query Length** and **Maximum Query Length**.
+
+1. To limit the amount of popular search results to cache for faster responses, set an amount for **Number of top search results to cache**.
+   The default value is `100`. Entering a value of `0` caches all search terms and results when entered a second time.
+
+1. To change the maximum number of lines that are available for returned results in the [storefront popover]({% link live-search/quick-tour.md %}), enter a different **Autocomplete Limit** value.
+
+   Restricting the number of lines improves the performance of searches and reduces the size of the returned list. The default value is 8 lines.
+
+## Method 2: Adobe Commerce with Elasticsearch
+
+### Step 1: Configure general search options
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -39,7 +58,7 @@ Elasticsearch is a powerful and highly scalable distributed search engine that i
 
    Restricting this amount increases performance of searches and reduces the displayed list size. The default value is `8`.
 
-## Step 2: Configure the Elasticsearch connection
+### Step 2: Configure the Elasticsearch connection
 
 {:.bs-callout-info}
 The **Search Engine**, **Elasticsearch Server Hostname**, **Elasticsearch Server Port**, **Elasticsearch Index Prefix**, **Enable Elasticsearch HTTP Auth**, and **Elasticsearch Server Timeout** fields were configured when Commerce was installed or upgraded. These values should only be changed when upgrading or modifying Elasticsearch.
@@ -71,7 +90,7 @@ The **Search Engine**, **Elasticsearch Server Hostname**, **Elasticsearch Server
 
 1. To verify the configuration, click <span class="btn">Test Connection</span>.
 
-## Step 3: Configure suggestions and recommendations
+### Step 3: Configure suggestions and recommendations
 
 {:.bs-callout-info}
 Search suggestions and recommendations can impact server performance.
@@ -91,9 +110,9 @@ Search suggestions and recommendations can impact server performance.
 
    - To show the number of results found for each suggestion, set **Show Results for Each Suggestion** to `Yes`.
 
-## Step 4: Configure Minimum Terms to Match
+### Step 4: Configure Minimum Terms to Match
 
-To control the minimum number of terms from your query that the search results should match in order to be returned, specify a value for **Minimum Terms to Match**. This ensures optimal results relevancy for shoppers. For a list of accepted values, see  [minimum_should_match parameter](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) in the Elasticsearch documentation.
+To control the minimum number of terms from your query that the search results should match in order to be returned, specify a value for **Minimum Terms to Match**. This ensures optimal results relevancy for shoppers. For a list of accepted values, see [minimum_should_match parameter](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) in the Elasticsearch documentation.
 
 When complete, click <span class="btn">Save Config</span>.
 
