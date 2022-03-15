@@ -10,7 +10,7 @@ The following lists the Commerce features you can access through the Commerce Se
 
 Service | Availability
 ---|---
-[Product Recommendations powered by Adobe Sensei]({% link marketing/product-recommendations.md %}) | Adobe Commerce
+[Product Recommendations powered by Adobe Sensei]({% link recommendations/overview.md %}) | Adobe Commerce
 [Live Search powered by Adobe Sensei]({% link live-search/overview.md %}) | Adobe Commerce
 [Payment Services]({% link payment-services/index.md %}) | Adobe Commerce and Magento Open Source
 
@@ -25,7 +25,7 @@ The following sections discuss each of these elements in more detail.
 
 ## Credentials {#apikey}
 
-The API key and private key are generated from the Commerce account of the license holder, which is identified by a unique Commerce ID (MageID). To pass entitlement validation for services such as Product Recommendations or Live Search, either the license holder or a trusted individual with shared access to the account must generate the set of keys. The keys can be shared on a "need to know" basis with the systems integrator or development team that manages projects and environments on behalf of the license holder. If you are a solution integrator, the signer of the Commerce partner contract should generate the keys.
+The API key and private key are generated from the Commerce account of the license holder, which is identified by a unique Commerce ID (MageID). To pass entitlement validation for services such as Product Recommendations or Live Search, the license holder of the merchant's organization can generate the set of API keys as long as the account is in good standing. The keys can be shared on a "need to know" basis with the systems integrator or development team that manages projects and environments on behalf of the license holder. Additionally, solution integrators are also entitled to use Commerce services. If you are a solution integrator, the signer of the Commerce partner contract should generate the API keys.
 
 ### Generate an API key and private key {#genapikey}
 
@@ -64,7 +64,7 @@ You should use your production SaaS data space only on your production Commerce 
 ### Select or create a SaaS project {#createsaasenv}
 
 {:.bs-callout-info}
-If you do not see the **Commerce Services Connector** section in the Commerce configuration, you need to install the Commerce modules for your desired Commerce Service, such as [Product Recommendations]({{ site.devdocs_url }}/recommendations/install-configure.html).
+If you do not see the **Commerce Services Connector** section in the Commerce configuration, you need to install the Commerce modules for your desired Commerce Service, such as [Product Recommendations]({% link recommendations/install-configure.md %}).
 
 To select or create a SaaS project, request the Commerce API key from the Commerce license holder for your store.
 

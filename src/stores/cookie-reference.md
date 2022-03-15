@@ -268,7 +268,7 @@ JavaScript Library: `ga.js`
 {:.ee-only}
 ## Product Recommendations cookies
 
-The following cookies are used by Product Recommendations for Adobe Commerce customers. These cookies are installed with the [DataServices module]({{ site.devdocs_url }}/recommendations/install-configure.html).
+The following cookies are used by Product Recommendations for Adobe Commerce customers. These cookies are installed with the [DataServices module]({% link recommendations/install-configure.md %}).
 
 - `mg_dnt`: Allows you to [restrict Adobe Commerce data collection]({{ site.devdocs_url }}/recommendations/setting-cookie.html) if you have custom code to manage cookie consent on your site.
 - `user_allowed_save_cookie`: Used for [cookie restriction mode]({% link stores/compliance-cookie-restriction-mode.md %}).

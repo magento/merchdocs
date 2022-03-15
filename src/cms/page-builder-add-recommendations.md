@@ -1,14 +1,14 @@
 ---
 title: Add Content - Product Recommendations
 ee_only: true
-redirect from:
-   marketing/page-builder-add-product-recs.html
+redirect_from:
+   recommendations/page-builder-add-product-recs.html
 ---
 
-Use the _Product Recommendations_ content type to add an existing, active [recommendation unit]({% link marketing/create-new-rec.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage) for a CMS page, block, or dynamic block. To learn more, refer to Page Builder [Workspace]({% link cms/page-builder-workspace.md %}) and [tutorials]({% link cms/page-builder-learn.md %}).
+Use the _Product Recommendations_ content type to add an existing, active [recommendation unit]({% link recommendations/create.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage) for a CMS page, block, or dynamic block. To learn more, refer to Page Builder [Workspace]({% link cms/page-builder-workspace.md %}) and [tutorials]({% link cms/page-builder-learn.md %}).
 
 {:.bs-callout-info}
-The Page Builder _Product Recommendations_ content type is supported in Adobe Commerce 2.3.1 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add Page Builder support to Product Recommendations, [see the developer documentation]({{ site.devdocs_url }}/recommendations/install-configure.html#pbsupport).
+The Page Builder _Product Recommendations_ content type is supported in Adobe Commerce 2.3.1 and later and available in the [Product Recommendations metapackage versions 3.0.x or later](https://marketplace.magento.com/magento-product-recommendations.html). To add Page Builder support to Product Recommendations, [see the developer documentation]({% link recommendations/install-configure.md %}#pbsupport).
 
 {% include page-builder-save-timeout.md %}
 
@@ -25,7 +25,7 @@ The Page Builder _Product Recommendations_ content type is supported in Adobe Co
 
 ## Add an existing recommendation unit
 
-1. Make sure you have already [created a recommendation unit]({% link marketing/create-new-rec.md %}) for the Page Builder page type.
+1. Make sure you have already [created a recommendation unit]({% link recommendations/create.md %}) for the Page Builder page type.
 
    {:.bs-callout-info}
    You can create recommendation units for the Page Builder page type only in the default store view.

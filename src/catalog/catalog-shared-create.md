@@ -25,13 +25,13 @@ The following aspects of a shared catalog must be set up before it can be used:
 
 1. On the _Admin_ sidebar, go to **Catalog** > **Shared Catalogs**.
 
-1. In the upper-right corner, click <span class="btn">Add a Shared Catalog</span> and do the following:
+1. In the upper-right corner, click <span class="btn">Add Shared Catalog</span> and do the following:
 
    - Enter a **Name** for the shared catalog.
 
       The name you assign is used throughout the Admin and customer dashboard, if applicable, to refer to the shared catalog. It also becomes the name of the corresponding customer group.
 
-   - Set **Type** to `Custom`.
+   - Select **Type** : `Custom` or `Public`.
 
    - Choose the appropriate **Customer Tax Class** that applies to purchases made from the shared catalog.
 
@@ -39,6 +39,8 @@ The following aspects of a shared catalog must be set up before it can be used:
 
       ![]({% link catalog/assets/shared-catalog-new.png %}){: .zoom}
       *New Shared Catalog*
+
+   - Enter **Description**
 
 1. When complete, click <span class="btn">Save</span>.
 
@@ -98,6 +100,17 @@ After creating a new shared catalog, it must be configured with the appropriate 
 |Type|**Custom** - Identifies a catalog with custom pricing that is available only to the specific companies to which it is assigned.<br/>**Public** - Identifies the shared catalog that is available to all guest visitors and to logged-in customers who are not associated with a company. A default pubic shared catalog is created when B2B for Adobe Commerce is installed, but must be configured by the administrator. Only one public shared catalog can exist at a time.|
 |Customer Tax Class|Determines the tax class that is used for purchases made from the catalog. The options include all available tax classes.|
 |Description|A brief explanation of how the catalog is to be used.|
+
+### Grid Columns
+
+|Field|Description|
+|--- |--- |
+|ID|A unique numeric identifier that is assigned to shared catalog entity.|
+|Name|The name of the shared catalog.|
+|Type|Indicates the type of shared catalog. Can be `Public` or `Custom`.|
+|Created At|The date when the shared catalog was created in the system.|
+|Created By|The name of admin user who created a shared catalog.|
+|Action|The list of actions. Options: `Set Pricing and Structure`, `Assign Companies`, `General Settings`, `Delete`.|
 
 <!--
   This is a style declaration so that buttons are not wrapped by table auto styling for column widths.
