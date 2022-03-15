@@ -40,12 +40,12 @@ By default, all B2B features are initially disabled. However, they are always av
 
       You can also [configure the maximum number of lists]({% link stores/b2b-configure-requisition-lists.md %}) a customer can have for their account.
 
-   ![B2B configuration - enable company settings]({% link stores/assets/b2b-features-company-enabled.png %}){: .zoom}
-   [_B2B Configuration_]({% link configuration/general/b2b-features.md %})
-
 1. To make custom pricing available for different companies, set **Enable Shared Catalog** to `Yes`.
 
    Enabling shared catalogs also enables category permissions for all stores.
+
+   ![B2B configuration - enable company settings]({% link stores/assets/b2b-features-company-enabled.png %}){: .zoom}
+   [_B2B Configuration_]({% link configuration/general/b2b-features.md %})
 
    When the Shared Catalog feature is enabled, the **Enable Shared Catalog direct products price assigning** option is available. When this option is set to `Yes`, only products that are assigned to a shared catalog are stored in the price index.
 
