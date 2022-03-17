@@ -2,9 +2,7 @@
 title: Your Vertex Account
 ---
 
-Vertex offers three pricing plans, plus access to additional services. All Vertex accounts include tiered pricing and award-winning customer support, but without extra fees for fees or annual transaction estimations. Do not hesitate to contact Vertex if you need help choosing the right [pricing plan][1] for your business. Then, sign up for an account on Vertex Cloud.
-
-![]({% link tax/assets/tax-vertex-pricing.png %}){: .zoom}
+Vertex offers three pricing plans, plus access to additional services. All Vertex accounts include tiered pricing and award-winning customer support, but without extra fees for fees or annual transaction estimations.
 
 ## Sign up for a Vertex account
 
@@ -49,8 +47,4 @@ Vertex offers three pricing plans, plus access to additional services. All Verte
    {:.bs-callout-info}
    Some of our instructions include links for more information in the Vertex Cloud Help Center. You must be logged in to your account to gain access to the Vertex Cloud Help Center.
 
-   ![]({% link tax/assets/tax-vertex-cloud-dashboard.png %}){: .zoom}
-   _Vertex Cloud Dashboard_
-
-[1]: https://www.vertexsmb.com/pricing/
-[2]: https://www.vertexsmb.com/
+[2]: https://www.vertexinc.com/
