@@ -24,7 +24,6 @@ _Products Grid_
 |Default View|Indicates the current grid column layout. If there are saved grid column views, you can choose another.|
 |Columns|Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, select the checkbox in the first column of each product. Product list actions include Delete, Change Status, Update Attributes, Assign Inventory Source, Unassign Inventory Source, and Transfer Inventory to Source.|
 |Search by keyword|The search box, in the top-left corner, is used to find products by keyword.|
-|Actions|Use the [actions]({% link stores/admin-actions-control.md %}) to select multiple records as the target of action. The checkbox is selected in the first column of each selected record. Options: Select / Deselect All|
 |Edit|Opens the product in edit mode. You can accomplish the same thing by clicking anywhere on the row.|
 
 ## Default columns
