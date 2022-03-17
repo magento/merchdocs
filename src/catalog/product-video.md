@@ -79,7 +79,6 @@ To add product video, you must first obtain an API Key from your Google account 
     ![]({% link catalog/assets/product-video-new-with-data.png %}){: .zoom}
     _New Video_
 
-
 ## Maintaining API access
 
 According to the [Terms and Conditions], YouTube may disable API access for accounts that have been inactive for more than 90 days. This may result in your videos not displaying. To prevent this, use a cron job to ping the API at regular intervals:
