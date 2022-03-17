@@ -15,7 +15,7 @@ Stock status index | Change inventory configuration settings.
 Category permissions index | Add store, add store group, add or delete or update attribute (for searching and filtering)
 
 {:.bs-callout-info}
-Use of a flat catalog is no longer recommended as a best practice. Continued use of this feature is known to cause performance degradation and other indexing issues. See [Use Flat Catalog Product]({% link catalog/catalog-flat.md %}) for more info.
+Use of a flat catalog is no longer recommended as a best practice. Continued use of this feature is known to cause performance degradation and other indexing issues. See [Use Flat Catalog Product]({% link catalog/catalog-flat.md %}) for more information.
 
 ## Index actions and controls
 
