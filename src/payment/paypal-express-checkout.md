@@ -7,7 +7,7 @@ redirect_from:
 PayPal Express Checkout helps boost sales by giving your customers the ability to pay by credit card or from the security of their personal PayPal accounts. During checkout, the customer is redirected to the secure PayPal site to complete the payment information. The customer is then returned to your store to complete the remainder of the checkout process. Choosing Express Checkout adds the familiar PayPal button to your store, which has been reported to increase sales.
 
 {:.bs-callout-warning}
-**Payment Services Directive Requirements:** <br/>
+**PSD2 Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. No action is needed for PayPal Express Checkout to comply with PSD2 because all requirements are handled by PayPal.
 
 Customers with current PayPal accounts can make a purchase in a single step by clicking the _Check out with PayPal_ button. Express Checkout can be used as a standalone, or in combination with one of the PayPal all-in-one solutions. If you already accept credit cards online, you can offer Express Checkout as an additional option to attract new customers who prefer to pay with PayPal.

@@ -79,6 +79,14 @@ To add product video, you must first obtain an API Key from your Google account 
     ![]({% link catalog/assets/product-video-new-with-data.png %}){: .zoom}
     _New Video_
 
+## Maintaining API access
+
+According to the [Terms and Conditions], YouTube may disable API access for accounts that have been inactive for more than 90 days. This may result in your videos not displaying. To prevent this, use a cron job to ping the API at regular intervals:
+
+```code
+30 10 1 * * curl -i -G -e https://yourdomain.com/ -d "part=snippet&maxResults=1&q=test&key=YOUTUBEAPIKEY" https://www.googleapis.com/youtube/v3/search >/dev/null 2>&1
+```
+
 ## Field reference
 
 |Field|Description|
@@ -91,3 +99,4 @@ To add product video, you must first obtain an API Key from your Google account 
 |Role|Determines how the preview image is used in your store. You can choose any combination of options: Base Image, Small Image, Thumbnail, Swatch Image, Hide from Product Page|
 
 [1]: https://console.developers.google.com/
+[Terms and Conditions]: https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services

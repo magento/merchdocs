@@ -1,5 +1,5 @@
 ---
-title: Payment Services Directive
+title: PSD2 Compliance
 group: getting-started
 ---
 
