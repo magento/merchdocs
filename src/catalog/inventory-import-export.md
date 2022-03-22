@@ -10,7 +10,7 @@ For catalogs with a large amount of products, use the native Import and Export f
 
 - Multi Source merchants use import to add multiple sources and quantities per row per SKU.
 
-To import updates, first export a CSV file for a specific or all sources. Edit the CSV file and add a row per SKU for each source and quantity. You need the source's code when adding a new source and adding quantities of stock. You cannot add or update stocks using import-export features.
+To import updates, first export a CSV file for a specific or all sources. Edit the CSV file and add a row per SKU for each source and quantity. You need the source's code when adding a new source and adding quantities of stock.
 
 ## CSV file content
 
@@ -77,4 +77,3 @@ After updating inventory amounts and product data, import the file back into Com
 
 ![]({% link catalog/assets/inventory-import-sources.png %}){: .zoom}
 _Import product data and sources_
-s
