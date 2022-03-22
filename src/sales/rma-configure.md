@@ -12,7 +12,7 @@ _Enable RMA for a product_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ >  **Configuration**.
 
-1. In the left panel, expand **Sales** and choose **Sales** underneath.
+1. In the left panel, expand **Sales** and choose **Invoices** underneath.
 
 1. Expand ![]({% link assets/icon-display-expand.png %}) the **RMA Settings** section.
 
