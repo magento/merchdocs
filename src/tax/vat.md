@@ -4,7 +4,7 @@ title: Value Added Tax (VAT)
 
 Some countries charge a value-added tax, or VAT, on goods and services. There can be different VAT rates depending on the stage in the manufacture or distribution process, materials, or services that you sell to your customers. In some cases, you might need to apply more than one VAT rate to correctly calculate the tax that is due.
 
-Commerce can be configured to charge a value-added tax based on either the merchant or customer address, provided that both are located in the same country. VAT calculations are usually based on the shipment destination, rather than its point of origin. For most scenarios, a configuration setting that calculates VAT based on the customer shipping address is sufficient. No VAT is charged if the merchant and customer are located in different countries. However, this does not necessarily mean that no tax is due.
+Commerce can be configured to charge a value-added tax based on either the merchant or customer address, provided that both are located in the same country. VAT calculations are usually based on the shipment destination, rather than its point of origin. For most scenarios, a configuration setting that calculates VAT based on the customer shipping address is sufficient.
 
 ## Example scenarios
 

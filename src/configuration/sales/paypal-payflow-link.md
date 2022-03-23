@@ -5,7 +5,7 @@ title: PayPal Payflow Link
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > PayPal Payflow Link
 
 {:.bs-callout-warning}
-**Payment Services Directive Requirements:** <br/>
+**PSD2 Requirements:** <br/>
 As of September 14, 2019, European banks might decline payments that do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. To comply with PSD2, PayPal Payflow Link must be integrated with Cardinal Commerce. To learn more, see [3-D Secure for Payflow](https://developer.paypal.com/docs/classic/payflow/3d-secure-overview/).
 
 ## Required Settings

@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 {:.bs-callout-warning}
-**Payment Services Directive Requirements:** <br/>
+**PSD2 Requirements:** <br/>
 Beginning September 14, 2019, European banks may decline payments which do not meet [PSD2]({% link stores/compliance-payment-services-directive.md %}) requirements. For most PayPal solutions, no action is needed to comply with PSD2 because the requirements are handled by PayPal.
 
 PayPal is a global leader in online payments and a fast and secure way for your customers to pay online. The selection of available PayPal solutions varies by merchant location. PayPal Express Checkout and PayPal Payments Standard can be used in all parts of the world. To learn more, see [PayPal Solutions by Country]({% link payment/paypal-countries.md %}).
