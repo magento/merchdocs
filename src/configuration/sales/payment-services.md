@@ -2,22 +2,25 @@
 title: Payment Services
 ---
 
-Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > [Payment Services](https://experienceleague.corp.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Payment Services
+
+{:.bs-callout-info}
+Payment Services for Adobe Commerce and Magento Open Source provides a turnkey self-service solution, including sandbox testing and a simple setup, for providing robust and secure payment processing. To learn more about this powerful tool set and detailed information about the installation and configuration, see the [Payment Services User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
 
 ## Payment Services General Configuration
 
-![](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html)
+![]({% link configuration/sales/assets/payment-services-general-config.png %}{: .zoom})
 _Payment Services General Configuration_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable|Website|Determines if Payment Services are available to your customers as a payment method. Options: Yes / No|
 |Method|Website|Options: Sandbox / Production|
-|Merchant ID|Global|This is the unique identifier for your entire gateway account, including the multiple merchant accounts that may be in your gateway. As known as the _Sandbox Merchant ID_ and the _Production Merchant ID_, your merchant ID will be different for your sandbox and production gateways.|
+|Merchant ID|Global|This is the unique identifier for your entire gateway account, including the multiple merchant accounts that may be in your gateway. The _Sandbox Merchant ID_ and the _Production Merchant ID_, which are used for your sandbox and production gateways, will differ from your merchant ID.|
 
 ## Payment Services Credit Card Fields
 
-![](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html)
+![]({% link configuration/sales/assets/payment-services-cc-fields.png %}{: .zoom})
 _Payment Services Credit Card Fields_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -28,7 +31,7 @@ _Payment Services Credit Card Fields_
 
 ## Paypal Smart Buttons
 
-![](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html?lang=en#configure-paypal-smart-buttons)
+![]({% link configuration/sales/assets/payment-services-paypal-smart-buttons.png %}{: .zoom})
 _Paypal Smart Buttons_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -45,7 +48,7 @@ _Paypal Smart Buttons_
 
 ## Paypal Smart Button Styling
 
-![](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html?lang=en#configure-paypal-smart-buttons)
+![]({% link configuration/sales/assets/payment-services-paypal-smart-buttons-styling.png %}{: .zoom})
 _Paypal Smart Button Styling_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -53,7 +56,7 @@ _Paypal Smart Button Styling_
 |Layout|Store View|Define style of layout for Paypal Smart Buttons. Options: Vertical / Horizontal|
 |Color|Store View|Define color of the Paypal Smart Buttons. Options: Blue / Gold / Silver / White / Black|
 |Shape|Store View|Define shape of the Paypal Smart Buttons. Options: Rectangular / Pill|
-|Use Default Height|Defines if PayPal Smart Buttons use a default height. Options: Yes / No|
+|Use Default Height||Store View|Defines if PayPal Smart Buttons use a default height. Options: Yes / No|
 |Height|Store View|Define height of the PayPal Smart Buttons. Default value: none|
 |Label|Store View|Define label that appears in the PayPal Smart Buttons. Options: PayPal / Checkout / Buynow / Pay / Installment|
 |Tagline|Store View|Enables tagline. Options: Yes / No|
