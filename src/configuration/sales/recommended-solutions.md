@@ -6,4 +6,4 @@ The following payment solutions provide an easy way for merchants who are just s
 
 - [PayPal Express Checkout]({% link configuration/sales/paypal-express-checkout.md %})
 - [Braintree]({% link configuration/sales/braintree.md %})
-- [Payment Services](https://experienceleague.corp.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
