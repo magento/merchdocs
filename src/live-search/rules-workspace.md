@@ -3,6 +3,8 @@ ee_only: true
 title: Rules Workspace
 tag: live-search
 group: marketing
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/rules/rules-workspace.html
 ---
 
 The rules workspace lists the current selection of rules and their status, and provides access to tools you need to create and manage rules. From the workspace you can:

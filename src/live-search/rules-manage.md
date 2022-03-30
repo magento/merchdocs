@@ -3,6 +3,8 @@ ee_only: true
 title: Manage Rules
 tag: live-search
 group: marketing
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/rules/rules-manage.html
 ---
 
 Follow these instructions to update the properties of existing rules.

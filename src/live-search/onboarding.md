@@ -3,6 +3,8 @@ ee_only: true
 title: Onboarding
 tag: live-search
 group: marketing
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html
 ---
 
 The Live Search module is installed from the command line of the server and connects to your Adobe Commerce installation as a service.
