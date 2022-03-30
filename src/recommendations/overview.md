@@ -3,9 +3,8 @@ ee_only: true
 title: Recommendations Overview
 tag: product-recommendations
 group: marketing
-redirect_from:
-  - /marketing/product-recommendations.html
-  - /marketing/product-recs-vs-crossupsells.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html
 sections:
   - title: Onboarding
     content: Complete the recommendations onboarding process.
@@ -30,7 +29,8 @@ sections:
 
 Product recommendations are a powerful marketing tool you can use to increase conversions, boost revenue, and stimulate shopper engagement. Adobe Commerce product recommendations are powered by [Adobe Sensei](https://www.adobe.com/sensei.html), which uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Adobe Commerce catalog, results in a highly engaging, relevant, and personalized experience.
 
-Product recommendations are surfaced on the storefront as units with labels, such as “Customers who viewed this product also viewed”. You can create, manage, and deploy recommendations across your store views directly from the Adobe Commerce Admin.
+{:.bs-callout-tip}
+To learn more about this powerful tool and how it can give you the insight and control you need to create the best experience for your buyers, see the [Product Recommendations User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
 
 {:.bs-callout-info}
 If your storefront is implemented using PWA Studio, refer to the [PWA documentation](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/). If you use a custom frontend technology such as React or Vue JS, learn how to [integrate]({% link recommendations/headless.md %}) Product Recommendations into your headless storefront.

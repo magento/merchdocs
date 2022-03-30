@@ -92,43 +92,6 @@ pages:
     - label: Discount with First Purchase
       url: "/marketing/price-rule-discount-first-purchase.html"
       edition: ee-only
-  - label: Recommendations
-    url: "/recommendations/overview.html"
-    edition: ee-only
-    children:
-    - label: Onboarding
-      url: "/recommendations/onboarding.html"
-      children:
-      - label: Implementation Workflow
-        url: "/recommendations/implementation-workflow.html"
-        children:
-        - label: Behavioral Data
-          url: "/recommendations/behavioral-data.html"
-        - label: Headless
-          url: "/recommendations/headless.html"
-      - label: Install and Configure
-        url: "/recommendations/install-configure.html"
-      - label: Settings
-        url: "/recommendations/settings.html"
-      - label: Verify
-        url: "/recommendations/verify.html"
-      - label: Staging Environment
-        url: "/recommendations/staging-environment.html"
-      - label: Release Notes
-        url: "/recommendations/release-notes.html"
-    - label: Workspace
-      url: "/recommendations/workspace.html"
-      children:
-      - label: Create
-        url: "/recommendations/create.html"
-      - label: Edit
-        url: "/recommendations/edit.html"
-    - label: Recommendation Types
-      url: "/recommendations/type.html"
-    - label: Filters
-      url: "/recommendations/filters.html"
-    - label: Placement and Labels
-      url: "/recommendations/placement.html"
   - label: Related Product Rules
     url: "/marketing/product-related-rules.html"
     edition: ee-only
