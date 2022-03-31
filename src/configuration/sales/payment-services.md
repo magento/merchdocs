@@ -9,7 +9,7 @@ Payment Services for Adobe Commerce and Magento Open Source provides a turnkey s
 
 ## Payment Services General Configuration
 
-![]({% link configuration/sales/assets/payment-services-general-config.png %}{: .zoom})
+![]({% link configuration/sales/assets/payment-services-general-config.png %}){: .zoom}
 _Payment Services General Configuration_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -20,7 +20,7 @@ _Payment Services General Configuration_
 
 ## Payment Services Credit Card Fields
 
-![]({% link configuration/sales/assets/payment-services-cc-fields.png %}{: .zoom})
+![]({% link configuration/sales/assets/payment-services-cc-fields.png %}){: .zoom}
 _Payment Services Credit Card Fields_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -31,7 +31,7 @@ _Payment Services Credit Card Fields_
 
 ## Paypal Smart Buttons
 
-![]({% link configuration/sales/assets/payment-services-paypal-smart-buttons.png %}{: .zoom})
+![]({% link configuration/sales/assets/payment-services-paypal-smart-buttons.png %}){: .zoom}
 _Paypal Smart Buttons_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -48,7 +48,7 @@ _Paypal Smart Buttons_
 
 ## Paypal Smart Button Styling
 
-![]({% link configuration/sales/assets/payment-services-paypal-smart-buttons-styling.png %}{: .zoom})
+![]({% link configuration/sales/assets/payment-services-paypal-smart-buttons-styling.png %}){: .zoom}
 _Paypal Smart Button Styling_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
