@@ -207,8 +207,6 @@ pages:
     children:
     - label: Braintree
       url: "/payment/braintree.html"
-    - label: Payment Services
-      url: "/payment/payment-services.html"
     - label: Klarna
       url: "/payment/klarna.html"
       children:
