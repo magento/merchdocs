@@ -2,6 +2,8 @@
 ee_only: true
 title: Performance
 group: marketing
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/performance.html
 ---
 
 The Live Search Performance dashboard provides insight into the search terms that shoppers use. The information can be used to identify trends, increase click-through, and improve the conversion rate. The Performance dashboard provides a snapshot of search metrics for a specific date range, and includes the following reports:

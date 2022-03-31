@@ -3,6 +3,8 @@ ee_only: true
 title: Rule Components
 tag: live-search
 group: marketing
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/rules/rule-components.html
 ---
 
 A rule describes the condition(s) required to trigger event(s) that change the search results returned in response to a shopper's query.
