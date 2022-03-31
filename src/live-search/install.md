@@ -3,6 +3,8 @@ title: Install Live Search
 tag: live-search
 group: marketing
 ee_only: True
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html
 ---
 
 Live Search is a set of standalone [packages](#live-search-packages) that replaces standard {{site.data.var.ce}} and {{site.data.var.ee}} search capabilities.
@@ -164,6 +166,8 @@ To avoid typing errors, hover over the far right of each box of code, click the 
 
    - The returned product count is close to what you expect for the store view.
    - Facet(s) are returned.
+
+1. Run the following commands to enable [!DNL Live Search] modules, disable [!DNL Elasticsearch], and run `setup`.
 
    ```bash
    bin/magento module:enable Magento_LiveSearchAdapter Magento_LiveSearchStorefrontPopover

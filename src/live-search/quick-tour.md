@@ -3,6 +3,8 @@ ee_only: true
 title: Live Search Quick Tour
 tag: live-search
 group: marketing
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html
 ---
 
 With a focus on speed, relevance, and ease of use, Live Search is a game changer for shoppers and merchants alike. Follow along for a quick tour of Live Search from the storefront.
