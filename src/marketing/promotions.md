@@ -2,7 +2,12 @@
 title: Promotions
 ---
 
-In this section of the guide, you will learn how to set up product relationships and how to use price rules to trigger discounts based on a variety of conditions. You can use price rules to offer customer incentives, such as:
+In this section of the guide, you will learn about how to set up product relationships and how to use price rules to trigger discounts based on a variety of conditions.
+
+{:.bs-callout-tip}
+To learn about Product Recommendations and how they can give you the insight and control you need to create the best experience for your buyers, see the [Product Recommendations User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+
+You can use price rules to offer customer incentives, such as:
 
 - Send your best customers a coupon for a discount on a specific product
 - Offer free shipping for purchases over a certain amount
@@ -12,7 +17,7 @@ A rule is a collection of conditions (one or more) that apply changes in prices 
 
 Conditions are statements that refine the list of products and situations for applying the rule. The attributes and options for conditions differ between the types of available rules. When met, the action is completed such as discounts, buy one get one free (BOGO), and other options. Rules can be as simple or as complicated as needed to match your business needs, seasonal discounts and promotions, and year long opportunities. For example, you may want to add a few more options for the holidays while providing free shipping year-round when carts have a high subtotal.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you want to define a condition based on a specific product attribute, **Use for Promo Rule Conditions** must be set to `Yes` for the attribute in your [Storefront Properties]({% link stores/attribute-product-create.md %}).
 
 For [catalog price rules]({% link marketing/price-rules-catalog.md %}), you build conditions based on [attribute sets]({% link stores/attribute-sets.md %}) in your catalog, comparison functions, and selected attributes. You create the conditions like sentences by selecting a few statements. For example, you may create two price rules to apply discounts for children's clothing and men's/women's clothing based on the category.
