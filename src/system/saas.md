@@ -1,7 +1,7 @@
 ---
 title: Commerce Services Connector
 redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/landing/saas.html
+  - https://experienceleague.corp.adobe.com/docs/commerce-merchant-services/user-guides/saas.html
 ---
 
 Some Adobe Commerce and Magento Open Source features are powered by Commerce Services and deployed as SaaS (software as a service). To use these services, you must connect your Commerce instance using an API key and a private key, and specify the data space in the [configuration]({% link configuration/services/saas.md %}). You only need to set this up once.
