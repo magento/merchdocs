@@ -3,8 +3,8 @@ title: Filter Products
 tag: product-recommendations
 group: marketing
 ee_only: true
-redirect_from:
-  - /marketing/recommendation-incl-excl.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/filters.html
 ---
 
 Adobe Commerce automatically applies non-configurable default filters to recommendation units. If you have multiple recommendation units deployed to a page, Adobe Commerce filters out any products that are repeated in the units. Only the first reference to a repeated product is used, to make room for other products to be recommended. Adobe Commerce also filters out any previously purchased products and those that are in the cart.

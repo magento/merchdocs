@@ -3,6 +3,8 @@ title: Release Notes
 tag: product-recommendations
 group: marketing
 ee_only: True
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/release-notes.html
 ---
 
 The release notes contain updates to the following Product Recommendations modules:

@@ -3,8 +3,8 @@ title: Create New Recommendation
 tag: product-recommendations
 group: marketing
 ee_only: true
-redirect_from:
-  - /marketing/create-new-rec.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html
 ---
 
 When you create a recommendation, you create a _recommendation unit_ that contains the recommended product _items_.

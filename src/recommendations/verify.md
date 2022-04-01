@@ -3,6 +3,8 @@ title: Verify Event Collection
 tag: product-recommendations
 group: marketing
 ee_only: True
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/verify.html
 ---
 
 After you [install and configure]({% link recommendations/install-configure.md %}) the `magento/product-recommendations` module, you can verify that the behavioral data is being sent to Adobe Commerce. You can use developer tools available in Chrome, or install the Snowplow Chrome extension. If you need additional help, refer to [Troubleshoot Product Recommendations module](https://support.magento.com/hc/en-us/articles/360042224851) in the Support Knowledge Base.

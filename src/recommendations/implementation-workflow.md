@@ -3,6 +3,8 @@ title: Implementation Workflow
 tag: product-recommendations
 group: marketing
 ee_only: True
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/implementation-workflow.html
 ---
 
 Product Recommendations uses both behavioral and catalog data:
