@@ -3,6 +3,8 @@ title: Behavioral Data
 tag: product-recommendations
 group: marketing
 ee_only: true
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/behavioral-data.html
 ---
 
 Some recommendation types use behavioral data from your shoppers to train machine learning models to build personalized recommendations. Other recommendation types use catalog data only and do not use any behavioral data. If you want to start quickly, you can use the following, catalog-only recommendation types:
