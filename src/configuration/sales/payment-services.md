@@ -56,7 +56,7 @@ _Paypal Smart Button Styling_
 |Layout|Store View|Define style of layout for Paypal Smart Buttons. Options: Vertical / Horizontal|
 |Color|Store View|Define color of the Paypal Smart Buttons. Options: Blue / Gold / Silver / White / Black|
 |Shape|Store View|Define shape of the Paypal Smart Buttons. Options: Rectangular / Pill|
-|Use Default Height||Store View|Defines if PayPal Smart Buttons use a default height. Options: Yes / No|
+|Use Default Height|Store View|Defines if PayPal Smart Buttons use a default height. Options: Yes / No|
 |Height|Store View|Define height of the PayPal Smart Buttons. Default value: none|
 |Label|Store View|Define label that appears in the PayPal Smart Buttons. Options: PayPal / Checkout / Buynow / Pay / Installment|
 |Tagline|Store View|Enables tagline. Options: Yes / No|
