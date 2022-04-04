@@ -3,6 +3,8 @@ ee_only: true
 title: Synonyms
 tag: live-search
 group: marketing
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html
 ---
 
 {:.bs-callout-info}

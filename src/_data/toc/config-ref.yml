@@ -119,7 +119,7 @@ pages:
       - label: Braintree
         url: "/configuration/sales/braintree.html"
       - label: Payment Services
-        url: "/payment-services/index.html"
+        url: "/configuration/sales/payment-services.html"
     - label: Other PayPal Methods
       url: "/configuration/sales/paypal-methods-other.html"
       children:

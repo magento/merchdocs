@@ -1,5 +1,7 @@
 ---
 title: Voids
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/manage/voids.html
 ---
 
 With Payment Services, you can utilize existing Magento functionality for voiding transactions. Voids allow you to free the funds in a credit or debit card account that are blocked or held aside by an authorization for the amount of a purchase.

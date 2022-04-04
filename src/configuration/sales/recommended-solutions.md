@@ -6,4 +6,4 @@ The following payment solutions provide an easy way for merchants who are just s
 
 - [PayPal Express Checkout]({% link configuration/sales/paypal-express-checkout.md %})
 - [Braintree]({% link configuration/sales/braintree.md %})
-- [Payment Services]({% link payment-services/index.md %})
+- [Payment Services]({% link configuration/sales/payment-services.md %})

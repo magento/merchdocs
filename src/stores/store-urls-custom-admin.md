@@ -7,9 +7,10 @@ As a [security best practice](https://www.adobe.com/content/dam/cc/en/security/p
 {:.bs-callout-info}
 Check with your hosting provider before implementing a custom Admin URL. Some hosting providers require a standard URL to meet firewall protection rules.
 
-In a typical installation, the Admin URL and path is immediately below the base URL. The path to the store Admin is one directory below the root.
+In a typical installation, the Admin URL and path immediately follows the base URL. The Admin path is one directory below the root.
 
 - **Default Base URL**: `http://yourdomain.com/magento/`
+- **Default Admin Path**: `admin`
 - **Default Admin URL and Path**: `http://yourdomain.com/magento/admin`
 
 Although it is possible to change the Admin URL and path to another location, any mistake removes access to the Admin, and must be corrected from the server.
@@ -43,7 +44,7 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
 
    - Enter the **Custom Admin Path**.
 
-        The path that you enter is appended to the Custom Admin URL after the last forward slash.
+        This is the desired custom admin folder name only.
 
         `sample_custom_admin`
 

@@ -15,7 +15,7 @@ Stock status index | Change inventory configuration settings.
 Category permissions index | Add store, add store group, add or delete or update attribute (for searching and filtering)
 
 {:.bs-callout-info}
-The flat product and category indexers also influence how catalog and shopping cart price rules are indexed. If you have a large number of SKUs (about 500,000 or more), you will notice a dramatic improvement in indexing time for price rules. To take advantage of this improvement, you must enable [Use Flat Catalog Product]({% link catalog/catalog-flat.md %}).
+Use of a flat catalog is no longer recommended as a best practice. Continued use of this feature is known to cause performance degradation and other indexing issues. See [Use Flat Catalog Product]({% link catalog/catalog-flat.md %}) for more information.
 
 ## Index actions and controls
 

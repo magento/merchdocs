@@ -12,6 +12,9 @@ redirect_from:
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Payment Methods
 
+{:.bs-callout-tip}
+Payment Services for Adobe Commerce and Magento Open Source provides a turnkey self-service solution, including sandbox testing and a simple setup, for providing robust and secure payment processing. To learn more about this powerful tool set and how it can give you the insight and control you need to create the best experience for your buyers, see the [Payment Services User Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+
 <div class="bs-callout-info" markdown="1">
 Some payment integrations and bundled extensions have been removed in 2.4.x releases and moved to Commerce Marketplace. You can find the latest official payment integration extensions in [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
 

@@ -15,6 +15,9 @@ _Category tree_
 |<span class="btn">Delete</span> |Removes the current category or subcategory from the tree.|
 |<span class="btn">Save</span> |Saves any changes made to the category.|
 
+{:.bs-callout-info}
+Restricted administrators do not have access to root categories and cannot create subcategories, unless they have access to all Websites.
+
 ## Troubleshooting resources
 
 For help with troubleshooting category issues, see the following Commerce Support articles:

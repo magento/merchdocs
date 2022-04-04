@@ -33,6 +33,9 @@ Iterative splitting provides the best distribution of products among price range
 
 ## Configure price navigation
 
+{:.bs-callout-info}
+To correctly display products and their prices according to _price filters_ in the layered navigation, make sure that the settings for the price display in the [Sales Tax configuration]({% link configuration/sales/tax.md %}) have the same value (`Excluding Tax` **or** `Including Tax`). For the _Calculation Settings_, check the **Catalog Prices** value. And for _Price Display Settings_, check the **Display Product Prices in Catalog** value. If these have different values, price filters in the layered navigation may not properly filter and sort products by price.
+
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the left panel, expand **Catalog** and choose **Catalog** underneath.

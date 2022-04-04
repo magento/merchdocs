@@ -9,7 +9,6 @@ Adobe Commerce and Magento Open Source releases 2.4.0 through 2.4.3 included the
 
 If you have the bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules]({{ site.devdocs_url }}/guides/v{{ site.version }}/comp-mgr/upgrade-module.html) in the _Upgrade Guide_ for more information.
 </div>
-
 ## Tax Classes
 
 ![]({% link configuration/sales/assets/tax-tax-classes.png %}){: .zoom}
@@ -69,7 +68,7 @@ If you have the bundled extension enabled and configured, you must update your c
 |Display Prices|Store View|Determines if shopping cart prices include or exclude tax, or show two versions of the price; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 |Display Subtotal|Store View|Determines if the shopping cart subtotal includes or excludes tax, or shows two versions of the subtotal; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 |Display Shipping Amount|Store View|Determines if the shopping cart shipping amount includes or excludes tax, or shows two versions of the shipping amount; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
-|Include Tax in Grand Total|Store View|Determines if tax is included in the shopping cart grand total. Options: Yes / No|
+|Additionally Show Order Total Without Tax|Store View|Determines if an additional line with the grand total amount without tax is displayed in the shopping cart. Options: Yes / No|
 |Display Full Tax Summary|Store View|Determines if the shopping cart includes a full tax summary. Options: Yes / No|
 |Display Zero Tax Subtotal|Store View|Determines if the shopping cart includes a tax subtotal when the tax is zero. Options: Yes / No|
 
@@ -83,7 +82,7 @@ _[Orders, Invoices, Credit Memos Display Settings]({% link tax/display-settings.
 |Display Prices|Store View|Determines if the prices on sales documents include or exclude tax, or if each document shows two versions of the price; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 |Display Subtotal|Store View|Determines if the subtotal on sales documents includes or excludes tax, or if each document shows two versions of the subtotal; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
 |Display Shipping Amount|Store View|Determines if the shipping amount on sales documents includes or excludes tax, or if each document shows two versions of the subtotal; one with, and the other without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
-|Include Tax in Order Total|Store View|Determines if the grand total on sales documents includes  tax. Options include: Yes / No|
+|Additionally Show Order Total Without Tax|Store View|Determines if an additional line with the grand total amount without tax is displayed on sales documents. Options include: Yes / No|
 |Display Full Tax Summary|Store View|Determines if the full tax summary appears on sales documents. Options: Yes / No|
 |Display Zero Tax Subtotal|Store View|Determines of the subtotal section on sales documents appears when no tax is charged. Options: Yes / No|
 |<span class="ee-only">Display Gift Wrapping Prices</span>|Store View|Determines if gift wrapping prices are included in the subtotal. Options: Excluding Tax / Including Tax / Including and Excluding Tax|
