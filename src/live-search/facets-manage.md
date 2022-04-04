@@ -3,6 +3,8 @@ ee_only: true
 title: Manage Facets
 tag: live-search
 group: marketing
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets-manage.html
 ---
 
 Follow these instructions to update the properties of existing facets or change their presentation in the storefront.

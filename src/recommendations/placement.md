@@ -3,6 +3,8 @@ title: Placement and Labels
 tag: product-recommendations
 group: marketing
 ee_only: true
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/placement.html
 ---
 
 With so many recommendation types to choose from, which should you use on each page? If you are not sure where to begin, try the following:
