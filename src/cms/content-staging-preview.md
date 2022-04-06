@@ -46,6 +46,9 @@ _Preview page controls_
 
    - Choose the website, store, or store view that you want to preview.
 
+{:.bs-callout-info}
+The preview is always starts from the **default** store view scope to simulate customer's experience of navigating through the website in the future state. Single staging campaign can include changes that affect multiple store views and websites. Hence, admin user is responsible to navigate through the changes, which are included in the campaign.
+
 1. Share a link to the preview:
 
    - Click <span class="btn">Share</span> and copy the link to the clipboard.
