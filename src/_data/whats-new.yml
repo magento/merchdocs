@@ -4,8 +4,19 @@ description: This page contains recent changes that we think you'd like to know 
   We exclude from this list proofreading, spelling checks, and insignificant updates.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Mar 28 14:27:12 2022
+updated: Mon Apr 4 14:28:07 2022
 entries:
+- description: Added _Payment Services_ to the [Recommended Solutions](https://docs.magento.com/user-guide/configuration/sales/recommended-solutions.html) in the configuration reference.
+  versions: 2.4.x
+  type: Major update
+  date: March 31, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/436
+  merge_commit: daf0ae750b6a032da0e1e48513f062cb0aa5030a
+  contributor: danidelcar
+  membership: true
+  labels:
+  - 2.4.x
+  - Major update
 - description: Live Search 2.0 includes a beta release of PWA support, a configurable
     storefront popover, and advanced installation process changes.
   versions: 2.4.x
