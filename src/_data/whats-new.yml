@@ -6,7 +6,7 @@ link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
 updated: Mon Apr 4 14:28:07 2022
 entries:
-- description: Added a _Payment Services_ to the [Recommended Solutions](https://docs.magento.com/user-guide/configuration/sales/recommended-solutions.html)
+- description: Added _Payment Services_ to the [Recommended Solutions](https://docs.magento.com/user-guide/configuration/sales/recommended-solutions.html) in the configuration reference.
     for Payment Methods configuration.
   versions: 2.4.x
   type: Major update
