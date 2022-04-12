@@ -51,7 +51,3 @@ The selection of reports for [private sales and events]({% link reports/private-
 ### Business Intelligence
 
 Integrated [Business Intelligence]({% link reports/business-intelligence.md %}) tools provide the insight you need to make strategic business decisions.
-
-### Customer Engagement
-
-The [Customer Engagement reporting]({% link reports/customer-engagement.md %}) provides data import and report options for [Engagement Cloud]({% link marketing/dotdigital/engagement-cloud.md %}).

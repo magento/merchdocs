@@ -36,20 +36,19 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 ||<span class="ee-only">[Private Sales]({% link marketing/events-private-sales.md %})</span>|[Events]({% link marketing/event-components.md %}) <br/>[Invitations]({% link marketing/invitations.md %})|
 ||[Communications]({% link marketing/communications.md %})|[Email Templates]({% link marketing/email-templates.md %}) <br/>[Newsletter Template]({% link marketing/newsletter-template.md %}) <br/>[Newsletter Queue]({% link marketing/newsletter-queue.md %}) <br/>[Newsletter Subscribers]({% link marketing/newsletter-subscribers.md %}) <br/><span class="ee-only">[Email Reminders]({% link marketing/email-reminder-rules.md %})</span>|
 ||[SEO & Search]({% link marketing/seo-search.md %})|[Search Terms]({% link marketing/search-terms.md %}) <br/><span class="ee-only">[Search Synonyms]({% link marketing/search-synonyms.md %})</span><br/>[URL Rewrites]({% link marketing/url-rewrite.md %}) <br/>[Site Map]({% link marketing/sitemap-xml.md %})|
-||[User Content]({% link catalog/settings-advanced-product-reviews.md %}) | [All Reviews]({% link catalog/settings-advanced-product-reviews.md %}) <br/>[Pending Reviews]({% link marketing/magento-product-reviews-moderate.md %}) <br/>[Yotpo Reviews]({% link marketing/yotpo-reviews-intro.md %})|
-||Customer Engagement|[dotdigital Engagement Cloud]({% link marketing/dotdigital/engagement-cloud.md %})<br/>[dotdigital Chat]({% link marketing/dotdigital/chat.md %})<br/>[Exclusion Rules]({% link marketing/dotdigital/exclusion-rules.md %})|
+||[User Content]({% link catalog/settings-advanced-product-reviews.md %}) | [All Reviews]({% link catalog/settings-advanced-product-reviews.md %}) <br/>[Pending Reviews]({% link marketing/magento-product-reviews-moderate.md %}) <br/> |
 |[Content]({% link content.md %}) | [Elements]({% link cms/content-elements.md %}) | [Pages]({% link cms/pages.md %})<br/><span class="ee-only">[Hierarchy]({% link cms/page-hierarchy.md %})</span><br/>[Blocks]({% link cms/blocks.md %})<br/><span class="ee-only">[Dynamic Blocks]({% link cms/dynamic-blocks.md %})</span><br/>[Widgets]({% link cms/widgets.md %})<br/>[Media Gallery]({% link cms/media-storage.md %})|
 ||[Design]({% link design/design-theme.md %}) | [Configuration]({% link design/configuration.md %})<br/>[Themes]({% link design/themes.md %})<br/>[Schedule]({% link design/schedule.md %})|
 ||<span class="ee-only">[Content Staging]({% link cms/content-staging.md %})</span><br />|Dashboard|
 |[Reports]({% link reports.md %}) | [Marketing]({% link reports/marketing-reports.md %})|Products in Cart<br />Search Terms<br />Abandoned Carts<br />Newsletter Problem Reports|
-||[Reviews]({% link reports/review-reports.md %})|By Customer<br />By Products<br />Yotpo Reviews|
+||[Reviews]({% link reports/review-reports.md %})|By Customer<br/> By Products<br/>|
 ||[Sales]({% link reports/sales-reports.md %})|Orders<br/>Tax<br/>Invoiced<br/>Shipping<br/>Refunds<br/>Coupons<br/>PayPal Settlement<br/>Braintree Settlement|
 ||<span class="ee-only">System Insights|[Site-Wide Analysis Tool]({% link reports/site-wide-analysis-tool.md %})|
 ||[Customers]({% link reports/customer-reports.md %})| Order Total<br/>Order Count<br/>New<br/>Wish Lists<br/>Segments<br/>|
 ||[Products]({% link reports/product-reports.md %})|Views<br/>Bestsellers<br/>Low Stock<br/>Ordered<br/>Downloads|
 ||<span class="ee-only">[Private Sales]({% link marketing/events-private-sales.md %})|Invitations<br/>Invited Customers<br/>Conversions|
 ||[Statistics]({% link reports/statistics.md %})|Refresh Statistics|
-||[Business Intelligence]({% link reports/business-intelligence.md %})|Advanced Reporting<br/>BI Essentials<br/>Yotpo Analytics|
+||[Business Intelligence]({% link reports/business-intelligence.md %})|Advanced Reporting<br/>BI Essentials<br/>|
 ||Customer Engagement|Dashboard<br/>Importer Status<br/>Automation Enrollment<br/>Campaign Sends<br/>SMS Sends<br/>Cron Tasks<br/>Log Viewer<br/>Abandoned Carts|
 |[Stores]({% link stores/stores.md %}) | [Settings]({% link stores/stores-menu.md %}) | [All Stores]({% link stores/stores-all-stores.md %})<br/>[Configuration]({% link stores/configuration-overview.md %})<br/>[Terms and Conditions]({% link sales/terms-and-conditions.md %})<br/>[Order Status]({% link sales/order-status.md %})|
 ||[Inventory]({% link configuration/catalog/inventory.md %})|[Sources]({% link catalog/sources.md %})<br/>Stocks|

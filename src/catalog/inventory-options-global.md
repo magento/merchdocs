@@ -26,6 +26,8 @@ Configure the default configuration options for product and stock for your websi
 
     - To display an “In Stock” or “Out of Stock” message on the product page, set **Display Products Availability In Stock on Storefront** to `Yes`.
 
+    - To check inventory when loading a product in the cart, set **Enable Inventory Check On Cart Load** to `Yes`. With this option disabled, the inventory check is skipped. Disabling this option speeds up checkout, especially if there are many items in shopping cart. However, if you skip pre-validation, customers could see "out of stock" errors later in the checkout process.
+
     - To keep consistency between inventory and catalog, set **Synchronize with Catalog** to `Yes`. With this option enabled, inventory data will be adjusted according to the catalog changes (such as product removed, product SKU changed, and product type changed).
 
        ![]({% link configuration/catalog/assets/catalog-inventory-stock-options.png %}){: .zoom}

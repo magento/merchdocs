@@ -42,7 +42,3 @@ The [Action Log]({% link system/action-log.md %}) tracks the activities of admin
 ### Other Settings
 
 Manage the [notifications]({% link stores/admin-message-inbox.md %}) in your inbox, create [custom variables]({% link marketing/variables-custom.md %}), and generate a new [encryption key]({% link system/encryption-key.md %}).
-
-### Amazon Logs
-
-The [Amazon Logs]({% link system/amazon-logs.md %}) section provides access to Client and IPN logs, if enabled in the [Developer Options]({% link configuration/sales/amazon-pay.md %}) section of the [Amazon Pay]({% link payment/amazon-pay.md %}) configuration.

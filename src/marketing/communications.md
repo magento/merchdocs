@@ -1,13 +1,40 @@
 ---
 title: Communications
+redirect_from:
+ - /reports/dotmailer-dashboard.html
+ - /reports/marketing-automation.html
+ - /reports/customer-engagement.html
+ - /configuration/dotdigital.html
+ - /configuration/dotdigital/abandoned-carts.html
+ - /configuration/dotdigital/accounts.html
+ - /configuration/dotdigital/automation.html
+ - /configuration/dotdigital/chat-settings.html
+ - /configuration/dotdigital/configuration.html
+ - /configuration/dotdigital/data-mapping.html
+ - /configuration/dotdigital/developer.html
+ - /configuration/dotdigital/dynamic-content.html
+ - /configuration/dotdigital/sync-settings.html
+ - /configuration/dotdigital/transactional-emails.html
+ - /configuration/dotdigital/transactional-sms.html
+ - /marketing/dotdigital/account-access.html
+ - /marketing/dotdigital/account-api-users.html
+ - /marketing/dotdigital/account-details.html
+ - /marketing/dotdigital/account-transactional-email-users.html
+ - /marketing/dotdigital/account-access.html
+ - /marketing/dotdigital/campaign-automate.html
+ - /marketing/dotdigital/campaign-create.html
+ - /marketing/dotdigital/campaign-schedule.html
+ - /marketing/dotdigital/chat.html
+ - /marketing/dotdigital/contacts.html
+ - /marketing/dotdigital/data-mapping.html
+ - /marketing/dotdigital/engagement-cloud.html
+ - /marketing/dotdigital/exclusion-rules.html
+ - /marketing/dotdigital/setup.html
+
 sections:
   - title: Email
     content: Learn about the responsive email templates that are triggered by a variety of events that take place during the operation of your store.
     url: /marketing/email-templates.html
-
-  - title: Customer Engagement
-    content: Learn how to use dotdigital Engagement Cloud to produce professional, personalized communications and reports using data from your store.
-    url: /marketing/dotdigital/engagement-cloud.html
 
   - title: Sales Documents
     content: Learn how to customize generated invoices, packing slips, and credit memos before your store goes live. You can customize your logo, store address, and address format, as well as include additional information for reference.
@@ -30,6 +57,12 @@ sections:
     url: /marketing/social-plugins.html
 ---
 
-One of the tasks to complete before launching your store is to review the email templates that are used for all communications sent from your store to make sure that they reflect your brand. In this section of the guide, you will learn how to customize email and newsletter templates, as well as PDF invoices and packing slips. You will also learn how to personalize the content with variables and markup tags.
+One of the tasks to complete before launching your store is to review the email templates that are used for all communications sent from your store to make sure that they reflect your brand. This section of the guide provides detailed information about customizing email and newsletter templates, as well as PDF invoices and packing slips. It also includes personalizing the content with variables and markup tags.
+
+<div class="bs-callout-info" markdown="1">
+Adobe Commerce and Magento Open Source releases 2.4.0 through 2.4.3 included the dotdigital vendor-developed extension used to integrate with the dotdigital Engagement Cloud. Starting with the 2.4.4 release, this extension is no longer bundled with the core release and must be installed and updated from the Commerce Marketplace. The Marketplace also provides access to current documentation provided by the extension developer.
+
+If you have the bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in the _Upgrade Guide_ for more information.
+</div>
 
 {% include grid.html sections=page.sections%}

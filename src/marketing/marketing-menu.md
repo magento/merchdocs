@@ -42,7 +42,3 @@ Analyze [search terms]({% link marketing/search-terms.md %}) and [synonyms]({% l
 ### User Content
 
 Leverage user-generated [product reviews]({% link marketing/product-reviews.md -%}) to create a sense of community, and increase sales.
-
-### Customer Engagement
-
-Use dotdigital Engagement Cloud to create personalized, [automated engagement]({% link marketing/dotdigital/engagement-cloud.md %}) campaigns that exceed customer expectations. Connect your data to boost ROI and increase customer lifetime value.

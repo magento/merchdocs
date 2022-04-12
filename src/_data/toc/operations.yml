@@ -35,24 +35,6 @@ pages:
   - label: Taxes
     url: "/tax/taxes.html"
     children:
-    - label: Vertex Cloud
-      url: "/tax/vertex.html"
-      children:
-      - label: Your Account
-        url: "/tax/vertex-account.html"
-      - label: Setting Up Vertex
-        url: "/tax/vertex-setup.html"
-        children:
-        - label: Products
-          url: "/tax/vertex-setup-products.html"
-        - label: Customer Exceptions
-          url: "/tax/vertex-setup-customer-exceptions.html"
-        - label: Vertex Field Mapping
-          url: "/tax/vertex-field-mapping.html"
-      - label: Configuring Vertex Tax Calculations
-        url: "/tax/vertex-configure-magento.html"
-      - label: Configuring Storefront Address Cleansing
-        url: "/tax/vertex-configure-address.html"   
     - label: General Tax Settings
       url: "/tax/tax-settings-general.html"
       children:
@@ -267,8 +249,6 @@ pages:
     - label: Developer Tools
       url: "/system/developer-tools.html"
       children:
-      - label: Amazon Pay Logs
-        url: "/system/amazon-logs.html"
       - label: Frontend Development Workflow
         url: "/system/frontend-development-workflow.html"
       - label: Using Static File Signatures
@@ -329,10 +309,6 @@ pages:
       url: "/reports/advanced-reporting.html"
     - label: MBI
       url: "https://docs.magento.com/mbi/"
-    - label: Yotpo
-      url: "/marketing/yotpo-connect.html"
-  - label: Customer Engagement
-    url: "/reports/customer-engagement.html"
   - label: New Relic Reporting
     url: "/reports/new-relic-reporting.html"
     children:

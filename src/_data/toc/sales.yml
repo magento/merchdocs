@@ -207,22 +207,6 @@ pages:
     children:
     - label: Braintree
       url: "/payment/braintree.html"
-    - label: Klarna
-      url: "/payment/klarna.html"
-      children:
-      - label: Klarna Storefront Experience
-        url: "/payment/klarna-customer-experience.html"
-      - label: Setting Up Klarna
-        url: "/payment/klarna-setup.html"
-    - label: Amazon Pay
-      url: "/payment/amazon-pay.html"
-      children:
-      - label: Customer Experience
-        url: "/payment/amazon-pay-customer-experience.html"
-      - label: Setting Up Amazon Pay
-        url: "/payment/amazon-pay-setup.html"
-      - label: Managing Transactions
-        url: "/payment/amazon-pay-manage.html"
   - label: Offline Payment Methods
     url: "/payment/offline-payment-methods.html"
     children:
