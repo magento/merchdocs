@@ -20,8 +20,8 @@ entries:
   labels:
   - 2.4.4
   - Minor update
-- description: Content removed for the Amazon Pay and Klarna vendor-bundled extensions for payment methods. These extensions are now in
-    installed and updated through the Commerce Marketplace.
+- description: The Amazon Pay and Klarna vendor-bundled extensions for payment methods are no longer bundled in Commerce. Related information
+    is removed from the user guide and documentation provided by the vendor can be accessed through the Marketplace extension listing.
   versions: 2.4.4
   type: Minor update
   date: April 12, 2022
