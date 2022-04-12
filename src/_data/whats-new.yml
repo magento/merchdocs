@@ -1,11 +1,85 @@
 ---
 title: What’s New in the User Guide
 description: This page contains recent changes that we think you'd like to know about.
-  We exclude from this list proofreading, spelling checks, and insignificant updates.
+  We do not include proofreading, spelling checks, and insignificant updates in this list.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Apr 11 14:27:19 2022
+updated: Mon Apr 12 14:27:19 2022
 entries:
+- description: Updated topics for Page Builder [Image](https://docs.magento.com/user-guide/cms/page-builder-media-image.html),
+    [Banner](https://docs.magento.com/user-guide/cms/page-builder-media-banner.html), and
+    [Slider](https://docs.magento.com/user-guide/cms/page-builder-media-slider.html) topics to include new _Search Engine Optimization_
+    options for accessibility and improved indexing.
+  versions: 2.4.4
+  type: Major update
+  date: April 12, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/403
+  merge_commit: 7bbe0cce17a9f7caf67576cf498bb7edb2f62f4b
+  contributor: leslietilling
+  membership: true
+  labels:
+  - 2.4.4
+  - Minor update
+- description: The Amazon Pay and Klarna vendor-bundled extensions for payment methods are no longer bundled in Commerce. Related information
+    is removed from the user guide and documentation provided by the vendor can be accessed through the Marketplace extension listing.
+  versions: 2.4.4
+  type: Minor update
+  date: April 12, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/383
+  merge_commit: 7bbe0cce17a9f7caf67576cf498bb7edb2f62f4b
+  contributor: leslietilling
+  membership: true
+  labels:
+  - 2.4.4
+  - Minor update
+- description: The Yotpo vendor-developed extension is no longer bundled in Commerce. Related information is removed from the user guide and
+    documentation provided by the vendor can be accessed through the Marketplace extension listing.
+  versions: 2.4.4
+  type: Minor update
+  date: April 12, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/382
+  merge_commit: 7bbe0cce17a9f7caf67576cf498bb7edb2f62f4b
+  contributor: leslietilling
+  membership: true
+  labels:
+  - 2.4.4
+  - Minor update
+- description: The Vertex Cloud vendor-developed extension is no longer bundled in Commerce. Related information is removed from the user guide and
+    documentation provided by the vendor can be accessed through the Marketplace extension listing.
+  versions: 2.4.4
+  type: Minor update
+  date: April 12, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/372
+  merge_commit: 7bbe0cce17a9f7caf67576cf498bb7edb2f62f4b
+  contributor: leslietilling
+  membership: true
+  labels:
+  - 2.4.4
+  - Minor update
+- description: The Dotdigital vendor-developed extension is no longer bundled in Commerce. Related information is removed from the user guide and
+    documentation provided by the vendor can be accessed through the Marketplace extension listing.
+  versions: 2.4.4
+  type: Minor update
+  date: April 12, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/352
+  merge_commit: 7bbe0cce17a9f7caf67576cf498bb7edb2f62f4b
+  contributor: leslietilling
+  membership: true
+  labels:
+  - 2.4.4
+  - Minor update
+- description: Updates for multiple content topics to reflect changes to the [Editor](https://docs.magento.com/user-guide/cms/editor.html). TinyMCE 5 is
+    the default WYSIWYG editor, and TinyMCE 4 is now removed.
+  versions: 2.4.4
+  type: Major update
+  date: April 12, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/199
+  merge_commit: 7bbe0cce17a9f7caf67576cf498bb7edb2f62f4b
+  contributor: leslietilling
+  membership: true
+  labels:
+  - 2.4.4
+  - Major update
 - description: Added _Payment Services_ to the [Recommended Solutions](https://docs.magento.com/user-guide/configuration/sales/recommended-solutions.html)
     in the configuration reference.
   versions: 2.4.x
