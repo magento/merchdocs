@@ -16,7 +16,7 @@ Commerce can be configured to charge a value-added tax based on either the merch
 
 ## More complex requirements
 
-Some cross-border and B2B shipments have more complex tax requirements. To expand the native capabilities of your Commerce installation, consider adding [Vertex Cloud](https://docs.magento.com/user-guide/tax/vertex.html) or another tax management solution from [Marketplace](https://marketplace.magento.com/extensions/accounting-finance/taxes.html).
+Some cross-border and B2B shipments have more complex tax requirements. To expand the native capabilities of your Commerce installation, consider adding a tax management solution from [Marketplace](https://marketplace.magento.com/extensions/accounting-finance/taxes.html).
 
 ## Field descriptions
 

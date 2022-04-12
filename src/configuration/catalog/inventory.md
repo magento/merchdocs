@@ -16,6 +16,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Display Out of Stock Products|Global|If set to `Yes`, displays products that are out of stock. If product alerts are also enabled, customers can sign up to be notified when the product becomes available. Options: Yes / No|
 |Only X left Threshold|Website|Establishes the threshold for the `Only x left` message. For example, if set to 3, the message appears when there are three or fewer of an item in stock. The message does not appear if the value is set to 0.|
 |Display products availability in Stock on Storefront|Store View|If set to `Yes`, displays an `In Stock` or `Out of Stock` message on the product page. Options: Yes / No|
+|Enable Inventory Check On Cart Load|Global|Determines if an inventory check is performed when loading a product in the cart. Disabling this inventory check can improve performance for checkout steps, especially when there are many items in the cart. However, if you skip pre-validation, customers could see "out of stock" errors later in the checkout process. Options: Yes / No|
 |Synchronize with Catalog|Global|When set to `Yes`, inventory data is adjusted according to the catalog changes (such as product removals, product SKU changes, and product type changes) and keeps consistency between inventory and catalog. Options: Yes / No|
 
 ## Product Stock Options

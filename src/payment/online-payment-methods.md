@@ -27,11 +27,6 @@ See [PayPal Payment Solutions]({% link payment/paypal.md %}) for more informatio
 - [PayPal Payflow Pro]({% link payment/paypal-payflow-pro.md %})
 - [PayPal Payflow Link]({% link payment/paypal-payflow-link.md %})
 
-## Other online payment methods
-
-- [Klarna]({% link payment/klarna.md %})
-- [Amazon Pay]({% link configuration/sales/amazon-pay.md %})
-
 ## Troubleshooting resources
 
 For help with troubleshooting online payment issues, see the following Commerce Support articles:

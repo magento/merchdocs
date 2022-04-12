@@ -29,17 +29,9 @@ _Configuration_
 
 [Sales configuration]({% link configuration/sales.md %}) determines checkout and tax settings, payment and shipping options, sales email and PDF print-outs, and Google API settings.
 
-### Yotpo
-
-[Yotpo](https://www.yotpo.com/) settings determine the [Yotpo]({% link configuration/yotpo.md %}) module, reviews, and visual marketing settings.
-
 ### Sales Channels
 
 [Sales Chanel]({% link configuration/sales-channels.md %}) settings configure the clear log history, background tasks source, debug login, and read-only mode settings. This feature is only available if your Adobe Commerce instance has Amazon Sales Channel installed and enabled.
-
-### Dotdigital
-
-[Dotdigital]({% link configuration/dotdigital.md %}) settings configure the Dotdigital marketing feature. It configures the build segments and triggers, data mapping, and lets you create a relevant account and marketing campaigns.
 
 ### Services
 

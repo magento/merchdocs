@@ -138,26 +138,6 @@ Configuration setting that improves performance when using Varnish static conten
 - Expiration Policy: Based on PHP setting session.cookie_lifetime
 - Module: `Magento_PageCache`
 
-### Persistent Customization Session Cookies (Exempt)
-
-#### `amz_auth_err`
-
-Used if [Enable Login with Amazon]({% link payment/amazon-pay-setup.md %}) is enabled. Value `1` indicates an authorization error.
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: 1 year
-- Module: [Amazon Pay]({% link payment/amazon-pay.md %})
-
-#### `amz_auth_logout`
-
-Used if [Enable Login with Amazon]({% link payment/amazon-pay-setup.md %}) is enabled. Value `1` indicates that the user should be logged out.
-
-- Is Secure? No
-- HTTP Only: No
-- Expiration Policy: 86400s (24h)
-- Module: [Amazon Pay]({% link payment/amazon-pay.md %})
-
 #### `form_key`
 
 A security measure that appends a random string to all form submissions to protect the data from Cross-Site Request Forgery (CSRF).
