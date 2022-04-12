@@ -32,7 +32,7 @@ entries:
   labels:
   - 2.4.4
   - Minor update
-- description: The yotpo vendor-developed extension is no longer bundled in Commerce. Related information is removed from the user guide and
+- description: The Yotpo vendor-developed extension is no longer bundled in Commerce. Related information is removed from the user guide and
     documentation provided by the vendor can be accessed through the Marketplace extension listing.
   versions: 2.4.4
   type: Minor update
@@ -56,7 +56,7 @@ entries:
   labels:
   - 2.4.4
   - Minor update
-- description: The dotdigital vendor-developed extension is no longer bundled in Commerce. Related information is removed from the user guide and
+- description: The Dotdigital vendor-developed extension is no longer bundled in Commerce. Related information is removed from the user guide and
     documentation provided by the vendor can be accessed through the Marketplace extension listing.
   versions: 2.4.4
   type: Minor update
