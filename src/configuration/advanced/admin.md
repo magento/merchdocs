@@ -43,7 +43,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |[Reports]({% link reports.md %}) | [Marketing]({% link reports/marketing-reports.md %})|Products in Cart<br />Search Terms<br />Abandoned Carts<br />Newsletter Problem Reports|
 ||[Reviews]({% link reports/review-reports.md %})|By Customer<br/> By Products<br/>|
 ||[Sales]({% link reports/sales-reports.md %})|Orders<br/>Tax<br/>Invoiced<br/>Shipping<br/>Refunds<br/>Coupons<br/>PayPal Settlement<br/>Braintree Settlement|
-||<span class="ee-only">System Insights|[Site-Wide Analysis Tool]({% link reports/site-wide-analysis-tool.md %})|
+||<span class="ee-only">System Insights|[Site-Wide Analysis Tool](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)|
 ||[Customers]({% link reports/customer-reports.md %})| Order Total<br/>Order Count<br/>New<br/>Wish Lists<br/>Segments<br/>|
 ||[Products]({% link reports/product-reports.md %})|Views<br/>Bestsellers<br/>Low Stock<br/>Ordered<br/>Downloads|
 ||<span class="ee-only">[Private Sales]({% link marketing/events-private-sales.md %})|Invitations<br/>Invited Customers<br/>Conversions|
