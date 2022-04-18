@@ -30,7 +30,7 @@ Access to the following resources can be assigned to a custom role. See the link
 |[Reports]({% link reports.md %}) | [Marketing]({% link reports/marketing-reports.md %})|Shopping Cart<br />[Search Terms]({% link marketing/search-terms-report.md %})<br />Newsletter Problem Reports||
 ||[Reviews]({% link reports/review-reports.md %})<br />
 ||[Sales]({% link reports/sales-reports.md %})||
-||<span class="ee-only">System Insights|[Site-Wide Analysis Tool]({% link reports/site-wide-analysis-tool.md %})|
+||<span class="ee-only">System Insights|[Site-Wide Analysis Tool](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)|
 ||[Customers]({% link reports/customer-reports.md %})<br/>[Products]({% link reports/product-reports.md %})<br/><span class="ee-only">[Private Sales]({% link marketing/events-private-sales.md %})<br />[Statistics]({% link reports/statistics.md %})<br />[Business Intelligence]({% link reports/business-intelligence.md %})||
 |[Stores]({% link stores/stores.md %}) | [Settings]({% link stores/stores-menu.md %}) | [All Stores]({% link stores/stores-all-stores.md %})<br/>[Configuration]({% link stores/configuration-overview.md %})<br/>[Terms and Conditions]({% link sales/terms-and-conditions.md %})<br/>[Order Status]({% link sales/order-status.md %})||
 ||[Inventory]({% link configuration/catalog/inventory.md %})|[Sources]({% link catalog/sources.md %})<br/>[Stocks]({% link catalog/inventory-stock.md %})||

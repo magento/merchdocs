@@ -49,7 +49,7 @@ group: getting-started
       <td>{{ item.versions }}</td>
       <td>{{ item.type }}</td>
       {% if item.link contains "-commerce" %}
-      <td><a href="https://github.com/magento/devdocs/commit/{{ item.merge_commit }}">{{ item.merge_commit | slice: 0, 6 }}</a></td>
+      <td><a href="https://github.com/magento/merchdocs/commit/{{ item.merge_commit }}">{{ item.merge_commit | slice: 0, 6 }}</a></td>
       {% else %}
       <td><a href="{{ item.link }}">{{ item.link | split: "/" | last }}</a></td>
       {% endif %}
