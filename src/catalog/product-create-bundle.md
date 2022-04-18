@@ -82,7 +82,8 @@ _Choose Template_
    - `None`
    - `Taxable Goods`
 
-    If the bundle has Dynamic Pricing, the tax is determined for each bundle item.
+    If the bundle has Dynamic Pricing, the tax is determined for **_each_** bundle item.
+    If the bundle has Fixed Pricing, the tax is determined for the **_whole_** bundle product.
 
 1. Take note of the following:
 
