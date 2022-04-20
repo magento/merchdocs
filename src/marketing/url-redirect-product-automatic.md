@@ -32,7 +32,7 @@ When automatic redirects are enabled and you save a category, all product and ca
 
     - Make sure that the **Create Permanent Redirect for old URL** checkbox is selected. If not, follow the instructions to [enable automatic redirects]({% link marketing/url-rewrite-configuration.md %}).
 
-    - Update the **URL Key** as needed, using all lowercase characters and hyphens instead of spaces.
+    - Update the **URL Key** as needed, using all lowercase characters and non-trailing hyphens between these characters instead of spaces.
 
     ![Product search engine optimization - permanent redirect]({% link marketing/assets/product-search-engine-optimization-create-permanent-redirect.png %}){: .zoom}
     _Create Permanent Redirect for Old URL_
@@ -55,7 +55,7 @@ When automatic redirects are enabled and you save a category, all product and ca
 
     - Make sure that the **Create Permanent Redirect for old URL** checkbox is selected. If not, follow the instructions to [enable automatic redirects]({% link marketing/url-rewrite-configuration.md %}).
 
-    - Update the **URL Key** as needed, using all lowercase characters and hyphens instead of spaces.
+    - Update the **URL Key** as needed, using all lowercase characters and non-trailing hyphens between these characters instead of spaces.
 
 1. When complete, click <span class="btn">Save</span>.
 
