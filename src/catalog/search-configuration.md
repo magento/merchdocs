@@ -33,7 +33,7 @@ There are two variations of the Catalog Search configuration: The first method d
 ### Step 1: Configure general search options
 
 {:.bs-callout-info}
-With ElasticSearch, there is no out of the box support for search by the suffix. For example, search by SKU may not return the expected result if the keyword contains only the end part of the SKU.
+With ElasticSearch, there is no out-of-the-box support for search by the suffix. For example, search by SKU may not return the expected result if the keyword contains only the end part of the SKU.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
