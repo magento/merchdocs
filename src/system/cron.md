@@ -15,7 +15,7 @@ In addition, you can configure the following to run according to a cron schedule
 - Order System Grid Updates and Reindexing
 - Pending Payment Lifetime
 
-Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store are set correctly, so the URLs that are generated during cron operations are correct. For Adobe Commerce Cloud, see [Set up cron jobs][1]{:target="_blank"} in the Commerce Developer Guide. For On-Premise, see [Configure and run con][2]{:target="_blank"} in the Commerce Developer Guide.
+Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store are set correctly, so the URLs that are generated during cron operations are correct. For Adobe Commerce on cloud infrastructure, see [Set up cron jobs][1]{:target="_blank"} in the Commerce Developer Guide. For on-premise, see [Configure and run con][2]{:target="_blank"} in the Commerce Developer Guide.
 
 ## Configure Cron
 
