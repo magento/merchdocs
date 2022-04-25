@@ -1,15 +1,29 @@
 ---
 title: What’s New in the User Guide
 description: This page contains recent changes that we think you'd like to know about.
-  We do not include proofreading, spelling checks, and insignificant updates in this list.
+  We do not include proofreading, spelling checks, and insignificant updates in this
+  list.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Apr 12 14:27:19 2022
+updated: Mon Apr 18 14:21:29 2022
 entries:
+- description: Redirected the Site-Wide-Analysis Tool topic to the [new location](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)
+    on Adobe Experience League.
+  versions: 2.4.x
+  type: Major update
+  date: April 14, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/450
+  merge_commit: 5aa56169719ab21dbecb768f745eebfc6ee927fd
+  contributor: jeff-matthews
+  membership: true
+  labels:
+  - 2.4.x
+  - Major update
 - description: Updated topics for Page Builder [Image](https://docs.magento.com/user-guide/cms/page-builder-media-image.html),
-    [Banner](https://docs.magento.com/user-guide/cms/page-builder-media-banner.html), and
-    [Slider](https://docs.magento.com/user-guide/cms/page-builder-media-slider.html) topics to include new _Search Engine Optimization_
-    options for accessibility and improved indexing.
+    [Banner](https://docs.magento.com/user-guide/cms/page-builder-media-banner.html),
+    and [Slider](https://docs.magento.com/user-guide/cms/page-builder-media-slider.html)
+    topics to include new _Search Engine Optimization_ options for accessibility and
+    improved indexing.
   versions: 2.4.4
   type: Major update
   date: April 12, 2022
@@ -20,8 +34,10 @@ entries:
   labels:
   - 2.4.4
   - Minor update
-- description: The Amazon Pay and Klarna vendor-bundled extensions for payment methods are no longer bundled in Commerce. Related information
-    is removed from the user guide and documentation provided by the vendor can be accessed through the Marketplace extension listing.
+- description: The Amazon Pay and Klarna vendor-bundled extensions for payment methods
+    are no longer bundled in Commerce. Related information is removed from the user
+    guide and documentation provided by the vendor can be accessed through the Marketplace
+    extension listing.
   versions: 2.4.4
   type: Minor update
   date: April 12, 2022
@@ -32,8 +48,9 @@ entries:
   labels:
   - 2.4.4
   - Minor update
-- description: The Yotpo vendor-developed extension is no longer bundled in Commerce. Related information is removed from the user guide and
-    documentation provided by the vendor can be accessed through the Marketplace extension listing.
+- description: The Yotpo vendor-developed extension is no longer bundled in Commerce.
+    Related information is removed from the user guide and documentation provided
+    by the vendor can be accessed through the Marketplace extension listing.
   versions: 2.4.4
   type: Minor update
   date: April 12, 2022
@@ -44,8 +61,9 @@ entries:
   labels:
   - 2.4.4
   - Minor update
-- description: The Vertex Cloud vendor-developed extension is no longer bundled in Commerce. Related information is removed from the user guide and
-    documentation provided by the vendor can be accessed through the Marketplace extension listing.
+- description: The Vertex Cloud vendor-developed extension is no longer bundled in
+    Commerce. Related information is removed from the user guide and documentation
+    provided by the vendor can be accessed through the Marketplace extension listing.
   versions: 2.4.4
   type: Minor update
   date: April 12, 2022
@@ -56,8 +74,9 @@ entries:
   labels:
   - 2.4.4
   - Minor update
-- description: The Dotdigital vendor-developed extension is no longer bundled in Commerce. Related information is removed from the user guide and
-    documentation provided by the vendor can be accessed through the Marketplace extension listing.
+- description: The Dotdigital vendor-developed extension is no longer bundled in Commerce.
+    Related information is removed from the user guide and documentation provided
+    by the vendor can be accessed through the Marketplace extension listing.
   versions: 2.4.4
   type: Minor update
   date: April 12, 2022
@@ -68,8 +87,8 @@ entries:
   labels:
   - 2.4.4
   - Minor update
-- description: Updates for multiple content topics to reflect changes to the [Editor](https://docs.magento.com/user-guide/cms/editor.html). TinyMCE 5 is
-    the default WYSIWYG editor, and TinyMCE 4 is now removed.
+- description: Updates for multiple content topics to reflect changes to the [Editor](https://docs.magento.com/user-guide/cms/editor.html).
+    TinyMCE 5 is the default WYSIWYG editor, and TinyMCE 4 is now removed.
   versions: 2.4.4
   type: Major update
   date: April 12, 2022
@@ -731,7 +750,7 @@ entries:
   labels:
   - New topic
   - 2.4.3
-- description: 'Updates for dotdigital configuration fields'
+- description: Updates for dotdigital configuration fields
   versions: 2.4.3
   type: Minor update
   date: August 10, 2021
@@ -1136,7 +1155,8 @@ entries:
   - 'Partner: Atwix'
   - 'Progress: done'
   - partners-contribution
-- description: Changes to Klarna Storefront Experience to capture updates for the Klarna logo, iframe, and labeling.
+- description: Changes to Klarna Storefront Experience to capture updates for the
+    Klarna logo, iframe, and labeling.
   versions: 2.4.x
   type: Minor update
   date: April 27, 2021
@@ -1518,8 +1538,8 @@ entries:
   type: Minor update
   date: October 15, 2020
   link: https://github.com/magento/merchdocs/pull/745
-- description: The Yotpo Reviews module includes an enhancement to programmatically adjust when Magento orders
-    are synced to Yotpo.
+- description: The Yotpo Reviews module includes an enhancement to programmatically
+    adjust when Magento orders are synced to Yotpo.
   versions: 2.4.1
   type: Minor update
   date: October 15, 2020
