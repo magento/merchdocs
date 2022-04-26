@@ -16,5 +16,8 @@ Step 3: Receive Payment
 Step 4: Invoice Order
 : An order is typically invoiced after payment is received. Some payment methods generate an invoice automatically when payment is authorized and captured. The payment method determines which invoicing options are needed for the order. After the invoice is generated and submitted, a copy is sent to the customer.
 
+{:.bs-callout-info}
+Invoices are not created automatically for orders placed by using `Gift Card`, `Store Credit`, `Reward Points`, or other offline payment methods.
+
 Step 5: Book a Single Shipment
 : When the shipment detail is complete, the shipment is booked, and the packing slip and shipping label are printed. The customer receives notification, and the package is shipped. If tracking numbers are used, the shipment can be tracked from the customer’s account.
