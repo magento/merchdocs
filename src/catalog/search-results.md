@@ -74,4 +74,4 @@ The following example uses keyword mapping based on SKU. When either SKU is ente
 ### Step 4: Test it in the storefront
 
 1. Go to the storefront and enter `MJ03` in the _Quick Search_ box.
-2. Verify that both products are returned in the search results list.
+1. Verify that both products are returned in the search results list.
