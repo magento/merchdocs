@@ -110,7 +110,7 @@ Attribute
   |Date Created (days ago)|Includes products based on the number of days since the products were added to the catalog.|
   |Date Modified (days ago)|Includes products  based on the number of days since the products were last modified.|
   |Name|Includes products based on the product name.|
-  |Price|Includes products based on price.|
+  |Price|Includes products based on price. Is not applicable for configurable products, since they don't have their own price.|
   |Quantity|Includes products based on the quantity in stock.|
   |SKU|Includes products based on SKU.|
 
