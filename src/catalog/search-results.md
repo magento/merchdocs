@@ -55,7 +55,7 @@ The following example uses keyword mapping based on SKU. When either SKU is ente
 1. On the product settings page, scroll down and expand the _Attributes_ section.
 1. In the **Search Keywords** field, enter the SKU `MH01` that is to be mapped to this product.
 
-   You can actually enter multiple SKUs separated by a space in the Search Keywords field, but for this example, only one is entered.
+   You can enter multiple SKUs separated by a space in the Search Keywords field. In this example, only one is entered.
 
    ![]({% link catalog/assets/search-keywords-attribute.png %}){: .zoom}
    _Attributes section with search keyword_
