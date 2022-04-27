@@ -36,8 +36,8 @@ To give someone restricted access to the Admin, the first step is to create a ro
     ![User role resources - custom scope]({% link system/assets/permissions-role-scope-custom.png %}){: .zoom}
     _Custom Role Scope_
 
-   {:.bs-callout-info}
-   Users with `Custom` role scope are not able to create websites and categories, assign products to categories and do other *global* actions affecting other scope, for which they don't have access.
+{:.bs-callout-info}
+Users with `Custom` role scope are not able to create websites and categories, assign products to categories and do other *global* actions affecting other scope, for which they don't have access.
 
 2. Under _Roles Resources_, set **Resource Access** to `Custom`.
 
