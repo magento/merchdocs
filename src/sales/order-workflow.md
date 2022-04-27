@@ -18,3 +18,6 @@ Step 4: Invoice Order
 
 Step 5: Book a Single Shipment
 : The order status changes to to `Complete` when the shipment detail is complete, the shipment is booked, and either the packing slip and shipping label are printed or the 'Notify Ready for Pickup' button is clicked (if order was set for In-store delivery method.)  The customer receives notification and the package is shipped. If tracking numbers are used, the shipment can be tracked from the customer’s account.
+
+{:.bs-callout-info}
+For details about order status and payment method configuration options, see [Order status]({% link sales/order-status.md %}) and [Payment Methods]({% link sales/payment-methods.md %}).
