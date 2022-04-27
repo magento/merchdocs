@@ -16,7 +16,7 @@ With ElasticSearch, there is no out-of-the-box support for search by the suffix.
 ![]({% link catalog/assets/storefront-search-results-shorts.png %}){: .zoom}
 _Search Results with Pagination Controls_
 
-## Keyword mapping extends search results
+## Keyword mapping to extend search results
 
 This technique uses an attribute to create a keyword-based association between two products, so they are each returned in the search results of the other. You can use keyword mapping to promote a product in search results where it otherwise wouldn't appear.
 
