@@ -5,7 +5,7 @@ title: Order Workflow
 When a customer places an order, a sales order is created as a temporary record of the transaction. In the Orders grid, sales orders initially have a status of "Pending," and can be canceled at any time until the payment is processed. After payment is confirmed, the order can be invoiced and shipped.
 
 Step 1: Place Order
-: The checkout process begins when the shopper clicks the Go to Checkout button on the shopping cart page or [reorders]({% link sales/reorders-allow.md %}) directly from their customer account.
+: The checkout process begins when the shopper clicks **Go to Checkout** on the shopping cart page or [reorders]({% link sales/reorders-allow.md %}) directly from their customer account.
 
 Step 2: Order Pending
 : The status of the sales order is initially `Pending`. Payment has not been processed, and the order can still be edited or canceled. This will occur when payment processor module is configured for authorization mode.
