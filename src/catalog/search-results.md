@@ -18,7 +18,7 @@ _Search Results with Pagination Controls_
 
 ## Keyword mapping to extend search results
 
-This technique uses an attribute to create a keyword-based association between two products, so they are each returned in the search results of the other. You can use keyword mapping to promote a product in search results where it otherwise wouldn't appear.
+This technique uses an attribute to create a keyword-based association between two products so that a search for either product returns results for both products. You can use keyword mapping to promote a product in search results where it otherwise wouldn't appear.
 
 ![]({% link catalog/assets/storefront-search-results-extended.png %}){: .zoom}
 _Search results with keyword mapping_
