@@ -36,9 +36,12 @@ To give someone restricted access to the Admin, the first step is to create a ro
     ![User role resources - custom scope]({% link system/assets/permissions-role-scope-custom.png %}){: .zoom}
     _Custom Role Scope_
 
-1. Under _Roles Resources_, set **Resource Access** to `Custom`.
+   {:.bs-callout-info}
+   Users with `Custom` role scope are not able to create websites and categories, assign products to categories and do other *global* actions affecting other scope, for which they don't have access.
 
-1. {:.ee-only} In the tree, select the checkbox of each Admin **Resource** that the role can access.
+2. Under _Roles Resources_, set **Resource Access** to `Custom`.
+
+3. {:.ee-only} In the tree, select the checkbox of each Admin **Resource** that the role can access.
 
     To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default [shipping point of origin]({% link shipping/point-of-origin.md %}), you must allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
 
@@ -48,7 +51,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
     {:.bs-callout-info}
     The list of available permissions may include additional options for Commerce developed, Core Bundled, and installed extensions. By selecting the top-most permission for each feature, you assign all permissions available for the user.
 
-1. When complete, click <span class="btn">Save Role</span>.
+4. When complete, click <span class="btn">Save Role</span>.
 
     The role now appears in the grid and can be assigned to user accounts.
 
