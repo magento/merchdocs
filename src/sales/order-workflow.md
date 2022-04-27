@@ -11,7 +11,7 @@ Step 2: Order Pending
 : The status of the sales order is initially `Pending`. Payment has not been processed, and the order can still be edited or canceled. This will occur when payment processor module is configured for authorization mode.
 
 Step 3: Receive Payment
-: The status of the order changes to `Processing` when payment is received or authorized. Depending on the payment method, you might receive notification when the transaction is authorized or processed. This will occur automatically when payment processor module is configured for capture or intent sale mode.
+: The order status changes to `Processing` when payment is received or authorized. Depending on the payment method, you might receive notification when the transaction is authorized or processed. This will occur automatically when the payment method is configured for capture or intent sale mode.
 
 Step 4: Invoice Order
 : An order is typically invoiced after payment is received. Some payment methods generate an invoice automatically when payment is authorized and captured. The payment method determines which invoicing options are needed for the order. After the invoice is generated and submitted, a copy is sent to the customer. This will occur automatically when payment processor module is configured for capture or intent sale mode.
