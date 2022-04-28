@@ -24,7 +24,7 @@ The following example shows how to schedule a temporary price change for a produ
       To create an open-ended campaign, do not specify an end date (leave blank). For this example, the campaign is scheduled to begin at the stroke of midnight for the new year, January 1, 2021 at 12:00 AM PST.
 
       {:.bs-callout-info}
-      An end date cannot later be added to a price rule campaign that was originally created without an end date. In such a case it is necessary to create a duplicate campaign that includes the end date that is needed
+      For a price rule campaign that was created without an end date, an end date cannot later be added. In such a case, it is necessary to create a new campaign and set the start date to the date you want the old campaign to end and the new one to start. On the start date, the old campaign will end, and the new campaign will begin as defined.
 
       ![]({% link cms/assets/content-staging-campaign-schedule-update.png %}){: .zoom}
       _Scheduling a product update_

@@ -290,9 +290,6 @@ pages:
     children:
     - label: Refresh Statistics
       url: "/reports/statistics.html"
-  - label: Site-Wide Analysis Tool
-    url: "/reports/site-wide-analysis-tool.html"
-    edition: ee-only 
   - label: Customer Reports
     url: "/reports/customer-reports.html"
   - label: Product Reports

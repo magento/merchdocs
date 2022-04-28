@@ -38,4 +38,7 @@ sections:
 
 Learn how to filter data and online generate reports. The report data can be opened in a spreadsheet or imported into other applications.
 
+{:.bs-callout-tip}
+<span class="ee-only"></span>The Site-Wide Analysis Tool provides system insights for Adobe Commerce with 24/7 real-time performance monitoring, reports, and recommendations. For more information about using this tool to reduce resolution time and improve site stability and performance, see [Site-Wide Analysis Tool](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html) in the _Tools Guide_.
+
 {% include grid.html sections=page.sections%}
