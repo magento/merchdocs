@@ -175,8 +175,6 @@ pages:
   - label: Integrations
     url: "/system/integrations.html"
     children:
-    - label: Integration with ERP Systems
-      url: "/system/erp-systems.html"
     - label: Commerce Services
       url: "/system/saas.html"
   - label: Permissions

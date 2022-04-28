@@ -23,7 +23,7 @@ With multiple source locations, global customers, and carriers with various ship
 - Ship the entire order from one source
 - Break the shipments across multiple sources in different amounts to keep a balanced stock across all warehouses and stores
 
-SSA is able extensible for third party support and custom algorithms for recommending cost effective shipments.
+SSA is extensible for third party support and custom algorithms for recommending cost effective shipments.
 
 {:.bs-callout-info}
 SSA functions differently for Virtual and Downloadable products, which may not incur shipping costs. In these cases, the system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. You cannot adjust these results for Virtual and Downloadable products.
