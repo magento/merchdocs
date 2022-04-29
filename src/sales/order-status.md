@@ -16,7 +16,7 @@ A partially refunded order remains in `Processing` status until **_all_** ordere
 
 |Order Status|Status Code||
 |--- |--- |--- |
-|Processing|processing|When the state of new orders is set to 'Processing', the _Automatically Invoice All Items_ option becomes available in the configuration.|
+|Processing|processing|When the state of new orders is set to 'Processing', the _Automatically Invoice All Items_ option becomes available in the configuration. Invoices are not created automatically for orders placed by using Gift Card, Store Credit, Reward Points, or other offline payment methods.|
 |Suspected Fraud|fraud|Sometimes orders paid via PayPal or another payment gateway are marked as Suspected Fraud. This means the order does not have invoice issued and the confirmation email is also not sent.|
 |Pending Payment|pending_payment|This is the status used if order is created and PayPal or similar payment method is used. This means that the customer was directed to the payment gateway website, but no return information has been received yet. This status will change when customer pays.|
 |Payment Review|payment_review|This status appears when PayPal payment review is turned on.|
