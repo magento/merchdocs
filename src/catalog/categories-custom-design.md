@@ -7,6 +7,9 @@ The Design section gives you control over the look and feel of a category, all a
 ![]({% link catalog/assets/category-design.png %}){: .zoom}
 _Design_
 
+{:.bs-callout-info}
+When the same product is assigned to several categories with different design settings for each category, it is recommended to set `Use Categories Path for Product URLs` = `Yes` setting on the _Stores_ -> _Configuration_ -> _Catalog_ -> _Catalog_ -> _Search Engine Optimization_ configuration  tab for correct design displaying on the product display page.
+
 |Field|Description|
 |--- |--- |
 |Use Parent Category Settings|Allows the current category to inherit the design settings from the parent category. If used, all other fields in the Design section become unavailable. Options: Yes / No|
