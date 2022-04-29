@@ -32,3 +32,6 @@ When the [shared catalog]({% link stores/b2b-features.md %}) B2B feature is enab
     - To delete a permission rule, click the ![Trash can]({% link assets/icon-delete-trashcan-solid.png %}) icon.
 
 1. When complete, click <span class="btn">Save</span>.
+
+{:.bs-callout-info}
+If `Browsing Category` = `Deny` permission is set for any parent category, then it will not be displayed on the [Breadcrumb Trail]({% link catalog/navigation-breadcrumb-trail.md %}).

@@ -57,3 +57,6 @@ The following requirements must be met for a complex product (such as bundle, gr
    - The toggle in the first column of the grid is set to `On` for each selected product.
    - If a product is assigned to multiple categories and is omitted in one of them, it continues to be available through the other categories and through [catalog search]({% link catalog/search.md %}).
    - The system automatically sets [Category Permissions]({% link catalog/category-permissions.md %}) to `Allow` for the selected products.
+
+{:.bs-callout-info}
+When parent category is not selected in the category tree, then this category will have `Deny` [Category Permission]({% link catalog/category-permissions.md %}) settings. And this parent category will not be displayed on the [Breadcrumb Trail]({% link catalog/navigation-breadcrumb-trail.md %}).
