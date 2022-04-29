@@ -128,4 +128,4 @@ If any **_Allow_** permissions are set for the `Root Category`, then these permi
 If any product is assigned to multiple categories, and it has any **_Allow_** permissions for at least one category, it will automatically have the same **_Allow_** permissions for all assigned categories.
 
 {:.bs-callout-info}
-If `Browsing Category` = `Deny` permission is set for any parent category, then it will not be displayed on the [Breadcrumb Trail]({% link catalog/navigation-breadcrumb-trail.md %}) on the child category page.
+When `Browsing Category` = `Deny` permission is set for any parent category, it is not displayed on the [Breadcrumb Trail]({% link catalog/navigation-breadcrumb-trail.md %}) on the child category page.
