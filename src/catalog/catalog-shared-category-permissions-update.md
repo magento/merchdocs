@@ -34,4 +34,4 @@ When the [shared catalog]({% link stores/b2b-features.md %}) B2B feature is enab
 1. When complete, click <span class="btn">Save</span>.
 
 {:.bs-callout-info}
-If `Browsing Category` = `Deny` permission is set for any parent category, then it will not be displayed on the [Breadcrumb Trail]({% link catalog/navigation-breadcrumb-trail.md %}).
+If `Browsing Category` = `Deny` permission is set for any parent category, then it will not be displayed on the [Breadcrumb Trail]({% link catalog/navigation-breadcrumb-trail.md %}) on the child category page.

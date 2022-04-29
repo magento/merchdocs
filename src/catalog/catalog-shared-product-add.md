@@ -59,4 +59,4 @@ The following requirements must be met for a complex product (such as bundle, gr
    - The system automatically sets [Category Permissions]({% link catalog/category-permissions.md %}) to `Allow` for the selected products.
 
 {:.bs-callout-info}
-When parent category is not selected in the category tree, then this category will have `Deny` [Category Permission]({% link catalog/category-permissions.md %}) settings. And this parent category will not be displayed on the [Breadcrumb Trail]({% link catalog/navigation-breadcrumb-trail.md %}).
+When parent category is not selected on the category tree, then this category will have `Deny` [Category Permission]({% link catalog/category-permissions.md %}) settings. And this parent category will not be displayed on the [Breadcrumb Trail]({% link catalog/navigation-breadcrumb-trail.md %}) on the child category page.
