@@ -52,3 +52,6 @@ Example: `Home > Suits > All Suits > Refined by > Slim Fit`
 
     ![]({% link configuration/general/assets/web-default-pages.png %}){: .zoom}
     _Show Breadcrumbs for CMS Pages_
+
+{:.bs-callout-info}
+Parent category is not displayed on the Breadcrumb Trail, on the child category page, when it has `Browsing Category`= `Deny` [category permission]({% link catalog/category-permissions.md %}) settings.
