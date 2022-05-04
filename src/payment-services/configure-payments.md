@@ -24,7 +24,7 @@ _Payment methods view_
 1. For **Enable**, set it to `Yes` to enable Payment Services for your store.
 1. For **Method**, set it to `Sandbox` if you are still testing Payment Services for your store or `Production` if you are ready to enable live payments.
 
-   {:.bs-callout .bs-callout-warning}
+   {:.bs-callout-warning}
    Your Sandbox Merchant ID and Production Merchant ID will be auto-generated and present in their respectable fields once you have finished onboarding for the sandbox and/or production. Do not remove or change these IDs.
 
 1. Click <span class="btn">Save Config</span> to save your changes.

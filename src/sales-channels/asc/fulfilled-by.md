@@ -16,7 +16,7 @@ Fulfilled By settings define who fulfills (or ships) orders. If all of your orde
 
 The fulfillment method is a regional attribute, and based on the **Amazon Marketplace Country** setting defined during [store integration]({% link sales-channels/asc/store-integration.md %}). When a change is made, the change will affect all Amazon listings that share that Amazon Seller SKU in your Amazon stores that sell in the same region (as defined in **Amazon Marketplace Country** during [store integration]({% link sales-channels/asc/store-integration.md %})). This means that a change to a shared Amazon Seller SKU in the United States will not affect your Amazon stores with a region set for a different region (as defined during the store integration).
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 When an order is is fulfilled by Amazon (FBA) and the order is imported, you may see dummy data for some fields in the order details. See [Amazon Order Details]({% link sales-channels/asc/amazon-order-details.md %}).
 
 ## Configure Fulfilled By settings

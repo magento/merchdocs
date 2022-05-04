@@ -12,7 +12,7 @@ After you are approved and your Seller Central account is updated, you can manag
 
 - Include `Renewed` in the product title (required by Amazon).
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 Your renewed product listings that do not meet the requirements set by Amazon will change to `Inactive` status and move from the [Active Listings]({% link sales-channels/asc/active-listings.md %}) tab to the [Inactive Listings]({% link sales-channels/asc/inactive-listings.md %}) tab. Also, the [Listings Changes Log]({% link sales-channels/asc/listing-changes-log.md %}) will show a `Refurbished` error message.
 
 For more information, see related Amazon documentation:

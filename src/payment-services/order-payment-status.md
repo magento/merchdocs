@@ -16,7 +16,7 @@ See payment statuses, invoiced and shipped statuses, refund statuses, dispute st
 
 You can download Order payment status transactions in a .csv file format for use in existing accounting or order management software.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 You cannot view financial reports if you have not [onboarded and activated Live mode]({% link payment-services/onboard-payments.md %}#activate-live-payments) for Payment Services.
 
 ## Data used in the report

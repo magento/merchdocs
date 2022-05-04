@@ -18,7 +18,7 @@ The Amazon Value differs depending on the attribute type and the Amazon attribut
 
     Listings that have a corresponding Commerce catalog product will show a linked value in the _Magento Product SKU_ column. Clicking a link will open the corresponding catalog product detail page. Changes to Amazon attributes on the product detail page do not sync back to Amazon Sales Channel.
 
-{:.bs-callout .bs-callout-tip}
+{:.bs-callout-tip}
 To edit or assign the mapping for a listing to a catalog product, see [Update Required Info]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %}).
 
 ![]({% link sales-channels/asc/assets/amazon-managing-attribute-values.png %}){: .zoom}

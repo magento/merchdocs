@@ -11,14 +11,14 @@ There are two types of pricing rules:
 - [Standard Pricing Rule]({% link sales-channels/asc/standard-price-rules.md %})
 - [Intelligent Repricing Rule]({% link sales-channels/asc/intelligent-repricing-rules.md %})
 
-   {:.bs-callout .bs-callout-warning}
+   {:.bs-callout-warning}
    Intelligent repricing rules do not function properly if the Amazon region is set to `Inactive` status, as it is during onboarding. Your pricing calculations depend on your shipping rates, and your region must be in `Active` status for your shipping rates to sync from Amazon. <br/><br/>To update your region status in your Amazon account, go to Settings > Account Info > Vacation Settings. Refer to [Amazon: Listing Status for Vacations](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620&amp;language=en_MX&amp;ref=ag_200135620_cont_191){:target="_blank"}.
 
 This feature allows you to manipulate your Amazon prices in a way that is very similar to Magento's [Catalog Price Rules]({% link catalog/pricing.md %}). You can create complex rules that allow you to change prices for specific products, products inside of specific categories, or even with specific attributes.
 
 You can add pricing rules for your Amazon listings. Price rules can be used to automatically adjust your listing prices, based on a set of defined conditions. Price rules are triggered and calculate your adjusted price before your product is listed on Amazon.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 The price source for your Amazon listings is defined for **Magento Price Source** in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) settings. Any adjustment calculations defined in the pricing rule use price source as the starting value.
 
 Pricing rules allow you to set your Amazon Listing price different than your **Magento Price Source** in your [Listing Price]({% link sales-channels/asc/listing-price.md %}) settings. Additionally, you can stack multiple rules that will work together to adjust your price.
