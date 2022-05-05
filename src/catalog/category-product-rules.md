@@ -6,6 +6,9 @@ group: marketing
 
 Category rules dynamically change the product selection according to a set of conditions. Each category can have only one category rule, although the single rule can have multiple conditions. For example, you can create a category rule for a specific brand. Products of the same brand are automatically added to the list, even if they’re not assigned to the same category. You can add as many conditions to the expression as needed to describe the products that you want to include.
 
+{:.bs-callout-tip}
+During category rule setup, the products are _sorted_, _matched_, _assigned_, and _unassigned_ according to that rule **_only_** when this category is saved. For example, if you add a new product to the catalog and want to assign it according to the rule, you **must re-save each category** that is set to match products by rule to ensure that the new product is assigned. Also, if any product stock status is changed to `In Stock` or `Out of Stock` and products in the category should be _sorted_ according to the **Automatic Sorting** rule, you must click <span class="btn">Save Category</span> as well.
+
 Each condition consists of an attribute, value, and logical operator. Only attributes with the “[Use in Product Listing]({% link stores/attributes-product.md %})” property set to `Yes` can be used in category rules. You must set this property for the attribute if you want to use an attribute that is not included in product listings. Although Date attributes are not supported, you can use the Date Created or Date Modified attributes to define a date, or range of dates. For example, to include only products that were created during the past week, set "Date Created" to a value of `<7`.
 
 {:.bs-callout-info}
