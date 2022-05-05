@@ -40,6 +40,9 @@ To save time, zero subtotal orders can be set to automatically invoice.
 
    This option is available only if the **New Order Status** option is set to `Processing`.
 
+   {:.bs-callout-info}
+   If `New Order Status` is set to `Processing` and `Automatically Invoice All Items` is set to `No`, then we must additionally assign `Order Status` = `Processing` to the `Order State` = `Received` mapping on the [Order Status]({% link sales/order-status-custom.md %}) page.
+
 1. Set **Payment from Applicable Countries** to one of the following:
 
    |All Allowed Countries |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
