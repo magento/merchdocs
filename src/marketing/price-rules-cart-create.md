@@ -140,6 +140,9 @@ In this step, the conditions are described that must be met for an order to qual
    - Total Items Quantity
    - Total Weight
 
+{:.bs-callout-info}
+In a case of multiple parallel promotions, the _Subtotal_ condition is applied to the **base** shopping cart subtotal amount **_before_** any discounts.
+
  {:.bs-callout-warning}
  For purchase orders only: When a Cart Price Rule is set based on one or more specific Payment Methods, the discount is applied to the total when a purchase order is created. If, after the purchase order is created, the payment method is changed to one that is not covered by the Cart Price rule, the discount remains applied to the total.
 
