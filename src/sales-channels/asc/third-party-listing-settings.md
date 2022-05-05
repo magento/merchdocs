@@ -26,14 +26,14 @@ The initial listing import initiates when [store integration]({% link sales-chan
 
     - **Do Not Import Listing** - Choose when you want to manually [create and assign new products]({% link catalog/products.md %}) to your Commerce catalog for your Amazon listings.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     The following options fields are only active when set to `Import Listing`.
 
 1. For **Attribute That Contains Amazon Seller SKU**, choose the Commerce attribute that matches to the Amazon Seller SKU value.
 
 1. For **Attribute That Contains Amazon ASIN**, choose the Commerce attribute that you created and match it to the Amazon ASIN.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     If you did not create these Commerce attributes for your Amazon listings, see [Creating Attributes for Amazon Matching]({% link sales-channels/asc/ob-creating-magento-attributes.md %}).
 
 1. When complete, click **Save listing settings**.

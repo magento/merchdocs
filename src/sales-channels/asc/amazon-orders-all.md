@@ -17,7 +17,7 @@ Both options show you basic order information, as received from Amazon, includin
 
 _All Orders_ view adds filtering options for order searches.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 With the exception of the _Order Notes_ column, the _Amazon orders_ table is populated with order information as received from Amazon. The _Order Notes_ column is updated by Commerce as the order processes.
 
 ## Recent orders
