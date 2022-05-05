@@ -26,7 +26,7 @@ _Orders_
 |Select|Select the checkbox to select the quote(s) to be subject to an action, or use the selection control in the column header. Options: Select All / Deselect All|
 |ID|A unique, sequential number that is assigned when a new order is saved for the first time.|
 |Purchase Point|Identifies the store view where the order was placed.|
-|Purchase Date|The date the order was placed.|
+|Purchase Date|The date and time, when the order was placed. Is always displayed according to the Default Timezone.|
 |Bill-to Name|The name of the person who is responsible to pay for the order.|
 |Ship-to Name|The name of the person to whom the order is to be shipped.|
 |Grand Total (Base)|The grand total of the order.|
