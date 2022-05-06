@@ -32,9 +32,15 @@ When a new scheduled update is created for any of the following objects, a corre
 
    Create your first campaign with the start and end dates as needed. To make the campaign open-ended, leave the end date blank. When the first campaign ends, the original baseline content is restored.
 
+   {:.bs-callout-info}
+   Campaign **Start Date** and **End Date** must be defined by using the **_default_** Admin timezone, which is converted from each website local timezone. For example, if you have multiple websites in different timezones, but you want to start campaign based on a US timezone, you need to schedule separate update for each local timezone, and set the date/time in converted from each local website timezone to default Admin timezone.
+
 1. **Add a second campaign**
 
    Create the second campaign, with the start and end dates as needed. The second campaign can be assigned to an entirely different time period. When creating multiple campaigns for the same asset, the campaigns cannot overlap. You can create as many campaigns as needed.
+
+   {:.bs-callout-info}
+   All scheduled updates are applied consecutively. This means that any entity can have only one scheduled update at one point of time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
 
 1. **Restore the baseline content**
 

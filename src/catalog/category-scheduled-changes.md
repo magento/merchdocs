@@ -5,6 +5,9 @@ title: Scheduled Changes
 
 Category updates can be applied on schedule, and grouped with other content changes. You can create a new campaign based on scheduled changes to the category, or apply the changes to an existing campaign. To learn more, see [Content Staging]({% link cms/content-staging.md %}).
 
+{:.bs-callout-info}
+All scheduled updates are applied consecutively. This means that any entity can have only one scheduled update at one point of time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
+
 ![]({% link catalog/assets/category-scheduled-changes.png %}){: .zoom}
 _Scheduled Changes_
 
@@ -23,6 +26,9 @@ _Scheduled Changes_
    - Enter a brief **Description** of the update and how it is to be used.
 
    - Use the Calendar (![]({% link assets/icon-calendar.png %})) tool to choose the **Start Date** and **End Date** for the campaign.
+
+{:.bs-callout-info}
+Campaign **Start Date** and **End Date** must be defined by using the **_default_** Admin timezone, which is converted from each website local timezone. For example, if you have multiple websites in different timezones, but you want to start campaign based on a US timezone, you need to schedule separate update for each local timezone, and set the date/time in converted from each local website timezone to default Admin timezone.
 
 1. Make any changes necessary to the scheduled update.
 
