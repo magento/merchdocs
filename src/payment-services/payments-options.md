@@ -64,7 +64,7 @@ To help your customer identify these as potential payment options, Pay Later mes
 * **When a customer selects a product between $30 and $600**, messaging under the PayPal and PayLater buttons gives the customer more information about the Pay in 4 payment option. Customers can click **Learn more** to learn about the Pay in 4 option _or_ click the "Or see 6 months special financing" text in the popup to learn about and apply for the PayPal Credit option.
 * **When a customer selects a product or products in excess of $98.99**, messaging under the PayPal and PayLater buttons gives customers more information about the PayPal Credit payment option. Customers can click **Learn more** to learn about and apply for the PayPal Credit option _or_ click the "Or see Pay in 4" text in the popup to learn about the Pay in 4 option.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    The amounts listed above are subject to change.
 
 See [Configure Payment Services]({% link payment-services/configure-payments.md %}#configure-paypal-smart-buttons) to learn how to disable or enable the Pay Later messaging.

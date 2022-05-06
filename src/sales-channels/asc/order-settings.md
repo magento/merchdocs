@@ -8,7 +8,7 @@ Order Settings define if and how Amazon orders are imported into and processed i
 
 By default, your order import settings are set to `Enabled`. This means that your Amazon orders will show on the store dashboard and create corresponding Commerce orders. Imported orders can be managed in the Commerce [Orders]({% link sales/orders.md %}) workflow.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Regardless of your order settings, Amazon orders that existed prior to your store integration will not import.
 
 After [store integration]({% link sales-channels/asc/store-integration.md %}) is complete, you can change your order settings. If you set your order settings to `Disabled`, Amazon orders show on the store dashboard but must be managed in your Amazon Seller Central account.
@@ -27,7 +27,7 @@ Orders imported from Amazon can be managed in the Commerce [orders workflow]({% 
 
     - **Enabled** - (Default) Choose when you want to create corresponding Commerce orders when new orders are received from Amazon. Commerce orders are created based on Amazon status and stock levels.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     Import Amazon Orders must be set to `Enabled` to manage Amazon orders in the Commerce [orders]({% link sales/orders.md %}) workflow. When set to `Disabled`, your Amazon orders do not have a corresponding Commerce order number and cannot be managed in Commerce. You must manage these orders in your Amazon Seller Central account.
 
 1. For **Import Amazon Orders Into Magento Store**, choose which Commerce store the Amazon orders will be associated with when the corresponding order is created in Commerce. This setting defaults to the Store View for the website selected when you [added the Amazon store]({% link sales-channels/asc/store-integration.md %}). If you want to change this setting, the list of options depends on the Commerce stores you have set up in your configuration. See [Stores]({% link stores/stores-all-create-view.md %}#create-a-new-store-view).
@@ -44,7 +44,7 @@ Orders imported from Amazon can be managed in the Commerce [orders workflow]({% 
 
     - **Build Using Amazon Order Number** - Choose when you want to create the Commerce order number using the corresponding Amazon-assigned order number.
 
-    {:.bs-callout .bs-callout-info}
+    {:.bs-callout-info}
     After an order is imported, the Amazon order number shows in the _Recent Orders_ list on the store dashboard. The Commerce order number shows when viewing the order details in the Commerce [Orders]({% link sales/orders.md %}) workspace.
 
 1. For **Order Status** (required), choose an option:
@@ -76,7 +76,7 @@ Commerce orders are created for Amazon orders based on the following status and 
 
 ### Order Creation with Multi Source Inventory (MSI)
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Supported in Adobe Commerce and Magento Open Source 2.3.x integrations only.
 
 |Fulfillment Channel|Commerce Inventory Status|Amazon Order Status|Create Magento Order Setting|Inventory Reserved|

@@ -16,7 +16,7 @@ This process can be simple or detailed, depending on your catalog configuration.
 
 Conditions are based on your [product attributes]({% link catalog/product-attributes.md %}). To apply the rule to all products, leave the conditions section blank.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you want to define a condition based on a specific product attribute, **Use for Promo Rule Conditions** for the attribute must be set to `Yes` in your [Storefront Properties]({% link stores/attribute-product-create.md %}) for the attribute.
 
 ![]({% link sales-channels/asc/assets/ob-price-rules-condition-1.png %}){: .zoom}

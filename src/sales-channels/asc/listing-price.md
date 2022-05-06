@@ -32,7 +32,7 @@ The options listed in _Magento Price Source_, _Minimum Advertised Price (Map)_, 
 
    The default is no selection. This setting determines which pricing attribute is used as the manufacturer's suggested retail price (MSRP) for a product. If your listing price is less than the defined MSRP, your Amazon listing will display a strike-through of the MSRP price and display the lower listing price, along with the calculated "You Save" amount and percentage. However, if the selected pricing field is not defined for a product, the MSRP will not be calculated.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    This only applies to listings that have won the [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) position. The Buy Box is awarded by Amazon to the seller who has the product listed usually at the best price, along with other factors such as FBA/Prime shipping offered, availability, and the seller's performance.
 
 1. For **Apply Value Added Tax (VAT)**, choose an option:
@@ -41,7 +41,7 @@ The options listed in _Magento Price Source_, _Minimum Advertised Price (Map)_, 
 
    - **Enabled** - Choose when you want to apply VAT to your listing price. VAT is typically used as a sales tax in European countries and is added to your final listed price within Amazon. VAT does not apply to final price for listings that are used within an intelligent pricing rule, unless the [floor price]({% link sales-channels/asc/floor-price.md %}) is hit.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    Businesses in the European Union (EU) are required to send invoices to business buyers, so that the customer can remit tax. You can either generate these invoices and calculate the taxes yourself or use a tax calculation service such as Amazon's VAT Calculation Service. Amazon recommends signing up for the [Amazon VAT Calculation Service](https://services.amazon.co.uk/vat-calculation-service.html). If you choose a different method, you are responsible for VAT compliance.<br/><br/>**Note**: It may take 10-14 days for Amazon to verify and activate your VAT Calculation Service account.
 
 1. For **VAT Percentage**, enter the value for your VAT rate.
@@ -56,7 +56,7 @@ The options listed in _Magento Price Source_, _Minimum Advertised Price (Map)_, 
 
       - For **Default PTC**, enter the default PTC to be used for all eligible Amazon listings. If your default PTC is set in your Amazon Seller Central account, leave this field blank. Changes made to this field do not affect existing Amazon listings. To change the Default PTC for an existing listing, the listing must be [ended]({% link sales-channels/asc/end-listings-manually.md %}) and a new listing created.
 
-   {:.bs-callout .bs-callout-info}
+   {:.bs-callout-info}
    If you use Amazon's VAT Calculation Service, you must know the tax category for your products. A PTC is Amazon's tax category ID code for B2B purchases in the EU. See [Amazon's Product Tax Codes](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&language=en_US).
 
 1. For **Currency Conversion**, choose an option.
