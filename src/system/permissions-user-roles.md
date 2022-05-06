@@ -51,6 +51,9 @@ To give someone restricted access to the Admin, the first step is to create a ro
     {:.bs-callout-info}
     The list of available permissions may include additional options for Commerce developed, Core Bundled, and installed extensions. By selecting the top-most permission for each feature, you assign all permissions available for the user.
 
+    {:.bs-callout-info}
+    Admin user must have corresponding **Sales / Archive** permissions to see **_Invoices_**, **_Credit Memos_** and **_Shipments_** order [tabs]({% link sales/order-processing.md %}).
+
 1. When complete, click <span class="btn">Save Role</span>.
 
     The role now appears in the grid and can be assigned to user accounts.

@@ -46,6 +46,9 @@ _View Order In-store Delivery_
 |Shipments|Lists each shipment record that is associated with the order.|
 |Comments History|Lists all notes that are related to the order.|
 
+{:.bs-callout-info}
+Admin user must have corresponding **Sales / Archive** [permissions]({% link system/permissions-user-roles.md %}) to see **_Invoices_**, **_Credit Memos_** and **_Shipments_** order tabs.
+
 ### Button bar
 
 {: .format-table }
