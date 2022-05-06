@@ -12,6 +12,6 @@ All scheduled updates are applied consecutively. This means that any entity can 
 _Scheduled changes for the Home page_
 
 {:.bs-callout-info}
-Campaign **Start Date** and **End Date** must be defined by using the **_default_** Admin timezone, which is converted from each website local timezone. For example, if you have multiple websites in different timezones, but you want to start campaign based on a US timezone, you need to schedule separate update for each local timezone, and set the date/time in converted from each local website timezone to default Admin timezone.
+Campaign **Start Date** and **End Date** must be defined by using the **_default_** Admin time zone, which is converted from each website local time zone. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **Start Date** and **End Date** in converted from each local website time zone to default Admin time zone.
 
 Also, you can schedule and preview changes for product updates. For more information, see [Scheduling an Update]({% link cms/content-staging-scheduled-update.md %}).

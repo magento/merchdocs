@@ -33,7 +33,7 @@ When a new scheduled update is created for any of the following objects, a corre
    Create your first campaign with the start and end dates as needed. To make the campaign open-ended, leave the end date blank. When the first campaign ends, the original baseline content is restored.
 
    {:.bs-callout-info}
-   Campaign **Start Date** and **End Date** must be defined by using the **_default_** Admin timezone, which is converted from each website local timezone. For example, if you have multiple websites in different timezones, but you want to start campaign based on a US timezone, you need to schedule separate update for each local timezone, and set the date/time in converted from each local website timezone to default Admin timezone.
+   Campaign **Start Date** and **End Date** must be defined by using the **_default_** Admin time zone, which is converted from each website local time zone. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **Start Date** and **End Date** in converted from each local website time zone to default Admin time zone.
 
 1. **Add a second campaign**
 

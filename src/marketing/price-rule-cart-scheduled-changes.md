@@ -15,7 +15,7 @@ Keep in mind the following caveats:
 - Coupons are not specifically connected to cart price rules. A Scheduled Update does not provide access to the _Coupon_, _Coupon Code_, _Uses per Coupon_, and _Uses per Customer_ fields on the _Rule Information_ tab.  Additionally, all settings from the _Manage Coupon Codes_ tab are not available.
 
 {:.bs-callout-info}
-Campaign **Start Date** and **End Date** must be defined by using the **_default_** Admin timezone, which is converted from each website local timezone. For example, if you have multiple websites in different timezones, but you want to start campaign based on a US timezone, you need to schedule separate update for each local timezone, and set the date/time in converted from each local website timezone to default Admin timezone.
+Campaign **Start Date** and **End Date** must be defined by using the **_default_** Admin time zone, which is converted from each website local time zone. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **Start Date** and **End Date** in converted from each local website time zone to default Admin time zone.
 
 If there are multiple price rules running in the same campaign, the Priority setting of the price rule determines which rule takes precedence. To learn more, see [Content Staging]({% link cms/content-staging.md -%}).
 
