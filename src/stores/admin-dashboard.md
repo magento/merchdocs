@@ -99,7 +99,7 @@ The dashboard chart can be generated in real-time or by using historical, aggreg
 
 |Section|Description|
 |--- |--- |
-|Bestsellers|The five best-selling products during the specified time period.|
+|Bestsellers|The five best-selling products, including deleted products, during the specified time period.|
 |Most Viewed Products|The five products viewed the most during the specified time period.|
 |New Customers|The most recent five customers who registered for an account during the specified time period.|
 |Customers|The last five customers with an order that completed processing during the specified time period.|
