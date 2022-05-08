@@ -33,7 +33,7 @@ All scheduled updates are applied consecutively. This means that any entity can 
       _Scheduling a product update_
 
       {:.bs-callout-info}
-      Date/time must be defined using the timezone of the appropriate website. For example, if you have multiple websites in different timezones, but you want to start campaign based on a US timezone, you need to schedule an update for each website separately and define the date/time in local time.
+      Campaign **Start Date** and **End Date** must be defined by using the **_default_** Admin time zone, which is converted from each website local time zone. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **Start Date** and **End Date** in converted from each local website time zone to default Admin time zone.
 
 1. Scroll down to _Price_ and click **Advanced Pricing**.
 
