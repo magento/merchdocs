@@ -183,7 +183,7 @@ To complete sandbox onboarding:
 
    Once your PayPal sandbox onboarding is approved, you will see a notification stating that your payment system is currently in sandbox mode and is not processing live payments.
 
-   {:.bs-callout .bs-callout-warning}
+   {:.bs-callout-warning}
    If you revoke consent to Payment Services for Adobe Commerce and Magento Open Source for processing your payments (in your PayPal account settings), orders in your store cannot be processed by Payment Services.
 
 ### Enable contact telephone number
@@ -247,14 +247,14 @@ See [Configure Payment Services]({% link payment-services/configure-payments.md 
 
    Once your PayPal merchant onboarding is approved, you will see a notification stating that your payment system is currently in sandbox mode and is not processing live payments.
 
-   {:.bs-callout .bs-callout-warning}
+   {:.bs-callout-warning}
    If you revoke consent to Payment Services for Adobe Commerce and Magento Open Source for processing your payments (in your PayPal account settings), orders in your store cannot be processed by Payment Services.
 
 ## Request payments entitlement from Adobe
 
 To enable live onboarding you will need to request payments entitlement from Adobe [here](https://magento.com/resources/payment-services).
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 <span class="btn">Live onboarding</span> will not be accessible until payments entitlement has been approved.
 
 ## Configure pricing tier
@@ -281,7 +281,7 @@ To enable live payments:
 1. Click <span class="btn">Save Config</span>.
 1. [Clear your cache]({% link system/cache-management.md %}).
 
-    {:.bs-callout .bs-callout-warning}
+    {:.bs-callout-warning}
     If you do not clear your cache, you will be unable to see PayPal payment options during checkout.
 
 If you navigate back to Payment Services home, the Sandbox payment mode message will no longer appear because you are now processing live payments.

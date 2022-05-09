@@ -20,7 +20,7 @@ After integrating your store, review and configure the integration settings stor
 
 1. Click <span class="btn">Save</span>.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 The _Amazon Marketplace Country_ setting defined during [store integration]({% link sales-channels/asc/store-integration.md %}) cannot be updated. To edit the country setting, you must delete the store (under _Action_ on the store card) and add a new store for the different country.
 
 ![]({% link sales-channels/asc/assets/amazon-store-settings.png %}){: .zoom}

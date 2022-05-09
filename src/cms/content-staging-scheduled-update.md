@@ -5,6 +5,9 @@ title: Scheduling an Update
 
 The following example shows how to schedule a temporary price change for a product. This includes scheduling and previewing changes, as well as viewing scheduled updates on the calendar. Although this example includes only a single change, a campaign might include multiple changes to products, price rules, CMS pages, and other entities that are scheduled to take place at the same time.
 
+{:.bs-callout-info}
+All scheduled updates are applied consecutively. This means that any entity can have only one scheduled update at one point of time. Any scheduled update is applied to all store views within its time frame. As a result, an entity cannot have different scheduled updates for different store views at the same time. All entity attribute values within all store views, which are not affected by the current scheduled update, are taken from the default values, and not from the previous scheduled update.
+
 ## Schedule an update to a product
 
 1. From the _Products_ grid, open a product in edit mode.
@@ -30,7 +33,7 @@ The following example shows how to schedule a temporary price change for a produ
       _Scheduling a product update_
 
       {:.bs-callout-info}
-      Date/time must be defined using the timezone of the appropriate website. For example, if you have multiple websites in different timezones, but you want to start campaign based on a US timezone, you need to schedule an update for each website separately and define the date/time in local time.
+      Campaign **Start Date** and **End Date** must be defined by using the **_default_** Admin time zone, which is converted from each website local time zone. For example, if you have multiple websites in different time zones, but you want to start campaign based on a US time zone, you need to schedule separate update for each local time zone, and set **Start Date** and **End Date** in converted from each local website time zone to default Admin time zone.
 
 1. Scroll down to _Price_ and click **Advanced Pricing**.
 

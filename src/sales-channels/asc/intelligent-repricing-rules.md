@@ -4,7 +4,7 @@ redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/intelligent-repricing-rules.html
 ---
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 Intelligent repricing rules do not function properly if the Amazon region is set to `Inactive` status, as it is during onboarding. Your pricing calculations depend on your shipping rates, and your region must be in `Active` status for your shipping rates to sync from Amazon.<br/><br/>To update your region status in your Amazon account, go to Settings > Account Info > Vacation Settings. Refer to [Amazon: Listing Status for Vacations](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620&amp;language=en_MX&amp;ref=ag_200135620_cont_191).
 
 An intelligent repricing rule uses Amazon competitors' pricing to determine your listing price. Competitors are other sellers who list the same products as yours on Amazon.
@@ -41,7 +41,7 @@ Define the Rule Type in the _Select Rule Type_ section.
 
    This is an optional numerical value that further narrows down the competitive pricing. For example, if a merchant has a 95% positive feedback rating, but only has a feedback count of `20`, this might not be a competitor you would want modify your pricing against. However, if you enter a value of `1000`, it would require that the merchant have 95% positive feedback and a minimum of 1000 merchant reviews.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 You might use these competitor pricing and feedback options to avoid basing your pricing against a competitor who has poor feedback and is selling a lower quality product.
 
 ![]({% link sales-channels/asc/assets/ob-intelligent-price-rule-type.png %}){: .zoom}
