@@ -84,6 +84,9 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
     The Stock Status of a configurable product is determined by each associated configuration. Because the product was saved without entering a quantity, the **Stock Status** is set to `Out of Stock`.
 
+   {:.bs-callout-info}
+   If the **Stock Status** of the configurable product is **_manually_** set to `Out Of Stock` by an Admin user, file import, or API call, it is **not** changed to `In Stock` automatically when  _Stock Status_ changes to `In Stock` for any of its child products. It remains as `Out Of Stock` until the configurable product **Stock Status** is manually re-saved as `In Stock`.
+
 1. Enter the product **Weight**.
 
 {:.bs-callout-info}
