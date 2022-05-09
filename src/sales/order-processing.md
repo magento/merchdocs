@@ -47,7 +47,7 @@ _View Order In-store Delivery_
 |Comments History|Lists all notes that are related to the order.|
 
 {:.bs-callout-info}
-Admin user must have corresponding **Sales / Archive** [permissions]({% link system/permissions-user-roles.md %}) to see **_Invoices_**, **_Credit Memos_** and **_Shipments_** order tabs.
+An Admin user must have **Sales / Archive** [permissions]({% link system/permissions-user-roles.md %}) for their role scope to see the _Invoices_, _Credit Memos_, and _Shipments_ order tabs.
 
 ### Button bar
 
