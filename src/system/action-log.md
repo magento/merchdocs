@@ -35,7 +35,8 @@ Admin action logs can be archive for number days. We can also setup to delete th
 
 2. Expand the **Admin Action Log Archiving**.
 
-    - Set the number of days to keep archived log into **Logs Entry Lifetime, Days**.
-    - Set the Frequency for make archive into **Log Archiving Frequency**.
+    1. Set the number of days to keep archived log into **Logs Entry Lifetime, Days**.
+    
+    2. Set the Frequency for make archive into **Log Archiving Frequency**.
 
 When complete, click <span class="btn">Save Config</span>.
