@@ -22,8 +22,8 @@ View the [Action Logs Report]({% link system/action-log-report.md %}) to review 
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Admin Actions Logging** section and do the following for each action:
 
-    - To enable admin logging for the action, select the checkbox.
-    - To disable admin logging for the action, clear the checkbox.
+   - To enable admin logging for the action, select the checkbox.
+   - To disable admin logging for the action, clear the checkbox.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
