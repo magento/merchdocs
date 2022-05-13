@@ -29,11 +29,12 @@ View the [Action Logs Report]({% link system/action-log-report.md %}) to review 
 
 ## Archiving Admin Actions Log
 
-Admin action logs can be archive for number days. We can also setup to delete those archive after specific time. To do that:
+Admin action logs can be archived for any number of days. Archives can also be deleted after a specified duration.
 
 1. In the left panel, expand **Advanced** and choose **System**.
 1. Expand the **Admin Action Log Archiving**.
 
-    - Set the number of days to keep archived log into **Logs Entry Lifetime, Days**.
-    - Set the Frequency for make archive into **Log Archiving Frequency**.
+   - Set the number of days to retain archived log in **Logs Entry Lifetime, Days**.
+   - Set the Frequency for creating archives in **Log Archiving Frequency**.
+
 1. When complete, click <span class="btn">Save Config</span>.
