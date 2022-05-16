@@ -108,7 +108,7 @@ Add Condition
 Attribute
 : Determines the attribute that is used as the basis of the condition. Options:
 
-  |Clone Category ID(s)|Dynamically clones products from multiple categories based on Category ID.|
+  |Clone Category ID(s)|Dynamically clones products, without their sorting and order, from multiple categories based on Category ID.|
   |Color|Includes products based on color.|
   |Date Created (days ago)|Includes products based on the number of days since the products were added to the catalog.|
   |Date Modified (days ago)|Includes products  based on the number of days since the products were last modified.|
