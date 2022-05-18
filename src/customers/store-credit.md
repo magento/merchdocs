@@ -10,6 +10,8 @@ Store credit is an amount that is restored to a customer account. Customers can 
 
 After an order is paid and invoiced, all of the order, or a portion of it, can be refunded by [issuing a credit memo]({% link sales/credit-memo-create.md %}). A credit memo differs from a refund because the amount of the credit is restored to the customer’s account where it can be used for future purchases. In some cases, a refund can be given at the same time that a credit memo is issued, and applied to the customer’s balance of store credit. The amount of store credit that is available in the customer’s account is specified in the configuration.
 
+**_Note:_** [Zero Subtotal Checkout]({% link payment/zero-subtotal-checkout.md %}) payment method needs to be enabled in the case that store credit covers the order total. 
+
 ## Store credit workflow
 
 Step 1: Customer login
