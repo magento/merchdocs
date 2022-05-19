@@ -2,13 +2,19 @@
 title: Cron (Scheduled Tasks)
 ---
 
-Adobe Commerce and Magento Open Source perform some operations on schedule by periodically running a script. You can control the execution and scheduling of Commerce cron jobs from the Admin. Store operations that run according to a cron schedule include:
+Adobe Commerce and Magento Open Source perform some operations on schedule by periodically running a script. You can control the execution and scheduling of Commerce cron jobs from the Admin. Store operations that run according to a cron schedule include but not limited to:
 
 - [Email ]({% link marketing/communications.md %})
 - [Catalog Price Rules]({% link marketing/price-rules-catalog.md %})
 - [Newsletters]({% link marketing/newsletters.md %})
 - [XML Sitemap Generation]({% link marketing/sitemap-xml.md %})
 - [Currency Rate Updates]({% link stores/currency-update.md %})
+- [Inventory Management]({% link catalog/inventory-management.md %})
+
+{:.bs-callout-warning}
+Magento services must be installed in crontab in order for core components as well as some third-party extensions to function as expected.
+See the [install instructions in our developer documentation]({{ site.devdocs_url }}/guides/v2.4/install-gde/install/post-install-config.html) for detailed information on installing Magento services to crontab.
+
 
 In addition, you can configure the following to run according to a cron schedule:
 
