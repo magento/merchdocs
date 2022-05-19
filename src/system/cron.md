@@ -15,7 +15,6 @@ Adobe Commerce and Magento Open Source perform some operations on schedule by pe
 Magento services must be installed in crontab in order for core components as well as some third-party extensions to function as expected.
 See the [install instructions in our developer documentation]({{ site.devdocs_url }}/guides/v2.4/install-gde/install/post-install-config.html) for detailed information on installing Magento services to crontab.
 
-
 In addition, you can configure the following to run according to a cron schedule:
 
 - Order System Grid Updates and Reindexing
