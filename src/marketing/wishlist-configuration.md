@@ -32,7 +32,7 @@ The wish list configuration enables wish lists and determines the email template
 
     - Set the **Email Template** to be used when a customer shares a wish list.
 
-    - To limit the total number of emails a customer can be send, enter a **Max Emails Allowed to be Sent** value. The default is 10, and the maximum allowed is 10,000.
+    - To limit the total number of emails a customer can send, enter a **Max Emails Allowed to be Sent** value. The default is 10 and the maximum allowed is 10,000.
 
     - To limit the size of the message, enter a **Email Text Length Limit** value. The default is 255.
 
