@@ -43,6 +43,7 @@ _Products Grid_
 |Visibility|Indicates where the product is visible in the catalog. Options: Not Visible Individually / Catalog / Search / Catalog, Search|
 |Status|Indicates the current status of the product. Options: Enabled and Disabled|
 |Websites|Indicates the website(s) where the product is available.|
+|<span class="b2b-only">Last Update at</span>|Indicates that when the last time the product was created/updated.|
 |Action|Opens the product in Edit mode.|
 |<span class="b2b-only">Shared Catalog</span>|Indicates the shared catalogs that contain custom pricing for the product.|
 
