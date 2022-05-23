@@ -345,7 +345,7 @@ If you have a different image for each variation you can set the configuration t
 
 - A configurable product allows the shopper to choose options from drop-down, multiple select, visual swatch and text swatch input types. Each option is a separate, simple product.
 
-- Stock Status of the configurable product is a manually controlled setting. When child products will be sold out or come back in stock, it will not change the parent Configurable Product Stock Status automatically. 
+- Stock Status of the configurable product is a manually controlled setting. When child products will be sold out or come back in stock, it will not change the parent Configurable Product Stock Status automatically.
 
 - Configurable child products can be simple or virtual products **without custom options**. To make custom child products virtual, you must select _Тhis item has no weight_ in the _Weight_ setting for each of them.
 
