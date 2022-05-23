@@ -85,7 +85,7 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
     The Stock Status of a configurable product is determined by each associated configuration. Because the product was saved without entering a quantity, the **Stock Status** is set to `Out of Stock`.
 
    {:.bs-callout-info}
-   If the **Stock Status** of the configurable product is **_manually_** set to `Out Of Stock` by an Admin user, file import, or API call, it is **not** changed to `In Stock` automatically when  _Stock Status_ changes to `In Stock` for any of its child products. It remains as `Out Of Stock` until the configurable product **Stock Status** is manually re-saved as `In Stock`.
+   The **Stock Status** of the configurable product is a **_manually controlled setting_**, and when set to `Out Of Stock` or `In Stock` by an Admin user, file import, or API call, it will **not** automatically change its **Stock Status** when all of its child products statuses will become `Out of Stock` or go back in stock. It will remain in its manually set Stock Status until changed by an Admin user, file import, or API call again.
 
 1. Enter the product **Weight**.
 
@@ -344,6 +344,8 @@ If you have a different image for each variation you can set the configuration t
 ## Things to remember
 
 - A configurable product allows the shopper to choose options from drop-down, multiple select, visual swatch and text swatch input types. Each option is a separate, simple product.
+
+- Stock Status of the configurable product is a manually controlled setting. When child products will be sold out or come back in stock, it will not change the parent Configurable Product Stock Status automatically. 
 
 - Configurable child products can be simple or virtual products **without custom options**. To make custom child products virtual, you must select _Тhis item has no weight_ in the _Weight_ setting for each of them.
 
