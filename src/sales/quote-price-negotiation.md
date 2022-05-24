@@ -22,7 +22,7 @@ While the quote is open for review, its status in the buyer’s account is set t
 
    The new request appears in the Quotes grid.
 
-1. In the _Actions_ column, click **View**.
+1. In the _Action_ column, click **View**.
 
    ![]({% link sales/assets/quote-grid-new.png %}){: .zoom}
    _New Quote_
