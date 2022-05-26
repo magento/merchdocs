@@ -22,10 +22,6 @@ sections:
     content: Learn how to set up pricing options, or to meet the minimum advertised pricing requirements of the manufacturer.
     url: /catalog/pricing.html
 
-  - title: Managing Inventory
-    content: Learn how to maintain quantities for sales and handle shipments to complete orders. Track your inventory quantities, provide accurate salable stock amounts to customers for all of your websites, and ship according to recommendations based on distance or priority.
-    url: /catalog/inventory-management.html
-
   - title: Catalog Images and Video
     content: Learn how to upload images and video, rearrange their order, and control how each of them is used.
     url: /catalog/catalog-images-video.html
@@ -33,5 +29,8 @@ sections:
 ---
 
 One of the most important areas in creating and managing your store is product creation, category, and inventory management. The Admin provides a number of tools you will use for the initial setup for your store, as well as maintaining your store and optimizing your business.
+
+{:.bs-callout-tip}
+Inventory Management for Adobe Commerce and Magento Open Source gives you the tools to manage your product inventory. Merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more can use these features to maintain quantities for sales and handle shipments to complete orders. For more information about these features and how you can use them to manage stock in multiple locations, see the [Inventory Management User Guide](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html).
 
 {% include grid.html sections=page.sections%}

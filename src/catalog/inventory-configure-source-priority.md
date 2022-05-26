@@ -1,5 +1,7 @@
 ---
 title: Configuring Source Priority Algorithm
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/source-priority-algorithm.html
 ---
 
 Custom stocks include an assigned list of sources to sell and ship available product inventory through your storefront. This algorithm uses the order of assigned sources in your stock to make recommendations.
