@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: My Requisition Lists
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html
 ---
 
 Using a requisition list saves time when purchasing frequently-ordered products because items are added to the shopping cart directly from the list. Customers can maintain multiple lists that focus on products from different vendors, buyers, teams, campaigns, or anything else that streamlines their workflow. It is available for both logged-in users and guests.

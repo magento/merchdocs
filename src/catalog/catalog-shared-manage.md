@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Managing a Shared Catalog
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage.html
 ---
 
 The Shared Catalogs page provides access to the tools you need to manage your shared catalogs. The page is similar to the standard [Admin workspace]({% link stores/admin-workspace.md %}), with filters and action controls. The grid lists all shared catalogs, including the default public shared catalog, and any custom catalogs that you have set up.

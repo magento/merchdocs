@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Managing Requisition Lists
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/account-dashboard-requisition-lists-manage.html
 ---
 
 The primary reason to maintain a requisition list is to make it easy to reorder products. Items from a requisition list can be easily added to the shopping cart, moved, or copied from one list to another.

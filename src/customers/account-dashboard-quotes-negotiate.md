@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Negotiating a Quote
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/quote-price-negotiation.html
 ---
 
 When the seller responds to your request for a quote, the status of the quote changes to `Updated`. Look for an email notification from the store with the reply from the seller. The email includes a link to your account, and the expiration date of the quote. A quote can be changed and resubmitted, even if it was declined or after it has expired.

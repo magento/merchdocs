@@ -1,9 +1,11 @@
 ---
 b2b_only: true
 title: Company Profile
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-manage.html
 ---
 
-The information in your company profile was entered when the company account was created. You can access your company profile from the dashboard of your company account to complete any missing information, and to keep it current. To learn more, see [Creating a Company Account]({% link customers/account-company-create.md %}).
+The information in your company profile was entered when thes company account was created. You can access your company profile from the dashboard of your company account to complete any missing information, and to keep it current. To learn more, see [Creating a Company Account]({% link customers/account-company-create.md %}).
 
 ![]({% link customers/assets/company-profile.png %}){: .zoom}
 _Company Profile_

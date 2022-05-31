@@ -61,15 +61,7 @@ pages:
     - label: Seize Market Opportunities
       url: "/quick-tour/market-opportunities.html"
     - label: Success!
-      url: "/quick-tour/success.html"
-  - label: B2B for Adobe Commerce
-    url: "/stores/b2b-basics.html"
-    edition: b2b-only
-    children:
-    - label: Build B2B Loyalty
-      url: "/quick-tour/build-loyalty.html"
-    - label: Empower with Self-Service Tools
-      url: "/quick-tour/self-service-tools.html"
+      url: "/quick-tour/success.html"   
 - label: Basic Configuration
   url: "/configuration/configuration-basic.html"
   children:
@@ -149,16 +141,6 @@ pages:
         url: "/stores/store-scope-reference.html"
     - label: Single Store Mode
       url: "/stores/store-mode-single.html"
-  - label: B2B Feature Configuration
-    url: "/stores/b2b-features.html"
-    edition: b2b-only
-    children:
-    - label: Configuring Quotes
-      url: "/stores/b2b-configure-quotes.html"
-    - label: Configuring Requisition Lists
-      url: "/stores/b2b-configure-requisition-lists.html"
-    - label: Configuration Summary
-      url: "/stores/b2b-configuration-settings.html"
 - label: Industry Compliance
   url: "/stores/compliance-industry.html"
   versionless: true

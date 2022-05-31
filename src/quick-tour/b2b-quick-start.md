@@ -37,6 +37,9 @@ sections:
   - title: Purchase Orders
     content: B2B for Adobe Commerce supports purchase orders, which can be controlled by approval rules.
     url: /customers/account-dashboard-my-purchase-orders.html
+
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html
 ---
 
 Follow these links to learn about the components that you will use to manage your Adobe Commerce stores for both business-to-business and business-to-consumer.

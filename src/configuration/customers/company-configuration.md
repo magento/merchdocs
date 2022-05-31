@@ -5,6 +5,9 @@ title: Company Configuration
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Company Configuration
 
+{:.bs-callout-tip}
+With the installation and enablement of B2B for Adobe Commerce, the buying experience can be personalized with company-specific catalogs and pricing, and targeted content and promotions. B2B for Adobe Commerce is an integrated solution that provides support for both B2B and B2C models. For more information about the B2B features, see the [B2B for Adobe Commerce User Guide](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+
 ## General
 
 ![]({% link configuration/customers/assets/company-general.png %}){: .zoom}

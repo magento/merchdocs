@@ -1,5 +1,7 @@
 ---
 title: Approval Rules
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/purchase-orders/account-dashboard-approval-rules.html
 ---
 
 Most companies have [order approval]({% link stores/b2b-features.md %}#configure-order-approval) rules for purchase orders. Companies can control who can create purchase orders and how much they can spend.

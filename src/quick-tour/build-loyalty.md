@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Build B2B Loyalty
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html
 ---
 
 Purchase Orders
