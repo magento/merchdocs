@@ -85,7 +85,7 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
     The Stock Status of a configurable product is determined by each associated configuration. Because the product was saved without entering a quantity, the **Stock Status** is set to `Out of Stock`.
 
    {:.bs-callout-info}
-   The **Stock Status** of the configurable product is a **_semi-manually_** controlled setting. It is partially controlled by the stock status of its child products. It is a part of a **_multi-criteria_** stock status calculation, which is described in the **Configuring the Stock Status** section below.
+   The **Stock Status** of the configurable product is a **_semi-manually_** controlled setting. It is partially controlled by the stock status of its child products. It is a part of a **_multi-criteria_** stock status calculation, which is described in the [Configure the Stock Status](#configure-the-stock-status) section.
 
 1. Enter the product **Weight**.
 
@@ -341,17 +341,20 @@ If you have a different image for each variation you can set the configuration t
     ![]({% link catalog/assets/configurable-product.png %}){: .zoom}
     _Shopping cart - configurable product image_
 
-## Configuring the Stock Status
+## Configure the Stock Status
 
-The **Stock Status** of the configurable product is a **_semi-manually_** controlled setting. It is partially controlled by the **Stock Status** of its child products. It is a part of a **_multi-criteria_** stock status calculation, which is described below.
+The _Stock Status_ of the configurable product is partially controlled by the Stock Status of its child products, and part of a **_multi-criteria_** stock status calculation.
 
-When the configurable product **Stock Status** was **_manually_** saved as `Out of Stock` or `In Stock` by an Admin user, file import, or API call, it will **_not_** automatically change its stock status value, when its child products **_automatically_** become `In Stock` or `Out of Stock` by stock increase and decrease. It remains in its manually set **Stock Status** until changed by an Admin user, file import, or API call **_again_**.
+When the configurable product Stock Status is **_manually_** saved as `Out of Stock` or `In Stock` by an Admin user, file import, or API call, it does **_not_** automatically change its stock status value when its child products **_automatically_** become `In Stock` or `Out of Stock` by stock increase and decrease. It remains in its manually set Stock Status until it is changed **_again_** by an Admin user, file import, or API call.
 
-And vice versa. The initially saved as `In Stock` configurable product will **_automatically_** change its **Stock Status** to `Out of Stock` and `In Stock`, when its child products statuses will be **_manually_** saved as `Out of Stock` and `In Stock` by an Admin user, file import, or API call.
+A configurable product that is initially saved as `In Stock` **_automatically_** changes its Stock Status to `Out of Stock` and `In Stock` when its child products statuses are **_manually_** saved as `Out of Stock` and `In Stock` by an Admin user, file import, or API call.
 
-In the same time, when **Stock Status** of the configurable product is `In Stock` in Magento Admin panel, and **_all_** its child products are `Out of Stock`, then this configurable product is shown as `Out of Stock` on the Storefront website.
+When the Stock Status of the configurable product is `In Stock` in the Admin, and **_all_** its child products are `Out of Stock`, then the configurable product is displayed as `Out of Stock` on the storefront.
 
-In other words, when you <span class="btn">Save</span> the **Stock Status** of the configurable product as `Out of Stock`, it will not be controlled by the stock statuses of its child products. And it will always be displayed as `Out of Stock`, on both Admin and Storefront websites. But when you <span class="btn">Save</span> the **Stock Status** of the configurable product as `In Stock`, it will be **_controlled_**, on both Admin and Storefront websites, by the stock statuses of its child products, as described above.
+With these Stock Status  relationships in mind, note the following:
+- When you change the **Stock Status** of the configurable product as `Out of Stock` and click <span class="btn">Save</span>, it is **_not controlled_** by the stock statuses of its child products. It is always displayed as `Out of Stock` in the Admin and on the storefront.
+
+- When you set the **Stock Status** of the configurable product as `In Stock` and click <span class="btn">Save</span>, it is  **_controlled_** by the stock statuses of its child products, which is reflected  in the Admin and on the storefront.
 
 ## Things to remember
 
