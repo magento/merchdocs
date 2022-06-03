@@ -76,12 +76,14 @@ _Customer Attributes_
 
     - To filter the Customers grid by this attribute, set **Use in Filter Options** to `Yes`.
 
+    - To filter the Customers grid by this attribute with different filter matching conditions, set **Grid Filter Condition Type** to `Partial Match`, `Prefix Match` and `Full Match`.
+
     - To search the Customers grid by this attribute, set **Use in Search Options** to `Yes`.
 
     - To make this attribute available to [customer segments]({% link marketing/customer-segments.md %}), set **Use in Customer Segment** to `Yes`.
 
     ![Customer attributes - grid and segment properties]({% link stores/assets/attribute-customer-grid-segment.png %}){: .zoom}
-    _Customer Grid and Segment Properties_
+    _Customers Grid and Segment Properties_
 
 ## Step 2: Complete the storefront properties
 
@@ -124,6 +126,7 @@ _Customer Attributes_
 |Input/Output Filter|Applies a preprocessing filter to  values entered in a text field, text area, or multiple line input type before the record is saved. Options: <br/>**None** - Does not apply a filter to text entered into the field. <br/>**Strip HTML Tags** - Removes HTML tags from the text. This filter can help clean up data that is pasted into a field from another source that includes HTML tags. <br/>**Escape HTML Entities**{:#escape-HTML} - Converts special characters found in the text to a valid HTML escape sequence, such as `amp;`. Escape sequences are enclosed between an ampersand and a semi-colon, and are frequently used for typographer’s smart quotes, copyright symbols, and trademark symbols. Escape sequences are also used to  identify characters such as the less than (`<`) and greater than (`>`) symbols, and the ampersand character which are also used in the code. This filter can help clean up special characters that are sometimes pasted into database fields from word processors.|
 |Add to Column Options|Specifies if the attribute is included as a column in the [Customers]({% link customers/customers-all.md %}) grid. Options: Yes / No|
 |Use in Filter Options|Specifies if the attribute can be used as a filter for [search]({% link stores/admin-workspace.md %}) operations from the grid. Options: Yes / No|
+|Grid Filter Condition Type|Specifies the attribute filter matching conditions for [search]({% link stores/admin-workspace.md %}) operations from the grid. Options: Partial Match / Prefix Match / Full Match|
 |Use in Search Options|Specifies if the attribute value can be used as a keyword in search operations. Options: Yes / No|
 |Use in Customer Segment|Determines if the attribute is included in [customer segment]({% link marketing/customer-segments.md %}) conditions. Options: Yes / No|
 
