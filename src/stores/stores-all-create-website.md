@@ -6,7 +6,7 @@ Multiple websites can be set up from a single Adobe Commerce or Magento Open Sou
 
 Multi-site installations of Adobe Commerce or Magento Open Source must be configured from the Admin and also from the command line of the server. The Commerce developer [documentation]({{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/multi-site/ms_over.html) provides detailed instructions for configuring the server environment.
 
-![Scope - websites]({% link stores/assets/scope-multisite.png %}){:width="550px"}
+![Scope - websites]({% link stores/assets/scope-multisite.svg %}){:width="550px"}
 
 ## Step 1: Create a new website
 
