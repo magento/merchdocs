@@ -5,7 +5,7 @@ group: getting-started
 
 For installations with multiple websites, stores, and views, the [scope]({% link configuration/scope.md %}) setting determines where products are available for sale, and the product information that is available for each store view. Initially, all products that you create are published to the default website, store, and store view.
 
-![]({% link stores/assets/scope-multisite.svg %}){: .zoom}
+![]({% link stores/assets/scope-multisite.svg %}){:width="550px"}
 _Multisite installation_
 
 If you have only a single store with the default view, you can run your store in [Single Store Mode]({% link stores/store-mode-single.md %}) to hide the scope settings. However, if your store has multiple views, a scope indicator appears below the name of each field.
