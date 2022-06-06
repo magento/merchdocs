@@ -351,11 +351,11 @@ A configurable product that is initially saved as `In Stock` **_automatically_**
 
 When the Stock Status of the configurable product is `In Stock` in the Admin, and **_all_** its child products are `Out of Stock`, then the configurable product is displayed as `Out of Stock` on the storefront.
 
-With these Stock Status  relationships in mind, note the following:
+With these Stock Status relationships in mind, note the following:
 
 - When you change the **Stock Status** of the configurable product as `Out of Stock` and click <span class="btn">Save</span>, it is **_not controlled_** by the stock statuses of its child products. It is always displayed as `Out of Stock` in the Admin and on the storefront.
 
-- When you set the **Stock Status** of the configurable product as `In Stock` and click <span class="btn">Save</span>, it is  **_controlled_** by the stock statuses of its child products, which is reflected  in the Admin and on the storefront.
+- When you set the **Stock Status** of the configurable product as `In Stock` and click <span class="btn">Save</span>, it is  **_controlled_** by the stock statuses of its child products, which is reflected in the Admin and on the storefront.
 
 ## Things to remember
 
