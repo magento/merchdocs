@@ -9,7 +9,7 @@ Different factors can affect the price of the same product in one location and n
 
 - {:.b2b-only}See also [Configuring Catalog Price Scope]({% link catalog/catalog-shared-price-scope.md %}).
 
-![]({% link catalog/assets/scope-product-price.svg %}){: "width=550px"}
+![]({% link catalog/assets/catalog-price-scope.svg %}){: "width=550px"}
 
 ## Configure price scope
 
