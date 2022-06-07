@@ -1,6 +1,6 @@
 ---
 title: Scope Quick Reference
-group: getting-started
+group: config-ref
 ---
 
 |Scope|Description|
