@@ -6,8 +6,7 @@ Before setting up individual currency rates, you must first set the scope of the
 
 You also specify the currencies that you accept and which currency you want to use for the display of [prices]({% link catalog/catalog-price-scope.md %}) in your store. In the following illustration, the scope of the base currency is set at the website level, so each website can have a different base currency.
 
-![Currency scope diagram]({% link stores/assets/scope-base-currency.png %}){: .zoom}
-_Scope of Base Currency_
+![Currency scope diagram]({% link stores/assets/scope-currency-config.svg %}){: "width=550px"}
 
 ## Step 1: Choose the Accepted Currencies
 
