@@ -6,4 +6,4 @@ When Adobe Commerce or Magento Open Source is installed, a hierarchy that includ
 
 Before you begin, plan your store hierarchy in advance because it is referred to throughout the configuration. Each store can have a separate [root category]({% link catalog/category-root.md %}), which makes it possible to have an entirely different set of main menu options for each store.
 
-![Scope diagram]({% link stores/assets/scope-multisite.png %}){:width="550px"}
+![Scope diagram]({% link stores/assets/scope-multisite.svg %}){:width="550px"}

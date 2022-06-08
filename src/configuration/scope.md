@@ -9,8 +9,7 @@ Some configuration settings such as postal code, have a global scope because the
 
 Unless the store is running in [Single Store Mode]({% link stores/store-mode-single.md %}), the scope of each configuration setting appears in small text below the field label. If your installation includes multiple websites, stores or views, you should always choose the [Store View]({% link stores/stores-all-create-view.md %}) where the settings apply before making any changes.
 
-![]({% link stores/assets/scope-multisite.png %}){: .zoom}
-*Hierarchy of websites, stores, and store views*
+![]({% link stores/assets/scope-multisite.svg %}){:width="550px"}
 
 ## Scope Settings
 

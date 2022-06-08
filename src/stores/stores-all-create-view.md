@@ -4,7 +4,7 @@ title: Adding Store Views
 
 Store views are typically used to make the store available in different [locales]({% link stores/locale-options.md %}). Shoppers can use the language chooser in the header of the store to change the store view.
 
-![Scope - multiple store views]({% link stores/assets/scope-multiview.png %}){:width="550px"}
+![Scope - multiple store views]({% link stores/assets/scope-multiview.svg %}){:width="550px"}
 
 ## Create a new store view
 
