@@ -4,8 +4,7 @@ title: Product in Websites
 
 The _Product in Websites_ section identifies each website where the product is available, according to the [store hierarchy]({% link stores/stores-all-stores.md %}).
 
-![]({% link catalog/assets/scope-product-website.png %}){: .zoom}
-_Multisite Installation_
+![]({% link catalog/assets/scope-product-website.svg %}){: "width=550px"}
 
 ## Copy a product to a different website
 
