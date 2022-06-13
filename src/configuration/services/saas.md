@@ -33,6 +33,6 @@ System > [Services]({% link configuration/services.md %}) > Commerce Services Co
 
 |Field|Description|
 |--- |--- |
-|Sign in using Adobe ID| Your Adobe ID is usually the email address you first used when you started your membership, or purchased an Adobe app or service. Your Adobe ID is the key you need to access your Adobe account.|
+|Sign in using Adobe ID| Your Adobe ID is usually the email address you first used when you started your membership, or purchased an Adobe application or service. Your Adobe ID is the key you need to access your Adobe account.|
 
 To learn how to connect your store to Adobe Commerce services, see [Commerce Services]({% link system/saas.md %}).
