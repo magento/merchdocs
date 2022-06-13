@@ -14,7 +14,7 @@ With **ElasticSearch**:
 
 - There is no out-of-the-box support for search by the suffix. For example, search by SKU may not return the expected result if the keyword contains only the end part of the SKU.
 - There is out-of-the-box support for search by prefix (partial keyword search) for `name` and `sku` product attributes only. All other product attributes are searched by the whole keyword, with the exact matching.
-- Search results for `name` and `sku` product attributes are based on the relevance, not exact matching. The most relevant matches, like exactly matched _Product Name_ or _SKU_, are listed first. If you need the exact matching, you should use double quotes in the search query. For example, `WSH12-32-Red` search query may return several products, sorted by the relevance. But `"WSH12-32-Red"` search query will return only one product with **_exactly_** matched `sku`.
+- Search results for `name` and `sku` product attributes are based on the relevance, not exact matching. The most relevant matches, such as an exactly matched _Product Name_ or _SKU_, are listed first. To search for an exact match, the customer can use double quotes in the search query. For example, a `WSH12-32-Red` search query may return several products, sorted by the relevance. But a `"WSH12-32-Red"` search query returns only one product with the **_exactly_** matched `sku`.
 
 ![]({% link catalog/assets/storefront-search-results-shorts.png %}){: .zoom}
 _Search Results with Pagination Controls_
