@@ -46,6 +46,9 @@ Follow these instructions to apply a discount to specific products whenever a se
 
 Most of the available conditions are based on existing attribute values. To apply the rule to all products, leave the conditions blank.
 
+{:.bs-callout-info}
+To apply `Category` product attribute condition to any [bundle]({% link catalog/product-create-bundle.md %}) and [grouped]({% link catalog/product-create-grouped.md %}) products, all their child products should be assigned to the same category. Otherwise, [Cart Price Rule]({% link marketing/price-rules-cart-create.md %}) promotion could be used instead.
+
 1. Scroll down and expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Conditions** section.
 
     The first condition appears by default, and states:
