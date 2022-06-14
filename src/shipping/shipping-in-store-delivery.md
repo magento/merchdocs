@@ -7,14 +7,13 @@ With the in-store delivery method, the customer can select a source to be used a
 ![]({% link shipping/assets/luma-in-store-example.png %}){: .zoom}
 [_In-store Delivery Method at Checkout_]({% link sales/checkout-process.md %})
 
-<div class="bs-callout-warning" markdown="1">
-**Before setup:**
+## Before setup
 
 - Make sure you have a non-default stock and source. For more information about how to configure a source as a pickup location, see [Adding a New Source]({% link catalog/inventory-sources-add.md %}).
-
 - Make sure you have configured a Distance Priority Algorithm. For more information, see [Configuring Distance Priority Algorithm]({% link catalog/inventory-configure-distance-priority.md %}).
+- Make sure you have [downloaded and imported]({{ site.devdocs_url }}/guides/v{{ site.version }}/inventory/inventory-cli-reference.html#import-geocodes) all necessary geocodes for [Offline Calculation]({% link catalog/inventory-configure-distance-priority.md %}#configure-offline-calculation) Distance Priority Algorithm.
+- Make sure you have configured a [Default Tax Destination Calculation]({% link configuration/sales/tax.md %}#default-tax-destination-calculation) settings.
 
-</div>
 ## Set up In-store Delivery
 
 First, check that In-store Delivery is enabled.
