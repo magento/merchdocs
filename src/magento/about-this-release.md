@@ -1,12 +1,8 @@
 ---
 title: About This Release
 group: getting-started
-redirect_from:
-  - /frontmatter/contents.html
-  - /magento/questions-and-answers.html
-  - /magento/about-this-guide.html
-  - /magento/archive.html
-  - /magento/release-notes.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/about-this-release.html
 ---
 
 As a best practice, we recommend that you keep your Commerce installation up to date, so you can benefit from the latest advancements. Release notes provide a detailed description of the changes in each product release, with links to additional technical information, installation instructions, and support resources. To learn more about the current releases, see:
