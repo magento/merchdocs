@@ -6,6 +6,12 @@ pages:
   children:
 - label: Catalog and Product URLs
   url: "/catalog/catalog-urls.html"
+- label: Catalog Scope
+  url: "/catalog/catalog-scope.html"
+- label: Product Scope
+  url: "/catalog/product-scope.html"
+- label: Price Scope
+  url: "/catalog/catalog-price-scope.html"
 - label: Products Grid
   url: "/catalog/products.html"
 - label: Creating Products

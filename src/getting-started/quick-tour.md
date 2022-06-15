@@ -12,6 +12,8 @@ sections:
   - title: B2B Basics
     content: <span class="b2b-only"></span>Learn about the B2B features that support business-to-business eCommerce.
     url: /stores/b2b-basics.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/storefront.html
 ---
 
 This quick tour takes a look at each page that customers usually visit while shopping in your store. The path that customers typically follow to a sale is sometimes called the _path to purchase_. It also takes a look at the major landmarks along the journey, and considers how Commerce features can be used to attract and engage customers, increase the average order, and build loyalty and advocacy.

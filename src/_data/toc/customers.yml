@@ -11,6 +11,8 @@ pages:
 - label: Customer Accounts
   url: "/customers/customer-account.html"
   children:
+  - label: Customer Account Scope
+    url: "/customers/account-scope.html"
   - label: Configuring Account Options
     url: "/customers/customer-account-configuration.html"
     children:

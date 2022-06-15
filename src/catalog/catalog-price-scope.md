@@ -1,6 +1,5 @@
 ---
 title: Price Scope
-group: getting-started
 ---
 
 The scope of the [base currency]({% link stores/currency-configuration.md %}) that is used for product prices can be configured to apply at either the global or website level. If applied to  the global level, the same price is used throughout the store hierarchy. If applied to the website level, the same product can be available at different prices from stores that are associated with different websites. By default, the scope of product pricing is global.
@@ -9,8 +8,7 @@ Different factors can affect the price of the same product in one location and n
 
 <span class="b2b-only"></span> If your store includes B2B for Adobe Commerce and you are using shared catalogs, also refer to [Set Pricing and Structure](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) in the _B2B for Adobe Commerce Guide_.
 
-![]({% link catalog/assets/scope-product-price.png %}){: .zoom}
-_Price scope_
+![]({% link catalog/assets/catalog-price-scope.svg %}){: "width=550px"}
 
 ## Configure price scope
 
