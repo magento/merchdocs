@@ -14,10 +14,6 @@ sections:
     content: Learn how to create attributes with input controls for product options, and to provide additional information on product pages.
     url: /catalog/product-attributes.html
 
-  - title: <span class="b2b-only">Shared Catalogs</span>
-    content: Learn how to set up shared  catalogs with curated selections of products using custom pricing that can be limited to specific companies.
-    url: /catalog/catalog-shared.html
-
   - title: Managing Price
     content: Learn how to set up pricing options, or to meet the minimum advertised pricing requirements of the manufacturer.
     url: /catalog/pricing.html
@@ -33,5 +29,8 @@ sections:
 ---
 
 One of the most important areas in creating and managing your store is product creation, category, and inventory management. The Admin provides a number of tools you will use for the initial setup for your store, as well as maintaining your store and optimizing your business.
+
+{:.bs-callout-tip}
+B2B for Adobe Commerce gives you the ability to maintain gated shared catalogs with custom pricing for different companies. In addition to the standard, primary, product catalog, it provides customer access to two types of shared catalogs with different pricing structures. For more information about the shared catalog feature, see the [B2B for Adobe Commerce User Guide](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html).
 
 {% include grid.html sections=page.sections%}

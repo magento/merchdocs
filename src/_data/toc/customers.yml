@@ -57,16 +57,7 @@ pages:
       url: "/customers/account-dashboard-my-account.html"
     - label: Order by SKU
       url: "/customers/account-dashboard-order-by-sku.html"
-      edition: b2b-only
-    - label: My Quotes
-      url: "/customers/account-dashboard-quotes.html"
-      edition: b2b-only
-      children:
-      - label: Negotiating a Quote
-        url: "/customers/account-dashboard-quotes-negotiate.html"
-    - label: My Purchase Orders
-      url: "/customers/account-dashboard-my-purchase-orders.html"
-      edition: b2b-only
+      edition: ee-only
     - label: My Orders
       url: "/customers/account-dashboard-my-orders.html"
       children:
@@ -74,12 +65,6 @@ pages:
         url: "/customers/account-dashboard-reorders.html"
     - label: My Downloadable Products
       url: "/customers/account-dashboard-my-downloadable-products.html"
-    - label: My Requistion Lists
-      url: "/customers/account-dashboard-requisition-lists.html"
-      edition: b2b-only
-      children:
-      - label: Managing Requisition Lists
-        url: "/customers/account-dashboard-requisition-lists-manage.html"
     - label: My Wish List
       url: "/customers/account-dashboard-my-wish-list.html"
     - label: Address Book
@@ -96,24 +81,6 @@ pages:
     - label: Gift Card
       url: "/customers/account-dashboard-gift-cards.html"
       edition: ee-only
-    - label: Company Profile
-      url: "/customers/account-dashboard-company-profile.html"
-      edition: b2b-only
-    - label: Company Credit
-      url: "/customers/account-dashboard-company-credit.html"
-      edition: b2b-only
-    - label: Company Structure
-      url: "/customers/account-dashboard-company-structure.html"
-      edition: b2b-only
-    - label: Company Users
-      url: "/customers/account-dashboard-company-users.html"
-      edition: b2b-only
-    - label: Roles and Permissions
-      url: "/customers/account-company-roles-permissions.html"
-      edition: b2b-only
-    - label: Approval Rules
-      url: "/customers/account-dashboard-approval-rules.html"
-      edition: b2b-only
     - label: Reward Points
       url: "/customers/account-dashboard-reward-points.html"
       edition: ee-only
@@ -129,57 +96,8 @@ pages:
       edition: ee-only
     - label: My Returns
       url: "/customers/account-dashboard-my-returns.html"
-- label: Company Accounts
-  url: "/customers/account-companies.html"
-  edition: b2b-only
-  children:
-  - label: Creating a Company Account
-    url: "/customers/account-company-create.html"
-    children:
-    - label: Company Administrator
-      url: "/customers/account-company-admin.html"
-    - label: Sales Representative
-      url: "/customers/account-company-sales-representative.html"
-    - label: Approving a Company Account
-      url: "/customers/account-company-approve.html"
-  - label: Purchase Order Overview
-    url: "/stores/b2b-purchase-order-flow.html"
-  - label: Company Credit
-    url: "/customers/credit-company.html"
-    edition: b2b-only
-    children:
-    - label: Credit Activity
-      url: "/customers/credit-company-activity.html"
-    - label: Receiving Payments
-      url: "/customers/credit-company-reimburse.html"
-  - label: Company Structure
-    url: "/customers/account-company-structure.html"
-    children:
-    - label: Creating Company Teams
-      url: "/customers/account-company-teams.html"
-  - label: Company Users
-    url: "/customers/account-company-users.html"
-    children:
-    - label: Changing the Company Assignment
-      url: "/customers/customer-assign-company.html"
-    - label: Assigning Users to Teams
-      url: "/customers/account-company-users-team.html"
-  - label: Company Roles and Permissions
-    url: "/customers/account-company-roles-permissions.html"
-    children:
-    - label: Assigning User Roles
-      url: "/customers/account-company-users-role.html"
-  - label: Managing Company Accounts
-    url: "/customers/account-company-manage.html"
-    children:
-    - label: Updating a Company Profile
-      url: "/customers/account-company-update.html"
 - label: Customer Groups
   url: "/customers/customer-groups.html"
-  children:
-  - label: Assigning a Customer Group to a Company
-    url: "/customers/account-company-customer-group.html"
-    edition: b2b-only
 - label: Customer Segments
   url: "/marketing/customer-segments.html"
   edition: ee-only

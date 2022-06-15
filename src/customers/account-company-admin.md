@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Company Administrator
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-admin.html 
 ---
 
 The company administrator is initially assigned when the company account is first created, and can later be modified only by the store administrator from the Admin.

@@ -1,6 +1,8 @@
 ---
 title: Quotes
 b2b_only: true
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/quotes.html
 ---
 
 If [B2B Quotes]({% link stores/b2b-features.md %}) are enabled in the configuration, an authorized buyer from a company can initiate the price negotiation process by submitting a [request to negotiate]({% link sales/quote-price-negotiation.md %}) the price from the shopping cart. The _Quotes_ grid lists each quote received and maintains a history of the communication between buyer and seller. The standard [workplace controls]({% link stores/admin-workspace.md %}) can be used to filter the list, change the [column layout]({% link stores/admin-grid-controls.md %}), save views, and export data.

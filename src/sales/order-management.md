@@ -1,10 +1,6 @@
 ---
 title: Order Management
 sections:
- - title: <span class="b2b-only">Quotes</span>
-   content: Use the Quotes feature to allow authorized buyers to initiate the price negotiation process by submitting a request from the shopping cart. The Quotes grid lists each quote received, and maintains a history of the communication between buyer and seller.
-   url: /sales/quotes.html
- 
  - title: Orders
    content: The Orders workspace lists all current orders, and includes tools to edit and process existing orders, and create new orders for the customer.
    url: /sales/orders.html
@@ -36,5 +32,8 @@ sections:
 ---
 
 This section describes the stages of the order workflow and how to process orders, create invoices, and shipments. It also explains how to issue credit memos and set up billing agreements.
+
+{:.bs-callout-tip}
+<span class="b2b-only"></span> With the installation and enablement of B2B for Adobe Commerce, you can add support for the Quotes feature. This capability allows authorized buyers to initiate the price negotiation process by submitting a request from the shopping cart. The _Quotes_ grid lists each quote received, and maintains a history of the communication between buyer and seller. For more information about the B2B features, see the [B2B for Adobe Commerce User Guide](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 {% include grid.html sections=page.sections %}

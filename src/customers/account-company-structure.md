@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Company Structure
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/users/account-company-structure.html
 ---
 
 A company account can be set up to reflect the structure of the business. Initially, the company structure includes only the company administrator, but can be expanded to include teams of users. The users can be associated with teams or organized within a hierarchy of divisions and subdivisions within the company.

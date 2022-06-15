@@ -6,7 +6,7 @@ The scope of the [base currency]({% link stores/currency-configuration.md %}) th
 
 Different factors can affect the price of the same product in one location and not another. For example, there might be additional costs to bring the product to market, and other considerations that impact the price of products sold in a specific store. The following illustration shows a multisite installation with the base currency set to the website level. The stores and store views associated with each website reflect the product pricing that is set at the website level.
 
-- {:.b2b-only}See also [Configuring Catalog Price Scope]({% link catalog/catalog-shared-price-scope.md %}).
+<span class="b2b-only"></span> If your store includes B2B for Adobe Commerce and you are using shared catalogs, also refer to [Set Pricing and Structure](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) in the _B2B for Adobe Commerce Guide_.
 
 ![]({% link catalog/assets/catalog-price-scope.svg %}){: "width=550px"}
 
