@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Assign Companies
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-assign-companies.html
 ---
 
 There are two ways to assign a company to a shared catalog. You can make the assignment from the Shared Catalogs grid, or edit the company and assign the shared catalog as you would choose a customer group.

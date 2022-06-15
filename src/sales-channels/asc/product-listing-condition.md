@@ -19,7 +19,7 @@ Amazon requires a product listing to have a defined condition. If all your produ
 - Collectible; Good
 - Collectible; Acceptable
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 If you sell renewed (refurbished) products, you must enroll in the Amazon Renewed Program. See [Renewed Products]({% link sales-channels/asc/renewed-products.md %}).
 
 However, if your catalog contains products in different conditions (New, Used, Refurbished, etc.), you must choose **Assign Condition Using Product Attribute**. This setting allows you to map your Commerce condition attribute and values to your Amazon listing's conditions.

@@ -1,6 +1,8 @@
 ---
 title: Privacy Policy
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/privacy-policy.html
 ---
 
 Your store includes a sample privacy policy that must be updated with your own information. Your privacy policy should describe the type of information that your company collects, and how it is used. It should also list the filenames of [cookies]({% link stores/cookie-reference.md %}) that are placed on the computers of people who visit your store. Any additional cookies that are associated with third-party extensions and add-ons should be included in the list.

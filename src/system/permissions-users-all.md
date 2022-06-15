@@ -53,7 +53,7 @@ _Example Admin Users_
 
 1. Under _Current User Identity Verification_, enter your user account password.
 
-   {:.bs-callout .bs-callout-warning}
+   {:.bs-callout-warning}
    With the _Account Information_ section complete, you can save the user. The new user will show in the _Users_ grid, but the user name cannot log in until a role is assigned.
 
 ## Assign a user role

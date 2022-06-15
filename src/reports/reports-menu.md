@@ -1,5 +1,7 @@
 ---
 title: Reports Menu
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/reports-menu.html
 ---
 
 Adobe Commerce and Magento Open Source provide a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity. The Reports menu provides easy access to current information about your sales, products, customers, and promotions.

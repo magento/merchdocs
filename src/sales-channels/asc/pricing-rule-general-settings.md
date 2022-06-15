@@ -32,7 +32,7 @@ Define the name, description, active dates, and priority for the rule.
 
     - **No** - Choose when you want to allow multiple pricing rules to apply to the same product. This could result in stacking and providing multiple discounts to be applied.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 To discard subsequent rules, a pricing rule must have a define **Priority** value.
 
 ![]({% link sales-channels/asc/assets/amazon-pricing-rule-general.png %}){: .zoom}

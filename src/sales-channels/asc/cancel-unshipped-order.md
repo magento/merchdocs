@@ -6,7 +6,7 @@ redirect_to:
 
 Amazon orders can only be canceled if they are in an `Unshipped` status. If the order is pending or partially shipped (unshipped), the order can only be canceled through your Amazon Seller Central account. If the item has been shipped, returns and exchanges must also be handled in your Amazon Seller Central Account.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 For tasks other than cancelling an order:<br/>- If you have [order import]({% link sales-channels/asc/order-settings.md %}) enabled, orders are managed in the [Commerce orders workflow]({% link sales/orders.md %}).<br/>- If [order import]({% link sales-channels/asc/order-settings.md %}) is disabled, you must manage your orders in Amazon Seller Central.
 
 ## Cancel an order in `Unshipped` status

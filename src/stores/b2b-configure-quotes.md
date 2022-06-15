@@ -1,7 +1,8 @@
 ---
 b2b_only: true
 title: Configuring Quotes
-group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/configure-quotes.html
 ---
 
 The quote configuration determines the minimum required order amount for quote requests, the quote lifetime, and the supported file formats for attached files.
@@ -18,7 +19,6 @@ The ability to:
 |<span class="btn">Print</span>|Sends the quote to a printer or saves it as a PDF file.|
 |<span class="btn">Save as Draft</span>|Saves any changes made to the quote, but does not send it back to the buyer.|
 |<span class="btn">Decline</span>|Declines the request to negotiate prices, either on the initial inquiry, or during ongoing negotiations. When a quote is declined, the seller should add a comment to explain the decision. When a quote is declined, all negotiated prices are reset to the original values. This button is disabled while the seller is waiting for a reply from the buyer.|
-|<span class="btn">Send</span>|Sends the updated quote as a reply to the buyer’s inquiry. This button is disabled if the seller is waiting for a reply from the buyer.|
 
 Configuration options for quotes are available for B2B only and are controlled using the [Role Resources]({% link system/permissions-role-resources.md %}). These role resources must be set for the Admin [User Role]({% link system/permissions-user-roles.md %}) that is assigned to the store administrator.
 To grant access to quote functions in the Admin, go to **System** > _Permissions_ > **User Roles**, select the role, and navigate to Sales > Operations > Quotes in the _Role Resources_ tree.

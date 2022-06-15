@@ -12,7 +12,7 @@ How you manage your Amazon orders depends on whether or not you have order impor
 
 After [store integration]({% link sales-channels/asc/store-integration.md %}), [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) is `Enabled` by default. This means that corresponding Commerce orders are created for your Amazon orders and can be managed in the [Commerce Orders]({% link sales/orders.md %}) workflow.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Regardless of your order import settings, Amazon orders that existed in your Amazon Seller Central account prior to your [store integration]({% link sales-channels/asc/store-integration.md %}) do not import.
 
 Imported Amazon orders are managed in the [Commerce Orders]({% link sales/orders.md %}) workflow, just like your other Commerce stores. Click the Amazon order number in the _Order Number_ column to open the order in the [Commerce order process]({% link sales/order-processing.md %}#order-view-descriptions). See [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}).

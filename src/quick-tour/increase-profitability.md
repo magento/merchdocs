@@ -1,6 +1,7 @@
 ---
-b2b_only: true
 title: Increase Profitability
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
 ---
 
 Maintain Peak Performance
@@ -11,9 +12,6 @@ Smart-Source Inventory
 
 Automated Business Rules
 : Set up [automated business rules]({% link marketing/price-rules-cart.md %}) that define product relationships and use price rules that trigger discounts based on a variety of conditions.
-
-Backend Integration
-: Integrate with [Enterprise Resource Planning (ERP)]({% link system/erp-systems.md %}) other backend systems with our extensive APIs and open, modern platform.
 
 [1]: https://magento.com/products/magento-commerce
 [2]: https://magento.com/products/order-management

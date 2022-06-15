@@ -2,20 +2,25 @@
 title: Cron (Scheduled Tasks)
 ---
 
-Adobe Commerce and Magento Open Source perform some operations on schedule by periodically running a script. You can control the execution and scheduling of Commerce cron jobs from the Admin. Store operations that run according to a cron schedule include:
+Adobe Commerce and Magento Open Source perform some operations on schedule by periodically running a script. You can control the execution and scheduling of Commerce cron jobs from the Admin. Store operations that run according to a cron schedule include, but are not limited to:
 
 - [Email ]({% link marketing/communications.md %})
 - [Catalog Price Rules]({% link marketing/price-rules-catalog.md %})
 - [Newsletters]({% link marketing/newsletters.md %})
 - [XML Sitemap Generation]({% link marketing/sitemap-xml.md %})
 - [Currency Rate Updates]({% link stores/currency-update.md %})
+- [Inventory Management]({% link catalog/inventory-management.md %})
+
+{:.bs-callout-warning}
+Commerce services must be installed in crontab in order for core components, as well as some third-party extensions, to function as expected.
+See the [instructions in the Installation Guide]({{ site.devdocs_url }}/guides/v2.4/install-gde/install/post-install-config.html) for detailed information about installing services to crontab.
 
 In addition, you can configure the following to run according to a cron schedule:
 
 - Order System Grid Updates and Reindexing
 - Pending Payment Lifetime
 
-Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store are set correctly, so the URLs that are generated during cron operations are correct. See [Set up cron jobs][1]{:target="_blank"} in the Commerce Developer Guide.
+Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store are set correctly, so the URLs that are generated during cron operations are correct. For Adobe Commerce on cloud infrastructure, see [Set up cron jobs][1]{:target="_blank"} in the Commerce Developer Guide. For on-premise, see [Configure and run con][2]{:target="_blank"} in the Commerce Developer Guide.
 
 ## Configure Cron
 
@@ -46,3 +51,4 @@ Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store ar
 1. When complete, click <span class="btn">Save Config</span>.
 
 [1]: {{ site.devdocs_url }}/cloud/configure/setup-cron-jobs.html
+[2]: {{ site.devdocs_url }}/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html

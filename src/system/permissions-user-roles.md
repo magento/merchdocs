@@ -36,6 +36,9 @@ To give someone restricted access to the Admin, the first step is to create a ro
     ![User role resources - custom scope]({% link system/assets/permissions-role-scope-custom.png %}){: .zoom}
     _Custom Role Scope_
 
+   {:.bs-callout-info}
+   Users with `Custom` role scope are not able to create websites and categories, assign products to categories, and do other _global_ actions affecting scopes where they don't have access.
+
 1. Under _Roles Resources_, set **Resource Access** to `Custom`.
 
 1. {:.ee-only} In the tree, select the checkbox of each Admin **Resource** that the role can access.
@@ -47,6 +50,9 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
     {:.bs-callout-info}
     The list of available permissions may include additional options for Commerce developed, Core Bundled, and installed extensions. By selecting the top-most permission for each feature, you assign all permissions available for the user.
+
+    {:.bs-callout-info}
+    An Admin user must have **Sales / Archive** permissions for their role scope to see the _Invoices_, _Credit Memos_, and _Shipments_ order [tabs]({% link sales/order-processing.md %}).
 
 1. When complete, click <span class="btn">Save Role</span>.
 

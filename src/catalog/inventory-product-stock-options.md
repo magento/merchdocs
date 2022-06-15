@@ -106,5 +106,5 @@ Configure the quantities and additional settings per [added source]({% link cata
 | Backorders | Global | Determines how  backorders are managed. Backorders do not change the processing status of the order. Funds are still authorized or captured immediately when the order is placed, regardless of whether the product is in stock. Products are shipped as they become available. When enabled, we recommend entering a negative amount for the Out-of-Stock Threshold. Options:<br />**No Backorders** -  Does not accept backorders when product is out of stock.<br />**Allow Qty Below 0** - Accepts backorders when the quantity falls below zero.<br />**Allow Qty Below 0 and Notify Customer** - Accepts backorders when the quantity falls below zero, but notifies customers that orders can still be placed. |
 | Enable Qty Increments | Global | Determines if the product can be sold in quantity increments. |
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 Simple product configuration overrides configurable product configurations for a specific product.

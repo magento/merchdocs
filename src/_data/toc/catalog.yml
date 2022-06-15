@@ -6,6 +6,12 @@ pages:
   children:
 - label: Catalog and Product URLs
   url: "/catalog/catalog-urls.html"
+- label: Catalog Scope
+  url: "/catalog/catalog-scope.html"
+- label: Product Scope
+  url: "/catalog/product-scope.html"
+- label: Price Scope
+  url: "/catalog/catalog-price-scope.html"
 - label: Products Grid
   url: "/catalog/products.html"
 - label: Creating Products
@@ -97,9 +103,6 @@ pages:
       edition: ee-only
     - label: Gift Options
       url: "/catalog/product-gift-options.html"
-    - label: Product In Shared Catalogs
-      url: "/catalog/catalog-shared-product-in.html"
-      edition: b2b-only
     - label: Downloadable Information
       url: "/catalog/product-downloadable-information.html"
     - label: Grouped Products
@@ -207,29 +210,3 @@ pages:
       url: "/stores/attribute-date-time-options.html"
 - label: Using a Flat Catalog
   url: "/catalog/catalog-flat.html"
-- label: Shared Catalogs
-  url: "/catalog/catalog-shared.html"
-  edition: b2b-only
-  children:
-  - label: Configuring Price Scope
-    url: "/catalog/catalog-shared-price-scope.html"
-  - label: Creating a Shared Catalog
-    url: "/catalog/catalog-shared-create.html"
-    children:
-    - label: Set Pricing and Structure
-      url: "/catalog/catalog-shared-pricing-structure.html"
-    - label: Assign Companies
-      url: "/catalog/catalog-shared-assign-companies.html"
-  - label: Managing a Shared Catalog
-    url: "/catalog/catalog-shared-manage.html"
-    children:
-    - label: Adding Products
-      url: "/catalog/catalog-shared-product-add.html"
-    - label: General Information
-      url: "/catalog/catalog-shared-general-information-update.html"
-    - label: Product Selection
-      url: "/catalog/catalog-shared-product-selection-update.html"
-    - label: Custom Pricing
-      url: "/catalog/catalog-shared-custom-pricing-update.html"
-    - label: Category Permissions
-      url: "/catalog/catalog-shared-category-permissions-update.html"

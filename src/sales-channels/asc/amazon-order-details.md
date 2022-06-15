@@ -15,14 +15,14 @@ _Amazon Order Details_
 
     The _Amazon Order Details_ page opens.
 
-{:.bs-callout .bs-callout-info}
+{:.bs-callout-info}
 If you have order import enabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}) and the order is [fulfilled by Amazon (FBA)]({% link sales-channels/asc/fulfilled-by.md %}), you may see dummy data for some fields in the order details. Amazon does not send the following data for FBA orders.<br/>- AddressType<br/>- AddressLine1<br/>- AddressLine2<br/>- AddressLine3<br/>- BuyerName<br/>- Phone<br/>- PurchaseOrderNumber<br/>- RecipientName<br/>- CustomizedURL<br/>- GiftMessageText
 
 ### Order and Shipping Details tab
 
 The _Order and Shipping Details_ tab shows detailed order information, as received from Amazon.
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 Amazon accepts non-standard address information that cannot be imported into Amazon Sales Channel, thus preventing the state/country codes from updating correctly for some orders. To correct address errors, the following fields are editable in the order details:<br/>- Shipping address 1<br/>- Shipping address 2<br/>- Shipping address 3<br/>- Shipping city<br/>- Shipping region<br/>- Shipping postal code<br/>- Shipping country<br/><br/>**Note:** Do not forget to click **Save Order** after making edits.
 
 ![]({% link sales-channels/asc/assets/amazon-order-details.png %}){: .zoom}

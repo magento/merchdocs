@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Negotiating a Quote
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/quote-price-negotiation.html
 ---
 
 If [B2B Quotes]({% link stores/b2b-features.md %}) are enabled in the configuration, an authorized buyer from a company initiates the price negotiation process by [requesting a quote]({% link sales/quote-request.md %}) from the shopping cart. Requests for quotes received are listed in the [Quotes]({% link sales/quotes.md %}) grid. All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
@@ -22,7 +24,7 @@ While the quote is open for review, its status in the buyer’s account is set t
 
    The new request appears in the Quotes grid.
 
-1. In the _Actions_ column, click **View**.
+1. In the _Action_ column, click **View**.
 
    ![]({% link sales/assets/quote-grid-new.png %}){: .zoom}
    _New Quote_

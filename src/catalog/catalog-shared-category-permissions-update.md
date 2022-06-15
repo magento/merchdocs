@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Updating Category Permissions
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage.html#update-category-permissions
 ---
 
 [Category permissions]({% link catalog/category-permissions.md %}) are automatically set to `Allow` for products that are added from the category tree to a shared catalog. You can later adjust the permissions, or create additional rules, as needed.
@@ -32,3 +34,6 @@ When the [shared catalog]({% link stores/b2b-features.md %}) B2B feature is enab
     - To delete a permission rule, click the ![Trash can]({% link assets/icon-delete-trashcan-solid.png %}) icon.
 
 1. When complete, click <span class="btn">Save</span>.
+
+{:.bs-callout-info}
+When `Browsing Category` = `Deny` permission is set for any parent category, it is not displayed on the [Breadcrumb Trail]({% link catalog/navigation-breadcrumb-trail.md %}) on the child category page.

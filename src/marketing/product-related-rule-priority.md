@@ -24,5 +24,5 @@ If the first rule returns more matching products than allowed by the _configurab
 
 By priority, the matching products returned from Rule 1 can be used first to fill all 26 available slots. Because Rule 1 returned only two matching products, there is still room for 24 more. Rule 2 has the next highest priority, and returns six more matching products. There are now 18 available slots to be filled. Rule 3 has the next level of priority, with enough matching products to fill the remaining 18 slots. When all available slots are filled, and depending on the rotation mode that is set, products might be shuffled or ordered by ID inside each priority and then reduced to the configurable maximum limit. In this case, the remaining six products appear in the store.
 
-{: .bs-callout .bs-callout-info}
+{: .bs-callout-info}
 Selected products will always display before the rule-based products regardless of the rotation mode.

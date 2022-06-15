@@ -1,6 +1,8 @@
 ---
 title: Dashboard
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-dashboard.html
 ---
 
 The dashboard is usually the first page that appears when you log in to the _Admin_ and can provide a real-time overview of sales and customer activity. Dashboard data provides a snapshot of lifetime sales, average order amount, recent orders, and search terms. The chart shows completed orders and amounts for the selected date range, and can be generated from either dynamic, real-time data, or historical aggregated data. The tabs at the bottom provide quick reports of your best-selling products, most viewed products, new customers, and customers who have purchased the most.
@@ -99,7 +101,7 @@ The dashboard chart can be generated in real-time or by using historical, aggreg
 
 |Section|Description|
 |--- |--- |
-|Bestsellers|The five best-selling products during the specified time period.|
+|Bestsellers|The five best-selling products, including deleted products, during the specified time period.|
 |Most Viewed Products|The five products viewed the most during the specified time period.|
 |New Customers|The most recent five customers who registered for an account during the specified time period.|
 |Customers|The last five customers with an order that completed processing during the specified time period.|

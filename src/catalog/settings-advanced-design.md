@@ -7,6 +7,9 @@ The Design settings allows a different theme to be applied to the product page, 
 ![]({% link catalog/assets/product-design-ee.png %}){: .zoom}
 _Design_
 
+{:.bs-callout-info}
+When the same product is assigned to several categories with different design settings for each category, it is recommended to set **Use Categories Path for Product URLs** = `Yes` in the [Search Engine Optimization configuration options]({% link configuration/catalog/catalog.md %}#search-engine-optimization). To access this setting, go to  **Stores** > _Settings_ > **Configuration**, expand **Catalog** and choose **Catalog** underneath in the left panel, and then expand the **Search Engine Optimization** section on the page.
+
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |---|---|
 |<span class="ee-only">Theme</span>|Store View|Gives you the ability to apply a different theme to the product. Options: (All available themes)|

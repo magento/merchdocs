@@ -71,7 +71,7 @@
     url: /catalog/catalog-flat.html
 
   - label: Shared Catalogs
-    url: /catalog/catalog-shared.html
+    url: https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html
 
 - label: Marketing
   url: /marketing.html
@@ -137,7 +137,7 @@
     url: /customers/customer-account.html
 
   - label: Company Accounts
-    url: /customers/account-companies.html
+    url: https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-companies.html
 
   - label: Customer Groups
     url: /customers/customer-groups.html

@@ -175,8 +175,6 @@ pages:
   - label: Integrations
     url: "/system/integrations.html"
     children:
-    - label: Integration with ERP Systems
-      url: "/system/erp-systems.html"
     - label: Commerce Services
       url: "/system/saas.html"
   - label: Permissions
@@ -223,6 +221,8 @@ pages:
         url: "/stores/security-two-factor-authentication-manage.html"
     - label: Session Management
       url: "/stores/security-session-management.html"
+    - label: Session Lifetime
+      url: "/stores/admin-session-lifetime.html"
     - label: Session Validation
       url: "/stores/security-session-validation.html"
     - label: Browser Capabilities Detection
@@ -280,37 +280,6 @@ pages:
       url: "/system/encryption-key.html"
 - label: Reports
   url: "/reports.html"
-  children:
-  - label: Reports Menu
-    url: "/reports/reports-menu.html"
-  - label: Marketing Reports
-    url: "/reports/marketing-reports.html"
-  - label: Review Reports
-    url: "/reports/review-reports.html"
-  - label: Sales Reports
-    url: "/reports/sales-reports.html"
-    children:
-    - label: Refresh Statistics
-      url: "/reports/statistics.html"
-  - label: Customer Reports
-    url: "/reports/customer-reports.html"
-  - label: Product Reports
-    url: "/reports/product-reports.html"
-  - label: Private Sales Reports
-    url: "/reports/private-sales-reports.html"
-    edition: ee-only
-  - label: Business Intelligence
-    url: "/reports/business-intelligence.html"
-    children:
-    - label: Advanced Reporting
-      url: "/reports/advanced-reporting.html"
-    - label: MBI
-      url: "https://docs.magento.com/mbi/"
-  - label: New Relic Reporting
-    url: "/reports/new-relic-reporting.html"
-    children:
-      - label: New Relic Queries
-        url: "/reports/new-relic-queries.html"
 - label: MCOM
   url: "/mcom.html"
   edition: ee-only

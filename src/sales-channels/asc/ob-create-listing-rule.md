@@ -43,7 +43,7 @@ After onboarding a store is complete, the information sync between Commerce and 
 
 You can view your Amazon order information in the _Recent Orders_ section of the store dashboard. See [Store Dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) or [Manage Orders]({% link sales-channels/asc/managing-orders.md %}).
 
-{:.bs-callout .bs-callout-warning}
+{:.bs-callout-warning}
 There are some important store settings (listings, pricing, rules, fulfillment, more) that have default values for a new store. You should review your [Store Settings]({% link sales-channels/asc/default-store-settings.md %}) to ensure your store is set up for your specific needs.
 
 ![]({% link assets/icon-next-arrow.png %}){: .Inline} [**Continue to Default Store Settings**]({% link sales-channels/asc/default-store-settings.md %})

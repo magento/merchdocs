@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Sales Representative
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-manage.html#assign-a-sales-representative
 ---
 
 The sales representative is an [Admin user]({% link system/permissions.md %}) who is assigned as the point of contact for a company account and receives all automated [email messages]({% link marketing/email-company-configuration.md %}) related to the company. Only one sales representative can be assigned per company account, but a single sales representative can manage multiple company accounts. The default admin account is assigned as the sales representative, unless a different admin user is assigned.

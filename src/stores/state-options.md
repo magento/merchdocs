@@ -1,6 +1,8 @@
 ---
 title: State Options
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html#state-options
 ---
 
 In many countries, the state, province, or region is a required part of a postal address. The information is used for shipping and billing information, to calculate tax rates, and so on. For countries where the state is not required, the field can be omitted entirely from the address, or included as an optional field.
