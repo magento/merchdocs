@@ -1,5 +1,7 @@
 ---
 title: Product Alerts
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup.html
 ---
 
 Customers can subscribe to two types of alerts by email - price change alerts and in-stock alerts. For each type of alert, you can determine if customers are able to subscribe, select the email template that is used and identify the sender of the email.

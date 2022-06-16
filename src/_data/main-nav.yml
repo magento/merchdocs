@@ -36,7 +36,6 @@
   - label: Contribute to the Docs
     url: "/getting-started/contribute.html"
 
-
 - label: Catalog
   url: /catalog.html
   children:
@@ -57,7 +56,7 @@
     url: /catalog/pricing.html
 
   - label: Managing Inventory
-    url: /catalog/inventory-management.html
+    url: https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html
 
   - label: Images and Videos
     url: /catalog/catalog-images-video.html
