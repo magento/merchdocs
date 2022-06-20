@@ -26,7 +26,7 @@ System > [Services]({% link configuration/services.md %}) > Commerce Services Co
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Project|Global|Name of the SaaS project that groups all of your SaaS data spaces. A _Create Project_ button appears if no SaaS projects exist.|
-|Data Space|Global|Lists the SaaS data spaces in the specified SaaS project. The number of SaaS Data Spaces that appears depends on your [Commerce license]({% link system/saas.md %}#apikey):<br />Adobe Commerce - One production data space; two testing data spaces;<br />Magento Open Source - One production data space; no testing data spaces|
+|Data Space|Global|Lists the SaaS data spaces in the specified SaaS project. The number of SaaS data spaces that appears depends on your [Commerce license]({% link system/saas.md %}#apikey):<br />Adobe Commerce - One production data space; two testing data spaces;<br />Magento Open Source - One production data space; no testing data spaces|
 
 ![]({% link configuration/services/assets/ims-organization.png %}){: .zoom}
 [_IMS Organization_]({% link system/saas.md %}#organizationid)
