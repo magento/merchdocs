@@ -8,8 +8,8 @@ thread: "/whatsnew-feed.xml"
 updated: Mon Jun 20 14:21:47 2022
 entries:
 - description: Updated the [Search Results](https://docs.magento.com/user-guide/catalog/search-results.html)
-    topic to clarify the partial prefix search method and that Elasticsearch product
-    search results are based on the relevance.
+    topic to clarify the partial prefix search method, and that Elasticsearch product
+    search results are based on relevance.
   versions: 2.4.x
   type: Minor update
   date: June 13, 2022
