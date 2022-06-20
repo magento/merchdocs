@@ -1,5 +1,7 @@
 ---
 title: Video
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/media/video.html
 ---
 
 Use the _Video_ content type to add a video that is hosted on [YouTube][1] or [Vimeo][2] to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). It’s easy to embed video in a page or block, as well as in product and category descriptions.
