@@ -1,5 +1,7 @@
 ---
 title: Moment of Purchase
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
 ---
 
 Now that you’ve given your customer an engaging shopping experience, make it easy for them to complete their purchases. Adobe Commerce and Magento Open Source are designed to help you streamline your checkout process experience while boosting conversion rates.

@@ -1,6 +1,8 @@
 ---
 title: Commerce Identity Manager
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html
 ---
 
 The [Commerce Identity Manager](https://identity.magento.com) provides users with the ability to link their Commerce product accounts with an Adobe ID for seamless single sign-on across all Adobe Commerce products and simpler user account management. When your Commerce accounts are linked to an Adobe ID in the Commerce Identity Manager and you are logged into that Adobe ID, you will bypass the standard Commerce product login process and do not need to log in again.

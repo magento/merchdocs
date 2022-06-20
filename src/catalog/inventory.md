@@ -1,7 +1,7 @@
 ---
 title: Enabling Inventory Management
-redirect_from:
-  - /catalog/settings-advanced-advanced-inventory.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/enable.html
 ---
 
 To manage your product inventory, enable Inventory Management at the global store or product level. When the _Manage Stock_ option is enabled, Inventory Management automatically tracks product quantities available for the site through configured stocks and sources. Every feature and option begins tracking and reporting when enabled, without additional configuration.

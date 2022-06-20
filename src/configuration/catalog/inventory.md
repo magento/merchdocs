@@ -4,6 +4,9 @@ title: Inventory
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Catalog]({% link configuration/catalog.md %}) > Inventory
 
+{:.bs-callout-info}
+Inventory Management for Adobe Commerce and Magento Open Source gives you the tools to manage your product inventory. Merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more can use these features to maintain quantities for sales and handle shipments to complete orders. For more information about these features and how you can use them to manage stock in multiple locations, see the [Inventory Management User Guide](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html).
+
 ## Stock Options
 
 ![]({% link configuration/catalog/assets/catalog-inventory-stock-options.png %}){: .zoom}

@@ -22,7 +22,19 @@ View the [Action Logs Report]({% link system/action-log-report.md %}) to review 
 
 1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Admin Actions Logging** section and do the following for each action:
 
-    - To enable admin logging for the action, select the checkbox.
-    - To disable admin logging for the action, clear the checkbox.
+   - To enable admin logging for the action, select the checkbox.
+   - To disable admin logging for the action, clear the checkbox.
+
+1. When complete, click <span class="btn">Save Config</span>.
+
+## Archiving Admin Actions Log
+
+Admin action logs can be archived for any number of days. Archives can also be deleted after a specified duration.
+
+1. In the left panel, expand **Advanced** and choose **System**.
+1. Expand the **Admin Action Log Archiving**.
+
+   - Set the number of days to retain archived log in **Logs Entry Lifetime, Days**.
+   - Set the Frequency for creating archives in **Log Archiving Frequency**.
 
 1. When complete, click <span class="btn">Save Config</span>.

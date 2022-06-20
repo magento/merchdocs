@@ -1,5 +1,7 @@
 ---
 title: Disabling Sources
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/sources/sources-disable.html
 ---
 
 Sources may not be deleted to ensure all order data retains in Commerce. Sources, orders, and shipments are directly connected to each other. You can disable sources and modify information including location and point of contact.

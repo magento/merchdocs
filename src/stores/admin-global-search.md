@@ -1,6 +1,8 @@
 ---
 title: Global Search
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-workspace.html#workspace-search
 ---
 
 Use the magnifying glass icon in the header of the _Admin_ to find any record in the database. The results can include customers, products, orders, or any related attribute. For example, if you enter a customer name, the results might include the customer record as well as any orders that are associated with the name.

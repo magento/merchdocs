@@ -1,5 +1,7 @@
 ---
 title: Managing Orders and Shipments
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/orders/shipments.html
 ---
 
 Inventory Management includes additional features and options for managing inventory quantities through the shipment process. As you review and fulfill shipments, cancel orders, and issue credit memos, product salable and on-hand quantities automatically update.
