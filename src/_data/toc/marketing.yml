@@ -160,9 +160,6 @@ pages:
       children:
       - label: Sales Email
         url: "/marketing/sales-email-configure.html"
-      - label: Configuring Company Email
-        url: "/marketing/email-company-configuration.html"
-        edition: b2b-only
       - label: Admin User Email
         url: "/stores/admin-email-templates-configure.html"
     - label: Customizing Email Templates

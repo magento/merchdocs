@@ -5,8 +5,35 @@ description: This page contains recent changes that we think you'd like to know 
   list.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Jun 6 14:27:05 2022
+updated: Mon Jun 13 14:27:10 2022
 entries:
+- description: The [Customer Attributes](https://docs.magento.com/user-guide/stores/attributes-customer.html)
+    and [Customer Address Attributes](https://docs.magento.com/user-guide/stores/attributes-customer-address.html)
+    topics are updated to include the _Grid Filter Condition Type_ configuration option.
+  versions: 2.4.x
+  type: Minor update
+  date: June 6, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/497
+  merge_commit: a6c407a95c9874852c0a63bd598d71d24426545a
+  contributor: vkolesny
+  membership: true
+  labels:
+  - 2.4.x
+  - Minor update
+- description: The [Configurable Product](https://docs.magento.com/user-guide/catalog/product-create-configurable.html)
+    topic is updated to include a new _Configure the Stock Status_ section, which
+    describes how stock status is controlled for a configurable product in relation
+    to its child products.
+  versions: 2.4.x
+  type: Major update
+  date: June 6, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/496
+  merge_commit: 41cf853743cc95f7241c5fee54d8058ebaa1764c
+  contributor: vkolesny
+  membership: true
+  labels:
+  - 2.4.x
+  - Major update
 - description: Added notes to [Search Results](https://docs.magento.com/user-guide/catalog/search-results.html)
     and [Configuring Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html)
     to clarify the limitations of search by suffix in out-of-the-box ElasticSearch

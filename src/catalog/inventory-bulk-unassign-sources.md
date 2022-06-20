@@ -1,5 +1,7 @@
 ---
 title: Bulk Unassign Source and Quantities
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/bulk-assignment.html
 ---
 
 When unassigning a source from a product, you are indicating the product will no longer be stocked at that location. This process will completely clear all inventory data for source currently assigned to the product. If you need to move the existing inventory to a new location, consider using the Transfer inventory option.

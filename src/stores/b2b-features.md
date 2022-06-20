@@ -2,8 +2,8 @@
 b2b_only: true
 title: B2B Feature Configuration
 group: getting-started
-redirect_from:
-  - /quick-tour/b2b-quick-start.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html
 ---
 
 With the [installation](https://devdocs.magento.com/extensions/b2b/) and activation of B2B for Adobe Commerce, your installation can be configured to make available some, or all, of the following B2B features from the storefront.

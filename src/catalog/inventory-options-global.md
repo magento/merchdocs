@@ -1,5 +1,7 @@
 ---
 title: Configure Global Options
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/global-options.html
 ---
 
 Configure the default configuration options for product and stock for your websites. Some of these settings can be overridden per product through [Configuring Product Options]({% link catalog/inventory-product-stock-options.md %}). To configure Distance Priority settings, see [Configuring Distance Priority Algorithm]({% link catalog/inventory-configure-distance-priority.md %}).

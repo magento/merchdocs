@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Company Users
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/users/account-company-users.html
 ---
 
 Lists the users who are associated with the company. To learn more, see [Company Users]({% link customers/account-company-users.md %}).

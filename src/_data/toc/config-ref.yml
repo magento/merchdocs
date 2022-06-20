@@ -3,6 +3,10 @@ label: Configuration Reference
 pages:
 - label: Commerce Modes
   url: "/magento/installation-modes.html"
+- label: Changing Scope
+  url: "/configuration/scope-change.html"
+- label: Scope Quick Reference
+  url: "/stores/store-scope-reference.html"
 - label: General
   url: "/configuration/general.html"
   children:

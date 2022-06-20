@@ -1,5 +1,7 @@
 ---
 title: Adding a New Source
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/sources/sources-add.html
 ---
 
 Manage inventory and order fulfillment from multiple locations with custom sources. Create a source for each location such as warehouses, brick-and-mortar stores, distribution centers, and drop shippers. Assign sources and update quantities per product

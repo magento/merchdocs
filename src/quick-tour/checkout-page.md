@@ -1,5 +1,7 @@
 ---
 title: Checkout Page
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/storefront.html#checkout-page
 ---
 
 Checkout consists of two steps:

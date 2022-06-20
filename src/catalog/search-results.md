@@ -10,8 +10,11 @@ The Search Results list includes all products that match the search criteria ent
 
 The results can be formatted as either a grid or list and sorted by a selection of attributes. [Pagination]({% link catalog/navigation-pagination.md %}) controls appear if there are more products than fit on the page. Use these controls to move from one page to the next. The number of records per page is determined by the Catalog Frontend configuration. For more information, see [Product Listings]({% link catalog/navigation-product-listings.md %}).
 
-{:.bs-callout-info}
-With ElasticSearch, there is no out-of-the-box support for search by the suffix. For example, search by SKU may not return the expected result if the keyword contains only the end part of the SKU.
+With **ElasticSearch**:
+
+- There is no out-of-the-box support for search by the suffix. For example, search by SKU may not return the expected result if the keyword contains only the end part of the SKU.
+- There is out-of-the-box support for search by prefix (partial keyword search) for `name` and `sku` product attributes only. All other product attributes are searched by the whole keyword, with the exact matching.
+- Search results for `name` and `sku` product attributes are based on the relevance, not exact matching. The most relevant matches, such as an exactly matched _Product Name_ or _SKU_, are listed first. To search for an exact match, the customer can use double quotes in the search query. For example, a `WSH12-32-Red` search query may return several products, sorted by the relevance. But a `"WSH12-32-Red"` search query returns only one product with the **_exactly_** matched `sku`.
 
 ![]({% link catalog/assets/storefront-search-results-shorts.png %}){: .zoom}
 _Search Results with Pagination Controls_
