@@ -1,6 +1,8 @@
 ---
 title: Message Inbox
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-message-inbox.html
 ---
 
 Your store receives messages from Adobe on a regular basis. The messages are rated by importance and might refer to system updates, patches, new releases, scheduled maintenance, or upcoming events. The bell icon in the header indicates the number of unread messages in your inbox.

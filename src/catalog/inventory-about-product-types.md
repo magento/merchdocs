@@ -1,5 +1,7 @@
 ---
 title: About Product Types
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/basics/product-types.html
 ---
 
 Inventory Management supports inventory and order management for all product types in Adobe Commerce and Magento Open Source: simple, configurable, virtual, downloadable, bundle, and grouped. Options and requirements may differ per product type for sources, stocks, and shipping.

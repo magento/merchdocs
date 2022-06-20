@@ -1,5 +1,7 @@
 ---
 title: Managing Sources
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/sources/sources-manage.html
 ---
 
 Sources are the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, pickup locations, and drop shippers. You allocate inventory quantities to these sources, and Commerce automatically aggregates the total salable products for your stocks. For large companies, add multiple sources for all of your locations: in different geographic locations by country and continent, locations in a city, based on the type of inventory, even based on services.

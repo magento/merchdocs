@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Empower with Self-Service Tools
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html
 ---
 
 Self-Service Tools

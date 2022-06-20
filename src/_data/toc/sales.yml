@@ -8,9 +8,6 @@ pages:
   children:
   - label: Instant Purchase
     url: "/sales/checkout-instant-purchase.html"
-  - label: Quick Order
-    url: "/sales/quick-order.html"
-    edition: b2b-only
   - label: Shopping Cart
     url: "/sales/cart.html"
     children:
@@ -48,9 +45,6 @@ pages:
         url: "/sales/cart-persistent-workflow.html"
       - label: Configuring a Persistent Cart
         url: "/sales/cart-persistent-configuration.html"
-    - label: Requesting a Quote
-      url: "/sales/quote-request.html"
-      edition: b2b-only
     - label: Order by SKU
       url: "/sales/order-by-sku.html"
   - label: Shopping Assistance
@@ -85,16 +79,6 @@ pages:
 - label: Order Management
   url: "/sales/order-management.html"
   children:
-  - label: Quotes
-    url: "/sales/quotes.html"
-    edition: b2b-only
-    children:
-    - label: Quote Workflow
-      url: "/sales/quote-workflow.html"
-    - label: Negotiating a Quote
-      url: "/sales/quote-price-negotiation.html"
-    - label: Example Quote
-      url: "/sales/quote-example.html"
   - label: Orders
     url: "/sales/orders.html"
     children:
@@ -214,9 +198,6 @@ pages:
       url: "/payment/check-money-order.html"
     - label: Cash On Delivery
       url: "/payment/cash-on-delivery.html"
-    - label: Payment on Account
-      url: "/payment/payment-on-account.html"
-      edition: b2b-only
     - label: Bank Transfer
       url: "/payment/bank-transfer.html"
     - label: Purchase Order

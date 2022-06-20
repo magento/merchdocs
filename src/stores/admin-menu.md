@@ -1,6 +1,8 @@
 ---
 title: Admin Sidebar
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-menu.html
 ---
 
 The sidebar on the left is the main menu for your store’s _Admin_, and is designed for both desktop and mobile devices. The flyout menu provides access to all the tools you need to manage your store on a daily basis.

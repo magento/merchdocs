@@ -1,6 +1,8 @@
 ---
 title: Store Admin
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin.html
 ---
 
 Your store _Admin_ is the password-protected back office where you, as the merchant, can set up products and promotions, manage orders, and perform other administrative tasks. All basic configuration tasks and store management operations are performed from the _Admin_.

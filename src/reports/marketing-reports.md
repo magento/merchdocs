@@ -1,5 +1,7 @@
 ---
 title: Marketing Reports
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/marketing-reports.html
 ---
 
 Marketing reports provide information about the status of shopping carts, the use of search terms, and newsletter transmissions.

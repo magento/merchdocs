@@ -1,6 +1,8 @@
 ---
 title: Creating a Commerce Account
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html
 ---
 
 Anyone can open a free Commerce account from our website. The email address that is used to open an account can be associated with only one account, and the screen name that you enter becomes your identity in the forums.

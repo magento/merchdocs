@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Updating the General Information
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage.html#update-the-catalog-details
 ---
 
 The detail information of any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are reflected in any associated company accounts.

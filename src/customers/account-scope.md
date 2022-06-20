@@ -1,6 +1,5 @@
 ---
 title: Customer Account Scope
-group: getting-started
 ---
 
 The scope of customer accounts can be limited to the website where the account was created, or shared with all websites and stores in the store hierarchy.

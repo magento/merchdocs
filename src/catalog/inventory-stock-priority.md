@@ -1,5 +1,7 @@
 ---
 title: Prioritizing Sources for a Stock
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/stocks/stocks-prioritize-sources.html
 ---
 
 After adding [sources]({% link catalog/inventory-sources.md %}) to the [stock]({% link catalog/inventory-stock.md %}), arrange those sources from top-to-bottom in priority for fulfilling orders. The Source Selection Algorithm (SSA) provides an algorithm Priority using this order when determining shipment and inventory deductions.
