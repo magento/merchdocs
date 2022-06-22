@@ -1,5 +1,7 @@
 ---
 title: Elements - Divider
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/elements/divider.html
 ---
 
 Use the _Divider_ content type to add a rule as a visual break between sections of content in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). You can specify the line color, thickness, and width of the divider. You can also control the alignment, set the margins and padding, and format of the container border. By default, the divider is a hairline rule that extends the full width of the container, with allowance for padding.

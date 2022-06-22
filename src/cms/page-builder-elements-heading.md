@@ -1,5 +1,7 @@
 ---
 title: Elements - Heading
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/elements/heading.html
 ---
 
 Heading levels establish a hierarchy that organizes content, and helps search engines index each page. Use the _Heading_ content type in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage) to add a text container with a heading level from H1 to H6 to the stage. Headings are formatted according to the style sheet that is associated with the current theme.

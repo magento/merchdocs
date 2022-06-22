@@ -22,6 +22,8 @@ sections:
   - title: Add Content
     content: Explore the Add Content section of the Page Builder panel, and how to add existing content components to the Page Builder stage.
     url: /cms/page-builder-elements.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/introduction.html
 ---
 
 Page Builder makes it easy to create content-rich pages with custom layouts that enhance your visual storytelling, and drive customer engagement and loyalty. Here are just a few of the many Page Builder features that are designed to improve quality, and reduce the time and expense of producing custom pages:
