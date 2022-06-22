@@ -1,5 +1,7 @@
 ---
 title: Add Content - Products
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/products.html
 ---
 
 Use the _Products_ content type to add a list of products to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage), using either a grid or carousel layout. You also can use the [Add Content - Block]({% link cms/page-builder-add-content-block.md %}) tool to place the block on the Page Builder stage and then place a product list within the block. Or, you can add the product list directly in a row on a page.
