@@ -14,8 +14,6 @@ pages:
     - label: Cart Configuration
       url: "/sales/cart-configuration.html"
       children:
-      - label: My Cart Link
-        url: "/sales/cart-link.html"
       - label: Mini Cart
         url: "/sales/mini-cart.html"
       - label: Redirect to Cart
