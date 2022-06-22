@@ -1,5 +1,7 @@
 ---
 title: Elements - HTML Code
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/elements/html-code.html
 ---
 
 Use the _HTML Code_ content type to add snippets of HTML, CSS, and JavaScript code in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). For example, you might want to add custom HTML, declare a CSS class that can be applied to an element on the page, or add a snippet of code for a logo, button, or banner that you received from a third-party provider.

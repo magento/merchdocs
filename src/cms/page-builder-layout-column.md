@@ -1,5 +1,7 @@
 ---
 title: Layout - Column
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/layout/column.html
 ---
 
 Use the _Column_ content type to divide a page into multiple columns in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). When you add a column to a row or tab or directly to the stage, the column group is initially divided into two columns of equal width. You can add or remove columns, as needed. A column can be resized by dragging the border between two columns. The width of the next column is adjusted to fill the available space within the row, tab, or stage. A single column extends the full width of the stage or its container.

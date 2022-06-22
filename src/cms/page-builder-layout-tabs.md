@@ -1,5 +1,7 @@
 ---
 title: Layout - Tabs
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/layout/tabs.html
 ---
 
 Use the _Tabs_ content type to add a set of tabs in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). When you drag the Tabs placeholder from the panel to the stage, a single default tab initially appears. You can add more tabs as needed to create a full set. The width of the tab set is determined by the width of its parent container and padding settings.
