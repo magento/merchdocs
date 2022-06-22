@@ -12,7 +12,7 @@ See [Translations overview][1]{:target="_blank"} in the Commerce Developer Guide
 ![Example storefront - translatable text]({% link system/assets/storefront-translate-inline.png %}){: .zoom}
 _Translatable Text_
 
-If your store is available in multiple languages, you can make fine adjustments to the translated text for the locale. On the server, interface text is maintained in a separate CSV file for each output block, and is organized by locale. As an alternate approach, rather than use the _Translate Inline_ tool, you can also edit the CSV files directly on the server.
+If your store is available in multiple languages, you can make fine adjustments to the translated text for the locale. On the server, interface text is maintained in a separate CSV file for each output block, and is organized by locale. As an alternate approach, rather than use the _Translate Inline_ tool, you can also edit the CSV files directly on the server. Translation files are stored in `app/code/Magento/<module_name>/i18n/<language_locale>.csv`.
 
 {:.bs-callout-info}
 To use the Translate Inline tool, your browser must allow pop-ups.
