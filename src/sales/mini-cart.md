@@ -2,9 +2,11 @@
 title: Mini Cart
 redirect_from:
   - /sales/cart-sidebar.html
+  - /sales/cart-link.html
 ---
 
 The mini cart displays a summary of items in the cart. It is enabled by default, and appears when you click the Cart link at the top of the page.
+The link can be configured to display the number of different products (or SKUs) in the cart, or the total quantity of all items.
 
 ![The shopper displays the shopping cart sidebar from a product page]({% link sales/assets/storefront-mini-cart-watch.png %}){: .zoom}
 _Mini Cart_
@@ -36,5 +38,23 @@ For a _registered_ customer, there are cases when the Mini Cart may not be synch
 
    - For **Number of Items to Display Scrollbar**, enter the number of items that can appear in the sidebar before the scrollbar is triggered.
    - For **Maximum Display Recently Added Item(s)**, enter the maximum number of recently added items that you want to appear in the mini cart.
+
+1. Click <span class="btn">Save Config</span>.
+
+## Configure the cart link
+
+1. On the _Admin_ sidebar, got to **Stores** > _Settings_ > **Configuration**.
+
+1. In the left panel, expand **Sales** and choose **Checkout**.
+
+1. Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **My Cart Link** section.
+
+1. Set **Display Cart Summary** to one of the following settings:
+
+   Display item quantities|This setting displays the total number of products in the cart, adding the quantities for each product.|
+   Display number of items in cart|This setting displays the number of product items in the cart, regardless of quantity.|
+
+   ![Configuration options for My Cart Link]({% link configuration/sales/assets/checkout-my-cart-link.png %}){: .zoom}
+   [_Setting the cart link display_]({% link configuration/sales/checkout.md %})
 
 1. Click <span class="btn">Save Config</span>.
