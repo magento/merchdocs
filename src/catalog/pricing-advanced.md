@@ -6,9 +6,9 @@ redirect_from:
 
 The Advanced Pricing settings define the conditions required for special pricing that is available for a specific customer group or shared catalog. Advanced Pricing can be applied to simple, virtual, downloadable, and bundle products. To apply discounted pricing to other product types, use a [catalog price rule]({% link marketing/price-rules-catalog.md %}). For more information, see [Price Scope]({% link catalog/catalog-price-scope.md %}).
 
-- Advanced pricing data is synchronized with product pages. For example, if you update a tier price quantity, the system updates the value on the product page.
+Advanced pricing data is synchronized with product pages. For example, if you update a tier price quantity, the system updates the value on the product page.
 
-- {:.b2b-only}Advanced pricing data is synchronized with both product pages and shared catalogs. For example, if you update a tier price quantity, the system updates the value in the shared catalog and on the product page. Any custom pricing that is indicated in the shared catalog has priority over customer group pricing.
+<span class="b2b-only"></span> If your store includes B2B for Adobe Commerce and you are using shared catalogs, advanced pricing data is synchronized with both product pages and shared catalogs. For example, if you update a tier price quantity, the system updates the value in the shared catalog and on the product page. Any custom pricing that is indicated in the shared catalog has priority over customer group pricing. Also refer to [Set Pricing and Structure](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) in the _B2B for Adobe Commerce Guide_.
 
 ![]({% link catalog/assets/product-pricing-advanced-link.png %}){: .zoom}
 _Advanced Pricing_
@@ -75,9 +75,9 @@ _Advanced Pricing_
 |![]({% link assets/icon-delete-trashcan-solid.png %}) |Deletes the current rule.|
 |<span class="btn">Add</span>|Inserts an additional row for a new rule.|
 
-### Manufacturer's Suggested Retail Price
+### Minimum Advertised Price
 
-The manufacturer's suggested retail price (MSRP) for the product.
+The minimum advertised price (MAP) for the product.
 
 ### Display Actual Price
 

@@ -1,6 +1,8 @@
 ---
 title: Contact Us
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html#contact-us-form
 ---
 
 The _Contact Us_ link in the footer of the store is an easy way for customers to keep in touch with you. Customers can complete the form to send a message to your store. A standard Commerce installation displays the default _Contact Us_ form. After submitting the form, a thank you message appears

@@ -12,6 +12,8 @@ sections:
    - title: Migrating and Upgrading
      content: This information provides details for existing Commerce users upgrading or migrating to Inventory Management. These features include new configurations, options, and settings added to existing catalogs. This topic also covers third-party support, Order Management System, and extension information.
      url: /catalog/inventory-migration.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/merchant-sourcing.html
 ---
 
 Quickly set up your sources, stocks, and inventory quantities as a Single or Multi Source merchant. Learn more about planning and structuring your inventory, changes in Inventory Management, and much more. Each section provides links to more information and instructions.

@@ -1,5 +1,7 @@
 ---
 title: My Purchase Orders
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/purchase-orders/account-dashboard-my-purchase-orders.html
 ---
 
 When Purchase Orders are enabled for a company, all orders are automatically created as Purchase Orders (PO). Company users with the required permissions can create, edit, and delete POs that they create, as well as POs created by subordinate users.

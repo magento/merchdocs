@@ -1,6 +1,8 @@
 ---
 title: Installation
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/about-this-release.html#installation
 ---
 
 To download and install the latest 2.4.x release on your server, see the [Installation][1]{:target="_blank"} and [Configuration][2]{:target="_blank"} information in our developer documentation. A Commerce installation can be deployed to run in either production or developer mode. Some tools and configuration settings are designed specifically for developers and can be accessed only while the store is running in developer mode. To learn more, see [Commerce Modes]({% link magento/installation-modes.md %}).

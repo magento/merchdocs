@@ -1,6 +1,8 @@
 ---
 title: Store Email Addresses
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html#store-email-addresses
 ---
 
 You can have up to five different email addresses to represent distinct functions or departments for each store or view. In addition to the following predefined email identities, there are a few custom identities that you can set up according to your needs.

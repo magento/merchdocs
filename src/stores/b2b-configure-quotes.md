@@ -1,7 +1,8 @@
 ---
 b2b_only: true
 title: Configuring Quotes
-group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/configure-quotes.html
 ---
 
 The quote configuration determines the minimum required order amount for quote requests, the quote lifetime, and the supported file formats for attached files.

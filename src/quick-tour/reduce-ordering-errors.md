@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Reduce Ordering Errors
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
 ---
 
 Streamlined Order Process

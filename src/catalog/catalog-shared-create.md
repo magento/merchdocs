@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Creating a Shared Catalog
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-create.html
 ---
 
 There are two ways to create a shared catalog. You can create a new shared catalog of either type, or duplicate an existing shared catalog. A newly created shared catalog does not include any products, and is not yet assigned to a company.

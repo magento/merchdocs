@@ -1,6 +1,8 @@
 ---
 title: Store Information
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html#store-information
 ---
 
 The Store Information section provides the basic information that appears on sales documents and in other communications.
