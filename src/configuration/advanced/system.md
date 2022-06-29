@@ -59,6 +59,7 @@ _MySQL Message Queue Cleanup_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Disable Email Communications|Store View|Determines if email communications are activated for the store. Options: Yes / No|
+|Transport|Store View|Determines the email transport method. Options: Sendmail / SMTP|
 |Host|Store View|Determines the name that is used to refer to the host. Default value: localhost|
 |Port|Store View|Identifies the port used for email communications. Default value: 25|
 |Set Return-Path|Store View|Determines if a routing address is used for returned emails. Options: No ([Recommended Security Measure](https://magento.com/security/news/new-zend-framework-1-security-vulnerability){:target="_blank"}) / Yes / Specified|
