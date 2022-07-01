@@ -145,6 +145,7 @@ Attribute Code  | Description
 `created_at`    | The date the customer account was created.
 `updated_at`    | The date the customer account was last updated.
 `website_id`    | The website ID of the site where the customer account was created.
+`store_id`      | The store ID of the site where the customer account was created.
 `created_in`    | The store view where the account was created.
 `group_id`      | The ID of the customer group where the customer is assigned.
 `disable_auto_group_change` | Determines if customer groups can be dynamically assigned during [VAT ID validation]({% link tax/vat-validation.md %}).
