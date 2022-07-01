@@ -1,5 +1,7 @@
 ---
 title: 'Tutorial 2: Blocks'
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/walkthrough/2-blocks.html
 ---
 
 The following tutorial illustrates the difference between [simple blocks]({% link cms/blocks.md %}) and [dynamic blocks]({% link cms/page-builder-add-dynamic-block.md %}), and how to use Page Builder to create each type of block.

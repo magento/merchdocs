@@ -1,5 +1,7 @@
 ---
 title: Page Builder - Layout
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/workspace.html#layout
 ---
 
 The _Layout_ section of the Page Builder panel is used to add rows, columns, or tabs to the stage. When you drag a content type from the panel to the stage, a container appears with a toolbox of options that are specific to the content type.
