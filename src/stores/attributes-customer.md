@@ -76,7 +76,7 @@ _Customer Attributes_
 
     - To filter the Customers grid by this attribute, set **Use in Filter Options** to `Yes`.
 
-   - To filter the Customers grid by text attribute with different filter matching conditions, set **Grid Filter Condition Type** to `Partial Match`, `Prefix Match`, or `Full Match`. It does not affect the _Search by keyword_  field for the grid.
+    - To filter the Customers grid by text attribute with different filter matching conditions, set **Grid Filter Condition Type** to `Partial Match`, `Prefix Match`, or `Full Match`. It does not affect the _Search by keyword_  field for the grid.
 
     - To search the Customers grid by this attribute, set **Use in Search Options** to `Yes`.
 
