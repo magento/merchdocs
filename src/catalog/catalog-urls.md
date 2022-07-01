@@ -25,6 +25,9 @@ A static URL is a fixed address for a specific page. A static URL can be display
 
 The URL key is the part of a static URL that describes the product or category. When you create a product or category, an initial URL key is automatically generated, based on the name. To change the URL key, see the [Search Engine Optimization]({% link catalog/product-search-engine-optimization.md %}) section of the product information.
 
+{:.bs-callout-info}
+Accented special characters are automatically replaced by their regular non-accented versions in the URL key. For example, `ñ` is automatically replaced by `n`.
+
 The URL key should consist of lowercase characters with non-trailing hyphens between these characters to separate words. Hyphens are not allowed at the start or at the end of the URL key. A well-designed, “search engine friendly” URL key might include the product name and key words to improve the way it is indexed by search engines. The URL key can be configured to create an automatic redirect if the URL key changes.
 
 {:.bs-callout-info}

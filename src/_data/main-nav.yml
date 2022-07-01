@@ -115,7 +115,7 @@
     url: /cms/content-elements.html
 
   - label: Page Builder
-    url: /cms/page-builder.html
+    url: https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html
 
   - label: Media Storage
     url: /cms/media-storage.html    

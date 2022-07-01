@@ -1,5 +1,7 @@
 ---
 title: Page Builder Setup
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html
 ---
 
 When enabled in the configuration, Page Builder is the default content creation tool for CMS Pages, Blocks, and Dynamic Blocks. In addition, the _Enable Advanced CMS_ button offers Page Builder as an option for Categories and Products. You can also choose the default [page layout]({% link design/page-layout.md %}) that you want to use for products, categories, and CMS pages. Page Builder is not available for newsletter content, which uses the WYSIWYG [editor]({% link cms/editor.md %}).

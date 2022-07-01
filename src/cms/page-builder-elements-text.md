@@ -1,5 +1,7 @@
 ---
 title: Elements - Text
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/elements/text.html
 ---
 
 Use the _Text_ content type to add a text container with a WYSIWYG (“What You See Is What You Get”) editor in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). In addition, you can add links, images, [variables]({% link marketing/variables.md %}), and widgets to the text from the editor toolbar.

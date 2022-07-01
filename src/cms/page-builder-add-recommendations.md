@@ -1,8 +1,8 @@
 ---
 title: Add Content - Product Recommendations
 ee_only: true
-redirect_from:
-   recommendations/page-builder-add-product-recs.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html
 ---
 
 Use the _Product Recommendations_ content type to add an existing, active [recommendation unit]({% link recommendations/create.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage) for a CMS page, block, or dynamic block. To learn more, refer to Page Builder [Workspace]({% link cms/page-builder-workspace.md %}) and [tutorials]({% link cms/page-builder-learn.md %}).
