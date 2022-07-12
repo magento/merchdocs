@@ -57,7 +57,7 @@ Before Google reCAPTCHA can be configured, you must ensure that yourÂ `PHP.ini`Â
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--|--|--|
 |reCAPTCHA Validation Failure Message|Global|The message that is displayed in the Admin if verification fails. Default text: `reCAPTCHA verification failed.`|
-|reCAPTCHA Validation Failure Message|Global|The message that is displayed in the Admin if reCAPTCHA fails to return a verification result. Default text: `Something went wrong with reCAPTCHA. Please contact the store owner.`|
+|reCAPTCHA Technical Failure Message|Global|The message that is displayed in the Admin if reCAPTCHA fails to return a verification result. Default text: `Something went wrong with reCAPTCHA. Please contact the store owner.`|
 
 ## Admin Panel
 
