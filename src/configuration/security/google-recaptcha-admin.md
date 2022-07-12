@@ -11,7 +11,7 @@ Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini`�
 
 ## reCAPTCHA v2 ("I am not a robot")
 
-![]({% link configuration/security/assets/google-recaptcha-admin-v2-not-robot.png %}){: .zoom}
+![]({% link configuration/security/assets/recaptcha-admin-v2-not-robot.png %}){: .zoom}
 [_reCAPTCHA v2 ("I am not a robot")_]({% link stores/security-google-recaptcha.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -21,11 +21,10 @@ Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini`�
 |Size|Global|The size of the Google reCAPTCHA box that appears during login. Options: Normal (default) / Compact|
 |Theme|Global|Determines the style of the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme|
 |Language Code|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
-|reCAPTCHA Validation Failure Message|Global|The message that appears to the user if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.|
 
 ## reCAPTCHA v2 Invisible
 
-![]({% link configuration/security/assets/google-recaptcha-admin-v2-invisible.png %}){: .zoom}
+![]({% link configuration/security/assets/recaptcha-admin-v2-invisible.png %}){: .zoom}
 [_reCAPTCHA v2 Invisible_]({% link stores/security-google-recaptcha.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -35,11 +34,10 @@ Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini`�
 |Invisible Badge Position|Global|The position of the invisible reCAPTCHA badge on each page. Options: Inline / Bottom Right / Bottom Left|
 |Theme|Global|Determines the style of the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme|
 |Language Code|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
-|reCAPTCHA Validation Failure Message|Global| The message that appears to the user if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.|
 
 ## reCAPTCHA v3 Invisible
 
-![]({% link configuration/security/assets/google-recaptcha-admin-v3-invisible.png %}){: .zoom}
+![]({% link configuration/security/assets/recaptcha-admin-v3-invisible.png %}){: .zoom}
 [_reCAPTCHA v3 Invisible_]({% link stores/security-google-recaptcha.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
@@ -50,11 +48,20 @@ Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini`�
 |Invisible Badge Position|Global|The position of the invisible reCAPTCHA badge on each page. Options: Inline / Bottom Right / Bottom Left|
 |Theme|Global|Determines the style of the Google reCAPTCHA box. Options: Light Theme (default) / Dark Theme|
 |Language Code|Global|A [two-character code](https://developers.google.com/recaptcha/docs/language) that specifies the language that is used for Google reCAPTCHA text and messaging.|
-|reCAPTCHA Validation Failure Message|Global|The message that appears to the user if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.|
+
+## reCAPTCHA Failure Messages
+
+![]({% link configuration/security/assets/recaptcha-admin-failure-messages.png %}){: .zoom}
+[_Failure messages_]({% link stores/security-google-recaptcha.md %})
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--|--|--|
+|reCAPTCHA Validation Failure Message|Global|The message that is displayed in the Admin if verification fails. Default text: `reCAPTCHA verification failed.`|
+|reCAPTCHA Validation Failure Message|Global|The message that is displayed in the Admin if reCAPTCHA fails to return a verification result. Default text: `Something went wrong with reCAPTCHA. Please contact the store owner.`|
 
 ## Admin Panel
 
-![]({% link configuration/security/assets/google-recaptcha-admin.png %}){: .zoom}
+![]({% link configuration/security/assets/recaptcha-admin-panel.png %}){: .zoom}
 [_Admin Panel_]({% link stores/security-google-recaptcha.md %})
 
 {: .bs-callout-info}
@@ -65,5 +72,5 @@ When using reCAPTCHA version 3, a genuine user with low score cannot proceed. Fo
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--|--|--|
-|Enable for Login|Global|Determines the type of reCAPTCHA that is enabled for the Admin login. Options:<br/>No - (default) Does not validate the Admin login.<br />reCAPTCHA v2 ("I am not a robot") - Requires the user to select the _I’m not a robot_ checkbox.<br />Invisible reCaptcha v2 - Validates user behavior in the background without requiring interactions based on score.<br/>Invisible reCaptcha v3 -  (Recommended) Validates user behavior in the background based on interaction score.|
-|Enable for Forgot Password|Global|Determines the type of reCAPTCHA that is enabled to request an Admin password reset. Options:<br/>No - (default) Does not validate the password reset request.<br />reCAPTCHA v2 ("I am not a robot") - Requires the user to select the _I’m not a robot_ checkbox.<br />Invisible reCaptcha v2 - Validates user behavior in the background without requiring interactions based on score.<br/>Invisible reCaptcha v3 -  (Recommended) Validates user behavior in the background based on interaction score.|
+|Enable for Login|Global|Determines the type of reCAPTCHA that is enabled for the [Admin login](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Options:<br/>No - (default) Does not validate the Admin login.<br />reCAPTCHA v2 ("I am not a robot") - Requires the user to select the _I’m not a robot_ checkbox.<br />Invisible reCaptcha v2 - Validates user behavior in the background without requiring interactions based on score.<br/>Invisible reCaptcha v3 -  (Recommended) Validates user behavior in the background based on interaction score.|
+|Enable for Forgot Password|Global|Determines the type of reCAPTCHA that is enabled to request an [Admin password reset](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Options:<br/>No - (default) Does not validate the password reset request.<br />reCAPTCHA v2 ("I am not a robot") - Requires the user to select the _I’m not a robot_ checkbox.<br />Invisible reCaptcha v2 - Validates user behavior in the background without requiring interactions based on score.<br/>Invisible reCaptcha v3 -  (Recommended) Validates user behavior in the background based on interaction score.|
