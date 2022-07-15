@@ -85,8 +85,8 @@ To select or create a SaaS project, request the Commerce API key from the Commer
 1. If no SaaS projects exist, click **Create Project**. Then in the **Project Name** field, enter a name for your SaaS project.
 
 {:.bs-callout-warning}
-Ensure that the API keys are generated from the Account Owner's account associated with the license and that there is no "Pending" invoice on the account.
-If you are not seeing the expected number of data spaces, or you have generated the keys on an account not associated with the Adobe Commerce account, please contact the Account Owner to generate the keys on their account. Generating keys on a non-licensed account is equivalent to having an Open Source license and only one data space will be available.
+Ensure that the API keys are generated from the account owner's account associated with the license and that there is no "Pending" invoice on the account.
+If you are not seeing the expected number of data spaces, or you have generated the keys on an account not associated with the Adobe Commerce account, contact the Account Owner to generate account keys. Generating keys on a non-licensed account is equivalent to having an Open Source license, and only one data space is available.
 
 1. Select the **SaaS Data Space** to use for the current configuration of your Commerce store.
 
