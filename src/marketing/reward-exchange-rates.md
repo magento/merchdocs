@@ -49,6 +49,8 @@ When converting currency to points, the amount of points cannot be divided. Any 
 
     When converting points to currency, the amount of points cannot be divided. For example, if 10 points converts to $2.00, points must be redeemed in groups of ten. Therefore, 25 points would redeem for $4.00, with 5 points remaining in the customer’s balance.
 
+    It is a good idea to set up a conversion for both `Points to Currency` and `Currency to Points`.
+
 1. When complete, click <span class="btn">Save</span>.
 
 ## Delete Reward Exchange Rate
