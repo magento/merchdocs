@@ -146,8 +146,6 @@ Go to [Braintree Payments][1] and sign up for an account.
    {:.bs-callout-info}
    This feature must first be enabled for your account by PayPal Technical Support.
 
-1. If you want customers to be able to edit the shipping address while completing a PayPal transaction, set **Allow to Edit Shipping Address Entered During Checkout on PayPal Side** to `Yes`.
-
 1. To save a log file of interactions between your store and PayPal through Braintree, set **Debug** to `Yes`.
 
 1. If you want to bypass the Order Review step before the order is submitted, set **Skip Order Review** to `Yes`.
