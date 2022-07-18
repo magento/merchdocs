@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Adding a Node
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html#add-a-hierarchy-node
 ---
 
 The following example shows how to create a node with simple navigation to related content pages. Although a node does not have a content page associated with it, it does have a URL Key that can be referenced elsewhere in your site.

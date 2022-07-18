@@ -1,5 +1,7 @@
 ---
 title: Blocks
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/blocks/blocks.html
 ---
 
 A _block_ is a modular unit of content that can be positioned most anywhere on the page. Content blocks are sometimes referred to as _static blocks_, or _CMS blocks_. They can be used to display fixed information such as text, images, and embedded video, as well as dynamic information that is provided by a widget or originates in a database or other source. Most elements on the home page are blocks that can be easily managed.

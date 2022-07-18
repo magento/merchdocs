@@ -1,5 +1,7 @@
 ---
 title: Installing a New Theme
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/themes/theme-install.html
 ---
 
 When you first install Commerce the design elements of the store are based on the default _Magento Blank_ theme. The _Luma_ theme is also available if you installed the sample data. You can modify a theme, add themes created by others, or create new ones. [Commerce Marketplace]({% link magento/magento-marketplace.md %}) contains a growing selection of themes that you can install to change the appearance of your store. To learn how to create or modify a theme, see our [Frontend Developer Guide][1].
