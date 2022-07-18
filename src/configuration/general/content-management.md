@@ -41,3 +41,6 @@ _[Advanced Content Tools]({% link cms/page-builder-workspace.md %})_
 |Google Maps Style|Global|Paste the Google Maps style JSON code here to change the look and feel of the Map content type.|
 |Default Column Grid Size|Global|Determines the default number of columns in the Page Builder grid.|
 |Maximum Column Grid Size|Global|Determines the maximum number of columns in the Page Builder grid.|
+
+{:.bs-callout-tip}
+Page Builder makes it easy to create content-rich pages with custom layouts that enhance your visual storytelling and to drive customer engagement and loyalty. These features are designed to improve quality and reduce the time and expense of producing custom pages. For more information about these features and how you can use them to create engaging content for your Adobe Commerce or Magento Open Source store, see the [Page Builder User Guide](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html).

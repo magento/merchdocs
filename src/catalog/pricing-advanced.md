@@ -75,9 +75,9 @@ _Advanced Pricing_
 |![]({% link assets/icon-delete-trashcan-solid.png %}) |Deletes the current rule.|
 |<span class="btn">Add</span>|Inserts an additional row for a new rule.|
 
-### Manufacturer's Suggested Retail Price
+### Minimum Advertised Price
 
-The manufacturer's suggested retail price (MSRP) for the product.
+The minimum advertised price (MAP) for the product.
 
 ### Display Actual Price
 

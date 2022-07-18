@@ -38,7 +38,7 @@ _[Shopping Cart]({% link sales/cart-configuration.md %})_
 ## My Cart Link
 
 ![]({% link configuration/sales/assets/checkout-my-cart-link.png %}){: .zoom}
-[*My Cart Link*]({% link sales/cart-link.md %})
+[*My Cart Link*]({% link sales/mini-cart.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
