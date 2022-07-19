@@ -1,5 +1,7 @@
 ---
 title: Inserting a Variable
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/wysiwyg/editor-insert-variable.html
 ---
 
 Your store includes many predefined [variables]({% link marketing/variables-predefined.md %}) that can be incorporated into page content and other communications. In addition, you can include your own [custom variables]({% link marketing/variables-custom.md %}) that are specific to your needs.

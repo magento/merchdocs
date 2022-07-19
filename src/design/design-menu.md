@@ -1,5 +1,7 @@
 ---
 title: Design Menu
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/content-menu.html#design-features
 ---
 
 Adobe Commerce and Magento Open Source provide a variety of easy-to-use design options that you can use to make simple changes to your store. You will also find many professionally designed themes available in the Commerce Marketplace. Like the window dressing of your store, you can change the theme for the season or for a promotion.

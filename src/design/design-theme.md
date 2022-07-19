@@ -16,6 +16,8 @@ sections:
   - title: Themes
     content: Learn how themes determine the visual presentation and interactions that your customers experience when they visit your store.
     url: /design/themes.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/content-menu.html#design-features
 ---
 
 {% include grid.html sections=page.sections%}

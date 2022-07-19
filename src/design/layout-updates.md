@@ -1,11 +1,7 @@
 ---
 title: Layout Updates
-redirect_from: 
-  - /design/block-layout-standard.html
-  - /design/layout-update-examples.html
-  - /design/layout-update-syntax.html
-  - /design/layout-update-block-order.html
-  - /design/xml-load-sequence.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/layout/layout-updates.html
 ---
 
 Before you begin working with custom layout updates, it is important to understand how the pages of your store are constructed, and the difference between the terms *layout* and *layout update*. Layout refers to the visual and structural composition of the page. Layout update refers to a specific set of XML instructions that can override or customize how the page is constructed.

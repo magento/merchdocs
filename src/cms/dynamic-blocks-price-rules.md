@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Dynamic Blocks in Price Rules
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks-price-rules.html
 ---
 
 Any [dynamic block]({% link cms/dynamic-blocks.md %}) that you create can be associated with a promotion. To make the association, you must first create both the dynamic block and the [catalog price rule]({% link marketing/price-rules-catalog.md %}) or [cart price rule]({% link marketing/price-rules-cart.md %}). The association can be made while working on a price rule or when working on a dynamic block.

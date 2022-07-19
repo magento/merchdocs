@@ -1,5 +1,7 @@
 ---
 title: Media Gallery Asset Management
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/gallery/media-gallery-asset-management.html
 ---
 
 The new [Media Gallery]({% link cms/media-gallery.md %}) provides tools for managing uploaded media files, as well as those that you acquire through an [Adobe Stock integration][adobe-stock-integration]. If you have saved an Adobe Stock [image preview][save-preview], you can also [license][stock-license] the image in the new Media Gallery.

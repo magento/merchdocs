@@ -1,5 +1,7 @@
 ---
 title: Merging CSS Files
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/themes/theme-assets.html?lang=en#merge-css-files
 ---
 
 As part of an effort to optimize your site and reduce page load time, you can reduce the number of separate CSS files by merging them into a single, condensed file. If you open a merged CSS file, you will find one continuous stream of text, with line breaks removed. You cannot edit the merged file, so it is best to wait until you are out of the development mode and no longer making frequent changes to the CSS.

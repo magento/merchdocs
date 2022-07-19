@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Content Staging Dashboard
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-dashboard.html
 ---
 
 The Content Staging Dashboard provides an overview of all active and upcoming campaigns. The format of the dashboard can be changed from a grid to a timeline. You can also use filters to find campaigns, customize the column layout, and save different views of the grid. For more information about the workspace controls, see [Admin Workspace]({% link stores/admin-workspace.md %}).
