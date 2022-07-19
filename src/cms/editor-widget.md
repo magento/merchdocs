@@ -1,5 +1,7 @@
 ---
 title: Inserting a Widget
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/wysiwyg/editor-widget.html
 ---
 
 The [Widget]({% link cms/widget-create.md %}) tool can be used to add a variety of content elements to the page, including links to any content page or node, product, or category. Links can be positioned on the page in a block format, or incorporated directly into the content. You can use the Widget tool to create links to the following types of content:

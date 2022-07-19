@@ -1,5 +1,7 @@
 ---
 title: Using a Widget to Position a Block
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-static-block.html
 ---
 
 The _CMS Static Block_ [widget]({% link cms/widgets.md %}) gives you the ability to place an existing [content block]({% link cms/blocks.md %}) nearly anywhere in your store.
