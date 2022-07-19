@@ -6,7 +6,7 @@ redirect_from:
   - /catalog/search-elasticsearch.html
 ---
 
-There are two variations of the Catalog Search configuration: The first method describes the available settings when [Live Search]({% link live-search/overview.md %}) is installed, and the second method describes the configuration settings for native Adobe Commerce with [Elasticsearch][1]{:target="_blank"}.
+There are two variations of the Catalog Search configuration: The first method describes the available settings when [Live Search]({% link live-search/overview.md %}) is installed, and the second method describes the configuration settings for native Adobe Commerce with [Elasticsearch or OpenSearch][1]{:target="_blank"}.
 
 ## Method 1: Adobe Commerce with Live Search
 
@@ -28,12 +28,12 @@ There are two variations of the Catalog Search configuration: The first method d
 
    Restricting the number of lines improves the performance of searches and reduces the size of the returned list. The default value is 8 lines.
 
-## Method 2: Adobe Commerce with Elasticsearch
+## Method 2: Adobe Commerce with Elasticsearch or OpenSearch
 
 ### Step 1: Configure general search options
 
 {:.bs-callout-info}
-With ElasticSearch, there is no out-of-the-box support for search by the suffix. For example, search by SKU may not return the expected result if the keyword contains only the end part of the SKU.
+With ElasticSearch/OpenSearch, there is no out-of-the-box support for search by the suffix. For example, search by SKU may not return the expected result if the keyword contains only the end part of the SKU.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -47,7 +47,7 @@ With ElasticSearch, there is no out-of-the-box support for search by the suffix.
 1. To limit the length and word count of search query text, set a value for **Minimal Query Length** and **Maximum Query Length**.
 
    {:.bs-callout-info}
-   **Important:** The value set for this minimum and maximum range must be compatible with the corresponding range set in your Elasticsearch search engine configuration. For example, if you set these values to `2` and `300` in Commerce, update the corresponding values in your search engine.
+   **Important:** The value set for this minimum and maximum range must be compatible with the corresponding range set in your search engine configuration. For example, if you set these values to `2` and `300` in Commerce, update the corresponding values in your search engine.
 
 1. To limit the amount of popular search results to cache for faster responses, set an amount for **Number of top search results to cache**.
 
@@ -61,17 +61,20 @@ With ElasticSearch, there is no out-of-the-box support for search by the suffix.
 
    Restricting this amount increases performance of searches and reduces the displayed list size. The default value is `8`.
 
-### Step 2: Configure the Elasticsearch connection
+### Step 2: Configure the Elasticsearch/OpenSearch connection
 
 {:.bs-callout-info}
 The **Search Engine**, **Elasticsearch Server Hostname**, **Elasticsearch Server Port**, **Elasticsearch Index Prefix**, **Enable Elasticsearch HTTP Auth**, and **Elasticsearch Server Timeout** fields were configured when Commerce was installed or upgraded. These values should only be changed when upgrading or modifying Elasticsearch.
 
+{:.bs-callout-info}
+For Adobe Commerce and Magento Open Source 2.4.6 and higher, you can set up OpenSearch instead of Elasticsearch. To use OpenSearch, choose the `OpenSearch` value for the **Search Engine** setting.
+
 ![]({% link catalog/assets/elasticsearch-2.png %}){: .zoom}
 [_Elasticsearch Connection Settings_]({% link configuration/catalog/catalog.md %})
 
-1. For **Search Engine**, accept the default value `Elasticsearch 7`.
+1. For **Search Engine**, accept the value `Elasticsearch 7`.
 
-   Elasticsearch 7.6.x is required for all Commerce installations.
+   See the [system requirements][3]{:target="_blank"} to determine the version of the Elasticsearch that is required for Commerce installations.
 
 1. For **Elasticsearch Server Hostname**, accept the default value that was configured when Commerce was installed.
 
@@ -107,7 +110,7 @@ Search suggestions and recommendations can impact server performance.
 1. Set **Enable Search Suggestions** to `Yes` and do the following:
 
    ![]({% link catalog/assets/elasticsearch-3.png %}){: .zoom}
-   [_Elasticsearch Suggestion and Recommendation Settings_]({% link configuration/catalog/catalog.md %})
+   [_Suggestion and Recommendation Settings_]({% link configuration/catalog/catalog.md %})
 
    - For **Search Suggestions Count**, enter the number of search suggestions to offer.
 
@@ -121,3 +124,4 @@ When complete, click <span class="btn">Save Config</span>.
 
 [1]: {{ site.devdocs_url }}/guides/v{{ site.version }}/install-gde/prereq/elasticsearch.html
 [2]: {{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/elasticsearch/es-downgrade.html
+[3]: {{ site.devdocs_url }}/guides/v{{ site.version }}/install-gde/system-requirements.html

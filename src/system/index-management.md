@@ -33,7 +33,7 @@ Reindexing and caching have different purposes in Commerce. Indexes track databa
 ## Change the index mode
 
 {:.bs-callout-info}
-**Important:** <span class="b2b-only"></span> For stores that use [B2B for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) and have set Elasticsearch as the fulltext (`catalogsearch_fulltext`) indexer: The fulltext index must be rerun after any bulk permissions change or when the 'permissions' indexer is in 'Scheduled' mode.
+**Important:** <span class="b2b-only"></span> For stores that use [B2B for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) and have set OpenSearch/Elasticsearch as the fulltext (`catalogsearch_fulltext`) indexer: The fulltext index must be rerun after any bulk permissions change or when the 'permissions' indexer is in 'Scheduled' mode.
 
 1. On the _Admin_ sidebar, go to **System** > _Tools_ > **Index Management**.
 

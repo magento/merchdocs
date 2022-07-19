@@ -196,34 +196,37 @@ When Live Search is installed, Catalog Search includes the following configurati
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to `2` in Adobe Commerce, update the value in your search engine.|
-|Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to 300 in Adobe Commerce, update the value in your search engine.|
+|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch/OpenSearch search engine configurations. For example, if you set this value to `2` in Adobe Commerce, update the value in your search engine.|
+|Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch/OpenSearch search engine configurations. For example, if you set this value to 300 in Adobe Commerce, update the value in your search engine.|
 |Number of top search results to cache|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of `0` caches all search terms and results when entered a second time. Default value: 100|
 |Autocomplete Limit|Store View|Determines the maximum number of lines available in the [storefront popover] page. The default value can be changed when Live Search is installed, and updated later by changing this configuration setting. Default value: 8|
 
-### Adobe Commerce with Elasticsearch
+### Adobe Commerce with OpenSearch/Elasticsearch
 
-Native Adobe Commerce with Elasticsearch includes the following configuration settings:
+Native Adobe Commerce with OpenSearch/Elasticsearch includes the following configuration settings:
 
-![]({% link configuration/catalog/assets/catalog-search-elasticsearch.png %}){: .zoom}
+![]({% link configuration/catalog/assets/catalog-search-opensearch.png %}){: .zoom}
+
+You can choose Elasticsearch engine in the **Search Engine** field to see Elasticsearch options
+
 [Catalog Search]({% link catalog/search-configuration.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to `2` in Adobe Commerce, update the value in your search engine.|
-|Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch search engine configurations. For example, if you set this value to 300 in Adobe Commerce, update the value in your search engine.|
+|Minimal Query Length|Store View|The minimum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch/OpenSearch search engine configurations. For example, if you set this value to `2` in Adobe Commerce, update the value in your search engine.|
+|Maximum Query Length|Store View|The maximum number of characters allowed in a catalog search. The value set for this option must be compatible with the corresponding range set in your Elasticsearch/OpenSearch search engine configurations. For example, if you set this value to 300 in Adobe Commerce, update the value in your search engine.|
 |Number of top search results to cache|Store View|The number of popular search terms and results to cache for faster responses. Entering a value of `0` caches all search terms and results when entered a second time. Default value: 100|
-|Enable EAV Indexer|Global|Determines if you want to enable or disable the Product EAV indexer. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions. This option only displays for Elasticsearch or Elasticsearch 5.0+ Search Engines. Default Option: Yes for enabled|
+|Enable EAV Indexer|Global|Determines if you want to enable or disable the Product EAV indexer. This feature improves indexation speed and restricts the indexer from use by 3rd party extensions. Default Option: Yes for enabled|
 |Autocomplete Limit|Store View|The maximum number of search queries to display below the search field for search autocomplete. Restricting this amount increases performance of searches and reduces the displayed list size. Default value: 8|
-|Search Engine|Global|Identifies the search engine required to process requests for catalog data. Elasticsearch 7.6.x is required for all Adobe Commerce installations. Option: Elasticsearch 7|
-|Elasticsearch Server Hostname|Global|Specifies the name of the Elasticsearch server. Default value: `elasticsearch.internal`|
-|Elasticsearch Server Port|Global|Specifies the number of the server port used by Elasticsearch. Default value: `9200`|
-|Elasticsearch Index Prefix|Global|Assigns a prefix to identify the Elasticsearch index. Default value: `magento2`|
-|Enable Elasticsearch HTTP Auth|Global|If enabled, uses HTTP authentication to prompt for a username and password before accessing Elasticsearch Server. Options: Yes / No|
-|Elasticsearch HTTP Username|Global|When _Enable Elasticsearch HTTP Auth_ is set to `Yes`, specifies the username for Elasticsearch HTTP authentication.|
-|Elasticsearch HTTP Password|Global|When _Enable Elasticsearch HTTP Auth_ is set to `Yes`, specifies the password for Elasticsearch HTTP authentication.|
-|Elasticsearch Server Timeout|Global|Determines the number of seconds before the server times out. Default value: `15`|
-|Test Connection||Validates the Elasticsearch connection.|
+|Search Engine|Global|Identifies the search engine required to process requests for catalog data. Option: Elasticsearch 7, OpenSearch|
+|Elasticsearch (OpenSearch) Server Hostname|Global|Specifies the name of the search engine server. Default value: `elasticsearch.internal`|
+|Elasticsearch (OpenSearch) Server Port|Global|Specifies the number of the server port used by the search engine. Default value: `9200`|
+|Elasticsearch (OpenSearch) Index Prefix|Global|Assigns a prefix to identify the Elasticsearch/OpenSearch index. Default value: `magento2`|
+|Enable Elasticsearch (OpenSearch) HTTP Auth|Global|If enabled, uses HTTP authentication to prompt for a username and password before accessing Elasticsearch/OpenSearch Server. Options: Yes / No|
+|Elasticsearch (OpenSearch) HTTP Username|Global|When _Enable Elasticsearch (OpenSearch) HTTP Auth_ is set to `Yes`, specifies the username for HTTP authentication.|
+|Elasticsearch (OpenSearch) HTTP Password|Global|When _Enable Elasticsearch (OpenSearch) HTTP Auth_ is set to `Yes`, specifies the password for HTTP authentication.|
+|Elasticsearch (OpenSearch) Server Timeout|Global|Determines the number of seconds before the server times out. Default value: `15`|
+|Test Connection||Validates the connection to your search engine.|
 |Enable Search Recommendations|Store View|Determines if search recommendations are offered when a search returns no results and appear under the `Related search terms` section on the **Search results** page. Options: Yes / No <br/>When set to Yes, additional options display for Search Recommendations Count and Shows Results Count for Each Recommendation.|
 |Search Recommendations Count|Store View|Specifies the number of  search terms offered as recommendations. By default, no more than five are shown.|
 |Show Results Count for Each Recommendation|Store View|When set to `Yes`, the number of products found for the proposed search recommendation is shown in the brackets. Options: Yes / No|
