@@ -1,5 +1,7 @@
 ---
 title: The New Media Gallery
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/gallery/media-gallery.html
 ---
 
 With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhanced_ Media Gallery to organize and manage their media files on the server. This new Media Gallery contains the same functionalities as the existing Media Storage, but includes an improved user interface and a closer integration with [Adobe Stock][adobe-stock].

@@ -1,5 +1,7 @@
 ---
 title: Inserting an Image
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/wysiwyg/editor-insert-image.html
 ---
 
 From the editor, you can insert an image that has been uploaded to [Media Storage]({% link cms/media-storage.md %}), link to an image that resides on another server, or use the Adobe Stock Integration to search for and use Adobe Stock assets.

@@ -1,7 +1,7 @@
 ---
 title: Design Configuration
-redirect_from:
-  - /configuration/general/design.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/configuration.html
 ---
 
 The Design Configuration makes it easy to edit design-related rules and configuration settings by displaying the settings on a single page.

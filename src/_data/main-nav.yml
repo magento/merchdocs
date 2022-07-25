@@ -109,22 +109,22 @@
   children:
 
   - label: Content Menu
-    url: /cms/content-menu.html
+    url: https://experienceleague.adobe.com/docs/commerce-admin/content-design/content-menu.html
 
   - label: Content Elements
-    url: /cms/content-elements.html
+    url: https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages.html
 
   - label: Page Builder
     url: https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html
 
   - label: Media Storage
-    url: /cms/media-storage.html    
+    url: https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/storage/media-storage.html  
 
   - label: Design & Theme
-    url: /design/design-theme.html
+    url: https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/configuration.html
 
   - label: Content Staging
-    url: /cms/content-staging.html
+    url: https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html
 
 - label: Customers
   url: /customers.html

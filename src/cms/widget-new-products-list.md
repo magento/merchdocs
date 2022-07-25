@@ -1,5 +1,7 @@
 ---
 title: New Products List
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-new-products-list.html
 ---
 
 The list of new products is an example of dynamic content, and consists of live data that is pulled from your product catalog. By default, the _New Products_ list includes the first eight of the most recently added products. However, it can also be configured to include only products within a specified date range.
