@@ -1,6 +1,6 @@
 ---
 ee_only: true
-title: Creating a Customer Segment
+title: Creating and Deleting Customer Segments
 group: customers
 ---
 
@@ -164,3 +164,9 @@ The customer segment can now be used for targeting promotions, content, and mail
 |Segment|The name of customer segment.|
 |Status|Indicates whether the customer segment is __Active__ or __Inactive__.|
 |Website|Indicates the website to which the customer segment belongs.|
+
+## Customer segments demo
+
+Watch this video to learn about creating customer segments:
+
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343659/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>

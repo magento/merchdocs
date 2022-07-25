@@ -85,3 +85,9 @@ _Import / Export Tax Rates_
    _Additional Settings_
 
 1. When complete, click <span class="btn">Save Rule</span>.
+
+## Currency and tax rules demo
+
+Watch this video to learn about managing currency and tax rules:
+
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343657/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
