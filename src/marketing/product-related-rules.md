@@ -3,7 +3,7 @@ ee_only: true
 title: Related Product Rules
 ---
 
-Related product rules give you the ability to target the selection of products that are presented to customers as related products, up-sells, and cross-sells. Each product rule can be associated with a customer segment to produce a dynamic display of targeted merchandising.
+Related product rules give you the ability to target the selection of products that are presented to customers as related products, up-sells, and cross-sells. Each product rule can be associated with a [customer segment]({% link marketing/customer-segments.md %}) to produce a dynamic display of targeted merchandising.
 
 Since several active rules can be triggered at the same time, you can set a priority for each rule. It defines the order in which rules are applied and products are displayed on the page.
 

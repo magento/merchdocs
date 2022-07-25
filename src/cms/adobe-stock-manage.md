@@ -1,5 +1,7 @@
 ---
 title: Using Adobe Stock Images
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/adobe-stock/adobe-stock-manage.html
 ---
 
 [Adobe Stock][adobe-stock] images can be used in place of uploading your own image content. One common use case is, when creating a new page, it is desirable to upload and place image content.

@@ -1,5 +1,7 @@
 ---
 title: Default Pages
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages.html#configure-default-pages
 ---
 
 The _Default Pages_ configuration determines the landing page that is associated with the [base URL]({% link stores/store-urls.md %}) and the corresponding home page. It also determines which page appears when a _Page Not Found_ error occurs, and if a [breadcrumb trail]({% link catalog/navigation-breadcrumb-trail.md %}) appears at the top of each page.

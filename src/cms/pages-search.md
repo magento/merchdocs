@@ -1,5 +1,7 @@
 ---
 title: Page Search
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages-workspace.html#page-search
 ---
 
 The Search box in the upper-left of the _Pages_ grid can be used to find specific pages by keyword. For a more advanced search, you can [filter]({% link stores/admin-grid-controls.md %}) the search by multiple parameters.

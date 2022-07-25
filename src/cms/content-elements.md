@@ -24,7 +24,8 @@ sections:
   - title: <span class="ee-only">Templates</span>
     content: This section includes details about the Page Builder templates, which make it easy to re-use your existing Page Builder content, such as pages, dynamic blocks, and interactive elements, almost anywhere in your store.
     url: /cms/page-builder-templates.html
-
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages.html
 ---
 
 In this section of the guide, you will find detailed information for how to create and manage content pages and blocks, and use widgets to add dynamic content.

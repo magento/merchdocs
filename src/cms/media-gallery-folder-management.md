@@ -1,5 +1,7 @@
 ---
 title: Media Gallery Folder Management
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/gallery/media-gallery-folder-management.html
 ---
 
 Use folders to organize images in the new [Media Gallery]({% link cms/media-gallery.md %}). As the number of media assets increases, this will make it easier to locate and manage existing assets in your media gallery.

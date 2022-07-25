@@ -1,5 +1,7 @@
 ---
 title: Inserting a Link
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/wysiwyg/editor-insert-link.html
 ---
 
 An easy way to insert a link is to use the Link button in the editor toolbar. It doesn’t require any knowledge of HTML and the result is the same.

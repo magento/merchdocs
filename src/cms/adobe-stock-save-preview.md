@@ -1,5 +1,7 @@
 ---
 title: Saving an Adobe Stock Image Preview
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/adobe-stock/adobe-stock-save-preview.html
 ---
 
 An image preview is a watermarked version of an Adobe Stock asset. Image previews are free and are a good way to experiment with different images before you decide to [purchase a license][stock-license] for specific images and use them on your production stores.

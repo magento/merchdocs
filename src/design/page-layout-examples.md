@@ -1,5 +1,7 @@
 ---
 title: Storefront Layout Examples
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/layout/page-layout-examples.html
 ---
 
 The column dimensions are determined by style sheet of the theme. Some themes apply a fixed pixel width to the page layout, while others use percentages to make the page respond to the width of the window or device.
