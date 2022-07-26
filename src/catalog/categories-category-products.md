@@ -74,10 +74,9 @@ The _Stock_ column displays salable product quantity for _**selected category sc
 {:.bs-callout-info}
 The quantity of a configurable product with child options is calculated by combining all the salable child product quantities. For example, if you have a configurable product _Nona Fitness Tank_ with purple, red, and yellow color options and different quantities of each, the parent product (Nona Fitness Tank) quantity is the combined salable quantity of the purple, red, and yellow color child products.
 
-### Controls
+## Controls
 
-{:.ee-only}
-## Page controls
+### Page controls in Adobe Commerce
 
 | Control  | Description  |
 |----------|--------------|
@@ -88,8 +87,7 @@ The quantity of a configurable product with child options is calculated by combi
 | ![]({% link assets/icon-move.png %}) | The drag and drop control allows you to grab a product and move it to another position in the current page of the grid. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}). |
 | ![]({% link assets/control-position.png %}) | Determines the position of the product in the list. |
 
-{:.ce-only}
-## Page controls
+### Page controls in Magento Open Source
 
 | Control  | Description  |
 |----------|--------------|
@@ -97,3 +95,9 @@ The quantity of a configurable product with child options is calculated by combi
 | Search Filters | The filter controls at the top of each column can be used to enter specific values you want to either include or omit from the list, depending on the Select All setting. |
 | Reset Filter | Clears all search filters. |
 | Search | Searches the catalog based on the filter criteria and displays the result. |
+
+## Products in a category demo
+
+Watch this video to learn about managing products in a category:
+
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343747/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>

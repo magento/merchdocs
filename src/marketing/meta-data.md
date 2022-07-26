@@ -33,4 +33,10 @@ The [canonical meta tag]({% link marketing/meta-canonical.md %}) tells search en
 
 Rich snippets provide detailed information for search results listings and other applications. By default, structured data markup that is based on the [schema.org][1] standard is added to your store’s product template. As a result, more information is available for search engines to include as “rich snippets” in product listings.
 
+## Meta data demo
+
+Watch this video to learn about managing SEO meta data:
+
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343750/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+
 [1]: http://schema.org/
