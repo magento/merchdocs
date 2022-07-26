@@ -49,7 +49,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Logo for PDF Print-outs (200 x 50)|Store View|Identifies the logo file that appears in the header of PDF invoices and packing slips. Allowed file types: <br/>JPG /JPEG <br/>TIF/TIFF <br/>PNG|
+|Logo for PDF Print-outs|Store View|Identifies the logo file that appears in the header of PDF invoices and packing slips. Allowed file types: <br/>JPG /JPEG <br/>TIF/TIFF <br/>PNG|
 |Logo for HTML Print View|Store View|Identifies the logo file that appears in the header of HTML print view of invoices and packing slips. Allowed file types: <br/>JPG /JPEG <br/>GIF <br/>PNG|
 |Address|Store View|The store address as you want it to appear on invoices and packing slips.|
 
