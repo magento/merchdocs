@@ -2,7 +2,7 @@
 title: Import/Export Tax Rates
 ---
 
-If you conduct business in several states and ship a large quantity of product, entering tax rates manually can be very time consuming. It is faster and more efficient to download tax rates by ZIP code and import them into Commerce. The following example shows how to import a set of state-specific tax rates downloaded from the a trusted source. Avalara provides [tax rate tables](http://www.avalara.com/taxrates/en/download-tax-tables.html), that you can download at no charge, for every ZIP code in the United States.
+If you conduct business in several states and ship a large quantity of product, entering tax rates manually can be very time consuming. It is faster and more efficient to download tax rates by ZIP code and import them into Commerce. The following example shows how to import a set of state-specific tax rates downloaded from the a trusted source. Avalara provides [tax rate tables](https://www.avalara.com/taxrates/en/download-tax-tables.html), that you can download at no charge, for every ZIP code in the United States.
 
 {:.bs-callout-info}
 If you are interested in automating your sales and use tax compliance and reporting, you can find Commerce-trusted options on the [Commerce Partners](https://solutionpartners.adobe.com/s/directory/?solution=commerce) site.

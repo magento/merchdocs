@@ -32,4 +32,4 @@ To view or print the PDF, you must have a PDF reader. You can download [Adobe R
 
 The invoices are saved in a single PDF file that can be sent to a printer or saved.
 
-[1]: http://www.adobe.com/products/reader.html "Get Adobe Reader"
+[1]: https://www.adobe.com/acrobat/pdf-reader.html "Get Adobe Reader"
