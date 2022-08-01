@@ -16,3 +16,9 @@ By default, [automatic URL redirects]({% link marketing/url-redirect-product-au
 
 ![Search engine optimization - create permanent URL redirect]({% link marketing/assets/product-search-engine-optimization-create-permanent-redirect.png %}){: .zoom}
 _Create Permanent Redirect for Old URL_
+
+## URL rewrites demo
+
+Watch this video to learn about managing URL rewrites:
+
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343751/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>

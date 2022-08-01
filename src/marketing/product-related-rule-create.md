@@ -63,6 +63,12 @@ For an attribute to be used in a targeted rule, the [Use for Promo Rule Conditio
 
 1. To confirm the action, click **OK**.
 
+## Related product rule demo
+
+Watch this video to learn about creating related product rules:
+
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343837/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+
 ## Field Descriptions
 
 {: .fields-table }
