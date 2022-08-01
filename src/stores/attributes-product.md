@@ -51,6 +51,12 @@ _Product Attributes Page_
 |Used in Product Listing|Depends on the theme. To include the attribute in product summaries that appear in catalog listings, select `Yes`.|
 |Used for Sorting in Product Listing|Depending on theme, includes the attribute as a _Sort By_ option for catalog listings. Options: Yes / No|
 
+## Product attributes demo
+
+Watch this video to learn about creating product attributes:
+
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343749/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+
 <!--
   This is a style declaration so that the very long property names are not wrapped to many lines by table auto styling for column widths.
 -->
