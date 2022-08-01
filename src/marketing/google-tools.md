@@ -24,4 +24,6 @@ sections:
 
 Your store configuration is integrated with the following Google tools to help optimize your content, analyze your traffic, and connect your catalog to shopping aggregators and marketplaces.
 
+{% include google-gtag.md %}
+
 {% include grid.html sections=page.sections%}
