@@ -25,7 +25,7 @@ Some cross-border and B2B shipments have more complex tax requirements. To expan
 Commerce uses the following configuration settings to calculate VAT based on merchant information. From the Admin, go to Stores > Configuration > General > General > Store Information.
 
 VAT Number|The value-added tax number that is assigned to the merchant.
-Validate VAT Number|[VAT validation]({% link tax/vat-validation.md %}) confirms that the VAT Number matches the corresponding record in the [European Commission](http://ec.europa.eu/taxation_customs/vies/) database.
+Validate VAT Number|[VAT validation]({% link tax/vat-validation.md %}) confirms that the VAT Number matches the corresponding record in the [European Commission](https://ec.europa.eu/taxation_customs/vies/) database.
 
 ### Customer information
 
@@ -46,4 +46,4 @@ Commerce uses the following customer configuration settings to calculate VAT. Fr
 #### Account options
 
 Show VAT Number on Storefront|Determines if the customer VAT Number field is included in the Address Book that is available in the customer account.
-Default Value for Disable Automatic Group Changes Based on VAT ID|VAT ID is an internal identifier for the VAT Number of the customer when used in VAT Validation. During [VAT Validation]({% link tax/vat-validation.md %}), Commerce confirms that the number matches the [European Commission](http://ec.europa.eu/taxation_customs/vies/) database. Customers can be automatically assigned to one of the four default customer groups based on the validation results.
+Default Value for Disable Automatic Group Changes Based on VAT ID|VAT ID is an internal identifier for the VAT Number of the customer when used in VAT Validation. During [VAT Validation]({% link tax/vat-validation.md %}), Commerce confirms that the number matches the [European Commission](https://ec.europa.eu/taxation_customs/vies/) database. Customers can be automatically assigned to one of the four default customer groups based on the validation results.

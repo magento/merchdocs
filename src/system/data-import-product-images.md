@@ -106,6 +106,6 @@ For more information about enabling and managing the Remote storage module, see 
 {:.bs-callout-info}
 Importing product images does not initiate image resize. Product images are resized on the frontend by `pub/get.php`. Make sure that your `pub/get.php` is working properly; otherwise, images may not be resized.
 
-[1]: http://notepad-plus-plus.org/
+[1]: https://notepad-plus-plus.org/
 [2]: https://www.openoffice.org/
 [3]: {{ site.devdocs_url }}/guides/v{{ site.version }}/config-guide/remote-storage/config-remote-storage.html
