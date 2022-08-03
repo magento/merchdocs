@@ -48,3 +48,9 @@ Studies show that stores offering customers a choice of several delivery methods
 
 {:.bs-callout-info}
 Due to the impending shutdown of Temando, support for Magento Shipping is removed in 2.4.0. For detailed status information and recommendations for new shipping implementations in Commerce, see our [product information](https://magento.com/shipping){:target="_blank"} page.
+
+## Shipping and delivery methods demo
+
+Watch this video to learn about shipping and delivery methods:
+
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343658/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>

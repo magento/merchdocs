@@ -121,6 +121,8 @@ For additional information, see Google's [Container export and import][5]. These
 
     - Use the default values for the remaining fields.
 
+    {% include google-gtag.md %}
+
 1. When complete, click <span class="btn">Save Config</span>.
 
 1. Test your Google Tag Manager settings to verify that everything works correctly.

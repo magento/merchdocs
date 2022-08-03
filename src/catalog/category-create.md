@@ -176,3 +176,9 @@ _Category tree_
    [_Scheduled design update_]({% link catalog/categories-custom-design.md %})
 
 1. When complete, click <span class="btn">Save</span>.
+
+## Categories demo
+
+Watch this video to learn about creating categories:
+
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343746/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>

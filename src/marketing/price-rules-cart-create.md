@@ -4,7 +4,7 @@ title: Create a Cart Price Rule
 
 Complete the following steps to add a new rule, describe the conditions, and define the actions. Then, complete the labels and test the rule.  Price rule conditions can be based on cart or [product attributes]({% link catalog/product-attributes.md %}), but not on [customizable options]({% link catalog/settings-advanced-custom-options.md %}).
 
-## Step 1: Add a New Rule
+## Step 1: Add a rule
 
 1. On the _Admin_ sidebar, go to **Marketing** > _Promotions_ > **Cart Price Rules**.
 
@@ -61,7 +61,7 @@ Complete the following steps to add a new rule, describe the conditions, and def
       ![Cart price rule - scheduled changes]({% link marketing/assets/price-rule-cart-scheduled-changes.png %}){: .zoom}
       _[Scheduled Changes]({% link marketing/price-rule-cart-scheduled-changes.md %})_
 
-## Step 2: Describe the Conditions
+## Step 2: Describe the conditions
 
 In this step, the conditions are described that must be met for an order to qualify for the promotion. The rule goes into action whenever the set of conditions is met.
 
@@ -170,7 +170,7 @@ In a case of multiple parallel promotions, the _Subtotal_ condition is applied t
 
 1. Click <span class="btn">Save</span>.
 
-## Step 3: Define the Actions
+## Step 3: Define the actions
 
 The shopping cart price rule actions describe how prices are updated when the conditions are met.
 
@@ -218,7 +218,7 @@ The shopping cart price rule actions describe how prices are updated when the co
 
 1. When complete, click <span class="btn">Save and Continue Edit</span>.
 
-## Step 4: Complete the Labels
+## Step 4: Complete the labels
 
 The label appears in the totals section of the order to identify the discount. The label text is enclosed in parentheses, after the word `Discount`. You can enter a default label for all store views, or enter a different label for each view.
 
@@ -237,7 +237,7 @@ _Discount Label in Totals Section of Order_
    ![]({% link marketing/assets/label-store-specific.png %}){: .zoom}
 
 {: .ee-only}
-## Step 5: Add Related Dynamic Blocks (optional)
+## Step 5: Add related dynamic blocks (optional)
 
 [Dynamic Blocks]({% link cms/dynamic-blocks.md %}) that are associated with the rule appear in the storefront whenever the conditions are met.
 
@@ -249,13 +249,19 @@ _Discount Label in Totals Section of Order_
 
    To learn more, see [Dynamic Blocks in Price Rules]({% link cms/dynamic-blocks-price-rules.md %}).
 
-## Step 6: Save and Test the Rule
+## Step 6: Save and test the rule
 
 1. When complete, click <span class="btn">Save Rule</span>.
 
 1. Test the rule to make sure that it works correctly.
 
     Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Commerce recalculates the prices and the priorities accordingly.
+
+## Cart price rule demo
+
+Watch this video to learn about creating cart price rules:
+
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343835/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
 
 ## Field Descriptions
 

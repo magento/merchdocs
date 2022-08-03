@@ -104,3 +104,9 @@ To give someone restricted access to the Admin, the first step is to create a ro
 1. In the upper-right corner, click <span class="btn">Delete Role</span>.
 
 1. To confirm the action, click <span class="btn">OK</span>.
+
+## User roles demo
+
+Watch this video to learn about managing user roles:
+
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343654/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
