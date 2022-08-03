@@ -188,6 +188,12 @@ Setting the rule to active must be added as a scheduled update. To learn more, s
 
    Price rules are automatically processed with other system rules each night. When you create a new price rule, allow enough time for it to get into the system. Then, test the rule to make sure that it works correctly. As new rules are added, Commerce recalculates the prices and the priorities accordingly.
 
+## Catalog price rule demo
+
+Watch this video to learn about creating catalog price rules:
+
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343834/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+
 ## Field descriptions
 
 ### Rule Information

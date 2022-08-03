@@ -195,6 +195,12 @@ In the **Order Total** section, do the following:
 |<span class="b2b-only">Negotiated Discount</span>|The discount that is the result of a quote  negotiated between buyer and seller. If the storefront display currency differs from the base currency, the value appears in both currencies, with the storefront display in square brackets.|
 |<span class="b2b-only">Subtotal</span>|The Catalog Total Price less the Negotiated Discount.|
 
+## Order processing demo
+
+Watch this video to learn about order processing and status:
+
+<iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343935/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+
 <style>
 .format-table td:first-of-type {
   width: 200px;
