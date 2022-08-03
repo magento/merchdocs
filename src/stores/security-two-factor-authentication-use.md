@@ -5,11 +5,20 @@ title: Using Two-Factor Authentication
 These instructions show how to set up two-factor authentication during your initial sign in to Adobe Commerce or Magento Open Source and how to authenticate your identity using the following apps and devices:
 
 - [Google Authenticator](#google-authenticator)
+  - [Step 1: Set up Google Authenticator](#step-1-set-up-google-authenticator)
+  - [Step 2: Sign in with Google Authenticator](#step-2-sign-in-with-google-authenticator)
 - [Duo Security](#duo-security)
+  - [Step 1: Set up Duo Security](#step-1-set-up-duo-security)
+  - [Step 2: Sign in with Duo Security](#step-2-sign-in-with-duo-security)
 - [Authy](#authy)
-- [U2F](#u2f) (Yubikey and other devices)
+  - [Step 1: Set up Authy](#step-1-set-up-authy)
+  - [Step 2: Sign in with Authy](#step-2-sign-in-with-authy)
+- [U2F (Yubikey and other devices)](#u2f-yubikey-and-other-devices)
 
 For complete instructions, see [Admin Sign In]({% link stores/admin-signin.md %}).
+
+{:.bs-callout-info}
+Stores that have enabled Adobe Identity Management Services (IMS) authentication will have native Adobe Commerce and Magento Open Source 2FA disabled. Adobe Commerce administrators who are logged into their Commerce instance with their Adobe credentials will not need to re-authenticate for many Admin tasks. Authentication is handled by Adobe IMS when the administrator logs into their current session. See [Integrating Adobe Commerce with Adobe IMS overview](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/IMS-integration-overview.html).
 
 ## Google Authenticator
 

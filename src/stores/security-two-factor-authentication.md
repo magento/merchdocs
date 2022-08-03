@@ -16,6 +16,9 @@ Adobe Commerce supports 2FA methods from multiple providers. Some require the in
 
 The first time a user signs in to the _Admin_, they must set up each [2FA]({% link configuration/security/2fa.md %}) method that you require, and verify their identity using the associated app or device. After this initial setup, the user must authenticate with one of the configured methods each time they sign in. Each user's 2FA information is recorded in their _Admin_ account and can be [reset]({% link stores/security-two-factor-authentication-manage.md %}) if necessary. To learn more about the sign-in process, go to [_Admin_ Sign In]({% link stores/admin-signin.md %}).
 
+{:.bs-callout-info}
+Stores that have enabled Adobe Identity Management Services (IMS) authentication will have native Adobe Commerce and Magento Open Source 2FA disabled. Adobe Commerce administrators who are logged into their Commerce instance with their Adobe credentials will not need to re-authenticate for many Admin tasks. Authentication is handled by Adobe IMS when the administrator logs into their current session. See [Integrating Adobe Commerce with Adobe IMS overview](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/IMS-integration-overview.html).
+
 You can watch this [video demo](https://video.tv.adobe.com/v/339104?quality=12&learn=on) for an overview of two-factor authentication in the Admin.
 
 ## Configure your required 2FA provider(s)

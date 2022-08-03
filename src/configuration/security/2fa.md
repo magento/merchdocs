@@ -4,6 +4,8 @@ title: 2FA
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Security]({% link configuration/security.md %}) > 2FA
 
+{:.bs-callout-info}
+Stores that have enabled Adobe Identity Management Services (IMS) authentication will have native Adobe Commerce and Magento Open Source 2FA disabled. Adobe Commerce administrators who are logged into their Commerce instance with their Adobe credentials will not need to re-authenticate for many Admin tasks. Authentication is handled by Adobe IMS when the administrator logs into their current session. See [Integrating Adobe Commerce with Adobe IMS overview](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/IMS-integration-overview.html).
 ## General
 
 ![]({% link configuration/security/assets/2fa-general.png %}){: .zoom}
