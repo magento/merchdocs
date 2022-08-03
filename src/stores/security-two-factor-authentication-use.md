@@ -125,9 +125,7 @@ Authy offers their app and service at no charge to users. Follow their instructi
 
    Select one of the following **Verification methods**: `SMS` or `Call Me`
 
-   Click <span class="btn">Continue</span>.
-
-A message is sent to your phone through SMS text or a call.
+   Click <span class="btn">Continue</span>. A message is sent to your phone through SMS text or a call.
 
 1. Enter the **Verification code** that you receive and click **Verify**.
 
@@ -154,6 +152,7 @@ A message is sent to your phone through SMS text or a call.
    The app includes these additional emergency methods.
 
    `Send me a code via SMS` — A text SMS message is sent to the configured mobile device.
+
    `Send me a code via phone call` — The user receives a phone call with a code.
 
    Your account is verified and opens.
