@@ -101,6 +101,10 @@ _New Attribute Properties_
 
 1. If the attribute is to be available for search, set **Use in Search** to `Yes`.
 
+   - Set the **Search Weight** value to control where the item appears in search results: 1 (lowest weight) to 10 (highest weight).
+
+   - Set the **Visible in Advanced Search** as needed. Learn more in [Advanced Search]({% link catalog/search-advanced.md %}).
+
 1. To include the attribute in Product Compare, set **Comparable on Storefront** to `Yes`.
 
 1. For dropdown, multiple select, and price fields, do the following:

@@ -129,5 +129,5 @@ Within a few hours, the tracking status in your Google AdWords dashboard changes
 
 [1]: https://www.google.com/adwords/
 [2]: https://support.google.com/adwords/answer/6095821
-[3]: http://www.google.com/adwords/
-[4]: http://www.w3schools.com/colors/colors_picker.asp
+[3]: https://ads.google.com/
+[4]: https://www.w3schools.com/colors/colors_picker.asp

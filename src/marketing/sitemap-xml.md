@@ -89,7 +89,7 @@ Website Sitemap
     Sitemap: http://www.domain_2.com/sitemaps/domain_2/sitemap.xml
 
 {:.bs-callout-info}
-If your site uses the [Apache]({{ site.devdocs_url }}/guides/v{{ site.version }}/install-gde/prereq/apache.html) web server engine, you should update the [.htaccess](http://httpd.apache.org/docs/current/howto/htaccess.html) file in the root of your website to direct any other sitemap requests to the proper place.
+If your site uses the [Apache]({{ site.devdocs_url }}/guides/v{{ site.version }}/install-gde/prereq/apache.html) web server engine, you should update the [.htaccess](https://httpd.apache.org/docs/current/howto/htaccess.html) file in the root of your website to direct any other sitemap requests to the proper place.
 
 ## Column descriptions
 
@@ -104,4 +104,4 @@ If your site uses the [Apache]({{ site.devdocs_url }}/guides/v{{ site.version }}
 
 [1]: {{ site.devdocs_url }}/cloud/trouble/robots-sitemap.html
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
-[3]: http://www.bing.com/webmaster/help/how-to-submit-sitemaps-82a15bd4
+[3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

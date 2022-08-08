@@ -12,5 +12,5 @@ Stores that have enabled Adobe Identity Management Services (IMS) authentication
 ![Security Center]({% link stores/assets/magento-resources-security-center.png %}){: .zoom}
 [_Security Center_][1]{:target="_blank"}
 
-[1]: http://magento.com/security
+[1]: https://helpx.adobe.com/security.html
 [2]: https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf
