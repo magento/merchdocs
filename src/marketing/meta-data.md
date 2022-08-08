@@ -39,4 +39,4 @@ Watch this video to learn about managing SEO meta data:
 
 <iframe title="Adobe Video Publishing Cloud Player" width="640" height="360" src="https://video.tv.adobe.com/v/343750/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
 
-[1]: http://schema.org/
+[1]: https://schema.org/

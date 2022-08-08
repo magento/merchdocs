@@ -18,7 +18,7 @@ module LinkChecker
     return config['html-proofer'] unless ENV['BUILD_NUMBER']
 
     staging_prefix = '/' + ENV['BUILD_NUMBER']
-    url_swap = { url_swap: { /\A#{staging_prefix}/ => '' } }
+    url_swap = { swap_urls: { /\A#{staging_prefix}/ => '' } }
     config['html-proofer'].merge(url_swap)
   end
 

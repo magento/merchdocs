@@ -29,4 +29,4 @@ Adobe Commerce and Magento Open Source reduce ordering errors by automatically v
 
 For tips on evaluating and optimizing the entire site shopping experience to increase conversion, see the [Increasing Conversion Rates] eBook.
 
-[Increasing Conversion Rates]: http://info2.magento.com/rs/magentosoftware/images/IncreasingConversionRates_Final.pdf
+[Increasing Conversion Rates]: https://info2.magento.com/rs/magentosoftware/images/IncreasingConversionRates_Final.pdf
