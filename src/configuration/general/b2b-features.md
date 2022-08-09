@@ -20,14 +20,15 @@ _B2B Features_
 |[Enable Requisition List]({% link customers/account-dashboard-requisition-lists.md %})|Website|When enabled, allows customer to create and manage requisition lists from their account dashboard.|
 
 ![]({% link configuration/general/assets/b2b-features-company-enabled.png %}){: .zoom}
-_B2B Features with companies enabled_
+_B2B Features with companies and shared catalogs enabled_
 
 When companies are enabled, additional fields are available.
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |[Enable Shared Catalog]({% link catalog/catalog-shared.md %})|Website|When enabled, makes it possible to create curated catalogs with custom pricing that are available either globally, or limited to specific companies. Options: Yes / No|
-|[Enable B2B Quote]({% link customers/account-dashboard-quotes.md %})|Website|When enabled, allows company buyers to submit a request for a quote from the shopping cart.  Options: Yes / No|
+|Enable Shared Catalog direct products price assigning|Website|When the _Enable Shared Catalog_ option is set to `Yes`, this option is available. When enabled, only products that are assigned to a shared catalog are stored in the price index. Products that are not assigned to the shared catalog are not displayed on the storefront. Options: Yes / No|
+|[Enable B2B Quote]({% link customers/account-dashboard-quotes.md %})|Website|When enabled, allows company buyers to submit a request for a quote from the shopping cart. Options: Yes / No|
 
 ### Default B2B Payment Methods
 

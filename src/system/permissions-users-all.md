@@ -6,6 +6,9 @@ When your store is first installed, a default Admin account is created with logi
 
 If there are others on your team or service providers who need access, you can create a separate user account for each and assign restricted access based on their business need to know. To limit the websites or stores that users can access when they log in to the Admin, you must first [create a role]({% link system/permissions-user-roles.md %}) with limited scope and only the necessary resources selected. Then, you can assign the role to a specific user account. Admin users who are assigned to a restricted role can see and change data only for websites or stores that are associated with the role, but cannot make changes to any global settings or data.
 
+{:.bs-callout-info}
+Adobe Commerce merchants who have an Adobe ID and want a streamlined login to Adobe Commerce and Adobe Business products can integrate Commerce authentication with the Adobe IMS authentication workflow. After this integration is enabled for your Commerce store, each Admin user must use their Adobe credentials — not their Commerce credentials — to log in. See [Adobe Identity Management Service (IMS) Integration Overview](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+
 For users or roles that are temporary, you can also set an expiration date for the user account.
 
 ![User types for your Admin]({% link system/assets/merchant-admin-users.png %}){: .zoom}

@@ -6,8 +6,8 @@ title: Google AdWords
 
 Conversion tracking shows how many ad clicks lead to a sale or other valuable action. The _Success_ page that appears to your customer after an order has been submitted is used to track conversions because it appears only after a sale. After completing the Google AdWords configuration for your store, there is no need to copy the conversion tracking script to the Success page, because Commerce already has the necessary information. To learn more, see [Google AdWords Help][2].
 
-![Google Ads]({% link marketing/assets/google-adwords-magento-ad.png %}){: .zoom}
-_Magento Ad in Google Search Results_
+![Google Ads]({% link marketing/assets/google-adwords-adobe-ad.png %}){: .zoom}
+_Adobe Ad in Google Search Results_
 
 ## Step 1. Create a Google AdWords campaign
 
@@ -71,6 +71,8 @@ _Magento Ad in Google Search Results_
 
     ![Sales configuration - Google Ads API]({% link configuration/sales/assets/google-api-google-adwords.png %}){: .zoom}
     [_Google AdWords_]({% link configuration/sales/google-api.md %})
+
+    {% include google-gtag.md %}
 
 1. To format the Google Sites Stat notification, do the following:
 

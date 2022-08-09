@@ -62,15 +62,18 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
    {:.bs-callout-info}
    **Important!** Not all keys are applicable for all types of reCAPTCHA, and misapplying them could lead to unexpected behavior. For example, Google reCAPTCHA keys generated for _reCAPTCHA v2 "I'm not a robot"_ will not work with _reCAPTCHA v2 Invisible_ and could block functionality where reCAPTCHA is enabled.
 
-## Step 2: Configure Google reCAPTCHA Admin Panel
+## Step 2: Configure Google reCAPTCHA for the Admin
 
-1. Sign in to the Admin account for your store.
+1. Sign in to your Admin account.
 
 1. On the Admin sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
 1. In the upper-right corner, set **Store View** to `Default Config`.
 
 1. In the left panel, expand **Security** and click **Google reCAPTCHA Admin Panel**.
+
+   {:.bs-callout-info}
+   Clear the **Use system value** checkbox for each field that you want to configure.
 
 1. To use _reCAPTCHA v2 ("I am not a robot")_, expand the **reCAPTCHA v2 ("I am not a robot")** section and do the following:
 
@@ -84,9 +87,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - For **[Language Code](https://developers.google.com/recaptcha/docs/language)**, enter the two-character code to specify the language used for Google reCAPTCHA text and messaging.
 
-   - For **reCAPTCHA Validation Failure Message**, enter the message to appear if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.
-
-   ![]({% link configuration/security/assets/google-recaptcha-admin-v2-not-robot.png %}){: .zoom}
+   ![]({% link configuration/security/assets/recaptcha-admin-v2-not-robot.png %}){: .zoom}
    [_reCAPTCHA v2 ("I am not a robot")_]({% link configuration/security/google-recaptcha-admin.md %})
 
 1. To use _reCAPTCHA v2 Invisible_, expand the **reCAPTCHA v2 Invisible** section and do the following:
@@ -101,9 +102,7 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - For **[Language Code](https://developers.google.com/recaptcha/docs/language)**, enter a two-character code that specifies the language that is used for Google reCAPTCHA text and messaging.
 
-   - For **reCAPTCHA Validation Failure Message**, enter the message to appear if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.
-
-   ![]({% link configuration/security/assets/google-recaptcha-admin-v2-invisible.png %}){: .zoom}
+   ![]({% link configuration/security/assets/recaptcha-admin-v2-invisible.png %}){: .zoom}
    [_reCAPTCHA v2 Invisible_]({% link configuration/security/google-recaptcha-admin.md %})
 
 1. To use _reCAPTCHA v3 Invisible_, expand the **reCAPTCHA v3 Invisible** section and do the following:
@@ -120,44 +119,62 @@ Google reCAPTCHA requires a pair of API keys to enable. You can get these keys f
 
    - For **[Language Code](https://developers.google.com/recaptcha/docs/language)**, enter a two-character code that specifies the language that is used for Google reCAPTCHA text and messaging.
 
-   - For **reCAPTCHA Validation Failure Message**, enter the message to appear if validation fails. Default: You cannot proceed with such operation, your reCAPTCHA reputation is too low.
-
-   ![]({% link configuration/security/assets/google-recaptcha-admin-v3-invisible.png %}){: .zoom}
+   ![]({% link configuration/security/assets/recaptcha-admin-v3-invisible.png %}){: .zoom}
    [_reCAPTCHA v3 Invisible_]({% link configuration/security/google-recaptcha-admin.md %})
 
-1. Expand the **Admin Panel** section.
+1. Expand **reCAPTCHA Validation Failure Messages** and enter the messages that appear in the Admin if validation fails or is unable cannot be completed.
 
-1. Clear the **Use system value** checkbox for each field that you want to configure.  Then, configure the following fields as needed.
+   ![]({% link configuration/security/assets/recaptcha-admin-failure-messages.png %}){: .zoom}
+   [_Failure messages_]({% link configuration/security/google-recaptcha-admin.md %})
+
+1. Expand the **Admin Panel** section and configure the following fields as needed:
 
    - Set **Enable for Login** to the reCAPTCHA type that you want to use for the Admin Sign In page.
 
    - Set **Enable for Forgot Password** to the reCAPTCHA type that you want to use for password reset requests.
 
-![]({% link configuration/security/assets/google-recaptcha-admin.png %}){: .zoom}
-[_Admin Panel_]({% link configuration/security/google-recaptcha-admin.md %})
+   ![]({% link configuration/security/assets/recaptcha-admin-panel.png %}){: .zoom}
+   [_Admin options_]({% link configuration/security/google-recaptcha-admin.md %})
 
-## Step 3: Configure Google reCAPTCHA Storefront
+## Step 3: Configure Google reCAPTCHA for the storefront
 
 1. In the left panel under _Security_, choose **Google reCAPTCHA Storefront**.
 
-1. Complete the section for each reCAPTCHA type that you want to use in the storefront. See the previous instructions for information about each option.
+1. Complete the section for each reCAPTCHA type that you want to use in the storefront.
+
+   See the information in _Step 2: Configure Google reCAPTCHA for the Admin_ for details about the options for each reCAPTCHA type.
+
+1. Expand **reCAPTCHA Validation Failure Messages** and enter the messages that appear in the storefront if validation fails or is unable cannot be completed.
 
 1. Expand the **Storefront** section.
 
-1. Clear the **Use system value** checkbox for each storefront location that you want to enable.
+   {:.bs-callout-info}
+   Clear the **Use system value** checkbox for each field that you want to configure.
 
 1. Set each storefront location field to the type of reCAPTCHA that you have configured to use.
 
    - Enable for Customer Login
    - Enable for Forgot Password
    - Enable for Create New Customer Account
+   - Enable for Edit Customer Account
+   - {:.b2b-only} Enable for Create New Company Account
    - Enable for Contact Us
    - Enable for Product Review
    - Enable for Newsletter Subscription
+   - {:.ee-only} Enable for Gift Card
+   - Enable for Invitation Create Account
    - Enable for Send To Friend
+   - Enable for Checkout/Placing Order
+   - Enable for Wishlist Sharing
+   - Enable for Coupon Codes
    - Enable for PayPal PayflowPro payment form
 
-1. When complete, click <span class="btn">Save Config</span>.
+   ![]({% link configuration/security/assets/recaptcha-storefront.png %}){: .zoom}
+   [_Storefront options_]({% link configuration/security/google-recaptcha-storefront.md %})
+
+## Step 4: Save the configuration
+
+1. When configuration settings are complete, click <span class="btn">Save Config</span>.
 
 1. In the message at the top of the workspace, click **Cache Management** and refresh each invalid cache.
 
