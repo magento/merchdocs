@@ -49,7 +49,6 @@ entries:
   labels:
   - Minor update
   - 2.4.5
-
 - description: Updated the [Search Results](https://docs.magento.com/user-guide/catalog/search-results.html)
     topic to clarify the partial prefix search method, and that Elasticsearch product
     search results are based on relevance.
