@@ -64,11 +64,10 @@ _MySQL Message Queue Cleanup_
 |Port|Store View|Identifies the port used for email communications. Default value: 25|
 |Set Return-Path|Store View|Determines if a routing address is used for returned emails. Options: No ([Recommended Security Measure](https://magento.com/security/news/new-zend-framework-1-security-vulnerability){:target="_blank"}) / Yes / Specified|
 |Return-Path Email|Global|Specifies the routing email address for returned emails.|
-|Username|Store view|Specifies the username for the SMTP server (optional)
-|Password|Store view|Specifies the password for the SMTP server (optional)
-|Auth Type|Store view|Specifies the type of authentication used for the SMTP server (optional)
-|SSL|Store view|Specifies the type of SSL used for SMTP server (optional)
-
+|Username|Store view|Specifies the username for the SMTP server (optional).|
+|Password|Store view|Specifies the password for the SMTP server (optional).|
+|Auth Type|Store view|Specifies the type of authentication used for the SMTP server (optional).|
+|SSL|Store view|Specifies the type of SSL used for SMTP server (optional).|
 
 ## Currency
 
