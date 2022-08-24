@@ -11,6 +11,9 @@ _Category tree_
 
 ## Step 1: Create a category
 
+{:.bs-callout-info}
+<span class="ee-only"></span>Users with access restricted to a specific website, will not be able to see the Default Category, as well as Add Root Category and Add Subcategory buttons. Such users will not be able to create categories, assign products to categories, and do other _global_ actions affecting scopes where they don't have access. Click [here]({% link system/permissions-user-roles.md %}#step-2assign-resources) to read more about website-restricted access.
+
 1. On the _Admin_ sidebar, go to **Catalog** > **Categories**.
 
 1. Set **Store View** to determine where the new category is to be available.
