@@ -5,8 +5,50 @@ description: This page contains recent changes that we think you'd like to know 
   list.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Aug 8 14:28:43 2022
+updated: Mon Aug 22 14:28:42 2022
 entries:
+- description: Updated information in the [Google API configuration reference](https://docs.magento.com/user-guide/configuration/sales/google-api.html),
+    and the [Google Analytics](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html)
+    and [Google AdWords](https://docs.magento.com/user-guide/marketing/google-adwords.html)
+    topics for new GTag support for Google services integration and move from Google
+    Universal Analytics to Analytics 4.
+  versions: 2.4.5
+  type: Major update
+  date: August 9, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/538
+  merge_commit: 1824990811c0842cf918a6ebb28905a84700f5df
+  contributor: leslietilling
+  membership: true
+  labels:
+  - Major update
+  - 2.4.5
+- description: Updated [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html)
+    and [Google reCAPTCHA Storefront](https://docs.magento.com/user-guide/configuration/security/google-recaptcha-storefront.html)
+    topics to reflect additional support for configuration of reCAPTCHA validation
+    on the storefront.
+  versions: 2.4.5
+  type: Major update
+  date: Aug 9, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/523
+  merge_commit: ef615a5e720a0cd9951160de67c409911d1b78ca
+  contributor: leslietilling
+  membership: true
+  labels:
+  - Major update
+  - 2.4.5
+- description: Updated the [B2B features](https://docs.magento.com/user-guide/stores/b2b-features.html)
+    topic to include the new _Enable Shared Catalog direct products price assigning_
+    option.
+  versions: 2.4.5
+  type: Minor update
+  date: Aug 9, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/393
+  merge_commit: 5fcd978e28076a80ba64b79a4163f1a80b639ddc
+  contributor: yaroslavGoncharuk
+  membership: true
+  labels:
+  - Minor update
+  - 2.4.5
 - description: Updated the [Search Results](https://docs.magento.com/user-guide/catalog/search-results.html)
     topic to clarify the partial prefix search method, and that Elasticsearch product
     search results are based on relevance.
