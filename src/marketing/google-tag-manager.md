@@ -64,9 +64,7 @@ For additional information, see Google's [Container export and import][5]. These
 
     - Open the file in an editor, and save as `GTM_M2_Config.json`.
 
-    - Zip the file to produce an archive called `GTM_M2_Config.zip`.
-
-        The zipped file will be uploaded directly to Google Tag Manager, and does not need to be copied to your server.
+        The json file will be uploaded directly to Google Tag Manager, and does not need to be copied to your server.
 
 1. Navigate to **Admin** > **Container** > **Import Container**.
 

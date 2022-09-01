@@ -5,7 +5,7 @@ description: This page contains recent changes that we think you'd like to know 
   list.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Aug 22 14:28:42 2022
+updated: Mon Aug 29 14:22:53 2022
 entries:
 - description: Updated information in the [Google API configuration reference](https://docs.magento.com/user-guide/configuration/sales/google-api.html),
     and the [Google Analytics](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html)
