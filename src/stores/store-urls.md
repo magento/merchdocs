@@ -95,7 +95,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 ### Include the store code in URLs
 
 {:.bs-callout-info}
-URLs with included Store Code should be used for proper system work, if **Add Store Code to Urls** option is set to `Yes`.
+When _Add Store Code to URLs_ option is set to `Yes`, you must include store codes in your browser URLs to ensure that URL rewrites are mapped correctly, and all pages are opened successfully, without _"404 Page Not Found"_ errors.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
