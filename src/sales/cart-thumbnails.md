@@ -25,7 +25,7 @@ _Thumbnail images displayed in the cart_
    Product Thumbnail Itself|Uses the thumbnail assigned to the product variation that is added to the cart.|
    Parent Product Thumbnail|Uses the thumbnail assigned to the parent product.|
 
-1. Set **Configurable Product Image** to determine the thumbnail that is used in the cart for [configurable products]({% link catalog/product-create-configurable.md %}#step-3-configure-the-images-price-and-quantity):
+1. Set **Configurable Product Image** to determine the thumbnail that is used in the cart for [configurable products]({% link catalog/product-create-configurable.md %}):
 
    Product Thumbnail Itself|Uses the thumbnail assigned to the product variation that is added to the cart.|
    Parent Product Thumbnail|Uses the thumbnail assigned to the parent product.|
