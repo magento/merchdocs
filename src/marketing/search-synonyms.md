@@ -1,5 +1,7 @@
 ---
 title: Search Synonyms
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html#search-synonyms
 ---
 
 {:.bs-callout-info}
