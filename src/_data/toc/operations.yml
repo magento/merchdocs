@@ -113,6 +113,8 @@ pages:
         url: "/stores/attributes-customer-address-templates.html"
     - label: Product Attributes
       url: "/stores/attributes-product.html"
+    - label: Date and Time Options
+      url: "/stores/attribute-date-time-options.html"
 - label: System
   url: "/system/system.html"
   children:
@@ -294,3 +296,5 @@ pages:
     url: "/mcom/integration.html"
   - label: Changelog
     url: "/mcom/changelog.html"
+  - label: Export Full Catalog
+    url: "/catalog/export-full-catalog.html"

@@ -1,6 +1,7 @@
 ---
 ee_only: true
 title: Gift Card Accounts
+group: marketing
 ---
 
 A gift card account is automatically created for each Gift Card that is purchased. The value of the gift card can then be applied toward the purchase of a product in your store. You can also create gift card accounts from the Admin as a promotion or service for customers. The gift card account number corresponds to the gift card code.

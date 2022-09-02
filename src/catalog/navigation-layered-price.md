@@ -1,6 +1,8 @@
 ---
 title: Price Navigation
 group: marketing
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html#price-navigation
 ---
 
 {:.bs-callout-info}

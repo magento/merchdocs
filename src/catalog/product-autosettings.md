@@ -1,8 +1,8 @@
 ---
 ee_only: true
 title: Autosettings
-redirect_from:
-  - /catalog/settings-advanced-autosettings.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/settings/product-autosettings.html
 ---
 
 The Autosettings section includes any attributes that are dependencies for other operations. You can apply the default [RMA configuration]({% link sales/rma-configure.md %}) setting to the product or override it, as needed.

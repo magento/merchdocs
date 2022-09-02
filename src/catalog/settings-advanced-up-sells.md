@@ -1,5 +1,7 @@
 ---
 title: Up-sells
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/settings/related-products-up-sells-cross-sells.html#up-sells
 ---
 
 Up-sell products are items that your customer might prefer instead of the product currently considered. An item offered as an up-sell might be of a higher quality, more popular, or have better profit margin. Up-sell products appear on the product page under a heading such as _You may also be interested in the following product(s)_.

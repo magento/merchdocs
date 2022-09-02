@@ -1,5 +1,7 @@
 ---
 title: Products in Category
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html
 ---
 
 The Products in Category section lists the products that are currently assigned to the category. The search filters at the top of each column are used to add and remove products from the category. You can also use [category rules]({% link catalog/category-product-rules.md %}) (<span class="ee-only"></span>) to dynamically change the product selection when a set of conditions is met. To learn more, see [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}).

@@ -1,5 +1,7 @@
 ---
 title: Special Price
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/product-price-special.html
 ---
 
 A special price can be offered for a designated period of time. During the specified time period, the special price appears instead of the regular price, followed by a notation that shows the regular price.

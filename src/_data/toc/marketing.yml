@@ -77,6 +77,13 @@ pages:
     - label: Discount with First Purchase
       url: "/marketing/price-rule-discount-first-purchase.html"
       edition: ee-only
+  - label: Gift Card Accounts
+    url: "/catalog/product-gift-card-accounts.html"
+    children:
+    - label: Configuring Gift Card Accounts
+      url: "/catalog/product-gift-card-account-configuration.html"
+    - label: Gift Card Workflow
+      url: "/catalog/product-gift-card-workflow.html"
   - label: Related Product Rules
     url: "/marketing/product-related-rules.html"
     edition: ee-only
