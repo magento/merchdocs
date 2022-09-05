@@ -102,6 +102,6 @@ To prevent search engines from indexing multiple URLs that lead to the same cont
 {: .field-table }
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Add Store Code to URLs|Global|If Web Server Rewrites are enabled, this inserts the Store Code of the current view in the URL. Options: Yes / No|
+|Add Store Code to URLs|Global|If Web Server Rewrites are enabled, this inserts the Store Code of the current view in the URL. Options: Yes / No. <br />When _Add Store Code to URLs_ is set to `Yes`, you must include store codes in your browser URLs to ensure that URL rewrites are mapped correctly and all pages are opened successfully, without _"404 Page Not Found"_ errors.|
 |Auto-redirect to Base URL|Global|(For single-store setups) If there is a broken link on your site, this redirects traffic to the base URL rather than to a page with a “404 Page Not Found” message. Options: No / Yes (302 Found) / Yes (301 Moved Permanently) <br /><br />**_Important!_** Do not use auto-redirect to base URL for multi-store setups.|
 |Catalog media URL format|Global|Defines the [URL format]({% link catalog/catalog-urls.md %}) assigned to products and categories. Options: <br />**Unique hash per image variant (Legacy mode)** - Defines converted filename as a unique hash value.<br />**Image optimization based on query parameters** - Defines [image optimization]({% link cms/media-gallery-image-optimization.md %}) process depending on query parameters.|
