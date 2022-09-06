@@ -20,8 +20,8 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable Input Limits|Store View|Defines if Input Limits are enabled for GraphQL calls. Default Value: No.|
-|Maximum Page Size|Store View|Determines the maximum number of items allowed in a paginated search result in the GraphQL response. Is not available when **Enable Input Limits** = `No`.|
+|Enable Input Limits|Store View|Determines if input limits are enabled for GraphQL calls. Default Value: `No`.|
+|Maximum Page Size|Store View|Sets the maximum number of items allowed in a paginated search result in the GraphQL response. This option is not available when _Enable Input Limits_ = `No`.|
 
 ## Web Api Input Limits
 
@@ -30,10 +30,10 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable Input Limits|Store View|Defines if Input Limits are enabled for Web API calls. Default Value: No.|
-|Input List Limit|Store View|Defines the maximum number of items allowed in an entity's array property in the Web API request. Is not available when **Enable Input Limits** = `No`.|
-|Maximum Page Size|Store View|Determines the maximum number of items allowed in a paginated search result in the Web API response. Is not available when **Enable Input Limits** = `No`.|
-|Default Page Size|Store View|Determines the Default number of items in a paginated search result in the Web API response.|
+|Enable Input Limits|Store View|Determines if input limits are enabled for Web API calls. Default Value: `No`.|
+|Input List Limit|Store View|Sets the maximum number of items allowed in an entity array property in the Web API request. This option is not available when _Enable Input Limits_ = `No`.|
+|Maximum Page Size|Store View|Sets the maximum number of items allowed in a paginated search result in the Web API response. This option is not available when _Enable Input Limits_ = `No`.|
+|Default Page Size|Store View|Sets the default number of items in a paginated search result in the Web API response.|
 
 ## Web API Security
 
@@ -51,7 +51,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Serv
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Algorithm to sign/encrypt JWTs used for authentication|Global|Defines which type of JWS or JWE algorythm will be used for JWT (JSON Web Token) encryption|
-|Content encryption algorithm for JWEs|Global|Determines which type of content encryption algorythm will be used for JWT encryption when JWE algorithm is selected. Is ignored for JWS algoryhms.|
-|Customer JWT Expires In|Global|Determines the length of time in minutes before a customer JWT bearer token expires. The customer JWT bearer token expires in 30 minutes if field is empty or has negative value. Default value: 60|
-|Admin User JWT Expires In|Global|Determines the length of time in minutes before a admin JWT bearer token expires. The admin JWT bearer token expires in 30 minutes if field is empty or has negative value. Default value: 60|
+|Algorithm to sign/encrypt JWTs used for authentication|Global|Specifies the type of JWS or JWE algorithm used for JWT (JSON Web Token) encryption|
+|Content encryption algorithm for JWEs|Global|Specifies the type of content encryption algorithm used for JWT encryption when JWE algorithm is selected. This option is ignored for JWS algorithms.|
+|Customer JWT Expires In|Global|Sets the length of time (in minutes) before a customer JWT bearer token expires. The customer JWT bearer token expires in 30 minutes if this field is empty or has a negative value. Default value: `60`|
+|Admin User JWT Expires In|Global|Sets the length of time (in minutes) before a admin JWT bearer token expires. The admin JWT bearer token expires in 30 minutes if this field is empty or has a negative value. Default value: `60`|
