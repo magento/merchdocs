@@ -1,6 +1,5 @@
 ---
 title: Date and Time Options
-group: catalog
 ---
 
 You can customize the format of date and time fields, and select the input control that is used for data entry. Dates values can be selected from a drop-down list, or pop-up calendar.

@@ -1,5 +1,7 @@
 ---
 title: Downloadable Product
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html
 ---
 
 A downloadable product can be anything that you can deliver as a file, such as an eBook, music, video, software application, or update. You can offer an album for sale and sell each song individually. You can also use a downloadable product to deliver an electronic version of your product catalog.

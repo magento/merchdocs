@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Creating a Gift Card
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html
 ---
 
 The following instructions demonstrate the process of creating a gift card using a [product template]({% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({% link catalog/settings-advanced.md %}) and [other settings]({% link catalog/settings-other.md %}), as needed.

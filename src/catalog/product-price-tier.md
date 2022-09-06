@@ -1,5 +1,7 @@
 ---
 title: Tier Price
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/product-price-tier.html
 ---
 
 Tier pricing lets you offer a quantity discount from a product listing or product page in the storefront. The discount can be applied to a specific store view or customer group or shared catalog.

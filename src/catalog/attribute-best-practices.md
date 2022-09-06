@@ -1,5 +1,7 @@
 ---
 title: Best Practices for Product Attributes
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html
 ---
 
 Use these best practices when you plan and create product attributes.

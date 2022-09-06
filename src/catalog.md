@@ -2,6 +2,10 @@
 title: Catalog
 group: catalog
 sections:
+  - title: Catalog management
+    content: One of the most important areas in managing your stores is catalog design and configuration. It is important to understand how the catalog scope and product scope are used to manage product availability across multiple stores and store views.
+    url: /catalog/catalog-scope.html
+
   - title: Products
     content: Learn how to create products from simple to complex with multiple options, swatches, customizable bundles. Create downloadable products, and virtual products for services and other non-tangible items.
     url: /catalog/product-types.html

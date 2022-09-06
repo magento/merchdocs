@@ -1,5 +1,7 @@
 ---
 title: Uploading Product Images
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-image.html#upload-an-image
 ---
 
 For each product, you can upload multiple images, rearrange their order images, and control how each image is used. If you have a large quantity of images to manage, you may prefer to import them as a batch, rather than upload each one individually. For more information, see [Importing Product Images]({% link system/data-import-product-images.md %}).

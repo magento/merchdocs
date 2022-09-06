@@ -1,5 +1,7 @@
 ---
 title: Configuring MAP
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised.html#map-configuration
 ---
 
 Your store’s Minimum Advertised Price (MAP) settings can be applied to all products in your catalog or configured for specific products. When MAP is enabled globally, all product prices in the storefront are hidden from view. There are a variety of configuration options that you can use to remain in compliance with the terms of your agreement with the manufacturer, while still offering your customers a better price.
