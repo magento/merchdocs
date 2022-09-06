@@ -1,5 +1,7 @@
 ---
 title: Product Workspace
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-workspace.html
 ---
 
 The product workspace is basically the same for all product types, although the selection of fields changes depending on the attribute set that is used. The product attributes are at the top of the form, followed by expandable sections of product information. When a new product is saved for the first time, the Store View chooser appears at the upper-left of the form.

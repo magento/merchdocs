@@ -1,5 +1,7 @@
 ---
 title: Images and Videos
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/settings/product-images-and-video.html
 ---
 
 From the _Images and Videos_ section, you can perform basic image management tasks such as upload multiple images, rearrange the order of images, and control how each image is used. For additional control over individual images, you can open each image in _detail view_. For more information, see [Catalog Images and Video]({% link catalog/catalog-images-video.md %}).

@@ -1,5 +1,7 @@
 ---
 title: Sources
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/settings/sources.html
 ---
 
 The **Sources** section lists the sources from which the product can be distributed. It is used to assign and unassign sources as well as manage the quantity and availability of the product. The **Sources** section is displayed only if there are more than one source. For more information about sources, see [Managing Sources]({% link catalog/inventory-sources.md %}).

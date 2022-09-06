@@ -1,5 +1,7 @@
 ---
 title: Cross-sells
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/settings/related-products-up-sells-cross-sells.html#cross-sells
 ---
 
 Cross-sell items are similar to impulse purchases positioned next to the cash register in the checkout line. Products offered as a cross-sell appear on the shopping cart page, just before the customer begins the checkout process.

@@ -1,6 +1,8 @@
 ---
 title: Bulk Updates for Product Attributes
 group: catalog
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/bulk-product-attribute-update.html
 ---
 
 Use the _Update Attributes_ tool to change one or more attributes in your products. This tool allows you to apply significant changes across a large group of products.

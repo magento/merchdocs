@@ -1,5 +1,7 @@
 ---
 title: Catalog and Product URLs
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/catalog-urls.html
 ---
 
 The URLs you assign to products and categories play a major role in determining how well your site is indexed by search engines. Before you start building your catalog is an ideal time to consider the available options. To view the current URL format, go to the storefront and navigate to any product in your catalog. The format of the URL depends on the current configuration settings and method that you use to find the page.

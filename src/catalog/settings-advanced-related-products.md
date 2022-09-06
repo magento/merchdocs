@@ -1,5 +1,7 @@
 ---
 title: Related Products
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/settings/related-products-up-sells-cross-sells.html#related-products
 ---
 
 Related products are meant to be purchased in addition to the item the customer is viewing. The customer can place the item in the shopping cart by simply clicking the checkbox. The placement of the _Related Products_ block varies according to defined theme and page layout. In the example below, the _Related Products_ block appears at the bottom of the _Product View_ page. With a two-column layout, the _Related Products_ block often appears in the right sidebar.

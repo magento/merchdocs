@@ -1,5 +1,7 @@
 ---
 title: Group Price
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/product-price-group.html
 ---
 
 You can use the configuration settings in the Admin to set prices for discounted items based on customer groups in your store. This is called _group pricing_.
