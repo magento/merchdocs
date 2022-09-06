@@ -1,5 +1,7 @@
 ---
 title: Product Scope
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/introduction.html#product-scope
 ---
 
 For installations with multiple websites, stores, and views, the [scope]({% link configuration/scope.md %}) setting determines where products are available for sale, and the product information that is available for each store view. Initially, all products that you create are published to the default website, store, and store view.

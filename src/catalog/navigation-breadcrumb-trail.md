@@ -1,6 +1,8 @@
 ---
 title: Breadcrumb Trail
 group: marketing
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-breadcrumb-trail.html
 ---
 
 A breadcrumb trail is a set of links that shows where you are in relation to other pages in the store. You can click any link in the breadcrumb trail to return to the previous page.

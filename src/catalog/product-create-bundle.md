@@ -1,5 +1,7 @@
 ---
 title: Bundle Product
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-bundle.html
 ---
 
 A bundle is a _build your own_, customizable product. Each item in a bundle can be based on one of the following product types:

@@ -1,5 +1,7 @@
 ---
 title: Product Content
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/settings/product-content.html
 ---
 
 The _Content_ section is used to enter and edit the main product description that appears on the product page. The short description can be used in most RSS feeds, and might also appear in catalog listings, depending on [theme]({% link design/themes.md %}).
