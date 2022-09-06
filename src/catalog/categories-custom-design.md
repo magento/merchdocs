@@ -1,5 +1,7 @@
 ---
 title: Design Settings
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-custom-design.html
 ---
 
 The Design section gives you control over the look and feel of a category, all associated product pages, and page layout. You can customize a category page and its associated products for a promotion, or to differentiate the category. For example, you might develop a distinctive design for a brand or special line of products, or apply an update for a specific period of time.

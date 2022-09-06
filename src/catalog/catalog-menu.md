@@ -1,5 +1,7 @@
 ---
 title: Catalog Menu
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog-menu.html
 ---
 
 The Catalog menu provides easy access to product creation, category, and inventory management tools, as well as shared catalogs for custom pricing in B2B stores.

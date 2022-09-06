@@ -1,5 +1,7 @@
 ---
 title: Categories
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/categories.html
 ---
 
 Before you add products to your catalog, you need to establish the basic category structure of your catalog. Products may be assigned to zero or more categories. Categories are usually created in advance, before products are added to the catalog. However, you can also add categories “on the fly” while creating a product. The category structure of the catalog is reflected by the main menu — or [top navigation]({% link catalog/navigation-top.md %}) — of the store.

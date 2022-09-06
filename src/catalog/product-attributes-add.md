@@ -1,5 +1,7 @@
 ---
 title: Adding an Attribute to a Product
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes-add.html
 ---
 
 Although attributes are managed primarily from the [Stores]({% link stores/stores-menu.md %}) menu, you can also add new attributes _on the fly_ while working on a product. You can choose from the list of existing attributes or create a new attribute. The new attribute is added to the [attribute set]({% link stores/attribute-sets.md %}) upon which the product is based.

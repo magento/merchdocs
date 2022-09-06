@@ -1,5 +1,7 @@
 ---
 title: Search Terms
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html
 ---
 
 {:.bs-callout-info}

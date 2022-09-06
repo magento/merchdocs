@@ -1,6 +1,8 @@
 ---
 title: Creating Product Attributes
 group: catalog
+redirect_to:
+  - https://experienceleague.corp.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html
 ---
 
 You can create attributes while working on a product or from the Product Attributes page. The following steps show how to create attributes from the Stores menu.

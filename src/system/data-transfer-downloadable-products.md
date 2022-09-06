@@ -2,7 +2,7 @@
 title: Importing Downloadable Products
 ---
 
-The flow for importing downloadable products is the same as for [Bundle Products]({% link system/data-transfer-bundle-products.md %}) or [Configurable Products]({% link system/data-transfer-configurable-products.md %}). The difference is that a downloadable product has [downloadable links]({% link catalog/product-create-downloadable.md%}#complete-the-links) and [downloadable samples]({% link catalog/product-create-downloadable.md%}#complete-the-samples) with its images.
+The flow for importing downloadable products is the same as for [Bundle Products]({% link system/data-transfer-bundle-products.md %}) or [Configurable Products]({% link system/data-transfer-configurable-products.md %}). The difference is that a downloadable product has [downloadable links]({% link catalog/product-create-downloadable.md%}) and [downloadable samples]({% link catalog/product-create-downloadable.md%}) with its images.
 
 The default root directory for downloadable links and samples is `<Magento-root-folder>/pub/media/import`. If the Remote storage module is enabled, the default root directory for downloadable links and samples is the `<remote-storage-root-folder>/media/import` directory.
 

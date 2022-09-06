@@ -1,5 +1,7 @@
 ---
 title: Grouped Product
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-grouped.html
 ---
 
 A grouped product consists of simple standalone products that are presented as a group. You can offer variations of a single product or group them by season or theme. Presenting a grouped product can create an incentive for customers to purchase additional items. A grouped product provides an easy way to offer variations of a product and list them all on the same page.

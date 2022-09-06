@@ -1,5 +1,7 @@
 ---
 title: Image Placeholders
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-image-config.html#image-placeholders
 ---
 
 Adobe Commerce and Magento Open Source use temporary images as placeholders until the permanent product images become available. A different placeholder can be uploaded for each role. The initial placeholder image is a sample logo, which you can replace with the image of your choice.

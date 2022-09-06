@@ -1,5 +1,7 @@
 ---
 title: Creating Swatches
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/swatches.html#create-swatches-for-productss
 ---
 
 Swatches can be defined as a component of the `color` attribute or set up locally for a specific product and uploaded as [product images]({% link catalog/product-image-upload.md %}).
@@ -147,7 +149,7 @@ Use either of the following methods to create swatches for your products.
 
 1. In the progress bar, click <span class="btn">Next</span>.
 
-1. [Configure the images, price, and quantity.]({% link catalog/product-create-configurable.md %}#step-3-configure-the-images-price-and-quantity). On this step set the images, pricing, and quantity of each configuration. The available options are the same for each, and you can choose only one. You can apply the same setting to all SKUs, apply a unique setting to each SKU, or skip the settings for now.
+1. [Configure the images, price, and quantity.]({% link catalog/product-create-configurable.md %}). On this step set the images, pricing, and quantity of each configuration. The available options are the same for each, and you can choose only one. You can apply the same setting to all SKUs, apply a unique setting to each SKU, or skip the settings for now.
 
 1. When configuration for images, price, and quantity are complete, click <span class="btn">Next</span> in the upper-right corner
 

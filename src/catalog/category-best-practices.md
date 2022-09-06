@@ -1,5 +1,7 @@
 ---
 title: Best Practices for Product Categories
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html#best-practices
 ---
 
 Use these best practices when you plan and create categories.

@@ -1,6 +1,8 @@
 ---
 title: Attribute Input Types
 group: catalog
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html
 ---
 
 When viewed from the Admin, attributes are the fields that you complete when you create a product. The input type that is assigned to an attribute determines the type of data that can be entered and the format of the field or input control. From the standpoint of the customer, attributes provide information about the product, and are the options and data entry fields that must be completed to purchase a product.

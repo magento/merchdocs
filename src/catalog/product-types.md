@@ -1,5 +1,7 @@
 ---
 title: Product Types
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html
 ---
 
 Adobe Commerce and Magento Open Source support multiple product types within the catalog.

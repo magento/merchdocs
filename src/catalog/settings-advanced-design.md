@@ -1,5 +1,7 @@
 ---
 title: Design
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/settings/settings-advanced-design.html
 ---
 
 The Design settings allows a different theme to be applied to the product page, change the column layout, determine where product options appear, and enter custom XML code.
