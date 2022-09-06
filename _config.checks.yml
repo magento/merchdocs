@@ -10,13 +10,7 @@ html-proofer:
   :ignore_missing_alt: true
 
   # Ignores images with empty alt tags.
-  :empty_alt_ignore: true
-
-  # Validate HTML
-  :check_html: true
+  :ignore_empty_alt: true
 
   # Do not check external links.
   :disable_external: true
-
-  # Sort errors by description in the report
-  :error_sort: :desc
