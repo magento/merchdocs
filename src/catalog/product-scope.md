@@ -22,6 +22,9 @@ Although the _Spanish_ store view is selected in the following example, the prod
 
 ## Edit a product for a different view
 
+{:.bs-callout-info}
+The _All Store Views_ scope is disabled for Admin users that are restricted to a specific scope when the product is also published outside the allowed scope. The first scope available for edit is selected by default because restricted users cannot perform _global_ actions or actions that affect scopes where they do not have access.
+
 1. In the upper-left corner, set **Store View** to the specific view to be edited.
 
 1. Click <span class="btn">OK</span> to confirm the scope change.
