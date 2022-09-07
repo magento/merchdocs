@@ -14,6 +14,9 @@ _Access Token Expiration_
 |Customer Token Lifetime (hours)|Global|Determines the length of time in hours before a customer API token expires. The customer token never expires if field is empty. Default value: 1|
 |Admin Token Lifetime (hours)|Global|Determines the length of time in hours before an admin API token expires. The admin token never expires if the field is empty. Default value: 4|
 
+{:.bs-callout-info}
+Bearer customer and admin API token Lifetime and encryption algorithms are controlled by the [JWT Authentication]({% link configuration/services/magento-web-api.md %}#jwt-authentication) configuration settings.
+
 ## Cleanup Settings
 
 ![]({% link configuration/services/assets/oauth-cleanup.png %}){: .zoom}
