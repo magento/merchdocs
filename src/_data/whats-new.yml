@@ -5,8 +5,21 @@ description: This page contains recent changes that we think you'd like to know 
   list.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Sep 5 14:28:26 2022
+updated: Mon Sep 12 14:27:46 2022
 entries:
+- description: Updated the [Web API](https://docs.magento.com/user-guide/configuration/services/magento-web-api.html)
+    topic in the _Configuration Reference_ to include new sections for JWT authentication
+    and input limits.
+  versions: 2.4.x
+  type: Major update
+  date: September 7, 2022
+  link: https://github.com/magento-commerce/merchdocs/pull/550
+  merge_commit: 95158d261559eab96b617fe4dae2b4f6297cbd92
+  contributor: vkolesny
+  membership: true
+  labels:
+  - 2.4.x
+  - Major update
 - description: Updated information in the [Google API configuration reference](https://docs.magento.com/user-guide/configuration/sales/google-api.html),
     and the [Google Analytics](https://docs.magento.com/user-guide/marketing/google-universal-analytics.html)
     and [Google AdWords](https://docs.magento.com/user-guide/marketing/google-adwords.html)
