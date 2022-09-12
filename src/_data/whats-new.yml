@@ -8,8 +8,7 @@ thread: "/whatsnew-feed.xml"
 updated: Mon Sep 12 14:27:46 2022
 entries:
 - description: Updated the [Web API](https://docs.magento.com/user-guide/configuration/services/magento-web-api.html)
-    topic in the _Configuration Reference_ to include new sections for JWT authentication
-    and input limits.
+    topic to include new sections for JWT authentication and input limits.
   versions: 2.4.x
   type: Major update
   date: September 7, 2022
