@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Sales Restrictions
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/events/event-configure.html#restrict-sales
 ---
 
 By default, products that appear in upcoming or closed events are not available for general sale and the _Add to Cart_ button does not appear on the product list or product page.

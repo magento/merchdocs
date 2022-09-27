@@ -1,7 +1,7 @@
 ---
 title: Social
-redirect_from:
-  - /marketing/social-connect-to-facebook.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/social-rss.html
 ---
 
 Your store can be connected to social networks by installing a Marketplace extension. In addition, you can easily add social plugins such as the _Like_ button to CMS blocks that can be incorporated into pages throughout your store.

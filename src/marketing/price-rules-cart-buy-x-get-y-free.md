@@ -1,5 +1,7 @@
 ---
 title: Buy X Get Y Free
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-buy-this-get-that.html
 ---
 
 This example shows how to set up a [cart price rule]({% link marketing/price-rules-cart.md %}) for a _Buy X, Get Y Free_ promotion. The format of the discount is as follows:

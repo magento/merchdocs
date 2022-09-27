@@ -1,5 +1,7 @@
 ---
 title: Meta Data
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/meta-data.html
 ---
 
 Your store is loaded with places where you can enter keyword-rich meta data to improve the way search engines index your site. While setting up your store, you might enter preliminary meta data, with the intention of finishing it later. Over time, you can fine-tune the meta data to target the buying patterns and preferences of your customers.

@@ -1,5 +1,7 @@
 ---
 title: Creating URL Rewrites
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html#create-url-rewrites
 ---
 
 The URL Rewrite tool can be used to create product and category rewrites, and custom rewrites for any page in your store. When the rewrite goes into effect, any existing links that point to the previous URL are seamlessly redirected to the new address.

@@ -1,5 +1,7 @@
 ---
 title: Google Analytics
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-universal-analytics.html
 ---
 
 Google Universal Analytics gives you the ability to define additional custom dimensions and metrics for tracking, with support for offline and mobile app interactions, and access to ongoing updates. Google Analytics 4 is Google's next-generation measurement solution, and is replacing Universal Analytics. On July 1, 2023, standard Universal Analytics properties will stop processing new hits.

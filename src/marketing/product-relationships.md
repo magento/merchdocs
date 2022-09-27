@@ -1,5 +1,7 @@
 ---
 title: Product Relationships
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-relationships.html
 ---
 
 Products in your catalog can be promoted on other pages by defining the nature of the relationship between the products. The options available are:

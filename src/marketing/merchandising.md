@@ -17,6 +17,8 @@ sections:
   - title: Private Sales and Events
     content: Leverage your existing customer base to generate buzz and new leads, or to offload surplus inventory through private sales and other catalog events.
     url: /marketing/events-private-sales.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/introduction.html#merchandising
 ---
 
 Merchandising is a term used in retail to describe the art and science of floor plan development and the presentation of products. In your Adobe Commerce store, you might think of the category-based navigation as the floor plan of the store, and the dynamic presentation of products as the conditions that you can apply to the listing of products in the store.

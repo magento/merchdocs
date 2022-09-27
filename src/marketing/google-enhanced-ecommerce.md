@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Enhanced Ecommerce
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-universal-analytics.html#enhanced-ecommerce
 ---
 
 Enhanced Ecommerce is a plugin for Google Universal Analytics that gives you insight into the shopping and purchasing behavior of your customers. You can use Enhanced Ecommerce to produce reports about key customer activities, such as when customers add items the cart, begin the checkout process, or complete a purchase. You can also identify and analyze patterns of shoppers who abandon their carts without making a purchase.

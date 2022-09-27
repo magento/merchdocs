@@ -1,5 +1,7 @@
 ---
 title: Configuring Newsletters
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/newsletters/newsletters.html
 ---
 
 The first step in creating newsletters is to configure the newsletter settings for your site. You can require customers to click a confirmation link that is sent by email to confirm the subscription. This double opt-in method requires customers to confirm twice that they want to receive your newsletter and reduces the possibility that it might be considered to be spam.

@@ -1,5 +1,7 @@
 ---
 title: Commerce Product Reviews
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html
 ---
 
 When the native Product Reviews function is enabled, customers can write reviews for any product in your catalog. Reviews can be written from the product page by clicking:

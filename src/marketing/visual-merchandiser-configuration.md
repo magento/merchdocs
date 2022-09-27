@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Configuring Smart Attributes for Visual Merchandiser
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure.html
 ---
 
 The Visual Merchandiser configuration determines the attributes that can be used in the merchandising window and the minimum stock threshold. The configuration also identifies the attribute used for color and the order of color values.

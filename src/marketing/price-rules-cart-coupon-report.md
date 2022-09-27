@@ -1,5 +1,7 @@
 ---
 title: Coupons Report
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html#coupons-report
 ---
 
 The Coupons report aggregates data from each coupon that is used during a specific date range. Because coupons are applied from the shopping cart, the report includes data from all redeemed coupons, regardless of [order status]({% link sales/order-status.md %}). As a result, the report might include both projected and actual totals. The report can be filtered for a specific store view, time period, order status, and [cart price rule]({% link marketing/price-rules-cart-coupon.md %}).

@@ -1,5 +1,7 @@
 ---
 title: Moderate Reviews
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews-moderate.html
 ---
 
 For Commerce Product Reviews, a submitted product review must be approved before it can be displayed. This ensures that reviews are appropriate for public display your store. A submitted review is in a `Pending` status until it is approved or rejected.

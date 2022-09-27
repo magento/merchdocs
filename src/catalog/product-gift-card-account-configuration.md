@@ -1,7 +1,7 @@
 ---
 ee_only: true
 title: Configuring Gift Card Accounts
-group: marketing
+group: sales
 ---
 
 The Gift Card configuration establishes the default settings for all gift cards for the store view and manages the code pool. The code pool is a set of unique gift card codes in a specific format. Codes from the pool are used each time a gift card account is created. It is the responsibility of the store administrator to ensure that there are enough codes available for gift card sales. Make sure to generate a code pool before offering gift cards for sale. By default, Adobe Commerce generates 1,000 codes. A new code pool is not generated until there are no more codes available in the current pool.
