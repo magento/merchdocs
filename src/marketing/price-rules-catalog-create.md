@@ -1,5 +1,7 @@
 ---
 title: Creating a Catalog Price Rule
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog-create.html
 ---
 
 Follow these instructions to apply a discount to specific products whenever a set of conditions is met. Catalog price rule discounts go into effect before the product is placed into the shopping cart.

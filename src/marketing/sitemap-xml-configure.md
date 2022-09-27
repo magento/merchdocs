@@ -1,5 +1,7 @@
 ---
 title: Site Map Configuration
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/sitemap-xml.html
 ---
 
 Your site map should be updated as frequently as the content on your site changes, which could be on a daily, weekly, or monthly basis. The configuration lets you set the frequency and priority for each type of content.

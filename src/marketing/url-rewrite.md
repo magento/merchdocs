@@ -1,5 +1,7 @@
 ---
 title: URL Rewrites
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html
 ---
 
 The URL Rewrite tool lets you change any URL that is associated with a product, category, or CMS page. When the rewrite goes into effect, any links that point to the previous URL are redirected to the new address.

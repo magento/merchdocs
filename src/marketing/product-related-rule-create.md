@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Creating a Related Product Rule
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rule-create.html
 ---
 
 The process of creating a related product rule is similar to setting up a price rule. First, you define the conditions to match, and then choose the products that you want to display. At any given time there might be a number of active rules that can be triggered to display related products, up-sells, and cross-sells. The priority of each rule determines the order in which the block of products appears on the page.

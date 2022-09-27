@@ -146,6 +146,13 @@ pages:
       url: "/sales/rma-configure.html"
     - label: Returns Attribute
       url: "/stores/attributes-returns.html"
+  - label: Gift Card Accounts
+    url: "/catalog/product-gift-card-accounts.html"
+    children:
+    - label: Configuring Gift Card Accounts
+      url: "/catalog/product-gift-card-account-configuration.html"
+    - label: Gift Card Workflow
+      url: "/catalog/product-gift-card-workflow.html"
   - label: Billing Agreements
     url: "/sales/billing-agreements.html"
   - label: Transactions

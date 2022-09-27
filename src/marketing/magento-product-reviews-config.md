@@ -1,5 +1,7 @@
 ---
 title: Enable Commerce Product Reviews
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html#enable-product-review-features
 ---
 
 The Commerce Product Reviews function is enabled by default.

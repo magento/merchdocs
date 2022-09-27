@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Scheduled Changes for Catalog Price Rules
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes.html
 ---
 
 The Scheduled Changes box appears at the top of the page when a new price rule is saved or updated. Catalog price rules can be applied on schedule as part of a campaign, and grouped with other content changes. You can create a new campaign based on scheduled changes to a price rule, or apply the changes to an existing campaign.

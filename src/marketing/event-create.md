@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Creating Events
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/events/event-create.html
 ---
 
 Each event is associated with a category from your catalog, and only one event can be associated with any given category at a time. To display a list of upcoming events in your store, you must also set up a [Catalog Events Carousel]({% link cms/widget-event-carousel.md -%}) widget.

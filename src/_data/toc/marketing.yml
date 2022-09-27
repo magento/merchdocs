@@ -77,13 +77,6 @@ pages:
     - label: Discount with First Purchase
       url: "/marketing/price-rule-discount-first-purchase.html"
       edition: ee-only
-  - label: Gift Card Accounts
-    url: "/catalog/product-gift-card-accounts.html"
-    children:
-    - label: Configuring Gift Card Accounts
-      url: "/catalog/product-gift-card-account-configuration.html"
-    - label: Gift Card Workflow
-      url: "/catalog/product-gift-card-workflow.html"
   - label: Related Product Rules
     url: "/marketing/product-related-rules.html"
     edition: ee-only
@@ -178,6 +171,10 @@ pages:
         url: "/marketing/email-template-footer.html"
       - label: Message Templates
         url: "/marketing/email-template-message.html"
+    - label: Email Template List
+      url: "/marketing/email-template-list.html"
+    - label: Configuring Email Communications
+      url: "/system/email-communications.html"
     - label: Email Reminders
       url: "/marketing/email-reminder-rules.html"
       edition: ee-only
@@ -188,10 +185,6 @@ pages:
         url: "/marketing/email-reminder-rules-configure.html"
       - label: Email Reminder Templates
         url: "/marketing/email-reminder-templates.html"
-    - label: Email Template List
-      url: "/marketing/email-template-list.html"
-    - label: Configuring Email Communications
-      url: "/system/email-communications.html"
   - label: Sales Documents
     url: "/marketing/sales-communications.html"
     children:
