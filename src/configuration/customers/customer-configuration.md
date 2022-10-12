@@ -155,9 +155,10 @@ _[Store Credit Options]({% link customers/credit-configure.md %})_
 ![]({% link configuration/customers/assets/customer-configuration-customer-segments.png %}){: .zoom}
 _[Customer Segments]({% link marketing/customer-segments.md %})_
 
-|Template|[Scope]({% link configuration/scope.md %})|Description|
-|--- |--- |--- |
-|Enable Customer Segment Functionality|Global|Determines if customer segments can be used to create targeted promotions. Options: Yes / No|
+|Template|[Scope]({% link configuration/scope.md %})| Description                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|--- |--- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Enable Customer Segment Functionality|Global| Determines if customer segments can be used to create targeted promotions. Options: Yes / No                                                                                                                                                                                                                                                                                                                                                  |
+|Real-time Check if Customer is Matched by Segment|Global| Determines if customer segments are validated in real-time or not. Options: <br/>**Yes** - Customer segments are validated in real-time. It is default value. <br/>**No** - Customer segments are validated by a single combined condition SQL query. It improves performance of segments validation if there are many customers segments in the system. But it does not work with split database and when there are no registered customers. |
 
 ## CAPTCHA
 
