@@ -56,7 +56,7 @@ You also specify the currencies that you accept and which currency you want to u
 
    {:.bs-callout-warning}
    Starting with the 2.4.6 release [Fixer.io](https://fixer.io/) service will be deprecated and substituted by the [Fixer Api (APILayer)](https://apilayer.com/) service. It is highly recommended to use new APILayer account instead of deprecated Fixer.io account.
-   
+
    - To connect to the [Fixer.io service](https://fixer.io/):
 
       - Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Fixer.io (legacy)** section.
