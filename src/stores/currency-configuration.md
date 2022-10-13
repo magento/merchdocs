@@ -48,22 +48,36 @@ You also specify the currencies that you accept and which currency you want to u
 
 1. Scroll to the top of the page.
 
-1. In the left panel, expand **General** and choose **Currency Setup**.
+2. In the left panel, expand **General** and choose **Currency Setup**.
 
-1. Configure your currency service connection:
+3. Configure your currency service connection:
 
-   There are two service options: _fixer.io_ and _Currency Converter API_
+   There are three service options: _Fixer.io (legacy)_, _Fixer Api (APILayer)_ and _Currency Converter API_
 
-   - To connect to the [fixer.io service](https://fixer.io/):
+   {:.bs-callout-warning}
+   Starting with the 2.4.6 release [Fixer.io](https://fixer.io/) service will be deprecated and substituted by the [Fixer Api (APILayer)](https://apilayer.com/) service. It is highly recommended to use new APILayer account instead of deprecated Fixer.io account.
+   
+   - To connect to the [Fixer.io service](https://fixer.io/):
 
-      - Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Fixer.io** section.
+      - Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Fixer.io (legacy)** section.
 
       - Enter your fixer.io **API key**.
 
       - For **Connection Timeout in Seconds**, enter the number of seconds of inactivity to allow before the connection times out.
 
       ![General configuration - currency setup - Fixer.io options]({% link stores/assets/config-general-currency-setup-fixerio.png %}){: .zoom}
-      _Fixer.io_
+      _Fixer.io (legacy)_
+
+   - To connect to the [Fixer Api (APILayer) service](https://apilayer.com/):
+
+       - Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Fixer Api (APILayer)** section.
+
+       - Enter your APILayer **API key**.
+
+       - For **Connection Timeout in Seconds**, enter the number of seconds of inactivity to allow before the connection times out.
+
+     ![General configuration - currency setup - Fixer API (APILayer) options]({% link stores/assets/config-general-currency-setup-fixer-api.png %}){: .zoom}
+     _Fixer Api (APILayer)_
 
    - To connect to the [Currency Convertor API service](https://free.currencyconverterapi.com/):
 
@@ -87,7 +101,7 @@ You also specify the currencies that you accept and which currency you want to u
 
 1. Set the update options:
 
-   - **Service** — Set to the rate provider. The default value is `Fixer.io`.
+   - **Service** — Set to the rate provider. The default value is `Fixer.io (legacy)`.
 
    - **Start Time** — Set to the hour, minute, and second that the rates will be updated according to the schedule.
 
