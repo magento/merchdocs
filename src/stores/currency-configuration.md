@@ -48,9 +48,9 @@ You also specify the currencies that you accept and which currency you want to u
 
 1. Scroll to the top of the page.
 
-2. In the left panel, expand **General** and choose **Currency Setup**.
+1. In the left panel, expand **General** and choose **Currency Setup**.
 
-3. Configure your currency service connection:
+1. Configure your currency service connection:
 
    There are three service options: _Fixer.io (legacy)_, _Fixer Api (APILayer)_ and _Currency Converter API_
 

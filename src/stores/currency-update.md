@@ -21,20 +21,20 @@ _Updating Currency Rates_
 
 1. On the _Admin_ sidebar, go to **Stores** > _Currency_ > **Currency Rates**.
 
-2. Set **Import Service** to the currency rate provider.
+1. Set **Import Service** to the currency rate provider.
 
    The default provider is fixer.io (legacy).
 
    {:.bs-callout-warning}
    Starting with the 2.4.6 release [Fixer.io](https://fixer.io/) service will be deprecated and substituted by the [Fixer Api (APILayer)](https://apilayer.com/) service. It is highly recommended to use new APILayer account instead of deprecated Fixer.io account.
 
-4. Click **Import**.
+1. Click **Import**.
 
    The updated rates appear in the Currency Rates list. If the rates have changed since the last update, the old rate appears below for reference.
 
-5. When complete, click <span class="btn">Save Currency Rates</span>.
+1. When complete, click <span class="btn">Save Currency Rates</span>.
 
-6. When prompted to update the cache, click the **Cache Management** link. Then, refresh the invalid cache.
+1. When prompted to update the cache, click the **Cache Management** link. Then, refresh the invalid cache.
 
    ![System message - refresh the invalid cache]({% link stores/assets/currency-cache-update.png %}){: .zoom}
    _Refresh Invalid Caches_
