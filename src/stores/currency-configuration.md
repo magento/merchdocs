@@ -70,11 +70,11 @@ You also specify the currencies that you accept and which currency you want to u
 
    - To connect to the [Fixer Api (APILayer) service](https://apilayer.com/):
 
-       - Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Fixer Api (APILayer)** section.
+      - Expand ![Expansion selector]({% link assets/icon-display-expand.png %}) the **Fixer Api (APILayer)** section.
 
-       - Enter your APILayer **API key**.
+      - Enter your APILayer **API key**.
 
-       - For **Connection Timeout in Seconds**, enter the number of seconds of inactivity to allow before the connection times out.
+      - For **Connection Timeout in Seconds**, enter the number of seconds of inactivity to allow before the connection times out.
 
      ![General configuration - currency setup - Fixer API (APILayer) options]({% link stores/assets/config-general-currency-setup-fixer-api.png %}){: .zoom}
      _Fixer Api (APILayer)_
