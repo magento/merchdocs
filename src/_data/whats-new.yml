@@ -5,7 +5,7 @@ description: This page contains recent changes that we think you'd like to know 
   list.
 link: "/getting-started/whats-new.html"
 thread: "/whatsnew-feed.xml"
-updated: Mon Oct 10 14:28:35 2022
+updated: Mon Oct 17 14:28:44 2022
 entries:
 - description: Updated the [Web API](https://docs.magento.com/user-guide/configuration/services/magento-web-api.html)
     topic to include new sections for JWT authentication and input limits.
