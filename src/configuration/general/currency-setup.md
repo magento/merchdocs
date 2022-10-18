@@ -21,7 +21,7 @@ _Currency Options configuration settings_
 ## Fixer.io (legacy)
 
 {:.bs-callout-warning}
-Starting with the 2.4.6 release [Fixer.io](https://fixer.io/) service will be deprecated and substituted by the [Fixer Api (APILayer)](https://apilayer.com/) service. It is highly recommended to use new APILayer account instead of deprecated Fixer.io account.
+Starting with the 2.4.6 release, the [Fixer.io](https://fixer.io/) service is deprecated and replaced with the [Fixer API (APILayer)](https://apilayer.com/marketplace/fixer-api) service. It is highly recommended that you use an APILayer account instead of a deprecated Fixer.io account.
 
 ![Currency Setup > Fixer.io]({% link configuration/general/assets/currency-setup-fixer.png %}){: .zoom}
 _Fixer.io configuration settings_
@@ -39,7 +39,7 @@ _Fixer Api (APILayer) configuration settings_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |API key|Global|The key used to access the conversion service through your APILayer account. For more information, see [APILayer](https://apilayer.com/).|
-|Connection Timeout in Seconds|Global|Determines the number of seconds of inactivity before a APILayer session times out. Default value is 100.|
+|Connection Timeout in Seconds|Global|Determines the number of seconds of inactivity before an APILayer session times out. Default value is 100.|
 
 ## Currency Converter API
 

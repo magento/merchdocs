@@ -52,10 +52,10 @@ You also specify the currencies that you accept and which currency you want to u
 
 1. Configure your currency service connection:
 
-   There are three service options: _Fixer.io (legacy)_, _Fixer Api (APILayer)_ and _Currency Converter API_
+   There are three service options: _Fixer.io (legacy)_, _Fixer Api (APILayer)_, and _Currency Converter API_
 
    {:.bs-callout-warning}
-   Starting with the 2.4.6 release [Fixer.io](https://fixer.io/) service will be deprecated and substituted by the [Fixer Api (APILayer)](https://apilayer.com/) service. It is highly recommended to use new APILayer account instead of deprecated Fixer.io account.
+   Starting with the 2.4.6 release, the [Fixer.io](https://fixer.io/) service is deprecated and replaced with the [Fixer API (APILayer)](https://apilayer.com/marketplace/fixer-api) service. It is highly recommended that you use an APILayer account instead of a deprecated Fixer.io account.
 
    - To connect to the [Fixer.io service](https://fixer.io/):
 

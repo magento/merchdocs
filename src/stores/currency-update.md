@@ -26,7 +26,7 @@ _Updating Currency Rates_
    The default provider is fixer.io (legacy).
 
    {:.bs-callout-warning}
-   Starting with the 2.4.6 release [Fixer.io](https://fixer.io/) service will be deprecated and substituted by the [Fixer Api (APILayer)](https://apilayer.com/) service. It is highly recommended to use new APILayer account instead of deprecated Fixer.io account.
+   Starting with the 2.4.6 release, the [Fixer.io](https://fixer.io/) service is deprecated and replaced with the [Fixer API (APILayer)](https://apilayer.com/marketplace/fixer-api) service. It is highly recommended that you use an APILayer account instead of a deprecated Fixer.io account.
 
 1. Click **Import**.
 
