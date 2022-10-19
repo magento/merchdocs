@@ -23,7 +23,10 @@ _Updating Currency Rates_
 
 1. Set **Import Service** to the currency rate provider.
 
-   The default provider is fixer.io.
+   The default provider is fixer.io (legacy).
+
+   {:.bs-callout-warning}
+   Starting with the 2.4.6 release, the [Fixer.io](https://fixer.io/) service is deprecated and replaced with the [Fixer API (APILayer)](https://apilayer.com/marketplace/fixer-api) service. It is highly recommended that you use an APILayer account instead of a deprecated Fixer.io account.
 
 1. Click **Import**.
 

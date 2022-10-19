@@ -18,7 +18,10 @@ _Currency Options configuration settings_
 |Default Display Currency|Store View|The primary currency used to display prices.|
 |Allowed Currencies|Store View|The currencies accepted by your store for payment.|
 
-## Fixer.io
+## Fixer.io (legacy)
+
+{:.bs-callout-warning}
+Starting with the 2.4.6 release, the [Fixer.io](https://fixer.io/) service is deprecated and replaced with the [Fixer API (APILayer)](https://apilayer.com/marketplace/fixer-api) service. It is highly recommended that you use an APILayer account instead of a deprecated Fixer.io account.
 
 ![Currency Setup > Fixer.io]({% link configuration/general/assets/currency-setup-fixer.png %}){: .zoom}
 _Fixer.io configuration settings_
@@ -27,6 +30,16 @@ _Fixer.io configuration settings_
 |--- |--- |--- |
 |API key|Global|The key used to access the conversion service through your fixer.io account. For more information, see [fixer.io](https://fixer.io/).|
 |Connection Timeout in Seconds|Global|Determines the number of seconds of inactivity before a Fixer.io session times out. Default value is 100.|
+
+## Fixer Api (APILayer)
+
+![Currency Setup > Fixer Api (APILayer)]({% link configuration/general/assets/currency-setup-fixer-api.png %}){: .zoom}
+_Fixer Api (APILayer) configuration settings_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|API key|Global|The key used to access the conversion service through your APILayer account. For more information, see [APILayer](https://apilayer.com/).|
+|Connection Timeout in Seconds|Global|Determines the number of seconds of inactivity before an APILayer session times out. Default value is 100.|
 
 ## Currency Converter API
 
