@@ -1,5 +1,7 @@
 ---
 title: UPS
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups.html
 ---
 
 United Parcel Service offers domestic and international shipping services by land and air to more than 220 countries.

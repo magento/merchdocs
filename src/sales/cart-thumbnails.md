@@ -1,10 +1,12 @@
 ---
 title: Cart Thumbnails
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html#cart-thumbnails
 ---
 
 The thumbnail images displayed in the cart give customers a quick overview of the items they are about to purchase. However, for products with multiple options, the image might not match the variation of the product that is in the cart. If the customer purchases an item in a specific color, ideally, the thumbnail in the cart should match.
 
-The thumbnail image for both grouped and configurable products can be set to display the image from either the “parent” product or from the product variation.
+The thumbnail image for both grouped and configurable products can be set to display the image from either the "parent" product or from the product variation.
 
 ![The shopping cart displays thumbnail images for each of the added products]({% link sales/assets/storefront-cart.png %}){: .zoom}
 _Thumbnail images displayed in the cart_

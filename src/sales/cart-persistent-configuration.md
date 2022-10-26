@@ -1,5 +1,7 @@
 ---
 title: Configuring a Persistent Cart
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent.html#configure-a-persistent-cart
 ---
 
 During the setup of a persistent shopping cart, you can specify the lifetime of the cookies, and which options you want to make available for various customer activities.

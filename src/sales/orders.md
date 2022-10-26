@@ -1,5 +1,7 @@
 ---
 title: Orders
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html
 ---
 
 The _Orders_ grid lists all current orders and tracks their progress and [order status]({% link sales/order-status.md %}) through the [workflow]({% link sales/order-workflow.md %}). An easy way to understand the basic process is that an order becomes an [invoice]({% link sales/invoices.md %}), and an invoice becomes a [shipment]({% link sales/shipments.md %}). The grid represents the first stage of the process, and is where you can [update]({% link sales/order-update.md %}) existing orders and create new orders.

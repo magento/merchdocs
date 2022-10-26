@@ -1,5 +1,7 @@
 ---
 title: Label Packages
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-labels/shipping-label-create.html#create-packages
 ---
 
 The Create Packages window appears when you choose to create a shipping label. You can start configuring the first package immediately.

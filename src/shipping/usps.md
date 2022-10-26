@@ -1,5 +1,7 @@
 ---
 title: USPS
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps.html
 ---
 
 The United States Postal Service is the independent postal service of United States government, offering domestic and international shipping services by land and air.

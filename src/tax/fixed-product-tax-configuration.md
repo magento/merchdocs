@@ -1,10 +1,12 @@
 ---
 title: Configuring FPT
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/fixed-product-tax.html#configure-fpt
 ---
 
 The Fixed Product Tax [input type]({% link stores/attributes-input-types.md %}) creates a section of fields for managing tax for each region.
 
-The following instructions show how to set up a fixed product tax for your store, using “eco tax” as an example. After setting the scope for the tax and the countries and states where the tax applies, and depending on the options you choose, the input fields can change according to the local requirements. To learn more, see [Creating Attributes]({% link stores/attribute-product-create.md %}).
+The following instructions show how to set up a fixed product tax for your store, using "eco tax" as an example. After setting the scope for the tax and the countries and states where the tax applies, and depending on the options you choose, the input fields can change according to the local requirements. To learn more, see [Creating Attributes]({% link stores/attribute-product-create.md %}).
 
 ## Step 1: Enable fixed product tax
 

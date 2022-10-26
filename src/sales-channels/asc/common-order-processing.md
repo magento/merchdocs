@@ -22,7 +22,7 @@ Common Commerce [order processing]({% link sales/order-processing.md %}) tasks i
 - [Order Actions]({% link sales/order-actions.md %})
 - [Order Search]({% link sales/orders-search.md %})
 - [Process an Order]({% link sales/order-processing.md %})
-   - [View an Order]({% link sales/order-processing.md %}#view-an-order)
+   - [View an Order]({% link sales/order-processing.md %})
    - [Process an Order]({% link sales/order-processing.md %}#process-an-order)
    - [Order and Account Information]({% link sales/order-processing.md %}#order-and-account-information)
    - [Address Information]({% link sales/order-processing.md %}#address-information)

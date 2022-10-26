@@ -1,8 +1,10 @@
 ---
 title: Tax Rules
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-rules.html
 ---
 
-Tax rules incorporate a combination of product class, customer class and tax rate. Each customer is assigned to a customer class, and each product is assigned a product class. Commerce analyzes the shopping cart of each customer and calculates the appropriate tax according to the customer and product classes, and the region (based on the customer’s shipping address, billing address or shipping origin).
+Tax rules incorporate a combination of product class, customer class and tax rate. Each customer is assigned to a customer class, and each product is assigned a product class. Commerce analyzes the shopping cart of each customer and calculates the appropriate tax according to the customer and product classes, and the region (based on the customer's shipping address, billing address or shipping origin).
 
 {:.bs-callout-info}
 When numerous taxes must be defined, you can simplify the process by importing them.

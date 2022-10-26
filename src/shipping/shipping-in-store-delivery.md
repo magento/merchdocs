@@ -1,5 +1,7 @@
 ---
 title: In-store Delivery
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery.html
 ---
 
 With the in-store delivery method, the customer can select a source to be used as a pickup location during the checkout.

@@ -1,5 +1,7 @@
 ---
 title: Updating an Order
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html
 ---
 
 When helping a customer who has placed an order, you need to determine the status of the order. The available options for a `Pending` order are different than the options for a `Processing` order. For more information, see [Processing an Order]({% link sales/order-processing.md %}).

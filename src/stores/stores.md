@@ -20,8 +20,8 @@ sections:
  - title: Attributes
    content: Learn how to create and manage the pieces of information that are used in product descriptions.
    url: /stores/attributes.html
-redirect_from:
-  - /stores/x-stores.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html
 ---
 
 This section demonstrates how to set up a store hierarchy, create attributes, and manage the settings used by each store to calculate taxes, and currency rates.

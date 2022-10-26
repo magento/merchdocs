@@ -1,9 +1,7 @@
 ---
 title: PayPal Payment Solutions
-redirect_from:
-  - /payment/paypal-all-in-one.html
-  - /payment/paypal-business-account.html
-  - /payment/paypal-payment-solutions.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal.html
 ---
 
 {:.bs-callout-warning}

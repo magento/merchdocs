@@ -1,5 +1,7 @@
 ---
 title: International Tax Guidelines
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/international-tax-guidelines.html
 ---
 
 ## U.S. tax configuration
