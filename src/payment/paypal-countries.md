@@ -1,5 +1,7 @@
 ---
 title: PayPal Solutions by Country
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal.html#paypal-solutions-by-country
 ---
 
 |Country|PayPal payment solution|

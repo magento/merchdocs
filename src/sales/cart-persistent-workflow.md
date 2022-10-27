@@ -1,8 +1,10 @@
 ---
 title: Persistent Cart Workflow
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent.html#persistent-cart-workflow
 ---
 
-When Persistent Shopping Cart is [enabled]({% link sales/cart-persistent-configuration.md %}), the workflow depends on the values of the _Enable Remember Me_ and _Clear Persistence on Log Out_ settings, the customer’s decision to select or clear the _Remember Me_ checkbox, and when the persistent cookie is cleared.
+When Persistent Shopping Cart is [enabled]({% link sales/cart-persistent-configuration.md %}), the workflow depends on the values of the _Enable Remember Me_ and _Clear Persistence on Log Out_ settings, the customer's decision to select or clear the _Remember Me_ checkbox, and when the persistent cookie is cleared.
 
 When a persistent cookie is applied, a `Not Jane Smith?` link appears in the page header, to give the customer the ability to terminate the persistent session and start working as a guest, or log in as a different customer. The system retains a record of the shopping cart contents, even if the customer later uses different devices to shop in your store. For example, a customer can add an item to the shopping cart from a laptop, edit the cart contents from a desktop computer, add more items from a mobile device, and complete the checkout process from a tablet.
 

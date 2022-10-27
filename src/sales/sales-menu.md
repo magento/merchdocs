@@ -1,5 +1,7 @@
 ---
 title: Sales Menu
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/sales-menu.html
 ---
 
 The Sales menu lists transactions according to where they are in the order workflow. You might think of each of option as a different stage in the lifetime of an order.

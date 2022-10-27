@@ -1,5 +1,7 @@
 ---
 title: Braintree
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/braintree.html
 ---
 
 Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system.

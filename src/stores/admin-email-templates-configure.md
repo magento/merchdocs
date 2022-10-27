@@ -1,6 +1,6 @@
 ---
 title: Admin User Email
-group: marketing
+group: operations
 ---
 
 The Admin email template configuration determines the email templates that are sent when users forget and reset their passwords, the store contact that appears as the sender of the message, and how long the password recovery link remains valid.

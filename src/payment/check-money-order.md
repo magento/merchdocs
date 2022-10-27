@@ -1,5 +1,7 @@
 ---
 title: Check / Money Order
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/offline/check-money-order.html
 ---
 
 Adobe Commerce and Magento Open Source allow you to accept payments by check or money order. The Check / Money Order payment method is enabled for your store by default. You can accept checks and money orders only from specific countries, and you can fine tune the configuration with minimum and maximum order total limits.

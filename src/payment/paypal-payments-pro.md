@@ -1,5 +1,7 @@
 ---
 title: PayPal Payments Pro
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-payments-pro.html
 ---
 
 [PayPal Payments Pro][3] brings you all the benefits of a merchant account and payment gateway in one, plus the ability to create your own, fully customized checkout experience. PayPal Express Checkout is automatically enabled with PayPal Payments Pro, so you can tap into more than 110 million active PayPal users.

@@ -1,5 +1,7 @@
 ---
 title: Configuring Shipping Labels
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-labels/shipping-label-configure.html
 ---
 
 The following settings must be made at the product level, as well as in the configuration of each carrier that is used to print labels. To print labels, all carriers require that you open an account. Then, complete the configuration in your store for each carrier that you plan to use.

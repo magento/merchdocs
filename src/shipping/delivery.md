@@ -1,28 +1,7 @@
 ---
 title: Delivery
-redirect_from:
-  - /shipping/magento-shipping-attributes.html
-  - /shipping/magento-shipping-batch-create.html
-  - /shipping/magento-shipping-carriers.html
-  - /shipping/magento-shipping-click-collect.html
-  - /shipping/magento-shipping-collection-points.html
-  - /shipping/magento-shipping-countries.html
-  - /shipping/magento-shipping-customer-experience.html
-  - /shipping/magento-shipping-experience-rules.html
-  - /shipping/magento-shipping-experience.html
-  - /shipping/magento-shipping-international.html
-  - /shipping/magento-shipping-locations.html
-  - /shipping/magento-shipping-packaging.html
-  - /shipping/magento-shipping-pre-packaged.html
-  - /shipping/magento-shipping-preview-experience.html
-  - /shipping/magento-shipping-quick-look.html
-  - /shipping/magento-shipping-setup.html
-  - /shipping/magento-shipping-troubleshooting.html
-  - /shipping/magento-shipping.html
-  - /sales/dispatches.html
-  - /sales/batches.html
-  - /catalog/product-shipping.html
-  - /shipping/shipping.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/delivery.html
 
 sections:
  - title: Shipping Settings

@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Gift Wrap
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html#gift-wrap
 ---
 
 Gift wrapping is available for any product that can be shipped, and can be offered for individual items or for the entire order. You can charge a separate price for each gift wrap design, and upload a thumbnail image for each design that appears as an option for a product in the cart. When a customer clicks the gift wrap thumbnail, a full-size image appears. During checkout review, the gift wrap charge appears with the other [checkout totals]({% link sales/checkout-totals-sort-order.md %}) in the _Order Summary_ section.

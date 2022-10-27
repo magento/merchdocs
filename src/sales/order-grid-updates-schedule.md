@@ -1,5 +1,7 @@
 ---
 title: Scheduled Grid Updates
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-scheduled-operations.html#enable-scheduled-grid-updates-and-reindexing
 ---
 
 The Grid Settings configuration schedules updates to the following order management grids, and reindexes the data as scheduled by [Cron:]({% link system/cron.md %})

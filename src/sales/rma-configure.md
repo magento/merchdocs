@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Configuring Returns
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/returns/rma-configure.html
 ---
 
 When enabled, RMA requests can be submitted by customers from the storefront. An RMA can be generated only if there is an item in the order that is available for return. Requests to return individual items are managed by the _Enable RMA_ attribute in each product record. By default, the configuration settings are applied to the product (_Use Config Settings_ is selected). If _Enable RMA_ is set to `No`, the product does not appear in the list of items that are available for return. If you change the _Enable RMA_ setting, it applies to both new and existing orders.

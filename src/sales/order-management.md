@@ -29,6 +29,8 @@ sections:
    content: The Transactions grid lists all payment activity that has taken place between your store and a payment system, and provides access to more detailed information.
    url: /sales/transactions.html
 
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html#order-management-and-operations
 ---
 
 This section describes the stages of the order workflow and how to process orders, create invoices, and shipments. It also explains how to issue credit memos and set up billing agreements.

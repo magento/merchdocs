@@ -1,5 +1,7 @@
 ---
 title: EU Place of Supply for Digital Goods
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html#place-of-supply-for-digital-goods-(eu)
 ---
 
 European Union (EU) merchants must report their digital goods sold by quarter to each member country. Digital goods are taxed based on the customer's shipping address. The law requires merchants to run a tax report and identify the relevant tax amounts for digital goods, as opposed to physical goods.

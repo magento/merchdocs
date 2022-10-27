@@ -1,6 +1,8 @@
 ---
 title: Translating Products
 group: operations
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-localize.html#localize-products
 ---
 
 If your store has multiple views in different languages, the same products are available in each store view. You can use the same basic product information, such as SKU, price, and inventory level, regardless of language. Then, translate only the product name, description fields, and meta data as needed for each language.

@@ -1,8 +1,7 @@
 ---
 title: Fraud Protection
-redirect_from:
-  - /sales/fraud-protection-signifyd.html
-  - /configuration/sales/fraud-protection.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html#fraud-protection
 ---
 
 Fraud protection services and filters examine submitted orders before the transaction is processed to detect fraudulent orders and protect you from the expense of chargebacks. Adobe Commerce and Magento Open Source support the following fraud protection solutions:

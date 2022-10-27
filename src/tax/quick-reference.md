@@ -1,5 +1,7 @@
 ---
 title: Tax Quick Reference
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html#quick-reference
 ---
 
 Some tax settings have a choice of options that determines the way the tax is calculated and presented to the customer. For more information, see [International Tax Guidelines]({% link tax/international-tax-guidelines.md %}).
