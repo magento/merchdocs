@@ -1,6 +1,8 @@
 ---
 title: Dynamic Media URLs
 group: marketing
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/storage/catalog-urls-dynamic-media.html
 ---
 
 A dynamic media URL is a relative reference to an image or other media asset. When enabled, dynamic media URLs can be used to link directly to assets on your server, or to files stored on a [content delivery network]({% link system/media-storage-content-delivery-network.md %}). The use of dynamic media URLs can impact catalog performance, and the [editor]({% link cms/editor-configure.md %}) can be configured to use either static or dynamic media URLs.

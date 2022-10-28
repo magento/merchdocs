@@ -1,8 +1,10 @@
 ---
 title: Google reCAPTCHA
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/captcha/security-google-recaptcha.html
 ---
 
-Google reCAPTCHA ensures that a human being, rather than a computer (or "bot"), is interacting with your website. Unlike the standard Adobe Commerce and Magento Open Source[CAPTCHA]({% link stores/security-captcha.md %}), Google reCAPTCHA provides enhanced security with a selection of different display options and methods. Additional website traffic information is available in the dashboard of your Google reCAPTCHA account.
+Google reCAPTCHA ensures that a human being, rather than a computer (or "bot"), is interacting with your website. Unlike the standard Adobe Commerce and Magento Open Source[CAPTCHA]({% link stores/security-captcha.md %}), Google reCAPTCHA provides enhanced security with a selection of different display options and methods. Additional website traffic information is available in  the dashboard of your Google reCAPTCHA account.
 
 Google reCAPTCHA is configured separately for the Admin and storefront.
 

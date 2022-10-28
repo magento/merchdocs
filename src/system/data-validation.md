@@ -1,5 +1,7 @@
 ---
 title: Data Validation
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-transfer.html#data-validation
 ---
 
 All data must pass validation before it can be imported into the store, to ensure that the values are consistent with the system database. Validation begins when you tap the Check Data button. During the process, all entities in the import file are verified for the following:

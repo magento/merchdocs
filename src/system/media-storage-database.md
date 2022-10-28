@@ -1,6 +1,8 @@
 ---
 title: Using a Media Database
 group: content
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/storage/media-storage-database.html
 ---
 
 {:.bs-callout-warning}

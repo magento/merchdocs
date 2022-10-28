@@ -1,5 +1,7 @@
 ---
 title: Security
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security.html
 ---
 
 In this section of the guide, you learn how to manage _Admin_ sessions and credentials, set up [two-factor authentication]({% link stores/security-two-factor-authentication.md %}), implement [CAPTCHA]({% link stores/security-captcha.md %}), and more.

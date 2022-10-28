@@ -1,5 +1,7 @@
 ---
 title: Importing Downloadable Products
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/examples/data-transfer-downloadable-products.html
 ---
 
 The flow for importing downloadable products is the same as for [Bundle Products]({% link system/data-transfer-bundle-products.md %}) or [Configurable Products]({% link system/data-transfer-configurable-products.md %}). The difference is that a downloadable product has [downloadable links]({% link catalog/product-create-downloadable.md%}) and [downloadable samples]({% link catalog/product-create-downloadable.md%}) with its images.

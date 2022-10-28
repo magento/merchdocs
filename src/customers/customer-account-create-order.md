@@ -92,7 +92,7 @@ You can transfer items to the cart from a customer's wish list, as well as recen
    - Order Comments
 
 {: .bs-callout-info}
-See the [Payment Services Guide](https://experienceleague.corp.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) for more information about payment methods to support this functionality when the Payment Services extension is installed and configured.
+See the [Payment Services Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) for more information about payment methods to support this functionality when the Payment Services extension is installed and configured.
 
 ## Step 3: Submit the order
 

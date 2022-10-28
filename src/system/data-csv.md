@@ -1,5 +1,7 @@
 ---
 title: Working with CSV Files
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-csv.html
 ---
 
 The comma-separated-value (CSV) file format is used as the basis of data transfer operations, and is supported by all spreadsheet and database applications. The following file types are supported for import and export:

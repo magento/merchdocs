@@ -11,7 +11,7 @@ sections:
     url: /catalog/product-types.html
 
   - title: Categories
-    content: Learn how to organize your catalog into categories that are reflected in your store’s navigation.
+    content: Learn how to organize your catalog into categories that are reflected in your store's navigation.
     url: /catalog/categories.html
 
   - title: Product Attributes
@@ -26,6 +26,8 @@ sections:
     content: Learn how to upload images and video, rearrange their order, and control how each of them is used.
     url: /catalog/catalog-images-video.html
 
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/introduction.html
 ---
 
 One of the most important areas in creating and managing your store is product creation, category, and inventory management. The Admin provides a number of tools you will use for the initial setup for your store, as well as maintaining your store and optimizing your business.
