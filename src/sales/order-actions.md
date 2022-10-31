@@ -1,5 +1,7 @@
 ---
 title: Order Actions
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#actions
 ---
 
 To apply an action to specific orders, mark the checkbox in the first column of each order. To select or deselect all orders, use the control at the top of the column.

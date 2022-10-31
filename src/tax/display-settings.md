@@ -1,5 +1,7 @@
 ---
 title: Price Display Settings
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/display-settings.html
 ---
 
 The price display settings determine if product and shipping prices include or exclude tax, or show two versions of the price; one with, and the other without tax.

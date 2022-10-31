@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: RMA Lifecycle
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/returns/returns.html#rma-and-return-workflow
 ---
 
 During its lifecycle, a returned merchandise authorization (RMA) can have many assigned statuses (such as Pending, Authorized, etc.). The RMA status indicates the progress of an RMA request raised by the user or the merchant.

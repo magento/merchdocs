@@ -1,8 +1,7 @@
 ---
 title: Online Payment Methods
-redirect_from:
-  - /payment/recommended-solutions.html
-  - /payment/gateways.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html#online-payment-methods
 ---
 
 Adobe Commerce and Magento Open Source support numerous payment solutions that offer merchant services in all parts of the world. Unlike some payment solutions that transfer control to another site to complete the transaction, a payment gateway makes it possible for you to accept credit card payments directly from your store without the customer leaving your site.

@@ -1,9 +1,7 @@
 ---
 title: Checkout
-redirect_from:
-  - /sales/checkout-step1-shipping.html
-  - /sales/checkout-step2-payment-review.html
-  - /sales/checkout-order-confirmation.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process.html
 ---
 
 When the checkout process begins, the transaction shifts to a secure, encrypted channel. A padlock symbol appears in the address bar of the browser, and the URL changes from `http` to `https`.

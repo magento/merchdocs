@@ -1,5 +1,7 @@
 ---
 title: Payment Failed Email
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails.html
 ---
 
 A notification is sent to the store contact or a designated Admin user if the payment method selected during checkout fails to complete the transaction.

@@ -1,5 +1,7 @@
 ---
 title: Zero Subtotal Checkout
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/offline/zero-subtotal-checkout.html
 ---
 
 Zero Subtotal Checkout can be used for orders with a subtotal of zero that are taxed after a discount is applied. For example, Zero Subtotal Checkout might be used in the following situations:

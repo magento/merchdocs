@@ -9,7 +9,7 @@ Any actions taken while logged in as the customer are applied to the actual cust
 When it is enabled for an _Admin_ user, the Login as Customer button will appear in multiple pages:
 
 * [Customer Edit page]({% link customers/customer-account-update.md %})
-* [Order View page]({% link sales/order-processing.md %}#view-an-order)
+* [Order View page]({% link sales/order-processing.md %})
 * [Invoice View page]({% link sales/invoice-create.md %})
 * [Shipment View page]({% link sales/shipments-create.md %})
 * [Credit Memo View page]({% link sales/credit-memo-create.md %})

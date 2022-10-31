@@ -1,5 +1,7 @@
 ---
 title: Shipping Settings
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html
 ---
 
 The shipping configuration establishes the point of origin for all shipments, your shipping policy, and the handling of shipments to multiple addresses.

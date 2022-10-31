@@ -1,5 +1,7 @@
 ---
 title: Orders Workspace
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#orders-workspace
 ---
 
 The Orders workspace lists all current orders, and gives you the ability to edit existing orders and [create new]({% link customers/customer-account-create-order.md %}) orders. Each row in the grid represents a customer order, and each column represents an attribute, or data field. Use the standard [controls]({% link stores/admin-grid-controls.md %}) to sort and filter the list, find orders, and apply [actions]({% link stores/admin-actions-control.md %}) to selected orders. Use the tabs above the pagination controls to filter the list, change the default view, change and rearrange columns, and export data.

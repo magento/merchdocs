@@ -1,5 +1,7 @@
 ---
 title: Shopping Cart
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart.html
 ---
 
 The cart is positioned at the end of the path to purchase, at the intersection of _Buy_ and _Abandon_, and is one of the most important pages in your store. The cart is where the order total is calculated, along with discount coupons and estimated shipping and tax. It is a great place to show your trust badges and seals, and an ideal opportunity to offer one last item. You can choose the items to be offered as a cross-sell impulse purchase whenever a specific item appears in the cart.

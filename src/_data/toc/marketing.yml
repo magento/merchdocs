@@ -160,8 +160,6 @@ pages:
       children:
       - label: Sales Email
         url: "/marketing/sales-email-configure.html"
-      - label: Admin User Email
-        url: "/stores/admin-email-templates-configure.html"
     - label: Customizing Email Templates
       url: "/marketing/email-template-custom.html"
       children:

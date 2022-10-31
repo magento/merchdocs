@@ -1,5 +1,7 @@
 ---
 title: Configuring VAT ID Validation
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/vat.html#configure-vat-id-validation
 ---
 
 To configure VAT ID validation, you must first set up the customer groups that are needed, and create the related tax classes, rates, and rules. Then, enable VAT ID validation for the store, and complete the configuration.

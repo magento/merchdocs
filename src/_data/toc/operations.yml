@@ -30,8 +30,6 @@ pages:
       children:
       - label: Using a Custom Admin URL
         url: "/stores/store-urls-custom-admin.html"
-  - label: Configuration
-    url: "/stores/configuration-overview.html"
   - label: Taxes
     url: "/tax/taxes.html"
     children:
@@ -63,9 +61,6 @@ pages:
         url: "/tax/display-settings.html"
     - label: Tax Zones and Rates
       url: "/tax/tax-zones-rates.html"
-      children:
-      - label: Import/Export Tax Rates
-        url: "/system/data-transfer-tax-rates.html"
     - label: Value Added Tax (VAT)
       url: "/tax/vat.html"
       children:
@@ -144,6 +139,8 @@ pages:
       children:
       - label: Export Criteria
         url: "/system/data-export-criteria.html"
+    - label: Import/Export Tax Rates
+      url: "/system/data-transfer-tax-rates.html"
     - label: Data Transfer Examples
       url: "/system/data-transfer-examples.html"
       children:
@@ -186,6 +183,8 @@ pages:
       url: "/system/permissions-users-all.html"
     - label: Locked Users
       url: "/system/permissions-locked-users.html"
+    - label: Admin User Email
+      url: "/stores/admin-email-templates-configure.html"
     - label: User Roles
       url: "/system/permissions-user-roles.html"
       children:

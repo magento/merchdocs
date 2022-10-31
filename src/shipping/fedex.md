@@ -1,8 +1,10 @@
 ---
 title: FedEx
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex.html
 ---
 
-FedEx is one of the world’s largest shipping service companies, providing air, freight, and ground shipping services with several levels of priorities.
+FedEx is one of the world's largest shipping service companies, providing air, freight, and ground shipping services with several levels of priorities.
 
 ![]({% link shipping/assets/storefront-checkout-shipping-fedex.png %}){: .zoom}
 *FedEx Shipping Options at Checkout*

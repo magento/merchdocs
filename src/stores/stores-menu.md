@@ -1,5 +1,7 @@
 ---
 title: Stores Menu
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores-menu.html
 ---
 
 The _Stores_ menu manages settings that are used less frequently, but referenced throughout your Adobe Commerce or Magento Open Source installation, including setting up the store hierarchy, configuration, sales and order settings, tax and currency, product attributes, product review ratings, and customer groups.

@@ -1,5 +1,7 @@
 ---
 title: Configuring Tax Classes
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html#configure-tax-classes
 ---
 
 The tax class that is used for shipping, and the default tax classes for [products and customers]({% link tax/tax-class-new.md %}) are set in the Sales configuration.

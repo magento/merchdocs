@@ -12,15 +12,8 @@ sections:
  - title: PCI Compliance
    content: These guidelines outline the requirements set by the Payment Card Industry (PCI) for businesses that accept payment by credit card over the Internet.
    url: /stores/compliance-pci.html
-redirect_from:
-  - /payment/amazon-pay.html
-  - /payment/amazon-pay-setup.html
-  - /payment/amazon-pay-manage.html
-  - /payment/amazon-pay-customer-experience.html
-  - /system/amazon-logs.html
-  - /payment/klarna.html  
-  - /payment/klarna-setup.html
-  - /payment/klarna-customer-experience.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html
 ---
 
 Adobe Commerce and Magento Open Source support a variety of payment methods and services that you can offer for easier checkout and customer convenience.

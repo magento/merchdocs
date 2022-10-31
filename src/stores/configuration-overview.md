@@ -1,5 +1,6 @@
 ---
 title: Configuration
+group: config-ref
 ---
 
 The online [Configuration Reference]({% link stores/configuration.md %}) has field descriptions for every configuration setting in Commerce. To learn how to apply configuration settings to specific store views, see [Configuration Scope]({% link configuration/scope.md %}).
