@@ -1,5 +1,7 @@
 ---
 title: Session Management
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-session-management.html
 ---
 
 [Session management](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) is as anti-denial of service (DoS) best practice for API security. A session represents the amount of time a visitor spends on your site and is not related to how long Admin users or customers are logged in to their accounts.

@@ -1,5 +1,7 @@
 ---
 title: Importing Configurable Products
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/examples/data-transfer-configurable-products.html
 ---
 
 The best way to understand how configurable product data is structured, is to export a configurable product and its variations, and examine the data in a spreadsheet.

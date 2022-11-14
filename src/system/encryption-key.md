@@ -1,5 +1,7 @@
 ---
 title: Encryption Key
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/encryption-key.html
 ---
 
 Adobe Commerce and Magento Open Source use an encryption key to protect passwords and other sensitive data. An industry-standard Advanced Encryption Standard (AES-256) algorithm is used to encrypt all data that requires decryption. This includes credit card data and integration (payment and shipping module) passwords. In addition, a strong Secure Hash Algorithm (SHA-256) is used to hash all data that does not require decryption.

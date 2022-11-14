@@ -1,5 +1,7 @@
 ---
 title: CAPTCHA
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/captcha/security-captcha.html
 ---
 
 A CAPTCHA is a visual device that ensures that a human being, rather than a computer (or "bot"), is interacting with the site. CAPTCHA is an acronym for _Completely Automated Public Turing test to tell Computers and Humans Apart_. It can be used for both Admin access and a variety of storefront actions initiated by registered customers. Adobe Commerce and Magento Open Source support the standard CAPTCHA that is described in this topic and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
@@ -103,7 +105,7 @@ _[Customer CAPTCHA configuration]({% link configuration/customers/customer-confi
    - Set **Displaying Mode** to one of the following:
 
       - `Always` — CAPTCHA is always required to access the selected form(s).
-      - `After number of attempts to login` — Enter the number of login attempts before the CAPTCHA appears. A value of 0 (zero) is similar to “Always.” When selected, the number of unsuccessful login attempts appears. This option does not apply to the Forgot Password form, which if enabled, always display the CAPTCHA.
+      - `After number of attempts to login` — Enter the number of login attempts before the CAPTCHA appears. A value of 0 (zero) is similar to "Always." When selected, the number of unsuccessful login attempts appears. This option does not apply to the Forgot Password form, which if enabled, always display the CAPTCHA.
 
    - In the **Number of Unsuccessful Attempts to Login** field, enter the number of times a customer can log in unsuccessfully before the CAPTCHA appears. If set to zero (`0`), CAPTCHA is always used.
 

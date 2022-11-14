@@ -1,5 +1,7 @@
 ---
 title: Translate Inline
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#translate-inline
 ---
 
 You can use the Translate Inline tool in [developer mode]({% link magento/installation-modes.md %}) to touch up text in the interface to reflect your voice and brand. When the Translate Inline mode is activated, any text on the page that can be edited is outlined in red. It is easy to edit field labels, messages, and other text that appears throughout the storefront and Admin. For example, many themes use terminology such as _My Account_, _My Wishlist_, and _My Dashboard_, to help customers find their way around. However, you might prefer to simply use the words _Account_, _Wishlist_, and _Dashboard_.

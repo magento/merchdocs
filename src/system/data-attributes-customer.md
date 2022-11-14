@@ -1,5 +1,7 @@
 ---
 title: Customer Attribute Reference
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-attributes-customer.html
 ---
 
 The following tables list the attributes from a typical export of the Customers Main File and Customer Addresses. The installation that was used to export this data has two websites and several store views, with the sample data installed.

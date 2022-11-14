@@ -1,8 +1,10 @@
 ---
 title: Developer Client Restrictions
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#client-restrictions
 ---
 
-Before using a tool such as [Template Path Hints]({% link system/template-path-hints.md %}), make sure to add your IP address to the Developer Client Restrictions  allow list to avoid disrupting the shopping experience of customers in the store. If you don’t know your IP address, you can search for it online.
+Before using a tool such as [Template Path Hints]({% link system/template-path-hints.md %}), make sure to add your IP address to the Developer Client Restrictions  allow list to avoid disrupting the shopping experience of customers in the store. If you don't know your IP address, you can search for it online.
 
 {:.bs-callout-info}
 Developer Client Restrictions can be set in [Developer Mode]({% link magento/installation-modes.md %}) only.

@@ -1,5 +1,7 @@
 ---
 title: Cache Management
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html
 ---
 
 The Adobe Commerce and Magento Open Source cache management system provides an easy way to improve the performance of your site. Whenever a cache needs to be refreshed, a notice appears at the top of the workspace to guide you through the process. Follow the link to Cache Management, and refresh the invalid caches.

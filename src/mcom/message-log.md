@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Message Log
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/integrations/mcom.html#message-log
 ---
 
 Message Log enables you to view message processing logs, message history, and full error traces for the Connector.

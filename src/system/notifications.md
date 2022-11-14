@@ -1,5 +1,7 @@
 ---
 title: Notifications
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/notifications.html
 ---
 
 The Notifications page lists all messages ranked by severity, with the most recent at the top. The Action commands can be used to mark individual messages as read, view more detailed information, or to remove the message from the inbox.

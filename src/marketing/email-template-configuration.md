@@ -1,5 +1,7 @@
 ---
 title: Configuring Email Templates
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html#configure-email-templates
 ---
 
 The configuration determines the logo that appears in the default header template, as well as any custom [header]({% link marketing/email-template-header.md -%}) and [footer]({% link marketing/email-template-footer.md -%}) templates that you want to use for transactional email messages sent from your store(s).
