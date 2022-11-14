@@ -1,6 +1,6 @@
 ---
 title: Using Static File Signatures
-   redirect_to:
+redirect_to:
    - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#static-file-signatures
 ---
 

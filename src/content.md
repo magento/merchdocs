@@ -19,6 +19,7 @@ sections:
     url: /cms/content-staging.html
 redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-admin/content-design/introduction.html
+---
 
 Your content defines the pages and elements that customers see when they access your store. You can define basic elements for your pages, such as text and images, as well as more advanced elements that provide interactive and dynamic content to enhance the shopping experience.
 
