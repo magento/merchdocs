@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Integration
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/integrations/mcom.html#integration
 ---
 
 Integration enables you to add or disable the Order Management System (OMS) integration for Adobe Commerce and view details of the integration.

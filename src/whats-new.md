@@ -1,13 +1,15 @@
 ---
-title: What’s New in the User Guide
+title: What's New in the User Guide
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#what%E2%80%99s-new-in-the-merchant-guides
 ---
 
 {% assign whatsnew = site.data.whats-new %}
 
 <a class="btn" href="{{ site.baseurl }}{{ whatsnew.thread }}"><img src="{{ site.baseurl }}/assets/i/icons/rss.svg" /> RSS feed</a>
 <!-- The link enables RSS readers to recognize the whatsnew-feed thread on the page -->
-<link rel="alternate" type="application/atom+xml" title="What’s New in the User Guide" href= "{{ site.baseurl }}{{ whatsnew.thread }}" />
+<link rel="alternate" type="application/atom+xml" title="What's New in the User Guide" href= "{{ site.baseurl }}{{ whatsnew.thread }}" />
 
 {{ whatsnew.description }}
 

@@ -1,7 +1,7 @@
 ---
 title: Import
-redirect_from:
-  - /system/data-import-troubleshooting.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/import/data-import.html
 ---
 
 Data for all product types can be imported into the store. In addition, you can import products, advanced pricing data, customer data, customer address data, and product images. Import supports the following operations:

@@ -1,5 +1,7 @@
 ---
 title: Session Validation
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-session-management.html#session-validation
 ---
 
 Adobe Commerce and Magento Open Source allow you to validate session variables as a protective measure against possible session fixation attacks or attempts to poison or hijack user sessions. The Session Validation Settings determine how session variables are validated during each store visit and if the session ID is included in the URL of the store.

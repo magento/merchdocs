@@ -1,5 +1,7 @@
 ---
 title: Message Templates
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-template-custom.html#message-templates
 ---
 
 The process of customizing the body of each message is the same as for customizing the header or footer. The only difference is the message template for each activity or event that triggers a notification. You can use the templates as they are, or customize them to match your voice and brand. In addition to the template text, there is a wide selection of allowed [predefined]({% link marketing/variables-predefined.md %}) variables and [custom]({% link marketing/variables-custom.md %}) variables that you can create and incorporate into the template.

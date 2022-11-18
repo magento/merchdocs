@@ -1,5 +1,7 @@
 ---
 title: Footer Template
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-template-custom.html#footer-template
 ---
 
 The email template footer contains the closing and signature line of the email message. You can change the closing to fit your style, and add additional information, such as the company name and address below your name.

@@ -1,5 +1,7 @@
 ---
 title: Index Management
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/index-management.html
 ---
 
 Adobe Commerce and Magento Open Source reindex automatically whenever one or more items change. Actions that trigger reindexing include price changes, creating catalog or shopping cart price rules, adding new categories, and so on. To optimize performance, Commerce accumulates data into special tables using indexers. As the data changes, the indexed tables must be updated—or reindexed. Commerce reindexes as a background process, and your store remains accessible during the processes.

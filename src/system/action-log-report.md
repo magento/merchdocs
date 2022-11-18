@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Action Logs Report
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log-report.html
 ---
 
 The Action Logs Report displays a detailed record of all admin actions that are enabled for logging. Each record is time stamped, and records the IP address and name of the user. The log detail includes admin user data and related changes that were made during the action.
