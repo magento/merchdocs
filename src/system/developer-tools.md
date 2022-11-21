@@ -1,5 +1,7 @@
 ---
 title: Developer Tools
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html
 ---
 
 Use the Advanced Developer tools to determine the compilation mode during frontend development, create an allow list of IP addresses, display template path hints, and make spot changes to text in the interface of the storefront and Admin.

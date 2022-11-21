@@ -1,5 +1,7 @@
 ---
 title: Backups
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/backups.html
 ---
 
 Adobe Commerce and Magento Open Source give you the ability to backup different parts of the system—such as the file system, database, and media files—and to roll back automatically. A record for each backup appears in the grid on the Backups page. Deleting a record from the list deletes the archived file as well. Database backup files are compressed using the GZ format. For the system backups and database and media backups, the TGZ format is used. As a best practice, you should restrict access to backup tools, and back up before installing extensions and updates.

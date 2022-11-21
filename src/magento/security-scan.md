@@ -1,6 +1,8 @@
 ---
 title: Security Scan
 group: operations
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-scan.html
 ---
 
 The enhanced security scan allows you to monitor each of your Adobe Commerce and Magento Open Source sites, including PWA, for known security risks and malware, and to receive patch updates and security notifications.

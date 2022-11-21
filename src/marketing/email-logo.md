@@ -1,5 +1,7 @@
 ---
 title: Preparing Your Email Logo
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html#prepare-your-email-logo
 ---
 
 Logos can be saved as any of the following file types. Logos with transparent backgrounds can be saved as either .GIF or .PNG files.

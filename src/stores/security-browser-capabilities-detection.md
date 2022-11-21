@@ -1,11 +1,13 @@
 ---
 title: Browser Capabilities Detection
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-browser-capabilities-detection.html
 ---
 
-Like most websites and applications on the Internet, Adobe Commerce and Magento Open Source require that the visitor’s browser allow both cookies and JavaScript for full operations. However, occasionally a user’s browser is set to the highest privacy setting that prevents both cookies and JavaScript. Your store can be configured to test the capabilities of each visitor’s browser and display a notice if the settings need to be changed.
+Like most websites and applications on the Internet, Adobe Commerce and Magento Open Source require that the visitor's browser allow both cookies and JavaScript for full operations. However, occasionally a user's browser is set to the highest privacy setting that prevents both cookies and JavaScript. Your store can be configured to test the capabilities of each visitor's browser and display a notice if the settings need to be changed.
 
-- If the browser’s privacy settings disallow cookies, you can configure the system to automatically redirect them to the [Enable Cookies]({% link cms/pages-core.md %}) page, which explains how to make the recommended settings with most browsers.
-- If the browser’s privacy settings disallow JavaScript, you can configure the system to display the following message above the header of every page.
+- If the browser's privacy settings disallow cookies, you can configure the system to automatically redirect them to the [Enable Cookies]({% link cms/pages-core.md %}) page, which explains how to make the recommended settings with most browsers.
+- If the browser's privacy settings disallow JavaScript, you can configure the system to display the following message above the header of every page.
 
 For technical information, refer to [Supported browsers]({{ site.devdocs_url }}/guides/v{{ site.version }}/install-gde/system-requirements.html#supported-browsers) in the developer documentation.
 

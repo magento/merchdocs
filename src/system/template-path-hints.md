@@ -1,5 +1,7 @@
 ---
 title: Template Path Hints
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#template-path-hints
 ---
 
 Template Path Hints are a diagnostic tool that adds notation with the path to each template that is used on the page. Template path hints can be enabled for either the storefront or the Admin.
