@@ -33,7 +33,8 @@ sections:
   - title: Advanced
     content: Determines default Admin settings, various system configuration settings, advanced module controls, and developer tools (if the store is running in developer mode).
     url: /configuration/advanced.html
-
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html
 ---
 
 This reference provides field descriptions for every configuration setting in the Admin. To learn how to apply configuration settings to specific store views, see [Configuration Scope]({% link configuration/scope.md %}).  To override the default values of configuration settings, see [Changing Scope]({% link configuration/scope-change.md %}).

@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Gift Registry
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/customers/gift-registry.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Gift Registry

@@ -1,7 +1,7 @@
 ---
 title: Google reCAPTCHA Admin
-redirect_from: 
-  - /configuration/security/google-recaptcha.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/security/google-recaptcha-admin.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Security]({% link configuration/security.md %}) > Google reCAPTCHA Admin Panel

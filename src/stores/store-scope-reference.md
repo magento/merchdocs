@@ -1,6 +1,8 @@
 ---
 title: Scope Quick Reference
 group: config-ref
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html#scope-quick-reference
 ---
 
 |Scope|Description|
