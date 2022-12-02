@@ -1,5 +1,7 @@
 ---
 title: Stored Payment Methods
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/stored-payment-methods.html
 ---
 
 Customers with access to a secure vault for storing payment information can speed through checkout without entering their credit card information each time. If [Instant Purchase]({% link sales/checkout-instant-purchase.md %}) is enabled, customers can bypass the two-step checkout process and place the order from the product page.
