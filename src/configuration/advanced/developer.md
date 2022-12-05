@@ -91,6 +91,9 @@ _Image Processing Settings_
 |--- |--- |--- |
 |Image Adapter|Global|Specifies the adapter that is used to render images. After changing the adapter setting, flush the Catalog Images cache. Options: PHP GD2, ImageMagick|
 
+{:.bs-callout-info}
+ICO file type is supported only by ImageMagik adapter.
+
 ## Caching Settings
 
 ![]({% link configuration/advanced/assets/developer-cache-settings.png %}){: .zoom}
