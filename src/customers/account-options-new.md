@@ -33,6 +33,6 @@ _Create New Account Options_
 
    - Set **Welcome Email** to the template that is used for the Welcome message that is sent after the account is confirmed.
 
-  For detailed information about each of the options available in this configuration option set, see the _Create New Account Options_ [configuration reference]({% link configuration/customers/customer-configuration.md %}#create-new-account-options).
+  For detailed information about each of the options available in this configuration option set, see the _Create New Account Options_ [configuration reference]({% link configuration/customers/customer-configuration.md %}).
 
 1. When complete, click <span class="btn">Save Config</span>.

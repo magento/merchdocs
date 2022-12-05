@@ -1,6 +1,8 @@
 ---
 title: Commerce Modes
 group: config-ref
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes
 ---
 
 Your Commerce installation can be deployed to run in either production or developer mode. Some tools and configuration settings are designed specifically for developers, and can be accessed only while the store is running in developer mode.

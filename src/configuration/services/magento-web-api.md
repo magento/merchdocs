@@ -1,5 +1,7 @@
 ---
 title: Web API
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/services/magento-web-api.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Services]({% link configuration/services.md %}) > Magento Web API

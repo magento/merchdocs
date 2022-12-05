@@ -1,5 +1,7 @@
 ---
 title: Braintree
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/braintree.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Braintree
