@@ -6,7 +6,7 @@ redirect_to:
 
 Customers with access to a secure vault for storing payment information can speed through checkout without entering their credit card information each time. If [Instant Purchase]({% link sales/checkout-instant-purchase.md %}) is enabled, customers can bypass the two-step checkout process and place the order from the product page.
 
-A payment method that supports a secure vault, such as [Braintree]({% link payment/braintree.md %}), is required. When a secure vault is enabled in the payment method configuration, customers will have the option during checkout to save their credit card information as a stored payment method. Customers can manage stored payment methods from their account dashboard.
+A payment method that supports a secure vault, such as [Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) or [Braintree]({% link payment/braintree.md %}), is required. When a secure vault is enabled in the payment method configuration, customers will have the option during checkout to save their credit card information as a stored payment method. Customers can manage stored payment methods from their account dashboard.
 
 ![]({% link customers/assets/customer-account-stored-payment-methods.png %}){: .zoom}
 _Stored Payment Methods_
@@ -21,7 +21,7 @@ _Stored Payment Methods_
 
 1. Completes the **Shipping** step.
 
-1. Selects the **Braintree Credit Card** payment method.
+1. Selects the **Credit card** or **Braintree Credit Card** payment method.
 
 1. Fills in credit card data.
 

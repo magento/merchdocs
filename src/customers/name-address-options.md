@@ -38,7 +38,7 @@ The steps for configuring the name and address options are different for Adobe C
    If you are not using the `Default config` scope setting, you must clear the `Use Default` checkbox for each field before changing the value.
 
    ![]({% link configuration/customers/assets/customer-configuration-name-address-options-ee.png %}){: .zoom}
-   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %}#commerce-options)_
+   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %})_
 
 1. For **Prefix Dropdown Options**, enter each prefix that you want to appear in the list, separated by a semicolon.
 
@@ -76,7 +76,7 @@ _[Customer Account sign up form]({% link configuration/customers/customer-config
    Notice that the scope of the name and address options applies at the `website` level.
 
    ![]({% link configuration/customers/assets/customer-configuration-name-address-options-ce.png %}){: .zoom}
-   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %}#open-source-options)_{:.ce-only}
+   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
 1. Scroll back up to the top of the page and use the selector in the upper-left corner to set the scope of the configuration to one of the following:
 

@@ -1,13 +1,7 @@
 ---
 title: Payment Methods
-redirect_from:
-  - /configuration/sales/worldpay.html
-  - /configuration/sales/eway.html
-  - /configuration/sales/cybersource.html
-  - /configuration/sales/authorize-net.html
-  - /configuration/sales/authorize-net-direct-post.html
-  - /configuration/sales/amazon-pay.html
-  - /configuration/sales/klarna.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Payment Methods

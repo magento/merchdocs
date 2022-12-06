@@ -20,7 +20,7 @@ _My Product Reviews_
 
 ## Add product review from the storefront
 
-When you [enable]({% link configuration/catalog/catalog.md %}#product-reviews) product reviews, In the storefront, a customer can write reviews for any product in your catalog.
+When you [enable]({% link configuration/catalog/catalog.md %}) product reviews, In the storefront, a customer can write reviews for any product in your catalog.
 
 1. On the storefront, the customer opens a product page.
 
