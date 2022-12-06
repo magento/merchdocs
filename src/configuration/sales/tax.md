@@ -1,5 +1,7 @@
 ---
 title: Tax
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/tax.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Tax

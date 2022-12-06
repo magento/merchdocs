@@ -1,8 +1,10 @@
 ---
 title: Changing Scope
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html#set-the-scope
 ---
 
-The Store View chooser in the upper-left corner of many configuration pages filters the view of the page for a specific scope, and also sets the value of some entities that are used by Commerce. It lists each level in the hierarchy by name, and is used to change the scope to another level. Any settings that represent the current scope are grayed out, so only those that represent the current scope setting are available. The scope is initially set to “Default Config”. For Admin users with restricted access, the list of available store views includes only those to which the user has [permission]({% link system/permissions.md %}) to access.
+The Store View chooser in the upper-left corner of many configuration pages filters the view of the page for a specific scope, and also sets the value of some entities that are used by Commerce. It lists each level in the hierarchy by name, and is used to change the scope to another level. Any settings that represent the current scope are grayed out, so only those that represent the current scope setting are available. The scope is initially set to "Default Config". For Admin users with restricted access, the list of available store views includes only those to which the user has [permission]({% link system/permissions.md %}) to access.
 
 ## Use system value
 

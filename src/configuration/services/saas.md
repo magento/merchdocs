@@ -1,5 +1,7 @@
 ---
 title: Commerce Services
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html
 ---
 
 System > [Services]({% link configuration/services.md %}) > Commerce Services Connector

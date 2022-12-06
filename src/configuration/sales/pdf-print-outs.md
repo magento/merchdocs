@@ -1,5 +1,7 @@
 ---
 title: PDF Print-outs
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/pdf-print-outs.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > PDF Print-outs
