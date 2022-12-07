@@ -1,5 +1,7 @@
 ---
 title: My Wish List
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-storefront.html
 ---
 
 A wish list is a convenient way for customers to keep track of products that they like, but are not ready to buy. Items from a wish list can be shared with others or added to the shopping cart. If the customer has multiple wish lists, the name of the current wish list appears at the top of the page.

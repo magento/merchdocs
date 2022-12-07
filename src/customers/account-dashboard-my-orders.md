@@ -1,5 +1,7 @@
 ---
 title: My Orders
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders-storefront.html
 ---
 
 Customers have access to all of their orders from their account. Orders can be viewed, filtered, tracked, and resubmitted as new orders. Depending on the status of the order, customers can print their orders, invoices, shipments, and refund records.
