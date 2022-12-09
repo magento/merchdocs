@@ -1,7 +1,7 @@
 ---
 title: Developer
 redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/advanced/devveloper.html
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/advanced/developer.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Advanced]({% link configuration/advanced.md %}) > Developer
@@ -93,6 +93,9 @@ _Image Processing Settings_
 |--- |--- |--- |
 |Image Adapter|Global|Specifies the adapter that is used to render images. After changing the adapter setting, flush the Catalog Images cache. Options: PHP GD2, ImageMagick|
 
+{:.bs-callout-info}
+ICO file type is supported only by ImageMagik adapter.
+
 ## Caching Settings
 
 ![]({% link configuration/advanced/assets/developer-cache-settings.png %}){: .zoom}
@@ -109,7 +112,7 @@ _Static Files Settings_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Sign Static Files|Global|When enabled, adds a digital signature to the URL of static files to make it possible for browsers to detect when a newer version of the file is available. If a file’s signature differs from what is currently stored in the browser’s cache, then the newer version of the file is used. Static files that can be signed include JavaScript, CSS, images, and fonts. Options: Yes / No|
+|Sign Static Files|Global|When enabled, adds a digital signature to the URL of static files to make it possible for browsers to detect when a newer version of the file is available. If a file's signature differs from what is currently stored in the browser's cache, then the newer version of the file is used. Static files that can be signed include JavaScript, CSS, images, and fonts. Options: Yes / No|
 
 ## Grid Settings
 
