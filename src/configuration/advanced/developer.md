@@ -1,7 +1,7 @@
 ---
 title: Developer
 redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/advanced/devveloper.html
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/advanced/developer.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Advanced]({% link configuration/advanced.md %}) > Developer

@@ -1,14 +1,7 @@
 ---
 title: Product Reviews
-redirect_from:
- - /marketing/yotpo-reviews-intro.html
- - /marketing/yotpo-features.html
- - /marketing/yotpo-connect.html
- - /marketing/yotpo-settings.html
- - /marketing/yotpo-glance.html
- - /marketing/yotpo-tasks.html
- - /marketing/yotpo-reporting.html
- - /configuration/yotpo.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html
 ---
 
 Commerce includes a native [product reviews]({% link marketing/magento-product-reviews.md %}) capability that you can manage from the Admin. You can also use an extension from the Commerce Marketplace to use a hosted review management system.
