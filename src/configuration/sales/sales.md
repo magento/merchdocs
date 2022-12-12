@@ -1,5 +1,7 @@
 ---
 title: Sales
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/sales.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Sales

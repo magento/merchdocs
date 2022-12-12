@@ -1,5 +1,7 @@
 ---
 title: PayPal Payments Standard
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/paypal-payments-standard.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > PayPal Payments Standard

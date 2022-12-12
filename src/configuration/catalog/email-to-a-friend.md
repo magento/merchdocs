@@ -1,5 +1,7 @@
 ---
 title: Email to a Friend
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/email-to-a-friend.html.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Catalog]({% link configuration/catalog.md %}) > Email to a Friend

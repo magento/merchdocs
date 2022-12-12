@@ -3,6 +3,8 @@ title: Creating an Individual Customer Account
 redirect_from:
   - /customers/customer-account-admin-create.html
   - /customers/customer-account-create.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html
 ---
 
 Visitors to your store can open an account to manage their purchases and activities. Customers usually create their own accounts from your store. However, you can also create customer accounts directly from the Admin, which is useful for helping customers over the phone.
@@ -29,7 +31,7 @@ A store customer creates a new account on the storefront.
 
 1. If you want to add your name and email address to the list of newsletter subscribers, select the **Sign Up for Newsletter** checkbox.
 
-    This option appears even if the store doesn’t publish a newsletter.
+    This option appears even if the store doesn't publish a newsletter.
 
 1. If you want to enable store support staff to [see what you see]({% link customers/login-as-customer.md %}) and take actions on your behalf in order to provide better assistance, select the **Allow remote shopping assistance** checkbox.
 
@@ -92,7 +94,7 @@ _Customer Information_
    - **Date of Birth**
 
       {:.bs-callout-warning}
-      In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.
+      In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.
 
    - **Tax/VAT Number**
    - **Gender**
@@ -182,13 +184,13 @@ Additional buttons become available when the profile is saved for the first time
 |--- |--- |
 |Associate to Website|Identifies the website associated with the customer account.|
 |Group|Identifies the [customer group]({% link customers/customer-groups.md %}) where the customer is a member. If applicable, select the checkbox to disable automatic group change based on VAT.|
-|Name Prefix|If used, the prefix  that is associated with the customer’s name (such as Mr., Ms, or Dr.). The prefix values are determined by the [configuration]({% link configuration/customers/customer-configuration.md %}). Depending on the configuration, the input control might be a text field or a list of options.|
-|First Name|The customer’s first name.|
+|Name Prefix|If used, the prefix  that is associated with the customer's name (such as Mr., Ms, or Dr.). The prefix values are determined by the [configuration]({% link configuration/customers/customer-configuration.md %}). Depending on the configuration, the input control might be a text field or a list of options.|
+|First Name|The customer's first name.|
 |Middle Name / Initial|The middle name or initial of the customer. This field is included only if specified in the [configuration]({% link configuration/customers/customer-configuration.md %}).|
-|Last Name|The customer’s last name.|
+|Last Name|The customer's last name.|
 |Name Suffix|If used, the suffix that is associated with the customer's name (such as  Jr., Sr., or III). The suffix values are determined by the [configuration]({% link configuration/customers/customer-configuration.md %}). Depending on the configuration, the input control might be a text field or a drop-down list of options.|
-|Email|The customer’s email address.|
-|Date of Birth|The customer’s date of birth. The date of birth is included if specified in the [configuration]({% link configuration/customers/customer-configuration.md %}). <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.|
+|Email|The customer's email address.|
+|Date of Birth|The customer's date of birth. The date of birth is included if specified in the [configuration]({% link configuration/customers/customer-configuration.md %}). <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.|
 |Tax / VAT Number|The customer's Tax or Value Added Tax number, if applicable.|
 |Gender|Identifies the customer's gender. The gender is included if specified in the [configuration]({% link configuration/customers/customer-configuration.md %}). Options: Male / Female / Not Specified|
 |Send Welcome Email From|If you have multiple store views, identifies the store view from which the Welcome message is sent. If store views are used for different languages, this determines the language of the Welcome email.|
@@ -205,7 +207,7 @@ Additional buttons become available when the profile is saved for the first time
 |Country|The country where the customer address is located.|
 |State/Province|The state or province where the customer address is located.|
 |Zip/Postal Code|The ZIP or postal code where the customer address is located.|
-|Phone Number|The customer’s phone number that is associated with address.|
+|Phone Number|The customer's phone number that is associated with address.|
 |VAT Number|If applicable, the value added tax number that applies to the customer at this address.|
 
 <!--

@@ -1,5 +1,7 @@
 ---
 title: Admin
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/advanced/admin.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Advanced]({% link configuration/advanced.md %}) > Admin

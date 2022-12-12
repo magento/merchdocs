@@ -1,5 +1,7 @@
 ---
 title: Customer Session Lifetime
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/customer-online-options.html
 ---
 
 The lifetime of a customer shopping session is determined by several factors, including the length of the server session, the use of a [persistent cart]({% link sales/cart-persistent.md %}), and the lifetime of information that is stored in the browser. Although these are related to the same customer experience, they are actually separate processes with different expiration events and lifetimes.
@@ -40,6 +42,6 @@ To make login easier, the **Remember Me** function allows user account holders t
 
 1. For **Enable Persistence**, set to `Yes`. (Clear the **Use system value** checkbox to allow changing the default setting.)
 
-1. For **Enable “Remember Me”**, set to `Yes` or `No` according to your requirements.
+1. For **Enable "Remember Me"**, set to `Yes` or `No` according to your requirements.
 
 1. Click <span class="btn">Save Config</span>.

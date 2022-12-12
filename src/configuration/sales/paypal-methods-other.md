@@ -1,8 +1,10 @@
 ---
 title: Other PayPal Methods
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html#other-paypal-methods
 ---
 
-PayPal offers a variety of payment solutions that meet the needs of businesses of every size, and that are engaged in business all over the world. PayPal gives you the ability to accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even customers who don’t have a PayPal account can pay for their purchases with PayPal.
+PayPal offers a variety of payment solutions that meet the needs of businesses of every size, and that are engaged in business all over the world. PayPal gives you the ability to accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even customers who don't have a PayPal account can pay for their purchases with PayPal.
 
 ## PayPal All-In-One Methods
 

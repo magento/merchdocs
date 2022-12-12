@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Quotes
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/quotes.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Quotes

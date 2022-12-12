@@ -1,5 +1,7 @@
 ---
 title: New Account Options
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/account-options-new.html
 ---
 
 In the Create New Account Options section of the configuration, the basic account options are combined with more advanced options that relate to VAT ID Validation and custom integrations. The following instructions cover only the most frequently used options. To learn about automatic customer group assignments, see [VAT Validation]({% link tax/vat-validation.md %}).
@@ -33,6 +35,6 @@ _Create New Account Options_
 
    - Set **Welcome Email** to the template that is used for the Welcome message that is sent after the account is confirmed.
 
-  For detailed information about each of the options available in this configuration option set, see the _Create New Account Options_ [configuration reference]({% link configuration/customers/customer-configuration.md %}#create-new-account-options).
+  For detailed information about each of the options available in this configuration option set, see the _Create New Account Options_ [configuration reference]({% link configuration/customers/customer-configuration.md %}).
 
 1. When complete, click <span class="btn">Save Config</span>.

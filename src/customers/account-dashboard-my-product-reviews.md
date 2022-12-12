@@ -1,5 +1,7 @@
 ---
 title: My Product Reviews
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html
 ---
 
 The My Product Reviews section of the customer account lists all the reviews submitted by the customer and approved for publication. Each review summary includes the date the review was submitted, links to the product page, and review details.
@@ -18,7 +20,7 @@ _My Product Reviews_
 
 ## Add product review from the storefront
 
-When you [enable]({% link configuration/catalog/catalog.md %}#product-reviews) product reviews, In the storefront, a customer can write reviews for any product in your catalog.
+When you [enable]({% link configuration/catalog/catalog.md %}) product reviews, In the storefront, a customer can write reviews for any product in your catalog.
 
 1. On the storefront, the customer opens a product page.
 
