@@ -1,5 +1,7 @@
 ---
 title: Name and Address Options
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/name-address-options.html
 ---
 
 The _Name and Address Options_ determine which fields are included in the name and address forms when customers create an [account]({% link customers/account-create.md %}) with your store.
@@ -125,7 +127,7 @@ _[Customer Account sign up form]({% link configuration/customers/customer-config
    - Required
 
       {:.bs-callout-warning}
-      In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.
+      In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.
 
    Customers can use the Calendar icon after the field to choose the birth date from a pop-up calendar.
 

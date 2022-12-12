@@ -1,5 +1,7 @@
 ---
 title: Configuring Account Options
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page.html
 ---
 
 The customer account settings determine the information that is collected during customer registration, and the experience that customers have during the process. Customer configuration settings include:

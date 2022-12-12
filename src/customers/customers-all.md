@@ -1,5 +1,7 @@
 ---
 title: All Customers
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customers-all.html
 ---
 
 The Customers grid lists all customers who have registered for an account with your store or were added by the administrator. Use the standard [grid controls]({% link stores/admin-grid-controls.md %}) to filter the list and adjust the column layout. To learn more, see [Managing Customer Accounts]({% link customers/customer-account-manage.md %}).
@@ -47,7 +49,7 @@ _All Customers_
 |Web Site|The web site in the store hierarchy to which the customer account is associated.|
 |Confirmed Email|Indicates if a confirmation email is required to be sent.|
 |Account Created In|Indicates the store view from which the customer account was created.|
-|Date of Birth|The date of birth of the customer. <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.|
+|Date of Birth|The date of birth of the customer. <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.|
 |Tax / VAT Number|If applicable, the tax number or [value-added tax]({% link tax/vat.md %}) number that is assigned to the customer. <br/><br/>**_Note:_** This field is not the same as the VAT Number.|
 |Gender|The gender of the customer.|
 |Action|Edit - Opens the company account in edit mode.|

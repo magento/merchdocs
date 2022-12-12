@@ -1,5 +1,7 @@
 ---
 title: Login Landing Page
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page.html
 ---
 
 You can configure your store to redirect customers to their account dashboard after they log in or let them continue shopping.
