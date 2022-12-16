@@ -1,11 +1,11 @@
 ---
 ee_only: true
 title: Customer Attributes
-redirect_from:
-  - /stores/stores-attributes-customer.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/attributes/attribute-properties.html
 ---
 
-Customer attributes provide the information that is required to support the order, fulfillment, and customer management processes. Because your business is unique, you might need fields in addition to those provided by the system. You can add custom attributes to the Account Information, Address Book, and Billing Information sections of the customer’s account. Customer [address attributes]({% link stores/attributes-customer-address.md %}) can also be used in the Billing Information section during checkout, or when guests register for an account.
+Customer attributes provide the information that is required to support the order, fulfillment, and customer management processes. Because your business is unique, you might need fields in addition to those provided by the system. You can add custom attributes to the Account Information, Address Book, and Billing Information sections of the customer's account. Customer [address attributes]({% link stores/attributes-customer-address.md %}) can also be used in the Billing Information section during checkout, or when guests register for an account.
 
 ![]({% link stores/assets/attributes-customer.png %}){: .zoom}
 _Customer Attributes_
@@ -65,7 +65,7 @@ _Customer Attributes_
 
       | None | Does not apply a filter to text entered into the field. |
       | Strip HTML Tags | Removes HTML tags from the text. This filter can help clean up data that is pasted into a field from another source that includes HTML tags. |
-      | Escape  HTML Entities | Converts special characters found in the text to a valid HTML escape sequence, such as `&amp;`. Escape sequences are enclosed between an ampersand and a semi-colon, and are frequently used for typographer’s smart quotes, copyright and trademark symbols. Escape sequences are also used to identify characters such as the less than (`<`) and greater than (`>`) symbols, and the ampersand character which are also used in the code. This filter can help clean up special characters that are sometimes pasted into database fields from word processors. |
+      | Escape  HTML Entities | Converts special characters found in the text to a valid HTML escape sequence, such as `&amp;`. Escape sequences are enclosed between an ampersand and a semi-colon, and are frequently used for typographer's smart quotes, copyright and trademark symbols. Escape sequences are also used to identify characters such as the less than (`<`) and greater than (`>`) symbols, and the ampersand character which are also used in the code. This filter can help clean up special characters that are sometimes pasted into database fields from word processors. |
 
       ![Customer attributes - data entry properties]({% link stores/assets/attribute-customer-data-entry-properties.png %}){: .zoom}
       _Data Entry Properties_
@@ -123,7 +123,7 @@ _Customer Attributes_
 |Values Required|Determines if a value must be entered into the field. Options: Yes / No|
 |Default Value|Specifies the initial value of the attribute.|
 |Input Validation|The selection of options is determined by the input type. Options: <br/>**None** - The field has no input validation during data entry. <br/>**Alphanumeric** - Accepts any combination of numbers (0-9) and alphabetic characters (a-z, A-Z) during data entry. <br/>**Alphanumeric with Space** - Allows spaces in the street address to comply with maximum length requirements of carrier. During checkout, the customer can enter any combination of numbers (0-9), alphabetic characters (a-z, A-Z), and spaces in the street address of the recipient and sender. Any extra spaces are trimmed when the address is saved. <br/>**Numeric Only** - Accepts only numbers (0-9) during data entry. <br/>**Alpha Only** - Accepts only alphabetic characters (a-z, A-Z) during data entry. <br/>**URL** - Accepts only a URL during data entry. <br/>**Email** - Accepts only an email address during data entry. <br/>**Length Only** - Validates the input based on the length of the data entered into the field.|
-|Input/Output Filter|Applies a preprocessing filter to  values entered in a text field, text area, or multiple line input type before the record is saved. Options: <br/>**None** - Does not apply a filter to text entered into the field. <br/>**Strip HTML Tags** - Removes HTML tags from the text. This filter can help clean up data that is pasted into a field from another source that includes HTML tags. <br/>**Escape HTML Entities**{:#escape-HTML} - Converts special characters found in the text to a valid HTML escape sequence, such as `amp;`. Escape sequences are enclosed between an ampersand and a semi-colon, and are frequently used for typographer’s smart quotes, copyright symbols, and trademark symbols. Escape sequences are also used to  identify characters such as the less than (`<`) and greater than (`>`) symbols, and the ampersand character which are also used in the code. This filter can help clean up special characters that are sometimes pasted into database fields from word processors.|
+|Input/Output Filter|Applies a preprocessing filter to  values entered in a text field, text area, or multiple line input type before the record is saved. Options: <br/>**None** - Does not apply a filter to text entered into the field. <br/>**Strip HTML Tags** - Removes HTML tags from the text. This filter can help clean up data that is pasted into a field from another source that includes HTML tags. <br/>**Escape HTML Entities**{:#escape-HTML} - Converts special characters found in the text to a valid HTML escape sequence, such as `amp;`. Escape sequences are enclosed between an ampersand and a semi-colon, and are frequently used for typographer's smart quotes, copyright symbols, and trademark symbols. Escape sequences are also used to  identify characters such as the less than (`<`) and greater than (`>`) symbols, and the ampersand character which are also used in the code. This filter can help clean up special characters that are sometimes pasted into database fields from word processors.|
 |Add to Column Options|Specifies if the attribute is included as a column in the [Customers]({% link customers/customers-all.md %}) grid. Options: Yes / No|
 |Use in Filter Options|Specifies if the attribute can be used as a filter for [search]({% link stores/admin-workspace.md %}) operations from the grid. Options: Yes / No|
 |Grid Filter Condition Type|Specifies the text attribute filter matching conditions for [search]({% link stores/admin-workspace.md %}) operations from the grid. Options: Partial Match / Prefix Match / Full Match.  It does not affect the _Search by keyword_ field for the grid.|
@@ -154,9 +154,9 @@ Attribute Code  | Description
 `middlename`    | The middle name or middle initial of the customer.
 `lastname`      | The last name of the customer.
 `suffix`        | Any suffix that is used with the customer name. (Jr., Sr., Esquire, etc.)
-`email`         | The customer’s email address.
-`dob`           | The customer’s date of birth.  <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.
-`taxvat`        | The Value Added Tax (VAT) ID that is assigned to the customer. The default label of this attribute is “VAT Number”. The VAT number field is always present in all shipping and billing customer addresses when viewed from the Admin, but is not a required field.
+`email`         | The customer's email address.
+`dob`           | The customer's date of birth.  <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.
+`taxvat`        | The Value Added Tax (VAT) ID that is assigned to the customer. The default label of this attribute is "VAT Number". The VAT number field is always present in all shipping and billing customer addresses when viewed from the Admin, but is not a required field.
 `gender`        | The customer gender.
 
 ## Customer attributes demo
