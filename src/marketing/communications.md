@@ -1,35 +1,5 @@
 ---
 title: Communications
-redirect_from:
- - /reports/dotmailer-dashboard.html
- - /reports/marketing-automation.html
- - /reports/customer-engagement.html
- - /configuration/dotdigital.html
- - /configuration/dotdigital/abandoned-carts.html
- - /configuration/dotdigital/accounts.html
- - /configuration/dotdigital/automation.html
- - /configuration/dotdigital/chat-settings.html
- - /configuration/dotdigital/configuration.html
- - /configuration/dotdigital/data-mapping.html
- - /configuration/dotdigital/developer.html
- - /configuration/dotdigital/dynamic-content.html
- - /configuration/dotdigital/sync-settings.html
- - /configuration/dotdigital/transactional-emails.html
- - /configuration/dotdigital/transactional-sms.html
- - /marketing/dotdigital/account-access.html
- - /marketing/dotdigital/account-api-users.html
- - /marketing/dotdigital/account-details.html
- - /marketing/dotdigital/account-transactional-email-users.html
- - /marketing/dotdigital/account-access.html
- - /marketing/dotdigital/campaign-automate.html
- - /marketing/dotdigital/campaign-create.html
- - /marketing/dotdigital/campaign-schedule.html
- - /marketing/dotdigital/chat.html
- - /marketing/dotdigital/contacts.html
- - /marketing/dotdigital/data-mapping.html
- - /marketing/dotdigital/engagement-cloud.html
- - /marketing/dotdigital/exclusion-rules.html
- - /marketing/dotdigital/setup.html
 
 sections:
   - title: Email
@@ -55,6 +25,9 @@ sections:
   - title: Social
     content: You can integrate your store with your social networks by installing a Marketplace extension or adding a plugin to your content pages.
     url: /marketing/social-plugins.html
+
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/introduction.html#variables-and-customer-communications
 ---
 
 One of the tasks to complete before launching your store is to review the email templates that are used for all communications sent from your store to make sure that they reflect your brand. This section of the guide provides detailed information about customizing email and newsletter templates, as well as PDF invoices and packing slips. It also includes personalizing the content with variables and markup tags.

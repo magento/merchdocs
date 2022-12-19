@@ -1,5 +1,7 @@
 ---
 title: Compare Products
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/product-compare.html
 ---
 
 Compare Products generates a detailed, side-by-side comparison of two or more products. Depending on the theme, the Add to Compare link might be represented by an icon or text. The Compare Products block usually appears in either the left or right sidebar of a catalog page.

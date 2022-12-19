@@ -1,11 +1,13 @@
 ---
 title: Adding Reference IDs to Header
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/sales-documents.html
 ---
 
 The Order ID and customer IP address can be included in the header of sales documents that accompany an order. By default, both the Order ID and customer IP address appear in the header of invoices, shipment packing slips, and credit memos.
 
 ![Sales configuration - PDF print-outs]({% link marketing/assets/config-sales-pdf-print-outs.png %}){: .zoom}
- [_PDF Print-outs_]({% link configuration/sales/pdf-print-outs.md -%})
+[_PDF Print-outs_]({% link configuration/sales/pdf-print-outs.md -%})
 
 ## Change the Order ID Setting
 
