@@ -22,9 +22,9 @@ A full export of the product database contains information about each product in
 
 The first row of the table contains the names of each attribute, which are used as column headers. The remaining rows describe the individual product records. Any row that begins with a value in the SKU column is the beginning of a new product record. A single product might include several rows that contain information about multiple images or product options. The next row that has a value in the SKU column begins a new product.
 
-The category column contains a path for each category to which the product is assigned. The path includes the root category, followed by a forward slash (/) between each level. By default, the pipe “&#124;” character is used to separate different category paths. For example:
+The category column contains a path for each category to which the product is assigned. The path includes the root category, followed by a forward slash (/) between each level. By default, the comma “,” character is used to separate different category paths. You can specify a different separator character with the "Multiple value separator" option. For example:
 
-    Default Category/Gear|Default Category/Gear/Bags.
+    Default Category/Gear,Default Category/Gear/Bags.
 
 To import data, you need to include only the SKU and any columns with changes. Any blank columns are ignored during the import process. It is not possible to add attributes during the import process. You can include only existing attributes.
 
