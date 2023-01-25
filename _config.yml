@@ -16,7 +16,7 @@ theme: devdocs
 source: src
 plugins_dir: ./_plugins
 
-version: 2.4
+version: 2.3
 versions:
   -
     name: "2.4"
