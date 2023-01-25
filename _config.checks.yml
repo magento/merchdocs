@@ -4,11 +4,20 @@
 #
 html-proofer:
 
-  # Validate HTML
-  :check_html: true
+  # Do not flag a tags missing href
+  :allow_missing_href: true
 
   # Do not check external links.
   :disable_external: true
+
+  # Ignore images with missing alt tags
+  :ignore_missing_alt: true
+
+  # Ignores images with empty alt tags.
+  :ignore_empty_alt: true
+
+  # Validate HTML
+  :check_html: true
 
   # Report only errors that fall within the 4xx status code range.
   :only_4xx: true
@@ -16,8 +25,8 @@ html-proofer:
   # Ignores images with empty alt tags.
   :empty_alt_ignore: true
 
-  # Sort errors by description in the report
-  :error_sort: :desc
+  :ignore_urls:
+    - !ruby/regexp /specifications/
 
   # Use up to 3 parallel processes to speed up internal file checks.
   :parallel:

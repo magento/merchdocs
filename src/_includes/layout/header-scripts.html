@@ -9,36 +9,9 @@
 
   var indices = [
     {
-      label: "User Guide",
+      label: "Results",
       name: "{{ site.algolia.index_name }}",
       baseUrl: "{{ site.baseurl }}"
-    },
-    {
-      label: "MBI User Guide",
-      name: "merchdocs-mbi",
-      baseUrl: "https://docs.magento.com/mbi"
-    },
-    {
-      label: "DevDocs",
-      name: "devdocs",
-      facetFilters: [["guide_version: 2.3", "versionless: true"]],
-      refinements: [
-        {
-          label: "Functional areas",
-          attribute: "functional_areas"
-        }
-      ],
-      baseUrl: "https://devdocs.magento.com"
-    },
-    {
-      label: "PWA",
-      name: "pwa-devdocs",
-      baseUrl: "https://magento.github.io/pwa-studio"
-    },
-    {
-      label: "Order Management",
-      name: "oms-en",
-      baseUrl: "https://omsdocs.magento.com"
     }
   ];
 </script>
