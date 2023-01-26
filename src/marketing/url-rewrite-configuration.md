@@ -6,11 +6,11 @@ URL rewrites make it possible to make existing URLs more _search engine friendl
 
 URL without Web Server Rewrite
 
-    http://www.yourdomain.com/magento/index.php/storeview/url-identifier
+    https://www.yourdomain.com/magento/index.php/storeview/url-identifier
 
 URL with Web Server Rewrite
 
-    http://www.yourdomain.com/magento/storeview/url-identifier
+    https://www.yourdomain.com/magento/storeview/url-identifier
 
 ## Configure URL Rewrites
 

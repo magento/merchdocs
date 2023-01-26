@@ -19,7 +19,7 @@ If you are not sure, open each page, and copy the URL from the address bar of yo
 
 Redirect to:
 
-    http://www.different-website.com/page.html
+    https://www.different-website.com/page.html
 
 Redirect from:
 

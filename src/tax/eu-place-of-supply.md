@@ -35,5 +35,5 @@ See also:
 - [European Commission Taxation and Customs Union ][1]
 - [EU 1015 Place of Supply Changes][2]
 
-[1]: http://ec.europa.eu/taxation_customs/taxation/vat/how_vat_works/vat_on_services/index_en.htm
-[2]: http://www2.deloitte.com/global/en/pages/tax/articles/eu-2015-place-of-supply-changes-overview.html
+[1]: https://ec.europa.eu/taxation_customs/taxation/vat/how_vat_works/vat_on_services/index_en.htm
+[2]: https://www2.deloitte.com/global/en/pages/tax/articles/eu-2015-place-of-supply-changes-overview.html

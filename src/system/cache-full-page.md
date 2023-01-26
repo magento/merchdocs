@@ -51,6 +51,6 @@ For technical information, see [Configure and Use Varnish][1]{:target="_blank"} 
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-[1]: http://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish.html
-[2]: http://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-pg-cache.html
+[1]: https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish.html
+[2]: https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-pg-cache.html
 [3]: https://varnish-cache.org/

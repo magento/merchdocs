@@ -8,20 +8,20 @@ Some search engines penalize websites that have multiple URLs that point to the 
 
 For example, if your catalog is configured to include the category path in product URLs, your store will generate multiple URLs that point to the same product page.
 
-    http://mystore.com/gear/bags/driven-backpack.html
-    http://mystore.com/driven-backpack.html
+    https://mystore.com/gear/bags/driven-backpack.html
+    https://mystore.com/driven-backpack.html
 
 ## Example 2: Category Page Full URL
 
 When canonical meta tags for categories are enabled, the category page of your store includes a canonical URL to the full category URL:
 
-    http://mystore.com/gear/bags/driven-backpack.html
+    https://mystore.com/gear/bags/driven-backpack.html
 
 ## Example 3: Product Page Full URL
 
 When canonical meta tags for products are enabled, the product page includes a canonical URL to the domain-name/product-url-key because product URL keys are globally unique.
 
-    http://mystore.com/driven-backpack.html
+    https://mystore.com/driven-backpack.html
 
 If you also include the category path in product URLs, the canonical URL remains domain-name/product-url-key. However, the product can also be accessed using its full URL, which includes the category. For example, if the product URL key is `driven-backpack` and is assigned to the Gear > Bags category, the product can be accessed using either URL.
 

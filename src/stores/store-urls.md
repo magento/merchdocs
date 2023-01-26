@@ -4,9 +4,9 @@ title: Store URLs
 
 Each website in a Magento installation has a base URL that is assigned to the storefront, and another URL that is assigned to the Admin. Magento uses variables to define internal links in relation to the base URL, which makes it possible to move an entire store from one location to another without updating the links. Standard base URLs begin with `http`, and secure base URLs begin with `https`.
 
-- **Base URL** — `http://www.yourdomain.com/magento/`
+- **Base URL** — `https://www.yourdomain.com/magento/`
 - **Secure Base URL** — `https://www.yourdomain.com/magento/`
-- **URL with IP address** — `http://###.###.###.###/magento/` or `https://###.###.###.###/magento/`
+- **URL with IP address** — `https://###.###.###.###/magento/` or `https://###.###.###.###/magento/`
 
 {:.bs-callout-warning}
 Do not change the Admin URL from the default Base URL configuration. To change the Admin URL or path, see [Using a Custom Admin URL]({% link stores/store-urls-custom-admin.md %}).
@@ -30,7 +30,7 @@ Magento can be configured to deliver all pages over `HTTPS` by default. If your 
 
 1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Base URL** section.
 
-   - **Base URL** — Enter the fully qualified base URL for your store. Make sure to end the URL with a forward slash, so it can be extended with additional URL Keys from your store. For example: `http://yourdomain.com/`
+   - **Base URL** — Enter the fully qualified base URL for your store. Make sure to end the URL with a forward slash, so it can be extended with additional URL Keys from your store. For example: `https://yourdomain.com/`
 
        {:.bs-callout-info}
        Do not change the placeholder in the **Base Link URL** field. It is a placeholder that is used to create relative links to the base URL.
@@ -102,8 +102,8 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 1. Set **Add Store Code** to your preference:
 
-   - **URL with Store Code**: `http://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
-   - **URL without Store Code**: `http://www.yourdomain.com/magento/index.php/url-identifier`
+   - **URL with Store Code**: `https://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
+   - **URL without Store Code**: `https://www.yourdomain.com/magento/index.php/url-identifier`
 
     ![General configuration - web URL options]({% link images/images/config-general-web-url-options.png %}){: .zoom}
     [_URL Options_]({% link configuration/general/web.md %})
@@ -116,7 +116,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 
 ## Troubleshooting
 
-If after following the configuration instructions, some pages continue to be served with the unsecure URL (`http://`), do the following:
+If after following the configuration instructions, some pages continue to be served with the unsecure URL (`https:///`), do the following:
 
 - Change the (unsecure) base URL to the secure HTTPS URL.
 - On the server, edit the `.htaccess` file (or load balancer) so the unsecure URL is redirected to the secure URL.

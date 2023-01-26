@@ -64,5 +64,5 @@ Column Name | Description
 `_<name>` | Column headers that begin with an underscore contain  service  entity properties or complex data. Service columns are not  customer attributes.
 `<attribute name>` | The names of the columns with values of both system-created attributes, and attributes created by the store administrator.
 
-[1]: http://notepad-plus-plus.org/
+[1]: https://notepad-plus-plus.org/
 [2]: https://www.openoffice.org/

@@ -118,7 +118,7 @@ Output:
 | Data 4         | Data 5         |                |
 | Data 6         |                |                |
 
-You can read more about table syntax [here](http://kramdown.gettalong.org/syntax.html#tables){:target="_blank"}.
+You can read more about table syntax [here](https://kramdown.gettalong.org/syntax.html#tables){:target="_blank"}.
 
 ## Advanced syntax {#advanced}
 
@@ -193,7 +193,7 @@ Markdown content goes in this area.
 
 ### Code blocks {#code-blocks}
 
-Code blocks can also be defined using [Rouge formatting](http://rouge.jneen.net/){:target="_blank"}. View the .md file of this template for examples.
+Code blocks can also be defined using [Rouge formatting](https://rouge.jneen.net/){:target="_blank"}. View the .md file of this template for examples.
 
 For inline code, surround the content with single backticks: `` `example` ``.
 

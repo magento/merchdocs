@@ -34,4 +34,4 @@ To print or view the completed credit memo, you must have a PDF reader installe
 
    - To view the document, click **Open**. The printed-ready PDF credit memo opens in Adobe Reader. From here, you can either print the credit memo or save it to your computer.
 
-[1]: http://www.adobe.com/products/reader.html "Get Adobe Reader"
+[1]: https://www.adobe.com/products/reader.html "Get Adobe Reader"

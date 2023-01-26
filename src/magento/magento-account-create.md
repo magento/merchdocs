@@ -10,7 +10,7 @@ After you create your account, it is strongly recommended that you use Two-facto
 
 ## Create a Magento account
 
-1. Visit the Magento site at [http://www.magento.com][1]{:target="_blank"}.
+1. Visit the Magento site at [https://www.magento.com][1]{:target="_blank"}.
 
 1. In the upper-right corner, click the _My Account_ ![]({% link images/images/btn-account.png %}) icon.
 
@@ -46,7 +46,7 @@ After you create your account, it is strongly recommended that you use Two-facto
 
 ## Log in to your Magento account
 
-1. Go to the Magento site at [http://www.magento.com][1].
+1. Go to the Magento site at [https://www.magento.com][1].
 
 1. In the upper-right corner, click the _My Account_ ![]({% link images/images/btn-account.png %}) icon.
 
@@ -66,7 +66,7 @@ After you create your account, it is strongly recommended that you use Two-facto
 
 ## Reset your password
 
-1. Go to [http://www.magento.com][1] and log into your account.
+1. Go to [https://www.magento.com][1] and log into your account.
 
 1. In the panel on the left, choose **Account Settings**.
 
@@ -86,5 +86,5 @@ After you create your account, it is strongly recommended that you use Two-facto
    ![]({% link images/images/magento-account-change-password.png %}){: .zoom}
    _Change your password_
 
-[1]: http://go.magento.com/
+[1]: https://go.magento.com/
 [2]: https://community.magento.com/

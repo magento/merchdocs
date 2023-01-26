@@ -133,7 +133,7 @@ Web Services Configuration | REST and SOAP configurations, generated WSDL file. 
    - Flush Js/Css
    - Flush Static Files
 
-[1]: http://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html
+[1]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html
 [2]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html
 [3]: https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html
 

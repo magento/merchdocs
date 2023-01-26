@@ -10,17 +10,17 @@ If possible, navigate to the page that you want to link to, and copy the full UR
 
 ### Full URL to Category Page
 
-    http://mystore.com/apparel/shoes/womens
-    http://mystore.com/apparel/shoes/womens.html
+    https://mystore.com/apparel/shoes/womens
+    https://mystore.com/apparel/shoes/womens.html
 
 ### Full URL to Product Page
 
-    http://mystore.com/apparel/shoes/womens/nine-west-pump
-    http://mystore.com/apparel/shoes/womens/nine-west-pump.html
+    https://mystore.com/apparel/shoes/womens/nine-west-pump
+    https://mystore.com/apparel/shoes/womens/nine-west-pump.html
 
 ### Full URL to CMS Page
 
-    http://mystore.com/about-us
+    https://mystore.com/about-us
 
 ## Step 2. Add the Markup to the URL
 
@@ -34,13 +34,13 @@ The Store URL tag represents the base URL of your website and is used as a subst
 
 In the following examples, the URL Key is enclosed in single quotes, and the entire markup tag is enclosed in double curly braces. When used with an anchor tag, the markup tag is placed inside the double quotes of the anchor. To avoid confusion, you can alternate using single-and double quotes for each nested set of quotes.
 
-If you are starting with a full URL, delete the HTTP address (`http://` or `https://`) part of the URL, up through and including the `.com/`. In its place, enter the Store URL markup tag, up through the opening single quote.
+If you are starting with a full URL, delete the HTTP address (`https://` or `https://`) part of the URL, up through and including the `.com/`. In its place, enter the Store URL markup tag, up through the opening single quote.
 
 <!-- {% raw %} -->
 
 ### Store URL Markup Tag
 
-    http://mystore.com/apparel/shoes/womens
+    https://mystore.com/apparel/shoes/womens
     {{store url='apparel/shoes/womens'}}
 
 Otherwise, enter the first part of the Store URL markup tag and paste the URL key or path that you copied earlier.
