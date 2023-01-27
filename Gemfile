@@ -15,7 +15,7 @@ end
 
 group :optimization do
   gem 'image_optim'
-  gem 'image_optim_pack'
+  gem 'image_optim_pack', '0.9.1.20221210'
 end
 
 group :jekyll_plugins do
