@@ -1,10 +1,10 @@
 # This file sets default project configuration for the User Guides website generator
 # See default Jekyll configuration at https://jekyllrb.com/docs/configuration/default/
 
-title: Magento 2.3 User Guide
+title: Adobe Commerce 2.3 User Guide
 
-description: Merchant-focused documentation for both Magento Commerce and Magento Open Source
-logo: Magento User Guide
+description: Merchant-focused documentation for both Adobe Commerce and Magento Open Source
+logo: Commerce User Guide
 baseurl: /user-guide/v2.3
 url: "https://docs.magento.com"
 destination: _site/user-guide/v2.3

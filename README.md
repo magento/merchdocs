@@ -1,6 +1,10 @@
 # Magento 2 Merchant Documentation
 
-Welcome! This site contains the latest Magento merchant documentation for ongoing Magento 2.3.x releases. For additional information, see our [Contribution Guide](https://github.com/magento/merchdocs/blob/master/.github/CONTRIBUTING.md) and [Wiki](https://github.com/magento/merchdocs/wiki).
+Welcome! This site contains the documentation for Adobe Commerce and Magento Open Source 2.3.x releases only. User documentation for Adobe Commerce and Magento Open Source 2.4 is now migrated to the Adobe Experience League. Go to the new landing pages to access the most current information.
+
+- [Adobe Commerce Merchant Documentation](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) — This up-to-date documentation provides easy-to-follow procedures and a comprehensive eCommerce reference for the Adobe Commerce and Magento Open Source 2.4 Admin.
+
+- [Services for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) — Documentation and resources for hosted services that provide extended capabilities to Adobe Commerce and Magento Open Source.
 
 ## Contribute
 
