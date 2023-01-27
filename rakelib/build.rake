@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Copyright © Magento, Inc. All rights reserved.
 # See COPYING.txt for license details.
 
@@ -21,7 +23,7 @@ namespace :build do
     print 'Building the site for staging: $ '.magenta
     sh 'bin/jekyll',
        'build',
-       "--baseurl=/#{ENV['BUILD_NUMBER']}/user-guide/v2.3",
+       "--baseurl=/#{ENV['BUILD_NUMBER']}/user-guide",
        '--verbose',
        '--trace',
        '--profile'

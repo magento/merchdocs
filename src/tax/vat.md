@@ -15,7 +15,7 @@ Magento uses the following VAT fields and configuration settings to address diff
 ### Stores > Configuration > General > General > Store Information
 
 VAT Number|The value-added tax number that is assigned to the merchant.
-Validate VAT Number|[VAT validation]({% link tax/vat-validation.md %}) confirms that the VAT Number matches the corresponding record in the [European Commission](http://ec.europa.eu/taxation_customs/vies/") database.
+Validate VAT Number|[VAT validation]({% link tax/vat-validation.md %}) confirms that the VAT Number matches the corresponding record in the [European Commission](https://ec.europa.eu/taxation_customs/vies/#/vat-validation") database.
 
 ## Customer Information
 
@@ -32,4 +32,4 @@ VAT Number|If applicable, the value-added tax number that is associated with a s
 ### Configure > Customers > Customer Configuration > Create New Account Options
 
 Show VAT Number on Storefront|Determines if the customer VAT Number field is included in the Address Book that is available in the customer account.
-Default Value for Disable Automatic Group Changes Based on VAT ID|VAT ID is an internal identifier for the VAT Number of the customer when used in VAT Validation. During [VAT Validation]({% link tax/vat-validation.md %}), Magento confirms that the number matches the [European Commission](http://ec.europa.eu/taxation_customs/vies/) database. Customers can be automatically assigned to one of the four default customer groups based on the validation results.
+Default Value for Disable Automatic Group Changes Based on VAT ID|VAT ID is an internal identifier for the VAT Number of the customer when used in VAT Validation. During [VAT Validation]({% link tax/vat-validation.md %}), Magento confirms that the number matches the [European Commission](https://ec.europa.eu/taxation_customs/vies/#/vat-validation) database. Customers can be automatically assigned to one of the four default customer groups based on the validation results.

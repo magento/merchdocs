@@ -27,4 +27,4 @@ The [theme]({% link design/themes.md %}) determines the visual presentation of y
 
 Themes can be activated for a period of time, according to a [schedule]({% link design/schedule.md %}). Use the schedule to plan theme changes in advance for a season or promotion.
 
-[1]: http://devdocs.magento.com/guides/v2.3/frontend-dev-guide/bk-frontend-dev-guide.html
+[1]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/bk-frontend-dev-guide.html

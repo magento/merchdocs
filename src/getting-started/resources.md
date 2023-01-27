@@ -17,12 +17,12 @@ Magento provides a wealth of business and technical resources, self-help tools, 
 {: .name-table }
 
 [1]: https://magento.com/technical-resources
-[2]: http://devdocs.magento.com/
+[2]: https://devdocs.magento.com/
 [3]: https://magento.com/resources
-[4]: http://magento.com/security
+[4]: https://helpx.adobe.com/security.html
 [5]: https://magento.com/security/best-practices/security-best-practices
 [6]: https://community.magento.com/
-[7]: http://magento.com/blog
+[7]: https://business.adobe.com/blog/
 [8]: https://magento.com/company/events
 [9]: https://marketplace.magento.com/
 [10]: https://learning.adobe.com/catalog.html?solution=Adobe%20Magento%20Commerce

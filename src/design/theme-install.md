@@ -19,6 +19,6 @@ Follow the instructions available on the Marketplace to add a new theme to your 
 
 To apply the theme to your store, see [Using the Default Theme]({% link design/theme-default.md %}).
 
-[1]: http://devdocs.magento.com/guides/v2.3/frontend-dev-guide/bk-frontend-dev-guide.html
+[1]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/bk-frontend-dev-guide.html
 [2]: https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html
 [3]: https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/themes/theme-overview.html

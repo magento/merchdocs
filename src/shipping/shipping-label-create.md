@@ -189,6 +189,6 @@ Because an individual shipment order for each package is created, multiple shipp
 
 A complete set of shipping labels is printed for each shipment that is related to the selected orders.
 
-[1]: http://www.fedex.com/us/web-services/index.html
-[2]: http://www.ups.com/?Site=Corporate&amp;cookie=us_en_home&amp;setCookie=yes
-[3]: http://www.dhl-usa.com/en/contact_center.html
+[1]: https://www.fedex.com/en-us/api.html
+[2]: https://www.ups.com/us/en/Home.page?Site=Corporate&amp;cookie=us_en_home&amp;setCookie=yes
+[3]: https://www.dhl.com/us-en/home.html

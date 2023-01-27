@@ -11,7 +11,7 @@ For details about making a secure transition from deprecated payment integration
 
 [CyberSource][1] was one of the pioneers in the early online payment industry, and later acquired Authorize.Net. Today, CyberSource is a wholly-owned subsidiary of Visa Inc. Over 400,000 businesses worldwide use CyberSource to process online payments, streamline fraud management, and to simplify payment security. The company is based in Foster City, California, and has offices throughout Asia, Europe, Latin America, the Middle East, Africa, and the United States.
 
-CyberSource supports shipments to [multiple addresses]({% link shipping/shipping-settings.md %}#multiple-addresses) as part of the checkout flow. The order is duplicated for each address that the customer wants to ship to.
+CyberSource supports shipments to [multiple addresses]({% link shipping/shipping-settings.md %}) as part of the checkout flow. The order is duplicated for each address that the customer wants to ship to.
 
 ## CyberSource account credentials
 
@@ -42,7 +42,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Set **Enabled** to `Yes`.
 
-1. Accept the **Default Payment** action of `Authorized Only`, which approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer’s bank account until the sale is _captured_ by the merchant.
+1. Accept the **Default Payment** action of `Authorized Only`, which approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer's bank account until the sale is _captured_ by the merchant.
 
 1. Enter a **Title** to identify CyberSource during checkout.
 
@@ -97,5 +97,5 @@ _CyberSource configuration_
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-[1]: http://www.cybersource.com/
-[2]: http://www.cybersource.com/solutions/merchant/
+[1]: https://www.cybersource.com/en-us.html
+[2]: https://www.cybersource.com/en-us.htmlsolutions/merchant/
