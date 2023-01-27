@@ -17,13 +17,6 @@ source: src
 plugins_dir: ./_plugins
 
 version: 2.3
-versions:
-  -
-    name: "2.4"
-    url: "/user-guide"
-  - 
-    name: "2.3"
-    url: "/user-guide/v2.3"
 
 algolia:
   application_id: E642SEDTHL

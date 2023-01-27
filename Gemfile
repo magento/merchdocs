@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'devdocs', git: 'https://github.com/magento-devdocs/devdocs-theme.git'
+gem 'devdocs', git: 'https://github.com/magento-devdocs/devdocs-theme.git', branch: 'comdox-452-updates'
 gem 'jekyll', '4.3.2'
 gem 's3_website'
 
