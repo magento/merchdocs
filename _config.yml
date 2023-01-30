@@ -29,7 +29,7 @@ algolia:
   application_id: E642SEDTHL
   index_name: merchdocs-23
   
-  api_key: d2d0f33ab73e291ef8d88d8b565e754c
+  api_key: d2d0f33ab73e291ef8d88d8b565e754c #gitleaks:allow
 
 google:
   gtm: GTM-KRCLXBB
