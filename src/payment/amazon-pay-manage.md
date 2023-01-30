@@ -48,4 +48,4 @@ _Invoice with Credit Memo option_
    ![Can't find an order?]({% link images/images/payments-amazon-pay-account-activity-find-order.png %}){: .zoom}
    _Can’t find an order?_
 
-[1]: http://pay.amazon.com/
+[1]: https://pay.amazon.com/

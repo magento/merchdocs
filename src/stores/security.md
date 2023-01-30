@@ -9,4 +9,4 @@ Make sure to set up a [Security Scan]({% link magento/security-scan.md %}) for e
 ![Magento Security Center]({% link images/images/magento-resources-security-center.png %}){: .zoom}
 [_Security Center_][1]{:target="_blank"}
 
-[1]: http://magento.com/security
+[1]: https://helpx.adobe.com/security.html

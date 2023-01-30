@@ -119,5 +119,5 @@ Set both **Order Status to Suspected Fraud for CVV** and **Order Status to Suspe
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-[1]: http://www.worldpay.com/us
-[2]: http://www.worldpay.com/global/sme/online/online-merchant-account
+[1]: https://www.fisglobal.com/en/merchant-solutions-worldpay
+[2]: https://www.fisglobal.com/en/merchant-solutions-worldpay

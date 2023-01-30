@@ -89,5 +89,5 @@ Search suggestions and recommendations can impact server performance.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-[1]: http://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html
+[1]: https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html
 [2]: https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html

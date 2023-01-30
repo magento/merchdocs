@@ -63,7 +63,7 @@ Reindexing and caching have different purposes Magento. Indexes track database i
 
 Magento provides additional reindex options using the command line. These options may require developer support to complete. For complete details and command options, see [Reindex][2]{:target="_blank"} in [Manage the indexers][3]{:target="_blank"}. The DevDocs PHP Developer Guide also includes an [Indexing section][4]{:target="_blank"}.
 
-[1]: http://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html
+[1]: https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html
 [2]: https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex
 [3]: https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html
 [4]: https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html

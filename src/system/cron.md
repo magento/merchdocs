@@ -45,4 +45,4 @@ Make sure that the [base URLs]({% link stores/store-urls.md %}) for the store ar
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-[1]: http://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html
+[1]: https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html

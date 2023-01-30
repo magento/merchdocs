@@ -35,4 +35,4 @@ In case a customer uses Google Express Checkout, PayPal Express Checkout or anot
 ![]({% link images/images/vat-id-validation2.png %}){: width="650px"}
 <br/>_VAT Validation Checkout Workflow_
 
-[1]: http://ec.europa.eu/taxation_customs/vies/
+[1]: https://ec.europa.eu/taxation_customs/vies/#/vat-validation
