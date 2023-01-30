@@ -73,7 +73,7 @@ Your effort to protect your Magento installation starts with the initial setup, 
 
 - Use a strong  password for the Magento Admin. To learn more, see [Creating a strong password](https://support.google.com/accounts/answer/32040?hl=en).
 
-- Take advantage of Magento’s security-related configuration settings for [Admin Security]({% link stores/security-admin.md %}), [Password Options]({% link customers/password-options.md %}), [Two-Factor Authentication for Admin access]({% link stores/security-two-factor-authentication.md %}), [CAPTCHA](https://merch.docs.magento.com/ce/user_guide/Magento_Community_Edition_User_Guide.html#configuration/advanced/admin.html), and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
+- Take advantage of Magento’s security-related configuration settings for [Admin Security]({% link stores/security-admin.md %}), [Password Options]({% link customers/password-options.md %}), [Two-Factor Authentication for Admin access]({% link stores/security-two-factor-authentication.md %}), [CAPTCHA](https://experienceleague.adobe.com/docs/commerce.html#configuration/advanced/admin.html), and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
 
 - Take advantage of the free [Magento Security Scan Tool](https://account.magento.com/scanner?_ga=2.67627665.1606684099.1543252630-49206304.1531415640)! Monitor your sites for security risks, update malware patches, and detect unauthorized access with this tool.
 
@@ -155,7 +155,7 @@ Parts of this article were inspired by real-world solutions that were shared by 
 [2]: https://magento.com/security
 [3]: https://account.magento.com/scanner?_ga=2.67627665.1606684099.1543252630-49206304.1531415640
 [4]: https://devdocs.magento.com/community/resources/resources.html
-[5]: https://community.magento.com/t5/Programming-Questions/Hacked-after-SUPEE-5344-5345-applied/td-p/3596
+[5]: https://community.magento.com/t5/Magento-1-x-Security-Patches/Hacked-after-SUPEE-5344-5345-applied/td-p/3596
 [6]: https://community.magento.com/t5/user/viewprofilepage/user-id/2704
 [7]: https://twitter.com/rescueann
 [8]: https://twitter.com/robfico

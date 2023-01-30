@@ -52,6 +52,6 @@ title: International Tax Guidelines
 |Tax shipping?|Yes|
 |Apply Discount|Before tax|
 
-[1]: https://www.revenuquebec.ca/en/entreprises/
-[2]: https://www.finance.gov.sk.ca/Default.aspx?DN=e5f80742-9ab3-416c-88c4-f9aa1da73998
-[3]: https://www.gov.mb.ca/finance/taxation/bulletins/004.pdf
+[1]: https://www.revenuquebec.ca/en/businesses/
+[2]: https://www.saskatchewan.ca/finance
+[3]: https://gov.mb.ca/finance/taxation/pubs/bulletins/004.pdf

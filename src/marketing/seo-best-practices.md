@@ -20,5 +20,5 @@ A [site map]({% link marketing/sitemap-xml.md %}) improves the way your store is
 
 The [URL Rewrite]({% link marketing/url-rewrite.md %}) tool lets you change any URL that is associated with a product, category, or CMS page.
 
-[1]: https://magento.com/resources/business
+[1]: https://business.adobe.com/resources/main.html
 [2]: https://magento.com/resources?type=guide

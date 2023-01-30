@@ -3,14 +3,13 @@
 # For configuration defaults, refer to: https://github.com/gjtorikian/html-proofer/blob/master/lib/html-proofer/configuration.rb
 #
 html-proofer:
-
   # Do not flag a tags missing href
   :allow_missing_href: true
 
   # Do not check external links.
   :disable_external: true
 
-  # Ignore images with missing alt tags
+  # Ignores images with missing alt tags
   :ignore_missing_alt: true
 
   # Ignores images with empty alt tags.
@@ -23,11 +22,4 @@ html-proofer:
   :only_4xx: true
 
   # Ignores images with empty alt tags.
-  :empty_alt_ignore: true
-
-  :ignore_urls:
-    - !ruby/regexp /specifications/
-
-  # Use up to 3 parallel processes to speed up internal file checks.
-  :parallel:
-    :in_processes: 3
+  :disable_external: true

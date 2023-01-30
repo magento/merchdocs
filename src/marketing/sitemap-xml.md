@@ -74,4 +74,4 @@ You can now restore either the original (default) restrictions.
 
 [1]: https://devdocs.magento.com/guides/v2.3/cloud/trouble/robots-sitemap.html
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
-[3]: https://www.bing.com/webmaster/help/how-to-submit-sitemaps-82a15bd4
+[3]: https://www.bing.com/webmasters/help/sitemaps-3b5cf6ed

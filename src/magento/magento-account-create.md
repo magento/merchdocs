@@ -86,5 +86,5 @@ After you create your account, it is strongly recommended that you use Two-facto
    ![]({% link images/images/magento-account-change-password.png %}){: .zoom}
    _Change your password_
 
-[1]: https://go.magento.com/
+[1]: https://business.adobe.com/products/magento/magento-commerce.html
 [2]: https://community.magento.com/
