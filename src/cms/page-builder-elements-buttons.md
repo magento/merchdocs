@@ -70,7 +70,7 @@ _Buttons container toolbox_
       The URL can be either a relative link to a product or page in your store, or a fully-qualified URL.
 
       | Relative URL example | `../luma-analog-watch.html` |
-      | Fully-qualified URL example | `http://mystore.com/luma-analog-watch.html` |
+      | Fully-qualified URL example | `https://mystore.com/luma-analog-watch.html` |
 
       If the link goes to a different website, you can keep the current page open to your store by opening the link in a new browser tab.
 

@@ -10,10 +10,10 @@ Before you proceed with setup and configuration, make sure that you have the inf
 
 The address for your storefront is usually the domain that is assigned to your IP address. Some stores are installed at the root, or topmost directory. Others are installed in a directory below the root. Your store might be located in a subdomain that is associated with your primary domain. Your store URL might look like one of the following:
 
-- `http://mydomain.com`
-- `http://www.mydomain.com/mystore`
-- `http://www.mydomain.com/mystore`
-- `http://xxx.xxx.xxx.xxx`
+- `https://mydomain.com`
+- `https://www.mydomain.com/mystore`
+- `https://www.mydomain.com/mystore`
+- `https://xxx.xxx.xxx.xxx`
 
 If you do not yet have a domain, your store URL will include a series of four numbers, each separated by a period in _dotted quad_ notation.
 
@@ -21,8 +21,8 @@ If you do not yet have a domain, your store URL will include a series of four nu
 
 The address for your store Admin is set up during the installation. The default address is the same as your store, but with /admin at the end. Although the examples in this guide use the default directory, we recommend that run your Admin from a location that is unique to your store.
 
-- `http://mydomain.com/admin`
-- `http://www.mydomain.com/admin`
+- `https://mydomain.com/admin`
+- `https://www.mydomain.com/admin`
 
 ## Magento account
 

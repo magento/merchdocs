@@ -9,8 +9,8 @@ Check with your hosting provider before implementing a custom Admin URL. Some ho
 
 In a typical Magento installation, the Admin URL and path is immediately below the Magento base URL. The path to the store Admin is one directory below the root.
 
-- **Default Base URL**: `http://yourdomain.com/magento/`
-- **Default Admin URL and Path**: `http://yourdomain.com/magento/admin`
+- **Default Base URL**: `https://yourdomain.com/magento/`
+- **Default Admin URL and Path**: `https://yourdomain.com/magento/admin`
 
 Although it is possible to change the Admin URL and path to another location, any mistake removes access to the Admin, and must be corrected from the server.
 
@@ -34,7 +34,7 @@ As a precaution, do not try to change the Admin URL yourself unless you know how
 
    - Set **Use Custom Admin URL** to `Yes`.
 
-   - Enter the **Custom Admin URL**: `http://yourdomain.com/magento/`
+   - Enter the **Custom Admin URL**: `https://yourdomain.com/magento/`
 
         {:.bs-callout-info}
         The Admin URL must be in the same Magento installation, and have the same document root as the storefront.
