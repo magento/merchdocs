@@ -6,20 +6,11 @@ html-proofer:
   # Do not flag a tags missing href
   :allow_missing_href: true
 
-  # Do not check external links.
-  :disable_external: true
-
   # Ignores images with missing alt tags
   :ignore_missing_alt: true
 
   # Ignores images with empty alt tags.
   :ignore_empty_alt: true
 
-  # Validate HTML
-  :check_html: true
-
-  # Report only errors that fall within the 4xx status code range.
-  :only_4xx: true
-
-  # Ignores images with empty alt tags.
+  # Do not check external links.
   :disable_external: true
