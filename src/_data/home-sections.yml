@@ -1,5 +1,5 @@
-  - title: New to Magento?
-    content: Discover resources available to members of the Magento ecosystem. Follow the customer journey to explore your store, and learn about key features.
+  - title: New to Commerce?
+    content: Discover resources available to members of the Adobe Commerce ecosystem. Follow the customer journey to explore your store, and learn about key features.
     url: /getting-started.html
 
   - title: Set up your store
@@ -30,6 +30,6 @@
     content: Learn how to import and export data. manage security and permissions, and install extensions. Use the system tools to manage the cache and indexing, and schedule backups.
     url: /system/system.html
 
-  - title: Share your knowledge
-    content: Become a Magento documentation contributor by suggesting improvements, logging issues, and submitting revisions to our open source documentation repository.
-    url: /getting-started/contribute.html
+  - title: Review your store data
+    content: The Commerce Admin provides a wide selection of reports to keep you informed on your marketing efforts, sales products, and customer activity.
+    url: /reports.html

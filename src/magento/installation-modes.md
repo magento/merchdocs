@@ -1,10 +1,10 @@
 ---
-title: Magento Modes
+title: Operation Modes
 ---
 
-Your Magento installation can be deployed to run in either production or developer mode. Some tools and configuration settings are designed specifically for developers, and can be accessed only while the store is running in developer mode.
+Your Commerce installation can be deployed to run in either production or developer mode. Some tools and configuration settings are designed specifically for developers, and can be accessed only while the store is running in developer mode.
 
-Most topics in this guide apply to a Magento installation that is running in production mode. However, the following configuration settings and topics can be used only when the installation is running in developer mode (each topic is marked  with _Developer Mode Only_ where applicable).
+Most topics in this guide apply to a Commerce installation that is running in production mode. However, the following configuration settings and topics can be used only when the installation is running in developer mode (each topic is marked  with _Developer Mode Only_ where applicable).
 
 ## Configuration settings
 
@@ -23,4 +23,4 @@ See the following pages for more information about non-configuration setting typ
 - [Template Path Hint]({% link system/template-path-hints.md %})
 - {:.ee-only}[Developer Client Restrictions]({% link system/developer-client-restrictions.md %})
 
-The Magento mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the Magento Mode](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html) in our developer documentation for more information.
+The operation mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the operation mode](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html) in the developer documentation for more information.
