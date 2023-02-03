@@ -6,19 +6,19 @@
   - label: About This Release
     url: "/magento/about-this-release.html"
 
-  - label: Your Magento Account
+  - label: Your Commerce Account
     url: "/magento/magento-account.html"
 
-  - label: " Quick Tour"
+  - label: "Quick Tour"
     url: "/getting-started/quick-tour.html"
 
   - label: Basic Configuration
     url: /configuration/configuration-basic.html
 
-  - label: Magento Extensions
+  - label: Commerce Extensions
     url: /magento/magento-extensions.html
 
-  - label: Magento Marketplace
+  - label: Commerce Marketplace
     url: /magento/magento-marketplace.html
 
   - label: Change Log
@@ -26,9 +26,6 @@
 
   - label: Resources
     url: "/getting-started/resources.html"
-
-  - label: Contribute to the Docs
-    url: "/getting-started/contribute.html"
 
 
 - label: Catalog
@@ -173,7 +170,7 @@
   url: /stores/configuration.html
   children:
 
-  - label: Magento Modes
+  - label: Operation Modes
     url: "/magento/installation-modes.html"
 
   - label: General

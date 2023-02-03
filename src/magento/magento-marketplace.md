@@ -1,11 +1,8 @@
 ---
 title: Magento Marketplace
 group: getting-started
-redirect_from:
-  - /magento/magento-connect.html
-  - /magento/magento-synchronize-store.html
-  - /magento/magento-marketplace-install-extension.html
-  - /magento/magento-marketplace-credentials.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html
 ---
 
 [Magento Marketplace][1] is our next generation application store that offers merchants a curated selection of solutions, and provides qualified developers the tools, platform, and prime location to build a thriving business. Magento Marketplace offers a selection of extensions that are available for free, as well as those that are for sale. Purchases can be paid by credit card or [PayPal][2].

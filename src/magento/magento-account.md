@@ -1,9 +1,11 @@
 ---
-title: Your Magento Account
+title: Your Commerce Account
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html
 ---
 
-Your Magento account has a separate login from your store. You can access this account from either the Magento website or from your store’s Admin. From the dashboard of your Magento account, you can find information that is related to the products and services that you have purchased, as well as your contact and billing information.
+Your Commerce account has a separate login from your store. You can access this account from either the website or from your store's Admin. From the dashboard of your Commerce account, you can find information that is related to the products and services that you have purchased, as well as your contact and billing information.
 
 ![]({% link images/images/magento-home-acct.png %}){: .zoom}
-_Your Magento account_
+_Your Commerce account_
