@@ -52,7 +52,7 @@ To have the highest number of Magento products automatically match with Amazon l
 
 ## 6. Configure your currency and conversion (as needed).
 
-If your Amazon store uses a different currency than is configured for your Magento store, [enable the currency][8] and set the [currency conversion rate][9].
+If your Amazon store uses a different currency than is configured for your Magento store, [enable the currency]({% link configuration/general/currency-setup.md %}) and set the [currency conversion rate]({% link stores/currency-update.md %}).
 
 ## 7. Create a Product Condition attribute (as needed).
 
@@ -83,7 +83,5 @@ To help facilitate error-free data transition during integration, we highly reco
 [5]: https://www.amazon.com/gp/help/customer/display.html?nodeId=15015721&amp;language=en_US&amp;ref=ag_home_cont_200364110
 [6]: https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&amp;language=en_US&amp;ref=efph_200405820_cont_521
 [7]: https://sellercentral.amazon.com/sbr/ref=xx_shipset_dnav_xx#shipping_templates
-[8]: https://docs.magento.com/m2/ce/user_guide/configuration/general/currency-setup.html
-[9]: https://docs.magento.com/m2/ce/user_guide/stores/currency-update.html
 [10]: https://sellercentral.amazon.com/gp/help/G891
 [11]: https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620&amp;language=en_MX&amp;ref=ag_200135620_cont_191

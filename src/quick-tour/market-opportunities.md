@@ -16,4 +16,4 @@ for a specific brand or product. Hold an invitation-only [event]({% link marketi
 [B2B and B2C]
 :  With Magento Commerce for B2B, you can serve both [B2C and B2B customers]({% link quick-tour/path-to-purchase.md %}).
 
-[1]: https://magento.com/products/business-intelligence
+[1]: https://business.adobe.com/products/magento/business-intelligence.html

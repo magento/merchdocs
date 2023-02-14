@@ -15,4 +15,4 @@ To learn more, see [B2B Commerce Best Practices Book][1]{:target="_blank"} in th
 ![B2B Commerce Best Practices Book]({% link images/images-b2b/introducing-b2b-commerce-best-practices-book.png %}){: .zoom}
 _B2B Commerce Best Practices Book_
 
-[1]: https://magento.com/resources/flex-your-b2b-commerce-superpowers
+[1]: https://business.adobe.com/resources/flex-your-b2b-commerce-superpowers.html

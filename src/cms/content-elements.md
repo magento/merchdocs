@@ -31,8 +31,8 @@ In this section of the guide, you will find detailed information for how to crea
 
 {% include grid.html sections=page.sections%}
 
-## Magento eBook
+## Commerce eBook
 
 Curated commerce is the practice of creating targeted content for customers that share similar characteristics. For more information, download the [eBook][1].
 
-[1]: https://magento.com/resources/curated-commerce
+[1]: https://business.adobe.com/resources/curated-commerce.html

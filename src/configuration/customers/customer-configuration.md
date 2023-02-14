@@ -20,7 +20,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Online Minutes Interval|Global|Determines the length of time that a customer’s online activity is accessible from the Admin. Leave empty for a default interval of 15 minutes.|
+|Online Minutes Interval|Global|Determines the length of time that a customer's online activity is accessible from the Admin. Leave empty for a default interval of 15 minutes.|
 |Customer Data Lifetime|Global|Determines the number of minutes before unsaved data that is entered by the customer expires. By default, unsaved data expires after 60 minutes.|
 
 ## Create New Account Options
@@ -33,13 +33,13 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cust
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Enable Automatic Assignment to Customer Group|Store View|Determines if customers are automatically assigned to the default customer group. To show VAT number in the store, set Show VAT Number in the storefront, select “Yes”. Options: <br/>**Yes** - The system does not automatically validate customer VAT IDs nor does it change customer groups. <br/>**No** - The system behavior is as usual, and the default customer group can be set in the Default Group field.|
+|Enable Automatic Assignment to Customer Group|Store View|Determines if customers are automatically assigned to the default customer group. To show VAT number in the store, set Show VAT Number in the storefront, select "Yes". Options: <br/>**Yes** - The system does not automatically validate customer VAT IDs nor does it change customer groups. <br/>**No** - The system behavior is as usual, and the default customer group can be set in the Default Group field.|
 |Default Group|Store View|Identifies the initial customer group assigned when an account is created.|
-|Default Value for Disable Automatic Group Changes Based on VAT ID|Global|(Available only if Current Configuration Scope is set to “Default Group”.) Choose whether the automatic change of customer group based on VAT ID will be enabled or disabled by default. The setting can be overridden on the product level. The setting influences the system behavior in the following situations: <br/> - The VAT ID of the customer’s default address or the whole default address changes. <br/> - Customer group change was emulated during the checkout for a registered customer who had no previously saved address or for a customer, who registered during the checkout. <br/>If the automatic group change is enabled, then in the first case the customer group changes automatically, and in the second case the temporarily emulated customer group is assigned to customer. If the automatic group change is disabled, the customer group that is assigned never changes, unless an administrator changes it manually.|
+|Default Value for Disable Automatic Group Changes Based on VAT ID|Global|(Available only if Current Configuration Scope is set to "Default Group".) Choose whether the automatic change of customer group based on VAT ID will be enabled or disabled by default. The setting can be overridden on the product level. The setting influences the system behavior in the following situations: <br/> - The VAT ID of the customer's default address or the whole default address changes. <br/> - Customer group change was emulated during the checkout for a registered customer who had no previously saved address or for a customer, who registered during the checkout. <br/>If the automatic group change is enabled, then in the first case the customer group changes automatically, and in the second case the temporarily emulated customer group is assigned to customer. If the automatic group change is disabled, the customer group that is assigned never changes, unless an administrator changes it manually.|
 |Show VAT Number on Storefront|Website|Determines if the VAT number is visible to customers in the store. Options: Yes / No|
 |Default Email Domain|Store View|Identifies the default email domain for the store. For example: mystore.com|
 |Default Welcome Email|Store View|Identifies the email template used for the default Welcome email.|
-|Default Welcome Email Without Password|Store View|An alternate Welcome email template that is used for new customer accounts created by the Administrator that don’t yet have a password assigned.|
+|Default Welcome Email Without Password|Store View|An alternate Welcome email template that is used for new customer accounts created by the Administrator that don't yet have a password assigned.|
 |Email Sender|Store View|Identifies the store contact that appears as the sender of the Welcome email.|
 |Require Emails Confirmation|Website|Determines if a request to create an account requires confirmation from the customer. Options: Yes / No|
 |Confirmation Link Email|Store View|Identifies the email template that is used for the confirmation email. Default template: New account confirmation key|
@@ -92,7 +92,7 @@ _[Name and Address Options - Open Source]({% link customers/name-address-options
 |Show Middle Name (initial)|Website|Determines if the middle initial is included as part of the customer name. If used, the middle initial is an optional field. Options: Yes / No|
 |Show Suffix|Website|Determines if the customer name includes a suffix at the end, such as Jr., Sr., III, and so on. Options: No / Optional / Required|
 |Suffix Dropdown Options|Website|Defines the list of suffix options. Separate values with a semicolon. Place a semicolon before the first value to display an empty value at the top of the list.|
-|Show Date of Birth|Website|Determines if the customer date of birth is included in the name and address form. Options: No / Optional / Required  <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.|
+|Show Date of Birth|Website|Determines if the customer date of birth is included in the name and address form. Options: No / Optional / Required  <br><br>**_Important:_** In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.|
 |Show Tax/VAT Number|Website|Determines if the Tax or [VAT number]({% link tax/vat.md %}) is included in the name and address form. Options: No / Optional / Required|
 |Show Gender|Website|Determines if gender is included in the name and address form. Options: No / Optional / Required Values: Male / Female / Not Specified|
 |Show Telephone|Website|Determines if the customer's telephone number is included in the name and address form. Options: No / Optional / Required|
@@ -134,7 +134,7 @@ _[Store Credit Options]({% link sales/credit-configure.md %})_
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Redirect Customer to Account Dashboard after Logging in|Website|Determines what happens after customers log in to their accounts. To redirect customers to their account dashboard, select “Yes”. Options: <br/>**Yes** - The account dashboard appears when customers log in to their accounts. <br/>**No** - Customers can continue shopping after logging in to their accounts.|
+|Redirect Customer to Account Dashboard after Logging in|Website|Determines what happens after customers log in to their accounts. To redirect customers to their account dashboard, select "Yes". Options: <br/>**Yes** - The account dashboard appears when customers log in to their accounts. <br/>**No** - Customers can continue shopping after logging in to their accounts.|
 
 ## Address Templates
 
@@ -144,7 +144,7 @@ _[Store Credit Options]({% link sales/credit-configure.md %})_
 |Template|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Text|Store View|The template is used for all addresses that are printed.|
-|Text One Line|Store View|This template defines the order of address entities in the customer’s shopping cart address book list. Progress during checkout.|
+|Text One Line|Store View|This template defines the order of address entities in the customer's shopping cart address book list. Progress during checkout.|
 |HTML|Store View|This template defines the order of address fields located under the Customer Addresses area in the Admin panel (Customers > Manage Customers) and those located on the Add New Address page when a customer creates a new billing or shipping address on his or her account page.|
 |PDF|Store View|The template defines the display of billing and shipping addresses in the printed invoices, shipments, and credit memos.|
 
@@ -167,7 +167,7 @@ _[CAPTCHA]({% link stores/security-captcha.md %})_{:.ee-only}
 |--- |--- |--- |
 |Enable CAPTCHA on Storefront|Website|Enables CAPTCHA in the store(s) associated with the Magento website. Options: Yes / No|
 |Font|Website|Determines the font that is used to display the CAPTCHA. To add your own font, put the font file in the same directory as your Magento installation and add the declaration to the `config.xml` file at `app/code/Magento/Captcha/etc`.|
-|Forms|Website|Determines the form(s) where CAPTCHA is used. Options: <br />Applying Coupon Code <br />Create user <br />Login <br />Forgot password <br />Contact Us <br />Change password <br />Share Wishlist Form <br />Send to Friend Form <br />Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991)) <br /><span class="ee-only">Add Gift Card Code</span> <br /><span class="ee-only">Create company</span><br /><br />_**Note:**_ The Create User, Forgot Password, and Payflow Pro forms are always enabled when selected.|
+|Forms|Website|Determines the form(s) where CAPTCHA is used. Options: <br />Applying Coupon Code <br />Create user <br />Login <br />Forgot password <br />Contact Us <br />Change password <br />Share Wishlist Form <br />Send to Friend Form <br />Payflow Pro (see [security patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br /><span class="ee-only">Add Gift Card Code</span> <br /><span class="ee-only">Create company</span><br /><br />_**Note:**_ The Create User, Forgot Password, and Payflow Pro forms are always enabled when selected.|
 |Displaying Mode|Website|Determines when the CAPTCHA appears. Options: <br/>**Always** - CAPTCHA is always required to log in. <br/>**After number of attempts to login** - This option applies only to the Admin Sign In form. When selected, the Number of Unsuccessful Attempts to Login field appears. Enter the number of login attempts that you want to allow. A value of 0 (zero) is similar to setting Displaying Mode to 'Always'.<br/>_**Note:**_ To track the number of unsuccessful login attempts, each attempt to log in under one email address and from one IP-address is counted. The maximum number of login attempts allowed from the same IP-address is 1,000. This limitation applies only when CAPTCHA is enabled.|
 |CAPTCHA Timeout (minutes)|Website|Determines the lifetime of the current CAPTCHA. When the CAPTCHA expires, the user must reload the page.|
 |Number of Symbols|Website|Determines the number of symbols that appear in the CAPTCHA, with a maximum of 8. You can also specify a range, for example, 5-8.|

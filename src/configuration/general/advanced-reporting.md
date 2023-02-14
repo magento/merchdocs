@@ -17,5 +17,5 @@ Advanced Reporting is a cloud-based service that is powered by [Magento Business
 |Industry|Website|Identifies your business industry to personalize Advanced Reporting.|
 |Time of day to send data|Global|Determines the time each day when your store data is sent to Advanced Reporting. The time is based on a 24-hour clock, and includes the minute, hour, and second in your time zone.|
 
-[1]: https://docs.magento.com/mbi/
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html
 [2]: https://devdocs.magento.com/guides/v2.3/advanced-reporting/overview.html

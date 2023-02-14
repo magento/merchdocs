@@ -8,7 +8,7 @@ Language packs can be found under [Translations & Localization][1]{:target="_bla
 
 ## Step 1: Install a Language Pack
 
-Follow the standard instructions to install the language pack extension. See [General CLI installation](https://devdocs.magento.com/extensions/install/) in the _Magento Extensions Guide_.
+Follow the standard instructions to install the language pack extension. See [General CLI installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) in the _Installation Guide_.
 
 ## Step 2: Create a Store View for the Language
 
@@ -51,4 +51,4 @@ Follow the standard instructions to install the language pack extension. See [Ge
     After you change the language of the locale, the remaining content that you have created, including [product]({% link catalog/product-translate.md %}) names and descriptions, categories, [CMS]({% link cms/page-translate.md %}) pages, and blocks must be translated separately for each store view.
 
 [1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html
-[2]: https://devdocs.magento.com/extensions/install/
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html

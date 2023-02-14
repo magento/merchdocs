@@ -2,7 +2,7 @@
 title: Configuring Admin Security
 ---
 
-Magento recommends that you take a multifaceted approach to protect the security of your store. You can begin by using a [custom Admin URL]({% link stores/store-urls-custom-admin.md %}) that is not easy to guess, rather than the obvious “Admin” or “Backend.” By default, passwords that are used to [log in]({% link stores/admin-signin.md %}) to the Magento Admin must be seven or more characters long and include both letters and numbers. As a [best practice][1]{:target="_blank"}, use only strong Admin passwords that include a combination of letters, numbers, and symbols.
+Magento recommends that you take a multifaceted approach to protect the security of your store. You can begin by using a [custom Admin URL]({% link stores/store-urls-custom-admin.md %}) that is not easy to guess, rather than the obvious "Admin" or "Backend." By default, passwords that are used to [log in]({% link stores/admin-signin.md %}) to the Magento Admin must be seven or more characters long and include both letters and numbers. As a [best practice][1]{:target="_blank"}, use only strong Admin passwords that include a combination of letters, numbers, and symbols.
 
 For increased security, consider implementing two-factor authentication that generates a token on a separate device. To learn more, see the selection of security-related extensions on [Magento Marketplace][2]{:target="_blank"}.
 
@@ -63,6 +63,6 @@ For technical information, see [Security overview][3]{:target="_blank"} in the d
 
 - **Password** — By default, an Admin password must be seven or more characters long and include both letters and numbers.
 
-[1]: https://magento.com/security/best-practices/security-best-practices
+[1]: https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf
 [2]: https://marketplace.magento.com/catalogsearch/result?cat=8&amp;q=security
 [3]: https://devdocs.magento.com/guides/v2.3/architecture/security_intro.html

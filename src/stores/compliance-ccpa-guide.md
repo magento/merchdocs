@@ -75,9 +75,6 @@ Take inventory of your digital properties, including all integrations and those 
    - [Personal Information Reference (Magento 2.x)][1]
    - [Personal Information Reference (Magento 1.x)][2]
 
-    ![](https://devdocs.magento.com/compliance/privacy/frontend-data-entry-points.svg){: .zoom}
-    _Storefront Data Entry Points_
-
 ### Step 4: Establish procedures and mechanisms to respond to customer requests.
 
 **Stakeholders:** Customer Service, Information Technology, User Experience, Administrative Support
@@ -167,7 +164,7 @@ Review your current privacy policy and consider what, if any, additional disclos
 
 For a period of 24 months after each individual rights request is received, maintain a record of the request and your company's response.
 
-[1]: https://devdocs.magento.com/compliance/privacy/pi-data-reference-m2.html
-[2]: https://devdocs.magento.com/compliance/privacy/pi-data-reference-m1.html
+[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
 [4]: https://www.adobe.com/commerce/magento.html

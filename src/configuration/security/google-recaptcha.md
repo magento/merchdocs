@@ -16,7 +16,7 @@ Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini`�
 |--|--|--|
 |Google API website key|Website|Sets the Google API website key generated when creating your Google reCAPTCHA account. For complete details, see [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).|
 |Google API secret key|Website|Sets the secret key generated when creating your Google  reCAPTCHA account. For complete details, see [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).|
-|reCaptcha type|Website|Indicates the type of Google reCAPTCHA to use. You must have added the correct API keys for the type.<br/><br/>Options:<br/>**Invisible reCaptcha v3** (default) validates in the background without requiring user interactions based on score.<br/>**Invisible reCaptcha v2** (recommended) validates in the background without requiring user interactions.<br/>**reCaptcha v2**  validates with the _I’m not a robot_ checkbox.|
+|reCaptcha type|Website|Indicates the type of Google reCAPTCHA to use. You must have added the correct API keys for the type.<br/><br/>Options:<br/>**Invisible reCaptcha v3** (default) validates in the background without requiring user interactions based on score.<br/>**Invisible reCaptcha v2** (recommended) validates in the background without requiring user interactions.<br/>**reCaptcha v2**  validates with the _I'm not a robot_ checkbox.|
 
 ## Backend
 
@@ -60,4 +60,4 @@ Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini`�
 |Use in Create user|Website|Adds Google reCAPTCHA to the create customer form. Options: Yes (default) / No|
 |Use in Review|Website|Adds Google reCAPTCHA to the review form on a product details page. Options: Yes (default) / No|
 |Use invisible ReCaptcha in newsletter|Website|Adds Google reCAPTCHA to all storefront pages where newsletter subscription functionality is shown. Options: Yes (default) / No <br/>**_Note:_** Requires an Invisible ReCaptcha v2 or v3 key. If enabled, a badge will be displayed in every page.|
-|Use in PayPal Payflow Pro payment form|Website|Adds Google reCAPTCHA to the PayPal Payflow Pro payform form during checkout. Options: Yes (default) / No <br/>**_Note:_** This option is available out-of-the-box for v2.3.2 and later. To add the option for v2.3.0 and 2.3.1, see the Magento Support article [PayPal Payflow Pro active carding activity](https://support.magento.com/hc/en-us/articles/360025515991).|
+|Use in PayPal Payflow Pro payment form|Website|Adds Google reCAPTCHA to the PayPal Payflow Pro payform form during checkout. Options: Yes (default) / No <br/>**_Note:_** This option is available out-of-the-box for v2.3.2 and later. To add the option for v2.3.0 and 2.3.1, see the Magento Support article [PayPal Payflow Pro active carding activity](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html).|

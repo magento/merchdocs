@@ -4,13 +4,13 @@ title: Magento Services
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Services]({% link configuration/services.md %}) > Magento Services
 
-Magento allows you to link your Magento store to a SaaS service through the Admin UI and an API key.
+Adobe allows you to link your Commerce store to a SaaS service through the Admin UI and an API key.
 
 ## Generate an API key {#apikeys}
 
-When you create a [Magento account]({% link magento/magento-account.md %}), identified by a MageID, you can generate a Magento API key to connect to the SaaS services within Magento. To use Magento Commerce SaaS services, such as Product Recommendations, the license-holder must generate the API key. However, if you are a Magento partner, the contract signer generates the API key. Then, the API key can be passed to the systems integrator or development team that manages the SaaS projects and environments on behalf of the license-holder.
+When you create a [Commerce account]({% link magento/magento-account.md %}), identified by a MageID, you can generate a Magento API key to connect to the SaaS services within Commerce. To use Commerce SaaS services, such as Product Recommendations, the license-holder must generate the API key. However, if you are an Adobe partner, the contract signer generates the API key. Then, the API key can be passed to the systems integrator or development team that manages the SaaS projects and environments on behalf of the license-holder.
 
-1. Log in to your Magento account at [https://account.magento.com](https://account.magento.com/){:target="_blank"}.
+1. Log in to your Commerce account at [https://account.magento.com](https://account.magento.com/customer/account/login){:target="_blank"}.
 
 1. Under the **Magento** tab, select **API Portal** on the sidebar.
 
@@ -23,12 +23,12 @@ When you create a [Magento account]({% link magento/magento-account.md %}), iden
 
 Each MageID can have one SaaS project and within that SaaS project you can have one or more SaaS environments depending on whether or not you have a Magento license:
 
-- **Magento Commerce** - One production environment; two testing environments
+- **Adobe Commerce** - One production environment; two testing environments
 
 - **Magento Open Source** - One production environment; no testing environments
 
 {:.bs-callout-info}
-SaaS projects and environments are separate but analogous concepts to Magento Cloud projects and environments.
+SaaS projects and environments are separate but analogous concepts to Commerce Cloud projects and environments.
 
 ## API keys {#apikey}
 
@@ -52,7 +52,7 @@ _SaaS Environment_
 
 ## Create SaaS Environment {#createsaasenv}
 
-To create a SaaS Environment, request the Magento API key from the Magento license holder for your store.
+To create a SaaS Environment, request the Magento API key from the Commerce license holder for your store.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 

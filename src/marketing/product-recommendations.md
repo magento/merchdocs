@@ -4,12 +4,12 @@ tag: product-recommendations
 ee_only: true
 ---
 
-Product recommendations are a powerful marketing tool you can use to increase conversions, boost revenue, and stimulate shopper engagement. Product recommendations are surfaced on the storefront in the form of units such as “Customers who viewed this product also viewed”. Magento's product recommendations are powered by [Adobe Sensei](https://www.adobe.com/sensei.html), which uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Magento catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
+Product recommendations are a powerful marketing tool you can use to increase conversions, boost revenue, and stimulate shopper engagement. Product recommendations are surfaced on the storefront in the form of units such as "Customers who viewed this product also viewed". Magento's product recommendations are powered by [Adobe Sensei](https://www.adobe.com/sensei.html), which uses artificial intelligence and machine-learning algorithms to perform a deep analysis of aggregated visitor data. This data, when combined with your Magento catalog, results in highly engaging, relevant, and personalized experiences for the shopper.
 
 You can create, manage, and deploy recommendations across your store views directly from the Magento Admin panel.
 
 {:.bs-callout-info}
-For information about installing product recommendations modules, refer to the [developer documentation](https://devdocs.magento.com/recommendations/install-configure.html).
+For information about installing product recommendations modules, refer to the [Product Recommendations Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
 
 ## Dashboard {#dashboard}
 
@@ -29,7 +29,7 @@ Magento provides the following types of recommendations:
 - **Viewed this, bought that** - Recommends items most often purchased by shoppers who viewed the specified item
 - **Bought this, bought that** - Recommends items most often purchased by shoppers who purchased the specified item
 - **More like this** - Recommends items based on similar content and attributes
-- **Trending** - Recommends items based on recent momentum of product’s popularity
+- **Trending** - Recommends items based on recent momentum of product's popularity
 
 ## Backup recommendations {#backup-recommendations}
 
