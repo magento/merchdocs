@@ -91,7 +91,7 @@ _[Customer CAPTCHA Configuration]({% link configuration/customers/customer-confi
       - Contact Us
       - Change password
       - Share Wishlist Form
-      - Payflow Pro (see [security patch](https://support.magento.com/hc/en-us/articles/360025515991))
+      - Payflow Pro (see [security patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html))
       - {:.ce-only}Send to Friend Form
       - {:.ee-only}Add Gift Card Code
       - {:.b2b-only}Create company
@@ -99,7 +99,7 @@ _[Customer CAPTCHA Configuration]({% link configuration/customers/customer-confi
    - Set **Displaying Mode** to one of the following:
 
       - `Always` — CAPTCHA is always required to access the selected form(s).
-      - `After number of attempts to login` — Enter the number of login attempts before the CAPTCHA appears. A value of 0 (zero) is similar to “Always.” When selected, the number of unsuccessful login attempts appears. This option does not apply to the Forgot Password form, which if enabled, always display the CAPTCHA.
+      - `After number of attempts to login` — Enter the number of login attempts before the CAPTCHA appears. A value of 0 (zero) is similar to "Always." When selected, the number of unsuccessful login attempts appears. This option does not apply to the Forgot Password form, which if enabled, always display the CAPTCHA.
 
    - In the **Number of Unsuccessful Attempts to Login** field, enter the number of times a customer can log in unsuccessfully before the CAPTCHA appears. If set to zero (`0`), CAPTCHA is always used.
 

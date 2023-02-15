@@ -16,7 +16,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |--- |--- |--- |
 |Generate Schedules Every|Store View|Determines the frequency in minutes, that schedules are generated.|
 |Schedule Ahead for|Store View|Determines the number of minutes in advance that schedules are generated.|
-|Missed if Not Run Within|Store View|Determines the number of minutes before a cron job that hasn’t yet executed is marked as missed.|
+|Missed if Not Run Within|Store View|Determines the number of minutes before a cron job that hasn't yet executed is marked as missed.|
 |History Cleanup Every|Store View|Determines the number of minutes that pass before the cron history is cleaned.|
 |Success History Lifetime|Store View|Determines the number of minutes that the record of successfully completed cron jobs is kept in the database.|
 |Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
@@ -29,7 +29,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 |--- |--- |--- |
 |Generate Schedules Every|Store View|Determines the frequency in minutes, that schedules are generated.|
 |Schedule Ahead for|Store View|Determines the number of minutes in advance that schedules are generated.|
-|Missed if Not Run Within|Store View|Determines the number of minutes before a cron job that hasn’t yet executed is marked as missed.|
+|Missed if Not Run Within|Store View|Determines the number of minutes before a cron job that hasn't yet executed is marked as missed.|
 |History Cleanup Every|Store View|Determines the number of minutes that pass before the cron history is cleaned.|
 |Success History Lifetime|Store View|Determines the number of minutes that the record of successfully completed cron jobs is kept in the database.|
 |Failure History Lifetime|Store View|Determines the number of minutes that the record of failed cron jobs is kept in the database.|
@@ -54,14 +54,14 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Adva
 [_Mail Sending Settings_]({% link system/email-communications.md %})
 
 {:.bs-callout-warning}
-**Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1]{:target="_blank"} for email communications.  In the Mail Sending Settings, make sure that Set Return Path is set to "No". To learn more, see the [Magento Security Center posting][2]{:target="_blank"}.
+**Security Notice!** We recommend that all merchants immediately set their mail sending configuration to protect against a recently identified potential remote code execution exploit. Until this issue is resolved, we highly recommend that you avoid using [Sendmail][1]{:target="_blank"} for email communications.  In the Mail Sending Settings, make sure that Set Return Path is set to "No".
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Disable Email Communications|Store View|Determines if email communications are activated for the store. Options: Yes / No|
 |Host|Store View|(For Windows server only) Determines the name that is used to refer to the host. Default value: localhost|
 |Port (25)|Store View|(For Windows server only) Identifies the port used for email communications. Default value: 25|
-|Set Return-Path|Global|Determines if a routing address is used for returned emails. Options: No ([Recommended Security Measure](https://magento.com/security/news/new-zend-framework-1-security-vulnerability){:target="_blank"}) / Yes / Specified|
+|Set Return-Path|Global|Determines if a routing address is used for returned emails. Options: No (recommended security measure) / Yes / Specified|
 |Return-Path Email|Global|Specifies the routing email address for returned emails.|
 
 ## Currency
@@ -206,4 +206,3 @@ _Adobe Stock Integration_
 |Test Connection||Runs a test to verify that the API key is valid for use with the Adobe Stock service.|
 
 [1]: https://en.wikipedia.org/wiki/Sendmail
-[2]: https://magento.com/security/news/new-zend-framework-1-security-vulnerability

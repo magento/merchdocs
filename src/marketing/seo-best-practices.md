@@ -6,7 +6,7 @@ Search engine optimization is the practice of fine-tuning the content and presen
 
 ## Commerce Resources
 
-See the latest [Magento eBooks][2]{:target="_blank"} to gain access to expert insight and online [business resources][1]{:target="_blank"} to help develop and improve your store.
+See the latest [eBooks][2]{:target="_blank"} to gain access to expert insight and online [business resources][1]{:target="_blank"} to help develop and improve your store.
 
 ## Meta Data
 
@@ -21,4 +21,4 @@ A [site map]({% link marketing/sitemap-xml.md %}) improves the way your store is
 The [URL Rewrite]({% link marketing/url-rewrite.md %}) tool lets you change any URL that is associated with a product, category, or CMS page.
 
 [1]: https://business.adobe.com/resources/main.html
-[2]: https://magento.com/resources?type=guide
+[2]: https://business.adobe.com/resources/main.html?type=guide&Products=Commerce

@@ -8,7 +8,7 @@ This is one in a series of topics to help Magento merchants and developers under
 
 The General Data Protection Regulation (GDPR) is legislation that regulates data protection and privacy for all individuals in the European Union and the European Economic Area. The legislation also applies to the export of personal data outside the EU. The GDPR was adopted in April 2016, and became enforceable on 25 May, 2018. Business that are not based in the EU, but engage in global commerce are required to comply with the regulation. The GDPA defines personal data as follows:
 
-**Personal Data**: Any information relating to an identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.
+**Personal Data**: Any information relating to an identified or identifiable natural person ('data subject'); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.
 
 All organizations that process personal data must disclose the following:
 
@@ -41,6 +41,6 @@ Businesses that comply with GDPR might have additional obligations under the CCP
 
 - For data flow diagrams and database entity mapping, see the [Personal Information Reference][2]{: target="_blank"}.
 
-[1]: https://magento.com/gdpr
-[2]: https://devdocs.magento.com/compliance/privacy/pi-data-reference-m2.html
+[1]: https://business.adobe.com/privacy/general-data-protection-regulation.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf

@@ -19,7 +19,7 @@ In order to use TFA, you must have a TFA application installed on your personal 
 
 ## Enable two-factor authentication
 
-1. Go to the Magento account login: [https://account.magento.com/customer/account/login][1]{:target="_blank"}
+1. Go to the Commerce account login: [https://account.magento.com/customer/account/login][1]{:target="_blank"}
 
 1. Enter your username and password combination, and then click <span class="btn">Login</span> to log into My Account.
 

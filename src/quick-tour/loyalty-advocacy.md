@@ -8,7 +8,7 @@ Advanced Reporting
 :  Gain valuable insights at a glance with dynamic product, order, and customer reports, powered by [Magento Business Intelligence][1].
 
 Dashboard Snapshots
-:  Knowing what’s of interest on your site is crucial to maximize your marketing budget. Use this [information on your dashboard]({% link stores/admin-dashboard.md %}) to determine what you should cross- and up-sell to loyal customers, or which products to put on sale.
+:  Knowing what's of interest on your site is crucial to maximize your marketing budget. Use this [information on your dashboard]({% link stores/admin-dashboard.md %}) to determine what you should cross- and up-sell to loyal customers, or which products to put on sale.
 
 Customer Accounts
 :  Opening an account provides [customers]({% link customers/customer-account.md %}) with a personalized shopping experience that they can share with their friends. Customers can save their shopping preferences, and manage their own store billing and shipping information.
@@ -19,4 +19,4 @@ Advocacy Tools
 Reviews and Ratings
 :  [Product reviews]({% link marketing/product-reviews.md %}) give your customers a way to engage with your brand while fostering a sense of community. You can curate your reviews with tools to help you edit and approve comments for inappropriate content before they go live.
 
-[1]: https://docs.magento.com/mbi/
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=en

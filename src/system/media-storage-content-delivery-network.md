@@ -8,9 +8,9 @@ After configuring the CDN, you must complete the configuration from the Admin. T
 
 ## CDN workflow
 
-1. **Browser requests media** - A page from the store opens in the customer’s browser, and the browser requests the media that is specified in the HTML.
+1. **Browser requests media** - A page from the store opens in the customer's browser, and the browser requests the media that is specified in the HTML.
 1. **Request sent to CDN; images found and served** - The request is sent first to the CDN. If the CDN has the images in storage, it serves the media files to the customer's browser.
-1. **Media not found, request sent to Magento web server** - If the CDN does not have the media files, the request is sent to the Magento web server. If the media files are found in the file system, the web server sends them to the customer’s browser.
+1. **Media not found, request sent to Magento web server** - If the CDN does not have the media files, the request is sent to the Magento web server. If the media files are found in the file system, the web server sends them to the customer's browser.
 
 {:.bs-callout-info}
 **Important!** For security, when a CDN is used as media storage, JavaScript may not function properly if the CDN is located outside of your subdomain.
@@ -47,5 +47,5 @@ After configuring the CDN, you must complete the configuration from the Admin. T
 
 1. When complete, click <span class="btn">Save Config</span>.
 
-[1]: https://magento.com/products/magento-commerce
+[1]: https://business.adobe.com/products/magento/magento-commerce.html
 [2]: https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html

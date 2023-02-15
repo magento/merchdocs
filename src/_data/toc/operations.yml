@@ -188,10 +188,6 @@ pages:
       url: "/system/data-attributes-customer.html"
   - label: Integrations
     url: "/system/integrations.html"
-    children:
-    - label: Integration with ERP Systems
-      url: "/system/erp-systems.html"
-      edition: b2b-only
   - label: Permissions
     url: "/system/permissions.html"
     children:
@@ -319,7 +315,7 @@ pages:
     - label: Advanced Reporting
       url: "/reports/advanced-reporting.html"
     - label: MBI
-      url: "https://docs.magento.com/mbi/getting-started/getting-started.html"
+      url: "https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html"
   - label: Customer Engagement
     url: "/reports/customer-engagement.html"
   - label: New Relic Reporting
