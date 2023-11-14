@@ -13,7 +13,7 @@ Magento allows you to accept payments by check or money order. The Check / Money
 1. Under _Other Payment Methods_, expand ![]({% link images/images/btn-expand.png %}) the **Check / Money Order** section.
 
    ![Check / Money Order]({% link images/images/config-sales-payment-methods-check-money-order.png %}){: .zoom}
-   [_Check / Money Order configuration_]({% link configuration/sales/payment-methods.md %}#check--money-order)
+   [_Check / Money Order configuration_]({% link configuration/sales/payment-methods.md %})
 
    {:.bs-callout-info}
    If necessary, first deselect the **Use system value** checkbox to change these settings.
@@ -22,7 +22,7 @@ Magento allows you to accept payments by check or money order. The Check / Money
 
 1. Enter a **Title** to identify the Check / Money Order payment method during checkout.
 
-1. If orders typically wait for approval, accept the default **New Order Status** as `Pending”` until it is approved.
+1. If orders typically wait for approval, accept the default **New Order Status** as `Pending"` until it is approved.
 
    If you prefer, you can use the `Processing` or `Suspected Fraud` status for new orders with this payment method.
 

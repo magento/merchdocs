@@ -15,7 +15,7 @@ Flat Rate appears as an option in the _Estimate Shipping and Tax_ section of the
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Flat Rate** section.
 
    ![]({% link images/images/config-sales-shipping-methods-flat-rate.png %}){: .zoom}
-   [*Flat Rate*]({% link configuration/sales/shipping-methods.md %}#flat-rate)
+   [*Flat Rate*]({% link configuration/sales/shipping-methods.md %})
 
 1. Set **Enabled** to `Yes`.
 
@@ -23,7 +23,7 @@ Flat Rate appears as an option in the _Estimate Shipping and Tax_ section of the
 
 1. Enter a **Method Name** to appear next to the calculated rate in the shopping cart.
 
-   The default method name is “Fixed”. If you charge a handling fee, you can change the Method Name to “Plus Handling,” or something else that is suitable.
+   The default method name is "Fixed". If you charge a handling fee, you can change the Method Name to "Plus Handling," or something else that is suitable.
 
 1. To describe how flat rate shipping can be used, set **Type** to one of the following:
 

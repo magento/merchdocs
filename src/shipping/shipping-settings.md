@@ -45,7 +45,7 @@ A shipping policy should explain your company's business rules and guidelines fo
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Shipping Policy Parameters** section.
 
    ![]({% link images/images/config-sales-shipping-settings-shipping-policy-parameters.png %}){: .zoom}
-   [*Shipping Policy Parameters*]({% link configuration/sales/shipping-settings.md %}#shipping-policy-parameters)
+   [*Shipping Policy Parameters*]({% link configuration/sales/shipping-settings.md %})
 
 1. Set **Apply Custom Shipping Policy** to `Yes`.
 

@@ -16,7 +16,7 @@ CSS files can be merged only when working in [Developer Mode]({% link magento/in
 1. Expand ![]({% link images/images/btn-expand.png %}) the **CSS Settings** section.
 
    ![]({% link images/images/config-advanced-developer-css-settings.png %}){: .zoom}
-   [*CSS Settings*]({% link configuration/advanced/developer.md %}#css-settings)
+   [*CSS Settings*]({% link configuration/advanced/developer.md %})
 
 1. Set **Merge CSS Files** to `Yes`.
 

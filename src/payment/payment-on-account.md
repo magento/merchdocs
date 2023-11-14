@@ -14,7 +14,7 @@ Payment on Account is an offline payment method that allows companies to make pu
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Payment on Account** section.
 
    ![Payment on Account]({% link images/images-b2b/config-sales-payment-methods-payment-on-account.png %}){: .zoom}
-   [_Payment on Account_]({% link configuration/sales/payment-methods.md %}#payment-on-account)
+   [_Payment on Account_]({% link configuration/sales/payment-methods.md %})
 
    {:.bs-callout-info}
    If necessary, first deselect the **Use system value** checkbox to change these settings.

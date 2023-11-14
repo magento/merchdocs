@@ -16,7 +16,7 @@ Check your shipping carrier configuration for any additional settings that may b
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Free Shipping** section.
 
    ![]({% link images/images/config-sales-shipping-methods-free-shipping.png %}){: .zoom}
-   [*Free Shipping*]({% link configuration/sales/shipping-methods.md %}#free-shipping)
+   [*Free Shipping*]({% link configuration/sales/shipping-methods.md %})
 
 1. Set **Enabled** to `Yes`.
 

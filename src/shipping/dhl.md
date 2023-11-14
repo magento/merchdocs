@@ -13,7 +13,7 @@ DHL offers integrated international services and tailored, customer-focused solu
 1. Expand ![]({% link images/images/btn-expand.png %}) the **DHL** section.
 
    ![]({% link images/images/config-sales-shipping-methods-dhl-account-settings.png %}){: .zoom}
-   _[DHL Account Settings]({% link configuration/sales/shipping-methods.md %}#dhl)_
+   _[DHL Account Settings]({% link configuration/sales/shipping-methods.md %})_
 
 1. Set **Enabled for Checkout** to `Yes`.
 

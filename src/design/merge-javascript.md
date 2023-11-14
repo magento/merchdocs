@@ -16,7 +16,7 @@ JavaScript files can be merged only when working in [Developer Mode]({% link mag
 1. Expand ![]({% link images/images/btn-expand.png %}){: .Inline} the **JavaScript Settings** section.
 
    ![]({% link images/images/config-advanced-developer-javascript-settings.png %}){: .zoom}
-   [*JavaScript Settings*]({% link configuration/advanced/developer.md %}#javascript-settings)
+   [*JavaScript Settings*]({% link configuration/advanced/developer.md %})
 
 1. Set **Merge JavaScript Files** to `Yes`.
 

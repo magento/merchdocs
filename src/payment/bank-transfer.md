@@ -13,7 +13,7 @@ Magento allows you to accept payment that is transferred from a customer bank ac
 1. Under _Other Payment Methods_, expand ![]({% link images/images/btn-expand.png %}) the **Bank Transfer Payment** section.
 
    ![Bank Transfer Payment]({% link images/images/config-sales-payment-methods-bank-transfer-payment.png %}){: .zoom}
-   [_Bank Transfer Payment configuration_]({% link configuration/sales/payment-methods.md %}#bank-transfer-payment)
+   [_Bank Transfer Payment configuration_]({% link configuration/sales/payment-methods.md %})
 
    {:.bs-callout-info}
    If necessary, first deselect the **Use system value** checkbox to change these settings.
