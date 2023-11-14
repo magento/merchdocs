@@ -1,5 +1,7 @@
 ---
 title: Sales Channels
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html
 ---
 
 The Sales Channels configuration settings can be found in **System** > **Configuration** > **Sales Channels**. These settings are only available when Amazon Sales Channel is configured.

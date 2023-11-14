@@ -1,5 +1,7 @@
 ---
 title: Catalog
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Catalog]({% link configuration/catalog.md %}) > Catalog
@@ -38,7 +40,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Cata
 |Products per Page on List Allowed Values|Store View|Determines the number of products displayed in List View. To provide a selection of options, enter multiple values separated by commas.|
 |Products per Page on List Default Value|Store View|Determines the number of products displayed per page by default, in List View.|
 |Product Listing Sort by|Store View|Determines the sort order of the search results list. The selection of options is determined by the Display Settings of the category and the available attributes that are set to be `Used for Sorting in Product Listing`. The default is set to `Use All Available Attributes` and typically includes Best Value, Name, Price|
-|Allow All Products per Page|Store View|If set to `Yes`, includes the `ALL` option in the “Show per Page” control.|
+|Allow All Products per Page|Store View|If set to `Yes`, includes the `ALL` option in the "Show per Page" control.|
 |Remember Category Pagination|Global|If set to `Yes`, the current category pagination values are saved as customers browse from one category to another in [product listings]({% link catalog/navigation-product-listings.md %}). Saving the value uses more cache storage and can affect the way pages are indexed by search engines. Options: Yes / No (default)|
 |Use [Flat Catalog]({% link catalog/catalog-flat.md %}) Category|Global|Enables the flat category structure. (not recommended) Options: Yes / No|
 |Use Flat Catalog Product|Global|Enables the flat product structure. (not recommended) Options: Yes / No|
@@ -259,8 +261,8 @@ Magento supports the following versions of Elasticsearch: 6.x, 5.x, and 2.x (dep
 |--- |--- |--- |
 |Enable Catalog Events Functionality|Website|Determines whether the Events module is enabled.|
 |Enable Catalog Event Widget on Frontend|Store View|Determines if the Event Widget is available in the storefront. This is a static block with information about events in your site.|
-|Number of Events to be Displayed in the Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on the category pages. To override, use the `limit=”x”` variable.|
-|Events to Scroll per Click in Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on CMS pages, such as the home page. To override, use the `scroll=”x”` variable.|
+|Number of Events to be Displayed in the Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on the category pages. To override, use the `limit="x"` variable.|
+|Events to Scroll per Click in Event Slider Widget|Store View|Determines the number of events that appear in the Event Slider widget on CMS pages, such as the home page. To override, use the `scroll="x"` variable.|
 
 {:.ee-only}
 ## Rule-Based Product Relations

@@ -1,5 +1,7 @@
 ---
 title: Advanced Reporting
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/general/advanced-reporting.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [General]({% link configuration/general/general.md %}) > Advanced Reporting

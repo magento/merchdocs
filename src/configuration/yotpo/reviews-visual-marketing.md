@@ -1,5 +1,7 @@
 ---
 title: Reviews and Visual Marketing
+redirect_to:
+  - https://commercemarketplace.adobe.com/partner/YotpoAccount
 ---
 
 Basic Yotpo settings are accessed in the _Admin_ > **Stores** > _Configuration_ > _Yotpo_ > **Reviews and Visual Marketing**. Yotpo settings default as follows.

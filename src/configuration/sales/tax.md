@@ -1,5 +1,7 @@
 ---
 title: Tax
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/tax.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Tax
@@ -37,7 +39,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Company City|Store View|The proper name of the city that is used to determine applicable tax jurisdiction(s).|
 |Company Country|Store View|The country that determines applicable tax jurisdictions.|
 |Company State|Store View|The region, state, or province where the company is licensed to conduct business.|
-|Company Postal Code|Store View|The ZIP or postal code that indicates the company’s tax jurisdiction.|
+|Company Postal Code|Store View|The ZIP or postal code that indicates the company's tax jurisdiction.|
 
 ## Vertex Delivery Terms
 
@@ -130,7 +132,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
-|Display Product Prices in Catalog|Store View|Determines if product prices published in the catalog include or exclude tax, or show two versions of the price; one with, and the other  without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax <br/><br/>**_Note:_** If you set the Display Product Prices field to “Including Tax”, the tax appears only if there is a tax rule that matches the tax origin, or if there is a customer address that matches the tax rule. Events that can trigger a match include customer account creation, login, or the use of the Tax and Shipping estimation tool in the shopping cart.|
+|Display Product Prices in Catalog|Store View|Determines if product prices published in the catalog include or exclude tax, or show two versions of the price; one with, and the other  without tax. Options: Excluding Tax / Including Tax / Including and Excluding Tax <br/><br/>**_Note:_** If you set the Display Product Prices field to "Including Tax", the tax appears only if there is a tax rule that matches the tax origin, or if there is a customer address that matches the tax rule. Events that can trigger a match include customer account creation, login, or the use of the Tax and Shipping estimation tool in the shopping cart.|
 |Display Shipping Prices|Store View|Determines if shipping prices include or exclude tax, or show two versions of the shipping price; one with, and the other without tax. Options:  Excluding Tax / Including Tax / Including and Excluding Tax|
 
 ## Shopping Cart Display Settings

@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: eWAY (Deprecated)
+redirect_to:
+  - https://marketplace.magento.com/catalogsearch/result/?q=eway
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > eWAY (Deprecated)

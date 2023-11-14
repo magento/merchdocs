@@ -1,5 +1,7 @@
 ---
 title: Web
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/general/web.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [General]({% link configuration/general/general.md %}) > Web
@@ -13,7 +15,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Add Store Code to URLs|Global|If Web Server Rewrites are enabled, inserts the Store Code of the current view in the URL. Options: Yes / No|
-|Auto-redirect to Base URL|Global|(For single-store setups) If there is a broken link on your site, redirects traffic to the base URL, rather than to a page with a “404 Page Not Found” message. Options: No / Yes (302 Found) / Yes (301 Moved Permanently) <br /><br />**_Important!_** Do not use auto-redirect to base URL for multi-store setups.|
+|Auto-redirect to Base URL|Global|(For single-store setups) If there is a broken link on your site, redirects traffic to the base URL, rather than to a page with a "404 Page Not Found" message. Options: No / Yes (302 Found) / Yes (301 Moved Permanently) <br /><br />**_Important!_** Do not use auto-redirect to base URL for multi-store setups.|
 
 ## Search Engine Optimization
 
@@ -65,6 +67,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Default Web URL|Store View|Indicates the landing page that is associated with the base URL. This is set by default to “cms” to indicate a page from Magento’s content management system. You can also use a different type of landing page, such as a blog. For example, if a blog is installed on the server at magento/blog, you can enter the name of the “blog” folder as a relative path to the selection of pages.|
+|Default Web URL|Store View|Indicates the landing page that is associated with the base URL. This is set by default to "cms" to indicate a page from Magento's content management system. You can also use a different type of landing page, such as a blog. For example, if a blog is installed on the server at magento/blog, you can enter the name of the "blog" folder as a relative path to the selection of pages.|
 |CMS Home Page|Store View|To choose the home page for the store, simply select the CMS page from the list. By default, the CMS Home Page lists the entire selection of CMS pages that are available for your store.|
 |Default No-route URL|Store View|Contains the URL of the default page that you want to appear when a `404 Page not Found` error occurs. The default value is `cms/noroute/index`.|
 |CMS No Route Page|Store View|Identifies a specific CMS page that you want to appear when a 404 Page Not Found error occurs. The default page is 404 Not Found.|

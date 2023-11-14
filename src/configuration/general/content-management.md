@@ -1,5 +1,7 @@
 ---
 title: Content Management
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/general/content-management.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [General]({% link configuration/general/general.md %}) > Content Management

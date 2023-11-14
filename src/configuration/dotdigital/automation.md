@@ -1,7 +1,7 @@
 ---
 title: Automation
-redirect_from:
-  - /configuration/engagement-cloud/automation.html
+redirect_to:
+  - https://support.dotdigital.com/en/collections/5610169-magento-open-source-and-adobe-commerce
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdigital]({% link configuration/dotdigital.md %}) > Automation

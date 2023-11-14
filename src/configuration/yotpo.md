@@ -1,5 +1,7 @@
 ---
 title: Yotpo
+redirect_to:
+  - https://commercemarketplace.adobe.com/partner/YotpoAccount
 ---
 
 The Yotpo configuration settings can be found in **Stores** > _Configuration_ > **Yotpo**.

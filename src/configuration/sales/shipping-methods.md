@@ -1,5 +1,7 @@
 ---
 title: Shipping Methods
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/delivery-methods.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Shipping Methods
@@ -15,7 +17,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |--- |--- |--- |
 |Enabled|Website|When enabled, Flat Rate appears as an option in the Estimate Shipping and Tax section of the shopping cart, and in the Shipping section during  checkout. Options: Yes / No|
 |Title|Store View|The name that is used for this  shipping method during checkout.|
-|Method Name|Store View|A name that describes the method of calculation that is used to produce a shipping estimate. The method name appears next to the calculated estimated rate in the shopping cart. The default value is “Fixed”.|
+|Method Name|Store View|A name that describes the method of calculation that is used to produce a shipping estimate. The method name appears next to the calculated estimated rate in the shopping cart. The default value is "Fixed".|
 |Type|Website|Describes the type of calculation used to determine the flat rate. Options: <br/>**None** - No calculation is used. Sets Flat Rate to zero, which is the equivalent of free shipping. <br/>**Per Order** - Charges a single flat rate for the entire order. <br/>**Per Item** - Charges a separate flat rate for each item in the cart. The rate is multiplied by the number of items in the cart, even if the total quantity includes a combination of different items.|
 |Price|Website|The price you charge the customer for Flat Rate shipping.|
 |Calculate Handling Fee|Website|Determines the way the handling fee is calculated, if included. Options: Fixed / Percent|
@@ -35,7 +37,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |--- |--- |--- |
 |Enabled|Website|When enabled, Free Shipping appears as an option in the Shipping section during checkout. Options: Yes / No|
 |Title|Store View|The name that is used for this  shipping method during checkout.|
-|Method Name|Store View|A name that describes the method of calculation that is used to produce a shipping estimate. The method name appears next to the calculated estimated rate in the shopping cart. The default value is “Free”.|
+|Method Name|Store View|A name that describes the method of calculation that is used to produce a shipping estimate. The method name appears next to the calculated estimated rate in the shopping cart. The default value is "Free".|
 |Minimum Order Amount|Website|The minimum purchase that is required to apply Free Shipping to an order.|
 |Displayed Error Message|Store View|A message that appears if a customer chooses Free Shipping, but for some reason the method is not available.|
 |Ship to Applicable Countries|Website|Identifies the countries where you offer Free Shipping. Options: <br/>**All Allowed Countries** - Customers from any country specified in the store configuration can use Free Shipping. <br/>**Specific Countries** - Customers from only specific countries can use Free Shipping.|
@@ -52,7 +54,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |--- |--- |--- |
 |Enabled|Website|When enabled, Table Rates appears as an option in the Estimate Shipping and Tax section of the shopping cart, and in the Shipping section during checkout. Options: Yes / No|
 |Title|Store View|The name that is used for this  shipping method during checkout.|
-|Method Name|Store View|A name that describes the method of calculation that is used to produce a shipping estimate. The method name appears next to the calculated estimated rate in the shopping cart. The default value is “Table Rate”.|
+|Method Name|Store View|A name that describes the method of calculation that is used to produce a shipping estimate. The method name appears next to the calculated estimated rate in the shopping cart. The default value is "Table Rate".|
 |Condition|Website|Determines the condition upon which the calculation is based. The format of the CSV file that is uploaded is specific to each condition. Options: Weight vs. Destination / Price vs. Destination / # of Items vs. Destination|
 |Include Virtual Products in Price Calculation|Website|Determines if virtual products, which do not require shipping, are included in Table Rate price calculations.|
 |Calculate Handling Fee|Website|Determines the way the handling fee is calculated, if included. Options: Fixed / Percent|
@@ -79,10 +81,10 @@ _[Magento Shipping]({% link shipping/magento-shipping-setup.md %})_{:.ee-only}
 |Enabled API Logging|Global|Determines which API events are logged. Options: <br/>**Yes** - Logs all API events. <br/>**No** - Logs only API errors.|
 |API Endpoint|Global|The API Endpoint from your Magento Shipping account.|
 |Account ID|Global|The account ID of your Magento Shipping account.|
-|API Token|Global|The API token generated by your Magento Shipping Account. You can generate the following tokens: <br/>**Test** - To use Magento Shipping in a test environment, enter the test token generated from your account. <br/>**Production** - To “go live” with Magento Shipping, enter the production token generated from your account.|
-|Enable Collection Points at Checkout|Website|When enabled, gives customers the “Click & Collect” option during checkout, and have the shipment delivered to a designated drop point other than the standard “ship to” address. Options: Yes / No|
-|Countries Available for Collection Points|Website|Identifies the countries with “Click & Collect” collection points. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.|
-|Enable Click and Collect at Checkout|Website|Determines if the “Click & Collect” option is available at checkout. Options: Yes / No|
+|API Token|Global|The API token generated by your Magento Shipping Account. You can generate the following tokens: <br/>**Test** - To use Magento Shipping in a test environment, enter the test token generated from your account. <br/>**Production** - To "go live" with Magento Shipping, enter the production token generated from your account.|
+|Enable Collection Points at Checkout|Website|When enabled, gives customers the "Click & Collect" option during checkout, and have the shipment delivered to a designated drop point other than the standard "ship to" address. Options: Yes / No|
+|Countries Available for Collection Points|Website|Identifies the countries with "Click & Collect" collection points. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each item.|
+|Enable Click and Collect at Checkout|Website|Determines if the "Click & Collect" option is available at checkout. Options: Yes / No|
 |Ship to Applicable Countries|Website|Identifies the countries where you Magento Shipping is available during checkout. Options: <br/>**All Allowed Countries** - Customers from any country specified in the store configuration can use Magento Shipping. <br/>**Specific Countries** - Customers from only specific countries can use Magento Shipping.|
 |Ship to Specific Countries|Website|Identifies each country where customers can use Magento Shipping.|
 |Show Method if Not Applicable|Website|Determines if Magento Shipping  options appear during checkout if they do not apply to the purchase. Options: Yes / No|
@@ -205,7 +207,7 @@ All major carriers apply dimensional weight to some shipments. However, the mann
 |--- |--- |--- |
 |_UPS allowed methods_|||
 |Allowed Methods|Website|Specifies the allowed methods of UPS shipping that are offered to customers. Shipping rates will be calculated based on the selected shipping method.|
-|Free Method|Website|Identifies the method that is used for free shipping method through UPS. To disable free shipping, choose “None”. <br/><br/>**_Note:_** This method is similar to basic [Free Shipping]({% link shipping/shipping-free.md %}), however it appears as a UPS shipping option during checkout.|
+|Free Method|Website|Identifies the method that is used for free shipping method through UPS. To disable free shipping, choose "None". <br/><br/>**_Note:_** This method is similar to basic [Free Shipping]({% link shipping/shipping-free.md %}), however it appears as a UPS shipping option during checkout.|
 |Free Shipping Amount Threshold|Website|Determines if free shipping is applied when the order amount meets the free shipping threshold. Options: Enable / Disable|
 |Free Shipping Amount Threshold|Website|Sets the minimum total amount that an order must reach to qualify for free shipping.|
 |Displayed Error Message|Store View|The error message that is displayed when this shipping method is unavailable for any reason.|
@@ -218,7 +220,7 @@ All major carriers apply dimensional weight to some shipments. However, the mann
 |_UPS Applicable countries and other Settings_|||
 |Ship to Applicable Countries|Website|Specifies which country customers are allowed to use this shipping method. Options: <br/>**All Allowed Countries** - Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this shipping method. <br/>**Specific Countries** - After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where this shipping method can be used.|
 |Show Method if Not Applicable|Website|Determines if UPS always appears as a shipping option during checkout. Options: <br/>**Yes** - UPS always appears as a shipping option during checkout, even if not applicable to the order. <br/>**No** - UPS appears as a shipping option during checkout only if applicable to the order. (For example, if the order weight exceeds the maximum weight amount.)|
-|Debug|Website|Specifies if data transmissions between your store and UPS are logged in the system for debugging. Unless there is an issue that needs to be tracked and logged, this should be set to “No”.|
+|Debug|Website|Specifies if data transmissions between your store and UPS are logged in the system for debugging. Unless there is an issue that needs to be tracked and logged, this should be set to "No".|
 |Sort Order|Website|A number that determines the order that UPS appears when listed with other shipping methods during checkout. Enter 0 for the top of the list.|
 
 ### USPS
@@ -266,7 +268,7 @@ All major carriers apply dimensional weight to some shipments. However, the mann
 |--- |--- |--- |
 |_USPS Allowed Methods_|||
 |Allowed Methods|Website|Specifies the allowed methods of USPS shipping that is offered to customers. Shipping rates are calculated based on the selected shipping method.|
-|Free Method|Website|Sets the free shipping method through USPS, or can be disabled by selecting “None”. <br/><br/>**_Note:_** This shipping method is similar to your store’s Free Shipping method, however it is listed as a USPS shipping option and identified as USPS shipping.|
+|Free Method|Website|Sets the free shipping method through USPS, or can be disabled by selecting "None". <br/><br/>**_Note:_** This shipping method is similar to your store's Free Shipping method, however it is listed as a USPS shipping option and identified as USPS shipping.|
 |Minimum Order Amount for Free Shipping|Website|Sets the minimum order amount that must be met to qualify for free shipping.|
 |Displayed Error Message|Store View|The error message that appears when USPS is unavailable for any reason.|
 
@@ -278,7 +280,7 @@ All major carriers apply dimensional weight to some shipments. However, the mann
 |_USPS Applicable Countries_|||
 |Ship to Applicable Countries|Website|Specifies the countries where orders can be shipped. Options: <br/>**All Allowed Countries** - Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this shipping method. <br/>**Specific Countries** - After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where this shipping method can be used.|
 |Show Method if Not Applicable|Website|Controls the display of USPS shipping during checkout. Options: <br/>**Yes** - USPS always appears as a shipping option during checkout, even if not applicable to the order. <br/>**No** - USPS does appears as a shipping option during checkout only if applicable to the order. (i.e., Order weight exceeds the maximum weight amount).|
-|Debug|Website|Determines if a log of data transmissions between your store and USPS is maintained by the system for debugging. Unless there is an issue that needs to be tracked and logged, this should be set to “No”.|
+|Debug|Website|Determines if a log of data transmissions between your store and USPS is maintained by the system for debugging. Unless there is an issue that needs to be tracked and logged, this should be set to "No".|
 |Sort Order|Website|A number that determines the order that USPS appears when listed with other shipping methods during checkout. Enter 0 for the top of the list.|
 
 ### FedEx
@@ -341,7 +343,7 @@ All major carriers apply dimensional weight to some shipments. However, the mann
 |_FedEx Applicable Countries_|||
 |Ship to Applicable Countries|Website|Indicates the countries where your customers can ship by FedEx. Options: <br/>**All Allowed Countries** - Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration  can use this shipping method. <br/>**Specific Countries** - After choosing this option, the Ship to Specific Countries list appears. Select each country in the list where this shipping method can be used.|
 |Ship to Specific Countries|Website|Indicates the specific countries where your customers can ship by FedEx.|
-|Debug|Website|Determines if a log of data transmissions between your store and FedEx is maintained by the system for debugging.Unless there is an issue that needs to be tracked and logged, this should be set to “No”.|
+|Debug|Website|Determines if a log of data transmissions between your store and FedEx is maintained by the system for debugging.Unless there is an issue that needs to be tracked and logged, this should be set to "No".|
 |Show Method if Not Applicable|Website|Determines when FedEx appears as a shipping method during checkout. Options: <br/>**Yes** - The FedEx shipping option is displayed in the shipping methods list, regardless of whether the order qualifies to use it. <br/>**No** - The FedEx shipping option is not displayed in the shipping methods list if it is not applicable to the order (for example, if the order weight exceeds the maximum weight amount).|
 |Sort Order|Website|A number that determines the order that FedEx appears when listed with other shipping methods during checkout. Enter 0 for the top of the list.|
 

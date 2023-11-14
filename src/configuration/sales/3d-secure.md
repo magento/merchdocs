@@ -1,5 +1,7 @@
 ---
 title: 3D Secure
+redirect_to:
+  - https://developer.adobe.com/commerce/php/development/payments-integrations/cardinal/
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > 3D Secure

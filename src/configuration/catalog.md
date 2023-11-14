@@ -1,5 +1,7 @@
 ---
 title: Catalog
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html
 ---
 
 The Catalog configuration settings can be found in **Stores** > **Configuration** > **Catalog**.

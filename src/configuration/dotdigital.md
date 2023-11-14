@@ -1,7 +1,7 @@
 ---
 title: dotdigital
-redirect_from:
-  - /configuration/engagement-cloud.html
+redirect_to:
+  - https://commercemarketplace.adobe.com/partner/Dotdigital
 ---
 
 The dotdigital configuration settings can be found in **System** > **Configuration** > **dotdigital**.
