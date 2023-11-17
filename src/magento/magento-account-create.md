@@ -5,7 +5,7 @@ redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html
 ---
 
-Anyone can open a free Magento account from our website. The email address that is used to open a Magento account can be associated with only one account, and the screen name that you enter becomes your identity in Magento forums.
+Anyone can open a free Magento account from our website. The email address that is used to open a Magento account can be associated with only one account, and the screen name that you enter becomes your identity in Magento forums. 
 
 {:.bs-callout-info}
 After you create your account, it is strongly recommended that you use Two-factor Authentication (TFA) to [secure your account]({% link magento/magento-account-secure.md %}).

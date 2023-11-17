@@ -1,5 +1,7 @@
 ---
 title: Retain Customers
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html#retain-customers
 ---
 
 Magento makes it easy for you to get repeat business and build brand loyalty. Magento gives you total control and flexibility over creating and revising goodies like rewards programs, custom coupons and automated emails to keep your customers coming back again and again.
@@ -23,7 +25,7 @@ Custom Coupons
 :  [Create coupons codes]({% link marketing/price-rules-cart-coupon.md %}) for social media, email, or print campaigns. You can incorporate coupon codes into any design you like.
 
 Newsletters
-:  Stay in touch with current customers who’ve opted to receive [newsletters]({% link marketing/newsletters.md %}). You can create as many newsletter templates as you want.
+:  Stay in touch with current customers who've opted to receive [newsletters]({% link marketing/newsletters.md %}). You can create as many newsletter templates as you want.
 
 RSS Feed
 :  When [RSS feeds]({% link marketing/rss-feed.md %}) are enabled, subscribers of each feed automatically receive alerts about any additions to products, specials, categories, and coupons. A link to all RSS feeds that you publish is provided in the footer of your store.

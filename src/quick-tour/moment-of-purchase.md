@@ -1,8 +1,10 @@
 ---
 title: Moment of Purchase
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html#moment-of-purchase
 ---
 
-Now that you’ve given your customer an engaging shopping experience, make it easy for them to complete their purchases. Magento is designed to help you streamline your checkout process experience while boosting conversion rates.
+Now that you've given your customer an engaging shopping experience, make it easy for them to complete their purchases. Magento is designed to help you streamline your checkout process experience while boosting conversion rates.
 
 Instant Purchase
 :  Simplify ordering and boost conversion rates by allowing your customers to [speed through checkout]({% link sales/checkout-instant-purchase.md %}) by using stored payment and shipping information.

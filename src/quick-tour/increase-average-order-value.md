@@ -1,5 +1,7 @@
 ---
 title: Increase Average Order Value
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html#increase-average-order-value
 ---
 
 Magento provides a range of tools to help you tailor the shopping experience, and encourage your customers to put more items in their shopping carts and spend more money.
@@ -14,10 +16,10 @@ Product Suggestions
 :  Another way to increase AOV is to offer [suggestions]({% link catalog/related-products-up-sells-cross-sells.md %}) for related products and opportunities to up-sell and cross-sell at strategic points along the path to conversion.
 
 {:.ee-only}Email Reminders
-:  Send automated [reminder emails]({% link marketing/email-reminder-rules.md %}) to customers who have added items to their carts or wish lists, but haven’t made a purchase. A variety of triggers can launch automated emails, including total cart value, quantity, items in the cart, and more.
+:  Send automated [reminder emails]({% link marketing/email-reminder-rules.md %}) to customers who have added items to their carts or wish lists, but haven't made a purchase. A variety of triggers can launch automated emails, including total cart value, quantity, items in the cart, and more.
 
 User Permissions and Roles
-:  [Restrict access]({% link system/permissions.md %}) to data in the Admin on a “need to know” basis. Create multiple admin roles for read-only or editing privileges. Track and review all activity at a granular level to specific stores and websites.
+:  [Restrict access]({% link system/permissions.md %}) to data in the Admin on a "need to know" basis. Create multiple admin roles for read-only or editing privileges. Track and review all activity at a granular level to specific stores and websites.
 
 Full-Page Caching
 :  Enhance performance by [caching primary pages]({% link system/cache-full-page.md %}). Caching pages improves server response times, reduces load, and increases sustainable traffic. You can use tags to define which components to cache, so that only relevant pages are cached as updates take place. It also has the ability to identify and differentiate visitors from shoppers.

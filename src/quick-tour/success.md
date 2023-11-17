@@ -1,5 +1,7 @@
 ---
 title: Success!
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/prelaunch-checklist.html
 ---
 
 Opening your Magento store for business requires the following areas of consideration. While there are virtually any number of customizations you can make to the storefront and Admin, you can use each link in this is list as a place to start.
