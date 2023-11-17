@@ -1,10 +1,12 @@
 ---
 b2b_only: true
 title: Build Loyalty
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html#retain-customers
 ---
 
 Friction-Free Purchasing
-:  Magento’s self-service model makes it easy to build loyalty for fast, [friction-free purchasing]({% link customers/account-dashboard.md %}).
+:  Magento's self-service model makes it easy to build loyalty for fast, [friction-free purchasing]({% link customers/account-dashboard.md %}).
 
 Fast Reordering
 :  Customers can create new orders based on [previous orders]({% link customers/account-dashboard-my-orders.md %}) from the convenience of their customer account.

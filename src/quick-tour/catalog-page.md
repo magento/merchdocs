@@ -1,5 +1,7 @@
 ---
 title: Catalog Page
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/storefront.html#catalog-page
 ---
 
 Catalog page listings typically have small product images and brief descriptions, and can be formatted as a list or as a grid. You can add banners, videos, and keyword-rich descriptions, and also create special designs for a promotion or season. You might create a special category to feature a lifestyle or brand that is a curated collection of products from different categories.

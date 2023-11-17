@@ -1,6 +1,8 @@
 ---
 title: Prelaunch Checklist
 group: getting-started
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/prelaunch-checklist.html
 ---
 
 After you complete the design, development, and testing of your store, check the following configuration settings to make sure everything is correct before the store _goes live_. For a comprehensive description of every configuration setting, see the [Configuration Reference]({% link stores/configuration.md %}).
@@ -19,8 +21,8 @@ After you complete the design, development, and testing of your store, check the
 
 ## Sales settings
 
-- [Cart Options]({% link sales/cart-configuration.md %}) - Take a look at the cart configuration settings, to see if there’s anything that you want to change. This is where you can set the minimum order amount and lifetime of the prices in the cart.
-- [Checkout Options]({% link sales/checkout-options.md %}) - Take a look at the checkout options, to see if there’s anything that you want to change. This is where you can set up terms and conditions, and configure guest checkout.
+- [Cart Options]({% link sales/cart-configuration.md %}) - Take a look at the cart configuration settings, to see if there's anything that you want to change. This is where you can set the minimum order amount and lifetime of the prices in the cart.
+- [Checkout Options]({% link sales/checkout-options.md %}) - Take a look at the checkout options, to see if there's anything that you want to change. This is where you can set up terms and conditions, and configure guest checkout.
 - [Taxes]({% link tax/taxes.md %}) - Make sure that taxes are properly configured according to your business tax rules and local requirements.
 - [Shipping Methods]({% link shipping/shipping.md %}) - Enable all carriers and shipping methods to be used by the company.
 - [PayPal]({% link payment/paypal.md %}) - If you plan to offer your customers the convenience of paying with PayPal, open a PayPal Merchant Account, and set up a payment method. Run some test transactions in Sandbox Mode before the store goes live.

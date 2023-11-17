@@ -2,6 +2,8 @@
 title: Your Login Credentials
 redirect_from:
   - /getting-started/for-your-records.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/login-urls.html
 ---
 
 Before you proceed with setup and configuration, make sure that you have the information that you need to access the Admin of your store and your Magento account.
@@ -30,7 +32,7 @@ Your [Magento account]({% link magento/magento-account.md %}) provides access to
 
 ## Customer account
 
-While you are learning your way around the store, make sure to set up a test [customer account]({% link customers/customer-account.md %}), so you can experience the store and checkout process from the customer’s perspective.
+While you are learning your way around the store, make sure to set up a test [customer account]({% link customers/customer-account.md %}), so you can experience the store and checkout process from the customer's perspective.
 
 ## For your records
 

@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Seize Market Opportunities
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
 ---
 
 Business Intelligence

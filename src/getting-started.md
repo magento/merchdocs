@@ -1,8 +1,8 @@
 ---
 title: Getting Started
 group: getting-started
-redirect_from:
-  - /getting-started/introduction.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html
 sections:
   - title: About This Release
     content: Review the information about Commerce releases and access detailed release documentation.

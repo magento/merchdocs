@@ -1,8 +1,10 @@
 ---
 title: Attract New Customers
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
 ---
 
-Magento is packed with features that make it easy to create a “search engine friendly” websites and increase the likelihood of bringing the right customers to your site.
+Magento is packed with features that make it easy to create a "search engine friendly" websites and increase the likelihood of bringing the right customers to your site.
 
 Search Engine Optimization
 :  Magento offers powerful, native capabilities to streamline [Search Engine Optimization (SEO)]({% link marketing/seo-search.md %}) practices for content and site exposure that are integrated with the Admin, and tied directly into the user experience.
