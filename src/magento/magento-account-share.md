@@ -7,7 +7,7 @@ redirect_to:
 
 Your Magento account contains information that you can make available to trusted employees and service providers who help manage your site. As the primary account holder, you have authority to grant limited access to other Magento account holders. Shared access can be revoked, but cannot be transferred from one user to another.
 
-The Magento Support team does not have access to the account and cannot set up shared access for you. Only the primary account holder with appropriate permissions can set up shared access. When your account is shared, all sensitive information &#8212; such as your billing history or credit card information &#8212; remains protected and is not shared at any time with other users. 
+The Magento Support team does not have access to the account and cannot set up shared access for you. Only the primary account holder with appropriate permissions can set up shared access. When your account is shared, all sensitive information &#8212; such as your billing history or credit card information &#8212; remains protected and is not shared at any time with other users.
 
 {:.bs-callout-info}
 All actions taken by users with shared access are the sole responsibility of the primary account holder. Adobe is not responsible for any actions taken by users who have shared access to your account.

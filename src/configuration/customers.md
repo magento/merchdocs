@@ -7,7 +7,7 @@ redirect_to:
 The Customers configuration settings can be found in **Stores** > **Configuration** > **Customers**.
 
 ![Customers configuration settings]({% link images/images-ee/config-customers-ee.png %}){: .zoom}
-_Customers configuration settings_{:.ee-only} 
+Customers configuration settings_{:.ee-only}
 
 See the Customers child pages for more information on each section.
 
