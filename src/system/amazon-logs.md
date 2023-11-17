@@ -1,5 +1,7 @@
 ---
 title: Amazon Pay Logs
+redirect_to:
+  - https://commercemarketplace.adobe.com/partner/AmazonPay
 ---
 
 The Amazon Pay extension collects and provides viewable and downloadable logs for Client and IPN tracked access and actions. Logs generate if you have the logging feature enabled in Amazon Pay store configuration. For details, see the [Developer Options]({% link configuration/sales/amazon-pay.md %}) section for Amazon Pay configurations.

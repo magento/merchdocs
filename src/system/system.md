@@ -24,6 +24,8 @@ sections:
  - title: Tools
    content: Learn how to perform routine index and cache management operations, back up the system, manage scheduled operations, and use an assortment of developer tools.
    url: /system/tools.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html
 ---
 
 This section demonstrates how to import and export data, manage security and permissions, install extensions and integrations, and use the many tools that are available to maintain your store at peak performance.

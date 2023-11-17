@@ -1,5 +1,7 @@
 ---
 title: Configuring VAT ID Validation
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/vat.html#configure-vat-id-validation
 ---
 
 To configure VAT ID validation, you must first set up the customer groups that are needed, and create the related tax classes, rates, and rules. Then, enable VAT ID validation for the store, and complete the configuration.
@@ -12,25 +14,25 @@ The following examples show how tax classes and rates are used for VAT ID Vali
 |--- |--- |
 |Customer Tax Class|Customer tax classes must include: <br />A class for domestic customers. <br />A class for customers with incorrectly formatted VAT IDs.<br />A class for customers whose VAT ID validation failed.|
 |Product Tax Class|Product tax classes must include a class for products of all types, except bundle and virtual.|
-|Tax Rate|The tax rate must include the VAT rate of the merchant’s country.|
+|Tax Rate|The tax rate must include the VAT rate of the merchant's country.|
 
 | Tax Rule #2 |   |
 |----------
 | Customer Tax Class | A class for intra-union customers. |
 | Product Tax Class | A class for products of all types, except virtual. |
-| Tax Rate | VAT rates for all EU countries, except merchant’s country. Currently this rate is 0%. |
+| Tax Rate | VAT rates for all EU countries, except merchant's country. Currently this rate is 0%. |
 
 |Tax Rule #3 |(Required for virtual and Downloadable products)|
 |--- |--- |
 |Customer Tax Class|Customer tax classes must include: <br/>A class for domestic customers <br/>A class for customers with invalid VAT ID A class for customers, for whom VAT ID validation failed|
 |Product Tax Class|A class for virtual products.|
-|Tax Rate|VAT rate of the merchant’s country.|
+|Tax Rate|VAT rate of the merchant's country.|
 
 |Tax Rule #4 |(Required for virtual and Downloadable products)|
 |--- |--- |
 |Customer Tax Class|A class for intra-union customers.|
 |Product Tax Class|A class for virtual products.|
-|Tax Rate|VAT rates for all EU countries, except merchant’s country. Currently this rate is 0%.|
+|Tax Rate|VAT rates for all EU countries, except merchant's country. Currently this rate is 0%.|
 
 ## Step 1: Create VAT-related customer groups
 

@@ -1,5 +1,7 @@
 ---
 title: Index Trigger Events
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/index-management.html#events-that-trigger-full-reindexing
 ---
 
 ## Reindexing triggers

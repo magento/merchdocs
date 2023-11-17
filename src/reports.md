@@ -33,6 +33,8 @@ sections:
   - title: Customer Engagement
     content: Reports for dotdigital Engagement Cloud features. Configure report settings, sync data, and review reports for performance, campaigns, and more.
     url: /reports/customer-engagement.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/reports-menu.html
 ---
 
 Learn how to filter data and online generate reports. The report data can be opened in a spreadsheet or imported into other applications.

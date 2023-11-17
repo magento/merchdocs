@@ -1,10 +1,12 @@
 ---
 title: General Tax Settings
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-settings-general.html
 ---
 
 The following instructions take you through the basic tax configuration for your Magento installation. Before setting up your taxes, make sure that you are familiar with the tax requirements of your [locale]({% link stores/locale-options.md %}). Then, complete the tax configuration according to your requirements.
 
-Admin [permissions]({% link system/permissions.md %}) can be set to restrict access to [tax resources]({% link system/permissions-role-resources.md %}), based on the business “need to know.” To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default shipping point of origin, you must also allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
+Admin [permissions]({% link system/permissions.md %}) can be set to restrict access to [tax resources]({% link system/permissions-role-resources.md %}), based on the business "need to know." To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default shipping point of origin, you must also allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
 
 ## Configure the general tax settings
 
@@ -63,7 +65,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 
 1. Set **Enable Cross-Border Trade** to one of the following:
 
-   |`Yes`|Use consistent pricing across different tax rates. If the catalog price includes tax, choose this setting to fix the price regardless of the customer’s tax rate.|
+   |`Yes`|Use consistent pricing across different tax rates. If the catalog price includes tax, choose this setting to fix the price regardless of the customer's tax rate.|
    |`No`|Vary the price by tax rate.|
 
     {:.bs-callout-info}
@@ -91,7 +93,7 @@ Some combinations of settings related to a price display that both includes and 
 1. Set **Display Product Prices in Catalog** to one of the following:
 
    |`Excluding Tax`|Catalog prices that appear in the storefront do not include tax.|
-   |`Including Tax`|Catalog prices in the storefront include tax only if a tax rule matches the tax origin, or if the customer’s address matches the tax rule. This might happen after a customer creates an account, logs in, or uses the Estimate Tax and Shipping tool in the cart.|
+   |`Including Tax`|Catalog prices in the storefront include tax only if a tax rule matches the tax origin, or if the customer's address matches the tax rule. This might happen after a customer creates an account, logs in, or uses the Estimate Tax and Shipping tool in the cart.|
    |`Including and Excluding Tax`|Catalog prices that appear in the storefront are displayed both with, and without tax.|
 
 1. Set **Display Shipping Prices** to `Excluding Tax`, `Including Tax`, or `Including and Excluding Tax`.

@@ -1,5 +1,7 @@
 ---
 title: Full-Page Cache
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html#full-page-caching
 ---
 
 Magento uses full-page caching on the server to quickly display category, product, and CMS pages. Full-page caching improves response time and reduces the load on the server. Without caching, each page might need to run blocks of code and retrieve information from the database. However, with full-page caching enabled, a fully-generated page can be read directly from the cache.

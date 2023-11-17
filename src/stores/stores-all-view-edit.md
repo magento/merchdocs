@@ -1,5 +1,7 @@
 ---
 title: Editing a Store View
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html#edit-a-store-view
 ---
 
 Because the view name appears in the language chooser, you might eventually want to change the name of the default view to something more descriptive. The _Name_ field is simply a label and can be easily changed.

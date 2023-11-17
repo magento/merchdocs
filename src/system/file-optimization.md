@@ -1,5 +1,7 @@
 ---
 title: Optimizing Resource Files
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#resource-file-optimization
 ---
 
 The time it takes to load resource files can be reduced by merging and bundling files, and by minimizing code.

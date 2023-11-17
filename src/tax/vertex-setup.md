@@ -1,7 +1,7 @@
 ---
 title: Setting Up Vertex
-redirect_from:
-  - /tax/vertex-configure.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html
 ---
 
 Your Vertex Cloud dashboard initially appears in [Test Mode][1]. When you are ready to Go Live with Vertex Cloud, you can change the status of your account with the click of a button.

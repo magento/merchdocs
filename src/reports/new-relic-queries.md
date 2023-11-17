@@ -1,5 +1,7 @@
 ---
 title: New Relic Queries
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/new-relic-reporting.html#new-relic-queries
 ---
 
 New Relic Insights data is based on statements that are written in New Relic Query Language (NRQL), as well as any custom parameters that you might include. Data can be returned from adhoc queries, or by queries saved to your dashboard. To learn more, see the [NRQL Reference][1] in the New Relic documentation.

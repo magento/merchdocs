@@ -1,6 +1,8 @@
 ---
 title: Security Scan
 group: operations
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-scan.html
 ---
 
 Magento Security Scan allows you to monitor each of your Magento sites for known security risks, and to receive patch updates and security notifications.

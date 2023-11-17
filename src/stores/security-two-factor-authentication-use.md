@@ -1,5 +1,7 @@
 ---
 title: Using Two-Factor-Authentication
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication-use.html
 ---
 
 ## U2F Key

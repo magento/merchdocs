@@ -1,6 +1,8 @@
 ---
 title: Security Best Practices
 group: operations
+redirect_to:
+  - https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf
 ---
 
 All eCommerce sites are attractive targets to hackers because of the personal and payment information that is required to complete a sale. Even if the system does not directly process credit card transactions, a compromised site might reroute customers to a false page, or alter an order before it is transmitted to the payment processor.
@@ -62,7 +64,7 @@ Your effort to protect your Magento installation starts with the initial setup, 
 
 - Use the latest version of Magento to ensure that your installation includes the most recent security enhancements. If for any reason you cannot upgrade to the latest version, make sure to install all security patches as recommended by Magento. Although Magento issues security patches to fix major issues, new product releases include additional improvements to help secure the site.
 
-- Use a unique, [custom Admin URL]({% link stores/store-urls-custom-admin.md %}) instead of the default “admin” or the often-used “backend”. Although it will not directly protect your site from a determined attacker, it can reduce exposure to scripts that try to break into every Magento site. (Never leave your valuables in plain sight.)
+- Use a unique, [custom Admin URL]({% link stores/store-urls-custom-admin.md %}) instead of the default "admin" or the often-used "backend". Although it will not directly protect your site from a determined attacker, it can reduce exposure to scripts that try to break into every Magento site. (Never leave your valuables in plain sight.)
 
     {:.bs-callout-info}
     Check with your hosting provider before implementing a custom Admin URL. Some hosting providers require a standard URL to meet firewall protection rules.
@@ -73,7 +75,7 @@ Your effort to protect your Magento installation starts with the initial setup, 
 
 - Use a strong  password for the Magento Admin. To learn more, see [Creating a strong password](https://support.google.com/accounts/answer/32040?hl=en).
 
-- Take advantage of Magento’s security-related configuration settings for [Admin Security]({% link stores/security-admin.md %}), [Password Options]({% link customers/password-options.md %}), [Two-Factor Authentication for Admin access]({% link stores/security-two-factor-authentication.md %}), [CAPTCHA](https://experienceleague.adobe.com/docs/commerce.html#configuration/advanced/admin.html), and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
+- Take advantage of Magento's security-related configuration settings for [Admin Security]({% link stores/security-admin.md %}), [Password Options]({% link customers/password-options.md %}), [Two-Factor Authentication for Admin access]({% link stores/security-two-factor-authentication.md %}), [CAPTCHA](https://experienceleague.adobe.com/docs/commerce.html#configuration/advanced/admin.html), and [Google reCAPTCHA]({% link stores/security-google-recaptcha.md %}).
 
 - Take advantage of the free [Magento Security Scan Tool](https://account.magento.com/scanner?_ga=2.67627665.1606684099.1543252630-49206304.1531415640)! Monitor your sites for security risks, update malware patches, and detect unauthorized access with this tool.
 

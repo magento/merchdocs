@@ -1,5 +1,7 @@
 ---
 title: EU Place of Supply for Digital Goods
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html#place-of-supply-for-digital-goods-(eu)
 ---
 
 European Union (EU) merchants must report their digital goods sold by quarter to each member country. Digital goods are taxed based on the customer's shipping address. The law requires merchants to run a tax report and identify the relevant tax amounts for digital goods, as opposed to physical goods.
@@ -10,7 +12,7 @@ Merchants who have not yet reached the threshold (50k/100k Euro of annual busine
 
 Merchants who are audited for taxes paid for digital goods, must provide two pieces of supporting information to establish the customer place of residence.
 
-- The customer’s shipping address and a record of a successful payment transaction can be used to establish the customer place of residence. (Payment is accepted only if the shipping address matches payment provider information.)
+- The customer's shipping address and a record of a successful payment transaction can be used to establish the customer place of residence. (Payment is accepted only if the shipping address matches payment provider information.)
 - The information can also be captured directly from the data store in the Magento database tables.
 
 ## Collect digital goods tax information

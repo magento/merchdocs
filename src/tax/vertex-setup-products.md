@@ -1,8 +1,10 @@
 ---
 title: Vertex Products
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html
 ---
 
-Products with tax exceptions can be entered individually through your Vertex dashboard, or uploaded from a [CSV file]({% link system/data-csv.md %}) to Vertex Cloud. Each product is then mapped to appropriate tax category in the Vertex tax code hierarchy. Vertex Cloud uses a product’s tax category to apply the current rate and rule changes that are mandated by each jurisdiction.
+Products with tax exceptions can be entered individually through your Vertex dashboard, or uploaded from a [CSV file]({% link system/data-csv.md %}) to Vertex Cloud. Each product is then mapped to appropriate tax category in the Vertex tax code hierarchy. Vertex Cloud uses a product's tax category to apply the current rate and rule changes that are mandated by each jurisdiction.
 
 The product table in your dashboard lists all products that have been entered into Vertex Cloud for the company.
 
@@ -77,7 +79,7 @@ _Products_
 1. Set **Tax Type** to one of the following:
 
    - `Consumer Use Tax`
-   - `Sales/Seller’s Use Tax`
+   - `Sales/Seller's Use Tax`
 
 1. Set **Code / Class Type** to the code that identifies the way the product, material, or service is used.
 
@@ -139,7 +141,7 @@ Some states have qualifying conditions that might apply to various items in the 
 
 1. Under _Imposition Type_, choose the option that applies to the item.
 
-   For this example, “General Sales and Use Tax” is the only available option.
+   For this example, "General Sales and Use Tax" is the only available option.
 
 1. Under _Qualifying Condition_, select each condition that applies to the item.
 
@@ -181,7 +183,7 @@ Some states have qualifying conditions that might apply to various items in the 
    Code or Class Type | This value depends on the Buy/Sell tax type. The data is passed by Magento to Vertex Cloud, and drives the tax calculation. For example, the following values are valid for sellers:<br>**Product Class** - A high-level group of products, materials, or SKUs that have the same tax setting.<br/>**Product Code** - A specific product, material, service, or SKU.<br>**FlexCode03** to **FlexCode07** — User-definable codes.<br>For a complete list of Buy/Sell options, see the [Products File Layout](https://helpcenter.vertexsmb.com/docs/company-configuration/products/products-file-layout/) reference.
    Start Date | Determines the date that the product becomes available to Vertex Cloud. The Start Date must be on or after the company start date. Leave blank to use the company start date as the default. Format: `MM/DD/YYYY`
    End Date | Determines the date that the product is no longer available to Vertex Cloud. This date must be on or after the company start date. Format: `MM/DD/YYYY`
-   Vertex Tax Code | The code, rather than the name, of the applicable tax category in the Vertex product hierarchy. For example:<br/>`VTX04-00143` — The code for “Clothing.”<br/>For a complete list of valid codes, see the [Vertex Tax Code](https://helpcenter.vertexsmb.com/docs/company-configuration/products/vertex-tax-codes/) reference.
+   Vertex Tax Code | The code, rather than the name, of the applicable tax category in the Vertex product hierarchy. For example:<br/>`VTX04-00143` — The code for "Clothing."<br/>For a complete list of valid codes, see the [Vertex Tax Code](https://helpcenter.vertexsmb.com/docs/company-configuration/products/vertex-tax-codes/) reference.
    Notes | (Optional) Miscellaneous notes about the product for your reference. Notes are not stored in Vertex Cloud.
 
 1. Continue to prepare the data.
@@ -210,7 +212,7 @@ In this step, columns of data are pasted from the CSV file that you exported to 
 
 1. Tax type data
 
-   The value of the Tax Type column is either “Buy” or “Sell,” depending on the tax scenario. In this context, each of the products is to be sold.
+   The value of the Tax Type column is either "Buy" or "Sell," depending on the tax scenario. In this context, each of the products is to be sold.
 
     In this example, the data includes clothing, sports gear, gift cards, and downloadable videos. Because there is not a code available at this level for sports gear, you can leave those records blank, and complete them later in Vertex Cloud.
 

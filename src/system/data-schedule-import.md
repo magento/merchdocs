@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Scheduling an Import
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-scheduled-import-export.html#schedule-an-import
 ---
 
 The Scheduled Import process is similar to the manual Import process, with respect to the available import file format and types of import entities:
