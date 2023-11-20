@@ -51,7 +51,7 @@ Admin [permissions]({% link system/permissions.md %}) can be set to restrict acc
 
    |`Shipping Address`|The address where the order is to be shipped|
    |`Billing Address`|The billing address of the customer or company|
-   |`Shipping Origin`|The address that is specified as the [point of origin]({% link shipping/shipping-settings.md %}#origin) for your store.|
+   |`Shipping Origin`|The address that is specified as the [point of origin]({% link shipping/shipping-settings.md %}) for your store.|
 
 1. Set **Catalog Prices** to `Excluding Tax` or `Including Tax`.
 

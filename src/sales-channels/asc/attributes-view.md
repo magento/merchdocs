@@ -18,9 +18,9 @@ From the _Attributes_ view, you and review your attribute settings in the table 
 
 1. Create or edit an attribute, as needed:
 
-   - Click **Create** to [create]({% link sales-channels/asc/creating-attributes.md%}#create-an-attribute) and define Matching Attribute Values for the attribute.
+   - Click **Create** to [create]({% link sales-channels/asc/creating-attributes.md%}) and define Matching Attribute Values for the attribute.
 
-   - Click **Edit** to deactivate or [edit the settings]({% link sales-channels/asc/creating-attributes.md%}#edit-an-attribute) or Matching Attribute Values for the attribute.
+   - Click **Edit** to deactivate or [edit the settings]({% link sales-channels/asc/creating-attributes.md%}) or Matching Attribute Values for the attribute.
 
       Editing an attribute includes changing the attribute mapping for product matching.
 

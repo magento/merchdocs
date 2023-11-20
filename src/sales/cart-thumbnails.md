@@ -4,7 +4,7 @@ title: Cart Thumbnails
 
 The thumbnail images displayed in the cart give customers a quick overview of the items they are about to purchase. However, for products with multiple options, the image might not match the variation of the product that is in the cart. If the customer purchases an item in a specific color, ideally, the thumbnail in the cart should match.
 
-The thumbnail image for both grouped and configurable products can be set to display the image from either the “parent” product or from the product variation.
+The thumbnail image for both grouped and configurable products can be set to display the image from either the "parent" product or from the product variation.
 
 ![The shopping cart displays thumbnail images for each of the added products]({% link images/images/storefront-cart.png %}){: .zoom}
 _Thumbnail images displayed in the cart_
@@ -25,7 +25,7 @@ _Thumbnail images displayed in the cart_
    Product Thumbnail Itself|Uses the thumbnail assigned to the product variation that is added to the cart.|
    Parent Product Thumbnail|Uses the thumbnail assigned to the parent product.|
 
-1. Set **Configurable Product Image** to determine the thumbnail that is used in the cart for [configurable products]({% link catalog/product-create-configurable.md %}#step-3-configure-the-images-price-and-quantity):
+1. Set **Configurable Product Image** to determine the thumbnail that is used in the cart for [configurable products]({% link catalog/product-create-configurable.md %}):
 
    Product Thumbnail Itself|Uses the thumbnail assigned to the product variation that is added to the cart.|
    Parent Product Thumbnail|Uses the thumbnail assigned to the parent product.|

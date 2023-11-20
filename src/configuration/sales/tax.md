@@ -65,7 +65,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## Vertex Flexible Fields
 
 ![]({% link images/images/config-sales-tax-vertex-flexible-fields.png %}){: .zoom}
-[_Flexible Fields_]({% link tax/vertex-configure-magento.md %}#flex-fields)
+[_Flexible Fields_]({% link tax/vertex-configure-magento.md %})
 
 |Type|Description|
 |--- |--- |

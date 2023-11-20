@@ -50,7 +50,7 @@ The integration includes tax configuration for your stores, overrides per countr
 
    The updated Vertex extension includes support for custom tax drivers that you can use to include additional information needed to calculate tax in more complex tax situations. These drivers are passed in configurable Vertex Flexible Fields that support Code, numeric, and date values.
 
-   For more information, see [Vertex Flexible Fields]({% link tax/vertex-configure-magento.md %}#flex-fields).
+   For more information, see [Vertex Flexible Fields]({% link tax/vertex-configure-magento.md %}).
 
 <!--
   This is a style declaration so that the feature icons are not sized by table auto styling for column widths.
