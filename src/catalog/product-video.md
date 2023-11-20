@@ -1,5 +1,7 @@
 ---
 title: Adding Product Video
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-video.html
 ---
 
 To add product video, you must first obtain an API Key from your Google account and enter it in the configuration of your store. Then, you can link to the video from the product.
@@ -26,7 +28,7 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. Wait a few moments while the key is generated and then copy the key to the clipboard.
 
-    In the next step, you will paste the key into your store’s configuration.
+    In the next step, you will paste the key into your store's configuration.
 
 ## Step 2: Configure the key in Magento
 
@@ -49,7 +51,7 @@ To add product video, you must first obtain an API Key from your Google account 
 
 1. In the _Images and Video_ section, click <span class="btn">Add Video</span>.
 
-    If you haven’t yet configured your YouTube API key, click <span class="btn">OK</span> to continue. You won’t be able to link to a YouTube video, but you can go through the process.
+    If you haven't yet configured your YouTube API key, click <span class="btn">OK</span> to continue. You won't be able to link to a YouTube video, but you can go through the process.
 
     ![]({% link images/images/product-video-add.png %}){: .zoom}
     _Add Video_

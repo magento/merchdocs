@@ -1,6 +1,8 @@
 ---
 title: Dashboard
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-workspace.html
 ---
 
 The dashboard is usually the first page that appears when you log in to the Admin, and gives an overview of sales and customer activity. The blocks on the left provide a snapshot of lifetime sales, average order amount, the last five orders, and search terms. The graph shows the orders and amounts for the selected date range. You can use the tabs above the graph to toggle between the two views. The tabs at the bottom provide quick reports about your best-selling products, most viewed products, new customers, and customers who have purchased the most.

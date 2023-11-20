@@ -1,6 +1,8 @@
 ---
 title: Accessibility
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/navigation-accessibility.html
 ---
 
 Some visitors to your site rely on keyboard controls for navigation —rather than a mouse — while others might use touch or voice commands. Although keyboard navigation controls vary by browser and platform, the Tab key is commonly used to move the focus through the fields, links, and buttons on a page. To learn more, see [Keyboard Shortcuts][1].

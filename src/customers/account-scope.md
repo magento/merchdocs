@@ -1,6 +1,8 @@
 ---
 title: Customer Account Scope
 group: getting-started
+redirect to: 
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/customer-account-scope.html
 ---
 
 The scope of customer accounts can be limited to the website where the account was created, or shared with all websites and stores in the store hierarchy.

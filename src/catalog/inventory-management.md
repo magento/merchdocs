@@ -1,5 +1,7 @@
 ---
 title: Managing Inventory
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html
 sections:
    - title: Learning about Inventory Management
      content: Inventory Management provides extensive features to manage product quantities, source locations, configurations, and shipments. Learn more about Single and Multi Source support, workflows, terms, and getting started.

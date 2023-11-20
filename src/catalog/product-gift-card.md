@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Gift Cards
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html
 ---
 
 There are three kinds of gift card products:
@@ -17,8 +19,8 @@ A [virtual gift card]({% link catalog/product-gift-card-workflow.md %}) is sent 
 
 ## Physical
 
-A [physical gift card]({% link catalog/product-gift-card-workflow.md %}) is shipped to recipient’s address, which is required during the purchase of the gift card.
+A [physical gift card]({% link catalog/product-gift-card-workflow.md %}) is shipped to recipient's address, which is required during the purchase of the gift card.
 
 ## Combined
 
-A [combined gift card]({% link catalog/product-gift-card-workflow.md %}) is shipped and emailed to the recipient. The recipient’s email and shipping address is required during the purchase of the gift card.
+A [combined gift card]({% link catalog/product-gift-card-workflow.md %}) is shipped and emailed to the recipient. The recipient's email and shipping address is required during the purchase of the gift card.

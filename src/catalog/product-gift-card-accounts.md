@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Gift Card Accounts
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts.html
 ---
 
 A gift card account is automatically created for each Gift Card that is purchased. The value of the gift card can then be applied toward the purchase of a product in your store. You can also create gift card accounts from the Admin as a promotion or service for customers. The gift card account number corresponds to the gift card code.
@@ -40,7 +42,7 @@ _Gift Card Accounts_
 
 1. In the _Information_ section, set **Active** to `Yes` and do the following:
 
-    - To make the card balance redeemable at checkout or transferred to the customer’s store credit, set **Redeemable** to `Yes`.
+    - To make the card balance redeemable at checkout or transferred to the customer's store credit, set **Redeemable** to `Yes`.
 
     - Choose the **Website** where the gift card account can be used.
 

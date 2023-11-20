@@ -1,5 +1,7 @@
 ---
 title: Product Types
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html#product-types
 ---
 
 Magento supports multiple product types within the catalog.
@@ -17,7 +19,7 @@ Virtual product
 :  [Virtual products]({% link catalog/product-create-virtual.md %}) are not tangible products, and are typically used for products such as services, memberships, warranties, and subscriptions. Virtual products can be used in association with grouped and bundle products.
 
 Bundle product
-:  A [bundle product]({% link catalog/product-create-bundle.md %}) lets customers “build their own” from an assortment of options. The bundle could be a gift basket, computer, or anything else that can be customized. Each item in the bundle is a separate, standalone product.
+:  A [bundle product]({% link catalog/product-create-bundle.md %}) lets customers "build their own" from an assortment of options. The bundle could be a gift basket, computer, or anything else that can be customized. Each item in the bundle is a separate, standalone product.
 
 Downloadable product
 :  A digitally [downloadable product]({% link catalog/product-create-downloadable.md %}) consists of one or more files that are downloaded. The files can reside on your server or be provided as URLs to any other server.

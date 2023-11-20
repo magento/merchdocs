@@ -1,6 +1,8 @@
 ---
 title: PCI Compliance Guidelines
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/payments/compliance-pci.html
 ---
 
 The Payment Card Industry (PCI) has established a set of requirements for businesses that accept payment by credit card over the Internet. In addition to maintaining a secure server environment, merchants who handle customer credit card information must meet the following guidelines.

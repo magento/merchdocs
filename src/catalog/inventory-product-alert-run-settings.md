@@ -1,5 +1,7 @@
 ---
 title: Product Alert Run Settings
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup.html#set-up-product-alerts
 ---
 
 These settings enable you to select how often Magento checks for changes that require alerts to be sent. Additionally, you can select the recipient, sender, and template for emails that are sent if the sending of alerts fails.

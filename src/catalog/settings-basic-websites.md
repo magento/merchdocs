@@ -1,5 +1,7 @@
 ---
 title: Product in Websites
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/settings/settings-basic-websites.html
 ---
 
 The _Product in Websites_ section identifies each website where the product is available, according to the [store hierarchy]({% link stores/stores-all-stores.md %}).

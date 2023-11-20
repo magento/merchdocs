@@ -1,5 +1,7 @@
 ---
 title: Configure Global Options
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/global-options.html
 ---
 
 Configure the default configuration options for product and stock for your websites. Some of these settings can be overridden per product through [Configuring Product Options]({% link catalog/inventory-product-stock-options.md %}). To configure Distance Priority settings, see [Configuring Distance Priority Algorithm]({% link catalog/inventory-configure-distance-priority.md %}).
@@ -14,7 +16,7 @@ Configure the default configuration options for product and stock for your websi
 
     - To adjust the quantity on hand when an order is placed, set **Decrease Stock When Order is Placed** to `Yes`.
 
-    - To return items to stock if an order is canceled, **Set Items’ Status to be in Stock When Order in Cancelled** to `Yes`.
+    - To return items to stock if an order is canceled, **Set Items' Status to be in Stock When Order in Cancelled** to `Yes`.
 
     - To continue to display products in the catalog that are no longer in stock, set **Display Out of Stock Products** to `Yes`.
 
@@ -22,9 +24,9 @@ Configure the default configuration options for product and stock for your websi
 
     - To set the start for displaying the last remaining inventory amount on the product page, enter an amount for **Only X left Threshold**.
 
-        The message begins to appear when the quantity in stock reaches the threshold. For example, if set to `3`, the message “Only 3 left” appears when the quantity in stock reaches three. The message adjusts to reflect the quantity in stock, until the quantity reaches zero.
+        The message begins to appear when the quantity in stock reaches the threshold. For example, if set to `3`, the message "Only 3 left" appears when the quantity in stock reaches three. The message adjusts to reflect the quantity in stock, until the quantity reaches zero.
 
-    - To display an “In Stock” or “Out of Stock” message on the product page, set **Display Products Availability In Stock on Storefront** to `Yes`.
+    - To display an "In Stock" or "Out of Stock" message on the product page, set **Display Products Availability In Stock on Storefront** to `Yes`.
 
     - To keep consistency between inventory and catalog, set **Synchronize with Catalog** to `Yes`. With this option enabled, inventory data will be adjusted according to the catalog changes (such as product removed, product SKU changed, and product type changed).
 

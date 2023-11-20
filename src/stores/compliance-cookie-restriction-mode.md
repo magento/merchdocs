@@ -1,6 +1,8 @@
 ---
 title: Cookie Restriction Mode
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html#cookie-restriction-mode
 ---
 
 When Cookie Restriction Mode is enabled, visitors to your store are notified that cookies are required for full-featured operations. Depending on your theme, the message might appear above the header, below the footer, or somewhere else on the page. The message links to your privacy policy for more information, and encourages visitors to click the Allow button to grant consent. After consent is granted, the message disappears.

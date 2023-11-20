@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Sorting Category Products
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/category-products-sort.html
 ---
 
 The position of products in a category can be specified manually by dragging and dropping products into position or by applying a predefined sort order. By default, products can be sorted by stock level, age, color, name, SKU, and price. Automatic sort overrides the current sort order and resets any drag-and-drop positions that were set manually. The sort order of colors and the minimum stock level that can be required for products to be included in the list are set in the [Visual Merchandiser]({% link configuration/catalog/visual-merchandiser.md %}) configuration.

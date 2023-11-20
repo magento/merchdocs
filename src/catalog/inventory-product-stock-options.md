@@ -1,5 +1,7 @@
 ---
 title: Configuring Product Options
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html
 ---
 
 These configurations apply only to the edited product, overriding all configurations at the global website level. Modify these settings when editing a product, through the Sources section and Advanced Inventory page.

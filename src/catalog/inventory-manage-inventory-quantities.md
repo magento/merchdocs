@@ -1,5 +1,7 @@
 ---
 title: Managing Inventory Quantities
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/quantities-manage.html
 ---
 
 The following information details how to assign sources and quantities for new products or making changes to existing products.

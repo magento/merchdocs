@@ -1,7 +1,7 @@
 ---
 title: Products Grid
-redirect_from:
-  - /products.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html
 ---
 
 All products in the catalog are accessible from the [Products]({% link catalog/products.md %}) page, where you can create new products and edit existing ones. For a multi-site installation, each website can offer a different selection of products for sale from the same catalog.

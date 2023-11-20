@@ -1,6 +1,8 @@
 ---
 title: Single Store Mode
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#single-store-mode
 ---
 
 If your Magento installation has only a single store and store view, you can simplify the display by turning off all store view options and scope indicators. Most of the screenshots in this guide were taken with Single Store Mode disabled to show the scope indicator for each setting. Single Store Mode is overridden if you [add more store views]({% link stores/stores-all-create-view.md %}) later.

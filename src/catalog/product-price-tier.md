@@ -1,5 +1,7 @@
 ---
 title: Tier Price
+redirect to: 
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/product-price-tier.html
 ---
 
 Tier pricing lets you offer a quantity discount from a product listing or product page in the storefront. The discount can be applied to a specific store view or customer group or shared catalog.
@@ -23,7 +25,7 @@ The prices in the storefront take precedence from the highest to the lowest quan
 
 1. In the _Tier Price_ section, click <span class="btn">Add</span>.
 
-   If you’re creating a tier of several prices, click **Add** for each additional level, so you can work all tiers at the same time. Each tier in the group has the same website and customer group or shared catalog assignment, but a different quantity and price.
+   If you're creating a tier of several prices, click **Add** for each additional level, so you can work all tiers at the same time. Each tier in the group has the same website and customer group or shared catalog assignment, but a different quantity and price.
 
 ## Configure the price tier
 
