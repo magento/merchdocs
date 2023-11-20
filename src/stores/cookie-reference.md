@@ -1,13 +1,15 @@
 ---
 title: Cookie Reference
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html
 ---
 
 The default Magento cookies are classified as Exempt / Non-Exempt to help merchants meet the requirements of privacy regulations such as the [GDPR]({% link stores/compliance-gdpr.md %}). Merchants should use this information as a guide, and consult with legal advisors to update their Privacy and Cookie Policies as part of a comprehensive privacy regulation compliance strategy.
 
 ## Magento 2 Default Cookies
 
-The following cookies are used by Magento Commerce “out of the box” for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn about the lifetime of session cookies, see [Session Lifetime]({% link customers/customer-online-options.md %}).
+The following cookies are used by Magento Commerce "out of the box" for on-premise and cloud installations. These cookies may be required by functionality that is explicitly requested by the customer. To learn about the lifetime of session cookies, see [Session Lifetime]({% link customers/customer-online-options.md %}).
 
 Some of these cookies may provide configuration options, including enable/disable, as needed.
 

@@ -1,6 +1,8 @@
 ---
 title: Your Admin Account
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html
 ---
 
 Your Admin account was initially set up during the installation, and might contain initial placeholder information or sample data information. You can personalize your user name and password and update your first name, last name, and email address at any time. See [Permissions]({% link system/permissions.md %}) for information about Admin accounts and roles.

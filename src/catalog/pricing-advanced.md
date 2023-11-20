@@ -1,7 +1,7 @@
 ---
 title: Advanced Pricing
-redirect_from:
-  - /catalog/settings-advanced-advanced-pricing.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html
 ---
 
 The Advanced Pricing settings define the conditions required for special pricing that is available for a specific customer group or shared catalog. Advanced Pricing can be applied to simple, virtual, downloadable, and bundle products. To apply discounted pricing to other product types, use a [catalog price rule]({% link marketing/price-rules-catalog.md %}). For more information, see [Price Scope]({% link catalog/catalog-price-scope.md %}).

@@ -1,5 +1,7 @@
 ---
 title: Learning about Inventory Management
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/basics/sources-stocks.html
 sections:
    - title: About Sources and Stocks
      content: Manage your inventory from every location in your company and sales channel. Learn about sources and stocks for managing and selling your products.

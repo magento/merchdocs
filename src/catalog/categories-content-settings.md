@@ -1,5 +1,7 @@
 ---
 title: Content Settings
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-content-settings.html
 ---
 
 The Content settings determine any additional content appears on the category page. In addition to the list of category products, the page can include an image, description, and CMS block. You can use the [Page Builder]({% link cms/page-builder.md %}) (<span class="ee-only"></span>) advanced content tools to enter the category description.

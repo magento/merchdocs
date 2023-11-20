@@ -1,5 +1,7 @@
 ---
 title: Creating Categories
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html
 ---
 
 The category structure of your catalog is like an upside-down tree, with the root at the top. Each section of the tree can be expanded and collapsed. Any disabled or hidden categories are grayed out. The first level of categories below the [root]({% link catalog/category-root.md %}) typically appear as options in the [main menu]({% link catalog/navigation-top.md %}). You can create as many additional subcategories as needed, according to the maximum [menu depth]({% link catalog/navigation-top.md %}) that is set in the configuration. Categories can be dragged and dropped to other locations in the tree. The category ID number appears in parentheses after the category name at the top of the page.
@@ -19,7 +21,7 @@ _Category Tree_{:.ee-only}
 
    The parent is one level above the new category.
 
-    If you’re starting from the beginning without any data, there might be only two categories in the list: _Default Category_, which is the root, and an _Example Category_.
+    If you're starting from the beginning without any data, there might be only two categories in the list: _Default Category_, which is the root, and an _Example Category_.
 
 1. Click <span class="btn">Add Subcategory</span>.
 

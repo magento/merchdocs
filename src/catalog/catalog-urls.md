@@ -1,5 +1,7 @@
 ---
 title: Catalog URLs
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/catalog-urls.html
 ---
 
 The URLs you assign to products and categories play a major role in determining how well your site is indexed by search engines. Before you start building your catalog is an ideal time to consider the available options. To view the current URL format, go to the storefront and navigate to any product in your catalog. The format of the URL depends on the current configuration settings and method that you use to find the page.
@@ -25,7 +27,7 @@ A static URL is a fixed address for a specific page. A static URL can be display
 
 The URL key is the part of a static URL that describes the product or category. When you create a product or category, an initial URL key is automatically generated, based on the name. To change the URL key, see the [Search Engine Optimization]({% link catalog/product-search-engine-optimization.md %}) section of the product information.
 
-The URL key should consist of lowercase characters with hyphens to separate words. A well-designed, “search engine friendly” URL key might include the product name and key words to improve the way it is indexed by search engines. The URL key can be configured to create an automatic redirect if the URL key changes.
+The URL key should consist of lowercase characters with hyphens to separate words. A well-designed, "search engine friendly" URL key might include the product name and key words to improve the way it is indexed by search engines. The URL key can be configured to create an automatic redirect if the URL key changes.
 
 ### HTML suffix
 

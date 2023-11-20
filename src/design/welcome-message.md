@@ -1,6 +1,8 @@
 ---
 title: Welcome Message
 group: getting-started
+redirect to: 
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/storefront-branding.html#change-the-welcome-message
 ---
 
 The welcome message in the header expands to include the name of the customer who is logged in. Before you launch your store, be sure to change the default _Welcome_ text for each store view.

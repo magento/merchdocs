@@ -1,9 +1,11 @@
 ---
 title: Changing Scope
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html#set-the-scope
 ---
 
-The Store View chooser in the upper-left corner of many Admin pages filters the view of the page for a specific scope, and also sets the value of some entities that are used by Magento. It lists each level in the hierarchy by name, and is used to change the scope to another level. Any settings that represent the current scope are grayed out, so only those that represent the current scope setting are available. The scope is initially set to “Default Config”. For Admin users with restricted access, the list of available store views includes only those to which the user has [permission]({% link system/permissions.md %}) to access.
+The Store View chooser in the upper-left corner of many Admin pages filters the view of the page for a specific scope, and also sets the value of some entities that are used by Magento. It lists each level in the hierarchy by name, and is used to change the scope to another level. Any settings that represent the current scope are grayed out, so only those that represent the current scope setting are available. The scope is initially set to "Default Config". For Admin users with restricted access, the list of available store views includes only those to which the user has [permission]({% link system/permissions.md %}) to access.
 
 The checkbox to the right of many configuration settings can be used to either apply or override the default setting, according to the current scope. The field value cannot be changed when the checkbox is marked. To change the current value, first clear the checkbox, and then enter the new value. You are prompted to confirm whenever you change scope. The checkbox label changes according to the current scope, and always refers to the parent level which is one step up in the hierarchy. Because the parent level is a container for all the items below that level, the value from the parent level is inherited unless it is overridden.
 

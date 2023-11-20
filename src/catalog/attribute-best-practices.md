@@ -1,5 +1,7 @@
 ---
 title: Best Practices for Product Attributes
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html
 ---
 
 Use these best practices when you plan and create product attributes.
@@ -14,4 +16,4 @@ Consider how attributes are to be used when assigning properties and values. Ide
 
 ## Color
 
-Ad-hoc color descriptions can pose a challenge from the standpoint of database operations. Color names such as “Azure Skies” or “Robin Egg Blue” have great appeal, but might not return the best results when used as search criteria, or if merchandising requires you to specify `Color_Family:Blue`. Consider how colors are represented in search results and layered navigation, and establish some guidelines for your business needs. Then, be consistent when assigning color attribute values throughout your catalog.
+Ad-hoc color descriptions can pose a challenge from the standpoint of database operations. Color names such as "Azure Skies" or "Robin Egg Blue" have great appeal, but might not return the best results when used as search criteria, or if merchandising requires you to specify `Color_Family:Blue`. Consider how colors are represented in search results and layered navigation, and establish some guidelines for your business needs. Then, be consistent when assigning color attribute values throughout your catalog.

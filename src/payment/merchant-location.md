@@ -1,6 +1,8 @@
 ---
 title: Merchant Location
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html#merchant-location
 ---
 
 The Merchant Location setting is used to configure [payment methods]({% link payment/payments.md %}). If there is no value for this setting, the [Default Country]({% link stores/country-options.md %}) setting is used.

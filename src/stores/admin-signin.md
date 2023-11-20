@@ -1,6 +1,8 @@
 ---
 title: Admin Sign In
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#admin-sign-in
 ---
 
 You will first learn how to sign in and out of the Admin and how to reset your password. All of the instructions in the rest of this guide are written for a user with full administrative privileges and begin with the assumption that you are logged in to the Admin. See [Permissions]({% link system/permissions.md %}) for more info about Admin users and roles.
@@ -16,7 +18,7 @@ _Admin Sign In_
 
 ## Sign In to the Admin
 
-1. Enter the URL that was specified during the installation followed by the base URL of your store’s Admin in your browser.
+1. Enter the URL that was specified during the installation followed by the base URL of your store's Admin in your browser.
 
     The default Admin URLs look something like `https://www.yourdomain.com/admin`.
 

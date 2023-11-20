@@ -1,11 +1,13 @@
 ---
 title: Stock Message Scenarios
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-alerts/stock-messages.html
 ---
 
 You can use a combination of configuration settings to control stock availability messages on product pages and in listings of products on catalog pages.
 
 ![]({% link images/images/storefront-out-of-stock-message.png %}){: .zoom}
-_Grouped Product with “Out of Stock” Message_
+_Grouped Product with "Out of Stock" Message_
 
 ## Product page stock messages
 
@@ -21,8 +23,8 @@ This combination of settings causes the availability message to appear on the pr
 |--|--|--|
 | Display product availability in stock in the frontend: | Yes | |
 | Manage Stock | Yes | |
-| Stock Availability | In Stock | “Availability: In Stock”
-| | Out of Stock | “Availability: Out of Stock” |
+| Stock Availability | In Stock | "Availability: In Stock"
+| | Out of Stock | "Availability: Out of Stock" |
 
 #### Scenario 2
 
@@ -31,7 +33,7 @@ When stock is not managed for a product, this combination of settings can be use
 |Stock Options|Setting|Message|
 |--|--|--|
 | Display product availability in stock in the frontend: | Yes |  |
-| Manage Stock | No | “Availability: In Stock” |
+| Manage Stock | No | "Availability: In Stock" |
 
 ### Example 2: Hide availability message
 
@@ -60,20 +62,20 @@ When stock is not managed for a product, this combination of configuration and p
 The following display options are possible for the category and search results lists, depending on the product availability and configuration settings.
 
 ![]({% link images/images/storefront-out-of-stock-catalog-page.png %}){: .zoom}
-_“Out of Stock” Message on Category Page_
+_"Out of Stock" Message on Category Page_
 
-### Example 1: Show product with “Out of stock" message
+### Example 1: Show product with "Out of stock" message
 
-This combination of configuration settings includes out of stock products in the category and search results lists, and displays an “out of stock” message.
+This combination of configuration settings includes out of stock products in the category and search results lists, and displays an "out of stock" message.
 
 |Stock Options|Setting|Message|
 |--|--|--|
 | Display Out of Stock Products | Yes |  |
-| Display product availability in stock in the frontend | Yes | “Out of stock” |
+| Display product availability in stock in the frontend | Yes | "Out of stock" |
 | Display Out of Stock Products | Yes |  |
 | Display product availability in stock in the frontend | No | None |
 
-### Example 2: Show product without “Out of stock" message
+### Example 2: Show product without "Out of stock" message
 
 This combination of configuration settings includes out of stock products in the category and search results lists, but does not display a message.
 

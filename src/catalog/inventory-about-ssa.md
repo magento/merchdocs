@@ -1,5 +1,7 @@
 ---
 title: About Source Selection Algorithm and Reservations
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/basics/selection-reservations.html
 ---
 
 The heart of Inventory Management tracks every available product virtually and on-hand in your warehouses and stores. The Source Selection Algorithm and Reservations systems run in the background, keeping your salable quantities updated, checkout free of collisions, and shipment options recommended.

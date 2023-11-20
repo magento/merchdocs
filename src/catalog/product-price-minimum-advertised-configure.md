@@ -1,11 +1,13 @@
 ---
 title: Configuring MAP
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised.html#map-configuration
 ---
 
-Your store’s Minimum Advertised Price (MAP) settings can be applied to all products in your catalog or configured for specific products. When MAP is enabled globally, all product prices in the storefront are hidden from view. There are a variety of configuration options that you can use to remain in compliance with the terms of your agreement with the manufacturer, while still offering your customers a better price.
+Your store's Minimum Advertised Price (MAP) settings can be applied to all products in your catalog or configured for specific products. When MAP is enabled globally, all product prices in the storefront are hidden from view. There are a variety of configuration options that you can use to remain in compliance with the terms of your agreement with the manufacturer, while still offering your customers a better price.
 
 ![]({% link images/images/storefront-msrp-on-gesture.png %}){: .zoom}
-_Actual Price Appears “On Gesture”_
+_Actual Price Appears "On Gesture"_
 
 On the global level, you can enable or disable MAP, apply it to all products, define how the actual price is displayed, and edit the text of the related messages and information tips that appear in the store.
 
@@ -46,7 +48,7 @@ Use one of the following methods to configure the MAP settings:
 
 1. Enter the text that you want to appear in the **Default Popup Text Message**.
 
-1. Enter any additional explanation that you want to appear in the **Default “What’s This” Text Message**.
+1. Enter any additional explanation that you want to appear in the **Default "What's This" Text Message**.
 
 1. When complete, click <span class="btn">Save Config</span>.
 
@@ -59,21 +61,21 @@ Use one of the following methods to configure the MAP settings:
 1. In the left panel, expand **Advanced Settings** and choose **Advanced Pricing**.
 
     ![]({% link images/images/product-price-msrp.png %}){: .zoom}
-    _Manufacturer’s Suggested Retail Price_
+    _Manufacturer's Suggested Retail Price_
 
-1. Enter the **Manufacturer’s Suggested Retail Price** (MSRP).
+1. Enter the **Manufacturer's Suggested Retail Price** (MSRP).
 
     In this example, the product price is $54.00, and the MSRP is 59.95.
 
 1. Set **Display Actual Price** to one of the following:
 
     | Use config | (Default) Applies the MAP configuration setting. |
-    | On Gesture | Displays the actual product price in a popup when the customer clicks the _Click for price_ or _What’s this?_ link. |
+    | On Gesture | Displays the actual product price in a popup when the customer clicks the _Click for price_ or _What's this?_ link. |
     | In Cart | Displays the actual product price in the shopping cart. |
     | Before Order Confirmation | Displays the actual product price at the end of the checkout process, just before the order is confirmed. |
 
     {:.bs-callout-info}
-    The Manufacturer’s Suggested Retail Price and Display Actual Price fields appear only when [Minimum Advertised Price]({% link configuration/sales/sales.md %}) is enabled in the configuration.
+    The Manufacturer's Suggested Retail Price and Display Actual Price fields appear only when [Minimum Advertised Price]({% link configuration/sales/sales.md %}) is enabled in the configuration.
 
 ## Step 3: Save the configuration
 

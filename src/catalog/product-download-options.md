@@ -1,5 +1,7 @@
 ---
 title: Configuring Download Options
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html#configure-the-download-options
 ---
 
 The downloadable configuration settings determine the default values and delivery options for downloadable products and specify if guests can purchase downloads.

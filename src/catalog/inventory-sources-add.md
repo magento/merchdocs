@@ -1,5 +1,7 @@
 ---
 title: Adding a New Source
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/sources/sources-add.html
 ---
 
 Manage inventory and order fulfillment from multiple locations with custom sources. Create a source for each location such as warehouses, brick-and-mortar stores, distribution centers, and drop shippers. Assign sources and update quantities per product
@@ -29,7 +31,7 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - For **Latitude** and **Longitude**, enter the Global Positioning System (GPS) coordinates of the facility location.
 
-      To find the GPS coordinates with [Google Maps][1], enter the address in the **Search** box. Right-click the marker on the map and choose **What’s here?**. The GPS coordinates appear in the details box below the street address.
+      To find the GPS coordinates with [Google Maps][1], enter the address in the **Search** box. Right-click the marker on the map and choose **What's here?**. The GPS coordinates appear in the details box below the street address.
 
       ![]({% link images/images/stores-inventory-source-general.png %}){: .zoom}
       _General_

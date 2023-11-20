@@ -1,6 +1,8 @@
 ---
 title: Scope Quick Reference
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html#scope-quick-reference
 ---
 
 |Scope|Description|
@@ -21,7 +23,7 @@ group: getting-started
 |Payment Methods|[Payment methods]({% link payment/payments.md %}) are configured at the website level, although the title and instructions can be configured for each store view.|
 |Checkout|The [checkout process]({% link sales/checkout-process.md %}) takes place at the website level, although some display options can be configured for each store view. All stores associated with a website have the same [checkout configuration]({% link sales/checkout-options.md %}).|
 |**Store**||
-|Root Category|Each store can have a separate set of products and main menu that is based on a “root” category and subcategories. Each catalog has a [root category]({% link catalog/category-root.md %}) that is assigned at the store level.|
+|Root Category|Each store can have a separate set of products and main menu that is based on a "root" category and subcategories. Each catalog has a [root category]({% link catalog/category-root.md %}) that is assigned at the store level.|
 |**Store View**||
 |Subcategories|The [subcategories]({% link catalog/category-create.md %}) that make up the main menu (under the root) are assigned at the store view level.|
 |Locale|Each store view can be assigned a different [locale]({% link stores/locale-options.md %}). The display currency, units of measurement, and most of the Admin interface are specific to the locale.|

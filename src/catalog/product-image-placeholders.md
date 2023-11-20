@@ -1,5 +1,7 @@
 ---
 title: Image Placeholders
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-image-config.html#image-placeholders
 ---
 
 Magento uses temporary images as placeholders until the permanent product images become available. A different placeholder can be uploaded for each role. The initial placeholder image is the Magento logo, which you can replace with the image of your choice.
