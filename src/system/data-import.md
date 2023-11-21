@@ -1,7 +1,7 @@
 ---
 title: Import
-redirect_from:
-  - /system/data-import-troubleshooting.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/import/data-import.html
 ---
 
 Data for all product types can be imported into the store. In addition, you can import products, advanced pricing data, customer data, customer address data, and product images. Import supports the following operations:
@@ -12,7 +12,7 @@ Data for all product types can be imported into the store. In addition, you can 
 
 The size of the import file is determined by the settings in the `php.ini` file on the server. The system message on the _Import_ page indicates the current size limit. The default size is 2MB.
 
-Special characters (such as the equal sign, greater and less than symbols, single and double quotes, backslash, pipe, and ampersand symbols) can cause problems during data transfer. To ensure that such special characters are correctly interpreted, they can be marked as an _escape sequence_. For example, if the data includes a string of text such as `code=”str”`, `code=”str2”`, choosing to enclose the text in double quotes ensures that the original double quotes are understood to be part of the data. When the system encounters a double set of double quotes, it understands that the outer set of double quotes is enclosing the actual data.
+Special characters (such as the equal sign, greater and less than symbols, single and double quotes, backslash, pipe, and ampersand symbols) can cause problems during data transfer. To ensure that such special characters are correctly interpreted, they can be marked as an _escape sequence_. For example, if the data includes a string of text such as `code="str"`, `code="str2"`, choosing to enclose the text in double quotes ensures that the original double quotes are understood to be part of the data. When the system encounters a double set of double quotes, it understands that the outer set of double quotes is enclosing the actual data.
 
 When importing product data, new product data is added to existing product data entries in the database. All fields except SKU can be updated through import. All existing product data is replaced with the imported new data. Exercise caution when replacing data. All existing product data will be completely cleared and all references in the system will be lost.
 

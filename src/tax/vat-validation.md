@@ -1,5 +1,7 @@
 ---
 title: VAT ID Validation
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/vat.html#vat-id-validation
 ---
 
 _VAT ID Validation_ automatically calculates the required tax for B2B transactions that take place within the European Union (EU), based on the merchant and customer locale. Magento performs VAT ID validation using the web services of the [European Commission][1] server.
@@ -14,7 +16,7 @@ The store administrator creates more than one default customer group that can be
 
 {:.bs-callout-info}
 **Important:**
-If you sell virtual or downloadable products, which by their nature do not require shipping, the VAT rate of a customer’s location country should be used for both intra-union and domestic sales. You must create additional individual tax rules for product tax classes that correspond to the virtual products.
+If you sell virtual or downloadable products, which by their nature do not require shipping, the VAT rate of a customer's location country should be used for both intra-union and domestic sales. You must create additional individual tax rules for product tax classes that correspond to the virtual products.
 
 ## Customer registration workflow
 
@@ -26,7 +28,7 @@ If enabled, you can override VAT ID Validation for individual customers by selec
 
 ## Checkout workflow
 
-If a customer’s VAT validation is performed during checkout, the VAT request identifier and VAT request date are saved in the Comments History section of the order.
+If a customer's VAT validation is performed during checkout, the VAT request identifier and VAT request date are saved in the Comments History section of the order.
 
 The system behavior concerned with the VAT ID validation and the customer group change during the checkout depends on how the Validate on Each Transaction and the Disable Automatic Group Change settings are configured. This section describes the implementation of the VAT ID Validation functionality for the checkout on the frontend.
 

@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Action Logs
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html
 ---
 
 The Action Logs feature records (logs) every change made by an admin who works in your store. This allows you to track all the changes made to your store. Tracking these changes, along with setting [admin permissions]({% link system/permissions.md %}) for a user, can help to secure your store from unwanted changes.

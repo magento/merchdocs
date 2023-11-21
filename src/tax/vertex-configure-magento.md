@@ -1,7 +1,7 @@
 ---
 title: Configuring Magento for Vertex Tax Calculations
-redirect_from:
-  - /tax/vertex-test-configuration.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html
 ---
 
 To complete the Magento configuration for Vertex tax calculations, you will need to enter a few values from Vertex Cloud. If you need help, see [Vertex Field Mapping]({% link tax/vertex-field-mapping.md %}).

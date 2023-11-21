@@ -1,8 +1,10 @@
 ---
 title: Adding Users
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html
 ---
 
-When your store is first installed, a default Admin account is created with login credentials that give you full administrative access. As a best practice, one of the first things you should do is to create another user account with full Administrator access. That way, you can use one account for your everyday Administrative activities, and reserve the other as a “Super Admin” account in case you forget your regular credentials or they somehow become unusable.
+When your store is first installed, a default Admin account is created with login credentials that give you full administrative access. As a best practice, one of the first things you should do is to create another user account with full Administrator access. That way, you can use one account for your everyday Administrative activities, and reserve the other as a "Super Admin" account in case you forget your regular credentials or they somehow become unusable.
 
 If there are others on your team, or service providers who need access, you can create a separate user account for each, and assign restricted access based on their business need to know. To limit the websites or stores that users can access when they log in to the Admin, you must first create a role with limited scope and only the necessary resources selected. Then, you can assign the role to a specific user account. Admin users who are assigned to a restricted role can see and change data only for websites or stores that are associated with the role. They cannot make changes to any global settings or data.
 

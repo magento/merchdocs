@@ -1,5 +1,7 @@
 ---
 title: System Menu
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/system-menu.html
 ---
 
 The System Menu includes tools to import and export data, install extensions, manage system caches and indexes, manage permissions, backups, system notifications, and custom variables.
@@ -29,7 +31,7 @@ The [Support Tools]({% link system/support.md %}) can be used as a resource duri
 
 ### Permissions
 
-Magento uses [roles and permissions]({% link system/permissions.md %}) to create different levels of access for Admin users, which gives you the ability to grant permission on a “need to know” basis to people who work on your site.
+Magento uses [roles and permissions]({% link system/permissions.md %}) to create different levels of access for Admin users, which gives you the ability to grant permission on a "need to know" basis to people who work on your site.
 
 {:.ee-only}
 ### Action Log

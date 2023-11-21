@@ -1,5 +1,7 @@
 ---
 title: Security
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security.html
 ---
 
 In this section of the guide, you will learn security best practices, as well as how to manage Admin sessions and credentials, to implement CAPTCHA, and to manage website restrictions.

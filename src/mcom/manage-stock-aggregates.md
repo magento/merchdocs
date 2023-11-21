@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Manage Stock Aggregates
+redirect_to:
+  - https://omsdocs.magento.com/integration/connector/#manage-stock-aggregates
 ---
 
 Manage Stock Aggregates provides information about existing stock aggregates, and allows you to add new stock aggregates or edit or delete existing ones.

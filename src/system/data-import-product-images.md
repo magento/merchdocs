@@ -1,5 +1,7 @@
 ---
 title: Importing Product Images
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/import/data-import-product-images.html
 ---
 
 Multiple product images of each type can be imported into Magento, and associated with a specific product. The path and file name of each product image is entered in the CSV file, and the image files to be imported are uploaded to the corresponding path on the Magento server or external server.
@@ -8,7 +10,7 @@ Magento creates its own directory structure for product images that is organized
 
 To upload images, you must have login credentials and correct permissions to access to the Magento folder on the server. With the correct credentials, you can use any SFTP utility to upload the files from your desktop computer to the server.
 
-Before you try to import a large amount of images, review the steps in the import method that you want to use, and run through the process with a few products. After you understand how it works, you’ll feel confident importing large quantities of images.
+Before you try to import a large amount of images, review the steps in the import method that you want to use, and run through the process with a few products. After you understand how it works, you'll feel confident importing large quantities of images.
 
 {:.bs-callout-info}
 **Important!** We recommend that you use a program that supports UTF-8 encoding to edit CSV files, such as [Notepad++][1] or [OpenOffice Calc][2]. Microsoft Excel inserts additional characters into the column header of the CSV file, which can prevent the data from being imported back into Magento.

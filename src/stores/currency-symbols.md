@@ -1,5 +1,7 @@
 ---
 title: Currency Symbols
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html#step-5%3A-customize-currency-symbols-(optional)
 ---
 
 Manage Currency Symbols gives you the ability to customize the symbol associated with each currency that is accepted as payment in your store.

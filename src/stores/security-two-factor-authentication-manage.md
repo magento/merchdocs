@@ -1,5 +1,7 @@
 ---
 title: Managing Two-Factor Authentication
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication-manage.html
 ---
 
 If a user has issues accessing the Magento Admin with their authenticator, they can attempt to sync or troubleshoot their authenticator. You can also reset the authenticator associated with the account. When reset, the user must reconnect and add the authenticator again when they next access the Admin.

@@ -1,5 +1,7 @@
 ---
 title: Role Resources
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html#role-resources
 ---
 
 Access to the following resources can be assigned to a custom role. See the linked page to learn more about the capabilities that are associated with each role.

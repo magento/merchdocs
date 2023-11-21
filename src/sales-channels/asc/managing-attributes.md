@@ -18,7 +18,7 @@ Amazon Sales Channel allows you to access, review, create, and manage attributes
 For more information on Magento and Amazon attribute sets and values, see:
 
 - [Manage Attributes basics]({% link catalog/product-attributes.md %})
-- [Create a new attribute]({% link sales-channels/asc/creating-attributes.md%}#create-an-attribute)
-- [Edit an existing attribute]({% link sales-channels/asc/creating-attributes.md%}#edit-an-attribute)
+- [Create a new attribute]({% link sales-channels/asc/creating-attributes.md%})
+- [Edit an existing attribute]({% link sales-channels/asc/creating-attributes.md%})
 - [View Attribute Mapping]({% link sales-channels/asc/amazon-matching-attributes-values.md %})
 - [Edit or Create Attribute Mapping]({% link sales-channels/asc/amazon-manually-update-incomplete-listing.md %})

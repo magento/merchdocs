@@ -152,4 +152,4 @@ _[RMA Settings]({% link sales/rma-configure.md %})_
 |--- |--- |--- |
 |Enable RMA on Storefront|Website|Determines if customers can create and view RMA requests from the storefront. RMA can be applied to both new and existing orders. By default, RMA is not enabled for the storefront. Options Yes / No|
 |Enable RMA on Product Level|Website|Determines the default value for the Enable RMA field in product information.|
-|Use Store Address|Website|Determines the contact name and address that is used for shipments of returned merchandise. Options: <br/>**Yes** - Uses the [Point of Origin]({% link shipping/shipping-settings.md %}#origin) address from Shipping Settings. <br/>**No** - Opens the address form so you can enter an alternate address.|
+|Use Store Address|Website|Determines the contact name and address that is used for shipments of returned merchandise. Options: <br/>**Yes** - Uses the [Point of Origin]({% link shipping/shipping-settings.md %}) address from Shipping Settings. <br/>**No** - Opens the address form so you can enter an alternate address.|

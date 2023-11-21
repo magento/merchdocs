@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Bulk Actions
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log-bulk-actions.html
 ---
 
 The Bulk Actions Log records the details of asynchronous mass operations that run in the background, such as import/export or assigning [custom prices]({% link catalog/catalog-shared-custom-pricing-update.md %}) to multiple products in a [shared catalog]({% link catalog/catalog-shared.md %}) (<span class="b2b-only"></span>).

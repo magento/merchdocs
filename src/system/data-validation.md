@@ -1,5 +1,7 @@
 ---
 title: Data Validation
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-transfer.html#data-validation
 ---
 
 All data must pass validation before it can be imported into the store, to ensure that the values are consistent with the system database. Validation begins when you tap the Check Data button. During the process, all entities in the import file are verified for the following:
@@ -8,7 +10,7 @@ All data must pass validation before it can be imported into the store, to ensur
 - **Complex Data** - Values that originate from a defined set, such as a drop-down or multiple select input type, are verified to ensure that the values exist in the defined set.
 - **Service Data** - The values in service data columns are verified to ensure that the properties or complex data values are consistent with what is already defined in the system database.
 - **Required Values** - For new entities, the presence of required attribute values in the file is checked. For existing entities, there is no need to re-check the existence of required attribute values.
-- **Separators** - Although the separators aren’t visible when viewed in a spreadsheet, data values in a CSV file are separated by comma, and text values are enclosed in double-quotes. During the validation process, the separators are verified, and each set of quotes that enclose character strings is verified to be formatted correctly.
+- **Separators** - Although the separators aren't visible when viewed in a spreadsheet, data values in a CSV file are separated by comma, and text values are enclosed in double-quotes. During the validation process, the separators are verified, and each set of quotes that enclose character strings is verified to be formatted correctly.
 
 The results of the validation appear in the Validation Results section, and include the following information:
 

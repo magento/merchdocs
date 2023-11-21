@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: System Reports
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/support.html#system-reports
 ---
 
 The system reporting tool gives you the ability take periodic full, or partial, snapshots of the system, and save them for future reference. You can compare performance settings before and after code development cycles, or changes to server settings. The system reporting tool can dramatically reduce the time spent preparing and submitting the information required by Support to begin an investigation.

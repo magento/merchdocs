@@ -18,6 +18,8 @@ sections:
   - title: Changelog
     content: See information about viewing the Connector changelog.
     url: /mcom/changelog.html
+redirect_to:
+  - https://omsdocs.magento.com/integration/connector/
 ---
 
 Learn how to manage your stock aggregates and the MCOM integration, available if you use the Order Management System (OMS) Connector with Magento Commerce, as well as view both the message log and changelog.

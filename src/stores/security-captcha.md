@@ -1,5 +1,7 @@
 ---
 title: CAPTCHA
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/captcha/security-captcha.html
 ---
 
 A CAPTCHA is a visual device that ensures that a human being, rather than a computer, is interacting with the site. CAPTCHA is an acronym for _Completely Automated Public Turing test to tell Computers and Humans Apart_. It can be used for both Admin and customer account logins.

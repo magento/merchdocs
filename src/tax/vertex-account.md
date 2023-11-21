@@ -1,5 +1,7 @@
 ---
 title: Your Vertex Account
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html
 ---
 
 Vertex offers three pricing plans, plus access to additional services. All Vertex accounts include tiered pricing and award-winning customer support, but without extra fees for fees or annual transaction estimations. Do not hesitate to contact Vertex if you need help choosing the right [pricing plan][1] for your business. Then, sign up for an account on Vertex Cloud.
@@ -38,7 +40,7 @@ Vertex offers three pricing plans, plus access to additional services. All Verte
    - Complete your **Billing Address**.
 
    {:.bs-callout-info}
-   Your company’s billing address is required if paying by credit card, and must be located in either the U.S. or Canada.
+   Your company's billing address is required if paying by credit card, and must be located in either the U.S. or Canada.
 
    - Choose the **Payment Method** that you want to use and complete the required information.
 

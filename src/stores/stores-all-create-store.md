@@ -1,5 +1,7 @@
 ---
 title: Adding Stores
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-stores
 ---
 
 A single installation of Magento can have multiple stores that share the same Admin. Stores that are under the same website have the same IP address and domain, use the same security certificate, and share a single checkout process.
@@ -86,6 +88,6 @@ The first step is to choose how you want to position the store. Will the stores 
     ![General configuration - web base URLs]({% link images/images/config-general-web-base-urls-clear-checkbox.png %})
     [Base URLs]({% link configuration/general/web.md %})
 
-1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Secure Base URLs** section and repeat the previous step as needed to configure the store’s [secure URL]({% link stores/store-urls.md %}).
+1. Expand ![Expansion selector]({% link images/images/btn-expand.png %}){: .Inline} the **Secure Base URLs** section and repeat the previous step as needed to configure the store's [secure URL]({% link stores/store-urls.md %}).
 
 1. Click <span class="btn">Save Config</span>.

@@ -1,5 +1,7 @@
 ---
 title: Two-Factor Authentication
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication.html
 ---
 
 The Magento Admin provides all access to your store, orders, and customer data. To further increase security to your Magento instance, Magento Two-Factor Authentication (2FA) adds support for two-step authentication for multiple providers. When enabled, users attempting to access the Admin must complete a second step to verify their account. All features and requirements are restricted to Admin user accounts, not extended to customer accounts.
@@ -29,7 +31,7 @@ The Magento Admin provides all access to your store, orders, and customer data. 
 
 1. **Enable this provider** — Set to `Yes`.
 
-1. (Optional) **Enable “trust this device” option** — Set to one of the following:
+1. (Optional) **Enable "trust this device" option** — Set to one of the following:
 
    - `Yes` — The user does not have to enter their authenticator code for every login per device.
    - `No` — Forces authentication for every login.
@@ -41,7 +43,7 @@ The Magento Admin provides all access to your store, orders, and customer data. 
 
 1. **Enable this provider** — Set to `Yes`.
 
-1. (Optional) **Enable “trust this device” option** — Set to one of the following:
+1. (Optional) **Enable "trust this device" option** — Set to one of the following:
 
    - `Yes` — The user does not have to enter their authenticator code for every login per device.
    - `No` — Forces authentication for every login.
@@ -53,7 +55,7 @@ The Magento Admin provides all access to your store, orders, and customer data. 
 
 1. **Enable this provider** — Set to `Yes`.
 
-1. (Optional) **Enable “trust this device” option** — Set to one of the following:
+1. (Optional) **Enable "trust this device" option** — Set to one of the following:
 
    - `Yes` — The user does not have to enter their authenticator code for every login per device.
    - `No` — Forces authentication for every login.
@@ -74,7 +76,7 @@ The Magento Admin provides all access to your store, orders, and customer data. 
 
 1. Enter the **API key** for your Authy account.
 
-1. (Optional) **Enable “trust this device” option** — Set to one of the following:
+1. (Optional) **Enable "trust this device" option** — Set to one of the following:
 
    - `Yes` — The user does not have to enter their authenticator code for every login per device.
    - `No` — Forces authentication for every login.

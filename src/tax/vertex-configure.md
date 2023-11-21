@@ -1,8 +1,10 @@
 ---
 title: Configuring Vertex
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html
 ---
 
-Your Vertex Cloud dashboard initially appears in _Test Mode_. When you are ready to “go live” with Vertex Cloud, you can change the status of your account.
+Your Vertex Cloud dashboard initially appears in _Test Mode_. When you are ready to "go live" with Vertex Cloud, you can change the status of your account.
 
 To provide the information that is needed to calculate tax and file returns, the configuration must be completed for each company that is associated with your account. After you complete the configuration from your Vertex Cloud dashboard, you must also complete a few configuration settings from the Admin of your Magento installation.
 

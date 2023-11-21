@@ -1,5 +1,7 @@
 ---
 title: Review Reports
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/review-reports.html
 ---
 
 If you are using the built-in Magento Reviews, Review Reports provide information about product reviews by customer and by product.

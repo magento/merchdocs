@@ -10,7 +10,7 @@ You can easily add free, ready-made banner ads to pages of your site and the _Pa
 
 ## Payment methods that can use PayPal Credit
 
-For US merchants, PayPal Credit is enabled by default for the [PayPal Express Checkout]({% link payment/paypal-express-checkout.md %}) payment option. To disable it for this payment method, see the _Features_ section of [PayPal Express Checkout configuration]({% link payment/paypal-express-checkout.md %}#features).
+For US merchants, PayPal Credit is enabled by default for the [PayPal Express Checkout]({% link payment/paypal-express-checkout.md %}) payment option. To disable it for this payment method, see the _Features_ section of [PayPal Express Checkout configuration]({% link payment/paypal-express-checkout.md %}).
 
 PayPal Credit is disabled by default for the other PayPal payment solutions, but can be enabled in the payment method configuration:
 

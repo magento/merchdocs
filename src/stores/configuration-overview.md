@@ -1,5 +1,7 @@
 ---
 title: Configuration
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html
 ---
 
 The online [Configuration Reference]({% link stores/configuration.md %}) has field descriptions for every configuration setting in Magento. To learn how to apply configuration settings to specific store views, see [Configuration Scope]({% link configuration/scope.md %}).
