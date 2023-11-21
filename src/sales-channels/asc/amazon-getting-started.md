@@ -16,6 +16,8 @@ sections:
    - title: Amazon Sales Channel Best Practices and Limitations
      content: Some key best practices and limitations provide insights for features and integrations.
      url: /sales-channels/asc/amazon-best-practices.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 Amazon Sales Channel integrates Magento with your Amazon Seller Central account. Learn more about key features and integrations.

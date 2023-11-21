@@ -1,5 +1,7 @@
 ---
 title: Yotpo Reviews
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html
 ---
 
 Magento offers some basic information on the activity between your store and your Yotpo account. You can view your basic Yotpo information in the Admin **Dashboard** or in the **Marketing** menu in the Admin.

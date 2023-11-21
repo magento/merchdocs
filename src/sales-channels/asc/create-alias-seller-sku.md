@@ -1,5 +1,7 @@
 ---
 title: Create an Alias Amazon Seller SKU
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/create-alias-seller-sku.html
 ---
 
 

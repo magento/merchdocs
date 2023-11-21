@@ -1,5 +1,7 @@
 ---
 title: Lowest Competitor Pricing
+redirect to: 
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/lowest-competitor-pricing.html
 ---
 
 

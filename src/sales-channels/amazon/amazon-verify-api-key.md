@@ -1,5 +1,7 @@
 ---
 title: Add or Verify the Amazon API Key
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 

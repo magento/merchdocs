@@ -1,5 +1,7 @@
 ---
 title: Yotpo Default Settings
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html
 ---
 
 When Yotpo is enabled, Magento sets default values for your Widget and Sync settings.

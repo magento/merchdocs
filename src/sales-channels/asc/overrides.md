@@ -1,5 +1,7 @@
 ---
 title: Overrides
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/overrides.html
 ---
 
 

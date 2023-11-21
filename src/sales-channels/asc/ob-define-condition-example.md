@@ -1,5 +1,7 @@
 ---
 title: 'Example: Define a Condition'
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/product-listing-condition.html
 ---
 
 

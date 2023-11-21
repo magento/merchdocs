@@ -1,5 +1,7 @@
 ---
 title: Learning and Preparation
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/learning-preparation.html
 ---
 
 

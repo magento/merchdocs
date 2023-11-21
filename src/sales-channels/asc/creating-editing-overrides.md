@@ -1,5 +1,7 @@
 ---
 title: Create and Edit Overrides
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/creating-editing-overrides.html
 ---
 
 

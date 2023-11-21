@@ -1,5 +1,7 @@
 ---
 title: Amazon Sales Channel: Best Practices and Limitations
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/amazon-best-practices.html
 ---
 
 Best practices include:
@@ -8,7 +10,7 @@ Best practices include:
 
 - Amazon Sales Channel can set your pricing rules to automatically adjust your listing price. Automated pricing safeguards include the [Floor Price]({% link sales-channels/asc/floor-price.md %}) and [Optional Ceiling Price]({% link sales-channels/asc/optional-ceiling-price.md %}) features of [Intelligent repricing rules]({% link sales-channels/asc/intelligent-repricing-rules.md %}). Use of these safeguards helps ensure that your listing prices do not go below your cost or above a defined price.
 
-- Data syncing between Amazon Sales Channel and Amazon is controlled by your [Magento cron]({% link system/cron.md %}) settings. Built-in throttling between Magento and Amazon help to ensure smooth and efficient data transmission, but during high eCommerce traffic times (such as Black Friday), Amazon’s systems may take longer than usual to update. It is recommended to set your Magento cron to run once every five minutes.
+- Data syncing between Amazon Sales Channel and Amazon is controlled by your [Magento cron]({% link system/cron.md %}) settings. Built-in throttling between Magento and Amazon help to ensure smooth and efficient data transmission, but during high eCommerce traffic times (such as Black Friday), Amazon's systems may take longer than usual to update. It is recommended to set your Magento cron to run once every five minutes.
 
 - Amazon Sales Channel imports your Amazon order information. To manage your Amazon orders in Amazon Sales Channel, you must ensure that your [order settings]({% link sales-channels/asc/order-settings.md %}) are defined to import and create a corresponding Magento order for each Amazon order. If this is not defined, you will only be able to view your Amazon order information. All taxes for sales through Amazon are still managed and remitted via your Amazon Seller Central account. In some states, Amazon is required to automatically collect and remit taxes. For other states, sellers have the option of calculating taxes manually or automatically. See [Amazon: Tax Policies](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&language=en_US&ref=efph_200405820_cont_521). You may be required to log into your Amazon Seller Central account to view Amazon Tax Policy documentation.
 

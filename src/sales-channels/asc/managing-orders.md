@@ -1,5 +1,7 @@
 ---
 title: Manage Orders
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-orders/managing-orders.html
 ---
 
 

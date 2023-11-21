@@ -1,5 +1,7 @@
 ---
 title: Common Yotpo Tasks
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html
 ---
 
 After you [connect your Magento store to your Yotpo account]({% link marketing/yotpo-connect.md %}), Magento sets your [default setup values]({% link configuration/yotpo/reviews-visual-marketing.md %}).

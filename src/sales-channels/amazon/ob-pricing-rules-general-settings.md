@@ -1,5 +1,7 @@
 ---
 title: 'Onboarding: Price Rule General Settings'
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 

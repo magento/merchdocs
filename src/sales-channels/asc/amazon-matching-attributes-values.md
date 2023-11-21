@@ -1,5 +1,7 @@
 ---
 title: View Amazon Attribute Mapping
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/attributes/amazon-matching-attributes-values.html
 ---
 
 

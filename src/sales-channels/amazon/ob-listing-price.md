@@ -1,5 +1,7 @@
 ---
 title: 'Onboarding: Listing Price'
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 **Step 2 Options**{: .Blue} for [Listing Settings]({% link sales-channels/amazon/ob-order-settings.md %})

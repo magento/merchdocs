@@ -1,5 +1,7 @@
 ---
 title: Amazon Sales Channel: Best Practices and Limitations
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 Best practices include:

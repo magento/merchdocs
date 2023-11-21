@@ -1,7 +1,7 @@
 ---
 title: Catalog Search
-redirect_from:
-  - /sales-channels/asc/ob-catalog-search.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/catalog-search.html
 ---
 
 

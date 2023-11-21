@@ -1,7 +1,7 @@
 ---
 title: Order Settings
-redirect_from:
-  - /sales-channels/asc/ob-order-settings.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/order-settings.html
 ---
 
 Order Settings define if and how Amazon orders are imported into and processed in Magento and can be accessed on the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).

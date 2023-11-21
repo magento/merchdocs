@@ -1,5 +1,7 @@
 ---
 title: Pre-Setup Tasks
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/onboarding/amazon-pre-setup-tasks.html
 ---
 
 

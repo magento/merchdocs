@@ -1,5 +1,7 @@
 ---
 title: Standard Price Rule Actions
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/standard-price-rules.html
 ---
 
 

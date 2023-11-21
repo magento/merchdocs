@@ -1,7 +1,7 @@
 ---
 title: Listing Settings
-redirect_from:
-  - /sales-channels/asc/ob-listing-settings.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/listing-settings.html
 ---
 
 Listing settings are accessed from the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).

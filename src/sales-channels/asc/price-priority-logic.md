@@ -1,5 +1,7 @@
 ---
 title: Price Priority Logic
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/price-priority-logic.html
 ---
 
 

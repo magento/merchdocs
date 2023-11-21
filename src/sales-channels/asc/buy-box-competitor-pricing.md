@@ -1,5 +1,7 @@
 ---
 title: Buy Box Competitor Pricing
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/buy-box-competitor-pricing.html
 ---
 
 The Buy Box is awarded by Amazon to the seller who has the product listed usually at the best price, along with other factors such as FBA/Prime shipping offered, availability, and the seller's performance.

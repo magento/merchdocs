@@ -1,7 +1,7 @@
 ---
 title: Price Rule Conditions
-redirect_from:
-  - /sales-channels/asc/ob-pricing-rules-conditions.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/pricing-rule-conditions.html
 ---
 
 
