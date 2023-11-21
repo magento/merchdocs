@@ -2,6 +2,8 @@
 title: Limitations with Product Recommendations
 tag: product-recommendations
 ee_only: true
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/type.html
 ---
 
 As we continue to evolve this technology and ensure you are successful in implementing product recommendations, it is critical that we are clear about any limitations to this technology. The following lists features that are not supported at this time:

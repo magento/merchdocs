@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Configuring Reward Points
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty.html#enable-reward-point-operations-for-your-store
 ---
 
 The Reward Points configuration determines how reward points are presented in the store and defines the basic operating parameters.
@@ -52,7 +54,7 @@ In this step, the number of reward points that can be earned for various custome
     ![Customers configuration - actions for acquiring reward points by customer]({% link images/images-ee/config-customers-reward-points-actions-for-acquiring.png %}){: .zoom}
     [_Actions for Acquiring Reward Points by Customer_]({% link configuration/customers/reward-points.md -%})
 
-    - To display a message in the shopping cart that includes the rewards points earned for the purchase and the customer’s current reward point balance, set **Purchase** to `Yes`.
+    - To display a message in the shopping cart that includes the rewards points earned for the purchase and the customer's current reward point balance, set **Purchase** to `Yes`.
 
     - For **Registration**, enter the number of points earned for opening a customer account.
 

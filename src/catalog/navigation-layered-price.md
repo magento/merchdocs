@@ -1,6 +1,8 @@
 ---
 title: Price Navigation
 group: marketing
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html#price-navigation
 ---
 
 Price navigation can be used to distribute products by price range in layered navigation. You can also split each range in intervals. There are a few ways to calculate price navigation:

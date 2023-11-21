@@ -1,14 +1,14 @@
 ---
 title: API Users
-redirect_from:
-  - /marketing/engagement-cloud-account-api-users.html
+redirect to:
+  - https://support.dotdigital.com/en/collections/5610169-magento-open-source-and-adobe-commerce
 ---
 
 The API allows developers to establish integration with other systems, and automate tasks. The dotdigital API version 2.0 web service supports both REST and SOAP.
 
 As a best practice, it is recommended that you create one API user per supported system. For example, having only one API user for your Magento integration makes it easier to isolate and diagnose problems, and change privileges.
 
-Only the account owner or another user with the “Can manage account” permission can create API users. To learn more, see [Getting started with the API][1].
+Only the account owner or another user with the "Can manage account" permission can create API users. To learn more, see [Getting started with the API][1].
 
 ## Add an API User
 

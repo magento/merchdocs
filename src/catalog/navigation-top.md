@@ -1,6 +1,8 @@
 ---
 title: Top Navigation
 group: marketing
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html
 ---
 
 The main menu of your store is like a directory to the different departments in your store. Each option represents a different category of products. The position and presentation of the top navigation might vary by theme, but the way it works is essentially the same.
@@ -13,14 +15,14 @@ The category structure of your catalog can influence how well your site is index
 ## Counting menu levels
 
 |--- |--- |
-|Level 1|The first level is the root category, which in the sample data  is named “Default Category.” The root is a container for the menu, and its name does not appear as an option in the menu.|
+|Level 1|The first level is the root category, which in the sample data  is named "Default Category." The root is a container for the menu, and its name does not appear as an option in the menu.|
 |Level 2|On a desktop display, the top navigation is the main menu that appears across the top of the page. On a mobile device, the main menu typically appears as a fly-out menu of options. The second-level options in the Luma  store are _What's New_, _Women_, _Men_, _Gear_, _Training_, and _Sale_.|
 |Level 3|The third-level appears below each  main menu option. For example, under _Women_, the third-level options are _Tops_ and _Bottoms_.|
 |Level 4|The fourth-level options are subcategories that fly out from a third-level option. For example, under _Tops_, the fourth level menu options are _Jackets_, _Hoodies & Sweatshirts_, _Tees_, and _Bras & Tanks_.|
 
 ## Set the top navigation
 
-See “[Creating Categories]({% link catalog/category-create.md %})” to define the category structure of the main menu. For a multistore installation, a different main menu can be assigned as the [root category]({% link catalog/category-root.md %}) for each [store]({% link stores/stores-all-create-store.md %}).
+See "[Creating Categories]({% link catalog/category-create.md %})" to define the category structure of the main menu. For a multistore installation, a different main menu can be assigned as the [root category]({% link catalog/category-root.md %}) for each [store]({% link stores/stores-all-create-store.md %}).
 
 ## Set the depth of the top navigation
 
@@ -30,7 +32,7 @@ See “[Creating Categories]({% link catalog/category-create.md %})” to define
 
 1. Expand the **Category Top Navigation** section.
 
-   Because the depth of the top navigation has a global [configuration scope]({% link configuration/scope.md %}), the setting applies to all websites, stores, and store views in the Magento installation. The Category Top Navigation configuration section is available only when Store View in the upper-left corner is set to “Default Config”.
+   Because the depth of the top navigation has a global [configuration scope]({% link configuration/scope.md %}), the setting applies to all websites, stores, and store views in the Magento installation. The Category Top Navigation configuration section is available only when Store View in the upper-left corner is set to "Default Config".
 
    ![]({% link images/images/configuration-store-view-default-config.png %}){: .zoom}
    _Default Config_

@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Configuring Gift Registries
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure.html
 ---
 
 Before you can offer gift registries to your customers, you must enable gift registries and configure the related email notifications. Magento sends the following email notifications in response to events in the gift registry workflow.

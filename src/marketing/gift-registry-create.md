@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Setting Up a Gift Registry
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-create.html
 ---
 
 A gift registry can be created for any type of event, such as a wedding, birthday, anniversary, new baby, or any other special occasion. By default, Magento includes the following special events:
@@ -9,7 +11,7 @@ A gift registry can be created for any type of event, such as a wedding, birthda
 - Birthday
 - Wedding
 
-When you create a new registry, it becomes an option in the list of gift registry types in the customer’s account.
+When you create a new registry, it becomes an option in the list of gift registry types in the customer's account.
 
 You can use one of the three prepared gift registries, or create your own custom registry. Each gift registry type includes a number of attributes, which are the data entry fields that a customer completes to create a gift registry. The attributes provide additional information about the event, time and location, or any other information that is needed. Depending on the input type, some attributes have multiple options. For example, the `Wedding` gift registry type has the attribute `Role`, with the `Bride`, `Groom`, and `Partner` options. To learn more about attributes and input types, see [Attributes]({% link stores/attributes.md %}).
 
@@ -62,7 +64,7 @@ _Gift Registry Types_
 
    - If the input type has multiple options, click <span class="btn">Add New Option</span> and complete the information for each option.
 
-      Some input types have additional properties. For example, the Event Location has additional properties to make the event searchable, and included in your store’s public list of gift registries.
+      Some input types have additional properties. For example, the Event Location has additional properties to make the event searchable, and included in your store's public list of gift registries.
 
       - Set **Attribute Group** to the section in the gift registry where you want the attribute to appear.
 

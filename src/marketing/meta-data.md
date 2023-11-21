@@ -1,5 +1,7 @@
 ---
 title: Meta Data
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/meta-data.html
 ---
 
 Your store is loaded with places where you can enter keyword-rich meta data to improve the way search engines index your site. While setting up your store, you might enter preliminary meta data, with the intention of finishing it later. Over time, you can fine-tune the meta data to target the buying patterns and preferences of your customers.
@@ -33,6 +35,6 @@ The [canonical meta tag]({% link marketing/meta-canonical.md %}) tells search en
 
 ## Rich Snippets
 
-Rich snippets provide detailed information for search results listings and other applications. By default, structured data markup that is based on the [schema.org][1] standard is added to your store’s product template. As a result, more information is available for search engines to include as “rich snippets” in product listings.
+Rich snippets provide detailed information for search results listings and other applications. By default, structured data markup that is based on the [schema.org][1] standard is added to your store's product template. As a result, more information is available for search engines to include as "rich snippets" in product listings.
 
 [1]: https://schema.org/

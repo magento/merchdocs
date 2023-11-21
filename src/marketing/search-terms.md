@@ -1,8 +1,10 @@
 ---
 title: Search Terms
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html
 ---
 
-You can learn what your customers are looking for by examining the search terms they use to find products in your store. If enough people look for a product that you don’t carry, perhaps it is time to add it to your catalog. Meanwhile, rather than have them leave them empty handed, why not redirect them to another product in your catalog? Here are a few ways you can leverage customer search terms:
+You can learn what your customers are looking for by examining the search terms they use to find products in your store. If enough people look for a product that you don't carry, perhaps it is time to add it to your catalog. Meanwhile, rather than have them leave them empty handed, why not redirect them to another product in your catalog? Here are a few ways you can leverage customer search terms:
 
 ## Landing Page
 

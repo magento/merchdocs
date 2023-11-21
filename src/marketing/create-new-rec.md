@@ -2,6 +2,8 @@
 title: Create New Recommendation
 tag: product-recommendations
 ee_only: true
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html
 ---
 
 When you create a recommendation, you are creating what is called a *recommendation unit*:

@@ -1,5 +1,7 @@
 ---
 title: RSS Feeds
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/social-rss.html
 ---
 
 RSS (Really Simple Syndication) is an XML-based data format that is used to distribute information online. Your customers can subscribe to your RSS feeds to learn of new products and promotions. RSS Feeds can also be used to publish your product information to shopping aggregation sites, and can be included in newsletters.

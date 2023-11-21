@@ -28,6 +28,8 @@ sections:
   - title: Social
     content: You can integrate your Magento store with your social networks by installing a Marketplace extension or adding a plugin to your content pages.
     url: /marketing/social-plugins.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/introduction.html#variables-and-customer-communications
 ---
 
 One of the tasks to complete before launching your store is to review the email templates that are used for all communications sent from your store to make sure that they reflect your brand. In this section of the guide, you will learn how to customize email and newsletter templates, as well as PDF invoices and packing slips. You will also learn how to personalize the content with variables and markup tags.

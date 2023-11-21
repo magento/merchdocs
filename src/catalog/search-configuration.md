@@ -1,6 +1,8 @@
 ---
 title: Configuring Catalog Search
 group: marketing
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-configuration.html
 ---
 
 Magento offers a choice of search engines and versions and supports both MySQL and Elasticsearch. The search engine configuration includes a set of general settings and additional features specific to the search engine. By default, Magento uses the MySQL search engine.

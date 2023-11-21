@@ -1,7 +1,7 @@
 ---
 title: Setting Up Engagement Cloud
-redirect_from:
-  - /marketing/engagement-cloud-setup.html
+redirect to:
+  - https://support.dotdigital.com/en/collections/5610169-magento-open-source-and-adobe-commerce
 ---
 
 To get started with dotdigital Engagement Cloud, you must first sign up for a free account. Then, follow the instructions to complete the setup and log in to your account dashboard.
@@ -78,7 +78,7 @@ To get started with dotdigital Engagement Cloud, you must first sign up for a fr
    To continue, see [Create a Campaign]({% link marketing/dotdigital/campaign-create.md %}).
 
     {:.bs-callout-info}
-    At some point while working with your free trial, you’ll be asked to verify your account. When prompted, click the free trial message above the header and follow the instructions. Until then, the status of your account will be _unverified_.
+    At some point while working with your free trial, you'll be asked to verify your account. When prompted, click the free trial message above the header and follow the instructions. Until then, the status of your account will be _unverified_.
 
     ![dotdigital - build your first campaign]({% link images/images/engagement-cloud-free-trial-build-campaign.png %}){: .zoom}
     _Build Your First Campaign_

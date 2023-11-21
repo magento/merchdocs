@@ -1,5 +1,7 @@
 ---
 title: Canonical Meta Tag
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/meta-data.html#canonical-meta-tag
 ---
 
 Some search engines penalize websites that have multiple URLs that point to the same content. The canonical meta tag tells search engines which page to index when multiple URLs have identical or very similar content. Using the canonical meta tag can improve your site ranking and aggregate pageviews. The canonical meta tag is placed in the `<head>` block of a product or category page. It provides a link to your preferred URL, so search engines will give it greater weight.

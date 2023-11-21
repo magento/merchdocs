@@ -1,6 +1,8 @@
 ---
 title: Configuring Layered Navigation
 group: marketing
+redirect to:
+- https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html#price-navigation
 ---
 
 The layered navigation configuration determines if a product count appears in parentheses after each attribute, and the size of the step calculation that is used in price navigation.

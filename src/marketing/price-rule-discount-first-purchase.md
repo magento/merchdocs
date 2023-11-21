@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Discount with First Purchase
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rule-discount-first-purchase.html
 ---
 
 Cart price rules can be used to automatically offer a discount to customers on their first purchase, with no coupon needed.
@@ -42,7 +44,7 @@ Ensure that the Customer Segments feature is enabled. Refer to [Creating a Custo
 
    - In the panel on the left, choose **Conditions**.
 
-       The default condition begins, “If ALL of these conditions are TRUE:”
+       The default condition begins, "If ALL of these conditions are TRUE:"
 
    - Click **Add** (![Add icon]({% link images/images/btn-add-grn.png %})) and select `Number of Orders`.
 

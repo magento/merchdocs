@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Google Tag Manager
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-tag-manager.html
 ---
 
 Google Tag Manager helps you manage the many tags, or snippets of code, that are related to your marketing campaign events. Google Tag Manager gives you the ability to add tracking tags to your site to measure the audience, or to personalize, retarget, or conduct search engine marketing initiatives.
@@ -87,13 +89,13 @@ For additional information, see Google's [Container export and import][5]. These
 
     - Choose **Google Analytics**. Then, update the placeholder (`UA-xxxxxx-x`) with your own **GA ID**.
 
-1. Follow Google’s instructions to add tags, triggers, and variables to the new container.
+1. Follow Google's instructions to add tags, triggers, and variables to the new container.
 
     If you have settings in another container that you want to use, they can be moved to the new container.
 
 1. Click **Confirm** when complete.
 
-1. Follow Google’s instructions to publish the new container.
+1. Follow Google's instructions to publish the new container.
 
 ## Step 3. Configure Your Store
 
@@ -136,7 +138,7 @@ For additional information, see Google's [Container export and import][5]. These
 |List property for the up-sell block|Store View|Identifies the Tag Manager property associated with the up-sell block. Default value: Up-sell|
 |List property for the related products block|Store View|Identifies the Tag Manager property associated with the related products block. Default value: Related Products|
 |List property for the search results page|Store View|Identifies the Tag Manager property associated with the search results page. Default value: Search Results|
-|“Internal Promotions” for promotions field “Label”|Store View|Identifies the Tag Manager property associated with the labels for internal promotions. Default value: Label|
+|"Internal Promotions" for promotions field "Label"|Store View|Identifies the Tag Manager property associated with the labels for internal promotions. Default value: Label|
 
 [1]: https://support.google.com/analytics/answer/1008015?hl=en
 [2]: https://support.google.com/tagmanager/answer/6102821?hl=en

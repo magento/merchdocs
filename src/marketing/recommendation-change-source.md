@@ -2,6 +2,8 @@
 title: Fetch Product Recommendations from a Different Source
 tag: product-recommendations
 ee_only: true
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/settings.html
 ---
 
 When you [configure a SaaS environment]({% link configuration/services/saas.md %}) for Recommendations, that SaaS environment collects catalog data and storefront behavioral data. [Adobe Sensei](https://www.adobe.com/sensei.html) analyzes that data and computes product associations used to serve Product Recommendations.

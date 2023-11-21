@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Creating Email Reminders
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules-create.html
 ---
 
 Before setting up an email reminder rule, you must first set up a cart price rule to define the promotion that is being offered. Rule conditions that trigger an email reminder can be based on cart properties, wishlist properties, or both.

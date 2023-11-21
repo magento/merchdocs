@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Configuring Related Products Rules
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html#configure-rule-based-product-relations
 ---
 
 The behavior and display of product relationship rules is determined by the configuration settings. The settings determine how many products that match the rule can be displayed, and the order in which they appear.

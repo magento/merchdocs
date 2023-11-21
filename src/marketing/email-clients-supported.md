@@ -1,5 +1,7 @@
 ---
 title: Supported Email Clients
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html
 ---
 
 A wide range of technologies is supported by the various email clients and services available today. Although there is some variation in the way email messages are rendered, we have found the following services to be compatible with Magento.
@@ -13,8 +15,8 @@ A wide range of technologies is supported by the various email clients and servi
 
 |Operating System|Clients Supported|
 |--- |--- |
-|Android 4.2, “Jelly Bean”|Native email app|
-|Android 2.3, “Gingerbread”|Native email app|
+|Android 4.2, "Jelly Bean"|Native email app|
+|Android 2.3, "Gingerbread"|Native email app|
 |Gmail App  (Android 4.2)|Native email app|
 |Blackberry 5 OS|Native email app|
 |IOS 8|iPhone 6, iPhone 6 Plus|

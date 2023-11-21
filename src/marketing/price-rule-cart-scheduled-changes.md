@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Scheduled Changes for Cart Price Rules
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rule-cart-scheduled-changes.html
 ---
 
 Cart price rules can be applied on schedule as part of a campaign, and grouped with other content changes. You can create a new campaign based on scheduled changes to a price rule, or apply the changes to an existing campaign.

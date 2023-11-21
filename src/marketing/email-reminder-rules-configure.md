@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Configuring Email Reminders
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules-create.html
 ---
 
 Email reminder rules can be sent at regular intervals by the minute, hour, or day. The configuration determines how many emails are sent in a batch, and the store identity that appears as the sender of the message.

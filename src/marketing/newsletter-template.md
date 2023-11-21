@@ -1,5 +1,7 @@
 ---
 title: Newsletter Templates
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/newsletters/newsletter-template.html
 ---
 
 You can create as many newsletter templates as you need for different purposes. You might send a weekly product update, a monthly newsletter, or annual holiday newsletter. Newsletter templates can be prepared with HTML markup, or as plain text. Unlike HTML, plain text newsletters contain no images, rich text, or formatted links. In the grid, the Template Type column indicates whether a template is HTML or text.

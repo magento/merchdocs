@@ -2,31 +2,33 @@
 ee_only: true
 title: Creating Category Rules
 group: marketing
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/visual-merch/category-product-rules.html
 ---
 
-Category rules dynamically change the product selection according to a set of conditions. Each category can have only one category rule, although the single rule can have multiple conditions. For example, you can create a category rule for a specific brand. Products of the same brand are automatically added to the list, even if they’re not assigned to the same category. You can add as many conditions to the expression as needed to describe the products that you want to include.
+Category rules dynamically change the product selection according to a set of conditions. Each category can have only one category rule, although the single rule can have multiple conditions. For example, you can create a category rule for a specific brand. Products of the same brand are automatically added to the list, even if they're not assigned to the same category. You can add as many conditions to the expression as needed to describe the products that you want to include.
 
-Each condition consists of an attribute, value, and logical operator. Only attributes with the “[Use in Product Listing]({% link stores/attributes-product.md %})” property set to `Yes` can be used in category rules. You must set this property for the attribute if you want to use an attribute that is not included in product listings. Although Date attributes are not supported, you can use the Date Created or Date Modified attributes to define a date, or range of dates. For example, to include only products that were created during the past week, set "Date Created" to a value of `<7`.
+Each condition consists of an attribute, value, and logical operator. Only attributes with the "[Use in Product Listing]({% link stores/attributes-product.md %})" property set to `Yes` can be used in category rules. You must set this property for the attribute if you want to use an attribute that is not included in product listings. Although Date attributes are not supported, you can use the Date Created or Date Modified attributes to define a date, or range of dates. For example, to include only products that were created during the past week, set "Date Created" to a value of `<7`.
 
 {:.bs-callout-info}
-Make sure to configure each attribute that is used in the rule as a [“smart” attribute]({% link marketing/visual-merchandiser-configuration.md %}).
+Make sure to configure each attribute that is used in the rule as a ["smart" attribute]({% link marketing/visual-merchandiser-configuration.md %}).
 
 ![]({% link images/images-ee/category-product-rule.png %}){: .zoom}
 _Category Product Rule_
 
-Category product rules can speed up the process of assigning specific products to categories, based on conditions that determine which products appear in the category. The “smart” attributes that can be used with category product rules are specified in the [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}) configuration.
+Category product rules can speed up the process of assigning specific products to categories, based on conditions that determine which products appear in the category. The "smart" attributes that can be used with category product rules are specified in the [Visual Merchandiser]({% link marketing/visual-merchandiser.md %}) configuration.
 
 {:.bs-callout-info}
 Use caution when applying a category product rule, because any products that do not meet the condition are removed from the category. For example, if you create a rule that includes only purple tank tops, all other tank tops are removed from the category.
 
-## Step 1: Configure the “smart” attributes
+## Step 1: Configure the "smart" attributes
 
 1. For each attribute that is to be used in the rule, make sure that the [Use in Product Listing]({% link stores/attributes-product.md %}) storefront property is set to `Yes`.
 
    {:.bs-callout-info}
    Make sure the attribute you select is NOT multiselect Input Type.
 
-1. Complete the [configuration]({% link marketing/visual-merchandiser-configuration.md %}) to identify each “smart” attribute that is to be used with Visual Merchandiser.
+1. Complete the [configuration]({% link marketing/visual-merchandiser-configuration.md %}) to identify each "smart" attribute that is to be used with Visual Merchandiser.
 
 ## Step 2: Create the category rule
 
