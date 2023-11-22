@@ -36,7 +36,7 @@ The first two steps are the same as if you are inserting an image.
 
    - To upload files from your system, click <span class="btn">Choose Files</span> and do the following:
 
-      - In the directory of your local computer, navigate to the location of the images.
+      - In the directory on your local computer, navigate to the location of the images.
 
       - Select each image to be uploaded.
 
