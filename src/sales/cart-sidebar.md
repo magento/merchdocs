@@ -1,5 +1,7 @@
 ---
 title: Cart Sidebar
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html
 ---
 
 The Cart Sidebar is often called the _mini cart_ and displays a summary of the items in the cart. It is enabled by default and appears when you click the number of items in the Cart Link.

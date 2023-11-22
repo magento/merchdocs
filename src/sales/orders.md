@@ -1,7 +1,7 @@
 ---
 title: Orders
-redirect_from:
-  - /sales/orders-workspace.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html
 ---
 
 The Orders workspace lists all current orders. Each row in the grid represents an order, and each column represents an attribute or data field. By default, orders display in descending order from latest to earliest purchase date. Use the standard [controls]({% link stores/admin-grid-controls.md %}) to sort and filter the list, find orders, and apply [actions]({% link stores/admin-actions-control.md %}) to selected orders. You can view existing orders, and create new orders. Use the tabs above the pagination controls to filter the list, change the default view, change and rearrange columns, and export data.
@@ -55,5 +55,5 @@ For information about changing the displayed columns, see [Order Grid Layout]({%
 |Customer Name|The first and last name of the customer who placed the order.|
 |Payment Method|The method of payment to be used for the order.|
 |Total Refunded|Any amount from the order that is to be refunded to the customer.|
-|<span class="ee-only">Refunded to Store Credit</span>|Any amount from the order that is to be refunded to the customer’s store credit.|
+|<span class="ee-only">Refunded to Store Credit</span>|Any amount from the order that is to be refunded to the customer's store credit.|
 |<span class="b2b-only">Company Name</span>|The name of the company who placed the order.|

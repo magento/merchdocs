@@ -1,5 +1,7 @@
 ---
 title: Find Solutions
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/shipments.html
 ---
 
 {% include shipping-status-note.md %}

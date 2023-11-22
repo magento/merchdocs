@@ -1,9 +1,8 @@
 ---
 ee_only: true
 title: Returns
-redirect_from:
-  - /sales/rma-workflow.html
-  - /sales/return-product-workflow.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/returns/returns.html
 ---
 
 A returned merchandise authorization (RMA) can be granted to customers who request to return an item for replacement or refund. Typically, the customer contacts the merchant to request a refund. If approved, a unique RMA number is assigned to identify the returned product. In the configuration, you can either enable RMA for all products or allow RMA for only certain products. The _Returns_ grid lists the current returned merchandise requests (RMAs) and is used to enter new return requests.

@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Applying Store Credit
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using.html
 ---
 
 Store administrators can view the credit balance and history from the customer account, and also apply store credit to a purchase.

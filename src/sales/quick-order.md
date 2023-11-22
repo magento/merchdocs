@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Quick Order
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/quick-order.html
 ---
 
 _Quick Order_ reduces the order process to several clicks for those who know the product name or SKU for what they want to order. Orders with multiple SKUs can be entered manually or imported into the Quick Order form. When enabled, Quick Order is available to customers who are logged in to their accounts, as well as guests. The _Quick Order_ link appears at the top of the storefront page.

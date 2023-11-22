@@ -1,5 +1,7 @@
 ---
 title: Shipping an Order
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html
 ---
 
 An order that has been paid, but is awaiting shipment has the `Processing` status. The shipment record contains a detailed history of the fulfillment process associated with the order. Partial shipments can be made until the order is fulfilled.
@@ -54,6 +56,6 @@ An order that has been paid, but is awaiting shipment has the `Processing` statu
 
    - To send the comment to the customer by email, select the **Notify Customer by Email** checkbox.
 
-   - To post the comment in the customer’s account, select the **Visible on Frontend** checkbox.
+   - To post the comment in the customer's account, select the **Visible on Frontend** checkbox.
 
 1. Click <span class="btn">Submit Comment</span>.

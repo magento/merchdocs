@@ -1,5 +1,7 @@
 ---
 title: Amazon Pay Customer Experience
+redirect_to:
+  - https://commercemarketplace.adobe.com/partner/AmazonPay
 ---
 
 Customers can speed through checkout by using the payment methods and shipping addresses that are available in their Amazon accounts. Your store can be configured to show the _Amazon Pay_ button on [product pages]({% link quick-tour/product-page.md %}), in the [cart sidebar]({% link sales/cart-sidebar.md %}), in the [shopping cart]({% link sales/cart.md %}), and during [checkout]({% link sales/checkout-process.md %}).

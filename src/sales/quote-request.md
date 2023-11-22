@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Requesting a Quote
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/quote-request.html
 ---
 
 If [Quotes]({% link sales/quotes.md %}) are enabled in the [B2B features configuration]({% link stores/b2b-features.md %}), an authorized buyer from a company can initiate the price negotiation process by requesting a quote from their shopping cart.

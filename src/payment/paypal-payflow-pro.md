@@ -1,5 +1,7 @@
 ---
 title: PayPal Payflow Pro
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-payflow-pro.html
 ---
 
 PayPal Payflow Pro gateway, formerly known as _Verisign_, is available for customers of the United States, Canada, Australia, and New Zealand. Unlike other PayPal payment methods, merchants are charged a fixed monthly fee, plus a fixed fee for each transaction, regardless of the number.
@@ -204,7 +206,7 @@ This setup method assumes you have an existing PayPal account.
 1. Set **Payment Action** to one of the following:
 
    |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is captured by the merchant.|
-   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
+   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer's account.|
 
 1. For **Credit Card Settings**, select the credit cards that you accept for payment in your store.
 
@@ -355,7 +357,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 1. Set **Payment Action** to one of the following:
 
    |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is _captured_ by the merchant.|
-   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
+   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer's account.|
 
 1. To display the _Check out with PayPal_ button on the product page, set **Display on Product Details Page** to `Yes`.
 

@@ -1,5 +1,7 @@
 ---
 title: Pre-Package Assignment
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/shipments.html
 ---
 
 {% include shipping-status-note.md %}
@@ -66,7 +68,7 @@ _Shipping Example_
 
 ### Additional notes
 
-- When shipping an order with multiple items that have a packaging assigned, each item will be separated into it’s defined, respective package.
+- When shipping an order with multiple items that have a packaging assigned, each item will be separated into it's defined, respective package.
 
 - When an order contains multiple of the same item, the packaging logic does not aggregate items into a single package, thus each item will fulfill in a separate package.
 

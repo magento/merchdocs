@@ -1,8 +1,7 @@
 ---
 title: Online Payment Methods
-redirect_from:
-  - /payment/recommended-solutions.html
-  - /payment/gateways.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html#online-payment-methods
 ---
 
 {:.bs-callout-info}

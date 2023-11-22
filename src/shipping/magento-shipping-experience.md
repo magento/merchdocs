@@ -1,5 +1,7 @@
 ---
 title: Shipping Experiences
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/shipments.html
 ---
 
 {% include shipping-status-note.md %}
@@ -14,7 +16,7 @@ _Shipping Experience_
 ## Shipment Workflow
 
 |![]({% link images/images/icon-ms-ready-for-checkout.png %})|**Your customer is ready to check out their cart.**<br/>- Qualify Rules|
-|![]({% link images/images/icon-ms-order-received.png %})|**You receive your customer’s order.**<br/>- Allocation<br/>-  Rules<br/>- Quoting Rules<br/>- Batch Fulfillment Rules<br/>- Fulfillment Rules|
+|![]({% link images/images/icon-ms-order-received.png %})|**You receive your customer's order.**<br/>- Allocation<br/>-  Rules<br/>- Quoting Rules<br/>- Batch Fulfillment Rules<br/>- Fulfillment Rules|
 |![]({% link images/images/icon-ms-shipment-dispatched.png %})|**Shipment is dispatched.**|
 |![]({% link images/images/icon-ms-delivery-arrives.png %})|**Delivery arrives.**|
 

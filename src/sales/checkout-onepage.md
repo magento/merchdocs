@@ -1,10 +1,12 @@
 ---
 title: Onepage Checkout
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process.html#checkout-options
 ---
 
 The purpose of Onepage Checkout is to gather the information that is needed and complete the sale as quickly as possible without requiring extra clicks for the shopper. When Onepage Checkout is enabled, the entire checkout process takes place on a single page. Each section of the checkout information is expanded as needed.
 
-Magento’s Onepage Checkout is enabled by default. If you are implementing a custom integration or checkout extension, it might be necessary to disable Onepage Checkout.
+Magento's Onepage Checkout is enabled by default. If you are implementing a custom integration or checkout extension, it might be necessary to disable Onepage Checkout.
 
 ## Disable Onepage Checkout
 

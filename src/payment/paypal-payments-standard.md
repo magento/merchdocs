@@ -1,5 +1,7 @@
 ---
 title: PayPal Payments Standard
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-payments-standard.html
 ---
 
 [PayPal Payments Standard][4] is the easiest way to accept payments online. You can offer your customers the convenience of payment both by credit card and PayPal by simply adding a checkout button to your store.
@@ -160,7 +162,7 @@ _Payments Standard - configuration_
 1. Set **Payment Action** to one of the following:
 
    |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is captured by the merchant.|
-   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
+   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer's account.|
 
 1. To display the _Check out with PayPal_ button on the product page, set **Display on Product Details Page** to `Yes`.
 
@@ -196,7 +198,7 @@ _Payments Standard - configuration_
 
 1. To allow customers who do not have a PayPal account to make a purchases with this method, set **Enable PayPal Guest Checkout** to `Yes`.
 
-1. Set **Require Customer’s Billing Address** to one of the following:
+1. Set **Require Customer's Billing Address** to one of the following:
 
    |`Yes` | Requires the customer billing address for all purchases.|
    |`No` | Does not require the customer billing address for any purchases.|
@@ -240,8 +242,8 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 1. Set **Payment Action** to one of the following:
 
-   |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is “captured” by the merchant.|
-   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
+   |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is "captured" by the merchant.|
+   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer's account.|
 
 1. Set **Payment Applicable From** to one of the following:
 
@@ -255,7 +257,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 1. To enable SSL verification, set **Enable SSL verification** to `Yes`.
 
-1. To display a summary of each line item in the customer’s order on your PayPal payments page, set **Transfer Cart Line Items** to `Yes`.
+1. To display a summary of each line item in the customer's order on your PayPal payments page, set **Transfer Cart Line Items** to `Yes`.
 
 1. To allow customers to initiate a billing agreement from the dashboard of their customer account, set **Allow in Billing Agreement Wizard** to `Yes`.
 

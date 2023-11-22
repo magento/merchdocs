@@ -1,5 +1,7 @@
 ---
 title: Order Search
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#order-search
 ---
 
 Use the Search box at the upper-left of the [_Orders_ grid]({% link sales/orders.md %}) to find specific orders by keyword. The page also provides advanced filtering tools that you can use to filter the order records displayed in the grid.

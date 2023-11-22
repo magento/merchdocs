@@ -1,8 +1,7 @@
 ---
 title: Shipping Settings
-redirect_from:
-  - /shipping/point-of-origin.html
-  - /shipping/shipping-policy-parameters.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html
 ---
 
 The shipping configuration establishes the point of origin for all shipments and your shipping policy.

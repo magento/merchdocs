@@ -1,5 +1,7 @@
 ---
 title: Magento Shipping
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/shipments.html
 ---
 
 {% include shipping-status-note.md %}
@@ -63,7 +65,7 @@ The [Carriers]({% link shipping/magento-shipping-carriers.md %}) and [Locations]
 
 - Updated the user interface to better demonstrate the steps which need to be completed. Add-Ons and International Details can now be filled out in their own sections.
 
-- In-depth error messaging and visual representation of actions / values which are required have now been added. Field validation occurs at the time of entry as well as when the Batch Process is “Finished”.
+- In-depth error messaging and visual representation of actions / values which are required have now been added. Field validation occurs at the time of entry as well as when the Batch Process is "Finished".
 
 - The experience related to the customers selected Shipping Method now flows through. As a result of this, the Batch Fulfillment rules will be deprecated as the Quoting and Fulfillment Rules are now used instead. Quotes can also be triggered for the selected experience.
 

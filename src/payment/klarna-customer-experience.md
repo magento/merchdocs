@@ -1,5 +1,7 @@
 ---
 title: Klarna Storefront Experience
+redirect_to:
+  - https://commercemarketplace.adobe.com/partner/KlarnaOfficial
 ---
 
 Klarna appears as a payment method during checkout, if it is enabled in the configuration. When data sharing is used, Klarna can instantly prequalify the customer and present the available solutions.

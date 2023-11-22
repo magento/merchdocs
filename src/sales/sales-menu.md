@@ -1,5 +1,7 @@
 ---
 title: Sales Menu
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/sales-menu.html
 ---
 
 The Sales menu lists transactions according to where they are in the order workflow. You might think of each of option as a different stage in the lifetime of an order.
@@ -48,7 +50,7 @@ A [returned merchandise authorization]({% link sales/returns.md %}) (RMA) can be
 
 ### Billing Agreements
 
-A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is similar to a purchase order, except that it isn’t limited to a single purchase. During checkout, the customer chooses Billing Agreement as the payment method. A billing agreement streamlines the checkout process because the customer doesn’t have to enter payment information for each purchase.
+A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is similar to a purchase order, except that it isn't limited to a single purchase. During checkout, the customer chooses Billing Agreement as the payment method. A billing agreement streamlines the checkout process because the customer doesn't have to enter payment information for each purchase.
 
 ### Transactions
 

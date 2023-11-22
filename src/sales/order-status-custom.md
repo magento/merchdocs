@@ -1,5 +1,7 @@
 ---
 title: Custom Order Status
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html#custom-order-status
 ---
 
 In addition to the preset order status settings, you can create your own custom order status settings, assign them to order states, and set a default order status for order states. For example, you might need a custom order status such as _packaging_, _backordered_, or another status that is specific to your business needs. You can create a descriptive name for the custom status and assign it to the associated order state in the workflow.

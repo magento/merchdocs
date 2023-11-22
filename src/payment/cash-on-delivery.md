@@ -1,5 +1,7 @@
 ---
 title: Cash On Delivery
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/offline/cash-on-delivery.html
 ---
 
 Magento allows you to accept COD payments for purchases. You can accept COD payment only from specific countries, and you can fine-tune the configuration with minimum and maximum order total limits.

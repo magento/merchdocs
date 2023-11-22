@@ -1,5 +1,7 @@
 ---
 title: USPS
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps.html
 ---
 
 The United States Postal Service is the independent postal service of United States government, offering domestic and international shipping services by land and air.
@@ -118,7 +120,7 @@ _[USPS Handling Fee]({% link configuration/sales/shipping-methods.md %})_
 
 1. Set **Show Method if Not Applicable** to one of the following:
 
-   |Yes|Lists all available USPS shipping methods during checkout, including those that don’t apply to the shipment.|
+   |Yes|Lists all available USPS shipping methods during checkout, including those that don't apply to the shipment.|
    |No|Lists only the USPS shipping methods that are applicable to the shipment.|
 
 1. Set **Debug** to `Yes` to create a log file with the details of all USPS activity related to your store.

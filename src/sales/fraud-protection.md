@@ -1,5 +1,7 @@
 ---
 title: Fraud Protection
+redirect_to:
+  - https://commercemarketplace.adobe.com/signifyd-module-connect.html
 ---
 
 Fraud protection services and filters examine submitted orders before the transaction is processed to detect fraudulent orders and protect you from the expense of chargebacks. Magento supports the following fraud protection solutions:

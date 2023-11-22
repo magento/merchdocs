@@ -1,12 +1,14 @@
 ---
 title: Collection Points
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/shipments.html
 ---
 
 {% include shipping-status-note.md %}
 
 Collection points allow a customer to place an order online and have it shipped to a designated collection point, rather than to their address. For a description of how collection points are specified during checkout, see: [Customer Experience]({% link shipping/magento-shipping-customer-experience.md %}).
 
-From a Merchants perspective, you have full control over which carrier’s collection points will be made available to customers in the checkout. The fulfillment workflow is the same as Shipments. There are two areas of configuration that need to be completed before Customers can start nominating that an order be shipped to a Collection Point.
+From a Merchants perspective, you have full control over which carrier's collection points will be made available to customers in the checkout. The fulfillment workflow is the same as Shipments. There are two areas of configuration that need to be completed before Customers can start nominating that an order be shipped to a Collection Point.
 
 ## Shipping Experience Setup
 
@@ -22,4 +24,4 @@ A rule can be configured to include a selection of one or more carriers. For exa
 
 ## Magento Shipping configuration
 
-When enabled, the “Send to Collection Point” configuration setting causes the collection point option to be included under Shipping Methods during checkout.
+When enabled, the "Send to Collection Point" configuration setting causes the collection point option to be included under Shipping Methods during checkout.

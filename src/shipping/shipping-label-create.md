@@ -1,5 +1,7 @@
 ---
 title: Creating Shipping Labels
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-labels/shipping-label-create.html
 ---
 
 To create shipping labels, you must first set up your shipping carrier account to support labels. Then, follow the prompts to enter a description of the package and its contents.

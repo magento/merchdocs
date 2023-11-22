@@ -1,7 +1,7 @@
 ---
 title: PayPal Express Checkout
-redirect_from:
-  - /payment/paypal-in-content-checkout.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html
 ---
 
 PayPal Express Checkout helps boost sales by giving your customers the ability to pay by credit card or from the security of their personal PayPal accounts. During checkout, the customer is redirected to the secure PayPal site to complete the payment information. The customer is then returned to your store to complete the remainder of the checkout process. Choosing Express Checkout adds the familiar PayPal button to your store, which has been reported to increase sales.
@@ -36,7 +36,7 @@ PayPal Express Checkout does not support orders with multiple-addresses.
 
 ## In-context checkout
 
-PayPal’s _In-Context Checkout_ makes it easier than ever to pay online. Customers never lose sight of your store during this simplified one- or two-click seamless checkout. In-context checkout works equally well on Macs and PCs, and offers a consistent experience on desktop computers, tablets, and mobile devices. To learn more, see [In-Context Checkout in Express Checkout][5].
+PayPal's _In-Context Checkout_ makes it easier than ever to pay online. Customers never lose sight of your store during this simplified one- or two-click seamless checkout. In-context checkout works equally well on Macs and PCs, and offers a consistent experience on desktop computers, tablets, and mobile devices. To learn more, see [In-Context Checkout in Express Checkout][5].
 
 ![PayPal in-context checkout demo]({% link images/images/storefront-paypal-in-context.png %}){: .zoom}
 [_PayPal in-context checkout demo_][6]
@@ -211,7 +211,7 @@ This completes the required PayPal settings. You can continue with the Basic and
 1. Set **Payment Action** to one of the following:
 
    |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is _captured_ by the merchant.|
-   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
+   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer's account.|
    |`Order` |The amount of the order is neither captured nor authorized in the customer balance, bank account, or credit card at PayPal. The Order payment action represents an agreement between the PayPal payment system and the merchant, which enables the merchant to capture one or more amounts up to the ordered total from the customer buyer account, over a period of up to 29 days. After the funds are ordered, the merchant can capture them at any time during the following 29-day period. Capturing of the order amount can be done only from the Magento Admin by creating one or more invoices.|
 
 1. To display the _Check out with PayPal_ button on the product page, set **Display on Product Details Page** to `Yes`.
@@ -256,11 +256,11 @@ This completes the required PayPal settings. You can continue with the Basic and
 
 1. To allow customers without PayPal accounts to make a purchases with this method, set **Enable PayPal Guest Checkout** to `Yes`.
 
-1. Set **Require Customer’s Billing Address** to one of the following:
+1. Set **Require Customer's Billing Address** to one of the following:
 
-   |`Yes` |Requires the customer’s billing address for all purchases.|
-   |`No` |Does not require the customer’s billing address for any purchases.|
-   |`For Virtual Quotes Only` |Requires the customer’s billing address for virtual quotes only.|
+   |`Yes` |Requires the customer's billing address for all purchases.|
+   |`No` |Does not require the customer's billing address for any purchases.|
+   |`For Virtual Quotes Only` |Requires the customer's billing address for virtual quotes only.|
 
 1. To specify whether the customer can sign a [billing agreement]({% link payment/paypal-billing-agreements.md %}) with your store in the PayPal payment system when there are no active billing agreements available in the customer account, set **Billing Agreement Signup** to one of the following:
 
@@ -300,8 +300,8 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 1. Set **Payment Action** to one of the following:
 
-   |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is “captured” by the merchant.|
-   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
+   |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is "captured" by the merchant.|
+   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer's account.|
 
 1. Set **Payment Applicable From** to one of the following:
 
@@ -315,7 +315,7 @@ A [billing agreement]({% link payment/paypal-billing-agreements.md %}) is a sale
 
 1. To enable SSL verification, set **Enable SSL verification** to `Yes`.
 
-1. To display a summary of each line item in the customer’s order on your PayPal payments page, set **Transfer Cart Line Items** to `Yes`.
+1. To display a summary of each line item in the customer's order on your PayPal payments page, set **Transfer Cart Line Items** to `Yes`.
 
 1. To allow customers to initiate a billing agreement from the dashboard of their customer account, set **Allow in Billing Agreement Wizard** to `Yes`.
 

@@ -23,7 +23,9 @@ sections:
 
  - title: Shipping Labels
    content: You can easily create shipping labels for new and existing orders from the Admin of your store. Labels can be produced when a shipment is created, or later. Shipping labels are stored in PDF format and downloaded to your computer.
-   url: /shipping/shipping-labels.html
+   url: /shipping/shipping-labels.htm
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/delivery.html
 ---
 
 Studies show that stores offering customers a choice of several shipping methods have higher conversion rates than those that use a single method for all shipments. In this section, you will learn how to set up a variety of shipping methods and carriers, and print shipping labels.

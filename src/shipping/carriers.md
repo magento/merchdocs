@@ -1,7 +1,7 @@
 ---
 title: Carriers
-redirect_from:
-  - /shipping/weight-dimensional.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers.html
 ---
 
 If you have a commercial account with a supported carrier, you can offer your customers the convenience of choosing that carrier during checkout. The rates are automatically downloaded, so you do not need to look up the information.

@@ -1,5 +1,7 @@
 ---
 title: Customer Experience
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/shipments.html
 ---
 
 {% include shipping-status-note.md %}
@@ -19,7 +21,7 @@ If _Click & Collect_ is enabled in the configuration, specific locations can be 
 
 During checkout, the _Pick up in store_ option appears under Shipping Methods. When selected, a list of possible pickup locations appears, according to the logic of the related [shipping experience rule]({% link shipping/magento-shipping-experience-rules.md %}). The customer chooses the most convenient location and selects `Click & Collect` as the shipping method.
 
-During Order Review, the Click & Collect location appears in the _Ship To_ section, rather than the customer’s shipping address.
+During Order Review, the Click & Collect location appears in the _Ship To_ section, rather than the customer's shipping address.
 
 The customer is notified by email when the order is ready to collect at the designated location.
 
@@ -34,7 +36,7 @@ During checkout, the _Send to Collection Point_ option appears under Shipping Me
 
 After choosing the location, the customer is prompted to choose the collection point as the shipping method.
 
-During Order Review, the collection point location appears in the Ship To section, rather than the customer’s shipping address.
+During Order Review, the collection point location appears in the Ship To section, rather than the customer's shipping address.
 
 {:.ee-only}
 ## Returns

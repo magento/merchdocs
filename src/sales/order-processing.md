@@ -1,5 +1,7 @@
 ---
 title: Processing an Order
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order
 ---
 
 When a customer places an order, the order is created as a temporary record of the transaction and initially has a status of `Pending`.  It can be edited or canceled until payment starts processing. The _Orders_ grid lists all orders, regardless of where they are in the [workflow]({% link sales/order-workflow.md %}). To learn how to help customers with an existing order, see [Updating an Order]({% link sales/order-update.md %}).
@@ -51,7 +53,7 @@ _View an order_
 |<span class="btn">Invoice</span>|Creates an invoice from the sales order by converting the order to an invoice.|
 |<span class="btn">Ship</span>|Creates a shipment record for the order.|
 |<span class="btn">Reorder</span>|Creates a new sales order based on the current order.|
-|<span class="btn">Edit</span>|Opens a pending order in edit mode. The Edit button isn’t visible for orders with a status of `Processing`, or orders that are based on negotiated quotes.|
+|<span class="btn">Edit</span>|Opens a pending order in edit mode. The Edit button isn't visible for orders with a status of `Processing`, or orders that are based on negotiated quotes.|
 
 ## Process an order
 
@@ -155,7 +157,7 @@ In the _Order Total_ section, do the following:
 |Field|Description|
 |--- |--- |
 |Status|Indicate the current status of the sales order.|
-|Comment|A text box that is used to enter a comment to the customer that accompanies the order. <br/>**Notify Customer by Email** - Select the checkbox if you want to send the comment to the customer as a separate email. <br/>**Visible on Storefront** - Select the checkbox if you want the comment to be visible from the customer’s account. <br/><span class="btn">Submit Comment</span> - Submits the comment and sends by email, if applicable.|
+|Comment|A text box that is used to enter a comment to the customer that accompanies the order. <br/>**Notify Customer by Email** - Select the checkbox if you want to send the comment to the customer as a separate email. <br/>**Visible on Storefront** - Select the checkbox if you want the comment to be visible from the customer's account. <br/><span class="btn">Submit Comment</span> - Submits the comment and sends by email, if applicable.|
 
 ### Order Totals
 

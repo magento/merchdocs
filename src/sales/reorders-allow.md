@@ -1,5 +1,7 @@
 ---
 title: Allow Reorders
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow.html
 ---
 
 When enabled, reorders can be made directly from the customer account or from the original order in the _Admin_. Reorders are enabled by default.

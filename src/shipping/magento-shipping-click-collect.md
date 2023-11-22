@@ -1,5 +1,7 @@
 ---
 title: Click & Collect
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/shipments.html
 ---
 
 {% include shipping-status-note.md %}
@@ -15,9 +17,9 @@ Complete the setup of your Click & Collect [Locations]({% link shipping/magento-
 {:.bs-callout-info}
 The pickup location that a customer chooses during cannot be changed from the Admin.
 
-Create a Qualify [Shipping Experience Rule]({% link shipping/magento-shipping-experience-rules.md %}) with the outcome set to “Offer click and collect locations”. The rule can be configured to offer one or more locations. If the Click & Collection location is set to “All,” any new locations appear to the customer during checkout.
+Create a Qualify [Shipping Experience Rule]({% link shipping/magento-shipping-experience-rules.md %}) with the outcome set to "Offer click and collect locations". The rule can be configured to offer one or more locations. If the Click & Collection location is set to "All," any new locations appear to the customer during checkout.
 
-In the Magento Shipping [configuration]({% link shipping/magento-shipping-setup.md %}), set **Enable Click and Collect** to “Yes”.
+In the Magento Shipping [configuration]({% link shipping/magento-shipping-setup.md %}), set **Enable Click and Collect** to "Yes".
 
 ## To fulfill a Click & Collect order
 
@@ -29,7 +31,7 @@ In the Magento Shipping [configuration]({% link shipping/magento-shipping-setup.
 
     The Pickups grid can be filtered by a variety of fields, with the main used being _Origin Location_ and _Status_.
 
-    - Any filter settings made by the Admin user are retained for that user’s future sessions.
+    - Any filter settings made by the Admin user are retained for that user's future sessions.
 
     - If you have multiple locations, it is recommended that you filter the grid by Origin Location to ensure that only orders which are to be picked up at your location listed.
 
@@ -45,7 +47,7 @@ In the Magento Shipping [configuration]({% link shipping/magento-shipping-setup.
 
 1. Indicate that an order is ready for pickup
 
-    When the orders have been picked and set aside, they are marked `Ready for Pickup`. The customer is notified by email that their order is ready for pickup. To prevent duplication, any items included in pickups that are marked “Ready for Pickup” are not available to be allocated to a package.
+    When the orders have been picked and set aside, they are marked `Ready for Pickup`. The customer is notified by email that their order is ready for pickup. To prevent duplication, any items included in pickups that are marked "Ready for Pickup" are not available to be allocated to a package.
 
 1. After the customer picks up the package at the designated location, change the status in the upper-right corner of the pickup record to `Picked Up`.
 
@@ -65,7 +67,7 @@ In the Magento Shipping [configuration]({% link shipping/magento-shipping-setup.
 
     - The status of the partial pickup changes to `Ready for Pickup`.
     - An email is sent to notify the customer that the specified items are ready to collect.
-    - A new pickup record with a status of “Pickup Requested” is created for the remaining items.
+    - A new pickup record with a status of "Pickup Requested" is created for the remaining items.
     - The Pickup page closes, and you return to the Pickups grid.
 
     The remaining pickup items can be fulfilled as either a separate pickup or shipment when the items become available.

@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: eWAY - Deprecated
+redirect_to:
+  - https://marketplace.magento.com/catalogsearch/result/?q=eway
 ---
 
 {:.bs-callout-warning}

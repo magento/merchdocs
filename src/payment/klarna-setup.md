@@ -1,5 +1,7 @@
 ---
 title: Setting Up Klarna
+redirect_to:
+  - https://commercemarketplace.adobe.com/partner/KlarnaOfficial
 ---
 
 To offer your customers the benefit of paying with Klarna, you must first sign up for a Klarna account and gain access to the Klarna Merchant Portal. Then, complete the Klarna configuration from the Admin of your Magento store.
@@ -118,7 +120,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Enter the hexadecimal value of the color that you want to use for the following elements.
 
-   You can use the color chooser to experiment with different colors for each design element to match your store’s theme. The results might vary, depending on theme.
+   You can use the color chooser to experiment with different colors for each design element to match your store's theme. The results might vary, depending on theme.
 
    - **Details color**
    - **Border color**

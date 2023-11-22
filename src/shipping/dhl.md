@@ -1,5 +1,7 @@
 ---
 title: DHL
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl.html
 ---
 
 DHL offers integrated international services and tailored, customer-focused solutions for managing and transporting letters, goods, and information. Before you configure your store for DHL shipping, you must [set up an account with DHL][1].

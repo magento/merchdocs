@@ -1,5 +1,7 @@
 ---
 title: My Cart Link
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html#configure-the-cart-link
 ---
 
 The cart link in the upper-right corner of the header gives a quick summary of the contents of the cart. The link can be configured to display the number of different products (or SKUs) in the cart, or the total quantity of all items. If the [Shopping Cart Sidebar]({% link sales/cart-sidebar.md %}) is enabled, you can click the link to display more detail.

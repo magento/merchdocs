@@ -1,5 +1,7 @@
 ---
 title: Bank Transfer
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/offline/bank-transfer.html
 ---
 
 Magento allows you to accept payment that is transferred from a customer bank account and deposited into your merchant bank account.

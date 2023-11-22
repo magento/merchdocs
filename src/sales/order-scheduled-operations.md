@@ -1,5 +1,7 @@
 ---
 title: Scheduled Order Operations
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-scheduled-operations.html
 ---
 
 Magento [cron]({% link system/cron.md %}) jobs can be used to schedule the following order management tasks:

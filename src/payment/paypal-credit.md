@@ -1,5 +1,7 @@
 ---
 title: PayPal Credit
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal.html#paypal-credit-and-paylater
 ---
 
 PayPal Credit offers your customers quick access to financing, so they can buy now and pay over time, at no additional cost to you. You are not charged when customers choose PayPal Credit, and you pay only your normal PayPal transaction fee. To learn more, see [PayPal Credit][1] on the PayPal website.
