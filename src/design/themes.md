@@ -2,6 +2,8 @@
 title: Themes
 redirect_from:
   - /design/theme-responsive.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/themes/themes.html
 ---
 
 A theme is a collection of files that determines the visual presentation of your store. When you first install Magento, the design elements of the store are based on the _Default_ Theme. In addition to the initial default theme that comes with your Magento installation, there is a wide variety of available themes that you can use _as is_ or modify for your needs.

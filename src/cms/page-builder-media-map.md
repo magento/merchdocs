@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Media - Map
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/media/map.html
 ---
 
 Use the _Map_ content type in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}) to add a map from [Google Maps Platform][1] to the stage. For example, you might add a map to a block, and then add the block to the [About Us]({% link cms/pages-core.md %}) and [Contact Us]({% link stores/contact-us.md %}) pages.
@@ -30,7 +32,7 @@ Before adding a map, you must first open an [account][3] for a free trial of Goo
 
 ### Step 1: Get your Google Maps API key
 
-Depending on whether you already have a Google Maps key, use one of the following procedures to get the API key required for configuration. To set up a Google Maps key, you must be a site administrator authorized to enable billing for your account. If you’re not ready to set up a Google Maps Platform account at this time, you can skip this step and use the placeholder map for now.
+Depending on whether you already have a Google Maps key, use one of the following procedures to get the API key required for configuration. To set up a Google Maps key, you must be a site administrator authorized to enable billing for your account. If you're not ready to set up a Google Maps Platform account at this time, you can skip this step and use the placeholder map for now.
 
 1. Go to the [Google Cloud Platform Console](https://cloud.google.com/console/google/maps-apis/overview).
 
@@ -108,12 +110,12 @@ Depending on whether you already have a Google Maps key, use one of the followin
    ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-coordinates-url.png %}){: .zoom}
    _Google Maps - copy coordinates from URL_
 
-   **Method 2:** Copy from “What’s here?”
+   **Method 2:** Copy from "What's here?"
 
-   - Right-click the red pin that marks the location on the map and choose **What’s here?** in the menu.
+   - Right-click the red pin that marks the location on the map and choose **What's here?** in the menu.
 
       ![]({% link images/images-ee/page-builder-media-maps-settings-add-location-pin-menu.png %}){: .zoom}
-      _Google Maps - What’s here?_
+      _Google Maps - What's here?_
 
    - In the displayed label, copy the text, including the coordinates and paste the text into a notepad.
 

@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: 'Tutorial 2: Blocks'
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/walkthrough/2-blocks.html
 ---
 
 The following tutorial illustrates the difference between [simple blocks]({% link cms/blocks.md %}) and [dynamic blocks]({% link cms/page-builder-add-dynamic-block.md %}), and how to use Page Builder to create each type of block.
@@ -52,7 +54,7 @@ In this tutorial, you will create a simple block with content from Google Maps. 
    ![]({% link images/images-ee/page-builder-tutorial2-google-map.png %}){: .zoom}
    _Configured Google Map for your store_
 
-   A placeholder map appears if Google Maps isn’t yet configured for your store.
+   A placeholder map appears if Google Maps isn't yet configured for your store.
 
    ![]({% link images/images-ee/page-builder-tutorial2-media-map-not-configured.png %}){: .zoom}
    _Google Maps placeholder_

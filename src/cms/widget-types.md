@@ -1,5 +1,7 @@
 ---
 title: Widget Types
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widgets.html#widget-types
 ---
 
 When you [create a new widget]({% link cms/widget-create.md %}), you must set the type. This type determines how the widget functions.

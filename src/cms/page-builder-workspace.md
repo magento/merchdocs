@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Workspace
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/workspace.html
 ---
 
 When [Page Builder is enabled]({% link cms/page-builder-setup.md %}), the _Content_ section and content creation process are modified to take advantage of the advanced Page Builder tools. The new content section includes a _Content Heading_ field, the stage with an initial row and toolbox, and Page Builder panel with drag-and-drop content types.

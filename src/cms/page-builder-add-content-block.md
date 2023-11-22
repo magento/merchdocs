@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Add Content - Block
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/block.html
 ---
 
 Use the Block content type to add an existing, active block to the stage. In the following example, the first column contains the HTML Code for the page. The second column contains a block with a Google map.

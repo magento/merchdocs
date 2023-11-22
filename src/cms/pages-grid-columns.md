@@ -1,5 +1,8 @@
 ---
 title: Page Grid Layout
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages-workspace.html#page-grid-layout
+
 ---
 
 The selection of columns and their order in the grid can be changed according to your preference. To keep the new column arrangement, you can save it as a view.
