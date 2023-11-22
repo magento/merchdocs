@@ -1,5 +1,7 @@
 ---
 title: Core Content
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages.html
 ---
 
 The Magento demo store has examples of core content pages to help you get started. All of the pages can be modified to meet your needs. Take a look at the following pages in your store to make sure that the content conveys your message, voice, and brand.

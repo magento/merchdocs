@@ -1,5 +1,7 @@
 ---
 title: Pages
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages.html
 ---
 
 All content can be viewed in terms of its shelf life, just as any product in a store. Did you know that the shelf life of social media content is less than twenty-four hours? The potential shelf life of the content you create can help you decide where to invest your resources.

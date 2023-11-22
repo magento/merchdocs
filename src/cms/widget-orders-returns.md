@@ -1,5 +1,7 @@
 ---
 title: Orders and Returns Widget
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-orders-returns.html
 ---
 
 The _Orders and Returns_ widget gives guests the ability to check the status of their orders, print invoices, and track shipments. When the widget is added to the storefront, it is visible only for guests and for customers who are not logged in to their accounts. Guests can find orders by providing the Order ID, Billing Last Name, and either the Email Address or ZIP Code.

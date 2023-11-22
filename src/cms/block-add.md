@@ -1,5 +1,7 @@
 ---
 title: Adding New Blocks
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/blocks/block-add.html
 ---
 
 Custom blocks of content can be created, and then added to any page, group of pages, or even to another block. For example, you might place an image slider in a block, and then place the block on the home page. The Blocks workspace uses the same [basic controls]({% link cms/pages-workspace.md %}) as the Pages workspace to help you find available blocks and perform routine maintenance. When the block is complete, you can use the [Widget]({% link cms/widget-static-block.md %}) tool to place it on specific page(s) in your store.

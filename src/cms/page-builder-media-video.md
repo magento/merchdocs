@@ -1,9 +1,11 @@
 ---
 ee_only: true
 title: Video
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/media/video.html
 ---
 
-Use the _Video_ content type in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}) to add a video that is hosted on [YouTube][1] or [Vimeo][2] to the stage. It’s easy to embed video in a page or block, as well as in product and category descriptions.
+Use the _Video_ content type in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}) to add a video that is hosted on [YouTube][1] or [Vimeo][2] to the stage. It's easy to embed video in a page or block, as well as in product and category descriptions.
 
 ![]({% link images/images-ee/page-builder-storefront-video.png %}){: .zoom}
 _Video on the storefront home page_

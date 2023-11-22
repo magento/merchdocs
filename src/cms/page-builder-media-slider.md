@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Media - Slider
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/media/slider.html
 ---
 
 Use the _Slider_ content type in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}) to add a slideshow of images to the stage. You can upload new images or choose existing images from the gallery or product catalog. A slider can be set to play automatically or be controlled manually with navigation buttons. To associate the slider with a specific promotion, see [Dynamic Block]({% link cms/page-builder-add-dynamic-block.md %}).
@@ -137,7 +139,7 @@ The slide in the preceding example has a background image, a transparent mobile 
 |Background Image|The image on this slide was saved from the product page, and uploaded to the gallery.|
 |Mobile Background Image|The mobile background image is a transparent image that is 10 pixels square. Using a blank image for mobile effectively replaces the standard background image with an invisible image.|
 |Background Size|Auto|
-|Message Text|Minerva LumaTech™ V-Tee (Align center) with inserted image scaled at 40% (Align center)|
+|Message Text|Minerva LumaTech&trade; V-Tee (Align center) with inserted image scaled at 40% (Align center)|
 |Link|Product|
 |Show Button|Always|
 |Button Text|Buy Now|

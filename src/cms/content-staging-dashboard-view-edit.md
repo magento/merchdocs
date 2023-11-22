@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Editing a Campaign
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-dashboard.html#edit-a-campaign
 ---
 
 Existing campaign objects can be edited from the [staging dashboard]({% link cms/content-staging-dashboard.md %}), with the exception of price rule campaigns that do not have end dates.

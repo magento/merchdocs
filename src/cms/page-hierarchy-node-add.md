@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Adding a Node
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html#add-a-hierarchy-node
 ---
 
 The following example shows how to create a node with simple navigation to related content pages. Although a node does not have a content page associated with it, it does have a URL Key that can be referenced elsewhere in your site.
@@ -70,7 +72,7 @@ _Example navigation menu on the About Us page_
 
    - To organize the pages in the hierarchy as a book, set **Enable Chapter/Section** to `Yes`.
 
-      If you don’t want to include the node as part of the book, leave the default `No`.
+      If you don't want to include the node as part of the book, leave the default `No`.
 
    - To assign the node to a specific part of the book, set **Chapter/Section** to one of the following:
 

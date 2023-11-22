@@ -1,5 +1,7 @@
 ---
 title: Adding a Lightbox or Slider
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/blocks/block-add.html#add-a-lightbox-or-slider
 ---
 
 - {:.ee-only}In Magento Commerce, it is easy to add a [slider]({% link cms/page-builder-media-slider.md %}) to your store with [Page Builder]({% link cms/page-builder.md %}). The slider can be set to play automatically, or controlled manually with navigation buttons.

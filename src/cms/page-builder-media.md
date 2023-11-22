@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Page Builder - Media
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/workspace.html#media
 ---
 
 Use the _Media_ section of the Page Builder panel to add images, video, banners, sliders, and Google Maps to any layout container on the stage. When a media content type is dragged from the panel to the stage, a container appears with a toolbox of options that are specific to the content type.

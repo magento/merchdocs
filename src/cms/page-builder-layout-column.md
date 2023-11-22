@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Layout - Column
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/layout/column.html
 ---
 
 Use the _Column_ content type to divide a row into multiple columns. When a column is added to an empty row, the row is initially divided into two columns of equal width. You can add or remove columns, as needed. A column can be resized by dragging the border between two columns. The width of the next column is adjusted to fill the available space in the row. If a row has only a single column, it extends the full width of the row.

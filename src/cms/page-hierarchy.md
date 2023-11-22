@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Page Hierarchy
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html
 ---
 
 The store page hierarchy system gives you the ability to organize your content pages and add pagination, navigation, and menus. The Privacy Policy page in the sample data is an example of a page with a menu on the left. If you publish a large amount of content on a regular basis, you can use page hierarchy to organize your content to make it easy for people to find articles of interest.

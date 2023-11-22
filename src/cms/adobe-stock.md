@@ -1,5 +1,7 @@
 ---
 title: Adobe Stock Integration
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/adobe-stock/adobe-stock.html
 ---
 
 Merchants can integrate [Adobe Stock][adobe-stock] with Magento giving them access to countless media assets for use in their stores.

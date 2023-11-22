@@ -1,5 +1,7 @@
 ---
 title: Using Layout Updates
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/layout/layout-updates.html
 ---
 
 [Layout updates]({% link design/layout-updates.md %}) make it possible to customize the layout of a page. Layout updates offer more flexibility than a [widget]({% link cms/widgets.md %}), but require access to the server and a basic knowledge of XML.

@@ -1,9 +1,11 @@
 ---
 title: Adding Social Plugins
 group: content
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/social-rss.html
 ---
 
-Social networking sites have a numerous plugins that can easily be added to your store. In addition, there are many extensions on the Magento Marketplace that can be used to integrate your store with social media. The following example shows how to add a Facebook “Like” button to your store.
+Social networking sites have a numerous plugins that can easily be added to your store. In addition, there are many extensions on the Magento Marketplace that can be used to integrate your store with social media. The following example shows how to add a Facebook "Like" button to your store.
 
 ![Facebook social plugins]({% link images/images/facebook-plugins.png %}){: .zoom}
 _Facebook Plugins_
@@ -12,7 +14,7 @@ _Facebook Plugins_
 
 1. On the Facebook website, go to the [button setup][1] page.
 
-1. For **URL to Like**, enter the URL of the page in your store that you want people to Like. For example, you might enter the URL of your store’s home page. Then, do the following:
+1. For **URL to Like**, enter the URL of the page in your store that you want people to Like. For example, you might enter the URL of your store's home page. Then, do the following:
 
    - Choose the **Layout** for the button.
 

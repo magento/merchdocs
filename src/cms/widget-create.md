@@ -1,5 +1,7 @@
 ---
 title: Creating a Widget
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-create.html
 ---
 
 The process of creating a widget is nearly the same for each [widget type]({% link cms/widget-types.md %}). You can follow the first part of the instructions, and then complete the last part for the specific type of widget you want.

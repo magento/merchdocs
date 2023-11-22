@@ -1,5 +1,7 @@
 ---
 title: Configuring the Editor
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/wysiwyg/editor.html
 ---
 
 The WYSIWYG editor is enabled by default, and can be used to edit content on CMS pages and blocks, and in products and categories. From the configuration you can activate or deactivate the editor, and elect to use static, rather than [dynamic]({% link catalog/catalog-urls-dynamic-media.md %}), [URLS]({% link catalog/catalog-urls.md %}) for media content in product and category descriptions.

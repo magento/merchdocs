@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: 'Tutorial 1: Simple Page'
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/walkthrough/1-simple-page.html
 ---
 
 In this three-part tutorial, you will become familiar with the Page Builder workspace, while creating a simple page that illustrates how easy it is to create content-rich pages of your own design.
