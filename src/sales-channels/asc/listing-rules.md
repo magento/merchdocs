@@ -1,7 +1,7 @@
 ---
 title: Listing Rules
-redirect_from:
-  - /sales-channels/asc/ob-listing-rules.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/listing-rules.html
 ---
 
 

@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: B2B Overview
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html
 sections:
   - title: Basics
     content: Learn the basics of Magento B2B, and how it differs from B2C. Magento B2B gives you the ability to sell business-to-business while also selling from business-to-consumer.

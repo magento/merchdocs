@@ -1,5 +1,7 @@
 ---
 title: Product Attributes
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html
 ---
 
 Attributes are the building blocks of your product catalog, and describe specific characteristics of a product. Product attributes can be organized into [attribute sets]({% link stores/attribute-sets.md %}), which are then used as templates for creating products.

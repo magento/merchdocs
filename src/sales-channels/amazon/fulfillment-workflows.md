@@ -1,5 +1,7 @@
 ---
 title: Amazon Fulfillment Workflows
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 

@@ -1,5 +1,7 @@
 ---
 title: Resizing Product Images
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-image-config.html#product-image-resizing
 ---
 
 When uploading product images, you may add larger images with varying sizes to provide detailed, high quality zooms on the _Product Details_ page. To ensure all images have a similar size and look, we provide an image upload resizing option to ensure all images match a specific pixel size. This option automatically resizes all product images using the configuration settings, which can help with performance of zoom, faster loading of images and keep a uniform look to your product images.

@@ -1,9 +1,11 @@
 ---
 ee_only: true
 title: Creating a Tag to Track Conversions
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-tag-manager.html
 ---
 
-If you have a Google AdWords account, you can create a tag that tracks conversions. The following example shows how to use both Google Tag Manager and Google Analytics to create a tag that fires on your store’s conversion “Success” page.
+If you have a Google AdWords account, you can create a tag that tracks conversions. The following example shows how to use both Google Tag Manager and Google Analytics to create a tag that fires on your store's conversion "Success" page.
 
 ## Step 1. Create a Tag
 
@@ -19,7 +21,7 @@ If you have a Google AdWords account, you can create a tag that tracks conversio
     - Conversion ID
     - Conversion Label
 
-    If you need help, visit Google’s [support site][2].
+    If you need help, visit Google's [support site][2].
 
 1. From the Google Tag Manager dashboard, click <span class="btn">Google AdWords</span>. Then, do the following:
 
@@ -53,7 +55,7 @@ Continuing from the Google Tag Manager dashboard, the next step is to create a r
 
     |Name:|Enter a name for the page description.|
     |Variable:|url|
-    |Operation:|matches RegEx <br/>To learn more, see [What is “matches regex” for?][3] in Tag Manager Help.|
+    |Operation:|matches RegEx <br/>To learn more, see [What is "matches regex" for?][3] in Tag Manager Help.|
     |Value:|`checkout/success.*`|
 
     ![Google Tag Manager - conversion page location]({% link images/images-ee/google-tag-manager-create-adwords-tag6.png %}){: .zoom}

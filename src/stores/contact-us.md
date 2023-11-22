@@ -1,6 +1,8 @@
 ---
 title: Contact Us
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html#contact-us-form
 ---
 
 The _Contact Us_ link in the footer of the store is an easy way for customers to keep in touch with you. Customers can complete the form to send a message to your store. A standard Magento installation displays the default Contact Us form. After submitting the form, a thank you message appears
@@ -103,7 +105,7 @@ The Luma sample data includes a _Contact Us Info_ block that can be customized f
 
 1. Click <span class="btn">Show / Hide Editor</span> to remove the toolbar. Then, paste the following code on a line below the content that you entered in the last step.
 
-    **“Contact Us”**
+    **"Contact Us"**
 
     {% raw %}
     ```javascript

@@ -1,6 +1,8 @@
 ---
 title: CCPA Compliance
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-ccpa.html
 ---
 
 {:.bs-callout-info}
@@ -29,14 +31,14 @@ Please consult with your legal counsel to determine whether and how you should c
 
 The CCPA applies to the following businesses &mdash; regardless of where the business is registered &mdash; that do business in California and collect, share, or sell California consumers' personal data:
 
-(1) A sole proprietorship, partnership, limited liability company, corporation, association, or other legal entity that is organized or operated for the profit or financial benefit of its shareholders or other owners, that collects consumers’ personal information, or on the behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers’ personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:
+(1) A sole proprietorship, partnership, limited liability company, corporation, association, or other legal entity that is organized or operated for the profit or financial benefit of its shareholders or other owners, that collects consumers' personal information, or on the behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers' personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:
 
 - A gross annual revenue in excess of $25 million;
 - Or that buy, receive, or sell the personal information of 50,000 or more consumers, households, or devices;
 - Or that derive 50% or more of their annual revenue from the sale of consumer personal information.
 - Businesses that handle the personal information of more than 4 million consumers have additional obligations under the CCPA.
 
-(2) Any entity that controls or is controlled by a business, as defined in paragraph (1), and that shares common branding with the business. “Control” or “controlled” means ownership of, or the power to vote, more than 50 percent of the outstanding shares of any class of voting security of a business; control in any manner over the election of a majority of the directors, or of individuals exercising similar functions; or the power to exercise a controlling influence over the management of a company. “Common branding” means a shared name, servicemark, or trademark.
+(2) Any entity that controls or is controlled by a business, as defined in paragraph (1), and that shares common branding with the business. "Control" or "controlled" means ownership of, or the power to vote, more than 50 percent of the outstanding shares of any class of voting security of a business; control in any manner over the election of a majority of the directors, or of individuals exercising similar functions; or the power to exercise a controlling influence over the management of a company. "Common branding" means a shared name, servicemark, or trademark.
 
 **If your business is subject to CCPA requirements, please consult our [CCPA Compliance Guide]({% link stores/compliance-ccpa-guide.md -%}).**
 

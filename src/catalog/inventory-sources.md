@@ -1,5 +1,7 @@
 ---
 title: Managing Sources
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/sources/sources-manage.html
 ---
 
 Sources represent locations storing and shipping your product stock. Any location with available stock and capable of order fulfillment can be added as a source such as warehouses, brick-and-mortar stores, distribution centers, and drop shippers.

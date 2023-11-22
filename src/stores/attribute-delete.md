@@ -1,6 +1,8 @@
 ---
 title: Deleting Attributes
 group: catalog
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html#delete-an-attribute
 ---
 
 When an attribute is deleted, it is removed from any related products and attribute sets. System attributes are part of the core functionality of your store and cannot be deleted.

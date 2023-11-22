@@ -1,5 +1,7 @@
 ---
 title: Design
+redirect to:
+  - https://docs.magento.com/user-guide/v2.3/catalog/settings-advanced-design.html
 ---
 
 The Design settings allows a different theme to ber applied to the product page, change the column layout, determine where product options appear, and enter custom XML code.

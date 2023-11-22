@@ -1,5 +1,7 @@
 ---
 title: Getting Started with Inventory Management
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/merchant-sourcing.html
 sections:
    - title: Configuring Single and Multi Merchants
      content: Learn more about the kind of merchant you are! We provide a quick list of steps to get configured and ready to sell and ship from one or multiple locations.

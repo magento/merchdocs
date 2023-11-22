@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Updating Custom Pricing
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage.html#update-custom-pricing
 ---
 
 The custom pricing of products in any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are visible to in the storefront to members of the associated company or customer group. The process is essentially the same as setting custom pricing for a new [shared catalog]({% link catalog/catalog-shared-pricing-structure.md %}), except that the scope of the configuration cannot be changed.

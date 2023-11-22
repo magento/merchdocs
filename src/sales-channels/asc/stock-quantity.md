@@ -1,7 +1,7 @@
 ---
 title: Stock/Quantity
-redirect_from:
-  - /sales-channels/asc/ob-stock-quantity.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/business-pricing.html
 ---
 
 

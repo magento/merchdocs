@@ -1,7 +1,7 @@
 ---
 title: dotdigital Engagement Cloud
-redirect_from:
-  - /marketing/engagement-cloud.html
+redirect to:
+  - https://support.dotdigital.com/en/collections/5610169-magento-open-source-and-adobe-commerce
 ---
 
 [dotdigital][1] Engagement Cloud gives you the ability to produce professional, personalized communications and generated reports using data from your Magento store, including:

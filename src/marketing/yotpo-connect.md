@@ -1,5 +1,7 @@
 ---
 title: Integrate Magento with Yotpo
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html
 ---
 
 With just a few steps, you can put Yotpo to work for you.
@@ -22,7 +24,7 @@ See Yotpo [Plan Information](https://www.yotpo.com/pricing/). You can create fre
     - For **Password**, enter the password you want to use for your Yotpo account.
     - Click **Create Account**.
 
-1. On the _We’re Almost Done_ screen, complete the additional account information:
+1. On the _We're Almost Done_ screen, complete the additional account information:
 
    ![Yotpo - finish account creation]({% link images/images/yotpo-account-creation-finish.png %}){: .zoom}
 

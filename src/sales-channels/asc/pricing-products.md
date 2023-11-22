@@ -1,7 +1,7 @@
 ---
 title: Manage Amazon Pricing
-redirect_from:
-  - /sales-channels/asc/ob-pricing-rules.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/pricing-products.html
 ---
 
 Amazon Sales Channel allows you to set pricing rules, which allow you to set your Amazon listing price different than the defined **Magento Price Source** in your [Listing Price]({% link sales-channels/asc/listing-price.md %}). You can also stack multiple rules and even use the intelligent pricing to adjust your Amazon listing price based on competitors' [Buy Box]({% link sales-channels/asc/buy-box-competitor-pricing.md %}) price or the [lowest competitor price]({% link sales-channels/asc/lowest-competitor-pricing.md %}).

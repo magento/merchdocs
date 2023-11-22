@@ -1,5 +1,7 @@
 ---
 title: Google Analytics
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-analytics.html
 ---
 
 Google Universal Analytics gives you the ability to define additional custom dimensions and metrics for tracking, with support for offline and mobile app interactions, and access to ongoing updates.

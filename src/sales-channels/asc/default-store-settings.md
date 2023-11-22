@@ -1,5 +1,7 @@
 ---
 title: Default Store Settings
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/onboarding/default-store-settings.html
 ---
 
 

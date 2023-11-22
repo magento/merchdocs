@@ -1,9 +1,11 @@
 ---
 ee_only: true
 title: Rewards and Loyalty
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty.html
 ---
 
-Magento’s reward points system gives you the ability to implement unique programs that drive customer engagement and promote customer loyalty. Points can be awarded for a wide range of transaction and customer activities, and the configuration can be set to control the point allotment, balance, and expiration. Customers can redeem points toward purchases, based on the conversion rate that you establish between reward points and currency. A few examples:
+Magento's reward points system gives you the ability to implement unique programs that drive customer engagement and promote customer loyalty. Points can be awarded for a wide range of transaction and customer activities, and the configuration can be set to control the point allotment, balance, and expiration. Customers can redeem points toward purchases, based on the conversion rate that you establish between reward points and currency. A few examples:
 
 ## Shopping Cart Price Rules
 
@@ -22,4 +24,4 @@ Reward points are not recommended for use with COD purchases, because receipt of
 
 ## Refunding to Reward Points
 
-Orders placed with [reward points]({% link sales/credit-memo-create.md %}) can be refunded to the reward points balance up to the amount redeemed in the order. On the New Credit Memo page, the amount of points to be applied to the customer’s balance can be entered. By default, the field contains the full amount of points that were used in the order.
+Orders placed with [reward points]({% link sales/credit-memo-create.md %}) can be refunded to the reward points balance up to the amount redeemed in the order. On the New Credit Memo page, the amount of points to be applied to the customer's balance can be entered. By default, the field contains the full amount of points that were used in the order.

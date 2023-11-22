@@ -1,7 +1,7 @@
 ---
 title: Product Listing Actions
-redirect_from:
-  - /sales-channels/asc/ob-product-listing-actions.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/product-listing-actions.html
 ---
 
 

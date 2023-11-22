@@ -1,5 +1,7 @@
 ---
 title: Adding a New Stock
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/stocks/stocks-add.html
 ---
 
 Stocks map your sources to sales channels (or websites), providing a direct link to salable quantities and product inventories.

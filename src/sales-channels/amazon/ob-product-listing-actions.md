@@ -1,5 +1,7 @@
 ---
 title: 'Onboarding: Product Listing Actions'
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 

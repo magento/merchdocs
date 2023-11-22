@@ -1,7 +1,7 @@
 ---
 title: Merchant Location
 group: getting-started
-redirect_to:
+redirect to:
   - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html#merchant-location
 ---
 

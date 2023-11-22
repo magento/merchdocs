@@ -1,5 +1,7 @@
 ---
 title: Renewed Products
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/renewed-products.html
 ---
 
 

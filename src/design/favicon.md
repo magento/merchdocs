@@ -1,6 +1,8 @@
 ---
 title: Adding a Favicon
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/storefront-branding.html#add-a-favicon
 ---
 
 _Favicon_ is short for _favorite icon_ and refers to the little icon on the tab of each browser page. Depending on the browser, the favicon also appears in address bar, just before the URL.

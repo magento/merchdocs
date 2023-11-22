@@ -1,7 +1,7 @@
 ---
 title: Import Your Contacts
-redirect_from:
-  - /marketing/engagement-cloud-contacts.html
+redirect to:
+  - https://support.dotdigital.com/en/collections/5610169-magento-open-source-and-adobe-commerce
 ---
 
 Your dotdigital account is [synced]({% link configuration/dotdigital/sync-settings.md %}) with your store, and maintains up-to-date address books of your customers, guests, and subscribers.

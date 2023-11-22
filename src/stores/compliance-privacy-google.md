@@ -1,8 +1,8 @@
 ---
 title: Google Privacy Settings
 group: marketing
-redirect_from:
-  - /stores/compliance-gdpr-google.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-tools.html#google-privacy-settings
 ---
 
 If your business is required to comply with privacy regulations such as the [GDPR]({% link stores/compliance-gdpr.md %}) or [CCPA]({% link stores/compliance-ccpa.md %}), the default settings of [Google Analytics]({% link marketing/google-universal-analytics.md %}), or [Google Universal Analytics]({% link marketing/google-universal-analytics.md %}) and [Google Tag Manager]({% link marketing/google-tag-manager.md %}) (<span class="ee-only"></span>), can be changed to meet privacy requirements. Follow these steps to ensure that your use of customer data remains in compliance.
@@ -12,7 +12,7 @@ _Google Data Sharing Settings_
 
 ## Step 1: Update Google settings
 
-1. [Sign in][1]{: target="_blank"} to your company’s **Google Analytics** account.
+1. [Sign in][1]{: target="_blank"} to your company's **Google Analytics** account.
 
 1. At the bottom of the left sidebar, choose **Admin**. Then, navigate to the account that you want to edit, if applicable.
 
@@ -59,19 +59,19 @@ Google supports three JavaScript libraries to measure website usage, depending o
 1. To anonymize the IP addresses used by **Google Universal Analytics**, add the following snippet to the `analytics.js` library on your web server:
 
     analytics.js
-    : `ga(’set’, ‘anonymizeIp’, true);`
+    : `ga('set', 'anonymizeIp', true);`
 
     To learn more, see the [Analytics.js Field Reference][3]{: target="_blank"}.
 
     If you use the legacy `ga.js` library, add the following snippet:
 
     ga.js
-    : `ga(’set’, ‘anonymizeIp’, true);`
+    : `ga('set', 'anonymizeIp', true);`
 
 1. To anonymize the IP addresses used by **Google Tag Manager**, set the `anonymize_ip` parameter to `true` in the `gtag.js` library on your web server.
 
     gtag.js
-    : `gtag(’event’, ’your_event’, { ‘anonymize_ip’: true })`
+    : `gtag('event', 'your_event', { 'anonymize_ip': true })`
 
     To learn more, see [IP Anonymization in Analytics][4] in Google Help.
 
@@ -80,7 +80,7 @@ Google supports three JavaScript libraries to measure website usage, depending o
 To force all Google data to be transmitted over a secure socket layer (SSL), add the following snippet to the `analytics.js` library on your web server.
 
 analytics.js
-: `ga(’set’, ‘forceSSL’, true);`
+: `ga('set', 'forceSSL', true);`
 
 ## Step 3: Update your privacy policy
 

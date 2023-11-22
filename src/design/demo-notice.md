@@ -1,6 +1,8 @@
 ---
 title: Store Demo Notice
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/storefront-branding.html#set-the-store-demo-notice
 ---
 
 If your store is online, but still under construction, you can display a store demo notice at the top of the page to let people know that the store is not yet open for business. When you are ready to _go live_, simply remove the message. This is similar to flipping the sign hanging in the window from _Closed_ to _Open_. The format of the demo notice is determined by the theme of your store.

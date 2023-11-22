@@ -1,5 +1,7 @@
 ---
 title: Free Shipping Promotion
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-free-shipping.html
 ---
 
 Free shipping can be offered as a promotion, either with, or without a [coupon]({% link marketing/price-rules-cart-coupon.md %}). A free shipping coupon, or voucher, can also be applied to customer pick-up orders, so the order can be invoiced and shipped to complete the [workflow]({% link sales/order-workflow.md %}).
@@ -8,7 +10,7 @@ Some shipping carrier configurations give you the ability of offer free shipping
 
 ## Step 1. Enable Free Shipping
 
-1. Enable [Free Shipping]({% link shipping/shipping-free.md %}) in your store’s configuration.
+1. Enable [Free Shipping]({% link shipping/shipping-free.md %}) in your store's configuration.
 
 1. Complete the free shipping settings for any [carrier service]({% link shipping/carriers.md %}) that you want to use for free shipping.
 

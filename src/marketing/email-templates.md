@@ -1,5 +1,7 @@
 ---
 title: Email
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html
 ---
 
 Email templates define the layout, content, and formatting of automated messages sent from your store. They are called transactional emails because each one is associated with a specific type of transaction, or event.

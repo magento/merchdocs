@@ -1,5 +1,7 @@
 ---
 title: Search Terms Report
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html#search-terms-report
 ---
 
 The Search Terms report shows the number of results for each term, and the number of times (hits) the term was used. The report data can be filtered by term, store, results, and hits, and exported for further analysis.

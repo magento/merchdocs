@@ -1,5 +1,7 @@
 ---
 title: Communication Errors Log
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/reports-logs/logs/communication-errors-log.html
 ---
 
 

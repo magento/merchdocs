@@ -1,5 +1,7 @@
 ---
 title: Using Markup Tags in Links
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/variables/markup-tags.html#use-markup-tags-in-links
 ---
 
 You can use markup tags with HTML anchor tags, and link directly to any page in your store. The link can be incorporated into content pages, blocks, banners, or email and newsletter templates. You can also use this technique to link an image to a specific page.

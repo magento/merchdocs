@@ -1,5 +1,7 @@
 ---
 title: 'Intelligent Repricing Rule: Floor Price'
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/floor-price.html
 ---
 
 

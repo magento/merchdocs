@@ -1,5 +1,7 @@
 ---
 title: Active Listings
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/active-listings.html
 ---
 
 

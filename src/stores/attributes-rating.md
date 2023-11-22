@@ -1,6 +1,8 @@
 ---
 title: Ratings
 group: marketing
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html
 ---
 
 When customers review a product, the default ratings are quality, price, and value. In addition to these, you can add your own custom ratings. The five-star ratings that appear on catalog pages are averaged for each product.

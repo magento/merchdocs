@@ -1,5 +1,7 @@
 ---
 title: Moderate Reviews
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews-moderate.html
 ---
 
 To ensure that reviews are appropriate for public display your store, a submitted Magento product review must be approved before it can be displayed. A submitted review is in a `Pending` status until it is approved or rejected.

@@ -1,5 +1,7 @@
 ---
 title: About Order Status and Reservations
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/basics/order-status.html
 ---
 
 Inventory Management supports partial and full invoicing, payments, shipping, and cancellations per order. As you manage an order through processing, invoicing, shipment, and potentially refunds, Magento automatically enters or changes reservations to update the salable quantity for a stock (or sales channel) and the on-hand inventory quantity per source. You do not have to actively access or enter reservations. Completing actions to fulfill, cancel, or refund an order does it for you.

@@ -1,6 +1,8 @@
 ---
 title: Locale Options
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html#locale-options
 ---
 
 The locale determines the language, country, tax rate, and other settings that are used throughout the store. The Locale Options determine the time zone and language used for each store, and identify the days of the work week in your area.

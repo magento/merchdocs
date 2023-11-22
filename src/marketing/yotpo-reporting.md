@@ -1,5 +1,7 @@
 ---
 title: Yotpo Reporting and Analytics
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html
 ---
 
 ## Yotpo Reporting

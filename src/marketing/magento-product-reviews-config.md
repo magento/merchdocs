@@ -1,5 +1,7 @@
 ---
 title: Enable Magento Product Reviews
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html#enable-product-review-features
 ---
 
 The Magento Product Reviews function is enabled by default.

@@ -1,5 +1,7 @@
 ---
 title: SEO Best Practices
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html
 ---
 
 Search engine optimization is the practice of fine-tuning the content and presentation of a site to improve the way the pages are indexed by search engines. Magento includes a number of features to support your ongoing SEO effort.

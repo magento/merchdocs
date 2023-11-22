@@ -28,6 +28,8 @@ sections:
    - title: View Logs and Reports
      content: Learn more about tracked errors and interactions between Amazon and Magento.
      url: /sales-channels/amazon/amazon-logs-reports.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 Amazon Sales Channel in Magento is a powerful, comprehensive extension that enables Magento merchants to seamlessly sell products in the Amazon Marketplace, the world's largest global internet shopping destination. By integrating Magento with your Amazon Seller Central account, the extension provides both automation and synchronization of product and order data. Completely manage all your product listings, implement simple or complex [listing]({% link sales-channels/asc/listing-rules.md %}) and [pricing]({% link sales-channels/asc/pricing-products.md %}) rules, and maintain your orders and inventory through a single dashboard.

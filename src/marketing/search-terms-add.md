@@ -1,5 +1,7 @@
 ---
 title: Adding Search Terms
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html#add-search-terms
 ---
 
 As you learn new words that people use to search for products in your catalog, you can add them to your search terms list to direct people to the most closely matching products in your catalog.

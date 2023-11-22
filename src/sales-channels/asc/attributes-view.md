@@ -1,5 +1,7 @@
 ---
 title: Attributes
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/attributes/attributes-view.html
 ---
 
 

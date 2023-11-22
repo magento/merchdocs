@@ -1,7 +1,7 @@
 ---
 title: dotdigital Chat
-redirect_from:
-  - /marketing/engagement-cloud-chat.html
+redirect to:
+  - https://support.dotdigital.com/en/collections/5610169-magento-open-source-and-adobe-commerce
 ---
 
 dotdigital Chat is a smart, customizable widget that makes it easy for shoppers to communicate in real time with members of your team. You can use the Chat widget to answer product questions and reduce calls to customer support.

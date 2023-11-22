@@ -1,5 +1,7 @@
 ---
 title: Common Order Processing Tasks
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-orders/common-order-processing.html
 ---
 
 [Magento order processing]({% link sales/order-processing.md %}) can manage your Amazon orders, including emailing the buyer, fulfilling the order (shipping), issuing credits/refunds, adding comments, and more. To manage your Amazon orders, your [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}) setting must be set `Enabled` so that corresponding Magento orders are created when Amazon orders are received. Amazon order information shows in the _Recent Orders_ section of the store dashboard.

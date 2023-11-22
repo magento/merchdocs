@@ -1,5 +1,7 @@
 ---
 title: MAP Logic
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised.html#map-logic
 ---
 
 For products with prices that depend on a selected option (such as custom options or simple products with their own SKUs and stock management), the following logic is applied, according to the product type and price setting. The actual price is used by order management, customer management tools, and reports.
@@ -20,6 +22,6 @@ For products with prices that depend on a selected option (such as custom option
 |--- |--- |
 | Main Price | When MAP is applied to the main price, the prices of options, bundle items, and associated products (which add or subtract from the main price) appear normally. |
 | Associated Product Price | If a product does not have a main price, and its price is derived from the associated product prices (such as in a grouped product), the MAP settings of the associated products are applied. |
-| [MSRP]({% link catalog/product-price-minimum-advertised.md %}) | If a product in the cart has the Manufacturer’s Suggested Retail Price (MSRP) specified, the price is not crossed-out. |
+| [MSRP]({% link catalog/product-price-minimum-advertised.md %}) | If a product in the cart has the Manufacturer's Suggested Retail Price (MSRP) specified, the price is not crossed-out. |
 | [Tier Price]({% link catalog/product-price-tier.md %}) | If tier pricing is set, the tier pricing message is not displayed in the catalog. On the product page a notification is displayed that indicates that the price can be lower when ordering more than a certain quantity, but the discount is displayed in percentages only. For associated products of a grouped product, the discounts are not displayed on the product page. The tier price appears according to the Display Actual Price setting. |
 | [Special Price]({% link catalog/product-price-special.md %}) | If the Special price is specified, the special price is displayed according to the Display Actual Price setting. |

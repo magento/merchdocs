@@ -1,5 +1,7 @@
 ---
 title: Email a Friend
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/email-a-friend.html
 ---
 
 The Email link makes it easy for your customers to share links to products with their friends. In the Magento demo store, the Email link appears as an envelope icon. The message template can be customized for your voice and brand. To prevent spamming, you can limit the number of recipients for each email, and the number of products that can be shared over a one-hour period.

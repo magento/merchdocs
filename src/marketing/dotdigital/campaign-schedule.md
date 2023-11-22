@@ -1,7 +1,7 @@
 ---
 title: Schedule Your Campaign
-redirect_from:
-  - /marketing/engagement-cloud-campaign-schedule.html
+redirect to:
+  - https://support.dotdigital.com/en/collections/5610169-magento-open-source-and-adobe-commerce
 ---
 
 You now have a campaign and a list of customers. The next step is to schedule the campaign and send it on its way.

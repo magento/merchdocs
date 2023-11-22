@@ -1,5 +1,7 @@
 ---
 title: Email Template List
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html#email-template-list
 ---
 
 The list of email templates is organized alphabetically by Magento module.

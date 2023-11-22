@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Troubleshooting Tools
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-analytics.html#enhanced-ecommerce
 ---
 
 Both Google Tag Manager and Universal Analytics have debug modes with a variety of tools that you can use to troubleshoot your integration.
@@ -10,7 +12,7 @@ _Preview and Debug_
 
 ## Preview and Debug
 
-Tag Manager’s debug preview mode shows tags as they are fired and their associated data layers.
+Tag Manager's debug preview mode shows tags as they are fired and their associated data layers.
 
 ![Example storefront in debug mode - tags fired on page]({% link images/images-ee/storefront-google-tags-fired-checkout2.png %}){: .zoom}
 

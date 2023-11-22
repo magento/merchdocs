@@ -1,7 +1,7 @@
 ---
 title: Create a Campaign
-redirect_from:
-  - /marketing/engagement-cloud-campaign-create.html
+redirect to:
+  - https://support.dotdigital.com/en/collections/5610169-magento-open-source-and-adobe-commerce
 ---
 
 dotdigital Engagement Cloud includes a large selection of professionally-designed email and newsletter templates for a variety of promotions and events. You can use any of the prepared templates, or design your own.
@@ -47,7 +47,7 @@ _Preview_
 
 ## Step 2: Add Your Campaign Content
 
-Before you get started, it’s important to know that you can save your work at any time. If you log out and continue your work later, you can find the most recently saved version of your campaign in the menu under Campaigns > My Campaigns. To continue editing, find your campaign in the list, and click its name.
+Before you get started, it's important to know that you can save your work at any time. If you log out and continue your work later, you can find the most recently saved version of your campaign in the menu under Campaigns > My Campaigns. To continue editing, find your campaign in the list, and click its name.
 
 The content editor uses building blocks to represent each type of content that can be added to the template. The Build tab of the sidebar on the left displays the selection of building blocks that you can drag and drop into position. For this example, we will replace the sample content in the template with content of our own.
 
@@ -96,7 +96,7 @@ _Preheader Text_
 
 ### Edit and Format Text
 
-The next section of the template represents your store’s menu. However, it is actually a building block with a multi-column layout, similar to a table. The text in each cell can be edited and formatted separately. The Columns building block iin the sidebar can be used in many ways to control the text layout.
+The next section of the template represents your store's menu. However, it is actually a building block with a multi-column layout, similar to a table. The text in each cell can be edited and formatted separately. The Columns building block iin the sidebar can be used in many ways to control the text layout.
 
 1. Click the menu area to see the multi-column layout.  
 
@@ -135,7 +135,7 @@ _Add a Link_
 
 1. In the template, hover over the menu background to highlight the entire row.
 
-1. In the sidebar under the color picker, enter the hexadecimal code for the background color of your store’s menu.
+1. In the sidebar under the color picker, enter the hexadecimal code for the background color of your store's menu.
 
    In the Magento Luma store, the background color of the menu is `#f0f0f0`.
 
@@ -307,7 +307,7 @@ The Summary Report validates the campaign, lists any errors that are found, and 
 
 ## Step 5: Add a Personal Note
 
-In this step, we’ll add a personal note with a link, and then do another test run.
+In this step, we'll add a personal note with a link, and then do another test run.
 
 1. On the **Build** tab of the sidebar under **Building blocks**, drag a **Text** block to the top of the template.
 

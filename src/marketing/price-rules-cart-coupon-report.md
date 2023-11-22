@@ -1,10 +1,12 @@
 ---
 title: Coupons Report
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html#coupons-report
 ---
 
 The Coupons report aggregates data from each coupon that is used during a specific date range. Because coupons are applied from the shopping cart, the report includes data from all redeemed coupons, regardless of [order status]({% link sales/order-status.md %}). As a result, the report might include both projected and actual totals. The report can be filtered for a specific store view, time period, order status, and [cart price rule]({% link marketing/price-rules-cart-coupon.md %}).
 
-In the following example, the coupon code “H20” was used by two customers. One of the orders is invoiced, but the other is still _pending_. The projected Sales Subtotal, Sales Discount, and Sales Total columns show the aggregated amounts from both orders, but only the actual invoiced order appears in the Subtotal, Discount, and Total columns. Each row in the report represents a single coupon promotion.
+In the following example, the coupon code "H20" was used by two customers. One of the orders is invoiced, but the other is still _pending_. The projected Sales Subtotal, Sales Discount, and Sales Total columns show the aggregated amounts from both orders, but only the actual invoiced order appears in the Subtotal, Discount, and Total columns. Each row in the report represents a single coupon promotion.
 
 ![Coupons report]({% link images/images/reports-coupons.png %}){: .zoom}
 _Coupons Report_

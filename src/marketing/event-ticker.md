@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Event Ticker
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/events/events-private-sales.html#event-ticker
 ---
 
 The ticker block displays a countdown ticker for open events, with the start and end date for upcoming events. If an event has closed, the ticker shows the starting and ending dates.

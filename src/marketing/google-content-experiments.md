@@ -1,5 +1,7 @@
 ---
 title: Google Content Experiments
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-content-experiments.html
 ---
 
 The following example shows how to set up an A/B test of products, categories, or content pages using Google Analytics Content Experiments. We recommend that you keep two browser tabs open while working through the instructions, because you will need to bounce back and forth between the Magento Admin and your Google Analytics account.

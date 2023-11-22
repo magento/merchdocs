@@ -1,6 +1,8 @@
 ---
 title: MySQL
 group: marketing
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-configuration.html
 ---
 
 MySQL is the default search engine used by Magento. By adjusting the Catalog Search configuration, you can control the behavior of the search operations and determine the size of valid query text and the display of search recommendations. By default, MySQL always has the EAV Indexer enabled. This feature improves indexing speed and restricts the indexer from use by third-party extensions.

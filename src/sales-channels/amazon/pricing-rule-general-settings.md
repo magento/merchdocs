@@ -1,5 +1,7 @@
 ---
 title: Pricing Rule General Settings
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 If you are managing a store that is in "In Setup" status, see [Onboarding: Price Rule General Settings]({% link sales-channels/amazon/ob-pricing-rules-general-settings.md %}).

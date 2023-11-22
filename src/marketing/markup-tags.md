@@ -1,5 +1,7 @@
 ---
 title: Markup Tags
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/variables/markup-tags.html
 ---
 
 A markup tag is a directive that contains snippet of code with a relative reference to an object in your store such as a variable, URL, image, or block. Markup tags can be used anywhere the editor is available and incorporated into the HTML of [email]({% link marketing/email-templates.md -%}) and [newsletter]({% link marketing/newsletter-template.md -%}) templates, as well as other types of [content]({% link cms/content-elements.md -%}).

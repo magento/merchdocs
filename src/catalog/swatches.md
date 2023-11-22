@@ -1,5 +1,7 @@
 ---
 title: Swatches
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/swatches.html
 ---
 
 Customers have high expectations when it comes to color, and it is crucial that product descriptions accurately represent each available color, pattern, or texture. For example, the capris in the illustration below are not simply available in red, green, and blue. Rather, they are available only in very specific shades of red, green, and blue, which are probably unique to this product.
@@ -11,7 +13,7 @@ _Swatches on Product Page_
 
 ## Text-based swatches
 
-If an image isn’t available for a swatch, the attribute value appears as text. A text-based swatch is like a button with a text label, and behaves in the same way as a swatch with an image. When text-based swatches are used to show the available sizes, any size that is not available is crossed out.
+If an image isn't available for a swatch, the attribute value appears as text. A text-based swatch is like a button with a text label, and behaves in the same way as a swatch with an image. When text-based swatches are used to show the available sizes, any size that is not available is crossed out.
 
 ![]({% link images/images/storefront-swatch-size-out-of-stock.png %}){: .zoom}
 _Text-Based Swatches for Size_

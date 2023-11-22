@@ -1,5 +1,7 @@
 ---
 title: Catalog Menu
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog-menu.html
 ---
 
 The Catalog Menu provides easy access to product creation, category, and inventory management tools, as well as shared catalogs for custom pricing in B2B stores.
@@ -20,7 +22,7 @@ See [Products Grid]({% link catalog/products.md %}).
 
 ## Categories
 
-Create the [category]({% link catalog/categories.md %}) structure that is the foundation of your store’s navigation.
+Create the [category]({% link catalog/categories.md %}) structure that is the foundation of your store's navigation.
 
 ![]({% link images/images/category-workspace.png %}){: .zoom}
 [_Category Workspace_]({% link catalog/categories.md %})

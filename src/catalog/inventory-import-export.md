@@ -1,5 +1,7 @@
 ---
 title: Importing and Exporting Inventory
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/inventory-import-export.html
 ---
 
 For catalogs with a large amount of products, use the Import and Export features of Magento with expanded Inventory Management options to update sources and quantities by SKU. With these options, you can add new sources and update inventory quantities for all or a specific source. For example, you can export products for a source in Germany without affecting product information for sources in France, England, or the US.

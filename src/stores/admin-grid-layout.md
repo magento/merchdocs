@@ -1,6 +1,8 @@
 ---
 title: Grid Layout
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-grid-controls.html
 ---
 
 The selection of columns and their order in the grid can be changed according to your preference, and saved as a _view_. By default, only nine of twenty available columns are visible in the grid.

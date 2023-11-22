@@ -1,5 +1,7 @@
 ---
 title: Update Required Info (Incomplete Listing)
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/amazon-manually-update-incomplete-listing.html
 ---
 
 Listings that display on the _Incomplete_ tab include your Magento catalog products that meet your Amazon eligibility requirements as defined in your listing rules but are missing information required by Amazon before listing.

@@ -1,5 +1,7 @@
 ---
 title: Yotpo Product Reviews
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html
 ---
 
 [Yotpo](https://www.yotpo.com/) is a user-generated content marketing platform enabling merchants to gather, curate, manage, and respond to all kinds of user content from just a single platform. Yotpo integrates with Magento to help you to maximize the power of user-generated content.

@@ -2,6 +2,8 @@
 title: Best Practices Using Recommendations
 tag: product-recommendations
 ee_only: true
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/type.html
 ---
 
 This section includes best practices using recommendations on your storefront.

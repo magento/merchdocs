@@ -1,5 +1,7 @@
 ---
 title: View Amazon Orders
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-orders/amazon-orders-all.html
 ---
 
 

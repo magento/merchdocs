@@ -1,5 +1,7 @@
 ---
 title: Onboard Amazon Sales Channel
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/onboarding/amazon-onboarding-home.html
 ---
 
 

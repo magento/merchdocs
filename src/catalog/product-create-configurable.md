@@ -1,7 +1,7 @@
 ---
 title: Configurable Product
-redirect_from:
-  - /catalog/product-create-configurable-add-configurations.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html
 ---
 
 A configurable product looks like a single product with drop-down lists of options for each variation. Each option is actually a separate simple product with a unique SKU, which makes it possible to track inventory for each product variation. You could achieve a similar effect by using a simple product with custom options, but without the ability to track inventory for each variation.
@@ -117,7 +117,7 @@ The [attribute set]({% link stores/attribute-sets.md %}) determines the selectio
 
 ### Step 5: Save and continue
 
-This is a good time to save your work. In the upper-right corner, click <span class="btn">Save</span>. In the next series of steps, you’ll set up the configurations for each variation of the product.
+This is a good time to save your work. In the upper-right corner, click <span class="btn">Save</span>. In the next series of steps, you'll set up the configurations for each variation of the product.
 
 ## Part 2: Adding configurations
 
@@ -185,7 +185,7 @@ Use one of the following methods to configure the **images**:
 
 - **_Method 2: Apply unique images for each SKU_**
 
-   Because we already uploaded an image for the parent product, we’ll use this option to upload an image of each color. This is the image that will appear in the shopping cart when someone buys the shirt in a specific color.
+   Because we already uploaded an image for the parent product, we'll use this option to upload an image of each color. This is the image that will appear in the shopping cart when someone buys the shirt in a specific color.
 
    1. Select **Apply unique images by attribute to each SKU**.
 

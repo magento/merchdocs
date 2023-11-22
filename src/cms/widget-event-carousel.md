@@ -2,6 +2,8 @@
 ee_only: true
 title: Catalog Events Carousel
 group: marketing
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-event-carousel.html
 ---
 
 The Catalog Events Carousel widget displays a slider of upcoming events with a countdown ticker for each event. You can choose the page(s) and area of the page layout where you want the carousel to appear, and control the width and number of events that appear at one time. The result you get depends on your theme, where it is positioned to appear on the page, and the options that you choose.

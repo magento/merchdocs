@@ -1,5 +1,7 @@
 ---
 title: Wish List Configuration
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration.html
 ---
 
 The configuration enables wish lists and determines the email template and sender of email messages that are used when a wish list is shared.
