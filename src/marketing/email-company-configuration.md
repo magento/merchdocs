@@ -35,7 +35,7 @@ The [sales representative]({% link customers/account-company-sales-representativ
         ![Customers configuration - company registration]({% link images/images-b2b/config-customers-company-configuration-email-options-company-registration1.png %}){: .zoom}
         [_Email Options - Company Registration_]({% link configuration/customers/company-configuration.md -%})
 
-   **Customer-Related Emails**
+     Customer-Related Emails
 
    - If you have prepared alternate email templates to be used instead of the defaults, choose the template that you want to use for each of the following:
 
@@ -50,7 +50,7 @@ The [sales representative]({% link customers/account-company-sales-representativ
         ![Customers configuration - customer related emails]({% link images/images-b2b/config-customers-company-configuration-email-options-customer-related-emails.png %}){: .zoom}
         [_Customer-Related Emails_]({% link configuration/customers/company-configuration.md %})
 
-   **Company Status Change**
+   Company Status Change
 
    - Set **Company Status Change for Email Recipient** to the [store contact]({% link stores/store-email-addresses.md %}) who is to be notified when the status of a company changes.
 
@@ -74,7 +74,7 @@ The [sales representative]({% link customers/account-company-sales-representativ
         ![Customers configuration - company status change]({% link images/images-b2b/config-customers-company-configuration-email-options-company-status-change.png %}){: .zoom}
         [_Company Status Change_]({% link configuration/customers/company-configuration.md -%})
 
-   **Company Credit Emails**
+   Company Credit Emails
 
    - Set **Company Credit Change Email Sender** to the [store contact]({% link stores/store-email-addresses.md %}) who is to be notified when a change is made to the credit limit that is assigned to a company. By default, the notification is sent to _Sales Representative_.
 

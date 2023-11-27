@@ -43,7 +43,7 @@ When enabled, a new "Category Permissions" section appears on the Category page 
         ![]({% link images/images-ee/category-permissions-allow-browsing-customer-groups.png %}){: .zoom}
         _Allow Browsing by Wholesale Customer Group_
 
-    **Restrict Access and Redirect to Landing Page**
+    Restrict Access and Redirect to Landing Page
 
     Although the "Allow Browsing Category" setting applies to all categories in the website, you can configure a different Landing Page for each store view.
 

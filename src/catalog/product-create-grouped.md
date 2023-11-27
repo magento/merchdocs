@@ -134,7 +134,7 @@ Complete the information in the following sections as needed:
 
 1. Do one of the following:
 
-   **Method 1: Save and Preview**
+   Method 1: Save and Preview
 
    - In the upper-right corner, click <span class="btn">Save</span>.
 
@@ -145,7 +145,7 @@ Complete the information in the following sections as needed:
       ![]({% link images/images/product-admin-customer-view.png %}){: .zoom}
       _Customer View_
 
-   **Method 2: Save and Close**
+   Method 2: Save and Close
 
    On the _Save_ (![]({% link images/images/btn-dropdown.png %}) ) menu, choose **Save & Close**.
 
