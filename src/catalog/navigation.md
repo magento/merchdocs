@@ -1,6 +1,8 @@
 ---
 title: Catalog Navigation
 group: marketing
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation.html
 ---
 
 The term navigation refers to the methods shoppers use to move from page to page throughout your store. The main menu, or top navigation, of your store is actually a list of category links and provides easy access to the products in your catalog. You will also find categories in the breadcrumb trail that appears across the top of most pages and in the layered navigation that appears on the left side of some two- or three-column pages. For more information about category display options, see [Display Settings]({% link catalog/categories-display-settings.md %}).

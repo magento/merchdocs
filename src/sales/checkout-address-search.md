@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Address Search
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-address-search.html
 ---
 
 Your customers could have a large number of saved addresses and information in their address book, especially regular, returning customers or companies entering multiple orders and shipment locations. Displaying a large amount of addresses can slow checkout loading and processes considerably, and result in a negative shopping experience. To help increase the responsiveness of checkout, we recommend activating and configuring address search for your site.

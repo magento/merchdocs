@@ -1,5 +1,7 @@
 ---
 title: Zero Subtotal Checkout
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/offline/zero-subtotal-checkout.html
 ---
 
 Zero Subtotal Checkout can be used for orders with a subtotal of zero that are taxed after a discount is applied. For example, Zero Subtotal Checkout might be used in the following situations:
@@ -23,7 +25,7 @@ To save time, zero subtotal orders can be set to invoice automatically.
 1. Under _Other Payment Methods_, expand ![]({% link images/images/btn-expand.png %}) the **Zero Subtotal Checkout** section.
 
    ![Zero Subtotal Checkout]({% link images/images/config-sales-payment-methods-zero-subtotal-checkout.png %}){: .zoom}
-   [_Zero Subtotal Checkout configuration_]({% link configuration/sales/payment-methods.md %}#zero-subtotal-checkout)
+   [_Zero Subtotal Checkout configuration_]({% link configuration/sales/payment-methods.md %})
 
    {:.bs-callout-info}
    If necessary, first deselect the **Use system value** checkbox to change these settings.
@@ -32,7 +34,7 @@ To save time, zero subtotal orders can be set to invoice automatically.
 
 1. Enter a **Title** to identify the Zero Subtotal method during checkout.
 
-1. If orders typically wait for approval, accept the default **New Order Status** as `Pending”` until the order is approved.
+1. If orders typically wait for approval, accept the default **New Order Status** as `Pending"` until the order is approved.
 
    If you prefer, you can use the `Processing` or `Suspected Fraud` status for new orders with this payment method.
 

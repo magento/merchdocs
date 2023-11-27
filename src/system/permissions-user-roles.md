@@ -1,5 +1,7 @@
 ---
 title: User Roles
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html
 ---
 
 To give someone restricted access to the Admin, the first step is to create a role that has the appropriate level of permissions. After the role is saved, you can add new users and assign the restricted role to grant them limited access to the Admin.
@@ -40,7 +42,7 @@ To give someone restricted access to the Admin, the first step is to create a ro
 
 1. {:.ee-only} In the tree, select the checkbox of each Admin **Resource** that the role can access.
 
-    To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default [shipping point of origin]({% link shipping/shipping-settings.md %}#origin), you must allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
+    To create an Admin role with access to tax settings, choose both the Sales/Tax and System/Tax resources. If setting up a website for a region that differs from your default [shipping point of origin]({% link shipping/shipping-settings.md %}), you must allow access to the System/Shipping resources for the role. The shipping settings determine the store tax rate that is used for catalog prices.
 
     ![Assigned user role resources]({% link images/images/system-permissions-role-resources-product.png %}){: .zoom}
     _Role Resources Assigned_

@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Assigning User Roles
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/users/account-company-roles-permissions.html#assign-a-role-to-a-company-user
 ---
 
 After defining the roles that are needed, the store admin assigns a role to each company user.

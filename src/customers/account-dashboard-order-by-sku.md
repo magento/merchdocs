@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Order by SKU
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/purchase-orders/purchase-order-flow.html
 ---
 
 [Order by SKU]({% link sales/order-by-sku.md %}) gives you the ability to add individual products to your cart by SKU and quantity, or import a list of products from a file.

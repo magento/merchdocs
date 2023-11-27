@@ -1,5 +1,7 @@
 ---
 title: Transferring Inventory to Source
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/inventory-transfer.html
 ---
 
 Depending on your business needs and status of location, Multi Source merchants may need to transfer product inventory from one source location to another. For example, you may be closing a warehouse location or no longer ship specific products from a location, moving all operations for those products to a new location.

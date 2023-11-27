@@ -24,6 +24,8 @@ sections:
  - title: Other Settings
    content: Manage the settings for reward exchange rates, gift wrapping, and gift registries.
    url: /customers/customer-groups.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores-menu.html
 ---
 
 The _Stores_ menu manages settings that are used less frequently, but referenced throughout your Magento installation, including setting up the store hierarchy, configuration, sales and order settings, tax and currency, product attributes, product review ratings, and customer groups.

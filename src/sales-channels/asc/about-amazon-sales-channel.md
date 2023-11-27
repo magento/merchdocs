@@ -1,5 +1,7 @@
 ---
 title: About Amazon Sales Channel
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 Amazon Sales Channel is a powerful extension that seamlessly integrates your Magento Admin with your Amazon Seller Central account. After [onboarding]({% link sales-channels/asc/amazon-onboarding-home.md %}), Magento becomes a "central command center" for managing and controlling your Amazon listings, orders and inventory, and pricing for your Amazon store.
@@ -24,13 +26,13 @@ With Amazon Sales Channel, you can:
 
 - Synchronize Amazon listing pricing to Magento catalog price (or alternate price attribute).
 
-- Enable MSRP [strike-through pricing]({% link sales-channels/asc/listing-price.md %}#configure-listing-price-settings) in your Amazon listings to increase customer value proposition.
+- Enable MSRP [strike-through pricing]({% link sales-channels/asc/listing-price.md %}) in your Amazon listings to increase customer value proposition.
 
-- Enable and manage [Minimum Advertised Price (MAP)]({% link sales-channels/asc/listing-price.md %}#configure-listing-price-settings) in your Amazon listings.
+- Enable and manage [Minimum Advertised Price (MAP)]({% link sales-channels/asc/listing-price.md %}) in your Amazon listings.
 
-- Configure additional [VAT tax]({% link sales-channels/asc/listing-price.md %}#configure-listing-price-settings) in your Amazon pricing.
+- Configure additional [VAT tax]({% link sales-channels/asc/listing-price.md %}) in your Amazon pricing.
 
-- Set a custom value for "available quantity" in your [stock / quantity settings]({% link sales-channels/asc/stock-quantity.md %}#configure-stock--quantity-settings) to show with your Amazon listings to increase buyer urgency.
+- Set a custom value for "available quantity" in your [stock / quantity settings]({% link sales-channels/asc/stock-quantity.md %}) to show with your Amazon listings to increase buyer urgency.
 
 ## Pricing Rules
 
@@ -74,7 +76,7 @@ With Amazon Sales Channel, you can:
 
 - Support and process orders in Amazon and Magento.
 
-- [Import]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) your Amazon orders into Magento or leave them in Amazon.
+- [Import]({% link sales-channels/asc/order-settings.md %}) your Amazon orders into Magento or leave them in Amazon.
 
 - Define which of your Magento website stores to associate with your Amazon orders for importing and managing orders.
 
@@ -118,4 +120,4 @@ With Amazon Sales Channel, you can:
 
 ## Customer Management
 
-Build your Magento customer database by [importing customer data]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) associated with your Amazon orders. Leverage and expand your marketing potential through this expanded list of customers through your Amazon Marketplace listings and Magento storefront.
+Build your Magento customer database by [importing customer data]({% link sales-channels/asc/order-settings.md %}) associated with your Amazon orders. Leverage and expand your marketing potential through this expanded list of customers through your Amazon Marketplace listings and Magento storefront.

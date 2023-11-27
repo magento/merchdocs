@@ -1,8 +1,7 @@
 ---
 title: Shipping Settings
-redirect_from:
-  - /shipping/point-of-origin.html
-  - /shipping/shipping-policy-parameters.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html
 ---
 
 The shipping configuration establishes the point of origin for all shipments and your shipping policy.
@@ -45,7 +44,7 @@ A shipping policy should explain your company's business rules and guidelines fo
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Shipping Policy Parameters** section.
 
    ![]({% link images/images/config-sales-shipping-settings-shipping-policy-parameters.png %}){: .zoom}
-   [*Shipping Policy Parameters*]({% link configuration/sales/shipping-settings.md %}#shipping-policy-parameters)
+   [*Shipping Policy Parameters*]({% link configuration/sales/shipping-settings.md %})
 
 1. Set **Apply Custom Shipping Policy** to `Yes`.
 

@@ -1,5 +1,7 @@
 ---
 title: Search Engine Robots
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots
 ---
 
 The Magento configuration includes settings to generate and manage instructions for web crawlers and bots that index your site. The instructions are saved in a file called `robots.txt` that resides in the root of your Magento installation. The instructions are directives that are recognized and followed by most search engines.

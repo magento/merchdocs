@@ -1,5 +1,7 @@
 ---
 title: Multiple URL Rewrites
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite-product.html#multiple-url-rewrites
 ---
 
 To create a single URL rewrite, refer to [Creating URL Rewrites]({% link marketing/url-rewrite-create.md %}).

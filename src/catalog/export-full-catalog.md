@@ -1,7 +1,7 @@
 ---
 title: Export Full Catalog
-redirect_from:
-  - /export-full-catalog.html
+redirect to:
+  - https://omsdocs.magento.com/getting-started/
 ---
 
 You can manually request a full catalog export from Magento Commerce. This feature queues all products from the catalog for export to the Order Management System (OMS).

@@ -1,5 +1,7 @@
 ---
 title: Complex Data
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-attributes-product.html#complex-product-data-attributes
 ---
 
 The term complex data refers to the data that is associated with multiple product options. The following product types use data that originates from separate products to create product variations and multiple options.

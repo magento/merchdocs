@@ -1,5 +1,7 @@
 ---
 title: Configuring Distance Priority Algorithm
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/distance-priority-algorithm.html
 ---
 
 The Distance Priority Algorithm compares the location of the shipping destination address with source locations to determine the closest source to fulfill shipments. The distance may be determined by physical distance or time spent traveling from one location to another, using database data or driving, walking, or bicycling directions. Use this [Source Selection Algorithm]({% link catalog/inventory-about-ssa.md %}) to recommend the closest source to shipping destination addresses.

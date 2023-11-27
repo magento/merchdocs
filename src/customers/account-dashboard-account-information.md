@@ -1,5 +1,7 @@
 ---
 title: Account Information
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/storefront/account-dashboard-account-information.html
 ---
 
 The basic account information includes your name and email address, and password, and can be maintained from your account dashboard.

@@ -1,5 +1,7 @@
 ---
 title: Updating a Customer Profile
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/manage/update-account.html?lang=en
 ---
 
 The left panel of the Customer Information page includes information about customer activity, such as when the customer last signed in or out of their account, addresses, order statistics, recent orders, shopping cart contents, product reviews, newsletter subscriptions, and so on.
@@ -29,7 +31,7 @@ _Customer Profile_{:.ee-only}
 | <span class="btn">Reset</span> | Resets any unsaved changes in the customer form to their previous values.  |
 | <span class="btn">Create Order</span> | [Creates a new order]({% link customers/customer-account-create-order.md %}) that is associated with the customer account.  |
 | <span class="btn">Reset Password</span> | Resets the password of the customer.  |
-| <span class="btn">Force Sign-In</span> | Clears the tokens associated with the customer’s password and provides the administrator access to the account. |
+| <span class="btn">Force Sign-In</span> | Clears the tokens associated with the customer's password and provides the administrator access to the account. |
 | <span class="btn">Manage Shopping Cart</span> | Provides access to the shopping cart of a customer. |
 | <span class="btn">Save and Continue Edit</span>  | Saves changes and keeps the customer account open. |
 | <span class="btn">Save Customer</span> | Saves changes and closes the customer account. |

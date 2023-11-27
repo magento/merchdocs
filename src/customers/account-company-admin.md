@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Company Administrator
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-admin.html
 ---
 
 The company administrator is initially assigned when the company account is first created, and can later be modified only by the store administrator from the Admin.
@@ -27,9 +29,9 @@ The company administrator is initially assigned when the company account is firs
 
    - Enter the **Email** address of the new company administrator.
 
-      If the system doesn’t find the email address in the database, you are prompted to confirm that you want to replace the company administrator.
+      If the system doesn't find the email address in the database, you are prompted to confirm that you want to replace the company administrator.
 
-      - If a user account doesn’t exist for the new company administrator, the system creates a new account of the `Company Admin` type.
+      - If a user account doesn't exist for the new company administrator, the system creates a new account of the `Company Admin` type.
 
       - If the user account already exists in the system, it is moved to the company administrator position in the company hierarchy.
 

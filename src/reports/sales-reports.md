@@ -1,5 +1,7 @@
 ---
 title: Sales Reports
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/sales-reports.html
 ---
 
 The selection of sales reports includes Orders, Tax, Invoiced, Shipping, Refunds, Coupons, and PayPal Settlement.

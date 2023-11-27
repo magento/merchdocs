@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Creating Company Teams
+redirect to: 
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/users/account-company-structure.html#create-company-teams
 ---
 
 The structure of a company account should reflect the purchasing organization, whether it is simple and flat or a complex organization with different teams for each subdivision and division of the company.

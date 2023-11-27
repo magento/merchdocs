@@ -1,5 +1,7 @@
 ---
 title: Issuing a Credit Memo
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create.html
 ---
 
 Before a credit memo can be printed, it must first be generated for an invoiced order. You can issue both online and offline refunds from an open credit memo, depending on the payment method.

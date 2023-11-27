@@ -1,5 +1,7 @@
 ---
 title: Customer Reports
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/customer-reports.html
 ---
 
 Customer reports provide insight into customer activity during a specified period of time or date range.

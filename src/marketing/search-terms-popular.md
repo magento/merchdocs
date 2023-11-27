@@ -1,5 +1,7 @@
 ---
 title: Popular Search Terms
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html#popular-search-terms
 ---
 
 The Search Terms link in the footer of your store displays the search terms used by visitors to your store, ranked by popularity. Search terms appear in a _tag cloud_ format, where the size of the text indicates the popularity of the term.

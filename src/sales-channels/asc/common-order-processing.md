@@ -1,5 +1,7 @@
 ---
 title: Common Order Processing Tasks
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-orders/common-order-processing.html
 ---
 
 [Magento order processing]({% link sales/order-processing.md %}) can manage your Amazon orders, including emailing the buyer, fulfilling the order (shipping), issuing credits/refunds, adding comments, and more. To manage your Amazon orders, your [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}) setting must be set `Enabled` so that corresponding Magento orders are created when Amazon orders are received. Amazon order information shows in the _Recent Orders_ section of the store dashboard.
@@ -20,12 +22,12 @@ Common Magento [order processing]({% link sales/order-processing.md %}) tasks in
 - [Order Actions]({% link sales/order-actions.md %})
 - [Order Search]({% link sales/orders-search.md %})
 - [Process an Order]({% link sales/order-processing.md %})
-   - [View an Order]({% link sales/order-processing.md %}#view-an-order)
-   - [Process an Order]({% link sales/order-processing.md %}#process-an-order)
-   - [Order and Account Information]({% link sales/order-processing.md %}#order-and-account-information)
-   - [Address Information]({% link sales/order-processing.md %}#address-information)
-   - [Payment & Shipping Method]({% link sales/order-processing.md %}#payment--shipping-method)
-   - [Review items ordered]({% link sales/order-processing.md %}#review-items-ordered)
+   - [View an Order]({% link sales/order-processing.md %})
+   - [Process an Order]({% link sales/order-processing.md %})
+   - [Order and Account Information]({% link sales/order-processing.md %})
+   - [Address Information]({% link sales/order-processing.md %})
+   - [Payment & Shipping Method]({% link sales/order-processing.md %})
+   - [Review items ordered]({% link sales/order-processing.md %})
 - [Issuing a credit/refund]({% link sales/credit-memo-create.md %})
 - [Fulfilling/shipping an order]({% link sales/shipments-create.md %})
 - [Create an invoice]({% link sales/invoice-create.md %})

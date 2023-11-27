@@ -1,7 +1,7 @@
 ---
 title: Data Mapping
-redirect_from:
-  - /marketing/engagement-cloud-adata-mapping.html
+redirect to:
+  - https://support.dotdigital.com/en/collections/5610169-magento-open-source-and-adobe-commerce
 ---
 
 Data mapping establishes the relationship between customer information and activity from all stores related to your Magento website and specific contact fields in the dotdigital database. Data fields can be mapped manually or automatically.

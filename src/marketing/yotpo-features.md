@@ -1,5 +1,7 @@
 ---
 title: Basic Yotpo Features
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html
 ---
 
 Available Yotpo features and customization options are dependent on the Yotpo plan you choose. Magento supports the Free, Growth, and Premium plans. See Yotpo [Plan Information](https://www.yotpo.com/pricing/) for plan and feature availability.

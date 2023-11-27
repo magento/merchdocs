@@ -1,7 +1,7 @@
 ---
 title: Accounts
-redirect_from:
-  - /configuration/engagement-cloud/accounts.html
+redirect_to:
+  - https://support.dotdigital.com/en/collections/5610169-magento-open-source-and-adobe-commerce
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [dotdigital]({% link configuration/dotdigital.md %}) > Accounts

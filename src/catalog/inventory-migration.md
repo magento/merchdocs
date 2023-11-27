@@ -1,5 +1,7 @@
 ---
 title: Migrating and Upgrading to Inventory Management
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html
 ---
 
 If upgrading to Magento v2.3.X, this information provides details on new features and changes to your existing catalog and Inventory configurations.

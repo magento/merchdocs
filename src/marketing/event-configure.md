@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Configuring Events
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/events/event-configure.html
 ---
 
 Before you can create an event, you must complete the basic configuration to enable events and set up the event block in the sidebar.

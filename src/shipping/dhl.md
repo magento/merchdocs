@@ -1,5 +1,7 @@
 ---
 title: DHL
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl.html
 ---
 
 DHL offers integrated international services and tailored, customer-focused solutions for managing and transporting letters, goods, and information. Before you configure your store for DHL shipping, you must [set up an account with DHL][1].
@@ -13,7 +15,7 @@ DHL offers integrated international services and tailored, customer-focused solu
 1. Expand ![]({% link images/images/btn-expand.png %}) the **DHL** section.
 
    ![]({% link images/images/config-sales-shipping-methods-dhl-account-settings.png %}){: .zoom}
-   _[DHL Account Settings]({% link configuration/sales/shipping-methods.md %}#dhl)_
+   _[DHL Account Settings]({% link configuration/sales/shipping-methods.md %})_
 
 1. Set **Enabled for Checkout** to `Yes`.
 

@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Page Builder - Elements
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/workspace.html#elements
 ---
 
 Use the _Elements_ section of the Page Builder panel to add text, headings, buttons, dividers, and HTML code to any layout container on the stage. When you drag a content type from the panel to either a row or column, or to a tab set on the stage, a container appears. Use the content type toolbox to access the settings that are specific to the type.

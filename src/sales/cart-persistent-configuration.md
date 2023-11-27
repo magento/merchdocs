@@ -1,5 +1,7 @@
 ---
 title: Configuring a Persistent Cart
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent.html#configure-a-persistent-cart
 ---
 
 During the setup of a persistent shopping cart, you can specify the lifetime of the cookies, and which options you want to make available for various customer activities.
@@ -25,7 +27,7 @@ If the session cookie expires while the customer is logged in, the persistent co
 
    The default value of 31,536,000 seconds is equal to one year, and is the maximum time allowed.
 
-1. Set **Enable “Remember Me”** to one of the following:
+1. Set **Enable "Remember Me"** to one of the following:
 
    Yes|Displays the _Remember Me_ checkbox on the Login page of your store, so that customers can choose to save their shopping cart information.|
    No|Persistence can still be enabled, but customers are not given the option to choose if they want to save their information.|

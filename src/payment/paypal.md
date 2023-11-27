@@ -1,9 +1,7 @@
 ---
 title: PayPal Payment Solutions
-redirect_from:
-  - /payment/paypal-all-in-one.html
-  - /payment/paypal-business-account.html
-  - /payment/paypal-payment-solutions.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal.html
 ---
 
 {:.bs-callout-warning}
@@ -22,7 +20,7 @@ Website Payments Pro, Website Payments Pro Payflow Edition, Payflow Pro Gateway,
 
 ## Magento supported PayPal solutions
 
-With PayPal and Magento, you can accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even your customers who don’t have a PayPal account can pay for their purchases with PayPal.
+With PayPal and Magento, you can accept payments from all major debit and credit cards. PayPal offers additional convenience without extra effort, because even your customers who don't have a PayPal account can pay for their purchases with PayPal.
 
 {:.bs-callout-info}
 You cannot have more than one PayPal method enabled in your Magento store at a time, with the exception of PayPal Express Checkout. PayPal Express Checkout can be used in combination with other PayPal payment methods, except for PayPal Payments Standard. If you change payment solutions, the previously method is disabled.

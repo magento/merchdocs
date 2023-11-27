@@ -1,5 +1,7 @@
 ---
 title: Opportunities to Engage
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html#shopping-assistance
 ---
 
 Email a Friend

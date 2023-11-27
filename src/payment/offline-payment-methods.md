@@ -1,5 +1,7 @@
 ---
 title: Offline Payment Methods
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html#offline-payment-methods
 ---
 
 Magento includes a number of built-in offline payment methods, which do not require the services of a third-party payment processing company:

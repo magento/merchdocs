@@ -1,5 +1,7 @@
 ---
 title: U.S. Tax Guidelines
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/international-tax-guidelines.html#u.s.-tax-configuration
 ---
 
 These recommended settings can be used for most tax configurations for stores within the United States.

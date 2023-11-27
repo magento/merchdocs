@@ -1,5 +1,7 @@
 ---
 title: Free Shipping
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free.html
 ---
 
 Free shipping is one of the most effective promotions you can offer. It can be based on a minimum purchase, or set up as a [cart price rule]({% link marketing/price-rules-cart.md %}) that is applied when a set of conditions is met. If both apply to the same order, the configuration setting takes precedence over the cart rule.
@@ -16,7 +18,7 @@ Check your shipping carrier configuration for any additional settings that may b
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Free Shipping** section.
 
    ![]({% link images/images/config-sales-shipping-methods-free-shipping.png %}){: .zoom}
-   [*Free Shipping*]({% link configuration/sales/shipping-methods.md %}#free-shipping)
+   [*Free Shipping*]({% link configuration/sales/shipping-methods.md %})
 
 1. Set **Enabled** to `Yes`.
 

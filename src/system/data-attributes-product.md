@@ -1,10 +1,12 @@
 ---
 title: Product Attribute Reference
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-attributes-product.html
 ---
 
 The following table lists the attributes from a typical product export, in the default order in which they appear. Each attribute is represented in the CSV file as a column, and product records are represented by rows. Columns that begin with an underscore contain service data such as properties or option values for complex data. You can [export]({% link system/data-export.md %}) a product from your catalog, to see how each attribute is represented in the data.
 
-The installation used to export this data has the sample data installed, and has two websites and several store views. Although this list includes all columns that are typically exported, the `sku` is the only required value. To import data, you can include only the columns with changes. The `sku` should be the first column, but the order of the rest of the attributes doesn’t matter.
+The installation used to export this data has the sample data installed, and has two websites and several store views. Although this list includes all columns that are typically exported, the `sku` is the only required value. To import data, you can include only the columns with changes. The `sku` should be the first column, but the order of the rest of the attributes doesn't matter.
 
 ## Simple Product CSV File Structure
 
@@ -40,11 +42,11 @@ The installation used to export this data has the sample data installed, and has
 |thumbnail_image_label|The label associated with any thumbnail images. For example: `Thumbnail 1`, `Thumbnail 2`|
 |created_at|Indicates the date when the product was created. The date is automatically generated when the product is created, but can be edited later.|
 |updated_at|Indicates the date when the product was last updated.|
-|new_from_date|Specifies the “from” date for new product listings, and determines if the product is featured as a new product.|
-|new_to_date|Specifies the “to” date for new product listings, and determines if the product is featured as a new product.|
+|new_from_date|Specifies the "from" date for new product listings, and determines if the product is featured as a new product.|
+|new_to_date|Specifies the "to" date for new product listings, and determines if the product is featured as a new product.|
 |display_product_options_in|If the product has multiple options, determines where they appear on the product page. Values: Product Info Column / Block after Info Column|
 |map_price|The minimum advertised price of the product. (Appears only if MAP is enabled.)|
-|msrp_price|The manufacturer’s suggested retail price for the product. (Appears only if MAP is enabled.)|
+|msrp_price|The manufacturer's suggested retail price for the product. (Appears only if MAP is enabled.)|
 |map_enabled|Determines if Minimum Advertised Price is enabled in the configuration. Values:<br/>**1** — (Yes) MAP is enabled.<br/>**0** (or blank) — (No)  MAP is not enabled.|
 |gift_message_available|Determines if a gift message can be included with the product purchase. Values:<br/>**1** — (Yes) The option to include a gift message is presented to the customer.<br/>**0** (or blank) — (No) The option to include a gift message is not presented to the customer.|
 |custom_design|Lists the available themes that can be applied to the product page.|
@@ -53,7 +55,7 @@ The installation used to export this data has the sample data installed, and has
 |custom_layout_update|Additional XML code that is applied as a layout update to the product page.|
 |page_layout|Determines the page layout of the product page. Values:<br/>**No layout updates** — No change is made to the page layout.<br/>**1 column** — Applies a one-column layout to the product page.<br/>**2 columns with left bar** — Applies a two-column layout with a left sidebar to the product page.<br/>**2 columns with right bar** — Applies a two-column layout with a right sidebar to the product page.<br/>**3 columns** — Applies a three-column layout to the product page.<br/>**empty** — Applies a blank layout to the product page.|
 |product_options_container|If the product has multiple options, determines where they appear on the product page. Values: Product Info Column / Block after Info Column|
-|msrp_display_actual_price_type|Determines where the actual price of a product is visible to the customer. Values:<br/>**In Cart** — Displays the actual product price in the shopping cart.<br/>**Before Order Confirmation** — Displays the actual product price at the end of the checkout process, just before the order is confirmed.<br/>**On Gesture** — Displays the actual product price in a popup when the customer clicks the _Click for price_ or _What’s this?_ link.|
+|msrp_display_actual_price_type|Determines where the actual price of a product is visible to the customer. Values:<br/>**In Cart** — Displays the actual product price in the shopping cart.<br/>**Before Order Confirmation** — Displays the actual product price at the end of the checkout process, just before the order is confirmed.<br/>**On Gesture** — Displays the actual product price in a popup when the customer clicks the _Click for price_ or _What's this?_ link.|
 |country_of_manufacture|Identifies the country where the product was manufactured.|
 |additional_attributes|Additional attributes created for the product. For example: <br/>`has_options=0,required_options=0color=Black,has_options=0,required_options=0,size_general=XS`|
 |qty|The quantity of the product that is currently in stock.|

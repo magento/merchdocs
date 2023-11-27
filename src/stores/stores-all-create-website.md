@@ -1,5 +1,7 @@
 ---
 title: Adding Websites
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-websites
 ---
 
 Multiple websites can be set up that use the same Magento installation. The websites can be set up to use the same domain, or different domains. If you want each store to have a dedicated checkout process under its own domain, each store must have a distinct IP address and separate security certificate.

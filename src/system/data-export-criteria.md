@@ -1,5 +1,7 @@
 ---
 title: Export Criteria
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html#export-criteria
 ---
 
 Export filters are used to specify the data that you want to in the export file, based on attribute value. In addition, you can specify which attribute data you want to include or exclude from the export.

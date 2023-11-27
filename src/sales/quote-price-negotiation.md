@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Negotiating a Quote
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/quote-price-negotiation.html
 ---
 
 If [B2B Quotes]({% link stores/b2b-features.md %}) are enabled in the configuration, an authorized buyer from a company initiates the price negotiation process by [requesting a quote]({% link sales/quote-request.md %}) from the shopping cart. Requests for quotes received are listed in the [Quotes]({% link sales/quotes.md %}) grid. All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
@@ -14,7 +16,7 @@ During the negotiation process, the seller can do the following:
 - Add comments
 - Send the updated quote to the buyer, or save as a draft
 
-While the quote is open for review, its status in the buyer’s account is set to `Pending`. The buyer can change and resubmit the quote even if it was declined or is expired.
+While the quote is open for review, its status in the buyer's account is set to `Pending`. The buyer can change and resubmit the quote even if it was declined or is expired.
 
 ## Step 1: View the request
 
@@ -127,7 +129,7 @@ In the _Items Quoted_ section, make the following changes, if needed:
 
 ## Step 4:  Follow up on a quote
 
-When you send a quote, the system notifies both the buyer and the sales rep who manages the company account. The email includes a link to the quote in the buyer’s account and the expiration date of the quote. At any point in the negotiation, the buyer can do any of the following:
+When you send a quote, the system notifies both the buyer and the sales rep who manages the company account. The email includes a link to the quote in the buyer's account and the expiration date of the quote. At any point in the negotiation, the buyer can do any of the following:
 
 - Accept the negotiated quote and complete the purchase.
 - Send a reply with a counter offer to continue the negotiation.
@@ -147,7 +149,7 @@ _Negotiation Comments and Quote Totals_
 |<span class="btn">Print</span>|Sends the quote to a printer or saves it as a PDF file.|
 |<span class="btn">Save as Draft</span>|Save any changes made to the quote, but do not send it back to the buyer.|
 |<span class="btn">Decline</span>|Declines the request to negotiate prices, either on the initial inquiry, or during ongoing negotiations. When a quote is declined, the seller should add a comment to explain the decision. When a quote is declined, all negotiated prices are reset to the original values. This button is disabled while the seller is waiting for a reply from the buyer.|
-|<span class="btn">Send</span>|Sends the updated quote as a reply to the buyer’s inquiry. This button is disabled if the seller is waiting for a reply from the buyer.|
+|<span class="btn">Send</span>|Sends the updated quote as a reply to the buyer's inquiry. This button is disabled if the seller is waiting for a reply from the buyer.|
 
 ## Field descriptions
 
@@ -156,10 +158,10 @@ Quote information and functions in the Admin are organized into the following se
 ### Quote & Account Information
 
 |Name|The name assigned to a quote request by the [buyer]({% link customers/account-company-roles-permissions.md %}).|
-|Status|Indicates the current state of the quote. The status of a quote can be changed only by action on the part of either the buyer or seller. See also the [Status settings]({% link sales/quotes.md %}) from the Admin and the [buyer’s account]({% link customers/account-dashboard-quotes.md %}).|
+|Status|Indicates the current state of the quote. The status of a quote can be changed only by action on the part of either the buyer or seller. See also the [Status settings]({% link sales/quotes.md %}) from the Admin and the [buyer's account]({% link customers/account-dashboard-quotes.md %}).|
 |Created|The date and time the buyer first submitted the request for a quote.|
 |Created By|The first and last name of the company buyer who submitted the request for a quote.|
-|Expiration Date|Indicates the last day the current quote is valid. The default expiration date is set in the configuration as thirty days after a buyer submits a request for a quote. <br/><br/>The seller can override the default expiration date by entering a different date (MMM DD YYYY ) or choosing the date from the calendar. The quote never expires if the field is left blank. <br/><br/>For open quotes, the seller receives an [email notification]({% link marketing/email-template-list.md %}) 48 hours before the quote is scheduled to expire. Buyers are notified 24 hours before the expiration date. <br/><br/>The status of the quote changes to “Expired” and the buyer cannot make further changes to the quote. The proposed prices in the quote revert to the original values from the catalog. <br/><br/>If a quote is open for review by the seller when the quote is set to expire, the expiration date is reset to the period of time that is set in the configuration. <br/><br/>The Expiration Date is the only field in the _Quote & Account_ section that can be edited during the review process.|
+|Expiration Date|Indicates the last day the current quote is valid. The default expiration date is set in the configuration as thirty days after a buyer submits a request for a quote. <br/><br/>The seller can override the default expiration date by entering a different date (MMM DD YYYY ) or choosing the date from the calendar. The quote never expires if the field is left blank. <br/><br/>For open quotes, the seller receives an [email notification]({% link marketing/email-template-list.md %}) 48 hours before the quote is scheduled to expire. Buyers are notified 24 hours before the expiration date. <br/><br/>The status of the quote changes to "Expired" and the buyer cannot make further changes to the quote. The proposed prices in the quote revert to the original values from the catalog. <br/><br/>If a quote is open for review by the seller when the quote is set to expire, the expiration date is reset to the period of time that is set in the configuration. <br/><br/>The Expiration Date is the only field in the _Quote & Account_ section that can be edited during the review process.|
 |Company|The legal name of the [company]({% link customers/account-companies.md %}) that the buyer represents.|
 |Company Admin Email|The email address of the [company administrator]({% link customers/account-company-admin.md %}).|
 |Sales Rep|The [sales representative]({% link customers/account-company-sales-representative.md %}) who works for the seller, and is the primary contact assigned to the company account.|
@@ -176,8 +178,8 @@ Quote information and functions in the Admin are organized into the following se
 |Name & SKU|The linked product name and stock keeping unit (SKU).|
 |Stock|The number of product under this SKU that are currently available for sale.|
 |Cost|The amount the seller paid to purchase the product.|
-|Catalog Price|The price of the product in the buyer’s catalog, based on the customer group or shared catalog that is assigned to the buyer’s company.|
-|Cart Price|The original price of the item in the cart, less any discounts applied from the cart. The cart price might differ from the catalog price if there are discounts or cart rules that apply to the buyer’s customer group.|
+|Catalog Price|The price of the product in the buyer's catalog, based on the customer group or shared catalog that is assigned to the buyer's company.|
+|Cart Price|The original price of the item in the cart, less any discounts applied from the cart. The cart price might differ from the catalog price if there are discounts or cart rules that apply to the buyer's customer group.|
 |Proposed Price|The price proposed by the buyer during the negotiation of a quote.  The Cart Price and Proposed Price are the same until price negotiation begins.|
 |Qty|The number of units in this SKU that is the basis for  the quoted price. Only a positive number greater than zero can be entered. If you want to change the quantity to zero, delete the line item from the quote.|
 |Subtotal|The proposed price multiplied by the quantity of items ordered.|
@@ -189,7 +191,7 @@ Quote information and functions in the Admin are organized into the following se
 
 ### Shipping Information
 
-|Shipping Address|Displays the shipping address that is specified in the buyer’s account. The shipping address is blank if the buyer did not specify an address before submitting the request.|
+|Shipping Address|Displays the shipping address that is specified in the buyer's account. The shipping address is blank if the buyer did not specify an address before submitting the request.|
 |Shipping Method & Price|The Get Shipping Methods and Rates link appears if the buyer includes a _Ship To_ address in the quote.|
 
 ### Negotiation

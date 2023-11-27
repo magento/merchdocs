@@ -1,5 +1,7 @@
 ---
 title: 'Intelligent Repricing Rule: Competitor Conditional Variances'
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/competitor-conditional-variances.html
 ---
 
 Sections of an intelligent repricing rule include:

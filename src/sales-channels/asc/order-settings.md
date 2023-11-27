@@ -1,7 +1,7 @@
 ---
 title: Order Settings
-redirect_from:
-  - /sales-channels/asc/ob-order-settings.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/order-settings.html
 ---
 
 Order Settings define if and how Amazon orders are imported into and processed in Magento and can be accessed on the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).
@@ -30,7 +30,7 @@ Orders imported from Amazon can be managed in the [Magento orders workflow]({% l
     {:.bs-callout .bs-callout-info}
     Import Amazon Orders must be set to `Enabled` to manage Amazon orders in the [Magento Orders]({% link sales/orders.md %}) workflow. When set to `Disabled`, your Amazon orders do not have a corresponding Magento order number and cannot be managed in Magento. You must manage these orders in your Amazon Seller Central account.
 
-1. For **Import Amazon Orders Into Magento Store**, choose which Magento Store the Amazon orders will be associated with when the corresponding order is created in Magento. This setting defaults to the Store View for the Magento Website selected when you [added the Amazon store]({% link sales-channels/asc/store-integration.md %}). If you want to change this setting, the list of options depends on the Magento stores you have set up in your configuration. See [Stores]({% link stores/stores-all-create-view.md %}#create-a-new-store-view).
+1. For **Import Amazon Orders Into Magento Store**, choose which Magento Store the Amazon orders will be associated with when the corresponding order is created in Magento. This setting defaults to the Store View for the Magento Website selected when you [added the Amazon store]({% link sales-channels/asc/store-integration.md %}). If you want to change this setting, the list of options depends on the Magento stores you have set up in your configuration. See [Stores]({% link stores/stores-all-create-view.md %}).
 
 1. For **Customer Creation**, choose an option:
 

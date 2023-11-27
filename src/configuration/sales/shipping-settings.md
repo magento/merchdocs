@@ -1,5 +1,7 @@
 ---
 title: Shipping Settings
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/shipping-settings.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Shipping Settings
@@ -21,7 +23,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 ## Shipping Policy Parameters
 
 ![]({% link images/images/config-sales-shipping-settings-shipping-policy-parameters.png %}){: .zoom}
-[_Shipping Policy Parameters_]({% link shipping/shipping-settings.md %}#shipping-policy-parameters)
+[_Shipping Policy Parameters_]({% link shipping/shipping-settings.md %})
 
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |

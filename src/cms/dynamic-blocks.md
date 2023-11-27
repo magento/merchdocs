@@ -1,9 +1,8 @@
 ---
 ee_only: true
 title: Dynamic Blocks
-redirect_from:
-  - /cms/banners.html
-  - /cms/banner-create.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html
 ---
 
 Create rich, interactive content that is driven by logic from [price rules]({% link marketing/promotions.md %}) and [customer segments]({% link marketing/customer-segments.md %}). Existing [dynamic blocks]({% link cms/page-builder-add-dynamic-block.md %}) can be added directly to the Page Builder [stage]({% link cms/page-builder-workspace.md %}). For a detailed, step-by-step example for using dynamic blocks, see [Tutorial 2: Blocks]({% link cms/page-builder-tutorial2-blocks.md %}).

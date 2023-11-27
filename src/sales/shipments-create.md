@@ -1,5 +1,7 @@
 ---
 title: Creating a Shipment
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/shipments.html#create-a-shipment
 ---
 
 The following instructions walk you through the process of creating a shipment for [Magento Shipping]({% link shipping/magento-shipping.md %}). If you have Inventory Management enabled, you may want to review [Creating Shipments with Inventory Management]({% link catalog/inventory-shipment-create.md %}).
@@ -137,9 +139,9 @@ The selection of value-added delivery options is determined by shipping method a
 
 1. Set customer shipping preferences:
 
-   - To use the customer’s preferred method of shipping, select the **Customer Preference** checkbox.
+   - To use the customer's preferred method of shipping, select the **Customer Preference** checkbox.
 
-   - To override the customer’s preferred method, clear the **Customer Preference** checkbox. Then, choose another method.
+   - To override the customer's preferred method, clear the **Customer Preference** checkbox. Then, choose another method.
 
 1. Click **Get Quotes**.
 
@@ -181,12 +183,12 @@ The selection of value-added delivery options is determined by shipping method a
     ![]({% link images/images/shipment-magento-shipping-documentation.png %}){: .zoom}
     _Documentation_
 
-1. (Magento Shipping only) To print the **High Value Report**, click the **Download** link. Then, look for the text/html file in your browser’s download list.
+1. (Magento Shipping only) To print the **High Value Report**, click the **Download** link. Then, look for the text/html file in your browser's download list.
 
     ![]({% link images/images/shipment-magento-shipping-documentation-high-value-report.png %}){: .zoom}
     _High Value Report_
 
-1. To print a packing slip for this shipment, click **Print** in the page header. Look for the PDF file in your browser’s download list.
+1. To print a packing slip for this shipment, click **Print** in the page header. Look for the PDF file in your browser's download list.
 
 ## Buttons
 
@@ -276,7 +278,7 @@ The selection of value-added delivery options is determined by shipping method a
 
 ### Shipping Quotes
 
-|Quote from Shipping Experience|**Use customer’s choice** - To override the default setting, clear the checkbox and choose the type of quote. <br/>**Get Quotes** - Generates a list of quotes for available carriers. The shipping information and tracking number are completed automatically after the carrier is selected.|
+|Quote from Shipping Experience|**Use customer's choice** - To override the default setting, clear the checkbox and choose the type of quote. <br/>**Get Quotes** - Generates a list of quotes for available carriers. The shipping information and tracking number are completed automatically after the carrier is selected.|
 
 ### Shipment Comments
 

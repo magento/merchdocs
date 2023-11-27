@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Worldpay - Deprecated
+redirect_to:
+  - https://commercemarketplace.adobe.com/sapient-module-worldpay.html
 ---
 
 {:.bs-callout-warning}

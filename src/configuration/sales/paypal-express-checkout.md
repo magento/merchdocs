@@ -1,5 +1,7 @@
 ---
 title: PayPal Express Checkout
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/paypal-express-checkout.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > PayPal Express Checkout
@@ -25,8 +27,8 @@ As of September 14, 2019, European banks might decline payments that do not meet
 |API Certificate|Website|Browse to upload your API certificate.|
 |Get Credentials from PayPal||Fetches your API credentials from PayPal.|
 |Sandbox Credentials||Fetches your sandbox credentials from PayPal.|
-|Sandbox Mode|Website|To run PayPal Express Checkout in a test environment, enter your sandbox API credentials, and then set Sandbox Mode to “Yes”. Options: Yes / No|
-|API Uses Proxy|Website|If your system uses a proxy server to establish the connection between Magento and the PayPal system, set API Uses Proxy to “Yes”. Options: Yes / No|
+|Sandbox Mode|Website|To run PayPal Express Checkout in a test environment, enter your sandbox API credentials, and then set Sandbox Mode to "Yes". Options: Yes / No|
+|API Uses Proxy|Website|If your system uses a proxy server to establish the connection between Magento and the PayPal system, set API Uses Proxy to "Yes". Options: Yes / No|
 |Proxy Host|Website|If the API uses proxy, the IP address of the proxy host.|
 |Proxy Port|Website|If the API uses proxy, the port used by the proxy host.|
 |Enable this Solution|Website|Activates PayPal Express Checkout as a payment method that is available to your customers. Options: Yes / No|
@@ -56,8 +58,8 @@ _Basic Settings_
 |--- |--- |--- |
 |Title|Website|A name that identifies the PayPal Express Checkout payment method during checkout.|
 |Sort Order|Website|A number that determines the order that PayPal Express Checkout appears when listed with other payment methods during checkout. Enter 0 for the top of the list.|
-|Payment Action|Website|Determines the action taken by PayPal  when it receives an order. Options: <br/>**Authorization** - Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is “captured” by the merchant. <br/>**Sale** - The amount of the purchase is authorized and immediately withdrawn from the customer’s account. <br/>**Order** - Represents an agreement with PayPal that allows the merchant to capture one or more amounts up to the “ordered” total from the customer’s buyer account, within a defined period of time, which can be up to 29 days. One or more invoices must be generated from the Magento Admin to capture the funds.|
-|Display on Product Details Page|Store View|Determines if the “Checkout with PayPal” button appears on product pages. Options include: Yes / No|
+|Payment Action|Website|Determines the action taken by PayPal  when it receives an order. Options: <br/>**Authorization** - Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is "captured" by the merchant. <br/>**Sale** - The amount of the purchase is authorized and immediately withdrawn from the customer's account. <br/>**Order** - Represents an agreement with PayPal that allows the merchant to capture one or more amounts up to the "ordered" total from the customer's buyer account, within a defined period of time, which can be up to 29 days. One or more invoices must be generated from the Magento Admin to capture the funds.|
+|Display on Product Details Page|Store View|Determines if the "Checkout with PayPal" button appears on product pages. Options include: Yes / No|
 
 ## Advanced Settings
 
@@ -71,11 +73,11 @@ _Advanced Settings_
 |Countries Payment Applicable From|Website|Identifies each country from which payment is accepted. Only customers with a billing address in a selected country can make purchases with this payment method.|
 |Debug Mode|Website|Records messages sent between your store and the payment system in a log file. Options: Yes / No <br/><br/>**_Note:_** The log file is stored on the server and is accessible only to developers. In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.|
 |Enable SSL Verification|Website|Enables verification of the host security certificate. Options: Yes / No|
-|Transfer Cart Line Items|Website|Displays a full summary of the line items from the customer’s shopping cart on the PayPal site. Options: Yes / No|
+|Transfer Cart Line Items|Website|Displays a full summary of the line items from the customer's shopping cart on the PayPal site. Options: Yes / No|
 |Transfer Shipping Options|Website|Includes up to ten shipping options on the PayPal site. Options include: Yes / No|
 |Shortcut Buttons Flavor|Store View|Determines the type of image used for the PayPal acceptance button. Options: <br/>**Dynamic** - (Recommended) Displays an image that can be dynamically changed from the PayPal server. <br/>**Static** - Displays a static image that cannot be changed dynamically.|
 |Enable PayPal Guest Checkout|Website|Allows customers who do not have PayPal accounts to make purchases with PayPal Express Checkout. Options: Yes / No|
-|Require Customer’s Billing Address|Website|Determines if the customer billing address is required. Options: Yes, No, For Virtual Quotes Only|
+|Require Customer's Billing Address|Website|Determines if the customer billing address is required. Options: Yes, No, For Virtual Quotes Only|
 |Billing Agreement Signup|Website|Determines if customers have the option to enter into a [billing agreement]({% link payment/paypal-billing-agreements.md %}) with your store. Options: <br/>**Auto** - Customer can sign up for a billing agreement during Express Checkout. <br/>**Ask Customer** - Customer are asked if they want to sign up for a billing agreement. <br/>**Never** - Customers are not offered the option to  sign up for a billing agreement.|
 |Skip Order Review Step|Website|Determines if customers can complete the transaction from the PayPal site, or are required to return to your store and complete the Order Review step before submitting the order. Options: Yes / No|
 
@@ -89,7 +91,7 @@ _Billing Agreement Settings_
 |Enabled|Website|When enabled, billing agreements appear to customers as a payment option during checkout. Options: Yes / No|
 |Title|Store View|The label for the PayPal billing agreement option that appears as a payment option during checkout.|
 |Sort Order|Store View|Determines the order in which billing agreements are listed with other payment methods during checkout.|
-|Payment Action|Website|Determines how PayPal manages the transaction: Options: <br/>**Authorization** - Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is “captured” by the merchant. <br/>**Sale** - The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
+|Payment Action|Website|Determines how PayPal manages the transaction: Options: <br/>**Authorization** - Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is "captured" by the merchant. <br/>**Sale** - The amount of the purchase is authorized and immediately withdrawn from the customer's account.|
 |Payment Applicable From|Website|Determines the range of the applicable country selection. Options: All Allowed Countries / Specific Countries|
 |Countries Payment Applicable From|Website|Identifies each country from which payment is accepted. Only customers with a billing address in a selected country can make purchases with this payment method.|
 |Debug Mode|Website|Records communication with the payment system in a log file. Options: Yes / No <br/><br/>**_Note:_** The log file is stored on the server and is accessible only to developers. In accordance with PCI Data Security Standards, credit card information is not recorded in the log file.|
@@ -105,9 +107,9 @@ _Settlement Report Settings_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |**SFTP Credentials**|||
-|Login|Website|Your user name that is required to log in to PayPal’s Secure FTP Server.|
-|Password|Website|Your password that is required to log in to PayPal’s Secure FTP Server.|
-|Sandbox Mode|Website|When enabled, runs reports in a test environment before “going live” in the production environment. Options: Yes / No|
+|Login|Website|Your user name that is required to log in to PayPal's Secure FTP Server.|
+|Password|Website|Your password that is required to log in to PayPal's Secure FTP Server.|
+|Sandbox Mode|Website|When enabled, runs reports in a test environment before "going live" in the production environment. Options: Yes / No|
 |Custom Endpoint Hostname or IP-Address|Website|The URL where settlement reports are managed. Default value: reports.paypal.com|
 |Custom Path|Website|The path were settlement reports are saved on your server. Default value: /ppreports/outgoing|
 |**Scheduled Fetching**|||
@@ -124,8 +126,8 @@ _Frontend Experience Settings - PayPal Merchant Pages Style_
 |--- |--- |--- |
 |PayPal Product Logo|Website|Determines the PayPal logo that appears in your store. There are four basic style in two sizes. Options: No Logo / We prefer PayPal (150 x 60) / We prefer PayPal (150 x 40, ) / Now accepting PayPal (150 x 60) / Now accepting PayPal (150 x 40) / Payments by PayPal (150 x 60) / Payments by PayPal (150 x 40) / Shop now using (150 x 60) / Shop now using (150 x 40)|
 |**PayPal Merchant Pages Style**|||
-|Page Style|Website|Determines the appearance of your PayPal merchant page. Permitted values: **paypal** - Uses the PayPal page style. <br/>**primary** - Uses the page style that you identified as the “primary” style in your account profile. <br/>**your_custom_value** - Uses a custom payment page style, which is specified in your account profile.|
-|Header Image URL|Website|The URL of the image that appears in the upper-left corner of the checkout page. The maximum size is 750 x 90 pixels. <br/><br/>**_Note:_** PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer’s browser may warn that “the page contains both secure and nonsecure items.”|
+|Page Style|Website|Determines the appearance of your PayPal merchant page. Permitted values: **paypal** - Uses the PayPal page style. <br/>**primary** - Uses the page style that you identified as the "primary" style in your account profile. <br/>**your_custom_value** - Uses a custom payment page style, which is specified in your account profile.|
+|Header Image URL|Website|The URL of the image that appears in the upper-left corner of the checkout page. The maximum size is 750 x 90 pixels. <br/><br/>**_Note:_** PayPal recommends that the image be located on a secure (https) server. Otherwise, the customer's browser may warn that "the page contains both secure and nonsecure items."|
 |Header Image Background Color|Website|The six-character [hexadecimal color](https://en.wikipedia.org/wiki/Web_colors) code for the background color of the header on the checkout page. You can enter the code in either upper- and lowercase characters.|
 |Header Image Border Color|Website|The six-character [hexadecimal color](https://en.wikipedia.org/wiki/Web_colors) code for the two-pixel border around the header.|
 |Page Background Color|Website|The six-character [hexadecimal color](https://en.wikipedia.org/wiki/Web_colors) code for the background color of the checkout page that appears behind the header and payment form.|

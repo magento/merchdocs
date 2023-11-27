@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: B2B Features
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/general/b2b-features.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [General]({% link configuration/general/general.md %}) > B2B Features

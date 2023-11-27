@@ -1,5 +1,7 @@
 ---
 title: Importing Configurable Products
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/examples/data-transfer-configurable-products.html
 ---
 
 The best way to understand how configurable product data is structured, is to export a configurable product and its variations, and examine the data in a spreadsheet.
@@ -82,19 +84,19 @@ _New Size Variation Added for Each Color_
 
       In this example, the data can be found in columns CG and CH. Depending on the number of variations, the string of data in the `configurable_variations` column can be quite long. The data is used an an index to the associated product variations, and has the following structure:
 
-      **Data Format**
+      Data Format
 
-      ```
+      ```json
       {% raw %}sku={{SKU_VALUE}},attribute1={{VALUE}},attribute2={{VALUE}}| sku={{SKU_VALUE}},attribute1={{VALUE}},attribute2={{VALUE}}{% endraw %}
       ```
       {: .no-copy}
 
       Each sku is separated by a pipe symbol (&#124;), and attributes are separated by a comma. The value of each attribute is represented by the attribute code, rather than the attribute label. This is how the actual data appears:
 
-      ```
+      ```json
         sku=MH01-XS-Black,size=XS,color=Black|sku=MH01-XS-Gray,size=XS,color=Gray|sku=MH01-XS-Orange,size=XS,color=Orange</pre>
         ```
-        {: .no-copy}
+      {: .no-copy}
 
 1. When you understand the structure of configurable product data, you can edit the data or add new variations directly to the CSV file.
 

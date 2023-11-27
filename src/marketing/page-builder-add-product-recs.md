@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Add Product Recommendations
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/workspace.html
 ---
 
 Use the Product Recommendations content type to add an existing, active [recommendation unit]({% link marketing/create-new-rec.md %}) to a page, block, or dynamic block.

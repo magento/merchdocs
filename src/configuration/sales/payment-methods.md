@@ -1,5 +1,7 @@
 ---
 title: Payment Methods
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Payment Methods
@@ -98,7 +100,7 @@ The following payment methods are built into Magento and do not use a third-part
 |New Order Status|Website|Determines the initial order status assigned to orders processed as Zero Subtotal Checkout. Default value: Pending|
 |Payment from Applicable Countries|Website|Determines the countries from which Zero Subtotal Checkout can be applied. Options: All Allowed Countries / Specific Countries|
 |Payment from Specific Countries|Website|Identifies the specific countries for which Zero Subtotal Checkout can be applied.|
-|Sort Order|Website|A number that determines the order that the title, such as “No Payment Information is Required”, appears when listed with other payment methods during checkout. Enter `0` to place it at the top of the list.|
+|Sort Order|Website|A number that determines the order that the title, such as "No Payment Information is Required", appears when listed with other payment methods during checkout. Enter `0` to place it at the top of the list.|
 
 ## Purchase Order
 

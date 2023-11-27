@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Configuring Invitations
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/events/invitations.html#enable-invitations-for-your-store
 ---
 
 The invitation configuration enables invitations for the store, and determines how they are sent.

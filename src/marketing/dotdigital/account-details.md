@@ -1,7 +1,7 @@
 ---
 title: Account Details
-redirect_from:
-  - /marketing/engagement-cloud-account-details.html
+redirect to:
+  - https://support.dotdigital.com/en/collections/5610169-magento-open-source-and-adobe-commerce
 ---
 
 Use the Account option on the Settings menu to update your information and settings, and view your account dashboard.

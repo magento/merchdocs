@@ -1,6 +1,8 @@
 ---
 title: Elasticsearch
 group: marketing
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-configuration.html#method-2%3A-commerce-with-elasticsearch
 ---
 
 Elasticsearch is a powerful and highly scalable distributed search engine that is used by such high-volume sites as eBay, Wikipedia, and GitHub. The implementation of Elasticsearch includes both search suggestions and recommendations. For installation instructions, see [Set up Elasticsearch service][1]{:target="_blank"} in our developer documentation.

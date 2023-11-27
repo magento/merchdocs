@@ -1,5 +1,7 @@
 ---
 title: Media Storage
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/storage/media-storage.html
 ---
 
 Media Storage helps you organize and gain access to media files that are stored on the server. The path to the location of the files is determined by the [Base URL]({% link stores/store-urls.md %}) configuration. Files in media storage can be accessed from the editor while working on pages and static blocks. Media Storage is usually located in the file system on the same server as the Magento program files.
@@ -34,7 +36,7 @@ The first two steps are the same as if you are inserting an image.
 
    - To upload files from your system, click <span class="btn">Choose Files</span> and do the following:
 
-      - In the directory of your local computer, navigate to the location of the images.
+      - In the directory on your local computer, navigate to the location of the images.
 
       - Select each image to be uploaded.
 

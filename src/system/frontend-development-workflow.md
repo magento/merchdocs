@@ -1,5 +1,7 @@
 ---
 title: Frontend Development Workflow
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#frontend-development-workflow
 ---
 
 The Frontend Development Workflow type determines if Less compilation takes place on the client- or server side during development. Less is an extension of CSS that has additional features and conventions, and that produces streamlined code. Client-side Less compilation is recommended for theme development. Server-side compilation is the default mode. The development workflow options are not available for stores in production mode.

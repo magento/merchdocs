@@ -1,5 +1,7 @@
 ---
 title: Table Rates
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate.html
 ---
 
 The table rate shipping method references a table of data to calculate shipping rates based on a combination of conditions, including:

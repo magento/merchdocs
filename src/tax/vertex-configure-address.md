@@ -1,5 +1,7 @@
 ---
 title: Configuring Storefront Address Validation
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html
 ---
 
 Your [Vertex Cloud account]({% link tax/vertex-account.md %}) also includes the Vertex Address Validation module. When this functionality is enabled for your Magento store, the storefront prompts the customer to correct the address information on both the shipping and billing steps of the one-page checkout and when the customer adds an address to their account.

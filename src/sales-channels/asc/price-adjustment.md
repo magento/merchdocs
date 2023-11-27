@@ -1,5 +1,7 @@
 ---
 title: Price Adjustment
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/price-adjustment.html
 ---
 
 

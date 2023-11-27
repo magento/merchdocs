@@ -1,5 +1,7 @@
 ---
 title: Redirect to Cart
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html#redirect-to-cart
 ---
 
 The shopping cart page can be configured to appear whenever an item is added to the cart, or only when customers choose to go to the page. The basic information about the items currently in the cart is always available in the [mini cart]({% link sales/cart-sidebar.md %}). The decision is a matter of balancing the benefits letting customers continue shopping, with the benefit of encouraging customers to proceed to checkout. It might be a simple matter of personal preference. However, if you want back it up with numbers, you can run an A/B test to see which approach produces a higher conversion rate.

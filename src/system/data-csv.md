@@ -1,5 +1,7 @@
 ---
 title: Working with CSV Files
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-csv.html
 ---
 
 The comma-separated-value (CSV) file format is used as the basis of data transfer operations, and is supported by all spreadsheet and database applications. The following file types are supported for import and export:
@@ -23,7 +25,7 @@ _Exported Product CSV in OpenOffice Calc_
 
 The first row of the table contains the names of each attribute, which are used as column headers. The remaining rows describe the individual product records. Any row that begins with a value in the SKU column is the beginning of a new product record. A single product might include several rows that contain information about multiple images or product options. The next row that has a value in the SKU column begins a new product.
 
-The category column contains a path for each category to which the product is assigned. The path includes the root category, followed by a forward slash (/) between each level. By default, the pipe “&#124;” character is used to separate different category paths. For example:
+The category column contains a path for each category to which the product is assigned. The path includes the root category, followed by a forward slash (/) between each level. By default, the pipe "&#124;" character is used to separate different category paths. For example:
 
     Default Category/Gear|Default Category/Gear/Bags.
 

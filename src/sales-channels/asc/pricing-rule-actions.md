@@ -1,7 +1,7 @@
 ---
 title: Price Rule Actions
-redirect_from:
-  - /sales-channels/asc/ob-pricing-rules-actions.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/pricing-rule-actions.html
 ---
 
 

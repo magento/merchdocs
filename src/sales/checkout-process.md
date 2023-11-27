@@ -1,9 +1,7 @@
 ---
 title: Checkout
-redirect_from:
-  - /sales/checkout-step1-shipping.html
-  - /sales/checkout-step2-payment-review.html
-  - /sales/checkout-order-confirmation.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process.html
 ---
 
 When the checkout process begins, the transaction shifts to a secure, encrypted channel. A padlock symbol appears in the address bar of the browser, and the URL changes from `http` to `https`.
@@ -33,7 +31,7 @@ _Checkout step 1: shipping_
 
 1. Complete the _Shipping Address_ form.
 
-   By default, the customer’s first and last name initially appear in the form.
+   By default, the customer's first and last name initially appear in the form.
 
    ![The Shipping Address form includes name and address information]({% link images/images/storefront-checkout-step1-shipping-add-new-address.png %}){: .zoom}
    _Shipping Address form_
@@ -65,7 +63,7 @@ _Review and payment page during checkout_
 
 ## Order confirmation
 
-The order confirmation appears after the order is placed. For registered customers, the page includes the order number with a link to the customer’s account, and a link to generate a receipt. Registered customers are told that they will receive order confirmation and tracking info by email. Guests are encouraged to create an account to track the order. Registered customers can generate a receipt by clicking a link.
+The order confirmation appears after the order is placed. For registered customers, the page includes the order number with a link to the customer's account, and a link to generate a receipt. Registered customers are told that they will receive order confirmation and tracking info by email. Guests are encouraged to create an account to track the order. Registered customers can generate a receipt by clicking a link.
 
 The order confirmation page is also called the _Success_ page, and is used by analytics programs to track conversions.
 

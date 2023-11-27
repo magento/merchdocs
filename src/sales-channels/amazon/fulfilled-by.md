@@ -1,5 +1,7 @@
 ---
 title: Fulfilled By
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 

@@ -1,5 +1,7 @@
 ---
 title: Discount with Minimum Purchase
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rule-discount-minimum-purchase.html
 ---
 
 Cart price rules can be used to offer a percentage discount based on a minimum purchase. In the following example, a 25% discount is applied to all purchases over $200.00 in a specific category. The format of the discount is as follows:

@@ -1,5 +1,7 @@
 ---
 title: Creating an Invoice
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html#create-an-invoice
 ---
 
 Creating an invoice for an order converts the temporary sales order into a permanent record of the order that cannot be canceled. A new invoice page looks similar to a completed order, with some additional fields. Every activity that is related to an order is noted in the Comments section of the invoice.
@@ -56,7 +58,7 @@ If the items are ready to ship, generate a packing slip for the shipment at the 
 1. (Optional) To generate a partial invoice:
 
    - In the _Items to Invoice_ section, update the **Qty to Invoice** column to include only specific items on the invoice.
-   - Click **Update Qty’s**.
+   - Click **Update Qty's**.
 
    ![]({% link images/images/invoice-items-to-invoice.png %}){: .zoom}
    _Items to Invoice_

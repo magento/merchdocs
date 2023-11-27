@@ -1,11 +1,13 @@
 ---
 ee_only: true
 title: Elements - Heading
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/elements/heading.html
 ---
 
 Heading levels establish a hierarchy that organizes content, and helps search engines index each page. Use the _Heading_ content type in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}) to add a text container with a heading level from H1 to H6 to the stage. Headings are formatted according to the style sheet that is associated with the current theme.
 
-The [Content Heading]({% link cms/page-builder-workspace.md %}) field in the _Content_ section can be used to add an H1 heading to the top of the page. However, the field is a legacy from previous versions of Magento and is provided to support older content. Because this field does not take advantage of Page Builder’s advanced features, we recommend that you leave the Content Heading field blank and use the Page Builder Heading content type to add headings of any level to the page.
+The [Content Heading]({% link cms/page-builder-workspace.md %}) field in the _Content_ section can be used to add an H1 heading to the top of the page. However, the field is a legacy from previous versions of Magento and is provided to support older content. Because this field does not take advantage of Page Builder's advanced features, we recommend that you leave the Content Heading field blank and use the Page Builder Heading content type to add headings of any level to the page.
 
 The following example shows how the Content Heading and the Heading content type appear when formatted by the Luma theme.
 

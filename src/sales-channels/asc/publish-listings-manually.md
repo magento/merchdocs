@@ -1,5 +1,7 @@
 ---
 title: Publish an Amazon Listing
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/publish-listings-manually.html
 ---
 
 ## Publish a single or multiple Amazon listing that has been ended

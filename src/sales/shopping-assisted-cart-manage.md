@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Managing a Shopping Cart
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage.html
 ---
 
 To begin an assisted shopping session, the customer must be logged into their account from the storefront to make the information available. If the customer does not have an account, you can [create one]({% link customers/account-create.md %}).

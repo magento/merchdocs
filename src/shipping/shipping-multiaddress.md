@@ -1,5 +1,7 @@
 ---
 title: Multiple Address Shipping
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html#multiple-addresses
 ---
 
 The Multiaddress Shipping options enable customers to ship an order to multiple addresses during checkout, and determine the maximum number of addresses to which an order can be shipped.

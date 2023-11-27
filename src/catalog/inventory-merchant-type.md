@@ -1,5 +1,7 @@
 ---
 title: Configuring Single and Multi Source Merchants
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/merchant-sourcing.html
 ---
 
 Magento supports inventory management for all sizes of businesses, including a single store with one website to an international network of websites, stores, warehouses, and drop shippers. All merchants using Magento fall into two types based on the number of locations, or sources, in your business.

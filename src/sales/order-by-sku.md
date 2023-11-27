@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Order by SKU
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku.html
 ---
 
 Order by SKU is a [widget]({% link cms/widgets.md %}) that can be displayed in the store as a convenience for all shoppers, or made available to only those in specific customer groups. Regardless of the configuration, _Order by SKU_ is always available to store administrators for creating and updating orders in the Admin.

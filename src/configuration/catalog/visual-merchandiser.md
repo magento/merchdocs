@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Visual Merchandiser
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/visual-merchandiser.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Catalog]({% link configuration/catalog.md %}) > Visual Merchandiser

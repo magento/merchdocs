@@ -1,5 +1,7 @@
 ---
 title: Listing Changes Log
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/reports-logs/logs/listing-changes-log.html
 ---
 
 

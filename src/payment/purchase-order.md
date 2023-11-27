@@ -1,5 +1,7 @@
 ---
 title: Purchase Order
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/offline/purchase-order.html
 ---
 
 A purchase order (PO) allows commercial customers to pay for authorized purchases by referencing the PO number. The purchase order is authorized and issued in advance by the company that is making the purchase. During checkout, the customer chooses Purchase Order as the method of payment. Upon receipt of your invoice, the company processes the payment in their accounts payable system, and pays for the purchase.
@@ -15,7 +17,7 @@ Before accepting payment by purchase order, always establish the credit worthine
 1. Under _Other Payment Methods_, expand ![]({% link images/images/btn-expand.png %}) the **Purchase Order** section.
 
    ![Purchase Order]({% link images/images/config-sales-payment-methods-purchase-order.png %}){: .zoom}
-   [_Purchase Order configuration_]({% link configuration/sales/payment-methods.md %}#purchase-order)
+   [_Purchase Order configuration_]({% link configuration/sales/payment-methods.md %})
 
    {:.bs-callout-info}
    If necessary, first deselect the **Use system value** checkbox to change these settings.

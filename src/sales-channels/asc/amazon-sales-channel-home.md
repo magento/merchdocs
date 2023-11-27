@@ -1,5 +1,7 @@
 ---
 title: Amazon Sales Channel Home
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/amazon-sales-channel-home.html
 ---
 
 

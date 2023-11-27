@@ -1,9 +1,11 @@
 ---
 title: Creating an Order
 group: sales
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html
 ---
 
-For registered customers who need assistance, you can create an entire order directly from the Admin. The Create New Order form includes all the information that is needed to complete the normal checkout process, with activity summaries from the customer’s account dashboard.
+For registered customers who need assistance, you can create an entire order directly from the Admin. The Create New Order form includes all the information that is needed to complete the normal checkout process, with activity summaries from the customer's account dashboard.
 
 ![]({% link images/images/customer-create-new-order.png %}){: .zoom}
 _Create New Order_
@@ -25,7 +27,7 @@ _Create New Order_
 
 If your store has multiple views, choose the store view where the order is to be placed.
 
-### Add products from the Customer’s Activities section
+### Add products from the Customer's Activities section
 
 1. Select the checkbox of each product in the left panel.
 

@@ -1,5 +1,7 @@
 ---
 title: Catalog Price Rules
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html
 ---
 
 Catalog price rules can be used to offer products to buyers at a discounted price, based on a set of defined conditions. Catalog price rules do not use [coupon codes]({% link marketing/price-rules-cart-coupon.md %}), because they are triggered before a product is placed into the shopping cart.

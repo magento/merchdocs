@@ -1,5 +1,7 @@
 ---
 title: Cash On Delivery
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/offline/cash-on-delivery.html
 ---
 
 Magento allows you to accept COD payments for purchases. You can accept COD payment only from specific countries, and you can fine-tune the configuration with minimum and maximum order total limits.
@@ -18,7 +20,7 @@ _Cash On Delivery Payment_
 1. Under _Other Payment Methods_, expand ![]({% link images/images/btn-expand.png %}) the **Cash On Delivery Payment** section.
 
    ![Cash on Delivery Payment]({% link images/images/config-sales-payment-methods-cash-on-delivery-payment.png %}){: .zoom}
-   [_Cash On Delivery configuration_]({% link configuration/sales/payment-methods.md %}#cash-on-delivery-payment)
+   [_Cash On Delivery configuration_]({% link configuration/sales/payment-methods.md %})
 
    {:.bs-callout-info}
    If necessary, first deselect the **Use system value** checkbox to change these settings.

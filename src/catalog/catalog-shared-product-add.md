@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Adding Products to a Shared Catalog
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-product-add.html
 ---
 
 Products can be added to a shared catalog either individually or in groups of multiple products by category.

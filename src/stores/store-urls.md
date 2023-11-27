@@ -1,5 +1,7 @@
 ---
 title: Store URLs
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html
 ---
 
 Each website in a Magento installation has a base URL that is assigned to the storefront, and another URL that is assigned to the Admin. Magento uses variables to define internal links in relation to the base URL, which makes it possible to move an entire store from one location to another without updating the links. Standard base URLs begin with `http`, and secure base URLs begin with `https`.

@@ -1,5 +1,7 @@
 ---
 title: Cron (Scheduled Tasks)
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html
 ---
 
 Magento performs some operations on schedule by periodically running a script. You can control the execution and scheduling of Magento cron jobs from the Admin. Store operations that run according to a cron schedule include:

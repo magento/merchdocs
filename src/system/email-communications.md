@@ -1,6 +1,8 @@
 ---
 title: Configuring Email Communications
 group: marketing
+redirect at:
+  - https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html
 ---
 
 The Mail Sending Settings give you the ability to route returned email or replies to email to a specific address. Also, if your store is running on a Windows server, you can verify the host and port settings.

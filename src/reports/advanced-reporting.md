@@ -1,5 +1,7 @@
 ---
 title: Advanced Reporting
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting
 ---
 
 Advanced Reporting, which is included with Magento Commerce and Open Source customers, gives you access to a suite of dynamic reports that are based on your product, order, and customer data, with a personalized dashboard that is tailored to your business needs. While Advanced Reporting uses Magento Business Intelligence (MBI) for analytics, you do not need to have an MBI account to use Advanced Reporting.
@@ -28,7 +30,7 @@ Advanced Reporting can be used only with Magento installations that have continu
 
 ## Step 1: Enable Advanced Reporting
 
-In the Magento configuration, [Advanced Reporting]({% link configuration/general/advanced-reporting.md %}) is enabled by default, and starts automatically if cron is [configured]({% link configuration/advanced/system.md %}) and running. An attempt to establish the subscription is initiated at the beginning of each hour over the next 24-hours until successful. The subscription status is “pending” until the subscription is successfully established.
+In the Magento configuration, [Advanced Reporting]({% link configuration/general/advanced-reporting.md %}) is enabled by default, and starts automatically if cron is [configured]({% link configuration/advanced/system.md %}) and running. An attempt to establish the subscription is initiated at the beginning of each hour over the next 24-hours until successful. The subscription status is "pending" until the subscription is successfully established.
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 
@@ -74,7 +76,7 @@ In the upper-right corner of the Advanced Reporting dashboard, click **Additiona
 
 ## Troubleshooting
 
-If you get a 404 “Page Not Found” message, verify that your store meets the requirements for Advanced Reporting. Then, follow the instructions to verify that the integration is installed.
+If you get a 404 "Page Not Found" message, verify that your store meets the requirements for Advanced Reporting. Then, follow the instructions to verify that the integration is installed.
 
 ### Verify that the Integration is Active
 
@@ -97,7 +99,7 @@ If you get a 404 “Page Not Found” message, verify that your store meets the 
       ![]({% link images/images/advanced-reporting-integration-tokens-for-extensions.png %}){: .zoom}
       *Integration Tokens*
 
-1. Look for the message that indicates the integration “Magento Analytics user” is reauthorized.
+1. Look for the message that indicates the integration "Magento Analytics user" is reauthorized.
 
 1. Wait overnight, or until after the time of your next scheduled update.
 

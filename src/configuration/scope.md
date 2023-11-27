@@ -1,9 +1,11 @@
 ---
 title: Scope
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings
 ---
 
-If your Magento installation has a hierarchy of websites, stores, or views, you can set the context, or “scope” of a configuration setting to apply to a specific part of the installation. The context of many database entities can also be assigned a specific scope to determine how it is used in the store hierarchy. To learn more, see: [Product Scope]({% link catalog/product-scope.md %}) and [Price Scope]({% link catalog/catalog-price-scope.md %}).
+If your Magento installation has a hierarchy of websites, stores, or views, you can set the context, or "scope" of a configuration setting to apply to a specific part of the installation. The context of many database entities can also be assigned a specific scope to determine how it is used in the store hierarchy. To learn more, see: [Product Scope]({% link catalog/product-scope.md %}) and [Price Scope]({% link catalog/catalog-price-scope.md %}).
 
 Some configuration settings such as postal code, have a [global] scope because the same value is used throughout the system. The [website] scope applies to any stores below that level in the hierarchy, including all stores and their views. Any item with the scope of [store view] can be set differently for each store view, which is typically used to support multiple languages.
 

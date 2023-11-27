@@ -1,5 +1,7 @@
 ---
 title: Flat Rate
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate.html
 ---
 
 Flat rate is a fixed, predefined charge that can be applied per item, or per shipment. Flat rate is a simple shipping solution, especially when used with the flat-rate packaging that is available from some carriers. When enabled, Flat Rate appears as an option during checkout. Because no specific carrier is specified, you can use a carrier of your choice.
@@ -15,7 +17,7 @@ Flat Rate appears as an option in the _Estimate Shipping and Tax_ section of the
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Flat Rate** section.
 
    ![]({% link images/images/config-sales-shipping-methods-flat-rate.png %}){: .zoom}
-   [*Flat Rate*]({% link configuration/sales/shipping-methods.md %}#flat-rate)
+   [*Flat Rate*]({% link configuration/sales/shipping-methods.md %})
 
 1. Set **Enabled** to `Yes`.
 
@@ -23,7 +25,7 @@ Flat Rate appears as an option in the _Estimate Shipping and Tax_ section of the
 
 1. Enter a **Method Name** to appear next to the calculated rate in the shopping cart.
 
-   The default method name is “Fixed”. If you charge a handling fee, you can change the Method Name to “Plus Handling,” or something else that is suitable.
+   The default method name is "Fixed". If you charge a handling fee, you can change the Method Name to "Plus Handling," or something else that is suitable.
 
 1. To describe how flat rate shipping can be used, set **Type** to one of the following:
 

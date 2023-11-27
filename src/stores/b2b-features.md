@@ -2,6 +2,8 @@
 b2b_only: true
 title: Configuring B2B Features
 group: getting-started
+redirect to: 
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html
 ---
 
 Each website in your Magento installation can be configured to make available some, or all, of the following B2B features from the storefront.

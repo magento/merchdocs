@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: CyberSource (Deprecated)
+redirect_to:
+  - https://marketplace.magento.com/catalogsearch/result/?q=cybersource
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > CyberSource (Deprecated)
@@ -17,7 +19,7 @@ For details about making a secure transition from deprecated payment integration
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Website|Determines if CyberSource is available to your customers as a payment method. Options Yes / No|
-|Payment Action|Website|Determines the action taken by CyberSource when a payment is authorized. Options: <br/>**Authorize** - Funds on the customer's card are authorized, but not transferred from the customer’s account. An order is created in your store Admin. You can later create an invoice and capture the sale. <br/>**Authorize and Capture** - Funds on the customer's card are authorized and transferred from the customer’s account. Both an order and invoice are created in your store Admin.|
+|Payment Action|Website|Determines the action taken by CyberSource when a payment is authorized. Options: <br/>**Authorize** - Funds on the customer's card are authorized, but not transferred from the customer's account. An order is created in your store Admin. You can later create an invoice and capture the sale. <br/>**Authorize and Capture** - Funds on the customer's card are authorized and transferred from the customer's account. Both an order and invoice are created in your store Admin.|
 |Title|Store View|The label that identifies CyberSource as a payment method during checkout.|
 |Merchant ID|Website|The Merchant ID that is associated with your CyberSource account.|
 |Transaction Key|Website|The Transaction Key that is associated with your CyberSource account.|

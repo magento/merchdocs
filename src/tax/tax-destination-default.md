@@ -1,5 +1,7 @@
 ---
 title: Default Tax Destination
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html#default-tax-destination
 ---
 
 The default tax destination settings determine the country, state, and ZIP or postal code that are used as the basis of tax calculations.

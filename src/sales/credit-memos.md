@@ -1,5 +1,7 @@
 ---
 title: Credit Memos
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html
 ---
 
 A credit memo is a document that shows the amount that is due the customer for a full or partial refund. The amount can be applied toward a purchase or refunded to the customer. For details about the refund workflow, see [Returns]({% link sales/returns.md %}).

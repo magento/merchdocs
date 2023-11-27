@@ -1,5 +1,7 @@
 ---
 title: Google API
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/delivery-methods.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Google API
@@ -36,7 +38,7 @@ _Google Analytics - Google Tag Manager_
 |List property for the up-sell block|Store View|Identifies the Tag Manager property associated with the up-sell block. Default value: Up-sell|
 |List property for the related products block|Store View|Identifies the Tag Manager property associated with the related products block. Default value: Related Products|
 |List property for the search results page|Store View|Identifies the Tag Manager property associated with the search results page. Default value: Search Results|
-|‘Internal Promotions’ for promotions field “Label”|Store View|Identifies the Tag Manager property associated with the labels for internal promotions. Default value: Label|
+|'Internal Promotions' for promotions field "Label"|Store View|Identifies the Tag Manager property associated with the labels for internal promotions. Default value: Label|
 
 ## Google Adwords
 

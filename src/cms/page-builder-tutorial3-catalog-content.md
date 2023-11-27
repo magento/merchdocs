@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: 'Tutorial 3: Catalog Content'
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/walkthrough/3-catalog-content.html
 ---
 
 In this tutorial, you will learn how easy it is to add a product list to a page, customize product pages, and create a custom attribute that adds the Page Builder workspace to a product attribute set.

@@ -1,5 +1,7 @@
 ---
 title: Create Magento Attributes for Amazon
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/onboarding/ob-creating-magento-attributes.html
 ---
 
 Prior to onboarding your Amazon Seller Central accounts, we recommend adding Magento [product attributes]({% link stores/attributes-product.md %}) to map your product listings. After you complete onboarding, you can manage your product attributes through the [Attributes]({% link sales-channels/asc/managing-attributes.md %}) tab of the [Amazon Sales Channel home]({% link sales-channels/asc/amazon-sales-channel-home.md %}) page.

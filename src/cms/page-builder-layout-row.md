@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Layout - Row
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/layout/row.html
 ---
 
 Use the _Row_ content type to add a new row in the [Page Builder workspace]({% link cms/page-builder-workspace.md %}). The row is the basic building block of all Page Builder content. Whenever you create new content, the stage is initially populated with a single, blank row.

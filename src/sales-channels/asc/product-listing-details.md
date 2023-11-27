@@ -1,5 +1,7 @@
 ---
 title: View Listing Details
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/product-listing-details.html
 ---
 
 

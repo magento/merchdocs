@@ -1,5 +1,7 @@
 ---
 title: Promotions
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/introduction.html#promotions
 ---
 
 In this section of the guide, you will learn how to set up product relationships and how to use price rules to trigger discounts based on a variety of conditions. You can use price rules to offer customer incentives, such as:
@@ -20,7 +22,7 @@ For [catalog price rules]({% link marketing/price-rules-catalog.md %}), you buil
 ![Diagram - example catalog price rules]({% link images/images/diagram-catalog-price-rules.png %}){: .zoom}
 _Example options for Catalog Price Rule_
 
-[Cart price rule]({% link marketing/price-rules-cart.md %}) conditions can be based on any category that is a child of the store’s [root]({% link catalog/category-root.md %}). Price rules are set up in advance, and spring into action whenever the required conditions are met. These rules use attributes including product attribute combination like matching a SKU in the cart using product attributes, product subselection like the total quantity matching conditions, condition combinations for complicated rules, and cart attributes like subtotal.
+[Cart price rule]({% link marketing/price-rules-cart.md %}) conditions can be based on any category that is a child of the store's [root]({% link catalog/category-root.md %}). Price rules are set up in advance, and spring into action whenever the required conditions are met. These rules use attributes including product attribute combination like matching a SKU in the cart using product attributes, product subselection like the total quantity matching conditions, condition combinations for complicated rules, and cart attributes like subtotal.
 
 ![Diagram - example cart price rules]({% link images/images/diagram-cart-price-rules.png %}){: .zoom}
 _Example options for Cart Price Rule_

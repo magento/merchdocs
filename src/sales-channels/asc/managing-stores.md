@@ -1,5 +1,7 @@
 ---
 title: Amazon Stores View
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/managing-stores.html
 ---
 
 

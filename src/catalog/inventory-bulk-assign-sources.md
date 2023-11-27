@@ -1,5 +1,7 @@
 ---
 title: Bulk Assigning Sources
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/bulk-assignment.html
 ---
 
 Use the Assign Sources tool to add one or more sources to your products. The tool helps when creating and assigning custom sources to your Default Stock or custom stocks and preparing new locations and inventory.

@@ -1,5 +1,7 @@
 ---
 title: Group Price
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/product-price-group.html
 ---
 
 A discounted price on any product can be extended to members of a specific customer group, provided they shop while logged in to their accounts. The discounted price appears on the product page with the regular price noted below, and replaces the regular price in the shopping cart.

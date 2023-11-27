@@ -1,5 +1,7 @@
 ---
 title: Default Field Values
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-workspace.html#default-field-values
 ---
 
 To save time when creating products, the default value of several product fields references values from another field. You can either accept the default value or enter another. The following fields have automatically generated default values:
@@ -22,7 +24,7 @@ The placeholders that represent the value of another field are enclosed in doubl
 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **Product Fields Auto-Generation** section and make any changes needed to the placeholder values.
 
-   For example, if there’s a specific keyword that you want to include for every product or a phrase that you want to include in every meta description, you can type the value directly into the appropriate field.
+   For example, if there's a specific keyword that you want to include for every product or a phrase that you want to include in every meta description, you can type the value directly into the appropriate field.
 
    {:.bs-callout-info}
    If you want to keep the existing placeholder values, preserve the double curly braces that enclose each markup tag.

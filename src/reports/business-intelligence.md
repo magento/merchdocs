@@ -1,15 +1,7 @@
 ---
 title: Business Intelligence Tools
-redirect_from:
-  - /reports/bi-essentials-dashboards.html
-  - /reports/bi-essentials-report-builder.html
-  - /reports/bi-essentials-report-builder-visual.html
-  - /reports/bi-essentials-report-builder-filters.html
-  - /reports/bi-essentials-report-builder-formulas.html
-  - /reports/bi-essentials-manage-data.html
-  - /reports/bi-essentials-manage-data-metrics.html
-  - /reports/bi-essentials-manage-data-filter-sets.html
-  - /reports/bi-essentials-export-data.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html
 ---
 
 Use business intelligence tools to gain the insight you need to make sound business decisions.

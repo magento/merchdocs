@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Elements - Buttons
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/elements/buttons.html
 ---
 
 Use the Buttons content type to add either an individual button or a set of buttons to the stage. Buttons can be arranged horizontally or vertically, and added directly to rows, columns, tabs, and banners on the stage.

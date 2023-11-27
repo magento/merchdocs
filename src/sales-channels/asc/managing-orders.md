@@ -1,20 +1,22 @@
 ---
 title: Manage Orders
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-orders/managing-orders.html
 ---
 
 
 You can view your Amazon order information, as received from Amazon, in the _Recent Orders_ section of the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}) or on the _Amazon orders_ page (also called the _All Orders_ view).
 
-How you manage your Amazon orders depends on whether or not you have order import enabled or disabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}#configure-order-settings).
+How you manage your Amazon orders depends on whether or not you have order import enabled or disabled in your [Order Settings]({% link sales-channels/asc/order-settings.md %}).
 
 ## With order import enabled
 
-After [store integration]({% link sales-channels/asc/store-integration.md %}), [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) is `Enabled` by default. This means that corresponding Magento orders are created for your Amazon orders and can be managed in the [Magento Orders]({% link sales/orders.md %}) workflow.
+After [store integration]({% link sales-channels/asc/store-integration.md %}), [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}) is `Enabled` by default. This means that corresponding Magento orders are created for your Amazon orders and can be managed in the [Magento Orders]({% link sales/orders.md %}) workflow.
 
 {:.bs-callout .bs-callout-info}
 Regardless of your order import settings, Amazon orders that existed in your Amazon Seller Central account prior to your [store integration]({% link sales-channels/asc/store-integration.md %}) do not import.
 
-Imported Amazon orders are managed in the [Magento Orders]({% link sales/orders.md %}) workflow, just like your other Magento stores. Click the Amazon order number in the _Order Number_ column to open the order in the [Magento order process]({% link sales/order-processing.md %}#order-view-descriptions). See [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}).
+Imported Amazon orders are managed in the [Magento Orders]({% link sales/orders.md %}) workflow, just like your other Magento stores. Click the Amazon order number in the _Order Number_ column to open the order in the [Magento order process]({% link sales/order-processing.md %}). See [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}).
 
 ### Order import process
 
@@ -44,7 +46,7 @@ When the issue is resolved, the Magento order is created on the next sync.
 
 ## With order import disabled
 
-If you do not want to import and manage your Amazon orders in Magento, you can change the [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}#configure-order-settings) setting to `Disabled`. This means that when new orders are received from Amazon, corresponding Magento orders are not created.
+If you do not want to import and manage your Amazon orders in Magento, you can change the [**Import Amazon Orders**]({% link sales-channels/asc/order-settings.md %}) setting to `Disabled`. This means that when new orders are received from Amazon, corresponding Magento orders are not created.
 
 When disabled, order information received from Amazon appears in the _Recent Orders_ section of the store dashboard and in the _All Orders_ view. This order information is view only, and you must manage these orders in Amazon Seller Central. Click the Amazon order number in the _Order Number_ column to open the order details in Amazon Seller Central. See [View Amazon Orders]({% link sales-channels/asc/amazon-orders-all.md %}).
 

@@ -2,8 +2,8 @@
 ee_only: true
 title: Customer Segments for Dynamic Blocks
 group: customers
-redirect_from:
-  - /marketing/customer-segment-banner.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/segments/customer-segments.html
 ---
 
 A [dynamic block]({% link cms/dynamic-blocks.md %}) can target a specific [customer segment]({% link marketing/customer-segments.md %}), and be incorporated into a [cart price rule]({% link marketing/price-rules-cart.md %}). Because customer segments are dynamic, the price rule can adjust to changes in customer activity.

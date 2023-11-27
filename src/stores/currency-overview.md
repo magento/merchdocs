@@ -1,6 +1,8 @@
 ---
 title: Currency
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html#currency
 ---
 
 Currency Setup

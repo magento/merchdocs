@@ -1,5 +1,7 @@
 ---
 title: Authorize.Net Direct Post - Deprecated
+redirect_to:
+  - https://commercemarketplace.adobe.com/catalogsearch/result/?q=authorize.net
 ---
 
 {:.bs-callout-warning}
@@ -82,7 +84,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
    `https://secure.authorize.net/gateway/transact.dll`
 
-   If you have received a temporary URL for test transactions, don’t forget to restore the original URL when you are ready to process live transactions.
+   If you have received a temporary URL for test transactions, don't forget to restore the original URL when you are ready to process live transactions.
 
 ### Step 3: Complete the payment and notification settings
 
@@ -97,7 +99,7 @@ _Authorize.Net Direct Post payment settings_
 
    - If you want Authorize.Net to send an order confirmation notification to the customer, set **Email Customer** to `Yes`.
 
-   - For **Merchant’s Email**, enter the email address where you want to receive notification of orders placed with Direct Post. Leave blank if you do not want to receive notification.
+   - For **Merchant's Email**, enter the email address where you want to receive notification of orders placed with Direct Post. Leave blank if you do not want to receive notification.
 
 1. In the **Credit Card Types** list, select each credit card that is accepted in your store.
 

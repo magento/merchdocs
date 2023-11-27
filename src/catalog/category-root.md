@@ -1,7 +1,7 @@
 ---
 title: Root Categories
-redirect_from:
-  - /catalog/products-menu.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-root.html
 ---
 
 The products in the main menu are determined by the root category that is assigned to the [store]({% link stores/stores-all-create-store.md %}). The root category is basically a container for the main menu in the category tree. You can create a root category with an entirely new set of products or copy products from an existing root category. The root category can be assigned to the current store or to any other store in the same website.

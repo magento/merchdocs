@@ -1,7 +1,7 @@
 ---
 title: Pricing Rule General Settings
-redirect_from:
-  - /sales-channels/asc/ob-pricing-rules-general-settings.html
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/pricing-rule-general-settings.html
 ---
 
 

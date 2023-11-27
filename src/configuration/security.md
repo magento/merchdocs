@@ -1,5 +1,7 @@
 ---
 title: Security
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html
 ---
 
 Security configuration settings can be found in **Stores** > **Settings** > **Configuration** > **Security**.

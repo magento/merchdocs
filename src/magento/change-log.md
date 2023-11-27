@@ -1,5 +1,7 @@
 ---
 title: Change Log
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html
 ---
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.
@@ -17,7 +19,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |Topic |Change|
 |--- |--- |
 |Web Setup Wizard <br/>Extension Manager <br/>Module Manager <br/>System Upgrade <br/>System Configuration |Removed all content for the Web Setup Wizard. This UI functionality was removed in 2.3.7. All installation and updates, including modules and extensions, must be done by command line.|
-|[Store Admin]({% link stores/admin.md %}) <br/> [Admin]({% link configuration/advanced/admin.md %}#admin-usage) (reference) <br/> |Updated the opt-in Admin usage data information to include new support for in-product guidance.|
+|[Store Admin]({% link stores/admin.md %}) <br/> [Admin]({% link configuration/advanced/admin.md %}) (reference) <br/> |Updated the opt-in Admin usage data information to include new support for in-product guidance.|
 
 ## March 2021
 
@@ -36,7 +38,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 {: .topics-table }
 |Topic |Change|
 |--- |--- |
-|[Data Mapping]({% link configuration/dotdigital/data-mapping.md %}) (reference)<br/>[Customer Configuration]({% link configuration/customers/customer-configuration.md %}#open-source-options) (reference) |Updates to address the use of the default _Date of Birth_ customer account field/attribute.|
+|[Data Mapping]({% link configuration/dotdigital/data-mapping.md %}) (reference)<br/>[Customer Configuration]({% link configuration/customers/customer-configuration.md %}) (reference) |Updates to address the use of the default _Date of Birth_ customer account field/attribute.|
 
 ## January 2021
 
@@ -46,7 +48,7 @@ Our documentation is continually updated with new topics, clarifications, and co
 |Topic |Change|
 |--- |--- |
 |[Managing Subscribers]({% link marketing/newsletter-subscribers.md %})|Updates to clarify applying the newsletter unsubscribe function to multiple customer accounts.|
-|[Inventory]({% link configuration/catalog/inventory.md %}#product-stock-options) (reference)|Update to the _Product Stock Options_ section to include more detailed information about the _Use deferred Stock update_ option.|
+|[Inventory]({% link configuration/catalog/inventory.md %}) (reference)|Update to the _Product Stock Options_ section to include more detailed information about the _Use deferred Stock update_ option.|
 |[Coupon Codes]({% link marketing/price-rules-cart-coupon.md %}) |Added a note about the possible actual coupon usage count exceeding the defined limit.|
 
 ## October 2020

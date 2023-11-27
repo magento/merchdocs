@@ -1,5 +1,7 @@
 ---
 title: PayPal Payments Advanced
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-payments-advanced.html
 ---
 
 [PayPal Payments Advanced][4] is a [PCI-compliant]({% link stores/compliance-pci.md %}) solution that lets your customers pay by debit or credit card without leaving your site. It includes an embedded checkout page that can be customized to create a seamless and secure checkout experience.
@@ -188,8 +190,8 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. Set **Payment Action** to one of the following:
 
-   |`Authorization` |Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is “captured” by the merchant. |
-   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
+   |`Authorization` |Approves the purchase, but puts a hold on the funds. The amount is not withdrawn until it is "captured" by the merchant. |
+   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer's account.|
 
 ### Step 5: Complete the advanced settings
 
@@ -239,7 +241,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. For **SFTP Credentials**, do the following:
 
-   - If you have signed up for PayPal’s Secure FTP Server, enter the following SFTP login credentials:
+   - If you have signed up for PayPal's Secure FTP Server, enter the following SFTP login credentials:
 
       - Login
       - Password
@@ -328,7 +330,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 1. Set **Payment Action** to one of the following:
 
    |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is _captured_ by the merchant.|
-   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
+   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer's account.|
 
 1. To display the _Check out with PayPal_ button on the product page, set **Display on Product Details Page** to `Yes`.
 
@@ -353,7 +355,7 @@ The frontend experience settings give you the opportunity to choose which PayPal
 
 1. To enable host authenticity verification, set **Enable SSL Verification** to `Yes`.
 
-1. To display a full summary of the customer’s order by line item from the PayPal site, set **Transfer Cart Line Items** to `Yes`.
+1. To display a full summary of the customer's order by line item from the PayPal site, set **Transfer Cart Line Items** to `Yes`.
 
 1. To allow the customer to complete the transaction from the PayPal site without returning to your Magento store for Order Review, set **Skip Order Review Step** to `Yes`.
 

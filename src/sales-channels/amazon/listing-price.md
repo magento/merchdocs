@@ -1,5 +1,7 @@
 ---
 title: Listing Price
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 Listing Price options are part of your store's listing settings. You can access the listing settings for an Active or Inactive store in the [store's dashboard]({% link sales-channels/amazon/amazon-store-dashboard.md %}).

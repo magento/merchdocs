@@ -1,5 +1,7 @@
 ---
 title: EU Tax Guidelines
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/international-tax-guidelines.html#eu-tax-configuration
 ---
 
 The following example depicts a store based in France that sells 100k+ Euros in France and 100k+ Euros in Germany.
@@ -53,13 +55,13 @@ Create the following tax rules:
 
    - In the upper-left corner, set **Default Config** to the French store.
 
-   - On the General page, expand ![]({% link images/images/btn-expand.png %}) the **Countries Options** section, and set the default country to “France.”
+   - On the General page, expand ![]({% link images/images/btn-expand.png %}) the **Countries Options** section, and set the default country to "France."
 
    - Complete the locale options as needed.
 
 1. In the upper-left corner, choose the German **Store View**.
 
-1. On the _General_ page, expand ![]({% link images/images/btn-expand.png %}) **Countries Options**, and set the default country to “Germany.”
+1. On the _General_ page, expand ![]({% link images/images/btn-expand.png %}) **Countries Options**, and set the default country to "Germany."
 
 1. Complete the locale options as needed.
 
@@ -104,7 +106,7 @@ Complete the following General tax settings:
 
    - Clear the **Use Website** checkbox after each field,
 
-   - Update the following values to match your site's Shipping Settings [point of origin]({% link shipping/shipping-settings.md %}#origin).
+   - Update the following values to match your site's Shipping Settings [point of origin]({% link shipping/shipping-settings.md %}).
 
       - Default Country
       - Default State

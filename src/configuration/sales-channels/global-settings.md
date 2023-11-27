@@ -1,5 +1,7 @@
 ---
 title: Global Settings
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html
 ---
 
 Stores > Settings > Configuration > Sales Channels > Global Settings

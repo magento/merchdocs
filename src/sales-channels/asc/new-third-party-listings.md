@@ -1,5 +1,7 @@
 ---
 title: New Third Party Listings
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/new-third-party-listings.html
 ---
 
 

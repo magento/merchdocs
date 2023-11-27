@@ -1,5 +1,7 @@
 ---
 title: PayPal Payflow Link
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-payflow-link.html
 ---
 
 PayPal PayFlow Link is available for merchants in the United States and Canada only. Customers are not required to have a personal PayPal account, and enter their credit card information in a form that is hosted by PayPal. The information is never stored on your Magento server. PayFlow Link cannot be used for orders that are created from the Admin.
@@ -182,7 +184,7 @@ _Required PayPal Settings - PayPal Payflow Link_
 1. Set **Payment Action** to one of the following:
 
    |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is captured by the merchant.|
-   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
+   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer's account.|
 
 ### Step 6: Complete the advanced settings
 
@@ -319,7 +321,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 1. Set **Payment Action** to one of the following:
 
    |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is _captured_ by the merchant.|
-   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
+   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer's account.|
 
 1. To display the _Check out with PayPal_ button on the product page, set **Display on Product Details Page** to `Yes`.
 

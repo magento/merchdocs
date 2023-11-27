@@ -2,6 +2,8 @@
 title: Edit Existing Recommendations
 tag: product-recommendations
 ee_only: true
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/edit.html
 ---
 
 You can modify certain settings for an existing recommendation.

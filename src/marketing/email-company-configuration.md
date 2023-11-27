@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Configuring Company Email
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/enable-basic-features.html#configure-company-email-options
 ---
 
 The [sales representative]({% link customers/account-company-sales-representative.md -%}) that is assigned as the primary contact for a company is configured by default as the sender of many automated email messages sent to the company.
@@ -33,22 +35,22 @@ The [sales representative]({% link customers/account-company-sales-representativ
         ![Customers configuration - company registration]({% link images/images-b2b/config-customers-company-configuration-email-options-company-registration1.png %}){: .zoom}
         [_Email Options - Company Registration_]({% link configuration/customers/company-configuration.md -%})
 
-   **Customer-Related Emails**
+     Customer-Related Emails
 
    - If you have prepared alternate email templates to be used instead of the defaults, choose the template that you want to use for each of the following:
 
-      - **Default ‘Sales Rep Assigned’ Email**
-      - **Default ‘Assign Company to Customer’ Email**
-      - **Default ‘Assign Company Admin’ Email**
-      - **Default ‘Company Admin Inactive’ Email**
-      - **Default ‘Company Admin Changed to Member’ Email**
-      - **Default ‘Customer Status Active’ Email**
-      - **Default ‘Customer Status Inactive’ Email**
+      - **Default 'Sales Rep Assigned' Email**
+      - **Default 'Assign Company to Customer' Email**
+      - **Default 'Assign Company Admin' Email**
+      - **Default 'Company Admin Inactive' Email**
+      - **Default 'Company Admin Changed to Member' Email**
+      - **Default 'Customer Status Active' Email**
+      - **Default 'Customer Status Inactive' Email**
 
         ![Customers configuration - customer related emails]({% link images/images-b2b/config-customers-company-configuration-email-options-customer-related-emails.png %}){: .zoom}
         [_Customer-Related Emails_]({% link configuration/customers/company-configuration.md %})
 
-   **Company Status Change**
+   Company Status Change
 
    - Set **Company Status Change for Email Recipient** to the [store contact]({% link stores/store-email-addresses.md %}) who is to be notified when the status of a company changes.
 
@@ -59,20 +61,20 @@ The [sales representative]({% link customers/account-company-sales-representativ
         |Bcc|Sends a `blind courtesy copy` by including the recipient in the header of the same email that is sent to the customer. The BCC recipient is not visible to the customer.|
         |Separate Email|Sends the copy as a separate email.|
 
-   - If you have prepared an email template that is to be used instead of the default when company status changes from `Pending Approval` to `Active`, set **Default ‘Company Status Change to Active 1’ Email** to the name of the template. By default, the `Company Status Active 1` template is used.
+   - If you have prepared an email template that is to be used instead of the default when company status changes from `Pending Approval` to `Active`, set **Default 'Company Status Change to Active 1' Email** to the name of the template. By default, the `Company Status Active 1` template is used.
 
-   - If you have prepared an email template that is to be used instead of the default when company status changes from `Rejected` or `Blocked` to `Active`, set **Default ‘Company Status Change to Active 2’ Email** to the name of the template. By default, the `Company Status Active 2` template is used.
+   - If you have prepared an email template that is to be used instead of the default when company status changes from `Rejected` or `Blocked` to `Active`, set **Default 'Company Status Change to Active 2' Email** to the name of the template. By default, the `Company Status Active 2` template is used.
 
-   - If you have prepared an email template that is to be used instead of the default when company status changes to `Rejected`, set **Default ‘Company Status Change to Rejected’ Email** to the name of the template. By default, the `Company Status Rejected` template is used.
+   - If you have prepared an email template that is to be used instead of the default when company status changes to `Rejected`, set **Default 'Company Status Change to Rejected' Email** to the name of the template. By default, the `Company Status Rejected` template is used.
 
-   - If you have prepared an email template that is to be used instead of the default when company status changes to `Blocked`, set **Default ‘Company Status Change to Blocked’ Email** to the name of the template. By default, the `Company Status Blocked` template is used.
+   - If you have prepared an email template that is to be used instead of the default when company status changes to `Blocked`, set **Default 'Company Status Change to Blocked' Email** to the name of the template. By default, the `Company Status Blocked` template is used.
 
-   - If you have prepared an email template that is to be used instead of the default when company status changes to `Pending Approval`, set **Default ‘Company Status Change to Pending Approval’ Email** to the name of the template. By default, the `Company Status Pending Approval` template is used.
+   - If you have prepared an email template that is to be used instead of the default when company status changes to `Pending Approval`, set **Default 'Company Status Change to Pending Approval' Email** to the name of the template. By default, the `Company Status Pending Approval` template is used.
 
         ![Customers configuration - company status change]({% link images/images-b2b/config-customers-company-configuration-email-options-company-status-change.png %}){: .zoom}
         [_Company Status Change_]({% link configuration/customers/company-configuration.md -%})
 
-   **Company Credit Emails**
+   Company Credit Emails
 
    - Set **Company Credit Change Email Sender** to the [store contact]({% link stores/store-email-addresses.md %}) who is to be notified when a change is made to the credit limit that is assigned to a company. By default, the notification is sent to _Sales Representative_.
 

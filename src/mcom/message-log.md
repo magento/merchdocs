@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Message Log
+redirect_to:
+  - https://omsdocs.magento.com/integration/connector/#message-log
 ---
 
 Message Log enables you to view message processing logs, message history, and full error traces for the Connector.

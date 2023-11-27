@@ -1,5 +1,7 @@
 ---
 title: Hidden Tax Calculation
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/hidden-tax-calculation.html
 ---
 
 ## Hidden tax conditions

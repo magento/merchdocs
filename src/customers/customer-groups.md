@@ -1,5 +1,7 @@
 ---
 title: Customer Groups
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-groups.html
 ---
 
 Customer groups determine which discounts are available and the tax class that is associated with the group. The default customer groups are General, Not Logged In, and Wholesale.

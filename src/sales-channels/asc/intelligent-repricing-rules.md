@@ -1,5 +1,7 @@
 ---
 title: 'Intelligent Repricing Rule: Select Rule Type'
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/intelligent-repricing-rules.html
 ---
 
 {:.bs-callout .bs-callout-warning}

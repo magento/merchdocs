@@ -1,5 +1,7 @@
 ---
 title: Name and Address Options
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/name-address-options.html
 ---
 
 The _Name and Address Options_ determine which fields are included in the name and address forms when customers create an [account]({% link customers/account-create.md %}) with your store.
@@ -38,7 +40,7 @@ The steps for configuring the name and address options are different for Magento
    If you are not using the `Default config` scope setting, you must clear the `Use Default` checkbox for each field before changing the value.
 
    ![]({% link images/images-ee/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
-   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %}#commerce-options)_{:.ee-only}
+   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %})_{:.ee-only}
 
 1. For **Prefix Dropdown Options**, enter each prefix that you want to appear in the list, separated by a semicolon.
 
@@ -76,7 +78,7 @@ _[Customer Account sign up form]({% link configuration/customers/customer-config
    Notice that the scope of the name and address options applies at the `website` level.
 
    ![]({% link images/images/config-customers-customer-configuration-name-address-options.png %}){: .zoom}
-   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %}#open-source-options)_{:.ce-only}
+   _[Name and Address Options]({% link configuration/customers/customer-configuration.md %})_{:.ce-only}
 
 1. Scroll back up to the top of the page and use the selector in the upper-left corner to set the scope of the configuration to one of the following:
 
@@ -125,7 +127,7 @@ _[Customer Account sign up form]({% link configuration/customers/customer-config
    - Required
 
       {:.bs-callout-warning}
-      In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers’ full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers’ full birth dates and instead suggest using customer year of birth as an alternative.
+      In keeping with current security and privacy best practices, be sure you are aware of any potential legal and security risks associated with the storage of customers' full date of birth (month, day, year) along with other personal identifiers (e.g., full name) before collecting or processing such data. We recommend limiting the storage of customers' full birth dates and instead suggest using customer year of birth as an alternative.
 
    Customers can use the Calendar icon after the field to choose the birth date from a pop-up calendar.
 

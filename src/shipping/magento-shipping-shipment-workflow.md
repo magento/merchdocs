@@ -1,13 +1,15 @@
 ---
 title: Shipment Workflow
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/shipments.html
 ---
 
 {% include shipping-status-note.md %}
 
-The value of the Status column in the Shipments grid reflects the state of the shipment as it moves through the workflow. If the Status column isn’t currently visible in the Shipments grid, you can change the [grid layout]({% link stores/admin-grid-layout.md %}) to include the column. Then, use the [grid controls]({% link stores/admin-grid-controls.md %}) to filter the shipments by status.
+The value of the Status column in the Shipments grid reflects the state of the shipment as it moves through the workflow. If the Status column isn't currently visible in the Shipments grid, you can change the [grid layout]({% link stores/admin-grid-layout.md %}) to include the column. Then, use the [grid controls]({% link stores/admin-grid-controls.md %}) to filter the shipments by status.
 
 | | | |
-|![]({% link images/images/icon-ms-order-received.png %})|**You receive your customer’s order.**|A quote is generated for the shipment. (Status: Pending) The shipment is booked with a carrier. (Status: Fulfilled)|
+|![]({% link images/images/icon-ms-order-received.png %})|**You receive your customer's order.**|A quote is generated for the shipment. (Status: Pending) The shipment is booked with a carrier. (Status: Fulfilled)|
 |![]({% link images/images/icon-ms-shipment-dispatched.png %})|**Shipment is dispatched.**|An attempt to <a href="{% link sales/dispatches.md %}">dispatch</a> is in progress (Status: Completing) The dispatch is complete. (Status: Completed)|
 |![]({% link images/images/icon-x.png %})|**Shipment canceled.**|The shipment is canceled. (Status: Canceled)|
 

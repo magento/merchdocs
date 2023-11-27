@@ -1,5 +1,7 @@
 ---
 title: Sales
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/sales.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Sales
@@ -100,9 +102,9 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enable MAP|Website|Activates Minimum Advertised Price for your store. Options: Yes / No|
-|Display Actual Price|Website|Determines where the actual price of a product is visible to the customer. Options: <br/>**In Cart** - Displays the actual product price in the shopping cart. <br/>**Before Order Confirmation** - Displays the actual product price at the end of the checkout process, just before the order is confirmed. <br/>**On Gesture** - Displays the actual product price in a popup when the customer clicks the “Click for price” or “What’s this?” link.|
-|Default Popup Text Message|Store View|The pop-up text message that appears when the customer selects the “Click for price” link from a category list or product view page.|
-|Default “What’s This” Text Message|Store View|The pop-up text message that appears when the customer clicks the “What’s this?” link from the product view page.|
+|Display Actual Price|Website|Determines where the actual price of a product is visible to the customer. Options: <br/>**In Cart** - Displays the actual product price in the shopping cart. <br/>**Before Order Confirmation** - Displays the actual product price at the end of the checkout process, just before the order is confirmed. <br/>**On Gesture** - Displays the actual product price in a popup when the customer clicks the "Click for price" or "What's this?" link.|
+|Default Popup Text Message|Store View|The pop-up text message that appears when the customer selects the "Click for price" link from a category list or product view page.|
+|Default "What's This" Text Message|Store View|The pop-up text message that appears when the customer clicks the "What's this?" link from the product view page.|
 |Manufacturer's Suggested Retail Price|Global|The retail price as suggested by the manufacturer (MSRP).|
 
 {:.ee-only}
@@ -126,7 +128,7 @@ _Order by SKU Settings for Customer Group_
 |Field|[Scope]({% link configuration/scope.md %})|Description|
 |--- |--- |--- |
 |Enabled|Store View|Enables Instant Purchase for the store view, provided that the payment method, such as Braintree, has vault enabled. Options: Yes / No|
-|Button Text|Store View|Specifies the text that appears on the Instant Purchase button. The default button text is “Instant Purchase”.|
+|Button Text|Store View|Specifies the text that appears on the Instant Purchase button. The default button text is "Instant Purchase".|
 
 {:.ee-only}
 ## Orders, Invoices, Shipments, Credit Memos Archiving
@@ -150,4 +152,4 @@ _[RMA Settings]({% link sales/rma-configure.md %})_
 |--- |--- |--- |
 |Enable RMA on Storefront|Website|Determines if customers can create and view RMA requests from the storefront. RMA can be applied to both new and existing orders. By default, RMA is not enabled for the storefront. Options Yes / No|
 |Enable RMA on Product Level|Website|Determines the default value for the Enable RMA field in product information.|
-|Use Store Address|Website|Determines the contact name and address that is used for shipments of returned merchandise. Options: <br/>**Yes** - Uses the [Point of Origin]({% link shipping/shipping-settings.md %}#origin) address from Shipping Settings. <br/>**No** - Opens the address form so you can enter an alternate address.|
+|Use Store Address|Website|Determines the contact name and address that is used for shipments of returned merchandise. Options: <br/>**Yes** - Uses the [Point of Origin]({% link shipping/shipping-settings.md %}) address from Shipping Settings. <br/>**No** - Opens the address form so you can enter an alternate address.|

@@ -1,10 +1,10 @@
 ---
 title: Account Access
-redirect_from:
-  - /marketing/engagement-cloud-account-access.html
+redirect to:
+  - https://support.dotdigital.com/en/collections/5610169-magento-open-source-and-adobe-commerce
 ---
 
-Use the Access option on the Settings menu to add users, and set permissions. Initially, the person who sets up the account is assigned as the “account holder” with responsibility to manage the account.
+Use the Access option on the Settings menu to add users, and set permissions. Initially, the person who sets up the account is assigned as the "account holder" with responsibility to manage the account.
 
 In addition to general account access, the account holder and any other user with appropriate permissions can set up access for [API]({% link marketing/dotdigital/account-api-users.md %}) and [transactional email]({% link marketing/dotdigital/account-transactional-email-users.md %}) users.
 

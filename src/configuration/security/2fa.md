@@ -1,5 +1,7 @@
 ---
 title: 2FA
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/config/security/2fa.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Security]({% link configuration/security.md %}) > 2FA

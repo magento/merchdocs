@@ -1,5 +1,7 @@
 ---
 title: Customer Journey
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
 ---
 
 Attract New Customers

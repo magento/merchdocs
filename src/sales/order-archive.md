@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Archive
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-archive.html
 ---
 
 Archiving orders on a regular basis improves performance and keeps your workspace free of unnecessary information, so you can focus on current business. Invoices, shipments, and credit memos can be archived automatically or manually, and archived items can be viewed at any time.

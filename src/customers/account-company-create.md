@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Creating a Company Account
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-create.html
 ---
 
 Company accounts can be set up from the storefront by the customer, or from the Admin. All requests to create a company account must be approved by the store administrator before the account becomes active.
@@ -126,7 +128,7 @@ _New Company_
     ![]({% link images/images-b2b/customers-company-create-company-admin.png %}){: .zoom}
     _Company Admin_
 
-1. In the _Company Credit_ section, which displays a summary of the customer’s credit activity, complete as many of the fields in the lower part of the section as applicable:
+1. In the _Company Credit_ section, which displays a summary of the customer's credit activity, complete as many of the fields in the lower part of the section as applicable:
 
    - **Credit Currency**
    - **Credit Limit**

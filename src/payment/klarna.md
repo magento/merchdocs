@@ -1,5 +1,7 @@
 ---
 title: Klarna
+redirect_to:
+  - https://commercemarketplace.adobe.com/partner/KlarnaOfficial
 ---
 
 Klarna lets your customers choose how they want to pay and supports the purchase with buyer protection and excellent customer service. Your customers can buy now and pay later, while you receive payment in full at the time of purchase.

@@ -1,5 +1,7 @@
 ---
 title: Coupon Codes
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html
 ---
 
 Coupons codes are used with [cart price rules]({% link marketing/price-rules-cart.md %}) to apply a discount when a set of conditions is met. For example, a coupon code can be created for a specific customer group, or for anyone who makes a purchase over a certain amount. To apply the coupon to a purchase, the customer can enter the coupon code in the cart, or possibly at the cash register of your _brick and mortar_ store. Here are a few ways that you can use coupons in your store:

@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: 'Tutorial 1: Simple Page'
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/walkthrough/1-simple-page.html
 ---
 
 In this three-part tutorial, you will become familiar with the Page Builder workspace, while creating a simple page that illustrates how easy it is to create content-rich pages of your own design.
@@ -217,7 +219,7 @@ Page Builder has a new content type called _Banner_, which is featured in this s
 
       By default, this is set to `URL`.
 
-   - To link the banner to the appropriate category of products, set **Link** to `Category`. Then, click **Select** to show the category tree and choose `What’s New`.
+   - To link the banner to the appropriate category of products, set **Link** to `Category`. Then, click **Select** to show the category tree and choose `What's New`.
 
       ![]({% link images/images-ee/page-builder-tutorial1-banner-settings-link-category-tree.png %}){: .zoom}
       _Banner content - link to category_
@@ -321,7 +323,7 @@ _Example page using contained row with two equal columns_
 
 1. In the upper-left corner of the first column, click the circular Grid control (![]({% link images/images-ee/icon-pb-grid-control.png %})) to show the grid guidelines.
 
-   The grid ensures that content is aligned consistently, and will render correctly on both desktop and mobile devices. For information about configuring the grid size, see the [Configure Page Builder]({% link cms/page-builder-setup.md %}#configure-page-builder) section in the Page Builder Setup topic.
+   The grid ensures that content is aligned consistently, and will render correctly on both desktop and mobile devices. For information about configuring the grid size, see the [Configure Page Builder]({% link cms/page-builder-setup.md %}) section in the Page Builder Setup topic.
 
    The numbers in parentheses (6/12) in the top border of each column container indicate the number of grid divisions in each column, and the total number of divisions in the row.
 
@@ -369,7 +371,7 @@ In this step, you will learn how to upload an image to the banner.
 
    - Scroll down and set **Link** to `Category`.
 
-   - In the category tree, drill down and choose the `Men’s Hoodies & Sweatshirt` category.
+   - In the category tree, drill down and choose the `Men's Hoodies & Sweatshirt` category.
 
       []({% link images/images-ee/page-builder-tutorial1-column1-image-link-category.png %}){: .zoom}
       _Choose the category for the image link_
@@ -443,9 +445,9 @@ _Example full width row with columns of different widths_
    ![]({% link images/images-ee/page-builder-tutorial1-column-drag.png %}){: .zoom}
    _Dragging a column to the stage_
 
-1. Drag the right border of the first column to the "four of twelve” (`4/12`) position on the grid.
+1. Drag the right border of the first column to the "four of twelve" (`4/12`) position on the grid.
 
-   The size of the second column adjusts to "eight of twelve” (`8/12`).
+   The size of the second column adjusts to "eight of twelve" (`8/12`).
 
    ![]({% link images/images-ee/page-builder-tutorial1-column-first-4.png %}){: .zoom}
    _Resizing the first column_
@@ -519,7 +521,7 @@ The second column of the row will contain content from a customer review, includ
 
 1. Position the insertion point just after the five-star image, press Enter/Return key to start a new line, and enter the following text.
 
-   Awesome Tank! </ br> I’m a long distance runner and it keeps me pretty comfortable, although these companies always act like their shirts are magical and really it’s just pretty basic stuff. Still it’s a great shirt and I would recommend it.</ br> Antonia Racer Tank – Reviewed by Allyson |
+   Awesome Tank! </ br> I'm a long distance runner and it keeps me pretty comfortable, although these companies always act like their shirts are magical and really it's just pretty basic stuff. Still it's a great shirt and I would recommend it.</ br> Antonia Racer Tank – Reviewed by Allyson |
 
    The text is centered as you type.
 

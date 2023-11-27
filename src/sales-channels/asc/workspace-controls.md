@@ -1,5 +1,7 @@
 ---
 title: Workspace Controls
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/workspace-controls.html
 ---
 
 

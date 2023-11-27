@@ -1,5 +1,7 @@
 ---
 title: PayPal Credit
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal.html#paypal-credit-and-paylater
 ---
 
 PayPal Credit offers your customers quick access to financing, so they can buy now and pay over time, at no additional cost to you. You are not charged when customers choose PayPal Credit, and you pay only your normal PayPal transaction fee. To learn more, see [PayPal Credit][1] on the PayPal website.
@@ -10,7 +12,7 @@ You can easily add free, ready-made banner ads to pages of your site and the _Pa
 
 ## Payment methods that can use PayPal Credit
 
-For US merchants, PayPal Credit is enabled by default for the [PayPal Express Checkout]({% link payment/paypal-express-checkout.md %}) payment option. To disable it for this payment method, see the _Features_ section of [PayPal Express Checkout configuration]({% link payment/paypal-express-checkout.md %}#features).
+For US merchants, PayPal Credit is enabled by default for the [PayPal Express Checkout]({% link payment/paypal-express-checkout.md %}) payment option. To disable it for this payment method, see the _Features_ section of [PayPal Express Checkout configuration]({% link payment/paypal-express-checkout.md %}).
 
 PayPal Credit is disabled by default for the other PayPal payment solutions, but can be enabled in the payment method configuration:
 

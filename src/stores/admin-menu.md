@@ -1,9 +1,11 @@
 ---
 title: Admin Sidebar
 group: getting-started
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-menu.html
 ---
 
-The sidebar on the left is the main menu for your store’s Admin, and is designed for both desktop and mobile devices. The flyout menu provides access to all the tools you need to manage your store on a daily basis.
+The sidebar on the left is the main menu for your store's Admin, and is designed for both desktop and mobile devices. The flyout menu provides access to all the tools you need to manage your store on a daily basis.
 
 ![]({% link images/images/icon-admin-sidebar-magento.png %})|**[Admin Startup Page]({% link configuration/advanced/admin.md %})**|Displays the Admin startup page, which by default is the Dashboard.
 ![]({% link images/images/icon-admin-sidebar-dashboard.png %})|**[Dashboard]({% link stores/admin-dashboard.md %})**|The Dashboard provides a quick overview of the sales and customer activity in your store, and is usually the first page that appears when you log in to the Admin.

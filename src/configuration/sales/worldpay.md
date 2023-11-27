@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Worldpay
+redirect_to:
+  - https://commercemarketplace.adobe.com/sapient-module-worldpay.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Worldpay
@@ -32,7 +34,7 @@ For details about making a secure transition from deprecated payment integration
 |Payment Action|Website|Authorize, Payment and Capture|
 |Payment from Applicable Countries|Website|Determines the range of the applicable country selection. Options: All Allowed Countries / Specific Countries|
 |Payment from Specific Counties|Website|Identifies each country from which payment is accepted. Only customers with a billing address in a selected country can make purchases with this payment method.|
-|Set Order Status to Suspected Fraud for CVV|Website|Describes the condition that determines when an invalid CVV should be flagged as “Suspected Fraud”.  Options: None / Not supported / Not checked / Not matched / Partially matched|
-|Set Order Status to Suspected Fraud for Postcode AVS|Website|Describes the condition that determines when an invalid Postcode response from the Address Verification System should be flagged as “Suspected Fraud”.  Options: None / Not supported / Not checked / Not matched / Partially matched|
+|Set Order Status to Suspected Fraud for CVV|Website|Describes the condition that determines when an invalid CVV should be flagged as "Suspected Fraud".  Options: None / Not supported / Not checked / Not matched / Partially matched|
+|Set Order Status to Suspected Fraud for Postcode AVS|Website|Describes the condition that determines when an invalid Postcode response from the Address Verification System should be flagged as "Suspected Fraud".  Options: None / Not supported / Not checked / Not matched / Partially matched|
 |Accepted Currency|Website|Determines the currency that is accepted as payment in your store.|
 |Sort Order|Website|A number that determines the order in which the Worldpay payment method title appears when listed with other payment methods during checkout. Enter 0 for the top of the list.|

@@ -1,5 +1,7 @@
 ---
 title: Managing Subscribers
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/newsletters/newsletter-subscribers.html
 ---
 
 As a best practice you should manage your subscription list on a regular basis, and make sure to process any requests to unsubscribe. In some jurisdictions, it is required by law that requests to unsubscribe are processed within a specific period of time.

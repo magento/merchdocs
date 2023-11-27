@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Integration
+redirect_to:
+  - https://omsdocs.magento.com/integration/connector/#integration
 ---
 
 Integration enables you to add or disable the Order Management System (OMS) integration for Magento Commerce and view details of the integration.

@@ -1,5 +1,7 @@
 ---
 title: Value Added Tax (VAT)
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/vat.html
 ---
 
 Some countries charge a value-added tax, or VAT, on goods and services. There can be different VAT rates depending on which stage you as a merchant are at in the manufacture or distribution of the products, materials, or services that you sell to your customers. In some cases, you might need to use more than one VAT rate in your store for tax calculation purposes.

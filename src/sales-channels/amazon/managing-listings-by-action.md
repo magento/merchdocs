@@ -1,5 +1,7 @@
 ---
 title: Managing Product Listings by Action
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 

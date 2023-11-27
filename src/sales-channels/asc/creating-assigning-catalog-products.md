@@ -1,5 +1,7 @@
 ---
 title: Create and Assign Products
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/creating-assigning-catalog-products.html
 ---
 
 

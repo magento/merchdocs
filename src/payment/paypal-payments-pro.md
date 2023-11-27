@@ -1,5 +1,7 @@
 ---
 title: PayPal Payments Pro
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-payments-pro.html
 ---
 
 [PayPal Payments Pro][3] brings you all the benefits of a merchant account and payment gateway in one, plus the ability to create your own, fully customized checkout experience. PayPal Express Checkout is automatically enabled with PayPal Payments Pro, so you can tap into more than 110 million active PayPal users.
@@ -23,7 +25,7 @@ Currently, PayPal Payments Pro is available in the US, UK, and Canada.
 |**1**|**Customer goes to checkout** | Customer adds products to cart, and clicks/taps _Proceed to Checkout_.|
 |**2**|**Customer chooses payment method** | During checkout, customer chooses the _PayPal Direct Payment_ option, and enters the credit card information.<br/>- If paying with PayPal Payments Pro, the customer stays on your site during the checkout process.<br/>- If paying with  PayPal Express Checkout, the customer is redirected to the PayPal site to complete the transaction.|
 
-At the customer’s request, the store administrator can also create an order from the Admin and process the transaction with PayPal Payments Pro.
+At the customer's request, the store administrator can also create an order from the Admin and process the transaction with PayPal Payments Pro.
 
 ## Order processing workflow
 
@@ -275,7 +277,7 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 
 1. For **SFTP Credentials**, do the following:
 
-   - If you have signed up for PayPal’s Secure FTP Server, enter the following SFTP login credentials:
+   - If you have signed up for PayPal's Secure FTP Server, enter the following SFTP login credentials:
 
       - Login
       - Password
@@ -364,7 +366,7 @@ The Frontend Experience Settings give you the opportunity to choose which PayPal
 1. Set **Payment Action** to one of the following:
 
    |`Authorization` |Approves the purchase and puts a hold on the funds. The amount is not withdrawn until it is _captured_ by the merchant.|
-   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer’s account.|
+   |`Sale` |The amount of the purchase is authorized and immediately withdrawn from the customer's account.|
 
 1. To display the _Check out with PayPal_ button on the product page, set **Display on Product Details Page** to `Yes`.
 

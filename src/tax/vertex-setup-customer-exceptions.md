@@ -1,5 +1,7 @@
 ---
 title: Vertex Customer Exceptions
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html
 ---
 
 Under certain circumstances, customers who are normally required to pay taxes might be certified as exempt. The available exceptions vary, depending on the jurisdiction.
@@ -82,7 +84,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
    - Set **Exception Type** to one of the following:
 
       |Exemption Certificate|Certifies that the customer has permission to purchase merchandise for resale without paying sales or use tax at the time of purchase.|
-      |Direct Pay Permit|For customers who aren’t sure if the items are for resale, permits the customer to purchase merchandise without paying sales or use tax at the time of purchase. The payment is deferred, and then paid directly to the tax authority, as applicable.|
+      |Direct Pay Permit|For customers who aren't sure if the items are for resale, permits the customer to purchase merchandise without paying sales or use tax at the time of purchase. The payment is deferred, and then paid directly to the tax authority, as applicable.|
 
    - For the **Start Date** field, use the calendar to choose the date the customer exception becomes available to Vertex Cloud for tax calculations and reporting purposes.
 
@@ -150,7 +152,7 @@ Vertex Cloud adds the Vertex Customer Code field to the customer information. Cu
    |`ExceptionProductCode`|(Optional) Identifies a specific product that is related to the customer exception. The product code must match the Magento SKU. This column does not apply to tax-exempt customers.|
    |`ExceptionReason`|A code that identifies the reason why an exception is being made from the customer filing a return. For the Direct Pay Permit exception type, the default reason is `Direct Pay Permit`. <br/><br/>For more information, see the following: [Exemption Reasons - United States][1], [Exemption Reasons - U.S. Territory (Puerto Rico)][2], and [Exemption Reasons - Canada][3] <br/><br/>This column does not apply to tax-exempt customers.|
    |`ExceptionStartDate`|The date the customer exception goes into effect for Vertex Cloud. This column does not apply to tax-exempt customers. Format: MM/DD/YYYY|
-   |`ExceptionType`|Identifies the exception as one of the following: <br/>**Exemption Certificate** - (Default) Certifies that the customer’s business has permission to purchase merchandise for resale without paying sales or use tax at the time of purchase. For example, in California, the State Board of Equalization issues a Resale Certificate to businesses who purchase merchandise that is intended for resale. <br/>**Direct Pay Permit** - Certifies that the customer has permission to purchase merchandise without paying sales or use tax  at the time of purchase. The payment is deferred, and then paid directly to the tax authority, as applicable. A direct payment permit is typically used if the customer cannot determine at the time of purchase if the merchandise for resale. <br/><br/>This column does not apply to tax-exempt customers.|
+   |`ExceptionType`|Identifies the exception as one of the following: <br/>**Exemption Certificate** - (Default) Certifies that the customer's business has permission to purchase merchandise for resale without paying sales or use tax at the time of purchase. For example, in California, the State Board of Equalization issues a Resale Certificate to businesses who purchase merchandise that is intended for resale. <br/>**Direct Pay Permit** - Certifies that the customer has permission to purchase merchandise without paying sales or use tax  at the time of purchase. The payment is deferred, and then paid directly to the tax authority, as applicable. A direct payment permit is typically used if the customer cannot determine at the time of purchase if the merchandise for resale. <br/><br/>This column does not apply to tax-exempt customers.|
    |`FileName`|(Optional) The file name of the exemption certificate image on your computer. Only one image can be referenced. However, the same image can be used for multiple certificates. During the upload, you will be prompted to navigate to the image on your computer. Supported file types: PDF, JPG, BMP|
    |`TaxResult`|A single character code that identifies the type of customer exemption. <br/>**T** - The customer is generally taxable, but is exempt in specific jurisdictions and situations. <br/>**E** - The customer is exempt in all jurisdictions.|
 

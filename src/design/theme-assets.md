@@ -1,5 +1,7 @@
 ---
 title: Theme Assets
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/themes/theme-assets.html
 ---
 
 The term _static files_ refers to the collection of assets, such as CSS, fonts, images, and JavaScript, that is used by a theme. The location of static files is specified in the [Base URL]({% link stores/store-urls.md %}) configuration. You can add a digital signature to the URL of each static file to make it possible for browsers to detect when a newer version is available. The newer version of the file is used if the signature differs from what is stored in the browser cache.

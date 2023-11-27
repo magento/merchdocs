@@ -1,5 +1,7 @@
 ---
 title: Vertex Cloud
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html
 ---
 
 Vertex is a cloud-based solution that automates your sales and use tax compliance, and generates a signature-ready PDF for your monthly returns. To get started, you need a Vertex account, then complete configuration settings.
@@ -22,7 +24,7 @@ The integration includes tax configuration for your stores, overrides per countr
 
 - {:.fix}Enhancements
 
-- The _Flexible Field_ options are now sorted alphabetically by the current Admin user’s locale.
+- The _Flexible Field_ options are now sorted alphabetically by the current Admin user's locale.
 - Vertex now uses the order billing address to calculate taxes on virtual products. Shipping-related flexible fields are no longer completed for virtual products.
 - The _Use Vertex for orders shipping to_, _Summarize Tax by_, and _Global Delivery Term_ configuration settings now provide an option to be restored to their default setting.
 - The WSDL URL now supports ports and basic authentication.
@@ -48,7 +50,7 @@ The integration includes tax configuration for your stores, overrides per countr
 
    The updated Vertex extension includes support for custom tax drivers that you can use to include additional information needed to calculate tax in more complex tax situations. These drivers are passed in configurable Vertex Flexible Fields that support Code, numeric, and date values.
 
-   For more information, see [Vertex Flexible Fields]({% link tax/vertex-configure-magento.md %}#flex-fields).
+   For more information, see [Vertex Flexible Fields]({% link tax/vertex-configure-magento.md %}).
 
 <!--
   This is a style declaration so that the feature icons are not sized by table auto styling for column widths.

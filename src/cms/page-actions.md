@@ -1,5 +1,7 @@
 ---
 title: Page Actions
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages-workspace.html#page-actions
 ---
 
 Pages can be edited, disabled, enabled, and deleted. To apply an action to an individual page, select the checkbox in the first column. To select or deselect all pages, use the mass actions control at the top of the column.

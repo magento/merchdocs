@@ -1,5 +1,7 @@
 ---
 title: Braintree
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/braintree.html
 ---
 
 {:.bs-callout-warning}
@@ -132,14 +134,14 @@ Click <span class="btn">Save Config</span> at any time to save your progress.
 1. Set **Payment Action** to one of the following:
 
    | `Authorize Only` | Approves the purchase and puts a hold on the funds. The amount is not withdrawn from the customer bank account until the sale is _captured_ by the merchant.|
-   | `Authorize and Capture` | The amount of the purchase is authorized and immediately withdrawn from the customer’s account. |
+   | `Authorize and Capture` | The amount of the purchase is authorized and immediately withdrawn from the customer's account. |
 
 1. Set **Payment from Applicable Countries** to one of the following for Braintree transactions processed by PayPal:
 
    |`All Allowed Countries` |Customers from all [countries]({% link stores/country-options.md %}) specified in your store configuration can use this payment method. |
    |`Specific Countries` |After you choose this option, the _Payment from Specific Countries_ list is available. To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each option. |
 
-1. To require that customers provide a billing address, set **Require Customer’s Billing Address** to `Yes`.
+1. To require that customers provide a billing address, set **Require Customer's Billing Address** to `Yes`.
 
    {:.bs-callout-info}
    This feature must first be enabled for your account by PayPal Technical Support.

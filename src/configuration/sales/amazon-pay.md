@@ -1,5 +1,7 @@
 ---
 title: Amazon Pay
+redirect_to:
+  - https://commercemarketplace.adobe.com/partner/AmazonPay
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > Amazon Pay
@@ -36,7 +38,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sale
 |Enable Amazon Pay|Store View|Determines if Amazon Pay is enabled for the current store view. Options: Yes / No|
 |Enable Login with Amazon|Store View|Determines if Login with Amazon is enabled for the current store view. Options: Yes / No|
 |Payment Action|Store View|Determines when Amazon Pay processes the transaction and charges the customer. Options: <br/>**Charge on Shipment** - Amazon receives a capture request and charges the customer when an invoice is created in Magento. <br/>**Charge on Order** - Amazon creates the invoice and charges the customer when the order is placed.|
-|Authorization Mode|Store View|Determines the method that is used to transmit authorization data. Options: <br/>**Immediate** - (Default) The disposition of an authorization is available within a couple of seconds. <br/>**Automatic** - (Recommended) Uses synchronous authorization if possible, and switches to asynchronous processing as needed, for some declines. The change in processing modes is transparent to the user. The status of sales order is “Pending” while the disposition of authorization is outstanding.|
+|Authorization Mode|Store View|Determines the method that is used to transmit authorization data. Options: <br/>**Immediate** - (Default) The disposition of an authorization is available within a couple of seconds. <br/>**Automatic** - (Recommended) Uses synchronous authorization if possible, and switches to asynchronous processing as needed, for some declines. The change in processing modes is transparent to the user. The status of sales order is "Pending" while the disposition of authorization is outstanding.|
 |Update Mechanism|Global|Determines the update method that is used to send notification about changes to the order status. Options: <br/>**Data Polling via Cron Job** - Uses the standard Magento notification process that is scheduled by [Cron]({% link system/cron.md %}) job. <br/>**Instant Payment Notifications** - (IPN) Sends notifications to the Instant Payment Notification URL.|
 
 ## Advanced

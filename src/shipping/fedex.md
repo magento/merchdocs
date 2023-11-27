@@ -1,8 +1,10 @@
 ---
 title: FedEx
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex.html
 ---
 
-FedEx is one of the world’s largest shipping service companies, providing air, freight, and ground shipping services with several levels of priorities.
+FedEx is one of the world's largest shipping service companies, providing air, freight, and ground shipping services with several levels of priorities.
 
 ![]({% link images/images/storefront-checkout-shipping-fedex.png %}){: .zoom}
 *FedEx shipping options at checkout*
@@ -26,7 +28,7 @@ Make sure to copy or write down the authentication key. You will need it to set 
 1. Expand ![]({% link images/images/btn-expand.png %}) the **FedEx** section.
 
    ![]({% link images/images/config-sales-shipping-methods-fedex-account-settings.png %}){: .zoom}
-   _[FedEx account settings]({% link configuration/sales/shipping-methods.md %}#fedex)_
+   _[FedEx account settings]({% link configuration/sales/shipping-methods.md %})_
 
 1. Set **Enabled for Checkout** to `Yes`.
 

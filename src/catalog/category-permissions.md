@@ -1,6 +1,8 @@
 ---
 ee_only: true
 title: Category Permissions
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html
 ---
 
 Category access can be limited to specific customer groups, or restricted entirely. You can control the display of product prices, and determine which customer groups can add products to the cart, and specify the landing page.
@@ -8,12 +10,12 @@ Category access can be limited to specific customer groups, or restricted entire
 {:.bs-callout-info}
 Category Permissions has a global scope and when enabled, restricts access to each category according to its individual permissions. By default, Category Permissions is not enabled.
 
-For example, if you sell only to wholesale customers, you can allow anyone to browse the catalog, but display prices and allow purchases only to those in the Wholesale customer group. In the following example, only logged in users have access to the “Collections” category. For guests, the “Collections” option doesn’t appear in the main menu.
+For example, if you sell only to wholesale customers, you can allow anyone to browse the catalog, but display prices and allow purchases only to those in the Wholesale customer group. In the following example, only logged in users have access to the "Collections" category. For guests, the "Collections" option doesn't appear in the main menu.
 
 ![]({% link images/images/storefront-category-permissions-logged-in.png %}){: .zoom}
-*Only Logged-In Users See “Collections” Category*
+*Only Logged-In Users See "Collections" Category*
 
-When enabled, a new “Category Permissions” section appears on the Category page that allows you to apply the needed access for each category. You can add multiple permission rules to each category for different websites and customer groups.
+When enabled, a new "Category Permissions" section appears on the Category page that allows you to apply the needed access for each category. You can add multiple permission rules to each category for different websites and customer groups.
 
 ## Step 1: Configure category permissions
 
@@ -41,7 +43,7 @@ When enabled, a new “Category Permissions” section appears on the Category p
         ![]({% link images/images-ee/category-permissions-allow-browsing-customer-groups.png %}){: .zoom}
         _Allow Browsing by Wholesale Customer Group_
 
-    **Restrict Access and Redirect to Landing Page**
+    Restrict Access and Redirect to Landing Page
 
     Although the "Allow Browsing Category" setting applies to all categories in the website, you can configure a different Landing Page for each store view.
 
