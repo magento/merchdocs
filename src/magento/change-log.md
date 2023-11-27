@@ -1,5 +1,7 @@
 ---
 title: Change Log
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html
 ---
 
 Our documentation is continually updated with new topics, clarifications, and corrections to existing content. Learn more about new features, major updates, and releases, organized by month and year. Check back every now and then to see what's new.

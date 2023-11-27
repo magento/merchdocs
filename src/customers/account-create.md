@@ -1,8 +1,5 @@
 ---
 title: Creating an Individual Customer Account
-redirect_from:
-  - /customers/customer-account-admin-create.html
-  - /customers/customer-account-create.html
 redirect to:
   - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html
 ---

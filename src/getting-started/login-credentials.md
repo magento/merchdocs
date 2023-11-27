@@ -1,7 +1,5 @@
 ---
 title: Your Login Credentials
-redirect_from:
-  - /getting-started/for-your-records.html
 redirect_to:
   - https://experienceleague.adobe.com/docs/commerce-admin/start/login-urls.html
 ---

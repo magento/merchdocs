@@ -1,7 +1,5 @@
 ---
 title: Themes
-redirect_from:
-  - /design/theme-responsive.html
 redirect to:
   - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/themes/themes.html
 ---

@@ -1,7 +1,5 @@
 ---
 title: Design Configuration
-redirect_from:
-  - /configuration/general/design.html
 redirect to:
   - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/configuration.html
 ---

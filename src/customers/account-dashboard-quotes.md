@@ -1,8 +1,6 @@
 ---
 b2b_only: true
 title: My Quotes
-redirect_from:
-  - /customers/account-company-quotes.html
 redirect to: 
   - https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes.html
 ---

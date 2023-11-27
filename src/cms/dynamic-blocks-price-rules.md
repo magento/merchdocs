@@ -1,8 +1,6 @@
 ---
 ee_only: true
 title: Dynamic Blocks in Price Rules
-redirect_from:
-  - /cms/banners-price-rules.html
 redirect to:
   - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks-price-rules.html
 ---

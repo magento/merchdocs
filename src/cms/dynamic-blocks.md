@@ -1,9 +1,6 @@
 ---
 ee_only: true
 title: Dynamic Blocks
-redirect_from:
-  - /cms/banners.html
-  - /cms/banner-create.html
 redirect to:
   - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks.html
 ---

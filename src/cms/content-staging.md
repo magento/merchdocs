@@ -1,8 +1,6 @@
 ---
 ee_only: true
 title: Content Staging
-redirect_from:
-  - /cms/content-staging-workflow.html
 redirect to:
   - https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html
 ---

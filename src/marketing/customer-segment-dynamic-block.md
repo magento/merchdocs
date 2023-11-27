@@ -2,8 +2,6 @@
 ee_only: true
 title: Customer Segments for Dynamic Blocks
 group: customers
-redirect_from:
-  - /marketing/customer-segment-banner.html
 redirect to:
   - https://experienceleague.adobe.com/docs/commerce-admin/customers/segments/customer-segments.html
 ---

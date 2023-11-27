@@ -17,6 +17,8 @@ sections:
  - title: <span class="b2b-only">Companies</span>
    content: Learn about the Company component, the key entity within B2B on which all other features are in some way dependent. It allows joining multiple buyers that belong to the same company into a single company account (or corporate account).
    url: /customers/account-companies.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html
 ---
 
 As you continue to maintain and expand your store, you wll manage customer accounts and customer groups in the Admin. You can access the customer management tools from the [Customers menu]({% link customers/customers-menu.md %}).

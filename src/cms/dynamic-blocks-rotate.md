@@ -1,8 +1,6 @@
 ---
 ee_only: true
 title: Rotating Dynamic Blocks
-redirect_from:
-  - /cms/banner-rotator.html
 redirect to:
   - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks-rotate.html
 ---

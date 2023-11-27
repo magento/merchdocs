@@ -27,6 +27,8 @@ sections:
   - title: Commerce Marketplace
     content: Learn about the Commerce Marketplace, our next generation application store that offers merchants a curated selection of eCommerce solutions. It offers a selection of extensions that are available for free, as well as those that are for sale. 
     url: /magento/magento-extensions.html
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html
 ---
 
 Welcome to the next generation of the world's leading digital commerce platform! Adobe Commerce provides online merchants with unparalleled flexibility and control over the look, content, and functionality of their online stores. The intuitive Commerce Admin features powerful marketing, search engine optimization, and product management tools that give you the power to create sites that are tailored to your unique business needs.

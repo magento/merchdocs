@@ -1,6 +1,8 @@
 ---
 title: End of Life
 tag: google-shopping
+redirect_to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html
 ---
 
 Google Shopping ads Channel was disabled on April 28, 2020. We apologize for any disruption this may cause.
