@@ -1,10 +1,12 @@
 ---
 title: Resetting Passwords
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html
 ---
 
-Customers usually reset their passwords from the storefront by clicking the “Forgot Your Password?” link. However, the store administrator can initiate either a password reset or a forced sign-in from the Admin.
+Customers usually reset their passwords from the storefront by clicking the "Forgot Your Password?" link. However, the store administrator can initiate either a password reset or a forced sign-in from the Admin.
 
-|Reset Password | A password reset email is sent directly to the customer’s email account. At no time does the store administrator gain access to the customer’s password.|
+|Reset Password | A password reset email is sent directly to the customer's email account. At no time does the store administrator gain access to the customer's password.|
 |Force Sign In | Revokes the OAuth access tokens that are associated with the customer account. This can be used only with customer accounts that have been assigned OAuth tokens, as part of a Web API [integration]({% link system/integrations.md %}). To learn more, see [OAuth-based authentication](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-oauth.html) in the Magento DevDocs. <br/><br/>**_Note:_** Standard customer accounts created from the storefront or from the Admin do not have OAuth tokens.|
 
 ## Reset a password from the storefront
@@ -37,7 +39,7 @@ Customers usually reset their passwords from the storefront by clicking the “F
 
    The number of password reset requests that are allowed within an hour is set in the [configuration]({% link configuration/customers/customer-configuration.md %}).
 
-## Revoke a customer’s OAuth tokens
+## Revoke a customer's OAuth tokens
 
 {:.bs-callout-warning}
 Do not proceed unless you are a developer familiar with API Authentication.

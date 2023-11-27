@@ -1,5 +1,7 @@
 ---
 title: Customer Session Lifetime
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/customer-online-options.html
 ---
 
 The lifetime of a customer shopping session is determined by several factors, including the length of the server session, the use of a [persistent cart]({% link sales/cart-persistent.md %}), and the lifetime of information that is stored in the browser. Although these are related to the same customer experience, they are actually separate processes with different expiration events and lifetimes.

@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Negotiating a Quote
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/quote-price-negotiation.html
 ---
 
 When the seller responds to your request for a quote, the status of the quote changes to `Updated`. Look for an email notification from the store with the reply from the seller. The email includes a link to your account, and the expiration date of the quote. A quote can be changed and resubmitted, even if it was declined or after it has expired.
@@ -102,7 +104,7 @@ Make any of the following changes to the quote:
 
 1. Follow the normal [checkout process]({% link sales/checkout-process.md %}).
 
-    This order is within the company’s available credit limit and is being [charged to their account]({% link payment/payment-on-account.md %}). The _Order Summary_ section shows the quote subtotal, shipping and the total amount that is to be charged to their account. Because tax is not applicable to this order, it is not included in the Order Summary.
+    This order is within the company's available credit limit and is being [charged to their account]({% link payment/payment-on-account.md %}). The _Order Summary_ section shows the quote subtotal, shipping and the total amount that is to be charged to their account. Because tax is not applicable to this order, it is not included in the Order Summary.
 
     ![]({% link images/images-b2b/quote-checkout-order-summary.png %}){: .zoom}
     _Order Summary with Negotiated Price_
@@ -115,14 +117,14 @@ Make any of the following changes to the quote:
 |Quote Name|The quote name appears below the page title.|
 |Created|Indicates the date the quote was created, followed by the name of the buyer who requested the quote in parentheses.|
 |Expires|Indicates the date the quote expires.|
-|Sales Rep|The seller’s sales representative who is assigned to manage the buyer’s company account.|
+|Sales Rep|The seller's sales representative who is assigned to manage the buyer's company account.|
 |Close Quote|Ends the negotiation process, and cancels the quote|
-|Delete|Deletes a closed quote from the buyer’s My Quotes list.|
+|Delete|Deletes a closed quote from the buyer's My Quotes list.|
 |Print|Sends the quote to a printer, or saves it as a PDF file.|
 
 ### Tabbed sections
 
-|Items Quoted|`Product Name` - The name of the product is linked to the product detail page in the catalog. Any options that are associated with the product appear below the name. <br/>`SKU` - The product’s unique Stock Keeping Unit. Price - The original product price from the catalog. <br/>`Stock` - The number of units currently in stock. <br/>`Qty` - Indicates the number of units of the product that the buyer wants to purchase. The buyer can update the quantity field during the negotiation. <br/>`Subtotal` - The line item subtotal. (Price * Qty) <br/>![]({% link images/images/btn-delete.png %}) - Deletes the line item. <br/>`Update` - Recalculates the quote to reflect any  changes.|
+|Items Quoted|`Product Name` - The name of the product is linked to the product detail page in the catalog. Any options that are associated with the product appear below the name. <br/>`SKU` - The product's unique Stock Keeping Unit. Price - The original product price from the catalog. <br/>`Stock` - The number of units currently in stock. <br/>`Qty` - Indicates the number of units of the product that the buyer wants to purchase. The buyer can update the quantity field during the negotiation. <br/>`Subtotal` - The line item subtotal. (Price * Qty) <br/>![]({% link images/images/btn-delete.png %}) - Deletes the line item. <br/>`Update` - Recalculates the quote to reflect any  changes.|
 |Comments|Lists all communications between buyer and seller that are related to the quote.|
 |History Log|The History Log tab displays a complete history of the quote with dates, quote status, and comments.|
 

@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Company Accounts
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-companies.html
 ---
 
 The Companies grid lists all active company accounts and pending requests, regardless of status setting. It also provides the tools needed to create and [manage]({% link customers/account-company-manage.md %}) company accounts. Use the standard [grid controls]({% link stores/admin-grid-controls.md %}) to filter the list, and adjust the [column layout]({% link stores/admin-grid-layout.md %}). For a list of column descriptions, see the Column Descriptions in [Managing Company Accounts]({% link customers/account-company-manage.md %}).

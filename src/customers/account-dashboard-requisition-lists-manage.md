@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Managing Requisition Lists
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/account-dashboard-requisition-lists-manage.html
 ---
 
 The primary reason to maintain a requisition list is to make it easy to reorder products. Items from a requisition list can be easily added to the shopping cart, moved, or copied from one list to another.
@@ -98,4 +100,4 @@ Magento will generate and download a CSV list with `sku` and `qty` values.
 |Select|Manages the item selections that are to be the subject of an action. <br/>**Select All** - Selects all items in the requisition list. <br/>**Remove Selected** - Removes all selected items from the requisition list. <br/>**Copy Selected** - Copies all selected items to another requisition list.|
 |Add to Cart|Adds selected items to the shopping cart.|
 |Update List|Recalculates the subtotal to reflect a change in quantity.|
-|Delete Requisition List|Deletes the requisition list from the company user’s account.|
+|Delete Requisition List|Deletes the requisition list from the company user's account.|

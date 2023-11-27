@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Managing Company Accounts
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-manage.html
 ---
 
 The Companies page lists all current company accounts, regardless of status. Any pending requests for approval appear at the top of the list. The standard [workplace controls]({% link stores/admin-workspace.md %}) can be used to filter the list, change the [column layout]({% link stores/admin-grid-layout.md %}), save views, and export data.

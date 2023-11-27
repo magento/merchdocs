@@ -2,6 +2,8 @@
 ee_only: true
 title: Creating a Customer Segment
 group: customers
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/segments/customer-segment-create.html
 ---
 
 Creating a customer segment is similar to building a [cart price rule]({% link marketing/price-rules-cart.md %}), except that the options include customer segment-specific [attributes]({% link marketing/customer-segment-attributes.md %}).
@@ -68,7 +70,7 @@ The following example shows how to create a customer segment that targets female
 
 1. In the left pane, click **Conditions**.
 
-   The default condition begins, “If ALL of these conditions are TRUE:”.
+   The default condition begins, "If ALL of these conditions are TRUE:".
 
    ![Customer segment conditions]({% link images/images-ee/customer-segment-conditions.png %}){: .zoom}
    _Conditions_

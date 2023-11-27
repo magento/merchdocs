@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: My Requisition Lists
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html
 ---
 
 Using a requisition list saves time when purchasing frequently-ordered products because items are added to the shopping cart directly from the list. You can maintain multiple lists that focus on products from different vendors, buyers, teams, campaigns, or anything else that streamlines your workflow. Up to 999 requisition lists can be maintained for each customer account, depending on the [configuration]({% link configuration/customers/requisition-lists.md %}). To enable requisition lists, see [Configuring B2B Features]({% link stores/b2b-features.md %}).

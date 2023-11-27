@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Company Roles and Permissions
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/users/account-company-roles-permissions.html
 ---
 
 Roles for company users set up with various levels of permission to access sales information and resources. By default, the company administrator is a super user with full permissions. The [Access Denied]({% link cms/pages-core.md %}) page appears if the user does not have permission to access the page.
@@ -8,7 +10,7 @@ Roles for company users set up with various levels of permission to access sales
 ![]({% link images/images-b2b/customer-company-roles-permissions.png %}){: .zoom}
 _Roles and Permissions Page with Default Role_
 
-The system has one predefined Default User role, which you can use “as is" or modify to suit your needs. You can create as many roles as necessary to match your company structure.
+The system has one predefined Default User role, which you can use "as is" or modify to suit your needs. You can create as many roles as necessary to match your company structure.
 
 - **Default User** — The default user has full access to activities related to sales and quotes, and view-only access to company profile and credit information.
 

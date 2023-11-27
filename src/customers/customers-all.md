@@ -1,5 +1,7 @@
 ---
 title: All Customers
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customers-all.html
 ---
 
 The Customers grid lists all customers who have registered for an account with your store or were added by the administrator. Use the standard [grid controls]({% link stores/admin-grid-controls.md %}) to filter the list and adjust the [column layout]({% link stores/admin-grid-layout.md %}). To learn more, see [Managing Customer Accounts]({% link customers/customer-account-manage.md %}).

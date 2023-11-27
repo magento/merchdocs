@@ -1,8 +1,10 @@
 ---
 title: Now Online
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/now-online.html
 ---
 
-The Now Online option on the Customers menu lists all customers and visitors who are currently online in your store. The interval of time that customers are shown as currently online is set in the configuration, and determines how long the customer’s activity is visible from the Admin. By default, the interval is fifteen minutes.
+The Now Online option on the Customers menu lists all customers and visitors who are currently online in your store. The interval of time that customers are shown as currently online is set in the configuration, and determines how long the customer's activity is visible from the Admin. By default, the interval is fifteen minutes.
 
 ![]({% link images/images/customers-now-online.png %}){: .zoom}
 [_Online Customers_]({% link configuration/customers/customer-configuration.md %})
@@ -40,6 +42,6 @@ The Now Online option on the Customers menu lists all customers and visitors who
 | Email              | The email address of a registered customer.                                              |
 | IP Address         | The IP address of the computer that customers and guests are using to access your store. |
 | Session Start Time | The date and time that marks the beginning of the current customer session.              |
-| Last Activity      | The date and time of the customer’s last activity in your store.                         |
+| Last Activity      | The date and time of the customer's last activity in your store.                         |
 | Type               | Options: Customer / Visitor                                                              |
 | Last URL           | The last URL the customer visited.                                                       |

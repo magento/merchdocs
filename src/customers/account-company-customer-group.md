@@ -1,6 +1,8 @@
 ---
 b2b_only: true
 title: Assigning a Customer Group to a Company
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-customer-group.html
 ---
 
 Assigning a customer group to a company is essentially the same as assigning a shared catalog. If Shared Catalog is not enabled in the configuration, a Customer Group — rather than a Shared Catalog — is assigned to a company.

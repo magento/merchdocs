@@ -2,6 +2,8 @@
 ee_only: true
 title: Customer Segment Report
 group: customers
+redirect to:
+  - https://experienceleague.adobe.com/docs/commerce-admin/customers/segments/customer-segment-reports.html
 ---
 
 The Customer Segment Report provides information about the number of customers in each segment.
