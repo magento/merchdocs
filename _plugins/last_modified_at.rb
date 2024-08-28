@@ -1,7 +1,8 @@
-# frozen_string_literal: true
-
 # Copyright © Magento, Inc. All rights reserved.
 # See COPYING.txt for license details.
+
+# frozen_string_literal: true
+
 #
 # This custom plugin dynamically sets the 'last_modified_at' parameter
 # for each page except 'redirect.html' pages.
@@ -13,20 +14,32 @@
 Jekyll::Hooks.register :pages, :post_init do |page|
   # Do nothing in serving mode
   next if page.site.config['serving']
+
   # Process only files with 'md' and 'html' extensions
   next unless File.extname(page.path).match?(/md|html/)
-  # Do nothing for redirects
+
+  # Skip redirects
   next if page.name == 'redirect.html'
 
-  source_dir = page.site.config['source']
+  # Skip pages where the parameter is already set
+  next if page.data['last_modified_at']
 
-  real_filepath = File.realpath page.path, source_dir
+  # Skip pages created by custom generators like 'mrg_pages'
+  next if page.is_a? Jekyll::PageWithoutAFile
 
-  dir = File.dirname real_filepath
-  filename = File.basename real_filepath
+  # Add site.source to the page path
+  file_path = File.join(page.site.source, page.path)
 
-  # Read date of the last committ and assign it to last_modified_at parameter
-  # of the page.
-  page.data['last_modified_at'] =
-    `cd #{dir} && git log -1 --format=%cd --date=iso -- #{filename}`.strip
+  # Get real path of the page. If this is a symlink read it to get path of the real file with content.
+  real_filepath = File.realpath(file_path)
+
+  # Get a full path of the directory where the page is stored
+  dir = File.dirname(real_filepath)
+
+  # Change directory to the parent directory of the page to read from the corresponding git history.
+  Dir.chdir(dir) do
+    # Read date of the last commit and assign it to last_modified_at parameter
+    # of the page.
+    page.data['last_modified_at'] = `git log -1 --format=%cd --date=iso -- #{page.name}`.strip
+  end
 end
