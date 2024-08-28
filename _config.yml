@@ -181,5 +181,3 @@ kramdown:
       line_numbers: false
     block:
       line_numbers: true
-
-migrated_log: generate_file
