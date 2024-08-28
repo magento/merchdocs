@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Manage Listings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/managing-product-listings.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/managing-product-listings.html
 ---
 
 Product Listing settings can be modified at any time after your Commerce store is integrated. You can access your listing settings on the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).

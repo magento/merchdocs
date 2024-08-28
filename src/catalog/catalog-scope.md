@@ -1,7 +1,6 @@
 ---
 title: Catalog Scope
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/introduction.html#catalog-scope
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/introduction.html#catalog-scope
 ---
 
 Adobe Commerce and Magento Open Source use the term _catalog_ to refer to the product database as a whole. Access to catalog data is determined by several factors, including the [scope]({% link configuration/scope.md %}) setting, the catalog configuration, and the [root category]({% link catalog/category-root.md %}) that is assigned to the store. The catalog includes products that are enabled and available for sale, as well as those that are currently not offered for sale.

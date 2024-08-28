@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Updating a Company Profile
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-manage.html#update-a-company-profile
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-manage.html#update-a-company-profile
 ---
 
 The company profile can be maintained from the storefront by the company administrator, and also from the Admin by the store administrator.

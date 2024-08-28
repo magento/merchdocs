@@ -3,8 +3,7 @@ ee_only: true
 title: Add Facets
 tag: live-search
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets-add.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets-add.html
 ---
 
 Any filterable product attribute can be used as a facet. The _Add facets_ panel lists the current facets and makes it easy to assign additional product attributes as facets. During this three-step process, an attribute is chosen to be used as a facet, properties are edited if needed, and the changes published to the storefront.

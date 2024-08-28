@@ -3,8 +3,7 @@ title: Headless
 tag: product-recommendations
 group: marketing
 ee_only: true
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/headless.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/headless.html
 ---
 
 You can integrate Product Recommendations in a headless storefront using either [PWA Studio](https://developer.adobe.com/commerce/pwa-studio/) or a custom frontend technology, such as React or Vue JS.

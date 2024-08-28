@@ -1,7 +1,6 @@
 ---
 title: OAuth
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Services]({% link configuration/services.md %}) >  OAuth

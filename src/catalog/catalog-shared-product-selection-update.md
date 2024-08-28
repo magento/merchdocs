@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Updating the Product Selection
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage.html#update-the-product-selection
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage.html#update-the-product-selection
 ---
 
 The selection of products in any shared catalog can be easily updated from the Action column of the Shared Catalogs grid. The changes you make are visible to members of any associated company accounts. The process is essentially the same as choosing products for a new [catalog structure]({% link catalog/catalog-shared-pricing-structure.md %}), except that the scope of the configuration cannot be changed.

@@ -1,8 +1,7 @@
 ---
 title: Attribute Sets
 group: catalog
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html
 ---
 
 One of the first steps when creating a product is to choose the attribute set that is used as a template for the product record. The attribute set determines the fields that are available during data entry, and the values that appear to the customer.

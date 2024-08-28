@@ -1,7 +1,6 @@
 ---
 title: Shipping an Order
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html
 ---
 
 An order that has been paid, but is awaiting shipment has the `Processing` status. The shipment record contains a detailed history of the fulfillment process associated with the order. Partial shipments can be made until the order is fulfilled.

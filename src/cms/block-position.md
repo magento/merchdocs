@@ -1,7 +1,6 @@
 ---
 title: Positioning Blocks
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/blocks/block-position.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/blocks/block-position.html
 ---
 
 The code that controls the page layout and placement of blocks is written in XML [Widgets]({% link cms/widgets.md %}) to make it easy to position a block at a specific place on the page, and even for a specific product or category without writing any code. You can choose each option from a list, rather than trying to remember all of the possible combinations.

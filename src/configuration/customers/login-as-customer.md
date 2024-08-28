@@ -1,7 +1,6 @@
 ---
 title: Login as Customer
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/customers/login-as-customer.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/customers/login-as-customer.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) >  Login As Customer

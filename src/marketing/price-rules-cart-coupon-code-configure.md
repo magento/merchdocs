@@ -1,7 +1,6 @@
 ---
 title: Configuring Coupon Codes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html#configure-coupon-codes
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html#configure-coupon-codes
 ---
 
 The length and format of automatically generated coupon codes is controlled by the configuration. The characters can be set to all numbers, all letters, or a combination. You can insert a dash at set intervals to make it easy to read, and add a .prefix and suffix to associate the code with a specific campaign or initiative.

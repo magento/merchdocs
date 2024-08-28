@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - New Third Party Listings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/new-third-party-listings.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/new-third-party-listings.html
 ---
 
 The _New Third Party_ tab shows your existing Amazon listings that have not been matched to a product in your Commerce catalog. To use listing management for quantity, pricing, handling time, and more, each of your Amazon listings must be matched (assigned) to a product in your Commerce catalog. You have a few options to assign a listing to a product in your Commerce catalog.

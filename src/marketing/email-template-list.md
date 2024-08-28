@@ -1,7 +1,6 @@
 ---
 title: Email Template List
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html#email-template-list
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-templates.html#email-template-list
 ---
 
 The list of email templates is organized alphabetically by module.

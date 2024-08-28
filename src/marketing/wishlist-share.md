@@ -1,7 +1,6 @@
 ---
 title: Sharing a Wish List
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-storefront.html#share-the-wish-list
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-storefront.html#share-the-wish-list
 ---
 
 Customers can manage their wish lists from the dashboard of their accounts. Store administrators can also help customers manage their wish lists from the Admin.

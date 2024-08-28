@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Scheduled Changes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-scheduled-changes.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-scheduled-changes.html
 ---
 
 Product updates can be applied on schedule and grouped with other content changes. You can use [content staging]({% link cms/content-staging.md %}) to create a new campaign based on scheduled changes to the product, or apply the changes to an existing campaign.

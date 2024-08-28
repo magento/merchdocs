@@ -3,8 +3,7 @@ title: Recommendations Workspace
 tag: product-recommendations
 group: marketing
 ee_only: true
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/workspace.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/workspace.html
 ---
 
 The Product Recommendations workspace displays a list of previously configured recommendations with metrics that help you track the success of each recommendation. The list can be configured to calculate metrics for the last day, week, or month. You can use the metrics to create actionable insights based on how frequently a recommendation unit is viewed or clicked, or to analyze how well your recommendations perform.

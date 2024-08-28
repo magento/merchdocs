@@ -14,8 +14,7 @@ sections:
    content: Learn about using customer segments to dynamically display content and promotions to specific customers, based on properties such as customer address, order history, shopping cart contents, and so on.
    url: /marketing/customer-segments.html
    
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-introduction.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-introduction.html
 ---
 
 As you continue to maintain and expand your store, you will manage customer accounts and customer groups in the Admin. You can access the customer management tools from the [Customers menu]({% link customers/customers-menu.md %}).

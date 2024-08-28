@@ -1,7 +1,6 @@
 ---
 title: PayPal Settlement Reports
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-settlement-reports.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-settlement-reports.html
 ---
 
 The PayPal Settlement report provides the store administrator with the information about each transaction that affects the settlement of funds.

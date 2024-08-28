@@ -1,7 +1,6 @@
 ---
 title: Tax Zones and Rates
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-zones-rates.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-zones-rates.html
 ---
 
 Tax rates generally apply to transactions that take place within a specific geographical area. The Tax Zones and Rates tool enables you to specify the tax rate for each geographical area from which you collect and remit taxes. Because each tax zone and rate has a unique identifier, you can have multiple tax rates for a given geographic area (such as places that do not tax food or medicine, but do tax other items).

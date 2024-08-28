@@ -1,7 +1,6 @@
 ---
 title: Adding Stores
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-stores
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-stores
 ---
 
 A single installation of Adobe Commerce or Magento Open Source can have multiple stores that share the same Admin. Stores that are under the same website have the same IP address and domain, use the same security certificate, and share a single checkout process.

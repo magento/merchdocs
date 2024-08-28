@@ -1,7 +1,6 @@
 ---
 title: Refunds
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/manage/refunds.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/manage/refunds.html
 ---
 
 Refunds for Payment Services orders are created in the Admin as part of the credit memo process. A credit memo is a document that shows the amount that is due to the customer, for a full or partial refund, which can be applied toward a purchase or refunded directly to the customer. Credit memos can only be issued for orders that are [invoiced]({% link sales/invoice-create.md %}).

@@ -1,7 +1,6 @@
 ---
 title: Printing Invoices
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html#print-invoices
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html#print-invoices
 ---
 
 Invoices can be printed individually or as a batch. However, before an invoice can be printed, it must first be generated for the order. You can upload a high-resolution logo for a print-ready PDF invoice, and include the [Order ID]({% link marketing/sales-documents-ref-id.md %}) in the header. To customize the invoice template with your logo and address, see [PDF Logo Requirements]({% link marketing/sales-document-pdf-logo.md %}).

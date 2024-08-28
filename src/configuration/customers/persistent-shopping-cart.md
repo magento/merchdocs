@@ -1,7 +1,6 @@
 ---
 title: Persistent Shopping Cart
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/customers/persistent-shopping-cart.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/customers/persistent-shopping-cart.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Persistent Shopping Cart

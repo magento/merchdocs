@@ -1,7 +1,6 @@
 ---
 title: Media - Banner
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/media/banner.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/page-builder/media/banner.html
 ---
 
 Use the _Banner_ content type to add an illustrated, interactive component that engages users with a call to action and button in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage).

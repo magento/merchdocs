@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Invitations
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/events/invitations.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/events/invitations.html
 ---
 
 When invitations are enabled, customers can send and view [invitations]({% link customers/account-dashboard-my-invitations.md %}) from the dashboard of their customer accounts. The invitation email includes a link to your store’s [Customer Login]({% link customers/customer-account.md %}) page.

@@ -1,7 +1,6 @@
 ---
 title: Inventory
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Catalog]({% link configuration/catalog.md %}) > Inventory

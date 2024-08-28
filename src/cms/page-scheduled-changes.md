@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Scheduled Changes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages-workspace.html#scheduled-changes
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages-workspace.html#scheduled-changes
 ---
 
 Page changes can be applied on schedule, and grouped with other content changes. You can create a new campaign based on scheduled changes to a page, or apply the changes to an existing campaign. For more information, see [Content Staging]({% link cms/content-staging.md %}).

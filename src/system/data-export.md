@@ -1,7 +1,6 @@
 ---
 title: Export
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html
 ---
 
 The best way to become familiar with the structure of your database is to export the data and open it in a spreadsheet. Once you become familiar with the process, you'll find that it is an efficient way to manage large amounts of information.

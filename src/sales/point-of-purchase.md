@@ -16,8 +16,7 @@ sections:
  - title: Checkout
    content: The Checkout page leads the customer through each step of the process for completing the order transaction. Customers who are logged into their accounts can complete checkout quickly, because much of the information is already in their accounts.
    url: /sales/checkout-process.html
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html#point-of-purchase
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html#point-of-purchase
 ---
 
 Adobe Commerce and Magento Open Source reduce ordering errors by automatically verifying the SKU and availability of all items before an order is submitted. In this section of the guide, you'll learn how to configure the cart and checkout options, and offer assistance to your customers.

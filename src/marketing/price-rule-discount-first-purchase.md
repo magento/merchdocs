@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Discount with First Purchase
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rule-discount-first-purchase.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rule-discount-first-purchase.html
 ---
 
 Cart price rules can be used to automatically offer a discount to customers on their first purchase, with no coupon needed.

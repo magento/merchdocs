@@ -1,7 +1,6 @@
 ---
 title: Persistent Cart Workflow
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent.html#persistent-cart-workflow
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent.html#persistent-cart-workflow
 ---
 
 When Persistent Shopping Cart is [enabled]({% link sales/cart-persistent-configuration.md %}), the workflow depends on the values of the _Enable Remember Me_ and _Clear Persistence on Log Out_ settings, the customer's decision to select or clear the _Remember Me_ checkbox, and when the persistent cookie is cleared.

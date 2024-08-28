@@ -2,8 +2,7 @@
 b2b_only: true
 title: Configuring Requisition Lists
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists.html
 ---
 
 The Requisition List feature allows a customer to create multiple lists of frequently-purchased items and use those lists for order placement. It is available for both logged-in users and guests. You can enable requisition lists when you configure the [B2B features]({% link stores/b2b-features.md %}).

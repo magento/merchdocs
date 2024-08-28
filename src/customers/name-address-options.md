@@ -1,7 +1,6 @@
 ---
 title: Name and Address Options
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/name-address-options.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/name-address-options.html
 ---
 
 The _Name and Address Options_ determine which fields are included in the name and address forms when customers create an [account]({% link customers/account-create.md %}) with your store.

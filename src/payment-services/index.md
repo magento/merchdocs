@@ -1,7 +1,6 @@
 ---
 title: Payment Services
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/overview.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/overview.html
 ---
 
 Payment Services for {{ site.data.var.ee }} and {{ site.data.var.ce }} is your turnkey self-service solution, including sandbox testing and a simple setup, for providing robust and secure payment processing for your Commerce websites.

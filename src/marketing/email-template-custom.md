@@ -1,7 +1,6 @@
 ---
 title: Customizing Email Templates
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-template-custom.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-template-custom.html
 ---
 
 Commerce includes a default email template for the body section of each message that is sent by the system. The template for the body content is combined with the [header]({% link marketing/email-template-header.md %}) and [footer]({% link marketing/email-template-footer.md -%}) templates to create the complete message. The content is formatted with HTML and CSS, and can be easily edited, and customized by adding [variables]({% link marketing/variables.md -%}) and [widgets]({% link cms/widgets.md %}). Email templates can be customized for each website, store, or store view. If using custom templates, make sure to update the [system configuration]({% link marketing/email-template-configuration.md -%}) to ensure that the correct template is used.

@@ -1,7 +1,6 @@
 ---
 title: Expanding and Restructuring Inventory
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/expand-restructure.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/expand-restructure.html
 ---
 
 As your business grows and changes, Inventory Management supports your needs. You can expand to a Multi Source merchant or reduce down to a Single Source merchant with ease.

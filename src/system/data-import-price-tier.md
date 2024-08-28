@@ -1,7 +1,6 @@
 ---
 title: Importing Tier Prices
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/examples/data-import-price-tier.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/examples/data-import-price-tier.html
 ---
 
 Rather than entering [tier prices]({% link catalog/product-price-tier.md %}) manually for each product, it can be more efficient to [import]({% link system/data-import.md %}) the pricing data. Before you begin, create a sample file of [exported tier price data]({% link system/data-import-price-tier.md %}) that you can use as a template.

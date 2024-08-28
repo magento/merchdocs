@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Requisition Lists
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/customers/requisition-lists.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/customers/requisition-lists.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Requisition Lists

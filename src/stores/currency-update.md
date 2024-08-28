@@ -1,7 +1,6 @@
 ---
 title: Updating Currency Rates
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-update.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-update.html
 ---
 
 Currency rates can be set manually, or imported into the store. To ensure that your store has the most current rates, you can configure the currency rates to be updated automatically on schedule.

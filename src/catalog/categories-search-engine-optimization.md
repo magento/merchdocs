@@ -1,7 +1,6 @@
 ---
 title: Search Engine Optimization
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-search-engine-optimization.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-search-engine-optimization.html
 ---
 
 The Search Engine Optimization section specifies the [URL Key]({% link catalog/catalog-urls.md %}) and [meta data]({% link marketing/meta-data.md %}) fields that are used by search engines to index the category. Although some search engines ignore meta keywords, others continue to use them. The current [SEO best practice]({% link marketing/seo-best-practices.md %}) is to incorporate high-value keywords in both the meta title and meta description.

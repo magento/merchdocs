@@ -1,7 +1,6 @@
 ---
 title: Order Status
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html
 ---
 
 All orders have an order status that is associated with a stage in the order processing [workflow]({% link sales/order-status-workflow.md %}). The status of each order is shown in the Status column of the Orders grid. Your store has a set of predefined order status and order state settings. The order state describes the position of an order in the [workflow]({% link sales/order-status-workflow.md %}).

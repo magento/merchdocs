@@ -1,8 +1,7 @@
 ---
 title: What's New in the User Guide
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#what%E2%80%99s-new-in-the-merchant-guides
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#what%E2%80%99s-new-in-the-merchant-guides
 ---
 
 {% assign whatsnew = site.data.whats-new %}

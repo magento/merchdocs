@@ -2,8 +2,7 @@
 ee_only: true
 title: Customer Segment Attributes
 group: customers
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-segments.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-segments.html
 ---
 
 Customer segments are defined in a manner similar to shopping cart and catalog price rules. For an attribute to be used in a customer segment condition, the [Use in Customer Segment]({% link stores/attributes-customer.md %}) property must be set to `Yes`. Customer segment conditions can incorporate the following types of attributes:

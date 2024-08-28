@@ -1,7 +1,6 @@
 ---
 title: Providing Shopper Assistance
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer.html
 ---
 
 There are times when customers need help with their order. To see what they see, store administrators can use _Login as Customer_, which allows them to see what the customer sees and take actions on their behalf.

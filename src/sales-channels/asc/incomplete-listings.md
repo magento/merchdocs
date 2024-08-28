@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Incomplete Listings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/incomplete-listings.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/incomplete-listings.html
 ---
 
 The _Incomplete_ tab shows  your Commerce catalog products that meet your Amazon eligibility requirements as defined in your [listing rules]({% link sales-channels/asc/listing-rules.md %}) but are missing information required by Amazon before listing (example: the Amazon ASIN or a defined product condition).

@@ -1,7 +1,6 @@
 ---
 title: Recently Viewed / Compared Products
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared.html
 ---
 
 The Recently Viewed and Recently Compared blocks usually appear in the right sidebar of a catalog page. The number of products listed in each can be configured for each website, store, or store view.

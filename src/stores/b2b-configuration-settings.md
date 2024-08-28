@@ -2,8 +2,7 @@
 b2b_only: true
 title: B2B Configuration Summary
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/enable-basic-features.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/enable-basic-features.html
 ---
 
 Follow the links in this list to find related topics in the user guide.

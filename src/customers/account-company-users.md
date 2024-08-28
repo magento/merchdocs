@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Company Users
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/users/account-company-users.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/users/account-company-users.html
 ---
 
 The individuals who are associated with a company are represented in the Customers grid by the customer type, _Company User_, and are typically buyers with varying levels of permission to access store services and resources.

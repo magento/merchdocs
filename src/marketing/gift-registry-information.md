@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Gift Registry Information
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-storefront.html#gift-registry-information
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-storefront.html#gift-registry-information
 ---
 
 Customers can create and manage gift registries from their accounts. All of the information that is associated with each type of registry is available from the customer's account.

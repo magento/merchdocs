@@ -1,7 +1,6 @@
 ---
 title: Popular Search Terms
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html#popular-search-terms
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html#popular-search-terms
 ---
 
 {:.bs-callout-info}

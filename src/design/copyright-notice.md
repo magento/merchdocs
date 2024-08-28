@@ -1,8 +1,7 @@
 ---
 title: Copyright Notice
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/storefront-branding.html#change-the-copyright-notice
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/setup/storefront-branding.html#change-the-copyright-notice
 ---
 
 Your store displays a copyright notice in the footer of each page. As a best practice, the copyright notice should include the current year, and identify your company as the legal owner of the content on the site.

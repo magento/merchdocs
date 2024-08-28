@@ -1,7 +1,6 @@
 ---
 title: Google AdWords
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-adwords.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-adwords.html
 ---
 
 [Google AdWords][1] is a service that you can use to place ads in Google Search results and on the pages of companies in the Google Display Network. The AdWords dashboard includes tools to manage your campaigns, track response, and measure results.

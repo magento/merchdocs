@@ -1,7 +1,6 @@
 ---
 title: Customizable Options
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/settings/settings-advanced-custom-options.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/settings/settings-advanced-custom-options.html
 ---
 
 Adding customizable options to a product is an easy way to offer a selection of options with a variety of text, selection, and date input types. Customizable options are a good solution if your inventory needs are simple. However, because they are based on variations of a single SKU, they cannot be used to manage stock or as the basis of price rule conditions. If you have multiple products with the same options, you can set up one product and import the options to the other products.

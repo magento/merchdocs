@@ -1,7 +1,6 @@
 ---
 title: Manage Payment Services
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/manage/refunds.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/manage/refunds.html
 sections:
   - title: Refunds
     content: This topic includes information about refunds and the credit memo process.

@@ -1,7 +1,6 @@
 ---
 title: Onboard Payment Services
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html
 ---
 
 To get started using Payment Services for Adobe Commerce and Magento Open Source you must complete a few onboarding steps to connect your instance with our payments functionality.

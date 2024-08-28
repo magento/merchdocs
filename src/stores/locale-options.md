@@ -1,8 +1,7 @@
 ---
 title: Locale Options
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html#locale-options
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html#locale-options
 ---
 
 The locale determines the many of the settings that are used throughout the store. Some of them are:

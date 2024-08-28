@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Company Roles and Permissions
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/users/account-company-roles-permissions.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/users/account-company-roles-permissions.html
 ---
 
 Roles for company users set up with various levels of permission to access sales information and resources. By default, the company administrator is a super user with full permissions. The [Access Denied]({% link cms/pages-core.md %}) page appears if the user does not have permission to access the page.

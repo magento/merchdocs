@@ -3,8 +3,7 @@ ee_only: true
 title: Faceting Workspace
 tag: live-search
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace.html
 ---
 
 The workspace lists all facets that are currently available. The facets that are pinned to the top of the Facets list appear first, followed by dynamic facets. The list can be filtered to show all, pinned, or dynamic facets.

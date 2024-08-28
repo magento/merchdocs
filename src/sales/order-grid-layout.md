@@ -1,7 +1,6 @@
 ---
 title: Order Grid Layout
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#grid-layout
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#grid-layout
 ---
 
 The selection of columns and their order in the grid can be changed according to your preference. The new layout can be saved as a grid "view." By default, only nine of twenty available columns are included in the grid.

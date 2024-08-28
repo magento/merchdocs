@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Create and Edit Overrides
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/creating-editing-overrides.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/creating-editing-overrides.html
 ---
 
 You can create and override for a listing or edit or remove an override that has been applied to a listing. Overrides set a defined value for a specific listing.

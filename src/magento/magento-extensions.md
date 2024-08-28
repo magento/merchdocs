@@ -1,7 +1,6 @@
 ---
 title: Extensions
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/resources/extensions.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/resources/extensions.html
 ---
 
 This section provides installation instructions and information for extensions developed and released by Adobe. Many of these extensions are developed through Magento Open Source Community contributions.

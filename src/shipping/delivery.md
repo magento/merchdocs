@@ -1,7 +1,6 @@
 ---
 title: Delivery
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/delivery.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/delivery.html
 
 sections:
  - title: Shipping Settings

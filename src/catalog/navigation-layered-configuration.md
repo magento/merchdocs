@@ -1,8 +1,7 @@
 ---
 title: Configuring Layered Navigation
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html#configure-layered-navigation
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html#configure-layered-navigation
 ---
 
 {:.bs-callout-info}

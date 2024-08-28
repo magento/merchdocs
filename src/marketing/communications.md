@@ -26,8 +26,7 @@ sections:
     content: You can integrate your store with your social networks by installing a Marketplace extension or adding a plugin to your content pages.
     url: /marketing/social-plugins.html
 
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/introduction.html#variables-and-customer-communications
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/introduction.html#variables-and-customer-communications
 ---
 
 One of the tasks to complete before launching your store is to review the email templates that are used for all communications sent from your store to make sure that they reflect your brand. This section of the guide provides detailed information about customizing email and newsletter templates, as well as PDF invoices and packing slips. It also includes personalizing the content with variables and markup tags.

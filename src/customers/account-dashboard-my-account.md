@@ -1,7 +1,6 @@
 ---
 title: My Account
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/storefront/account-dashboard-my-account.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/storefront/account-dashboard-my-account.html
 ---
 
 The My Account section of the customer dashboard gives customers an overview of their information and activity related to your store.

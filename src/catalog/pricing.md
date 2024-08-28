@@ -20,8 +20,7 @@ sections:
   - title: Minimum Advertised Price
     content: Learn how to provide the best price for the customers with Minimum Advertised Price.
     url: /catalog/product-price-minimum-advertised.html
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html
 ---
 
 Adobe Commerce and Magento Open Source support a number of pricing options that you can use for promotions, or to meet the minimum advertised pricing requirements of the manufacturer. Changes to product pricing can be made on schedule, or by price rule that is applied at the product level or in the shopping cart.

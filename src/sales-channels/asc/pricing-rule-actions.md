@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Price Rule Actions
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/pricing-rule-actions.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/pricing-rule-actions.html
 ---
 
 Price Rule Actions define the adjustment calculations that will be applied to the price source to determine the listing price.

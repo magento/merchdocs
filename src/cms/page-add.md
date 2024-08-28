@@ -1,7 +1,6 @@
 ---
 title: Adding a New Page
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html
 ---
 
 The process of adding a new content page to your store is essentially the same for any type of page you might want to create. You can include text, images, blocks of content, variables, and widgets. Most content pages are designed to be read by search engines first, and by people second. Keep the needs of each of these two very different audiences in mind when choosing the page title, and URL, and when composing the meta data, and content. When your page is complete, it can be added to your store navigation, linked to other pages, linked from the footer of your store, or used as a new [home page]({% link cms/page-home-new.md %}).

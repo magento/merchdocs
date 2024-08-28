@@ -1,8 +1,7 @@
 ---
 title: Country Options
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html#country-options
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html#country-options
 ---
 
 The Country Options identify the country where your business is located and the countries from which you accept payment.

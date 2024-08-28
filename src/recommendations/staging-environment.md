@@ -3,8 +3,7 @@ title: Test in Staging Environment
 tag: product-recommendations
 group: marketing
 ee_only: True
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/staging-environment.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/staging-environment.html
 ---
 
 Before you deploy recommendations to your production environment, you should test on a non-production environment to ensure everything is working as expected.

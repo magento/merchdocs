@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Overrides
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/overrides.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/overrides.html
 ---
 
 The _Overrides_ tab shows your Amazon listings to which you have applied an override. An override is a listing-specific setting that can be used set a defined value to a listing. An override applied to a listing defines the setting for the listing, regardless of other defined listing settings or rules for which the listing is eligible. When an override is applied to a listing, the listing appears on the _Overrides_ tab. The value defined in the override appears in the appropriate column for the listing. There are four types of overrides that can be applied: Price, Handling Time, Condition, and Seller Notes.

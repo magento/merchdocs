@@ -1,8 +1,7 @@
 ---
 title: Websites, Stores, and Views
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html
 ---
 
 Every Adobe Commerce and Magento Open Source installation has a [hierarchy]({% link stores/stores-all-stores.md %}) of website(s), store(s), and store view(s). The term _scope_ determines where in the hierarchy a database entity — such as a product, attribute, or category — content element, or configuration setting applies. Websites, stores, and store views have one-to-many parent/child relationships. A single installation can have multiple websites, and each website can have multiple stores and store views.

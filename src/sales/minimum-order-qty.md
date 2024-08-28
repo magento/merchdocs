@@ -1,7 +1,6 @@
 ---
 title: Minimum Order Quantity
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html#minimum-order-quantity
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html#minimum-order-quantity
 ---
 
 You can set the minimum quantity allowed for an order. The minimum quantity can also be configured according to each customer group.

@@ -1,7 +1,6 @@
 ---
 title: Page Builder Workspace
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/walkthrough/3-catalog-content.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/page-builder/walkthrough/3-catalog-content.html
 ---
 
 When [Page Builder is enabled]({% link cms/page-builder-setup.md %}), the _Content_ section and content creation process are modified to take advantage of the advanced Page Builder tools for CMS [pages]({% link cms/page-add.md %}), [product]({% link catalog/product-content.md %}) and [category]({% link catalog/categories-content-settings.md %}) pages, [blocks]({% link cms/block-add.md %}), and [dynamic blocks]({% link cms/dynamic-blocks.md %}). This section includes a _Content Heading_ field, a preview of the content, and easy access to the full-screen Page Builder workspace.

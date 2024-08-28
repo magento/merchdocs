@@ -1,7 +1,6 @@
 ---
 title: Product Default Field Values
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-workspace.html#default-field-values
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-workspace.html#default-field-values
 ---
 
 To save time when creating products, the default value of several product fields references values from another field. You can either accept the default value or enter another. The following fields have automatically generated default values:

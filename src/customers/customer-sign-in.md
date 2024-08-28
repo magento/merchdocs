@@ -1,7 +1,6 @@
 ---
 title: Customer Sign In
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/customer-sign-in.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/customer-sign-in.html
 ---
 
 Customers have easy access to their accounts from every page in your store. Depending on the [configuration]({% link customers/customer-account-configuration.md %}), customers can be redirected to their account dashboard, or continue shopping after they log in to their accounts.

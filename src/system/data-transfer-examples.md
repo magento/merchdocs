@@ -1,7 +1,6 @@
 ---
 title: Data Transfer Examples
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-transfer.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-transfer.html
 ---
 
 The following examples demonstrate how to import and export catalog data for specific product types and scenarios:

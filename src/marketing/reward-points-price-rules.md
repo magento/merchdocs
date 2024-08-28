@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Using Reward Points in Price Rules
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/reward-points/reward-points-price-rules.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/reward-points/reward-points-price-rules.html
 ---
 
 Reward points can be awarded to customers on the basis of a [cart price rule]({% link marketing/price-rules-cart.md -%}). The award of points can be the only action of the price rule, or can be used in combination with a discount.

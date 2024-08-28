@@ -1,7 +1,6 @@
 ---
 title: Onboard Amazon Sales Channel
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/onboarding/amazon-onboarding-home.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/onboarding/amazon-onboarding-home.html
 ---
 
 This section describes the pre-setup tasks, steps for onboarding, and some key concepts of how Amazon works with the Amazon Sales Channel in Adobe Commerce and Magento Open Source.

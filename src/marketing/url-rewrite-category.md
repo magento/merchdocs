@@ -1,7 +1,6 @@
 ---
 title: Category Rewrites
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite-category.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite-category.html
 ---
 
 If a category is removed from your catalog, you can use a category rewrite to redirect links to the URL of another category in your store. Think in terms of _target_ / _original request_  or _redirect to_ / _redirect from_. Although people might still navigate to the former page from search engines or outdated links, the redirect causes your store to switch to the new target.

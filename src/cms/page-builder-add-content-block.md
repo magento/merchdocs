@@ -1,7 +1,6 @@
 ---
 title: Add Content - Block
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/block.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/block.html
 ---
 
 Use the _Block_ content type to add an existing, active [block]({% link cms/blocks.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). In the following example, the first column contains the block with a side menu for the page. The second column contains an image.

@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Changelog
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/integrations/mcom.html#changelog
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/integrations/mcom.html#changelog
 ---
 
 Changelog allows you to quickly navigate to the Connector changelog for up-to-date feature and product change information.

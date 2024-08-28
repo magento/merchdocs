@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Category Permissions
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html
 ---
 
 Category access can be limited to specific customer groups, or restricted entirely. You can control the display of product prices, and determine which customer groups can add products to the cart, and specify the landing page.

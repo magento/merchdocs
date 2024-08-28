@@ -1,7 +1,6 @@
 ---
 title: Other Settings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/system-menu.html#other-settings
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/system-menu.html#other-settings
 ---
 
 This section contains additional settings related to notifications, Custom Variables and Encryption Key.

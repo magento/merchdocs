@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Catalog Search
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/catalog-search.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/catalog-search.html
 ---
 
 _Catalog Search_ settings are part of your store listing settings. Listing settings are accessed from the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).

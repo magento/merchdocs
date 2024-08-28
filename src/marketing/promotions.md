@@ -1,7 +1,6 @@
 ---
 title: Promotions
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/introduction.html#promotions
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/introduction.html#promotions
 ---
 
 In this section of the guide, you will learn about how to set up product relationships and how to use price rules to trigger discounts based on a variety of conditions.

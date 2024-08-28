@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Scheduling an Export
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-scheduled-import-export.html#schedule-an-export
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-scheduled-import-export.html#schedule-an-export
 ---
 
 Scheduled Export is similar to manual [Export]({% link system/data-export.md %}), with respect to the available export file format and types of entities that can be exported:

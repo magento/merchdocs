@@ -1,7 +1,6 @@
 ---
 title: Cart Configuration
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html
 ---
 
 The cart configuration determines how the shopping cart functions for your store customers, including when the customer is redirected to the cart page and which images are used for product thumbnails. You can also require an order to reach a minimum amount before the checkout process begins, specify the number of days quoted prices remain valid, and specify the order of items in the _Order Totals_ section.

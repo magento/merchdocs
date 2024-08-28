@@ -3,8 +3,7 @@ title: Creating an Individual Customer Account
 redirect_from:
   - /customers/customer-account-admin-create.html
   - /customers/customer-account-create.html
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/account-create.html
 ---
 
 Visitors to your store can open an account to manage their purchases and activities. Customers usually create their own accounts from your store. However, you can also create customer accounts directly from the Admin, which is useful for helping customers over the phone.

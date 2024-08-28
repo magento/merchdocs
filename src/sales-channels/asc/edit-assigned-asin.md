@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Edit an Assigned ASIN
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/edit-assigned-asin.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/edit-assigned-asin.html
 ---
 
 You can edit the Amazon ASIN value assigned to a product in your Commerce catalog. This is a helpful feature if a catalog product was improperly matched to one of your Amazon listings. Changing the assigned ASIN for the listing does not change the ASIN assigned to a product by Amazon. It only changes the Amazon listing to which your catalog product is matched.

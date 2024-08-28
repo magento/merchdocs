@@ -1,7 +1,6 @@
 ---
 title: Flat Rate
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate.html
 ---
 
 Flat rate is a fixed, predefined charge that can be applied per item, or per shipment. Flat rate is a simple shipping solution, especially when used with the flat-rate packaging that is available from some carriers. When enabled, Flat Rate appears as an option during checkout. Because no specific carrier is specified, you can use a carrier of your choice.

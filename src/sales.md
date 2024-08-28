@@ -18,8 +18,7 @@ sections:
     content: Learn how to set up a variety of delivery methods, shipping carriers, and print shipping labels.
     url: /shipping/delivery.html
     
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html
 ---
 
 The cart is positioned at the end of the [path to purchase]({% link quick-tour/path-to-purchase.md %}), at the intersection of "Buy" and "Abandon." It is perhaps, the most important page in your store. You can set up this point of purchase and the supporting functions from the [Sales menu]({% link sales/sales-menu.md %}).

@@ -1,7 +1,6 @@
 ---
 title: Adding Store Views
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html
 ---
 
 Store views are typically used to make the store available in different [locales]({% link stores/locale-options.md %}). Shoppers can use the language chooser in the header of the store to change the store view.

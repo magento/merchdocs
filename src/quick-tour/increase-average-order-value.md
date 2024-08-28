@@ -1,7 +1,6 @@
 ---
 title: Increase Average Order Value
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
 ---
 
 Adobe Commerce and Magento Open Source provide a range of tools to help you tailor the shopping experience, and encourage your customers to put more items in their shopping carts and spend more money.

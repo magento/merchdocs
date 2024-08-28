@@ -1,7 +1,6 @@
 ---
 title: Free Shipping Promotion
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-free-shipping.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-free-shipping.html
 ---
 
 Free shipping can be offered as a promotion, either with, or without a [coupon]({% link marketing/price-rules-cart-coupon.md %}). A free shipping coupon, or voucher, can also be applied to customer pick-up orders, so the order can be invoiced and shipped to complete the [workflow]({% link sales/order-workflow.md %}).

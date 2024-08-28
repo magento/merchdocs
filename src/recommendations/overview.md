@@ -3,8 +3,7 @@ ee_only: true
 title: Recommendations Overview
 tag: product-recommendations
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html
 sections:
   - title: Onboarding
     content: Complete the recommendations onboarding process.

@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Order by SKU
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku.html
 ---
 
 A 'SKU' is a 'Stock Keeping Unit'. SKUs generally help online sellers identify the most important product characteristics such as: size, color, price, material etc. Product IDs are different than SKUs:

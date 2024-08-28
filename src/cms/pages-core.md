@@ -1,7 +1,6 @@
 ---
 title: Core Content
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages.html
 ---
 
 The Commerce demo store has examples of core content pages to help you get started. All of the pages can be modified to meet your needs. Take a look at the following pages in your store to make sure that the content conveys your message, voice, and brand.

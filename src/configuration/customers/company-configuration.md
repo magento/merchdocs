@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Company Configuration
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/customers/company-configuration.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/customers/company-configuration.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Company Configuration

@@ -3,8 +3,7 @@ title: Live Search Release Notes
 ee_only: True
 tag: live-search
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html
 ---
 
 These release notes describe the latest versions of Live Search and include:

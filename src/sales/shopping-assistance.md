@@ -1,7 +1,6 @@
 ---
 title: Shopping Assistance
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html#shopping-assistance
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html#shopping-assistance
 ---
 
 Customers sometimes need assistance to complete a purchase. Some customers like to shop online, but would rather the order by phone. You can offer immediate assistance to both guests and customers who have registered for an account with your store.

@@ -1,7 +1,6 @@
 ---
 title: Configuring Backorders
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/backorders.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/backorders.html
 ---
 
 Backorders allow your store to continue selling products after the quantity reaches zero, or is effectively out of stock. When a customer order is a backorder, the funds are authorized and captured immediately, the processing status of the order does not change, and the shipping remains on-hold until stock is available.

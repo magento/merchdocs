@@ -1,7 +1,6 @@
 ---
 title: Product Attributes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html
 ---
 
 Product attribute properties determine how an attribute can be used in the catalog, its appearance and behavior in the store, and the data included in data transfer operations. The properties and labels associated with each attribute determine how it can be used and its presentation in the store.

@@ -1,7 +1,6 @@
 ---
 title: Duplicating and Deleting a Page
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html#duplicate-a-page
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html#duplicate-a-page
 ---
 
 Any content page can be used as a template, and saved as a duplicate. You might use this time-saving technique to create a consistent design for content pages throughout your site. The duplicate page retains the Page Title of the original, but the URL Key and Status fields must be updated.

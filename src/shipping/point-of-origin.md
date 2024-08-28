@@ -1,7 +1,6 @@
 ---
 title: Point of Origin
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html#point-of-origin
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html#point-of-origin
 ---
 
 The point of origin is used to calculate the charge for shipments made from your store or warehouse, and also determines the tax rate for products sold. When calculating [EU taxes]({% link tax/guidelines-eu.md %}), make sure that the [Default Tax Destination Calculation]({% link configuration/sales/tax.md %}) for each store view corresponds to the Shipping Settings point of origin.

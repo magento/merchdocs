@@ -3,8 +3,7 @@ ee_only: true
 title: Configuring Store Credit
 redirect_from:
   - /sales/credit-configure.html
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure.html
 ---
 
 The store credit configuration controls automatic refunds, the display of available credit in customer accounts, and the email template that is used for notifications sent to customers.

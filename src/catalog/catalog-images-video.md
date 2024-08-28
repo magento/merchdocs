@@ -1,7 +1,6 @@
 ---
 title: Catalog Images and Video
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/catalog-images-video.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/catalog-images-video.html
 ---
 
 Using high-quality images of consistent proportion gives your catalog a professional look with commercial appeal. If you have a large catalog with several images per product, you can easily have hundreds, if not thousands of product images to manage. Before you get started, establish a naming convention for your image files, and organize them so you can find the originals if you ever need them.

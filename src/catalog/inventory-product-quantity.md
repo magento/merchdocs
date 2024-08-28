@@ -1,7 +1,6 @@
 ---
 title: Assigning Quantities per Product
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/quantities-assign-per-product.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/quantities-assign-per-product.html
 ---
 
 After adding [sources]({% link catalog/inventory-product-sources.md %}), update the inventory quantities for your product. These values track the on-hand, available stock amounts.

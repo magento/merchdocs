@@ -1,8 +1,7 @@
 ---
 title: Top Navigation
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html
 ---
 
 The main menu of your store is like a directory to the different departments in your store. Each option represents a different category of products. The position and presentation of the top navigation might vary by theme, but the way it works is essentially the same.

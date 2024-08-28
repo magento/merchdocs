@@ -1,7 +1,6 @@
 ---
 title: Media Gallery Image Optimization
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/gallery/media-gallery-image-optimization.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/gallery/media-gallery-image-optimization.html
 ---
 
 The new [Media Gallery]({% link cms/media-gallery.md %}) provides an _Image Optimization_ feature, which improves performance and decreases media file sizes on the storefront. This optimization is enabled by default and can be modified in the store configuration settings.

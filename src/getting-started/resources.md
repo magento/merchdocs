@@ -1,7 +1,6 @@
 ---
 title: Commerce Resources
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/resources/resources.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/resources/resources.html
 ---
 
 Adobe provides a wealth of business and technical resources, self-help tools, and services to help you succeed.

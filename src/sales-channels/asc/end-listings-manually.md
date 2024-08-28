@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - End a Listing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/end-listings-manually.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/end-listings-manually.html
 ---
 
 ## Manually end a single or multiple Amazon listings

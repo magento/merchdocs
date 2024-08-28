@@ -3,8 +3,7 @@ ee_only: true
 title: Facets
 tag: live-search
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html
 ---
 
 Faceting is a method of high-performance filtering that uses multiple dimensions of attribute values as search criteria. Faceted search is similar, but considerably “smarter” than the standard [layered navigation]({% link catalog/navigation-layered.md %}). The list of available filters is determined by the [filterable attributes]({% link catalog/navigation-layered-filterable-attributes.md %}) of products returned in the search results. Up to 100 facets can be configured with Live Search.

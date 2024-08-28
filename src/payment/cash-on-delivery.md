@@ -1,7 +1,6 @@
 ---
 title: Cash On Delivery
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/offline/cash-on-delivery.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/offline/cash-on-delivery.html
 ---
 
 Adobe Commerce and Magento Open Source allow you to accept cash on delivery (COD) payments for purchases. You can accept COD payment only from specific countries, and you can fine-tune the configuration with minimum and maximum order total limits.

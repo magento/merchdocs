@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Price Priority Logic
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/price-priority-logic.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/price-priority-logic.html
 ---
 
 In the example below, how does the system determine if we should publish $31.99, $24.99, or $27.99?

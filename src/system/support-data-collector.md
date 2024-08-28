@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Data Collector
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/support.html#data-collector
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/support.html#data-collector
 ---
 
 Data Collector gathers the information about your system that is needed by our Support team to troubleshoot issues with your Adobe Commerce installation. The backup that is created takes several minutes to complete, and includes both a code and database dump. The data can be exported to a CSV or Excel XML file.

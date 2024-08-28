@@ -1,7 +1,6 @@
 ---
 title: Pending Payment Order Lifetime
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-scheduled-operations.html#set-pending-payment-order-lifetime
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-scheduled-operations.html#set-pending-payment-order-lifetime
 ---
 
 The lifetime of orders with pending payments is determined by the Orders Cron Settings configuration. The default value is set to 480 minutes, which is eight hours.

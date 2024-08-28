@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Quote Workflow
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/quotes.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/quotes.html
 ---
 
 All quotes are initiated by the buyer from the shopping cart and follow the same basic workflow.

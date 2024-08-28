@@ -1,7 +1,6 @@
 ---
 title: HTML Head
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/page-setup.html#html-head
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/page-setup.html#html-head
 ---
 
 The settings in the HTML Head section correspond to the `<head>` tag of an HTML page, and can be configured for each store view. In addition to meta data for the page title, description, and keywords, the section includes a link to the favicon, and miscellaneous scripts. Instructions for search engine robots and the display of the store demo notice are also configured in this section.

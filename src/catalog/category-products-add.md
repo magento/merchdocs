@@ -1,7 +1,6 @@
 ---
 title: Adding and Removing Category Products
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/category-products-add.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/category-products-add.html
 ---
 
 From the [Products in Category]({% link catalog/categories-category-products.md %}) section , a store administrator can add products to the category. This section lists all the products that are actually assigned to the category and displays <span class="btn">Add Product</span> when **Match products by rule** is set to `No`.

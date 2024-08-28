@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: My Quotes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes.html
 ---
 
 If quotes are enabled, the My Quotes section of the account lists all quotes submitted by the customer. Depending on their permissions, only buyers who make purchases on behalf of a company can submit requests to negotiate the price of a purchase.

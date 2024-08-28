@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Manage Stock Aggregates
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/integrations/mcom.html#manage-stock-aggregates
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/integrations/mcom.html#manage-stock-aggregates
 ---
 
 Manage Stock Aggregates provides information about existing stock aggregates, and allows you to add new stock aggregates or edit or delete existing ones.

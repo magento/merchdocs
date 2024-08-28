@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Ended Listings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/ended-listings.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/ended-listings.html
 ---
 
 The _Ended_ tab shows all the Amazon products that have been manually ended (removed) from your Amazon Seller Central account. These products meet all of the listing requirements and can be republished at any time and do not require additional information. If a product is in the _Ineligible_ tab, you may need to modify your [listing settings]({% link sales-channels/asc/listing-settings.md %}) to so that your product meets listing eligibility.

@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Listing Improvements
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/reports-logs/store-reports/listing-improvements.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/reports-logs/store-reports/listing-improvements.html
 ---
 
 The Listing Improvements report shows products with suggestions from Amazon to improve the listing quality. You can review these suggestions, which could help the performance of products within the Amazon listing. No actions are available for the log. It is a review-only feature.

@@ -1,7 +1,6 @@
 ---
 title: Locked Users
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html#locked-users
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html#locked-users
 ---
 
 For the security of your business, user accounts are locked by default after six failed attempts to [log in]({% link stores/admin-signin.md %}) to the Admin. Any user account that is currently locked appears in the Locked Users grid. An account can be unlocked by any other user with full Administrator permissions.

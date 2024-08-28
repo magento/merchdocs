@@ -1,7 +1,6 @@
 ---
 title: Updating Wish Lists
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-storefront.html#edit-wish-lists
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-storefront.html#edit-wish-lists
 ---
 
 Customers can manage their wish lists by logging in to their accounts on the storefront. As a store administrator, you can also manage customer wish lists from the Admin.

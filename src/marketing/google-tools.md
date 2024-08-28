@@ -20,8 +20,7 @@ sections:
   - title: Google AdWords
     content: Learn how to create a Google AdWords campaign and track conversions for your store.
     url: /marketing/google-adwords.html
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-tools.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-tools.html
 ---
 
 Your store configuration is integrated with the following Google tools to help optimize your content, analyze your traffic, and connect your catalog to shopping aggregators and marketplaces.

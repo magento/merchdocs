@@ -29,8 +29,7 @@ sections:
   - title: Google Tools
     content: Learn how to optimize your content, analyze your traffic, and connect your catalog to shopping aggregators and marketplaces.
     url: /marketing/google-tools.html
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/introduction.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/introduction.html
 ---
 
 In this section of the guide, you'll learn how to leverage the available shopping tools to create opportunities for customer engagement and how to set up targeted promotions with price rules. All of these tools are available from the [Marketing menu]({% link marketing/marketing-menu.md %}).

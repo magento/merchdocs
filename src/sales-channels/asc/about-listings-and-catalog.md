@@ -1,7 +1,6 @@
 ---
 title: About Amazon and the Commerce Catalog
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/about-listings-and-catalog.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/about-listings-and-catalog.html
 ---
 
 Your Adobe Commerce or Magento Open Source backend includes a catalog with all products and associated settings and information (images, options, prices, and more) and order and shipping configurations. Your Amazon Seller Central account also has a catalog and order configurations, tracking strictly your sales through the Amazon Marketplace.

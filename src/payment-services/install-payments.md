@@ -1,7 +1,6 @@
 ---
 title: Install Payment Services
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html
 ---
 
 Installing the Payment Services extension for Adobe Commerce and Magento Open Source is a prerequisite step for using Payment Services.

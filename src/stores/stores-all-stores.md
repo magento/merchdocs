@@ -1,7 +1,6 @@
 ---
 title: All Stores
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html
 ---
 
 When Adobe Commerce or Magento Open Source is installed, a hierarchy that includes a main website, store, and store view is created. You can create additional websites, stores, and store views, as needed. For example, in addition to your main website, you might have additional websites with a different domain. Within each website, you can have multiple stores, and within each store, separate store views. Many installations have one website and one store, but with multiple store views to support different languages.

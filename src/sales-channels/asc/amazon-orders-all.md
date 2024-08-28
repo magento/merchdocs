@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - View Orders
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-orders/amazon-orders-all.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-orders/amazon-orders-all.html
 ---
 
 There are two ways to view your Amazon orders: _Recent Orders_ and _All Orders_.

@@ -1,7 +1,6 @@
 ---
 title: Printing Credit Memos
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create.html#print-a-credit-memo
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create.html#print-a-credit-memo
 ---
 
 To print or view the completed credit memo, you must have a PDF reader installed. You can download [Adobe Reader][1] at no charge.

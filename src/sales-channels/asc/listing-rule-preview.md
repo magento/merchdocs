@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Listing Rule Preview
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/listing-rules.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/listing-rules.html
 ---
 
 When you are modifying your condition definitions for your listing rules, you can click **Preview Changes** to apply your rules changes and view how your listings are impacted. You should verify your listings in this listing preview feature before saving your listing rule changes.

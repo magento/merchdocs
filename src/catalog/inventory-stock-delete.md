@@ -1,7 +1,6 @@
 ---
 title: Deleting Stocks
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/stocks/stocks-delete.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/inventory/stocks/stocks-delete.html
 ---
 
 When you delete the stock, all assigned web sites are assigned to the Default Stock. We recommend reassigning websites to other stocks prior to deletion.

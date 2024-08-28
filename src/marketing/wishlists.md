@@ -1,7 +1,6 @@
 ---
 title: Wish Lists
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists.html
 ---
 
 A wish list is a list of products that a registered customer can share with friends, or save to transfer to the cart at a later date. When wish lists are enabled, the Add to Wishlist link appears on the category and product pages of each product in the store. Depending on the theme, it might be a text link or a graphic image.

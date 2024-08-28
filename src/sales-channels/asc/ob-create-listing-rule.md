@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Create Listing Rule, Onboarding
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/onboarding/ob-create-listing-rule.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/onboarding/ob-create-listing-rule.html
 ---
 
 Listing rules can be defined during onboarding, but can also be modified at any time. After onboarding, you can access the [listing rules]({% link sales-channels/asc/listing-rules.md %}) on the store [dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).

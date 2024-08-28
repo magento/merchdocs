@@ -1,7 +1,6 @@
 ---
 title: Free Shipping
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free.html
 ---
 
 Free shipping is one of the most effective promotions you can offer. It can be based on a minimum purchase, or set up as a [cart price rule]({% link marketing/price-rules-cart.md %}) that is applied when a set of conditions is met. If both apply to the same order, the configuration setting takes precedence over the cart rule.

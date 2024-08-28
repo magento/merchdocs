@@ -1,7 +1,6 @@
 ---
 title: PayPal Payments Advanced
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-payments-advanced.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-payments-advanced.html
 ---
 
 [PayPal Payments Advanced][4] is a [PCI-compliant]({% link stores/compliance-pci.md %}) solution that lets your customers pay by debit or credit card without leaving your site. It includes an embedded checkout page that can be customized to create a seamless and secure checkout experience.

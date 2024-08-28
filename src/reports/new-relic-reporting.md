@@ -1,7 +1,6 @@
 ---
 title: New Relic Reporting
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/new-relic-reporting.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/new-relic-reporting.html
 ---
 
 [New Relic][1] is a software analytics service that helps you analyze and improve application interactions. Accounts for Adobe Commerce on cloud infrastructure include the software for the New Relic APM service. For more information, see [New Relic services][4]{:target="_blank"} in our developer documentation.

@@ -1,7 +1,6 @@
 ---
 title: Header Template
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-template-custom.html#header-template
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-template-custom.html#header-template
 ---
 
 After completing the [configuration]({% link marketing/email-template-configuration.md -%}), the email header template includes your logo that is linked to your store. If you have a basic knowledge of HTML, you can easily use [predefined variables]({% link marketing/variables-predefined.md -%}) to add store contact information to the header.

@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Renewed Products
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/renewed-products.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/renewed-products.html
 ---
 
 Before you can list your high-quality, like-new products (refurbished, pre-owned, and open-box) on Amazon, you must first register and be approved for the [Amazon Renewed Program](https://sell.amazon.com/programs/renewed.html).

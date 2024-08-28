@@ -1,7 +1,6 @@
 ---
 title: Resetting Passwords
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html
 ---
 
 Customers usually reset their passwords from the storefront by clicking the "Forgot Your Password?" link. However, the store administrator can initiate either a password reset or a forced sign-in from the Admin.

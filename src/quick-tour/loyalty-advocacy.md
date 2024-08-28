@@ -1,7 +1,6 @@
 ---
 title: Build Loyalty and Advocacy
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
 ---
 
 Give customers a direct connection to your brand by allowing them to create customer accounts where they can see their purchase history, wish list, and newsletter subscription information. Use product ratings and reviews to give new customers objective product opinions and promote a sense of community. These features turn customer satisfaction into one of the most powerful and cost-efficient marketing tools at your disposal.

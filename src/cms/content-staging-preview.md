@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Previewing a Campaign
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-preview.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-preview.html
 ---
 
 Any day or period of time during a campaign can be previewed and shared with others.

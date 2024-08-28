@@ -1,7 +1,6 @@
 ---
 title: Bank Transfer
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/offline/bank-transfer.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/offline/bank-transfer.html
 ---
 
 Adobe Commerce and Magento Open Source allow you to accept payment that is transferred from a customer bank account and deposited into your merchant bank account.

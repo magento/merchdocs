@@ -1,7 +1,6 @@
 ---
 title: Create a Cart Price Rule
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create.html
 ---
 
 Complete the following steps to add a new rule, describe the conditions, and define the actions. Then, complete the labels and test the rule.  Price rule conditions can be based on cart or [product attributes]({% link catalog/product-attributes.md %}), but not on [customizable options]({% link catalog/settings-advanced-custom-options.md %}).

@@ -1,7 +1,6 @@
 ---
 title: Taxes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html
 ---
 
 This section shows you how to set up taxes according to the requirements of your locale. You can set up tax classes for products and customer groups, and create tax rules that combine product and customer classes, tax zones, and rates. In addition, you will learn more advanced topics such as setting up fixed product taxes, compound taxes, and how to display consistent prices across international borders. If you are required to collect a value-added tax, you will learn how to set up your store to automatically calculate the appropriate amount with validation.

@@ -1,7 +1,6 @@
 ---
 title: Adding Product Video
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-video.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/digital-assets/product-video.html
 ---
 
 To add product video, you must first obtain an API Key from your Google account and enter it in the configuration of your store. Then, you can link to the video from the product.

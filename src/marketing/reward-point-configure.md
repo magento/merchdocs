@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Configuring Reward Points
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty.html#enable-reward-point-operations-for-your-store
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty.html#enable-reward-point-operations-for-your-store
 ---
 
 The Reward Points configuration determines how reward points are presented in the store and defines the basic operating parameters.

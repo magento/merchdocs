@@ -1,7 +1,6 @@
 ---
 title: Cross-Border Price Consistency
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-settings-general.html#cross-border-price-consistency
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-settings-general.html#cross-border-price-consistency
 ---
 
 Cross-border trade (also referred to as price consistency) supports European Union (EU) and other merchants who want to maintain consistent prices for customers whose tax rates are different than the store tax rate.

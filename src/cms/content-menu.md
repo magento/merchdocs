@@ -1,7 +1,6 @@
 ---
 title: Content Menu
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/content-menu.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/content-menu.html
 ---
 
 The term _content marketing_ refers to the art of promoting your products or services by providing valuable information to your customers at no charge. The quality of your content helps distinguish your store from others, increases your visibility to search engines, and provides support to your customers. This soft-sell approach is often more effective than advertising, builds credibility and trust, and can turn your store into a destination. Content is still king.

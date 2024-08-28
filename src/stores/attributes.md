@@ -1,7 +1,6 @@
 ---
 title: Attributes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html
 ---
 
 Adobe Commerce and Magento Open Source use attributes to manage the information associated with products, customers, and product ratings. Attributes are pieces of information that might appear as fields in forms, reports, product reviews, [layered navigation]({% link catalog/navigation-layered.md %}), and email messages. Some attributes are built into the system, and others can be created to address specific needs.

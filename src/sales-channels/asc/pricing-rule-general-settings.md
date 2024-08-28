@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Pricing Rule General Settings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/pricing-rule-general-settings.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/pricing-rule-general-settings.html
 ---
 
 Define the name, description, active dates, and priority for the rule.

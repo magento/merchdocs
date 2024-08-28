@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: MCOM Menu
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/integrations/mcom.html#mcom-menu
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/integrations/mcom.html#mcom-menu
 ---
 
 If you use the Order Management System (OMS) with Adobe Commerce, an **MCOM** option is available in the left menu of the Admin.

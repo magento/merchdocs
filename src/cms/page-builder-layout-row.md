@@ -1,7 +1,6 @@
 ---
 title: Layout - Row
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/layout/row.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/page-builder/layout/row.html
 ---
 
 Use the _Row_ content type to add a new row in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage).

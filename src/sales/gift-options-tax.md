@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Gift Options Tax
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html#gift-options-tax
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html#gift-options-tax
 ---
 
 Gift wrapping and printed gift card prices can be configured to include or exclude tax, or to display both options. You can also specify a tax class for these items, at either the global or website level.

@@ -1,7 +1,6 @@
 ---
 title: Google API
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/google-api.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/sales/google-api.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Google API

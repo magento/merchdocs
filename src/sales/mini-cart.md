@@ -1,7 +1,6 @@
 ---
 title: Mini Cart
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html#mini-cart
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html#mini-cart
 ---
 
 The mini cart displays a summary of items in the cart. It is enabled by default, and appears when you click the Cart link at the top of the page.

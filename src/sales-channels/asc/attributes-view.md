@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Attributes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/attributes/attributes-view.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/attributes/attributes-view.html
 ---
 
 The _Attributes_ view shows your list of Amazon and Commerce attributes. The table list also indicates attributes that have been mapped for product matching. For more information, see [Manage Attributes]({% link sales-channels/asc/managing-attributes.md %})

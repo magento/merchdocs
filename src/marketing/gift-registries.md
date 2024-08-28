@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Gift Registries
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registries.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registries.html
 ---
 
 Adobe Commerce gives your customers the ability to create gift registries for special occasions, and to invite their friends and family to purchase their gifts from the gift registry. Adobe Commerce keeps track of all items purchased and the quantities remaining.

@@ -1,7 +1,6 @@
 ---
 title: Using Static File Signatures
-redirect_to:
-   - https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#static-file-signatures
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#static-file-signatures
 ---
 
 Adding a digital signature to the URL of static files makes it possible for browsers to detect when a newer version of the file is available. Static files that can be tracked with digital signatures include JavaScript, CSS, images, and fonts. The signature is appended to the path directly after the base URL. If a file's signature differs from what is currently stored in the browser's cache, then the newer version of the file is used.

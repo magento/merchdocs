@@ -1,7 +1,6 @@
 ---
 title: Basic Delivery Methods
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/delivery.html#basic-delivery-methods
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/delivery.html#basic-delivery-methods
 ---
 
 Adobe Commerce and Magento Open Source support a wide range of delivery methods, as well as shipping carriers. There are some basic delivery methods that do not require an account with a third-party provider:

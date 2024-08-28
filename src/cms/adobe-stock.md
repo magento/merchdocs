@@ -1,7 +1,6 @@
 ---
 title: Adobe Stock Integration
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/adobe-stock/adobe-stock.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/media/adobe-stock/adobe-stock.html
 ---
 
 Merchants can integrate [Adobe Stock][adobe-stock] with Commerce giving them access to countless media assets for use in their stores.

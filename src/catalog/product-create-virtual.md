@@ -1,7 +1,6 @@
 ---
 title: Virtual Product
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-virtual.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-virtual.html
 ---
 
 Virtual products, or digital goods, represent non-tangible items such as memberships, services, warranties, or subscriptions and digital downloads of books, music, videos, or other products. Virtual products can be sold individually or included as part of the [Grouped Product]({% link catalog/product-create-grouped.md %}), [Configurable Product]({% link catalog/product-create-configurable.md %}) or [Bundle Product]({% link catalog/product-create-bundle.md %}) product types.

@@ -3,8 +3,7 @@ ee_only: true
 title: Types of Facets
 tag: live-search
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets-type.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets-type.html
 ---
 
 All facets used by Live Search are dynamic and appear in the _Filters_ list only when relevant. The list of available facets changes according to the products returned. The following characteristics affect their presentation and behavior:

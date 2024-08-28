@@ -1,7 +1,6 @@
 ---
 title: Permissions
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions.html
 ---
 
 Adobe Commerce and Magento Open Source use roles and permissions to create different levels of access to the Admin. When your store is first set up, you receive a set of login credentials for the Administrator role that has full permissions. However, you can restrict the level of permissions on a "need to know" basis for other people who work on your site. For example, a designer can be given access to only the Design tools, but not to areas with customer and order information.

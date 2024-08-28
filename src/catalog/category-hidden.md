@@ -1,7 +1,6 @@
 ---
 title: Hidden Categories
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-hidden.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-hidden.html
 ---
 
 There are many ways to use hidden categories. You might want to create additional category levels for your own internal purposes, but show only the higher-level categories to your customers. Or, you might want to link to a category that is not included in the navigation menu.

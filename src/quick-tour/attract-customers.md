@@ -1,7 +1,6 @@
 ---
 title: Attract New Customers
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
 ---
 
 Adobe Commerce and Magento Open Source are packed with features that make it easy to create a “search engine friendly” websites and increase the likelihood of bringing the right customers to your site.

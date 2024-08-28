@@ -1,7 +1,6 @@
 ---
 title: Search Engine Robots
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots
 ---
 
 The Commerce configuration includes settings to generate and manage instructions for web crawlers and bots that index your site. If the request for `robots.txt` reaches Commerce (rather than a physical file) it is dynamically routed to the robots controller. The instructions are directives that are recognized and followed by most search engines.

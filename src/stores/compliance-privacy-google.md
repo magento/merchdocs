@@ -1,8 +1,7 @@
 ---
 title: Google Privacy Settings
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-tools.html#google-privacy-settings
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/google-tools/google-tools.html#google-privacy-settings
 ---
 
 If your business is required to comply with privacy regulations such as the [GDPR]({% link stores/compliance-gdpr.md %}) or [CCPA]({% link stores/compliance-ccpa.md %}), the default settings of [Google Analytics]({% link marketing/google-universal-analytics.md %}), or [Google Universal Analytics]({% link marketing/google-universal-analytics.md %}) and [Google Tag Manager]({% link marketing/google-tag-manager.md %}) (<span class="ee-only"></span>), can be changed to meet privacy requirements. Follow these steps to ensure that your use of customer data remains in compliance.

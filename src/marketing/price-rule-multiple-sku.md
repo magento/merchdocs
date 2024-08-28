@@ -1,7 +1,6 @@
 ---
 title: Price Rule with Multiple SKUs
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-multiple-sku.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-multiple-sku.html
 ---
 
 A single catalog price rule can be applied to multiple SKUs, which makes it possible to create a variety of promotions based on a product, brand, or category. When creating this rule, you want to set conditions that match the selected SKUs. When building the rule, you can easily browse and select SKUs from the grid.

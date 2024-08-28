@@ -1,7 +1,6 @@
 ---
 title: Marketing Menu
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/marketing-menu.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/marketing-menu.html
 ---
 
 The Marketing menu provides access tools for managing promotions, communications, SEO, and user-generated content.

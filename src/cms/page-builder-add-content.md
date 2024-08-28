@@ -1,7 +1,6 @@
 ---
 title: Page Builder - Add Content
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/workspace.html#add-content
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/page-builder/workspace.html#add-content
 ---
 
 Use the _Add Content_ section of the Page Builder panel to add existing content to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). When you drag a media content type from the panel to the stage, a container appears. Use the content type toolbox to access the _Settings_ that are specific to the type.

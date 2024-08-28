@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Restricting Access
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/events/event-configure.html#access-restrictions
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/events/event-configure.html#access-restrictions
 ---
 
 Access to a private sale, event, or site can be limited to registered customers who log in, or extended to non-registered customers who must register before gaining access.

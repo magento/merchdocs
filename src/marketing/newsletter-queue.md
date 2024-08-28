@@ -1,7 +1,6 @@
 ---
 title: Sending Newsletters
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/newsletters/newsletter-queue.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/newsletters/newsletter-queue.html
 ---
 
 To manage the load on the server, newsletters with many subscribers are sent in a queue of multiple batches. You can check the newsletter queue periodically to check the status, and see how many have been processed. Any problems that occur during transmission appear on the Newsletter Problem Report.

@@ -1,7 +1,6 @@
 ---
 title: Managing Customer Accounts
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/manage/manage-account.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/manage/manage-account.html
 ---
 
 Use the Customers grid to find any customer account. You can use the standard [workplace controls]({% link stores/admin-workspace.md %}) to filter the list, change the [column layout]({% link stores/admin-grid-controls.md %}), save views, and export data. The [Actions control]({% link stores/admin-actions-control.md %}) above the grid can be used to apply an operation to multiple customer records.

@@ -3,8 +3,7 @@ ee_only: true
 title: Types of Synonyms
 tag: live-search
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms-type.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms-type.html
 ---
 
 One- and two-way synonyms expand the definition of a keyword. Some words are interchangeable with a keyword, while others represent a subset of a keyword.

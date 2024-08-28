@@ -1,8 +1,7 @@
 ---
 title: Adding Social Plugins
 group: content
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/social-rss.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/social-rss.html
 ---
 
 Social networking sites have a numerous plugins that can easily be added to your store. In addition, there are many extensions on the Commerce Marketplace that can be used to integrate your store with social media. The following example shows how to add a Facebook “Like” button to your store.
