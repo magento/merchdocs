@@ -1,7 +1,6 @@
 ---
 title: PayPal Payment Solutions
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal.html
 ---
 
 {:.bs-callout-warning}

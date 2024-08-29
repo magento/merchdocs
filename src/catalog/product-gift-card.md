@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Gift Cards
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html
 ---
 
 There are three kinds of gift card products:

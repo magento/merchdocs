@@ -1,7 +1,6 @@
 ---
 title: Elements - Buttons
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/elements/buttons.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/page-builder/elements/buttons.html
 ---
 
 Use the _Buttons_ content type to add either an individual button or a set of buttons in the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). You can arrange buttons horizontally or vertically, and add them directly to rows, columns, tabs, and banners on the stage.

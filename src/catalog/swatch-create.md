@@ -1,7 +1,6 @@
 ---
 title: Creating Swatches
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/swatches.html#create-swatches-for-productss
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/swatches.html#create-swatches-for-productss
 ---
 
 Swatches can be defined as a component of the `color` attribute or set up locally for a specific product and uploaded as [product images]({% link catalog/product-image-upload.md %}).

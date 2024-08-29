@@ -1,7 +1,6 @@
 ---
 title: PayPal Express Checkout
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/paypal-express-checkout.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/paypal-express-checkout.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > PayPal Express Checkout

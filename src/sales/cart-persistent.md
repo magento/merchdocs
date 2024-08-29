@@ -1,7 +1,6 @@
 ---
 title: Persistent Cart
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent.html
 ---
 
 A persistent shopping cart keeps track of unpurchased items that are left in the cart and saves the information for the customer's next visit. Customers who are _remembered_ can have the contents of their shopping carts restored the next time they visit your store.

@@ -1,7 +1,6 @@
 ---
 title: Global Settings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales Channels]({% link configuration/sales-channels.md %}) > Global Settings

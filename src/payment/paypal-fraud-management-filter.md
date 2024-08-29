@@ -1,7 +1,6 @@
 ---
 title: PayPal Fraud Management Filter
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal.html#paypal-fraud-management-filters
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal.html#paypal-fraud-management-filters
 ---
 
 PayPal fraud management filters make it easier to detect and respond to fraudulent transactions, and can be configured to flag, hold for review, or deny riskier payments. Adobe Commerce and Magento Open Source [order status]({% link sales/order-status.md %}) values changed according to the fraud filter settings.

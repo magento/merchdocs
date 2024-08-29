@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Standard Price Rule Actions
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/standard-price-rules.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/standard-price-rules.html
 ---
 
 A standard price rule action allows you to increase or decrease an Amazon listing price by a specific percentage or fixed dollar amount relative to the Commerce catalog price (or price source).

@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Scheduling an Update
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html
 ---
 
 The following example shows how to schedule a temporary price change for a product. This includes scheduling and previewing changes, as well as viewing scheduled updates on the calendar. Although this example includes only a single change, a campaign might include multiple changes to products, price rules, CMS pages, and other entities that are scheduled to take place at the same time.

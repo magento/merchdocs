@@ -1,7 +1,6 @@
 ---
 title: Migrating and Upgrading to Inventory Management
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html
 ---
 
 If you used single source inventory in a previous release, this information provides details on new features and changes to your existing catalog and Inventory configurations.

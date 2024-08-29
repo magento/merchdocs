@@ -1,7 +1,6 @@
 ---
 title: Business Intelligence Tools
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html
 ---
 
 Use business intelligence tools to gain the insight you need to make sound business decisions.

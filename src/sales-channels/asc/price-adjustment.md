@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Price Adjustment
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/price-adjustment.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/price-adjustment.html
 ---
 
 {:.bs-callout-info}

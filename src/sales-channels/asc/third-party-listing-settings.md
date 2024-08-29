@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Third Party Listings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/third-party-listing-settings.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/third-party-listing-settings.html
 ---
 
 Third Party Listing settings are part of your store listing settings. Listing settings are accessed from the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).

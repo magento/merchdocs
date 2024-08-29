@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Configuring Company Email
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/enable-basic-features.html#configure-company-email-options
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/enable-basic-features.html#configure-company-email-options
 ---
 
 The [sales representative]({% link customers/account-company-sales-representative.md -%}) that is assigned as the primary contact for a company is configured by default as the sender of many automated email messages sent to the company.

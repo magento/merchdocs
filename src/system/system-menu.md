@@ -1,7 +1,6 @@
 ---
 title: System Menu
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/system-menu.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/system-menu.html
 ---
 
 The System Menu includes tools to import and export data, install extensions, manage system caches and indexes, manage permissions, backups, system notifications, and custom variables.

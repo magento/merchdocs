@@ -1,7 +1,6 @@
 ---
 title: Using a Flat Catalog
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/catalog-flat.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/catalog-flat.html
 ---
 
 {:.bs-callout-warning}

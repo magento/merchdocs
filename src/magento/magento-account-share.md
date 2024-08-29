@@ -1,8 +1,7 @@
 ---
 title: Sharing Your Commerce Account
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html
 ---
 
 Your Commerce account contains information that you can make available to trusted employees and service providers who help manage your site. As the primary account holder, you have authority to grant limited access to other Commerce account holders. Shared access can be revoked, but cannot be transferred from one user to another.

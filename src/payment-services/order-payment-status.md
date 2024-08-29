@@ -1,8 +1,7 @@
 ---
 ee_only: false
 title: Order payment status report
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/reporting/order-payment-status.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/reporting/order-payment-status.html
 ---
 
 The Order payment status report helps you easily understand where a specific order is within the order to cash process flow. This report allows you to quickly view the payment status of your orders and identify any potential issues.

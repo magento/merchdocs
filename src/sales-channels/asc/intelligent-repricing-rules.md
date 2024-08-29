@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Intelligent Repricing Rules
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/intelligent-repricing-rules.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/intelligent-repricing-rules.html
 ---
 
 {:.bs-callout-warning}

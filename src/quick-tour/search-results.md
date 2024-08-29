@@ -1,7 +1,6 @@
 ---
 title: Search Results
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/storefront.html#search-results
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/storefront.html#search-results
 ---
 
 Did you know that people who use search are nearly twice as likely to make a purchase as those who rely on navigation alone? You might consider these shoppers to be _pre-qualified_.

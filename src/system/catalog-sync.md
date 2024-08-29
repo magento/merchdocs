@@ -1,7 +1,6 @@
 ---
 title: Catalog Sync
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/catalog-sync.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/catalog-sync.html
 ---
 
 Adobe Commerce and Magento Open Source use indexers to compile catalog data into tables. The process is automatically triggered by [events]({% link system/index-management-events.md %}) such as a change to a product price or inventory level. The catalog sync process runs hourly to allow Commerce services to use catalog data. Catalog sync exports product data from the Commerce server to Commerce Services on an ongoing basis to keep the services up-to-date. For example, [Product Recommendations]({% link recommendations/overview.md %}) needs current catalog information to accurately return recommendations with correct names, pricing, and availability. The _Catalog Sync_ dashboard allows you to observe and manage the synchronization process.

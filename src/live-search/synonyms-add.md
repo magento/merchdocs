@@ -3,8 +3,7 @@ ee_only: true
 title: Add Synonyms
 tag: live-search
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms-add.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms-add.html
 ---
 
 Adding your own curated list of synonyms improves the ability of Live Search to respond to customer search requests and to keep them engaged.

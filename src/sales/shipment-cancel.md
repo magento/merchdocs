@@ -1,7 +1,6 @@
 ---
 title: Canceling a Shipment
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/shipments.html#cancel-a-shipment
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/shipments.html#cancel-a-shipment
 ---
 
 Before a shipment is dispatched to a carrier, it can be canceled by opening the order and navigating to the shipment, provided the carrier supports cancellations. Some carriers restrict or limit cancellations after a booking. For example, UPS allows cancellations, but requires that you wait 24 hours after the shipment is booked. If a shipment is canceled, the cancellation cannot be reversed. The only recourse is to recreate the order.

@@ -1,7 +1,6 @@
 ---
 title: Google reCAPTCHA Storefront
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/security/google-recaptcha-storefront.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/security/google-recaptcha-storefront.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Security]({% link configuration/security.md %}) > Google reCAPTCHA Storefront

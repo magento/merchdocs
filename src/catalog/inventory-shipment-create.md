@@ -1,7 +1,6 @@
 ---
 title: Creating Shipments with Inventory Management
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/orders/shipments-create.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/inventory/orders/shipments-create.html
 ---
 
 With Inventory Management, send one or more shipments to fulfill as you have inventory. Repeat these instructions to generate additional shipments as needed, using recommended or manually entered quantities and sources. These instructions detail how Multi Source merchants send shipments. Single Source merchants send shipments without these additional steps. See [Creating a Shipment]({% link sales/shipments-create.md %}).

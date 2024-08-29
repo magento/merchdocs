@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Approving a Company Account
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-approve.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-company-approve.html
 ---
 
 The status of requests received from the storefront to create a company are “Pending Approval” until the request is reviewed by the store administrator, and either approved or rejected. The status of a company account might be set to any of the following:

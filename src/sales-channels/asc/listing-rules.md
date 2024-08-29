@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Listing Rules
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/listing-rules.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/listing-rules.html
 ---
 
 You can access the listing rules for store in the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).

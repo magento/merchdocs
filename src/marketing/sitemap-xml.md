@@ -1,7 +1,6 @@
 ---
 title: Using a Site Map
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/sitemap-xml.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/sitemap-xml.html
 ---
 
 A site map improves the way your store is indexed by search engines, and is specifically designed to find pages that might be overlooked by web crawlers. A site map can be configured to index all pages and images.

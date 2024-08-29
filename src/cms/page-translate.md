@@ -1,8 +1,7 @@
 ---
 title: Translating Content
 group: operations
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-translate.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-translate.html
 ---
 
 If your store has multiple views in different [languages]({% link stores/store-language-add.md %}), and you have set the locale for each view to a different language, the result is a partially translated site. The next step is to create a translated version of each page that is available from the specific store view. The Store View column of the _Manage Pages_ list shows each view that has a translated version of the page.

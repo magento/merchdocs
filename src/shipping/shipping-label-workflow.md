@@ -1,7 +1,6 @@
 ---
 title: Shipping Label Workflow
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-labels/shipping-labels.html#shipping-label-workflow
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-labels/shipping-labels.html#shipping-label-workflow
 ---
 
 Shipping labels can be produced at the time a shipment is created, or later. Shipping labels are stored in PDF format and are downloaded to your computer.

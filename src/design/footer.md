@@ -1,7 +1,6 @@
 ---
 title: Footer
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/page-setup.html#footer
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/page-setup.html#footer
 ---
 
 The Footer configuration section is where you can update the [copyright notice]({% link design/copyright-notice.md %}) that appears at the bottom of the page, and enter miscellaneous scripts that must be positioned before the closing `<body>` tag.

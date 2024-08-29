@@ -1,7 +1,6 @@
 ---
 title: System
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/advanced/system.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/advanced/system.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Advanced]({% link configuration/advanced.md %}) > System

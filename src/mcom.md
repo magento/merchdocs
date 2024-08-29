@@ -18,8 +18,7 @@ sections:
   - title: Changelog
     content: See information about viewing the Connector changelog.
     url: /mcom/changelog.html
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/integrations/mcom.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/integrations/mcom.html
 ---
 
 Learn how to manage your stock aggregates and the Order Management integration, available if you use the Order Management System (OMS) Connector with Adobe Commerce, as well as view both the message log and changelog.

@@ -1,7 +1,6 @@
 ---
 title: Advanced Pricing Data
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-attributes-product.html#advanced-pricing-attributes
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-attributes-product.html#advanced-pricing-attributes
 ---
 
 Advanced Price Import/Export allows you to quickly update pricing information for product groups and tier prices. The process to [import]({% link system/data-import.md %}) and [export]({% link system/data-export.md %}) advanced price data is the same as any other entity type. The sample CSV file contains tier and group prices for each product type that supports advanced pricing. Making changes to advanced pricing does not affect the rest of the product record.

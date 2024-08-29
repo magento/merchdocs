@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Stock/Quantity
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/stock-quantity.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/listing-settings/stock-quantity.html
 ---
 
 Stock/Quantity settings are part of your store listing settings. Listing settings are accessed from the [store dashboard]({% link sales-channels/asc/amazon-store-dashboard.md %}).

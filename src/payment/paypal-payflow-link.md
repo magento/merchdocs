@@ -1,7 +1,6 @@
 ---
 title: PayPal Payflow Link
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-payflow-link.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-payflow-link.html
 ---
 
 PayPal PayFlow Link is available for merchants in the United States and Canada only. Customers are not required to have a personal PayPal account, and enter their credit card information in a form that is hosted by PayPal. The information is never stored on your Adobe Commerce or Magento Open Source server. PayFlow Link cannot be used for orders that are created from the Admin.

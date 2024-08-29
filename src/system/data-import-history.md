@@ -1,7 +1,6 @@
 ---
 title: Import History
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/import/data-import.html#import-history
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/import/data-import.html#import-history
 ---
 
 Maintains a record of data that has been imported into your store, including the start date and time, user, execution time, and a link to the imported file.

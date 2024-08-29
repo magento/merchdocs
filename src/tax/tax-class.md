@@ -1,7 +1,6 @@
 ---
 title: Tax Classes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html
 ---
 
 Tax classes can be assigned to customers, products, and shipping. Commerce analyzes the shopping cart of each customer and calculates the appropriate tax according to the class of the customer, the class of the products in the cart, and the region (as determined by the customer's shipping address, billing address or shipping origin). New tax classes can be created when a [tax rule]({% link tax/tax-rules.md %}) is defined.

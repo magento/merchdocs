@@ -1,7 +1,6 @@
 ---
 title: EU Tax Guidelines
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/international-tax-guidelines.html#eu-tax-configuration
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/international-tax-guidelines.html#eu-tax-configuration
 ---
 
 The following example depicts a store based in France that sells 100k+ Euros in France and 100k+ Euros in Germany.

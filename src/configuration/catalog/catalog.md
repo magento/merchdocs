@@ -1,7 +1,6 @@
 ---
 title: Catalog
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Catalog]({% link configuration/catalog.md %}) > Catalog

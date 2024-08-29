@@ -1,7 +1,6 @@
 ---
 title: Configuring Admin Security
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-admin.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-admin.html
 ---
 
 We recommend that you take a multifaceted approach to protect the security of your store. You can begin by using a [custom Admin URL]({% link stores/store-urls-custom-admin.md %}) that is not easy to guess, rather than the obvious "Admin" or "Backend." By default, passwords that are used to [log in]({% link stores/admin-signin.md %}) to the Admin must be seven or more characters long and include both letters and numbers. As a [best practice][1]{:target="_blank"}, use only strong Admin passwords that include a combination of letters, numbers, and symbols. Adobe Commerce and Magento Open Source do not allow the reuse of the last four passwords assigned to the account.

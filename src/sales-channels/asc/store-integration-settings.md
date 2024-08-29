@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Store Integration Settings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/store-integration-settings.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/store-integration-settings.html
 ---
 
 After integrating your store, review and configure the integration settings store through the Amazon Store Dashboard. These settings display for **Inactive** and **Active** stores. Here you can change the name of your Amazon store and the email address you associated with the store during store integration.

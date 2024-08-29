@@ -1,7 +1,6 @@
 ---
 title: Preparing Your Invoice Logo
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/sales-documents.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/sales-documents.html
 ---
 
 Unlike the logo images used in HTML, the logo for PDF invoices and other sales documents can be a high-resolution, 300 dot per inch (DPI) image. Be careful to preserve the aspect ratio when you resize the logo. Resize the logo to fit the height, and don't worry about any unused space to the right.

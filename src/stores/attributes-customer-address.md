@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Customer Address Attributes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/attributes/address-attributes.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/attributes/address-attributes.html
 ---
 
 The Customer Address Attribute determines the properties of street addresses that are entered into the [address book]({% link customers/account-dashboard-address-book.md %}) from the customer's account or during [checkout]({% link sales/checkout-process.md %}).

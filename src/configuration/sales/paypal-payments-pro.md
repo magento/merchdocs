@@ -1,7 +1,6 @@
 ---
 title: PayPal Payments Pro
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/paypal-payments-pro.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/paypal-payments-pro.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > [Payment Methods]({% link configuration/sales/payment-methods.md %}) > PayPal Payments Pro

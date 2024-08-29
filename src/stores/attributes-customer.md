@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Customer Attributes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/attributes/attribute-properties.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/attributes/attribute-properties.html
 ---
 
 Customer attributes provide the information that is required to support the order, fulfillment, and customer management processes. Because your business is unique, you might need fields in addition to those provided by the system. You can add custom attributes to the Account Information, Address Book, and Billing Information sections of the customer's account. Customer [address attributes]({% link stores/attributes-customer-address.md %}) can also be used in the Billing Information section during checkout, or when guests register for an account.

@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Company Credit
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/credit-company.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/credit-company.html
 ---
 
 If [Payment on Account]({% link payment/payment-on-account.md %}) is enabled in the configuration, companies can make purchases on their account up to the credit limit that is granted to the company.  When enabled, customers can check the status of their [company credit]({% link customers/account-dashboard-company-credit.md %}) from their account dashboard.

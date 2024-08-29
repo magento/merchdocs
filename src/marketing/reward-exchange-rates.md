@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Reward Exchange Rates
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/reward-points/reward-exchange-rates.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/reward-points/reward-exchange-rates.html
 ---
 
 Reward Exchange Rates determine the number of points that are earned based on the order amount, as well as the value of the points earned. Different exchange rates can be applied to different websites and different customer groups. If multiple exchange rates from different websites and customer groups apply to the same customer, the following rules of priority apply:

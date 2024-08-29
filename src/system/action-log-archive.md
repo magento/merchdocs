@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Archive
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log-archive.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log-archive.html
 ---
 
 The Admin Actions archive lists the CSV log files that are stored on the server. In the configuration, you can specify how long the log entries are stored, and how often they are archived. By default, the file name includes the current date in ISO format:  `yyyyMMddHH`

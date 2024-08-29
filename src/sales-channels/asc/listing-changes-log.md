@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Listing Changes Log
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/reports-logs/logs/listing-changes-log.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/reports-logs/logs/listing-changes-log.html
 ---
 
 The Listing Changes Log shows the changes that have occurred in your Amazon Seller Account as a reflection of your Amazon Sales Channel settings. This log indicates the global changes that have been synced between Amazon and Amazon Sales Channel. This log includes listing changes for a product SKU such as the type of action (change), brief description of the change, and the date of the change.

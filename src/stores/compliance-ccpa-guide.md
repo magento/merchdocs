@@ -1,8 +1,7 @@
 ---
 title: CCPA Compliance Guide
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-ccpa.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-ccpa.html
 ---
 
 {:.bs-callout-info}

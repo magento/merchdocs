@@ -1,8 +1,7 @@
 ---
 title: GDPR Compliance
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html
 ---
 
 {:.bs-callout-info}

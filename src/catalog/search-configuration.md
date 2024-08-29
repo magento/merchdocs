@@ -1,8 +1,7 @@
 ---
 title: Configuring Catalog Search
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-configuration.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-configuration.html
 ---
 
 There are two variations of the Catalog Search configuration: The first method describes the available settings when [Live Search]({% link live-search/overview.md %}) is installed, and the second method describes the configuration settings for native Adobe Commerce with [Elasticsearch][1]{:target="_blank"}.

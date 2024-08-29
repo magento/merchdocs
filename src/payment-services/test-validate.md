@@ -1,7 +1,6 @@
 ---
 title: Test and validate
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/sandbox.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/sandbox.html
 ---
 
 Before you expose Payment Services for {{ site.data.var.ee }} and {{ site.data.var.ce }} to your shoppers, it is a good idea to test in your sandbox environment _and_ in production. Testing and validation will help ensure that Payment Services works as expected and provides the best payment options for your store and customers.

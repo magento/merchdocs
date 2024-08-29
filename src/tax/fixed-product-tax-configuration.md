@@ -1,7 +1,6 @@
 ---
 title: Configuring FPT
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/fixed-product-tax.html#configure-fpt
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/fixed-product-tax.html#configure-fpt
 ---
 
 The Fixed Product Tax [input type]({% link stores/attributes-input-types.md %}) creates a section of fields for managing tax for each region.

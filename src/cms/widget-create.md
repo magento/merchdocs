@@ -1,7 +1,6 @@
 ---
 title: Creating and Managing Widgets
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-create.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widget-create.html
 ---
 
 Widgets are reusable components and you can easily create new widgets, as well as modify existing ones to automatically update content across your store. You can also delete widgets that are no longer in use.

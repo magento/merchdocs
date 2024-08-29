@@ -1,7 +1,6 @@
 ---
 title: Reorders
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders-storefront.html#reorders
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders-storefront.html#reorders
 ---
 
 Reorders are available to customers when the [_Allow Reorder_]({% link sales/reorders-allow.md %}) configuration option is enabled.

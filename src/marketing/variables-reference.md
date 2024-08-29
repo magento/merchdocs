@@ -1,7 +1,6 @@
 ---
 title: Variable Reference
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/variables/variables-reference.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/variables/variables-reference.html
 ---
 
 Most [email templates]({% link marketing/email-template-custom.md -%}) have a section of [predefined variables]({% link marketing/variables-predefined.md -%}) that are specific to the template. The following list includes examples of frequently-used email templates and their associated variables.

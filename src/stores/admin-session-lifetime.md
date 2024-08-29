@@ -1,8 +1,7 @@
 ---
 title: Admin Session Lifetime
 group: operations
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-session-management.html#admin-session-lifetime
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-session-management.html#admin-session-lifetime
 ---
 
 As a security measure, the _Admin_ is initially set to time out after 900 seconds (fifteen minsutes) of keyboard inactivity. You can adjust the lifetime of the session to fit your work style.

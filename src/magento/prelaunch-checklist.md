@@ -1,8 +1,7 @@
 ---
 title: Prelaunch Checklist
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/prelaunch-checklist.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/setup/prelaunch-checklist.html
 ---
 
 After you complete the design, development, and testing of your store, check the following configuration settings to make sure everything is correct before the store _goes live_. For a comprehensive description of every configuration setting, see the [Configuration Reference]({% link stores/configuration.md %}).

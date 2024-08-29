@@ -1,8 +1,7 @@
 ---
 title: PSD2 Compliance
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive.html
 ---
 
 Starting September 14, 2019, the European Union requires that all merchants in the EU and UK comply with the [Strong Customer Authentication](https://payments.cardinalcommerce.com/what-is-psd2-sca) (SCA) requirements of the [Payment Services Directive](https://info.cardinalcommerce.com/psd2-compliance) (PSD2). Merchants in all other countries are encouraged to comply with PSD2 as a best practice.

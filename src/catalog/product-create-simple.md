@@ -1,7 +1,6 @@
 ---
 title: Simple Product
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-simple.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-simple.html
 ---
 
 One of the keys to harnessing the power of product types is learning when to use a simple, standalone product. A simple product can be sold individually or as part of a grouped, configurable, or bundle product. A simple product with custom options is sometimes referred to as a _composite product_.

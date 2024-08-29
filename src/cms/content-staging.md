@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Content Staging
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html
 ---
 
 Content Staging gives your business team the ability to easily create, preview, and schedule a wide range of content updates for your store directly from the _Admin_. For example, rather than thinking in terms of a static page, consider a page to be a collection of different elements that can be turned _on_ or _off_ according to schedule. You can use Content Staging to create a page that changes automatically throughout the year on schedule.

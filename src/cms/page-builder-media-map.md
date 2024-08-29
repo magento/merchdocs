@@ -1,7 +1,6 @@
 ---
 title: Media - Map
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/media/map.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/page-builder/media/map.html
 ---
 
 Use the _Map_ content type to add a map from [Google Maps Platform][1] to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). For example, you might add a map to a block, and then add the block to the [About Us]({% link cms/pages-core.md %}) and [Contact Us]({% link stores/contact-us.md %}) pages.

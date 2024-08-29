@@ -3,8 +3,7 @@ title: Export Full Catalog
 redirect_from:
   - /export-full-catalog.html
 group: operations
-redirect_to:
-  - https://experienceleague.sadobe.com/docs/commerce-admin/systems/integrations/mcom.html#export-full-catalog
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/integrations/mcom.html#export-full-catalog
 ---
 
 You can manually request a full catalog export from Adobe Commerce. This feature queues all products from the catalog for export to the Order Management System (OMS).

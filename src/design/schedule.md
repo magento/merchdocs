@@ -1,7 +1,6 @@
 ---
 title: Scheduling Design Changes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/themes/schedule.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/themes/schedule.html
 ---
 
 Schedule your theme design changes in advance so that they go into effect according to your business cycles and events. You can use scheduled design changes for seasonal changes, promotions, or just to add variation.

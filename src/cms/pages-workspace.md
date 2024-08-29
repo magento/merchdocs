@@ -1,7 +1,6 @@
 ---
 title: Workspace Controls
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages-workspace.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages-workspace.html
 ---
 
 The page workspace includes tools to help you quickly find the pages you need, and commands to perform routine maintenance on individual or multiple pages. You can also quickly update page properties from the grid.

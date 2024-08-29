@@ -1,7 +1,6 @@
 ---
 title: Media - Slider
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/media/slider.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/page-builder/media/slider.html
 ---
 
 Use the _Slider_ content type to add a slideshow of images to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). You can upload new images or choose existing images from the gallery or product catalog. A slider can be set to play automatically or be controlled manually with navigation buttons. To associate the slider with a specific promotion, see [Dynamic Block]({% link cms/page-builder-add-dynamic-block.md %}).

@@ -1,7 +1,6 @@
 ---
 title: Managing Two-Factor Authentication
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication-manage.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication-manage.html
 ---
 
 Users who are unable to sign in to the _Admin_ with two-factor authentication (2FA) can try to sync or troubleshoot the problem. You can also reset the authenticator(s) associated with the account. When reset, the user must sign in again and reconfigure the required authenticator(s).

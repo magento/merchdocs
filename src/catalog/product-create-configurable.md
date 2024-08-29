@@ -1,7 +1,6 @@
 ---
 title: Configurable Product
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html
 ---
 
 A configurable product looks like a single product with drop-down lists of options for each variation. Each option is actually a separate simple product with a unique SKU, which makes it possible to track inventory for each product variation. You could achieve a similar effect by using a simple product with custom options, but without the ability to track inventory for each variation.

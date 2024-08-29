@@ -1,8 +1,7 @@
 ---
 title: Admin Sign In
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#admin-sign-in
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#admin-sign-in
 ---
 
 The Commerce _Admin_ is protected by multiple layers of security measures to prevent unauthorized access to your store, order, and customer data. The first time you sign in to the _Admin_, you are required to enter your username and password and to set up [two-factor authentication]({% link stores/security-two-factor-authentication.md %}) (2FA).

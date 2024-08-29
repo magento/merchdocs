@@ -1,8 +1,7 @@
 ---
 title: Security Action Plan
 group: operations
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security.html#security-action-plan
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security.html#security-action-plan
 ---
 
 If you suspect that your Adobe Commerce or Magento Open Source site is compromised, follow this action plan without delay.

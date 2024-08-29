@@ -1,7 +1,6 @@
 ---
 title: Address Book
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/storefront/account-dashboard-address-book.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/storefront/account-dashboard-address-book.html
 ---
 
 Customers who keep their address books current can speed through the checkout process. The address book contains the customer's default billing and shipping addresses, and any additional addresses that they use frequently. Additional address entries are easy to access and maintain from the grid. Each customer address book can manage over 3,000 address book entries without impacting performance.

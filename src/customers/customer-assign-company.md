@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Changing the Company Assignment
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/customer-assign-company.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/customer-assign-company.html
 ---
 
 If allowed in the configuration, the company administrator adds users to the company. However, the company assignment of a customer profile can also be made or changed from the Admin.

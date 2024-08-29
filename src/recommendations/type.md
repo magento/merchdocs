@@ -3,8 +3,7 @@ title: Recommendation Types
 tag: product-recommendations
 group: marketing
 ee_only: true
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/type.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/type.html
 ---
 
 Adobe Commerce provides a large set of recommendations that you can deploy to various pages on your site. For easy reference, recommendation types are grouped as follows:

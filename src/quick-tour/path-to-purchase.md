@@ -1,7 +1,6 @@
 ---
 title: Path to Purchase
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/storefront.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/storefront.html
 ---
 
 The path customers take that leads to a sale is sometimes called the _path to purchase_. In this quick tour, we take a look at pages of strategic value that customers usually visit while shopping in your store. We also consider different store features that can be leveraged at each stage of the customer journey.

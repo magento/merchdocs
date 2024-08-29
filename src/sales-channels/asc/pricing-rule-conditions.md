@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Price Rule Conditions
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/pricing-rule-conditions.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/pricing-rule-conditions.html
 ---
 
 Conditions determine which products will be eligible for the price rule. Defining the conditions for your Amazon pricing rules follow the same logic and process as defining the conditions for [Cart Price Rules]({% link marketing/price-rules-cart.md %}) in Commerce.

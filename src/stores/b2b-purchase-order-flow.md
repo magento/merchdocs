@@ -2,8 +2,7 @@
 b2b_only: true
 title: Purchase order workflow
 group: customers
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/purchase-orders/purchase-order-flow.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/purchase-orders/purchase-order-flow.html
 ---
 
 Purchase orders allow companies to track and control spending. When purchase orders are enabled for a company account, all orders are automatically processed as purchase orders.

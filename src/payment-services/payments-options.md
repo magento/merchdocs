@@ -1,7 +1,6 @@
 ---
 title: Payments options
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-options.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-options.html
 ---
 
 With Adobe Commerce and Magento Open Source Payment Services, you have multiple payment options available to you---all configurable in the Admin (in **Stores** > _Settings_ > **Configuration** > **Sales** >  **Payment Methods** > _Recommended Solutions_).

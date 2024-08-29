@@ -1,7 +1,6 @@
 ---
 title: Creating Products
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html
 ---
 
 Choosing a product type is one of the first things you must do to create a new product. The following demonstrates how to create a product of each type. In addition to the basic product types, the term _complex product_ is sometimes used to refer to products with multiple options, such as a configurable product that is available in various colors and sizes. For more information about the available options, see [Product Settings]({% link catalog/settings.md %}) and [Advanced Settings]({% link catalog/settings-advanced.md %}).

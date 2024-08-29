@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Updating Category Permissions
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage.html#update-category-permissions
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage.html#update-category-permissions
 ---
 
 [Category permissions]({% link catalog/category-permissions.md %}) are automatically set to `Allow` for products that are added from the category tree to a shared catalog. You can later adjust the permissions, or create additional rules, as needed.

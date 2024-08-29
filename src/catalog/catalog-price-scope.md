@@ -1,7 +1,6 @@
 ---
 title: Price Scope
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html
 ---
 
 The scope of the [base currency]({% link stores/currency-configuration.md %}) that is used for product prices can be configured to apply at either the global or website level. If applied to  the global level, the same price is used throughout the store hierarchy. If applied to the website level, the same product can be available at different prices from stores that are associated with different websites. By default, the scope of product pricing is global.

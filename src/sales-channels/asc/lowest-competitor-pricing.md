@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Lowest Competitor Pricing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/lowest-competitor-pricing.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/lowest-competitor-pricing.html
 ---
 
 The _Lowest Competitor Pricing_ tab on the _Product Listing Details_ page shows the lowest final landed price, but is broken down into shipping price and listing price. This can be used to understand the price positioning of your competitors on Amazon.

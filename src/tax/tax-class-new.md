@@ -1,7 +1,6 @@
 ---
 title: Adding New Tax Classes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html#add-tax-classes
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html#add-tax-classes
 ---
 
 Tax classes for customers and products can be easily added, and then assigned to individual customers and products, and used in tax rules.

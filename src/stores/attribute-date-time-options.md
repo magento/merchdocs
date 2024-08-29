@@ -1,7 +1,6 @@
 ---
 title: Date and Time Options
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html#date-and-time-options
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html#date-and-time-options
 ---
 
 You can customize the format of date and time fields, and select the input control that is used for data entry. Dates values can be selected from a drop-down list, or pop-up calendar.

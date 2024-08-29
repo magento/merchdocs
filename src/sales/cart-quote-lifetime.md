@@ -1,7 +1,6 @@
 ---
 title: Quote Lifetime
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html#quote-lifetime
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration.html#quote-lifetime
 ---
 
 You can determine how long a price is valid by setting the cart quote lifetime in the configuration. For example, if a shopper leaves a cart unattended after several days, the quotes price for some items might no longer be the same. By default, the quote lifetime is set to thirty days.

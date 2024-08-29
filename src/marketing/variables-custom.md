@@ -1,7 +1,6 @@
 ---
 title: Adding Custom Variables
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/variables/variables-custom.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/variables/variables-custom.html
 ---
 
 To meet the specific needs of your business, you can create custom variables and insert them into [pages]({% link cms/pages.md -%}), [blocks]({% link cms/blocks.md -%}) and [email]({% link marketing/email-template-message.md %}) templates. The list of allowed variables that appears when you click the Insert Variable button includes both [predefined]({% link marketing/variables-predefined.md %}) and custom variables. As shown in the following image, the list of available variables for a specific email template is determined by the data that is associated with the template. See the [Variable Reference]({% link marketing/variables-reference.md -%}) for a list of frequently-used email templates and their associated variables.

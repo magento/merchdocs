@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Email Reminder Templates
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules.html#email-reminder-templates
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules.html#email-reminder-templates
 ---
 
 The default email reminder template can be customized, and additional templates created for different promotions. Email reminders have a selection of specific variables that can be incorporated into the message. The information in these variables is determined by the email reminder rule that you set up, and by the cart price rule that is associated with the coupon. The Insert Variable button can be used to insert the markup tag with the variable into the template. To learn more, see [Email]({% link marketing/email-templates.md %}).

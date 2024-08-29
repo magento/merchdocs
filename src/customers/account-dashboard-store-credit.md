@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Store Credit
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/account-dashboard-store-credit.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/account-dashboard-store-credit.html
 ---
 
 The Store Credit section of the customer account dashboard lists amounts from returns and refunds that can be applied to future purchases. Customers can also redeem the value from a gift card.

@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Ineligible Listings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/ineligible-listings.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/ineligible-listings.html
 ---
 
 The _Ineligible_ tab shows a list of all the products that are currently published on Amazon but are not eligible as a listing based on your current listing rules. If a previous product was eligible and the listing rules are modified making some products ineligible, the quantity associated with a product drops to 0 and the product is marked as ineligible but will still be present on your Amazon Seller Account.

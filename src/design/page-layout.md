@@ -1,7 +1,6 @@
 ---
 title: Page Layout
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/layout/page-layout.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/layout/page-layout.html
 ---
 
 The layout of each page in your store consists of distinct sections, or containers, that define the header, footer, and content areas of the page. Depending on the layout, each page might have one, two, three columns, or more. You can think of the layout as the _floor plan_ of the page, and assign a specific layout to be used as the default for CMS, product, and category pages.

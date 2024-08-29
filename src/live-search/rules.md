@@ -3,8 +3,7 @@ ee_only: true
 title: Rules
 tag: live-search
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/rules/rules.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/rules/rules.html
 ---
 
 Live Search rules combine logic with actions to shape a shopper's search experience in your store. You can use rules to boost, bury, pin or hide products to calibrate search results in real time to support your business goals.

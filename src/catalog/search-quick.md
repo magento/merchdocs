@@ -1,8 +1,7 @@
 ---
 title: Quick Search
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html#quick-search
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html#quick-search
 ---
 
 {:.bs-callout-info}

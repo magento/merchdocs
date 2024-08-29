@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html
 ---
 
 The Amazon Sales Channel for Adobe Commerce and Magento Open Source is a powerful, comprehensive extension that enables Commerce merchants to seamlessly sell products in the Amazon Marketplace, the world's largest global internet shopping destination. This extension enables Amazon sales by integrating Commerce with your Amazon Seller Central account and providing both automation and synchronization of catalog and order data. Completely manage all Amazon listings, implement simple or intelligent pricing rules, and maintain your orders and inventory through a single Commerce dashboard.

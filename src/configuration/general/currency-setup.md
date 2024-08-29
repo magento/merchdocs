@@ -1,7 +1,6 @@
 ---
 title: Currency Setup
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/general/currency-setup.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/general/currency-setup.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [General]({% link configuration/general/general.md %}) > Currency Setup

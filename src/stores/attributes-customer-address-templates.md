@@ -2,8 +2,7 @@
 ee_only: true
 title: Customer Address Templates
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/attributes/address-templates.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/attributes/address-templates.html
 ---
 
 You can modify the template that controls the format of customer billing and shipping addresses that appear on printed invoices, shipments, and refunds, as well as in the addresses book of the customer account. If you need to include additional information, you can create [custom attributes]({% link stores/attributes-customer.md %}) that are associated with the customer account and [address]({% link stores/attributes-customer-address.md %}), and incorporate them into the template.

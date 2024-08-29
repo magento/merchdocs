@@ -1,8 +1,7 @@
 ---
 title: Shared Catalogs
 b2b_only: true
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html
 ---
 
 B2B for Adobe Commerce gives you the ability to maintain gated _shared_ catalogs with custom pricing for different companies. In addition to the standard _master_ product catalog, it provides customer access to two types of shared catalogs with different pricing structures.

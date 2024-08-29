@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Private Sales Reports
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/private-sales-reports.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/private-sales-reports.html
 ---
 
 The [Private Sales Reports]({% link reports/reports-menu.md %}) provide information about events and private sales.

@@ -1,8 +1,7 @@
 ---
 title: Uploading Your Logo
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/storefront-branding.html#upload-your-logo
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/setup/storefront-branding.html#upload-your-logo
 ---
 
 The size and location of the logo in the header is determined by the store theme. Your logo can be saved as either a GIF, PNG, or JPG (JPEG) file type and uploaded from the Admin of your store.

@@ -1,7 +1,6 @@
 ---
 title: Using Two-Factor Authentication
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication-use.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication-use.html
 ---
 
 These instructions show how to set up two-factor authentication during your initial sign in to Adobe Commerce or Magento Open Source and how to authenticate your identity using the following apps and devices:

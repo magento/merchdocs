@@ -1,8 +1,7 @@
 ---
 title: Your Admin Account
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html
 ---
 
 The primary Admin account was initially set up during the installation, and might contain initial placeholder information or sample data information. The designated owner of this account can personalize the user name and password and update the first name, last name, and email address at any time.

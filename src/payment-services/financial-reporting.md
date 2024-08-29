@@ -1,7 +1,6 @@
 ---
 title: Financial reporting
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/reporting/payouts.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/reporting/payouts.html
 sections:
   - title: Payouts report
     content: This topic includes reporting for cross-referencing orders and payments or reconciling accounts.

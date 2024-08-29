@@ -1,7 +1,6 @@
 ---
 title: Product Reports
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/product-reports.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/product-reports.html
 ---
 
 The product reports give you insight regarding products viewed and ordered, bestsellers, stock levels, and downloads.

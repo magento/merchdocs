@@ -1,7 +1,6 @@
 ---
 title: Sales
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html
 ---
 
 The Sales configuration settings can be found in **Stores** > _Settings_ > **Configuration** > **Sales**.

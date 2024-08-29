@@ -3,8 +3,7 @@ title: Install and Configure
 tag: product-recommendations
 group: marketing
 ee_only: True
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html
 ---
 
 Deploying Product Recommendations to your storefront and Admin requires that you install module and configure the Commerce Services Connector. As updates are released, you can easily update your installation with the latest version.

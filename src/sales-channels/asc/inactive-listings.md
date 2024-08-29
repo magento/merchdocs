@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Inactive Listings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/inactive-listings.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/inactive-listings.html
 ---
 
 The _Inactive_ tab shows your products that have been published to Amazon but are not active on the Amazon marketplace. Your listings could be inactive for a few different reasons. For example, you might not be eligible to list that particular brand. Inactive listings are dictated by Amazon's listing standards and your Amazon Seller Central account permissions.

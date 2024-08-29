@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Payment on Account
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/enable-basic-features.html#configure-payment-on-account
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/enable-basic-features.html#configure-payment-on-account
 ---
 
 Payment on Account is an offline payment method that allows companies to make purchases up to the credit limit that is specified in their profile. Payment on Account can be enabled globally, or per company, and appears during checkout only if enabled. When Payment on Account is used as a payment method, a message appears at the top of the order that indicates the status of the account. To configure this payment method for a specific company, see [Updating a Company Profile]({% link customers/account-company-update.md %}).

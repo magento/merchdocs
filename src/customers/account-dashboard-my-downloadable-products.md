@@ -1,7 +1,6 @@
 ---
 title: My Downloadable Products
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html#storefront-experience
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-downloadable.html#storefront-experience
 ---
 
 The My Downloadable Products page links to each order of downloadable products. The downloads become available from the customer's account as soon as the order is complete.

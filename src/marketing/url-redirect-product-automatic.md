@@ -1,7 +1,6 @@
 ---
 title: Automatic Product Redirects
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic.html
 ---
 
 Your store can be configured to automatically generate a permanent redirect whenever the URL key of a product or category changes. In the Search Engine Optimization section, the checkbox below the URL key indicates if permanent redirects are enabled. If your store is already configured to automatically redirect catalog URLs, making a redirect is as easy as updating the URL key. The process to create an automatic redirect is the same for both products and categories.

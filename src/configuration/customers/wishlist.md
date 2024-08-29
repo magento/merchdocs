@@ -1,7 +1,6 @@
 ---
 title: Wish List
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/customers/wishlist.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/customers/wishlist.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Customers]({% link configuration/customers.md %}) > Wish List

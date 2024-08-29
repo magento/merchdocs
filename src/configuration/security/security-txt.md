@@ -1,7 +1,6 @@
 ---
 title: Security.txt
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/security/security-txt.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/security/security-txt.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Security]({% link configuration/security.md %}) > Security.txt

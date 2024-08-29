@@ -1,7 +1,6 @@
 ---
 title: Other Product Settings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html
 ---
 
 The remaining product settings are located at the bottom of the page. Some settings are available for all products, and others are available for specific product types. Additional settings might appear when the product is saved for the first time.

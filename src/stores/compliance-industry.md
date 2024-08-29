@@ -1,8 +1,7 @@
 ---
 title: Industry Compliance
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/privacy-policy.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/privacy-policy.html
 ---
 
 Adobe Commerce and Magento Open Source offer a range of security and privacy capabilities that meet legal requirements and industry guidelines for online merchants. Some are mandated by the payment card industry, and others are required by law, depending on your location.

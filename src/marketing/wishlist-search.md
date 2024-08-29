@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Wish List Search
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration.html#add-wish-list-search
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration.html#add-wish-list-search
 ---
 
 Any public wish list can be found using the Wish List Search [widget]({% link cms/widgets.md %}). The widget enables a customer to search by the name or email address of the wish list owner. Store customers can find wish lists that belong to other customers, view them and order products from them, or add the products to their own wish lists. If an item is purchased from a public wish list by another customer, it is not removed from the original wish list. The Wish List Search widget can be added to any page of your store to make it easy for customers to find the wish lists of friends and family members.

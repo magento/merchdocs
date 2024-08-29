@@ -1,8 +1,7 @@
 ---
 title: Grid Controls
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-grid-controls.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/admin/tools/admin-grid-controls.html
 ---
 
 Admin pages that manage data display a collection of records in a grid. The controls at the top of each column can be used to sort the data. The current sort order is indicated by an ascending or descending arrow in the column header. You can specify which columns appear in the grid, and drag them into different positions. You can also save different column arrangements as views that can be used later. The **Action** column lists operations that can be applied to an individual record. In addition, date from the current view of most grids can be exported to a [CSV]({% link system/data-csv.md %}) or XML file.

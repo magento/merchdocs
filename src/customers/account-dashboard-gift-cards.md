@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Gift Card
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html#storefront-experience
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-gift-card-create.html#storefront-experience
 ---
 
 A *gift card* is a code consisting of letters and numbers, such as *HAPPYBD_GC12*, that allows customers to buy gift cards and send them to friends by email or regular mail. Store owners can create unlimited gift cards with different pricing models ([product type]({% link catalog/product-gift-card.md %})) and easily track all purchased cards.

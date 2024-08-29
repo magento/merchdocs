@@ -1,7 +1,6 @@
 ---
 title: Warning Messages
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html#warning-messages
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/taxes.html#warning-messages
 ---
 
 Some combinations of tax-related options might be confusing to customers and trigger a warning. These conditions might occur when the tax calculation method is set to `Row` or `Total`, and the customer is presented with prices that both exclude and include tax, or a tax on an item basis in the cart. Because the tax calculation is rounded, the amount that appears in the cart might differ from the amount that a customer expects to pay.

@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: RMA Customer Experience
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/returns/rma-customer-experience.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/returns/rma-customer-experience.html
 ---
 
 Customers can use either of the following to request an RMA from the storefront:

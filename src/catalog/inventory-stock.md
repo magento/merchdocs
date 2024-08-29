@@ -1,7 +1,6 @@
 ---
 title: Managing Stock
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/stocks/stocks-manage.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/inventory/stocks/stocks-manage.html
 ---
 
 Stock represents a virtual, aggregated inventory of products for sources of your sales channels (currently these are websites). Depending on your site configuration, the stock may be assigned to one or more sales channels. Each sales channel can only have a single stock assigned to it, and a single stock can be assigned to multiple sales channels. Through the stock, you can modify the prioritization of sources used as orders come through a sales channel.

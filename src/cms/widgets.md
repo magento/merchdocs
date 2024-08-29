@@ -1,7 +1,6 @@
 ---
 title: Widgets
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widgets.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/widgets/widgets.html
 ---
 
 A widget is a snippet of code that makes it possible to display a wide range of content and place it at specific block references in your store. Many display real-time, dynamic data and create opportunities for your customers to interact with your store. The Widget tool makes it easy to place a widget within existing content, such as blocks with images and text, and interactive elements most anywhere in your store.

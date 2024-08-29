@@ -1,7 +1,6 @@
 ---
 title: Password Options
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-options.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-options.html
 ---
 
 The customer password options determine the level of security that is used for password reset requests, the email templates that are used for customer notification, and the lifetime of the password recovery link. You can allow customers to change their own passwords or require that only store administrators can do so.

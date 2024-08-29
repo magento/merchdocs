@@ -3,8 +3,7 @@ title: Onboarding
 tag: product-recommendations
 group: marketing
 ee_only: true
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/onboarding.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/onboarding.html
 ---
 
 The onboarding process for Product Recommendations requires access to the command line of the server and consists of the following steps. If you are not familiar with working from the command line, ask a developer or system integrator to help.

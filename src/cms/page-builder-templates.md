@@ -1,7 +1,6 @@
 ---
 title: Page Builder Templates
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/templates.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/page-builder/templates.html
 ---
 
 Templates are containers that save [Page Builder]({% link cms/page-builder.md %}) content and layouts of existing pages, blocks, dynamic blocks, product attributes, and category descriptions. Using templates saves you time and effort when creating new content (or replacing older content). For example, you can save your existing Page Builder content as a template, and then apply that template (with all of its content and layouts) to another area to quickly create new Page Builder content.

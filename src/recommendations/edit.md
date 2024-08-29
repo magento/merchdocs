@@ -3,8 +3,7 @@ title: Edit Recommendation
 tag: product-recommendations
 group: marketing
 ee_only: true
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/edit.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/edit.html
 ---
 
 The Edit Recommendation page gives you the ability to adjust the individual settings that make up the recommendation. All settings can be edited except the page type and recommendation type. The following settings can be edited:

@@ -1,7 +1,6 @@
 ---
 title: MAP Logic
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised.html#map-logic
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised.html#map-logic
 ---
 
 For products with prices that depend on a selected option (such as custom options or simple products with their own SKUs and stock management), the following logic is applied, according to the product type and price setting. The actual price is used by order management, customer management tools, and reports.

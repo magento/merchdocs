@@ -1,7 +1,6 @@
 ---
 title: Shipping Policy
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html#shipping-policy
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-settings.html#shipping-policy
 ---
 
 A shipping policy should explain your company's business rules and guidelines for shipments. For example, if you have price rules that trigger free shipping, you can explain the terms in your shipping policy.

@@ -1,7 +1,6 @@
 ---
 title: General Tax Settings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-settings-general.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-settings-general.html
 ---
 
 The following instructions take you through the basic tax configuration for your Commerce instance. Before setting up your taxes, make sure that you are familiar with the tax requirements of your [locale]({% link stores/locale-options.md %}). Then, complete the tax configuration according to your requirements.

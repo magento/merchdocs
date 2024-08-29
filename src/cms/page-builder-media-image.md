@@ -1,7 +1,6 @@
 ---
 title: Media - Image
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/media/image.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/page-builder/media/image.html
 ---
 
 Use the _Image_ content type to add a JPG, GIF, or PNG image to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage). In addition to the default desktop image, you can specify a secondary image for mobile devices. You can also add a caption that appears below the image and link the image to any URL, product, category, or page.

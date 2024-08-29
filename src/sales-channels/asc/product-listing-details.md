@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - View Listing Details
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/product-listing-details.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/actions/product-listing-details.html
 ---
 
 

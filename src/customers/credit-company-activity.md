@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Company Credit Activity
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/credit-company.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/credit-company.html
 ---
 
 The [Company Credit]({% link customers/account-dashboard-company-credit.md %}) section of the company profile displays a summary of the customer credit activity, with a grid of the company credit history.

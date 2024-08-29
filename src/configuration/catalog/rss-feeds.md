@@ -1,7 +1,6 @@
 ---
 title: RSS Feeds
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/rss-feeds.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/rss-feeds.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Catalog]({% link configuration/catalog.md %}) > RSS Feeds

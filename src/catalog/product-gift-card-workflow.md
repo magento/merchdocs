@@ -2,8 +2,7 @@
 ee_only: true
 title: Gift Card Workflow
 group: sales
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-workflow.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-workflow.html
 ---
 
 Gift cards are redeemed in the shopping cart similar to the way a coupon is applied to an order. During checkout, the shopper enters the gift card code to apply an amount from the gift card to the purchase. Gift card holders who have customer accounts can check the status and remaining balance from their account dashboard. Single, as well as multiple, gift cards can be used to pay for all or part of a order.

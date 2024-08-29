@@ -1,7 +1,6 @@
 ---
 title: Add Content - Dynamic Block
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/dynamic-block.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/dynamic-block.html
 ---
 
 Use the Dynamic Block content type to add an existing [dynamic block]({% link cms/dynamic-blocks.md %}) to the [Page Builder stage]({% link cms/page-builder-workspace.md %}#stage).

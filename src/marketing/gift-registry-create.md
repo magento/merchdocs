@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Setting Up a Gift Registry
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-create.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-create.html
 ---
 
 A gift registry can be created for any type of event, such as a wedding, birthday, anniversary, new baby, or any other special occasion. By default, Adobe Commerce includes the following special events:

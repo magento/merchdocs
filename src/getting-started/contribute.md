@@ -1,7 +1,6 @@
 ---
 title: Contribute to the Docs
-redirect_to:
-  - https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html
+redirect_to: https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html
 ---
 
 Our User Guide is open source and hosted in a [public-facing repository on GitHub][1], where you can submit changes through pull requests (PRs). This open source approach to documentation has many advantages:

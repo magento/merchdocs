@@ -1,7 +1,6 @@
 ---
 title: Updating a Customer Profile
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/manage/update-account.html?lang=en
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/manage/update-account.html?lang=en
 ---
 
 The left panel of the Customer Information page includes information about customer activity, such as when the customer last signed in or out of their account, addresses, order statistics, recent orders, shopping cart contents, product reviews, newsletter subscriptions, and so on.

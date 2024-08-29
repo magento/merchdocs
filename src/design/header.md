@@ -1,7 +1,6 @@
 ---
 title: Header
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/page-setup.html#header
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/page-setup.html#header
 ---
 
 The Header configuration identifies the path to your store logo and specifies the logo alt text and welcome message.

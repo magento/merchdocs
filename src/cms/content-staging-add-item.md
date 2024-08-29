@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Adding an Item to a Campaign
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-add-item.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-add-item.html
 ---
 
 The following example adds a promotional image to the category page for the duration of the campaign. You can also do the same for a product page or CMS page.

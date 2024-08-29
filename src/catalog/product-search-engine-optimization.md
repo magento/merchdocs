@@ -1,7 +1,6 @@
 ---
 title: Search Engine Optimization
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization.html
 ---
 
 The _Search Engine Optimization_ section specifies the [URL Key]({% link catalog/catalog-urls.md %}) and [meta data]({% link marketing/meta-data.md %}) fields that are used by search engines to index the product. Although some search engines ignore meta keywords, other search engines continue to use them. The current [SEO best practice]({% link marketing/seo-best-practices.md %}) is to incorporate high-value keywords in both the meta title and meta description.

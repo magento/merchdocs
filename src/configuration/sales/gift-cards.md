@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Gift Cards
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/config/sales/gift-cards.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/config/sales/gift-cards.html
 ---
 
 Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Sales]({% link configuration/sales.md %}) > Gift Cards

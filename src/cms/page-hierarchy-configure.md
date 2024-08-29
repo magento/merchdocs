@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Configuring Page Hierarchy
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html#configure-page-hierarchy
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html#configure-page-hierarchy
 ---
 
 The configuration settings activate the page hierarchy system and metadata, and determine the default menu layout.

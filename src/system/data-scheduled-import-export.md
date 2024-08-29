@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Scheduled Import/Export
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-scheduled-import-export.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-scheduled-import-export.html
 ---
 
 Scheduled imports and exports can be run on a daily, weekly or monthly basis. The files to be imported or exported can be located on local Adobe Commerce servers, or on remote FTP servers. Scheduled Import/Export is implemented by default, and does not require additional configuration. All scheduled imports and exports are managed by the Cron job scheduler.

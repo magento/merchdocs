@@ -1,7 +1,6 @@
 ---
 title: My Returns
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/returns/rma-customer-experience.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/returns/rma-customer-experience.html
 ---
 
 All customer return information is displayed on the **My Returns** page in the customer account.

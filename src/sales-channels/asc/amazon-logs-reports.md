@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Logs and Store Reports
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/reports-logs/amazon-logs-reports.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/reports-logs/amazon-logs-reports.html
 ---
 
 Amazon Sales Channel includes some valuable logs and store reports that allow you to view the changes that are affecting your Amazon listings and orders. You can use these reports to see what is happening in your store and to understand various listing statuses.

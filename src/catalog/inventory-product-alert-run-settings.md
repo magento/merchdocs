@@ -1,7 +1,6 @@
 ---
 title: Product Alert Run Settings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup.html
 ---
 
 These settings enable you to select how often Commerce checks for changes that require alerts to be sent. Additionally, you can select the recipient, sender, and template for emails that are sent if the sending of alerts fails.

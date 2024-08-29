@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Active Listings
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/active-listings.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/admin-listings/status-tab/active-listings.html
 ---
 
 The _Active_ tab shows your Amazon listings that are active on the Amazon marketplace and that have been matched to a product in your Commerce catalog.

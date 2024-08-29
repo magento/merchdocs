@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Event Components
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/events/events-private-sales.html#event-management-components
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/events/events-private-sales.html#event-management-components
 ---
 
 ## Categories

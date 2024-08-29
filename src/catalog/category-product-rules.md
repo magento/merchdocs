@@ -2,8 +2,7 @@
 ee_only: true
 title: Creating Category Rules
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/visual-merch/category-product-rules.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/visual-merch/category-product-rules.html
 ---
 
 Category rules dynamically change the product selection according to a set of conditions. Each category can have only one category rule, although the single rule can have multiple conditions. For example, you can create a category rule for a specific brand. Products of the same brand are automatically added to the list, even if they’re not assigned to the same category. You can add as many conditions to the expression as needed to describe the products that you want to include.

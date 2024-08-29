@@ -25,8 +25,7 @@ sections:
   - title: Industry Compliance
     content: Merchants are responsible to meet industry guidelines for maintaining a secure environment, and to meet the legal requirements and best practices for online merchants in their jurisdiction.
     url: /stores/compliance-industry.html
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/setup/store-details.html
 ---
 
 This section of the guide introduces your store Admin tools, and walks you through the basic configuration settings. You’ll learn the concepts of store hierarchy and configuration scope, and establish best practices for industry standards and requirements.

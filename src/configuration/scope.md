@@ -1,8 +1,7 @@
 ---
 title: Scope
 group: getting-started
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings
 ---
 
 If your Adobe Commerce or Magento Open Source installation has a hierarchy of websites, stores, or views, you can set the context, or “scope” of a configuration setting to apply to a specific part of the installation. The context of many database entities can also be assigned a specific scope to determine how it is used in the store hierarchy. To learn more, see: [Product Scope]({% link catalog/product-scope.md %}) and [Price Scope]({% link catalog/catalog-price-scope.md %}).

@@ -1,7 +1,6 @@
 ---
 title: Standard Page Layouts
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/layout/page-layout.html#standard-page-layouts
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/design/layout/page-layout.html#standard-page-layouts
 ---
 
 ## One Column

@@ -1,8 +1,7 @@
 ---
 title: Admin User Email
 group: operations
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html#forgotten-password-and-reset-emails
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-users-all.html#forgotten-password-and-reset-emails
 ---
 
 The Admin email template configuration determines the email templates that are sent when users forget and reset their passwords, the store contact that appears as the sender of the message, and how long the password recovery link remains valid.

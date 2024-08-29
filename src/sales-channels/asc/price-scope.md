@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Price Scope
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/price-scope.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/rules/pricing-rules/price-scope.html
 ---
 
 Commerce provides configuration for your [pricing scope]({% link configuration/catalog/catalog.md%}#price) to be set to `Global` or `Website`. If pricing is set to `Global`, there will be a single price source for all websites. If pricing is set to `Website`, your websites can vary their pricing across and also have a fallback default pricing value. See [Catalog Price]({% link configuration/catalog/catalog.md%}#price).

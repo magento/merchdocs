@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Related Product Rule Priority
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html#rule-priority
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html#rule-priority
 ---
 
 At any given time, there might be a number of active rules that can be triggered to display related products, up-sells, and cross-sells. The priority of each rule determines the order in which the products appear on the page. The value can be set to any whole number, with 1 having the highest priority.

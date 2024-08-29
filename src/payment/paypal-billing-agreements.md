@@ -1,7 +1,6 @@
 ---
 title: PayPal Billing Agreements
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-billing-agreements.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-billing-agreements.html
 ---
 
 To simplify the checkout process, customers can enter into a billing agreement with PayPal as the payment service provider. During checkout, the customer chooses the billing agreement as the payment method. The payment system verifies the billing agreement by its unique number and charges the customer account. With a billing agreement in place, it is no longer necessary for the customer to enter payment information for each purchase. Customers can manage their billing agreements from the dashboard of their customer account, where the status of each is shown as _Active_ or _Canceled_. When a billing agreement is canceled, it cannot be reactivated.

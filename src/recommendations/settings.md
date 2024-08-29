@@ -3,8 +3,7 @@ title: Settings
 tag: product-recommendations
 group: marketing
 ee_only: true
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/settings.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/settings.html
 ---
 
 When you [configure a SaaS data space]({% link configuration/services/saas.md %}) for Recommendations, the SaaS data space collects catalog data and storefront behavioral data. [Adobe Sensei](https://www.adobe.com/sensei.html) analyzes that data and computes product associations used to serve Product Recommendations.

@@ -1,8 +1,7 @@
 ---
 ee_only: true
 title: Updating Events
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/events/event-create.html#update-events
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/events/event-create.html#update-events
 ---
 
 Events can be edited from either the Events page or from the category that is associated with the event. When a category has an associated event, an Edit Event button appears in the upper-right corner.

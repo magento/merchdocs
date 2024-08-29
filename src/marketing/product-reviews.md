@@ -1,7 +1,6 @@
 ---
 title: Product Reviews
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews.html
 ---
 
 Commerce includes a native [product reviews]({% link marketing/magento-product-reviews.md %}) capability that you can manage from the Admin. You can also use an extension from the Commerce Marketplace to use a hosted review management system.

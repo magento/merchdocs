@@ -1,7 +1,6 @@
 ---
 title: Adding a Language
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-localize.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-localize.html
 ---
 
 Most of the text that appears to be hard-coded on pages throughout your store can be instantly changed to a different language by changing the locale of the view. Changing the locale does not actually translate the text word-for-word, but simply references a different translation table that provides the interface text that is used throughout the store. The text that can be changed includes navigational titles, labels, buttons, and links such as _My Cart_ and _My Account_. You can also use the [Inline Translation]({% link configuration/advanced/developer.md %}) tool to touch up text in the interface.

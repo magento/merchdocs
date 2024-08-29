@@ -1,7 +1,6 @@
 ---
 title: Switching Home Pages
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-home-new.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-home-new.html
 ---
 
 You can maintain a selection of different home pages, and activate the page that you want to use as the default home page.

@@ -1,7 +1,6 @@
 ---
 title: User Roles
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html
 ---
 
 To give someone restricted access to the Admin, the first step is to create a role that has the appropriate level of permissions. After the role is saved, you can add new users and assign the restricted role to grant them limited access to the Admin.

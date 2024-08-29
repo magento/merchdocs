@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Set Pricing and Structure
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html
 ---
 
 Setting up the pricing and structure of a shared catalog is a two-step process. Your current place in the process is highlighted with a number in the progress bar at the top of the page. You can view the other step in the process at any time by clicking the progress bar. For example, if you’re working on custom pricing, you might want to return to the product selection page for reference. Simply click **Products** in the progress bar at the top of the page. Then click **Pricing** to return to the custom pricing page. You will not lose any of your work.

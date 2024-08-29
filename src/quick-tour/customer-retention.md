@@ -1,7 +1,6 @@
 ---
 title: Retain Customers
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
 ---
 
 Adobe Commerce and Magento Open Source make it easy for you to get repeat business and build brand loyalty. This gives you total control and flexibility over creating and revising goodies like rewards programs, custom coupons and automated emails to keep your customers coming back again and again

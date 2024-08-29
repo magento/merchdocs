@@ -1,7 +1,6 @@
 ---
 title: Engage Your Customers
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/start/storefront/enhanced-experiences.html
 ---
 
 Adobe Commerce and Magento Open Source make it easy to create a customized, engaging site experience. Encourage your customers to spend more time exploring your site, and give them the tools to make it easy to find what they want faster.

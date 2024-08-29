@@ -1,7 +1,6 @@
 ---
 title: Amazon Sales Channel - Create and Edit Attributes
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/attributes/creating-attributes.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-channels/amazon/manage/attributes/creating-attributes.html
 ---
 
 You may need to create or update Commerce attributes as you sell through Amazon and update your stores. Review the current Amazon attributes and linked Commerce attributes through the [_Attributes_ view]({% link sales-channels/asc/attributes-view.md %}) of the Amazon Sales Channel home page. The _Action_ column shows the available actions for the attribute. You can either create and map a new Commerce attribute for an unlinked Amazon attribute, or you can edit an existing Commerce attribute and its mapping to an Amazon attribute. Both actions are described below.

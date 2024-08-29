@@ -3,8 +3,7 @@ ee_only: true
 title: Live Search Workspace
 tag: live-search
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/workspace.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/workspace.html
 ---
 
 The workspace is where you configure, manage, and monitor the performance of Live Search. The menu at the top of the workspace provides access to each functional area of Live Search.

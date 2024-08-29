@@ -2,8 +2,7 @@
 ee_only: true
 title: Customer Segments in Price Rules
 group: customers
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/segments/customer-segment-price-rule.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/segments/customer-segment-price-rule.html
 ---
 
 A customer segment can be targeted by associating it with a [cart price rule]({% link marketing/price-rules-cart.md %}).

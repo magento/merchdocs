@@ -1,7 +1,6 @@
 ---
 title: Customers Menu
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-introduction.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-introduction.html
 ---
 
 The Customers menu provides access to customer account management tools, and gives you the ability to see who is currently online in your store.

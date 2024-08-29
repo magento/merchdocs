@@ -1,8 +1,7 @@
 ---
 b2b_only: true
 title: Assigning Users to Teams
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/users/account-company-structure.html#assign-users-to-teams
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/users/account-company-structure.html#assign-users-to-teams
 ---
 
 When teams and users are first added to the [company structure]({% link customers/account-company-structure.md %}), they are placed at the same level under the company administrator.

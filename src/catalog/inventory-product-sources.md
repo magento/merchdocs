@@ -1,7 +1,6 @@
 ---
 title: Assigning Sources per Product
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/sources-assign-per-product.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/sources-assign-per-product.html
 ---
 
 Before modifying quantities and settings, you need to assign [sources]({% link catalog/inventory-sources.md %}) to the products.

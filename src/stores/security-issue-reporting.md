@@ -1,7 +1,6 @@
 ---
 title: Security Issue Reporting
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-issue-reporting.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/systems/security/security-issue-reporting.html
 ---
 
 The `security.txt` file contains contact information and security-related links that can be used by security researchers to report security concerns about your site. If your security information changes over time, ensure that the information in the `security.txt` file is up to date.

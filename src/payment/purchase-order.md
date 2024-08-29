@@ -1,7 +1,6 @@
 ---
 title: Purchase Order
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/offline/purchase-order.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/offline/purchase-order.html
 ---
 
 A purchase order (PO) allows commercial customers to pay for authorized purchases by referencing the PO number. The purchase order is authorized and issued in advance by the company that is making the purchase. During checkout, the customer chooses Purchase Order as the method of payment. Upon receipt of your invoice, the company processes the payment in their accounts payable system, and pays for the purchase.

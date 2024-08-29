@@ -2,8 +2,7 @@
 ee_only: true
 title: Creating and Deleting Customer Segments
 group: customers
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/segments/customer-segment-create.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/segments/customer-segment-create.html
 ---
 
 Creating a customer segment is similar to building a [cart price rule]({% link marketing/price-rules-cart.md %}), except that the options include customer segment-specific [attributes]({% link marketing/customer-segment-attributes.md %}).

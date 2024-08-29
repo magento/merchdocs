@@ -3,8 +3,7 @@ ee_only: true
 title: Live Search Settings
 tag: live-search
 group: marketing
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/settings.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/settings.html
 ---
 Use the _Settings_ tab to configure the price facet ranges and intervals that are available as search filters in the storefront. Price facet settings are static rather than dynamic, and are not based on search results.
 

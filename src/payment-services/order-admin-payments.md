@@ -1,7 +1,6 @@
 ---
 title: Create an order with Payment Services
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html
 ---
 
 You can customize Payment Services to your needs using the configuration options in the Admin.

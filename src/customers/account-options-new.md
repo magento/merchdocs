@@ -1,7 +1,6 @@
 ---
 title: New Account Options
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/account-options-new.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/account-options-new.html
 ---
 
 In the Create New Account Options section of the configuration, the basic account options are combined with more advanced options that relate to VAT ID Validation and custom integrations. The following instructions cover only the most frequently used options. To learn about automatic customer group assignments, see [VAT Validation]({% link tax/vat-validation.md %}).

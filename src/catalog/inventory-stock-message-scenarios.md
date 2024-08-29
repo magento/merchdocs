@@ -1,7 +1,6 @@
 ---
 title: Stock Message Scenarios
-redirect_to:
-  - https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-alerts/stock-messages.html
+redirect_to: https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-alerts/stock-messages.html
 ---
 
 You can use a combination of configuration settings to control stock availability messages on product pages and in listings of products on catalog pages.
