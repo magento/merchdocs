@@ -1,14 +1,18 @@
 # Adobe Merchant Documentation
 
-Welcome! This site contains the latest [Adobe Commerce merchant documentation](https://docs.magento.com/user-guide/) for ongoing Adobe Commerce and Magento Open Source 2.4.x and 2.3.x releases. For additional information, see our [Contribution Guide](https://github.com/magento/merchdocs/blob/master/.github/CONTRIBUTING.md) and [Wiki](https://github.com/magento/merchdocs/wiki).
+This project contains the source code of the Adobe Commerce and Magento Open Source merchant documentation website.
 
-## Contribute
-
-Our goal is to provide the Adobe Community with comprehensive and quality user documentation. We believe that to accomplish that goal we need experts from the community to share their knowledge with us and each other. We are thankful to all of our contributors for improving Adobe documentation.
-
-Depending on your level of comfort, you may [clone this repo](#install-merchdocs), [make your changes](https://github.com/magento/merchdocs/wiki/Writing-Content#write-like-a-developer), and [build it locally](#build-locally), or [make changes directly in the GitHub user interface (UI)](https://github.com/magento/merchdocs/wiki/Writing-Content#write-in-github).
-
-After a pull request is submitted, it goes through an approval process to ensure grammatical and technical accuracy. After it is merged by the writing team, the changes are generally live on the site within an hour.
+> **Important update**
+>
+> Adobe Commerce and Magento Open Source 2.4.x documentation has been migrated to Adobe sites. See our new landing pages to access the most current information.
+>
+>[Adobe Commerce Documentation](https://experienceleague.adobe.com/en/docs/commerce) (Adobe Experience League)—Plan, implement, operate, upgrade, and maintain your Commerce projects
+>
+>[Adobe Commerce Developer Documentation](https://developer.adobe.com/commerce/docs/) (Adobe Developer site)—Develop, customize, integrate, extend, and use advanced capabilities
+>
+> Some content was consolidated or moved to different guides. If you have trouble finding a topic, see the [Migrated topics](https://commerce-docs.github.io/merchdocs-archive/user-guide/v2.3/migrated-topics.html).
+>
+> We welcome contributions to migrated content! You can find similar links to GitHub on the Adobe sites.
 
 ## Building this site
 
@@ -113,3 +117,7 @@ You can minimize the build time with the following options:
    ```yaml
    check_links: false
    ```
+
+## Archived docs
+
+To view the archived documentation, see <https://commerce-docs.github.io/merchdocs-archive/user-guide/v2.3/>.
